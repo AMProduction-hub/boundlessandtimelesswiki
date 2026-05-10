@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 aliases:
-- Appendix B: Nonplayer Characters
+- "Appendix B: Nonplayer Characters"
 ---
 # Appendix B: Nonplayer Characters
 *Source: Monster Manual (2014), p. 342* 

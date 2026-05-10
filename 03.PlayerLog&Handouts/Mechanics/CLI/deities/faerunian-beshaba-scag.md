@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/trickery
-aliases: 
-- Beshaba
-- The Maid of Misfortune
-- Lady Doom
-- Black Bess
+aliases:
+- "Beshaba"
+- "The Maid of Misfortune"
+- "Lady Doom"
+- "Black Bess"
 ---
 # Beshaba
 *Source: Sword Coast Adventurer's Guide p. 21* 
@@ -33,6 +34,6 @@ Although most people tremble in fear at the prospect of Beshaba's attendance at 
 
 Temples to Beshaba are virtually unknown. It's common, however, for rural folk to erect a post and mount antlers on it at the site of some roadside accident or murder. In cities, where antlers are hard to come by and murders and accidents more prevalent, the fashion is to draw the black antlers of Beshaba with charcoal on a nearby wall, leaving the symbol on display until weather scours it away. These "shrines," in either form, serve as warnings to others about places of ill fortune.
 
-More formal shrines to Beshaba exist in places where folk frequently hope to ward off misfortune. These sites tend to be posts or stones painted red with blackened antlers attached to them, or a red, triangular wallmounted plaque with attached antlers. Both types have a stone or bronze bowl where coins can be tossed or burnt offerings made. The Red Wizards of Thay commonly erect such shrines outside their ritual chambers to guard against unfortunate mistakes.
+More formal shrines to Beshaba exist in places where folk frequently hope to ward off misfortune. These sites tend to be posts or stones painted red with blackened antlers attached to them, or a red, triangular wall-mounted plaque with attached antlers. Both types have a stone or bronze bowl where coins can be tossed or burnt offerings made. The Red Wizards of Thay commonly erect such shrines outside their ritual chambers to guard against unfortunate mistakes.
 
 Few dare to take Beshaba as a patron. The rare clerics of the Maid of Misfortune are those who have been deeply affected by great misfortunes and who seek to warn others of the essential unfairness of life - or to inflict that unfairness upon them.

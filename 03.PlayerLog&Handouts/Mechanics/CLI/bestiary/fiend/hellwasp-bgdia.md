@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hellwasp
+- "Hellwasp"
 ---
-# [Hellwasp](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/hellwasp-bgdia.md)
+# [Hellwasp](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hellwasp-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 236*  
 
 A hellwasp is an intelligent, malevolent insect native to the Nine Hells. It has a thick protective carapace, thin metallic wings, and strong legs ending in swordlike talons. It uses its stinger to inject a chemical admixture similar to alchemist's fire into its victims. This same solution carries a paralytic enzyme that renders the victim helpless long enough for the hellwasp to grab its prey and flee.
@@ -45,11 +46,12 @@ Hellwasps communicate with one another via a form of telepathy perceptible only 
   - !!int "7"
 "speed": "10 ft., fly 60 ft. (hover)"
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+3"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "3"
 "damage_vulnerabilities": "cold"
 "damage_immunities": "fire"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Infernal, telepathy 300 ft. (with other hellwasps only)"
 "cr": "5"
 "traits":
@@ -59,7 +61,7 @@ Hellwasps communicate with one another via a form of telepathy perceptible only 
   - "desc": "The hellwasp makes two attacks: one with its sting and one with its sword\
       \ talons."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:*\
       \ 8 (1d8 + 4) piercing damage plus 7 (2d6) fire damage, and the target must\
       \ succeed on a DC 12 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. While [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
@@ -67,7 +69,7 @@ Hellwasps communicate with one another via a form of telepathy perceptible only 
       \ The target can repeat the saving throw at the end of each of its turns, ending\
       \ the effect on itself on a success."
     "name": "Sting"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) piercing damage."
     "name": "Sword Talons"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/27
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Green Greatwyrm
+- "Green Greatwyrm"
 ---
-# [Green Greatwyrm](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/green-greatwyrm-ftd.md)
+# [Green Greatwyrm](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/green-greatwyrm-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 168*  
 
 The most ancient chromatic dragons, who have survived over twelve hundred years of mortal life and acquired vast hoards worth millions of gold pieces, can achieve a form of apotheosis, reaching a level of power approaching that of Tiamat's mighty aspect. The competitive avarice of dragonkind and the interference of adventurers prevent most dragons from attaining this level of power. But a chromatic dragon who can outwit all rivals and overcome all potential thieves can rise to become one of the mightiest of dragons.
@@ -40,10 +41,10 @@ In both size and power, chromatic greatwyrms exceed even ancient dragons. The en
   - !!int "26"
 "speed": "60 ft., burrow 60 ft., fly 120 ft., swim 60 ft."
 "saves":
-  - "dexterity": "+10"
-  - "constitution": "+18"
-  - "wisdom": "+13"
-  - "charisma": "+16"
+  - "dexterity": !!int "10"
+  - "constitution": !!int "18"
+  - "wisdom": !!int "13"
+  - "charisma": !!int "16"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+16"
@@ -55,7 +56,8 @@ In both size and power, chromatic greatwyrms exceed even ancient dragons. The en
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 31"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 31"
 "languages": "Common, Draconic"
 "cr": "27"
 "traits":
@@ -73,17 +75,17 @@ In both size and power, chromatic greatwyrms exceed even ancient dragons. The en
 "actions":
   - "desc": "The greatwyrm makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +18 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +18 to hit, reach 15 ft., one target. *Hit:*\
       \ 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +18 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +18 to hit, reach 10 ft., one target. *Hit:*\
       \ 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature,\
       \ it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 20) and is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ until this grapple ends. The greatwyrm can have only one creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ this way at a time."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +18 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +18 to hit, reach 20 ft., one target. *Hit:*\
       \ 19 (2d8 + 10) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 26 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
@@ -92,6 +94,9 @@ In both size and power, chromatic greatwyrms exceed even ancient dragons. The en
       \ creature takes 78 (12d12) poison damage. On a successful save, the creature\
       \ takes half as much damage."
     "name": "Breath Weapon (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the green greatwyrm can expend a use to take one of the following actions.\
+  \ The green greatwyrm regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The greatwyrm makes one Claw or Tail attack."
     "name": "Attack"
@@ -104,6 +109,15 @@ In both size and power, chromatic greatwyrms exceed even ancient dragons. The en
       \ creature of the greatwyrm's choice it can see within 120 feet of it, dealing\
       \ 12 (1d8 + 8) force damage to its target, then disappears."
     "name": "Arcane Spear (Costs 3 Actions)"
+"mythic_description": "If the greatwyrm's Chromatic Awakening trait has activated\
+  \ in the last hour, it can use the options below as legendary actions."
+"mythic_actions":
+  - "desc": "The greatwyrm makes one Bite attack."
+    "name": "Bite"
+  - "desc": "The greatwyrm flares with elemental energy. Each creature in a 60-foot-radius\
+      \ sphere centered on the greatwyrm must succeed on a DC 26 Dexterity saving\
+      \ throw or take 22 (5d8) poison damage."
+    "name": "Chromatic Flare (Costs 2 Actions)"
 "source":
   - "FTD"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/green-greatwyrm-ftd.webp"

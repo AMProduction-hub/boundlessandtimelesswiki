@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Enchanter Wizard
+- "Enchanter Wizard"
 ---
-# [Enchanter Wizard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/enchanter-wizard-mpmm.md)
+# [Enchanter Wizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/enchanter-wizard-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 261, Volo's Guide to Monsters p. 213*  
 
 Enchanters know how to magically influence minds. Benign enchanters use this magic to defuse violence and sow peace, while malevolent enchanters are some of the most evil of all spellcasters.
@@ -40,8 +41,8 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+6"
-  - "wisdom": "+4"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -53,13 +54,13 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "actions":
   - "desc": "The enchanter makes three Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 19 (3d10 + 3) psychic damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +6 to hit, reach 5 ft. or range 120\
+      \ ft., one target. *Hit:* 19 (3d10 + 3) psychic damage."
     "name": "Arcane Burst"
   - "desc": "The enchanter casts one of the following spells, using Intelligence as\
-      \ the spellcasting ability (spell save DC 14):\n\nAt will: [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md),\
+      \ the spellcasting ability (spell save DC 14):\n\n**At will:** [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md)\n\
-      \n2/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \n**2/day each:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [hold\
       \ person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md), [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md), [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)"

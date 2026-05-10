@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Elizar Dryflagon
+- "Elizar Dryflagon"
 ---
-# [Elizar Dryflagon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/elizar-dryflagon-pota.md)
+# [Elizar Dryflagon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/elizar-dryflagon-pota.md)
 *Source: Princes of the Apocalypse p. 202*  
 
 Elizar was a druid who claims to be a member of the Circle of the Scarlet Moon. However, Elizar is really in service to Imix, maintaining some druidic power through a connection to the elements.
@@ -40,25 +41,27 @@ Elizar was a druid who claims to be a member of the Circle of the Scarlet Moon. 
     "desc": "+3"
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+3"
+"gear":
+  - "[+1 dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/1-weapon.md)"
 "senses": "passive Perception 14"
 "languages": "Common, Druidic"
 "cr": "5"
 "traits":
   - "desc": "Elizar is a 7th-level spellcaster. His spellcasting ability is Wisdom\
       \ (spell save DC 15, +7 to hit with spell attacks). Elizar has the following\
-      \ druid spells prepared:\n\nCantrips (at will): [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
+      \ druid spells prepared:\n\n**Cantrips (at will):** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
       \ [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md), [poison\
       \ spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md), [produce\
-      \ flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md)\n\n1st\
-      \ level (4 slots): [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md),\
+      \ flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md)\n\n**1st\
+      \ level (4 slots):** [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md),\
       \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
       \ [healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/healing-word.md),\
       \ [jump](03.PlayerLog&Handouts/Mechanics/CLI/spells/jump.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [flame blade](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-blade.md),\
+      \n**2nd level (3 slots):** [flame blade](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-blade.md),\
       \ [spike growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/spike-growth.md)\n\
-      \n3rd level (3 slots): [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \n**3rd level (3 slots):** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [stinking cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/stinking-cloud.md)\n\
-      \n4th level (2 slots): [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
+      \n**4th level (2 slots):** [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
       \ [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)"
     "name": "Spellcasting"
   - "desc": "By puffing on his pipe, Elizar can use an action to cast [conjure minor\
@@ -66,8 +69,8 @@ Elizar was a druid who claims to be a member of the Circle of the Scarlet Moon. 
       \ If he does so, he summons four smoke mephits."
     "name": "Summon Mephits (Recharges after a Long Rest)"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
     "name": "Dagger +1"
 "source":
   - "PotA"

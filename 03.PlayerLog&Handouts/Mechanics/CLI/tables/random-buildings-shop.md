@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Random Buildings; Shop
+- "Random Buildings; Shop"
 ---
 # Random Buildings; Shop
 *Source: Dungeon Master's Guide p. 113* 
 
 **Shop**
-
-`dice: [](random-buildings-shop.md#^shop)`
 
 | dice: d20 | Type |
 |-----------|------|

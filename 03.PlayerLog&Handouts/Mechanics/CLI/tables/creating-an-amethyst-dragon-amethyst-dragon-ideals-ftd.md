@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Creating an Amethyst Dragon; Amethyst Dragon Ideals
+- "Creating an Amethyst Dragon; Amethyst Dragon Ideals"
 ---
 # Creating an Amethyst Dragon; Amethyst Dragon Ideals
 *Source: Fizban's Treasury of Dragons p. 76* 
 
 **Amethyst Dragon Ideals**
-
-`dice: [](creating-an-amethyst-dragon-amethyst-dragon-ideals-ftd.md#^amethyst-dragon-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
@@ -13,14 +14,14 @@ tags:
 - ttrpg-cli/spell/subclass/horizon-walker
 - ttrpg-cli/spell/subrace/human-mark-of-passage
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Arcana Domain)
 - Ranger (Horizon Walker)
 - Sorcerer
 - Warlock
 - Wizard
 aliases:
-- Teleportation Circle
+- "Teleportation Circle"
 ---
 # Teleportation Circle
 *5th-level, Conjuration*  
@@ -37,6 +38,6 @@ Many major temples, guilds, and other important places have permanent teleportat
 
 You can create a permanent teleportation circle by casting this spell in the same location every day for one year. You need not use the circle to teleport when you cast the spell in this way.
 
-**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Ranger (Horizon Walker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-horizon-walker-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Ranger (Horizon Walker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-horizon-walker-xge.md "subclass=XGE"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 282. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

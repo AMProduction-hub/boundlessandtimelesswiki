@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Karrnathi Undead Soldier
+- "Karrnathi Undead Soldier"
 ---
-# [Karrnathi Undead Soldier](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/karrnathi-undead-soldier-erlw.md)
+# [Karrnathi Undead Soldier](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/karrnathi-undead-soldier-erlw.md)
 *Source: Eberron: Rising from the Last War p. 295*  
 
 Undead soldiers form the elite core of the army of Karrnath. Fearless and tireless, they are a terrifying sight on the battlefield. With the end of the Last War, most Karrnathi undead have been sealed in vaults below the city of Atur. However, the Karrnathi army keeps numerous undead in its service, while others have been commandeered by the malevolent Order of the Emerald Claw.
@@ -63,7 +64,11 @@ A Karrnathi undead soldier doesn't require air, food, drink, or sleep.
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common"
 "cr": "3"
 "traits":
@@ -78,11 +83,11 @@ A Karrnathi undead soldier doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The soldier attacks three times with one of its weapons."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with\
       \ two hands."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:*\
       \ 6 (1d8 + 2) piercing damage."
     "name": "Longbow"
 "reactions":

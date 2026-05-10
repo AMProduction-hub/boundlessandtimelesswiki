@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dybbuk
+- "Dybbuk"
 ---
-# [Dybbuk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/dybbuk-mpmm.md)
+# [Dybbuk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/dybbuk-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 113, Mordenkainen's Tome of Foes p. 132*  
 
 Dybbuks are demons that terrorize mortals on the Material Plane by possessing corpses and giving them a semblance of life, after which the demons use them to engage in a range of sordid activities.
@@ -56,21 +57,22 @@ In their natural form, dybbuks appear as translucent flying jellyfish, trailing 
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 120 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 14"
 "languages": "Abyssal, Common, telepathy 120 ft."
 "cr": "4"
 "traits":
   - "desc": "The dybbuk can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
       \ an object."
     "name": "Incorporeal Movement"
   - "desc": "The dybbuk has advantage on saving throws against spells and other magical\
       \ effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) necrotic damage. If the target is a creature, its hit point maximum\
-      \ is also reduced by 3 (d6). This reduction lasts until the target finishes\
+      \ is also reduced by 3 (1d6). This reduction lasts until the target finishes\
       \ a short or long rest. The target dies if its hit point maximum is reduced\
       \ to 0."
     "name": "Tentacle"
@@ -83,9 +85,9 @@ In their natural form, dybbuks appear as translucent flying jellyfish, trailing 
       \ in an unoccupied space within 5 feet of the corpse."
     "name": "Possess Corpse (Recharge 6)"
   - "desc": "The dybbuk casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 12):\n\nAt\
-      \ will: [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md)\n\
-      \n3/day: [phantasmal force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md)"
+      \ and using Charisma as the spellcasting ability (spell save DC 12):\n\n**At\
+      \ will:** [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md)\n\
+      \n**3/day:** [phantasmal force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md)"
     "name": "Spellcasting"
 "bonus_actions":
   - "desc": "While Possess Corpse is active, the dybbuk makes the corpse do something\

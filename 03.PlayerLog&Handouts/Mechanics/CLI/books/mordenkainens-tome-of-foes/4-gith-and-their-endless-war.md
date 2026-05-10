@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Gith and Their Endless War
+- "Gith and Their Endless War"
 ---
 # Gith and Their Endless War
 *Source: Mordenkainen's Tome of Foes, p. 85* 

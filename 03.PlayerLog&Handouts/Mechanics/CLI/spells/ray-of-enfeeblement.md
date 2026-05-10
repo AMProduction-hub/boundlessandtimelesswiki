@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/golgari-agent
 - ttrpg-cli/spell/background/orzhov-representative
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/feat/adept-of-the-black-robes
@@ -16,7 +17,7 @@ tags:
 - ttrpg-cli/spell/subclass/eldritch-knight
 - ttrpg-cli/spell/subclass/grave-domain
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Death Domain)
 - Cleric (Grave Domain)
 - Fighter (Eldritch Knight)
@@ -24,7 +25,7 @@ classes:
 - Warlock
 - Wizard
 aliases:
-- Ray of Enfeeblement
+- "Ray of Enfeeblement"
 ---
 # Ray of Enfeeblement
 *2nd-level, Necromancy*  
@@ -39,6 +40,6 @@ A black beam of enervating energy springs from your finger toward a creature wit
 
 At the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends.
 
-**Classes**: [Cleric (Death Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-death-domain-dmg.md "subclass=DMG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Cleric (Grave Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-grave-domain-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Death Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-death-domain-dmg.md "subclass=DMG"); [Cleric (Grave Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-grave-domain-xge.md "subclass=XGE"); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 271. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

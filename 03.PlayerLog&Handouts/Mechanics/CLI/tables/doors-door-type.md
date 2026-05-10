@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Doors; Door Type
+- "Doors; Door Type"
 ---
 # Doors; Door Type
 *Source: Dungeon Master's Guide p. 291* 
 
 **Door Type**
-
-`dice: [](doors-door-type.md#^door-type)`
 
 | dice: d20 | Door Type |
 |-----------|-----------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Pirate Captain
+- "Pirate Captain"
 ---
-# [Pirate Captain](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/pirate-captain-gos.md)
+# [Pirate Captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/pirate-captain-gos.md)
 *Source: Ghosts of Saltmarsh p. 247*  
 
 Pirate captains spend their lives at sea, earning and keeping command through blood and daring. A captain's impressive sword work and biting words inspire both confidence and fear in a ship's crew. Sigurd "Snake Eyes" is the pirate captain who leads a gang of smugglers in The Sinister Secret of Saltmarsh.
@@ -40,6 +41,9 @@ Pirate captains spend their lives at sea, earning and keeping command through bl
     "desc": "+5"
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+4"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "2"
@@ -54,10 +58,10 @@ Pirate captains spend their lives at sea, earning and keeping command through bl
   - "desc": "The captain makes two attacks: one with its hand crossbow and one with\
       \ its longsword."
     "name": "Multiattack"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Hand Crossbow"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d8 + 5) slashing damage, or 10 (1d10 + 5) slashing damage if used with\
       \ two hands."
     "name": "Longsword"

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 aliases:
-- Introduction
+- "Introduction"
 ---
 # Introduction
 *Source: Waterdeep: Dragon Heist, p. 5* 
@@ -614,7 +615,7 @@ The upper floors of the Yawning Portal contain comfortable, nicely appointed roo
 
 [Durnan](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/durnan-wdh.md), the proprietor, charges standard prices for food, drink, and lodging (see chapter 5 of the "Player's Handbook" for costs).
 
-![The Yawning Portal attract...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dragon-heist/img/the-yawning-portal.webp#center "The Yawning Portal attracts adventurers from every corner of the Forgotten Realms and the D&D multiverse. Not sure who a numbered character is? See the answer key, below.")
+![The Yawning Portal attracts adventurers from every corner of the Forgotten Realms and the D&D multiverse. Not sure who a numbered character is? See the answer key, below.](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dragon-heist/img/the-yawning-portal.webp#center)
 
 ### Familiar Faces
 

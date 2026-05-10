@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nanny Pu'pu
+- "Nanny Pu'pu"
 ---
-# [Nanny Pu'pu](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/nanny-pupu-toa.md)
+# [Nanny Pu'pu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/nanny-pupu-toa.md)
 *Source: Tomb of Annihilation p. 72*  
 
 ```statblock
@@ -41,13 +42,14 @@ aliases:
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Common, Draconic, Sylvan"
 "cr": "3"
 "traits":
   - "desc": "Pu'pu's innate spellcasting ability is Charisma (spell save DC 12). She\
       \ can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \n**At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
       \ [vicious mockery](03.PlayerLog&Handouts/Mechanics/CLI/spells/vicious-mockery.md)"
     "name": "Innate Spellcasting"
@@ -58,7 +60,7 @@ aliases:
       \ check."
     "name": "Mimicry"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) slashing damage."
     "name": "Claws"
   - "desc": "Pu'pu covers herself and anything she is wearing or carrying with a magical\

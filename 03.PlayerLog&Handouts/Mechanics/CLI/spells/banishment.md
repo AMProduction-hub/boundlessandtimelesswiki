@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/paladin
 - ttrpg-cli/spell/class/sorcerer
@@ -20,7 +21,7 @@ tags:
 - ttrpg-cli/spell/subclass/oath-of-the-watchers
 - ttrpg-cli/spell/subclass/oath-of-vengeance
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Fighter (Eldritch Knight)
 - Paladin
@@ -35,7 +36,7 @@ classes:
 - Warlock
 - Wizard
 aliases:
-- Banishment
+- "Banishment"
 ---
 # Banishment
 *4th-level, Abjuration*  
@@ -54,6 +55,6 @@ If the target is native to a different plane of existence than the one you're on
 
 **At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th.
 
-**Classes**: [Paladin (Oath of the Crown)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-crown-scag.md "subclass=SCAG"); [Paladin (Oath of Vengeance)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-vengeance.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Ranger (Monster Slayer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-monster-slayer-xge.md "subclass=XGE"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Paladin (Oath of the Watchers)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-watchers-tce.md "subclass=TCE"); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md); [Ranger (Horizon Walker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-horizon-walker-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Paladin (Oath of Vengeance)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-vengeance.md); [Paladin (Oath of the Crown)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-crown-scag.md "subclass=SCAG"); [Paladin (Oath of the Watchers)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-watchers-tce.md "subclass=TCE"); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md); [Ranger (Horizon Walker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-horizon-walker-xge.md "subclass=XGE"); [Ranger (Monster Slayer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-monster-slayer-xge.md "subclass=XGE"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 217. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

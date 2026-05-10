@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/rot
 - ttrpg-cli/monster/cr/5
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Half-Blue Dragon Gladiator
+- "Half-Blue Dragon Gladiator"
 ---
-# [Half-Blue Dragon Gladiator](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/half-blue-dragon-gladiator-rot.md)
-*Source: The Rise of Tiamat p. 55, Divine Contention, Tyranny of Dragons p. 141*  
+# [Half-Blue Dragon Gladiator](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/half-blue-dragon-gladiator-rot.md)
+*Source: The Rise of Tiamat p. 55, Tyranny of Dragons p. 141*  
 
 ```statblock
 "name": "Half-Blue Dragon Gladiator (RoT)"
@@ -35,16 +36,20 @@ aliases:
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "strength": "+7"
-  - "dexterity": "+5"
-  - "constitution": "+6"
+  - "strength": !!int "7"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+10"
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+5"
 "damage_resistances": "lightning"
-"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 11"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "any one language (usually Common), Draconic"
 "cr": "5"
 "traits":
@@ -56,11 +61,11 @@ aliases:
 "actions":
   - "desc": "The half-dragon makes three melee attacks or two ranged attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. and range\
-      \ 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. and range\
+      \ 20/60 ft., one target. *Hit:* 11 (2d6 + 4) piercing damage, or 13 (2d8\
       \ + 4) piercing damage if used with two hands to make a melee attack."
     "name": "Spear"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:*\
       \ 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature,\
       \ it must succeed on a DC 15 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Shield Bash"
@@ -76,7 +81,6 @@ aliases:
     "name": "Parry"
 "source":
   - "RoT"
-  - "DC"
   - "ToD"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/half-blue-dragon-gladiator-rot.webp"
 ```

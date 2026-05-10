@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/6
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sahuagin Blademaster
+- "Sahuagin Blademaster"
 ---
-# [Sahuagin Blademaster](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/sahuagin-blademaster-gos.md)
-*Source: Ghosts of Saltmarsh p. 249, Sleeping Dragon's Wake*  
+# [Sahuagin Blademaster](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-blademaster-gos.md)
+*Source: Ghosts of Saltmarsh p. 249*  
 
 A cunning veteran of countless campaigns, the sahuagin blademaster decorates its armor with the bones of its defeated foes. As demonstrated in The Final Enemy, sahuagin blademasters often serve as officers in the sahuagin army.
 
@@ -37,14 +38,15 @@ A cunning veteran of countless campaigns, the sahuagin blademaster decorates its
   - !!int "12"
 "speed": "30 ft., swim 40 ft."
 "saves":
-  - "strength": "+6"
-  - "constitution": "+5"
+  - "strength": !!int "6"
+  - "constitution": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+6"
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+4"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "Sahuagin"
 "cr": "6"
 "traits":
@@ -61,18 +63,17 @@ A cunning veteran of countless campaigns, the sahuagin blademaster decorates its
   - "desc": "The blademaster makes three attacks with its wavecutter blade, or one\
       \ attack with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d8 + 3) slashing damage."
     "name": "Wavecutter Blade"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d10 + 3) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage."
     "name": "Claws"
 "source":
   - "GoS"
-  - "SDW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/sahuagin-blademaster-gos.webp"
 ```
 ^statblock

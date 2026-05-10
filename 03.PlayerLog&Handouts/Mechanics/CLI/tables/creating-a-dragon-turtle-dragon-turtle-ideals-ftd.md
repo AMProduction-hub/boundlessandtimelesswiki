@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Creating a Dragon Turtle; Dragon Turtle Ideals
+- "Creating a Dragon Turtle; Dragon Turtle Ideals"
 ---
 # Creating a Dragon Turtle; Dragon Turtle Ideals
 *Source: Fizban's Treasury of Dragons p. 110* 
 
 **Dragon Turtle Ideals**
-
-`dice: [](creating-a-dragon-turtle-dragon-turtle-ideals-ftd.md#^dragon-turtle-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

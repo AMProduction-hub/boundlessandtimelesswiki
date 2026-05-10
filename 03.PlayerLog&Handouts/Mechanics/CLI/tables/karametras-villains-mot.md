@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Karametra's Villains
+- "Karametra's Villains"
 ---
 # Karametra's Villains
 *Source: Mythic Odysseys of Theros p. 136* 
 
 **Karametra's Villains**
-
-`dice: [](karametras-villains-mot.md#^karametras-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Downtime Activity: Researching
+- "Downtime Activity: Researching"
 ---
 # Downtime Activity: Researching
 *Source: Player's Handbook p. 187* 

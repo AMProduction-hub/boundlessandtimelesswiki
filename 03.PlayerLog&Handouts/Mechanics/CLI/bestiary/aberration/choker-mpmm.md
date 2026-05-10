@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Choker
+- "Choker"
 ---
-# [Choker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/choker-mpmm.md)
+# [Choker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/choker-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 76, Mordenkainen's Tome of Foes p. 123*  
 
 The choker is a subterranean predator far more dangerous than its small size and spindly, rubbery limbs would suggest.
@@ -48,7 +49,8 @@ Chokers tend to set their ambushes alone, rather than working in concert, but wh
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Deep Speech"
 "cr": "1"
 "traits":
@@ -63,7 +65,7 @@ Chokers tend to set their ambushes alone, rather than working in concert, but wh
 "actions":
   - "desc": "The choker makes two Tentacle attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
       \ 5 (1d4 + 3) piercing damage. If the target is a Large or smaller creature,\
       \ it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\

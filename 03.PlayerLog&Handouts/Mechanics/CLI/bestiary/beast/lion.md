@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -13,10 +14,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lion
+- "Lion"
 ---
-# [Lion](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/lion.md)
-*Source: Monster Manual p. 331, Tales from the Yawning Portal, Tomb of Annihilation, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Lion](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/lion.md)
+*Source: Monster Manual p. 331. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Lion"
@@ -60,17 +61,14 @@ aliases:
   - "desc": "With a 10-foot running start, the lion can long jump up to 25 feet."
     "name": "Running Leap"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Claw"
 "source":
   - "MM"
-  - "TftYP"
-  - "ToA"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/lion.webp"
 ```
 ^statblock

@@ -1,21 +1,22 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/spell/class/artificer
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/transmutation
 classes:
 - Artificer
-- Bard
+- Bard (Magical Secrets)
 - Druid
 - Wizard
 aliases:
-- Transmute Rock
+- "Transmute Rock"
 ---
 # Transmute Rock
 *5th-level, Transmutation*  
@@ -42,6 +43,6 @@ Nonmagical mud or quicksand in the area no more than 10 feet deep transforms int
 
 ## Summary
 
-**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Xanathar's Guide to Everything p. 169, Elemental Evil Player's Companion p. 22*

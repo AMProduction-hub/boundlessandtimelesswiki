@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/race/tiefling/fierna
 aliases:
-- Tiefling (Fierna)
+- "Tiefling (Fierna)"
 ---
 # Tiefling (Fierna)
 *Source: Mordenkainen's Tome of Foes p. 21*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/tiefling.webp#right)
 
-- **Ability Scores**: Charisma +2; Wisdom +1
+- **Ability Scores**: cha +2 wis +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Charisma

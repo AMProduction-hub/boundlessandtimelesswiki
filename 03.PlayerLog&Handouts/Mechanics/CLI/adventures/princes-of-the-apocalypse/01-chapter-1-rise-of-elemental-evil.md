@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 aliases:
-- Chapter 1: Rise of Elemental Evil
+- "Chapter 1: Rise of Elemental Evil"
 ---
 # Chapter 1: Rise of Elemental Evil
 *Source: Princes of the Apocalypse, p. 4* 

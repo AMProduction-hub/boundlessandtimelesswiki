@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- First-Year Student
+- "First-Year Student"
 ---
-# [First-Year Student](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/first-year-student-scc.md)
+# [First-Year Student](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/first-year-student-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 191*  
 
 A student who has not yet chosen one of Strixhaven's five mystic colleges is referred to as a first-year student, after the one year of basic curriculum that most students must complete before selecting their school. These beginner students are taught by faculty from all of Strixhaven's colleges, learning rudimentary magic as they acclimate to the university's environment. Once a student has selected a college, they trade their plain gray first-year uniforms for the trappings of their chosen school and begin honing—or even replacing—the magic they learned in their initial year with other skills.
@@ -41,13 +42,13 @@ A student who has not yet chosen one of Strixhaven's five mystic colleges is ref
   - "desc": "The student has advantage on initiative rolls."
     "name": "Excited to Be Here"
 "actions":
-  - "desc": "Melee  or Ranged Spell Attack: +3 to hit, reach 5 ft. or range 60\
-      \ ft., one target. Hit: 7 (1d12 + 1) force damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +3 to hit, reach 5 ft. or range 60\
+      \ ft., one target. *Hit:* 7 (1d12 + 1) force damage."
     "name": "Magic Flare"
   - "desc": "The student casts one of the following spells, using Intelligence as\
-      \ the spellcasting ability (spell save DC 11):\n\nAt will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ the spellcasting ability (spell save DC 11):\n\n**At will:** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1/day: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md)"
+      \n**1/day:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md)"
     "name": "Spellcasting"
 "reactions":
   - "desc": "When the student fails a saving throw, it can reroll the d20. It must\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Oriq Recruiter
+- "Oriq Recruiter"
 ---
-# [Oriq Recruiter](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/oriq-recruiter-scc.md)
+# [Oriq Recruiter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/oriq-recruiter-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 202*  
 
 Oriq recruiters are subtle mages who infiltrate Strixhaven in service to their order. They are adept at blending in, watching for powerful but underperforming mages and students who have fallen through the cracks of the institution. The recruiters approach and befriend these individuals either as potential recruits to the Oriq or as assets who can help the Oriq acquire spells, rare spell components, or knowledge from Strixhaven.
@@ -42,9 +43,9 @@ The Oriq work in secret, infiltrating Strixhaven to search for the magic their m
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+4"
-  - "charisma": "+6"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -73,15 +74,15 @@ The Oriq work in secret, infiltrating Strixhaven to search for the magic their m
   - "desc": "The recruiter makes two Psychic Knife attacks. It can use Spellcasting\
       \ in place of one of the attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 30\
-      \ ft., one creature. Hit: 21 (5d6 + 4) psychic damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +6 to hit, reach 5 ft. or range 30\
+      \ ft., one creature. *Hit:* 21 (5d6 + 4) psychic damage."
     "name": "Psychic Knife"
   - "desc": "The recruiter casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 14):\n\
-      \nAt will: [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
+      \n**At will:** [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [silent image](03.PlayerLog&Handouts/Mechanics/CLI/spells/silent-image.md)\n\
-      \n2/day: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md)\n\
-      \n1/day: [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
+      \n**2/day:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md)\n\
+      \n**1/day:** [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
     "name": "Spellcasting"
 "source":
   - "SCC"

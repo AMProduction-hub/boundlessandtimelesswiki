@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Wine Weird
+- "Wine Weird"
 ---
-# [Wine Weird](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/wine-weird-toa.md)
+# [Wine Weird](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/wine-weird-toa.md)
 *Source: Tomb of Annihilation p. 141*  
 
 ```statblock
@@ -39,7 +40,8 @@ aliases:
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "blindsight 30 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., passive Perception 10"
 "languages": "understands Aquan but doesn't speak"
 "cr": "3"
 "traits":
@@ -50,7 +52,7 @@ aliases:
       \ that water is destroyed."
     "name": "Water Bound"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one creature. *Hit:*\
       \ 13 (3d6 + 3) bludgeoning damage. If the target is Medium or smaller, it\
       \ is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13) and pulled 5 feet toward the wine weird. Until this grapple\

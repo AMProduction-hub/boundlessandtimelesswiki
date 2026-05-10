@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Nylea's Quests
+- "Nylea's Quests"
 ---
 # Nylea's Quests
 *Source: Mythic Odysseys of Theros p. 156* 
 
 **Nylea's Quests**
-
-`dice: [](nyleas-quests-mot.md#^nyleas-quests)`
 
 | dice: d6 | Adventure Goal |
 |----------|----------------|

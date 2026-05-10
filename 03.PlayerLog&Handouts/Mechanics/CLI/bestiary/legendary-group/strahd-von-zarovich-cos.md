@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/legendary-group
 aliases:
-- Strahd von Zarovich
+- "Strahd von Zarovich"
 ---
 # Strahd von Zarovich
 
-## Lair actions
+## Lair Actions
 _Source: Curse of Strahd_
 
 While Strahd is in Castle Ravenloft, he can take lair actions as long as he isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).

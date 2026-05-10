@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Erky Timbers
+- "Erky Timbers"
 ---
-# [Erky Timbers](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/erky-timbers-tftyp.md)
+# [Erky Timbers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/erky-timbers-tftyp.md)
 *Source: Tales from the Yawning Portal p. 22*  
 
 Acolytes are junior members of a clergy, usually answerable to a priest. They perform a variety of functions in a temple and are granted minor spellcasting power by their deities.
@@ -39,22 +40,25 @@ Acolytes are junior members of a clergy, usually answerable to a priest. They pe
     "desc": "+4"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Draconic, Gnomish, Goblin"
 "cr": "1/4"
 "traits":
   - "desc": "The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom\
       \ (spell save DC 12, +4 to hit with spell attacks). The acolyte has following\
-      \ cleric spells prepared:\n\nCantrips (at will): [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
+      \ cleric spells prepared:\n\n**Cantrips (at will):** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (3 slots): [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md),\
+      \n**1st level (3 slots):** [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md),\
       \ [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md)"
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) bludgeoning damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d4) bludgeoning damage."
     "name": "Club"
   - "desc": "Erky presents his holy Symbol and speaks a prayer censuring the Undead.\
       \ Each Undead that can see or hear Erky within 30 feet of him must make a DC\
@@ -62,9 +66,10 @@ Acolytes are junior members of a clergy, usually answerable to a priest. They pe
       \ for 1 minute or until it takes any damage.\n\nA turned creature must spend\
       \ its turns trying to move as far away from Erky as it can, and it can't willingly\
       \ move to a space within 30 feet of him. It also can't take reactions. For its\
-      \ action, it can use only the Dash action or try to escape from an effect that\
-      \ prevents it from moving. If there's nowhere to move, the creature can use\
-      \ the Dodge action."
+      \ action, it can use only the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash)\
+      \ action or try to escape from an effect that prevents it from moving. If there's\
+      \ nowhere to move, the creature can use the [Dodge](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dodge)\
+      \ action."
     "name": "Channel Divinity: Turn Undead (1/Short Rest)"
 "source":
   - "TftYP"

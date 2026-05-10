@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bugbear
+- "Bugbear"
 ---
-# [Bugbear](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/bugbear.md)
-*Source: Monster Manual p. 33, Lost Mine of Phandelver, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Keys from the Golden Vault, Hunt for the Thessalhydra. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Bugbear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bugbear.md)
+*Source: Monster Manual p. 33. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Bugbears are born for battle and mayhem. Surviving by raiding and hunting, they bully the weak and despise being bossed around, but their love of carnage means they will fight for powerful masters if bloodshed and treasure are assured.
 
@@ -56,7 +57,11 @@ Despite their intimidating builds, bugbears move with surprising stealth. They a
     "desc": "+6"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+  - "[morningstar](03.PlayerLog&Handouts/Mechanics/CLI/items/morningstar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Goblin"
 "cr": "1"
 "traits":
@@ -68,28 +73,15 @@ Despite their intimidating builds, bugbears move with surprising stealth. They a
       \ the attack."
     "name": "Surprise Attack"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d8 + 2) piercing damage."
     "name": "Morningstar"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 9 (2d6 + 2) piercing damage in melee or 5 (1d6\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 9 (2d6 + 2) piercing damage in melee or 5 (1d6\
       \ + 2) piercing damage at range."
     "name": "Javelin"
 "source":
   - "MM"
-  - "LMoP"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "ERLW"
-  - "EGW"
-  - "IDRotF"
-  - "TCE"
-  - "KftGV"
-  - "HftT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/bugbear.webp"
 ```
 ^statblock

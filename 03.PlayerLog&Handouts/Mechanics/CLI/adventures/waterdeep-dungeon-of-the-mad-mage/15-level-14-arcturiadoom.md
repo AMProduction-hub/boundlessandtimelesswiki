@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 14: Arcturiadoom
+- "Level 14: Arcturiadoom"
 ---
 # Level 14: Arcturiadoom
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 179* 
@@ -128,7 +129,7 @@ The creature in area 2a comes here to feed, as do other creatures dwelling in th
 
 The crawlers are natural enemies of the creature in area 2a, which recently killed one of them with a blow from its war pick. They ignore characters who keep a respectful distance.
 
-A character who studies the fungus and succeeds on a DC 10 Intelligence ([Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature)) check can distinguish edible varieties from poisonous ones, and also ascertains that the spore clouds are harmless. A character unaware of this information who eats fungus has a 50 percent chance of consuming a poisonous variety and must succeed on a DC 10 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for `d4` hours.
+A character who studies the fungus and succeeds on a DC 10 Intelligence ([Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature)) check can distinguish edible varieties from poisonous ones, and also ascertains that the spore clouds are harmless. A character unaware of this information who eats fungus has a 50 percent chance of consuming a poisonous variety and must succeed on a DC 10 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for `1d4` hours.
 
 #### 2d. Standing Gate to Level 12
 
@@ -398,7 +399,7 @@ Removing Lulz's skull from the sarcophagus causes mechanisms in the surrounding 
 
 The hobgoblins, searching aimlessly for anything valuable, gang up on foes to quickly take them down.
 
-Each sarcophagus contains the desiccated corpses of `d3` humanoids in scorched robes, lying atop the dust of the ancient dead. The corpses are those of [Arcturia](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/arcturia-wdmm.md)'s past apprentices and assistants, each of whom displeased her in some way and paid the ultimate price.
+Each sarcophagus contains the desiccated corpses of `1d3` humanoids in scorched robes, lying atop the dust of the ancient dead. The corpses are those of [Arcturia](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/arcturia-wdmm.md)'s past apprentices and assistants, each of whom displeased her in some way and paid the ultimate price.
 
 ### 17. Hidden Storeroom
 
@@ -443,7 +444,7 @@ The stove is a Large construct with a challenge rating of 3 (700 XP). It has AC 
 
 ##### Slam
 
-*Melee Weapon Attack*: +6 to hit, reach 5 ft., one target. *Hit*: 11 (`2d8 + 2`) bludgeoning damage.
+*Melee Weapon Attack*: `+6` to hit, reach 5 ft., one target. *Hit*: 11 (`2d8 + 2`) bludgeoning damage.
 
 ##### Belch Fire (Recharge 4-6)
 
@@ -657,7 +658,7 @@ Hidden in the floor under the table is a small secret compartment that can be di
 
 > [!note] 
 > 
-> **Carrion Ogre**. Lying on the floor in the middle of the room, held down with chains, is a creature that has the body of an ogre and the head of a carrion crawler.
+> [Carrion Ogre](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/carrion-ogre-wdmm.md). Lying on the floor in the middle of the room, held down with chains, is a creature that has the body of an ogre and the head of a carrion crawler.
 > 
 > **Body Parts**. The ogre's severed head and the carrion crawler's decapitated body lie discarded in the northern corner of the room, where they have begun to putrefy and emit a dreadful stench.
 > 
@@ -678,11 +679,11 @@ The creature makes two attacks: one with its tentacles and one with its bite.
 
 #### Tentacles
 
-*Melee Weapon Attack*: +8 to hit, reach 10 ft., one creature. *Hit*: 4 (`1d4 + 2`) poison damage, and the target must succeed on a DC 13 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for 1 minute. Until this poison ends, the target is [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed). The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success.
+*Melee Weapon Attack*: `+8` to hit, reach 10 ft., one creature. *Hit*: 4 (`1d4 + 2`) poison damage, and the target must succeed on a DC 13 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for 1 minute. Until this poison ends, the target is [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed). The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success.
 
 #### Bite
 
-*Melee Weapon Attack*: +4 to hit, reach 5 ft., one target. *Hit*: 7 (`2d4 + 2`) piercing damage.
+*Melee Weapon Attack*: `+4` to hit, reach 5 ft., one target. *Hit*: 7 (`2d4 + 2`) piercing damage.
 
 ### 31. Illithid's Assistant
 
@@ -744,7 +745,7 @@ The wooden trunk contains the hobgoblins' loot: 2,500 gp, an electrum pepper sha
 
 ### 34. Shrieking Gas Spore
 
-Floating in the middle of this otherwise empty room is a [gas spore](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/gas-spore.md) that has the added defense of a shrieker. When bright light or a creature comes within 30 feet of the gas spore, it uses its reaction to emit a shriek audible within 300 feet of it. The gas spore continues to shriek until the disturbance moves out of range and for `d4` rounds afterward.
+Floating in the middle of this otherwise empty room is a [gas spore](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/gas-spore.md) that has the added defense of a shrieker. When bright light or a creature comes within 30 feet of the gas spore, it uses its reaction to emit a shriek audible within 300 feet of it. The gas spore continues to shriek until the disturbance moves out of range and for `1d4` rounds afterward.
 
 The shrieking of the gas spore alerts the hobgoblins in areas 32c and 33, who come to investigate.
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Pegasus
+- "Pegasus"
 ---
-# [Pegasus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/pegasus.md)
-*Source: Monster Manual p. 250, Eberron: Rising from the Last War, Mythic Odysseys of Theros, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Pegasus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/pegasus.md)
+*Source: Monster Manual p. 250. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 The white winged horses known as pegasi soar through the skies, a vision of grace and majesty. When they touch down on solid ground, they linger only for a moment, drinking from mountain springs and pristine lakes. Any sound or sign of another creature startles them, sending them off to fly once more among the clouds.
 
@@ -54,9 +55,9 @@ Pegasi mate for life, build their nests in hard-to-reach locations, and give bir
   - !!int "13"
 "speed": "60 ft., fly 90 ft."
 "saves":
-  - "dexterity": "+4"
-  - "wisdom": "+4"
-  - "charisma": "+3"
+  - "dexterity": !!int "4"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "3"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
@@ -64,14 +65,11 @@ Pegasi mate for life, build their nests in hard-to-reach locations, and give bir
 "languages": "understands Celestial, Common, Elvish, and Sylvan but can't speak"
 "cr": "2"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage."
     "name": "Hooves"
 "source":
   - "MM"
-  - "ERLW"
-  - "MOT"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/token/pegasus.webp"
 ```
 ^statblock

@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/scc
 aliases:
-- Quandrix Student
+- "Quandrix Student"
 ---
 # Quandrix Student
 *Source: Strixhaven: A Curriculum of Chaos p. 33*  
-![A Quandrix student magical...](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/img/quandrix-student.webp#right "A Quandrix student magically gazes into the intricate patterns of nature")
+![A Quandrix student magically gazes into the intricate patterns of nature](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/img/quandrix-student.webp#right)
 
 - **Skill Proficiencies.** [Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana), [Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature)  
 - **Tool Proficiencies.** One type of artisan's tools  
@@ -48,8 +49,6 @@ Aside from traditional spellcasters, a few characters of other classes find home
 With subjects ranging from the physical and tangible to the paradoxical and strange, the student body of Quandrix College includes an eclectic mix of individuals. The Quandrix Personality Traits table suggests a variety of traits you might adopt for your character.
 
 **Quandrix Personality Traits**
-
-`dice: [](quandrix-student-scc.md#^quandrix-personality-traits)`
 
 | dice: d6 | Personality Trait |
 |----------|-------------------|

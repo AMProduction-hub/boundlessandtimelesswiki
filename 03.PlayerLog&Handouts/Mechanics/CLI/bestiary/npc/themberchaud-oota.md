@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/17
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Themberchaud
+- "Themberchaud"
 ---
-# [Themberchaud](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/themberchaud-oota.md)
+# [Themberchaud](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/themberchaud-oota.md)
 *Source: Out of the Abyss p. 53*  
 
 ```statblock
@@ -33,17 +34,19 @@ aliases:
   - !!int "21"
 "speed": "40 ft., climb 40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+6"
-  - "constitution": "+13"
-  - "wisdom": "+7"
-  - "charisma": "+11"
+  - "dexterity": !!int "6"
+  - "constitution": !!int "13"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "11"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+13"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "damage_immunities": "fire"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 23"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 23"
 "languages": "Common, Draconic"
 "cr": "17"
 "traits":
@@ -53,13 +56,13 @@ aliases:
   - "desc": "Themberchaud can use its Frightful Presence. It then makes three attacks:\
       \ one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:*\
       \ 19 (2d10 + 8) piercing damage plus 7 (2d6) fire damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 5 ft., one target. *Hit:*\
       \ 15 (2d6 + 8) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 15 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) bludgeoning damage."
     "name": "Tail"
   - "desc": "Each creature of Themberchaud's choice that is within 120 feet of Themberchaud\
@@ -73,6 +76,9 @@ aliases:
       \ must make a DC 21 Dexterity saving throw, taking 63 (18d6) fire damage on\
       \ a failed save, or half as much damage on a successful one."
     "name": "Fire Breath (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Themberchaud can expend a use to take one of the following actions. Themberchaud\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Themberchaud makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ check."

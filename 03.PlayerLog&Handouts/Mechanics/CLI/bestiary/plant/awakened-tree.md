@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Awakened Tree
+- "Awakened Tree"
 ---
-# [Awakened Tree](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/awakened-tree.md)
-*Source: Monster Manual p. 317, Princes of the Apocalypse, Storm King's Thunder, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Awakened Tree](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/awakened-tree.md)
+*Source: Monster Manual p. 317. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 An awakened tree is an ordinary tree given sentience and mobility by the [awaken](03.PlayerLog&Handouts/Mechanics/CLI/spells/awaken.md) spell or similar magic.
 
@@ -45,19 +46,11 @@ An awakened tree is an ordinary tree given sentience and mobility by the [awaken
       \ tree."
     "name": "False Appearance"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
       \ 14 (3d6 + 4) bludgeoning damage."
     "name": "Slam"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "MOT"
-  - "IDRotF"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/awakened-tree.webp"
 ```
 ^statblock

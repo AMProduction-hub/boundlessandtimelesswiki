@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/transmutation
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Druid
 aliases:
-- Reincarnate
+- "Reincarnate"
 ---
 # Reincarnate
 *5th-level, Transmutation*  
@@ -27,8 +28,6 @@ You touch a dead humanoid or a piece of a dead humanoid. Provided that the creat
 The magic fashions a new body for the creature to inhabit, which likely causes the creature's race to change. The DM rolls a `d100` and consults the following table to determine what form the creature takes when restored to life, or the DM chooses a form.
 
 **Reincarnate Races**
-
-`dice: [](reincarnate.md#^reincarnate-races)`
 
 | dice: d100 | Race |
 |------------|------|
@@ -50,6 +49,6 @@ The magic fashions a new body for the creature to inhabit, which likely causes t
 
 The reincarnated creature recalls its former life and experiences. It retains the capabilities it had in its original form, except it exchanges its original race for the new one and changes its racial traits accordingly.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md)
 
 *Source: Player's Handbook p. 271. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

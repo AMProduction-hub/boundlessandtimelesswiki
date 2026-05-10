@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Random Buildings; Warehouse
+- "Random Buildings; Warehouse"
 ---
 # Random Buildings; Warehouse
 *Source: Dungeon Master's Guide p. 113* 
 
 **Warehouse**
-
-`dice: [](random-buildings-warehouse.md#^warehouse)`
 
 | dice: d20 | Type |
 |-----------|------|

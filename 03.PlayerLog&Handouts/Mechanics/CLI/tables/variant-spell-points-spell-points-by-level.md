@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Variant: Spell Points; Spell Points by Level
+- "Variant: Spell Points; Spell Points by Level"
 ---
 # Variant: Spell Points; Spell Points by Level
 *Source: Dungeon Master's Guide p. 288* 

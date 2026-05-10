@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Half-Red Dragon Veteran
+- "Half-Red Dragon Veteran"
 ---
-# [Half-Red Dragon Veteran](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/half-red-dragon-veteran.md)
-*Source: Monster Manual p. 180, Ghosts of Saltmarsh, Storm Lord's Wrath, Infernal Machine Rebuild. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Half-Red Dragon Veteran](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/half-red-dragon-veteran.md)
+*Source: Monster Manual p. 180. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 When a dragon in polymorphed form mates with another creature, the union sometimes produces half dragon offspring. A creature might also transform into a half-dragon as a result of a mad wizard's spell or a ritual bath in dragon's blood. In all these cases, the result is a creature that combines the essence of a dragon with the form of its original race. Regardless of their origins, all half-dragons have similar features and appearance, gaining special senses, resistance to destructive energy, and a breath weapon.
 
@@ -79,21 +80,27 @@ Here the half-dragon template has been applied to a human [veteran](03.PlayerLog
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
 "damage_resistances": "fire"
-"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Draconic"
 "cr": "5"
 "actions":
   - "desc": "The veteran makes two longsword attacks. If it has a shortsword drawn,\
       \ it can also make a shortsword attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with\
       \ two hands."
     "name": "Longsword"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, range 100/400 ft., one target. *Hit:*\
       \ 6 (1d10 + 1) piercing damage."
     "name": "Heavy Crossbow"
   - "desc": "The veteran exhales fire in a 15-foot cone. Each creature in that area\
@@ -102,9 +109,6 @@ Here the half-dragon template has been applied to a human [veteran](03.PlayerLog
     "name": "Fire Breath (Recharge 5-6)"
 "source":
   - "MM"
-  - "GoS"
-  - "SLW"
-  - "IMR"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/half-red-dragon-veteran.webp"
 ```
 ^statblock

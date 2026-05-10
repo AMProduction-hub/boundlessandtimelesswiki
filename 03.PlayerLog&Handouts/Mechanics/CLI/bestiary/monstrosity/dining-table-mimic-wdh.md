@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dining Table Mimic
+- "Dining Table Mimic"
 ---
-# [Dining Table Mimic](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/dining-table-mimic-wdh.md)
+# [Dining Table Mimic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/dining-table-mimic-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 122*  
 
 ```statblock
@@ -38,7 +39,8 @@ aliases:
     "desc": "+5"
 "damage_immunities": "acid"
 "condition_immunities": "[prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": ""
 "cr": "3"
 "traits":
@@ -61,12 +63,12 @@ aliases:
   - "desc": "The mimic can make three attacks; two with its pseudopods and one with\
       \ its bite"
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) bludgeoning damage. If the mimic is in object form, the target\
       \ is subjected to its Adhesive trait."
     "name": "Pseudopod"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d8 + 3) piercing damage plus 4 (d8) acid damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
+      \ (1d8 + 3) piercing damage plus 4 (1d8) acid damage."
     "name": "Bite"
 "source":
   - "WDH"

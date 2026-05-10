@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Creating a White Dragon; White Dragon Personality Traits
+- "Creating a White Dragon; White Dragon Personality Traits"
 ---
 # Creating a White Dragon; White Dragon Personality Traits
 *Source: Fizban's Treasury of Dragons p. 153* 
 
 **White Dragon Personality Traits**
-
-`dice: [](creating-a-white-dragon-white-dragon-personality-traits-ftd.md#^white-dragon-personality-traits)`
 
 | dice: d8 | Trait |
 |----------|-------|

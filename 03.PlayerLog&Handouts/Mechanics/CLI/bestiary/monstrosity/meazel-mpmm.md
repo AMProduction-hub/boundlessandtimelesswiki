@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
@@ -17,9 +18,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Meazel
+- "Meazel"
 ---
-# [Meazel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/meazel-mpmm.md)
+# [Meazel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/meazel-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 177, Mordenkainen's Tome of Foes p. 214*  
 
 Meazels are malicious hermits who fled to the Shadowfell to escape their mortal existence and contemplate their misery. There the shadows transformed them, and their bitterness made them twisted and cruel. Now hate burns in their hearts, and they resent any intrusion into their suffering, waylaying travelers who venture too close to their lairs.
@@ -50,19 +51,22 @@ Any creatures meazels draw through the shadows are cursed by the meazels' balefu
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 120 ft., passive Perception 13"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "Common"
 "cr": "1"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target of the meazel's\
-      \ size or smaller. Hit: 6 (1d6 + 3) bludgeoning damage, and the target is\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target of the meazel's\
+      \ size or smaller. *Hit:* 6 (1d6 + 3) bludgeoning damage, and the target is\
       \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13 with disadvantage). Until the grapple ends, the target takes\
       \ 10 (2d6 + 3) bludgeoning damage at the start of each of the meazel's turns.\
       \ The meazel can't make weapon attacks while grappling a creature in this way."
     "name": "Garrote"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d6 + 3) piercing damage plus 3 (d6) necrotic damage"
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
+      \ (1d6 + 3) piercing damage plus 3 (1d6) necrotic damage."
     "name": "Shortsword"
   - "desc": "The meazel, any equipment it is wearing or carrying, and any creature\
       \ it is grappling teleport to an unoccupied space within 500 feet of it, provided\

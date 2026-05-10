@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Gifts of the Gods; Remarkable Origins
+- "Gifts of the Gods; Remarkable Origins"
 ---
 # Gifts of the Gods; Remarkable Origins
 *Source: Mythic Odysseys of Theros p. 195* 
 
 **Remarkable Origins**
-
-`dice: [](gifts-of-the-gods-remarkable-origins-mot.md#^remarkable-origins)`
 
 | dice: d12 | Origin |
 |-----------|--------|

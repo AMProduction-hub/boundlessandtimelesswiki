@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/3
@@ -15,10 +16,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Phase Spider
+- "Phase Spider"
 ---
-# [Phase Spider](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/phase-spider.md)
-*Source: Monster Manual p. 334, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Sleeping Dragon's Wake, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Phase Spider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/phase-spider.md)
+*Source: Monster Manual p. 334. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A phase spider possesses the magical ability to phase in and out of the Ethereal Plane. It seems to appear out of nowhere and quickly vanishes after attacking. Its movement on the Ethereal Plane before coming back to the Material Plane makes it seem like it can teleport.
 
@@ -43,7 +44,8 @@ A phase spider possesses the magical ability to phase in and out of the Ethereal
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "cr": "3"
 "traits":
@@ -56,7 +58,7 @@ A phase spider possesses the magical ability to phase in and out of the Ethereal
   - "desc": "The spider ignores movement restrictions caused by webbing."
     "name": "Web Walker"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 7 (1d10 + 2) piercing damage, and the target must make a DC 11 Constitution\
       \ saving throw, taking 18 (4d8) poison damage on a failed save, or half as\
       \ much damage on a successful one. If the poison damage reduces the target to\
@@ -67,12 +69,6 @@ A phase spider possesses the magical ability to phase in and out of the Ethereal
     "name": "Bite"
 "source":
   - "MM"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "SDW"
-  - "MOT"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/phase-spider.webp"
 ```
 ^statblock

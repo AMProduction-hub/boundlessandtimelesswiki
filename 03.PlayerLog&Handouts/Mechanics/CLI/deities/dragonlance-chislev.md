@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/deity/dragonlance
-aliases: 
-- Chislev
+aliases:
+- "Chislev"
 ---
 # Chislev
 *Source: Dragonlance: Shadow of the Dragon Queen p. 16* 
-![Symbols Left to Right: Gil...](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/dsotdq-013-00-033-neutral-god-symbols.webp#symbol "Symbols Left to Right: Gilean, Chislev, and Lunitari")
+![Symbols Left to Right: Gilean, Chislev, and Lunitari](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/dsotdq-013-00-033-neutral-god-symbols.webp#symbol)
 
 - **Alignment**: Neutral
 - **Category**: Neutral

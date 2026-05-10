@@ -1,21 +1,22 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xge
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/evocation
 - ttrpg-cli/spell/subclass/divine-soul
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Sorcerer (Divine Soul)
 - Wizard
 aliases:
-- Dawn
+- "Dawn"
 ---
 # Dawn
 *5th-level, Evocation*  
@@ -32,6 +33,6 @@ When the cylinder appears, each creature in it must make a Constitution saving t
 
 If you're within 60 feet of the cylinder, you can move it up to 60 feet as a bonus action on your turn.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Xanathar's Guide to Everything p. 153*

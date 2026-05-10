@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Willifort Crowelle
+- "Willifort Crowelle"
 ---
-# [Willifort Crowelle](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/willifort-crowelle-wdh.md)
+# [Willifort Crowelle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/willifort-crowelle-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 62*  
 
 ```statblock
@@ -38,7 +39,8 @@ aliases:
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+3"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common"
 "cr": "3"
 "traits":
@@ -57,7 +59,7 @@ aliases:
 "actions":
   - "desc": "Willifort makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) bludgeoning damage."
     "name": "Slam"
   - "desc": "Willifort magically reads the surface thoughts of one creature within\

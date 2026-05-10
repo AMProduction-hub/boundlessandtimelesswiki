@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lords' Alliance Guard
+- "Lords' Alliance Guard"
 ---
-# [Lords' Alliance Guard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/lords-alliance-guard-oota.md)
+# [Lords' Alliance Guard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lords-alliance-guard-oota.md)
 *Source: Out of the Abyss p. 131*  
 
 ```statblock
@@ -37,14 +38,17 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[halberd](03.PlayerLog&Handouts/Mechanics/CLI/items/halberd.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": ""
 "cr": "1/4"
 "traits":
   - "desc": "The guard has advantage on saving throws against poison."
     "name": "Dwarven Resilience"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:*\
       \ 7 (1d10 + 2) slashing damage."
     "name": "Halberd"
 "source":

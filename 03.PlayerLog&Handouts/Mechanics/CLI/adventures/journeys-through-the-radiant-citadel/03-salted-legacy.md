@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 aliases:
-- Salted Legacy
+- "Salted Legacy"
 ---
 # Salted Legacy
 *Source: Journeys through the Radiant Citadel, p. 18* 
@@ -54,14 +55,14 @@ Before starting the adventure, use the following hooks or work with players to d
 
 ## Welcome to the Market
 
-![The rivalry between the Xu...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/009-02-001-tyenmo-rivalry-xungoon.webp#center "The rivalry between the Xungoon and Tyenmo families disrupts the peace in the Dyn Singh Night Market")
+![The rivalry between the Xungoon and Tyenmo families disrupts the peace in the Dyn Singh Night Market](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/009-02-001-tyenmo-rivalry-xungoon.webp#center)
 
 Hundreds of temporary stalls, tents, and vendor carts fill the Dyn Singh Night Market with wonders to tempt even the pickiest customers. The shops surround three golden tents in a sunken plaza. Merchants set up during the afternoon, but most don't open until twilight when the evening's cool air attracts customers.
 
 The vendors are a tight-knit community, and many have attended the market for decades. Their wares vary from common goods to rarities. Some merchants price their wares plainly; others haggle, trade, or exchange goods for favors. Notable shops in the market include the following:
 
 - **Madam Kulp's Silk.** This store sells luxurious silk garments for no less than 50 gp apiece.  
-- **Spicy Brothers.** This stall sells spices, peppers, and spicy dishes like cucumber fire smoothies and HFDoMM for 5 sp each.  
+- **Spicy Brothers.** This stall sells spices, peppers, and spicy dishes like cucumber fire smoothies and honey-glazed hot chips for 5 sp each.  
 - **Trusty Leek.** This street food cart specializes in bite-sized and skewered seafood dishes. It relocates regularly throughout the evening.  
 - **Tyenmo Noodles.** This food vendor offers vegetarian noodle bowls made with handmade noodles and fresh green tree beans for 1 gp.  
 - **Vada's Otherworldly Goods.** This shop sells pastries and desserts for 1 sp each. The signature vanilla bun is made from a secret family recipe and sells for 2 gp.  
@@ -208,8 +209,6 @@ The characters aren't the only ones roaming the night market. After each Market 
 
 **Market Mischief**
 
-`dice: [](03-salted-legacy.md#^market-mischief)`
-
 | dice: d4 | Event |
 |----------|-------|
 | 1 | A fire at Xungoon Family Seafood causes the stall's right leg to collapse. The stall is now crooked. |
@@ -277,8 +276,6 @@ Vi offers color commentary during the event, encouraging the crowd to cheer part
 
 **Random Spicy Pepper**
 
-`dice: [](03-salted-legacy.md#^random-spicy-pepper)`
-
 | dice: d10 | Pepper |
 |-----------|--------|
 | 1 | Dud! The pepper is not a pepper, but a cherry tomato. You do not need to make a saving throw. |
@@ -297,7 +294,7 @@ After the challenge is completed, characters can ask Vi for information about th
 
 ### Battle Prawn Challenge
 
-![Jagged Koi Prawns are just...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/014-02-004-jagged-koi-prawns.webp#center "Jagged Koi Prawns are just one unexpected danger of the games at the Dyn Singh Night market")
+![Jagged Koi Prawns are just one unexpected danger of the games at the Dyn Singh Night market](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/014-02-004-jagged-koi-prawns.webp#center)
 
 Sid Squid's Trusty Leek sponsors Battle Prawns: The Shrimpening. Sid's shrimp cakes were voted best dish during a festival competition last year. This challenge, held in the northern event tent, tests participants' inventiveness and versatility as they prepare giant versions of his signature dish.
 
@@ -601,8 +598,6 @@ The oldest legend of Siabsungkoh tells of a young sorcerer, Phi Maymoon, who mad
 Consider the plots on the Siabsungkoh Adventures table when planning adventures in Siabsungkoh.
 
 **Siabsungkoh Adventures**
-
-`dice: [](03-salted-legacy.md#^siabsungkoh-adventures)`
 
 | dice: d4 | Adventure |
 |----------|-----------|

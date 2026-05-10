@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -15,10 +16,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Orog
+- "Orog"
 ---
-# [Orog](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/orog.md)
-*Source: Monster Manual p. 247, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Explorer's Guide to Wildemount*  
+# [Orog](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orog.md)
+*Source: Monster Manual p. 247*  
 
 Orcs are savage raiders and pillagers with stooped postures, low foreheads, and piggish faces with prominent lower canines that resemble tusks.
 
@@ -94,7 +95,11 @@ Mistrusted by orcs, some orogs form independent mercenary war bands that sell th
     "desc": "+5"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Orc"
 "cr": "2"
 "traits":
@@ -104,21 +109,14 @@ Mistrusted by orcs, some orogs form independent mercenary war bands that sell th
 "actions":
   - "desc": "The orog makes two greataxe attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (1d12 + 4) slashing damage."
     "name": "Greataxe"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
     "name": "Javelin"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "EGW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/orog.webp"
 ```
 ^statblock

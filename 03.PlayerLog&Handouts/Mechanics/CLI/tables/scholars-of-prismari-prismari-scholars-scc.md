@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 aliases:
-- Scholars of Prismari; Prismari Scholars
+- "Scholars of Prismari; Prismari Scholars"
 ---
 # Scholars of Prismari; Prismari Scholars
 *Source: Strixhaven: A Curriculum of Chaos p. 16* 
 
 **Prismari Scholars**
-
-`dice: [](scholars-of-prismari-prismari-scholars-scc.md#^prismari-scholars)`
 
 | dice: d12 | Scholar | Principle |
 |-----------|---------|-----------|

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/sdw
 aliases:
-- Bronze Shrine
+- "Bronze Shrine"
 ---
 # Bronze Shrine
 *Source: Essentials Kit: Sleeping Dragon's Wake* 
@@ -92,7 +93,7 @@ Members of the Scaly Eye play three-dragon ante at a stone table in the center o
 
 ##### Molten Bronze Trap
 
-A tripwire set 3 inches off the ground is extended across the doorway at the top of the stair that leads to area B1. An iron pot full of molten bronze (magically heated) hangs above the door and overturns when a creature triggers the tripwire. The creature must make a DC 14 Dexterity saving throw, taking 33 (`6d10`) fire damage on a failed save, or half as much damage on a successful one. A creature that fails this save is covered in molten bronze and takes 5 (`d10`) fire damage at the end of each of its turns until it uses an action to scrape off the bronze with a weapon or tool. If the weapon or tool is nonmagical, it is destroyed after removing the bronze.
+A tripwire set 3 inches off the ground is extended across the doorway at the top of the stair that leads to area B1. An iron pot full of molten bronze (magically heated) hangs above the door and overturns when a creature triggers the tripwire. The creature must make a DC 14 Dexterity saving throw, taking 33 (`6d10`) fire damage on a failed save, or half as much damage on a successful one. A creature that fails this save is covered in molten bronze and takes 5 (`1d10`) fire damage at the end of each of its turns until it uses an action to scrape off the bronze with a weapon or tool. If the weapon or tool is nonmagical, it is destroyed after removing the bronze.
 
 A creature with a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 15 or higher notices the tripwire. A successful DC 15 Dexterity check using [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md) disables the tripwire harmlessly. A character without thieves' tools can attempt this check with disadvantage using any edged weapon or edged tool. On a failed check, the trap triggers.
 
@@ -159,7 +160,7 @@ The barnacles on the window are actually a disguised [alkilith](03.PlayerLog&Han
 
 ##### Spellcasting
 
-[Lhammaruntosz](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lhammaruntosz-sdw.md) is an 8th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 17; +9 to hit with spell attacks). She has the following sorcerer spells prepared:
+[Lhammaruntosz](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lhammaruntosz-sdw.md) is an 8th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 17; `+9` to hit with spell attacks). She has the following sorcerer spells prepared:
 
 - Cantrips (at will): [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md)  
 - 1st level (4 slots): [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md), [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md), [expeditious retreat](03.PlayerLog&Handouts/Mechanics/CLI/spells/expeditious-retreat.md), [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)  

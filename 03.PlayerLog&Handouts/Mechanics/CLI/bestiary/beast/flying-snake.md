@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-8
@@ -13,10 +14,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Flying Snake
+- "Flying Snake"
 ---
-# [Flying Snake](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/flying-snake.md)
-*Source: Monster Manual p. 322, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Icewind Dale: Rime of the Frostmaiden, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Flying Snake](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/flying-snake.md)
+*Source: Monster Manual p. 322. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A flying snake is a brightly colored, winged serpent found in remote jungles. Tribespeople and cultists sometimes domesticate flying snakes to serve as messengers that deliver scrolls wrapped in their coils.
 
@@ -37,7 +38,8 @@ A flying snake is a brightly colored, winged serpent found in remote jungles. Tr
   - !!int "12"
   - !!int "5"
 "speed": "30 ft., fly 60 ft., swim 30 ft."
-"senses": "blindsight 10 ft., passive Perception 11"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., passive Perception 11"
 "languages": ""
 "cr": "1/8"
 "traits":
@@ -45,16 +47,11 @@ A flying snake is a brightly colored, winged serpent found in remote jungles. Tr
       \ enemy's reach."
     "name": "Flyby"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 1\
       \ piercing damage plus 7 (3d4) poison damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "SKT"
-  - "ToA"
-  - "WDH"
-  - "IDRotF"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/flying-snake.webp"
 ```
 ^statblock

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Aarakocra
+- "Aarakocra"
 ---
-# [Aarakocra](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/aarakocra.md)
-*Source: Monster Manual p. 12, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Light of Xaryxis*  
+# [Aarakocra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/aarakocra.md)
+*Source: Monster Manual p. 12*  
 
 Aarakocra range the Howling Gyre, an endless storm of mighty winds and lashing rains that surrounds the tranquil realm of Aaqa in the Elemental Plane of Air. Making aerial patrols, these birdlike humanoids guard the windy borders of their home against invaders from the Elemental Plane of Earth, such as gargoyles, their sworn enemies.
 
@@ -55,20 +56,22 @@ The Wind Dukes of Aaqa come from a race of elemental beings called the vaati, wh
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
 "senses": "passive Perception 15"
 "languages": "Auran, Aarakocra"
 "cr": "1/4"
 "traits":
   - "desc": "If the aarakocra is flying and dives at least 30 feet straight toward\
       \ a target and then hits it with a melee weapon attack, the attack deals an\
-      \ extra 3 (d6) damage to the target."
+      \ extra 3 (1d6) damage to the target."
     "name": "Dive Attack"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) slashing damage."
     "name": "Talon"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
     "name": "Javelin"
   - "desc": "Five aarakocra within 30 feet of each other can magically summon an [air\
       \ elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/air-elemental.md).\
@@ -85,12 +88,6 @@ The Wind Dukes of Aaqa come from a race of elemental beings called the vaati, wh
     "name": "Summon Air Elemental"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "ToA"
-  - "EGW"
-  - "IDRotF"
-  - "LoX"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/aarakocra.webp"
 ```
 ^statblock

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/5
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Snarla
+- "Snarla"
 ---
-# [Snarla](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/snarla-tftyp.md)
+# [Snarla](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/snarla-tftyp.md)
 *Source: Tales from the Yawning Portal p. 102*  
 
 A werewolf is a savage predator. In its humanoid form, a werewolf has heightened senses, a fiery temper, and a tendency to eat rare meat. Its wolf form is a fearsome predator, but its hybrid form is more terrifying by far-a furred and well-muscled humanoid body topped by a ravening wolf's head. A werewolf can wield weapons in hybrid form, though it prefers to tear foes apart with its powerful claws and bite.
@@ -76,7 +77,7 @@ The character gains a Strength of 15 if his or her score isn't already higher, a
 "subtype": "human, shapechanger"
 "alignment": "Chaotic Evil"
 "ac": !!int "11"
-"ac_class": "12 from natural armor in wolf and hybrid forms"
+"ac_class": "12 natural armor in wolf and hybrid forms"
 "hp": !!int "58"
 "hit_dice": "9d8 + 18"
 "modifier": !!int "1"
@@ -93,20 +94,22 @@ The character gains a Strength of 15 if his or her score isn't already higher, a
     "desc": "+3"
 "damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 14"
 "languages": "Common (can't speak in wolf form)"
 "cr": "5"
 "traits":
   - "desc": "Snarla is a 6th-level spellcaster. Her spellcasting ability is Intelligence\
-      \ (spell save DC 14, +6 to hit with spell attacks). She has the following wizard\
-      \ spells prepared:\n\nCantrips (at will): [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
+      \ (spell save DC 14, +6 to hit with spell attacks). She has the following\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
-      \n1st level (4 slots): [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
+      \n**1st level (4 slots):** [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md),\
-      \ [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md)\n\n3rd level (3\
-      \ slots): [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \n**2nd level (3 slots):** [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md),\
+      \ [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md)\n\n**3rd level (3\
+      \ slots):** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md), [haste](03.PlayerLog&Handouts/Mechanics/CLI/spells/haste.md),\
       \ [stinking cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/stinking-cloud.md)"
     "name": "Spellcasting"
@@ -122,15 +125,15 @@ The character gains a Strength of 15 if his or her score isn't already higher, a
   - "desc": "The werewolf makes two attacks: one with its bite and one with its claws\
       \ or spear."
     "name": "Multiattack (Humanoid or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) piercing damage. If the target is a humanoid, it must succeed\
       \ on a DC 12 Constitution saving throw or be cursed with werewolf lycanthropy."
     "name": "Bite (Wolf or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 7 (2d4 + 2) slashing damage."
     "name": "Claws (Hybrid Form Only)"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one creature. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2)\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2)\
       \ piercing damage if used with two hands to make a melee attack."
     "name": "Spear (Humanoid Form Only)"
 "source":

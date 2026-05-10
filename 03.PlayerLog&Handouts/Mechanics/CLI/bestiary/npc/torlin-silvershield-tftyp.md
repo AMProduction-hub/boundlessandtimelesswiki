@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Torlin Silvershield
+- "Torlin Silvershield"
 ---
-# [Torlin Silvershield](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/torlin-silvershield-tftyp.md)
+# [Torlin Silvershield](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/torlin-silvershield-tftyp.md)
 *Source: Tales from the Yawning Portal p. 159*  
 
 ```statblock
@@ -42,7 +43,11 @@ aliases:
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "the languages it knew in life"
 "cr": "3"
 "traits":
@@ -54,7 +59,7 @@ aliases:
   - "desc": "Torlin makes two longsword attacks or two longbow attacks. It can use\
       \ its Life Drain in place of one longsword attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 5 (1d6 + 2) necrotic damage. The target must succeed on a DC 13 Constitution\
       \ saving throw or its hit point maximum is reduced by an amount equal to the\
       \ damage taken. This reduction lasts until the target finishes a long rest.\
@@ -64,11 +69,11 @@ aliases:
       \ is destroyed. Torlin can have no more than twelve zombies under its control\
       \ at one time."
     "name": "Life Drain"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with\
       \ two hands."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:*\
       \ 6 (1d8 + 2) piercing damage."
     "name": "Longbow"
 "source":

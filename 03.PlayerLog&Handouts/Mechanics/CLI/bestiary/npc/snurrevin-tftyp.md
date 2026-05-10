@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Snurrevin
+- "Snurrevin"
 ---
-# [Snurrevin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/snurrevin-tftyp.md)
+# [Snurrevin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/snurrevin-tftyp.md)
 *Source: Tales from the Yawning Portal p. 53*  
 
 The tyrannical duergar, also known as gray dwarves, dwell in fantastic cities deep in the Underdark. Using ancient dwarven knowledge and myriad slaves, they work tirelessly to expand their subterranean kingdoms.
@@ -57,19 +58,23 @@ Asmodeus, Lord of the Nine Hells, has been known to impersonate duergar gods in 
   - !!int "9"
 "speed": "25 ft."
 "damage_resistances": "poison"
-"senses": "darkvision 120 ft., passive Perception 10"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+  - "[war pick](03.PlayerLog&Handouts/Mechanics/CLI/items/war-pick.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "Dwarvish, Undercommon"
 "cr": "2"
 "traits":
   - "desc": "Snurrevin is a 3rd-level spellcaster. His spellcasting ability is Intelligence\
       \ (spell save DC 12, +4 to hit with spell attacks). He has the following wizard\
-      \ spells prepared:\n\nCantrips (at will): [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
+      \ spells prepared:\n\n**Cantrips (at will):** [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [minor\
       \ illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md), [shocking\
-      \ grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\n1st\
-      \ level (4 slots): [color spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/color-spray.md),\
+      \ grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\n**1st\
+      \ level (4 slots):** [color spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/color-spray.md),\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [silent image](03.PlayerLog&Handouts/Mechanics/CLI/spells/silent-image.md)\n\
-      \n2nd level (2 slots): [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
+      \n**2nd level (2 slots):** [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [shatter](03.PlayerLog&Handouts/Mechanics/CLI/spells/shatter.md)"
     "name": "Spellcasting"
   - "desc": "The duergar has advantage on saving throws against poison, spells, and\
@@ -88,11 +93,11 @@ Asmodeus, Lord of the Nine Hells, has been known to impersonate duergar gods in 
       \ lacks the room to become Large, it attains the maximum size possible in the\
       \ space available."
     "name": "Enlarge (Recharges after a Short or Long Rest)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged."
     "name": "War Pick"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing\
       \ damage while enlarged."
     "name": "Javelin"
   - "desc": "The duergar magically turns [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 aliases:
-- Book of the Raven
+- "Book of the Raven"
 ---
 # Book of the Raven
 *Source: Candlekeep Mysteries, p. 35* 
@@ -186,8 +187,6 @@ The wereravens convene in area C14 of the chalet and use their powers of mimicry
 
 **Wereraven Mimicry**
 
-`dice: [](05-book-of-the-raven.md#^wereraven-mimicry)`
-
 | dice: d6 | Sound and Source |
 |----------|------------------|
 | 1 | Madrina mimics glass breaking and makes it sound like it's coming from the servants' attic (area C16). |
@@ -259,7 +258,7 @@ This room served as living quarters for the baron's cook and the chalet's ground
 > 
 > The only feature of this damp, cold, circular room is a four-foot-diameter well in the middle of the floor. Next to this shaft sits a wooden bucket fastened to a coiled length of rope.
 > 
-> The bottom of the shaft is veiled in darkness. From its depths, a whispering voice says, "Brorn! Where are you, boy?" 
+> The bottom of the shaft is veiled in darkness. From its depths, a whispering voice says, "Brorn! Where are you, boy?"
 ^0e7
 
 After the death of Brorn, his beloved mastiff, Baron Brantifax was beset by spells of sleepwalking, during which he would wander about the chalet looking for his lost hound. The servants mistook his sleepwalking for temporary madness brought on by insomnia, and they assumed he was awake at the time. He was sleepwalking when he fell down the well, and he drowned before the servants could get him out. The haunting whispers of his restless spirit terrified the staff, who fled the chalet shortly thereafter. The baron's spirit is too weak to manifest physically or cause any harm.
@@ -554,5 +553,5 @@ The lycanthropes entry in the "Monster Manual" has rules for characters afflicte
 
 > [!note] 
 > 
-> A character cursed with wereraven lycanthropy gains a Dexterity of 15 if their score isn't already higher. Attack and damage rolls for the wereraven's beak are based on whichever is higher of the character's Strength and Dexterity. The peck of a wereraven deals 1 piercing damage in raven form (no ability modifier applies to this damage), or `d4` piercing damage in hybrid form (the character's ability modifier applies to this damage). This attack carries the curse of wereraven lycanthropy.
+> A character cursed with wereraven lycanthropy gains a Dexterity of 15 if their score isn't already higher. Attack and damage rolls for the wereraven's beak are based on whichever is higher of the character's Strength and Dexterity. The peck of a wereraven deals 1 piercing damage in raven form (no ability modifier applies to this damage), or `1d4` piercing damage in hybrid form (the character's ability modifier applies to this damage). This attack carries the curse of wereraven lycanthropy.
 ^11d

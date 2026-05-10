@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-8
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Camel
+- "Camel"
 ---
-# [Camel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/camel.md)
-*Source: Monster Manual p. 320, Ghosts of Saltmarsh, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Camel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/camel.md)
+*Source: Monster Manual p. 320. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Camel"
@@ -36,13 +37,11 @@ aliases:
 "languages": ""
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) bludgeoning damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d4) bludgeoning damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "GoS"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/camel.webp"
 ```
 ^statblock

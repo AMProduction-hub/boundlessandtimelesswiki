@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Special Features; What Minor Property Does It Have
+- "Special Features; What Minor Property Does It Have"
 ---
 # Special Features; What Minor Property Does It Have
 *Source: Dungeon Master's Guide p. 141* 
 
 **What Minor Property Does It Have**
-
-`dice: [](special-features-what-minor-property-does-it-have.md#^what-minor-property-does-it-have)`
 
 | dice: d20 | Minor Property |
 |-----------|----------------|

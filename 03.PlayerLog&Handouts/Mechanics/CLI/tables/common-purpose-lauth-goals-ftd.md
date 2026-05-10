@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Common Purpose; Lauth Goals
+- "Common Purpose; Lauth Goals"
 ---
 # Common Purpose; Lauth Goals
 *Source: Fizban's Treasury of Dragons p. 47* 
 
 **Lauth Goals**
-
-`dice: [](common-purpose-lauth-goals-ftd.md#^lauth-goals)`
 
 | dice: d6 | Goal |
 |----------|------|

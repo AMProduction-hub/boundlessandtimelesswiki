@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/class/artificer
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/feat/adept-of-the-red-robes
 - ttrpg-cli/spell/level/2nd-level
@@ -15,12 +16,12 @@ tags:
 - ttrpg-cli/spell/subrace/gnome-mark-of-scribing
 classes:
 - Artificer
-- Bard
+- Bard (Magical Secrets)
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
 - Wizard
 aliases:
-- Magic Mouth
+- "Magic Mouth"
 ---
 # Magic Mouth
 *2nd-level, Illusion (ritual)*  
@@ -37,6 +38,6 @@ When that circumstance occurs, a magical mouth appears on the object and recites
 
 The triggering circumstance can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the object. For example, you could instruct the mouth to speak when any creature moves within 30 feet of the object or when a silver bell rings within 30 feet of it.
 
-**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 257. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

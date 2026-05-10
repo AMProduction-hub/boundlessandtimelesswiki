@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Physical Characteristics; Beholder Skin Texture
+- "Physical Characteristics; Beholder Skin Texture"
 ---
 # Physical Characteristics; Beholder Skin Texture
 *Source: Volo's Guide to Monsters p. 8* 
 
 **Beholder Skin Texture**
-
-`dice: [](physical-characteristics-beholder-skin-texture-vgm.md#^beholder-skin-texture)`
 
 | dice: d10 | Skin Texture |
 |-----------|--------------|

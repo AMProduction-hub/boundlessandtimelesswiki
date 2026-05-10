@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/legendary-group
 aliases:
-- Unicorn
+- "Unicorn"
 ---
 # Unicorn
 
-## Regional effects
+## Regional Effects
 _Source: Monster Manual_
 
 Transformed by the creature's celestial presence, the domain of a unicorn might include any of the following magical effects:

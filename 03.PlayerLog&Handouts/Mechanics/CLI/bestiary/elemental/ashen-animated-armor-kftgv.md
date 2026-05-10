@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ashen Animated Armor
+- "Ashen Animated Armor"
 ---
-# [Ashen Animated Armor](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/ashen-animated-armor-kftgv.md)
+# [Ashen Animated Armor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/ashen-animated-armor-kftgv.md)
 *Source: Keys from the Golden Vault p. 157*  
 
 This suit of magically animated plate armor clamors as it moves, banging and grinding like the vengeful spirit of a fallen knight.
@@ -42,7 +43,8 @@ This suit of magically animated plate armor clamors as it moves, banging and gri
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 6"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 6"
 "languages": ""
 "cr": "1"
 "traits":
@@ -62,7 +64,7 @@ This suit of magically animated plate armor clamors as it moves, banging and gri
 "actions":
   - "desc": "The armor makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) bludgeoning damage."
     "name": "Slam"
 "source":

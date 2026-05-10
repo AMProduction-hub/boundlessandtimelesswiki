@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 aliases:
-- Party at Paliset Hall
+- "Party at Paliset Hall"
 ---
 # Party at Paliset Hall
 *Source: Keys from the Golden Vault, p. 177* 
@@ -13,7 +14,7 @@ aliases:
 
 Every year during the winter solstice, [Zorhanna Adulare](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zorhanna-adulare-kftgv.md) holds a grand gala in Paliset Hall, her palatial retreat in the Feywild. The characters are hired to infiltrate the gala and steal Zorhanna's [shard solitaire](03.PlayerLog&Handouts/Mechanics/CLI/items/shard-solitaire-diamond-kftgv.md), a magical diamond with peculiar properties. As the evening unfolds, they learn that nothing is quite what it seems.
 
-![A gala at Paliset Hall att...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/089-12-001-ch12-splash.webp#center "A gala at Paliset Hall attracts not only guests from the Material Plane but also guests from the Feywild")
+![A gala at Paliset Hall attracts not only guests from the Material Plane but also guests from the Feywild](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/089-12-001-ch12-splash.webp#center)
 
 ## Adventure Background
 
@@ -144,8 +145,6 @@ As the characters pass through the village, they may encounter other gala invite
 
 **Gala Guests**
 
-`dice: [](13-party-at-paliset-hall.md#^gala-guests)`
-
 | dice: d8 | Guest |
 |----------|-------|
 | 1 | Kaden Lannis is a lonely human [noble](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md) in his twenties. He hopes to find true love in the Feywild. |
@@ -258,8 +257,6 @@ To determine the location of [Zorhanna's simulacrum](03.PlayerLog&Handouts/Mecha
 
 **Simulacrum's Location**
 
-`dice: [](13-party-at-paliset-hall.md#^simulacrums-location)`
-
 | dice: d4 | Location |
 |----------|----------|
 | 1 | Dancing in the ballroom (area P4) |
@@ -293,7 +290,7 @@ The following description assumes the characters arrive here from Loch Wynnis vi
 > Four winter wolves stand between you and Paliset Hall. After welcoming guests to the gala, the wolves insist on checking invitations once more before allowing anyone into the palace.
 ^474
 
-![A gnome adventurer acquire...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/094-12-004-gnome-adventurer.webp#center "A gnome adventurer acquires the shard solitaire necklace and a key belonging to Paliset Hall's head of staff")
+![A gnome adventurer acquires the shard solitaire necklace and a key belonging to Paliset Hall's head of staff](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/094-12-004-gnome-adventurer.webp#center)
 
 The four [winter wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/winter-wolf.md) are soon joined by the two [winter wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/winter-wolf.md) from Loch Wynnis. Each wolf can cast [see invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/see-invisibility.md) on itself once per day, enabling it to see the invisible watermarks on the guests' invitations as well as detect [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) party-crashers. The wolves are forbidden from entering Paliset Hall without a command from Zorhanna or Eliphas. If someone tries to slip past the wolves, they alert the ice mephits in area P2, which attack the offender.
 
@@ -316,7 +313,7 @@ The gala attracts not only folk from the Material Plane but guests from the Feyw
 
 ##### Guests
 
-At any given time during the gala, `d6` [nobles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md) loiter in the foyer. You can add a named guest to the foyer by rolling once on the Gala Guests table.
+At any given time during the gala, `1d6` [nobles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md) loiter in the foyer. You can add a named guest to the foyer by rolling once on the Gala Guests table.
 
 ##### Ice Mephits
 
@@ -369,9 +366,9 @@ Six [ice mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/ice-mep
 
 ##### Guests
 
-At any given time during the gala, `d8` [nobles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md) lounge in this room. You can add a named guest to the parlor by rolling once on the Gala Guests table.
+At any given time during the gala, `1d8` [nobles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md) lounge in this room. You can add a named guest to the parlor by rolling once on the Gala Guests table.
 
-![Left to Right: Rust-Colore...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/095-12-005-magic-items.webp#center "Left to Right: Rust-Colored Bag of Tricks, Serpentine Owl, Gauntlets of Ogre Power, Quiver of Ehlonna")
+![Left to Right: Rust-Colored Bag of Tricks, Serpentine Owl, Gauntlets of Ogre Power, Quiver of Ehlonna](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/095-12-005-magic-items.webp#center)
 
 #### P6: Art Gallery
 
@@ -432,7 +429,7 @@ A staircase leads to the storage cellar (area P18). This stairway is reserved fo
 
 It's a 20-foot drop from the balcony to the ballroom floor.
 
-Guests. At any given time during the gala, `d6` [nobles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md) mingle here. You can add a named guest to the ballroom by rolling once on the Gala Guests table.
+Guests. At any given time during the gala, `1d6` [nobles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md) mingle here. You can add a named guest to the ballroom by rolling once on the Gala Guests table.
 
 #### P10: Main Bedroom
 
@@ -460,7 +457,7 @@ The magic painting is a Small object with AC 11, 4 hit points, and immunity to p
 > A porcelain bathtub sits against one wall of this room, which also contains two tables stacked with clean towels, scented bars of soap, and bottles. At the back of the room, blocking a short staircase that climbs to a turret, is a ten-foot-tall marble statue of a reindeer.
 ^496
 
-The statue is a [stone golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/stone-golem.md) that guards the way to area P12. Zorhanna, her simulacrum, or someone disguised as Zorhanna can command the golem to move aside. Otherwise, the golem attacks if it takes damage or if someone tries to sneak past it into area P12. In combat, the golem uses Slow on its first turn. On subsequent turns, it makes Slam attacks with its hooves and antlers. If it is reduced to 0 hit points, the golem turns to dust, then re-forms and returns to its post `d4` hours later. After it is destroyed three times, it doesn't re-form.
+The statue is a [stone golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/stone-golem.md) that guards the way to area P12. Zorhanna, her simulacrum, or someone disguised as Zorhanna can command the golem to move aside. Otherwise, the golem attacks if it takes damage or if someone tries to sneak past it into area P12. In combat, the golem uses Slow on its first turn. On subsequent turns, it makes Slam attacks with its hooves and antlers. If it is reduced to 0 hit points, the golem turns to dust, then re-forms and returns to its post `1d4` hours later. After it is destroyed three times, it doesn't re-form.
 
 ##### Treasure
 
@@ -596,9 +593,9 @@ The easternmost closet is the one emitting light. When a character opens this cl
 
 ##### Rift
 
-The rift is a one-way portal to the extraplanar space inside the [shard solitaire](03.PlayerLog&Handouts/Mechanics/CLI/items/shard-solitaire-diamond-kftgv.md). A creature that enters the rift's space immediately disappears, then reappears in area P20 in a random unoccupied space atop the rock marked A or B on map 12.2. The rift can't be dispelled, but it disappears when the [shard solitaire](03.PlayerLog&Handouts/Mechanics/CLI/items/shard-solitaire-diamond-kftgv.md) ceases to be magical (see "The Solitaire Cracks" later in the adventure).
+The rift is a one-way portal to the extraplanar space inside the [shard solitaire](03.PlayerLog&Handouts/Mechanics/CLI/items/shard-solitaire-diamond-kftgv.md). A creature that enters the rift's space immediately disappears, then reappears in area P20in a random unoccupied space atop the rock marked A or B on map 12.2. The rift can't be dispelled, but it disappears when the [shard solitaire](03.PlayerLog&Handouts/Mechanics/CLI/items/shard-solitaire-diamond-kftgv.md) ceases to be magical (see "The Solitaire Cracks" later in the adventure).
 
-![Adventurers are trapped in...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/096-12-009-trapped-in-space.webp#center "Adventurers are trapped in the shard solitaire's extradimensional space with Zorhanna Adulare.")
+![Adventurers are trapped in the shard solitaire's extradimensional space with Zorhanna Adulare.](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/096-12-009-trapped-in-space.webp#center)
 
 #### P19: Servants' Quarters
 
@@ -606,7 +603,7 @@ This hallway has numerous doors leading to simple bedrooms for servants. All the
 
 #### P20: Inside the Solitaire Rift
 
-Each character who enters the rift in area P18 is deposited in the [shard solitaire's](03.PlayerLog&Handouts/Mechanics/CLI/items/shard-solitaire-diamond-kftgv.md) extradimensional space, appearing atop the rock marked A or B on map 12.2. Divide the party as evenly as possible among these two locations. To set the scene, read or paraphrase the following:
+Each character who enters the rift in area P18is deposited in the [shard solitaire's](03.PlayerLog&Handouts/Mechanics/CLI/items/shard-solitaire-diamond-kftgv.md) extradimensional space, appearing atop the rock marked A or B on map 12.2. Divide the party as evenly as possible among these two locations. To set the scene, read or paraphrase the following:
 
 > [!readaloud] 
 > 
@@ -670,7 +667,7 @@ If a night hag is reduced to 50 hit points or fewer, it uses [plane shift](03.Pl
 
 At some point before the end of the adventure, the Far Realm entity finally breaks free of the [shard solitaire](03.PlayerLog&Handouts/Mechanics/CLI/items/shard-solitaire-diamond-kftgv.md), causing it to crack like a walnut. Here are some suggestions for when this event might occur:
 
-- `d8` hours after the characters return to the Material Plane with the [shard solitaire](03.PlayerLog&Handouts/Mechanics/CLI/items/shard-solitaire-diamond-kftgv.md) in their possession  
+- `1d8` hours after the characters return to the Material Plane with the [shard solitaire](03.PlayerLog&Handouts/Mechanics/CLI/items/shard-solitaire-diamond-kftgv.md) in their possession  
 - If the characters are trapped in area P20 with the Far Realm entity and have no means of escape  
 - After the night hags obtain the [shard solitaire](03.PlayerLog&Handouts/Mechanics/CLI/items/shard-solitaire-diamond-kftgv.md) but before they can use their [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md) spells to escape with it  
 

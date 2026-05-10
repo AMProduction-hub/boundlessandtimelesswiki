@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Dragon Characters; Dragon Mannerisms
+- "Dragon Characters; Dragon Mannerisms"
 ---
 # Dragon Characters; Dragon Mannerisms
 *Source: Fizban's Treasury of Dragons p. 31* 
 
 **Dragon Mannerisms**
-
-`dice: [](dragon-characters-dragon-mannerisms-ftd.md#^dragon-mannerisms)`
 
 | dice: d20 | Mannerism |
 |-----------|-----------|

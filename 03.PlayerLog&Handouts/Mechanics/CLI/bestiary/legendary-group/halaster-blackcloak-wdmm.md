@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/legendary-group
 aliases:
-- Halaster Blackcloak
+- "Halaster Blackcloak"
 ---
 # Halaster Blackcloak
 
-## Lair actions
+## Lair Actions
 _Source: Waterdeep: Dungeon of the Mad Mage_
 
 On initiative count 20 (losing initiative ties), Halaster takes a lair action to cause one of the following effects:
@@ -18,7 +19,7 @@ On initiative count 20 (losing initiative ties), Halaster takes a lair action to
 - Halaster causes one door or archway within 30 feet of him to disappear and be replaced by a blank wall, or he restores a door or an archway previously removed in this way.  
 - Halaster deactivates or reactivates one of Undermountain's magic gates. The gate must be within 120 feet of him.  
 
-## Regional effects
+## Regional Effects
 _Source: Waterdeep: Dungeon of the Mad Mage_
 
 When Halaster is in Undermountain, the following effects can occur in any location within the dungeon or in any extraplanar extension of the dungeon:

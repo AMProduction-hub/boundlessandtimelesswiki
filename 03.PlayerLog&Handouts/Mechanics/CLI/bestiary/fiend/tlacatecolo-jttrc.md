@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tlacatecolo
+- "Tlacatecolo"
 ---
-# [Tlacatecolo](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/tlacatecolo-jttrc.md)
+# [Tlacatecolo](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/tlacatecolo-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 65*  
 
 Appearing as plague-stricken, bipedal owls, tlacatecolo sow sickness and feed on the suffering of mortals. These fiends spread an affliction that leaches heat and life from the living, dispersing it upon winds that rattle like a gasp from a frozen body. Sunlight staves off the disease, but those affected rarely survive the dark of night.
@@ -35,8 +36,8 @@ Appearing as plague-stricken, bipedal owls, tlacatecolo sow sickness and feed on
   - !!int "10"
 "speed": "30 ft., fly 30 ft."
 "saves":
-  - "dexterity": "+6"
-  - "constitution": "+5"
+  - "dexterity": !!int "6"
+  - "constitution": !!int "5"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
@@ -44,7 +45,8 @@ Appearing as plague-stricken, bipedal owls, tlacatecolo sow sickness and feed on
     "desc": "+6"
 "damage_resistances": "cold, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 15"
 "languages": "Abyssal, Common"
 "cr": "5"
 "traits":
@@ -54,7 +56,7 @@ Appearing as plague-stricken, bipedal owls, tlacatecolo sow sickness and feed on
 "actions":
   - "desc": "The tlacatecolo makes two Talon attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 3) piercing damage plus 14 (3d8) poison damage."
     "name": "Talon"
   - "desc": "The tlacatecolo magically transforms into a Medium owl, while retaining\

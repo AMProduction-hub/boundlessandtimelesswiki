@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Skeletal Knight
+- "Skeletal Knight"
 ---
-# [Skeletal Knight](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/skeletal-knight-dsotdq.md)
+# [Skeletal Knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeletal-knight-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 208*  
 
 Skeletal knights are powerful Undead that arise to serve even more wicked beings—often death knights. Those who become skeletal knights were typically virtuous in life but betrayed their oaths and died in disgrace. Unable to rest, they are now unswervingly loyal to the villains they serve. Should a skeletal knight's master be destroyed, the knight regains its will and is free to pursue its own ends.
@@ -37,12 +38,13 @@ Skeletal knights are relentless in battle and difficult to destroy. They cling t
   - !!int "10"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+6"
-  - "wisdom": "+5"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "5"
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "understands the languages it knew in life but can't speak"
 "cr": "7"
 "traits":
@@ -57,12 +59,12 @@ Skeletal knights are relentless in battle and difficult to destroy. They cling t
   - "desc": "The skeletal knight makes three Enervating Blade or Throwing Axe attacks\
       \ in any combination."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (3d6 + 5) necrotic damage, and if the target is a creature, it can't regain\
       \ hit points until the start of the skeletal knight's next turn."
     "name": "Enervating Blade"
-  - "desc": "Melee  or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 14 (2d8 + 5) slashing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +8 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 14 (2d8 + 5) slashing damage."
     "name": "Throwing Axe"
 "source":
   - "DSotDQ"

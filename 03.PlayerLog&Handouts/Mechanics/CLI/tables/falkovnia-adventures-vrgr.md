@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Falkovnia Adventures
+- "Falkovnia Adventures"
 ---
 # Falkovnia Adventures
 *Source: Van Richten's Guide to Ravenloft p. 103* 
 
 **Falkovnia Adventures**
-
-`dice: [](falkovnia-adventures-vrgr.md#^falkovnia-adventures)`
 
 | dice: d10 | Adventure |
 |-----------|-----------|

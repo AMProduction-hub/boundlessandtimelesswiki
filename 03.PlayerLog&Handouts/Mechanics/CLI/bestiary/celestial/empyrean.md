@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/23
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Empyrean
+- "Empyrean"
 ---
-# [Empyrean](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/empyrean.md)
-*Source: Monster Manual p. 130, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Mythic Odysseys of Theros*  
+# [Empyrean](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/empyrean.md)
+*Source: Monster Manual p. 130*  
 
 Empyreans are the celestial children of the gods of the Upper Planes. They are universally beautiful, statuesque, and self-assured.
 
@@ -48,27 +49,30 @@ Empyreans don't age but can be slain. Because few empyreans can imagine their ow
   - !!int "27"
 "speed": "50 ft., fly 50 ft., swim 50 ft."
 "saves":
-  - "strength": "+17"
-  - "intelligence": "+12"
-  - "wisdom": "+13"
-  - "charisma": "+15"
+  - "strength": !!int "17"
+  - "intelligence": !!int "12"
+  - "wisdom": !!int "13"
+  - "charisma": !!int "15"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+13"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+15"
 "damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks"
-"senses": "truesight 120 ft., passive Perception 16"
+"gear":
+  - "[maul](03.PlayerLog&Handouts/Mechanics/CLI/items/maul.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 16"
 "languages": "all"
 "cr": "23"
 "traits":
   - "desc": "The empyrean's innate spellcasting ability is Charisma (spell save DC\
       \ 23, +15 to hit with spell attacks). It can innately cast the following spells,\
-      \ requiring no material components:\n\nAt will: [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md),\
+      \ requiring no material components:\n\n**At will:** [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md),\
       \ [pass without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md),\
       \ [water breathing](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-breathing.md),\
       \ [water walk](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-walk.md)\n\n\
-      1/day each: [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md),\
+      **1/day each:** [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md),\
       \ [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md),\
       \ [earthquake](03.PlayerLog&Handouts/Mechanics/CLI/spells/earthquake.md), [fire\
       \ storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-storm.md), [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)\
@@ -82,15 +86,18 @@ Empyreans don't age but can be slain. Because few empyreans can imagine their ow
   - "desc": "The empyrean's weapon attacks are magical."
     "name": "Magic Weapons"
 "actions":
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 10 ft., one target. *Hit:*\
       \ 31 (6d6 + 10) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 15 Constitution saving throw or be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
       \ until the end of the empyrean's next turn."
     "name": "Maul"
-  - "desc": "Ranged Spell Attack: +15 to hit, range 600 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +15 to hit, range 600 ft., one target. *Hit:*\
       \ 24 (7d6) damage of one of the following types (empyrean's choice): acid,\
       \ cold, fire, force, lightning, radiant, or thunder."
     "name": "Bolt"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the empyrean can expend a use to take one of the following actions. The\
+  \ empyrean regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The empyrean makes one attack."
     "name": "Attack"
@@ -106,10 +113,6 @@ Empyreans don't age but can be slain. Because few empyreans can imagine their ow
     "name": "Trembling Strike (Costs 2 Actions)"
 "source":
   - "MM"
-  - "TftYP"
-  - "WDMM"
-  - "BGDIA"
-  - "MOT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/token/empyrean.webp"
 ```
 ^statblock

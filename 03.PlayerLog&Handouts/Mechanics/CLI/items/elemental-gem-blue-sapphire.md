@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/rarity/uncommon
 - ttrpg-cli/item/tier/minor
-aliases: 
+aliases:
 - "Elemental Gem, Blue Sapphire"
 ---
 # Elemental Gem, Blue Sapphire

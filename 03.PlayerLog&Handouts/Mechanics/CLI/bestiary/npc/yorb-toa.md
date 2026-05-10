@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Yorb
+- "Yorb"
 ---
-# [Yorb](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/yorb-toa.md)
+# [Yorb](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yorb-toa.md)
 *Source: Tomb of Annihilation p. 108*  
 
 ```statblock
@@ -33,7 +34,7 @@ aliases:
   - !!int "12"
 "speed": "25 ft., climb 25 ft."
 "saves":
-  - "dexterity": "+5"
+  - "dexterity": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+2"
@@ -45,6 +46,9 @@ aliases:
     "desc": "+2"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
 "senses": "passive Perception 12"
 "languages": "Grung"
 "cr": "2"
@@ -62,11 +66,11 @@ aliases:
       \ with or without a running start."
     "name": "Standing Leap"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d4 + 3) piercing damage, and the target must\
       \ succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage."
     "name": "Dagger"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 80/320 ft., one target. *Hit:*\
       \ 6 (1d6 + 3) piercing damage, and the target must succeed on a DC 12 Constitution\
       \ saving throw or take 5 (2d4) poison damage."
     "name": "Shortbow"

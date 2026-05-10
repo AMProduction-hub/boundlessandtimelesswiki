@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Targos
+- "Targos"
 ---
 # Targos
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 86* 
@@ -43,7 +44,7 @@ Humanoid (see "Sacrifices to Auril").
 
 - **Rivals.** Bremen, Lonelywood, Termalaine.  
 
-![Speaker Naerth Maxildanarr...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/074-01-037-speaker-naerth.webp#center "Speaker Naerth Maxildanarr feeds his flying snakes while Captain Skath looks on")
+![Speaker Naerth Maxildanarr feeds his flying snakes while Captain Skath looks on](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/074-01-037-speaker-naerth.webp#center)
 
 ## Overland Travel
 
@@ -219,7 +220,7 @@ Assuming he survives the encounter with the crag cats, Garret makes it known tha
 
 At this point, the characters must zigzag their way up the mountain, clinging to narrow ledges and scaling icy cliffs. To pass all these obstacles, the party must make three successful DC 10 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) group checks. If a group check fails, the party wastes 1 hour making no progress, and each party member who failed the check gains one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion).
 
-![A mountain climber meets h...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/079-01-038-mountain-climber.webp#center "A mountain climber meets his doom on the slopes of Kelvin's Cairn")
+![A mountain climber meets his doom on the slopes of Kelvin's Cairn](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/079-01-038-mountain-climber.webp#center)
 
 #### Frozen Cave
 
@@ -260,7 +261,7 @@ Against one wall, hidden under the shattered remains of a dogsled, is a mess kit
 
 As the characters leave the yeti cave, the male adult [yeti](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yeti.md) returns home with a dead mountain goat tucked under one arm. Under normal circumstances, the male yeti is hostile, but a character with the Littlest Yeti secret (see appendix B) can improve the yeti's attitude. If no one has this secret but the characters have the yeti tyke with them, they can trade the tyke for safe passage up or down the mountain.
 
-![Here lie the bodies of Ast...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/080-01-039-astrix.webp#center "Here lie the bodies of Astrix the tiefling and an ill-fated mountaineer known only as Blue Boots")
+![Here lie the bodies of Astrix the tiefling and an ill-fated mountaineer known only as Blue Boots](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/080-01-039-astrix.webp#center)
 
 #### Ruined Camp
 

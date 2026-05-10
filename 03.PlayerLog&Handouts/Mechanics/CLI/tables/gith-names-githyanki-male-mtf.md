@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Gith Names – Githyanki, Male
+- "Gith Names – Githyanki, Male"
 ---
 # Gith Names – Githyanki, Male
 *Source: Mordenkainen's Tome of Foes p. 97* 
 
 **Gith Names – Githyanki, Male**
-
-`dice: [](gith-names-githyanki-male-mtf.md#^gith-names-githyanki-male)`
 
 | dice: d10 | Name |
 |-----------|------|

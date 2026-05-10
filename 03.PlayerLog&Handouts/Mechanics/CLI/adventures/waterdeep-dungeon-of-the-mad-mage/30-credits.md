@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Credits
+- "Credits"
 ---
 # Credits
 *Source: Waterdeep: Dungeon of the Mad Mage* 
@@ -43,4 +44,7 @@ aliases:
     ———. *Undermountain: The Lost Level*. 1996.  
 
     Sernett, Matt and Shawn Merwin. *Halls of Undermountain*. 2012.  
-- Special thanks to the hundreds of playtesters whose feedback made this latest incarnation of Undermountain more fun at every turn.
+- Special thanks to the hundreds of playtesters whose feedback made this latest incarnation of Undermountain more fun at every turn.  
+
+> [!note]
+> Disclaimer: The Mad Mage of Undermountain is not seeing visitors right now. Don't come down because, uh, we're renovating and everything is a mess. You won't find any treasure, and the buffet is closed until further notice. Ye gods, where did all these githyanki come from? As if the mind flayers weren't bad enough. What's that? You think you can plunder my home and get away with it? Ha! You don't have the experience points.

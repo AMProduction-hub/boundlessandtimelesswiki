@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/item/gear/
 - ttrpg-cli/item/rarity/none
-aliases: 
+aliases:
 - "Witherbloom Trinket"
 ---
 # Witherbloom Trinket
@@ -16,8 +17,6 @@ aliases:
 When you make your character, you may roll once on the Witherbloom Trinkets table, instead of on the [Trinkets table](03.PlayerLog&Handouts/Mechanics/CLI/items/trinket.md) in the "Player's Handbook", for your starting trinket.
 
 **Witherbloom Trinkets**
-
-`dice: [](witherbloom-trinket-scc.md#^witherbloom-trinkets)`
 
 | dice: d6 | Trinket |
 |----------|---------|

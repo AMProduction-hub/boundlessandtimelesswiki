@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Gnoll Names
+- "Gnoll Names"
 ---
 # Gnoll Names
 *Source: Volo's Guide to Monsters p. 36* 
 
 **Gnoll Names**
-
-`dice: [](gnoll-names-vgm.md#^gnoll-names)`
 
 | dice: d12 | Name |
 |-----------|------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/monster/cr/14
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Thessalkraken
+- "Thessalkraken"
 ---
-# [Thessalkraken](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/thessalkraken-imr.md)
+# [Thessalkraken](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/thessalkraken-imr.md)
 *Source: Infernal Machine Rebuild p. 87*  
 
 The alchemist Thessalar created unknown numbers of misshapen magical creatures, including his many thessalbeasts. Among the largest was the thessalkraken—a slightly smaller variant of the legendary kraken, resembling that great tentacled titan but with a jagged-toothed maw that drips constantly with acid.
@@ -38,16 +39,17 @@ A thessalkraken lives in the dark depths, usually a sunken rift or a cavern fill
   - !!int "17"
 "speed": "20 ft., swim 60 ft."
 "saves":
-  - "strength": "+12"
-  - "dexterity": "+5"
-  - "constitution": "+10"
-  - "intelligence": "+9"
-  - "wisdom": "+7"
+  - "strength": !!int "12"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "10"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "7"
 "damage_immunities": "acid; bludgeoning, piercing, slashing from nonmagical attacks"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)"
-"senses": "truesight 120 ft., passive Perception 12"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 12"
 "languages": "understands Abyssal, Celestial, Infernal, and Primordial but can't speak,\
   \ telepathy 120 ft."
 "cr": "14"
@@ -63,9 +65,9 @@ A thessalkraken lives in the dark depths, usually a sunken rift or a cavern fill
   - "desc": "The thessalkraken makes one bite attack and two tentacle attacks. It\
       \ can replace each tentacle attack with one use of Fling."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
-      \ 20 (3d8 + 7) piercing damage plus 5 (d10) acid damage. If the target is\
-      \ a Medium or smaller creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
+      \ 20 (3d8 + 7) piercing damage plus 5 (1d10) acid damage. If the target\
+      \ is a Medium or smaller creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ by the thessalkraken, that creature is swallowed, and the grapple ends. While\
       \ swallowed, the creature is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
       \ and [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
@@ -79,7 +81,7 @@ A thessalkraken lives in the dark depths, usually a sunken rift or a cavern fill
       \ swallowed creature is no longer [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ by it and can escape from the corpse using 10 feet of movement, exiting [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 20 ft., one target. *Hit:*\
       \ 17 (3d6 + 7) slashing damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 16). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
       \ The thessalkraken has ten tentacles, each of which can grapple one target."
@@ -87,7 +89,7 @@ A thessalkraken lives in the dark depths, usually a sunken rift or a cavern fill
   - "desc": "One Medium or smaller object held or creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ by the thessalkraken is thrown up to 40 feet in a random direction and knocked\
       \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). If\
-      \ a thrown target strikes a solid surface, the target takes 3 (d6) bludgeoning\
+      \ a thrown target strikes a solid surface, the target takes 3 (1d6) bludgeoning\
       \ damage for every 10 feet it was thrown. If the target is thrown at another\
       \ creature, that creature must succeed on a DC 16 Dexterity saving throw or\
       \ take the same damage and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
@@ -97,6 +99,23 @@ A thessalkraken lives in the dark depths, usually a sunken rift or a cavern fill
       \ saving throw, taking 22 (4d10) acid damage on a failed save, or half as\
       \ much damage on a successful one."
     "name": "Acid Saliva (Recharge 5-6)"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), the thessalkraken takes\
+      \ a lair action to cause one of the following magical effects:\n\n- A strong\
+      \ current moves through the thessalkraken's lair. Each creature within 60 feet\
+      \ of the thessalkraken must succeed on a DC 18 Strength saving throw or be pushed\
+      \ up to 60 feet away from the thessalkraken. On a success, the creature is pushed\
+      \ 10 feet away from the thessalkraken.  \n- Creatures in the water within 60\
+      \ feet of the thessalkraken have vulnerability to acid damage until initiative\
+      \ count 20 on the next round.  \n- The alluring gleam of treasure beneath the\
+      \ water in the thessalkraken's lair compels potential victims to draw near.\
+      \ Each creature within 120 feet of the thessalkraken must succeed on a DC 18\
+      \ Wisdom saving throw or move 10 feet closer to the thessalkraken if able to\
+      \ do so.  "
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the thessalkraken can expend a use to take one of the following actions.\
+  \ The thessalkraken regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The thessalkraken makes one tentacle attack."
     "name": "Tentacle Attack"
@@ -110,21 +129,6 @@ A thessalkraken lives in the dark depths, usually a sunken rift or a cavern fill
       \ on a successful one. A strong current disperses the cloud, which otherwise\
       \ disappears at the end of the thessalkraken's next turn."
     "name": "Ink Cloud (Costs 3 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), the thessalkraken takes\
-      \ a lair action to cause one of the following magical effects:"
-    "name": ""
-  - "desc": "- A strong current moves through the thessalkraken's lair. Each creature\
-      \ within 60 feet of the thessalkraken must succeed on a DC 18 Strength saving\
-      \ throw or be pushed up to 60 feet away from the thessalkraken. On a success,\
-      \ the creature is pushed 10 feet away from the thessalkraken.  \n- Creatures\
-      \ in the water within 60 feet of the thessalkraken have vulnerability to acid\
-      \ damage until initiative count 20 on the next round.  \n- The alluring gleam\
-      \ of treasure beneath the water in the thessalkraken's lair compels potential\
-      \ victims to draw near. Each creature within 120 feet of the thessalkraken must\
-      \ succeed on a DC 18 Wisdom saving throw or move 10 feet closer to the thessalkraken\
-      \ if able to do so.  "
-    "name": ""
 "source":
   - "IMR"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/thessalkraken-imr.webp"

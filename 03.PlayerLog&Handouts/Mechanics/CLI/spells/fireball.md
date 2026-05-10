@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/3rd-level
@@ -17,7 +18,7 @@ tags:
 - ttrpg-cli/spell/subclass/the-genie
 classes:
 - Artificer (Artillerist)
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Light Domain)
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
@@ -26,7 +27,7 @@ classes:
 - Warlock (The Genie)
 - Wizard
 aliases:
-- Fireball
+- "Fireball"
 ---
 # Fireball
 *3rd-level, Evocation*  
@@ -41,8 +42,8 @@ A bright streak flashes from your pointing finger to a point you choose within r
 
 The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage increases by `d6` for each slot level above 3rd.
+**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage increases by `1d6` for each slot level above 3rd.
 
-**Classes**: [Artificer (Artillerist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artillerist-tce.md "subclass=TCE;class=TCE"); [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Cleric (Light Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-light-domain.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Warlock (The Fiend)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-fiend.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
+**Classes**: [Artificer (Artillerist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artillerist-tce.md "subclass=TCE;class=TCE"); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Light Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-light-domain.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock (The Fiend)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-fiend.md); [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 241. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

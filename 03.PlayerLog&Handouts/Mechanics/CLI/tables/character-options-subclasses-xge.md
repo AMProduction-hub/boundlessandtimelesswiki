@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Character Options; Subclasses
+- "Character Options; Subclasses"
 ---
 # Character Options; Subclasses
 *Source: Xanathar's Guide to Everything p. 7* 

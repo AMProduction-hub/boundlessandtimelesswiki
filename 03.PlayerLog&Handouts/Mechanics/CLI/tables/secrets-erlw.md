@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Secrets
+- "Secrets"
 ---
 # Secrets
 *Source: Eberron: Rising from the Last War p. 78* 
 
 **Secrets**
-
-`dice: [](secrets-erlw.md#^secrets)`
 
 | dice: d6 | Secret |
 |----------|--------|

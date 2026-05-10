@@ -1,19 +1,20 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/6th-level
 - ttrpg-cli/spell/school/evocation
 - ttrpg-cli/spell/subclass/arcana-domain
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Arcana Domain)
 - Wizard
 aliases:
-- Contingency
+- "Contingency"
 ---
 # Contingency
 *6th-level, Evocation*  
@@ -30,6 +31,6 @@ The contingent spell takes effect immediately after the circumstance is met for 
 
 The contingent spell takes effect only on you, even if it can normally target others. You can use only one contingency spell at a time. If you cast this spell again, the effect of another contingency spell on you ends. Also, contingency ends on you if its material component is ever not on your person.
 
-**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 227. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

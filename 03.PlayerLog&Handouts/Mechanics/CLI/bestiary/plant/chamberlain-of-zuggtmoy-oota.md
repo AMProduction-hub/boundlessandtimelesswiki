@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Chamberlain of Zuggtmoy
+- "Chamberlain of Zuggtmoy"
 ---
-# [Chamberlain of Zuggtmoy](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/chamberlain-of-zuggtmoy-oota.md)
+# [Chamberlain of Zuggtmoy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/chamberlain-of-zuggtmoy-oota.md)
 *Source: Out of the Abyss p. 230*  
 
 ```statblock
@@ -33,7 +34,8 @@ aliases:
   - !!int "12"
 "speed": "20 ft."
 "damage_resistances": "bludgeoning, piercing"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "Abyssal, Undercommon"
 "cr": "2"
 "traits":
@@ -49,7 +51,7 @@ aliases:
 "actions":
   - "desc": "The chamberlain makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) bludgeoning damage."
     "name": "Slam"
   - "desc": "The chamberlain releases spores that burst out in a cloud that fills\

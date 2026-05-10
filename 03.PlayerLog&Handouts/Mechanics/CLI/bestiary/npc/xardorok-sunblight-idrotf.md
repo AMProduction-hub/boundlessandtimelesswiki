@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Xardorok Sunblight
+- "Xardorok Sunblight"
 ---
-# [Xardorok Sunblight](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/xardorok-sunblight-idrotf.md)
+# [Xardorok Sunblight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/xardorok-sunblight-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 287*  
 
 Xardorok Sunblight leads the Sunblight clan of duergar which, until recently, dwelled in the subterranean depths beneath the Spine of the World. In the guise of Deep Duerra, the duergar god of conquest, the archdevil Asmodeus visited Xardorok and urged him to conquer Icewind Dale, beginning with Ten-Towns.
@@ -48,8 +49,8 @@ Xardorok wears the following nonmagical items fashioned from chardalyn: a nine-s
   - !!int "18"
 "speed": "25 ft."
 "saves":
-  - "wisdom": "+4"
-  - "charisma": "+7"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+4"
@@ -58,15 +59,16 @@ Xardorok wears the following nonmagical items fashioned from chardalyn: a nine-s
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+7"
 "damage_resistances": "poison"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": "Common, Dwarvish"
 "cr": "5"
 "traits":
   - "desc": "Xardorok's innate spellcasting ability is Charisma (spell save DC 15,\
       \ +7 to hit with spell attacks). He can innately cast the following spells,\
-      \ requiring no material components:\n\nAt will: [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md)\
+      \ requiring no material components:\n\n**At will:** [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md)\
       \ (see \"Actions\" below), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\
-      \n1/day each: [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
+      \n**1/day each:** [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
     "name": "Innate Spellcasting"
   - "desc": "Xardorok has advantage on saving throws against poison, spells, and illusions,\
@@ -81,11 +83,11 @@ Xardorok wears the following nonmagical items fashioned from chardalyn: a nine-s
   - "desc": "Xardorok attacks twice with a weapon or casts [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md)\
       \ twice."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) piercing damage, or 8 (2d4 + 3) piercing damage while Xardorok\
       \ is enlarged."
     "name": "Spiked Gauntlet"
-  - "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +7 to hit, range 120 ft., one creature. *Hit:*\
       \ 9 (1d10 + 4) force damage."
     "name": "Eldritch Blast (Cantrip)"
   - "desc": "For 1 minute, Xardorok magically increases in size, along with anything\

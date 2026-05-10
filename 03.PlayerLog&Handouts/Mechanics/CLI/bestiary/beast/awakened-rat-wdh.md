@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Awakened Rat
+- "Awakened Rat"
 ---
-# [Awakened Rat](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/awakened-rat-wdh.md)
+# [Awakened Rat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/awakened-rat-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 102*  
 
 ```statblock
@@ -31,7 +32,8 @@ aliases:
   - !!int "10"
   - !!int "4"
 "speed": "20 ft."
-"senses": "darkvision 30 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 30 ft., passive Perception 10"
 "languages": "Common"
 "cr": "0"
 "traits":
@@ -39,7 +41,7 @@ aliases:
       \ checks that rely on smell."
     "name": "Keen Smell"
 "actions":
-  - "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1\
       \ piercing damage."
     "name": "Bite"
 "source":

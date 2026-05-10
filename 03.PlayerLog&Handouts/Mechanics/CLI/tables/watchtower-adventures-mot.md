@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Watchtower Adventures
+- "Watchtower Adventures"
 ---
 # Watchtower Adventures
 *Source: Mythic Odysseys of Theros p. 138* 
 
 **Watchtower Adventures**
-
-`dice: [](watchtower-adventures-mot.md#^watchtower-adventures)`
 
 | dice: d10 | Adventure Goal |
 |-----------|----------------|

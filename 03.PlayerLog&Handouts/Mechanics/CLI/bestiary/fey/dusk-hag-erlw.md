@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/6
@@ -9,16 +10,14 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dusk Hag
+- "Dusk Hag"
 ---
-# [Dusk Hag](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/dusk-hag-erlw.md)
+# [Dusk Hag](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/dusk-hag-erlw.md)
 *Source: Eberron: Rising from the Last War p. 292*  
 
 Dusk hags resemble gnarled crones with shriveled orange skin, tangled gray hair, and eyes that burn like hot coals. They see visions of the future in their dreams, and their dark magic allows them to influence the dreams of others, sending messages or inflicting nightmares with a touch. Tales talk of ambitious wizards, frantic monarchs, and desperate heroes undertaking quests or making bargains with a dusk hag in exchange for its prophecies and visions of the future. But the information gained from a dusk hag often has a way of causing more pain than joy. Like all hags, dusk hags enjoy causing strife to those who bargain with them, and find ways to twist and turn promises to their own advantage. The Dusk Hag Prophecies table provides examples of the sort of dreams dusk hags might share with unsuspecting sleepers.
 
 **Dusk Hag Prophecies**
-
-`dice: [](dusk-hag-erlw.md#^dusk-hag-prophecies)`
 
 | dice: d10 | Prophecy |
 |-----------|----------|
@@ -53,8 +52,8 @@ Dusk hags resemble gnarled crones with shriveled orange skin, tangled gray hair,
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+6"
-  - "wisdom": "+6"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+7"
@@ -64,18 +63,19 @@ Dusk hags resemble gnarled crones with shriveled orange skin, tangled gray hair,
     "desc": "+6"
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "blindsight 60 ft., passive Perception 16"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., passive Perception 16"
 "languages": "Common, Giant, Infernal"
 "cr": "6"
 "traits":
   - "desc": "The hag's spellcasting ability is Charisma (spell save DC 15). She can\
       \ innately cast the following spells, requiring no material components:\n\n\
-      At will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      **At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md)\n\
-      \n3/day each: [dream](03.PlayerLog&Handouts/Mechanics/CLI/spells/dream.md),\
+      \n**3/day each:** [dream](03.PlayerLog&Handouts/Mechanics/CLI/spells/dream.md),\
       \ [hypnotic pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md),\
-      \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md) (9d8)\n\n1/day\
-      \ each: [legend lore](03.PlayerLog&Handouts/Mechanics/CLI/spells/legend-lore.md),\
+      \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md) (9d8)\n\n**1/day\
+      \ each:** [legend lore](03.PlayerLog&Handouts/Mechanics/CLI/spells/legend-lore.md),\
       \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)"
     "name": "Innate Spellcasting"
   - "desc": "The hag has advantage on saving throws against spells and other magical\
@@ -84,14 +84,14 @@ Dusk hags resemble gnarled crones with shriveled orange skin, tangled gray hair,
 "actions":
   - "desc": "The hag makes two Nightmare Touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage."
     "name": "Claws"
-  - "desc": "Melee Spell Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +7 to hit, reach 5 ft., one creature. *Hit:*\
       \ 18 (4d6 + 4) psychic damage. If the target is [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious),\
       \ it takes an extra 10 (3d6) psychic damage and is cursed until the hag dies\
       \ or the curse is removed. The cursed creature's hit point maximum decreases\
-      \ by 5 (d10) whenever it finishes a long rest."
+      \ by 5 (1d10) whenever it finishes a long rest."
     "name": "Nightmare Touch"
 "reactions":
   - "desc": "When an [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\

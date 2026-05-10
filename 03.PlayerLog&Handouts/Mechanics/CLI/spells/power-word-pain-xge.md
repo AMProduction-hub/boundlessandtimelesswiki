@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xge
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
@@ -11,13 +12,13 @@ tags:
 - ttrpg-cli/spell/school/enchantment
 - ttrpg-cli/spell/subclass/arcana-domain
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Arcana Domain)
 - Sorcerer
 - Warlock
 - Wizard
 aliases:
-- Power Word Pain
+- "Power Word Pain"
 ---
 # Power Word Pain
 *7th-level, Enchantment*  
@@ -34,6 +35,6 @@ While the target is affected by crippling pain, any speed it has can be no highe
 
 A target suffering this pain can make a Constitution saving throw at the end of each of its turns. On a successful save, the pain ends.
 
-**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Xanathar's Guide to Everything p. 163*

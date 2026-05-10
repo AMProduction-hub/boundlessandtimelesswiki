@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Belak the Outcast
+- "Belak the Outcast"
 ---
-# [Belak the Outcast](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/belak-the-outcast-tftyp.md)
+# [Belak the Outcast](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/belak-the-outcast-tftyp.md)
 *Source: Tales from the Yawning Portal p. 9*  
 
 ```statblock
@@ -40,24 +41,26 @@ aliases:
     "desc": "+3"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
+"gear":
+  - "[quarterstaff](03.PlayerLog&Handouts/Mechanics/CLI/items/quarterstaff.md)"
 "senses": "passive Perception 14"
 "languages": "Druidic plus any two languages"
 "cr": "2"
 "traits":
   - "desc": "The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom\
       \ (spell save DC 12, +4 to hit with spell attacks). It has the following druid\
-      \ spells prepared:\n\nCantrips (at will): [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
+      \ spells prepared:\n\n**Cantrips (at will):** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
       \ [poison spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md),\
       \ [shillelagh](03.PlayerLog&Handouts/Mechanics/CLI/spells/shillelagh.md)\n\n\
-      1st level (4 slots): [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
+      **1st level (4 slots):** [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md), [faerie\
       \ fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [barkskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/barkskin.md),\
+      \n**2nd level (3 slots):** [barkskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/barkskin.md),\
       \ [flaming sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/flaming-sphere.md)"
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach\
-      \ 5 ft., one target. Hit: 3 (d6) bludgeoning damage, or 6 (1d8 + 2) bludgeoning\
+  - "desc": "*Melee Weapon Attack:* +2 to hit (+4 to hit with shillelagh), reach\
+      \ 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, or 6 (1d8 + 2) bludgeoning\
       \ damage with shillelagh or if wielded with two hands."
     "name": "Quarterstaff"
 "source":

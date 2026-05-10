@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/28
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Rak Tulkhesh
+- "Rak Tulkhesh"
 ---
-# [Rak Tulkhesh](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/rak-tulkhesh-erlw.md)
+# [Rak Tulkhesh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rak-tulkhesh-erlw.md)
 *Source: Eberron: Rising from the Last War p. 303*  
 
 Called the Rage of War, Rak Tulkhesh is the incarnation of impulses that drives many mortals to battle. Fear, greed, hatred—these are seeds that the Rage of War sows in the hopes of producing a bloody harvest.
@@ -57,10 +58,10 @@ Some thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh 
   - !!int "26"
 "speed": "40 ft., climb 40 ft., fly 80 ft."
 "saves":
-  - "strength": "+17"
-  - "constitution": "+16"
-  - "wisdom": "+14"
-  - "charisma": "+16"
+  - "strength": !!int "17"
+  - "constitution": !!int "16"
+  - "wisdom": !!int "14"
+  - "charisma": !!int "16"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+17"
@@ -76,16 +77,17 @@ Some thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh 
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "truesight 120 ft., passive Perception 24"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 24"
 "languages": "all, telepathy 120 ft."
 "cr": "28"
 "traits":
   - "desc": "Rak Tulkhesh's spellcasting ability is Charisma (spell save DC 24). He\
       \ can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \n**At will:** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [spirit guardians](03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-guardians.md)\n\
-      \n1/day each: [banishing smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishing-smite.md),\
+      \n**1/day each:** [banishing smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishing-smite.md),\
       \ [blinding smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/blinding-smite.md),\
       \ [staggering smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/staggering-smite.md)"
     "name": "Innate Spellcasting"
@@ -104,11 +106,11 @@ Some thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh 
 "actions":
   - "desc": "Rak Tulkhesh makes four weapon attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 10 ft., one target. *Hit:*\
       \ 28 (3d12 + 9) force damage."
     "name": "Spawned Melee Weapon"
-  - "desc": "Ranged Weapon Attack: +12 to hit, range 150/600 ft., one target.\
-      \ Hit: 17 (3d8 + 4) force damage."
+  - "desc": "*Ranged Weapon Attack:* +12 to hit, range 150/600 ft., one target.\
+      \ *Hit:* 17 (3d8 + 4) force damage."
     "name": "Spawned Ranged Weapon"
   - "desc": "Rak Tulkhesh magically polymorphs into a humanoid, beast, or giant that\
       \ has a challenge rating no higher than his own, or back into his true form.\
@@ -120,6 +122,9 @@ Some thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh 
       \ those of the new form, except any class features or legendary actions of that\
       \ form."
     "name": "Change Shape"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Rak Tulkhesh can expend a use to take one of the following actions. Rak\
+  \ Tulkhesh regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Rak Tulkhesh makes one weapon attack."
     "name": "Attack"

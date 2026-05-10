@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kieren
+- "Kieren"
 ---
-# [Kieren](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/kieren-tftyp.md)
+# [Kieren](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kieren-tftyp.md)
 *Source: Tales from the Yawning Portal p. 157*  
 
 ```statblock
@@ -32,12 +33,14 @@ aliases:
   - !!int "10"
   - !!int "10"
 "speed": "30 ft."
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "0"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) bludgeoning damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d4) bludgeoning damage."
     "name": "Club"
 "source":
   - "TftYP"

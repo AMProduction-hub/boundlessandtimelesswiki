@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/gear/spellcasting-focus
 - ttrpg-cli/item/rarity/common
-aliases: 
+aliases:
 - "Orb of Shielding"
 ---
 # Orb of Shielding
@@ -17,7 +18,7 @@ aliases:
 
 An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you're a spellcaster, you can use this orb as a spellcasting focus.
 
-If you're holding the orb when you take damage of the type associated with the orb's material, you can use your reaction to reduce the damage by `d4` (to a minimum of 0). The materials and their associated damage types are listed in the Orb of Shielding table.
+If you're holding the orb when you take damage of the type associated with the orb's material, you can use your reaction to reduce the damage by `1d4` (to a minimum of 0). The materials and their associated damage types are listed in the Orb of Shielding table.
 
 **Orb of Shielding**
 
@@ -25,7 +26,7 @@ If you're holding the orb when you take damage of the type associated with the o
 |-----------------|-------------|
 | [Fernian basalt](03.PlayerLog&Handouts/Mechanics/CLI/items/orb-of-shielding-fernian-basalt-erlw.md) | Fire |
 | [Irian quartz](03.PlayerLog&Handouts/Mechanics/CLI/items/orb-of-shielding-irian-quartz-erlw.md) | Radiant |
-| [Kythrian skarn](03.PlayerLog&Handouts/Mechanics/CLI/items/orb-of-shielding-kythrian-skarn-erlw.md) | Acid and poison |
+| [Kythrian Skarn](03.PlayerLog&Handouts/Mechanics/CLI/items/orb-of-shielding-kythrian-skarn-erlw.md) | Acid and poison |
 | [Lamannian flint](03.PlayerLog&Handouts/Mechanics/CLI/items/orb-of-shielding-lamannian-flint-erlw.md) | Lightning and thunder |
 | [Mabaran obsidian](03.PlayerLog&Handouts/Mechanics/CLI/items/orb-of-shielding-mabaran-obsidian-erlw.md) | Necrotic |
 | [Risian shale](03.PlayerLog&Handouts/Mechanics/CLI/items/orb-of-shielding-risian-shale-erlw.md) | Cold |

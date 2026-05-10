@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Core Spawn Emissary
+- "Core Spawn Emissary"
 ---
-# [Core Spawn Emissary](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/core-spawn-emissary-egw.md)
+# [Core Spawn Emissary](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/core-spawn-emissary-egw.md)
 *Source: Explorer's Guide to Wildemount p. 286*  
 
 These airborne predators serve as assassins and sentinels for the core spawn. The terrible thrum of its insectoid wings and a chittering of mandibles announces an emissary's arrival.
@@ -45,15 +46,16 @@ The aberrant creatures known as core spawn are a subterranean breed of heralds, 
   - !!int "8"
 "speed": "40 ft., fly 60 ft. (hover)"
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+4"
-  - "charisma": "+2"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "2"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
 "damage_immunities": "psychic"
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)"
-"senses": "blindsight 30 ft., tremorsense 60 ft., passive Perception 14"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., tremorsense 60 ft., passive Perception 14"
 "languages": "telepathy 120 ft., understands Deep Speech but can't speak"
 "cr": "6"
 "traits":
@@ -63,7 +65,7 @@ The aberrant creatures known as core spawn are a subterranean breed of heralds, 
 "actions":
   - "desc": "The emissary makes three talons attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:*\
       \ 14 (2d10 + 3) slashing damage."
     "name": "Talons"
   - "desc": "The emissary emits a dreadful yet alluring hum. Each creature within\

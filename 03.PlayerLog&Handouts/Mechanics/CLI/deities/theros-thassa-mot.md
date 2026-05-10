@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/deity/theros
 - ttrpg-cli/domain/knowledge
 - ttrpg-cli/domain/tempest
-aliases: 
-- Thassa
+aliases:
+- "Thassa"
 ---
 # Thassa
 *Source: Mythic Odysseys of Theros p. 79* 
@@ -92,8 +93,6 @@ In much the same way that the sea and its secrets simply exist, Thassa trusts th
 
 **Thassa's Favor**
 
-`dice: [](theros-thassa-mot.md#^thassas-favor)`
-
 | dice: d6 | Circumstance |
 |----------|--------------|
 | 1 | You nearly drowned in a shipwreck, but Thassa answered your prayers for deliverance. |
@@ -109,8 +108,6 @@ In much the same way that the sea and its secrets simply exist, Thassa trusts th
 Following Thassa means devoting yourself to a particular way of perceiving the world. Thassa herself seldom takes a stand on moral issues, preferring to let matters play out, but her mortal champions can't usually afford to be so patient. As a follower of Thassa, consider the ideals on the Thassa's Ideals table as alternatives to those suggested for your background.
 
 **Thassa's Ideals**
-
-`dice: [](theros-thassa-mot.md#^thassas-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

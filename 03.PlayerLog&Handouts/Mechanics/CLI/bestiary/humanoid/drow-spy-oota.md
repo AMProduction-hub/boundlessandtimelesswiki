@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Drow Spy
+- "Drow Spy"
 ---
-# [Drow Spy](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/drow-spy-oota.md)
+# [Drow Spy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-spy-oota.md)
 *Source: Out of the Abyss p. 195*  
 
 ```statblock
@@ -19,7 +20,7 @@ aliases:
 "size": "Medium"
 "type": "humanoid"
 "subtype": "any race"
-"alignment": "Any alignment"
+"alignment": "Neutral Evil"
 "ac": !!int "12"
 "hp": !!int "27"
 "hit_dice": "6d8"
@@ -47,16 +48,22 @@ aliases:
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 120 ft., passive Perception 16"
-"languages": "any two languages, Elvish"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
+"languages": "any two languages, Elvish, Undercommon"
 "cr": "1"
 "traits":
-  - "desc": "The drow spy\n\nAt will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
-      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
-      \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md)"
+  - "desc": "The drow spy\n\n**At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
+      \n**1/day each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
+      \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md) (self only)"
     "name": "Innate Spellcasting"
-  - "desc": "On each of its turns, the spy can use a bonus action to take the Dash,\
-      \ Disengage, or Hide action."
+  - "desc": "On each of its turns, the spy can use a bonus action to take the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash),\
+      \ [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage),\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action."
     "name": "Cunning Action"
   - "desc": "The spy deals an extra 7 (2d6) damage when it hits a target with a\
       \ weapon attack and has advantage on the attack roll, or when the target is\
@@ -70,10 +77,10 @@ aliases:
 "actions":
   - "desc": "The spy makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Hand Crossbow"
 "source":

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Purphoros's Villains
+- "Purphoros's Villains"
 ---
 # Purphoros's Villains
 *Source: Mythic Odysseys of Theros p. 168* 
 
 **Purphoros's Villains**
-
-`dice: [](purphoross-villains-mot.md#^purphoross-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Undeath; Undead Dragon Adventure Hooks
+- "Undeath; Undead Dragon Adventure Hooks"
 ---
 # Undeath; Undead Dragon Adventure Hooks
 *Source: Fizban's Treasury of Dragons p. 41* 
 
 **Undead Dragon Adventure Hooks**
-
-`dice: [](undeath-undead-dragon-adventure-hooks-ftd.md#^undead-dragon-adventure-hooks)`
 
 | dice: d6 | Adventure Hook |
 |----------|----------------|

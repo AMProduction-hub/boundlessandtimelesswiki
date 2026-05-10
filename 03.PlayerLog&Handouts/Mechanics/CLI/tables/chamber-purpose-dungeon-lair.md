@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Chamber Purpose; Dungeon: Lair
+- "Chamber Purpose; Dungeon: Lair"
 ---
 # Chamber Purpose; Dungeon: Lair
 *Source: Dungeon Master's Guide p. 292* 
 
 **Dungeon: Lair**
-
-`dice: [](chamber-purpose-dungeon-lair.md#^dungeon-lair)`
 
 | dice: d20 | Purpose |
 |-----------|---------|

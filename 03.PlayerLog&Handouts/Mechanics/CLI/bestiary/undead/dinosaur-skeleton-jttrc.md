@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dinosaur Skeleton
+- "Dinosaur Skeleton"
 ---
-# [Dinosaur Skeleton](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/dinosaur-skeleton-jttrc.md)
+# [Dinosaur Skeleton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/dinosaur-skeleton-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 57*  
 
 These giant skeletons were unearthed shortly before the silver in the mine ran out, inspiring talk that the mine was cursed. When Teocín first joined Itzmin here, she drew on the power of Pazuzu to turn these skeletons into guardians.
@@ -41,7 +42,8 @@ These giant skeletons were unearthed shortly before the silver in the mine ran o
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": ""
 "cr": "2"
 "traits":
@@ -52,10 +54,10 @@ These giant skeletons were unearthed shortly before the silver in the mine ran o
       \ the skeleton can make one bite attack against it as a bonus action."
     "name": "Pounce"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (2d10 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage."
     "name": "Claw"
 "source":

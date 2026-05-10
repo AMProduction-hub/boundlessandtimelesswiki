@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Specter
+- "Specter"
 ---
-# [Specter](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/specter.md)
-*Source: Monster Manual p. 279, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Storm Lord's Wrath, Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Candlekeep Mysteries, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Specter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md)
+*Source: Monster Manual p. 279. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 A specter is the angry, unfettered spirit of a humanoid that has been prevented from passing to the afterlife. Specters no longer possess connections to who or what they were, yet are condemned to walk the world forever. Some are spawned when dark magic or the touch of a wraith rips a soul from a living body.
 
@@ -64,12 +65,13 @@ A specter doesn't require air, food, drink, or sleep.
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands all languages it knew in life but can't speak"
 "cr": "1"
 "traits":
   - "desc": "The specter can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
       \ an object."
     "name": "Incorporeal Movement"
   - "desc": "While in sunlight, the specter has disadvantage on attack rolls, as well\
@@ -77,7 +79,7 @@ A specter doesn't require air, food, drink, or sleep.
       \ checks that rely on sight."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 10 (3d6) necrotic damage. The target must succeed on a DC 10 Constitution\
       \ saving throw or its hit point maximum is reduced by an amount equal to the\
       \ damage taken. This reduction lasts until the creature finishes a long rest.\
@@ -85,25 +87,6 @@ A specter doesn't require air, food, drink, or sleep.
     "name": "Life Drain"
 "source":
   - "MM"
-  - "CoS"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "ToA"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "SLW"
-  - "SDW"
-  - "BGDIA"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
-  - "TCE"
-  - "CM"
-  - "JttRC"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/specter.webp"
 ```
 ^statblock

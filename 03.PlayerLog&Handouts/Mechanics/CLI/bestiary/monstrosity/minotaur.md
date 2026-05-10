@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/3
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Minotaur
+- "Minotaur"
 ---
-# [Minotaur](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/minotaur.md)
-*Source: Monster Manual p. 223, Princes of the Apocalypse, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Mythic Odysseys of Theros. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Minotaur](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/minotaur.md)
+*Source: Monster Manual p. 223. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A minotaur's roar is a savage battle cry that most civilized creatures fear. Born into the mortal realm by demonic rites, minotaurs are savage conquerors and carnivores that live for the hunt. Their brown or black fur is stained with the blood of fallen foes, and they carry the stench of death.
 
@@ -56,7 +57,10 @@ Although they begin as creations of the Horned King, minotaurs can breed true wi
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
-"senses": "darkvision 60 ft., passive Perception 17"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 17"
 "languages": "Abyssal"
 "cr": "3"
 "traits":
@@ -72,22 +76,14 @@ Although they begin as creations of the Horned King, minotaurs can breed true wi
       \ have advantage until the start of its next turn."
     "name": "Reckless"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 17\
       \ (2d12 + 4) slashing damage."
     "name": "Greataxe"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) piercing damage."
     "name": "Gore"
 "source":
   - "MM"
-  - "PotA"
-  - "ToA"
-  - "WDH"
-  - "WDMM"
-  - "BGDIA"
-  - "ERLW"
-  - "EGW"
-  - "MOT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/minotaur.webp"
 ```
 ^statblock

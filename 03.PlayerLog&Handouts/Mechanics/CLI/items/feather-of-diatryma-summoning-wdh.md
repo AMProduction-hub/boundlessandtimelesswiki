@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/rare
-aliases: 
+aliases:
 - "Feather of Diatryma Summoning"
 ---
 # Feather of Diatryma Summoning

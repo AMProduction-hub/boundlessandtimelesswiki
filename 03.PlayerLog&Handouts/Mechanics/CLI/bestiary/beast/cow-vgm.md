@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 - ttrpg-cli/monster/cr/1-4
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Cow
+- "Cow"
 ---
-# [Cow](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/cow-vgm.md)
-*Source: Volo's Guide to Monsters p. 207, Dragon of Icespire Peak*  
+# [Cow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/cow-vgm.md)
+*Source: Volo's Guide to Monsters p. 207*  
 
 There are many kinds of cattle, from common oxen to more unusual, magical variants.
 
@@ -43,12 +44,11 @@ There are many kinds of cattle, from common oxen to more unusual, magical varian
       \ piercing damage."
     "name": "Charge"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) piercing damage."
     "name": "Gore"
 "source":
   - "VGM"
-  - "DIP"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/cow-vgm.webp"
 ```
 ^statblock

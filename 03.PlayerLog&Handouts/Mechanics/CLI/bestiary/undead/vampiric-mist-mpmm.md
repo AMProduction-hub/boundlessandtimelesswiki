@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -17,9 +18,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vampiric Mist
+- "Vampiric Mist"
 ---
-# [Vampiric Mist](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/vampiric-mist-mpmm.md)
+# [Vampiric Mist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampiric-mist-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 250, Mordenkainen's Tome of Foes p. 246*  
 
 In billowing clouds of fog lurk vampiric mists, the wretched remnants of [vampires](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampire.md) that were prevented from finding rest. Indistinguishable from the mists they lurk within, they strike unseen and undetected to bleed their victims dry.
@@ -48,7 +49,7 @@ Like sharks in water, vampiric mists can scent blood from up to a mile away. Any
   - !!int "7"
 "speed": "0 ft., fly 30 ft. (hover)"
 "saves":
-  - "wisdom": "+3"
+  - "wisdom": !!int "3"
 "damage_resistances": "acid; cold; lightning; necrotic; thunder; bludgeoning, piercing,\
   \ slashing from nonmagical attacks"
 "damage_immunities": "poison"
@@ -59,7 +60,8 @@ Like sharks in water, vampiric mists can scent blood from up to a mile away. Any
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": ""
 "cr": "3"
 "traits":

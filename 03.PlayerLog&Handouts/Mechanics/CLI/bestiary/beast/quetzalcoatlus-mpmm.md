@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Quetzalcoatlus
+- "Quetzalcoatlus"
 ---
-# [Quetzalcoatlus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/quetzalcoatlus-mpmm.md)
+# [Quetzalcoatlus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/quetzalcoatlus-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 96, Volo's Guide to Monsters p. 140*  
 
 This giant relative of the pteranodon has a wingspan exceeding 30 feet. Although it can walk like a quadruped, it is more comfortable in the air.
@@ -49,7 +50,7 @@ This giant relative of the pteranodon has a wingspan exceeding 30 feet. Although
       \ when it flies out of an enemy's reach."
     "name": "Flyby"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 10 ft., one creature. *Hit:*\
       \ 12 (3d6 + 2) piercing damage. If the quetzalcoatlus flew least 30 feet toward\
       \ the target immediately before the hit, the target takes an extra 10 (3d6)\
       \ piercing damage."

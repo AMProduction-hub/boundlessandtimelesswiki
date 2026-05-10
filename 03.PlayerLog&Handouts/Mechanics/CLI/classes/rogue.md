@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/class/rogue
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Rogue
+- "Rogue"
 ---
 # Rogue
 *Source: Player's Handbook p. 94. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
@@ -133,8 +134,6 @@ What's the one form of temptation that your rogue character can't resist when th
 
 **Guilty Pleasures**
 
-`dice: [](rogue.md#^guilty-pleasures)`
-
 | dice: d6 | Pleasure |
 |----------|----------|
 | 1 | Large gems |
@@ -156,8 +155,6 @@ Does your rogue character have an adversary who also happens to be a criminal? I
 
 **Adversaries**
 
-`dice: [](rogue.md#^adversaries)`
-
 | dice: d6 | Adversary |
 |----------|-----------|
 | 1 | The pirate captain on whose ship you once served; what you call moving on, the captain calls mutiny |
@@ -176,8 +173,6 @@ Few rogues make it far in life before needing someone's help, which means therea
 If your character's backstory doesn't already include a personage of this sort, you could work with your DM to determine why a benefactor has appeared in your life. Perhaps you benefited from something your benefactor did for you without realizing who was responsible, and that person has now just become known to you. Who helped you in the past, whether or not you knew it at the time, and what do you owe that person as recompense?
 
 **Benefactors**
-
-`dice: [](rogue.md#^benefactors)`
 
 | dice: d6 | Benefactor |
 |----------|------------|
@@ -199,7 +194,7 @@ At 6th level, you can choose two more of your proficiencies (in skills or with [
 
 ### Sneak Attack (Level 1)
 
-Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra `d6` damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
+Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra `1d6` damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
 
 You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated), and you don't have disadvantage on the attack roll.
 

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Thassa's Divine Schemes
+- "Thassa's Divine Schemes"
 ---
 # Thassa's Divine Schemes
 *Source: Mythic Odysseys of Theros p. 173* 
 
 **Thassa's Divine Schemes**
-
-`dice: [](thassas-divine-schemes-mot.md#^thassas-divine-schemes)`
 
 | dice: d4 | Scheme |
 |----------|--------|

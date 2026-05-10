@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/spell/background/witherbloom-student
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
@@ -14,14 +15,14 @@ tags:
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/eldritch-knight
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Druid
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
 - Sorcerer
 - Wizard
 aliases:
-- Wither and Bloom
+- "Wither and Bloom"
 ---
 # Wither and Bloom
 *2nd-level, Necromancy*  
@@ -36,8 +37,8 @@ You invoke both death and life upon a 10-foot-radius sphere centered on a point 
 
 In addition, one creature of your choice in that area can spend and roll one of its unspent Hit Dice and regain a number of hit points equal to the roll plus your spellcasting ability modifier.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by `d6` for each slot above the 2nd, and the number of Hit Dice that can be spent and added to the healing roll increases by one for each slot above 2nd.
+**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by `1d6` for each slot above the 2nd, and the number of Hit Dice that can be spent and added to the healing roll increases by one for each slot above 2nd.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Strixhaven: A Curriculum of Chaos p. 38*

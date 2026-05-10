@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Safe House Adventures
+- "Safe House Adventures"
 ---
 # Safe House Adventures
 *Source: Guildmasters' Guide to Ravnica p. 135* 
 
 **Safe House Adventures**
-
-`dice: [](safe-house-adventures-ggr.md#^safe-house-adventures)`
 
 | dice: d12 | Adventure Goal |
 |-----------|----------------|

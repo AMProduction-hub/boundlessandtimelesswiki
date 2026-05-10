@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Shambling Mound
+- "Shambling Mound"
 ---
-# [Shambling Mound](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/shambling-mound.md)
-*Source: Monster Manual p. 270, Curse of Strahd, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Mythic Odysseys of Theros, Candlekeep Mysteries, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Shambling Mound](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/shambling-mound.md)
+*Source: Monster Manual p. 270. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 A shambling mound, sometimes called a shambler, trudges ponderously through bleak swamps, dismal marshes, and rain forests, consuming any organic matter in its path. This rotting heap of animated vegetation looms up half again as tall as a human, tapering into a faceless "head" at its top.
 
@@ -68,7 +69,8 @@ If a shambling mound faces defeat before an overwhelming foe, the root-stem can 
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 10"
 "languages": ""
 "cr": "5"
 "traits":
@@ -81,7 +83,7 @@ If a shambling mound faces defeat before an overwhelming foe, the root-stem can 
       \ or smaller target, the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14), and the shambling mound uses its Engulf on it."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) bludgeoning damage."
     "name": "Slam"
   - "desc": "The shambling mound engulfs a Medium or smaller creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
@@ -94,16 +96,6 @@ If a shambling mound faces defeat before an overwhelming foe, the root-stem can 
     "name": "Engulf"
 "source":
   - "MM"
-  - "CoS"
-  - "TftYP"
-  - "ToA"
-  - "WDMM"
-  - "GoS"
-  - "BGDIA"
-  - "MOT"
-  - "CM"
-  - "JttRC"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/shambling-mound.webp"
 ```
 ^statblock

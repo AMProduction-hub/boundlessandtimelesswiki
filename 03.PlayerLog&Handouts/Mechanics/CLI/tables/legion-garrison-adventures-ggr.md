@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Legion Garrison Adventures
+- "Legion Garrison Adventures"
 ---
 # Legion Garrison Adventures
 *Source: Guildmasters' Guide to Ravnica p. 132* 
 
 **Legion Garrison Adventures**
-
-`dice: [](legion-garrison-adventures-ggr.md#^legion-garrison-adventures)`
 
 | dice: d12 | Adventure Goal |
 |-----------|----------------|

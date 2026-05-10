@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Baba Lysaga's Creeping Hut
+- "Baba Lysaga's Creeping Hut"
 ---
-# [Baba Lysaga's Creeping Hut](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/baba-lysagas-creeping-hut-cos.md)
+# [Baba Lysaga's Creeping Hut](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/baba-lysagas-creeping-hut-cos.md)
 *Source: Curse of Strahd p. 226*  
 
 Baba Lysaga built a hut atop the rotting stump of a giant tree that was felled long ago. It was only after she embedded a magic gemstone in the hut that the whole thing was imbued with a semblance of life. When she wills it to do so, the hut pulls its gigantic roots free of the earth and shambles around like a spidery behemoth, shaking the ground with every step. The hut attacks with its flailing and stomping roots. It can also use its roots to fling large rocks.
@@ -45,9 +46,9 @@ Removing the gem from the hut renders the hut [incapacitated](03.PlayerLog&Hando
   - !!int "3"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+9"
-  - "wisdom": "+0"
-  - "charisma": "+0"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "0"
+  - "charisma": !!int "0"
 "damage_immunities": "poison, psychic"
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
@@ -56,7 +57,8 @@ Removing the gem from the hut renders the hut [incapacitated](03.PlayerLog&Hando
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 6"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft. (blind beyond this radius), passive Perception 6"
 "languages": ""
 "cr": "11"
 "traits":
@@ -78,10 +80,10 @@ Removing the gem from the hut renders the hut [incapacitated](03.PlayerLog&Hando
   - "desc": "The hut makes three attacks with its roots. It can replace one of these\
       \ attacks with a rock attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 60 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 60 ft., one target. *Hit:*\
       \ 30 (4d10 + 8) bludgeoning damage."
     "name": "Root"
-  - "desc": "Ranged Weapon Attack: +12 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +12 to hit, range 120 ft., one target. *Hit:*\
       \ 21 (3d8 + 8) bludgeoning damage."
     "name": "Rock"
 "source":

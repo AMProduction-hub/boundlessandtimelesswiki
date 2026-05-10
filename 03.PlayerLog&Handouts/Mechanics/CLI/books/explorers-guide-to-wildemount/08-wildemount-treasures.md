@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Wildemount Treasures
+- "Wildemount Treasures"
 ---
 # Wildemount Treasures
 *Source: Explorer's Guide to Wildemount, p. 265* 
 
-![An undead knight bequeathe...](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/125-06-01.webp#center "An undead knight bequeathes its Acheron blade to a worthy tiefling adventurer, but every great treasure has its price")
+![An undead knight bequeathes its Acheron blade to a worthy tiefling adventurer, but every great treasure has its price](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/125-06-01.webp#center)
 
 > [!quote] A quote from Enchanter Yun  
 > 

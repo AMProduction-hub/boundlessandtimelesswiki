@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dc
 aliases:
-- Storm Lord's Hideout
+- "Storm Lord's Hideout"
 ---
 # Storm Lord's Hideout
 *Source: Essentials Kit: Divine Contention* 
@@ -80,7 +81,7 @@ The following locations are keyed to the map of the death knight-dreadnaught.
 
 The animated skeleton of a stone giant is lashed to the ship's bow. This creature has the statistics of a [giant skeleton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/giant-skeleton-tftyp.md) (see appendix A) that cannot move and uses the following attack in place of a scimitar:
 
-**Halberd**. *Melee Weapon Attack:* +8 to hit, reach 20 ft., one target. *Hit*: 21 (`3d10 + 5`) slashing damage.
+**Halberd**. *Melee Weapon Attack:* `+8` to hit, reach 20 ft., one target. *Hit*: 21 (`3d10 + 5`) slashing damage.
 
 Once per day, the skeleton can use its action to unleash a [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md) from its halberd, as though cast using a 5th-level spell slot.
 

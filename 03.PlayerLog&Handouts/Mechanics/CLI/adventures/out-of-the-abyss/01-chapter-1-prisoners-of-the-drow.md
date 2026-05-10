@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Chapter 1: Prisoners of the Drow
+- "Chapter 1: Prisoners of the Drow"
 ---
 # Chapter 1: Prisoners of the Drow
 *Source: Out of the Abyss, p. 4* 
 
-Deep beneath the surface of the world lies the Underdark, a realm of endless labyrinthine tunnels and caverns where the sun never shines. The Underdark is filled with races and creatures too numerous to count or list, and foremost among these are the dark elves—the drow. Hated and feared even by their fellow dwellers in darkness, the drow raid other settlements in the Underdark as well as the surface world, taking prisoners back with them. Rendered [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) with drow poison, then collared and shackled, these prisoners are eventually sold as slaves or entertainment in the dark elves' subterranean cities.
+Deep beneath the surface of the world lies the Underdark, a realm of endless labyrinthine tunnels and caverns where the sun never shines. The Underdark is filled with races and creatures too numerous to count or list, and foremost among these are the dark elves—the drow. Hated and feared even by their fellow dwellers in darkness, the drow raid other settlements in the Underdark as well as the surface world, taking prisoners back with them. Rendered [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) with [drow poison](03.PlayerLog&Handouts/Mechanics/CLI/items/drow-poison.md), then collared and shackled, these prisoners are eventually sold as slaves or entertainment in the dark elves' subterranean cities.
 
 The adventurers have all had the misfortune of falling to such a fate. Captured by the drow, they are prisoners at one of the dark elves' outposts, awaiting transportation to Menzoberranzan, the City of Spiders. Whether they came into the Underdark seeking knowledge or fortune, or were just in the wrong place at the wrong time, they were ripe prey for a drow raid.
 
@@ -40,7 +41,7 @@ The characters begin the adventure in the slave pens of Velkynvelve. Stripped of
 > Captured by the drow! You wouldn't wish this fate upon anyone, yet here you are—locked in a dark cave, the cold, heavy weight of metal tight around your throat and wrists. You are not alone. Other prisoners are trapped in here with you, in an underground outpost far from the light of the sun. Your captors include a cruel drow priestess who calls herself Mistress Ilvara of House Mizzrym. Over the past several days, you've met her several times, robed in silken garments and flanked by two male drow, one of whom has a mass of scars along one side of his face and neck. Mistress Ilvara likes to impress her will with scourge in hand and remind you that your life now belongs to her. "Accept your fate, learn to obey, and you may survive." Her words echo in your memory, even as you plot your escape.
 ^004
 
-Assume that each player character has been a prisoner in Velkynvelve for `d10` days. (Roll separately for each character.) The characters spend most of this time locked in the slave pen, emerging occasionally under heavy guard to perform menial chores for their captors' amusement (see "Hard Labor").
+Assume that each player character has been a prisoner in Velkynvelve for `1d10` days. (Roll separately for each character.) The characters spend most of this time locked in the slave pen, emerging occasionally under heavy guard to perform menial chores for their captors' amusement (see "Hard Labor").
 
 Feel free to play out any interaction between the drow, the player characters, and the other prisoners. This is an opportunity to reveal who the characters are and to flesh out their backgrounds and personalities through roleplaying, even as you introduce some of their fellow prisoners. Ilvara's newest consort, Shoor, wants to impress his mistress, while Jorlan, her former consort, sullenly does his duty but casts a curious eye over the prisoners. Any hostile move is met with poisoned crossbow bolts from the drow, and possibly a strike from Ilvara's scourge or a [ray of sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md) spell. The giant spiders attack and poison anyone who attacks the drow. The drow don't kill any of the prisoners (leaving them [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) at 0 hit points) but have no compunction about beating them.
 
@@ -52,7 +53,7 @@ The prisoners are provided with clay chamber pots, and one of the duties of slav
 
 ### Scavenged Possessions
 
-The player characters have not been idle during their captivity. Have each player roll a `d20`, and add the number of days (`d10`) that player's character has been imprisoned in Velkynvelve. The result determines what, if anything, the character has in his or her possession when the adventure begins.
+The player characters have not been idle during their captivity. Have each player roll a `d20`, and add the number of days (`1d10`) that player's character has been imprisoned in Velkynvelve. The result determines what, if anything, the character has in his or her possession when the adventure begins.
 
 #### Scavenged Possessions
 
@@ -65,7 +66,7 @@ The player characters have not been idle during their captivity. Have each playe
 | 19–21 | A flawed carnelian gemstone worth 10 gp |
 | 22–24 | A rusted iron bar that can be used as a club |
 | 25–27 | A flint shard that can be used as a dagger |
-| 28–30 | A hand crossbow bolt coated with drow poison (see ""Poisons"" in chapter 8 of the *Dungeon Master's Guide*) |
+| 28–30 | A hand crossbow bolt coated with [drow poison](03.PlayerLog&Handouts/Mechanics/CLI/items/drow-poison.md) (see ""Poisons"" in chapter 8 of the *Dungeon Master's Guide*) |
 ^result-item
 
 ### Fellow Prisoners
@@ -76,15 +77,15 @@ The characters are held with ten other prisoners, captured during various raids 
 
 |    |    |
 |----|----|
-| **Buppido** | Talkative and cunning derro |
-| **Prince Derendil** | Quaggoth who claims to be a cursed elf prince |
-| **Eldeth Feldrun** | Shield dwarf scout from Gauntlgrym |
-| **Jimjar** | Deep gnome with a gambling problem |
-| **Ront** | Orc bully |
-| **Sarith Kzekarit** | Drow accused of murder |
-| **Shuushar the Awakened** | Kuo-toa hermit and mystic |
-| **Stool** | Myconid sprout |
-| **Topsy and Turvy** | Deep gnome wererat twins |
+| [Buppido](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/buppido-oota.md) | Talkative and cunning derro |
+| [Prince Derendil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/prince-derendil-oota.md) | Quaggoth who claims to be a cursed elf prince |
+| [Eldeth Feldrun](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/eldeth-feldrun-oota.md) | Shield dwarf scout from Gauntlgrym |
+| [Jimjar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jimjar-oota.md) | Deep gnome with a gambling problem |
+| [Ront](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ront-oota.md) | Orc bully |
+| [Sarith Kzekarit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sarith-kzekarit-oota.md) | Drow accused of murder |
+| [Shuushar the Awakened](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/shuushar-the-awakened-oota.md) | Kuo-toa hermit and mystic |
+| [Stool](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/stool-oota.md) | Myconid sprout |
+| [Topsy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topsy-oota.md) and [Turvy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/turvy-oota.md) | Deep gnome wererat twins |
 
 ![](03.PlayerLog&Handouts/Mechanics/CLI/adventures/out-of-the-abyss/img/001-01-01.webp#center)
 
@@ -191,13 +192,13 @@ The drow and quaggoths are cruel and capricious, but also somewhat bored and loo
 
 The characters' sleep in the slave pen is troubled and fitful, filled with strange dreams and disturbing images. Dark shadows seem to move and reach out toward them as the characters wander lost through endless mazes of tunnels. Oily tentacles slide to brush up against them, while a great buzzing and howling rises in the distance. Suppurating wounds burst open in clouds of spores or crawling masses of maggots or insects. At least one or more of the characters should wake in a cold sweat from these nightmares after every rest, feeling as though something is out there in the dark depths—something far worse than the drow.
 
-You need not explain the cause of these dreams and images at this time. Characters can chalk them up to the conditions in the slave pen, or to the aftereffects of drow poison, but they are omens of what is happening in the Underdark. Spellcasters, particularly clerics and warlocks, might be most prone to these dreams, but they can visit any or all of the characters.
+You need not explain the cause of these dreams and images at this time. Characters can chalk them up to the conditions in the slave pen, or to the aftereffects of [drow poison](03.PlayerLog&Handouts/Mechanics/CLI/items/drow-poison.md), but they are omens of what is happening in the Underdark. Spellcasters, particularly clerics and warlocks, might be most prone to these dreams, but they can visit any or all of the characters.
 
 ### Fight!
 
 Most of the other prisoners aren't looking for trouble, and even killers such as [Buppido](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/buppido-oota.md) are careful to bide their time. Still, both Derendil and [Ront](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ront-oota.md) have quick tempers, and Sarith the drow is prone to bouts of violence as Zuggtmoy's spores take over his mind. It's possible the characters could provoke a fight. If they do, some of the prisoners (including the deep gnomes) egg on the fighters while others keep their distance or even try to break up the brawl.
 
-Any violent conflict draws the attention of the drow guards, who initially order any prisoners to stand down from a fight, threatening them with hand crossbows from outside the gate. If necessary, they shoot prisoners with poisoned crossbow bolts to incapacitate them. (See "chapter 8" of the *Dungeon Master's Guide* for information on drow poison.) The guards let any fight play out for their own amusement as long as the prisoners don't seem likely to actually kill one another.
+Any violent conflict draws the attention of the drow guards, who initially order any prisoners to stand down from a fight, threatening them with hand crossbows from outside the gate. If necessary, they shoot prisoners with poisoned crossbow bolts to incapacitate them. (See "chapter 8" of the *Dungeon Master's Guide* for information on [drow poison](03.PlayerLog&Handouts/Mechanics/CLI/items/drow-poison.md).) The guards let any fight play out for their own amusement as long as the prisoners don't seem likely to actually kill one another.
 
 ### Feeding Time
 
@@ -213,8 +214,8 @@ The garrison at Velkynvelve consists of twelve [drow](03.PlayerLog&Handouts/Mech
 
 |    |    |
 |----|----|
-| **Ilvara Mizzrym** | Drow priestess and commander of the outpost |
-| **Asha Vandree** | Junior priestess |
+| [Ilvara Mizzrym](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ilvara-mizzrym-oota.md) | Drow priestess and commander of the outpost |
+| [Asha Vandree](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/asha-vandree-oota.md) | Junior priestess |
 | **Shoor Vandree** | Drow elite warrior. Ilvara's lieutenant and lover, and Asha's distant cousin |
 | **Jorlan Duskryn** | Maimed drow elite warrior. Ilvara's former lieutenant and lover. |
 
@@ -234,7 +235,7 @@ Asha is ambitious enough to know she could assume command of the outpost if anyt
 
 ### Shoor Vandree
 
-This drow elite warrior has assumed the role of Ilvara's lieutenant and lover after the injuries suffered by his predecessor, Jorlan Duskryn. Shoor is relatively young and quite arrogant for a drow male, proud of his abilities and accomplishments. He is still flush with his success in winning the favor of Ilvara and advancing his position Twithin the outpost, which shows in his swagger and the way he lords it over every other male in Velkynvelve, particularly Jorlan. Still insecure in his position, Shoor feels the need to demonstrate his skill and effectiveness to his mistress and to find ways to please her.
+This drow elite warrior has assumed the role of Ilvara's lieutenant and lover after the injuries suffered by his predecessor, Jorlan Duskryn. Shoor is relatively young and quite arrogant for a drow male, proud of his abilities and accomplishments. He is still flush with his success in winning the favor of Ilvara and advancing his position within the outpost, which shows in his swagger and the way he lords it over every other male in Velkynvelve, particularly Jorlan. Still insecure in his position, Shoor feels the need to demonstrate his skill and effectiveness to his mistress and to find ways to please her.
 
 As Ilvara's lieutenant, Shoor carries a [wand of viscid globs](03.PlayerLog&Handouts/Mechanics/CLI/items/wand-of-viscid-globs-oota.md) (see appendix B), which once belonged to Jorlan and is used to capture and restrain prisoners.
 
@@ -277,7 +278,7 @@ Three caves and two hanging towers surrounding a platform make up the main part 
 > 
 > **Stairs.** These 5-foot-wide stairs are carved into the stone sides of the cavern between several of the cave entrances.
 > 
-> **Bridges.** Bridges of spider-silk rope connect the walkways to the guard tower and the entrance to the priestess's tower. The swaying bridges are difficult terrain for non-drow.
+> **Bridges.** Bridges of spider silk rope connect the walkways to the guard tower and the entrance to the priestess's tower. The swaying bridges are difficult terrain for non-drow.
 > 
 > **Falling.** A creature pushed off the stairs, a bridge, or the edge of a platform must attempt a DC 10 Dexterity saving throw. On a failure, the creature falls, landing in the webs stretched beneath the outpost. On a successful save, a creature grabs hold of the edge and hangs there until it can climb back up with a DC 10 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check made as part of its movement. A failed Strength check means the creature is unable to move and must check again, while failure by 5 or more means a fall to the webs.
 > 
@@ -292,7 +293,7 @@ Three caves and two hanging towers surrounding a platform make up the main part 
 
 ### Areas of Velkynvelve
 
-### 1. Southern Watch Post
+#### 1. Southern Watch Post
 
 Near the southern passage from the cavern is an alcove used as a watch post.
 
@@ -300,7 +301,7 @@ Two [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) are st
 
 The drow guards are under orders to report intruders immediately, and to keep them under observation. They take no other action unless ordered or unless they see signs of a significant threat. In that case, they blow a high, shrill note on a warning trumpet to alert the whole outpost.
 
-### 2. Barracks
+#### 2. Barracks
 
 Stone steps lead from the watch post to a 1-foot-thick platform of zurkhwood (see "Fungi of the Underdark" earlier in chapter 2) extending between two of the hanging towers and into three adjoining caverns.
 
@@ -308,45 +309,45 @@ The two southernmost caves serve as barracks for the rank-and-file drow warriors
 
 One [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) is present in each of the barracks caves at any time, resting in a meditative trance. A resting drow rises at any significant light or noise, ready to attack.
 
-#### Treasure
+##### Treasure
 
 The equipment of the resting drow is stored under his pallet: a shortsword, a hand crossbow with a case of 20 hand crossbow bolts, a chain shirt, and a 100-foot coil of silk rope with a small grappling hook at the end.
 
-Each of the six chests in each barracks contains a flask of drow poison used to treat crossbow bolts (see ""Poisons"" in chapter 8 of the *Dungeon Master's Guide*). One flask has enough poison to treat 20 bolts. Each chest also contains two sets of clothing and `d4` items from the "Trinkets" table in chapter 5 of the *Player's Handbook*.
+Each of the six chests in each barracks contains a flask of [drow poison](03.PlayerLog&Handouts/Mechanics/CLI/items/drow-poison.md) used to treat crossbow bolts (see ""Poisons"" in chapter 8 of the *Dungeon Master's Guide*). One flask has enough poison to treat 20 bolts. Each chest also contains two sets of clothing and `1d4` items from the "Trinkets" table in chapter 5 of the *Player's Handbook*.
 
-### 3. Main Hall
+#### 3. Main Hall
 
 This cave serves as a gathering and eating place for the drow warriors of the outpost. It has four circular tables carved from zurkhwood, each surrounded by five chairs. Part of the hall is used as a food preparation and storage area, containing stocks of dried and fresh fungi, dried fruits, cheeses, preserved meat, and a few clay jars of spices. A heavy iron brazier provides heat for cooking along with dim light, but much of the food is served cold.
 
-At any time, there is a 25 percent chance that `d4` [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) are in the main hall eating or entertaining themselves with dice or card games. If any drow are present, `d4` [quaggoths](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/quaggoth.md) are also on hand, serving and cleaning. If there are no drow in the main hall, there is a 25 percent chance that a lone [quaggoth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/quaggoth.md) is here performing its duties.
+At any time, there is a 25 percent chance that `1d4` [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) are in the main hall eating or entertaining themselves with dice or card games. If any drow are present, `1d4` [quaggoths](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/quaggoth.md) are also on hand, serving and cleaning. If there are no drow in the main hall, there is a 25 percent chance that a lone [quaggoth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/quaggoth.md) is here performing its duties.
 
-#### Treasure
+##### Treasure
 
 There is nothing of value in the main hall apart from what the drow have on them, but characters can loot the larder for the equivalent of up to 30 days of rations, limited by what they can carry. Each day of rations for one character weighs 2 pounds.
 
-### 4. Elite Barracks
+#### 4. Elite Barracks
 
 The two hanging towers flanking the platform are the quarters of the elite warriors of the outpost, except for the commander's lieutenant (currently Shoor Vandree) who has his own quarters in the priestess's tower. Each hanging tower has two chambers, with a rope ladder running between the upper and lower chamber through a zurkhwood trapdoor. The elite warriors have finer furniture, including zurkhwood chairs and small tables around which they sit.
 
 One off-duty [drow elite warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-elite-warrior.md) rests in one of the chambers here at any given time. There is a 50 percent chance that one [quaggoth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/quaggoth.md) is also present, carrying out chores such as cleaning up or delivering water. Either reacts hostilely to intruders, but they might choose to flee and warn the outpost rather than attack, depending on the odds.
 
-#### Treasure
+##### Treasure
 
 The equipment of the resting drow warrior is stowed beneath his pallet: a shortsword, a hand crossbow with a case of 20 bolts, a chain shirt, and a 100-foot coil of silk rope with a small grappling hook at the end.
 
-Each of the chests in the four chambers contains a flask of drow poison used to treat crossbow bolts. One flask has enough poison to treat 20 bolts. Each chest also contains two changes of clothing, `2d6` sp, `d8` gp, and `d4` items from the Trinkets table in chapter 5, ""Equipment"," of the *Player's Handbook*.
+Each of the chests in the four chambers contains a flask of [drow poison](03.PlayerLog&Handouts/Mechanics/CLI/items/drow-poison.md) used to treat crossbow bolts. One flask has enough poison to treat 20 bolts. Each chest also contains two changes of clothing, `2d6` sp, `1d8` gp, and `1d4` items from the Trinkets table in chapter 5, ""Equipment"," of the *Player's Handbook*.
 
-### 5. Lift
+#### 5. Lift
 
 Attached to the edge of the barracks platform is a winch-and-basket device consisting of a large swinging arm that carries a thin cord of strong spider silk. The cord runs through a series of pulleys from a hand-cranked horizontal spool to a heavy woven basket suspended at the end. The basket is kept up on the platform except when it is in use.
 
 Two [quaggoth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/quaggoth.md) attendants remain by the lift to watch for a signal from below for the basket to be lowered. They are on guard in case anyone other than a drow or one of their own kind approaches.
 
-#### Using the Lift
+##### Using the Lift
 
 Up to four Medium creatures can fit somewhat snugly in the basket, which is swung out over the edge of the platform and lowered to the cavern floor below by turning the spool using attached handles. This requires a successful DC 18 Strength check, normally provided by two quaggoth servants (one of which makes the check while the other assists with the [Help](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Help) action). Once on the cave floor, the basket can be loaded with other passengers or up to 800 pounds of cargo, then lifted back up to the platform in the same way. It takes 4 rounds for the basket to move between the platform and the floor under normal operation.
 
-### 6. Shrine to Lolth
+#### 6. Shrine to Lolth
 
 A steep rope bridge leads from the walkway ledge to the uppermost level of the largest hanging tower, called the priestess's tower. The floor of this circular chamber is covered by dark silken mats with a pale web-strand pattern woven through them in silvery thread. In the middle of the chamber (at the center of the web) stands a broad pedestal carved from zurkhwood, with a 10-foot-high sculpted spider at its head. The carving is so lifelike that anyone initially entering the chamber and seeing it in dim light must succeed on a DC 12 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check to recognize it. On a failure, a character mistakes it for a real giant spider.
 
@@ -354,26 +355,24 @@ This place is a shrine to Lolth, the drow's spider goddess, and also serves as q
 
 Roll a `d6` when the characters enter the shrine to determine who they might meet.
 
-#### Shrine Activity
-
-`dice: [](01-chapter-1-prisoners-of-the-drow.md#^activity)`
+##### Shrine Activity
 
 | dice: d6 | Activity |
 |----------|----------|
 | 1–2 | Asha is in the room alone, resting |
-| 3–4 | Asha and `d4` [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) are engaged in worship |
+| 3–4 | Asha and `1d4` [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) are engaged in worship |
 | 5–6 | The shrine is empty |
 ^activity
 
 The back half of the chamber, behind the altar, is piled with a semicircle of pillows and cushions. Resting among these is a [giant spider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-spider.md) trained and kept by the priestesses. The cushions give the spider sufficient concealment to hide from anyone entering the tower from the front. A character must succeed on a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check contested by the spider's Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)) check to spot it before it moves.
 
-#### Treasure
+##### Treasure
 
 The altar is flanked by a pair of heavy silver candlesticks worth 25 gp each. They hold thick black candles, lit only when a ritual is being performed in the shrine.
 
 The eight "eyes" of the spider statue are eight pieces of polished jet—four small ones worth 5 gp each and four larger ones worth 10 gp each. Any non-drow who possesses these gems falls under a curse from Lolth. All spiders and spiderlike creatures attack the bearer of the stones on sight, and such creatures have advantage on checks to detect the possessor of the stones. The curse lasts until all the stones are given into the safekeeping of a drow worshiper of Lolth or the gems are subject to a [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md) spell.
 
-### 7. Ilvara's Quarters
+#### 7. Ilvara's Quarters
 
 A rope ladder leads down from the shrine into this chamber, which serves as private quarters to Mistress Ilvara, priestess of Lolth and commander of Velkynvelve.
 
@@ -381,11 +380,11 @@ Inside, the walls are hung with black mesh resembling a spider's web, extending 
 
 [Ilvara](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-priestess-of-lolth.md) retreats to her quarters for privacy, rest, and meditation. Roll a `d6`. On 1–2, the priestess is here. On a roll of 1, [Shoor Vandree](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-elite-warrior.md) is also here with her. Ilvara is furious if anyone dares to enter her quarters unbidden. If the characters catch her here, she casts [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md), [conjure animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-animals.md), or [insect plague](03.PlayerLog&Handouts/Mechanics/CLI/spells/insect-plague.md) to bedevil them while she flees and calls for help. If Shoor is with Ilvara, he attacks to cover her escape.
 
-#### Trap
+##### Trap
 
-The chest is locked, and Ilvara keeps the key in a hidden pocket on the inside of her belt. The lock is trapped with a poison needle tipped with drow poison (see ""Poisons"" in chapter 8 of the *Dungeon Master's Guide*), which is activated if any attempt is made to open the lock without the proper key. The victim takes 1 piercing damage and must succeed on a DC 13 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for 1 hour. If the saving throw fails by 5 or more, the target is also [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) while [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) in this way. A successful DC 20 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check reveals the trap. A character using thieves' tools can make a successful DC 15 Dexterity check to disarm it. Picking the lock requires thieves' tools and another successful DC 15 Dexterity check.
+The chest is locked, and Ilvara keeps the key in a hidden pocket on the inside of her belt. The lock is trapped with a poison needle tipped with [drow poison](03.PlayerLog&Handouts/Mechanics/CLI/items/drow-poison.md) (see ""Poisons"" in chapter 8 of the *Dungeon Master's Guide*), which is activated if any attempt is made to open the lock without the proper key. The victim takes 1 piercing damage and must succeed on a DC 13 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for 1 hour. If the saving throw fails by 5 or more, the target is also [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) while [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) in this way. A successful DC 20 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check reveals the trap. A character using thieves' tools can make a successful DC 15 Dexterity check to disarm it. Picking the lock requires thieves' tools and another successful DC 15 Dexterity check.
 
-#### Treasure
+##### Treasure
 
 The side table holds a small silver-framed mirror worth 10 gp. The small shrine to Lolth is carved of zurkhwood and bone, and inlaid with semiprecious stones. It is worth 50 gp if the characters can find a buyer for it.
 
@@ -393,7 +392,7 @@ The chest contains a variety of silken garments and personal items. There is a s
 
 Additionally, the chest contains any valuables once held by the characters and NPCs, including any spellbooks, components, focuses, and magic items lost to the adventurers.
 
-### 8. Shoor's Quarters
+#### 8. Shoor's Quarters
 
 The lowermost and smallest chamber of the priestess's tower belongs to the commander's lieutenant, the leader of the elite warriors of the outpost. Shoor Vandree, Ilvara's current favorite, is the present occupant. The area's former occupant, Jorlan Duskryn, has been displaced to the elite barracks after his recent injuries.
 
@@ -401,33 +400,33 @@ The chamber contains cushions laid out across floor mats, a small carved table w
 
 Shoor spends most of his off-duty time in Ilvara's quarters, attending to his mistress or awaiting her. Unless you wish him to be found here, his quarters are unoccupied.
 
-#### Trap
+##### Trap
 
 The chest is locked, and Shoor keeps the key in his belt pouch. The lock is trapped with a poison needle trap identical to the one in Ilvara's quarters.
 
-#### Treasure
+##### Treasure
 
 The table holds a pewter pitcher and a pair of matched goblets, worth a total of 1 gp.
 
-The chest contains Shoor's personal items and clothing, as well as a small purse containing 20 gp, a black velvet mask stitched with silver thread in a spiderweb pattern (worth 25 gp), a set of bone dice engraved with Elvish characters (worth 10 gp), a small black velvet bag containing a spider-shaped onyx brooch (worth 50 gp), and a flask of strong, syrupy blue liquor (worth 10 gp). The liquor leaves anyone who drinks it pleasantly [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for `d4` hours.
+The chest contains Shoor's personal items and clothing, as well as a small purse containing 20 gp, a black velvet mask stitched with silver thread in a spiderweb pattern (worth 25 gp), a set of bone dice engraved with Elvish characters (worth 10 gp), a small black velvet bag containing a spider-shaped onyx brooch (worth 50 gp), and a flask of strong, syrupy blue liquor (worth 10 gp). The liquor leaves anyone who drinks it pleasantly [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for `1d4` hours.
 
-### 9. Waterfall
+#### 9. Waterfall
 
 Water vents through a crack in the ceiling near the eastern wall between the stalactites of the priestess's tower and the guard tower, creating a small waterfall that pours down to the cavern floor and forms a natural pool (see area 14). Quaggoths gather small barrels of water from the head of the waterfall to serve the outpost's needs.
 
 The water makes the stone wall within 10 feet of it difficult to scale. Any creature attempting to do so has disadvantage on checks made to climb. Any character who falls lands in the pool below, taking no damage.
 
-### 10. Guard Tower
+#### 10. Guard Tower
 
 The fourth hanging tower, connected by rope bridges to the slave pen and the walkway alongside the priestess's tower, serves as a guard tower for observing the cavern, the western passage, and the slave pen.
 
-The lower chamber of the tower is occupied by two [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) and one [drow elite warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-elite-warrior.md) on guard duty. It contains a zurkhwood table and three chairs, a smaller side table, and spider-silk webbing set with hooks for hanging equipment.
+The lower chamber of the tower is occupied by two [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) and one [drow elite warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-elite-warrior.md) on guard duty. It contains a zurkhwood table and three chairs, a smaller side table, and spider silk webbing set with hooks for hanging equipment.
 
 As at the watch posts, guard duty here is a dull affair, and the guards are usually distracted enough (talking or passing the time with dice games) that prisoners can move or act unnoticed with a successful Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)) check contested by the guards' passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score.
 
 The tower's upper chamber stores extra arms and armor for the outpost. Characters who gain entrance to the armory can easily loot it (see "Treasure").
 
-#### Treasure
+##### Treasure
 
 The contents of the armory include the following:
 
@@ -442,13 +441,13 @@ The contents of the armory include the following:
 - 2 building hammers (not usable as weapons)  
 - 2 bags of iron spikes (10 spikes per bag)  
 
-### 11. Slave Pen
+#### 11. Slave Pen
 
 This cave is built to hold captives until they are sent to Menzoberranzan to be sold as slaves.
 
 The gate to the slave pen is kept locked. A character using thieves' tools can pick the lock with a successful DC 20 Dexterity check. A character using makeshift tools can attempt the same check but has disadvantage. A lock-picking attempt might draw the attention of the guards, requiring a Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)) check contested by the guards' passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score to carry it off without notice. Each of the guards on duty in the other areas of the outpost has a key to the gate hanging from a belt ring. Breaking the gate's lock and forcing it open requires a successful DC 20 Strength check.
 
-#### Magical Wards
+##### Magical Wards
 
 The drow have placed powerful wards on the slave pen to inhibit spellcasters and shield the area against scrying attempts.
 
@@ -456,19 +455,19 @@ Spells cast within the slave pen have no effect, and any slot or magic item char
 
 Creatures inside the slave pen can't be targeted by any divination magic or perceived through magical scrying sensors.
 
-### 12. Quaggoth Den
+#### 12. Quaggoth Den
 
 Beyond the slave pen and down a set of stone steps, this cave is used as a den by the dozen quaggoths that serve the drow of Velkynvelve. The interior is littered with nest-like mounds of debris and the scattered bones of the quaggoths' past meals.
 
-These servants of the drow use the den only to sleep and eat, with `d4` [quaggoths](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/quaggoth.md) resting here at any given time. The quaggoths attack any creature that comes into their den that isn't a drow, a spider, or one of their kind. They don't initially attack unknown quaggoths or drow on sight, but they know all those assigned to the outpost and will question strangers. Derendil and Sarith's status as prisoners is known to them.
+These servants of the drow use the den only to sleep and eat, with `1d4` [quaggoths](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/quaggoth.md) resting here at any given time. The quaggoths attack any creature that comes into their den that isn't a drow, a spider, or one of their kind. They don't initially attack unknown quaggoths or drow on sight, but they know all those assigned to the outpost and will question strangers. Derendil and Sarith's status as prisoners is known to them.
 
-### 13. Northern Watch Post
+#### 13. Northern Watch Post
 
 This small alcove just past and below the quaggoth den has the same features as the watch post at area 1.
 
 Two [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) are stationed here on watch, typically hating that duty for its proximity to the quaggoth den, the slave pen, and the pool.
 
-### 14. Pool
+#### 14. Pool
 
 Water pouring down from the waterfall at area 9 forms a 20-foot-deep pool before flowing out into an underground river that travels several miles before spilling into the Darklake. Since the drow take the water they need from the top of the waterfall, they use the pool to dump waste and garbage. Although this fouls the surface of the pool, the constant flow keeps the water beneath the surface clear.
 

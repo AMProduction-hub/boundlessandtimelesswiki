@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/rot
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Severin
+- "Severin"
 ---
-# [Severin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/severin-rot.md)
+# [Severin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/severin-rot.md)
 *Source: The Rise of Tiamat p. 92, Tyranny of Dragons p. 189*  
 
 ```statblock
@@ -33,8 +34,8 @@ aliases:
   - !!int "20"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+5"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -57,17 +58,17 @@ aliases:
     "name": "Draconic Majesty"
   - "desc": "If Severin deals fire damage to a creature while wearing the Mask of\
       \ the Dragon Queen, the target catches fire. At the start of each of its turns,\
-      \ the burning target takes 5 (d10) fire damage. A creature within reach of\
+      \ the burning target takes 5 (1d10) fire damage. A creature within reach of\
       \ the fire can use an action to extinguish it."
     "name": "Ignite Enemy"
   - "desc": "While wearing the Mask of the Dragon Queen, if Severin fails a saving\
       \ throw, he can choose to succeed instead."
     "name": "Legendary Resistance (5/Day)"
 "actions":
-  - "desc": "Melee Spell Attack: +9 to hit, reach 5 ft., one target. Hit: 18\
+  - "desc": "*Melee Spell Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 18\
       \ (4d8) fire damage."
     "name": "Burning Touch"
-  - "desc": "Ranged Spell Attack: +9 to hit, range 90 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +9 to hit, range 90 ft., one target. *Hit:*\
       \ 40 (9d8) fire damage."
     "name": "Flaming Orb"
   - "desc": "Severin chooses a point he can see within 60 feet of him. Each creature\
@@ -75,17 +76,16 @@ aliases:
       \ 18 (4d8) fire damage on a failed save, or half as much damage on a successful\
       \ one."
     "name": "Scorching Burst"
+"legendary_description": "If Severin is wearing the Mask of the Dragon Queen, he can\
+  \ take 3 legendary actions, choosing from the options listed. Only one legendary\
+  \ action option can be used at a time and only at the end of another creature's\
+  \ turn. Severin regains spent legendary actions at the start of his turn."
 "legendary_actions":
-  - "desc": "If Severin is wearing the Mask of the Dragon Queen, he can take 3 legendary\
-      \ actions, choosing from the options listed. Only one legendary action option\
-      \ can be used at a time and only at the end of another creature's turn. Severin\
-      \ regains spent legendary actions at the start of his turn."
-    "name": ""
   - "desc": "Severin makes one attack."
     "name": "Attack"
   - "desc": "Severin, along with any objects he is wearing or carrying, teleports\
       \ up to 60 feet to an unoccupied space he can see. Each creature within 5 feet\
-      \ of Severin before he teleports takes 5 (d10) fire damage."
+      \ of Severin before he teleports takes 5 (1d10) fire damage."
     "name": "Fiery Teleport (Costs 2 Actions)"
   - "desc": "Severin targets one creature he can see within 30 feet of him. The target\
       \ is wrapped in magical chains of fire and [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\

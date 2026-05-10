@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/class/warlock
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Warlock
+- "Warlock"
 ---
 # Warlock
 *Source: Player's Handbook p. 105. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
@@ -134,8 +135,6 @@ When you determine the attitude your warlock character holds toward your patron,
 
 **Patron Attitudes**
 
-`dice: [](warlock.md#^patron-attitudes)`
-
 | dice: d6 | Attitude |
 |----------|----------|
 | 1 | Your patron has guided and helped your family for generations and is kindly toward you. |
@@ -154,8 +153,6 @@ A pact can range from a loose agreement to a formal contract with lengthy, detai
 Does your character have a pact that requires you to change your behavior in an unusual or seemingly frivolous way? Even if your patron hasn't imposed such a duty on you already, that's not to say it couldn't still happen.
 
 **Special Terms**
-
-`dice: [](warlock.md#^special-terms)`
 
 | dice: d6 | Term |
 |----------|------|
@@ -176,8 +173,6 @@ If your warlock's pact comes with a binding mark, how you feel about displaying 
 
 **Binding Marks**
 
-`dice: [](warlock.md#^binding-marks)`
-
 | dice: d6 | Mark |
 |----------|------|
 | 1 | One of your eyes looks the same as one of your patron's eyes. |
@@ -194,35 +189,25 @@ If your warlock's pact comes with a binding mark, how you feel about displaying 
 
 Your arcane research and the magic bestowed on you by your patron have given you facility with spells. See "chapter 10" for the general rules of spellcasting and "chapter 11" for the warlock spell list.
 
-#### Cantrips
+**Cantrips.** You know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.
 
-You know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.
-
-#### Spell Slots
-
-The Warlock table shows how many spell slots you have to cast your warlock spells of 1st through 5th level. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.
+**Spell Slots.** The Warlock table shows how many spell slots you have to cast your warlock spells of 1st through 5th level. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.
 
 For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell [witch bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/witch-bolt.md), you must spend one of those slots, and you cast it as a 3rd-level spell.
 
-#### Spells Known of 1st Level and Higher
-
-At 1st level, you know two 1st-level spells of your choice from the warlock spell list.
+**Spells Known of 1st Level and Higher.** At 1st level, you know two 1st-level spells of your choice from the warlock spell list.
 
 The Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.
 
 Additionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.
 
-#### Spellcasting Ability
-
-Charisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.
+**Spellcasting Ability.** Charisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.
 
 <span class='abilityDc'>**Spell save DC**: your proficiency bonus + your Charisma</span>
 
 <span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Charisma</span>
 
-#### Spellcasting Focus
-
-You can use an [arcane focus](03.PlayerLog&Handouts/Mechanics/CLI/items/arcane-focus.md) as a spellcasting focus for your warlock spells.
+**Spellcasting Focus.** You can use an [arcane focus](03.PlayerLog&Handouts/Mechanics/CLI/items/arcane-focus.md) as a spellcasting focus for your warlock spells.
 
 ### Otherworldly Patron (Level 1)
 
@@ -242,9 +227,12 @@ If an eldritch invocation has prerequisites, you must meet them to learn it. You
 
 At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice.
 
+Options (choose 1):
+
 - [Pact of the Chain](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/pact-of-the-chain.md)  
 - [Pact of the Blade](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/pact-of-the-blade.md)  
 - [Pact of the Tome](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/pact-of-the-tome.md)  
+- [Pact of the Talisman](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/pact-of-the-talisman-tce.md)  
 
 ### Ability Score Improvement (Level 4)
 

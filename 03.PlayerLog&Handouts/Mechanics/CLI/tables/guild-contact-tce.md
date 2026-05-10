@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
-- Guild Contact
+- "Guild Contact"
 ---
 # Guild Contact
 *Source: Tasha's Cauldron of Everything p. 94* 
 
 **Guild Contact**
-
-`dice: [](guild-contact-tce.md#^guild-contact)`
 
 | dice: d6 | Contact |
 |----------|---------|

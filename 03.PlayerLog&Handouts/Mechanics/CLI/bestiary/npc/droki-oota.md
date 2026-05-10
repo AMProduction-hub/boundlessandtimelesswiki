@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Droki
+- "Droki"
 ---
-# [Droki](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/droki-oota.md)
+# [Droki](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/droki-oota.md)
 *Source: Out of the Abyss p. 231*  
 
 ## Roleplaying Droki
@@ -42,14 +43,17 @@ Droki is also obsessed with things happening where and when they should. If he i
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 120 ft., passive Perception 7"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 7"
 "languages": "Dwarvish, Undercommon"
 "cr": "2"
 "traits":
   - "desc": "Droki's innate spellcasting ability is Charisma (spell save DC 13). He\
       \ can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
-      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \n**At will:** [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
+      \n**1/day each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md), [shatter](03.PlayerLog&Handouts/Mechanics/CLI/spells/shatter.md)"
     "name": "Innate Spellcasting"
   - "desc": "Droki wears [boots of speed](03.PlayerLog&Handouts/Mechanics/CLI/items/boots-of-speed.md)."
@@ -72,7 +76,7 @@ Droki is also obsessed with things happening where and when they should. If he i
 "actions":
   - "desc": "Droki makes two attacks with his shortsword"
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage. The sword is coated with serpent venom that wears\
       \ off after the first hit. A target subjected to the venom must make a DC 11\
       \ Constitution saving throw, taking 10 (3d6) poison damage on a failed save,\

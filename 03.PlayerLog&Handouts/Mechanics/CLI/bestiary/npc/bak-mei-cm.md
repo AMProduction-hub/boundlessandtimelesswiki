@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/13
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bak Mei
+- "Bak Mei"
 ---
-# [Bak Mei](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/bak-mei-cm.md)
+# [Bak Mei](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/bak-mei-cm.md)
 *Source: Candlekeep Mysteries p. 168*  
 
 Bak Mei was once an agile and skilled Shou monk famous for upholding justice and helping the needy in his distant homeland to the east of Faerûn. As he grew older, learned more about the world, and began to feel the weight of old age, his worldview changed dramatically. Motivated by his growing fear of death, Bak Mei became obsessed with living an unending life. He began collecting texts on the subject, consulting with practitioners of the necromantic arts, and seeking audiences with dark forces.
@@ -42,12 +43,12 @@ Bak Mei is an old man with a long white beard and bushy eyebrows. Like the other
   - !!int "16"
 "speed": "40 ft."
 "saves":
-  - "strength": "+5"
-  - "dexterity": "+9"
-  - "constitution": "+9"
-  - "intelligence": "+6"
-  - "wisdom": "+8"
-  - "charisma": "+8"
+  - "strength": !!int "5"
+  - "dexterity": !!int "9"
+  - "constitution": !!int "9"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "8"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+9"
@@ -79,22 +80,23 @@ Bak Mei is an old man with a long white beard and bushy eyebrows. Like the other
   - "desc": "Bak Mei attacks three times: twice with Thunder Strike and once with\
       \ his staff of striking."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (2d10 + 4) thunder damage, and if the target is a creature, it must succeed\
       \ on a DC 17 Constitution saving throw or be [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened)\
       \ and [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
       \ until the start of Bak Mei's next turn."
     "name": "Thunder Strike"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 3\
-      \ (d6) bludgeoning damage, or 4 (d8) bludgeoning damage when used with two\
-      \ hands, and Bak Mei can expend up to 3 of the staff's charges. For each expended\
-      \ charge, the target takes an extra d6 force damage."
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 3\
+      \ (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage when used with\
+      \ two hands, and Bak Mei can expend up to 3 of the staff's charges. For each\
+      \ expended charge, the target takes an extra 1d6 force damage."
     "name": "Staff of Striking"
   - "desc": "Bak Mei regains 2d8 + 4 hit points, and all levels of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion)\
       \ end on him."
     "name": "Heal Self (Recharges after a Long Rest)"
 "bonus_actions":
-  - "desc": "Bak Mei takes the Disengage or Hide action."
+  - "desc": "Bak Mei takes the [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action."
     "name": "Nimble Escape"
 "reactions":
   - "desc": "In response to being hit by a ranged weapon attack, Bak Mei deflects\
@@ -102,6 +104,9 @@ Bak Mei is an old man with a long white beard and bushy eyebrows. Like the other
       \ If the damage is reduced to 0, Bak Mei catches the missile if it's small enough\
       \ to hold in one hand and Bak Mei has a hand free."
     "name": "Deflect Missile"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Bak can expend a use to take one of the following actions. Bak regains all\
+  \ expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Bak Mei moves up to 20 feet. This movement does not provoke opportunity\
       \ attacks."

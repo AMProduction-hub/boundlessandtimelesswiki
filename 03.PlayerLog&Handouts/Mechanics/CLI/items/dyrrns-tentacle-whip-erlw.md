@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/very-rare
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
-aliases: 
+aliases:
 - "Dyrrn's Tentacle Whip"
 ---
 # Dyrrn's Tentacle Whip
@@ -20,7 +21,7 @@ aliases:
 
 This long, whip-like strand of tough muscle bears a sharp stinger at one end. To attune to this symbiotic weapon, you wrap the whip around your wrist for the entire attunement period, during which time the whip painfully embeds its tendrils into your arm.
 
-You gain a +2 bonus to attack and damage rolls made with this magic whip, but attack rolls made against aberrations with this weapon have disadvantage. A creature hit by this weapon takes an extra `d6` psychic damage. When you roll a 20 on the `d20` for an attack roll with this weapon, the target is [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned) until the end of its next turn.
+You gain a +2 bonus to attack and damage rolls made with this magic whip, but attack rolls made against aberrations with this weapon have disadvantage. A creature hit by this weapon takes an extra `1d6` psychic damage. When you roll a 20 on the `d20` for an attack roll with this weapon, the target is [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned) until the end of its next turn.
 
 As a bonus action, you can sheathe the whip by causing it to retract into your arm, or draw the whip out of your arm again.
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/hotdq
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragonwing
+- "Dragonwing"
 ---
-# [Dragonwing](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/dragonwing-hotdq.md)
+# [Dragonwing](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/dragonwing-hotdq.md)
 *Source: Hoard of the Dragon Queen p. 90, Tyranny of Dragons p. 183*  
 
 ```statblock
@@ -34,13 +35,15 @@ aliases:
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+2"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_resistances": "one of the following: acid, cold, fire, lightning, poison"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
 "senses": "passive Perception 10"
 "languages": "Common, Draconic"
 "cr": "2"
@@ -64,8 +67,8 @@ aliases:
 "actions":
   - "desc": "The dragonwing attacks twice with its scimitar."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d6 + 3) slashing damage plus 3 (d6) damage of the type to which the\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
+      \ (1d6 + 3) slashing damage plus 3 (1d6) damage of the type to which the\
       \ cultist has resistance."
     "name": "Scimitar"
 "source":

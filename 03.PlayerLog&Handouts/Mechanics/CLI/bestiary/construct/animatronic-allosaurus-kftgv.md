@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Animatronic Allosaurus
+- "Animatronic Allosaurus"
 ---
-# [Animatronic Allosaurus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/animatronic-allosaurus-kftgv.md)
+# [Animatronic Allosaurus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animatronic-allosaurus-kftgv.md)
 *Source: Keys from the Golden Vault p. 22*  
 
 The allosaurus is a predatory dinosaur of great size, strength, and speed. It can run down almost any prey over open ground, pouncing to pull creatures down with its wicked claws.
@@ -54,10 +55,10 @@ The allosaurus is a predatory dinosaur of great size, strength, and speed. It ca
       \ action."
     "name": "Pounce"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (2d10 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage."
     "name": "Claw"
 "source":

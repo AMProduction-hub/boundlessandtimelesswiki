@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/uncommon
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
-aliases: 
+aliases:
 - "Shatterspike"
 ---
 # Shatterspike

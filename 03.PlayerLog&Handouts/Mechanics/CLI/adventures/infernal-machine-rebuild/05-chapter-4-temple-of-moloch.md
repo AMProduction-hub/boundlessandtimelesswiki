@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 aliases:
-- Chapter 4: Temple of Moloch
+- "Chapter 4: Temple of Moloch"
 ---
 # Chapter 4: Temple of Moloch
 *Source: Infernal Machine Rebuild, p. 24* 
@@ -184,7 +185,7 @@ The watertight ivory tube dislodged by the skeleton contains a vellum map of the
 
 #### Manipulating Time
 
-Having a mechanical guide spend 1 or more charges in this area creates a 10 percent cumulative chance for a ruby (worth `1d10 × 10` gp) to wash into view from upstream, as well as a 25 percent cumulative chance for `d4` [lizardfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk.md) to arrive on assignment to bring more water into the temple.
+Having a mechanical guide spend 1 or more charges in this area creates a 10 percent cumulative chance for a ruby (worth `1d10 × 10` gp) to wash into view from upstream, as well as a 25 percent cumulative chance for `1d4` [lizardfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk.md) to arrive on assignment to bring more water into the temple.
 
 Additionally, if 2 or more charges are spent, enough of the lime flakes off the skeleton in the pool that it can be identified without an ability check.
 
@@ -271,11 +272,9 @@ Characters who search this area thoroughly might make an unusual discovery with 
 
 #### Manipulating Time
 
-Having a mechanical guide spend 1 or more charges in this area has a 20 percent cumulative chance that `d4` [lizardfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk.md) guards arrive to fetch more supplies for the temple. They attack intruders at once.
+Having a mechanical guide spend 1 or more charges in this area has a 20 percent cumulative chance that `1d4` [lizardfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk.md) guards arrive to fetch more supplies for the temple. They attack intruders at once.
 
 **Storage Area Discoveries**
-
-`dice: [](05-chapter-4-temple-of-moloch.md#^storage-area-discoveries)`
 
 | dice: d100 | Discovery |
 |------------|-----------|
@@ -290,8 +289,8 @@ Having a mechanical guide spend 1 or more charges in this area has a 20 percent 
 | 71–80 | A long piece of oilcloth wraps up a number of missing levers to an [apparatus of Kwalish](03.PlayerLog&Handouts/Mechanics/CLI/items/apparatus-of-kwalish.md) (to be found in area 29). |
 | 81–85 | A small sack is revealed to be a [bag of beans](03.PlayerLog&Handouts/Mechanics/CLI/items/bag-of-beans.md) containing six beans. |
 | 86–90 | A piece of parchment hidden under a crate appears to be a magic treasure map. If the map is not followed to its end within 30 days, it rewrites itself as an entirely new map and any copies made of it turn blank. There is a 50 percent chance that the map leads to an actual treasure. If not, it leads to a dangerous monster with no treasure. |
-| 91–96 | A sack holds a common magic item and `d4` potions, all of your choice. |
-| 97–99 | A leather case holds an uncommon magic item and `d4` scrolls, all of your choice. |
+| 91–96 | A sack holds a common magic item and `1d4` potions, all of your choice. |
+| 97–99 | A leather case holds an uncommon magic item and `1d4` scrolls, all of your choice. |
 | 00 | A box holds a rare magic item of your choice. |
 ^storage-area-discoveries
 
@@ -431,7 +430,7 @@ If asked about his unusual appearance, [Stolos](03.PlayerLog&Handouts/Mechanics/
 
 - He is neutral evil.  
 - He has a flying speed of 30 feet.  
-- Replace his dagger attack with the following attack: ***Talons*.** *Melee Weapon Attack*: +3 to hit, reach 5 ft., one target. *Hit*: 8 (`2d6 + 1`) slashing damage.  
+- Replace his dagger attack with the following attack: ***Talons*.** *Melee Weapon Attack*: `+3` to hit, reach 5 ft., one target. *Hit*: 8 (`2d6 + 1`) slashing damage.  
 
 [Stolos](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/stolos-imr.md) carries the keys to the cells in area 10.
 
@@ -578,7 +577,7 @@ Resembling an impish version of Moloch (complete with small ruby eyes worth 100 
 
 [Thessalar's homunculus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/thessalars-homunculus-imr.md) uses the normal stat block with the following change:
 
-- The homunculus has the following additional attack option: ***Acidic Spittle*.** *Ranged Weapon Attack*: +4 to hit, range 30 ft., one target. *Hit*: 5 (`1d6 + 2`) acid damage.  
+- The homunculus has the following additional attack option: ***Acidic Spittle*.** *Ranged Weapon Attack*: `+4` to hit, range 30 ft., one target. *Hit*: 5 (`1d6 + 2`) acid damage.  
 
 #### Control Panel
 
@@ -844,7 +843,7 @@ In addition to mundane gear, this area contains a [folding boat](03.PlayerLog&Ha
 
 #### Manipulating Time
 
-Having a mechanical guide spend 1 charge in this area causes `d4` [lizardfolk renders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk-render-gos.md) to arrive for the priest's blessing before departing down the stairs to the underground lake (area 30). They attack unless they can be convinced the characters are part of the blessing ceremony.
+Having a mechanical guide spend 1 charge in this area causes `1d4` [lizardfolk renders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk-render-gos.md) to arrive for the priest's blessing before departing down the stairs to the underground lake (area 30). They attack unless they can be convinced the characters are part of the blessing ceremony.
 
 ### 30. Hidden Stairs
 
@@ -852,7 +851,7 @@ This winding set of stairs leads down to a natural cavern system below the templ
 
 #### Manipulating Time
 
-Having a mechanical guide spend 1 charge in this area causes the thessalkraken to reveal itself as it breaks the surface of the water seeking food. Spending 2 charges also causes `d4` [lizardfolk renders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk-render-gos.md) to arrive, ready to brave the waters in search of gems. The lizardfolk take the appearance of the characters as a sign of offering, and attempt to force them into the water as sacrifices for their demigod.
+Having a mechanical guide spend 1 charge in this area causes the thessalkraken to reveal itself as it breaks the surface of the water seeking food. Spending 2 charges also causes `1d4` [lizardfolk renders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk-render-gos.md) to arrive, ready to brave the waters in search of gems. The lizardfolk take the appearance of the characters as a sign of offering, and attempt to force them into the water as sacrifices for their demigod.
 
 ### 31. Gemsmith's Cell
 
@@ -1016,7 +1015,7 @@ In addition, five magic gems and stones are stored in individual coffers scatter
 
 #### Manipulating Time
 
-Having a mechanical guide spend 1 charge in this area either causes `d4` of the largest uncut rubies to become cut and polished, doubling their value (a 50 percent chance), or causes the same number of the largest cut rubies to degrade back to raw stones, halving their value.
+Having a mechanical guide spend 1 charge in this area either causes `1d4` of the largest uncut rubies to become cut and polished, doubling their value (a 50 percent chance), or causes the same number of the largest cut rubies to degrade back to raw stones, halving their value.
 
 ### 39. Stairs to Underground Lake
 
@@ -1043,7 +1042,7 @@ One of [Thessalar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/thessalar-im
 
 #### Treasure
 
-Lizardfolk in service to [Thessalar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/thessalar-imr.md) are sent here to brave the waters and attempt to recover more gemstones from the bottom of the lake. When the characters arrive here, the bottom of the lake is littered with `d10` rubies. Roll a `d10` to determine the value of each ruby found—
+Lizardfolk in service to [Thessalar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/thessalar-imr.md) are sent here to brave the waters and attempt to recover more gemstones from the bottom of the lake. When the characters arrive here, the bottom of the lake is littered with `1d10` rubies. Roll a `d10` to determine the value of each ruby found—
 
 1–5: 10 gp  
 6–7: 25 gp  
@@ -1056,4 +1055,4 @@ The bottom of the lake is also covered with the cracked bones of the many creatu
 
 #### Manipulating Time
 
-Having a mechanical guide spend 1 charge in this area causes the thessalkraken to break the surface of the water seeking food, thus revealing itself. Spending 2 charges also causes `d4` [lizardfolk renders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk-render-gos.md) to arrive, ready to brave the waters in search of gemstones. The lizardfolk take the appearance of the characters as a sign of offering, and attempt to force them into the water as sacrifices for their demigod.
+Having a mechanical guide spend 1 charge in this area causes the thessalkraken to break the surface of the water seeking food, thus revealing itself. Spending 2 charges also causes `1d4` [lizardfolk renders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk-render-gos.md) to arrive, ready to brave the waters in search of gemstones. The lizardfolk take the appearance of the characters as a sign of offering, and attempt to force them into the water as sacrifices for their demigod.

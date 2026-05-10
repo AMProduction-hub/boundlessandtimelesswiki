@@ -1,29 +1,30 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/feat/aberrant-dragonmark
-- ttrpg-cli/spell/feat/divinely-favored
-- ttrpg-cli/spell/feat/magic-initiate
-- ttrpg-cli/spell/feat/strixhaven-initiate
+- ttrpg-cli/spell/feat/divinely-favored/evil
+- ttrpg-cli/spell/feat/magic-initiate/wizard-spells
+- ttrpg-cli/spell/feat/strixhaven-initiate/witherbloom-3
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/school/evocation
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/eldritch-knight
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
 - Sorcerer
 - Warlock
 - Wizard
 aliases:
-- Witch Bolt
+- "Witch Bolt"
 ---
 # Witch Bolt
 *1st-level, Evocation*  
@@ -34,10 +35,10 @@ aliases:
 - **Components:** V, S, M (a twig from a tree that has been struck by lightning)
 - **Duration:** Concentration, up to 1 minute
 
-A beam of crackling, blue energy lances out toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes `d12` lightning damage, and on each of your turns for the duration, you can use your action to deal `d12` lightning damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you.
+A beam of crackling, blue energy lances out toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes `1d12` lightning damage, and on each of your turns for the duration, you can use your action to deal `1d12` lightning damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by `d12` for each slot level above 1st.
+**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by `1d12` for each slot level above 1st.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 289*

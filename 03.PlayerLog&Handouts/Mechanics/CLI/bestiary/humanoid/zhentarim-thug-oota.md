@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Zhentarim Thug
+- "Zhentarim Thug"
 ---
-# [Zhentarim Thug](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/zhentarim-thug-oota.md)
+# [Zhentarim Thug](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/zhentarim-thug-oota.md)
 *Source: Out of the Abyss p. 131*  
 
 ```statblock
@@ -36,6 +37,9 @@ aliases:
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+2"
+"gear":
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
+  - "[mace](03.PlayerLog&Handouts/Mechanics/CLI/items/mace.md)"
 "senses": "passive Perception 10"
 "languages": "Common"
 "cr": "1/2"
@@ -47,11 +51,11 @@ aliases:
 "actions":
   - "desc": "The thug makes two melee attacks"
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) bludgeoning damage."
     "name": "Mace"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit:\
-      \ 5 (d10) piercing damage."
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 100/400 ft., one target. *Hit:*\
+      \ 5 (1d10) piercing damage."
     "name": "Heavy Crossbow"
 "source":
   - "OotA"

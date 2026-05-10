@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Allowak Abominable Yeti
+- "Allowak Abominable Yeti"
 ---
-# [Allowak Abominable Yeti](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/allowak-abominable-yeti-egw.md)
+# [Allowak Abominable Yeti](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/allowak-abominable-yeti-egw.md)
 *Source: Explorer's Guide to Wildemount p. 126*  
 
 A yeti's windborne howl sounds out across remote mountains, striking fear into the hearts of the scattered miners and herders that dwell there. These hulking creatures stalk alpine peaks in a ceaseless hunt for food. Their snow-white fur lets them move like ghosts against the frozen landscape. A yeti's icy simian eyes can freeze its prey in place.
@@ -48,7 +49,8 @@ In recent years, the yetis have acquired books and journals from explorers who d
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "damage_immunities": "cold"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Common, Yeti"
 "cr": "9"
 "traits":
@@ -64,7 +66,7 @@ In recent years, the yetis have acquired books and journals from explorers who d
 "actions":
   - "desc": "The yeti can use its Chilling Gaze and makes two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 14 (2d6 + 7) slashing damage plus 7 (2d6) cold damage."
     "name": "Claw"
   - "desc": "The yeti targets one creature it can see within 30 feet of it. If the\

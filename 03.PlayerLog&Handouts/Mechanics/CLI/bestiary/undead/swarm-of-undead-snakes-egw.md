@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Swarm of Undead Snakes
+- "Swarm of Undead Snakes"
 ---
-# [Swarm of Undead Snakes](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/swarm-of-undead-snakes-egw.md)
+# [Swarm of Undead Snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/swarm-of-undead-snakes-egw.md)
 *Source: Explorer's Guide to Wildemount p. 247*  
 
 ```statblock
@@ -40,7 +41,8 @@ aliases:
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned), [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 10 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., passive Perception 10"
 "languages": ""
 "cr": "2"
 "traits":
@@ -49,8 +51,8 @@ aliases:
       \ can't regain hit points or gain temporary hit points."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 0 ft., one creature in the\
-      \ swarm's space. Hit: 7 (2d6) piercing damage, or 3 (d6) piercing damage\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 0 ft., one creature in the\
+      \ swarm's space. *Hit:* 7 (2d6) piercing damage, or 3 (1d6) piercing damage\
       \ if the swarm has half of its hit points or fewer. The target must make a DC\
       \ 10 Constitution saving throw, taking 14 (4d6) poison damage on a failed\
       \ save, or half as much damage on a successful one."

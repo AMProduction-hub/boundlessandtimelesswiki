@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 aliases:
-- Monsters and NPCs
+- "Monsters and NPCs"
 ---
 # Monsters and NPCs
 *Source: Waterdeep: Dragon Heist, p. 193* 
@@ -73,7 +74,7 @@ One of the things Esvele has learned is to embrace the legend of the [Black Vipe
 
 ## City Guard
 
-![City Guard Private, Captai...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dragon-heist/img/city-guard-all.webp#center "City Guard Private, Captain, and Griffon Cavalry Rider")
+![City Guard Private, Captain, and Griffon Cavalry Rider](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dragon-heist/img/city-guard-all.webp#center)
 
 The City Guard is Waterdeep's army, charged with protecting the city's walls and [gates](03.PlayerLog&Handouts/Mechanics/CLI/spells/gate.md), government buildings, harbor, and officials. The City Guard also patrols the roads to Amphail, Goldenfields, and Daggerford.
 
@@ -121,7 +122,7 @@ Most City Watch members are [veterans](03.PlayerLog&Handouts/Mechanics/CLI/besti
 
 ## The Doom Raiders
 
-![The Doom Raiders (Left to ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dragon-heist/img/the-doom-raiders.webp#center "The Doom Raiders (Left to Right): Davil Starsong, Istrid Horn, Tashlyn Yafeera, Skeemo Weirdbottle and Ziraj the Hunter")
+![The Doom Raiders (Left to Right): Davil Starsong, Istrid Horn, Tashlyn Yafeera, Skeemo Weirdbottle and Ziraj the Hunter](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dragon-heist/img/the-doom-raiders.webp#center)
 
 The Doom Raiders were five unscrupulous adventurers who liked to plunder lich lairs (called "dooms" by some). They gave up adventuring to join the Black Network and came to Waterdeep three years ago with plans to establish a Zhentarim foothold in the city. In that time, they have forged alliances with various nobles and guilds and run afoul of others, all the while fending off Harper spies.
 

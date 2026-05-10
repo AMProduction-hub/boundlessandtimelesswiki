@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dhergoloth
+- "Dhergoloth"
 ---
-# [Dhergoloth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/dhergoloth-mpmm.md)
+# [Dhergoloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/dhergoloth-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 94, Mordenkainen's Tome of Foes p. 248*  
 
 > [!quote] A quote from Mordenkainen  
@@ -45,12 +46,14 @@ Since dhergoloths are little more than brutes, employers must use caution when i
   - !!int "9"
 "speed": "30 ft."
 "saves":
-  - "strength": "+6"
+  - "strength": !!int "6"
 "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
 "damage_immunities": "acid, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Abyssal, Infernal, telepathy 60 ft."
 "cr": "7"
 "traits":
@@ -60,7 +63,7 @@ Since dhergoloths are little more than brutes, employers must use caution when i
 "actions":
   - "desc": "The dhergoloth makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d8 + 3) force damage."
     "name": "Claw"
   - "desc": "The dhergoloth moves up to its speed in a straight line and targets each\
@@ -72,7 +75,7 @@ Since dhergoloths are little more than brutes, employers must use caution when i
     "name": "Teleport"
   - "desc": "The dhergoloth casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 10):\n\
-      \nAt will: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \n**At will:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md)"
     "name": "Spellcasting"
 "source":

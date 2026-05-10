@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/attunement/required
@@ -9,7 +10,7 @@ tags:
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Sword of Sharpness"
 - "Double-Bladed Scimitar of Sharpness"
 - "Greatsword of Sharpness"
@@ -18,7 +19,7 @@ aliases:
 ---
 # Sword of Sharpness
 *Major, very rare (requires attunement)*  
-![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/sword-of-sharpness.webp#right)
+![Sword of Sharpness (Greatsword)](03.PlayerLog&Handouts/Mechanics/CLI/items/img/sword-of-sharpness.webp#right)
 
 
 When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.

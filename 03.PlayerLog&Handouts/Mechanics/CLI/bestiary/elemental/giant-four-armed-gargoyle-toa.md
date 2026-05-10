@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Four-Armed Gargoyle
+- "Giant Four-Armed Gargoyle"
 ---
-# [Giant Four-Armed Gargoyle](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/giant-four-armed-gargoyle-toa.md)
+# [Giant Four-Armed Gargoyle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/giant-four-armed-gargoyle-toa.md)
 *Source: Tomb of Annihilation p. 221*  
 
 Only Acererak knows the secret of creating these creatures. A giant four-armed gargoyle stands 8 to 9 feet tall and weighs roughly five thousand pounds. It is typically employed as a tomb guardian, rending intruders with its fangs and deadly claws. For more information on gargoyles, see the Monster Manual.
@@ -35,7 +36,7 @@ Only Acererak knows the secret of creating these creatures. A giant four-armed g
   - !!int "9"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "wisdom": "+4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
@@ -45,7 +46,8 @@ Only Acererak knows the secret of creating these creatures. A giant four-armed g
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Terran"
 "cr": "10"
 "traits":
@@ -56,10 +58,10 @@ Only Acererak knows the secret of creating these creatures. A giant four-armed g
   - "desc": "The gargoyle makes five attacks: one with its bite and four with its\
       \ claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d4 + 4) slashing damage."
     "name": "Claw"
 "source":

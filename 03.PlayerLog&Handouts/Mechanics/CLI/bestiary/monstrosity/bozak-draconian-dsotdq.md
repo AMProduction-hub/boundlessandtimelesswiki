@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bozak Draconian
+- "Bozak Draconian"
 ---
-# [Bozak Draconian](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/bozak-draconian-dsotdq.md)
+# [Bozak Draconian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/bozak-draconian-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 198*  
 
 Bozak draconians are born from bronze dragon eggs and wield magic to aid their allies in battle. Their wings aren't strong enough for full flight, but bozaks can use them to glide during a fall. When bozaks die, their flesh shrivels away before their bones explode, sending a shower of magical splinters in all directions.
@@ -40,10 +41,13 @@ Draconians are bipedal monsters born from metallic dragon eggs that have been co
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+2"
-  - "wisdom": "+2"
-  - "charisma": "+4"
-"senses": "darkvision 60 ft., passive Perception 10"
+  - "intelligence": !!int "2"
+  - "wisdom": !!int "2"
+  - "charisma": !!int "4"
+"gear":
+  - "[trident](03.PlayerLog&Handouts/Mechanics/CLI/items/trident.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Draconic"
 "cr": "2"
 "traits":
@@ -60,16 +64,16 @@ Draconians are bipedal monsters born from metallic dragon eggs that have been co
   - "desc": "The draconian makes two Trident melee attacks or two Lightning Discharge\
       \ attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Trident"
-  - "desc": "Ranged Spell Attack: +4 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +4 to hit, range 60 ft., one target. *Hit:*\
       \ 10 (3d6) lightning damage."
     "name": "Lightning Discharge"
   - "desc": "The draconian casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 12):\n\
-      \n1/day each: [enlarge/reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md),\
+      \n**1/day each:** [enlarge/reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [stinking cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/stinking-cloud.md),\
       \ [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md)"

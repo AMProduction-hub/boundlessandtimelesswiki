@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/6
@@ -14,10 +15,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hobgoblin Warlord
+- "Hobgoblin Warlord"
 ---
-# [Hobgoblin Warlord](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/hobgoblin-warlord.md)
-*Source: Monster Manual p. 187, Storm King's Thunder, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Dragonlance: Shadow of the Dragon Queen*  
+# [Hobgoblin Warlord](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hobgoblin-warlord.md)
+*Source: Monster Manual p. 187*  
 
 War horns sound, stones fly from catapults, and the thunder of a thousand booted feet echoes across the land as hobgoblins march to battle. Across the borderlands of civilization, settlements and settlers must contend with these aggressive humanoids, whose thirst for conquest is never satisfied.
 
@@ -97,10 +98,14 @@ Hobgoblins worship Maglubiyet the Mighty One, the greater god of goblinoids. As 
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+3"
-  - "charisma": "+5"
-"senses": "darkvision 60 ft., passive Perception 10"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "3"
+  - "charisma": !!int "5"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Goblin"
 "cr": "6"
 "traits":
@@ -112,16 +117,16 @@ Hobgoblins worship Maglubiyet the Mighty One, the greater god of goblinoids. As 
   - "desc": "The hobgoblin makes three melee attacks. Alternatively, it can make two\
       \ ranged attacks with its javelins."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with\
       \ two hands."
     "name": "Longsword"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one creature. *Hit:*\
       \ 5 (1d4 + 3) bludgeoning damage. If the target is Large or smaller, it must\
       \ succeed on a DC 14 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Shield Bash"
-  - "desc": "Melee  or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +9 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 6 (1d6 + 3) piercing damage."
     "name": "Javelin"
   - "desc": "For 1 minute, the hobgoblin can utter a special command or warning whenever\
       \ a nonhostile creature that it can see within 30 feet of it makes an attack\
@@ -136,10 +141,6 @@ Hobgoblins worship Maglubiyet the Mighty One, the greater god of goblinoids. As 
     "name": "Parry"
 "source":
   - "MM"
-  - "SKT"
-  - "WDMM"
-  - "BGDIA"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/hobgoblin-warlord.webp"
 ```
 ^statblock

@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/deity/theros
 - ttrpg-cli/domain/nature
-aliases: 
-- Nylea
+aliases:
+- "Nylea"
 ---
 # Nylea
 *Source: Mythic Odysseys of Theros p. 67* 
@@ -96,8 +97,6 @@ Because her interests are often tied to natural forces, Nylea's attentions can b
 
 **Nylea's Favor**
 
-`dice: [](theros-nylea-mot.md#^nyleas-favor)`
-
 | dice: d6 | Circumstance |
 |----------|--------------|
 | 1 | You were born at dawn on the spring equinox, a sign of Nylea's favor. |
@@ -113,8 +112,6 @@ Because her interests are often tied to natural forces, Nylea's attentions can b
 Nylea calls upon her followers to defend the natural world and oppose those who would bring it harm through cruelty or greed. As a follower of Nylea, consider the ideals on the Nylea's Ideals table as alternatives to those suggested for your background.
 
 **Nylea's Ideals**
-
-`dice: [](theros-nylea-mot.md#^nyleas-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 aliases:
-- Chapter 5: Final Showdown
+- "Chapter 5: Final Showdown"
 ---
 # Chapter 5: Final Showdown
 *Source: Infernal Machine Rebuild, p. 44* 
@@ -74,8 +75,6 @@ During the raid, any number of complications might arise. As desired, you can ro
 ^failure-is-an-option
 
 **Machine Fight Complications**
-
-`dice: [](06-chapter-5-final-showdown.md#^machine-fight-complications)`
 
 | dice: d100 | Result |
 |------------|--------|

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Omens of Athreos
+- "Omens of Athreos"
 ---
 # Omens of Athreos
 *Source: Mythic Odysseys of Theros p. 111* 
 
 **Omens of Athreos**
-
-`dice: [](omens-of-athreos-mot.md#^omens-of-athreos)`
 
 | dice: d6 | dice: d100 | Omen of Athreos |
 |----------|------------|-----------------|

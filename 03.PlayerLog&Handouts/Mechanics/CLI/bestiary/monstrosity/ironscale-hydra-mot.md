@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/12
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ironscale Hydra
+- "Ironscale Hydra"
 ---
-# [Ironscale Hydra](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/ironscale-hydra-mot.md)
+# [Ironscale Hydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/ironscale-hydra-mot.md)
 *Source: Mythic Odysseys of Theros p. 231*  
 
 Five-headed ironscale hydras lurk in the wild places of the world, being common foes for heroes seeking to test their mettle against terrors worthy of the gods' notice. Most ironscale hydras inhabit lakes and boggy caverns, from which they hunt unwary creatures that come for a drink or swim.
@@ -40,7 +41,8 @@ What krakens are to the sea and dragons are to the sky, hydras are to the lands 
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+8"
 "damage_immunities": "acid"
-"senses": "darkvision 60 ft., passive Perception 18"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 18"
 "languages": ""
 "cr": "12"
 "traits":
@@ -70,7 +72,7 @@ What krakens are to the sea and dragons are to the sky, hydras are to the lands 
 "actions":
   - "desc": "The hydra makes as many bite attacks as it has heads."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 15 ft., one target. *Hit:*\
       \ 17 (2d10 + 6) piercing damage."
     "name": "Bite"
 "source":

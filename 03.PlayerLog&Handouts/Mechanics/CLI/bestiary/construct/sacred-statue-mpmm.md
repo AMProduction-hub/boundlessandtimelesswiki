@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sacred Statue
+- "Sacred Statue"
 ---
-# [Sacred Statue](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/sacred-statue-mpmm.md)
+# [Sacred Statue](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/sacred-statue-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 114, Mordenkainen's Tome of Foes p. 194*  
 
 To protect sites they deem holy, gods often rely on eidolons, ghostly spirits bound to safeguard a sacred place. Forged from the souls of those with unwavering devotion, eidolons stalk temples and vaults to ensure that no enemy defiles, damages, or plunders these sites. If an enemy sets foot inside a warded location, the [eidolon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/eidolon-mpmm.md) plunges into a [statue](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/sacred-statue-mpmm.md) specially prepared to house its soul; it then animates this effigy and uses the statue to drive out the intruders.
@@ -35,7 +36,7 @@ To protect sites they deem holy, gods often rely on eidolons, ghostly spirits bo
   - !!int "16"
 "speed": "25 ft."
 "saves":
-  - "wisdom": "+8"
+  - "wisdom": !!int "8"
 "damage_resistances": "acid; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
 "damage_immunities": "cold, necrotic, poison"
@@ -45,7 +46,8 @@ To protect sites they deem holy, gods often rely on eidolons, ghostly spirits bo
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "the languages the [eidolon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/eidolon-mpmm.md)\
   \ knew in life"
 "traits":
@@ -69,11 +71,11 @@ To protect sites they deem holy, gods often rely on eidolons, ghostly spirits bo
 "actions":
   - "desc": "The statue makes two Slam or Rock attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 43 (6d12 + 4) bludgeoning damage."
     "name": "Slam"
-  - "desc": "Ranged Weapon Attack: +8 to hit, range 60 ft./240 ft., one target.\
-      \ Hit: 37 (6d10 + 4) bludgeoning damage."
+  - "desc": "*Ranged Weapon Attack:* +8 to hit, range 60 ft./240 ft., one target.\
+      \ *Hit:* 37 (6d10 + 4) bludgeoning damage."
     "name": "Rock"
 "source":
   - "MPMM"

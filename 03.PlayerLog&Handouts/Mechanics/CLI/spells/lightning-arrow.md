@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/ranger
 - ttrpg-cli/spell/level/3rd-level
 - ttrpg-cli/spell/school/transmutation
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Ranger
 aliases:
-- Lightning Arrow
+- "Lightning Arrow"
 ---
 # Lightning Arrow
 *3rd-level, Transmutation*  
@@ -28,8 +29,8 @@ Whether you hit or miss, each creature within 10 feet of the target must make a 
 
 The piece of ammunition or weapon then returns to its normal form.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage for both effects of the spell increases by `d8` for each slot level above 3rd.
+**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage for both effects of the spell increases by `1d8` for each slot level above 3rd.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md)
 
 *Source: Player's Handbook p. 255*

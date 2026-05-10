@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Laleh Ghorbani
+- "Laleh Ghorbani"
 ---
-# [Laleh Ghorbani](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/laleh-ghorbani-jttrc.md)
+# [Laleh Ghorbani](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/laleh-ghorbani-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 156*  
 
 ```statblock
@@ -42,7 +43,11 @@ aliases:
     "desc": "+6"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 15"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "any one language (usually Common), Elvish"
 "cr": "1/2"
 "traits":
@@ -54,11 +59,11 @@ aliases:
 "actions":
   - "desc": "Laleh makes two melee attacks or two ranged attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, ranged 150/600 ft., one target.\
-      \ Hit: 6 (1d8 + 2) piercing damage."
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, ranged 150/600 ft., one target.\
+      \ *Hit:* 6 (1d8 + 2) piercing damage."
     "name": "Longbow"
 "source":
   - "JttRC"

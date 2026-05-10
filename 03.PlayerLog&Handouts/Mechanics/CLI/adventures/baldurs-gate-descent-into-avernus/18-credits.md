@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Credits
+- "Credits"
 ---
 # Credits
 *Source: Baldur's Gate: Descent Into Avernus* 
@@ -38,4 +39,7 @@ aliases:
 - **Playtest Coordinator.** Bill Benham  
 - **The following D&D books provided material and inspiration.** Greenwood, Ed, Matt Sernett, Alexander Winter, and Steve Winter. Murder in Baldur's Gate. 2013. Greenwood, Ed, and others. Lords of Darkness. 1988. Kenson, Steve, and others. Sword Coast Adventurer's Guide. 2015. Mearls, Mike, Jeremy Crawford, and others. Mordenkainen's Tome of Foes. 2018. Volo's Guide to Monsters. 2016. Perkins, Christopher, Will Doyle, and Steve Winter. Tomb of Annihilation. 2017.  
 - Vanthampur Villa was inspired by a building design by Dean Turner  
-- **Thanks to Our Playtesters.** Trisha Arozqueta, Cory Bennett, Khrys Bennett, Cody Bowen, Jean-Luc Caron, Trevor Clare, Drake Delgado, Mikayla "Irish" Ebel, Christian "Shiny" Eckert, Zach "Static" Eckert, Andrew Evans, Nathan Fisher, Jesse Foltz, Thomas Freed, David Hanson, Maris Hanson, Brenna Holkins, Jerry Holkins, Danny Hyun, Joshua Kiper, Shayne Li, Jonathan Christopher Marquiss, Zack Merritt, Emmanuel John Mitsinikos, Blake Morrison, David Park, Nancy Rexford, Leonardo Rivera, Luke Sargent, Brandon Smith, Rob Spieldenner, Rebecca Stein, Nevin Vorfeld, Andrew White
+- **Thanks to Our Playtesters.** Trisha Arozqueta, Cory Bennett, Khrys Bennett, Cody Bowen, Jean-Luc Caron, Trevor Clare, Drake Delgado, Mikayla "Irish" Ebel, Christian "Shiny" Eckert, Zach "Static" Eckert, Andrew Evans, Nathan Fisher, Jesse Foltz, Thomas Freed, David Hanson, Maris Hanson, Brenna Holkins, Jerry Holkins, Danny Hyun, Joshua Kiper, Shayne Li, Jonathan Christopher Marquiss, Zack Merritt, Emmanuel John Mitsinikos, Blake Morrison, David Park, Nancy Rexford, Leonardo Rivera, Luke Sargent, Brandon Smith, Rob Spieldenner, Rebecca Stein, Nevin Vorfeld, Andrew White  
+
+> [!note]
+> Disclaimer: This adventure is a work of fiction aimed at providing you and your friends with many hours of fantastic entertainment. Although devils and the Nine Hells play prominent roles in this story, the evil they represent is meant to be fought and overcome. Wizards of the Coast fully endorses the kicking of evil's butt. Let darkness fall and light prevail! We strongly advise that you not play this adventure backward, lest Asmodeus appear in a puff of smoke to talk politics, as archfiends are wont to do.

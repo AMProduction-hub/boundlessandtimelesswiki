@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Creating a Brass Dragon; Brass Dragon Ideals
+- "Creating a Brass Dragon; Brass Dragon Ideals"
 ---
 # Creating a Brass Dragon; Brass Dragon Ideals
 *Source: Fizban's Treasury of Dragons p. 90* 
 
 **Brass Dragon Ideals**
-
-`dice: [](creating-a-brass-dragon-brass-dragon-ideals-ftd.md#^brass-dragon-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

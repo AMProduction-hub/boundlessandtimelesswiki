@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nightmare Shepherd
+- "Nightmare Shepherd"
 ---
-# [Nightmare Shepherd](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/nightmare-shepherd-mot.md)
+# [Nightmare Shepherd](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/nightmare-shepherd-mot.md)
 *Source: Mythic Odysseys of Theros p. 221*  
 
 A nightmare shepherd is a gaunt, ashen fiend with leathery wings. It carries a shepherd's crook, which it uses to direct a flock of wandering dead that it torments and occasionally feeds upon.
@@ -35,8 +36,8 @@ A nightmare shepherd is a gaunt, ashen fiend with leathery wings. It carries a s
   - !!int "20"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "constitution": "+8"
-  - "wisdom": "+7"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -49,13 +50,14 @@ A nightmare shepherd is a gaunt, ashen fiend with leathery wings. It carries a s
 "damage_resistances": "cold, necrotic"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 17"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 17"
 "languages": "Abyssal, Common, Infernal"
 "cr": "11"
 "traits":
   - "desc": "The shepherd's spellcasting ability is Charisma (spell save DC 17). It\
       \ can innately cast the following spells, requiring no material components:\n\
-      \n1/day each: [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
+      \n**1/day each:** [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
@@ -71,14 +73,14 @@ A nightmare shepherd is a gaunt, ashen fiend with leathery wings. It carries a s
 "actions":
   - "desc": "The shepherd makes two attacks: one with its claws and one with its staff."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) slashing damage plus 16 (3d10) necrotic damage."
     "name": "Claws"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage, or 13 (2d8 + 4) bludgeoning damage if used\
       \ with two hands, plus 26 (4d12) psychic damage."
     "name": "Staff"
-  - "desc": "The shepherd pulls twisted souls from the Underworld; d6 [shadows](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/shadow.md)\
+  - "desc": "The shepherd pulls twisted souls from the Underworld; 1d6 [shadows](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/shadow.md)\
       \ (without Sunlight Weakness) arise in unoccupied spaces within 20 feet of the\
       \ shepherd. The shadows act right after the shepherd on the same initiative\
       \ count and fight until they're destroyed. They disappear when the shepherd\

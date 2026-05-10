@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Sharn Watch Villains
+- "Sharn Watch Villains"
 ---
 # Sharn Watch Villains
 *Source: Eberron: Rising from the Last War p. 258* 
 
 **Sharn Watch Villains**
-
-`dice: [](sharn-watch-villains-erlw.md#^sharn-watch-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

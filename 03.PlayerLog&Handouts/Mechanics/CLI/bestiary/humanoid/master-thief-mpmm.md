@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Master Thief
+- "Master Thief"
 ---
-# [Master Thief](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/master-thief-mpmm.md)
+# [Master Thief](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/master-thief-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 174, Volo's Guide to Monsters p. 216*  
 
 Master thieves are known for perpetrating daring heists. They tend to develop a romanticized reputation. A master thief might "retire" from hands-on work to run a thieves' guild, spearhead some covert enterprise, or enjoy a quiet life of luxury.
@@ -20,8 +21,6 @@ Master thieves are known for perpetrating daring heists. They tend to develop a 
 When a master thief completes a challenging heist, they often leave behind a calling card to taunt their victims. You may roll on the Master Thief Calling Cards table to determine what a master thief leaves behind.
 
 **Master Thief Calling Cards**
-
-`dice: [](master-thief-mpmm.md#^master-thief-calling-cards)`
 
 | dice: d10 | Calling Card |
 |-----------|--------------|
@@ -56,8 +55,8 @@ When a master thief completes a challenging heist, they often leave behind a cal
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+7"
-  - "intelligence": "+3"
+  - "dexterity": !!int "7"
+  - "intelligence": !!int "3"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+7"
@@ -69,6 +68,9 @@ When a master thief completes a challenging heist, they often leave behind a cal
     "desc": "+7"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
+"gear":
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 13"
 "languages": "any one language (usually Common) plus thieves' cant"
 "cr": "5"
@@ -81,11 +83,11 @@ When a master thief completes a challenging heist, they often leave behind a cal
 "actions":
   - "desc": "The thief makes three Shortsword or Shortbow attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d6 + 4) piercing damage plus 3 (d6) poison damage."
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
+      \ (1d6 + 4) piercing damage plus 3 (1d6) poison damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 80/320 ft., one target. Hit:\
-      \ 7 (1d6 + 4) piercing damage plus 3 (d6) poison damage."
+  - "desc": "*Ranged Weapon Attack:* +7 to hit, range 80/320 ft., one target. *Hit:*\
+      \ 7 (1d6 + 4) piercing damage plus 3 (1d6) poison damage."
     "name": "Shortbow"
 "bonus_actions":
   - "desc": "The thief takes the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash),\

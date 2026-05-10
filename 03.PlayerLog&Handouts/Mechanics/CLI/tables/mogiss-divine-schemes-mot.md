@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Mogis's Divine Schemes
+- "Mogis's Divine Schemes"
 ---
 # Mogis's Divine Schemes
 *Source: Mythic Odysseys of Theros p. 153* 
 
 **Mogis's Divine Schemes**
-
-`dice: [](mogiss-divine-schemes-mot.md#^mogiss-divine-schemes)`
 
 | dice: d4 | Scheme |
 |----------|--------|

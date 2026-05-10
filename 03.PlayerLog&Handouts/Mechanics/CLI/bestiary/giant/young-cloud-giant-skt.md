@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Young Cloud Giant
+- "Young Cloud Giant"
 ---
-# [Young Cloud Giant](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/young-cloud-giant-skt.md)
+# [Young Cloud Giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/young-cloud-giant-skt.md)
 *Source: Storm King's Thunder p. 112*  
 
 ```statblock
@@ -37,16 +38,18 @@ aliases:
     "desc": "+4"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
+"gear":
+  - "[greatclub](03.PlayerLog&Handouts/Mechanics/CLI/items/greatclub.md)"
 "senses": "passive Perception 14"
 "languages": "Common, Giant"
 "cr": "5"
 "actions":
   - "desc": "The giant makes two greatclub attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 18 (3d8 + 5) bludgeoning damage."
     "name": "Greatclub"
-  - "desc": "Ranged Weapon Attack: +8 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +8 to hit, range 60/240 ft., one target. *Hit:*\
       \ 21 (3d10 + 5) bludgeoning damage."
     "name": "Rock"
 "source":

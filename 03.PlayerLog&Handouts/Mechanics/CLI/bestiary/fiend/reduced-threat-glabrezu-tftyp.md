@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reduced-Threat Glabrezu
+- "Reduced-Threat Glabrezu"
 ---
-# [Reduced-Threat Glabrezu](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/reduced-threat-glabrezu-tftyp.md)
+# [Reduced-Threat Glabrezu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/reduced-threat-glabrezu-tftyp.md)
 *Source: Tales from the Yawning Portal p. 113*  
 
 ```statblock
@@ -34,24 +35,25 @@ aliases:
   - !!int "16"
 "speed": "40 ft."
 "saves":
-  - "strength": "+7"
-  - "constitution": "+7"
-  - "wisdom": "+5"
-  - "charisma": "+5"
+  - "strength": !!int "7"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "5"
 "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 13"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 13"
 "languages": "Abyssal, telepathy 120 ft."
 "cr": "9"
 "traits":
   - "desc": "The glabrezu's spellcasting ability is Intelligence (spell save DC 14).\
       \ The glabrezu can innately cast the following spells, requiring no material\
-      \ components:\n\nAt will: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ components:\n\n**At will:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md)\n\
-      \n1/day each: [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
+      \n**1/day each:** [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [power word stun](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-stun.md)"
     "name": "Innate Spellcasting"
   - "desc": "A reduced-threat monster takes a −2 penalty on attack rolls (included\
@@ -67,13 +69,13 @@ aliases:
       \ fists. Alternatively, it makes two attacks with its pincers and casts one\
       \ spell."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 16 (2d10 + 5) bludgeoning damage. If the target is a Medium or smaller creature,\
       \ it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13). The glabrezu has two pincers, each of which can grapple only\
       \ one target."
     "name": "Pincer"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) bludgeoning damage."
     "name": "Fist"
 "source":

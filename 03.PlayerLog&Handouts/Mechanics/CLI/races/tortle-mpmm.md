@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/tortle
 aliases:
-- Tortle
+- "Tortle"
 ---
 # Tortle
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 34*  
@@ -23,7 +24,7 @@ You are Medium or Small. You choose the size when you select this race.
 
 ### Claws
 
-You have claws that you can use to make unarmed strikes. When you hit with them, the strike deals `d6` + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.
+You have claws that you can use to make unarmed strikes. When you hit with them, the strike deals `1d6` + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.
 
 ### Hold Breath
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/28
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Copper Greatwyrm
+- "Copper Greatwyrm"
 ---
-# [Copper Greatwyrm](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/copper-greatwyrm-ftd.md)
+# [Copper Greatwyrm](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/copper-greatwyrm-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 208*  
 
 Some of the oldest and wisest metallic dragons undergo a miraculous metamorphosis to become greatwyrms. This transformation is often wrought by Bahamut, who takes pride in elevating his worthiest children to a status approaching his own greatness.
@@ -54,11 +55,11 @@ Metallic greatwyrms are among the largest creatures in the multiverse, overshado
   - !!int "30"
 "speed": "60 ft., burrow 60 ft., fly 120 ft., swim 60 ft."
 "saves":
-  - "dexterity": "+11"
-  - "constitution": "+17"
-  - "intelligence": "+13"
-  - "wisdom": "+14"
-  - "charisma": "+18"
+  - "dexterity": !!int "11"
+  - "constitution": !!int "17"
+  - "intelligence": !!int "13"
+  - "wisdom": !!int "14"
+  - "charisma": !!int "18"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+14"
@@ -70,7 +71,8 @@ Metallic greatwyrms are among the largest creatures in the multiverse, overshado
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 32"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 32"
 "languages": "Common, Draconic"
 "cr": "28"
 "traits":
@@ -88,25 +90,25 @@ Metallic greatwyrms are among the largest creatures in the multiverse, overshado
 "actions":
   - "desc": "The greatwyrm makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +18 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +18 to hit, reach 15 ft., one target. *Hit:*\
       \ 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +18 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +18 to hit, reach 10 ft., one target. *Hit:*\
       \ 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature,\
       \ it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 20) and is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ until this grapple ends. The greatwyrm can have only one creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ in this way at a time."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +18 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +18 to hit, reach 20 ft., one target. *Hit:*\
       \ 21 (2d10 + 10) bludgeoning damage. If the target is a creature, it must\
       \ succeed on a DC 26 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
-  - "desc": "The greatwyrm uses one of the following breath weapons:\n\n- Elemental\
-      \ Breath. The greatwyrm exhales elemental energy in a 300-foot cone. Each\
+  - "desc": "The greatwyrm uses one of the following breath weapons:\n\n- **Elemental\
+      \ Breath.** The greatwyrm exhales elemental energy in a 300-foot cone. Each\
       \ creature in that area must make a DC 25 Dexterity saving throw, taking 84\
       \ (13d12) acid damage on a failed save, or half as much damage on a successful\
-      \ one.  \n- Sapping Breath. The greatwyrm exhales gas in a 300-foot cone.\
+      \ one.  \n- **Sapping Breath.** The greatwyrm exhales gas in a 300-foot cone.\
       \ Each creature in that area must make a DC 25 Constitution saving throw. On\
       \ a failed save, the creature falls [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
       \ for 1 minute. On a successful save, the creature has disadvantage on attack\
@@ -118,6 +120,9 @@ Metallic greatwyrms are among the largest creatures in the multiverse, overshado
       \ Small, while retaining its game statistics (other than its size). This transformation\
       \ ends if the dragon is reduced to 0 hit points or uses its action to end it."
     "name": "Change Shape"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the copper greatwyrm can expend a use to take one of the following actions.\
+  \ The copper greatwyrm regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The greatwyrm makes one Claw or Tail attack."
     "name": "Attack"
@@ -126,6 +131,16 @@ Metallic greatwyrms are among the largest creatures in the multiverse, overshado
       \ damage and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
       \ The greatwyrm can then fly up to half its flying speed."
     "name": "Wing Attack (Costs 2 Actions)"
+"mythic_description": "If the greatwyrm's Metallic Awakening trait has activated in\
+  \ the last hour, it can use the options below as legendary actions."
+"mythic_actions":
+  - "desc": "The greatwyrm makes one Bite attack."
+    "name": "Bite"
+  - "desc": "The greatwyrm unleashes a magical roar. Each creature in a 120-foot-radius\
+      \ sphere centered on the greatwyrm must succeed on a DC 26 Constitution saving\
+      \ throw or take 19 (3d12) thunder damage and be [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
+      \ until the end of its next turn."
+    "name": "Shattering Roar (Costs 2 Actions)"
 "source":
   - "FTD"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/copper-greatwyrm-ftd.webp"

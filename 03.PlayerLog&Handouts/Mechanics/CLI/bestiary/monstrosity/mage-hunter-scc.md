@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mage Hunter
+- "Mage Hunter"
 ---
-# [Mage Hunter](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/mage-hunter-scc.md)
+# [Mage Hunter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/mage-hunter-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 199*  
 
 Mage hunters are hideous spider-legged creatures employed by the Oriq to pursue magic-wielders. These creatures can naturally sense magic via the glowing purple spines on their backs.
@@ -37,9 +38,9 @@ A mage hunter is usually in its sentry form, a diamond-shaped drone with a heigh
   - !!int "10"
 "speed": "40 ft., climb 40 ft. (hunter form only), fly 10 ft. (hover sentry form only)"
 "saves":
-  - "intelligence": "+3"
-  - "wisdom": "+6"
-  - "charisma": "+3"
+  - "intelligence": !!int "3"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "3"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+9"
@@ -49,7 +50,8 @@ A mage hunter is usually in its sentry form, a diamond-shaped drone with a heigh
   \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 19"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft. (blind beyond this radius), passive Perception 19"
 "languages": "understands Common but can't speak"
 "cr": "5"
 "traits":
@@ -62,10 +64,10 @@ A mage hunter is usually in its sentry form, a diamond-shaped drone with a heigh
 "actions":
   - "desc": "The hunter makes two Claw attacks."
     "name": "Multiattack (Hunter Form Only)"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (2d10 + 4) slashing damage."
     "name": "Claw (Hunter Form Only)"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 22 (4d8 + 4) piercing damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and the hunter can't make a Tail attack against another target."

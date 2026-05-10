@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Adventuring
+- "Adventuring"
 ---
 # Adventuring
 *Source: Player's Handbook (2014), p. 181* 
@@ -170,7 +171,7 @@ By its nature, adventuring involves delving into places that are dark, dangerous
 
 A fall from a great height is one of the most common hazards facing an adventurer.
 
-At the end of a fall, a creature takes `d6` bludgeoning damage for every 10 feet it fell, to a maximum of `20d6`. The creature lands [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), unless it avoids taking damage from the fall.
+At the end of a fall, a creature takes `1d6` bludgeoning damage for every 10 feet it fell, to a maximum of `20d6`. The creature lands [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), unless it avoids taking damage from the fall.
 
 #### Suffocating
 

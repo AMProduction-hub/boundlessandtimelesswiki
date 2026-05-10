@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 aliases:
-- Scholars of Lorehold; Lorehold Scholars
+- "Scholars of Lorehold; Lorehold Scholars"
 ---
 # Scholars of Lorehold; Lorehold Scholars
 *Source: Strixhaven: A Curriculum of Chaos p. 13* 
 
 **Lorehold Scholars**
-
-`dice: [](scholars-of-lorehold-lorehold-scholars-scc.md#^lorehold-scholars)`
 
 | dice: d10 | Scholar | Principle |
 |-----------|---------|-----------|

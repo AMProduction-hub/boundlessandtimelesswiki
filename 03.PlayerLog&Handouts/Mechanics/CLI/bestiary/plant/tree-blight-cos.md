@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tree Blight
+- "Tree Blight"
 ---
-# [Tree Blight](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/tree-blight-cos.md)
+# [Tree Blight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/tree-blight-cos.md)
 *Source: Curse of Strahd p. 230*  
 
 Blights (as described in the Monster Manual) are evil, ambulatory plant creatures, and a tree blight is a particularly enormous variety. It looks like a dead tree or treant, 30 feet tall, with spongy wooden flesh, thorny branches, and rubbery roots that trail behind it. It has blood for sap and is so saturated with blood that it doesn't catch fire easily.
@@ -44,7 +45,8 @@ A tree blight will often fight alongside other kinds of blights, but it hates ot
 "speed": "30 ft."
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 10"
 "languages": "understands Common and Druidic but doesn't speak"
 "cr": "7"
 "traits":
@@ -56,19 +58,19 @@ A tree blight will often fight alongside other kinds of blights, but it hates ot
 "actions":
   - "desc": "The blight makes one Branch attack and one Grasping Root attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 15 ft., one target. *Hit:*\
       \ 16 (3d6 + 6) bludgeoning damage."
     "name": "Branch"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 15 ft., one creature not [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-      \ by the blight. Hit: The target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 15 ft., one creature not [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ by the blight. *Hit:* The target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15). Until the grapple ends, the target takes 9 (1d6 + 6) bludgeoning\
       \ damage at the start of each of its turns. The root has AC 15 and can be severed\
       \ by dealing 6 slashing damage or more to it at once. Cutting the root doesn't\
       \ hurt the blight, but ends the grapple."
     "name": "Grasping Root"
 "bonus_actions":
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-      \ by the blight. Hit: 19 (3d8 + 6) piercing damage."
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ by the blight. *Hit:* 19 (3d8 + 6) piercing damage."
     "name": "Bite"
 "source":
   - "CoS"

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Phenax's Villains
+- "Phenax's Villains"
 ---
 # Phenax's Villains
 *Source: Mythic Odysseys of Theros p. 164* 
 
 **Phenax's Villains**
-
-`dice: [](phenaxs-villains-mot.md#^phenaxs-villains)`
 
 | dice: d8 | Villain |
 |----------|---------|

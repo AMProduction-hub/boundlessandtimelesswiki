@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-4
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Star Spawn Grue
+- "Star Spawn Grue"
 ---
-# [Star Spawn Grue](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/star-spawn-grue-mpmm.md)
+# [Star Spawn Grue](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/star-spawn-grue-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 227, Mordenkainen's Tome of Foes p. 234*  
 
 Fanged and lipless, the ever-grinning, eerily staring grue lopes about on spindly legs and long arms. Bristles and spines project from odd patches of its grayish skin, and its long fingers end in broken and dirty nails. Grues are the weakest of the star spawn. A host of writhing, scrambling grues typically accompanies more powerful star spawn. Their constant chittering and shrieking produce discordant psychic energy that disrupts thought patterns in other creatures, which experience flashing colors, hallucinations, disorientation, and waves of hopelessness.
@@ -60,7 +61,8 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
   - !!int "6"
 "speed": "30 ft."
 "damage_immunities": "psychic"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Deep Speech"
 "cr": "1/4"
 "traits":
@@ -69,7 +71,7 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
       \ a star spawn grue."
     "name": "Aura of Shrieks"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (2d4 + 1) piercing damage, and the target must succeed on a DC 10 Wisdom\
       \ saving throw or attack rolls against it have advantage until the start of\
       \ the grue's next turn."

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Shavarath, the Battleground; Shavarath Manifest Zone Features
+- "Shavarath, the Battleground; Shavarath Manifest Zone Features"
 ---
 # Shavarath, the Battleground; Shavarath Manifest Zone Features
 *Source: Eberron: Rising from the Last War p. 231* 
 
 **Shavarath Manifest Zone Features**
-
-`dice: [](shavarath-the-battleground-shavarath-manifest-zone-features-erlw.md#^shavarath-manifest-zone-features)`
 
 | dice: d4 | Feature |
 |----------|---------|

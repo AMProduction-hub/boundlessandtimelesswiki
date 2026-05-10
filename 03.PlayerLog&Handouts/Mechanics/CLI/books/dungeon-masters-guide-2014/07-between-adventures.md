@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Between Adventures
+- "Between Adventures"
 ---
 # Between Adventures
 *Source: Dungeon Master's Guide (2014), p. 125* 
@@ -149,7 +150,7 @@ As your campaign progresses, your players' characters will not only become more 
 Chapter 8, ""Adventuring"," of the *Player's Handbook* describes a few downtime activities to fill the void between adventures. Depending on the style of your campaign and the particular backgrounds and interests of the adventurers, you can make some or all of the following additional activities available as options.
 
 - [Building a Stronghold](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/downtime-activity-building-a-stronghold.md)  
-- [Carousing](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/downtime-activity-carousing.md)  
+- [Carousing](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/downtime-activity-carousing-xge.md)  
 - [Crafting a Magic Item](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/downtime-activity-crafting-a-magic-item.md)  
 - [Gaining Renown](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/downtime-activity-gaining-renown.md)  
 - [Performing Sacred Rites](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/downtime-activity-performing-sacred-rites.md)  

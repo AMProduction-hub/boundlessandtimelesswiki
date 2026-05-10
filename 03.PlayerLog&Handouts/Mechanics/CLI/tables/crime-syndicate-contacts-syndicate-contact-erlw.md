@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Crime Syndicate Contacts; Syndicate Contact
+- "Crime Syndicate Contacts; Syndicate Contact"
 ---
 # Crime Syndicate Contacts; Syndicate Contact
 *Source: Eberron: Rising from the Last War p. 71* 
 
 **Syndicate Contact**
-
-`dice: [](crime-syndicate-contacts-syndicate-contact-erlw.md#^syndicate-contact)`
 
 | dice: d8 | Contact |
 |----------|---------|

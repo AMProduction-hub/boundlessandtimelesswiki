@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Human Names – Niger-Congo, Male
+- "Human Names – Niger-Congo, Male"
 ---
 # Human Names – Niger-Congo, Male
 *Source: Xanathar's Guide to Everything p. 181* 
 
 **Human Names – Niger-Congo, Male**
-
-`dice: [](human-names-niger-congo-male-xge.md#^human-names-niger-congo-male)`
 
 | dice: d100 | Name |
 |------------|------|

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/gruul-anarch
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
 - ttrpg-cli/spell/class/sorcerer
@@ -16,7 +17,7 @@ tags:
 - ttrpg-cli/spell/subclass/the-great-old-one
 - ttrpg-cli/spell/subrace/human-mark-of-handling
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Nature Domain)
 - Druid
 - Paladin (Oath of Conquest)
@@ -25,7 +26,7 @@ classes:
 - Warlock (The Archfey)
 - Warlock (The Great Old One)
 aliases:
-- Dominate Beast
+- "Dominate Beast"
 ---
 # Dominate Beast
 *4th-level, Enchantment*  
@@ -46,6 +47,6 @@ Each time the target takes damage, it makes a new Wisdom saving throw against th
 
 **At Higher Levels.** When you cast this spell with a 5th-level spell slot, the duration is [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration), up to 10 minutes. When you use a 6th-level spell slot, the duration is [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration), up to 1 hour. When you use a spell slot of 7th level or higher, the duration is [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration), up to 8 hours.
 
-**Classes**: [Paladin (Oath of Conquest)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-conquest-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Archfey)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-archfey.md); [Warlock (The Great Old One)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-great-old-one.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Paladin (Oath of Conquest)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-conquest-xge.md "subclass=XGE"); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock (The Archfey)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-archfey.md); [Warlock (The Great Old One)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-great-old-one.md)
 
 *Source: Player's Handbook p. 234. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

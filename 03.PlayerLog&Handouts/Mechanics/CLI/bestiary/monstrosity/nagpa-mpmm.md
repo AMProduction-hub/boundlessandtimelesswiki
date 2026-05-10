@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/17
@@ -15,9 +16,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nagpa
+- "Nagpa"
 ---
-# [Nagpa](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/nagpa-mpmm.md)
+# [Nagpa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/nagpa-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 189, Mordenkainen's Tome of Foes p. 215*  
 
 Long ago, the Raven Queen cursed a cabal of powerful wizards for meddling in a ritual that would have helped avert a war between the gods. She transformed them into the scabrous, birdlike creatures known as nagpas and rendered them able to acquire new lore and magical power only from the ruins of fallen civilizations and great calamities.
@@ -46,9 +47,9 @@ Hungry to claim more power despite the Raven Queen's curse, nagpas strive to bri
   - !!int "21"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+12"
-  - "wisdom": "+10"
-  - "charisma": "+11"
+  - "intelligence": !!int "12"
+  - "wisdom": !!int "10"
+  - "charisma": !!int "11"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+12"
@@ -60,28 +61,29 @@ Hungry to claim more power despite the Raven Queen's curse, nagpas strive to bri
     "desc": "+10"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+10"
-"senses": "truesight 120 ft., passive Perception 20"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 20"
 "languages": "Common plus up to five other languages"
 "cr": "17"
 "actions":
   - "desc": "The nagpa makes three Staff or Deathly Ray attacks. It can replace one\
       \ attack with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d6 + 2) bludgeoning damage plus 24 (7d6) necrotic damage."
     "name": "Staff"
-  - "desc": "Ranged Spell Attack: +12 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +12 to hit, range 120 ft., one target. *Hit:*\
       \ 30 (7d6 + 6) necrotic damage."
     "name": "Deathly Ray"
   - "desc": "The nagpa casts one of the following spells, using Intelligence as the\
-      \ spellcasting ability (spell save DC 20):\n\nAt will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ spellcasting ability (spell save DC 20):\n\n**At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md),\
       \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
-      \n2/day each: [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md),\
+      \n**2/day each:** [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md), [wall\
-      \ of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)\n\n1/day\
-      \ each: [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md),\
+      \ of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)\n\n**1/day\
+      \ each:** [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md),\
       \ [etherealness](03.PlayerLog&Handouts/Mechanics/CLI/spells/etherealness.md),\
       \ [feeblemind](03.PlayerLog&Handouts/Mechanics/CLI/spells/feeblemind.md)"
     "name": "Spellcasting"

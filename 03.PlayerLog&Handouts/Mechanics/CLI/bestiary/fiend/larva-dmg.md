@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/monster/cr/0
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Larva
+- "Larva"
 ---
-# [Larva](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/larva-dmg.md)
-*Source: Dungeon Master's Guide p. 63, Baldur's Gate: Descent Into Avernus*  
+# [Larva](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/larva-dmg.md)
+*Source: Dungeon Master's Guide p. 63*  
 
 ```statblock
 "name": "Larva (DMG)"
@@ -35,12 +36,11 @@ aliases:
 "languages": "understands the languages it knew in life but can't speak"
 "cr": "0"
 "actions":
-  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 1\
       \ (1d4 - 1) piercing damage."
     "name": "Bite"
 "source":
   - "DMG"
-  - "BGDIA"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/larva-dmg.webp"
 ```
 ^statblock

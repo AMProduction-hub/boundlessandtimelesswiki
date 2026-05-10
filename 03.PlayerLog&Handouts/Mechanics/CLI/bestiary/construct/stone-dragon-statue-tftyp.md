@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Stone Dragon Statue
+- "Stone Dragon Statue"
 ---
-# [Stone Dragon Statue](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/stone-dragon-statue-tftyp.md)
+# [Stone Dragon Statue](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/stone-dragon-statue-tftyp.md)
 *Source: Tales from the Yawning Portal p. 85*  
 
 ```statblock
@@ -40,7 +41,8 @@ aliases:
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "10"
 "traits":

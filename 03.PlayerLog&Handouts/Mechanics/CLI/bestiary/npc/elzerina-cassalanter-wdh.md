@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Elzerina Cassalanter
+- "Elzerina Cassalanter"
 ---
-# [Elzerina Cassalanter](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/elzerina-cassalanter-wdh.md)
+# [Elzerina Cassalanter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/elzerina-cassalanter-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 115*  
 
 ```statblock

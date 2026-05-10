@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/paladin
 - ttrpg-cli/spell/class/warlock
@@ -17,7 +18,7 @@ tags:
 - ttrpg-cli/spell/subclass/monster-slayer
 - ttrpg-cli/spell/subrace/dwarf-mark-of-warding
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Cleric (Arcana Domain)
 - Fighter (Eldritch Knight)
@@ -28,7 +29,7 @@ classes:
 - Warlock
 - Wizard
 aliases:
-- Magic Circle
+- "Magic Circle"
 ---
 # Magic Circle
 *3rd-level, Abjuration*  
@@ -51,6 +52,6 @@ When you cast this spell, you can elect to cause its magic to operate in the rev
 
 **At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the duration increases by 1 hour for each slot level above 3rd.
 
-**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Ranger (Monster Slayer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-monster-slayer-xge.md "subclass=XGE"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md); [Ranger (Monster Slayer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-monster-slayer-xge.md "subclass=XGE"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 256. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

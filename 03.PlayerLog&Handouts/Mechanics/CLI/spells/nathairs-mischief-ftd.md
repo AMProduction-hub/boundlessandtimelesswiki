@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/feat/adept-of-the-red-robes
@@ -12,13 +13,13 @@ tags:
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/eldritch-knight
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
 - Sorcerer
 - Wizard
 aliases:
-- Nathair's Mischief
+- "Nathair's Mischief"
 ---
 # Nathair's Mischief
 *2nd-level, Illusion*  
@@ -33,8 +34,6 @@ You fill a 20-foot cube you can see within range with fey and draconic magic. Ro
 
 **Mischievous Surge**
 
-`dice: [](nathairs-mischief-ftd.md#^mischievous-surge)`
-
 | dice: d4 | Effect |
 |----------|--------|
 | 1 | The smell of apple pie fills the air, and each creature in the cube must succeed on a Wisdom saving throw or become [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) by you until the start of your next turn. |
@@ -43,6 +42,6 @@ You fill a 20-foot cube you can see within range with fey and draconic magic. Ro
 | 4 | Drops of molasses hover in the cube, making it difficult terrain until the start of your next turn. |
 ^mischievous-surge
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Fizban's Treasury of Dragons p. 20*

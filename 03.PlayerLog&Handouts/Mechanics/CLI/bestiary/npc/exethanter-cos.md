@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Exethanter
+- "Exethanter"
 ---
-# [Exethanter](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/exethanter-cos.md)
+# [Exethanter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/exethanter-cos.md)
 *Source: Curse of Strahd p. 189*  
 
 ```statblock
@@ -33,9 +34,9 @@ aliases:
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+10"
-  - "intelligence": "+12"
-  - "wisdom": "+9"
+  - "constitution": !!int "10"
+  - "intelligence": !!int "12"
+  - "wisdom": !!int "9"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+19"
@@ -52,19 +53,20 @@ aliases:
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 19"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 19"
 "languages": "Common plus up to five other languages"
 "cr": "10"
 "traits":
   - "desc": "Exethanter is an 18th-level spellcaster. Its spellcasting ability is\
       \ Intelligence (spell save DC 20, +12 to hit with spell attacks). Exethanter\
-      \ has the following wizard spells prepared:\n\nCantrips (at will): [mage\
+      \ has the following wizard spells prepared:\n\n**Cantrips (at will):** [mage\
       \ hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)"
     "name": "Spellcasting"
   - "desc": "If Exethanter fails a saving throw, it can choose to succeed instead."
     "name": "Legendary Resistance (3/Day)"
-  - "desc": "If it has a phylactery, a destroyed lich gains a new body in d10 days,\
+  - "desc": "If it has a phylactery, a destroyed lich gains a new body in 1d10 days,\
       \ regaining all its hit points and becoming active again. The new body appears\
       \ within 5 feet of the phylactery."
     "name": "Rejuvenation"
@@ -72,12 +74,15 @@ aliases:
       \ undead."
     "name": "Turn Resistance"
 "actions":
-  - "desc": "Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +12 to hit, reach 5 ft., one creature. *Hit:*\
       \ 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving\
       \ throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
       \ its turns, ending the effect on itself on a success."
     "name": "Paralyzing Touch"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Exethanter can expend a use to take one of the following actions. Exethanter\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Exethanter casts a cantrip."
     "name": "Cantrip"

@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/deity/theros
 - ttrpg-cli/domain/life
 - ttrpg-cli/domain/nature
-aliases: 
-- Karametra
+aliases:
+- "Karametra"
 ---
 # Karametra
 *Source: Mythic Odysseys of Theros p. 52* 
@@ -94,8 +95,6 @@ Although Karametra's demeanor is gentle, her call to service is nonnegotiable. S
 
 **Karametra's Favor**
 
-`dice: [](theros-karametra-mot.md#^karametras-favor)`
-
 | dice: d6 | Circumstance |
 |----------|--------------|
 | 1 | You were an orphan who wandered into one of Karametra's temples seeking a meal and a safe place to spend the night. |
@@ -111,8 +110,6 @@ Although Karametra's demeanor is gentle, her call to service is nonnegotiable. S
 Following Karametra means dedicating yourself to caring for others, promoting civilization and community, and putting the needs of others above your own. After all, Karametra asks nothing for herself. As a follower of Karametra, consider the ideals on the Karametra's Ideals table as alternatives to those suggested for your background.
 
 **Karametra's Ideals**
-
-`dice: [](theros-karametra-mot.md#^karametras-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

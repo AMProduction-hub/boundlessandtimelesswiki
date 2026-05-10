@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/spell/background/dimir-operative
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/level/cantrip
 - ttrpg-cli/spell/optfeature/pact-of-the-tome
 - ttrpg-cli/spell/school/enchantment
 classes:
-- Bard
+- Bard (Magical Secrets)
 aliases:
-- Encode Thoughts
+- "Encode Thoughts"
 ---
 # Encode Thoughts
 *cantrip, Enchantment*  
@@ -28,6 +29,6 @@ If you cast this spell while [concentrating](03.PlayerLog&Handouts/Mechanics/CLI
 
 Casting this spell while holding a thought strand allows you to instantly receive whatever memory, idea, or message the thought strand contains. (Casting [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md) on the strand has the same effect.)
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md)
 
 *Source: Guildmasters' Guide to Ravnica p. 47*

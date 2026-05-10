@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Skull Lasher of Myrkul
+- "Skull Lasher of Myrkul"
 ---
-# [Skull Lasher of Myrkul](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/skull-lasher-of-myrkul-bgdia.md)
+# [Skull Lasher of Myrkul](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/skull-lasher-of-myrkul-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 234*  
 
 Those who follow Myrkul are either wizards or those who seek to master the necromantic arts.
@@ -43,7 +44,7 @@ A follower of Myrkul wields a flail that has a skull replacing the normal flail'
   - !!int "10"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+3"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -55,28 +56,28 @@ A follower of Myrkul wields a flail that has a skull replacing the normal flail'
 "traits":
   - "desc": "The skull lasher is a 3rd-level spellcaster. Its spellcasting ability\
       \ is Wisdom (spell save DC 13, +5 to hit with spell attacks). It has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**1st level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [protection from evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md),\
       \ [ray of sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md)\
       \ (see \"Actions\" below), [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\
-      \n2nd level (2 slots): [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \n**2nd level (2 slots):** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md)"
     "name": "Spellcasting"
 "actions":
   - "desc": "The skull lasher makes two attacks with its flail."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4\
-      \ (d8) bludgeoning damage plus 7 (2d6) necrotic damage, and the target has\
-      \ disadvantage on all saving throws until the end of the skull lasher's next\
-      \ turn."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 4\
+      \ (1d8) bludgeoning damage plus 7 (2d6) necrotic damage, and the target\
+      \ has disadvantage on all saving throws until the end of the skull lasher's\
+      \ next turn."
     "name": "Iron Skull Flail"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 60 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 60 ft., one creature. *Hit:*\
       \ 9 (2d8) poison damage, and the target must succeed on a DC 13 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ until the end of the skull lasher's next turn. If the skull lasher casts this\
-      \ spell using a spell slot of 2nd level or higher, the damage increases by d8\
+      \ spell using a spell slot of 2nd level or higher, the damage increases by 1d8\
       \ for each slot level above 1st."
     "name": "Ray of Sickness (1st-Level Spell; Requires a Spell Slot)"
 "source":

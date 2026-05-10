@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 aliases:
-- Mysterious Islands
+- "Mysterious Islands"
 ---
 # Mysterious Islands
 *Source: Ghosts of Saltmarsh p. 211* 
@@ -13,7 +14,7 @@ Small islands dot most oceans, distant or unexplored locales that might host all
 
 ## Island Size
 
-These rules are used to generate islands with areas roughly `d6` miles long and `d6` miles wide. Most islands aren't perfect rectangles, and most coastlines aren't perfectly straight, so feel free to make areas of the island shorter, longer, thinner, or wider as you see fit.
+These rules are used to generate islands with areas roughly `1d6` miles long and `1d6` miles wide. Most islands aren't perfect rectangles, and most coastlines aren't perfectly straight, so feel free to make areas of the island shorter, longer, thinner, or wider as you see fit.
 
 ## Island Habitat
 
@@ -24,8 +25,6 @@ An island can have any habitat that seems appropriate for the clime it occupies.
 Each island encountered has a theme chosen or rolled on the Island Theme table. This theme defines the island's story in one broad stroke. Once you have a theme, consult its section after the table to determine related details and story hooks.
 
 **Island Theme**
-
-`dice: [](mysterious-islands-gos.md#^island-theme)`
 
 | dice: d6 | Theme |
 |----------|-------|
@@ -43,8 +42,6 @@ Alien islands are inhabited by isolated creatures with ways of life beyond most 
 
 **Alien Island Leader**
 
-`dice: [](mysterious-islands-gos.md#^alien-island-leader)`
-
 | dice: d4 | Leader |
 |----------|--------|
 | 1 | [Aboleth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/aboleth.md) |
@@ -55,20 +52,16 @@ Alien islands are inhabited by isolated creatures with ways of life beyond most 
 
 **Alien Island Inhabitants**
 
-`dice: [](mysterious-islands-gos.md#^alien-island-inhabitants)`
-
 | dice: d6 | Inhabitants |
 |----------|-------------|
-| 1 | `d6` [berserkers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md) and `5d10` [tribal warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md) |
-| 2–3 | `d6` [cult fanatics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cult-fanatic.md) and `5d10` [cultists](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cultist.md) |
-| 4 | `d6` [lizardfolk shamans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk-shaman.md) and `5d10` [lizardfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk.md) |
-| 5 | `d6` [bullywug croakers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bullywug-croaker-gos.md) (see appendix C) and `5d10` [bullywugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bullywug.md) |
-| 6 | `d8` [locathah hunters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/locathah-hunter-gos.md) (see appendix C) and `3d10` [locathah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/locathah-gos.md) (see appendix C) |
+| 1 | `1d6` [berserkers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md) and `5d10` [tribal warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md) |
+| 2–3 | `1d6` [cult fanatics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cult-fanatic.md) and `5d10` [cultists](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cultist.md) |
+| 4 | `1d6` [lizardfolk shamans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk-shaman.md) and `5d10` [lizardfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk.md) |
+| 5 | `1d6` [bullywug croakers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bullywug-croaker-gos.md) (see appendix C) and `5d10` [bullywugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bullywug.md) |
+| 6 | `1d8` [locathah hunters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/locathah-hunter-gos.md) (see appendix C) and `3d10` [locathah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/locathah-gos.md) (see appendix C) |
 ^alien-island-inhabitants
 
 **Alien Inhabitant Reactions**
-
-`dice: [](mysterious-islands-gos.md#^alien-inhabitant-reactions)`
 
 | dice: d6 | Reaction |
 |----------|----------|
@@ -81,8 +74,6 @@ Alien islands are inhabited by isolated creatures with ways of life beyond most 
 ^alien-inhabitant-reactions
 
 **Alien Island Story Hooks**
-
-`dice: [](mysterious-islands-gos.md#^alien-island-story-hooks)`
 
 | dice: d4 | Story Hook |
 |----------|------------|
@@ -98,11 +89,9 @@ Cursed islands are steeped in dark magic from a ritual cast by necromancers, hag
 
 **Island Curses**
 
-`dice: [](mysterious-islands-gos.md#^island-curses)`
-
 | dice: d6 | Curse |
 |----------|-------|
-| 1 | When a creature dies on the island, its spirit rises as a [specter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md) `d4` hours after death. The specter is obsessed with killing its former friends. |
+| 1 | When a creature dies on the island, its spirit rises as a [specter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md) `1d4` hours after death. The specter is obsessed with killing its former friends. |
 | 2 | Creatures that aren't inhabitants of the island must succeed on a Constitution saving throw at the end of each hour they spend on the island. If they fail, they gain one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). The DC for this check equals 10 + the number of hours spent on the island. |
 | 3 | Each day at dawn, the island conjures `2d10` [magma mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/magma-mephit.md), which are hostile toward creatures that aren't inhabitants of the island. |
 | 4 | When a creature that isn't an inhabitant of the island completes a long rest there, it must succeed on a DC 15 Wisdom saving throw or be [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) for 8 hours. |
@@ -112,13 +101,11 @@ Cursed islands are steeped in dark magic from a ritual cast by necromancers, hag
 
 **Cursed Island Inhabitants**
 
-`dice: [](mysterious-islands-gos.md#^cursed-island-inhabitants)`
-
 | dice: d6 | Inhabitants |
 |----------|-------------|
 | 1 | `5d10` [specters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md) |
 | 2 | `10d10` [zombies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md) |
-| 3 | A coven of 3 [sea hags](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/sea-hag.md) and `d4` [flameskulls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/flameskull.md) |
+| 3 | A coven of 3 [sea hags](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/sea-hag.md) and `1d4` [flameskulls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/flameskull.md) |
 | 4 | 1 [medusa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/medusa.md) and `3d10` [skeletons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeleton.md) |
 | 5 | 1 [vampire](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampire.md) and `2d6` [vampire spawn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampire-spawn.md) |
 | 6 | 1 [demilich](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/demilich.md) and `2d10` [wraiths](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wraith.md) |
@@ -126,13 +113,11 @@ Cursed islands are steeped in dark magic from a ritual cast by necromancers, hag
 
 **Cursed Island Story Hooks**
 
-`dice: [](mysterious-islands-gos.md#^cursed-island-story-hooks)`
-
 | dice: d4 | Story Hook |
 |----------|------------|
 | 1 | The island contains rare spell components the characters need. |
 | 2 | Pirates buried treasure worth `5d6 × 1,000` gp on the island. |
-| 3 | A keelboat carrying `d6` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) crashed on the island. The commoners are struggling to survive. |
+| 3 | A keelboat carrying `1d6` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) crashed on the island. The commoners are struggling to survive. |
 | 4 | The [ghost](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghost.md) of a character's loved one is trapped on the island. |
 ^cursed-island-story-hooks
 
@@ -141,8 +126,6 @@ Cursed islands are steeped in dark magic from a ritual cast by necromancers, hag
 Hostile islands contain creatures that want to harm the characters. These creatures fill their islands with traps and attack outsiders out of hunger, boredom, or fear.
 
 **Hostile Island Leader**
-
-`dice: [](mysterious-islands-gos.md#^hostile-island-leader)`
 
 | dice: d6 | Leader |
 |----------|--------|
@@ -156,8 +139,6 @@ Hostile islands contain creatures that want to harm the characters. These creatu
 
 **Hostile Island Leader Motivations**
 
-`dice: [](mysterious-islands-gos.md#^hostile-island-leader-motivations)`
-
 | dice: d4 | Motivation |
 |----------|------------|
 | 1 | The leader wants to commandeer a boat to conquer other islands. |
@@ -168,21 +149,17 @@ Hostile islands contain creatures that want to harm the characters. These creatu
 
 **Hostile Inhabitants**
 
-`dice: [](mysterious-islands-gos.md#^hostile-inhabitants)`
-
 | dice: d6 | Inhabitants |
 |----------|-------------|
 | 1 | `3d10` [winged kobolds](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/winged-kobold.md) and `10d10` [kobolds](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kobold.md) |
 | 2 | 1 [goblin boss](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin-boss.md) and `8d10` [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) |
-| 3 | `d6` [berserkers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md) and `5d10` [tribal warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md) |
+| 3 | `1d6` [berserkers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md) and `5d10` [tribal warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md) |
 | 4 | 1 [orc chieftain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc-war-chief.md), `2d10` [orogs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orog.md), and `5d10` [orcs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc.md) |
 | 5 | `4d10` [ogres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md) |
 | 6 | `3d10` [trolls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/troll.md) |
 ^hostile-inhabitants
 
 **Hostile Island Story Hooks**
-
-`dice: [](mysterious-islands-gos.md#^hostile-island-story-hooks)`
 
 | dice: d4 | Story Hook |
 |----------|------------|
@@ -198,8 +175,6 @@ The inhabitants of sanctum islands use the seas to protect themselves and their 
 
 **Sanctum Island Leader**
 
-`dice: [](mysterious-islands-gos.md#^sanctum-island-leader)`
-
 | dice: d6 | Leader |
 |----------|--------|
 | 1 | [Archmage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/archmage.md) |
@@ -212,21 +187,17 @@ The inhabitants of sanctum islands use the seas to protect themselves and their 
 
 **Sanctum Island Inhabitants**
 
-`dice: [](mysterious-islands-gos.md#^sanctum-island-inhabitants)`
-
 | dice: d6 | Inhabitants |
 |----------|-------------|
 | 1 | `5d10` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) and `10d10` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) |
 | 2 | 1 [pirate captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/pirate-captain-gos.md) (see appendix C), 1 [pirate bosun](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/pirate-bosun-gos.md) (see appendix C), `2d4` [pirate deck wizards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/pirate-deck-wizard-gos.md) (see appendix C), and `8d10` [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md) |
-| 3 | `d6` [flesh golems](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/flesh-golem.md), `d4` [priests](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/priest.md), and `2d10` [acolytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/acolyte.md) |
+| 3 | `1d6` [flesh golems](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/flesh-golem.md), `1d4` [priests](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/priest.md), and `2d10` [acolytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/acolyte.md) |
 | 4 | `2d4` [veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md), `2d10` [scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md), `4d10` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) |
-| 5 | `d4` [stone golems](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/stone-golem.md), `d4` [mages](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage.md), and `3d10` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) |
+| 5 | `1d4` [stone golems](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/stone-golem.md), `1d4` [mages](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage.md), and `3d10` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) |
 | 6 | 1 [shield guardian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/shield-guardian.md), `2d4` [knights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/knight.md), `2d6` [priests](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/priest.md), and `6d10` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) |
 ^sanctum-island-inhabitants
 
 **Sanctum Island Reactions**
-
-`dice: [](mysterious-islands-gos.md#^sanctum-island-reactions)`
 
 | dice: d6 | Reaction |
 |----------|----------|
@@ -239,8 +210,6 @@ The inhabitants of sanctum islands use the seas to protect themselves and their 
 ^sanctum-island-reactions
 
 **Sanctum Island Story Hooks**
-
-`dice: [](mysterious-islands-gos.md#^sanctum-island-story-hooks)`
 
 | dice: d4 | Story Hook |
 |----------|------------|
@@ -256,8 +225,6 @@ Welcoming islands host creatures that are friendly toward the characters. These 
 
 **Welcoming Island Leader**
 
-`dice: [](mysterious-islands-gos.md#^welcoming-island-leader)`
-
 | dice: d6 | Leader |
 |----------|--------|
 | 1 | [Bard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bard-mpmm.md) (see appendix C) |
@@ -270,21 +237,17 @@ Welcoming islands host creatures that are friendly toward the characters. These 
 
 **Welcoming Island Inhabitants**
 
-`dice: [](mysterious-islands-gos.md#^welcoming-island-inhabitants)`
-
 | dice: d6 | Inhabitants |
 |----------|-------------|
 | 1 | `5d10` [aarakocra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/aarakocra.md) |
 | 2 | `8d8` [pixies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/pixie.md) and `8d8` [sprites](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/sprite.md) |
-| 3 | `d6` [lizardfolk shamans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk-shaman.md) and `5d10` [lizardfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk.md) |
-| 4 | `d6` [druids](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md) and `5d10` [tribal warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md) |
+| 3 | `1d6` [lizardfolk shamans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk-shaman.md) and `5d10` [lizardfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk.md) |
+| 4 | `1d6` [druids](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md) and `5d10` [tribal warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md) |
 | 5 | `3d10` [centaurs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/centaur.md) |
 | 6 | `3d10` [scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md) and `5d10` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) |
 ^welcoming-island-inhabitants
 
 **Welcoming Island Story Hooks**
-
-`dice: [](mysterious-islands-gos.md#^welcoming-island-story-hooks)`
 
 | dice: d4 | Story Hook |
 |----------|------------|
@@ -300,8 +263,6 @@ Nature reigns on wild islands. The creatures on the island respond to the ebb an
 
 **Wild Island Features**
 
-`dice: [](mysterious-islands-gos.md#^wild-island-features)`
-
 | dice: d6 | Feature |
 |----------|---------|
 | 1 | A waterfall flows up a mountainside. |
@@ -314,35 +275,31 @@ Nature reigns on wild islands. The creatures on the island respond to the ebb an
 
 **Wild Island Encounters**
 
-`dice: [](mysterious-islands-gos.md#^wild-island-encounters)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1 | `2d8` [baboons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/baboon.md) |
-| 2 | `d4` [brown bears](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/brown-bear.md) |
+| 2 | `1d4` [brown bears](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/brown-bear.md) |
 | 3 | 1 [owlbear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/owlbear.md) |
 | 4 | `2d6` [giant toads](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-toad.md) |
 | 5 | `2d10` [giant wasps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-wasp.md) |
 | 6 | `2d4` [giant spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-spider.md) |
 | 7 | `4d4` [pixies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/pixie.md) or `4d4` [sprites](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/sprite.md) |
-| 8 | `d4` [blink dogs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/blink-dog.md) |
+| 8 | `1d4` [blink dogs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/blink-dog.md) |
 | 9 | 1 [pirate captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/pirate-captain-gos.md) (see appendix C) and `3d10` [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md) digging up buried treasure |
 | 10 | `3d6` [tribal warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md) |
 | 11 | `2d4` [druids](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md) |
-| 12 | `d6` [dryads](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/dryad.md) |
+| 12 | `1d6` [dryads](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/dryad.md) |
 | 13 | `2d4` [centaurs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/centaur.md) |
 | 14 | 1 [ankheg](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/ankheg.md) |
-| 15 | `d10` [giant boars](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-boar.md) |
+| 15 | `1d10` [giant boars](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-boar.md) |
 | 16 | `2d6` [giant eagles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-eagle.md) |
-| 17 | `d4` [giant apes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-ape.md) |
-| 18 | `d4` [treants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/treant.md) |
+| 17 | `1d4` [giant apes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-ape.md) |
+| 18 | `1d4` [treants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/treant.md) |
 | 19 | 1 [roc](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/roc.md) |
-| 20 | `d4` [veteran](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md) explorers |
+| 20 | `1d4` [veteran](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md) explorers |
 ^wild-island-encounters
 
 **Wild Island Story Hooks**
-
-`dice: [](mysterious-islands-gos.md#^wild-island-story-hooks)`
 
 | dice: d4 | Story Hook |
 |----------|------------|

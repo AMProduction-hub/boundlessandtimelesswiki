@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Human Names – Norse, Female
+- "Human Names – Norse, Female"
 ---
 # Human Names – Norse, Female
 *Source: Xanathar's Guide to Everything p. 181* 
 
 **Human Names – Norse, Female**
-
-`dice: [](human-names-norse-female-xge.md#^human-names-norse-female)`
 
 | dice: d100 | Name |
 |------------|------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reduced-Threat Owlbear
+- "Reduced-Threat Owlbear"
 ---
-# [Reduced-Threat Owlbear](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/reduced-threat-owlbear-tftyp.md)
+# [Reduced-Threat Owlbear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/reduced-threat-owlbear-tftyp.md)
 *Source: Tales from the Yawning Portal p. 113*  
 
 ```statblock
@@ -35,7 +36,8 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+1"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": ""
 "cr": "3"
 "traits":
@@ -50,10 +52,10 @@ aliases:
 "actions":
   - "desc": "The owlbear makes two attacks: one with its beak and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 10 (1d10 + 5) piercing damage."
     "name": "Beak"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (2d8 + 5) slashing damage."
     "name": "Claws"
 "source":

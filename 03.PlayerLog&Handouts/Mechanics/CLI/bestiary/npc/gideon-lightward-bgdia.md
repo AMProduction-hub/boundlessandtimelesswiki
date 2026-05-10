@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gideon Lightward
+- "Gideon Lightward"
 ---
-# [Gideon Lightward](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/gideon-lightward-bgdia.md)
+# [Gideon Lightward](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gideon-lightward-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 65*  
 
 Gideon Lightward was a priest of Lathander who served Elturel and his deity proudly. Zariel saw that his fervor could be an asset to her, so she sent devils to corrupt him in the months leading up to the fall of Elturel. The devils posed as angels, offering Gideon increased power if he would dedicate himself to fighting the ever-present threat of demons.
@@ -36,9 +37,9 @@ Gideon slowly gave up his sanity and free will to the devils, leaving him corrup
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+7"
-  - "wisdom": "+7"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+7"
@@ -50,7 +51,8 @@ Gideon slowly gave up his sanity and free will to the devils, leaving him corrup
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Common"
 "cr": "6"
 "traits":
@@ -62,7 +64,7 @@ Gideon slowly gave up his sanity and free will to the devils, leaving him corrup
 "actions":
   - "desc": "Gideon attacks twice with his fists."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage."
     "name": "Fist"
   - "desc": "Gideon targets one creature he can see within 60 feet of him. The target\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Jade Statue
+- "Jade Statue"
 ---
-# [Jade Statue](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/jade-statue-jttrc.md)
+# [Jade Statue](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jade-statue-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 195*  
 
 ```statblock
@@ -40,7 +41,8 @@ aliases:
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "10"
 "traits":
@@ -54,7 +56,7 @@ aliases:
 "actions":
   - "desc": "The statue makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 19 (3d8 + 6) bludgeoning damage."
     "name": "Slam"
   - "desc": "The statue targets one or more creatures it can see within 10 feet of\

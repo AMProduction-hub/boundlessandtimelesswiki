@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Rakdos Character Goals; Rakdos Assignments
+- "Rakdos Character Goals; Rakdos Assignments"
 ---
 # Rakdos Character Goals; Rakdos Assignments
 *Source: Guildmasters' Guide to Ravnica p. 153* 
 
 **Rakdos Assignments**
-
-`dice: [](rakdos-character-goals-rakdos-assignments-ggr.md#^rakdos-assignments)`
 
 | dice: d6 | Assignment |
 |----------|------------|

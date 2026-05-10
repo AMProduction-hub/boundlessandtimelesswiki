@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/12
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Relentless Juggernaut
+- "Relentless Juggernaut"
 ---
-# [Relentless Juggernaut](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/relentless-juggernaut-vrgr.md)
+# [Relentless Juggernaut](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/relentless-juggernaut-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 243*  
 
 Relentless juggernauts are massive brutes that thirst for carnage. Their presence twists the world around them, allowing them to create weapons with which they can slaughter prey. Sharp iron fences, crushing stalagmites and blades of glass all conveniently appear in order to aid a juggernaut's brutality. Every juggernaut considers a certain area its territory and visits destruction upon all trespassers.
@@ -24,8 +25,6 @@ Relentless killers come into being and undertake their terrifying sprees for a s
 
 **Relentless Origins**
 
-`dice: [](relentless-juggernaut-vrgr.md#^relentless-origins)`
-
 | dice: d6 | Origin |
 |----------|--------|
 | 1 | It was left for dead and granted new life to seek revenge. |
@@ -37,8 +36,6 @@ Relentless killers come into being and undertake their terrifying sprees for a s
 ^relentless-origins
 
 **Relentless Methods**
-
-`dice: [](relentless-juggernaut-vrgr.md#^relentless-methods)`
 
 | dice: d8 | Method |
 |----------|--------|
@@ -71,9 +68,9 @@ Relentless killers come into being and undertake their terrifying sprees for a s
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+6"
-  - "charisma": "+7"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
@@ -82,7 +79,8 @@ Relentless killers come into being and undertake their terrifying sprees for a s
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "understands all languages but can't speak"
 "cr": "12"
 "traits":
@@ -99,11 +97,11 @@ Relentless killers come into being and undertake their terrifying sprees for a s
   - "desc": "The juggernaut makes two attacks. It can replace one attack with Deadly\
       \ Shaping if it is ready."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 17 (2d10 + 6) piercing damage, and if the target is a creature, its speed\
       \ is reduced by 10 feet until the start of the juggernaut's next turn."
     "name": "Executioner's Pick"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 11 (1d10 + 6) bludgeoning damage, and if the target is a Large or smaller\
       \ creature, it must succeed on a DC 18 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Fist"
@@ -122,6 +120,10 @@ Relentless killers come into being and undertake their terrifying sprees for a s
       \ requires a successful DC 15 Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine))\
       \ check."
     "name": "Scything Shrapnel"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the relentless juggernaut can expend a use to take one of the following\
+  \ actions. The relentless juggernaut regains all expended uses at the start of each\
+  \ of its turns."
 "legendary_actions":
   - "desc": "The juggernaut moves up to its speed, ignoring difficult terrain. Any\
       \ object in its path takes 55 (10d10) bludgeoning damage if it isn't being\

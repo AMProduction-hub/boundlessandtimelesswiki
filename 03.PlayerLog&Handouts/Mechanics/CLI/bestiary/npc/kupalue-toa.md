@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kupalué
+- "Kupalué"
 ---
-# [Kupalué](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/kupalue-toa.md)
+# [Kupalué](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kupalue-toa.md)
 *Source: Tomb of Annihilation p. 35*  
 
 ```statblock
@@ -38,7 +39,10 @@ aliases:
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "damage_resistances": "lightning, piercing"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[sling](03.PlayerLog&Handouts/Mechanics/CLI/items/sling.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Vegepygmy"
 "cr": "1/4"
 "traits":
@@ -51,10 +55,10 @@ aliases:
       \ doesn't regenerate."
     "name": "Regeneration"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage."
     "name": "Claws"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 4 (1d4 + 2) bludgeoning damage."
     "name": "Sling"
 "source":

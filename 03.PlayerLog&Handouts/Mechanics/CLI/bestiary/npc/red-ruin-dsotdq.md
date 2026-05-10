@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Red Ruin
+- "Red Ruin"
 ---
-# [Red Ruin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/red-ruin-dsotdq.md)
+# [Red Ruin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/red-ruin-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 208*  
 
 Known for her incredible awareness and reflexes, the dragonnel-flying ace Red Ruin leads the Red Dragon Army's airborne forces. Her actual name is unknown, leading her allies to refer to her merely as "commander" or "Red Ruin"—a sobriquet earned after razing numerous targets from the air. She rarely removes her distinctive dragonnel-shaped helmet, leading to speculation about her actual identity. She also speaks little, relying on sharp hand gestures to direct dragonnel-riders in flight.
@@ -35,8 +36,8 @@ Known for her incredible awareness and reflexes, the dragonnel-flying ace Red Ru
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "strength": "+8"
-  - "dexterity": "+5"
+  - "strength": !!int "8"
+  - "dexterity": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+8"
@@ -60,7 +61,7 @@ Known for her incredible awareness and reflexes, the dragonnel-flying ace Red Ru
 "actions":
   - "desc": "Red Ruin makes three Ember Lance attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 10 (1d12 + 4) piercing damage plus 7 (2d6) fire damage. If the target\
       \ is a Medium or smaller creature, it must succeed on a DC 16 Strength saving\
       \ throw or fall [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."

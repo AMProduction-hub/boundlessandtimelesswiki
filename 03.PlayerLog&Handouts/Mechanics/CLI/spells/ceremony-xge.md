@@ -1,27 +1,28 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xge
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/paladin
-- ttrpg-cli/spell/feat/divinely-favored
-- ttrpg-cli/spell/feat/magic-initiate
-- ttrpg-cli/spell/feat/ritual-caster
-- ttrpg-cli/spell/feat/strixhaven-initiate
+- ttrpg-cli/spell/feat/divinely-favored/good
+- ttrpg-cli/spell/feat/magic-initiate/cleric-spells
+- ttrpg-cli/spell/feat/ritual-caster/cleric-spells
+- ttrpg-cli/spell/feat/strixhaven-initiate/silverquill-3
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/optfeature/book-of-ancient-secrets
 - ttrpg-cli/spell/ritual
 - ttrpg-cli/spell/school/abjuration
 - ttrpg-cli/spell/subclass/divine-soul
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Paladin
 - Sorcerer (Divine Soul)
 aliases:
-- Ceremony
+- "Ceremony"
 ---
 # Ceremony
 *1st-level, Abjuration (ritual)*  
@@ -60,6 +61,6 @@ You touch adult humanoids willing to be bonded together in marriage. For the nex
 
 ## Summary
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE")
 
 *Source: Xanathar's Guide to Everything p. 151*

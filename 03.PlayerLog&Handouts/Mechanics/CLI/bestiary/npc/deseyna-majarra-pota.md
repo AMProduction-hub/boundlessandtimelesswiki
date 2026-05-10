@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Deseyna Majarra
+- "Deseyna Majarra"
 ---
-# [Deseyna Majarra](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/deseyna-majarra-pota.md)
+# [Deseyna Majarra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/deseyna-majarra-pota.md)
 *Source: Princes of the Apocalypse p. 126*  
 
 ```statblock
@@ -40,6 +41,8 @@ aliases:
     "desc": "+4"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+5"
+"gear":
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
 "senses": "passive Perception 12"
 "languages": "any two languages"
 "cr": "1/8"

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/path-of-the-totem-warrior
 aliases:
-- Spells for Path of the Totem Warrior
+- "Spells for Path of the Totem Warrior"
 ---
 # Spells for Path of the Totem Warrior
 
@@ -18,4 +19,4 @@ aliases:
 
 ## 5th Level
 
-- [Commune with Nature](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune-with-nature.md "PHB") at class level 3
+- [Commune with Nature](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune-with-nature.md "PHB") at class level 10

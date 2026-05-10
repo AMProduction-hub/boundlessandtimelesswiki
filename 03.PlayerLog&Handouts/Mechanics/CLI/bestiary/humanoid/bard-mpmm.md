@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bard
+- "Bard"
 ---
-# [Bard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/bard-mpmm.md)
+# [Bard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bard-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 59, Volo's Guide to Monsters p. 211*  
 
 Bards are gifted poets, storytellers, and entertainers who travel far and wide. They're commonly found in taverns or in the company of jolly bands of adventurers, rough-and-tumble mercenaries, and wealthy patrons.
@@ -20,8 +21,6 @@ Bards are gifted poets, storytellers, and entertainers who travel far and wide. 
 Each bard is a master of at least one type of performance. You may choose a bard's main type, or you may roll on the Bard [Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance) Types table to determine it.
 
 **Bard Performance Types**
-
-`dice: [](bard-mpmm.md#^bard-performance-types)`
 
 | dice: d10 | Performance Type |
 |-----------|------------------|
@@ -56,8 +55,8 @@ Each bard is a master of at least one type of performance. You may choose a bard
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+4"
-  - "wisdom": "+3"
+  - "dexterity": !!int "4"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+4"
@@ -65,6 +64,9 @@ Each bard is a master of at least one type of performance. You may choose a bard
     "desc": "+5"
   - "name": "[Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance)"
     "desc": "+6"
+"gear":
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 15"
 "languages": "any two languages"
 "cr": "2"
@@ -72,10 +74,10 @@ Each bard is a master of at least one type of performance. You may choose a bard
   - "desc": "The bard makes two Shortsword or Shortbow attacks. It can replace one\
       \ attack with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Shortbow"
   - "desc": "Each creature in a 15-foot cube originating from the bard must make a\
@@ -84,9 +86,9 @@ Each bard is a master of at least one type of performance. You may choose a bard
       \ save, a creature takes half as much damage and isn't pushed."
     "name": "Cacophony (Recharge 4-6)"
   - "desc": "The bard casts one of the following spells, using Charisma as the spellcasting\
-      \ ability (spell save DC 12):\n\nAt will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ ability (spell save DC 12):\n\n**At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \n**1/day each:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)"
     "name": "Spellcasting"

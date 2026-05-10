@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Fragment of Krokulmar
+- "Fragment of Krokulmar"
 ---
-# [Fragment of Krokulmar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/fragment-of-krokulmar-kftgv.md)
+# [Fragment of Krokulmar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fragment-of-krokulmar-kftgv.md)
 *Source: Keys from the Golden Vault p. 53*  
 
 ```statblock
@@ -41,13 +42,14 @@ aliases:
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
 "damage_immunities": "psychic"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Deep Speech, telepathy 60 ft."
 "cr": "0"
 "actions":
   - "desc": "The fragment touches one creature that has 0 hit points in the fragment's\
       \ space. The target regains 10 hit points, and each creature within 10 feet\
-      \ of the healed creature takes 3 (d6) psychic damage."
+      \ of the healed creature takes 3 (1d6) psychic damage."
     "name": "Psionic Revitalization"
   - "desc": "Until the start of the fragment's next turn, any attack roll made against\
       \ the fragment has disadvantage, and the fragment makes saving throws with advantage."

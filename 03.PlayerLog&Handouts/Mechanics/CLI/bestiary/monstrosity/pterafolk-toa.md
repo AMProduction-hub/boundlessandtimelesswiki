@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Pterafolk
+- "Pterafolk"
 ---
-# [Pterafolk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/pterafolk-toa.md)
+# [Pterafolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/pterafolk-toa.md)
 *Source: Tomb of Annihilation p. 229*  
 
 Pterafolk (pronounced TAIR-eh-folk) are 10-foot-tall, winged, reptilian bipeds native to Chult. Malevolent isolationists, they regard most other creatures as their enemies. In Chultan culture, pterafolk are often referred to as "terror folk" for their habit of swooping down from the sky to snatch whatever and whomever they can, then transporting treasure and food back to their roosts.
@@ -41,6 +42,8 @@ Pterafolk have 20-foot wingspans and give birth to live young. Ancient rituals o
     "desc": "+2"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+2"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
 "senses": "passive Perception 12"
 "languages": "Common"
 "cr": "1"
@@ -54,14 +57,14 @@ Pterafolk have 20-foot wingspans and give birth to live young. Ancient rituals o
   - "desc": "The pterafolk makes three attacks: one with its bite and two with its\
       \ claws. Alternatively, it makes two melee attacks with its javelin."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage."
     "name": "Claw"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 9 (2d6 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 9 (2d6 + 2) piercing damage."
     "name": "Javelin"
 "source":
   - "ToA"

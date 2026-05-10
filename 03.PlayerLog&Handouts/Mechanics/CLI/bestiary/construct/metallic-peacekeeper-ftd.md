@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Metallic Peacekeeper
+- "Metallic Peacekeeper"
 ---
-# [Metallic Peacekeeper](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/metallic-peacekeeper-ftd.md)
+# [Metallic Peacekeeper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/metallic-peacekeeper-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 210*  
 
 When a metallic dragon grows attached to a settlement of smaller folk—often after dwelling there for a time in Humanoid form—the dragon might decide to create a metallic peacekeeper to protect the place. The peacekeeper can ward a community for centuries, standing in the place of its dragon creator and maintaining peace and order.
@@ -45,7 +46,8 @@ A metallic sentinel is a guardian created by a metallic dragon, forged from the 
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common, Draconic, telepathy 30 ft."
 "cr": "4"
 "traits":
@@ -59,7 +61,7 @@ A metallic sentinel is a guardian created by a metallic dragon, forged from the 
 "actions":
   - "desc": "The peacekeeper makes two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 16\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 16\
       \ (3d8 + 3) bludgeoning damage."
     "name": "Slam"
   - "desc": "The peacekeeper releases a calming gas in a 30-foot-radius sphere centered\

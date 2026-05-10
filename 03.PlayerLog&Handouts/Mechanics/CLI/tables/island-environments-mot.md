@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Island Environments
+- "Island Environments"
 ---
 # Island Environments
 *Source: Mythic Odysseys of Theros p. 177* 
 
 **Island Environments**
-
-`dice: [](island-environments-mot.md#^island-environments)`
 
 | dice: d10 | Environment |
 |-----------|-------------|

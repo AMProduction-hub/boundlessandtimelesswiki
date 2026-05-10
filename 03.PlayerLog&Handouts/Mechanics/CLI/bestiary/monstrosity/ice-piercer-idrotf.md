@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ice Piercer
+- "Ice Piercer"
 ---
-# [Ice Piercer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/ice-piercer-idrotf.md)
+# [Ice Piercer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/ice-piercer-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 226*  
 
 Auril the Frostmaiden has transformed icicles into creatures that resemble piercers.
@@ -42,7 +43,9 @@ A piercer is the larval form of a roper, and the two creatures often attack in t
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_immunities": "cold"
-"senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -53,8 +56,8 @@ A piercer is the larval form of a roper, and the two creatures often attack in t
       \ ceilings, without needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, one creature directly underneath\
-      \ the piercer. Hit: 10 (3d6) piercing damage plus 10 (3d6) cold damage.\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, one creature directly underneath\
+      \ the piercer. *Hit:* 10 (3d6) piercing damage plus 10 (3d6) cold damage.\
       \ Miss: The piercer takes half the normal falling damage for the distance fallen."
     "name": "Drop"
 "source":

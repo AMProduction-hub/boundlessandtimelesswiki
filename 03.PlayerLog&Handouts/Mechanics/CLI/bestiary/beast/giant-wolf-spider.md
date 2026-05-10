@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -14,10 +15,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Wolf Spider
+- "Giant Wolf Spider"
 ---
-# [Giant Wolf Spider](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-wolf-spider.md)
-*Source: Monster Manual p. 330, Curse of Strahd, Tales from the Yawning Portal, Tomb of Annihilation, Ghosts of Saltmarsh, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Wolf Spider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-wolf-spider.md)
+*Source: Monster Manual p. 330. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Smaller than a giant spider, a giant wolf spider hunts prey across open ground or hides in a burrow or crevice, or in a hidden cavity beneath debris.
 
@@ -43,7 +44,9 @@ Smaller than a giant spider, a giant wolf spider hunts prey across open ground o
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
-"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 13"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": ""
 "cr": "1/4"
 "traits":
@@ -56,7 +59,7 @@ Smaller than a giant spider, a giant wolf spider hunts prey across open ground o
   - "desc": "The spider ignores movement restrictions caused by webbing."
     "name": "Web Walker"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d6 + 1) piercing damage, and the target must make a DC 11 Constitution\
       \ saving throw, taking 7 (2d6) poison damage on a failed save, or half as\
       \ much damage on a successful one. If the poison damage reduces the target to\
@@ -67,11 +70,6 @@ Smaller than a giant spider, a giant wolf spider hunts prey across open ground o
     "name": "Bite"
 "source":
   - "MM"
-  - "CoS"
-  - "TftYP"
-  - "ToA"
-  - "GoS"
-  - "TCE"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-wolf-spider.webp"
 ```
 ^statblock

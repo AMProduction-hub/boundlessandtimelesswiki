@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Supplemental Tables; Cause of Death
+- "Supplemental Tables; Cause of Death"
 ---
 # Supplemental Tables; Cause of Death
 *Source: Xanathar's Guide to Everything p. 72* 
 
 **Cause of Death**
-
-`dice: [](supplemental-tables-cause-of-death-xge.md#^cause-of-death)`
 
 | dice: d12 | Cause of Death |
 |-----------|----------------|

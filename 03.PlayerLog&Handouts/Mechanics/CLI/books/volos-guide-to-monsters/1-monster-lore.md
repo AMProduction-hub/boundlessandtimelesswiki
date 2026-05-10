@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Monster Lore
+- "Monster Lore"
 ---
 # Monster Lore
 *Source: Volo's Guide to Monsters, p. 5* 
@@ -1295,7 +1296,7 @@ This goblin found a magic item (a [necklace of fireballs](03.PlayerLog&Handouts/
 
 ##### Booyahg Whip
 
-Khurgorbaeyag saw fit to gift this goblin with powers that enable it to dominate others. The goblin has `d3` other goblins that slavishly obey its orders.
+Khurgorbaeyag saw fit to gift this goblin with powers that enable it to dominate others. The goblin has `1d3` other goblins that slavishly obey its orders.
 
 ##### Booyahg Slave
 
@@ -1560,7 +1561,7 @@ A goblinoid host that is prepared for war doesn't wait for the enemy to approach
 
 A host usually marches at night, with outriders, who carry messenger ravens, traveling ahead, behind, and on both sides of the main group. The ravens can distinguish between individuals from a great height and navigate over long distances. Thus, a raven can fly back to the main body when it is released by someone remote from the group, and it can be sent out again to look for the individual that released it in order to deliver a response.
 
-Most of the army travels on foot, and wolf-riding goblins and worg-riding hobgoblins also make up a significant portion of the force. Hobgoblins might ride horses or other mounts they could obtain, such as hippogriffs, axe beaks, or giant vultures. Bugbears don 't ride mounts, but they aren't above hitching a ride in the howdah of an enormous battle beast such as an elephant or a hydra.
+Most of the army travels on foot, and wolf-riding goblins and worg-riding hobgoblins also make up a significant portion of the force. Hobgoblins might ride horses or other mounts they could obtain, such as hippogriffs, axe beaks, or giant vultures. Bugbears don't ride mounts, but they aren't above hitching a ride in the howdah of an enormous battle beast such as an elephant or a hydra.
 
 If the host has slaves, they pull wagons or sledges in the center of the army, dragging along the equipment of war while surrounded by its users. If slaves have yet to be acquired, goblins and beasts of burden perform this function.
 
@@ -1914,7 +1915,7 @@ A powerful **green hag** might have the following additional lair action:
 A powerful **night hag** might have the following additional lair actions:
 
 - One creature the hag can see within 120 feet of her must succeed on a DC 15 Charisma saving throw or be banished to a prison demiplane. To escape, the creature must use its action to make a Charisma check contested by the hag's. If the creature wins, it escapes the demiplane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied.  
-- The hag targets up to three creatures that she can see within 60 feet of her. Each target must succeed on a DC 15 Constitution saving throw or be flung up to 30 feet through the air. A creature that strikes a solid object or is released in midair takes `d6` bludgeoning damage for every 10 feet moved or fallen.  
+- The hag targets up to three creatures that she can see within 60 feet of her. Each target must succeed on a DC 15 Constitution saving throw or be flung up to 30 feet through the air. A creature that strikes a solid object or is released in midair takes `1d6` bludgeoning damage for every 10 feet moved or fallen.  
 
 A powerful **sea hag** might have the following additional lair actions:
 
@@ -1946,7 +1947,7 @@ A powerful **bheur hag** creates one or more of the following additional regiona
 
 - Small avalanches of snow intermittently fall, blocking a path or burying intruders. A buried creature is restrained and has to hold its breath until it is dug out.  
 - Human-sized blocks of ice appear, containing frozen corpses. These corpses might break free and attack as zombies, or their spirits might attack as specters.  
-- Blizzards come without warning. A blizzard occurs once every `2d12` hours and lasts `d3` hours. During a storm, creatures moving overland travel at half normal speed, and normal visibility is reduced to 30 feet.  
+- Blizzards come without warning. A blizzard occurs once every `2d12` hours and lasts `1d3` hours. During a storm, creatures moving overland travel at half normal speed, and normal visibility is reduced to 30 feet.  
 - Roads, paths, and trails twist and turn back on themselves, making navigation in the area exceedingly difficult.  
 
 A powerful **green hag** creates one or more of the following additional regional effects within 1 mile of her lair:
@@ -2257,7 +2258,7 @@ Thousands of years ago, the illithids were the dominant power of the Inner Plane
 
 The mind flayers relied on a slave race, the gith, to provide physical labor and sustenance when other sources of food grew thin. Eventually, the gith revolted. Whether the mind flayers became decadent or the gith discovered a weakness, none can say. What is known is that after centuries of domination, the mind flayer empire collapsed in less than a year. The gith rose up, slaughtered their masters, and destroyed almost all traces of the illithids' astral domains.
 
-Only the mind flayers that had infiltrated the worlds of the Material Plane survived, and their safety was shortlived. Both the githzerai and the githyanki, two factions that arose from the victorious gith, sent hunting parties to root out and slaughter the remaining mind flayers.
+Only the mind flayers that had infiltrated the worlds of the Material Plane survived, and their safety was short-lived. Both the githzerai and the githyanki, two factions that arose from the victorious gith, sent hunting parties to root out and slaughter the remaining mind flayers.
 
 To this day, isolated clutches of mind flayers remain in hiding, seeking ways to recapture their former glory but hampered by their paranoia of being discovered and destroyed by their enemies.
 
@@ -2385,7 +2386,7 @@ When you're roleplaying a mind flayer, the following tables contain possible ins
 
 Among mind flayers, thoughts aren't communicated in language per se, but are instead transmitted telepathically as concepts and associations, which other humanoids interpret in their own language.
 
-Telepathic communication with a mind flayer is frequently  accompanied by a mental static that "sounds" to the receiver like an underlying sussuration peppered with guttural clicks. The intensity of this static increases when a mind flayer refers to itself, because with the saying of its name, the illithid is communicating far more information about itself than other humanoids can comprehend. The syllables that make up mind flayer names as expressed in other languages are thus weak approximations of the sound that others hear in their minds when illithids refer to themselves.
+Telepathic communication with a mind flayer is frequently  accompanied by a mental static that "sounds" to the receiver like an underlying susurration peppered with guttural clicks. The intensity of this static increases when a mind flayer refers to itself, because with the saying of its name, the illithid is communicating far more information about itself than other humanoids can comprehend. The syllables that make up mind flayer names as expressed in other languages are thus weak approximations of the sound that others hear in their minds when illithids refer to themselves.
 
 An illithid might adopt a name that is easier for minions and allies to speak or that makes it seem more fearsome to enemies, but each begins its life with a thought-name such as the examples in the Mind Flayer Names table, which are suitable for any campaign.
 
@@ -2413,7 +2414,7 @@ The process of transforming a creature into a thrall requires the entire colony'
 
 A thrall-to-be is first rendered docile through psionic means. Using a low-power version of its Mind Blast ability, the mind flayer bombards the victim with energy that washes through its synapses like acid, clearing away its former personality and leaving it a partially empty shell. This step takes 24 hours. Over the next 48 hours, the illithids rebuild the victim's memories and personality, and the victim gains the skills and talents it needs to perform its intended function.
 
-The process that creates a thrall changes almost everything about the victim. The creature retains its Hit Dice, hit points, racial traits (but not proficiencies granted by race), and all of its ability scores except for Intelligence. After the first stage of the process, the creature's Intelligence is halved; when the second stage is over, its Intelligence score increases by `d6`.
+The process that creates a thrall changes almost everything about the victim. The creature retains its Hit Dice, hit points, racial traits (but not proficiencies granted by race), and all of its ability scores except for Intelligence. After the first stage of the process, the creature's Intelligence is halved; when the second stage is over, its Intelligence score increases by `1d6`.
 
 To complete the process, the thrall receives a new set of proficiencies, a new alignment, and a new personality. Some colonies have learned how to salvage a victim's psionic abilities during the process or how to implant psionic powers into their thralls. Also, some colonies know how to leave a victim's persona intact while infusing it with a fanatical loyalty to the colony's elder brain as well as telepathic power that allows the victim to communicate with its new masters as if it were a mind flayer. This sort of thrall makes a perfect spy, since most would never suspect its true nature.
 
@@ -2616,7 +2617,7 @@ Some mind flayer colonies augment their thralls with nonmagical gear to make the
 
 Illithids don't always provide their thralls with normal weapons, such as swords and axes. Sometimes they improve the natural capabilities of thralls by giving them new anatomy. Flensing claws take the form of articulated digits that extend into long metal blades. The claws are knitted into the flesh and bones of a creature's arms and can't be removed without surgical amputation.
 
-Each set of flensing claws is designed for a specific creature and can't be used by anyone else. A creature equipped with flensing claws can use its action to make one melee weapon attack with the claws. The claws deal slashing damage based on the creature's size: Small, `d8`; Medium, `d10`; Large, `d12`; or Huge, `2d8`. The creature adds its proficiency bonus and Strength modifier to any attack roll made with the claws, and its Strength modifier to its damage roll when it hits a target with the claws. Tiny and Gargantuan creatures can't be fitted with flensing claws.
+Each set of flensing claws is designed for a specific creature and can't be used by anyone else. A creature equipped with flensing claws can use its action to make one melee weapon attack with the claws. The claws deal slashing damage based on the creature's size: Small, `1d8`; Medium, `1d10`; Large, `1d12`; or Huge, `2d8`. The creature adds its proficiency bonus and Strength modifier to any attack roll made with the claws, and its Strength modifier to its damage roll when it hits a target with the claws. Tiny and Gargantuan creatures can't be fitted with flensing claws.
 
 #### Survival Mantle
 
@@ -3076,7 +3077,7 @@ You can customize a yuan-ti by giving it one or more of the following traits.
 
 ##### Acid Slime (Abomination, Anathema, or Malison Only)
 
-As a bonus action, the yuan-ti can coat its body in a slimy acid that lasts for 1 minute. A creature that touches the yuan-ti, hits it with a melee attack while within 5 feet of it, or is hit by its constrict attack takes 5 (`d10`) acid damage.
+As a bonus action, the yuan-ti can coat its body in a slimy acid that lasts for 1 minute. A creature that touches the yuan-ti, hits it with a melee attack while within 5 feet of it, or is hit by its constrict attack takes 5 (`1d10`) acid damage.
 
 ##### Chameleon Skin
 
@@ -3096,7 +3097,7 @@ The following action options are restricted to certain kinds of yuan-ti.
 
 ##### Bite (Pureblood Only)
 
-Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (`d4`) piercing damage plus 3 (`d6`) poison damage. If the pureblood uses Multiattack, it can make two melee attacks, but can use its bite only once.
+Melee Weapon Attack: `+3` to hit, reach 5 ft., one creature. Hit: 3 (`1d4`) piercing damage plus 3 (`1d6`) poison damage. If the pureblood uses Multiattack, it can make two melee attacks, but can use its bite only once.
 
 ##### Polymorph into Snake (Abomination or Malison Only;
 

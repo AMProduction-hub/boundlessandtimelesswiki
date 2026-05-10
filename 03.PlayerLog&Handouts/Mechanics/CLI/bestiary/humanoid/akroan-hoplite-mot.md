@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Akroan Hoplite
+- "Akroan Hoplite"
 ---
-# [Akroan Hoplite](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/akroan-hoplite-mot.md)
+# [Akroan Hoplite](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/akroan-hoplite-mot.md)
 *Source: Mythic Odysseys of Theros p. 228*  
 
 Akroan hoplites, also called stratians, number among the fiercest soldiers on Theros. They train relentlessly and possess unflinching resolve. In the annals of Akros, tales abound of squads of stratians that defended a key location against a much larger force or crept behind enemy lines and wreaked havoc in the opposing army.
@@ -50,8 +51,6 @@ The three Hoplite Unit Names tables present the sorts of titles used by hoplite 
 
 **Setessan Hoplite Unit Names**
 
-`dice: [](akroan-hoplite-mot.md#^setessan-hoplite-unit-names)`
-
 | dice: d8 | Name |
 |----------|------|
 | 1 | Nylea's Arrows |
@@ -84,8 +83,10 @@ The three Hoplite Unit Names tables present the sorts of titles used by hoplite 
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "strength": "+5"
-  - "dexterity": "+5"
+  - "strength": !!int "5"
+  - "dexterity": !!int "5"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 12"
 "languages": "Common"
 "cr": "3"
@@ -93,17 +94,17 @@ The three Hoplite Unit Names tables present the sorts of titles used by hoplite 
   - "desc": "While the hoplite is holding a spear, other creatures provoke an opportunity\
       \ attack from the hoplite when they move within 5 feet of it. When the hoplite\
       \ hits a creature with an opportunity attack using its spear, the creature takes\
-      \ an extra 4 (d8) piercing damage, and the creature's speed becomes 0 for\
+      \ an extra 4 (1d8) piercing damage, and the creature's speed becomes 0 for\
       \ the rest of the turn."
     "name": "Hold the Line"
 "actions":
   - "desc": "The hoplite makes three melee attacks or two ranged attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft., or range\
-      \ 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 +\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft., or range\
+      \ 20/60 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage, or 7 (1d8 +\
       \ 3) piercing damage if used with two hands to make a melee attack."
     "name": "Spear"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 5 (1d4 + 3) bludgeoning damage. If the target is a Medium or smaller creature,\
       \ it must succeed on a DC 13 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Shield Bash"

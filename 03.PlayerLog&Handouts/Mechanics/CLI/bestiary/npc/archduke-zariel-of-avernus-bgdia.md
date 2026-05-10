@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/26
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Archduke Zariel of Avernus
+- "Archduke Zariel of Avernus"
 ---
-# [Archduke Zariel of Avernus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/archduke-zariel-of-avernus-bgdia.md)
+# [Archduke Zariel of Avernus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/archduke-zariel-of-avernus-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 243*  
 
 Once a mighty angel charged with watching the tides of the Blood War, Zariel succumbed to the corrupting influence of the Nine Hells and fell from grace. Asmodeus admired Zariel's passion for war and offered her rulership of Avernus. She accepted his offer and was transformed by Asmodeus into an archdevil.
@@ -44,9 +45,9 @@ Zariel recently defeated the demon lord Kostchtchie and took his hammer, Matalot
   - !!int "30"
 "speed": "50 ft., fly 150 ft."
 "saves":
-  - "intelligence": "+16"
-  - "wisdom": "+16"
-  - "charisma": "+18"
+  - "intelligence": !!int "16"
+  - "wisdom": !!int "16"
+  - "charisma": !!int "18"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+18"
@@ -59,17 +60,21 @@ Zariel recently defeated the demon lord Kostchtchie and took his hammer, Matalot
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 26"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 26"
 "languages": "all, telepathy 120 ft."
 "cr": "26"
 "traits":
   - "desc": "Zariel's innate spellcasting ability is Charisma (spell save DC 26).\
       \ She can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md)\
+      \n**At will:** [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md)\
       \ (can become Medium when changing her appearance), [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
       \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
       \ (self only), [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)\n\
-      \n3/day each: [blade barrier](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-barrier.md),\
+      \n**3/day each:** [blade barrier](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-barrier.md),\
       \ [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md),\
       \ [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md)"
     "name": "Innate Spellcasting"
@@ -92,10 +97,10 @@ Zariel recently defeated the demon lord Kostchtchie and took his hammer, Matalot
   - "desc": "Zariel attacks twice with her flail and once with Matalotok. She can\
       \ substitute Horrid Touch for Matalotok."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) piercing damage plus 36 (8d8) fire damage."
     "name": "Flail"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) bludgeoning, or 19 (2d10 + 8) bludgeoning damage if used\
       \ with two hands, plus 36 (8d8) fire damage. In addition, the weapon emits\
       \ a burst of cold that deals 10 (3d6) cold damage to each creature within\
@@ -113,6 +118,9 @@ Zariel recently defeated the demon lord Kostchtchie and took his hammer, Matalot
   - "desc": "Zariel magically teleports, along with any equipment she is wearing and\
       \ carrying, up to 120 feet to an unoccupied space she can see."
     "name": "Teleport"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Archduke can expend a use to take one of the following actions. Archduke\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Zariel turns her magical gaze toward one creature she can see within\
       \ 120 feet of her and commands it to combust. The target must succeed on a DC\

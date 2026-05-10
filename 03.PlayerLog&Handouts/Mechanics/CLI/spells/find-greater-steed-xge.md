@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xge
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/paladin
 - ttrpg-cli/spell/level/4th-level
 - ttrpg-cli/spell/school/conjuration
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Paladin
 aliases:
-- Find Greater Steed
+- "Find Greater Steed"
 ---
 # Find Greater Steed
 *4th-level, Conjuration*  
@@ -37,6 +38,6 @@ Whenever the mount disappears, it leaves behind any objects it was wearing or ca
 > With the DM's permission, a paladin can summon a spirit in the form of a [dragonnel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/dragonnel-ftd.md) using the find greater steed spell, which appears in *Xanathar's Guide to Everything*.
 ^dragonnel-steeds
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
 
 *Source: Xanathar's Guide to Everything p. 156, Fizban's Treasury of Dragons p. 190*

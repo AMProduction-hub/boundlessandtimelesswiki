@@ -1,27 +1,28 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/aitfr-avt
 - ttrpg-cli/spell/class/artificer
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/3rd-level
 - ttrpg-cli/spell/school/abjuration
 - ttrpg-cli/spell/subclass/arcane-trickster
-- ttrpg-cli/spell/subclass/divine-soul
+- ttrpg-cli/spell/subclass/divine-soul/good
 - ttrpg-cli/spell/subclass/eldritch-knight
 classes:
 - Artificer
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
-- Sorcerer (Divine Soul)
+- Sorcerer (Divine Soul, Good)
 - Wizard
 aliases:
-- Linked Glyphs
+- "Linked Glyphs"
 ---
 # Linked Glyphs
 *3rd-level, Abjuration*  
@@ -56,6 +57,6 @@ When you cast this spell using a spell slot of 5th level or higher to create a s
 
 ## Summary
 
-**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer (Divine Soul, Good)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Adventures in the Forgotten Realms: A Verdant Tomb p. 9, Adventures in the Forgotten Realms: From Cyan Depths p. 11*

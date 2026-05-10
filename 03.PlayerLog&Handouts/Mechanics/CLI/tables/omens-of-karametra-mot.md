@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Omens of Karametra
+- "Omens of Karametra"
 ---
 # Omens of Karametra
 *Source: Mythic Odysseys of Theros p. 111* 
 
 **Omens of Karametra**
-
-`dice: [](omens-of-karametra-mot.md#^omens-of-karametra)`
 
 | dice: d6 | dice: d100 | Omen of Karametra |
 |----------|------------|-------------------|

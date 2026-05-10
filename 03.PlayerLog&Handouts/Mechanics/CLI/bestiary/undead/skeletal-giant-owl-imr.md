@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Skeletal Giant Owl
+- "Skeletal Giant Owl"
 ---
-# [Skeletal Giant Owl](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/skeletal-giant-owl-imr.md)
+# [Skeletal Giant Owl](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeletal-giant-owl-imr.md)
 *Source: Infernal Machine Rebuild p. 33*  
 
 ```statblock
@@ -40,7 +41,8 @@ aliases:
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 15"
 "languages": "Giant Owl, understands Common, Elvish, and Sylvan but can't speak them"
 "cr": "1/4"
 "traits":
@@ -51,7 +53,7 @@ aliases:
       \ checks that rely on hearing or sight."
     "name": "Keen Hearing and Sight"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (2d6 + 1) slashing damage."
     "name": "Talons"
 "source":

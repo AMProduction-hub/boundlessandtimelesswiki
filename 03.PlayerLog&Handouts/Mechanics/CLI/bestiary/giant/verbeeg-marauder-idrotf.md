@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Verbeeg Marauder
+- "Verbeeg Marauder"
 ---
-# [Verbeeg Marauder](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/verbeeg-marauder-idrotf.md)
+# [Verbeeg Marauder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/verbeeg-marauder-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 311*  
 
 Verbeeg are giants that resemble oversized humans with gangly limbs and elongated faces. Some have other features that give them a fearsome aspect.
@@ -42,8 +43,8 @@ Verbeeg conduct themselves like brigands, robbing people they come across in the
   - !!int "9"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+2"
-  - "constitution": "+5"
+  - "dexterity": !!int "2"
+  - "constitution": !!int "5"
 "skillsaves":
   - "name": "[Animal Handling](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Animal%20Handling)"
     "desc": "+2"
@@ -51,6 +52,8 @@ Verbeeg conduct themselves like brigands, robbing people they come across in the
     "desc": "+6"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+2"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 10"
 "languages": "Common, Giant"
 "cr": "4"
@@ -61,8 +64,8 @@ Verbeeg conduct themselves like brigands, robbing people they come across in the
 "actions":
   - "desc": "The verbeeg makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 14 (3d6 + 4) piercing damage, or 17 (3d8 + 4)\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 14 (3d6 + 4) piercing damage, or 17 (3d8 + 4)\
       \ piercing damage if used to make a ranged attack or used with two hands to\
       \ make a melee attack."
     "name": "Spear"

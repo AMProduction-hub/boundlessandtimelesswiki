@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/17
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Death Knight
+- "Death Knight"
 ---
-# [Death Knight](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/death-knight.md)
-*Source: Monster Manual p. 47, Ghosts of Saltmarsh, Divine Contention, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything, Candlekeep Mysteries, Dragonlance: Shadow of the Dragon Queen*  
+# [Death Knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/death-knight.md)
+*Source: Monster Manual p. 47*  
 
 When a paladin that falls from grace dies without seeking atonement, dark powers can transform the once-mortal knight into a hateful undead creature. A death knight is a skeletal warrior clad in fearsome plate armor. Beneath its helmet, one can see the knight's skull with malevolent pinpoints of light burning in its eye sockets.
 
@@ -53,29 +54,32 @@ A death knight doesn't require air, food, drink, or sleep.
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+9"
-  - "charisma": "+10"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "10"
 "damage_immunities": "necrotic, poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 13"
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "Abyssal, Common"
 "cr": "17"
 "traits":
   - "desc": "The death knight is a 19th-level spellcaster. Its spellcasting ability\
       \ is Charisma (spell save DC 18, +10 to hit with spell attacks). It has the\
-      \ following paladin spells prepared:\n\n1st level (4 slots): [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \ following paladin spells prepared:\n\n**1st level (4 slots):** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [compelled duel](03.PlayerLog&Handouts/Mechanics/CLI/spells/compelled-duel.md),\
       \ [searing smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/searing-smite.md)\n\
-      \n2nd level (3 slots): [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
+      \n**2nd level (3 slots):** [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [magic weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-weapon.md)\n\
-      \n3rd level (3 slots): [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \n**3rd level (3 slots):** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [elemental weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/elemental-weapon.md)\n\
-      \n4th level (3 slots): [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \n**4th level (3 slots):** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [staggering smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/staggering-smite.md)\n\
-      \n5th level (2 slots): [destructive wave](03.PlayerLog&Handouts/Mechanics/CLI/spells/destructive-wave.md)\
+      \n**5th level (2 slots):** [destructive wave](03.PlayerLog&Handouts/Mechanics/CLI/spells/destructive-wave.md)\
       \ (necrotic)"
     "name": "Spellcasting"
   - "desc": "The death knight has advantage on saving throws against spells and other\
@@ -88,7 +92,7 @@ A death knight doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The death knight makes three longsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) slashing damage if used\
       \ with two hands, plus 18 (4d8) necrotic damage."
     "name": "Longsword"
@@ -105,14 +109,6 @@ A death knight doesn't require air, food, drink, or sleep.
     "name": "Parry"
 "source":
   - "MM"
-  - "GoS"
-  - "DC"
-  - "DIP"
-  - "BGDIA"
-  - "EGW"
-  - "TCE"
-  - "CM"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/death-knight.webp"
 ```
 ^statblock

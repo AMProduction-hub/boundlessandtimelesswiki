@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Meloon Wardragon
+- "Meloon Wardragon"
 ---
-# [Meloon Wardragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/meloon-wardragon-wdh.md)
+# [Meloon Wardragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/meloon-wardragon-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 210*  
 
 *Famous human adventurer*
@@ -54,14 +55,17 @@ If Meloon is killed and raised from the dead, his true self is restored and his 
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "strength": "+9"
-  - "constitution": "+6"
+  - "strength": !!int "9"
+  - "constitution": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+9"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[azuredge](03.PlayerLog&Handouts/Mechanics/CLI/items/azuredge-wdh.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Deep Speech, telepathy 60 ft."
 "cr": "9"
 "traits":
@@ -75,7 +79,7 @@ If Meloon is killed and raised from the dead, his true self is restored and his 
 "actions":
   - "desc": "Meloon makes four attacks with Azuredge."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +9 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Attack Roll:* +9 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (1d12 + 5) slashing damage."
     "name": "Azuredge"
 "source":

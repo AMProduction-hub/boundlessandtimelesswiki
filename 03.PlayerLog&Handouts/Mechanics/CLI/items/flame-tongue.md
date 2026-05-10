@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/attunement/required
@@ -9,7 +10,7 @@ tags:
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Flame Tongue"
 - "Flame Tongue Double-Bladed Scimitar"
 - "Flame Tongue Greatsword"
@@ -20,7 +21,7 @@ aliases:
 ---
 # Flame Tongue
 *Major, rare (requires attunement)*  
-![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/flame-tongue.webp#right)
+![Flame Tongue (Longsword)](03.PlayerLog&Handouts/Mechanics/CLI/items/img/flame-tongue.webp#right)
 
 
 You can use a bonus action to speak this magic sword's command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra `2d6` fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword.

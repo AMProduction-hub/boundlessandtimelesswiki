@@ -1,21 +1,22 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/paladin
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/abjuration
 - ttrpg-cli/spell/subclass/divine-soul
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Paladin
 - Sorcerer (Divine Soul)
 aliases:
-- Dispel Evil and Good
+- "Dispel Evil and Good"
 ---
 # Dispel Evil and Good
 *5th-level, Abjuration*  
@@ -40,6 +41,6 @@ As your action, make a melee spell attack against a celestial, an elemental, a f
 
 ## Summary
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE")
 
 *Source: Player's Handbook p. 233. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

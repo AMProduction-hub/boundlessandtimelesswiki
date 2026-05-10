@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/human
 aliases:
-- Human
+- "Human"
 ---
 # Human
 *Source: Player's Handbook p. 29. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/human.webp#right)
 
-- **Ability Scores**: Strength +1; Dexterity +1; Constitution +1; Intelligence +1; Wisdom +1; Charisma +1
+- **Ability Scores**: str +1 dex +1 con +1 int +1 wis +1 cha +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 

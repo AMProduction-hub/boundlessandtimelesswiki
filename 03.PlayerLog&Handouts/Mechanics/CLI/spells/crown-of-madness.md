@@ -1,22 +1,24 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/rakdos-cultist
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/feat/adept-of-the-black-robes
 - ttrpg-cli/spell/level/2nd-level
+- ttrpg-cli/spell/reward/rakdos-charm
 - ttrpg-cli/spell/school/enchantment
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/eldritch-knight
 - ttrpg-cli/spell/subclass/oathbreaker
 - ttrpg-cli/spell/subrace/tiefling-baalzebul
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Fighter (Eldritch Knight)
 - Paladin (Oathbreaker)
 - Rogue (Arcane Trickster)
@@ -24,7 +26,7 @@ classes:
 - Warlock
 - Wizard
 aliases:
-- Crown of Madness
+- "Crown of Madness"
 ---
 # Crown of Madness
 *2nd-level, Enchantment*  
@@ -41,6 +43,6 @@ The [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) t
 
 On your subsequent turns, you must use your action to maintain control over the target, or the spell ends. Also, the target can make a Wisdom saving throw at the end of each of its turns. On a success, the spell ends.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Paladin (Oathbreaker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oathbreaker-dmg.md "subclass=DMG")
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Paladin (Oathbreaker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oathbreaker-dmg.md "subclass=DMG"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 229*

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Oreioth
+- "Oreioth"
 ---
-# [Oreioth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/oreioth-pota.md)
+# [Oreioth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/oreioth-pota.md)
 *Source: Princes of the Apocalypse p. 212*  
 
 A lean, black-bearded young noble from Baldur's Gate, Oreioth is more at home among the dead than the living. He was cruel almost from the time he could talk, catching small creatures and killing them in hideously inventive ways to savor the power of life and death. He grew to be an embarrassment to his well-off family, who paid a tutor to channel his undeniable intelligence and curiosity into more positive outlets. They didn't know they had apprenticed the young Oreioth to a necromancer in need of an assistant for his researches.
@@ -40,7 +41,7 @@ What few social graces Oreioth once possessed are fading rapidly. He has become 
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+1"
+  - "wisdom": !!int "1"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -48,23 +49,25 @@ What few social graces Oreioth once possessed are fading rapidly. He has become 
     "desc": "+5"
   - "name": "[Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)"
     "desc": "+1"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 9"
 "languages": "Abyssal, Common"
 "cr": "2"
 "traits":
   - "desc": "Oreioth is a 6th-level spellcaster. His spellcasting ability is Intelligence\
       \ (spell save DC 13, +5 to hit with spell attacks). He has the following wizard\
-      \ spells prepared:\n\nCantrips (at will): [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md),\
+      \ spells prepared:\n\n**Cantrips (at will):** [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md),\
       \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
-      \n1st level (4 slots): [false life](03.PlayerLog&Handouts/Mechanics/CLI/spells/false-life.md),\
+      \n**1st level (4 slots):** [false life](03.PlayerLog&Handouts/Mechanics/CLI/spells/false-life.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [magic\
       \ missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md), [ray\
       \ of sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md)\n\
-      \n2nd level (3 slots): [crown of madness](03.PlayerLog&Handouts/Mechanics/CLI/spells/crown-of-madness.md),\
+      \n**2nd level (3 slots):** [crown of madness](03.PlayerLog&Handouts/Mechanics/CLI/spells/crown-of-madness.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md)\n\n\
-      3rd level (3 slots): [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
+      **3rd level (3 slots):** [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [vampiric touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/vampiric-touch.md)"
     "name": "Spellcasting"
   - "desc": "Once per turn when Oreioth kills one or more creatures with a spell of\
@@ -75,7 +78,7 @@ What few social graces Oreioth once possessed are fading rapidly. He has become 
       \ on that humanoid's corpse, instead of using the spell's normal casting time."
     "name": "Swift Animation (Recharges after a Long Rest)"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d4 + 1) piercing damage."
     "name": "Dagger"
 "source":

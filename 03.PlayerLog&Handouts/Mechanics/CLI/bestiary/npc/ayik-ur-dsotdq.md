@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ayik Ur
+- "Ayik Ur"
 ---
-# [Ayik Ur](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/ayik-ur-dsotdq.md)
+# [Ayik Ur](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ayik-ur-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 211*  
 
 The youthful archer [Ayik](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ayik-ur-dsotdq.md) is the consummate survivor. As the Dragon Armies swarmed over his homeland of Khur, he became a refugee, but not before his leg was injured by a charging warhorse. Even as he fled, he swore to lend his bow in the fight against the Dragon Armies. He is defiant and cocky to the point of recklessness, challenging his enemies to finish what the Dragon Armies started back in Khur.
@@ -36,7 +37,7 @@ The youthful archer [Ayik](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ayik
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+5"
+  - "dexterity": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+2"
@@ -48,6 +49,9 @@ The youthful archer [Ayik](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ayik
     "desc": "+5"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+3"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 15"
 "languages": "Common"
 "traits":
@@ -57,10 +61,10 @@ The youthful archer [Ayik](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ayik
       \ armor."
     "name": "Bonus Proficiencies"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +7 to hit, range 150/600 ft., one target. *Hit:*\
       \ 7 (1d8 + 3) piercing damage."
     "name": "Longbow"
 "source":

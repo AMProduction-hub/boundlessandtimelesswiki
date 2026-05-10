@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/subclass/monk/ascendant-dragon
 aliases:
-- Way of the Ascendant Dragon
+- "Way of the Ascendant Dragon"
 ---
 # Way of the Ascendant Dragon
 *[Monk](./monk.md): Monastic Tradition*  
@@ -43,17 +44,11 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Way of the Ascendant Dragon (Level 3)
-
 The dragon god Bahamut is known to travel the Material Plane in the guise of a young monk, and legend says that he founded the first monastery of the Way of the Ascendant Dragon in this guise. The fundamental teaching of this tradition holds that by emulating dragons, a monk becomes a more integrated part of the world and its magic. By altering their spirit to resonate with draconic might, monks who follow this tradition augment their prowess in battle, bolster their allies, and can even soar through the air on draconic wings. But all this power is in service of a greater goal: achieving a spiritual unity with the essence of the Material Plane.
 
 As a follower of the Way of the Ascendant Dragon, you decide how you unlocked the power of dragons within yourself. The Ascendant Dragon Origin table offers a number of possibilities.
 
 **Ascendant Dragon Origin**
-
-`dice: [](monk-way-of-the-ascendant-dragon-ftd.md#^ascendant-dragon-origin)`
 
 | dice: d6 | Origin |
 |----------|--------|
@@ -64,6 +59,8 @@ As a follower of the Way of the Ascendant Dragon, you decide how you unlocked th
 | 5 | You found a scroll written in Draconic that contained inspiring new techniques. |
 | 6 | After a dream featuring a five-handed dragonborn, you awoke with the mystical breath of dragons. |
 ^ascendant-dragon-origin
+
+## Subclass Features
 
 ### Draconic Disciple (Level 3)
 

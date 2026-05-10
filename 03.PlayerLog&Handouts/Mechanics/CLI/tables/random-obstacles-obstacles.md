@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Random Obstacles; Obstacles
+- "Random Obstacles; Obstacles"
 ---
 # Random Obstacles; Obstacles
 *Source: Dungeon Master's Guide p. 296* 
 
 **Obstacles**
-
-`dice: [](random-obstacles-obstacles.md#^obstacles)`
 
 | dice: d20 | Obstacle |
 |-----------|----------|
@@ -23,7 +22,7 @@ aliases:
 | 13-14 | Flooding leaves `2d10` ft. of water in the area; create nearby upward-sloping passages, raised floors, or rising sta irs to contain the water |
 | 15 | Lava flows through the area (50 percent chance of a stone bridge crossing it) |
 | 16 | Overgrown mushrooms block progress and must be hacked down (25 percent chance of a mold or fungus dungeon hazard hidden among them) |
-| 17 | Poisonous gas (deals `d6` poison damage per minute of exposure) |
+| 17 | Poisonous gas (deals `1d6` poison damage per minute of exposure) |
 | 18 | Reverse gravity effect causes creatures to fall toward the ceiling |
 | 19 | [Wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md) blocks passage |
 | 20 | [Wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md) blocks passage |

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-2
@@ -13,9 +14,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Firenewt Warrior
+- "Firenewt Warrior"
 ---
-# [Firenewt Warrior](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/firenewt-warrior-mpmm.md)
+# [Firenewt Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/firenewt-warrior-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 125, Volo's Guide to Monsters p. 142*  
 
 A firenewt warrior can spew fire. Many of these warriors have a close relationship with giant striders (in this book). They provide shelter, food, and breeding grounds in their lairs for giant striders, which then voluntarily serve them as mounts.
@@ -43,6 +44,8 @@ Originally from the Elemental Plane of Fire, firenewts can be found on the Mater
   - !!int "8"
 "speed": "30 ft."
 "damage_immunities": "fire"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
 "senses": "passive Perception 10"
 "languages": "Draconic, Ignan"
 "cr": "1/2"
@@ -52,7 +55,7 @@ Originally from the Elemental Plane of Fire, firenewts can be found on the Mater
 "actions":
   - "desc": "The firenewt makes two Scimitar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) slashing damage."
     "name": "Scimitar"
   - "desc": "The firenewt spits fire at a creature within 10 feet of it. The creature\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/monster/cr/8
@@ -11,7 +12,7 @@ statblock-link: "#^statblock"
 aliases:
 - "The Demogorgon"
 ---
-# ["The Demogorgon"](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/the-demogorgon-imr.md)
+# ["The Demogorgon"](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/the-demogorgon-imr.md)
 *Source: Infernal Machine Rebuild p. 53*  
 
 ```statblock
@@ -35,7 +36,11 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[battleaxe](03.PlayerLog&Handouts/Mechanics/CLI/items/battleaxe.md)"
+  - "[morningstar](03.PlayerLog&Handouts/Mechanics/CLI/items/morningstar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Giant, Orc"
 "cr": "8"
 "traits":
@@ -53,10 +58,10 @@ aliases:
   - "desc": "The ettin makes two attacks: one with its battleaxe and one with its\
       \ morningstar."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (2d8 + 5) slashing damage."
     "name": "Battleaxe"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (2d8 + 5) piercing damage."
     "name": "Morningstar"
   - "desc": "The ettin's right head exhales fire in a 30-foot cone. Each creature\

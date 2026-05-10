@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 aliases:
-- The Nightsea's Succor
+- "The Nightsea's Succor"
 ---
 # The Nightsea's Succor
 *Source: Journeys through the Radiant Citadel, p. 168* 
@@ -60,7 +61,7 @@ Consider the following ways to involve characters in this adventure:
 
 ## Starting the Adventure
 
-![Castle Djaynai monitors th...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/112-12-001-castle-djaynai.webp#center "Castle Djaynai monitors the arrival of travelers to the fog-shrouded port of Djaynai")
+![Castle Djaynai monitors the arrival of travelers to the fog-shrouded port of Djaynai](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/112-12-001-castle-djaynai.webp#center)
 
 The adventure begins with the characters arriving in the city of Djaynai. Whoever arranged for the adventurers to come to the city has paid for their ship's passage, as well as for rooms at a fine inn on arrival. Read or paraphrase the following text:
 
@@ -358,7 +359,7 @@ As the characters near the seafloor, a pearlescent haze cuts through the darknes
 
 As the characters take in the beauty of the city, a figure approaches them.
 
-![The shadows of aquatic res...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/117-12-004-undersea-janya.webp#center "The shadows of aquatic residents flit beneath the iridescent magic that protects the undersea city of Janya")
+![The shadows of aquatic residents flit beneath the iridescent magic that protects the undersea city of Janya](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/117-12-004-undersea-janya.webp#center)
 
 ### Meeting Xoese-Addae
 
@@ -712,8 +713,6 @@ Beneath the Nightsea, the realm of Janya has its own tales. Many tell of how ear
 Consider the plots on the Djaynai and Janya Adventures table when planning adventures in these realms.
 
 **Djaynai and Janya Adventures**
-
-`dice: [](13-the-nightseas-succor.md#^djaynai-and-janya-adventures)`
 
 | dice: d6 | Adventure |
 |----------|-----------|

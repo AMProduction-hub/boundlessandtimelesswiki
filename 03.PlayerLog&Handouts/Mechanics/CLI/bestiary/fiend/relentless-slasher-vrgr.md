@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Relentless Slasher
+- "Relentless Slasher"
 ---
-# [Relentless Slasher](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/relentless-slasher-vrgr.md)
+# [Relentless Slasher](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/relentless-slasher-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 242*  
 
 A relentless slasher conducts its bloody work in silence then vanishes into shadow and infamy. Fixated on a specific individual or type of victim, it pursues its target with single-minded obsession.
@@ -24,8 +25,6 @@ Relentless killers come into being and undertake their terrifying sprees for a s
 
 **Relentless Origins**
 
-`dice: [](relentless-slasher-vrgr.md#^relentless-origins)`
-
 | dice: d6 | Origin |
 |----------|--------|
 | 1 | It was left for dead and granted new life to seek revenge. |
@@ -37,8 +36,6 @@ Relentless killers come into being and undertake their terrifying sprees for a s
 ^relentless-origins
 
 **Relentless Methods**
-
-`dice: [](relentless-slasher-vrgr.md#^relentless-methods)`
 
 | dice: d8 | Method |
 |----------|--------|
@@ -71,10 +68,10 @@ Relentless killers come into being and undertake their terrifying sprees for a s
   - !!int "16"
 "speed": "40 ft."
 "saves":
-  - "strength": "+4"
-  - "dexterity": "+7"
-  - "constitution": "+5"
-  - "wisdom": "+5"
+  - "strength": !!int "4"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+7"
@@ -84,7 +81,8 @@ Relentless killers come into being and undertake their terrifying sprees for a s
     "desc": "+5"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 15"
 "languages": "understands all languages but can't speak"
 "cr": "8"
 "traits":
@@ -96,19 +94,22 @@ Relentless killers come into being and undertake their terrifying sprees for a s
 "actions":
   - "desc": "The slasher makes two Slasher's Knife attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 30/60\
-      \ ft., one target. Hit: 6 (1d4 + 4) slashing damage plus 21 (6d6) necrotic\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 30/60\
+      \ ft., one target. *Hit:* 6 (1d4 + 4) slashing damage plus 21 (6d6) necrotic\
       \ damage. If the target is a creature, it suffers a lingering wound that causes\
       \ it to take 7 (2d6) necrotic damage at the start of each of its turns. Each\
       \ time the slasher hits the wounded target with this attack, the damage dealt\
-      \ by the wound increases by 3 (d6). The wound ends if the target regains hit\
-      \ points or if a creature uses an action to stanch the wound, which requires\
+      \ by the wound increases by 3 (1d6). The wound ends if the target regains\
+      \ hit points or if a creature uses an action to stanch the wound, which requires\
       \ a successful DC 15 Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine))\
       \ check."
     "name": "Slasher's Knife"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the relentless slasher can expend a use to take one of the following actions.\
+  \ The relentless slasher regains all expended uses at the start of each of its turns."
 "legendary_actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 30/60\
-      \ ft., one target. Hit: 7 (1d6 + 4) slashing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 30/60\
+      \ ft., one target. *Hit:* 7 (1d6 + 4) slashing damage."
     "name": "Slice"
   - "desc": "The slasher makes one Slasher's Knife attack. After the attack hits or\
       \ misses, the slasher can teleport up to 30 feet to an unoccupied space it can\

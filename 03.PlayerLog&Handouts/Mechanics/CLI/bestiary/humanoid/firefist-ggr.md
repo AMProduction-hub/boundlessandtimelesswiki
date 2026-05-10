@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Firefist
+- "Firefist"
 ---
-# [Firefist](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/firefist-ggr.md)
+# [Firefist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/firefist-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 231*  
 
 Boros firefists combine potent magic with peerless fighting ability, inspiring all who serve alongside them. They often act as the point of contact between the Boros Legion and the angelic leaders.
@@ -36,39 +37,41 @@ Boros firefists combine potent magic with peerless fighting ability, inspiring a
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+5"
-  - "wisdom": "+6"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+4"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+3"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
 "senses": "passive Perception 13"
 "languages": "any one language (usually Common)"
 "cr": "7"
 "traits":
   - "desc": "The firefist is a 9th-level Boros spellcaster. Its spellcasting ability\
       \ is Wisdom (spell save DC 14, +6 to hit with spell attacks). It has the following\
-      \ cleric spells prepared:\n\nCantrips (at will): [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
+      \ cleric spells prepared:\n\n**Cantrips (at will):** [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
       \ [spare the dying](03.PlayerLog&Handouts/Mechanics/CLI/spells/spare-the-dying.md)\n\
-      \n1st level (4 slots): [guiding bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/guiding-bolt.md),\
+      \n**1st level (4 slots):** [guiding bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/guiding-bolt.md),\
       \ [healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/healing-word.md),\
       \ [heroism](03.PlayerLog&Handouts/Mechanics/CLI/spells/heroism.md), [shield\
       \ of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield-of-faith.md)\n\
-      \n2nd level (3 slots): [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md),\
+      \n**2nd level (3 slots):** [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md),\
       \ [scorching ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md)\n\
-      \n3rd level (3 slots): [blinding smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/blinding-smite.md),\
+      \n**3rd level (3 slots):** [blinding smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/blinding-smite.md),\
       \ [crusader's mantle](03.PlayerLog&Handouts/Mechanics/CLI/spells/crusaders-mantle.md),\
-      \ [revivify](03.PlayerLog&Handouts/Mechanics/CLI/spells/revivify.md)\n\n4th\
-      \ level (3 slots): [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \ [revivify](03.PlayerLog&Handouts/Mechanics/CLI/spells/revivify.md)\n\n**4th\
+      \ level (3 slots):** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)\n\
-      \n5th level (1 slots): [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md)"
+      \n**5th level (1 slots):** [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md)"
     "name": "Spellcasting"
 "actions":
   - "desc": "The firefist makes two greatsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage."
     "name": "Greatsword"
 "reactions":

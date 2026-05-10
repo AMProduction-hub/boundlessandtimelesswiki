@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Duergar Soulblade
+- "Duergar Soulblade"
 ---
-# [Duergar Soulblade](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/duergar-soulblade-mpmm.md)
+# [Duergar Soulblade](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar-soulblade-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 109, Mordenkainen's Tome of Foes p. 190*  
 
 Soulblades are duergar combatants whose mastery of psionics allows them to manifest blades of psychic energy to slice apart their foes.
@@ -58,7 +59,8 @@ Among the duergar of the Forgotten Realms, creation is a fiercely passionate pro
   - !!int "12"
 "speed": "25 ft."
 "damage_resistances": "poison"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "Dwarvish, Undercommon"
 "cr": "1"
 "traits":
@@ -72,7 +74,7 @@ Among the duergar of the Forgotten Realms, creation is a fiercely passionate pro
       \ checks that rely on sight."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Spell Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) force damage, or 13 (3d6 + 3) force damage while under the effect\
       \ of Enlarge."
     "name": "Soulblade"

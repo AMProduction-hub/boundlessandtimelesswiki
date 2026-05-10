@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reduced-Threat Clay Golem
+- "Reduced-Threat Clay Golem"
 ---
-# [Reduced-Threat Clay Golem](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/reduced-threat-clay-golem-tftyp.md)
+# [Reduced-Threat Clay Golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/reduced-threat-clay-golem-tftyp.md)
 *Source: Tales from the Yawning Portal p. 113*  
 
 ```statblock
@@ -40,7 +41,8 @@ aliases:
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "9"
 "traits":
@@ -69,7 +71,7 @@ aliases:
 "actions":
   - "desc": "The golem makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 16\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 16\
       \ (2d10 + 5) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 13 Constitution saving throw or have its hit point maximum reduced\
       \ by an amount equal to the damage taken. The target dies if this attack reduces\

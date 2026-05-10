@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Frost Salamander
+- "Frost Salamander"
 ---
-# [Frost Salamander](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/frost-salamander-mpmm.md)
+# [Frost Salamander](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/frost-salamander-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 132, Mordenkainen's Tome of Foes p. 223*  
 
 Frost salamanders are natives of the Plane of Ice, also called the Frostfell, which rests between the Plane of Air and the Plane of Water. Frost salamanders especially like to hunt warm-blooded creatures. They sometimes travel to frigid climes on the Material Plane by wandering through planar gates.
@@ -44,27 +45,28 @@ On rare occasions, [frost giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/g
   - !!int "7"
 "speed": "60 ft., burrow 40 ft., climb 40 ft."
 "saves":
-  - "constitution": "+8"
-  - "wisdom": "+4"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
 "damage_vulnerabilities": "fire"
 "damage_immunities": "cold"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 14"
 "languages": "Primordial"
 "cr": "9"
 "traits":
-  - "desc": "When the salamander takes fire damage, its\n\nFreezing Breath automatically\
+  - "desc": "When the salamander takes fire damage, its Freezing Breath automatically\
       \ recharges."
     "name": "Burning Fury"
 "actions":
   - "desc": "The salamander makes one Bite attack and four Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit:\
-      \ 9 (1d8 + 5) piercing damage plus 5 (d10) cold damage."
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 15 ft., one target. *Hit:*\
+      \ 9 (1d8 + 5) piercing damage plus 5 (1d10) cold damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
       \ 8 (1d6 + 5) piercing damage."
     "name": "Claw"
   - "desc": "The salamander exhales chill wind in a 60-foot cone. Each creature in\

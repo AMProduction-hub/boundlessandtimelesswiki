@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/aitfr-dn
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Skeletal Horror
+- "Skeletal Horror"
 ---
-# [Skeletal Horror](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/skeletal-horror-aitfr-dn.md)
+# [Skeletal Horror](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeletal-horror-aitfr-dn.md)
 *Source: Adventures in the Forgotten Realms: Deepest Night p. 13*  
 
 This horrid mass of bones clambers along on a dozen hands and feet without maintaining any consistent shape. One moment it moves like a centipede, the next it rears back to claw like a bear. The only consistent feature is a weird absence: no matter how many skulls make up its mass, this strange horror always seems to be headless.
@@ -42,13 +43,14 @@ The skeletal horrors in Kyrilla's lair are made from the bones of yuan-ti suppli
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 16"
 "languages": ""
 "cr": "6"
 "actions":
   - "desc": "The horror makes two attacks with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 19\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 19\
       \ (3d10 + 3) slashing damage."
     "name": "Claw"
   - "desc": "The horror crashes into foes like a wave before quickly reforming. Each\

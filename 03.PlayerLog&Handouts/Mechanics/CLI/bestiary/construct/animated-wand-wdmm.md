@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Animated Wand
+- "Animated Wand"
 ---
-# [Animated Wand](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/animated-wand-wdmm.md)
+# [Animated Wand](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-wand-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 299*  
 
 ```statblock
@@ -31,7 +32,8 @@ aliases:
   - !!int "3"
   - !!int "1"
 "speed": "30 ft."
-"senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 6"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft. (blind beyond this radius), passive Perception 6"
 "languages": ""
 "traits":
   - "desc": "If the wand lacks legs or other appendages it can use for locomotion,\
@@ -48,7 +50,7 @@ aliases:
       \ Any such effect that would target the wand's user targets the wand instead.\
       \ If reduced to 0 hit points, the wand crumbles into dust and is destroyed."
     "name": "Wand of Wonder"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d4 + 4) bludgeoning damage."
     "name": "Slam"
 "source":

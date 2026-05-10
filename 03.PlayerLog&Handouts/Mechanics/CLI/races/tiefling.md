@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/tiefling
 aliases:
-- Tiefling
+- "Tiefling"
 ---
 # Tiefling
 *Source: Player's Handbook p. 42. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/tiefling.webp#right)
 
-- **Ability Scores**: Charisma +2; Intelligence +1
+- **Ability Scores**: cha +2 int +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Charisma

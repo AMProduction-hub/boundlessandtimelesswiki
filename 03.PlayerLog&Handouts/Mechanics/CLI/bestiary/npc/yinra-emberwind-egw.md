@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Yinra Emberwind
+- "Yinra Emberwind"
 ---
-# [Yinra Emberwind](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/yinra-emberwind-egw.md)
+# [Yinra Emberwind](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yinra-emberwind-egw.md)
 *Source: Explorer's Guide to Wildemount p. 223*  
 
 ```statblock
@@ -40,7 +41,11 @@ aliases:
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Elvish"
 "cr": "1/2"
 "traits":
@@ -51,10 +56,10 @@ aliases:
       \ checks that rely on hearing or sight."
     "name": "Keen Hearing and Sight"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 150/600 ft., one target. *Hit:*\
       \ 7 (1d8 + 3) piercing damage."
     "name": "Longbow"
 "source":

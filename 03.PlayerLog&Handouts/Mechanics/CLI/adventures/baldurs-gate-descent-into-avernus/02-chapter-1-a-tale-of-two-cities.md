@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Chapter 1: A Tale of Two Cities
+- "Chapter 1: A Tale of Two Cities"
 ---
 # Chapter 1: A Tale of Two Cities
 *Source: Baldur's Gate: Descent Into Avernus, p. 10* 
@@ -96,7 +97,7 @@ Read the following boxed text aloud when the characters are ready to hear more:
 
 When a tenday passes without any reports of attacks by followers of the Dead Three, Zodge secures the funds to pay the characters, upholding his end of the agreement. He collects their badges before paying them.
 
-![When the fog clears, Baldu...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/007-jnifm-01-03.webp#center "When the fog clears, Baldur's Gate shines on the shores of the Chionthar River")
+![When the fog clears, Baldur's Gate shines on the shores of the Chionthar River](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/007-jnifm-01-03.webp#center)
 
 ## Elfsong Tavern
 
@@ -314,7 +315,7 @@ The characters can try to bribe Dead-Eye into leaving the Elfsong Tavern without
 
 #### Treasure
 
-Tucked in Dead-Eye's vest is a pouch containing 32 gp and 15 sp. He also wears two gold necklaces (25 gp each) and a blackened gold ring with a white pearl set in it (125 gp). Each of the other pirates carries a pouch containing `d6` sp.
+Tucked in Dead-Eye's vest is a pouch containing 32 gp and 15 sp. He also wears two gold necklaces (25 gp each) and a blackened gold ring with a white pearl set in it (125 gp). Each of the other pirates carries a pouch containing `1d6` sp.
 
 Dead-Eye's ship, the *Uncivil Serpent*, is moored at the end of a dock on the east side of the harbor. Eleven [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md) guard it, and no treasure is kept aboard. If the characters dispose of all the pirates, the ship is theirs for the taking, though it requires a crew of twenty to sail, and half or more of the crew must have proficiency with water vehicles.
 
@@ -367,7 +368,7 @@ An [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible
 
 #### D2. Baths
 
-From dawn to midnight, characters can expect to find `d6` human [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) bathing here at any given time. From midnight to dawn, three female human [night blades](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/night-blade-bgdia.md) stand guard near the pools and attack trespassers on sight. If a fight breaks out here, the [necromite of Myrkul](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/necromite-of-myrkul-bgdia.md) in area D4 joins the fray in the second round of combat.
+From dawn to midnight, characters can expect to find `1d6` human [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) bathing here at any given time. From midnight to dawn, three female human [night blades](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/night-blade-bgdia.md) stand guard near the pools and attack trespassers on sight. If a fight breaks out here, the [necromite of Myrkul](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/necromite-of-myrkul-bgdia.md) in area D4 joins the fray in the second round of combat.
 
 Describe this location to the players as follows:
 
@@ -426,7 +427,7 @@ Describe this location to the players as follows:
 
 The steel skull mask represents the visage of Bhaal and has no magical properties.
 
-The humanoid entrails were left on the altar as an offering to the god of murder. Pouring a vial of holy water on the entrails causes them to melt away and also causes the altar to smolder.
+The humanoid entrails were left on the altar as an offering to the god of murder. Pouring a [vial of holy water](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-water-flask.md) on the entrails causes them to melt away and also causes the altar to smolder.
 
 #### D8. Moldy Tapestry
 
@@ -531,7 +532,7 @@ Exposure to the dampness has rotted the bones in the sarcophagus, reducing them 
 
 ##### Trap
 
-If the contents of the sarcophagus are disturbed, a ghostly battleaxe appears above the sarcophagus. The battleaxe is created by magic similar to a [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md) spell and is treated as a 2nd-level spell effect for the purpose of dispelling it. The ghostly battleaxe can't be harmed, can't leave the room, and targets only creatures, acting on initiative count 20. On each of its turns, it moves up to 10 feet and makes a melee spell attack (+5 to hit) against an available target, dealing 6 (`1d8 + 2`) force damage on a hit. The effect ends when there are no longer any creatures in the room, and the trap resets after 24 hours.
+If the contents of the sarcophagus are disturbed, a ghostly battleaxe appears above the sarcophagus. The battleaxe is created by magic similar to a [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md) spell and is treated as a 2nd-level spell effect for the purpose of dispelling it. The ghostly battleaxe can't be harmed, can't leave the room, and targets only creatures, acting on initiative count 20. On each of its turns, it moves up to 10 feet and makes a melee spell attack (`+5` to hit) against an available target, dealing 6 (`1d8 + 2`) force damage on a hit. The effect ends when there are no longer any creatures in the room, and the trap resets after 24 hours.
 
 #### D17. Myrkul's Altar
 
@@ -808,7 +809,7 @@ If the imps see Amrik leave the ship, they trail him to make sure he isn't being
 
 #### L2. Forecastle
 
-This deck is littered with the corpses of `d4` dead seagulls (see area L1 for more information). Hanging off the end of the ship's bow is the green-paned lantern that indicates the tavern is open for business. A staff member crawls to the end of the bow to douse the lantern, refill it with oil, and relight it at highsun every day.
+This deck is littered with the corpses of `1d4` dead seagulls (see area L1 for more information). Hanging off the end of the ship's bow is the green-paned lantern that indicates the tavern is open for business. A staff member crawls to the end of the bow to douse the lantern, refill it with oil, and relight it at highsun every day.
 
 On warm, clear nights, Laraelra moves tables, chairs, and lanterns onto this deck so that clients can drink and gamble under the stars.
 
@@ -875,7 +876,7 @@ The lock on the cabin door has rusted to the point of being useless, but the des
 
 This area is prone to leaks, as the ship's hull is mostly submerged at this level. Puddles of water collect in areas where the floor has bowed, and the whole space reeks of vomit and urine.
 
-Four alcoves here are set with cheap cots where drunks can sleep off their hangovers. In the bow are four hammocks that serve a similar purpose. At any given time, `d4` [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) can be found throughout this area, sleeping off the effects of a too-wild night. If the characters wish to rob them, each commoner has a belt pouch containing `d6` sp and `2d6` cp.
+Four alcoves here are set with cheap cots where drunks can sleep off their hangovers. In the bow are four hammocks that serve a similar purpose. At any given time, `1d4` [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) can be found throughout this area, sleeping off the effects of a too-wild night. If the characters wish to rob them, each commoner has a belt pouch containing `1d6` sp and `2d6` cp.
 
 ### Dealing with Amrik
 
@@ -1491,7 +1492,7 @@ If Reya Mantlemorn is with the characters, she shares the following tale over a 
 > 
 > "The High Rider sent out the riders of Elturel, now numbering many thousands, with Zariel at their head, riding a golden mastodon. With a great cry, Zariel and her army charged through the gate. The legions of Avernus trembled and buckled, but did not crumble. Zariel was defeated, and the remnants of her army returned to Elturel, overcome with grief at the loss of their glorious general but confident that the lords of the Nine Hells would think twice about threatening Elturel again.
 > 
-> "There were great celebrations to honor the valiant knights of the cavalry, who became known as Hellriders from that day on." 
+> "There were great celebrations to honor the valiant knights of the cavalry, who became known as Hellriders from that day on."
 ^0f0
 
 ![](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/024-why5x-01-05.webp#center)
@@ -1582,7 +1583,7 @@ If the characters don't have [Thavius Kreeg](03.PlayerLog&Handouts/Mechanics/CLI
 
 > [!note] Candlekeep Defenses
 > 
-> Attacking Candlekeep would be foolhardy. Although most of the monks are simple scholars, a few are powerful spellcasters. If any trouble occurs, an [archmage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/archmage.md) and `d4` [mages](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage.md) investigate immediately. If they can't bring the situation under control in short order, an additional `d4` [archmages](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/archmage.md) arrive to lend assistance.
+> Attacking Candlekeep would be foolhardy. Although most of the monks are simple scholars, a few are powerful spellcasters. If any trouble occurs, an [archmage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/archmage.md) and `1d4` [mages](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage.md) investigate immediately. If they can't bring the situation under control in short order, an additional `1d4` [archmages](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/archmage.md) arrive to lend assistance.
 ^candlekeep-defenses
 
 #### Thavius and the Puzzle Box
@@ -1646,7 +1647,7 @@ If the characters intend to save Elturel, Sylvira can provide them with a map of
 
 More information about how to use the poster map can be found in chapter 3.
 
-![The contents of Thavius Kr...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/025-a1ei6-01-07.webp#center "The contents of Thavius Kreeg's mysterious puzzle box are revealed.")
+![The contents of Thavius Kreeg's mysterious puzzle box are revealed.](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/025-a1ei6-01-07.webp#center)
 
 ## Getting to Avernus
 
@@ -1722,8 +1723,6 @@ When defeat on Avernus appeared inevitable, Zariel entrusted her sword to Yael, 
 [Lulu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lulu-bgdia.md) wandered Avernus for months until she came upon a traveling market called the Wandering Emporium. A rakshasa named Mahadi tricked her into thinking he was her friend, only to splash her with a tiny bit of water from the River Styx, leaving her in a feeble mental state and stripping away her spellcasting powers. Mahadi then gave [Lulu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lulu-bgdia.md) to a group of devils as a gift for the archdevil Zariel. Zariel could not abide [Lulu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lulu-bgdia.md)'s presence—but nor could she bring herself to harm her former friend. Zariel had [Lulu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lulu-bgdia.md) sent back to Faerûn with her mental faculties restored. Unfortunately, the damage to [Lulu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lulu-bgdia.md)'s memory was not so easy to repair.
 
 #### Lulu's Memories
-
-`dice: [](02-chapter-1-a-tale-of-two-cities.md#^memory)`
 
 | dice: d6 | Memory |
 |----------|--------|

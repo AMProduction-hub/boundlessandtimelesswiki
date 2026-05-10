@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Witherbloom Professor of Growth
+- "Witherbloom Professor of Growth"
 ---
-# [Witherbloom Professor of Growth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/witherbloom-professor-of-growth-scc.md)
+# [Witherbloom Professor of Growth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/witherbloom-professor-of-growth-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 223*  
 
 Professors of growth nurture the essence of nature through their magic. They brew infusions of plants, fungi, and insects or other minuscule creatures that thrum with the essence of life, using these infusions to fuel their magic instead of using traditional material components. In battle, they flood their allies with vital essence, healing wounds and soothing ailments. Their foes face the wrath of nature itself, from grasping plants and conjured poisonous vines to avatars of nature's wrath.
@@ -42,10 +43,10 @@ Witherbloom College studies the magic inherent in the natural cycle of life and 
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+6"
-  - "intelligence": "+6"
-  - "wisdom": "+7"
-  - "charisma": "+4"
+  - "constitution": !!int "6"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -63,7 +64,7 @@ Witherbloom College studies the magic inherent in the natural cycle of life and 
 "actions":
   - "desc": "The professor makes two Verdant Lash attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +7 to hit, reach 30 ft., one target. Hit: 11\
+  - "desc": "*Melee Spell Attack:* +7 to hit, reach 30 ft., one target. *Hit:* 11\
       \ (2d6 + 4) piercing damage plus 7 (2d6) poison damage, and the target must\
       \ succeed on a DC 15 Strength saving throw or be pulled up to 10 feet closer\
       \ to the professor."
@@ -76,9 +77,9 @@ Witherbloom College studies the magic inherent in the natural cycle of life and 
       \ it as an action."
     "name": "Summon Nature's Avatar (Recharges after a Short or Long Rest)"
   - "desc": "The professor casts one of the following spells, requiring no material\
-      \ components and using Wisdom as the spellcasting ability:\n\nAt will: [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
+      \ components and using Wisdom as the spellcasting ability:\n\n**At will:** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
       \ [spare the dying](03.PlayerLog&Handouts/Mechanics/CLI/spells/spare-the-dying.md)\n\
-      \n1/day each: [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md),\
+      \n**1/day each:** [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md),\
       \ [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md),\
       \ [mass cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-cure-wounds.md),\
       \ [pass without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md),\

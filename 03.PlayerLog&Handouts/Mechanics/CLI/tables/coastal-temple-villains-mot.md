@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Coastal Temple Villains
+- "Coastal Temple Villains"
 ---
 # Coastal Temple Villains
 *Source: Mythic Odysseys of Theros p. 174* 
 
 **Coastal Temple Villains**
-
-`dice: [](coastal-temple-villains-mot.md#^coastal-temple-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/golgari-agent
 - ttrpg-cli/spell/class/artificer
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
@@ -13,19 +14,19 @@ tags:
 - ttrpg-cli/spell/level/2nd-level
 - ttrpg-cli/spell/school/transmutation
 - ttrpg-cli/spell/subclass/arcane-trickster
-- ttrpg-cli/spell/subclass/circle-of-the-land
+- ttrpg-cli/spell/subclass/circle-of-the-land/forest
 - ttrpg-cli/spell/subclass/eldritch-knight
 classes:
 - Artificer
-- Bard
-- Druid (Circle of the Land)
+- Bard (Magical Secrets)
+- Druid (Circle of the Land, Forest)
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
 - Sorcerer
 - Warlock
 - Wizard
 aliases:
-- Spider Climb
+- "Spider Climb"
 ---
 # Spider Climb
 *2nd-level, Transmutation*  
@@ -38,6 +39,6 @@ aliases:
 
 Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving its hands free. The target also gains a climbing speed equal to its walking speed.
 
-**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid (Circle of the Land, Forest)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 277. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

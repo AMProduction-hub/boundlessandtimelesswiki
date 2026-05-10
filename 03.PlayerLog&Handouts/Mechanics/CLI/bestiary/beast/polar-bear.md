@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Polar Bear
+- "Polar Bear"
 ---
-# [Polar Bear](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/polar-bear.md)
-*Source: Monster Manual p. 334, Storm King's Thunder, Waterdeep: Dragon Heist, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Polar Bear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/polar-bear.md)
+*Source: Monster Manual p. 334. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Polar Bear"
@@ -47,19 +48,14 @@ aliases:
 "actions":
   - "desc": "The bear makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d8 + 5) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) slashing damage."
     "name": "Claws"
 "source":
   - "MM"
-  - "SKT"
-  - "WDH"
-  - "IMR"
-  - "EGW"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/polar-bear.webp"
 ```
 ^statblock

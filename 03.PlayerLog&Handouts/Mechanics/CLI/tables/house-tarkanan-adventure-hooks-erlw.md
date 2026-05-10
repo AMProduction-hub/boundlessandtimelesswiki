@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- House Tarkanan Adventure Hooks
+- "House Tarkanan Adventure Hooks"
 ---
 # House Tarkanan Adventure Hooks
 *Source: Eberron: Rising from the Last War p. 254* 
 
 **House Tarkanan Adventure Hooks**
-
-`dice: [](house-tarkanan-adventure-hooks-erlw.md#^house-tarkanan-adventure-hooks)`
 
 | dice: d4 | Adventure Hook |
 |----------|----------------|

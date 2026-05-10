@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mwaxanaré
+- "Mwaxanaré"
 ---
-# [Mwaxanaré](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/mwaxanare-toa.md)
+# [Mwaxanaré](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/mwaxanare-toa.md)
 *Source: Tomb of Annihilation p. 228*  
 
 At the tender age of seventeen, Princess Mwaxanaré ("Naré" for short) is the oldest living descendant of the royal families of Omu and the natural inheritor of their fallen kingdom. She and her six-year-old brother, Na, are guests of the aarakocra in Kir Sabal. The aarakocra aim to protect the young royals until such time as the evil in Omu has been vanquished.
@@ -77,6 +78,8 @@ The young Prince Na is a noncombatant with AC 10 and 3 hit points. Having lived 
     "desc": "+5"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+3"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 11"
 "languages": "Auran, Common, telepathy 30 ft."
 "cr": "1/8"
@@ -84,15 +87,15 @@ The young Prince Na is a noncombatant with AC 10 and 3 hit points. Having lived 
   - "desc": "Mwaxanaré is a 2nd-level spellcaster. Her spellcasting ability is Charisma\
       \ (spell save DC 13, +5 to hit with spell attacks). She regains her expended\
       \ spell slots when she finishes a short or long rest. She knows the following\
-      \ warlock spells:\n\nCantrips (at will): [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md),\
-      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n1st-1st\
-      \ level (2 slots): [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \ warlock spells:\n\n**Cantrips (at will):** [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md),\
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n**1st-1st\
+      \ level (2 slots):** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [protection from evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md),\
       \ [unseen servant](03.PlayerLog&Handouts/Mechanics/CLI/spells/unseen-servant.md)"
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +2 to hit. reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 2 (d4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +2 to hit. reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 2 (1d4) piercing damage."
     "name": "Dagger"
 "source":
   - "ToA"

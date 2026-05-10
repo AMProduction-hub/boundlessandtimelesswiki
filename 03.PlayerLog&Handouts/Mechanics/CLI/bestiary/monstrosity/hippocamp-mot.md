@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hippocamp
+- "Hippocamp"
 ---
-# [Hippocamp](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/hippocamp-mot.md)
+# [Hippocamp](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hippocamp-mot.md)
 *Source: Mythic Odysseys of Theros p. 227*  
 
 Noble steeds of the sea, hippocamps feature in countless tales as guides and mounts to tritons and other ocean-faring heroes. While these curious but cautious aquatic equines naturally travel in herds, many hold valued places in triton society. Considered to be servants of Thassa, hippocamps are often unpredictable, but their great speed and strength can prove awe-inspiring when harnessed by the god's will.
@@ -35,7 +36,8 @@ Noble steeds of the sea, hippocamps feature in countless tales as guides and mou
   - !!int "6"
 "speed": "20 ft., swim 50 ft."
 "damage_resistances": "cold"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -47,10 +49,10 @@ Noble steeds of the sea, hippocamps feature in countless tales as guides and mou
       \ on a DC 12 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Charge"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d6 + 2) bludgeoning damage."
     "name": "Hooves"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) bludgeoning damage."
     "name": "Ram"
 "source":

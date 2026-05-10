@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Statue of Vergadain
+- "Statue of Vergadain"
 ---
-# [Statue of Vergadain](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/statue-of-vergadain-wdmm.md)
+# [Statue of Vergadain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/statue-of-vergadain-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 202*  
 
 ```statblock
@@ -40,7 +41,8 @@ aliases:
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "10"
 "traits":
@@ -51,15 +53,10 @@ aliases:
     "name": "Magic Resistance"
   - "desc": "The statue's weapon attacks are magical."
     "name": "Magic Weapons"
-  - "desc": "As a bonus action, the golem targets one creature it can see within 30\
-      \ feet of it. The target must succeed on a DC 17 Charisma saving throw, or all\
-      \ magic items in its possession are teleported to the bottom of the pit in area\
-      \ 31."
-    "name": "Magic Theft"
 "actions":
   - "desc": "The statue makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 19 (3d8 + 6) bludgeoning damage."
     "name": "Slam"
   - "desc": "The statue targets one or more creatures it can see within 10 feet of\
@@ -70,6 +67,11 @@ aliases:
       \ for 1 minute. A target can repeat the saving throw at the end of each of its\
       \ turns, ending the effect on itself on a success."
     "name": "Slow (Recharge 5-6)"
+"bonus_actions":
+  - "desc": "The golem targets one creature it can see within 30 feet of it. The target\
+      \ must succeed on a DC 17 Charisma saving throw, or all magic items in its possession\
+      \ are teleported to the bottom of the pit in area 31."
+    "name": "Magic Theft"
 "source":
   - "WDMM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/statue-of-vergadain-wdmm.webp"

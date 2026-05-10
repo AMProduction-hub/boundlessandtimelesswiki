@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
-- Military Quests
+- "Military Quests"
 ---
 # Military Quests
 *Source: Tasha's Cauldron of Everything p. 98* 
 
 **Military Quests**
-
-`dice: [](military-quests-tce.md#^military-quests)`
 
 | dice: d6 | Quest |
 |----------|-------|

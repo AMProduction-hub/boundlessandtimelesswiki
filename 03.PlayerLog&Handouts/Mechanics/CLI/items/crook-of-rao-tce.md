@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/artifact
-aliases: 
+aliases:
 - "Crook of Rao"
 ---
 # Crook of Rao
@@ -25,7 +26,7 @@ The artifact has the following random properties, which you can determine by rol
 
 ## Spells
 
-The crook has 6 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells (save DC 18) from it: [aura of life](03.PlayerLog&Handouts/Mechanics/CLI/spells/aura-of-life.md) (2 charges), [aura of purity](03.PlayerLog&Handouts/Mechanics/CLI/spells/aura-of-purity.md) (2 charges), [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md) (1 charge), [beacon of hope](03.PlayerLog&Handouts/Mechanics/CLI/spells/beacon-of-hope.md) (1 charge), [mass cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-cure-wounds.md) (3 charges). The crook regains `d6` expended charges daily at dawn.
+The crook has 6 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells (save DC 18) from it: [aura of life](03.PlayerLog&Handouts/Mechanics/CLI/spells/aura-of-life.md) (2 charges), [aura of purity](03.PlayerLog&Handouts/Mechanics/CLI/spells/aura-of-purity.md) (2 charges), [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md) (1 charge), [beacon of hope](03.PlayerLog&Handouts/Mechanics/CLI/spells/beacon-of-hope.md) (1 charge), [mass cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-cure-wounds.md) (3 charges). The crook regains `1d6` expended charges daily at dawn.
 
 ## Absolute Banishment
 
@@ -41,14 +42,12 @@ When the Crook was last used against Iggwilv, the Witch Queen lashed out at the 
 
 **Extraplanar Reversal**
 
-`dice: [](crook-of-rao-tce.md#^extraplanar-reversal)`
-
 | dice: d100 | Effect |
 |------------|--------|
 | 1-25 | A portal to a random plane opens. The portal closes after 5 minutes. |
 | 26-45 | `2d4` [imps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/imp.md) and `2d4` [quasits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/quasit.md) appear. |
-| 46-60 | `d8` [succubi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/succubus.md)/[incubi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/incubus.md) appear. |
-| 61-70 | `d10` [barbed devils](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/barbed-devil.md) and `d10` [vrocks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/vrock.md) appear. |
+| 46-60 | `1d8` [succubi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/succubus.md)/[incubi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/incubus.md) appear. |
+| 61-70 | `1d10` [barbed devils](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/barbed-devil.md) and `1d10` [vrocks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/vrock.md) appear. |
 | 71-80 | 1 [arcanaloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/arcanaloth.md), 1 [night hag](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/night-hag.md), and 1 [rakshasa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/rakshasa.md) appear. |
 | 81-85 | 1 [ice devil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/ice-devil.md) and 1 [marilith](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/marilith.md) appear. |
 | 86-90 | 1 [balor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/balor.md) and 1 [pit fiend](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/pit-fiend.md) appear. At the DM's discretion, a portal opens into the presence of an archdevil or demon lord instead, then closes after 5 minutes. |

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Chapter 11: Gravenhollow
+- "Chapter 11: Gravenhollow"
 ---
 # Chapter 11: Gravenhollow
 *Source: Out of the Abyss, p. 150* 
@@ -129,8 +130,6 @@ Echoes appear so often that the characters find one every time they go looking f
 ^illustrious-visitors
 
 #### Echoes in Gravenhollow
-
-`dice: [](11-chapter-11-gravenhollow.md#^echo)`
 
 | dice: d20 | Echo |
 |-----------|------|
@@ -329,7 +328,7 @@ A creature attuned to a [stonespeaker crystal](03.PlayerLog&Handouts/Mechanics/C
 - While standing in the Archives of the Future with the crystal in hand, the creature can choose to receive a glimpse of what might happen if the demon lords aren't stopped. After receiving this vision, the creature can't experience another glimpse of the future until it finishes a long rest.  
 - While standing in the appropriate archive, the creature can expend 2 of the crystal's charges to ask a question pertaining to the past, present, or future and receive a truthful answer in the form of a vision.  
 
-Characters can expend charges to confirm suspicions, fill in gaps in their knowledge, and see for themselves the events that brought the demon lords into the world. Such research might take several days. Ulthar doesn't give them another [stonespeaker crystal](03.PlayerLog&Handouts/Mechanics/CLI/items/stonespeaker-crystal-oota.md) to speed up the process, but the characters can try to steal one, as the trusting librarian keeps them on a shelf in his quarters. The giant discovers the theft in `d4` days, at which point the characters are confronted by [Veldyskar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/veldyskar-oota.md) and a host of galeb duhr, who politely ask them to leave Gravenhollow at once.
+Characters can expend charges to confirm suspicions, fill in gaps in their knowledge, and see for themselves the events that brought the demon lords into the world. Such research might take several days. Ulthar doesn't give them another [stonespeaker crystal](03.PlayerLog&Handouts/Mechanics/CLI/items/stonespeaker-crystal-oota.md) to speed up the process, but the characters can try to steal one, as the trusting librarian keeps them on a shelf in his quarters. The giant discovers the theft in `1d4` days, at which point the characters are confronted by [Veldyskar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/veldyskar-oota.md) and a host of galeb duhr, who politely ask them to leave Gravenhollow at once.
 
 ### Possible Visions
 
@@ -341,7 +340,7 @@ If the characters inquire about Gromph Baenre or the arrival of the demon lords,
 
 > [!readaloud] 
 > 
-> An imperious drow archwizard in spider-silk robes casts a mighty conjuration spell. As the ritual draws toward its conclusion, a web of *faerzress* energy expands outward. The wizard seems alarmed by this, his efforts to complete the spell growing more crazed as he realizes he's lost control.
+> An imperious drow archwizard in spider silk robes casts a mighty conjuration spell. As the ritual draws toward its conclusion, a web of *faerzress* energy expands outward. The wizard seems alarmed by this, his efforts to complete the spell growing more crazed as he realizes he's lost control.
 > 
 > And then, madness! Rifts open in the web of energy around him. These cracks stretch and widen, and through them come horrific fiends that scream, shriek, and howl as they are wrenched from the Abyss and cast into the Underdark.
 > 

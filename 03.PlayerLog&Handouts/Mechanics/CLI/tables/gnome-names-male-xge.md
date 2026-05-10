@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Gnome Names – Male
+- "Gnome Names – Male"
 ---
 # Gnome Names – Male
 *Source: Xanathar's Guide to Everything p. 178* 
 
 **Gnome Names – Male**
-
-`dice: [](gnome-names-male-xge.md#^gnome-names-male)`
 
 | dice: d100 | Name |
 |------------|------|

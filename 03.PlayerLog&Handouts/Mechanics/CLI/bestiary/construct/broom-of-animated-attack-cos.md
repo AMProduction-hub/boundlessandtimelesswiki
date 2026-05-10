@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Broom of Animated Attack
+- "Broom of Animated Attack"
 ---
-# [Broom of Animated Attack](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/broom-of-animated-attack-cos.md)
+# [Broom of Animated Attack](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/broom-of-animated-attack-cos.md)
 *Source: Curse of Strahd p. 226*  
 
 A broom of animated attack is easily mistaken for a broom of flying. It attacks any creature that grabs it or tries to ride it.
@@ -47,7 +48,8 @@ Some brooms of animated attack allow their creators to ride them, in which case 
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 7"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft. (blind beyond this radius), passive Perception 7"
 "languages": ""
 "cr": "1/4"
 "traits":
@@ -69,7 +71,7 @@ Some brooms of animated attack allow their creators to ride them, in which case 
 "actions":
   - "desc": "The broom makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) bludgeoning damage."
     "name": "Broomstick"
 "reactions":

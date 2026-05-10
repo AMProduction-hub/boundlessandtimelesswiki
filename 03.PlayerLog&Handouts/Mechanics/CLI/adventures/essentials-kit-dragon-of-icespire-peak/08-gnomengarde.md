@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dip
 aliases:
-- Gnomengarde
+- "Gnomengarde"
 ---
 # Gnomengarde
 *Source: Essentials Kit: Dragon of Icespire Peak, p. 26* 
@@ -71,8 +72,6 @@ If you want a more interesting antagonist, make the mimic one of the rare variet
 
 Wild magic is a kind of magic that can't be controlled, and Gnomengarde has long been a source of it. When a creature anywhere on the Gnomengarde map expends a spell slot to cast a spell of 1st level or higher, an additional effect might occur. Roll a `d20` and consult the following table to determine the effect, if any. This wild magic effect lasts for 1 hour, or until ended with a [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md) spell or similar magic.
 
-`dice: [](08-gnomengarde.md#^wild-magic-effect)`
-
 | dice: d20 | Wild Magic Effect |
 |-----------|-------------------|
 | 1–6 | None |
@@ -131,7 +130,7 @@ Each barrel crab is a Large object with AC 15, 30 hit points, a Strength score o
 
 ##### Claws
 
-*Melee Weapon Attack*: +2 to hit, reach 5 ft., one target. *Hit*: 5 (`2d4`) piercing damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled) (escape DC 10).
+*Melee Weapon Attack*: `+2` to hit, reach 5 ft., one target. *Hit*: 5 (`2d4`) piercing damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled) (escape DC 10).
 
 #### G7. Autoloading Crossbow Platform
 
@@ -141,7 +140,7 @@ A creature sitting in the chair can use an action to rotate the device up to 360
 
 ##### Heavy Crossbow
 
-*Ranged Weapon Attack*: +5 to hit, range 50/200 ft., one target. *Hit*: 5 (`d10`) piercing damage.
+*Ranged Weapon Attack*: `+5` to hit, range 50/200 ft., one target. *Hit*: 5 (`1d10`) piercing damage.
 
 Sitting in the chair when the characters first enter this area is the device's inventor, a [rock gnome recluse](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/rock-gnome-recluse-dip.md) named Facktoré. When she sees strangers, Facktoré decides to test out the contraption on them. She stands down only when she or her contraption cease to function, or when she can no longer see any targets. Being deranged and utterly consumed by her work, she can barely string together a cohesive sentence, let alone advise visitors on where to go or whom to talk to.
 

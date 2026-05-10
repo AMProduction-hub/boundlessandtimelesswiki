@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 - ttrpg-cli/monster/cr/8
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mind Flayer Psion
+- "Mind Flayer Psion"
 ---
-# [Mind Flayer Psion](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/mind-flayer-psion-vgm.md)
+# [Mind Flayer Psion](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/mind-flayer-psion-vgm.md)
 *Source: Volo's Guide to Monsters p. 71*  
 
 Mind flayers sometimes devote themselves to deeper study of psionic power, and many excel at using their innate psionic energy to duplicate the casting of spells.
@@ -60,9 +61,9 @@ Illithids subsist on the brains of humanoids. The brains provide enzymes, hormon
   - !!int "17"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+7"
-  - "wisdom": "+6"
-  - "charisma": "+6"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -76,49 +77,50 @@ Illithids subsist on the brains of humanoids. The brains provide enzymes, hormon
     "desc": "+6"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "Deep Speech, Undercommon, telepathy 120 ft."
 "cr": "8"
 "traits":
   - "desc": "The mind flayer is a 10th-level spellcaster. Its innate spellcasting\
       \ ability is Intelligence (spell save DC 15; +7 to hit with spell attacks).\
-      \ It can innately cast the following spells, requiring no components:\n\nAt\
-      \ will: [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ It can innately cast the following spells, requiring no components:\n\n**At\
+      \ will:** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [vicious\
       \ mockery](03.PlayerLog&Handouts/Mechanics/CLI/spells/vicious-mockery.md), [true\
       \ strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-strike.md), [detect\
       \ thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
-      \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md)\n\n1/day\
-      \ each: [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
+      \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md)\n\n**1/day\
+      \ each:** [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md) (self\
-      \ only)\n\n1st level (4 slots): [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \ only)\n\n**1st level (4 slots):** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md), [comprehend\
       \ languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
-      \ [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md)\n\n2nd\
-      \ level (3 slots): [crown of madness](03.PlayerLog&Handouts/Mechanics/CLI/spells/crown-of-madness.md),\
+      \ [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md)\n\n**2nd\
+      \ level (3 slots):** [crown of madness](03.PlayerLog&Handouts/Mechanics/CLI/spells/crown-of-madness.md),\
       \ [phantasmal force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md),\
       \ [see invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/see-invisibility.md)\n\
-      \n3rd level (3 slots): [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
+      \n**3rd level (3 slots):** [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
       \ [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md), [meld into stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/meld-into-stone.md)\n\
-      \n4th level (3 slots): [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
+      \n**4th level (3 slots):** [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
       \ [stone shape](03.PlayerLog&Handouts/Mechanics/CLI/spells/stone-shape.md)\n\
-      \n5th level (2 slots): [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md),\
+      \n**5th level (2 slots):** [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md),\
       \ [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)"
     "name": "Innate Spellcasting (Psionics)"
   - "desc": "The mind flayer has advantage on saving throws against spells and other\
       \ magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:*\
       \ 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it is\
       \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15) and must succeed on a DC 15 Intelligence saving throw or be\
       \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
       \ until this grapple ends."
     "name": "Tentacles"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
       \ humanoid [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-      \ by the mind flayer. Hit: The target takes 55 (10d10) piercing damage.\
+      \ by the mind flayer. *Hit:* The target takes 55 (10d10) piercing damage.\
       \ If this damage reduces the target to 0 hit points, the mind flayer kills the\
       \ target by extracting and devouring its brain."
     "name": "Extract Brain"

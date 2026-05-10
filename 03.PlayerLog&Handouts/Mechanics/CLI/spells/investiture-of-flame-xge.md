@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xge
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/warlock
@@ -12,14 +13,14 @@ tags:
 - ttrpg-cli/spell/school/transmutation
 - ttrpg-cli/spell/subclass/arcana-domain
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Arcana Domain)
 - Druid
 - Sorcerer
 - Warlock
 - Wizard
 aliases:
-- Investiture of Flame
+- "Investiture of Flame"
 ---
 # Investiture of Flame
 *6th-level, Transmutation*  
@@ -33,9 +34,9 @@ aliases:
 Flames race across your body, shedding bright light in a 30-foot radius and dim light for an additional 30 feet for the spell's duration. The flames don't harm you. Until the spell ends, you gain the following benefits:
 
 - You are immune to fire damage and have resistance to cold damage.  
-- Any creature that moves within 5 feet of you for the first time on a turn or ends its turn there takes `d10` fire damage.  
+- Any creature that moves within 5 feet of you for the first time on a turn or ends its turn there takes `1d10` fire damage.  
 - You can use your action to create a line of fire 15 feet long and 5 feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes `4d8` fire damage on a failed save, or half as much damage on a successful one.  
 
-**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Xanathar's Guide to Everything p. 159, Elemental Evil Player's Companion p. 19*

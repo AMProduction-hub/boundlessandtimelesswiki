@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Connected Creatures; Adult Topaz Dragon Connections
+- "Connected Creatures; Adult Topaz Dragon Connections"
 ---
 # Connected Creatures; Adult Topaz Dragon Connections
 *Source: Fizban's Treasury of Dragons p. 149* 
 
 **Adult Topaz Dragon Connections**
-
-`dice: [](connected-creatures-adult-topaz-dragon-connections-ftd.md#^adult-topaz-dragon-connections)`
 
 | dice: d8 | Connected Creatures |
 |----------|---------------------|

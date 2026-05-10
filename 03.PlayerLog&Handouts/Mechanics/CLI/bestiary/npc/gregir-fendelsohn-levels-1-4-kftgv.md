@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gregir Fendelsohn (Levels 1-4)
+- "Gregir Fendelsohn (Levels 1-4)"
 ---
-# [Gregir Fendelsohn (Levels 1-4)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/gregir-fendelsohn-levels-1-4-kftgv.md)
+# [Gregir Fendelsohn (Levels 1-4)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gregir-fendelsohn-levels-1-4-kftgv.md)
 *Source: Keys from the Golden Vault p. 8*  
 
 ```statblock
@@ -33,14 +34,17 @@ aliases:
   - !!int "10"
   - !!int "10"
 "speed": "30 ft."
+"gear":
+  - "[light crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/light-crossbow.md)"
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) slashing damage."
     "name": "Scimitar"
-  - "desc": "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, range 80/320 ft., one target. *Hit:*\
       \ 5 (1d8 + 1) piercing damage."
     "name": "Light Crossbow"
 "source":

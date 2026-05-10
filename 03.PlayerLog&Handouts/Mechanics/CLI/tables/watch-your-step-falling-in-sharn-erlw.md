@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Watch Your Step!; Falling in Sharn
+- "Watch Your Step!; Falling in Sharn"
 ---
 # Watch Your Step!; Falling in Sharn
 *Source: Eberron: Rising from the Last War p. 152* 
 
 **Falling in Sharn**
-
-`dice: [](watch-your-step-falling-in-sharn-erlw.md#^falling-in-sharn)`
 
 | dice: d8 | Result |
 |----------|--------|

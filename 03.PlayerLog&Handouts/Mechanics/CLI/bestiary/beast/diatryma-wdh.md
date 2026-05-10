@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Diatryma
+- "Diatryma"
 ---
-# [Diatryma](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/diatryma-wdh.md)
+# [Diatryma](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/diatryma-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 191*  
 
 ```statblock
@@ -35,7 +36,7 @@ aliases:
 "languages": ""
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) piercing damage."
     "name": "Beak"
 "source":

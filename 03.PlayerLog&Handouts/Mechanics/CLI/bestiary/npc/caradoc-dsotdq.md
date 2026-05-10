@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Caradoc
+- "Caradoc"
 ---
-# [Caradoc](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/caradoc-dsotdq.md)
+# [Caradoc](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/caradoc-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 193*  
 
 Seneschal of Lord Soth and a former Knight of Solamnia, Caradoc burned when Dargaard Keep was consumed in the fires of the Cataclysm. As with many of Soth's retainers, Caradoc was cursed with undeath. Being duplicitous and cowardly at his core, the seneschal didn't return as a skeletal knight but rather as an intangible spirit. Caradoc's Undead form suits him well, allowing him to possess the living and use unwilling tongues to spread his lies. However, Caradoc is tethered to his scorched bones, which collect dust in Dargaard Keep. He can leave the accursed castle while possessing the body of a Humanoid, but he's swiftly pulled back if caught beyond its walls without a host.
@@ -34,8 +35,8 @@ Seneschal of Lord Soth and a former Knight of Solamnia, Caradoc burned when Darg
   - !!int "19"
 "speed": "0 ft., fly 40 ft. (hover)"
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+4"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+7"
@@ -54,7 +55,8 @@ Seneschal of Lord Soth and a former Knight of Solamnia, Caradoc burned when Darg
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Common, Solamnic"
 "cr": "8"
 "traits":
@@ -64,7 +66,7 @@ Seneschal of Lord Soth and a former Knight of Solamnia, Caradoc burned when Darg
       \ in an unoccupied space within the keep."
     "name": "Bound Haunting"
   - "desc": "Caradoc can move through other creatures and objects as if they were\
-      \ difficult terrain. He takes 5 (d10) force damage if he ends his turn inside\
+      \ difficult terrain. He takes 5 (1d10) force damage if he ends his turn inside\
       \ an object."
     "name": "Incorporeal Movement"
   - "desc": "If Caradoc dies, he reforms within Dargaard Keep in 2d6 days."
@@ -74,7 +76,7 @@ Seneschal of Lord Soth and a former Knight of Solamnia, Caradoc burned when Darg
 "actions":
   - "desc": "Caradoc makes two Withering Touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (2d10 + 4) necrotic damage."
     "name": "Withering Touch"
   - "desc": "One Humanoid that Caradoc can see within 5 feet of himself must succeed\

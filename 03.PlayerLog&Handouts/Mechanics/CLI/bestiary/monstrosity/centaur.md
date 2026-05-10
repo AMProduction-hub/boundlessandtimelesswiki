@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Centaur
+- "Centaur"
 ---
-# [Centaur](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/centaur.md)
-*Source: Monster Manual p. 38, Storm King's Thunder, Tales from the Yawning Portal, Ghosts of Saltmarsh, Dragon of Icespire Peak, Mythic Odysseys of Theros. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Centaur](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/centaur.md)
+*Source: Monster Manual p. 38. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Reclusive wanderers and omen-readers of the wild, centaurs avoid conflict but fight fiercely when pressed. They roam the vast wilderness, keeping far from borders, laws, and the company of other creatures.
 
@@ -59,6 +60,9 @@ Despite their reclusive nature, centaurs trade with elves and with the caravans 
     "desc": "+3"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+3"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[pike](03.PlayerLog&Handouts/Mechanics/CLI/items/pike.md)"
 "senses": "passive Perception 13"
 "languages": "Elvish, Sylvan"
 "cr": "2"
@@ -71,22 +75,17 @@ Despite their reclusive nature, centaurs trade with elves and with the caravans 
   - "desc": "The centaur makes two attacks: one with its pike and one with its hooves\
       \ or two with its longbow."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
       \ 9 (1d10 + 4) piercing damage."
     "name": "Pike"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage."
     "name": "Hooves"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:*\
       \ 6 (1d8 + 2) piercing damage."
     "name": "Longbow"
 "source":
   - "MM"
-  - "SKT"
-  - "TftYP"
-  - "GoS"
-  - "DIP"
-  - "MOT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/centaur.webp"
 ```
 ^statblock

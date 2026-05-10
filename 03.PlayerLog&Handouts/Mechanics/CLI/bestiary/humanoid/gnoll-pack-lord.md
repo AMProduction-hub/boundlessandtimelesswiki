@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -13,10 +14,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gnoll Pack Lord
+- "Gnoll Pack Lord"
 ---
-# [Gnoll Pack Lord](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/gnoll-pack-lord.md)
-*Source: Monster Manual p. 163, Princes of the Apocalypse, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus*  
+# [Gnoll Pack Lord](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gnoll-pack-lord.md)
+*Source: Monster Manual p. 163*  
 
 The alpha of a gnoll pack is the pack lord, ruling by might and cunning. A pack lord earns the best of a gnoll pack's spoils, food, valuable trinkets, and magic items. It ornaments its body with brutal piercings and grotesque trophies, dyeing its fur with demonic sigils, hoping Yeenoghu will make it invulnerable.
 
@@ -57,7 +58,11 @@ No goodness or compassion resides in the heart of a gnoll. Like a demon, it lack
   - !!int "11"
   - !!int "9"
 "speed": "30 ft."
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[glaive](03.PlayerLog&Handouts/Mechanics/CLI/items/glaive.md)"
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Gnoll"
 "cr": "2"
 "traits":
@@ -69,13 +74,13 @@ No goodness or compassion resides in the heart of a gnoll. Like a demon, it lack
   - "desc": "The gnoll makes two attacks, either with its glaive or its longbow, and\
       \ uses its Incite Rampage if it can."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 5 (1d4 + 3) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
       \ 8 (1d10 + 3) slashing damage."
     "name": "Glaive"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:*\
       \ 6 (1d8 + 2) piercing damage."
     "name": "Longbow"
   - "desc": "One creature the gnoll can see within 30 feet of it can use its reaction\
@@ -83,9 +88,6 @@ No goodness or compassion resides in the heart of a gnoll. Like a demon, it lack
     "name": "Incite Rampage (Recharge 5-6)"
 "source":
   - "MM"
-  - "PotA"
-  - "GoS"
-  - "BGDIA"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/gnoll-pack-lord.webp"
 ```
 ^statblock

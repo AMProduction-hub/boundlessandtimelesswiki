@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/18
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sibriex
+- "Sibriex"
 ---
-# [Sibriex](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/sibriex-mpmm.md)
+# [Sibriex](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/sibriex-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 217, Mordenkainen's Tome of Foes p. 137*  
 
 Thought to be as old as the Abyss itself, sibriexes haunt remote parts of that plane, where they use their vile abilities to create new horrors and they seek ancient lore. Rivulets of blood and bile cascade from a sibriex's body, polluting the surrounding landscape.
@@ -41,8 +42,8 @@ Sibriexes can channel the power of the Abyss to create new demons from other cre
   - !!int "25"
 "speed": "0 ft., fly 20 ft. (hover)"
 "saves":
-  - "intelligence": "+13"
-  - "charisma": "+13"
+  - "intelligence": !!int "13"
+  - "charisma": !!int "13"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+13"
@@ -54,7 +55,8 @@ Sibriexes can channel the power of the Abyss to create new demons from other cre
   \ nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 23"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 23"
 "languages": "all, telepathy 120 ft."
 "cr": "18"
 "traits":
@@ -73,7 +75,7 @@ Sibriexes can channel the power of the Abyss to create new demons from other cre
 "actions":
   - "desc": "The sibriex makes three Chain attacks, and it uses Squirt Bile."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:*\
       \ 20 (2d12 + 7) force damage."
     "name": "Chain"
   - "desc": "The sibriex targets one creature it can see within 120 feet of it. The\
@@ -98,11 +100,14 @@ Sibriexes can channel the power of the Abyss to create new demons from other cre
     "name": "Warp Creature"
   - "desc": "The sibriex casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 21):\n\
-      \nAt will: [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \n**At will:** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md)\n\
-      \n1/day: [feeblemind](03.PlayerLog&Handouts/Mechanics/CLI/spells/feeblemind.md)"
+      \n**1/day:** [feeblemind](03.PlayerLog&Handouts/Mechanics/CLI/spells/feeblemind.md)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the sibriex can expend a use to take one of the following actions. The sibriex\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The sibriex uses Spellcasting."
     "name": "Cast a Spell"

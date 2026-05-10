@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Volcano Temple Villains
+- "Volcano Temple Villains"
 ---
 # Volcano Temple Villains
 *Source: Mythic Odysseys of Theros p. 170* 
 
 **Volcano Temple Villains**
-
-`dice: [](volcano-temple-villains-mot.md#^volcano-temple-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Headless Iron Golem
+- "Headless Iron Golem"
 ---
-# [Headless Iron Golem](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/headless-iron-golem-idrotf.md)
+# [Headless Iron Golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/headless-iron-golem-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 244*  
 
 The mightiest of the golems, the iron golem is a massive, towering giant wrought of heavy metal. An iron golem's shape can be worked into any form, though most are fashioned to look like giant suits of armor. Its fist can destroy creatures with a single blow, and its clanging steps shake the earth beneath its feet. Iron golems wield enormous blades to extend their reach, and all can belch clouds of deadly poison.
@@ -44,7 +45,8 @@ An iron golem's body is smelted with rare tinctures and admixtures. Though other
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "10"
 "traits":
@@ -66,10 +68,10 @@ An iron golem's body is smelted with rare tinctures and admixtures. Though other
 "actions":
   - "desc": "The golem makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:*\
       \ 20 (3d8 + 7) bludgeoning damage."
     "name": "Slam"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:*\
       \ 23 (3d10 + 7) slashing damage."
     "name": "Sword"
 "source":

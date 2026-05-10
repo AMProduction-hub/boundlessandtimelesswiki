@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 aliases:
-- In the Mists of Manivarsha
+- "In the Mists of Manivarsha"
 ---
 # In the Mists of Manivarsha
 *Source: Journeys through the Radiant Citadel, p. 120* 
@@ -77,7 +78,7 @@ Characters who come to Shankhabhumi learn the following details about an excitin
 
 ## Starting the Adventure
 
-![A devastating wave from th...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/079-09-001-riverine-temple-wave.webp#center "A devastating wave from the Iravati River crashes upon the Riverine Temple in Sagorpur")
+![A devastating wave from the Iravati River crashes upon the Riverine Temple in Sagorpur](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/079-09-001-riverine-temple-wave.webp#center)
 
 The adventure begins as the characters are in the city of Sagorpur for the end of the competition called the Shankha Trials. Use the "Character Hooks" section to determine why the characters find themselves in the city, and the "Shankhabhumi Gazetteer" section at the end of this adventure to further detail the city. Read or paraphrase the following when you're ready to begin:
 
@@ -119,8 +120,6 @@ When the wave crashes on the plaza, each character must make a DC 15 Strength sa
 The wave has caused utter devastation across the plaza, and hundreds of people rush to escape. Roll on the Wave Chaos table one or more times to see what perils confront the characters.
 
 **Wave Chaos**
-
-`dice: [](10-in-the-mists-of-manivarsha.md#^wave-chaos)`
 
 | dice: d6 | Encounter |
 |----------|-----------|
@@ -222,8 +221,6 @@ Dukha pilots his skiff to the mouth of the Tinjhorna River, a journey that takes
 
 **River Journey Encounters**
 
-`dice: [](10-in-the-mists-of-manivarsha.md#^river-journey-encounters)`
-
 | dice: d10 | Encounter |
 |-----------|-----------|
 | 1–2 | It rains heavily. For the next hour, the boat and its surroundings are heavily obscured. Roll again on this table, ignoring another result of 1 or 2. |
@@ -309,13 +306,11 @@ When the characters reach the Forest of Hands, read the following description:
 
 Characters who succeed on a DC 14 Intelligence ([History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History) or [Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature)) check recognize the region's notorious angul trees, plants that stink of rotting flesh and drip crimson sap. The trees are harmless, but many travelers find the long, finger-like leaves gliding over them as they pass beneath more than a little disconcerting.
 
-![The swamp forests of Shank...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/083-09-005-swamp-forests.webp#center "The swamp forests of Shankhabhumi hold equal measure of beauty and danger")
+![The swamp forests of Shankhabhumi hold equal measure of beauty and danger](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/083-09-005-swamp-forests.webp#center)
 
 The journey through the Forest of Hands lasts 3 hours. Roll for or choose an encounter from the Forest of Hands Encounters table after every hour of travel.
 
 **Forest of Hands Encounters**
-
-`dice: [](10-in-the-mists-of-manivarsha.md#^forest-of-hands-encounters)`
 
 | dice: d4 | Encounter |
 |----------|-----------|
@@ -523,8 +518,6 @@ Consider the plots on the Shankhabhumi Adventures table when planning adventures
 
 **Shankhabhumi Adventures**
 
-`dice: [](10-in-the-mists-of-manivarsha.md#^shankhabhumi-adventures)`
-
 | dice: d4 | Adventure |
 |----------|-----------|
 | 1 | A den of [cultists](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cultist.md) high in the Adhameru Mountains worships a [spirit naga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/spirit-naga.md) and seeks to poison the riverine Joltara. |
@@ -559,7 +552,7 @@ A riverine encountered in its lair has a challenge rating of 13 (10,000 XP).
 
 On initiative count 20 (losing initiative ties), the riverine can take one of the following lair actions; the riverine can't take the same lair action two rounds in a row:
 
-- **Phantasmal Mist.** The riverine creates fog around a creature it can see within 120 feet of it. The target must succeed on a DC 17 Wisdom saving throw or take 5 (`d10`) psychic damage and be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) of the riverine until the end of the target's next turn.  
+- **Phantasmal Mist.** The riverine creates fog around a creature it can see within 120 feet of it. The target must succeed on a DC 17 Wisdom saving throw or take 5 (`1d10`) psychic damage and be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) of the riverine until the end of the target's next turn.  
 - **River's Fury.** The riverine conjures swampy ground that briefly covers the ground in a 20-foot square the riverine can see within 120 feet of itself. That area becomes "difficult terrain" until initiative count 20 on the next round. Any creature, other than the riverine, that enters the affected area or starts its turn there takes 7 (`2d6`) cold damage.  
 
 #### Regional Effects
@@ -570,4 +563,4 @@ The region containing a riverine's lair flourishes under the magic of the riveri
 - **River's Bounty.** Freshwater fauna and flora reproduce rapidly and thrive in the waters within 1 mile of the riverine's lair. Foraging in these waters yields twice the usual amount of food.  
 - **Spirit Guidance.** Tracks appear along the banks of the river within 6 miles of the riverine's lair. The tracks lead to potential shelters and safe passages across the river's waters, while also leading away from areas that the riverine prefers to remain undisturbed.  
 
-If the riverine dies, the flora and fauna return to normal levels, and its river dries out over the course of `d10` days. All other effects cease immediately.
+If the riverine dies, the flora and fauna return to normal levels, and its river dries out over the course of `1d10` days. All other effects cease immediately.

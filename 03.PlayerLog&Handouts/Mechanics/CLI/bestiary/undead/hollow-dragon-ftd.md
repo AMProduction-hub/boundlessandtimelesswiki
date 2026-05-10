@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/18
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hollow Dragon
+- "Hollow Dragon"
 ---
-# [Hollow Dragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/hollow-dragon-ftd.md)
+# [Hollow Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/hollow-dragon-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 206*  
 
 Unlike dragons who explore the magic of undeath for power, some metallic dragons see undeath as a means to pursue a noble purpose. For the sake of protecting an artifact or fulfilling an oath, a dragon might transform into a hollow dragon, accepting undeath until that purpose is fulfilled.
@@ -41,10 +42,10 @@ When they fulfill their purpose, most hollow dragons embrace the death they have
   - !!int "21"
 "speed": "40 ft., fly 80 ft."
 "saves":
-  - "constitution": "+11"
-  - "intelligence": "+9"
-  - "wisdom": "+7"
-  - "charisma": "+11"
+  - "constitution": !!int "11"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "11"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+9"
@@ -60,7 +61,9 @@ When they fulfill their purpose, most hollow dragons embrace the death they have
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 23"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 23"
 "languages": "Common, Draconic"
 "cr": "18"
 "traits":
@@ -69,7 +72,7 @@ When they fulfill their purpose, most hollow dragons embrace the death they have
   - "desc": "When the hollow dragon is reduced to 0 hit points, its body breaks into\
       \ nine pieces: two arms, two legs, two wings, a tail, a torso, and a head. Each\
       \ piece is a Large object with AC 19, 27 hit points, and immunity to psychic\
-      \ and poison damage. After d6 days, if all pieces are still within 6 miles\
+      \ and poison damage. After 1d6 days, if all pieces are still within 6 miles\
       \ of each other, they all teleport to the location of the head piece and merge\
       \ with it, whereupon the hollow dragon regains all its hit points and becomes\
       \ active again."
@@ -78,10 +81,10 @@ When they fulfill their purpose, most hollow dragons embrace the death they have
   - "desc": "The hollow dragon makes one Bite attack and two Claw attacks, and it\
       \ can use Sapping Presence."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:*\
       \ 17 (2d10 + 6) piercing damage plus 9 (2d8) radiant damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 13 (2d6 + 6) slashing damage."
     "name": "Claw"
   - "desc": "Each creature of the hollow dragon's choice within 60 feet of it must\
@@ -94,6 +97,9 @@ When they fulfill their purpose, most hollow dragons embrace the death they have
       \ in that area must make a DC 19 Dexterity saving throw, taking 54 (12d8)\
       \ radiant damage on a failed save, or half as much damage on a successful one."
     "name": "Radiant Breath (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the hollow dragon can expend a use to take one of the following actions.\
+  \ The hollow dragon regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The hollow dragon makes one Claw attack."
     "name": "Claw"

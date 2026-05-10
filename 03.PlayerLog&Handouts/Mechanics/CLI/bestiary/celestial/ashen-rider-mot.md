@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/16
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ashen Rider
+- "Ashen Rider"
 ---
-# [Ashen Rider](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/ashen-rider-mot.md)
+# [Ashen Rider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/ashen-rider-mot.md)
 *Source: Mythic Odysseys of Theros p. 213*  
 
 The fall of the ancient archon empires left some archons bitter and resentful. Seeking to avoid the spread of human civilization, these archons made their way to the Underworld. The horrors of the place broke their minds, bodies, and spirits and twisted them into the terrifying archons known as ashen riders. When they ride forth upon the mortal world, terrified mortals make offerings in a desperate attempt to appease them, but the ashen riders aren't merciful, and they delight in reducing the paragons of the mortal world to ash.
@@ -39,10 +40,10 @@ Even though the age of archons is long past, many wonder if the few surviving ar
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "strength": "+10"
-  - "constitution": "+9"
-  - "wisdom": "+10"
-  - "charisma": "+9"
+  - "strength": !!int "10"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "10"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+7"
@@ -54,15 +55,16 @@ Even though the age of archons is long past, many wonder if the few surviving ar
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 120 ft., passive Perception 20"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 20"
 "languages": "all"
 "cr": "16"
 "traits":
   - "desc": "The ashen rider's spellcasting ability is Wisdom (spell save DC 18).\
       \ The rider can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \n**At will:** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [compelled duel](03.PlayerLog&Handouts/Mechanics/CLI/spells/compelled-duel.md)\n\
-      \n1/day each: [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \n**1/day each:** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [blade barrier](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-barrier.md)"
     "name": "Innate Spellcasting"
   - "desc": "When a creature starts its turn within 30 feet of the ashen rider, the\
@@ -85,13 +87,16 @@ Even though the age of archons is long past, many wonder if the few surviving ar
   - "desc": "The ashen rider makes three attacks with its ashen blade or two attacks\
       \ with its bolt of ash."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:*\
       \ 14 (2d8 + 5) slashing damage plus 13 (2d12) radiant damage."
     "name": "Ashen Blade"
-  - "desc": "Ranged Spell Attack: +10 to hit, range 120 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +10 to hit, range 120 ft., one creature. *Hit:*\
       \ 22 (4d10) necrotic damage, and the target can't regain hit points until\
       \ the start of the ashen rider's next turn."
     "name": "Bolt of Ash"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the ashen rider can expend a use to take one of the following actions. The\
+  \ ashen rider regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The ashen rider makes an attack using its ashen blade or bolt of ash."
     "name": "Attack"

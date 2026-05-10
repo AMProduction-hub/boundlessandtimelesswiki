@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Sharn Heights Adventures
+- "Sharn Heights Adventures"
 ---
 # Sharn Heights Adventures
 *Source: Eberron: Rising from the Last War p. 244* 
 
 **Sharn Heights Adventures**
-
-`dice: [](sharn-heights-adventures-erlw.md#^sharn-heights-adventures)`
 
 | dice: d4 | Adventure Goal |
 |----------|----------------|

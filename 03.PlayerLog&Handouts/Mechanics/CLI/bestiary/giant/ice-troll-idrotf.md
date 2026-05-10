@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ice Troll
+- "Ice Troll"
 ---
-# [Ice Troll](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/ice-troll-idrotf.md)
+# [Ice Troll](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ice-troll-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 295*  
 
 Ice trolls have all the meanness and hunger of common trolls. Their hearts radiate extreme cold, to the detriment of other nearby creatures.
@@ -47,7 +48,8 @@ An ice troll's heart remains cold even after the troll's destruction. As long as
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
 "damage_immunities": "cold"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Giant"
 "cr": "8"
 "traits":
@@ -67,10 +69,10 @@ An ice troll's heart remains cold even after the troll's destruction. As long as
 "actions":
   - "desc": "The troll makes three attacks: one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) piercing damage plus 9 (2d8) cold damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage plus 9 (2d8) cold damage. If the target takes\
       \ any of the cold damage, the target must succeed on a DC 15 Constitution saving\
       \ throw or have disadvantage on its attack rolls until the end of its next turn."

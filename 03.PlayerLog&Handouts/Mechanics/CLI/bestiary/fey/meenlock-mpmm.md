@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Meenlock
+- "Meenlock"
 ---
-# [Meenlock](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/meenlock-mpmm.md)
+# [Meenlock](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/meenlock-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 178, Volo's Guide to Monsters p. 170*  
 
 Meenlocks are Fey that invoke terror and seek to destroy all that is good, innocent, and beautiful. These bipeds have the heads and claws of crustaceans, and they primarily live in forests, although they adapt well to urban and subterranean settings.
@@ -53,7 +54,8 @@ Up to four meenlocks can telepathically torment one [incapacitated](03.PlayerLog
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+2"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 14"
 "languages": "telepathy 120 ft."
 "cr": "2"
 "traits":
@@ -66,7 +68,7 @@ Up to four meenlocks can telepathically torment one [incapacitated](03.PlayerLog
       \ checks that rely on sight."
     "name": "Light Sensitivity"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) slashing damage, and the target must succeed on a DC 11 Constitution\
       \ saving throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\

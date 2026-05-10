@@ -1,16 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/way-of-shadow
 aliases:
-- Spells for Way of Shadow
+- "Spells for Way of Shadow"
 ---
 # Spells for Way of Shadow
 
 ## Cantrip
 
-- [Minor Illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md "PHB") at class level 3
+- [Minor Illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md "PHB") as cantrip, at class level 3
 
 ## 2nd Level
 

@@ -1,19 +1,20 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xge
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/8th-level
 - ttrpg-cli/spell/school/illusion
 - ttrpg-cli/spell/subclass/arcana-domain
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Arcana Domain)
 - Wizard
 aliases:
-- Illusory Dragon
+- "Illusory Dragon"
 ---
 # Illusory Dragon
 *8th-level, Illusion*  
@@ -32,6 +33,6 @@ As a bonus action on your turn, you can move the illusion up to 60 feet. At any 
 
 The illusion is tangible because of the shadow stuff used to create it, but attacks miss it automatically, it succeeds on all saving throws, and it is immune to all damage and conditions. A creature that uses an action to examine the dragon can determine that it is an illusion by succeeding on an Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through it and has advantage on saving throws against its breath.
 
-**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Xanathar's Guide to Everything p. 157*

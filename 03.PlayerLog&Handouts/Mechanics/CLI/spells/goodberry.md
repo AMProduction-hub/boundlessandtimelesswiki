@@ -1,23 +1,24 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
-- ttrpg-cli/spell/feat/divinely-favored
-- ttrpg-cli/spell/feat/magic-initiate
-- ttrpg-cli/spell/feat/strixhaven-initiate
+- ttrpg-cli/spell/feat/divinely-favored/neutral
+- ttrpg-cli/spell/feat/magic-initiate/druid-spells
+- ttrpg-cli/spell/feat/strixhaven-initiate/witherbloom-3
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/school/transmutation
 - ttrpg-cli/spell/subrace/halfling-mark-of-hospitality
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Druid
 - Ranger
 aliases:
-- Goodberry
+- "Goodberry"
 ---
 # Goodberry
 *1st-level, Transmutation*  
@@ -32,6 +33,6 @@ Up to ten berries appear in your hand and are infused with magic for the duratio
 
 The berries lose their potency if they have not been consumed within 24 hours of the casting of this spell.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md)
 
 *Source: Player's Handbook p. 246. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

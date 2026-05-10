@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Draconian Foot Soldier
+- "Draconian Foot Soldier"
 ---
-# [Draconian Foot Soldier](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/draconian-foot-soldier-ftd.md)
+# [Draconian Foot Soldier](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/draconian-foot-soldier-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 178*  
 
 The most numerous draconians are the foot soldiers, who are born from brass, white, or crystal dragon eggs. They are the smallest of their kind, and their slight wings are incapable of flight—though they do afford the draconians some control when falling. These wings are small enough to be hidden beneath a cloak or robe, so foot soldiers sometimes disguise themselves to get close to enemies before springing an ambush. When draconian foot soldiers die, they unleash clouds of petrifying gas, turning their corpses—and any creatures within the clouds—to stone.
@@ -42,7 +43,10 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
   - !!int "8"
   - !!int "10"
 "speed": "30 ft."
-"senses": "darkvision 60 ft., passive Perception 9"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "Common, Draconic"
 "cr": "1/2"
 "traits":
@@ -60,7 +64,7 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
 "actions":
   - "desc": "The draconian makes two Shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) piercing damage."
     "name": "Shortsword"
 "source":

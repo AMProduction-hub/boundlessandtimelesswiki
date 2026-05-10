@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/hotdq
 - ttrpg-cli/item/rarity/uncommon
-aliases: 
+aliases:
 - "Insignia of Claws"
 ---
 # Insignia of Claws

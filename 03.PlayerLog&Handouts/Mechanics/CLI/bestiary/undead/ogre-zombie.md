@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ogre Zombie
+- "Ogre Zombie"
 ---
-# [Ogre Zombie](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/ogre-zombie.md)
-*Source: Monster Manual p. 316, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Sleeping Dragon's Wake, Icewind Dale: Rime of the Frostmaiden, Light of Xaryxis. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Ogre Zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ogre-zombie.md)
+*Source: Monster Manual p. 316. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 From somewhere in the darkness, a gurgling moan is heard. A form lurches into view, dragging one foot as it raises bloated arms and broken hands. The zombie advances, driven to kill anyone too slow to escape its grasp.
 
@@ -61,10 +62,13 @@ A zombie doesn't require air, food, drink, or sleep.
   - !!int "5"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+0"
+  - "wisdom": !!int "0"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 8"
+"gear":
+  - "[morningstar](03.PlayerLog&Handouts/Mechanics/CLI/items/morningstar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": "understands Common and Giant but can't speak"
 "cr": "2"
 "traits":
@@ -73,19 +77,11 @@ A zombie doesn't require air, food, drink, or sleep.
       \ or from a critical hit. On a success, the zombie drops to 1 hit point instead."
     "name": "Undead Fortitude"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) bludgeoning damage."
     "name": "Morningstar"
 "source":
   - "MM"
-  - "TftYP"
-  - "ToA"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "SDW"
-  - "IDRotF"
-  - "LoX"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/ogre-zombie.webp"
 ```
 ^statblock

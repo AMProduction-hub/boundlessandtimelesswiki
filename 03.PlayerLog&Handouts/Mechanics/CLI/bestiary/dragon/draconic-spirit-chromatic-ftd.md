@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Draconic Spirit (Chromatic)
+- "Draconic Spirit (Chromatic)"
 ---
-# [Draconic Spirit (Chromatic)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/draconic-spirit-chromatic-ftd.md)
+# [Draconic Spirit (Chromatic)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/draconic-spirit-chromatic-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 21*  
 
 ```statblock
@@ -33,7 +34,9 @@ aliases:
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 12"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Draconic, understands the languages you speak"
 "traits":
   - "desc": "When you summon the dragon, choose one of its damage resistances. You\
@@ -43,8 +46,8 @@ aliases:
   - "desc": "The dragon makes a number of Rend attacks equal to half the spell's level\
       \ (rounded down), and it uses Breath Weapon."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: your spell attack modifier to hit, reach 10 ft.,\
-      \ one target. Hit: 1d6 + 4 + the spell's level piercing damage."
+  - "desc": "*Melee Weapon Attack:* your spell attack modifier to hit, reach 10 ft.,\
+      \ one target. *Hit:* 1d6 + 4 + the spell's level piercing damage."
     "name": "Rend"
   - "desc": "The dragon exhales destructive energy in a 30-foot cone. Each creature\
       \ in that area must make a Dexterity saving throw against your spell save DC.\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Eternal Flame Guardian
+- "Eternal Flame Guardian"
 ---
-# [Eternal Flame Guardian](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/eternal-flame-guardian-pota.md)
+# [Eternal Flame Guardian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/eternal-flame-guardian-pota.md)
 *Source: Princes of the Apocalypse p. 200*  
 
 Eternal Flame guardians are dullards fascinated by the power of fire and eager to show the cult's enemies firsthand what it feels like to burn. They light things aflame to honor elemental fire and just for entertainment, but they don't always think ahead about what else nearby might catch fire.
@@ -43,6 +44,9 @@ Eternal Flame guardians are dullards fascinated by the power of fire and eager t
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
 "damage_resistances": "fire"
+"gear":
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
 "senses": "passive Perception 12"
 "languages": "Common"
 "cr": "2"
@@ -50,15 +54,15 @@ Eternal Flame guardians are dullards fascinated by the power of fire and eager t
   - "desc": "As a bonus action, the guard can wreath one melee weapon it is wielding\
       \ in flame. The guard is unharmed by this fire, which lasts until the end of\
       \ the guard's next turn. While wreathed in flame, the weapon deals an extra\
-      \ 3 (d6) fire damage on a hit."
+      \ 3 (1d6) fire damage on a hit."
     "name": "Flaming Weapon (Recharges after a Short or Long Rest)"
 "actions":
   - "desc": "The guard makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, range 100/400 ft., one target. *Hit:*\
       \ 6 (1d10 + 1) piercing damage."
     "name": "Heavy Crossbow"
 "source":

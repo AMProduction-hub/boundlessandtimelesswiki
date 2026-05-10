@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Carrion Ogre
+- "Carrion Ogre"
 ---
-# [Carrion Ogre](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/carrion-ogre-wdmm.md)
+# [Carrion Ogre](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/carrion-ogre-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 189*  
 
 A creature that has the body of an ogre and the head of a carrion crawler.
@@ -34,26 +35,25 @@ A creature that has the body of an ogre and the head of a carrion crawler.
   - !!int "7"
   - !!int "7"
 "speed": "40 ft."
-"senses": "darkvision 60 ft., passive Perception 8"
+"gear":
+  - "[greatclub](03.PlayerLog&Handouts/Mechanics/CLI/items/greatclub.md)"
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": ""
 "cr": "2"
-"traits":
-  - "desc": "While lashed to the floor, the creature is [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
-      \ and [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
-      \ It also suffers from two levels of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion)."
-    "name": "Tied Down"
 "actions":
   - "desc": "The creature makes two attacks: one with its tentacles and one with its\
       \ bite."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one creature. *Hit:*\
       \ 4 (1d4 + 2) poison damage, and the target must succeed on a DC 13 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. Until this poison ends, the target is [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed).\
       \ The target can repeat the saving throw at the end of each of its turns, ending\
       \ the poison on itself on a success."
     "name": "Tentacles"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) piercing damage."
     "name": "Bite"
 "source":

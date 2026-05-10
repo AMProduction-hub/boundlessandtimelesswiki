@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/24
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Beledros Witherbloom
+- "Beledros Witherbloom"
 ---
-# [Beledros Witherbloom](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/beledros-witherbloom-scc.md)
+# [Beledros Witherbloom](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/beledros-witherbloom-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 186*  
 
 The dragon Beledros masters the intertwined magic of life and death. Her power taps into the life force flowing through living things and the natural world. She manipulates that energy to give healing and life or to bring death and decay. Her mastery of this magic sustains her own life force even without the sustenance of food, drink, or even air.
@@ -38,10 +39,10 @@ She founded Witherbloom College to pass on her understanding of the natural cycl
   - !!int "17"
 "speed": "40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+9"
-  - "constitution": "+15"
-  - "wisdom": "+16"
-  - "charisma": "+10"
+  - "dexterity": !!int "9"
+  - "constitution": !!int "15"
+  - "wisdom": !!int "16"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+18"
@@ -53,7 +54,8 @@ She founded Witherbloom College to pass on her understanding of the natural cycl
     "desc": "+16"
 "damage_immunities": "necrotic, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 120 ft., passive Perception 26"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft., passive Perception 26"
 "languages": "Common, Draconic, Druidic, Sylvan"
 "cr": "24"
 "traits":
@@ -64,10 +66,10 @@ She founded Witherbloom College to pass on her understanding of the natural cycl
 "actions":
   - "desc": "Beledros makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit:\
-      \ 14 (1d10 + 9) piercing damage plus 6 (d12) necrotic damage."
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 15 ft., one target. *Hit:*\
+      \ 14 (1d10 + 9) piercing damage plus 6 (1d12) necrotic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:*\
       \ 12 (1d6 + 9) slashing damage. If the target is a Huge or smaller creature,\
       \ it is knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Claw"
@@ -83,23 +85,26 @@ She founded Witherbloom College to pass on her understanding of the natural cycl
       \ if they were difficult terrain. If she moves through a creature, it must succeed\
       \ on a DC 23 Constitution saving throw or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ until the end of its next turn. If Beledros ends this move inside an object,\
-      \ she takes 5 (d10) force damage and is shunted to the nearest unoccupied\
+      \ she takes 5 (1d10) force damage and is shunted to the nearest unoccupied\
       \ space."
     "name": "Miasmal Flow"
   - "desc": "Beledros casts one of the following spells, requiring no material components\
-      \ and using Wisdom as the spellcasting ability:\n\n1/day each: [greater\
+      \ and using Wisdom as the spellcasting ability:\n\n**1/day each:** [greater\
       \ restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md),\
       \ [mass cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-cure-wounds.md),\
       \ [plant growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/plant-growth.md),\
       \ [revivify](03.PlayerLog&Handouts/Mechanics/CLI/spells/revivify.md), [speak\
       \ with dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Beledros can expend a use to take one of the following actions. Beledros\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Beledros makes one Claw attack."
     "name": "Claw"
   - "desc": "Beledros uses Miasmal Flow."
     "name": "Miasmal Flow (Costs 2 Actions)"
-  - "desc": "Beledros magically summons d4 [pest mascots](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/pest-mascot-scc.md)\
+  - "desc": "Beledros magically summons 1d4 [pest mascots](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/pest-mascot-scc.md)\
       \ in unoccupied spaces she can see within 60 feet of herself. The pests obey\
       \ her commands and take their turns immediately after hers. Any creature, other\
       \ than a pest, takes 9 (2d8) poison damage if it starts its turn within 5\

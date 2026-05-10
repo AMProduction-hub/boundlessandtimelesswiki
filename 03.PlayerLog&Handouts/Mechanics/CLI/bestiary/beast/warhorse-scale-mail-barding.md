@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Warhorse (Scale Mail Barding)
+- "Warhorse (Scale Mail Barding)"
 ---
-# [Warhorse (Scale Mail Barding)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/warhorse-scale-mail-barding.md)
-*Source: Monster Manual p. 340, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Warhorse (Scale Mail Barding)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/warhorse-scale-mail-barding.md)
+*Source: Monster Manual p. 340. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Warhorse (Scale Mail Barding)"
@@ -44,18 +45,11 @@ aliases:
       \ the horse can make another attack with its hooves against it as a bonus action."
     "name": "Trampling Charge"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage."
     "name": "Hooves"
 "source":
   - "MM"
-  - "CoS"
-  - "PotA"
-  - "SKT"
-  - "ToA"
-  - "BGDIA"
-  - "EGW"
-  - "DSotDQ"
 ```
 ^statblock
 

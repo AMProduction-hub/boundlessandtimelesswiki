@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lampad
+- "Lampad"
 ---
-# [Lampad](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/lampad-mot.md)
+# [Lampad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/lampad-mot.md)
 *Source: Mythic Odysseys of Theros p. 235*  
 
 Lampads guard the shadowed paths of the world, depths typically trod by souls destined for the Underworld. These rarely seen nymphs assist Athreos in guiding the dead, moving among the spirits that collect along the Tartyx River and reclaiming wayward souls that try to slip back to the mortal world. This means lampads are most often spotted in graveyards, crumbling crypts, and tunnels that bore deep into the earth, and near portals to the Underworld.
@@ -58,7 +59,7 @@ A nymph doesn't require food, drink, or sleep.
 "traits":
   - "desc": "The lampad's spellcasting ability is Charisma (+6 to hit with spell\
       \ attacks). It can innately cast the following spells, requiring no material\
-      \ components:\n\nAt will: [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md)\
+      \ components:\n\n**At will:** [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md)\
       \ (see \"Actions\" below), [gentle repose](03.PlayerLog&Handouts/Mechanics/CLI/spells/gentle-repose.md)"
     "name": "Innate Spellcasting"
   - "desc": "Once on its turn, the lampad can use 10 feet of its movement to step\
@@ -72,10 +73,10 @@ A nymph doesn't require food, drink, or sleep.
 "actions":
   - "desc": "The lampad attacks twice with its necrotic touch or chill touch."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Spell Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d10 + 4) necrotic damage."
     "name": "Necrotic Touch"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 120 ft., one creature. *Hit:*\
       \ 9 (2d8) necrotic damage, and the target can't regain hit points until the\
       \ start of the lampad's next turn. If the target is undead, it has disadvantage\
       \ on attack rolls against the lampad until the end of the lampad's next turn."

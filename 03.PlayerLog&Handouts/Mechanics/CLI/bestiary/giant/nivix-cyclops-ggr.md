@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nivix Cyclops
+- "Nivix Cyclops"
 ---
-# [Nivix Cyclops](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/nivix-cyclops-ggr.md)
+# [Nivix Cyclops](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/nivix-cyclops-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 216*  
 
 Cyclopes like those described in the Monster Manual are found primarily among the Gruul Clans. They are forces of nature, and even though they have occasionally been recruited into the Boros Legion, they can never truly be tamed.
@@ -37,8 +38,8 @@ Cyclopes serve the Izzet league as workshop guardians, personal protectors, and 
   - !!int "9"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+9"
-  - "wisdom": "+3"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "3"
 "damage_immunities": "poison, psychic"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
@@ -46,7 +47,8 @@ Cyclopes serve the Izzet league as workshop guardians, personal protectors, and 
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Giant"
 "cr": "8"
 "traits":
@@ -56,7 +58,7 @@ Cyclopes serve the Izzet league as workshop guardians, personal protectors, and 
 "actions":
   - "desc": "The cyclops makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:*\
       \ 23 (3d10 + 7) bludgeoning damage."
     "name": "Slam"
 "reactions":

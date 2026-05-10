@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Creating a Gnoll War Band; Demonic Influence
+- "Creating a Gnoll War Band; Demonic Influence"
 ---
 # Creating a Gnoll War Band; Demonic Influence
 *Source: Volo's Guide to Monsters p. 39* 
 
 **Demonic Influence**
-
-`dice: [](creating-a-gnoll-war-band-demonic-influence-vgm.md#^demonic-influence)`
 
 | dice: d12 | Demonic Influence |
 |-----------|-------------------|

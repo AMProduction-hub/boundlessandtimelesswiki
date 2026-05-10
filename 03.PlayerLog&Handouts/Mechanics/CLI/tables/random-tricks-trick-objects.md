@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Random Tricks; Trick Objects
+- "Random Tricks; Trick Objects"
 ---
 # Random Tricks; Trick Objects
 *Source: Dungeon Master's Guide p. 297* 
 
 **Trick Objects**
-
-`dice: [](random-tricks-trick-objects.md#^trick-objects)`
 
 | dice: d20 | Object |
 |-----------|--------|

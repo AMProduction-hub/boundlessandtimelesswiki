@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/11
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Marid (Disguises)
+- "Marid (Disguises)"
 ---
-# [Marid (Disguises)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/marid-disguises.md)
-*Source: Monster Manual p. 146, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Storm Lord's Wrath, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything, Journeys through the Radiant Citadel, Dragonlance: Shadow of the Dragon Queen*  
+# [Marid (Disguises)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/marid-disguises.md)
+*Source: Monster Manual p. 146*  
 
 ```statblock
 "name": "Marid (Disguises)"
@@ -35,28 +36,32 @@ aliases:
   - !!int "18"
 "speed": "30 ft., fly 60 ft., swim 90 ft."
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+7"
-  - "charisma": "+8"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "8"
 "damage_resistances": "acid, cold, lightning"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 13"
+"gear":
+  - "[trident](03.PlayerLog&Handouts/Mechanics/CLI/items/trident.md)"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "Aquan"
 "cr": "11"
 "traits":
   - "desc": "The marid's innate spellcasting ability is Charisma (spell save DC 16,\
       \ +8 to hit with spell attacks). It can innately cast the following spells,\
-      \ requiring no material components:\n\nAt will: [create or destroy water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-or-destroy-water.md),\
+      \ requiring no material components:\n\n**At will:** [create or destroy water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-or-destroy-water.md),\
       \ [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md), [purify\
       \ food and drink](03.PlayerLog&Handouts/Mechanics/CLI/spells/purify-food-and-drink.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md)\
       \ (often with a longer duration than is normal for that spell; see Disguises)\n\
-      \n3/day each: [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md),\
+      \n**3/day each:** [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md),\
       \ [water breathing](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-breathing.md),\
       \ [water walk](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-walk.md), [true\
       \ polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-polymorph.md) (mightier\
-      \ genies only; see Disguises)\n\n1/day each: [conjure elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-elemental.md)\
+      \ genies only; see Disguises)\n\n**1/day each:** [conjure elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-elemental.md)\
       \ ([water elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-elemental.md)\
       \ only), [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md),\
       \ [gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/spells/gaseous-form.md),\
@@ -79,8 +84,8 @@ aliases:
 "actions":
   - "desc": "The marid makes two trident attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +10 to hit, reach 5 ft. or range\
-      \ 20/60 ft., one target. Hit: 13 (2d6 + 6) piercing damage, or 15 (2d8\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +10 to hit, reach 5 ft. or range\
+      \ 20/60 ft., one target. *Hit:* 13 (2d6 + 6) piercing damage, or 15 (2d8\
       \ + 6) piercing damage if used with two hands to make a melee attack."
     "name": "Trident"
   - "desc": "The marid magically shoots water in a 60-foot line that is 5 feet wide.\
@@ -92,14 +97,6 @@ aliases:
     "name": "Water Jet"
 "source":
   - "MM"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "SLW"
-  - "EGW"
-  - "TCE"
-  - "JttRC"
-  - "DSotDQ"
 ```
 ^statblock
 

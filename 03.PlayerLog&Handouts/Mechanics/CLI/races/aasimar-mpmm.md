@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/aasimar
 aliases:
-- Aasimar
+- "Aasimar"
 ---
 # Aasimar
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 7*  
@@ -53,8 +54,6 @@ Whether descended from a celestial being or infused with heavenly power, aasimar
 Aasimar can arise among any population of mortals. They resemble their parents, but they live for up to 160 years and often have features that hint at their celestial heritage. These often begin subtle and become more obvious when the aasimar gains the ability to reveal their full celestial nature. The Aasimar Celestial Features table has examples you can choose or use as inspiration to create your own.
 
 **Aasimar Celestial Features**
-
-`dice: [](aasimar-mpmm.md#^aasimar-celestial-features)`
 
 | dice: d6 | Celestial Feature |
 |----------|-------------------|

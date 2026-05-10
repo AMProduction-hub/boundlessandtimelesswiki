@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Marlos Urnrayle
+- "Marlos Urnrayle"
 ---
-# [Marlos Urnrayle](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/marlos-urnrayle-pota.md)
+# [Marlos Urnrayle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/marlos-urnrayle-pota.md)
 *Source: Princes of the Apocalypse p. 199*  
 
 Marlos Urnrayle is the earth prophet of Elemental Evil and the leader of the Black Earth cult in the Sumber Hills. He is a medusa of unusual power who was once a vain and cruel human nobleman. Marlos delights in petrifying his foes, especially those of great physical beauty, and smashing the remains to rubble.
@@ -48,7 +49,10 @@ When the Temple of Black Earth is threatened, Marlos Urnrayle retreats to the Bl
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
 "damage_resistances": "acid"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 14"
+"gear":
+  - "[ironfang](03.PlayerLog&Handouts/Mechanics/CLI/items/ironfang-pota.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 14"
 "languages": "Common, Terran"
 "cr": "8"
 "traits":
@@ -86,11 +90,11 @@ When the Temple of Black Earth is threatened, Marlos Urnrayle retreats to the Bl
   - "desc": "Marlos makes three melee attacks, one with his snake hair and two with\
       \ [Ironfang](03.PlayerLog&Handouts/Mechanics/CLI/items/ironfang-pota.md)."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage plus 14 (4d6) poison damage."
     "name": "Snake Hair"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d8 + 3) piercing damage plus 4 (d8) thunder damage."
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 7\
+      \ (1d8 + 3) piercing damage plus 4 (1d8) thunder damage."
     "name": "Ironfang"
 "lair_actions":
   - "desc": "If Marlos is in the earth node while [Ogrémoch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ogremoch-pota.md)\
@@ -100,10 +104,9 @@ When the Temple of Black Earth is threatened, Marlos Urnrayle retreats to the Bl
       \ on [earthquake](03.PlayerLog&Handouts/Mechanics/CLI/spells/earthquake.md),\
       \ initiative count 20 is the start of Marlos's turn for the purpose of the spell.\
       \ He can take no other lair actions while [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-      \ on [earthquake](03.PlayerLog&Handouts/Mechanics/CLI/spells/earthquake.md)."
-    "name": ""
-  - "desc": "Marlos's second option for a lair action is to draw power from the earth\
-      \ node to heal. When he does so, he regains 30 (6d8 + 3) hit points."
+      \ on [earthquake](03.PlayerLog&Handouts/Mechanics/CLI/spells/earthquake.md).\n\
+      \nMarlos's second option for a lair action is to draw power from the earth node\
+      \ to heal. When he does so, he regains 30 (6d8 + 3) hit points."
     "name": ""
 "source":
   - "PotA"

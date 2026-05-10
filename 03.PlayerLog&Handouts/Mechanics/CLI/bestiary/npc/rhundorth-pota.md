@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Rhundorth
+- "Rhundorth"
 ---
-# [Rhundorth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/rhundorth-pota.md)
+# [Rhundorth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rhundorth-pota.md)
 *Source: Princes of the Apocalypse p. 140*  
 
 ```statblock
@@ -35,11 +36,13 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
+"gear":
+  - "[warhammer](03.PlayerLog&Handouts/Mechanics/CLI/items/warhammer.md)"
 "senses": "passive Perception 12"
 "languages": "any one language (usually Common)"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d8 + 4) bludgeoning damage, or 10 (1d10 + 4) bludgeoning damage if used\
       \ with two hands."
     "name": "Warhammer"

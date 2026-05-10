@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Connected Creatures; Young Deep Dragon Connections
+- "Connected Creatures; Young Deep Dragon Connections"
 ---
 # Connected Creatures; Young Deep Dragon Connections
 *Source: Fizban's Treasury of Dragons p. 108* 
 
 **Young Deep Dragon Connections**
-
-`dice: [](connected-creatures-young-deep-dragon-connections-ftd.md#^young-deep-dragon-connections)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|

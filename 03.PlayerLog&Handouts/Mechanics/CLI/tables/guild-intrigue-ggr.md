@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Guild Intrigue
+- "Guild Intrigue"
 ---
 # Guild Intrigue
 *Source: Guildmasters' Guide to Ravnica p. 127* 
 
 **Guild Intrigue**
-
-`dice: [](guild-intrigue-ggr.md#^guild-intrigue)`
 
 | dice: d6 | Adventure Goal |
 |----------|----------------|

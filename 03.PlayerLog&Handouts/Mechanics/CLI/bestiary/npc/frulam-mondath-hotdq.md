@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/hotdq
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Frulam Mondath
+- "Frulam Mondath"
 ---
-# [Frulam Mondath](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/frulam-mondath-hotdq.md)
+# [Frulam Mondath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/frulam-mondath-hotdq.md)
 *Source: Hoard of the Dragon Queen p. 90, Tyranny of Dragons p. 184*  
 
 ```statblock
@@ -34,8 +35,8 @@ aliases:
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+6"
-  - "charisma": "+4"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+4"
@@ -43,29 +44,31 @@ aliases:
     "desc": "+2"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+2"
+"gear":
+  - "[halberd](03.PlayerLog&Handouts/Mechanics/CLI/items/halberd.md)"
 "senses": "passive Perception 14"
 "languages": "Common, Draconic, Infernal"
 "cr": "2"
 "traits":
   - "desc": "Frulam is a 5th-level spellcaster that uses Wisdom as her spellcasting\
       \ ability (spell save DC 14, +6 to hit with spell attacks). Frulam has the\
-      \ following spells prepared from the cleric spell list:\n\nCantrips (at will):\
+      \ following spells prepared from the cleric spell list:\n\n**Cantrips (at will):**\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \n**1st level (4 slots):** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/healing-word.md),\
-      \ [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md)\n\n2nd\
-      \ level (3 slots): [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
+      \ [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md)\n\n**2nd\
+      \ level (3 slots):** [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md)\n\
-      \n3rd level (2 slots): [mass healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-healing-word.md),\
+      \n**3rd level (2 slots):** [mass healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-healing-word.md),\
       \ [spirit guardians](03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-guardians.md)"
     "name": "Spellcasting"
 "actions":
   - "desc": "Frulam attacks twice with her halberd."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
       \ 7 (1d10 + 2) slashing damage."
     "name": "Halberd"
 "source":

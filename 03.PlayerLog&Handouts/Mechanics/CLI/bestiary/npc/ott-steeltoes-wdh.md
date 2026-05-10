@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ott Steeltoes
+- "Ott Steeltoes"
 ---
-# [Ott Steeltoes](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/ott-steeltoes-wdh.md)
+# [Ott Steeltoes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ott-steeltoes-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 214*  
 
 The dwarf Ott Steeltoes has the nerve-wracking task of tending to Xanathar's pet fish, Sylgar. In his spare time, he worships Zuggtmoy, the demon queen of fungi, and cultivates mushrooms, spores, and molds. He wears a leather skullcap stitched with fake beholder eyestalks.
@@ -41,7 +42,10 @@ The dwarf Ott Steeltoes has the nerve-wracking task of tending to Xanathar's pet
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+0"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Dwarvish"
 "cr": "1/8"
 "traits":
@@ -52,7 +56,7 @@ The dwarf Ott Steeltoes has the nerve-wracking task of tending to Xanathar's pet
       \ or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)."
     "name": "Dark Devotion"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d6 + 1) slashing damage."
     "name": "Scimitar"
 "source":

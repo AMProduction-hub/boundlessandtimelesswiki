@@ -1,15 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/feat
 aliases:
-- Divinely Favored
+- "Divinely Favored"
 ---
 # Divinely Favored
 *Source: Dragonlance: Shadow of the Dragon Queen p. 32*  
-**Prerequisite**: 4th,  Campaign
+
+**Prerequisite**: 4th, Dragonlance Campaign
+
 A god chose you to carry a spark of their power.
 
 You learn one cantrip of your choice from the cleric spell list and one 1st-level spell based on the alignment of your character, as specified in the Alignment Spells table below. You also learn the [augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md) spell.

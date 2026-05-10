@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/deity/norse
 - ttrpg-cli/domain/light
-aliases: 
-- Odur
+aliases:
+- "Odur"
 ---
 # Odur
 *Source: Player's Handbook p. 299* 

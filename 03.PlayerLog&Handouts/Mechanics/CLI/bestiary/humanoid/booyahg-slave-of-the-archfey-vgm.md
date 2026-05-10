@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Booyahg Slave of the Archfey
+- "Booyahg Slave of the Archfey"
 ---
-# [Booyahg Slave of the Archfey](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/booyahg-slave-of-the-archfey-vgm.md)
+# [Booyahg Slave of the Archfey](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/booyahg-slave-of-the-archfey-vgm.md)
 *Source: Volo's Guide to Monsters p. 42*  
 
 This goblin warlock serves a patron who can extract payment in flesh if the goblin doesn't do as promised. Often this patron is a coven of hags serving as the tribe's boss, a fiend that has made its way into the world, or an undying lord such as a lich or a vampire. (For more information on undying lord patrons, see the "Sword Coast Adventurer's Guide").
@@ -44,8 +45,8 @@ A goblin with access to booyahg becomes a member of the lashers and can often ri
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+3"
-  - "charisma": "+6"
+  - "wisdom": !!int "3"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+2"
@@ -56,20 +57,23 @@ A goblin with access to booyahg becomes a member of the lashers and can often ri
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+6"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "any two languages (usually Sylvan), Goblin"
 "cr": "4"
 "traits":
   - "desc": "The goblin is an 11th-level spellcaster. Its spellcasting ability is\
       \ Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its\
       \ expended spell slots when it finishes a short or long rest. It knows the following\
-      \ warlock spells:\n\nCantrips (at will): [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ warlock spells:\n\n**Cantrips (at will):** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md),\
       \ [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [vicious mockery](03.PlayerLog&Handouts/Mechanics/CLI/spells/vicious-mockery.md)\n\
-      \n1st-5th level (3 slots): [blink](03.PlayerLog&Handouts/Mechanics/CLI/spells/blink.md),\
+      \n**1st-5th level (3 slots):** [blink](03.PlayerLog&Handouts/Mechanics/CLI/spells/blink.md),\
       \ [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [dominate beast](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-beast.md),\
@@ -81,17 +85,17 @@ A goblin with access to booyahg becomes a member of the lashers and can often ri
     "name": "Spellcasting"
   - "desc": "The goblin's innate spellcasting ability is Charisma. It can innately\
       \ cast the following spells (spell save DC 15), requiring no material components:\n\
-      \nAt will: [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
+      \n**At will:** [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md) (self\
       \ only), [silent image](03.PlayerLog&Handouts/Mechanics/CLI/spells/silent-image.md),\
       \ [speak with animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md)\n\
-      \n1/day: [conjure fey](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-fey.md)"
+      \n**1/day:** [conjure fey](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-fey.md)"
     "name": "Innate Spellcasting"
   - "desc": "The goblin"
     "name": "Nimble Escape"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
 "reactions":
   - "desc": "In response to taking damage, the goblin turns [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\

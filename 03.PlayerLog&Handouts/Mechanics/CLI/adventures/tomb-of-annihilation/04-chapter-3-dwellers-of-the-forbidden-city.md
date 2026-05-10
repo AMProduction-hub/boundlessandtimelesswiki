@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 aliases:
-- Chapter 3: Dwellers of the Forbidden City
+- "Chapter 3: Dwellers of the Forbidden City"
 ---
 # Chapter 3: Dwellers of the Forbidden City
 *Source: Tomb of Annihilation, p. 91* 
@@ -182,8 +183,6 @@ Cautious characters can move through the city at a rate of 200 feet every 5 minu
 
 #### Ruin Interior
 
-`dice: [](04-chapter-3-dwellers-of-the-forbidden-city.md#^ruin-contents)`
-
 | dice: d100 | Ruin Contents |
 |------------|---------------|
 | 01–40 | — |
@@ -198,7 +197,7 @@ Cautious characters can move through the city at a rate of 200 feet every 5 minu
 
 #### Assassin Vines
 
-This ruin is choked with vines, lurking among which are `d3` [assassin vines](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/assassin-vine-toa.md) (see appendix D).
+This ruin is choked with vines, lurking among which are `1d3` [assassin vines](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/assassin-vine-toa.md) (see appendix D).
 
 #### Collapsing Floor
 
@@ -214,38 +213,34 @@ Vermin have made a nest in the building. Roll a `d6` and consult the Nest Occupa
 
 #### Nest Occupants
 
-`dice: [](04-chapter-3-dwellers-of-the-forbidden-city.md#^creatures)`
-
 | dice: d6 | Creatures |
 |----------|-----------|
-| 1–2 | `d6` [giant wasps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-wasp.md) |
+| 1–2 | `1d6` [giant wasps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-wasp.md) |
 | 3–4 | `2d6` [stirges](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/stirge.md) |
-| 5–6 | `d3` [swarms of poisonous snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-poisonous-snakes.md) |
+| 5–6 | `1d3` [swarms of poisonous snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-poisonous-snakes.md) |
 ^creatures
 
 #### Plant Discovery
 
 The ruin contains one or more rare plants, determined by rolling a `d6` and consulting the Plant Discovery table. These plants are described in appendix C.
 
-`dice: [](04-chapter-3-dwellers-of-the-forbidden-city.md#^plant)`
-
 | dice: d6 | Plant |
 |----------|-------|
-| 1 | `2d6` dancing monkey fruit hanging from a tree |
-| 2 | Menga bush with `d6` ounces of leaves |
-| 3 | `d6` ryath roots growing in the ground |
-| 4 | `4d6` sinda berries growing on a bush |
-| 5 | `d6` wildroots |
-| 6 | `2d6` zabou growing on the floor |
+| 1 | `2d6` [dancing monkey fruit](03.PlayerLog&Handouts/Mechanics/CLI/items/dancing-monkey-fruit-toa.md) hanging from a tree |
+| 2 | Menga bush with `1d6` [ounces of leaves](03.PlayerLog&Handouts/Mechanics/CLI/items/menga-leaves-1-ounce-toa.md) |
+| 3 | `1d6` [ryath roots](03.PlayerLog&Handouts/Mechanics/CLI/items/ryath-root-toa.md) growing in the ground |
+| 4 | `4d6` [sinda berries](03.PlayerLog&Handouts/Mechanics/CLI/items/sinda-berries-10-toa.md) growing on a bush |
+| 5 | `1d6` [wildroots](03.PlayerLog&Handouts/Mechanics/CLI/items/wildroot-toa.md) |
+| 6 | `2d6` [zabou](03.PlayerLog&Handouts/Mechanics/CLI/items/zabou-toa.md) growing on the floor |
 ^plant
 
 #### Treasure
 
-The ruin contains `d6` Omuan art objects (jade rings, painted pottery, silver-inlaid wooden statuettes of trickster gods, crystal vases, and so forth). Each art object is worth 25 gp.
+The ruin contains `1d6` Omuan art objects (jade rings, painted pottery, silver-inlaid wooden statuettes of trickster gods, crystal vases, and so forth). Each art object is worth 25 gp.
 
 #### Vegepygmies
 
-Hiding in the ruin are `d4` [vegepygmies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/vegepygmy-mpmm.md) (see appendix D). They are not in a fighting mood and cower from interlopers. If attacked, they flee through cracks in the walls and attempt to hide in the surrounding marsh.
+Hiding in the ruin are `1d4` [vegepygmies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/vegepygmy-mpmm.md) (see appendix D). They are not in a fighting mood and cower from interlopers. If attacked, they flee through cracks in the walls and attempt to hide in the surrounding marsh.
 
 ### Random Encounters in Omu
 
@@ -363,7 +358,7 @@ A character who examines the mouth of the frog statue spots a stone key set into
 
 Carved into the lintel above this locked gate is an inscription written in Old Omuan: "Kubazan urges us to tread without fear and to give back as much as we take." A character who heeds the words gains some insight into the trial that awaits in area 3C.
 
-To pick the lock, a character with thieves' tools must succeed on a DC 20 Dexterity check. Whether the check succeeds or fails, a [glyph of warding](03.PlayerLog&Handouts/Mechanics/CLI/spells/glyph-of-warding.md) spell targets the character with a [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md) spell (save DC 15). The glyph doesn't trigger if the door is unlocked using the stone key from the froghemoth pool (area 3A).
+To pick the lock, a character with [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md) must succeed on a DC 20 Dexterity check. Whether the check succeeds or fails, a [glyph of warding](03.PlayerLog&Handouts/Mechanics/CLI/spells/glyph-of-warding.md) spell targets the character with a [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md) spell (save DC 15). The glyph doesn't trigger if the door is unlocked using the stone key from the froghemoth pool (area 3A).
 
 #### 3C. Chamber of Bravery
 
@@ -376,7 +371,7 @@ The wall relief shows Kubazan (a [froghemoth](03.PlayerLog&Handouts/Mechanics/CL
 
 ##### Spiked Pit
 
-The pit is 30 feet deep. A creature that falls into the pit takes 10 (`3d6`) bludgeoning damage from the fall and must make a DC 12 Dexterity saving throw. On a failed save, `d4` stakes impale the creature for an additional `d6` piercing damage per stake.
+The pit is 30 feet deep. A creature that falls into the pit takes 10 (`3d6`) bludgeoning damage from the fall and must make a DC 12 Dexterity saving throw. On a failed save, `1d4` stakes impale the creature for an additional `1d6` piercing damage per stake.
 
 ##### Wooden Beams
 
@@ -507,7 +502,7 @@ The arrow slits are 6 inches wide, 2 feet tall, and 1 foot deep. A character who
 
 ##### Pits
 
-Three covered pits are spaced along the corridor in the positions marked X on the shrine map. Their covers remain locked until the puzzle cube is moved from the pedestal in area 6C. Thereafter, a creature stepping on a pit cover causes it to swing open and falls in unless it succeeds on a DC 15 Dexterity saving throw. Each pit is 10 feet deep and has a patch of green slime (see [chapter 5](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/green-slime.md) of the *Dungeon Master's Guide*) at the bottom of it.
+Three covered pits are spaced along the corridor in the positions marked X on the shrine map. Their covers remain locked until the puzzle cube is moved from the pedestal in area 6C. Thereafter, a creature stepping on a pit cover causes it to swing open and falls in unless it succeeds on a DC 15 Dexterity saving throw. Each pit is 10 feet deep and has a patch of [green slime](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/green-slime.md) (see [chapter 5](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/green-slime.md) of the *Dungeon Master's Guide*) at the bottom of it.
 
 A character who searches the hallway floor for traps finds a pit trap with a successful DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check. The lids are cleverly constructed and can be jammed shut only by using magic such as an [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md) spell.
 
@@ -522,7 +517,7 @@ The mosaic shows Moa (a [jaculi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/be
 
 The puzzle cube on the pedestal is illusory, though it feels real to the touch. A [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell or similar effect reveals an aura of illusion magic around the cube. When taken from the shrine, it vanishes in a puff of green smoke. If a creature removes the puzzle cube from the pedestal or tries to damage one of the statues, the archers animate and open fire on all creatures in the room. The archers can detect the presence of creatures even if they are [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible). Before they open fire, arrows magically appear in their bows. The archers remain animated for 1 hour, after which they revert to their inanimate state.
 
-The twelve archers act on initiative count 20. On its turn, a statue shoots one arrow (+6 to hit). A creature hit by an arrow takes 5 (`1d8 + 1`) piercing damage. Each statue is a Medium object with AC 17; 30 hit points; immunity to bludgeoning, piercing, and slashing damage from nonmagical attacks; and immunity to poison and psychic damage.
+The twelve archers act on initiative count 20. On its turn, a statue shoots one arrow (`+6` to hit). A creature hit by an arrow takes 5 (`1d8 + 1`) piercing damage. Each statue is a Medium object with AC 17; 30 hit points; immunity to bludgeoning, piercing, and slashing damage from nonmagical attacks; and immunity to poison and psychic damage.
 
 ##### Secret Doors
 
@@ -575,7 +570,7 @@ When the characters arrive, [Bag of Nails](03.PlayerLog&Handouts/Mechanics/CLI/b
 - He has a climbing speed of 20 feet and the Feline Agility trait (see below).  
 - He has [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) out to a range of 60 feet.  
 - He knows Common, Dwarvish, and thieves' cant.  
-- As an action, he can make a melee weapon attack with his claws (+3 to hit), dealing `d4` slashing damage on a hit.  
+- As an action, he can make a melee weapon attack with his claws (`+3` to hit), dealing `1d4` slashing damage on a hit.  
 - He carries a longbow instead of a crossbow (range 150/600 ft.).  
 
 > [!note] 
@@ -633,7 +628,7 @@ Unkh's puzzle cube is hidden inside the pedestal. If a character inserts the cor
 
 The puzzle cube can now be safely removed from its pedestal.
 
-Using thieves' tools, a character can pick the lock on the pedestal with a successful DC 25 Dexterity check. A character who fails the check by 5 or more accidentally triggers the trap.
+Using [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md), a character can pick the lock on the pedestal with a successful DC 25 Dexterity check. A character who fails the check by 5 or more accidentally triggers the trap.
 
 ##### Trap
 
@@ -689,7 +684,7 @@ Thirty-two tiles cover a 20-foot-long, 10-foot-wide stretch of the hallway. Each
 
 ##### Poison Darts
 
-To cross the hallway safely, a character must avoid stepping on the same animal more than once. If more than 20 pounds of pressure is exerted on the wrong picture tile, four poison darts shoot from holes in the walls. Each dart makes a ranged weapon attack (+5 to hit) against a random target within 10 feet of the triggering tile. A single creature can be attacked by multiple darts. A creature hit by a dart takes 2 (`d4`) piercing damage and must succeed on a DC 15 Constitution saving throw, taking 7 (`2d6`) poison damage on a failed save, or half as much damage on a successful one. A character can spot the holes with a successful DC 13 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check. Stuffing the holes with cloth or wax prevents the darts from launching.
+To cross the hallway safely, a character must avoid stepping on the same animal more than once. If more than 20 pounds of pressure is exerted on the wrong picture tile, four poison darts shoot from holes in the walls. Each dart makes a ranged weapon attack (`+5` to hit) against a random target within 10 feet of the triggering tile. A single creature can be attacked by multiple darts. A creature hit by a dart takes 2 (`1d4`) piercing damage and must succeed on a DC 15 Constitution saving throw, taking 7 (`2d6`) poison damage on a failed save, or half as much damage on a successful one. A character can spot the holes with a successful DC 13 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check. Stuffing the holes with cloth or wax prevents the darts from launching.
 
 Characters can avoid the trap by flying or teleporting across the hallway, or by using [spider climb](03.PlayerLog&Handouts/Mechanics/CLI/spells/spider-climb.md) spells to crawl along the walls or ceiling. The walls are too smooth to climb otherwise.
 
@@ -699,7 +694,7 @@ A [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spe
 
 #### 10C. Labyrinth
 
-Traps are riddled throughout this dusty maze. Hidden pressure plates in the floor are located in the positions marked X on the shrine map. If more than 20 pounds of pressure is exerted on a pressure plate, a sharpened axe blade swings from a hidden compartment in the ceiling. The blade makes a melee attack (+6 to hit) against any creature standing on the pressure plate. On a hit, the target takes 8 (`1d8 + 4`) slashing damage. A character searching for traps spots a pressure plate and ceiling compartment with a successful DC 16 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check. Wedging an iron spike or other object under a plate prevents the trap from triggering. Using thieves' tools, a character can dismantle an axe blade with a successful DC 15 Dexterity check. If the check fails by 5 or more, the trap triggers and makes an attack against the character with disadvantage.
+Traps are riddled throughout this dusty maze. Hidden pressure plates in the floor are located in the positions marked X on the shrine map. If more than 20 pounds of pressure is exerted on a pressure plate, a sharpened axe blade swings from a hidden compartment in the ceiling. The blade makes a melee attack (`+6` to hit) against any creature standing on the pressure plate. On a hit, the target takes 8 (`1d8 + 4`) slashing damage. A character searching for traps spots a pressure plate and ceiling compartment with a successful DC 16 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check. Wedging an iron spike or other object under a plate prevents the trap from triggering. Using [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md), a character can dismantle an axe blade with a successful DC 15 Dexterity check. If the check fails by 5 or more, the trap triggers and makes an attack against the character with disadvantage.
 
 #### 10D. Puzzle Cube
 
@@ -719,7 +714,7 @@ The cube is I'jin's puzzle cube. It is not trapped and can be safely removed fro
 > An overturned wagon lies on the street ahead. Rotting flower petals litter the ground around it, and bees nest in its broken wheels. A freshly cut garland of jungle flowers hangs from the wagon's tongue.
 ^24b
 
-The wagon is home to a [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-cm.md) (see appendix D). The vegepygmies in the area are afraid of the chwinga and bring it gifts of flowers to appease its wrath. In truth, the chwinga is harmless.
+The wagon is home to a [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-toa.md) (see appendix D). The vegepygmies in the area are afraid of the chwinga and bring it gifts of flowers to appease its wrath. In truth, the chwinga is harmless.
 
 The chwinga uses its magic to hide in a mossy stone disk underneath the cart (see "Queen's Decree" below). Characters who approach the cart notice that the area is unusually lush and full of life. If they leave an offering, the chwinga timidly presents itself to them. If not, the chwinga's natural curiosity forces it to shadow the characters and spy on them.
 
@@ -768,7 +763,7 @@ The wall relief shows the trickster god Wongo (a su-monster) fighting his hated 
 
 A [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell or similar effect reveals an aura of conjuration magic around the statue, which is easy to climb. A character who searches the statue's base uncovers the following inscription written in Old Omuan: "Wongo's friend knows where to pour the water." Wongo's "friend" (the vulture) can be identified by figuring out the logic puzzle written above the masks in the viewing corridors (area 12C).
 
-When a character pours a pint or more of water into the statue's right hand or one of its cupped feet, the liquid sizzles and transforms into `d3` [steam mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/steam-mephit.md) that fight until destroyed. The statue can create up to six steam mephits in this fashion, after which no more mephits can be created until the next dawn. A steam mephit reduced to 0 hit points loses its form and disappears.
+When a character pours a pint or more of water into the statue's right hand or one of its cupped feet, the liquid sizzles and transforms into `1d3` [steam mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/steam-mephit.md) that fight until destroyed. The statue can create up to six steam mephits in this fashion, after which no more mephits can be created until the next dawn. A steam mephit reduced to 0 hit points loses its form and disappears.
 
 When a pint or more of water is poured into the statue's cupped left hand, Wongo's puzzle cube appears by magic on the statue's head. When the puzzle cube appears, the character who poured the water hears a snarling, disembodied voice say, "Take the prize and curse your friends, or fight my children to claim it. What is your choice?" If a character takes the puzzle cube, the masks on the walls deliver their curses (see area 12C). If no character takes the cube immediately, the portcullises slam shut over the entrance corridors in area 12A as four [su-monsters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/su-monster-toa.md) (see appendix D) are teleported into the room, clinging to the statue like startled children to a protective parent. The su-monsters leap down and attack. Once the su-monsters appear, taking the puzzle cube doesn't trigger the masks' curses. The summoned su-monsters are real, and their bodies don't disappear when they die.
 
@@ -971,7 +966,7 @@ The shrine to the trickster god Nangnang (represented by a grung) contains one o
 
 The shrine is home to a gold-skinned [grung elite warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/grung-elite-warrior-mpmm.md) named Chief [Yorb](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yorb-toa.md). Four orange-skinned [grung elite warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/grung-elite-warrior-mpmm.md) wallow in the flooded courtyard with [Yorb](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yorb-toa.md) and his trained [hadrosaurus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/hadrosaurus-mpmm.md) mount. One red-skinned [grung wildling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/grung-wildling-mpmm.md) and seven green-skinned [grungs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/grung-mpmm.md) lurk on the shrine's 20-foot-high rooftop. See appendix D for these creatures' statistics.
 
-The grungs on the roof unleash arrows to ward off intruders. If the intruders fight back, more green-skinned [grungs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/grung-mpmm.md) close in from nearby buildings, with `d4` appearing at the end of each round until twenty have arrived.
+The grungs on the roof unleash arrows to ward off intruders. If the intruders fight back, more green-skinned [grungs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/grung-mpmm.md) close in from nearby buildings, with `1d4` appearing at the end of each round until twenty have arrived.
 
 The grungs are jumpy and distrustful of strangers. At first, [Yorb](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yorb-toa.md) is more interested in scaring away intruders than he is talking with them. If the characters rescue his favored son in area 5 and have the means to communicate with the chief, [Yorb](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yorb-toa.md) opens up to them. He currently has no idea his son is missing.
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Wasteland Dragonnel
+- "Wasteland Dragonnel"
 ---
-# [Wasteland Dragonnel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/wasteland-dragonnel-dsotdq.md)
+# [Wasteland Dragonnel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/wasteland-dragonnel-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 201*  
 
 The Northern Wastes of Ansalon are home to wasteland dragonnels, draconic creatures closely related to copper dragons. Wasteland dragonnels are lithe and quick, with scales the color of dull copper. These playful creatures defend their territory by flying out of a foe's reach and spitting potent acid, in an approximation of their copper dragon relatives.
@@ -41,7 +42,9 @@ Dragonnels are distantly related to chromatic and metallic dragons and resemble 
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
 "damage_resistances": "acid"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 13"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "understands Common and Draconic but can't speak"
 "cr": "3"
 "traits":
@@ -51,10 +54,10 @@ Dragonnels are distantly related to chromatic and metallic dragons and resemble 
 "actions":
   - "desc": "The dragonnel makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage."
     "name": "Rend"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 60 ft., one target. *Hit:*\
       \ 20 (5d6 + 3) acid damage."
     "name": "Acid Spit"
 "source":

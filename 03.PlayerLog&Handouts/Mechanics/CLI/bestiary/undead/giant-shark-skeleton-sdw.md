@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/sdw
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Shark Skeleton
+- "Giant Shark Skeleton"
 ---
-# [Giant Shark Skeleton](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/giant-shark-skeleton-sdw.md)
+# [Giant Shark Skeleton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/giant-shark-skeleton-sdw.md)
 *Source: Sleeping Dragon's Wake*  
 
 A giant shark is 30 feet long and normally found in deep oceans. Utterly fearless, it preys on anything that crosses its path, including whales and ships.
@@ -43,7 +44,8 @@ The giant shark skeleton doesn't require air, food, drink, or sleep. The shark h
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., passive Perception 13"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., passive Perception 13"
 "languages": ""
 "cr": "5"
 "traits":
@@ -51,7 +53,7 @@ The giant shark skeleton doesn't require air, food, drink, or sleep. The shark h
       \ any creature that doesn't have all its hit points."
     "name": "Blood Frenzy"
 "actions":
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 22\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 22\
       \ (3d10 + 6) piercing damage."
     "name": "Bite"
 "source":

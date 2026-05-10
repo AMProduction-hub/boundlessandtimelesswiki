@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- King Snurre
+- "King Snurre"
 ---
-# [King Snurre](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/king-snurre-tftyp.md)
+# [King Snurre](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/king-snurre-tftyp.md)
 *Source: Tales from the Yawning Portal p. 193*  
 
 ```statblock
@@ -33,9 +34,9 @@ aliases:
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+3"
-  - "constitution": "+10"
-  - "charisma": "+5"
+  - "dexterity": !!int "3"
+  - "constitution": !!int "10"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+11"
@@ -43,16 +44,18 @@ aliases:
     "desc": "+6"
 "damage_resistances": "cold"
 "damage_immunities": "fire"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
 "senses": "passive Perception 16"
 "languages": "Common, Giant"
 "cr": "11"
 "actions":
   - "desc": "Snurre makes two greatsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 28 (6d6 + 7) slashing damage plus 7 (2d6) fire damage."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +11 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +11 to hit, range 60/240 ft., one target. *Hit:*\
       \ 29 (4d10 + 7) bludgeoning damage."
     "name": "Rock"
 "source":

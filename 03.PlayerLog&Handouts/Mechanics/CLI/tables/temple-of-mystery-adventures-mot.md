@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Temple of Mystery Adventures
+- "Temple of Mystery Adventures"
 ---
 # Temple of Mystery Adventures
 *Source: Mythic Odysseys of Theros p. 150* 
 
 **Temple of Mystery Adventures**
-
-`dice: [](temple-of-mystery-adventures-mot.md#^temple-of-mystery-adventures)`
 
 | dice: d12 | Adventure Goal |
 |-----------|----------------|

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Mordent Adventures
+- "Mordent Adventures"
 ---
 # Mordent Adventures
 *Source: Van Richten's Guide to Ravenloft p. 147* 
 
 **Mordent Adventures**
-
-`dice: [](mordent-adventures-vrgr.md#^mordent-adventures)`
 
 | dice: d8 | Adventure |
 |----------|-----------|

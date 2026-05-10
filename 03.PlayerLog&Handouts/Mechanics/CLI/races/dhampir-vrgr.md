@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/race/dhampir
 aliases:
-- Dhampir
+- "Dhampir"
 ---
 # Dhampir
 *Source: Van Richten's Guide to Ravenloft p. 16*  
@@ -41,7 +42,7 @@ You have a climbing speed equal to your walking speed. In addition, at 3rd level
 
 ### Vampiric Bite
 
-Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals `d4` piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.
+Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals `1d4` piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.
 
 When you attack with this bite and hit a creature that isn't a Construct or an Undead, you can empower yourself in one of the following ways of your choice:
 
@@ -64,8 +65,6 @@ While many dhampirs thirst for blood, your character might otherwise gain susten
 
 **Dhampir Hungers**
 
-`dice: [](dhampir-vrgr.md#^dhampir-hungers)`
-
 | dice: d6 | Hunger |
 |----------|--------|
 | 1 | Blood |
@@ -81,8 +80,6 @@ While many dhampirs thirst for blood, your character might otherwise gain susten
 Dhampirs often arise from encounters with vampires, but all manner of macabre bargains, necromantic influences, and encounters with mysterious immortals might have transformed your character. The Dhampir Origins table provides suggestions for how your character gained their lineage.
 
 **Dhampir Origins**
-
-`dice: [](dhampir-vrgr.md#^dhampir-origins)`
 
 | dice: d8 | Origin |
 |----------|--------|

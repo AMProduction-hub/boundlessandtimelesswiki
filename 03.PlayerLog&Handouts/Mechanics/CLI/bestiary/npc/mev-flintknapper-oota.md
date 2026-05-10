@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mev Flintknapper
+- "Mev Flintknapper"
 ---
-# [Mev Flintknapper](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/mev-flintknapper-oota.md)
+# [Mev Flintknapper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/mev-flintknapper-oota.md)
 *Source: Out of the Abyss p. 103*  
 
 ```statblock
@@ -38,12 +39,17 @@ aliases:
     "desc": "+5"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "darkvision 120 ft., passive Perception 12"
+"gear":
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 12"
 "languages": "any one language (usually Common), Gnomish, Terran, Undercommon"
 "cr": "3"
 "traits":
-  - "desc": "Mev\n\nAt will: [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md)\
-      \ (self only)\n\n1/day each: [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
+  - "desc": "Mev\n\n**At will:** [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md)\
+      \ (self only)\n\n**1/day each:** [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
       \ [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md), [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md)"
     "name": "Innate Spellcasting"
   - "desc": "Mev"
@@ -54,14 +60,14 @@ aliases:
   - "desc": "Mev makes two longsword attacks. If it has a shortsword drawn, it can\
       \ also make a shortsword attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with\
       \ two hands."
     "name": "Longsword"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, range 100/400 ft., one target. *Hit:*\
       \ 6 (1d10 + 1) piercing damage."
     "name": "Heavy Crossbow"
 "source":

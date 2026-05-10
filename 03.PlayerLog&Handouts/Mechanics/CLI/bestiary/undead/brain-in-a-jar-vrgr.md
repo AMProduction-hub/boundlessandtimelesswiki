@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/3
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Brain in a Jar
+- "Brain in a Jar"
 ---
-# [Brain in a Jar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/brain-in-a-jar-vrgr.md)
-*Source: Van Richten's Guide to Ravenloft p. 278, Icewind Dale: Rime of the Frostmaiden p. 278*  
+# [Brain in a Jar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/brain-in-a-jar-vrgr.md)
+*Source: Van Richten's Guide to Ravenloft p. 278, Icewind Dale: Rime of the Frostmaiden p. 279*  
 
 Through an eldritch ritual combining alchemy, necromancy, and grim surgical precision, the brain of a mortal being (willing or unwilling) is encased in a glass jar filled with preserving fluids and the liquefied goop of their body's flesh. The transformation renders the brain immortal and imbues it with psionic power, so that it can spend eternity plotting and executing its desires.
 
@@ -43,27 +44,28 @@ The brain floats in a jar of solution, pulsating as it reacts to its surrounding
   - !!int "15"
 "speed": "0 ft., fly 10 ft. (hover)"
 "saves":
-  - "intelligence": "+6"
-  - "charisma": "+4"
+  - "intelligence": !!int "6"
+  - "charisma": !!int "4"
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 120 ft. (blind beyond this radius); see also \"detect sentience\"\
-  \ below, passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft. (blind beyond this radius); see also \"detect sentience\" below, passive\
+  \ Perception 10"
 "languages": "the languages it knew in life"
 "cr": "3"
 "traits":
   - "desc": "The brain's innate spellcasting ability is Intelligence (spell save DC\
       \ 14, +6 to hit with spell attacks). It can innately cast the following spells,\
-      \ requiring no components:\n\nAt will: [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md)\
+      \ requiring no components:\n\n**At will:** [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md)\
       \ (see \"Actions\" below), [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [zone\
       \ of truth](03.PlayerLog&Handouts/Mechanics/CLI/spells/zone-of-truth.md)\n\n\
-      3/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      **3/day each:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md)\n\
-      \n1/day each: [compulsion](03.PlayerLog&Handouts/Mechanics/CLI/spells/compulsion.md),\
+      \n**1/day each:** [compulsion](03.PlayerLog&Handouts/Mechanics/CLI/spells/compulsion.md),\
       \ [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md),\
       \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md) (3rd-level version),\
       \ [Tasha's hideous laughter](03.PlayerLog&Handouts/Mechanics/CLI/spells/tashas-hideous-laughter.md)"
@@ -79,7 +81,7 @@ The brain floats in a jar of solution, pulsating as it reacts to its surrounding
   - "desc": "The brain doesn't require air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 120 ft., one creature. *Hit:*\
       \ 13 (3d8) necrotic damage, and the target can't regain hit points until the\
       \ start of the brain's next turn. If the target is undead, it also has disadvantage\
       \ on attack rolls against the brain until the end of the brain's next turn."

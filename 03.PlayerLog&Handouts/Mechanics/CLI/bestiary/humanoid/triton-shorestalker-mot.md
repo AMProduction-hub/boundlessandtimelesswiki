@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Triton Shorestalker
+- "Triton Shorestalker"
 ---
-# [Triton Shorestalker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/triton-shorestalker-mot.md)
+# [Triton Shorestalker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/triton-shorestalker-mot.md)
 *Source: Mythic Odysseys of Theros p. 244*  
 
 Some insults don't wash away with the tides. When surface dwellers threaten the safety of triton communities, impede upon Thassa's holiest depths, or steal the treasures of the deep, triton shorestalkers seek vengeance. Using speed and poison harvested from deadly sea beasts, these triton assassins slip into shallow waters and strike when least expected. Often, surface dwellers don't even realize they've been attacked by shorestalkers, chalking disappearances and deaths up to the innumerable dangers of the sea.
@@ -44,31 +45,33 @@ Clever, far-ranging people of the sea, tritons live rich lives unknown to most l
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_resistances": "cold"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Common, Primordial"
 "cr": "2"
 "traits":
   - "desc": "The triton's spellcasting ability is Wisdom (spell save DC 12). It can\
       \ innately cast the following spells, requiring no material components:\n\n\
-      1/day each: [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md),\
+      **1/day each:** [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md),\
       \ [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md)"
     "name": "Innate Spellcasting"
   - "desc": "The triton can breathe air and water."
     "name": "Amphibious"
-  - "desc": "The triton can take the Disengage or Hide actions as a bonus action on\
-      \ each of its turns."
+  - "desc": "The triton can take the [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) actions\
+      \ as a bonus action on each of its turns."
     "name": "Nimble Escape"
 "actions":
   - "desc": "The triton makes two urchin-spine shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage plus 10 (3d6) poison damage. If the damage reduces\
       \ a creature to 0 hit points, that creature is stable but [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 hour, even after regaining hit points, and is [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ while [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ in this way."
     "name": "Urchin-Spine Shortsword"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 30/60 ft., one target. *Hit:*\
       \ 5 (1d4 + 3) piercing damage plus 10 (3d6) poison damage."
     "name": "Poisoned Spine"
 "source":

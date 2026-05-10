@@ -1,19 +1,20 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/level/6th-level
 - ttrpg-cli/spell/school/conjuration
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Druid
 - Warlock
 aliases:
-- Conjure Fey
+- "Conjure Fey"
 ---
 # Conjure Fey
 *6th-level, Conjuration*  
@@ -34,6 +35,6 @@ The DM has the fey creature's statistics.
 
 **At Higher Levels.** When you cast this spell using a spell slot of 7th level or higher, the challenge rating increases by 1 for each slot level above 6th.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md)
 
 *Source: Player's Handbook p. 226. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

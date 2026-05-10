@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Daask Assignments
+- "Daask Assignments"
 ---
 # Daask Assignments
 *Source: Eberron: Rising from the Last War p. 252* 
 
 **Daask Assignments**
-
-`dice: [](daask-assignments-erlw.md#^daask-assignments)`
 
 | dice: d6 | Assignment |
 |----------|------------|

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Massive Damage; System Shock
+- "Massive Damage; System Shock"
 ---
 # Massive Damage; System Shock
 *Source: Dungeon Master's Guide p. 273* 
 
 **System Shock**
-
-`dice: [](massive-damage-system-shock.md#^system-shock)`
 
 | dice: d10 | Effect |
 |-----------|--------|

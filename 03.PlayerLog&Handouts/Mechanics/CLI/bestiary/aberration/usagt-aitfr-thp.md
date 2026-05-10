@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/aitfr-thp
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Usagt
+- "Usagt"
 ---
-# [Usagt](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/usagt-aitfr-thp.md)
+# [Usagt](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/usagt-aitfr-thp.md)
 *Source: Adventures in the Forgotten Realms: The Hidden Page p. 14*  
 
 These peculiar creatures originate on a tranquil, lawful plane where they lead gentle, languid existences. They enjoy the experiences of life—in memory and in practice—but have curiously few ambitions. Their natural lifespan is centuries long, and they give little thought to the passage of time.
@@ -49,9 +50,9 @@ Usagt do not reproduce. An usagt requires no food, drink, or sleep, but enjoys t
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+8"
-  - "charisma": "+4"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "8"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+5"
@@ -64,12 +65,13 @@ Usagt do not reproduce. An usagt requires no food, drink, or sleep, but enjoys t
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
-"senses": "darkvision 100 ft., passive Perception 18"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 100 ft., passive Perception 18"
 "languages": "all, telepathy 30 ft."
 "cr": "5"
 "traits":
   - "desc": "The usagt's innate spellcasting ability is Charisma (spell save DC 15).\
-      \ It can cast the following spells, requiring no spell components:\n\nAt will:\
+      \ It can cast the following spells, requiring no spell components:\n\n**At will:**\
       \ [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md), [detect\
       \ thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md)"
@@ -88,7 +90,7 @@ Usagt do not reproduce. An usagt requires no food, drink, or sleep, but enjoys t
 "actions":
   - "desc": "The usagt makes two attacks with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) slashing damage plus 11 (2d6 + 4) psychic damage."
     "name": "Claws"
   - "desc": "The usagt targets one creature it can see within 30 feet of it. The target\

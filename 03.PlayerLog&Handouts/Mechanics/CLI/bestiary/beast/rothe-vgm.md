@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 - ttrpg-cli/monster/cr/1-4
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Rothé
+- "Rothé"
 ---
-# [Rothé](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/rothe-vgm.md)
+# [Rothé](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/rothe-vgm.md)
 *Source: Volo's Guide to Monsters p. 208*  
 
 Ordinary rothé resemble musk oxen and have [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) out to a range of 30 feet.
@@ -34,7 +35,8 @@ Ordinary rothé resemble musk oxen and have [darkvision](03.PlayerLog&Handouts/M
   - !!int "10"
   - !!int "4"
 "speed": "30 ft."
-"senses": "darkvision 30 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 30 ft., passive Perception 10"
 "languages": ""
 "cr": "1/4"
 "traits":
@@ -43,7 +45,7 @@ Ordinary rothé resemble musk oxen and have [darkvision](03.PlayerLog&Handouts/M
       \ piercing damage."
     "name": "Charge"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) piercing damage."
     "name": "Gore"
 "source":

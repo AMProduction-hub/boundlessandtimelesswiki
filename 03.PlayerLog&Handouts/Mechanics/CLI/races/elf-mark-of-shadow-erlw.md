@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/race/elf/mark-of-shadow
 aliases:
-- Elf (Mark of Shadow)
+- "Elf (Mark of Shadow)"
 ---
 # Elf (Mark of Shadow)
 *Source: Eberron: Rising from the Last War p. 49*  
 
 
-- **Ability Scores**: Charisma +1
+- **Ability Scores**: cha +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Charisma

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Earth Elemental
+- "Earth Elemental"
 ---
-# [Earth Elemental](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/earth-elemental.md)
-*Source: Monster Manual p. 124, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Mythic Odysseys of Theros, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Earth Elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/earth-elemental.md)
+*Source: Monster Manual p. 124. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 An earth elemental plods forward like a walking hill, club-like arms of jagged stone swinging at its sides. Its head and body consist of dirt and stone, occasionally set with chunks of metal, gems, and bright minerals.
 
@@ -65,7 +66,8 @@ An elemental doesn't require air, food, drink, or sleep.
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 10"
 "languages": "Terran"
 "cr": "5"
 "traits":
@@ -77,17 +79,11 @@ An elemental doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The elemental makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 14 (2d8 + 5) bludgeoning damage."
     "name": "Slam"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "ToA"
-  - "WDH"
-  - "MOT"
-  - "TCE"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/earth-elemental.webp"
 ```
 ^statblock

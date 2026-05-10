@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/2
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Svirfneblin Wererat
+- "Svirfneblin Wererat"
 ---
-# [Svirfneblin Wererat](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/svirfneblin-wererat-oota.md)
+# [Svirfneblin Wererat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/svirfneblin-wererat-oota.md)
 *Source: Out of the Abyss p. 97*  
 
 ```statblock
@@ -40,13 +41,17 @@ aliases:
     "desc": "+4"
 "damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
-"senses": "darkvision 60 ft. (rat form only), darkvision 120 ft., passive Perception\
-  \ 12"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft. (rat form only), [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 12"
 "languages": "Common (can't speak in rat form), Gnomish, Terran, Undercommon"
 "cr": "2"
 "traits":
-  - "desc": "The svirfneblin wererat\n\nAt will: [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md)\
-      \ (self only)\n\n1/day each: [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
+  - "desc": "The svirfneblin wererat\n\n**At will:** [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md)\
+      \ (self only)\n\n**1/day each:** [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
       \ [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md), [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md)"
     "name": "Innate Spellcasting"
   - "desc": "The wererat can use its action to polymorph into a rat-humanoid hybrid\
@@ -64,14 +69,14 @@ aliases:
 "actions":
   - "desc": "The wererat makes two attacks, only one of which can be a bite."
     "name": "Multiattack (Humanoid or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage. If the target is a humanoid, it must succeed\
       \ on a DC 11 Constitution saving throw or be cursed with wererat lycanthropy."
     "name": "Bite (Rat or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword (Humanoid or Hybrid Form Only)"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Hand Crossbow (Humanoid or Hybrid Form Only)"
 "source":

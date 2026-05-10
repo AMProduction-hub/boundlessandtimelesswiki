@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Martial Arts Adept
+- "Martial Arts Adept"
 ---
-# [Martial Arts Adept](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/martial-arts-adept-mpmm.md)
+# [Martial Arts Adept](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/martial-arts-adept-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 172, Volo's Guide to Monsters p. 216*  
 
 Martial arts adepts are disciplined monks with extensive training in hand-to-hand combat. Some protect monasteries; others travel the world seeking enlightenment or new forms of combat to master. A few become bodyguards, trading their combat prowess and loyalty for food and lodging.
@@ -20,8 +21,6 @@ Martial arts adepts are disciplined monks with extensive training in hand-to-han
 Some martial artists adorn themselves with tattoos to honor inspirations or instructors, or to memorialize profound lessons, triumphs, or defeats. You may roll on the Martial Arts Adept Tattoos table to determine what sort of tattoo an adept bears.
 
 **Martial Arts Adept Tattoos**
-
-`dice: [](martial-arts-adept-mpmm.md#^martial-arts-adept-tattoos)`
 
 | dice: d8 | Tattoo |
 |----------|--------|
@@ -60,6 +59,8 @@ Some martial artists adorn themselves with tattoos to honor inspirations or inst
     "desc": "+5"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
+"gear":
+  - "[dart](03.PlayerLog&Handouts/Mechanics/CLI/items/dart.md)"
 "senses": "passive Perception 13"
 "languages": "any one language (usually Common)"
 "cr": "3"
@@ -70,15 +71,15 @@ Some martial artists adorn themselves with tattoos to honor inspirations or inst
 "actions":
   - "desc": "The adept makes three Unarmed Strike attacks or five Dart attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) bludgeoning damage. Once per turn, the adept can cause one of\
-      \ the following additional effects (choose one or roll a d4):\n\n- 1–2 Knock\
-      \ Down.. The target must succeed on a DC 13 Dexterity saving throw or be knocked\
+      \ the following additional effects (choose one or roll a d4):\n\n- **1–2 Knock\
+      \ Down..** The target must succeed on a DC 13 Dexterity saving throw or be knocked\
       \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).  \n\
-      - 3–4 Push.. The target must succeed on a DC 13 Strength saving throw or\
+      - **3–4 Push..** The target must succeed on a DC 13 Strength saving throw or\
       \ be pushed up to 10 feet directly away from the adept.  "
     "name": "Unarmed Strike"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 20/60 ft., one target. *Hit:*\
       \ 5 (1d4 + 3) piercing damage."
     "name": "Dart"
 "reactions":

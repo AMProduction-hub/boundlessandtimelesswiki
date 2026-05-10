@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ashen Flying Sword
+- "Ashen Flying Sword"
 ---
-# [Ashen Flying Sword](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/ashen-flying-sword-kftgv.md)
+# [Ashen Flying Sword](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/ashen-flying-sword-kftgv.md)
 *Source: Keys from the Golden Vault p. 157*  
 
 A magically animated flying sword dances through the air, fighting like a warrior that can't be injured.
@@ -35,7 +36,7 @@ A magically animated flying sword dances through the air, fighting like a warrio
   - !!int "1"
 "speed": "0 ft., fly 50 ft. (hover)"
 "saves":
-  - "dexterity": "+4"
+  - "dexterity": !!int "4"
 "damage_immunities": "fire, poison, psychic"
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
@@ -43,7 +44,10 @@ A magically animated flying sword dances through the air, fighting like a warrio
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 7"
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 7"
 "languages": ""
 "cr": "1/4"
 "traits":
@@ -61,7 +65,7 @@ A magically animated flying sword dances through the air, fighting like a warrio
       \ and any equipment it was wearing or carrying falls to the ground."
     "name": "Ashen Creature"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d8 + 1) slashing damage."
     "name": "Longsword"
 "source":

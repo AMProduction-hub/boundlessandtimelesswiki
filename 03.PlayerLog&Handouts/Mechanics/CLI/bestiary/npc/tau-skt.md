@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tau
+- "Tau"
 ---
-# [Tau](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/tau-skt.md)
+# [Tau](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/tau-skt.md)
 *Source: Storm King's Thunder p. 103*  
 
 ```statblock
@@ -40,19 +41,21 @@ aliases:
     "desc": "+4"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+2"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 11"
 "languages": "Common, Terran"
 "cr": "2"
 "traits":
   - "desc": "Tau is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell\
       \ save DC 11, +3 to hit with spell attacks). Tau has the following cleric\
-      \ spells prepared:\n\nCantrips (at will): [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
+      \ spells prepared:\n\n**Cantrips (at will):** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \n**1st level (4 slots):** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [inflict wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/inflict-wounds.md),\
       \ [shield of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield-of-faith.md)\n\
-      \n2nd level (3 slots): [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
+      \n**2nd level (3 slots):** [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md)"
     "name": "Spellcasting"
   - "desc": "Tau has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
@@ -61,7 +64,7 @@ aliases:
 "actions":
   - "desc": "Tau makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d4 + 2) bludgeoning damage."
     "name": "Club"
 "source":

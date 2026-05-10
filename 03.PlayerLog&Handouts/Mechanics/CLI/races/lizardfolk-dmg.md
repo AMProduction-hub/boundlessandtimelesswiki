@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/race/lizardfolk
 aliases:
-- Lizardfolk
+- "Lizardfolk"
 ---
 # Lizardfolk
 *Source: Dungeon Master's Guide p. 282*  
 
 
-- **Ability Scores**: Strength +2; Intelligence -2
+- **Ability Scores**: str +2 int -2
 - **Size**: Medium
 - **Speed**: walk: 30 ft.; swim: 30 ft.
 

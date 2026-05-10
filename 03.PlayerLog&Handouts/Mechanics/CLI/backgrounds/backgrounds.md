@@ -1,6 +1,8 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
+- json5e-index
 ---
 # Index of Backgrounds
 
@@ -25,18 +27,18 @@ cssclasses: json5e-note
 - [Baldur's Gate Urchin](./baldurs-gate-urchin-bgdia.md)
 - [Boros Legionnaire](./boros-legionnaire-ggr.md)
 - [Charlatan](./charlatan.md)
-- [City Watch (Investigator) (Variant)](./city-watch-investigator-variant-scag.md)
 - [City Watch](./city-watch-scag.md)
+- [City Watch (Investigator) (Variant)](./city-watch-investigator-variant-scag.md)
 - [Clan Crafter](./clan-crafter-scag.md)
 - [Cloistered Scholar](./cloistered-scholar-scag.md)
 - [Cobalt Scholar (Sage)](./cobalt-scholar-sage-egw.md)
 - [Courtier](./courtier-scag.md)
-- [Criminal (Spy) (Variant)](./criminal-spy-variant.md)
 - [Criminal](./criminal.md)
+- [Criminal (Spy) (Variant)](./criminal-spy-variant.md)
 - [Custom Background](./custom-background.md)
 - [Dimir Operative](./dimir-operative-ggr.md)
-- [Entertainer (Gladiator) (Variant)](./entertainer-gladiator-variant.md)
 - [Entertainer](./entertainer.md)
+- [Entertainer (Gladiator) (Variant)](./entertainer-gladiator-variant.md)
 - [Faceless](./faceless-bgdia.md)
 - [Faction Agent](./faction-agent-scag.md)
 - [Far Traveler](./far-traveler-scag.md)
@@ -45,8 +47,8 @@ cssclasses: json5e-note
 - [Golgari Agent](./golgari-agent-ggr.md)
 - [Grinner](./grinner-egw.md)
 - [Gruul Anarch](./gruul-anarch-ggr.md)
-- [Guild Artisan (Guild Merchant) (Variant)](./guild-artisan-guild-merchant-variant.md)
 - [Guild Artisan](./guild-artisan.md)
+- [Guild Artisan (Guild Merchant) (Variant)](./guild-artisan-guild-merchant-variant.md)
 - [Haunted One](./haunted-one-vrgr.md)
 - [Hermit](./hermit.md)
 - [House Agent](./house-agent-erlw.md)
@@ -61,9 +63,9 @@ cssclasses: json5e-note
 - [Marine](./marine-gos.md)
 - [Mercenary Veteran](./mercenary-veteran-scag.md)
 - [Myriad Operative (Criminal)](./myriad-operative-criminal-egw.md)
+- [Noble](./noble.md)
 - [Noble (Knight) (Variant)](./noble-knight-variant.md)
 - [Noble (Retainers) (Variant)](./noble-retainers-variant.md)
-- [Noble](./noble.md)
 - [Orzhov Representative](./orzhov-representative-ggr.md)
 - [Outlander](./outlander.md)
 - [Prismari Student](./prismari-student-scc.md)
@@ -71,8 +73,8 @@ cssclasses: json5e-note
 - [Rakdos Cultist](./rakdos-cultist-ggr.md)
 - [Revelry Pirate (Sailor)](./revelry-pirate-sailor-egw.md)
 - [Sage](./sage.md)
-- [Sailor (Pirate) (Variant)](./sailor-pirate-variant.md)
 - [Sailor](./sailor.md)
+- [Sailor (Pirate) (Variant)](./sailor-pirate-variant.md)
 - [Selesnya Initiate](./selesnya-initiate-ggr.md)
 - [Shipwright](./shipwright-gos.md)
 - [Silverquill Student](./silverquill-student-scc.md)

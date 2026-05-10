@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/rarity/rare
 - ttrpg-cli/item/tier/major
-aliases: 
+aliases:
 - "Periapt of Proof against Poison"
 ---
 # Periapt of Proof against Poison

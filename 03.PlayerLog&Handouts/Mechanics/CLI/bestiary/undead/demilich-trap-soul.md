@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/21
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Demilich (Trap Soul)
+- "Demilich (Trap Soul)"
 ---
-# [Demilich (Trap Soul)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/demilich-trap-soul.md)
-*Source: Monster Manual p. 48, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Journeys through the Radiant Citadel*  
+# [Demilich (Trap Soul)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/demilich-trap-soul.md)
+*Source: Monster Manual p. 48*  
 
 ```statblock
 "name": "Demilich (Trap Soul)"
@@ -33,10 +34,10 @@ aliases:
   - !!int "20"
 "speed": "0 ft., fly 30 ft. (hover)"
 "saves":
-  - "constitution": "+6"
-  - "intelligence": "+11"
-  - "wisdom": "+9"
-  - "charisma": "+11"
+  - "constitution": !!int "6"
+  - "intelligence": !!int "11"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "11"
 "damage_resistances": "bludgeoning, piercing, slashing from magic weapons"
 "damage_immunities": "necrotic; poison; psychic; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
@@ -48,7 +49,8 @@ aliases:
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "truesight 120 ft., passive Perception 13"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 13"
 "languages": ""
 "cr": "21"
 "traits":
@@ -85,6 +87,36 @@ aliases:
       \ in an unoccupied space nearest to the gem and in the same state as when it\
       \ was trapped."
     "name": "Trap Soul"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), the demilich rolls a\
+      \ d20. On a result of 11 or higher, the demilich takes a lair action to cause\
+      \ one of the following effects. It can't use the same effect two rounds in a\
+      \ row.\n\n- The tomb trembles violently for a moment. Each creature on the floor\
+      \ of the tomb must succeed on a DC 19 Dexterity saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
+      \  \n- The demilich targets one creature it can see within 60 feet of it. An\
+      \ [antimagic field](03.PlayerLog&Handouts/Mechanics/CLI/spells/antimagic-field.md)\
+      \ fills the space of the target, moving with it until initiative count 20 on\
+      \ the next round.  \n- The demilich targets any number of creatures it can see\
+      \ within 30 feet of it. No target can regain hit points until initiative count\
+      \ 20 on the next round.  "
+    "name": ""
+"regional_effects":
+  - "desc": "A demilich's tomb might have any or all of the following effects in place:\n\
+      \n- The first time a non-evil creature enters the tomb's area, the creature\
+      \ takes 16 (3d10) necrotic damage.  \n- Monsters in the tomb have advantage\
+      \ on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+      \ and against features that turn undead.  \n- The tomb is warded against the\
+      \ magical travel of creatures the demilich hasn't authorized. Such creatures\
+      \ can't teleport into or out of the tomb's area or use planar travel to enter\
+      \ or leave it. Effects that allow teleportation or planar travel work within\
+      \ the tomb as long as they aren't used to leave or enter the tomb's area.  \n\
+      \nIf the demilich is destroyed, these effects fade over the course of 10 days."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the demilich (trap soul) can expend a use to take one of the following actions.\
+  \ The demilich (trap soul) regains all expended uses at the start of each of its\
+  \ turns."
 "legendary_actions":
   - "desc": "The demilich flies up to half its flying speed."
     "name": "Flight"
@@ -108,44 +140,7 @@ aliases:
       \ throws. The target can repeat the saving throw at the end of each of its turns,\
       \ ending the curse on a success."
     "name": "Vile Curse (Costs 3 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), the demilich rolls a\
-      \ d20. On a result of 11 or higher, the demilich takes a lair action to cause\
-      \ one of the following effects. It can't use the same effect two rounds in a\
-      \ row."
-    "name": ""
-  - "desc": "- The tomb trembles violently for a moment. Each creature on the floor\
-      \ of the tomb must succeed on a DC 19 Dexterity saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
-      \  \n- The demilich targets one creature it can see within 60 feet of it. An\
-      \ [antimagic field](03.PlayerLog&Handouts/Mechanics/CLI/spells/antimagic-field.md)\
-      \ fills the space of the target, moving with it until initiative count 20 on\
-      \ the next round.  \n- The demilich targets any number of creatures it can see\
-      \ within 30 feet of it. No target can regain hit points until initiative count\
-      \ 20 on the next round.  "
-    "name": ""
-"regional_effects":
-  - "desc": "A demilich's tomb might have any or all of the following effects in place:"
-    "name": ""
-  - "desc": "- The first time a non-evil creature enters the tomb's area, the creature\
-      \ takes 16 (3d10) necrotic damage.  \n- Monsters in the tomb have advantage\
-      \ on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-      \ or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-      \ and against features that turn undead.  \n- The tomb is warded against the\
-      \ magical travel of creatures the demilich hasn't authorized. Such creatures\
-      \ can't teleport into or out of the tomb's area or use planar travel to enter\
-      \ or leave it. Effects that allow teleportation or planar travel work within\
-      \ the tomb as long as they aren't used to leave or enter the tomb's area.  "
-    "name": ""
-  - "desc": "If the demilich is destroyed, these effects fade over the course of 10\
-      \ days."
-    "name": ""
 "source":
   - "MM"
-  - "TftYP"
-  - "WDMM"
-  - "GoS"
-  - "EGW"
-  - "IDRotF"
-  - "JttRC"
 ```
 ^statblock

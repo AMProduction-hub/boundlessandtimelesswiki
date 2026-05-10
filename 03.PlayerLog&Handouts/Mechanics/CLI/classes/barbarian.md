@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/class/barbarian
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Barbarian
+- "Barbarian"
 ---
 # Barbarian
 *Source: Player's Handbook p. 46. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
@@ -129,8 +130,6 @@ Consider creating one or more personal totems for your character—objects that 
 
 **Personal Totems**
 
-`dice: [](barbarian.md#^personal-totems)`
-
 | dice: d6 | Totem |
 |----------|-------|
 | 1 | A tuft of fur from a solitary wolf that you befriended during a hunt |
@@ -149,8 +148,6 @@ The members of many barbarian clans decorate their bodies with tattoos, each of 
 Each tattoo a barbarian displays contributes to that individual's identity. If your character wears tattoos, what do they look like, and what do they represent?
 
 **Tattoos**
-
-`dice: [](barbarian.md#^tattoos)`
 
 | dice: d6 | Tattoo |
 |----------|--------|
@@ -174,8 +171,6 @@ Both of these attitudes can give rise to superstitions. These beliefs are often 
 If your barbarian character has any superstitions, were they ingrained in you by your family, or are they the result of personal experience?
 
 **Superstition**
-
-`dice: [](barbarian.md#^superstition)`
 
 | dice: d6 | Superstition |
 |----------|--------------|

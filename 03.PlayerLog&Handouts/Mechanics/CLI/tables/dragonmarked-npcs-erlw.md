@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Dragonmarked NPCs
+- "Dragonmarked NPCs"
 ---
 # Dragonmarked NPCs
 *Source: Eberron: Rising from the Last War p. 190* 
 
 **Dragonmarked NPCs**
-
-`dice: [](dragonmarked-npcs-erlw.md#^dragonmarked-npcs)`
 
 | dice: d12 | NPC |
 |-----------|-----|

@@ -1,32 +1,34 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/selesnya-initiate
 - ttrpg-cli/spell/background/simic-scientist
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
-- ttrpg-cli/spell/feat/magic-initiate
-- ttrpg-cli/spell/feat/strixhaven-initiate
+- ttrpg-cli/spell/feat/magic-initiate/druid-spells
+- ttrpg-cli/spell/feat/strixhaven-initiate/quandrix-1
 - ttrpg-cli/spell/feat/wood-elf-magic
 - ttrpg-cli/spell/level/cantrip
 - ttrpg-cli/spell/optfeature/druidic-warrior
 - ttrpg-cli/spell/optfeature/pact-of-the-tome
 - ttrpg-cli/spell/race/fairy
+- ttrpg-cli/spell/reward/charm-of-druidcraft
 - ttrpg-cli/spell/school/transmutation
 - ttrpg-cli/spell/subclass/arcane-archer
-- ttrpg-cli/spell/subclass/circle-of-the-land
+- ttrpg-cli/spell/subclass/circle-of-the-land/arctic
 - ttrpg-cli/spell/subclass/nature-domain
 - ttrpg-cli/spell/subrace/halfling-lotusden
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Nature Domain)
 - Druid
-- Druid (Circle of the Land)
+- Druid (Circle of the Land, Arctic)
 - Fighter (Arcane Archer)
 aliases:
-- Druidcraft
+- "Druidcraft"
 ---
 # Druidcraft
 *cantrip, Transmutation*  
@@ -44,6 +46,6 @@ Whispering to the spirits of nature, you create one of the following effects wit
 - You create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint odor of skunk. The effect must fit in a 5-foot cube.  
 - You instantly light or snuff out a candle, a torch, or a small campfire.  
 
-**Classes**: [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Fighter (Arcane Archer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-archer-xge.md "subclass=XGE")
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md); [Druid (Circle of the Land, Arctic)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Fighter (Arcane Archer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-archer-xge.md "subclass=XGE")
 
 *Source: Player's Handbook p. 236. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

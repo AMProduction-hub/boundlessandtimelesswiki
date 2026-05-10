@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/screen
 aliases:
-- DM Screen; Quick Finds
+- "DM Screen; Quick Finds"
 ---
 # DM Screen; Quick Finds
 *Source: Dungeon Master's Screen* 
 
 **Quick Finds**
-
-`dice: [](dm-screen-quick-finds-screen.md#^quick-finds)`
 
 | dice: d12 | Find |
 |-----------|------|

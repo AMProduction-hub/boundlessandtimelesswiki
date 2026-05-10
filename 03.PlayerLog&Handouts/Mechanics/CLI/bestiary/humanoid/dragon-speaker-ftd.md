@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragon Speaker
+- "Dragon Speaker"
 ---
-# [Dragon Speaker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/dragon-speaker-ftd.md)
+# [Dragon Speaker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/dragon-speaker-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 189*  
 
 Dragon speakers are charismatic and persuasive orators who serve as a dragon's ambassadors among other folk. Dragon speakers have loud and authoritative voices, which they use to gain valuable resources, diplomatic connections, and donations of treasure and magic for their dragons—as well as to weave magic both subtle and thundering. They use their commanding presence to instill awe and fear into the hearts of friends and foes alike.
@@ -41,8 +42,8 @@ Dragon followers might serve and revere any kind of dragon, and their behavior a
   - !!int "17"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+4"
-  - "charisma": "+5"
+  - "dexterity": !!int "4"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+5"
@@ -50,19 +51,20 @@ Dragon followers might serve and revere any kind of dragon, and their behavior a
     "desc": "+3"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Draconic, and any two languages"
 "cr": "2"
 "actions":
   - "desc": "The speaker makes two Thunder Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +5 to hit, reach 5 ft. or range 60\
-      \ ft., one target. Hit: 13 (3d8) thunder damage, and the target is pushed\
+  - "desc": "*Melee  or Ranged Spell Attack:* +5 to hit, reach 5 ft. or range 60\
+      \ ft., one target. *Hit:* 13 (3d8) thunder damage, and the target is pushed\
       \ horizontally up to 10 feet away from the speaker."
     "name": "Thunder Bolt"
   - "desc": "The speaker casts one of the following spells, using Charisma as the\
-      \ spellcasting ability (spell save DC 13):\n\nAt will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
-      \n1/day each: [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
+      \ spellcasting ability (spell save DC 13):\n\n**At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
+      \n**1/day each:** [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
       \ [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md), [comprehend\
       \ languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md)"

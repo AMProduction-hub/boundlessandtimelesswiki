@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dip
 aliases:
-- Falcon's Hunting Lodge
+- "Falcon's Hunting Lodge"
 ---
 # Falcon's Hunting Lodge
 *Source: Essentials Kit: Dragon of Icespire Peak, p. 24* 
@@ -15,7 +16,7 @@ Falcon's Hunting Lodge is a sanctuary in the heart of Neverwinter Wood. This loc
 
 [Falcon the Hunter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/falcon-the-hunter-dip.md) maintains this hunting lodge to cater to nobles from Neverwinter. He offers his services as a guide to those nobles, most of whom wouldn't last long in the forest without his protection and survival skills. Falcon abhors city life, preferring a rustic existence and simple pleasures. His lodge has all the creature comforts he requires, though he never turns down a good bottle of wine (or even a bad one) from a visitor.
 
-Falcon has two retainers: an elderly, world-weary cook named Corwin, and a mute twelve-year-old stablehand named Pell. Both are noncombatants.
+Falcon has two retainers: an elderly, world-weary cook named Corwin, and a mute twelve-year-old stable hand named Pell. Both are noncombatants.
 
 In addition to the main house, the hunting lodge grounds include a guest house for visitors, a conjoined stable house and smithy, an outhouse, and pens to hold Falcon's livestock. Accustomed to long and lonely winters, Falcon keeps a season's worth of provisions in his pantry at all times, supplementing those stores with fresh game. He has also begun hunting orcs and mounting their heads in his trophy hall. Corwin has advised Falcon not to do this for fear of retaliation, but Falcon has a long history of killing orcs and can't abide them as neighbors.
 
@@ -97,7 +98,7 @@ The smithy is mostly used to forge horseshoes, but guests can also use it to rep
 
 #### F7. Pell's Bedroom
 
-The stablehand's bedroom is plainly furnished.
+The stable hand's bedroom is plainly furnished.
 
 #### F8. Corwin's Bedroom
 

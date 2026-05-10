@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Caer-Konig
+- "Caer-Konig"
 ---
 # Caer-Konig
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 46* 
@@ -83,7 +84,7 @@ The inn gets its name from a magic lantern that once hung above the front door. 
 
 The inn is kept by the Shorard sisters (neutral good human [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)). The younger, Allie, is lithe and charming; she greets guests and does all the cleaning. The older, Cori, is stout and scowling; she sees to the inn's provisioning and handles all the cooking. The sisters cast baleful glances at one another and bicker behind closed doors, but nothing ever comes of their feuds, as evidenced by the fact that they've been running the inn together for more than a decade.
 
-![Trovus, the dragonborn tow...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/034-01-017-trovus.webp#center "Trovus, the dragonborn town speaker of Caer-Konig, partakes of a drink as he guards the Northern Light")
+![Trovus, the dragonborn town speaker of Caer-Konig, partakes of a drink as he guards the Northern Light](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/034-01-017-trovus.webp#center)
 
 ## The Unseen
 
@@ -178,7 +179,7 @@ When the characters find the duergar outpost, read:
 
 Two duergar watch for approaching intruders. One is stationed in the bunker (area O1), the other in the overlook (area O3). These duergar are tired and bored, but they notice characters who are so incautious as to carry light sources or otherwise announce their presence.
 
-If the overlook duergar sees what she perceives to be a threat, she sounds the alarm as she runs down to the main entrance (area O2) to pull up the drawbridge, taking 2 rounds to do so. The duergar in the bunker is armed with a heavy crossbow (`d10` piercing damage) and takes pot shots at visible threats.
+If the overlook duergar sees what she perceives to be a threat, she sounds the alarm as she runs down to the main entrance (area O2) to pull up the drawbridge, taking 2 rounds to do so. The duergar in the bunker is armed with a heavy crossbow (`1d10` piercing damage) and takes pot shots at visible threats.
 
 Characters who succeed on a DC 10 Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)) check can approach the stronghold undetected by hugging the north cliff and moving behind the bunker and below the openings of the overlook. Once they reach the mouth of the frozen river, they can crawl through the culvert (which leads under area O2) or quietly approach the main entrance without being detected.
 

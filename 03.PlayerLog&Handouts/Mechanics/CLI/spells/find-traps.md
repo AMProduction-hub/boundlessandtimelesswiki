@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
@@ -13,13 +14,13 @@ tags:
 - ttrpg-cli/spell/subclass/divine-soul
 - ttrpg-cli/spell/subrace/half-elf-mark-of-detection
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Druid
 - Ranger
 - Sorcerer (Divine Soul)
 aliases:
-- Find Traps
+- "Find Traps"
 ---
 # Find Traps
 *2nd-level, Divination*  
@@ -34,6 +35,6 @@ You sense the presence of any trap within range that is within line of sight. A 
 
 This spell merely reveals that a trap is present. You don't learn the location of each trap, but you do learn the general nature of the danger posed by a trap you sense.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE")
 
 *Source: Player's Handbook p. 241. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/race/tiefling/hellfire
 aliases:
-- Tiefling (Hellfire)
+- "Tiefling (Hellfire)"
 ---
 # Tiefling (Hellfire)
 *Source: Sword Coast Adventurer's Guide p. 118*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/feral-tiefling.webp#right)
 
-- **Ability Scores**: Intelligence +1; Apply +1 to one of Dexterity or Charisma.
+- **Ability Scores**: Apply +1 to one of Dexterity or Charisma.
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Charisma

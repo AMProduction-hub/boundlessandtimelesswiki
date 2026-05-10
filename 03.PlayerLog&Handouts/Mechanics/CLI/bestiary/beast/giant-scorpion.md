@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/3
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Scorpion
+- "Giant Scorpion"
 ---
-# [Giant Scorpion](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-scorpion.md)
-*Source: Monster Manual p. 327, Tales from the Yawning Portal, Tomb of Annihilation, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Candlekeep Mysteries, Journeys through the Radiant Citadel, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Scorpion](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-scorpion.md)
+*Source: Monster Manual p. 327. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Giant Scorpion"
@@ -33,32 +34,26 @@ aliases:
   - !!int "9"
   - !!int "3"
 "speed": "40 ft."
-"senses": "blindsight 60 ft., passive Perception 9"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., passive Perception 9"
 "languages": ""
 "cr": "3"
 "actions":
   - "desc": "The scorpion makes three attacks: two with its claws and one with its\
       \ sting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 12). The scorpion has two claws, each of which can grapple only\
       \ one target."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 7 (1d10 + 2) piercing damage, and the target must make a DC 12 Constitution\
       \ saving throw, taking 22 (4d10) poison damage on a failed save, or half as\
       \ much damage on a successful one."
     "name": "Sting"
 "source":
   - "MM"
-  - "TftYP"
-  - "ToA"
-  - "BGDIA"
-  - "EGW"
-  - "CM"
-  - "JttRC"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-scorpion.webp"
 ```
 ^statblock

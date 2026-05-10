@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Grippli Warrior
+- "Grippli Warrior"
 ---
-# [Grippli Warrior](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/grippli-warrior-cm.md)
+# [Grippli Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/grippli-warrior-cm.md)
 *Source: Candlekeep Mysteries p. 99*  
 
 At first glance or from a distance, a grippli looks like a large frog. Its head and body are indeed those of a frog, but its front extremities end in hands with fingers that enable it to manipulate weapons and other objects, and its rear legs have similar digits that it can use for grasping and climbing. A grippli can move as quickly on all fours as it can on two legs.
@@ -41,6 +42,9 @@ At first glance or from a distance, a grippli looks like a large frog. Its head 
     "desc": "+4"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+4"
+"gear":
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
+  - "[trident](03.PlayerLog&Handouts/Mechanics/CLI/items/trident.md)"
 "senses": "passive Perception 12"
 "languages": "Grippli plus one other language (usually Common, Draconic, or Primordial)"
 "cr": "1/4"
@@ -54,18 +58,18 @@ At first glance or from a distance, a grippli looks like a large frog. Its head 
   - "desc": "The grippli makes one attack with its tongue. If this attack hits, the\
       \ grippli can make a melee attack using its trident against the same target."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one Medium or smaller\
-      \ creature. Hit: The target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one Medium or smaller\
+      \ creature. *Hit:* The target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 12). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and the grippli can't grab another creature."
     "name": "Tongue"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
-      \ damage if used with two hands to make a melee attack, plus 2 (d4) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
+      \ damage if used with two hands to make a melee attack, plus 2 (1d4) piercing\
       \ damage if the grippli had advantage on the attack roll."
     "name": "Trident"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
-      \ 5 (1d6 + 2) piercing damage, plus 2 (d4) piercing damage if the grippli\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:*\
+      \ 5 (1d6 + 2) piercing damage, plus 2 (1d4) piercing damage if the grippli\
       \ had advantage on the attack roll."
     "name": "Shortbow"
 "source":

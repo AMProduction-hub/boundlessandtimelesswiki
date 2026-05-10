@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nightveil Specter
+- "Nightveil Specter"
 ---
-# [Nightveil Specter](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/nightveil-specter-ggr.md)
+# [Nightveil Specter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/nightveil-specter-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 215*  
 
 The Nightveil specters of Ravnica are hooded, undead guardians that ride flying creatures called gloamwings. They are fearsome agents of House Dimir, protecting the territory and interests of that guild-particularly the neighborhood of Nightveil, from which the specters get their name. Their work can include driving off people who accidentally wander too close to a secret rooftop meeting, killing those who knowingly infiltrate Dimir property, and tracking those who have stolen guild secrets, then wiping those secrets from their victims' minds to ensure that they are never shared.
@@ -49,8 +50,8 @@ A Nightveil specter and its gloamwing mount don't require air, food, drink, or s
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+8"
-  - "wisdom": "+7"
+  - "dexterity": !!int "8"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+7"
@@ -64,7 +65,8 @@ A Nightveil specter and its gloamwing mount don't require air, food, drink, or s
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 17"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 17"
 "languages": "understands Common but can't speak"
 "cr": "10"
 "traits":
@@ -79,7 +81,7 @@ A Nightveil specter and its gloamwing mount don't require air, food, drink, or s
 "actions":
   - "desc": "The specter makes two scythe attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (2d6 + 4) slashing damage plus 13 (3d8) psychic damage."
     "name": "Scythe"
   - "desc": "The specter magically emits psychic energy in a 60-foot cone. Each creature\

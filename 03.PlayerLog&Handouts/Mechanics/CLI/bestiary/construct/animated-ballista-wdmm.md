@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Animated Ballista
+- "Animated Ballista"
 ---
-# [Animated Ballista](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/animated-ballista-wdmm.md)
+# [Animated Ballista](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-ballista-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 39*  
 
 Each animated ballista is a Large wood-and-iron construct.
@@ -40,12 +41,13 @@ Each animated ballista is a Large wood-and-iron construct.
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 6"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft. (blind beyond this radius), passive Perception 6"
 "languages": ""
 "cr": "2"
 "actions":
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 120 ft., one target. Hit:\
-      \ 16 (3d10) fire damage"
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 120 ft., one target. *Hit:*\
+      \ 16 (3d10) fire damage."
     "name": "Magic Bolt"
 "source":
   - "WDMM"

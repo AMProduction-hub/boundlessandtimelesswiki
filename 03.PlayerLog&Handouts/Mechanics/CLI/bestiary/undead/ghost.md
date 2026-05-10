@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/4
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ghost
+- "Ghost"
 ---
-# [Ghost](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/ghost.md)
-*Source: Monster Manual p. 147, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Divine Contention, Dragon of Icespire Peak, Storm Lord's Wrath, Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Candlekeep Mysteries, Journeys through the Radiant Citadel, Light of Xaryxis, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Ghost](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghost.md)
+*Source: Monster Manual p. 147. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A ghost is the soul of a once-living creature, bound to haunt a specific location, creature, or object that held significance to it in its life.
 
@@ -60,7 +61,8 @@ A ghost doesn't require air, food, drink, or sleep.
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "any languages it knew in life"
 "cr": "4"
 "traits":
@@ -68,11 +70,11 @@ A ghost doesn't require air, food, drink, or sleep.
       \ Plane, and vice versa."
     "name": "Ethereal Sight"
   - "desc": "The ghost can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
       \ an object."
     "name": "Incorporeal Movement"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 17\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 17\
       \ (4d6 + 3) necrotic damage."
     "name": "Withering Touch"
   - "desc": "The ghost enters the Ethereal Plane from the Material Plane, or vice\
@@ -112,27 +114,6 @@ A ghost doesn't require air, food, drink, or sleep.
     "name": "Possession (Recharge 6)"
 "source":
   - "MM"
-  - "CoS"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "DC"
-  - "DIP"
-  - "SLW"
-  - "SDW"
-  - "BGDIA"
-  - "ERLW"
-  - "EGW"
-  - "IDRotF"
-  - "TCE"
-  - "CM"
-  - "JttRC"
-  - "LoX"
-  - "DSotDQ"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/ghost.webp"
 ```
 ^statblock

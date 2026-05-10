@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/legendary
 - ttrpg-cli/item/weapon/melee
 - ttrpg-cli/item/weapon/simple
-aliases: 
+aliases:
 - "Tinderstrike"
 ---
 # Tinderstrike
@@ -19,7 +20,7 @@ aliases:
 - **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light), [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown)
 - **Weight**: 1.0 lbs.
 
-A flint dagger, Tinderstrike is uncommonly sharp, and sparks cascade off its edge whenever it strikes something solid. Its handle is always warm to the touch, and the blade smolders for `d4` minutes after it is used to deal damage. It contains a spark of [Imix](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/imix-pota.md), Prince of Evil Fire.
+A flint dagger, Tinderstrike is uncommonly sharp, and sparks cascade off its edge whenever it strikes something solid. Its handle is always warm to the touch, and the blade smolders for `1d4` minutes after it is used to deal damage. It contains a spark of [Imix](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/imix-pota.md), Prince of Evil Fire.
 
 You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit with it, the target takes an extra `2d6` fire damage.
 

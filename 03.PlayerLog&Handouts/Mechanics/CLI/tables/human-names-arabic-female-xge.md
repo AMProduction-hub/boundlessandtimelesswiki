@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Human Names – Arabic, Female
+- "Human Names – Arabic, Female"
 ---
 # Human Names – Arabic, Female
 *Source: Xanathar's Guide to Everything p. 181* 
 
 **Human Names – Arabic, Female**
-
-`dice: [](human-names-arabic-female-xge.md#^human-names-arabic-female)`
 
 | dice: d100 | Name |
 |------------|------|

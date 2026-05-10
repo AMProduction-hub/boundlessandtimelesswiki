@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-hazard
+cssclasses:
+- json5e-hazard
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/hazard/env
 aliases:
-- High Altitude
+- "High Altitude"
 ---
 # High Altitude
 *Environmental Hazard*  

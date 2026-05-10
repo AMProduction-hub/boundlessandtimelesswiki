@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Demon Customization Tables; Demon Bonds
+- "Demon Customization Tables; Demon Bonds"
 ---
 # Demon Customization Tables; Demon Bonds
 *Source: Mordenkainen's Tome of Foes p. 33* 
 
 **Demon Bonds**
-
-`dice: [](demon-customization-tables-demon-bonds-mtf.md#^demon-bonds)`
 
 | dice: d6 | Bond |
 |----------|------|

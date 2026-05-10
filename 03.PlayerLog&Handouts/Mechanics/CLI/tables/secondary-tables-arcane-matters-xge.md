@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Secondary Tables; Arcane Matters
+- "Secondary Tables; Arcane Matters"
 ---
 # Secondary Tables; Arcane Matters
 *Source: Xanathar's Guide to Everything p. 70* 
 
 **Arcane Matters**
-
-`dice: [](secondary-tables-arcane-matters-xge.md#^arcane-matters)`
 
 | dice: d10 | Magical Event |
 |-----------|---------------|

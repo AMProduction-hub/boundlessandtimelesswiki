@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/dwarf/mountain
 aliases:
-- Dwarf (Mountain)
+- "Dwarf (Mountain)"
 ---
 # Dwarf (Mountain)
 *Source: Player's Handbook p. 20. Available in the Basic Rules (2014)*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/dwarf.webp#right)
 
-- **Ability Scores**: Strength +2
+- **Ability Scores**: str +2
 - **Size**: Medium
 - **Speed**: 25 ft.
 
@@ -43,7 +44,7 @@ You have proficiency with the [battleaxe](03.PlayerLog&Handouts/Mechanics/CLI/it
 
 ### Tool Proficiency
 
-You gain proficiency with the artisan's tools of your choice: [Smith's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/smiths-tools.md), [brewer's supplies](03.PlayerLog&Handouts/Mechanics/CLI/items/brewers-supplies.md), or [mason's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/masons-tools.md).
+You gain proficiency with the [artisan's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/artisans-tools.md) of your choice: [Smith's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/smiths-tools.md), [brewer's supplies](03.PlayerLog&Handouts/Mechanics/CLI/items/brewers-supplies.md), or [mason's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/masons-tools.md).
 
 ### Stonecunning
 

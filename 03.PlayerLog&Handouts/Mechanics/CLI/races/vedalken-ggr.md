@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/race/vedalken
 aliases:
-- Vedalken
+- "Vedalken"
 ---
 # Vedalken
 *Source: Guildmasters' Guide to Ravnica p. 21*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/vedalken.webp#right)
 
-- **Ability Scores**: Intelligence +2; Wisdom +1
+- **Ability Scores**: int +2 wis +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 

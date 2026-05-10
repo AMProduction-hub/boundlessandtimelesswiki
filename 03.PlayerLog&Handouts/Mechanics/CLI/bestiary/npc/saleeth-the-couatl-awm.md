@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/awm
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Saleeth the Couatl
+- "Saleeth the Couatl"
 ---
-# [Saleeth the Couatl](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/saleeth-the-couatl-awm.md)
+# [Saleeth the Couatl](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/saleeth-the-couatl-awm.md)
 *Source: Adventure with Muk p. 34*  
 
 Saleeth is a wise and beautiful couatl that is very kind to polite and well-mannered goblins. If she is approached by adventurers, she may have a noble quest for them to undertake if they are ready to help her defend the world against the forces of evil.
@@ -39,32 +40,33 @@ Saleeth is a wise and beautiful couatl that is very kind to polite and well-mann
 "traits":
   - "desc": "The couatl's spellcasting ability is Charisma (spell save DC 14). It\
       \ can innately cast the following spells, requiring only verbal components:\n\
-      \nAt will: [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
+      \n**At will:** [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md)\n\
-      \n3/day each: [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md),\
+      \n**3/day each:** [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md),\
       \ [create food and water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-food-and-water.md),\
       \ [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md),\
       \ [protection from poison](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-poison.md),\
       \ [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md), [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\
-      \n1/day each: [dream](03.PlayerLog&Handouts/Mechanics/CLI/spells/dream.md),\
+      \n**1/day each:** [dream](03.PlayerLog&Handouts/Mechanics/CLI/spells/dream.md),\
       \ [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md),\
       \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)"
     "name": "Innate Spellcasting"
   - "desc": "The couatl's weapon attacks are magical."
     "name": "Magic Weapons"
-  - "desc": "The couatl is immune to scrying and to any effect that would sense its\
-      \ emotions, read its thoughts, or detect its location."
+  - "desc": "The couatl is immune to [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)\
+      \ and to any effect that would sense its emotions, read its thoughts, or detect\
+      \ its location."
     "name": "Shielded Mind"
 "actions":
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit:\
-      \ 8 (1d6 + 5) piercing damage, Target must make a DC 13 Constitution save,\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:*\
+      \ 8 (1d6 + 5) piercing damage. Target must make a DC 13 Constitution save,\
       \ or fall [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious).\
       \ Another creature can use an action to shake the target awake."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one Medium or smaller\
-      \ creature. Hit: 10 (2d6 + 3) bludgeoning damage, Target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one Medium or smaller\
+      \ creature. *Hit:* 10 (2d6 + 3) bludgeoning damage. Target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15). The couatl can constrain only one target at a time."
     "name": "Constrict"
   - "desc": "The couatl magically polymorphs into a humanoid or beast that has a challenge\

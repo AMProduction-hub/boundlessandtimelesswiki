@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Pentadrone (Rogue)
+- "Pentadrone (Rogue)"
 ---
-# [Pentadrone (Rogue)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/pentadrone-rogue.md)
-*Source: Monster Manual p. 226, Tomb of Annihilation, Keys from the Golden Vault*  
+# [Pentadrone (Rogue)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/pentadrone-rogue.md)
+*Source: Monster Manual p. 226*  
 
 ```statblock
 "name": "Pentadrone (Rogue)"
@@ -35,7 +36,8 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
-"senses": "truesight 120 ft., passive Perception 14"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 14"
 "languages": "Modron"
 "cr": "2"
 "traits":
@@ -45,7 +47,7 @@ aliases:
 "actions":
   - "desc": "The pentadrone makes five arm attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) bludgeoning damage."
     "name": "Arm"
   - "desc": "The pentadrone exhales a 30-foot cone of gas. Each creature in that area\
@@ -55,7 +57,5 @@ aliases:
     "name": "Paralysis Gas (Recharge 5-6)"
 "source":
   - "MM"
-  - "ToA"
-  - "KftGV"
 ```
 ^statblock

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Subterranean Lizard
+- "Giant Subterranean Lizard"
 ---
-# [Giant Subterranean Lizard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-subterranean-lizard-tftyp.md)
+# [Giant Subterranean Lizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-subterranean-lizard-tftyp.md)
 *Source: Tales from the Yawning Portal p. 236*  
 
 ```statblock
@@ -42,18 +43,18 @@ aliases:
   - "desc": "The lizard makes two attacks: one with its bite and one with its tail.\
       \ One attack can be replaced by Swallow."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 16\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 16\
       \ (2d10 + 5) piercing damage and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and the lizard can't bite another target."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target not grappled\
-      \ by the lizard. Hit: 12 (2d6 + 5) bludgeoning damage. If the target is\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target not grappled\
+      \ by the lizard. *Hit:* 12 (2d6 + 5) bludgeoning damage. If the target is\
       \ a creature, it must succeed on a DC 15 Strength saving throw or be knocked\
       \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one Medium or smaller\
-      \ creature the lizard is grappling. Hit: 16 (2d10 + 5) piercing damage.\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one Medium or smaller\
+      \ creature the lizard is grappling. *Hit:* 16 (2d10 + 5) piercing damage.\
       \ The target is swallowed, and the grapple ends. The swallowed target is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
       \ and [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ it has total cover against attacks and other effects outside the lizard, and\

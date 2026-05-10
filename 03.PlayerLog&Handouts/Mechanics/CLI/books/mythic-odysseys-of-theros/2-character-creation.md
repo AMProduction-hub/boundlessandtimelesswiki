@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Character Creation
+- "Character Creation"
 ---
 # Character Creation
 *Source: Mythic Odysseys of Theros, p. 11* 
@@ -21,7 +22,7 @@ If you're reading this, the answer is that *you* make a hero, of course. In Ther
 
 This chapter describes playable races of Theros, new subclass options, a new background, and their places in the world. It also includes a description of the supernatural gifts that set the heroes of Theros above the ordinary mortals of their world. But it begins with the question of what makes *your* character a hero.
 
-![Drawn together by fate, th...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/005-01-01.webp#center "Drawn together by fate, three heroes—centaur, leonin, and human—pit themselves against sirens in the Dakra Isles ")
+![Drawn together by fate, three heroes—centaur, leonin, and human—pit themselves against sirens in the Dakra Isles](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/005-01-01.webp#center)
 
 ## Heroic Drive
 
@@ -135,7 +136,7 @@ The most prestigious names however, are those earned through deeds or temperamen
 
 ## Subclass Options
 
-![An unrivaled orator, the c...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/019-01-15.webp#center "An unrivaled orator, the centaur Perisophia guides Meletis as a member of the polis's ruling council, the Twelve ")
+![An unrivaled orator, the centaur Perisophia guides Meletis as a member of the polis's ruling council, the Twelve](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/019-01-15.webp#center)
 
 At 3rd level, a bard chooses a Bard College and a paladin chooses a Sacred Oath. This section offers the [College of Eloquence](03.PlayerLog&Handouts/Mechanics/CLI/classes/bard-college-of-eloquence-tce.md) for bards and the [Oath of Glory](03.PlayerLog&Handouts/Mechanics/CLI/classes/paladin-oath-of-glory-tce.md) for paladins, expanding their options for that choice.
 

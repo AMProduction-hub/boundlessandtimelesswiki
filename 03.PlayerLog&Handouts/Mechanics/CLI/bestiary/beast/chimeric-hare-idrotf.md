@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Chimeric Hare
+- "Chimeric Hare"
 ---
-# [Chimeric Hare](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/chimeric-hare-idrotf.md)
+# [Chimeric Hare](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/chimeric-hare-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 246*  
 
 Snowshoe hares are gentle herbivores that live in burrows throughout Icewind Dale. They have shorter ears than other hares and are acclimated to cold weather. Chimeric hares have feathered wings.
@@ -42,8 +43,10 @@ Snowshoe hares are gentle herbivores that live in burrows throughout Icewind Dal
 "languages": ""
 "cr": "0"
 "traits":
-  - "desc": "The hare can take the Dash, Disengage, or Hide action as a bonus action\
-      \ on each of its turns."
+  - "desc": "The hare can take the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash),\
+      \ [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage),\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action\
+      \ as a bonus action on each of its turns."
     "name": "Escape"
 "source":
   - "IDRotF"

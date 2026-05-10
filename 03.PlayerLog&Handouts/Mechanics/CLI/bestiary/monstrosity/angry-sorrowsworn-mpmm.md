@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/13
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Angry Sorrowsworn
+- "Angry Sorrowsworn"
 ---
-# [Angry Sorrowsworn](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/angry-sorrowsworn-mpmm.md)
+# [Angry Sorrowsworn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/angry-sorrowsworn-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 222, Mordenkainen's Tome of Foes p. 231*  
 
 Relying on violence to sustain their existence, angry sorrowsworn—sometimes called the Angry—grow more powerful when their foes fight back. If a creature opts not to attack, though, this sorrowsworn becomes confused, and its attacks weaken. It also has two heads, which bicker with each other incessantly.
@@ -44,7 +45,8 @@ The Shadowfell's pervasive melancholy sometimes gives rise to strange incarnatio
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+11"
 "damage_resistances": "bludgeoning, piercing, slashing while in dim light or darkness"
-"senses": "darkvision 60 ft., passive Perception 21"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 21"
 "languages": "Common"
 "cr": "13"
 "traits":
@@ -65,7 +67,7 @@ The Shadowfell's pervasive melancholy sometimes gives rise to strange incarnatio
 "actions":
   - "desc": "The sorrowsworn makes two Hook attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 16\
       \ (2d12 + 3) piercing damage."
     "name": "Hook"
 "source":

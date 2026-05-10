@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Baldur's Gate Outlander
+- "Baldur's Gate Outlander"
 ---
 # Baldur's Gate Outlander
 *Source: Baldur's Gate: Descent Into Avernus p. 204, Player's Handbook p. 136*  
@@ -35,8 +36,6 @@ Foreigners of all kinds come to Baldur's Gate daily, drawn by countless reasons 
 
 **Outlander Origins**
 
-`dice: [](baldurs-gate-outlander-bgdia.md#^outlander-origins)`
-
 | dice: d6 | Origin |
 |----------|--------|
 | 1 | Someone stole something precious from your people. You tracked the thief to the city gates, but finding clues in an urban environment is very different from tracking someone across the wilderness. You don't know where to go from here, but your people need you to succeed. |
@@ -50,8 +49,6 @@ Foreigners of all kinds come to Baldur's Gate daily, drawn by countless reasons 
 ## Specialty
 
 You've been to strange places and seen things that others cannot begin to fathom. Consider some of the distant lands you have visited, and how they impacted you. You can roll on the following table to determine your occupation during your time in the wild, or choose one that best fits your character.
-
-`dice: [](baldurs-gate-outlander-bgdia.md#^origin)`
 
 | dice: d10 | Origin |
 |-----------|--------|
@@ -71,8 +68,6 @@ You've been to strange places and seen things that others cannot begin to fathom
 
 Often considered rude and uncouth among civilized folk, outlanders have little respect for the niceties of life in the cities. The ties of tribe, clan, family, and the natural world of which they are a part are the most important bonds to most outlanders.
 
-`dice: [](baldurs-gate-outlander-bgdia.md#^personality-trait)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | I'm driven by a wanderlust that led me away from home. |
@@ -85,8 +80,6 @@ Often considered rude and uncouth among civilized folk, outlanders have little r
 | 8 | I was, in fact, raised by wolves. |
 ^personality-trait
 
-`dice: [](baldurs-gate-outlander-bgdia.md#^ideal)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic) |
@@ -97,8 +90,6 @@ Often considered rude and uncouth among civilized folk, outlanders have little r
 | 6 | Glory. I must earn glory in battle, for myself and my clan. (Any) |
 ^ideal
 
-`dice: [](baldurs-gate-outlander-bgdia.md#^bond)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | My family, clan, or tribe is the most important thing in my life, even when they are far from me. |
@@ -108,8 +99,6 @@ Often considered rude and uncouth among civilized folk, outlanders have little r
 | 5 | I suffer awful visions of a coming disaster and will do anything to prevent it. |
 | 6 | It is my duty to provide children to sustain my tribe. |
 ^bond
-
-`dice: [](baldurs-gate-outlander-bgdia.md#^flaw)`
 
 | dice: d6 | Flaw |
 |----------|------|

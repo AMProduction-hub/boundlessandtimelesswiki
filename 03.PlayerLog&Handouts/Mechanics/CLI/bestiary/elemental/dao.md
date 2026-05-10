@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/11
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dao
+- "Dao"
 ---
-# [Dao](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/dao.md)
-*Source: Monster Manual p. 143, Princes of the Apocalypse, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything, Candlekeep Mysteries*  
+# [Dao](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/dao.md)
+*Source: Monster Manual p. 143*  
 
 Dao are greedy, malicious genies from the Elemental Plane of Earth. They adorn themselves with jewelry crafted from precious gems and rare metals, and when they fly, their lower bodies become columns of swirling sand. A dao isn't happy unless it is the envy of other dao.
 
@@ -80,22 +81,25 @@ Genies acknowledge the gods as powerful entities but have no desire to court or 
   - !!int "14"
 "speed": "30 ft., burrow 30 ft., fly 30 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+5"
-  - "charisma": "+6"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "6"
 "condition_immunities": "[petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified)"
-"senses": "darkvision 120 ft., passive Perception 11"
+"gear":
+  - "[maul](03.PlayerLog&Handouts/Mechanics/CLI/items/maul.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": "Terran"
 "cr": "11"
 "traits":
   - "desc": "The dao's innate spellcasting ability is Charisma (spell save DC 14,\
       \ +6 to hit with spell attacks). It can innately cast the following spells,\
-      \ requiring no material components:\n\nAt will: [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
+      \ requiring no material components:\n\n**At will:** [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [stone shape](03.PlayerLog&Handouts/Mechanics/CLI/spells/stone-shape.md)\n\
-      \n3/day each: [passwall](03.PlayerLog&Handouts/Mechanics/CLI/spells/passwall.md),\
+      \n**3/day each:** [passwall](03.PlayerLog&Handouts/Mechanics/CLI/spells/passwall.md),\
       \ [move earth](03.PlayerLog&Handouts/Mechanics/CLI/spells/move-earth.md), [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\
-      \n1/day each: [conjure elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-elemental.md)\
+      \n**1/day each:** [conjure elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-elemental.md)\
       \ ([earth elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/earth-elemental.md)\
       \ only), [gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/spells/gaseous-form.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
@@ -115,21 +119,15 @@ Genies acknowledge the gods as powerful entities but have no desire to court or 
 "actions":
   - "desc": "The Dao makes two fist attacks or two maul attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 15 (2d8 + 6) bludgeoning damage."
     "name": "Fist"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 20 (4d6 + 6) bludgeoning damage. If the target is a Huge or smaller creature,\
       \ it must succeed on a DC 18 Strength check or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Maul"
 "source":
   - "MM"
-  - "PotA"
-  - "ToA"
-  - "WDMM"
-  - "BGDIA"
-  - "TCE"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/dao.webp"
 ```
 ^statblock

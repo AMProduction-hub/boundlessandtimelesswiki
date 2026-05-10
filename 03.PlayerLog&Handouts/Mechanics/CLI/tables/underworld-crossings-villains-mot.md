@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Underworld Crossings Villains
+- "Underworld Crossings Villains"
 ---
 # Underworld Crossings Villains
 *Source: Mythic Odysseys of Theros p. 118* 
 
 **Underworld Crossings Villains**
-
-`dice: [](underworld-crossings-villains-mot.md#^underworld-crossings-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

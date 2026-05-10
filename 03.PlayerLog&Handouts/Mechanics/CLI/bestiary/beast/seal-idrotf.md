@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Seal
+- "Seal"
 ---
-# [Seal](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/seal-idrotf.md)
+# [Seal](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/seal-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 308*  
 
 The seals native to the Sea of Moving Ice often beach themselves on ice floes and rocky shores. They are acclimated to the cold weather and feed primarily on small fish, squid, and clams. Seal pups have yellowish-white fur, which turns silvery gray as they enter adulthood.
@@ -33,7 +34,8 @@ The seals native to the Sea of Moving Ice often beach themselves on ice floes an
   - !!int "12"
   - !!int "5"
 "speed": "20 ft., swim 40 ft."
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": ""
 "cr": "0"
 "traits":
@@ -43,7 +45,7 @@ The seals native to the Sea of Moving Ice often beach themselves on ice floes an
       \ checks that rely on smell."
     "name": "Keen Smell"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 1\
       \ piercing damage."
     "name": "Bite"
 "source":

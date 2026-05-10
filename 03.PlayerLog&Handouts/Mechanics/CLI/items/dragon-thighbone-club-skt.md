@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/item/attunement/optional
 - ttrpg-cli/item/rarity/unknown/magic
 - ttrpg-cli/item/weapon/melee
 - ttrpg-cli/item/weapon/simple
-aliases: 
+aliases:
 - "Dragon Thighbone Club"
 ---
 # Dragon Thighbone Club

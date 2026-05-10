@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lightning Golem
+- "Lightning Golem"
 ---
-# [Lightning Golem](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/lightning-golem-cm.md)
+# [Lightning Golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/lightning-golem-cm.md)
 *Source: Candlekeep Mysteries p. 129*  
 
 Lightning golems resemble humans made of crackling lightning. Powerful enchantments protect it, deflecting spells and all but the most potent weapons.
@@ -41,7 +42,8 @@ Lightning golems resemble humans made of crackling lightning. Powerful enchantme
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "5"
 "traits":
@@ -70,7 +72,7 @@ Lightning golems resemble humans made of crackling lightning. Powerful enchantme
 "actions":
   - "desc": "The golem makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) lightning damage."
     "name": "Slam"
 "source":

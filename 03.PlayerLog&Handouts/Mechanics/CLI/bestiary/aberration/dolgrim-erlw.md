@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dolgrim
+- "Dolgrim"
 ---
-# [Dolgrim](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/dolgrim-erlw.md)
+# [Dolgrim](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/dolgrim-erlw.md)
 *Source: Eberron: Rising from the Last War p. 291*  
 
 Dolgrims are squat, deformed things. Warped by the daelkyr, a dolgrim is essentially two goblins crushed into one creature, their misshapen body boasting four arms and a pair of twisted mouths that gibber and slather at the front of a headless torso. The two mouths of a dolgrim sometimes carry on demented conversations with one another. However, a dolgrim has only a single personality—sadistic, bloodthirsty, and brutally dedicated to serving itself.
@@ -36,7 +37,12 @@ Small numbers of these creatures sometimes make their way to the surface, often 
   - !!int "10"
   - !!int "8"
 "speed": "30 ft."
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[morningstar](03.PlayerLog&Handouts/Mechanics/CLI/items/morningstar.md)"
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Deep Speech, Goblin"
 "cr": "1/2"
 "traits":
@@ -50,14 +56,14 @@ Small numbers of these creatures sometimes make their way to the surface, often 
 "actions":
   - "desc": "The dolgrim makes three attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) piercing damage."
     "name": "Morningstar"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Spear"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Hand Crossbow"
 "source":

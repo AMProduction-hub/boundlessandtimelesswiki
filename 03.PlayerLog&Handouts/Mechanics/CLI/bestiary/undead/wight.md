@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/3
@@ -13,10 +14,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Wight
+- "Wight"
 ---
-# [Wight](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/wight.md)
-*Source: Monster Manual p. 300, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Wight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wight.md)
+*Source: Monster Manual p. 300. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 The word "wight" meant "person" in days of yore, but the name now refers to evil undead who were once mortals driven by dark desire and great vanity. When death stills such a creature's heart and snuffs its living breath, its spirit cries out to the demon lord Orcus or some vile god of the underworld for a reprieve: undeath in return for eternal war on the living. If a dark power answers the call, the spirit is granted undeath so that it can pursue its own malevolent agenda.
 
@@ -66,7 +67,11 @@ A wight doesn't require air, food, drink, or sleep.
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "the languages it knew in life"
 "cr": "3"
 "traits":
@@ -78,7 +83,7 @@ A wight doesn't require air, food, drink, or sleep.
   - "desc": "The wight makes two longsword attacks or two longbow attacks. It can\
       \ use its Life Drain in place of one longsword attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 5 (1d6 + 2) necrotic damage. The target must succeed on a DC 13 Constitution\
       \ saving throw or its hit point maximum is reduced by an amount equal to the\
       \ damage taken. This reduction lasts until the target finishes a long rest.\
@@ -88,29 +93,15 @@ A wight doesn't require air, food, drink, or sleep.
       \ body is destroyed. The wight can have no more than twelve zombies under its\
       \ control at one time."
     "name": "Life Drain"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with\
       \ two hands."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:*\
       \ 6 (1d8 + 2) piercing damage."
     "name": "Longbow"
 "source":
   - "MM"
-  - "CoS"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "ToA"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "SDW"
-  - "BGDIA"
-  - "EGW"
-  - "IDRotF"
-  - "CM"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/wight.webp"
 ```
 ^statblock

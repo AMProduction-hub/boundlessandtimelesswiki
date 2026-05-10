@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/12
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Duergar Despot
+- "Duergar Despot"
 ---
-# [Duergar Despot](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/duergar-despot-mpmm.md)
+# [Duergar Despot](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar-despot-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 107, Mordenkainen's Tome of Foes p. 188*  
 
 Duergar despots replace parts of their bodies with mechanical devices that they control through their psionic abilities.
@@ -58,15 +59,16 @@ Among the duergar of the Forgotten Realms, creation is a fiercely passionate pro
   - !!int "13"
 "speed": "25 ft."
 "saves":
-  - "constitution": "+8"
-  - "wisdom": "+6"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "6"
 "damage_immunities": "poison"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 12"
 "languages": "Dwarvish, Undercommon"
 "cr": "12"
 "traits":
@@ -87,12 +89,12 @@ Among the duergar of the Forgotten Realms, creation is a fiercely passionate pro
       \ [opportunity attacks](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Opportunity%20Attack).\
       \ It can replace one of the attacks with a use of Flame Jet."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 23\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 23\
       \ (4d8 + 5) bludgeoning damage. If the target is a Large or smaller creature,\
       \ it must succeed on a DC 17 Strength saving throw or be pushed up to 30 feet\
       \ away in a straight line and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Iron Fist"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (1d10 + 5) bludgeoning damage, or 21 (3d10 + 5) to a [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
       \ target."
     "name": "Stomping Foot"
@@ -102,9 +104,9 @@ Among the duergar of the Forgotten Realms, creation is a fiercely passionate pro
     "name": "Flame Jet"
   - "desc": "The duergar casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 12):\n\n\
-      At will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      **At will:** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
-      \n1/day: [stinking cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/stinking-cloud.md)"
+      \n**1/day:** [stinking cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/stinking-cloud.md)"
     "name": "Spellcasting (Psionics)"
 "source":
   - "MPMM"

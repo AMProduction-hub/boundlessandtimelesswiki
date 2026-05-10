@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dc
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Warrior
+- "Warrior"
 ---
-# [Warrior](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/warrior-dc.md)
+# [Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/warrior-dc.md)
 *Source: Divine Contention*  
 
 ```statblock
@@ -33,7 +34,7 @@ aliases:
   - !!int "10"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+6"
+  - "constitution": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+8"
@@ -41,6 +42,9 @@ aliases:
     "desc": "+5"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+5"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
 "senses": "passive Perception 15"
 "languages": "Common, plus one of your choice"
 "traits":
@@ -54,22 +58,22 @@ aliases:
   - "desc": "The warrior can reroll a saving throw that it fails, but it must use\
       \ the new result."
     "name": "Indomitable (1/Day)"
-  - "desc": "The warrior has one of the following traits of your choice:\n\n- Attacker.\
-      \ The warrior gains a +2 bonus to attack rolls.  \n- Defender. The warrior\
+  - "desc": "The warrior has one of the following traits of your choice:\n\n- **Attacker.**\
+      \ The warrior gains a +2 bonus to attack rolls.  \n- **Defender.** The warrior\
       \ gains the Protection reaction below.  "
     "name": "Martial Role"
   - "desc": "The warrior can use a bonus action on its turn to regain hit points equal\
-      \ to d10 + its level."
+      \ to 1d10 + its level."
     "name": "Second Wind (Recharges after a Short or Long Rest)"
 "actions":
   - "desc": "The warrior can attack three times, instead of once, whenever it takes\
       \ the attack action on its turn."
     "name": "Extra Attack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with\
       \ two hands."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 150/600 ft., one target. *Hit:*\
       \ 6 (1d8 + 2) piercing damage."
     "name": "Longbow"
 "reactions":

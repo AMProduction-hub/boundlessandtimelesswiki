@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gelatinous Cube
+- "Gelatinous Cube"
 ---
-# [Gelatinous Cube](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\ooze/gelatinous-cube.md)
-*Source: Monster Manual p. 242, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Eberron: Rising from the Last War, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Gelatinous Cube](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/gelatinous-cube.md)
+*Source: Monster Manual p. 242. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Gelatinous cubes scour dungeon passages in silent, predictable patterns, leaving perfectly clean paths in their wake. They consume living tissue while leaving bones and other materials undissolved.
 
@@ -46,7 +47,8 @@ A gelatinous cube is all but transparent, making it hard to spot until it attack
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 8"
 "languages": ""
 "cr": "2"
 "traits":
@@ -66,7 +68,7 @@ A gelatinous cube is all but transparent, making it hard to spot until it attack
       \ by the cube."
     "name": "Transparent"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 10 (3d6) acid damage."
     "name": "Pseudopod"
   - "desc": "The cube moves up to its speed. While doing so, it can enter Large or\
@@ -85,11 +87,6 @@ A gelatinous cube is all but transparent, making it hard to spot until it attack
     "name": "Engulf"
 "source":
   - "MM"
-  - "TftYP"
-  - "WDMM"
-  - "GoS"
-  - "ERLW"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/token/gelatinous-cube.webp"
 ```
 ^statblock

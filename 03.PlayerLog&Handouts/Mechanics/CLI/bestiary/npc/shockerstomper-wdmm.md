@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/14
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Shockerstomper
+- "Shockerstomper"
 ---
-# [Shockerstomper](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/shockerstomper-wdmm.md)
+# [Shockerstomper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/shockerstomper-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 174*  
 
 ```statblock
@@ -37,7 +38,8 @@ aliases:
   \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 5"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 5"
 "languages": ""
 "cr": "14"
 "traits":
@@ -80,7 +82,7 @@ aliases:
       \ taking 44 (8d10) lightning damage on a failed save, or half as much damage\
       \ on a successful one."
     "name": "Lightning Turret"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one creature. *Hit:*\
       \ 22 (3d10 + 6) bludgeoning damage."
     "name": "Stomp"
 "source":

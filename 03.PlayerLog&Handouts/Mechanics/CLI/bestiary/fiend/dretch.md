@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dretch
+- "Dretch"
 ---
-# [Dretch](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/dretch.md)
-*Source: Monster Manual p. 57, Curse of Strahd, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Dretch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/dretch.md)
+*Source: Monster Manual p. 57. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Dretches are among the weakest of demons-repulsive, self-loathing creatures doomed to spend eternity in a state of perpetual discontent. Their low intelligence makes dretches unsuitable for anything but the simplest tasks. However, what they lack in potential, they make up for in sheer malice. Dretches mill about in mobs, voicing their displeasure as an unsettling din of hoots, snarls, and grunts.
 
@@ -165,13 +166,13 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > 
 > Some demons can have an action option that allows them to summon other demons. Summon Demon (1/Day). The demon chooses what to summon and attempts a magical summoning.
 > 
-> - A balor has a 50 percent chance of summoning `d8` vrocks, `d6` hezrous, `d4` glabrezus, `d3` nalfeshnees, `d2` mariliths, or one goristro.  
+> - A balor has a 50 percent chance of summoning `1d8` vrocks, `1d6` hezrous, `1d4` glabrezus, `1d3` nalfeshnees, `1d2` mariliths, or one goristro.  
 > - A barlgura has a 30 percent chance of summoning one barlgura.  
 > - A chasme has a 30 percent chance of summoning one chasme.  
-> - A glabrezu has a 30 percent chance of summoning `d3` vrocks, `d2` hezrous, or one glabrezu.  
+> - A glabrezu has a 30 percent chance of summoning `1d3` vrocks, `1d2` hezrous, or one glabrezu.  
 > - A hezrou has a 30 percent chance of summoning `2d6` dretches or one hezrou.  
-> - A marilith has a 50 percent chance of summoning `d6` vrocks, `d4` hezrous, `d3` glabrezus, `d2` nalfeshnees, or one marilith.  
-> - A nalfeshnee has a 50 percent chance of summoning `d4` vrocks, `d3` hezrous, `d2` glabrezus, or one nalfeshnee.  
+> - A marilith has a 50 percent chance of summoning `1d6` vrocks, `1d4` hezrous, `1d3` glabrezus, `1d2` nalfeshnees, or one marilith.  
+> - A nalfeshnee has a 50 percent chance of summoning `1d4` vrocks, `1d3` hezrous, `1d2` glabrezus, or one nalfeshnee.  
 > - A vrock has a 30 percent chance of summoning `2d4` dretches or one vrock.  
 > - A yochlol has a 50 percent chance of summoning one yochlol.  
 > 
@@ -205,17 +206,18 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "Abyssal, telepathy 60 ft. (works only with creatures that understand\
   \ Abyssal)"
 "cr": "1/4"
 "actions":
   - "desc": "The dretch makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3\
-      \ (d6) piercing damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 3\
+      \ (1d6) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (2d4) slashing damage."
     "name": "Claws"
   - "desc": "A 10-foot radius of disgusting green gas extends out from the dretch.\
@@ -229,11 +231,6 @@ Demonologists organize the chaotic distribution of demons into broad categories 
     "name": "Fetid Cloud (1/Day)"
 "source":
   - "MM"
-  - "CoS"
-  - "GoS"
-  - "BGDIA"
-  - "IMR"
-  - "EGW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/dretch.webp"
 ```
 ^statblock

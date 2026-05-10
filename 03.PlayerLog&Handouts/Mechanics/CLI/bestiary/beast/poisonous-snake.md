@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-8
@@ -15,10 +16,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Poisonous Snake
+- "Poisonous Snake"
 ---
-# [Poisonous Snake](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/poisonous-snake.md)
-*Source: Monster Manual p. 334, Tales from the Yawning Portal, Tomb of Annihilation, Ghosts of Saltmarsh, Infernal Machine Rebuild. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Poisonous Snake](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/poisonous-snake.md)
+*Source: Monster Manual p. 334. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Poisonous Snake"
@@ -37,21 +38,18 @@ aliases:
   - !!int "10"
   - !!int "3"
 "speed": "30 ft., swim 30 ft."
-"senses": "blindsight 10 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., passive Perception 10"
 "languages": ""
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1\
       \ piercing damage, and the target must make a DC 10 Constitution saving throw,\
       \ taking 5 (2d4) poison damage on a failed save, or half as much damage on\
       \ a successful one."
     "name": "Bite"
 "source":
   - "MM"
-  - "TftYP"
-  - "ToA"
-  - "GoS"
-  - "IMR"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/poisonous-snake.webp"
 ```
 ^statblock

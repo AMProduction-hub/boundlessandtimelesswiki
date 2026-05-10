@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/deity/theros
 - ttrpg-cli/domain/death
 - ttrpg-cli/domain/grave
-aliases: 
-- Athreos
+aliases:
+- "Athreos"
 ---
 # Athreos
 *Source: Mythic Odysseys of Theros p. 37* 
@@ -83,8 +84,6 @@ As all mortals eventually bow before him, the River Guide doesn't seek worship. 
 
 **Athreos's Favor**
 
-`dice: [](theros-athreos-mot.md#^athreoss-favor)`
-
 | dice: d6 | Circumstance |
 |----------|--------------|
 | 1 | A family member died bringing you into the world. |
@@ -100,8 +99,6 @@ As all mortals eventually bow before him, the River Guide doesn't seek worship. 
 Servants of Athreos facilitate the passage from life into death. As a follower of Athreos, consider the possibilities on the Athreos's Ideals table as alternatives to those suggested for your background.
 
 **Athreos's Ideals**
-
-`dice: [](theros-athreos-mot.md#^athreoss-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

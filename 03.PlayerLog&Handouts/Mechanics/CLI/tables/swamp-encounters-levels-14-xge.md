@@ -1,21 +1,20 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Swamp Encounters (Levels 1—4)
+- "Swamp Encounters (Levels 1—4)"
 ---
 # Swamp Encounters (Levels 1—4)
 *Source: Xanathar's Guide to Everything p. 105* 
 
 **Swamp Encounters (Levels 1—4)**
 
-`dice: [](swamp-encounters-levels-14-xge.md#^swamp-encounters-levels-14)`
-
 | dice: d100 | Encounter |
 |------------|-----------|
-| 01 | `d4` [poisonous snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/poisonous-snake.md) |
+| 01 | `1d4` [poisonous snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/poisonous-snake.md) |
 | 02-05 | `3d6` [rats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/rat.md) |
 | 06-10 | `2d8` [ravens](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/raven.md) |
 | 11-12 | `3d6` [giant rats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-rat.md) |
@@ -38,13 +37,13 @@ aliases:
 | 46-48 | `2d10` [stirges](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/stirge.md) |
 | 49-52 | `2d6 + 3` [bullywugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bullywug.md) |
 | 53-54 | `1d8 + 1` [orcs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc.md) |
-| 55-56 | `d4` [yuan-ti purebloods](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/yuan-ti-pureblood.md) |
+| 55-56 | `1d4` [yuan-ti purebloods](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/yuan-ti-pureblood.md) |
 | 57 | 1 [druid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md) |
 | 58-59 | 1 yuan-ti malison: [type 1](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-1.md), [type 2](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-2.md), [type 3](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-3.md) |
 | 60-62 | 1 [giant constrictor snake](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-constrictor-snake.md) |
-| 63-64 | A high-pitched shriek that lasts for `d4` minutes |
+| 63-64 | A high-pitched shriek that lasts for `1d4` minutes |
 | 65-67 | `2d4` [lizardfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk.md) |
-| 68-69 | `d4` [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) |
+| 68-69 | `1d4` [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) |
 | 70-71 | 1 [will-o'-wisp](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/will-o-wisp.md) |
 | 72 | 1 [wight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wight.md) |
 | 73 | 1 [ghast](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghast.md) |
@@ -52,14 +51,14 @@ aliases:
 | 76-77 | A foul stench bubbling up from brackish waters |
 | 78-80 | `1d4 + 2` [ogres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md) |
 | 81-83 | 1 [shambling mound](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/shambling-mound.md) |
-| 84-86 | 1 [lizardfolk shaman](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk-shaman.md) with `d6` [giant lizards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-lizard.md) and `2d10` [lizardfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk.md) |
+| 84-86 | 1 [lizardfolk shaman](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk-shaman.md) with `1d6` [giant lizards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-lizard.md) and `2d10` [lizardfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk.md) |
 | 87 | 1 [troll](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/troll.md) |
-| 88-89 | `d4` [green hags](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/green-hag.md) |
+| 88-89 | `1d4` [green hags](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/green-hag.md) |
 | 90-91 | 1 [revenant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/revenant.md) |
 | 92-93 | 1 [giant crocodile](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-crocodile.md) |
-| 94-95 | 1 [orc Eye of Gruumsh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc-eye-of-gruumsh.md) with `d3` [orogs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orog.md) and `2d6 + 3` [orcs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc.md) |
+| 94-95 | 1 [orc Eye of Gruumsh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc-eye-of-gruumsh.md) with `1d3` [orogs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orog.md) and `2d6 + 3` [orcs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc.md) |
 | 96-97 | 1 [young black dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-black-dragon.md) |
 | 98 | 1 [yuan-ti abomination](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-abomination.md) |
-| 99 | `d4` [water elementals](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-elemental.md) |
+| 99 | `1d4` [water elementals](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-elemental.md) |
 | 00 | 1 [hydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hydra.md) |
 ^swamp-encounters-levels-14

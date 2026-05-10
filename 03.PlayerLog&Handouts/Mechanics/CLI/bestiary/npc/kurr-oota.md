@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kurr
+- "Kurr"
 ---
-# [Kurr](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/kurr-oota.md)
+# [Kurr](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kurr-oota.md)
 *Source: Out of the Abyss p. 179*  
 
 ```statblock
@@ -34,10 +35,11 @@ aliases:
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+4"
-  - "wisdom": "+2"
-  - "charisma": "+3"
-"senses": "darkvision 60 ft., passive Perception 10"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "2"
+  - "charisma": !!int "3"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Abyssal, Gnoll"
 "cr": "4"
 "traits":
@@ -48,11 +50,11 @@ aliases:
 "actions":
   - "desc": "Kurr makes three attacks: one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 6 (1d6 + 3) piercing damage, and the target must succeed on a DC 12 Constitution\
       \ saving throw or take 7 (2d6) poison damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage."
     "name": "Claw"
 "source":

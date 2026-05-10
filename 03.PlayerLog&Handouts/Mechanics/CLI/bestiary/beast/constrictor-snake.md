@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -13,10 +14,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Constrictor Snake
+- "Constrictor Snake"
 ---
-# [Constrictor Snake](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/constrictor-snake.md)
-*Source: Monster Manual p. 320, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Constrictor Snake](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/constrictor-snake.md)
+*Source: Monster Manual p. 320. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Constrictor Snake"
@@ -35,23 +36,21 @@ aliases:
   - !!int "10"
   - !!int "3"
 "speed": "30 ft., swim 30 ft."
-"senses": "blindsight 10 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., passive Perception 10"
 "languages": ""
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 6 (1d8 + 2) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14). Until this grapple ends, the creature is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and the snake can't constrict another target."
     "name": "Constrict"
 "source":
   - "MM"
-  - "TftYP"
-  - "ToA"
-  - "WDMM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/constrictor-snake.webp"
 ```
 ^statblock

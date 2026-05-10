@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Embric
+- "Embric"
 ---
-# [Embric](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/embric-wdh.md)
+# [Embric](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/embric-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 32*  
 
 Embric tends the forge in the Steam and Steel shop in Trollskull Alley. He is an expert weaponsmith and claims descent from the efreet of Calimshan and is prone to extreme mood swings. He is married to Avi.
@@ -36,31 +37,35 @@ Embric tends the forge in the Steam and Steel shop in Trollskull Alley. He is an
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "strength": "+4"
-  - "dexterity": "+5"
-  - "wisdom": "+2"
+  - "strength": !!int "4"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+4"
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Primordial"
 "cr": "2"
 "traits":
   - "desc": "Embric's spellcasting ability is Constitution (+4 to hit with spell\
       \ attacks). He can innately cast the following spells, requiring no material\
-      \ components:\n\nAt will: [produce flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md)"
+      \ components:\n\n**At will:** [produce flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md)"
     "name": "Innate Spellcasting"
 "actions":
   - "desc": "Embric makes three melee attacks: two with its scimitar and one with\
       \ its dagger. Or Embric makes two ranged attacks with its daggers."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Scimitar"
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
     "name": "Dagger"
 "reactions":
   - "desc": "Embric adds 2 to its AC against one melee attack that would hit it. To\

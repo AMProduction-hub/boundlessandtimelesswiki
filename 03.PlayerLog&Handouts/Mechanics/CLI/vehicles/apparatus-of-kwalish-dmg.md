@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-vehicle
+cssclasses:
+- json5e-vehicle
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/vehicle/size/large
 - ttrpg-cli/vehicle/terrain/sea
 - ttrpg-cli/vehicle/type/object
 aliases:
-- Apparatus of Kwalish
+- "Apparatus of Kwalish"
 ---
 # Apparatus of Kwalish
 %%-- Embedded content starts on the next line. --%%
@@ -21,7 +22,7 @@ title: Apparatus of Kwalish
 - **Creature Capacity** 1 crew, 1 passenger
 - **Armor Class** 20
 - **Hit Points** 200
-- **Speed** 30 ft., swim 30 ft. (or 0 ft. for both if the legs and tail aren't extended)
+- **Speed** 30 ft., swim 30 ft. (or 0 ft. for both if the legs aren't extended)
 
 |STR|DEX|CON|INT|WIS|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|

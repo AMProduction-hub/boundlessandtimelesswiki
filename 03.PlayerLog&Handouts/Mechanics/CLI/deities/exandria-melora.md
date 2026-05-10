@@ -1,14 +1,15 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/deity/exandria
 - ttrpg-cli/domain/life
 - ttrpg-cli/domain/nature
 - ttrpg-cli/domain/tempest
-aliases: 
-- Melora
+aliases:
+- "Melora"
 ---
 # Melora
 *Source: Explorer's Guide to Wildemount p. 23* 

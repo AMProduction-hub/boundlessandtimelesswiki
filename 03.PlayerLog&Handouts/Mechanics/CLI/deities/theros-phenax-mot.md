@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/deity/theros
 - ttrpg-cli/domain/trickery
-aliases: 
-- Phenax
+aliases:
+- "Phenax"
 ---
 # Phenax
 *Source: Mythic Odysseys of Theros p. 73* 
@@ -91,8 +92,6 @@ What did you do to garner his attention? What set you apart in his eyes from pet
 
 **Phenax's Favor**
 
-`dice: [](theros-phenax-mot.md#^phenaxs-favor)`
-
 | dice: d6 | Circumstance |
 |----------|--------------|
 | 1 | You were born at midnight under the new moon. |
@@ -108,8 +107,6 @@ What did you do to garner his attention? What set you apart in his eyes from pet
 Following Phenax means devoting yourself to a life of trickery and guile. To a champion of Phenax, a life without risk is no life at all. Some rules are meant to be broken, some secrets meant to be shared, and order must be upended from time to time. As a follower of Phenax, consider the ideals on the Phenax's Ideals table as alternatives to those suggested for your background.
 
 **Phenax's Ideals**
-
-`dice: [](theros-phenax-mot.md#^phenaxs-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

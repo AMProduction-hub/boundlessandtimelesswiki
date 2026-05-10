@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
@@ -13,9 +14,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Clockwork Bronze Scout
+- "Clockwork Bronze Scout"
 ---
-# [Clockwork Bronze Scout](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/clockwork-bronze-scout-mpmm.md)
+# [Clockwork Bronze Scout](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-bronze-scout-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 79, Mordenkainen's Tome of Foes p. 125*  
 
 A bronze scout seldom emerges from underground. Its telescoping eyestalks observe foes at close range while most of its segmented body remains buried. If detected, it sends electrical shocks through the ground toward pursuers while it retreats.
@@ -29,8 +30,6 @@ Gnomes' tinkering with magic and mechanical devices has produced many failed Con
 Gnome artisans prefer unique clockworks over perfectly functioning ones that copy too much from other creations. A clockwork can be customized by adding one of the following enhancements and one potential malfunction to its stat block. You can select randomly or choose a pair of modifications that fit the temperament of the clockwork's builder.
 
 **Clockwork Enhancements**
-
-`dice: [](clockwork-bronze-scout-mpmm.md#^clockwork-enhancements)`
 
 | dice: d10 | Enhancement |
 |-----------|-------------|
@@ -47,8 +46,6 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 ^clockwork-enhancements
 
 **Clockwork Malfunctions**
-
-`dice: [](clockwork-bronze-scout-mpmm.md#^clockwork-malfunctions)`
 
 | dice: d8 | Malfunction |
 |----------|-------------|
@@ -91,7 +88,8 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 16"
 "languages": "understands one language of its creator but can't speak"
 "cr": "1"
 "traits":
@@ -104,8 +102,8 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
   - "desc": "The clockwork doesn't require air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d4 + 3) piercing damage plus 3 (d6) lightning damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
+      \ (1d4 + 3) piercing damage plus 3 (1d6) lightning damage."
     "name": "Bite"
   - "desc": "Each creature in contact with the ground within 15 feet of the clockwork\
       \ must make a DC 13 Dexterity saving throw, taking 14 (4d6) lightning damage\

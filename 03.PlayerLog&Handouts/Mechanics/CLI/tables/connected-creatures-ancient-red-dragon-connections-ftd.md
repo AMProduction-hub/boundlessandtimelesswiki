@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Connected Creatures; Ancient Red Dragon Connections
+- "Connected Creatures; Ancient Red Dragon Connections"
 ---
 # Connected Creatures; Ancient Red Dragon Connections
 *Source: Fizban's Treasury of Dragons p. 134* 
 
 **Ancient Red Dragon Connections**
-
-`dice: [](connected-creatures-ancient-red-dragon-connections-ftd.md#^ancient-red-dragon-connections)`
 
 | dice: d4 | Connected Creatures |
 |----------|---------------------|

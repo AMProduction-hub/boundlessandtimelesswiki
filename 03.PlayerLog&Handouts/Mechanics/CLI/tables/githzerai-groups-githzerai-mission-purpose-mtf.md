@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Githzerai Groups; Githzerai Mission Purpose
+- "Githzerai Groups; Githzerai Mission Purpose"
 ---
 # Githzerai Groups; Githzerai Mission Purpose
 *Source: Mordenkainen's Tome of Foes p. 98* 
 
 **Githzerai Mission Purpose**
-
-`dice: [](githzerai-groups-githzerai-mission-purpose-mtf.md#^githzerai-mission-purpose)`
 
 | dice: d4 | Purpose |
 |----------|---------|

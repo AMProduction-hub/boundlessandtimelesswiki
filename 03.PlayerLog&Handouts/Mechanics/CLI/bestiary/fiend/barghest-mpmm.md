@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -14,9 +15,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Barghest
+- "Barghest"
 ---
-# [Barghest](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/barghest-mpmm.md)
+# [Barghest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/barghest-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 60, Volo's Guide to Monsters p. 123*  
 
 Long ago, the god Maglubiyet—conqueror and then lord of early goblinoids—bargained with the General of Gehenna for aid. The General provided yugoloths, which then died in service to Maglubiyet. Yet when the time came to honor his part of the compact, Maglubiyet reneged on the deal. In vengeance, the General of Gehenna created the soul-devouring barghests to devour goblinoid souls.
@@ -58,7 +59,9 @@ Any conflagration larger than its body acts as a gateway to Gehenna and banishes
   \ attacks"
 "damage_immunities": "acid, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 15"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Abyssal, Common, Goblin, Infernal, telepathy 60 ft."
 "cr": "4"
 "traits":
@@ -77,18 +80,18 @@ Any conflagration larger than its body acts as a gateway to Gehenna and banishes
 "actions":
   - "desc": "The barghest makes one Bite attack and one Claw attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage."
     "name": "Claw"
   - "desc": "The barghest casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 12):\n\
-      \nAt will: [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md),\
+      \n**At will:** [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md),\
       \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
       \ [pass without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md)\n\
-      \n1/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \n**1/day each:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
     "name": "Spellcasting"

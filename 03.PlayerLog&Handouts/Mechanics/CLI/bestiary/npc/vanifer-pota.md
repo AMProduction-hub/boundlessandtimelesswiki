@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vanifer
+- "Vanifer"
 ---
-# [Vanifer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/vanifer-pota.md)
+# [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md)
 *Source: Princes of the Apocalypse p. 203*  
 
 Vanifer's rough childhood has hardened her heart against others. The world is a corrupt, painful place, she thinks, and deserving of a fiery end. For years, she was a dancer and concubine in a pasha's court in Calimshan. Later, she took up the mantle of prophet when she found Tinderstrike, and the same ruthless ambition and practiced manipulation that enabled her to escape a life of servitude serves her well as the head of a growing cult.
@@ -49,30 +50,33 @@ When enemies threaten the Temple of Eternal Flame, Vanifer withdraws to the Weep
   - "name": "[Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance)"
     "desc": "+8"
 "damage_immunities": "fire"
-"senses": "darkvision 60 ft., passive Perception 11"
+"gear":
+  - "[tinderstrike](03.PlayerLog&Handouts/Mechanics/CLI/items/tinderstrike-pota.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common, Ignan, Infernal"
 "cr": "9"
 "traits":
   - "desc": "Vanifer is a 10th-level spellcaster. Her spellcasting ability is Charisma\
       \ (spell save DC 16, +8 to hit with spell attacks). Vanifer knows the following\
-      \ sorcerer spells:\n\nCantrips (at will): [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md),\
+      \ sorcerer spells:\n\n**Cantrips (at will):** [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md),\
       \ [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md), [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md),\
       \ [produce flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md),\
+      \n**1st level (4 slots):** [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md),\
       \ [chromatic orb](03.PlayerLog&Handouts/Mechanics/CLI/spells/chromatic-orb.md),\
       \ [hellish rebuke](03.PlayerLog&Handouts/Mechanics/CLI/spells/hellish-rebuke.md),\
-      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n2nd level\
-      \ (3 slots): [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n**2nd level\
+      \ (3 slots):** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md), [scorching\
-      \ ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md)\n\n3rd\
-      \ level (3 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      \ ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md)\n\n**3rd\
+      \ level (3 slots):** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [hypnotic\
       \ pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md)\n\
-      \n4th level (3 slots): [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)\n\
-      \n5th level (2 slots): [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md)"
+      \n**4th level (3 slots):** [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)\n\
+      \n**5th level (2 slots):** [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md)"
     "name": "Spellcasting"
   - "desc": "When Vanifer drops to 0 hit points, her body is consumed in a flash of\
       \ fire and smoke. Anything she was wearing or carrying is left behind among\
@@ -83,8 +87,8 @@ When enemies threaten the Temple of Eternal Flame, Vanifer withdraws to the Weep
 "actions":
   - "desc": "Vanifer makes two attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 7 (1d4 + 5) piercing damage plus 7 (2d6) fire\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +9 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 7 (1d4 + 5) piercing damage plus 7 (2d6) fire\
       \ damage."
     "name": "Tinderstrike"
 "lair_actions":
@@ -97,9 +101,8 @@ When enemies threaten the Temple of Eternal Flame, Vanifer withdraws to the Weep
       \ lair actions while [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
       \ on a spell cast as a lair action. Her favorite use of this capability is casting\
       \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md) or [hypnotic\
-      \ pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md)."
-    "name": ""
-  - "desc": "If Vanifer casts [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md)\
+      \ pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md).\n\
+      \nIf Vanifer casts [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md)\
       \ using this lair action, she also draws the power of the fire node into herself.\
       \ By doing so, she regains 15 (3d8 + 2) hit points."
     "name": ""

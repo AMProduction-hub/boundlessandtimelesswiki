@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/3
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Killer Whale
+- "Killer Whale"
 ---
-# [Killer Whale](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/killer-whale.md)
-*Source: Monster Manual p. 331, Storm King's Thunder, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Killer Whale](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/killer-whale.md)
+*Source: Monster Manual p. 331. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Killer Whale"
@@ -36,7 +37,8 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
-"senses": "blindsight 120 ft., passive Perception 13"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft., passive Perception 13"
 "languages": ""
 "cr": "3"
 "traits":
@@ -48,16 +50,11 @@ aliases:
       \ checks that rely on hearing."
     "name": "Keen Hearing"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 21\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 21\
       \ (5d6 + 4) piercing damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "SKT"
-  - "GoS"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/killer-whale.webp"
 ```
 ^statblock

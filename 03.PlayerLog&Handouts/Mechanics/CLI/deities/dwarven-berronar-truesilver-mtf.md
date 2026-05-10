@@ -1,14 +1,15 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/deity/dwarven
 - ttrpg-cli/domain/life
 - ttrpg-cli/domain/light
 - ttrpg-cli/domain/peace
-aliases: 
-- Berronar Truesilver
+aliases:
+- "Berronar Truesilver"
 ---
 # Berronar Truesilver
 *Source: Mordenkainen's Tome of Foes p. 73, Tasha's Cauldron of Everything p. 33* 

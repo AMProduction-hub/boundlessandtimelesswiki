@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dip
 aliases:
-- Tower of Storms
+- "Tower of Storms"
 ---
 # Tower of Storms
 *Source: Essentials Kit: Dragon of Icespire Peak, p. 40* 
@@ -133,7 +134,7 @@ The light originates from Moesko's still-beating heart, which floats in the air 
 > 
 > West of the Tower of Storms are five sunken shipwrecks (areas T10 through T14), with only their masts visible. Characters intent on searching the ships for treasure will need [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) or magical light sources to see, as the wrecks are submerged in murky, 20-foot-deep water.
 > 
-> Characters atop the 80-foot-high lighthouse outcropping might try to climb down its slope to reach the water. The slope has abundant handholds but is wet, so that ascending or descending it requires a successful DC 10 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. A character who fails the check slips and falls, landing in the water below and taking `d6` bludgeoning damage per 10 feet fallen.
+> Characters atop the 80-foot-high lighthouse outcropping might try to climb down its slope to reach the water. The slope has abundant handholds but is wet, so that ascending or descending it requires a successful DC 10 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. A character who fails the check slips and falls, landing in the water below and taking `1d6` bludgeoning damage per 10 feet fallen.
 > 
 > Three 15-foot-long [hunter sharks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/hunter-shark.md) glide among the wrecks. Daggermaw is the meanest and hungriest of the three, and it attacks characters without provocation after they finish searching two of the wrecks. If Daggermaw wounds a character, that character's blood in the water attracts the other two sharks, which join the fray on Daggermaw's next turn.
 ^exploring-the-wrecks

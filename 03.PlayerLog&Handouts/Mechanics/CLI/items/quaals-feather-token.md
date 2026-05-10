@@ -1,20 +1,19 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/rarity/rare
-aliases: 
+aliases:
 - "Quaal's Feather Token"
 ---
 # Quaal's Feather Token
 *Wondrous item, rare*  
-![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/quaals-feather-token.webp#right)
+![Quaal's Feather Tokens (Whip, Anchor, Bird, Swan Boat, Fan, Tree)](03.PlayerLog&Handouts/Mechanics/CLI/items/img/quaals-feather-token.webp#right)
 
 
 This tiny object looks like a feather. Different types of feather tokens exist, each with a different single-use effect. The DM chooses the kind of token or determines it randomly.
-
-`dice: [](quaals-feather-token.md#^feather-token)`
 
 | dice: d100 | Feather Token |
 |------------|---------------|

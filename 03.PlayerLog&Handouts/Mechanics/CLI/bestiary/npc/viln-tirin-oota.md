@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Viln Tirin
+- "Viln Tirin"
 ---
-# [Viln Tirin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/viln-tirin-oota.md)
+# [Viln Tirin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/viln-tirin-oota.md)
 *Source: Out of the Abyss p. 202*  
 
 ```statblock
@@ -34,21 +35,26 @@ aliases:
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "strength": "+4"
-  - "dexterity": "+5"
-  - "wisdom": "+2"
+  - "strength": !!int "4"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+4"
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+4"
-"senses": "darkvision 120 ft., passive Perception 10"
-"languages": "any two languages, Elvish"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
+"languages": "any two languages, Elvish, Undercommon"
 "cr": "5"
 "traits":
-  - "desc": "Viln\n\nAt will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
-      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
-      \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md)"
+  - "desc": "Viln\n\n**At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
+      \n**1/day each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
+      \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md) (self only)"
     "name": "Innate Spellcasting"
   - "desc": "Viln carries a [scimitar of speed](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar-of-speed.md)\
       \ and can make one attack with it as a bonus action on her turn. Viln also carries\
@@ -65,11 +71,11 @@ aliases:
   - "desc": "Viln makes three melee attacks: two with its scimitar and one with its\
       \ dagger. Or Viln makes two ranged attacks with its daggers."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d6 + 5) slashing damage."
     "name": "Scimitar"
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
     "name": "Dagger"
 "reactions":
   - "desc": "Viln adds 2 to its AC against one melee attack that would hit it. To\

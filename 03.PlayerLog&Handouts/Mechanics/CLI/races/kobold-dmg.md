@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/race/kobold
 aliases:
-- Kobold
+- "Kobold"
 ---
 # Kobold
 *Source: Dungeon Master's Guide p. 282*  
 
 
-- **Ability Scores**: Dexterity +2; Strength -4
+- **Ability Scores**: dex +2 str -4
 - **Size**: Small
 - **Speed**: 30 ft.
 

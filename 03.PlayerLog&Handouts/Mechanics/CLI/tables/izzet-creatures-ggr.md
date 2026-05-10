@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Izzet Creatures
+- "Izzet Creatures"
 ---
 # Izzet Creatures
 *Source: Guildmasters' Guide to Ravnica p. 185* 

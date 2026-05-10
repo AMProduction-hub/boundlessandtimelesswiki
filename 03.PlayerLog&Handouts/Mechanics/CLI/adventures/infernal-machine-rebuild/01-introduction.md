@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 aliases:
-- Introduction
+- "Introduction"
 ---
 # Introduction
 *Source: Infernal Machine Rebuild, p. 1* 

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Running the Game
+- "Running the Game"
 ---
 # Running the Game
 *Source: Dungeon Master's Guide (2014), p. 235* 
@@ -641,7 +642,7 @@ Many spells and other game features create areas of effect, such as the cone and
 
 If you would like more guidance, consider using the Targets in Areas of Effect table. To use the table, imagine which combatants are near one another, and let the table guide you in determining the number of those combatants that are caught in an area of effect.
 
-Add or subtract targets based on how bunched up the potential targets are. Consider rolling `d3` to determine the amount to add or subtract.
+Add or subtract targets based on how bunched up the potential targets are. Consider rolling `1d3` to determine the amount to add or subtract.
 
 ![Adjudicating Areas of Effect; Targets in Areas of Effect](03.PlayerLog&Handouts/Mechanics/CLI/tables/adjudicating-areas-of-effect-targets-in-areas-of-effect.md)
 
@@ -912,7 +913,7 @@ The Poisons table gives suggested prices for single doses of various poisons.
 
 During downtime between adventures, a character can use the crafting rules in the Player's Handbook to create basic poison if the character has proficiency with a [poisoner's kit](03.PlayerLog&Handouts/Mechanics/CLI/items/poisoners-kit.md). At your discretion, the character can craft other kinds of poison. Not all poison ingredients are available for purchase, and tracking down certain ingredients might form the basis of an entire adventure.
 
-A character can instead attempt to harvest poison from a poisonous creature, such as a snake, wyvern, or carrion crawler. The creature must be incapacitated or dead, and the harvesting requires `d6` minutes followed by a DC 20 Intelligence ([Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature)) check. (Proficiency with the [poisoner's kit](03.PlayerLog&Handouts/Mechanics/CLI/items/poisoners-kit.md) applies to this check if the character doesn't have proficiency in Nature.) On a successful check, the character harvests enough poison for a single dose. On a failed check, the character is unable to extract any poison. If the character fails the check by 5 or more, the character is subjected to the creature's poison.
+A character can instead attempt to harvest poison from a poisonous creature, such as a snake, wyvern, or carrion crawler. The creature must be incapacitated or dead, and the harvesting requires `1d6` minutes followed by a DC 20 Intelligence ([Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature)) check. (Proficiency with the [poisoner's kit](03.PlayerLog&Handouts/Mechanics/CLI/items/poisoners-kit.md) applies to this check if the character doesn't have proficiency in Nature.) On a successful check, the character harvests enough poison for a single dose. On a failed check, the character is unable to extract any poison. If the character fails the check by 5 or more, the character is subjected to the creature's poison.
 
 ## Madness
 
@@ -928,7 +929,7 @@ Resisting a madness-inducing effect usually requires a Wisdom or Charisma saving
 
 Madness can be short-term, long-term, or indefinite. Most relatively mundane effects impose short-term madness, which lasts for just a few minutes. More horrific effects or cumulative effects can result in long-term or indefinite madness.
 
-A character afflicted with **short-term madness** is subjected to an effect from the Short-Term Madness table for `d10` minutes.
+A character afflicted with **short-term madness** is subjected to an effect from the Short-Term Madness table for `1d10` minutes.
 
 A character afflicted with **long-term madness** is subjected to an effect from the Long-Term Madness table for `1d10 × 10` hours.
 

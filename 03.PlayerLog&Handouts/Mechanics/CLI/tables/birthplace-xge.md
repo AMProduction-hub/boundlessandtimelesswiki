@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Birthplace
+- "Birthplace"
 ---
 # Birthplace
 *Source: Xanathar's Guide to Everything p. 62* 
 
 **Birthplace**
-
-`dice: [](birthplace-xge.md#^birthplace)`
 
 | dice: d100 | Location |
 |------------|----------|

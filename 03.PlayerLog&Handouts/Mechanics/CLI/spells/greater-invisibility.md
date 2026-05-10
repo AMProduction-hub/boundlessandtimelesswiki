@@ -1,16 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/4th-level
 - ttrpg-cli/spell/school/illusion
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/armorer
-- ttrpg-cli/spell/subclass/circle-of-the-land
+- ttrpg-cli/spell/subclass/circle-of-the-land/underdark
 - ttrpg-cli/spell/subclass/eldritch-knight
 - ttrpg-cli/spell/subclass/gloom-stalker
 - ttrpg-cli/spell/subclass/the-archfey
@@ -20,9 +21,9 @@ tags:
 - ttrpg-cli/spell/subrace/elf-mark-of-shadow
 classes:
 - Artificer (Armorer)
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Twilight Domain)
-- Druid (Circle of the Land)
+- Druid (Circle of the Land, Underdark)
 - Fighter (Eldritch Knight)
 - Ranger (Gloom Stalker)
 - Rogue (Arcane Trickster)
@@ -32,7 +33,7 @@ classes:
 - Warlock (The Undead)
 - Wizard
 aliases:
-- Greater Invisibility
+- "Greater Invisibility"
 ---
 # Greater Invisibility
 *4th-level, Illusion*  
@@ -45,6 +46,6 @@ aliases:
 
 You or a creature you touch becomes [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) until the spell ends. Anything the target is wearing or carrying is [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) as long as it is on the target's person.
 
-**Classes**: [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Cleric (Twilight Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-twilight-domain-tce.md "subclass=TCE"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Warlock (The Undead)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-undead-vrgr.md "subclass=VRGR"); [Ranger (Gloom Stalker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-gloom-stalker-xge.md "subclass=XGE"); [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Archfey)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-archfey.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Artificer (Armorer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-armorer-tce.md "subclass=TCE;class=TCE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md)
+**Classes**: [Artificer (Armorer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-armorer-tce.md "subclass=TCE;class=TCE"); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Twilight Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-twilight-domain-tce.md "subclass=TCE"); [Druid (Circle of the Land, Underdark)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Ranger (Gloom Stalker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-gloom-stalker-xge.md "subclass=XGE"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock (The Archfey)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-archfey.md); [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Warlock (The Undead)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-undead-vrgr.md "subclass=VRGR"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 246. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

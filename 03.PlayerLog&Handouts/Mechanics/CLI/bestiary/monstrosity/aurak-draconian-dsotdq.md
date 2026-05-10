@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Aurak Draconian
+- "Aurak Draconian"
 ---
-# [Aurak Draconian](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/aurak-draconian-dsotdq.md)
+# [Aurak Draconian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/aurak-draconian-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 196*  
 
 Created from the eggs of gold dragons, aurak draconians are the most powerful of draconians, their entire being thrumming with eldritch power. Unlike other draconians, auraks are wingless. This might lull foes into a false sense of security, until the auraks exhale noxious fumes resembling those of their dragon progenitors. Auraks are masterminds and strategists that serve as commanders in the Dragon Armies. They often lead contingents of less powerful draconians. When slain, aurak draconians unleash their inherent magic in a deadly burst of lightning.
@@ -40,14 +41,15 @@ Draconians are bipedal monsters born from metallic dragon eggs that have been co
   - !!int "17"
 "speed": "35 ft."
 "saves":
-  - "intelligence": "+6"
-  - "wisdom": "+3"
-  - "charisma": "+6"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "3"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)"
-"senses": "truesight 60 ft., passive Perception 13"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Draconic"
 "cr": "6"
 "traits":
@@ -68,10 +70,10 @@ Draconians are bipedal monsters born from metallic dragon eggs that have been co
 "actions":
   - "desc": "The draconian makes three Rend or Energy Ray attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d12 + 2) slashing damage."
     "name": "Rend"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 60 ft., one target. *Hit:*\
       \ 8 (1d10 + 3) force damage."
     "name": "Energy Ray"
   - "desc": "The draconian exhales a 15-foot cone of noxious gas. Each creature in\
@@ -83,11 +85,11 @@ Draconians are bipedal monsters born from metallic dragon eggs that have been co
     "name": "Noxious Breath (Recharge 5-6)"
   - "desc": "The draconian casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 14):\n\
-      \nAt will: [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
-      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n2/day\
-      \ each: [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
+      \n**At will:** [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n**2/day\
+      \ each:** [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
-      \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)\n\n1/day:\
+      \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)\n\n**1/day:**\
       \ [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md)"
     "name": "Spellcasting"
 "source":

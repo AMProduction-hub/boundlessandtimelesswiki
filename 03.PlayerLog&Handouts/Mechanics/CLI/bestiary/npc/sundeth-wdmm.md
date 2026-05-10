@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sundeth
+- "Sundeth"
 ---
-# [Sundeth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sundeth-wdmm.md)
+# [Sundeth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sundeth-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 304*  
 
 Sundeth is a hideous, 8-foot-tall, half-ogre.
@@ -35,8 +36,8 @@ Sundeth is a hideous, 8-foot-tall, half-ogre.
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "strength": "+9"
-  - "constitution": "+6"
+  - "strength": !!int "9"
+  - "constitution": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+9"
@@ -44,7 +45,11 @@ Sundeth is a hideous, 8-foot-tall, half-ogre.
     "desc": "+5"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 16"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 16"
 "languages": "Common, Giant"
 "cr": "9"
 "traits":
@@ -55,11 +60,11 @@ Sundeth is a hideous, 8-foot-tall, half-ogre.
 "actions":
   - "desc": "Sundeth makes three attacks with its greatsword or its shortbow."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) slashing damage, plus 7 (2d6) slashing damage if Sundeth has\
       \ more than half of its total hit points remaining."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage, plus 7 (2d6) piercing damage if Sundeth has\
       \ more than half of its total hit points remaining."
     "name": "Shortbow"

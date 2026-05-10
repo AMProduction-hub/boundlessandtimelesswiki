@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/varies
 - ttrpg-cli/item/tier/major
 - ttrpg-cli/item/wondrous/wand
-aliases: 
+aliases:
 - "Wand of the War Mage"
 ---
 # Wand of the War Mage

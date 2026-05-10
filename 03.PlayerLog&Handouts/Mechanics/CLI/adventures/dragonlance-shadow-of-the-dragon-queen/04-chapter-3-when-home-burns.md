@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 aliases:
-- Chapter 3: When Home Burns
+- "Chapter 3: When Home Burns"
 ---
 # Chapter 3: When Home Burns
 *Source: Dragonlance: Shadow of the Dragon Queen, p. 51* 
@@ -13,7 +14,7 @@ At the edge of the Solamnic province of Hinterlund lies the quiet fishing villag
 
 Before running this chapter, make sure each character has a reason for attending the funeral of Ispin Greenshield and experienced a fateful event during their journey to Vogler, as detailed in chapter 2.
 
-![Draconians spy on the unsu...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/036-03-001-chapter-splash.webp#center "Draconians spy on the unsuspecting villagers of Vogler")
+![Draconians spy on the unsuspecting villagers of Vogler](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/036-03-001-chapter-splash.webp#center)
 
 ## Running This Chapter
 
@@ -159,7 +160,7 @@ The region's commonfolk generally don't hold the Knights of Solamnia in high reg
 
 ### Sending Off a Friend
 
-![Cudgel Ironsmile and Beckl...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/040-03-003-cudgel-and-becklin.webp#center "Cudgel Ironsmile and Becklin Uth Viharin send off their friend Ispin Greenshield")
+![Cudgel Ironsmile and Becklin Uth Viharin send off their friend Ispin Greenshield](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/040-03-003-cudgel-and-becklin.webp#center)
 
 The funeral takes place at dusk on the stage and dock extending from the rear of the Brass Crab. Becklin encourages the characters to linger near the dock, while many mourning locals in small fishing craft assemble in the nearby water. When you're ready for the funeral to begin, Becklin takes the stage next to a simple boat, within which rests the body of Ispin Greenshield. Read or paraphrase the following:
 
@@ -183,8 +184,6 @@ Soon after the reception begins, Becklin calls for everyone's attention and shar
 Characters are invited to participate in this comic tale telling. They're welcome to improvise their own tales about Ispin, taking cues from what they know about their relationship with the adventurer (as determined in chapter 2). The crowd nods along to nearly any tale a character tells, whether hearing it for the first or the thousandth time. If you or a player wants a story prompt, roll on or choose an option from the Ispin's Stories table. Award "inspiration" to characters who tell a particularly creative or touching story.
 
 **Ispin's Stories**
-
-`dice: [](04-chapter-3-when-home-burns.md#^ispins-stories)`
 
 | dice: d6 | Story |
 |----------|-------|
@@ -377,7 +376,7 @@ Vogler's village circle is the heart of the Kingfisher Festival's events. Here, 
 
 ### Festivities
 
-![The people of Vogler celeb...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/043-03-006-kingfisher-festival.webp#center "The people of Vogler celebrate during the Kingfisher Festival")
+![The people of Vogler celebrate during the Kingfisher Festival](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/043-03-006-kingfisher-festival.webp#center)
 
 Traditional Kingfisher Festival events commemorate Vogler's founding and history. Characters might participate in an annual competition, the season's inaugural fish catch, where fishers try to catch the biggest fish during a set period. Darrett and other friendly locals encourage the characters to participate.
 
@@ -403,8 +402,6 @@ The contest plays out in three 10-minute rounds. After a character spends 10 min
 Repeat these rolls for every 10 minutes a character participates in the fish catch. After 30 minutes, the contest ends and a winner is determined.
 
 **Fish to Catch**
-
-`dice: [](04-chapter-3-when-home-burns.md#^fish-to-catch)`
 
 | dice: d20 | Catch DC | Fish |
 |-----------|----------|------|
@@ -532,11 +529,9 @@ During this encounter, roll on the High Hill Battlefield Events table each round
 
 **High Hill Battlefield Events**
 
-`dice: [](04-chapter-3-when-home-burns.md#^high-hill-battlefield-events)`
-
 | dice: d4 | Events |
 |----------|--------|
-| 1 | A volley of arrows falls on a random player character's position. That character and each creature within 10 feet of them must succeed on a DC 12 Dexterity saving throw or take 3 (`d6`) piercing damage. |
+| 1 | A volley of arrows falls on a random player character's position. That character and each creature within 10 feet of them must succeed on a DC 12 Dexterity saving throw or take 3 (`1d6`) piercing damage. |
 | 2 | Two terrified, riderless warhorses bolt from the Fray. One random player character must succeed on a DC 14 Dexterity saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). The horses then dash off the battlefield. |
 | 3 | An injured member of Vogler's militia (a [guard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) with 1 hit point) crawls onto the battlefield and begs for help, appearing in an unoccupied space adjacent to the Fray nearest a random character. |
 | 4 | A hostile mercenary [guard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) with 6 hit points appears in an unoccupied space adjacent to the Fray nearest a random mercenary on the battlefield. The guard takes their turn on initiative count 10. |
@@ -886,8 +881,6 @@ When you've run at least three of these encounters, proceed with the "Escape fro
 
 **Vogler Invasion Encounters**
 
-`dice: [](04-chapter-3-when-home-burns.md#^vogler-invasion-encounters)`
-
 | dice: d10 | Encounter |
 |-----------|-----------|
 | 1–2 | A family of four [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) gets separated from the other evacuees. Unless escorted to the wharf, they try to hide from the invaders. |
@@ -956,7 +949,7 @@ After the baaz draconians are defeated, proceed with the "Fewmaster Gholcag" enc
 
 The battlefield includes the following features:
 
-- **Burning Building.** The Wharfinger's Office is on fire. A creature that enters the burning structure for the first time on a turn or starts its turn there must succeed on a DC 16 Constitution saving throw or take 5 (`d10`) fire damage.  
+- **Burning Building.** The Wharfinger's Office is on fire. A creature that enters the burning structure for the first time on a turn or starts its turn there must succeed on a DC 16 Constitution saving throw or take 5 (`1d10`) fire damage.  
 - **Fray.** The 15-foot-wide area marked by the design at the edge of the map represents draconians facing off against Vogler's remaining defenders. This area and the village beyond the map are "difficult terrain". A creature that enters the Fray for the first time on a turn or starts its turn there must succeed on a DC 16 Dexterity saving throw or take 7 (`2d6`) slashing damage from opportunistic foes. The Fray can't be damaged and remains until the battle ends.  
 
 > [!gallery]
@@ -969,13 +962,11 @@ During this encounter, roll on the Vogler Battlefield Events table each round at
 
 **Vogler Battlefield Events**
 
-`dice: [](04-chapter-3-when-home-burns.md#^vogler-battlefield-events)`
-
 | dice: d6 | Events |
 |----------|--------|
 | 1 | Two Vogler fishers ([guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md)) come to assist the characters. They appear in unoccupied spaces adjacent to the Fray nearest a random character. |
 | 2 | A [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) [bozak draconian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/bozak-draconian-dsotdq.md) (see appendix B) with 1 hit point staggers from the Fray and across the battlefield. It doesn't attack, but it explodes in its Death Throes if killed. The draconian appears in an unoccupied space adjacent to the Fray nearest a random character. |
-| 3–4 | A draconian gliding overhead throws a fiery flask at one random player character, who must succeed on a DC 10 Dexterity saving throw or take 3 (`d6`) fire damage. |
+| 3–4 | A draconian gliding overhead throws a fiery flask at one random player character, who must succeed on a DC 10 Dexterity saving throw or take 3 (`1d6`) fire damage. |
 | 5–6 | Villagers on the docks shout their support. A random player character has advantage on their next attack roll. |
 ^vogler-battlefield-events
 

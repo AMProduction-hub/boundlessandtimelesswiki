@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Chapter 2: Khorvaire Gazetteer - Faiths of Khorvaire
+- "Chapter 2: Khorvaire Gazetteer - Faiths of Khorvaire"
 ---
 # Chapter 2: Khorvaire Gazetteer - Faiths of Khorvaire
 *Source: Eberron: Rising from the Last War, p. 140* 

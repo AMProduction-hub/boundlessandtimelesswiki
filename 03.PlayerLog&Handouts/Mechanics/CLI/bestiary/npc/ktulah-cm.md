@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- K'Tulah
+- "K'Tulah"
 ---
-# [K'Tulah](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/ktulah-cm.md)
+# [K'Tulah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ktulah-cm.md)
 *Source: Candlekeep Mysteries p. 64*  
 
 K'Tulah is a gregarious tabaxi, a catlike humanoid. She arrived at Candlekeep six days ago and received permission to use the library to conduct her research on regional forms of folk magic.
@@ -43,20 +44,23 @@ She is an animated talker whose exaggerated gesticulations while chatting annoy 
     "desc": "+3"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[quarterstaff](03.PlayerLog&Handouts/Mechanics/CLI/items/quarterstaff.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Common, Druidic"
 "cr": "2"
 "traits":
   - "desc": "K'Tulah is a 4th-level spellcaster. K'Tulah's spellcasting ability is\
       \ Wisdom (spell save DC 12, +4 to hit with spell attacks). K'Tulah has the\
-      \ following druid spells prepared:\n\nCantrips (at will): [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
+      \ following druid spells prepared:\n\n**Cantrips (at will):** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
       \ [produce flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md),\
       \ [shillelagh](03.PlayerLog&Handouts/Mechanics/CLI/spells/shillelagh.md)\n\n\
-      1st level (4 slots): [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
+      **1st level (4 slots):** [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
       \ [longstrider](03.PlayerLog&Handouts/Mechanics/CLI/spells/longstrider.md),\
       \ [speak with animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md),\
       \ [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [animal messenger](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-messenger.md),\
+      \n**2nd level (3 slots):** [animal messenger](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-messenger.md),\
       \ [barkskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/barkskin.md)"
     "name": "Spellcasting"
   - "desc": "When K'Tulah moves on her turn in combat, she can double her speed until\
@@ -64,13 +68,13 @@ She is an animated talker whose exaggerated gesticulations while chatting annoy 
       \ until she moves 0 feet on one of her turns."
     "name": "Feline Agility"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach\
-      \ 5 ft., one target. Hit: 3 (d6) bludgeoning damage, 4 (d8) bludgeoning\
+  - "desc": "*Melee Weapon Attack:* +2 to hit (+4 to hit with shillelagh), reach\
+      \ 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning\
       \ damage if wielded with two hands, or 6 (1d8 + 2) bludgeoning damage with\
       \ shillelagh."
     "name": "Quarterstaff"
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) slashing damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d4) slashing damage."
     "name": "Claws"
 "source":
   - "CM"

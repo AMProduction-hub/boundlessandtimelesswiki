@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/rot
 - ttrpg-cli/monster/cr/30
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tiamat
+- "Tiamat"
 ---
-# [Tiamat](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/tiamat-rot.md)
-*Source: The Rise of Tiamat p. 92, Baldur's Gate: Descent Into Avernus, Tyranny of Dragons p. 190*  
+# [Tiamat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/tiamat-rot.md)
+*Source: The Rise of Tiamat p. 92, Tyranny of Dragons p. 190*  
 
 ```statblock
 "name": "Tiamat (RoT)"
@@ -33,9 +34,9 @@ aliases:
   - !!int "28"
 "speed": "60 ft., fly 120 ft."
 "saves":
-  - "strength": "+19"
-  - "dexterity": "+9"
-  - "wisdom": "+17"
+  - "strength": !!int "19"
+  - "dexterity": !!int "9"
+  - "wisdom": !!int "17"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+17"
@@ -50,12 +51,14 @@ aliases:
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 240 ft., truesight 120 ft., passive Perception 36"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 240 ft., [truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 36"
 "languages": "Common, Draconic, Infernal"
 "cr": "30"
 "traits":
   - "desc": "Tiamat can innately cast the following spell, her spellcasting ability\
-      \ is Charisma (spell save DC 26):\n\n3/day: [divine word](03.PlayerLog&Handouts/Mechanics/CLI/spells/divine-word.md)"
+      \ is Charisma (spell save DC 26):\n\n**3/day:** [divine word](03.PlayerLog&Handouts/Mechanics/CLI/spells/divine-word.md)"
     "name": "Innate Spellcasting"
   - "desc": "When Tiamat drops to 0 hit points or dies, her body is destroyed but\
       \ her essence travels back to her domain in the Nine Hells, and she is unable\
@@ -80,10 +83,10 @@ aliases:
   - "desc": "Tiamat can use her Frightful Presence. She then makes three attacks:\
       \ two with her claws and one with her tail."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +19 to hit, reach 15 ft., one target. *Hit:*\
       \ 24 (4d6 + 10) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 25 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +19 to hit, reach 25 ft., one target. *Hit:*\
       \ 28 (4d8 + 10) piercing damage."
     "name": "Tail"
   - "desc": "Each creature of Tiamat's choice that is within 240 feet of Tiamat and\
@@ -93,16 +96,15 @@ aliases:
       \ throw is successful or the effect ends for it, the creature is immune to Tiamat's\
       \ Frightful Presence for the next 24 hours."
     "name": "Frightful Presence"
+"legendary_description": "Tiamat can take 5 legendary actions, choosing from the options\
+  \ below. Only one legendary action can be used at a time and only at the end of\
+  \ another creature's turn. Tiamat regains spent legendary actions at the start of\
+  \ its turn.\n\nTiamat's legendary action options are associated with her five dragon\
+  \ heads (a bite and a breath weapon for each). Once Tiamat chooses a legendary action\
+  \ option for one of her heads, she can't choose another one associated with that\
+  \ head until the start of her next turn."
 "legendary_actions":
-  - "desc": "Tiamat can take 5 legendary actions, choosing from the options below.\
-      \ Only one legendary action can be used at a time and only at the end of another\
-      \ creature's turn. Tiamat regains spent legendary actions at the start of its\
-      \ turn.\n\nTiamat's legendary action options are associated with her five dragon\
-      \ heads (a bite and a breath weapon for each). Once Tiamat chooses a legendary\
-      \ action option for one of her heads, she can't choose another one associated\
-      \ with that head until the start of her next turn."
-    "name": ""
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +19 to hit, reach 20 ft., one target. *Hit:*\
       \ 32 (4d10 + 10) slashing damage plus 14 (4d6) acid damage (black dragon\
       \ head), lightning damage (blue dragon head), poison damage (green dragon head),\
       \ fire damage (red dragon head), or cold damage (white dragon head)."
@@ -130,7 +132,6 @@ aliases:
     "name": "White Dragon Head: Cold Breath (Costs 2 Actions)"
 "source":
   - "RoT"
-  - "BGDIA"
   - "ToD"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/tiamat-rot.webp"
 ```

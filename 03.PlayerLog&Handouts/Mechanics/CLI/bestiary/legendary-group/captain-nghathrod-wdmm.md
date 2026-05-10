@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/legendary-group
 aliases:
-- Captain N'ghathrod
+- "Captain N'ghathrod"
 ---
 # Captain N'ghathrod
 
-## Lair actions
+## Lair Actions
 _Source: Waterdeep: Dungeon of the Mad Mage_
 
 When fighting aboard the Scavenger, N'ghathrod can take lair actions. On initiative count 20 (losing initiative ties), N'ghathrod can take one lair action to cause one of the following effects:

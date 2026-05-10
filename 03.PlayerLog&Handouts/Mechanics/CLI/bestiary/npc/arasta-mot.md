@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/21
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Arasta
+- "Arasta"
 ---
-# [Arasta](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/arasta-mot.md)
+# [Arasta](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/arasta-mot.md)
 *Source: Mythic Odysseys of Theros p. 248*  
 
 A victim of the gods' petty rivalries, Arasta was once one of Nylea's most beloved dryad companions. Phenax's bitterness saw her transformed into an arachnid monstrosity and driven into the darkest depths of the Nessian Wood. Now she broods on her unjust fate and the fickleness of the gods who left her cursed with monstrous immortality.
@@ -39,9 +40,9 @@ See "Myths of Nylea" in chapter 2 for more details on the tragedy of Arasta.
   - !!int "17"
 "speed": "40 ft., climb 40 ft."
 "saves":
-  - "dexterity": "+10"
-  - "constitution": "+13"
-  - "wisdom": "+13"
+  - "dexterity": !!int "10"
+  - "constitution": !!int "13"
+  - "wisdom": !!int "13"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+9"
@@ -58,7 +59,9 @@ See "Myths of Nylea" in chapter 2 for more details on the tragedy of Arasta.
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
 "damage_immunities": "acid, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 23"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 23"
 "languages": "Celestial, Common, Sylvan"
 "cr": "21"
 "traits":
@@ -79,7 +82,7 @@ See "Myths of Nylea" in chapter 2 for more details on the tragedy of Arasta.
 "actions":
   - "desc": "Arasta makes three attacks: one with her bite and two with her claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 5 ft., one creature. *Hit:*\
       \ 20 (3d8 + 7) piercing damage, and the target must make a DC 21 Constitution\
       \ saving throw, taking 32 (5d12) poison damage on a failed save, or half as\
       \ much damage on a successful one. If the damage reduces the target to 0 hit\
@@ -88,7 +91,7 @@ See "Myths of Nylea" in chapter 2 for more details on the tragedy of Arasta.
       \ while [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ in this way."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 5 ft., one target. *Hit:*\
       \ 17 (3d6 + 7) slashing damage."
     "name": "Claws"
   - "desc": "Arasta unleashes her hair in the form of webbing that fills a 30-foot\
@@ -103,21 +106,11 @@ See "Myths of Nylea" in chapter 2 for more details on the tragedy of Arasta.
       \ cube of the web is destroyed if it takes at least 20 fire damage from a spell\
       \ or other magical source on a single turn."
     "name": "Web of Hair (Recharge 4-6)"
-"legendary_actions":
-  - "desc": "Arasta makes one attack with her claws."
-    "name": "Claws"
-  - "desc": "Arasta causes two [swarms of spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-spiders.md)\
-      \ to appear in unoccupied spaces within 5 feet of her."
-    "name": "Swarm (Costs 2 Actions)"
-  - "desc": "Each creature [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
-      \ by Arasta's Web of Hair takes 18 (4d8) poison damage."
-    "name": "Toxic Web (Costs 3 Actions)"
 "lair_actions":
   - "desc": "On initiative count 20 (losing initiative ties), Arasta can take a lair\
       \ action to cause one of the following effects. She can't use the same effect\
-      \ two rounds in a row."
-    "name": ""
-  - "desc": "- Arasta learns about any creature touching her webs. Each creature [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
+      \ two rounds in a row.\n\n- Arasta learns about any creature touching her webs.\
+      \ Each creature [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ by a web or Arasta's Web of Hair must make a DC 21 Intelligence saving throw.\
       \ On a failed save, Arasta gains knowledge of a creature's name, race, where\
       \ they consider home, and what brought them to her web.  \n- Arasta casts the\
@@ -127,39 +120,41 @@ See "Myths of Nylea" in chapter 2 for more details on the tragedy of Arasta.
     "name": ""
 "regional_effects":
   - "desc": "The region containing Arasta's lair is warped by her presence, which\
-      \ creates one or more of the following effects:"
+      \ creates one or more of the following effects:\n\n- Spiders and insects within\
+      \ 1 mile of Arasta's lair serve as her eyes and ears. Birds and other flying\
+      \ creatures are absent from the skies and occasionally found trapped in webs.\
+      \  \n- Within 1 mile of Arasta's lair, webs fill all 10-foot cubes of open space,\
+      \ so long as the webs can be anchored between two solid masses (such as walls\
+      \ or trees). The webs are flammable. Any webs exposed to fire burn away in 1\
+      \ round. Any destroyed webs are magically repaired at the next dawn.  \n\nIf\
+      \ Arasta dies, the spiders and insects lose their supernatural link to her.\
+      \ The webs remain, but they dissolve within 1d10 days."
     "name": ""
-  - "desc": "- Spiders and insects within 1 mile of Arasta's lair serve as her eyes\
-      \ and ears. Birds and other flying creatures are absent from the skies and occasionally\
-      \ found trapped in webs.  \n- Within 1 mile of Arasta's lair, webs fill all\
-      \ 10-foot cubes of open space, so long as the webs can be anchored between two\
-      \ solid masses (such as walls or trees). The webs are flammable. Any webs exposed\
-      \ to fire burn away in 1 round. Any destroyed webs are magically repaired at\
-      \ the next dawn.  "
-    "name": ""
-  - "desc": "If Arasta dies, the spiders and insects lose their supernatural link\
-      \ to her. The webs remain, but they dissolve within d10 days."
-    "name": ""
-"mythic_encounter":
-  - "desc": "Arasta is a formidable enemy under normal circumstances, but to give\
-      \ characters a truly mythic challenge, you can have her call on her Armor of\
-      \ Spiders. Her use of this trait signals a drastic turn in the encounter, as\
-      \ Arasta summons her arachnid children to protect her. While she has temporary\
-      \ hit points from this trait, she can choose one of her mythic actions when\
-      \ she uses a legendary action."
-    "name": ""
-  - "desc": "Read or paraphrase the following text when Arasta uses her Armor of Spiders\
-      \ trait:"
-    "name": ""
-  - "desc": "\n> The nightmarish arachnid unleashes a shriek that sounds like a thousand\
-      \ spider carapaces scarring slate. In response, the ground ripples and bursts\
-      \ over the monster, revealing itself as a wave of countless spiders. The tiny\
-      \ arachnids swarm the larger horror, girding it in skittering bodies."
-    "name": ""
-  - "desc": "Fighting Arasta as a mythic encounter is equivalent to taking on two\
-      \ challenge rating 21 creatures in one encounter. Award a party 66,000 XP for\
-      \ defeating Arasta after she uses Armor of Spiders."
-    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Arasta can expend a use to take one of the following actions. Arasta regains\
+  \ all expended uses at the start of each of their turns."
+"legendary_actions":
+  - "desc": "Arasta makes one attack with her claws."
+    "name": "Claws"
+  - "desc": "Arasta causes two [swarms of spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-spiders.md)\
+      \ to appear in unoccupied spaces within 5 feet of her."
+    "name": "Swarm (Costs 2 Actions)"
+  - "desc": "Each creature [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
+      \ by Arasta's Web of Hair takes 18 (4d8) poison damage."
+    "name": "Toxic Web (Costs 3 Actions)"
+"mythic_description": "If Arasta's mythic trait is active, she can use the options\
+  \ below as legendary actions, as long as she has temporary hit points from her Armor\
+  \ of Spiders."
+"mythic_actions":
+  - "desc": "Arasta makes two attacks with her claws."
+    "name": "Swipe"
+  - "desc": "Arasta recharges Web of Hair and uses it."
+    "name": "Web of Hair (Costs 2 Actions)"
+  - "desc": "Each creature [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
+      \ by Arasta's Web of Hair must succeed on a DC 21 Constitution saving throw,\
+      \ or the creature takes 26 (4d12) force damage and any spell of 6th level\
+      \ or lower on it ends."
+    "name": "Nyx Weave (Costs 2 Actions)"
 "source":
   - "MOT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/arasta-mot.webp"

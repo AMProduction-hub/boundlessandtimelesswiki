@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Weather
+- "Weather"
 ---
 # Weather
 *Source: Dungeon Master's Guide p. 109* 
 
 **Weather**
-
-`dice: [](weather.md#^weather)`
 
 | dice: d20 | Temperature |
 |-----------|-------------|

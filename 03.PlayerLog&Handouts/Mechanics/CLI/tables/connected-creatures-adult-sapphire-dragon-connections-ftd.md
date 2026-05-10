@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Connected Creatures; Adult Sapphire Dragon Connections
+- "Connected Creatures; Adult Sapphire Dragon Connections"
 ---
 # Connected Creatures; Adult Sapphire Dragon Connections
 *Source: Fizban's Treasury of Dragons p. 139* 
 
 **Adult Sapphire Dragon Connections**
-
-`dice: [](connected-creatures-adult-sapphire-dragon-connections-ftd.md#^adult-sapphire-dragon-connections)`
 
 | dice: d8 | Connected Creatures |
 |----------|---------------------|

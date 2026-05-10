@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Barbatos
+- "Barbatos"
 ---
-# [Barbatos](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/barbatos-imr.md)
+# [Barbatos](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/barbatos-imr.md)
 *Source: Infernal Machine Rebuild p. 52*  
 
 ```statblock
@@ -43,16 +44,18 @@ aliases:
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "damage_resistances": "poison"
+"gear":
+  - "[light crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/light-crossbow.md)"
 "senses": "passive Perception 13"
 "languages": "Common"
 "cr": "6"
 "traits":
   - "desc": "Barbatos is a 6th-level spellcaster. His spellcasting ability is Wisdom\
       \ (spell save DC 13, +5 to hit with spell attacks). He has the following ranger\
-      \ spells prepared:\n\n1st level (4 slots): [ensnaring strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/ensnaring-strike.md),\
+      \ spells prepared:\n\n**1st level (4 slots):** [ensnaring strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/ensnaring-strike.md),\
       \ [hail of thorns](03.PlayerLog&Handouts/Mechanics/CLI/spells/hail-of-thorns.md),\
       \ [hunter's mark](03.PlayerLog&Handouts/Mechanics/CLI/spells/hunters-mark.md)\n\
-      \n2nd level (2 slots): [locate animals or plants](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-animals-or-plants.md)"
+      \n**2nd level (2 slots):** [locate animals or plants](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-animals-or-plants.md)"
     "name": "Spellcasting"
   - "desc": "Any nonmagical weapon made of metal that hits Barbatos corrodes. After\
       \ dealing damage, the weapon takes a permanent and cumulative -1 penalty to\
@@ -67,10 +70,10 @@ aliases:
 "actions":
   - "desc": "Barbatos makes two bone shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Bone Shortsword"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one target. *Hit:*\
       \ 7 (1d8 + 3) piercing damage, and the target must succeed on a DC 13 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 hour. If the saving throw fails by 5 or more, the target is also [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious).\

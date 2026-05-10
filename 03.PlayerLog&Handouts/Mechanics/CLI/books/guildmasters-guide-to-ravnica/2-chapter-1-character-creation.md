@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Chapter 1: Character Creation
+- "Chapter 1: Character Creation"
 ---
 # Chapter 1: Character Creation
 *Source: Guildmasters' Guide to Ravnica, p. 11* 

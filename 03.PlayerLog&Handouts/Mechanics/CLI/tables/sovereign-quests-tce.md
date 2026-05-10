@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
-- Sovereign Quests
+- "Sovereign Quests"
 ---
 # Sovereign Quests
 *Source: Tasha's Cauldron of Everything p. 102* 
 
 **Sovereign Quests**
-
-`dice: [](sovereign-quests-tce.md#^sovereign-quests)`
 
 | dice: d6 | Quest |
 |----------|-------|

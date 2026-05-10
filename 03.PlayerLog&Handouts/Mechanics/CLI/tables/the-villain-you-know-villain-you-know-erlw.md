@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- The Villain You Know; Villain You Know
+- "The Villain You Know; Villain You Know"
 ---
 # The Villain You Know; Villain You Know
 *Source: Eberron: Rising from the Last War p. 184* 
 
 **Villain You Know**
-
-`dice: [](the-villain-you-know-villain-you-know-erlw.md#^villain-you-know)`
 
 | dice: d6 | Villain |
 |----------|---------|

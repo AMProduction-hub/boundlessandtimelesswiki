@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Chapter 3: Avernus - Path of Devils
+- "Chapter 3: Avernus - Path of Devils"
 ---
 # Chapter 3: Avernus - Path of Devils
 *Source: Baldur's Gate: Descent Into Avernus, p. 106* 
@@ -76,8 +77,6 @@ To avoid getting lost in the wood, the characters must succeed on a DC 15 group 
 If the characters get lost in the brambles, roll on the Dead Ends table to determine where they end up, or choose a result that they haven't encountered yet.
 
 **Dead Ends**
-
-`dice: [](06-chapter-3-avernus-path-of-devils.md#^dead-ends)`
 
 | dice: d4 | Dead End |
 |----------|----------|
@@ -536,7 +535,7 @@ While the slaad is feebleminded, its Intelligence and Charisma scores are 1, and
 
 ##### Bite
 
-*Melee Weapon Attack*: +9 to hit, reach 5 ft., one creature. *Hit*: 8 (`1d6 + 5`) piercing damage.
+*Melee Weapon Attack*: `+9` to hit, reach 5 ft., one creature. *Hit*: 8 (`1d6 + 5`) piercing damage.
 
 Casting [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md), [heal](03.PlayerLog&Handouts/Mechanics/CLI/spells/heal.md), or similar magic on the hapless creature restores its mental faculties, whereupon the slaad assumes its true form and attacks. As a creature of pure chaos and extreme malice, it delights in wanton destruction.
 

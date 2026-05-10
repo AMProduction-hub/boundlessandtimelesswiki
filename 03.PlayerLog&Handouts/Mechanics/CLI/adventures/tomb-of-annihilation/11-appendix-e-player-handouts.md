@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 aliases:
-- Appendix E: Player Handouts
+- "Appendix E: Player Handouts"
 ---
 # Appendix E: Player Handouts
 *Source: Tomb of Annihilation, p. 243* 

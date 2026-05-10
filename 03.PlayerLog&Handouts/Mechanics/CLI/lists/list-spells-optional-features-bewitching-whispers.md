@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/optfeature/bewitching-whispers
 aliases:
-- Spells for Bewitching Whispers
+- "Spells for Bewitching Whispers"
 ---
 # Spells for Bewitching Whispers
 

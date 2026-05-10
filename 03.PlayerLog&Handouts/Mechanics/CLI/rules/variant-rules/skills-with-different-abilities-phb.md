@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Skills with Different Abilities
+- "Skills with Different Abilities"
 ---
 # Skills with Different Abilities
 *Source: Player's Handbook p. 175* 

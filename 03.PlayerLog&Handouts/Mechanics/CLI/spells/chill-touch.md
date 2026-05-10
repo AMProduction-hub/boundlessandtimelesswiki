@@ -1,16 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/feat/aberrant-dragonmark
-- ttrpg-cli/spell/feat/initiate-of-high-sorcery
-- ttrpg-cli/spell/feat/magic-initiate
-- ttrpg-cli/spell/feat/strixhaven-initiate
+- ttrpg-cli/spell/feat/initiate-of-high-sorcery/solinari
+- ttrpg-cli/spell/feat/magic-initiate/wizard-spells
+- ttrpg-cli/spell/feat/spell-sniper
+- ttrpg-cli/spell/feat/strixhaven-initiate/witherbloom-1
 - ttrpg-cli/spell/level/cantrip
 - ttrpg-cli/spell/optfeature/pact-of-the-tome
 - ttrpg-cli/spell/race/kobold
@@ -23,7 +25,7 @@ tags:
 - ttrpg-cli/spell/subrace/elf-high
 - ttrpg-cli/spell/subrace/half-elf-moon-elf-or-sun-elf-descent
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Arcana Domain)
 - Cleric (Death Domain)
 - Druid (Circle of Spores)
@@ -33,7 +35,7 @@ classes:
 - Warlock
 - Wizard
 aliases:
-- Chill Touch
+- "Chill Touch"
 ---
 # Chill Touch
 *cantrip, Necromancy*  
@@ -44,12 +46,12 @@ aliases:
 - **Components:** V, S
 - **Duration:** 1 round
 
-You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes `d8` necrotic damage, and it can't regain hit points until the start of your next turn. Until then, the hand clings to the target.
+You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes `1d8` necrotic damage, and it can't regain hit points until the start of your next turn. Until then, the hand clings to the target.
 
 If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.
 
-This spell's damage increases by `d8` when you reach 5th level (`2d8`), 11th level (`3d8`), and 17th level (`4d8`).
+This spell's damage increases by `1d8` when you reach 5th level (`2d8`), 11th level (`3d8`), and 17th level (`4d8`).
 
-**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Cleric (Death Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-death-domain-dmg.md "subclass=DMG"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid (Circle of Spores)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE"); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Cleric (Death Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-death-domain-dmg.md "subclass=DMG"); [Druid (Circle of Spores)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE"); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 221. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

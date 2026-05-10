@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/artifact
-aliases: 
+aliases:
 - "Book of Exalted Deeds"
 ---
 # Book of Exalted Deeds
@@ -43,6 +44,6 @@ Once you've read and studied the book, you gain a protective halo. This halo she
 
 ## Destroying the Book
 
-It is rumored that the Book of Exalted Deeds can't be destroyed as long as good exists in the multiverse. However, drowning the book in the River Styx removes all writing and imagery from its pages and renders the book powerless for `d100` years.
+It is rumored that the Book of Exalted Deeds can't be destroyed as long as good exists in the multiverse. However, drowning the book in the River Styx removes all writing and imagery from its pages and renders the book powerless for `1d100` years.
 
 *Source: Dungeon Master's Guide p. 222*

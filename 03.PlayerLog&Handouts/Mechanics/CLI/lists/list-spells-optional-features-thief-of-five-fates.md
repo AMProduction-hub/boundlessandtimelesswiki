@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/optfeature/thief-of-five-fates
 aliases:
-- Spells for Thief of Five Fates
+- "Spells for Thief of Five Fates"
 ---
 # Spells for Thief of Five Fates
 

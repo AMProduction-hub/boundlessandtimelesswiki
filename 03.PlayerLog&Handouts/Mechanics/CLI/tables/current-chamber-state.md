@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Current Chamber State
+- "Current Chamber State"
 ---
 # Current Chamber State
 *Source: Dungeon Master's Guide p. 295* 
 
 **Current Chamber State**
-
-`dice: [](current-chamber-state.md#^current-chamber-state)`
 
 | dice: d20 | Features |
 |-----------|----------|

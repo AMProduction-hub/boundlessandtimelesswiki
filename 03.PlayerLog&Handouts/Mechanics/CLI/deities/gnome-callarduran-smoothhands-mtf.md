@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/deity/gnome
 - ttrpg-cli/domain/knowledge
 - ttrpg-cli/domain/nature
-aliases: 
-- Callarduran Smoothhands
+aliases:
+- "Callarduran Smoothhands"
 ---
 # Callarduran Smoothhands
 *Source: Mordenkainen's Tome of Foes p. 111* 

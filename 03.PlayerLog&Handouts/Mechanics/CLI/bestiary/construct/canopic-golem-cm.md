@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/13
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Canopic Golem
+- "Canopic Golem"
 ---
-# [Canopic Golem](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/canopic-golem-cm.md)
+# [Canopic Golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/canopic-golem-cm.md)
 *Source: Candlekeep Mysteries p. 179*  
 
 A mummy lord's organs, normally stored in sacred canopic jars during mummification, can be magically preserved and transplanted into living humanoids. The transplant recipients come under the control of the mummy lord, either as living supplicants or mindless golems through which the mummy lord can see and speak.
@@ -35,9 +36,9 @@ A mummy lord's organs, normally stored in sacred canopic jars during mummificati
   - !!int "1"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+3"
-  - "wisdom": "+5"
-  - "charisma": "+0"
+  - "intelligence": !!int "3"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "0"
 "damage_immunities": "poison"
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
@@ -46,7 +47,8 @@ A mummy lord's organs, normally stored in sacred canopic jars during mummificati
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": ""
 "cr": "13"
 "traits":
@@ -58,10 +60,10 @@ A mummy lord's organs, normally stored in sacred canopic jars during mummificati
 "actions":
   - "desc": "The golem makes two attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 27 (4d10 + 5) force damage."
     "name": "Slam"
-  - "desc": "Ranged Weapon Attack: +10 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +10 to hit, range 120 ft., one target. *Hit:*\
       \ 14 (2d8 + 5) force damage."
     "name": "Crystal Dart"
 "reactions":

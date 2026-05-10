@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Island Inhabitants
+- "Island Inhabitants"
 ---
 # Island Inhabitants
 *Source: Mythic Odysseys of Theros p. 178* 
 
 **Island Inhabitants**
-
-`dice: [](island-inhabitants-mot.md#^island-inhabitants)`
 
 | dice: d10 | Inhabitants |
 |-----------|-------------|

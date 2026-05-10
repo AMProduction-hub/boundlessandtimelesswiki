@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/12
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Erinyes
+- "Erinyes"
 ---
-# [Erinyes](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/erinyes.md)
-*Source: Monster Manual p. 73, Tomb of Annihilation, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Erinyes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/erinyes.md)
+*Source: Monster Manual p. 73. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 The most beautiful and striking of all lesser and greater devils, the erinyes are fierce and disciplined warriors. Sweeping down from the skies, they bring swift death to creatures that have wronged their masters or defied the edicts of Asmodeus. The erinyes appear as male or female humanoids with statuesque builds and large feathery wings. Most wear stylized armor and horned helms, and carry exquisite swords and bows. A few also use ropes of entanglement to ensnare powerful foes.
 
@@ -139,10 +140,10 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > - A barbed devil has a 30 percent chance of summoning one barbed devil.  
 > - A bearded devil has a 30 percent chance of summoning one bearded devil.  
 > - A bone devil has a 40 percent chance of summoning `2d6` spined devils or one bone devil.  
-> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `d6` bearded devils, or one erinyes.  
+> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `1d6` bearded devils, or one erinyes.  
 > - A horned devil has a 30 percent chance of summoning one horned devil.  
 > - An ice devil has a 60 percent chance of summoning one ice devil.  
-> - A pit fiend summons `2d4` bearded devils, `d4` barbed devils, or one erinyes with no chance of failure.  
+> - A pit fiend summons `2d4` bearded devils, `1d4` barbed devils, or one erinyes with no chance of failure.  
 > 
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
@@ -167,15 +168,19 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
   - !!int "18"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+7"
-  - "constitution": "+8"
-  - "wisdom": "+6"
-  - "charisma": "+8"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "8"
 "damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
   \ that aren't silvered"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 12"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 12"
 "languages": "Infernal, telepathy 120 ft."
 "cr": "12"
 "traits":
@@ -188,11 +193,11 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 "actions":
   - "desc": "The erinyes makes three attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with\
       \ two hands, plus 13 (3d8) poison damage."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +7 to hit, range 150/600 ft., one target. *Hit:*\
       \ 7 (1d8 + 3) piercing damage plus 13 (3d8) poison damage, and the target\
       \ must succeed on a DC 14 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned).\
       \ The poison lasts until it is removed by the [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md)\
@@ -204,10 +209,6 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
     "name": "Parry"
 "source":
   - "MM"
-  - "ToA"
-  - "BGDIA"
-  - "EGW"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/erinyes.webp"
 ```
 ^statblock

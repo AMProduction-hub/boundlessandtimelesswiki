@@ -1,6 +1,8 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
+- json5e-index
 ---
 # Index of Dragon
 
@@ -15,7 +17,6 @@ cssclasses: json5e-note
 - [Adult Emerald Dragon](./adult-emerald-dragon-ftd.md)
 - [Adult Gold Dragon](./adult-gold-dragon.md)
 - [Adult Green Dragon](./adult-green-dragon.md)
-- [Adult Lunar Dragon](./adult-lunar-dragon-bam.md)
 - [Adult Moonstone Dragon](./adult-moonstone-dragon-ftd.md)
 - [Adult Red Dracolich](./adult-red-dracolich-tce.md)
 - [Adult Red Dragon](./adult-red-dragon.md)
@@ -61,14 +62,14 @@ cssclasses: json5e-note
 - [Crystal Dragon Wyrmling](./crystal-dragon-wyrmling-ftd.md)
 - [Crystal Greatwyrm](./crystal-greatwyrm-ftd.md)
 - [Deep Dragon Wyrmling](./deep-dragon-wyrmling-ftd.md)
-- [Draconic Spirit (Chromatic)](./draconic-spirit-chromatic-ftd.md)
 - [Draconic Spirit](./draconic-spirit-ftd.md)
+- [Draconic Spirit (Chromatic)](./draconic-spirit-chromatic-ftd.md)
 - [Draconic Spirit (Gem)](./draconic-spirit-gem-ftd.md)
 - [Draconic Spirit (Metallic)](./draconic-spirit-metallic-ftd.md)
 - [Dragon Army Dragonnel](./dragon-army-dragonnel-dsotdq.md)
 - [Dragon Tortoise](./dragon-tortoise-cm.md)
-- [Dragon Turtle Wyrmling](./dragon-turtle-wyrmling-ftd.md)
 - [Dragon Turtle](./dragon-turtle.md)
+- [Dragon Turtle Wyrmling](./dragon-turtle-wyrmling-ftd.md)
 - [Dragonnel](./dragonnel-ftd.md)
 - [Drake Companion](./drake-companion-ftd.md)
 - [Emerald Dragon Wyrmling](./emerald-dragon-wyrmling-ftd.md)
@@ -84,10 +85,10 @@ cssclasses: json5e-note
 - [Gold Greatwyrm](./gold-greatwyrm-ftd.md)
 - [Green Dragon Wyrmling](./green-dragon-wyrmling.md)
 - [Green Greatwyrm](./green-greatwyrm-ftd.md)
+- [Guard Drake](./guard-drake-mpmm.md)
 - [Guard Drake (Black)](./guard-drake-black-mpmm.md)
 - [Guard Drake (Blue)](./guard-drake-blue-mpmm.md)
 - [Guard Drake (Green)](./guard-drake-green-mpmm.md)
-- [Guard Drake](./guard-drake-mpmm.md)
 - [Guard Drake (Red)](./guard-drake-red-mpmm.md)
 - [Guard Drake (White)](./guard-drake-white-mpmm.md)
 - [Kobold Dragonshield](./kobold-dragonshield-mpmm.md)
@@ -125,6 +126,5 @@ cssclasses: json5e-note
 - [Young Sapphire Dragon](./young-sapphire-dragon-ftd.md)
 - [Young Sea Serpent](./young-sea-serpent-ftd.md)
 - [Young Silver Dragon](./young-silver-dragon.md)
-- [Young Solar Dragon](./young-solar-dragon-bam.md)
 - [Young Topaz Dragon](./young-topaz-dragon-ftd.md)
 - [Young White Dragon](./young-white-dragon.md)

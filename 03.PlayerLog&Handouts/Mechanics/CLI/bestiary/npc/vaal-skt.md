@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vaal
+- "Vaal"
 ---
-# [Vaal](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/vaal-skt.md)
+# [Vaal](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vaal-skt.md)
 *Source: Storm King's Thunder p. 207*  
 
 ```statblock
@@ -33,26 +34,28 @@ aliases:
   - !!int "16"
 "speed": "40 ft."
 "saves":
-  - "constitution": "+10"
-  - "wisdom": "+7"
-  - "charisma": "+7"
+  - "constitution": !!int "10"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+7"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
+"gear":
+  - "[morningstar](03.PlayerLog&Handouts/Mechanics/CLI/items/morningstar.md)"
 "senses": "passive Perception 17"
 "languages": "Common, Giant"
 "cr": "9"
 "traits":
   - "desc": "Vaal's innate spellcasting ability is Charisma. It can innately cast\
-      \ the following spells, requiring no material components:\n\nAt will: [detect\
+      \ the following spells, requiring no material components:\n\n**At will:** [detect\
       \ magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md), [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md),\
-      \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md)\n\n3/day each:\
+      \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md)\n\n**3/day each:**\
       \ [feather fall](03.PlayerLog&Handouts/Mechanics/CLI/spells/feather-fall.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md),\
       \ [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)\n\
-      \n1/day each: [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md),\
+      \n**1/day each:** [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md),\
       \ [gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/spells/gaseous-form.md)"
     "name": "Innate Spellcasting"
   - "desc": "Vaal has advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
@@ -61,10 +64,10 @@ aliases:
 "actions":
   - "desc": "Vaal makes two morningstar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:*\
       \ 21 (3d8 + 8) piercing damage."
     "name": "Morningstar"
-  - "desc": "Ranged Weapon Attack: +12 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +12 to hit, range 60/240 ft., one target. *Hit:*\
       \ 30 (4d10 + 8) bludgeoning damage."
     "name": "Rock"
 "source":

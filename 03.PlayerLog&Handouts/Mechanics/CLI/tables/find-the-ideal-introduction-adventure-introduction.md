@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Find the Ideal Introduction; Adventure Introduction
+- "Find the Ideal Introduction; Adventure Introduction"
 ---
 # Find the Ideal Introduction; Adventure Introduction
 *Source: Dungeon Master's Guide p. 74* 
 
 **Adventure Introduction**
-
-`dice: [](find-the-ideal-introduction-adventure-introduction.md#^adventure-introduction)`
 
 | dice: d12 | Introduction |
 |-----------|--------------|

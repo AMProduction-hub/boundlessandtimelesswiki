@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Necrotic Centipede
+- "Necrotic Centipede"
 ---
-# [Necrotic Centipede](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/necrotic-centipede-bgdia.md)
+# [Necrotic Centipede](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/necrotic-centipede-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 119*  
 
 ```statblock
@@ -33,7 +34,8 @@ aliases:
   - !!int "5"
 "speed": "30 ft., burrow 20 ft."
 "damage_immunities": "necrotic, fire"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 10"
 "languages": ""
 "cr": "11"
 "traits":
@@ -41,7 +43,7 @@ aliases:
       \ while within 5 feet of it takes 10 (3d6) necrotic damage."
     "name": "Necrotic Body"
 "actions":
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 40 (6d10 + 7) piercing damage plus 10 (3d6) necrotic damage. If the target\
       \ is a creature, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 17). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\

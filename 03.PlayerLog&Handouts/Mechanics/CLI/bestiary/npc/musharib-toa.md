@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Musharib
+- "Musharib"
 ---
-# [Musharib](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/musharib-toa.md)
+# [Musharib](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/musharib-toa.md)
 *Source: Tomb of Annihilation p. 34*  
 
 ```statblock
@@ -41,12 +42,15 @@ aliases:
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+4"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[handaxe](03.PlayerLog&Handouts/Mechanics/CLI/items/handaxe.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Common, Dwarvish"
 "cr": "1"
 "traits":
   - "desc": "Musharib's innate spellcasting ability is Wisdom. It can innately cast\
-      \ the following spells, requiring no material components:\n\n1/day each:\
+      \ the following spells, requiring no material components:\n\n**1/day each:**\
       \ [hunter's mark](03.PlayerLog&Handouts/Mechanics/CLI/spells/hunters-mark.md),\
       \ [jump](03.PlayerLog&Handouts/Mechanics/CLI/spells/jump.md), [pass without\
       \ trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md),\
@@ -56,8 +60,8 @@ aliases:
   - "desc": "Musharib has advantage on saving throws against poison."
     "name": "Dwarven Resilience"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d6 + 1) slashing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d6 + 1) slashing damage."
     "name": "Handaxe"
 "source":
   - "ToA"

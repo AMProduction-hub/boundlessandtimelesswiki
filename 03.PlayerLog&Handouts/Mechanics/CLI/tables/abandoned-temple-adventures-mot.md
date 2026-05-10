@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Abandoned Temple Adventures
+- "Abandoned Temple Adventures"
 ---
 # Abandoned Temple Adventures
 *Source: Mythic Odysseys of Theros p. 146* 
 
 **Abandoned Temple Adventures**
-
-`dice: [](abandoned-temple-adventures-mot.md#^abandoned-temple-adventures)`
 
 | dice: d12 | Adventure Goal |
 |-----------|----------------|

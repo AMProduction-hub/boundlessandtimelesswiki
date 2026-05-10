@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/druid/stars
 aliases:
-- Circle of Stars
+- "Circle of Stars"
 ---
 # Circle of Stars
 *[Druid](./druid.md): Druid Circle*  
@@ -43,13 +44,11 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Circle of Stars (Level 2)
-
 The Circle of Stars allows druids to draw on the power of starlight. These druids have tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By revealing and understanding these secrets, the Circle of the Stars seeks to harness the powers of the cosmos.
 
 Many druids of this circle keep records of the constellations and the stars' effects on the world. Some groups document these observations at megalithic sites, which serve as enigmatic libraries of lore. These repositories might take the form of stone circles, pyramids, petroglyphs, and underground temples-any construction durable enough to protect the circle's sacred knowledge even against a great cataclysm.
+
+## Subclass Features
 
 ### Star Map (Level 2)
 
@@ -58,8 +57,6 @@ Many druids of this circle keep records of the constellations and the stars' eff
 You've created a star chart as part of your heavenly studies. It is a Tiny object and can serve as a spellcasting focus for your druid spells. You determine its form by rolling on the Star Map table or by choosing one.
 
 **Star Map**
-
-`dice: [](druid-circle-of-stars-tce.md#^star-map)`
 
 | dice: d6 | Map Form |
 |----------|----------|
@@ -91,11 +88,11 @@ Whenever you assume your starry form, choose which of the following constellatio
 
 ### Archer (Level 2)
 
-A constellation of an archer appears on you. When you activate this form, and as a bonus action on your subsequent turns while it lasts, you can make a ranged spell attack, hurling a luminous arrow that targets one creature within 60 feet of you. On a hit, the attack deals radiant damage equal to `d8` + your Wisdom modifier.
+A constellation of an archer appears on you. When you activate this form, and as a bonus action on your subsequent turns while it lasts, you can make a ranged spell attack, hurling a luminous arrow that targets one creature within 60 feet of you. On a hit, the attack deals radiant damage equal to `1d8` + your Wisdom modifier.
 
 ### Chalice (Level 2)
 
-A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores hit points to a creature, you or another creature within 30 feet of you can regain hit points equal to `d8` + your Wisdom modifier.
+A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores hit points to a creature, you or another creature within 30 feet of you can regain hit points equal to `1d8` + your Wisdom modifier.
 
 ### Dragon (Level 2)
 
@@ -116,7 +113,7 @@ You can use this reaction a number of times equal to your proficiency bonus, and
 
 *10th-level Circle of the Stars feature*
 
-The constellations of your Starry Form improve. The `d8` of the Archer and the Chalice becomes `2d8`, and while the Dragon is active, you have a flying speed of 20 feet and can hover.
+The constellations of your Starry Form improve. The `1d8` of the Archer and the Chalice becomes `2d8`, and while the Dragon is active, you have a flying speed of 20 feet and can hover.
 
 Moreover, at the start of each of your turns while in your Starry Form, you can change which constellation glimmers on your body.
 

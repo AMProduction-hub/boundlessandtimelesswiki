@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Chapter 5: Escape from Avernus
+- "Chapter 5: Escape from Avernus"
 ---
 # Chapter 5: Escape from Avernus
 *Source: Baldur's Gate: Descent Into Avernus, p. 146* 
@@ -201,7 +202,7 @@ When the characters next set foot in Elturel, [Tiamat](03.PlayerLog&Handouts/Mec
 
 If the demon [Crokek'toeck](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/crokektoeck-bgdia.md) is freed from the scab encasing the Bleeding Citadel, it begins wandering Avernus and devouring all in its path. Though the demon consumes indiscriminately, it hungers most for divine blood. As such, the essence of a good-aligned god, the blood of a good celestial, or even the blood of a good paladin draws [Crokek'toeck](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/crokektoeck-bgdia.md)'s attention from miles away. If the adventurers slather a chain link in blood from such a source, [Crokek'toeck](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/crokektoeck-bgdia.md) picks up the delicious scent and gallops across Avernus toward it.
 
-The creature must bleed willingly upon a chain link. Either it or an ally can use an action to wound the creature for 5 (`d10`) piercing or slashing damage. This damage can't be negated or reduced, and the infernal energy within the chains causes the creature's hit point maximum to be reduced by an amount equal to the damage taken until the creature finishes a long rest. [Lulu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lulu-bgdia.md) is willing to make at least part of this sacrifice of blood if the characters ask her.
+The creature must bleed willingly upon a chain link. Either it or an ally can use an action to wound the creature for 5 (`1d10`) piercing or slashing damage. This damage can't be negated or reduced, and the infernal energy within the chains causes the creature's hit point maximum to be reduced by an amount equal to the damage taken until the creature finishes a long rest. [Lulu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lulu-bgdia.md) is willing to make at least part of this sacrifice of blood if the characters ask her.
 
 [Crokek'toeck](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/crokektoeck-bgdia.md) appears near Elturel within 1 hour of the first drop of blood being shed. All nearby devils immediately try to slay the demon, while nearby demons leap to its defense. As the two opposing forces clash, [Crokek'toeck](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/crokektoeck-bgdia.md) slips past the devils. The demon can gnaw through a bloodied chain link in 1 minute.
 
@@ -354,4 +355,4 @@ If the characters attempt to break the infernal chains binding Elturel to the po
 
 If Zariel is reduced to 100 hit points or fewer, she withdraws to the edge of the battle, taking refuge in her flying fortress if it's nearby and hasn't been destroyed (see "Zariel's Flying Fortress").
 
-![The Blood War is the cosmi...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/106-vgjbn-05-06-5k.webp#center "The Blood War is the cosmic struggle between the evil forces of Law and Chaos—a war that threatens to tear the multiverse asunder.")
+![The Blood War is the cosmic struggle between the evil forces of Law and Chaos—a war that threatens to tear the multiverse asunder.](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/106-vgjbn-05-06-5k.webp#center)

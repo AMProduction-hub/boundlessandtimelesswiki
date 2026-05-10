@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -13,10 +14,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Swarm of Bats
+- "Swarm of Bats"
 ---
-# [Swarm of Bats](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/swarm-of-bats.md)
-*Source: Monster Manual p. 337, Curse of Strahd, Princes of the Apocalypse, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Explorer's Guide to Wildemount, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Swarm of Bats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-bats.md)
+*Source: Monster Manual p. 337. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 > [!note] The Nature of Swarms
 > 
@@ -48,7 +49,8 @@ aliases:
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "blindsight 60 ft., passive Perception 11"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., passive Perception 11"
 "languages": ""
 "cr": "1/4"
 "traits":
@@ -62,19 +64,12 @@ aliases:
       \ can't regain hit points or gain temporary hit points."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 0 ft., one creature in the\
-      \ swarm's space. Hit: 5 (2d4) piercing damage, or 2 (d4) piercing damage\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 0 ft., one creature in the\
+      \ swarm's space. *Hit:* 5 (2d4) piercing damage, or 2 (1d4) piercing damage\
       \ if the swarm has half of its hit points or fewer."
     "name": "Bites"
 "source":
   - "MM"
-  - "CoS"
-  - "PotA"
-  - "TftYP"
-  - "ToA"
-  - "WDMM"
-  - "EGW"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/swarm-of-bats.webp"
 ```
 ^statblock

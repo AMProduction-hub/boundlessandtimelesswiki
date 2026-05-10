@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 aliases:
-- Scholars of Witherbloom; Witherbloom Scholars
+- "Scholars of Witherbloom; Witherbloom Scholars"
 ---
 # Scholars of Witherbloom; Witherbloom Scholars
 *Source: Strixhaven: A Curriculum of Chaos p. 25* 
 
 **Witherbloom Scholars**
-
-`dice: [](scholars-of-witherbloom-witherbloom-scholars-scc.md#^witherbloom-scholars)`
 
 | dice: d8 | Scholar | Principle |
 |----------|---------|-----------|

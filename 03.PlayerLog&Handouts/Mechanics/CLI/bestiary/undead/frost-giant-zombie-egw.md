@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Frost Giant Zombie
+- "Frost Giant Zombie"
 ---
-# [Frost Giant Zombie](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/frost-giant-zombie-egw.md)
+# [Frost Giant Zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/frost-giant-zombie-egw.md)
 *Source: Explorer's Guide to Wildemount p. 288*  
 
 An unknown Aeorian object of immense power and mystery was uncovered and brought to the Fortress of the Dead Jarl in Eiselcross to please the ruling frost giant, Conessa Berg. The object's unstable nature unleashed a burst of corroding arcane power, ravaging the denizens of the stronghold with twisting necromantic energies, transforming them into monstrous, rime-infused undead. These hulking brutes now wander the ruined landscape surrounding their cursed home, hunting and destroying all living things with a frightening ferocity.
@@ -37,10 +38,13 @@ The battered, butchered, and frozen remains of would-be heroes litter battle sit
   - !!int "5"
 "speed": "40 ft."
 "saves":
-  - "wisdom": "+2"
+  - "wisdom": !!int "2"
 "damage_immunities": "cold, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 8"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": "understands Giant but can't speak"
 "cr": "9"
 "traits":
@@ -56,10 +60,10 @@ The battered, butchered, and frozen remains of would-be heroes litter battle sit
 "actions":
   - "desc": "The zombie makes two weapon attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:*\
       \ 25 (3d12 + 6) slashing damage."
     "name": "Greataxe"
-  - "desc": "Ranged Weapon Attack: +10 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +10 to hit, range 60/240 ft., one target. *Hit:*\
       \ 28 (4d10 + 6) bludgeoning damage."
     "name": "Hurl Rock"
   - "desc": "The zombie targets one creature it can see within 60 feet of it. The\

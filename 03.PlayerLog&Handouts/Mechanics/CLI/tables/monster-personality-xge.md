@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Monster Personality
+- "Monster Personality"
 ---
 # Monster Personality
 *Source: Xanathar's Guide to Everything p. 91* 
 
 **Monster Personality**
-
-`dice: [](monster-personality-xge.md#^monster-personality)`
 
 | dice: d8 | Personality |
 |----------|-------------|

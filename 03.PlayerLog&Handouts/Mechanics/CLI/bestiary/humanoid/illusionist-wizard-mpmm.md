@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Illusionist Wizard
+- "Illusionist Wizard"
 ---
-# [Illusionist Wizard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/illusionist-wizard-mpmm.md)
+# [Illusionist Wizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/illusionist-wizard-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 263, Volo's Guide to Monsters p. 214*  
 
 Illusionists twist light, sound, and even thought to create illusory effects. Some illusionists are delightful entertainers, while others are devilish tricksters.
@@ -40,8 +41,8 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+2"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -53,14 +54,14 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "actions":
   - "desc": "The illusionist makes two Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +5 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 14 (2d10 + 3) psychic damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +5 to hit, reach 5 ft. or range 120\
+      \ ft., one target. *Hit:* 14 (2d10 + 3) psychic damage."
     "name": "Arcane Burst"
   - "desc": "The illusionist casts one of the following spells, using Intelligence\
-      \ as the spellcasting ability (spell save DC 13):\n\nAt will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ as the spellcasting ability (spell save DC 13):\n\n**At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [minor\
       \ illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\n\
-      2/day each: [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
+      **2/day each:** [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [major\
       \ image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md), [phantasmal\

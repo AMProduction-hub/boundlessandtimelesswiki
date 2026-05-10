@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Deathlock Wight
+- "Deathlock Wight"
 ---
-# [Deathlock Wight](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/deathlock-wight-mpmm.md)
+# [Deathlock Wight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/deathlock-wight-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 87, Mordenkainen's Tome of Foes p. 129*  
 
 Deprived of much of its magic as a special punishment, a deathlock wight lingers between the warlock it was and the wretched existence of a wight.
@@ -41,7 +42,7 @@ An powerful necromancer might also discover the wicked methods of creating a dea
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+3"
@@ -51,7 +52,8 @@ An powerful necromancer might also discover the wicked methods of creating a dea
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "the languages it knew in life"
 "cr": "3"
 "traits":
@@ -64,7 +66,7 @@ An powerful necromancer might also discover the wicked methods of creating a dea
 "actions":
   - "desc": "The deathlock makes two Life Drain or Grave Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 6 (1d8 + 2) necrotic damage. The target must succeed on a DC 13 Constitution\
       \ saving throw, or its hit point maximum is reduced by an amount equal to the\
       \ damage taken. This reduction lasts until the target finishes a long rest.\
@@ -74,14 +76,14 @@ An powerful necromancer might also discover the wicked methods of creating a dea
       \ its body is destroyed. The deathlock can have no more than twelve zombies\
       \ under its control at one time."
     "name": "Life Drain"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 60 ft., one target. *Hit:*\
       \ 12 (2d8 + 3) necrotic damage."
     "name": "Grave Bolt"
   - "desc": "The deathlock casts one of the following spells, using Charisma as the\
-      \ spellcasting ability (spell save DC 13):\n\nAt will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ spellcasting ability (spell save DC 13):\n\n**At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)\n\n\
-      1/day each: [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md),\
+      **1/day each:** [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md)"
     "name": "Spellcasting"
 "source":

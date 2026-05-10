@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 aliases:
-- Prisoner 13
+- "Prisoner 13"
 ---
 # Prisoner 13
 *Source: Keys from the Golden Vault, p. 55* 
@@ -13,7 +14,7 @@ aliases:
 
 On the world of Toril, in the frozen reaches north of the Sword Coast, lies an impenetrable fortress built to house the region's most dangerous criminals. One of this prison's earliest inmates, a dwarf known as [Prisoner 13](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/prisoner-13-kftgv.md), spends her days in seeming quiet and solitude while secretly pulling the strings of a spy network that spans much of the continent. She holds the key to a treasure she stole from a dwarf clan. In this heist, the characters must infiltrate the prison, retrieve the key from [Prisoner 13](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/prisoner-13-kftgv.md) (found in a tattoo on her hand), and return the key to Varrin Axebreaker, the dwarf who hired them.
 
-![Perched on a windswept blu...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/028-p13-001-ch4-splash.webp#center "Perched on a windswept bluff is the prison of Revel's End, wherein waits Prisoner 13")
+![Perched on a windswept bluff is the prison of Revel's End, wherein waits Prisoner 13](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/028-p13-001-ch4-splash.webp#center)
 
 ## Adventure Background
 
@@ -363,19 +364,17 @@ To add detail to other inmates, roll on the Prisoners table or choose entries yo
 
 **Prisoners**
 
-`dice: [](05-prisoner-13.md#^prisoners)`
-
 | dice: d6 | Prisoner |
 |----------|----------|
-| 1 | Gallia Strand (neutral evil human), convicted of smuggling contraband luxuries, has served `d6` years of a 10-year sentence. |
-| 2 | Barlo Rageblade (chaotic good human), a famous adventurer convicted of reckless endangerment, has served `d4` years of a 5-year sentence. |
-| 3 | Quillion Sardo (lawful neutral halfling), convicted of using magic to influence others, has served `d4` years of a 5-year sentence. |
-| 4 | Pirouette (chaotic evil tiefling), a thieves' guild leader convicted of multiple crimes, has served `d20` years of a life sentence. |
-| 5 | Ishar (chaotic evil elf), convicted of conspiracy to murder members of a noble family, has served `d20` years of a life sentence. |
-| 6 | Grix (neutral goblin), convicted of espionage, has served `d6` years of a 10-year sentence. |
+| 1 | Gallia Strand (neutral evil human), convicted of smuggling contraband luxuries, has served `1d6` years of a 10-year sentence. |
+| 2 | Barlo Rageblade (chaotic good human), a famous adventurer convicted of reckless endangerment, has served `1d4` years of a 5-year sentence. |
+| 3 | Quillion Sardo (lawful neutral halfling), convicted of using magic to influence others, has served `1d4` years of a 5-year sentence. |
+| 4 | Pirouette (chaotic evil tiefling), a thieves' guild leader convicted of multiple crimes, has served `1d20` years of a life sentence. |
+| 5 | Ishar (chaotic evil elf), convicted of conspiracy to murder members of a noble family, has served `1d20` years of a life sentence. |
+| 6 | Grix (neutral goblin), convicted of espionage, has served `1d6` years of a 10-year sentence. |
 ^prisoners
 
-![An adventurer makes contac...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/033-p13-005-contact-with-prisoner-13.webp#center "An adventurer makes contact with the enigmatic prisoner 13")
+![An adventurer makes contact with the enigmatic prisoner 13](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/033-p13-005-contact-with-prisoner-13.webp#center)
 
 #### R18: Surveillance Hub
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Green Dragon Wyrmling
+- "Green Dragon Wyrmling"
 ---
-# [Green Dragon Wyrmling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/green-dragon-wyrmling.md)
+# [Green Dragon Wyrmling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/green-dragon-wyrmling.md)
 *Source: Monster Manual p. 95. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 The most cunning and treacherous of true dragons, green dragons use misdirection and trickery to get the upper hand against their enemies. Nasty tempered and thoroughly evil, they take special pleasure in subverting and corrupting the good-hearted. In the ancient forests they roam, green dragons demonstrate an aggression that is often less about territory than it is about gaining power and wealth with as little effort as possible.
@@ -123,10 +124,10 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
   - !!int "13"
 "speed": "30 ft., fly 60 ft., swim 30 ft."
 "saves":
-  - "dexterity": "+3"
-  - "constitution": "+3"
-  - "wisdom": "+2"
-  - "charisma": "+3"
+  - "dexterity": !!int "3"
+  - "constitution": !!int "3"
+  - "wisdom": !!int "2"
+  - "charisma": !!int "3"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
@@ -134,15 +135,17 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
     "desc": "+3"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Draconic"
 "cr": "2"
 "traits":
   - "desc": "The dragon can breathe air and water."
     "name": "Amphibious"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d10 + 2) piercing damage plus 3 (d6) poison damage."
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
+      \ (1d10 + 2) piercing damage plus 3 (1d6) poison damage."
     "name": "Bite"
   - "desc": "The dragon exhales poisonous gas in a 15-foot cone. Each creature in\
       \ that area must make a DC 11 Constitution saving throw, taking 21 (6d6) poison\

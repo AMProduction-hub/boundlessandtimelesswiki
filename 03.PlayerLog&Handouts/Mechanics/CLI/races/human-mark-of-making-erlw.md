@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/race/human/mark-of-making
 aliases:
-- Human (Mark of Making)
+- "Human (Mark of Making)"
 ---
 # Human (Mark of Making)
 *Source: Eberron: Rising from the Last War p. 45*  
 
 
-- **Ability Scores**: Intelligence +2; Apply +1 to one of Strength, Dexterity, Constitution, Wisdom, or Charisma.
+- **Ability Scores**: Apply +1 to one of Strength, Dexterity, Constitution, Wisdom, or Charisma.
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Intelligence
@@ -36,7 +37,7 @@ When you make an [Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Ar
 
 ### Maker's Gift
 
-You gain proficiency with one type of artisan's tools of your choice.
+You gain proficiency with one type of [artisan's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/artisans-tools.md) of your choice.
 
 ### Spellsmith
 

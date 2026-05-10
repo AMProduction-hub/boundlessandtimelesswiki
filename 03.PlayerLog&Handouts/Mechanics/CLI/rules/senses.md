@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Senses
+- "Senses"
 ---
 # Senses
 

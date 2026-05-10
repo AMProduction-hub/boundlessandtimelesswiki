@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/rotos
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/legendary
-aliases: 
+aliases:
 - "White Dragon Mask"
 ---
 # White Dragon Mask
@@ -41,6 +42,6 @@ You can speak and understand Draconic. You also have advantage on any Charisma c
 
 ## Winter's Fury
 
-While your current hit points are equal to or less than half your hit point maximum, you deal an extra `d8` cold damage with your melee attacks.
+While your current hit points are equal to or less than half your hit point maximum, you deal an extra `1d8` cold damage with your melee attacks.
 
 *Source: The Rise of Tiamat Online Supplement p. 4*

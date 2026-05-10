@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Swarm of Quippers
+- "Swarm of Quippers"
 ---
-# [Swarm of Quippers](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/swarm-of-quippers.md)
-*Source: Monster Manual p. 338, Princes of the Apocalypse, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Sleeping Dragon's Wake, Journeys through the Radiant Citadel, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Swarm of Quippers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-quippers.md)
+*Source: Monster Manual p. 338. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 > [!note] The Nature of Swarms
 > 
@@ -45,7 +46,8 @@ aliases:
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": ""
 "cr": "1"
 "traits":
@@ -59,21 +61,12 @@ aliases:
   - "desc": "The swarm can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the\
-      \ swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 0 ft., one creature in the\
+      \ swarm's space. *Hit:* 14 (4d6) piercing damage, or 7 (2d6) piercing damage\
       \ if the swarm has half of its hit points or fewer."
     "name": "Bites"
 "source":
   - "MM"
-  - "PotA"
-  - "ToA"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "SDW"
-  - "JttRC"
-  - "DSotDQ"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/swarm-of-quippers.webp"
 ```
 ^statblock

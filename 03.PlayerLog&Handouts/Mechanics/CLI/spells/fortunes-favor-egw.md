@@ -1,16 +1,21 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/egw
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/feat/adept-of-the-white-robes
 - ttrpg-cli/spell/level/2nd-level
 - ttrpg-cli/spell/school/divination
+- ttrpg-cli/spell/subclass/chronurgy-magic
+- ttrpg-cli/spell/subclass/graviturgy-magic
 classes:
-- Bard
+- Bard (Magical Secrets)
+- Wizard (Chronurgy Magic)
+- Wizard (Graviturgy Magic)
 aliases:
-- Fortune's Favor
+- "Fortune's Favor"
 ---
 # Fortune's Favor
 *2nd-level, Divination*  
@@ -27,6 +32,6 @@ If the original `d20` roll has advantage or disadvantage, the creature rolls the
 
 **At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Wizard (Chronurgy Magic)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-chronurgy-magic-egw.md "subclass=EGW"); [Wizard (Graviturgy Magic)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-graviturgy-magic-egw.md "subclass=EGW")
 
 *Source: Explorer's Guide to Wildemount p. 186*

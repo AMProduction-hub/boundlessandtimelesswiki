@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Fewmaster Gholcag
+- "Fewmaster Gholcag"
 ---
-# [Fewmaster Gholcag](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/fewmaster-gholcag-dsotdq.md)
+# [Fewmaster Gholcag](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fewmaster-gholcag-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 74*  
 
 Fewmaster Gholcag is a low-ranking commander in the Red Dragon Army and the leader of the raid on Vogler.
@@ -36,15 +37,19 @@ Ogres are hulking giants notorious for their quick tempers. When its rage is inc
   - !!int "7"
   - !!int "7"
 "speed": "40 ft."
-"senses": "darkvision 60 ft., passive Perception 8"
+"gear":
+  - "[greatclub](03.PlayerLog&Handouts/Mechanics/CLI/items/greatclub.md)"
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": "Common, Giant"
 "cr": "2"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) bludgeoning damage."
     "name": "Greatclub"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 11 (2d6 + 4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 11 (2d6 + 4) piercing damage."
     "name": "Javelin"
 "source":
   - "DSotDQ"

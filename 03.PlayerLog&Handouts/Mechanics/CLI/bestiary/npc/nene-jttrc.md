@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nene
+- "Nene"
 ---
-# [Nene](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/nene-jttrc.md)
+# [Nene](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/nene-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 205*  
 
 ```statblock
@@ -42,7 +43,7 @@ aliases:
       \ checks that rely on sight."
     "name": "Keen Sight"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1\
       \ slashing damage."
     "name": "Talons"
 "source":

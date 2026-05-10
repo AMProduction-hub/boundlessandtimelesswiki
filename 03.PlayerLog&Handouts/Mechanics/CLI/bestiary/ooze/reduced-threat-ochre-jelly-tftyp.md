@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reduced-Threat Ochre Jelly
+- "Reduced-Threat Ochre Jelly"
 ---
-# [Reduced-Threat Ochre Jelly](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\ooze/reduced-threat-ochre-jelly-tftyp.md)
+# [Reduced-Threat Ochre Jelly](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/reduced-threat-ochre-jelly-tftyp.md)
 *Source: Tales from the Yawning Portal p. 113*  
 
 ```statblock
@@ -38,7 +39,8 @@ aliases:
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 8"
 "languages": ""
 "cr": "2"
 "traits":
@@ -53,8 +55,8 @@ aliases:
       \ without needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 9\
-      \ (2d6 + 2) bludgeoning damage plus 3 (d6) acid damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 9\
+      \ (2d6 + 2) bludgeoning damage plus 3 (1d6) acid damage."
     "name": "Pseudopod"
 "reactions":
   - "desc": "When a jelly that is Medium or larger is subjected to lightning or slashing\

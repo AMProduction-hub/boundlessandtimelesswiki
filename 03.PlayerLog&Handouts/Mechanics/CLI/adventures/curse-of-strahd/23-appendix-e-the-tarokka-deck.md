@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 aliases:
-- Appendix E: The Tarokka Deck
+- "Appendix E: The Tarokka Deck"
 ---
 # Appendix E: The Tarokka Deck
 *Source: Curse of Strahd, p. 243* 

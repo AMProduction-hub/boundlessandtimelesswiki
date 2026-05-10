@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kiddywidget
+- "Kiddywidget"
 ---
-# [Kiddywidget](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/kiddywidget-cm.md)
+# [Kiddywidget](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/kiddywidget-cm.md)
 *Source: Candlekeep Mysteries p. 136*  
 
 A skitterwidget that gives birth to a kiddywidget can't procreate for `3d6` days afterward. Still, given that skitterwidgets are constructs with no natural life span, there is no telling how many kiddywidgets a pair of skitterwidgets can produce.
@@ -41,7 +42,8 @@ A skitterwidget that gives birth to a kiddywidget can't procreate for `3d6` days
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60, passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60, passive Perception 10"
 "languages": "Skitterwidget"
 "cr": "1/2"
 "traits":
@@ -51,12 +53,12 @@ A skitterwidget that gives birth to a kiddywidget can't procreate for `3d6` days
   - "desc": "The kiddywidget makes two attacks: one with its bite and one with its\
       \ tail."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage. If the target is a creature, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ by the kiddywidget (escape DC 8)."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
-      \ (1d4 + 2) piercing damage plus 2 (d4) lightning damage."
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
+      \ (1d4 + 2) piercing damage plus 2 (1d4) lightning damage."
     "name": "Tail"
 "source":
   - "CM"

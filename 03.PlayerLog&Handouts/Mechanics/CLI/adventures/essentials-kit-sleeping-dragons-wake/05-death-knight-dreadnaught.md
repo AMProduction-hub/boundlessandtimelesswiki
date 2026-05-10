@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/sdw
 aliases:
-- Death Knight-Dreadnaught
+- "Death Knight-Dreadnaught"
 ---
 # Death Knight-Dreadnaught
 *Source: Essentials Kit: Sleeping Dragon's Wake* 
@@ -88,7 +89,7 @@ The animated skeleton of a stone giant is lashed to the ship's bow. This [giant 
 
 ##### Halberd
 
-*Melee Weapon Attack:* +8 to hit, reach 20 ft., one target. *Hit*: 21 (`3d10 + 5`) slashing damage.
+*Melee Weapon Attack:* `+8` to hit, reach 20 ft., one target. *Hit*: 21 (`3d10 + 5`) slashing damage.
 
 The evil spirit of the death knight can see and speak through the skeletal figurehead (see "Death Knight's Soul"). If the death knight spots intruders outside the ship, it alerts Fheralai below deck and she moves to confront her new guests (see "Fheralai Stormsworn").
 

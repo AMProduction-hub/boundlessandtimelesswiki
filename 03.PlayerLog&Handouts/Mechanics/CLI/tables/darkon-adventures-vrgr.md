@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Darkon Adventures
+- "Darkon Adventures"
 ---
 # Darkon Adventures
 *Source: Van Richten's Guide to Ravenloft p. 91* 
 
 **Darkon Adventures**
-
-`dice: [](darkon-adventures-vrgr.md#^darkon-adventures)`
 
 | dice: d6 | Adventure |
 |----------|-----------|

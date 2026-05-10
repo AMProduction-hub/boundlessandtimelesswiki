@@ -1,8 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
+- json5e-index
 ---
-# Index of Traps-hazards
+# Index of Traps & Hazards
 
 - [Avalanche](./avalanche-idrotf.md)
 - [Avalanche](./avalanche-tce.md)
@@ -17,10 +19,10 @@ cssclasses: json5e-note
 - [Extreme Cold](./extreme-cold.md)
 - [Extreme Heat](./extreme-heat.md)
 - [Faceless Malice](./faceless-malice-vrgr.md)
-- [Falling into Water](./falling-into-water-tce.md)
 - [Falling Net](./falling-net.md)
-- [Falling onto a Creature](./falling-onto-a-creature-tce.md)
 - [Falling Portcullis](./falling-portcullis-xge.md)
+- [Falling into Water](./falling-into-water-tce.md)
+- [Falling onto a Creature](./falling-onto-a-creature-tce.md)
 - [Fiery Blast Trap](./fiery-blast-trap-xge.md)
 - [Fire-Breathing Statue](./fire-breathing-statue.md)
 - [Flame Storm](./flame-storm-tce.md)
@@ -39,8 +41,8 @@ cssclasses: json5e-note
 - [Pit Trap](./pit-trap-xge.md)
 - [Pits](./pits.md)
 - [Poison Darts](./poison-darts.md)
-- [Poison Needle Trap](./poison-needle-trap-xge.md)
 - [Poison Needle](./poison-needle.md)
+- [Poison Needle Trap](./poison-needle-trap-xge.md)
 - [Poisoned Tempest](./poisoned-tempest-xge.md)
 - [Quicksand](./quicksand.md)
 - [Razorvine](./razorvine.md)

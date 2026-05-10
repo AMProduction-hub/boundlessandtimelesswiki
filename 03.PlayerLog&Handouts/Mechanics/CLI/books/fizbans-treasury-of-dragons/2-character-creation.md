@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Character Creation
+- "Character Creation"
 ---
 # Character Creation
 *Source: Fizban's Treasury of Dragons, p. 9* 
@@ -23,7 +24,7 @@ The following sections present a variety of options for creating characters with
 
 ""Draconic Feats"" provides feats to forge connections to the chromatic, gem, and metallic dragon families.
 
-![In his guise as a young mo...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/002-01-001-chapter-splash.webp#center "In his guise as a young monk, Bahamut helps a pair of adventurers put an end to a young red dragon's depredations")
+![In his guise as a young monk, Bahamut helps a pair of adventurers put an end to a young red dragon's depredations](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/002-01-001-chapter-splash.webp#center)
 
 ## Draconic Races
 
@@ -65,8 +66,8 @@ At 3rd level, a monk gains the Monastic Tradition class feature and a ranger gai
 - [Ranger: Drakewarden](03.PlayerLog&Handouts/Mechanics/CLI/classes/ranger-drakewarden-ftd.md)  
 
 > [!gallery]
-> ![A human monk practices a f...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/dragon-monk.webp#gallery "A human monk practices a form inspired by dragon flight")
-> ![A dragonborn Drakewarden s...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/drakewarden-ranger.webp#gallery "A dragonborn Drakewarden shares affection with her drake companion")
+> ![A human monk practices a form inspired by dragon flight](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/dragon-monk.webp#gallery)
+> ![A dragonborn Drakewarden shares affection with her drake companion](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/drakewarden-ranger.webp#gallery)
 
 ## Heroes of the Dragon
 

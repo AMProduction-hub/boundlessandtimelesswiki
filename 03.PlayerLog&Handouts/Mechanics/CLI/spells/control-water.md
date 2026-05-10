@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/quandrix-student
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/4th-level
 - ttrpg-cli/spell/school/transmutation
 - ttrpg-cli/spell/subclass/arcane-trickster
-- ttrpg-cli/spell/subclass/circle-of-the-land
+- ttrpg-cli/spell/subclass/circle-of-the-land/coast
 - ttrpg-cli/spell/subclass/divine-soul
 - ttrpg-cli/spell/subclass/eldritch-knight
 - ttrpg-cli/spell/subclass/tempest-domain
@@ -19,11 +20,11 @@ tags:
 - ttrpg-cli/spell/subclass/the-genie
 - ttrpg-cli/spell/subrace/half-elf-mark-of-storm
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Cleric (Tempest Domain)
 - Druid
-- Druid (Circle of the Land)
+- Druid (Circle of the Land, Coast)
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
 - Sorcerer (Divine Soul)
@@ -31,7 +32,7 @@ classes:
 - Warlock (The Genie)
 - Wizard
 aliases:
-- Control Water
+- "Control Water"
 ---
 # Control Water
 *4th-level, Transmutation*  
@@ -70,6 +71,6 @@ The first time each turn that an object enters the vortex, the object takes `2d8
 
 ## Summary
 
-**Classes**: [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Cleric (Tempest Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-tempest-domain.md); [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Warlock (The Fathomless)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-fathomless-tce.md "subclass=TCE")
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Tempest Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-tempest-domain.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Druid (Circle of the Land, Coast)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Warlock (The Fathomless)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-fathomless-tce.md "subclass=TCE"); [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 227. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

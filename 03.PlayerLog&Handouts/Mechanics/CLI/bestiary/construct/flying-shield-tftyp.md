@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Flying Shield
+- "Flying Shield"
 ---
-# [Flying Shield](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/flying-shield-tftyp.md)
+# [Flying Shield](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/flying-shield-tftyp.md)
 *Source: Tales from the Yawning Portal p. 224*  
 
 ```statblock
@@ -33,7 +34,7 @@ aliases:
   - !!int "1"
 "speed": "0 ft., fly 50 ft. (hover)"
 "saves":
-  - "dexterity": "+4"
+  - "dexterity": !!int "4"
 "damage_immunities": "poison, psychic"
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
@@ -41,7 +42,10 @@ aliases:
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 7"
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 7"
 "languages": ""
 "cr": "1/4"
 "traits":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Shell Shark
+- "Shell Shark"
 ---
-# [Shell Shark](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/shell-shark-gos.md)
+# [Shell Shark](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/shell-shark-gos.md)
 *Source: Ghosts of Saltmarsh p. 252*  
 
 These impressive creatures, swimming through the sahuagin stronghold in The Final Enemy, are chosen by priestesses of Sekolah to serve as protectors and messengers. The sharks are blessed in a ritual during which plates of shell and coral are permanently affixed to their bodies.
@@ -35,11 +36,12 @@ These impressive creatures, swimming through the sahuagin stronghold in The Fina
   - !!int "7"
 "speed": "0 ft., swim 40 ft."
 "saves":
-  - "strength": "+6"
+  - "strength": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+6"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": ""
 "cr": "2"
 "traits":
@@ -54,7 +56,7 @@ These impressive creatures, swimming through the sahuagin stronghold in The Fina
 "actions":
   - "desc": "The shark makes two bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d10 + 2) piercing damage."
     "name": "Bite"
 "source":

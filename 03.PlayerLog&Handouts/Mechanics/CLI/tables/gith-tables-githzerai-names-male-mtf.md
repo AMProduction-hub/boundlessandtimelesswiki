@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Gith Tables; Githzerai Names, Male
+- "Gith Tables; Githzerai Names, Male"
 ---
 # Gith Tables; Githzerai Names, Male
 *Source: Mordenkainen's Tome of Foes p. 97* 
 
 **Githzerai Names, Male**
-
-`dice: [](gith-tables-githzerai-names-male-mtf.md#^githzerai-names-male)`
 
 | dice: d10 | Name |
 |-----------|------|

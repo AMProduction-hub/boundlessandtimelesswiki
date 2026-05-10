@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Omens of Kruphix
+- "Omens of Kruphix"
 ---
 # Omens of Kruphix
 *Source: Mythic Odysseys of Theros p. 111* 
 
 **Omens of Kruphix**
-
-`dice: [](omens-of-kruphix-mot.md#^omens-of-kruphix)`
 
 | dice: d6 | dice: d100 | Omen of Kruphix |
 |----------|------------|-----------------|

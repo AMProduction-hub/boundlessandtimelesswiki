@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Aurumvorax Den Leader
+- "Aurumvorax Den Leader"
 ---
-# [Aurumvorax Den Leader](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/aurumvorax-den-leader-jttrc.md)
+# [Aurumvorax Den Leader](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/aurumvorax-den-leader-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 105*  
 
 Aurumvoraxes that feed on a steady supply of precious metals gradually grow in size. These aurumvoraxes are faster and deadlier than others of their kind.
@@ -41,15 +42,16 @@ Alone or in small groups, aurumvoraxes dig deep in search of precious metals. Su
   - !!int "8"
 "speed": "40 ft., burrow 20 ft."
 "saves":
-  - "strength": "+6"
-  - "constitution": "+4"
+  - "strength": !!int "6"
+  - "constitution": !!int "4"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "condition_immunities": "[petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": ""
 "cr": "4"
 "traits":
@@ -62,7 +64,7 @@ Alone or in small groups, aurumvoraxes dig deep in search of precious metals. Su
 "actions":
   - "desc": "The aurumvorax makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) piercing damage. If the target is a creature wearing armor of\
       \ any type, the aurumvorax gains one of the following benefits of its choice:"
     "name": "Bite"
@@ -71,7 +73,7 @@ Alone or in small groups, aurumvoraxes dig deep in search of precious metals. Su
     "name": "Frenzy"
   - "desc": "The aurumvorax regains 6 (1d8 + 2) hit points."
     "name": "Invigorate"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage. If the target is a Large or smaller creature,\
       \ it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14). Until this grapple ends, the aurumvorax can't use its Claw\

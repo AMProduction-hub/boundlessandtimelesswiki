@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Monsters of Ravenloft
+- "Monsters of Ravenloft"
 ---
 # Monsters of Ravenloft
 *Source: Van Richten's Guide to Ravenloft, p. 223* 
 
 Untold terrors haunt the Domains of Dread. Among them skulk nightmares known on countless worlds, but even familiar monsters can take on twisted forms or demonstrate unexpected abilities. This chapter explores ways to help you, the DM, make even the most commonplace monsters more frightening, as well as providing a host of horrors to add to your adventures in the Mists.
 
-![Darklord Maligno and his c...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/121-05-001-intro-splash.webp#center "Darklord Maligno and his carrionette servants ambush the detectives Alanik Ray and Arthur Sedgwick")
+![Darklord Maligno and his carrionette servants ambush the detectives Alanik Ray and Arthur Sedgwick](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/121-05-001-intro-splash.webp#center)
 
 ## Horror Monsters
 
@@ -40,7 +41,7 @@ The Whistling Fiend's notoriety has little to do with its stat block. It's famou
 
 ### Describing Monsters
 
-![The Whistling Fiend is not...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/122-05-002-the-whistling-fiend.webp#center "The Whistling Fiend is notorious for being heard long before it's seen")
+![The Whistling Fiend is notorious for being heard long before it's seen](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/122-05-002-the-whistling-fiend.webp#center)
 
 When adventurers encounter a monster for the first time, especially if its reputation precedes it, dwell on its description. You could tell the players that they see a merrow or hold up the creature's picture from the "Monster Manual". But that first moment of revelation is the best time to paint a horrifying picture of the monster in the players' imaginations. In addition to the techniques described in the ""Running Horror Games"" section of "chapter 4", consider these concepts as you describe a monster:
 
@@ -92,7 +93,7 @@ Once you've considered the techniques in this section, put them all together to 
 
 For example, perhaps you've got an idea for a [troll](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/troll.md) that ambushes adventurers while they rest. Considering its origins and appearance, the troll literally being a troll isn't important to you; you're more interested in that general challenge and look for the creature. To make your troll feel notorious, you think of what would scare adventurers—where they're vulnerable and what they're sensitive about. You come up with an idea for a creature that can come from anywhere, maybe even within the adventurers' own gear. With tactics and traits in mind, you think of your troll as an abductor and give it the Grappler trait of a [mimic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/mimic.md) and the Amorphous trait of a [black pudding](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/black-pudding.md) so it can sneak in anywhere. Finally, you don't think of the troll as a minion, but you give it the Alien Mind trait to reflect its tormented psyche. Then you flesh out its story and give it a name: [the Bagman](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/the-bagman-vrgr.md).
 
-![The Bagman emerges from a ...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/123-05-003-the-bagman.webp#center "The Bagman emerges from a bag of holding to collect its next victim")
+![The Bagman emerges from a bag of holding to collect its next victim](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/123-05-003-the-bagman.webp#center)
 
 #### Beware the Bagman
 

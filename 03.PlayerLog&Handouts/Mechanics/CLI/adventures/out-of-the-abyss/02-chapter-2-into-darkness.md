@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Chapter 2: Into Darkness
+- "Chapter 2: Into Darkness"
 ---
 # Chapter 2: Into Darkness
 *Source: Out of the Abyss, p. 17* 
@@ -104,7 +105,7 @@ When an encounter occurs, determine if the adventurers or their foes are [surpri
 
 Becoming lost is a serious risk in the twisting tunnels of the Underdark, and travelers can wander in circles without knowing it. Creatures unfamiliar with a given region of the Underdark are automatically lost, wandering in a random direction for every 4 hours of travel until they encounter an area they are familiar with (which could be a very long time).
 
-Even creatures that know the routes of the Underdark aren't immune. For each day of travel, and any time the characters set out again after finishing a short or long rest, the party's navigator makes a DC 10 Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check. If the party is moving at a slow pace, the navigator gains a +5 bonus to the check, while a fast pace imposes a −5 penalty. A failed check result means the characters become lost, wandering in a random direction for `d6` hours before the navigator can make a new check to find the right path.
+Even creatures that know the routes of the Underdark aren't immune. For each day of travel, and any time the characters set out again after finishing a short or long rest, the party's navigator makes a DC 10 Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check. If the party is moving at a slow pace, the navigator gains a +5 bonus to the check, while a fast pace imposes a −5 penalty. A failed check result means the characters become lost, wandering in a random direction for `1d6` hours before the navigator can make a new check to find the right path.
 
 ### Mapping
 
@@ -140,7 +141,7 @@ Areas suffused with *faerzress* can range in size from a few dozen feet across t
 
 - Areas suffused with *faerzress* are always filled with dim light.  
 - A creature in an area suffused with *faerzress* has advantage on saving throws against any divination spells. If a divination spell doesn't allow a saving throw, the caster must succeed on a DC 15 Constitution saving throw to cast the spell. Failing this save means the spell is wasted and has no effect.  
-- Any creature attempting to teleport into, within, or out of a *faerzress-*suffused area must succeed on a DC 15 Constitution saving throw. On a failed save, the creature takes `d10` force damage and the teleportation attempt fails. Even if the save succeeds, the teleportation attempt can suffer a mishap as if the destination was known only by description, regardless of how familiar the destination actually is. See the table in the [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md) spell for more information.  
+- Any creature attempting to teleport into, within, or out of a *faerzress-*suffused area must succeed on a DC 15 Constitution saving throw. On a failed save, the creature takes `1d10` force damage and the teleportation attempt fails. Even if the save succeeds, the teleportation attempt can suffer a mishap as if the destination was known only by description, regardless of how familiar the destination actually is. See the table in the [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md) spell for more information.  
 - Areas suffused with *faerzress* have become tainted by the chaos of the demon lords. When a spell is cast in a *faerzress*-suffused area, the caster rolls a `d20`. On a roll of 1, the spell has an additional effect, determined by rolling on the Wild Magic Surge table in chapter 3, "[Classes](03.PlayerLog&Handouts/Mechanics/CLI/tables/wild-magic-surge-phb.md)," of the *Player's Handbook*.  
 
 Though *faerzress* can't be dispelled, its effects are temporarily suppressed in the area of an [antimagic field](03.PlayerLog&Handouts/Mechanics/CLI/spells/antimagic-field.md).
@@ -173,7 +174,7 @@ In *Out of the Abyss*, madness is measured in three levels:
 
 | Level | Effect |
 |-------|--------|
-| 1 | Bout of short-term madness (lasts `d10` minutes) |
+| 1 | Bout of short-term madness (lasts `1d10` minutes) |
 | 2 | Bout of long-term madness (lasts `1d10 × 10` hours) |
 | 3 | Bout of indefinite madness (lasts until cured) |
 ^level-effect
@@ -247,7 +248,7 @@ A nightlight is a tall and tube-shaped bioluminescent mushroom that grows to a h
 
 #### Nilhogg's Nose
 
-A Nilhogg's nose is a small mushroom that grants any creature that eats it advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) checks based on smell for `d4` hours. However, the creature suffers disadvantage on saving throws against effects based on smell for the same amount of time.
+A Nilhogg's nose is a small mushroom that grants any creature that eats it advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) checks based on smell for `1d4` hours. However, the creature suffers disadvantage on saving throws against effects based on smell for the same amount of time.
 
 #### Ormu
 
@@ -263,7 +264,7 @@ Tongue of madness is an edible fungus that looks somewhat like a large human ton
 
 #### Torchstalk
 
-A one- to two-foot-tall mushroom with a combustible cap, a single torchstalk burns for 24 hours once lit. There is a 1-in-6 chance that a torchstalk explodes when lit, bursting into a cloud of fiery spores. Creatures within 10 feet of an exploding torchstalk take 3 (`d6`) fire damage.
+A one- to two-foot-tall mushroom with a combustible cap, a single torchstalk burns for 24 hours once lit. There is a 1-in-6 chance that a torchstalk explodes when lit, bursting into a cloud of fiery spores. Creatures within 10 feet of an exploding torchstalk take 3 (`1d6`) fire damage.
 
 ## Narrating the Journey
 
@@ -324,15 +325,13 @@ If the adventurers lower the pursuit level to 0, the drow lose the trail unless 
 
 The drow try to capture the escaped prisoners if at all possible, since Ilvara wants the pleasure of teaching them a lesson about disobedience. If the dark elves reduce any characters to 0 hit points, those characters are knocked out rather than dying (see ""Knocking a Creature Out"" in chapter 9 of the *Player's Handbook*). Even if one or more of the characters are accidentally killed, Ilvara is obsessed enough to cast [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md) to restore them to life (assuming the character's soul is willing to return).
 
-Captured characters are disarmed, their hands bound with spider-silk rope, and gagged. The drow march them back to Velkynvelve unless Menzoberranzan is closer, in which case Ilvara takes them there instead. The characters will need to come up with a new plan of escape, ideally before Ilvara has the opportunity to torture them or sell them into slavery in the City of Spiders. If they escape her clutches again, the drow priestess continues her pursuit until she is dead or the party leaves the Underdark (see chapter 7).
+Captured characters are disarmed, their hands bound with spider silk rope, and gagged. The drow march them back to Velkynvelve unless Menzoberranzan is closer, in which case Ilvara takes them there instead. The characters will need to come up with a new plan of escape, ideally before Ilvara has the opportunity to torture them or sell them into slavery in the City of Spiders. If they escape her clutches again, the drow priestess continues her pursuit until she is dead or the party leaves the Underdark (see chapter 7).
 
 ## Random Encounters
 
 Each day of travel through the Underdark, check twice to see if the characters encounter anything unusual: once while they are traveling, and again while they are camped or resting. Roll a `d20` and consult the Random Encounters table to determine what, if anything, they encounter. Characters might encounter special terrain, one or more creatures, or a combination of the two.
 
 Any random encounter that occurs while the party is camped is automatically a creature encounter, in which case determine the encounter by rolling a `d20` and consulting the Creature Encounter table.
-
-`dice: [](02-chapter-2-into-darkness.md#^encounter)`
 
 | dice: d20 | Encounter |
 |-----------|-----------|
@@ -345,8 +344,6 @@ Any random encounter that occurs while the party is camped is automatically a cr
 ### Terrain Encounters
 
 The Underdark contains dangerous hazards and wondrous terrain. Special terrain rules are explained after the table.
-
-`dice: [](02-chapter-2-into-darkness.md#^encounter)`
 
 | dice: d20 | Encounter |
 |-----------|-----------|
@@ -380,13 +377,11 @@ When the party enters a boneyard, roll a `d20` and consult the table to determin
 
 #### Boneyard Encounter
 
-`dice: [](02-chapter-2-into-darkness.md#^encounter)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–14 | No encounter |
 | 15–18 | `3d4` [skeletons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeleton.md) |
-| 19–20 | `d3` [minotaur skeleton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/minotaur-skeleton.md) |
+| 19–20 | `1d3` [minotaur skeleton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/minotaur-skeleton.md) |
 ^encounter
 
 #### Cliff and Ladder
@@ -407,7 +402,7 @@ The adventurers stumble upon a cavern filled with fungi and mushrooms of all siz
 
 #### Gas Leak
 
-The adventurers come upon a cavern with a dangerous natural gas leak. Any member of the party with a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 14 or higher detects signs of the gas. The characters' travel pace for the day is slowed by half as they circumvent the area, but there are no ill effects. If the gas goes undetected, each character in the area must make a DC 12 Constitution saving throw, taking 5 (`d10`) poison damage on a failed save, or half as much damage on a successful one. Any open flames brought into the area cause the gas to explode. Each creature in the explosion must make a DC 15 Dexterity saving throw, taking 10 (`3d6`) fire damage on a failed save, or half as much damage on a successful one.
+The adventurers come upon a cavern with a dangerous natural gas leak. Any member of the party with a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 14 or higher detects signs of the gas. The characters' travel pace for the day is slowed by half as they circumvent the area, but there are no ill effects. If the gas goes undetected, each character in the area must make a DC 12 Constitution saving throw, taking 5 (`1d10`) poison damage on a failed save, or half as much damage on a successful one. Any open flames brought into the area cause the gas to explode. Each creature in the explosion must make a DC 15 Dexterity saving throw, taking 10 (`3d6`) fire damage on a failed save, or half as much damage on a successful one.
 
 #### Gorge
 
@@ -431,7 +426,7 @@ The adventurers must wade through a broad, 3-foot-deep pit of slimy muck. The mu
 
 #### Rockfall
 
-As the adventurers make their way through a long, twisting cavern, a tremor sets off a rockfall. Each party member must attempt three DC 12 Dexterity saving throws, taking 10 (`3d6`) bludgeoning damage on each failed save. Any [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) creature not moved out of the area is buried under rubble, taking an additional `d6` bludgeoning damage at the end of each of its turns until the creature is dug out or dead. Decrease the drow pursuit level by 1.
+As the adventurers make their way through a long, twisting cavern, a tremor sets off a rockfall. Each party member must attempt three DC 12 Dexterity saving throws, taking 10 (`3d6`) bludgeoning damage on each failed save. Any [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) creature not moved out of the area is buried under rubble, taking an additional `1d6` bludgeoning damage at the end of each of its turns until the creature is dug out or dead. Decrease the drow pursuit level by 1.
 
 #### Rope Bridge
 
@@ -439,7 +434,7 @@ A ravine `2d4 × 10` feet wide and `2d4 × 10` feet deep cuts across the party's
 
 #### Ruins
 
-The adventurers come across a small ruin hidden in the Underdark. This might be the creation of a subterranean race or a surface ruin that collapsed and sank long ago. If the characters search the ruins, there is a 50 percent chance of them finding `d4` trinkets (see chapter 5, ""Equipment"," of the *Player's Handbook*). Roll on the Trinkets table or choose appropriate ones.
+The adventurers come across a small ruin hidden in the Underdark. This might be the creation of a subterranean race or a surface ruin that collapsed and sank long ago. If the characters search the ruins, there is a 50 percent chance of them finding `1d4` trinkets (see chapter 5, ""Equipment"," of the *Player's Handbook*). Roll on the Trinkets table or choose appropriate ones.
 
 #### Shelter
 
@@ -454,8 +449,6 @@ One random party member steps on and collapses a sinkhole, and must succeed on a
 As the adventurers pass through a small cavern, they encounter a patch of slime or mold. Roll a `d6` and consult the table to determine what type of slime or mold is present (see ""Dungeon Hazards"" in chapter 5 of the *Dungeon Master's Guide* for details on these threats).
 
 #### Slime or Mold Encounter
-
-`dice: [](02-chapter-2-into-darkness.md#^encounter)`
 
 | dice: d6 | Encounter |
 |----------|-----------|
@@ -484,27 +477,23 @@ If the characters take a long rest within one mile of the warning sign, roll a `
 
 #### Warning Sign Encounter
 
-`dice: [](02-chapter-2-into-darkness.md#^encounter)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–14 | No encounter |
 | 15–16 | 1 [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) [barlgura](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/barlgura.md) |
 | 17–18 | `3d4` [dretches](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/dretch.md) |
-| 19–20 | `d2` [shadow demons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/shadow-demon.md) |
+| 19–20 | `1d2` [shadow demons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/shadow-demon.md) |
 ^encounter
 
 #### Webs
 
 Sticky webs fills a passage (see ""Dungeon Hazards"" in chapter 5 of the *Dungeon Master's Guide*). The webs extend for hundreds of feet. Unless the characters come up with a plan for clearing the webs quickly, the party's travel pace for the day is halved as the characters are forced to cut their way through or find an alternate route.
 
-Check for an encounter when the party enters the webs. On a roll of 1–2 on a `d6`, the characters encounter `d4` [giant spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-spider.md) lurking among the webs.
+Check for an encounter when the party enters the webs. On a roll of 1–2 on a `d6`, the characters encounter `1d4` [giant spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-spider.md) lurking among the webs.
 
 ### Creature Encounters
 
 Keep the party's level in mind when fleshing out these encounters, and allow the characters to retreat from or avoid an encounter that is too great a challenge. Escape should come at a cost, however. Characters fleeing their camp to avoid a creature encounter might be forced to abandon food and water supplies, for example.
-
-`dice: [](02-chapter-2-into-darkness.md#^encounter)`
 
 | dice: d20 | Encounter |
 |-----------|-----------|
@@ -527,16 +516,14 @@ Keep the party's level in mind when fleshing out these encounters, and allow the
 
 One or more creatures attempt to ambush the party as it makes its way through the Underdark. Roll a `d20` and consult the table to determine what the characters encounter.
 
-`dice: [](02-chapter-2-into-darkness.md#^encounter)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–2 | 1 [chuul](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/chuul.md) lurking in a pool of water |
-| 3 | `d6` [giant spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-spider.md) clinging to the walls or ceiling |
+| 3 | `1d6` [giant spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-spider.md) clinging to the walls or ceiling |
 | 4–5 | 1 [grell](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/grell.md) floating near the high ceiling |
-| 6–9 | `d4` [gricks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/grick.md) hiding in a crevice or fissure |
-| 10–15 | `d4` [orogs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orog.md) perching on ledges |
-| 16–17 | `d6` [piercers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/piercer.md) masquerading as stalactites |
+| 6–9 | `1d4` [gricks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/grick.md) hiding in a crevice or fissure |
+| 10–15 | `1d4` [orogs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orog.md) perching on ledges |
+| 16–17 | `1d6` [piercers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/piercer.md) masquerading as stalactites |
 | 18–20 | 1 [umber hulk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/umber-hulk.md) bursting out of a nearby wall |
 ^encounter
 
@@ -544,16 +531,14 @@ If the ambush occurs in the monster's lair, there is a chance that characters se
 
 #### Ambusher Lair Discoveries
 
-`dice: [](02-chapter-2-into-darkness.md#^discovery)`
-
 | dice: d20 | Discovery |
 |-----------|-----------|
 | 1–10 | None |
 | 11–12 | A humanoid skeleton or corpse clutching a salvageable, nonmagical weapon (your choice) |
 | 13–14 | A humanoid skeleton or corpse wearing a salvageable suit of nonmagical armor (your choice) |
-| 15–17 | `d6` 50 gp gems |
+| 15–17 | `1d6` 50 gp gems |
 | 18–19 | A humanoid skeleton or corpse carrying a random magic item (roll once on Magic Item Table B in "chapter 7" of the *Dungeon Master's Guide*) |
-| 20 | A monster hoard containing `2d6` 50 gp gems and one or more random magic items (roll `d4` times on Magic Item Table C in "chapter 7" of the *Dungeon Master's Guide*) |
+| 20 | A monster hoard containing `2d6` 50 gp gems and one or more random magic items (roll `1d4` times on Magic Item Table C in "chapter 7" of the *Dungeon Master's Guide*) |
 ^discovery
 
 #### Carrion Crawler
@@ -566,34 +551,28 @@ There is a 25 percent chance that the crawler is domesticated and outfitted with
 
 These slaves have been wandering the Underdark since their escape from Gracklstugh or Menzoberranzan. They are scrounging for food and water. Roll a `d4` and consult the table to determine what the characters encounter. Elf, dwarf, and human slaves are friendly; if given food and water they'll join the party. Goblin slaves are hostile and likely to attack.
 
-`dice: [](02-chapter-2-into-darkness.md#^encounter)`
-
 | dice: d4 | Encounter |
 |----------|-----------|
-| 1 | `d2` moon elf [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) |
-| 2 | `d3` shield dwarf [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) |
-| 3 | `d4` human [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) |
-| 4 | `d6` [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) |
+| 1 | `1d2` moon elf [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) |
+| 2 | `1d3` shield dwarf [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) |
+| 3 | `1d4` human [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) |
+| 4 | `1d6` [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) |
 ^encounter
 
 #### Fungi
 
 Roll a `d6` and consult the table to determine what kinds of fungi the characters encounter.
 
-`dice: [](02-chapter-2-into-darkness.md#^encounter)`
-
 | dice: d6 | Encounter |
 |----------|-----------|
-| 1–2 | `d4` [gas spores](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/gas-spore.md) |
-| 3–4 | `d4` [shriekers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/shrieker.md) |
-| 5–6 | `d4` [violet fungi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/violet-fungus.md) |
+| 1–2 | `1d4` [gas spores](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/gas-spore.md) |
+| 3–4 | `1d4` [shriekers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/shrieker.md) |
+| 5–6 | `1d4` [violet fungi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/violet-fungus.md) |
 ^encounter
 
 There's a 25 percent chance that a gas spore carries a memory fragment from a dead beholder in its spores (see the gas spore's description in the "Fungi" entry of *Monster Manual*). This memory can be of anything you wish, or you can roll a `d4` and consult the Beholder Memories table.
 
 #### Beholder Memories
-
-`dice: [](02-chapter-2-into-darkness.md#^memory)`
 
 | dice: d4 | Memory |
 |----------|--------|
@@ -619,8 +598,6 @@ The octopus has advantage on Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanic
 
 The party encounters a creature driven insane by the influence of the demon lords. Roll a `d4` and consult the table to determine what appears. Then roll on the [Indefinite Madness](03.PlayerLog&Handouts/Mechanics/CLI/tables/indefinite-madness.md) table in chapter 8 of the *Dungeon Master's Guide* to determine the nature of the creature's madness. If cured of its madness, the creature behaves in accordance with its alignment.
 
-`dice: [](02-chapter-2-into-darkness.md#^encounter)`
-
 | dice: d4 | Encounter |
 |----------|-----------|
 | 1 | 1 [deep gnome](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/deep-gnome-svirfneblin.md) |
@@ -632,8 +609,6 @@ The party encounters a creature driven insane by the influence of the demon lord
 There is a chance that the mad creature has something of interest or value in its possession. Roll a `d20` and consult the table below to see what, if anything, it has. The creature doesn't part with the item willingly.
 
 #### Mad Creature Possessions
-
-`dice: [](02-chapter-2-into-darkness.md#^possession)`
 
 | dice: d20 | Possession |
 |-----------|------------|
@@ -653,28 +628,24 @@ As the characters move through a series of caves, they attract the attention of 
 
 This group of raiders from the surface ventured into the Underdark looking for riches and got lost. Roll a `d6` and consult the table to determine what appears. The raiders are initially hostile toward the party, though clever characters might try bribing them for safe passage or information.
 
-`dice: [](02-chapter-2-into-darkness.md#^encounter)`
-
 | dice: d6 | Encounter |
 |----------|-----------|
-| 1–2 | `d6` human [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md) and 1 human [bandit captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit-captain.md) |
+| 1–2 | `1d6` human [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md) and 1 human [bandit captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit-captain.md) |
 | 3–4 | `2d4` [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) and 1 [goblin boss](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin-boss.md) |
-| 5–6 | `d6` [orcs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc.md) and 1 [orc Eye of Gruumsh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc-eye-of-gruumsh.md) |
+| 5–6 | `1d6` [orcs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc.md) and 1 [orc Eye of Gruumsh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc-eye-of-gruumsh.md) |
 ^encounter
 
 There is a chance that the leader of the group has something of interest or value. Roll a `d20` and consult the table below to see what, if anything, the leader of the raiders has in its possession.
 
 #### Raider Leader Possessions
 
-`dice: [](02-chapter-2-into-darkness.md#^possession)`
-
 | dice: d20 | Possession |
 |-----------|------------|
 | 1–5 | None |
 | 6–10 | `2d6` 10 gp gemstones in a pouch |
 | 11–14 | `2d6` 50 gp gemstones in a pouch |
-| 15–17 | `d4` torchstalks (see "Fungi of the Underdark") |
-| 18–19 | `d4` waterorbs (see "Fungi of the Underdark") |
+| 15–17 | `1d4` torchstalks (see "Fungi of the Underdark") |
+| 18–19 | `1d4` waterorbs (see "Fungi of the Underdark") |
 | 20 | A random magic item (roll on Magic Item Table B in "chapter 7" of the *Dungeon Master's Guide*) |
 ^possession
 
@@ -682,13 +653,11 @@ There is a chance that the leader of the group has something of interest or valu
 
 Each of these groups is in the Underdark on a secret mission. Roll a `d6` and consult the table to determine what appears.
 
-`dice: [](02-chapter-2-into-darkness.md#^encounter)`
-
 | dice: d6 | Encounter |
 |----------|-----------|
 | 1–2 | 1 [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) |
-| 3–4 | `d4` [myconid adults](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/myconid-adult.md) |
-| 5–6 | `d6` shield dwarf [scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md) |
+| 3–4 | `1d4` [myconid adults](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/myconid-adult.md) |
+| 5–6 | `1d6` shield dwarf [scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md) |
 ^encounter
 
 The [drow scout](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-scout-oota.md) is searching for escaped slaves. If he spots the party, he'll attempt to avoid notice and take away information regarding the group's location (see "Drow Pursuit").
@@ -700,8 +669,6 @@ Shield dwarf scouts are friendly if the party includes one or more surface dwell
 #### Society of Brilliance
 
 The characters stumble upon a member of the Society of Brilliance, a sect of highly intelligent monsters that have banded together to solve all of the Underdark's problems. The society is investigating areas suffused with *faerzress* to ascertain whether it has something to do with what the society fears is some kind of "demonic incursion." Roll a `d10` to determine which society member the characters encounter.
-
-`dice: [](02-chapter-2-into-darkness.md#^encounter)`
 
 | dice: d10 | Encounter |
 |-----------|-----------|
@@ -724,21 +691,17 @@ Members of the Society of Brilliance are aware that paths to the surface world e
 
 One or more creatures killed and reanimated by Zuggtmoy's spores observe the characters as they pass by. The spore servants don't communicate and don't attack except in self-defense. Roll a `d10` and consult the table to determine what the characters encounter.
 
-`dice: [](02-chapter-2-into-darkness.md#^encounter)`
-
 | dice: d10 | Encounter |
 |-----------|-----------|
-| 1–3 | `d4` [drow spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/drow-spore-servant-oota.md) (see appendix C) |
-| 4–6 | `d6` [duergar spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/duergar-spore-servant-oota.md) (see appendix C) |
-| 7–8 | `d4` [hook horror spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/hook-horror-spore-servant-oota.md) (see appendix C) |
-| 9–10 | `d8` [quaggoth spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/quaggoth-spore-servant.md) |
+| 1–3 | `1d4` [drow spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/drow-spore-servant-oota.md) (see appendix C) |
+| 4–6 | `1d6` [duergar spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/duergar-spore-servant-oota.md) (see appendix C) |
+| 7–8 | `1d4` [hook horror spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/hook-horror-spore-servant-oota.md) (see appendix C) |
+| 9–10 | `1d8` [quaggoth spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/quaggoth-spore-servant.md) |
 ^encounter
 
 #### Traders
 
 These traders ply the tunnels of the Underdark, traveling from settlement to settlement. Roll a `d4` and consult the table to determine what appears.
-
-`dice: [](02-chapter-2-into-darkness.md#^encounter)`
 
 | dice: d4 | Encounter |
 |----------|-----------|
@@ -803,13 +766,11 @@ If the adventurers make a good impression on the Web Runners and if the party's 
 
 For every 500 feet the party travels through the webs, check for a random encounter by rolling a `d6`. An encounter occurs on a roll of 1 unless one or more party members are carrying light sources, in which case an encounter occurs on a roll of 1–3. Roll on the Silken Paths Encounters table or choose a suitable encounter when one occurs.
 
-`dice: [](02-chapter-2-into-darkness.md#^encounter)`
-
 | dice: d12 | Encounter |
 |-----------|-----------|
 | 1 | Cocooned lightfoot halfling |
-| 2 | `d4` [darkmantles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/darkmantle.md) |
-| 3 | `d4` [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) and `d4` [quaggoth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/quaggoth.md) slaves |
+| 2 | `1d4` [darkmantles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/darkmantle.md) |
+| 3 | `1d4` [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) and `1d4` [quaggoth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/quaggoth.md) slaves |
 | 4–8 | `2d4` [giant spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-spider.md) |
 | 9 | 1 [mimic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/mimic.md) |
 | 10 | 1 [spectator](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/spectator.md) |
@@ -908,8 +869,8 @@ Each hour, there is a 10 percent chance that one of the eggs hatches. The [infan
 | Age | Size | Notes |
 |-----|------|-------|
 | Infant (up to 1 month) | Tiny | AC 10; 4 (`1d4 + 2`) hit points; speed 10 ft., climb 10 ft.; Str 9 (−1); no effective attacks; Challenge 0 (0 XP) |
-| Young (1–3 months) | Small | AC 11; 11 (`2d6 + 4`) hit points; speed 15 ft., climb 15 ft.; Str 12 (+1); hook attacks are +3 to hit, have a reach of 5 ft., and deal 3 (`1d4 + 1`) piercing damage on a hit; Challenge 1/4 (50 XP) |
-| Juvenile (3–6 months) | Medium | AC 13; 39 (`6d8 + 12`) hit points; speed 20 ft., climb 20 ft.; Str 15 (+2); hook attacks are +4 to hit, have a reach of 5 ft., and deal 5 (`1d6 + 2`) piercing damage on a hit; Challenge 2 (450 XP) |
+| Young (1–3 months) | Small | AC 11; 11 (`2d6 + 4`) hit points; speed 15 ft., climb 15 ft.; Str 12 (+1); hook attacks are `+3` to hit, have a reach of 5 ft., and deal 3 (`1d4 + 1`) piercing damage on a hit; Challenge 1/4 (50 XP) |
+| Juvenile (3–6 months) | Medium | AC 13; 39 (`6d8 + 12`) hit points; speed 20 ft., climb 20 ft.; Str 15 (+2); hook attacks are `+4` to hit, have a reach of 5 ft., and deal 5 (`1d6 + 2`) piercing damage on a hit; Challenge 2 (450 XP) |
 | Adult (6+ months) | Large | See the Monster Manual |
 ^age-size-notes
 
@@ -933,7 +894,7 @@ A tremor causes a cave-in and traps the adventurers in a maze of tunnels with no
 > 
 > Once half of the breathable air is consumed, the characters suffer one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) (see "appendix A" of the *Player's Handbook*). For each additional 10 percent of the air used up, the characters suffer one additional level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). At 90 percent, the characters are unable to move. When the air is used up, they die. Once the first level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) sets in, the characters become aware that they are running out of air, and know roughly how much they have left.
 > 
-> A lit torch or its equivalent uses up air as a character does. Briefer but hotter magical effects consume 1 hour of air per die of fire damage per round. For example, a [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md) spell that deals `8d6` fire damage consumes 8 hours of air, while a [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md) that deals `d10` fire damage consumes 1 hour of air per use.
+> A lit torch or its equivalent uses up air as a character does. Briefer but hotter magical effects consume 1 hour of air per die of fire damage per round. For example, a [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md) spell that deals `8d6` fire damage consumes 8 hours of air, while a [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md) that deals `1d10` fire damage consumes 1 hour of air per use.
 > 
 > **Water.** In addition to running low on air, the characters become aware that the tunnels and chambers are filling with water flowing in from area 6. The water rises at a rate of 1 foot per hour, meaning most of the tunnels and chambers will be completely flooded within 10 hours. Areas filled with waist-deep water are difficult terrain for the characters. Once the water is over their heads, they have to swim.
 ^the-oozing-temple-general-features
@@ -944,7 +905,7 @@ A tremor causes a cave-in and traps the adventurers in a maze of tunnels with no
 
 ### 1. Boxed In
 
-As the characters make their way through a 10-foot-high tubular passage, a tremor shakes the area and drops part of the ceiling on them. Each party member must succeed on a DC 13 Dexterity saving throw or take 5 (`d10`) bludgeoning damage from falling debris.
+As the characters make their way through a 10-foot-high tubular passage, a tremor shakes the area and drops part of the ceiling on them. Each party member must succeed on a DC 13 Dexterity saving throw or take 5 (`1d10`) bludgeoning damage from falling debris.
 
 Once the dust clears, the characters realize that fallen rock has buried both ends of the passageway. However, a new passage has opened in one of the walls, offering a possible escape route. It's clear that the route the party was following has been permanently blocked by tons of rubble, and runs the risk of triggering another collapse if the characters attempt to dig out.
 
@@ -980,7 +941,7 @@ This chamber is divided into four hallways and floored with heavy flagstones, th
 
 The squares marked on the map have been undermined, leaving a 10-foot-deep pit beneath each one. A successful DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check enables a character to notice that the stone is weakened.
 
-More than 50 pounds of weight on an undermined area causes it to collapse. A creature standing in the area must succeed on a DC 11 Dexterity saving throw to grab the edge of the pit, after which the creature must succeed on a DC 11 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check to scramble out. On a failed saving throw or a failed check, the creature falls into the pit and takes `d6` bludgeoning damage.
+More than 50 pounds of weight on an undermined area causes it to collapse. A creature standing in the area must succeed on a DC 11 Dexterity saving throw to grab the edge of the pit, after which the creature must succeed on a DC 11 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check to scramble out. On a failed saving throw or a failed check, the creature falls into the pit and takes `1d6` bludgeoning damage.
 
 At the bottom of each pit is a [black pudding](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/black-pudding.md), which attacks any creature that falls in. If denied a victim, or if it devours a fallen creature quickly, the pudding climbs up the sides to attack any dangling creatures, or to move into the hallway in search of prey.
 

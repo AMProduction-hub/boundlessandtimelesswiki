@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Conservatory Student
+- "Conservatory Student"
 ---
-# [Conservatory Student](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/conservatory-student-kftgv.md)
+# [Conservatory Student](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/conservatory-student-kftgv.md)
 *Source: Keys from the Golden Vault p. 110*  
 
 ```statblock
@@ -35,6 +36,8 @@ aliases:
 "skillsaves":
   - "name": "[Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance)"
     "desc": "+7"
+"gear":
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
 "senses": "passive Perception 12"
 "languages": "any two languages"
 "cr": "1/8"

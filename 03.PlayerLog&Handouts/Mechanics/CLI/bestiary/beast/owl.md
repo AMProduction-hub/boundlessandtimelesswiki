@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Owl
+- "Owl"
 ---
-# [Owl](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/owl.md)
-*Source: Monster Manual p. 333, Infernal Machine Rebuild, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Owl](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/owl.md)
+*Source: Monster Manual p. 333. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Owl"
@@ -38,7 +39,8 @@ aliases:
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
-"senses": "darkvision 120 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": ""
 "cr": "0"
 "traits":
@@ -49,14 +51,11 @@ aliases:
       \ checks that rely on hearing or sight."
     "name": "Keen Hearing and Sight"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 1\
       \ slashing damage."
     "name": "Talons"
 "source":
   - "MM"
-  - "IMR"
-  - "IDRotF"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/owl.webp"
 ```
 ^statblock

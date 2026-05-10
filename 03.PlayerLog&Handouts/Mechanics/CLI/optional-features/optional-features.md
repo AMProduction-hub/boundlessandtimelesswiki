@@ -1,8 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
+- json5e-index
 ---
-# Index of Optional-features
+# Index of Optional Features
 
 - [Agonizing Blast](./agonizing-blast.md)
 - [Ambush](./ambush-tce.md)
@@ -103,8 +105,8 @@ cssclasses: json5e-note
 - [Parry](./parry.md)
 - [Piercing Arrow](./piercing-arrow-xge.md)
 - [Precision Attack](./precision-attack.md)
-- [Protection of the Talisman](./protection-of-the-talisman-tce.md)
 - [Protection](./protection.md)
+- [Protection of the Talisman](./protection-of-the-talisman-tce.md)
 - [Pushing Attack](./pushing-attack.md)
 - [Quick Toss](./quick-toss-tce.md)
 - [Quickened Spell](./quickened-spell.md)

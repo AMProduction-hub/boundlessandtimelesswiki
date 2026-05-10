@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Chapter 3: Avernus - Path of Demons
+- "Chapter 3: Avernus - Path of Demons"
 ---
 # Chapter 3: Avernus - Path of Demons
 *Source: Baldur's Gate: Descent Into Avernus, p. 96* 
@@ -314,7 +315,7 @@ When the characters enter this room, read:
 
 Characters who use [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) or similar magic to examine the steles discern a strong aura of necromantic magic emanating from the engraved names.
 
-While the steles remain empowered, necrotic energy lashes out at anyone who touches them. A creature touching a stele must make a DC 15 Dexterity saving throw, taking 36 (`8d8`) necrotic damage on a failed save, or half as much damage on a successful one. If the soulbound parchments in both ritual rooms (area C6) are destroyed, the steles deactivate. The characters can then free the warriors' souls by striking their names from the stone. As the names are removed, the knights' ghosts fade from view with gasps of relief. If all the names are struck from the stele, each character gains the benefit of a [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md) spell that lasts for 24 hours.
+While the steles remain empowered, necrotic energy lashes out at anyone who touches them. A creature touching a stele must make a DC 15 Dexterity saving throw, taking 36 (`8d8`) necrotic damage on a failed save, or half as much damage on a successful one. If the soul-bound parchments in both ritual rooms (area C6) are destroyed, the steles deactivate. The characters can then free the warriors' souls by striking their names from the stone. As the names are removed, the knights' ghosts fade from view with gasps of relief. If all the names are struck from the stele, each character gains the benefit of a [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md) spell that lasts for 24 hours.
 
 #### C6. Ritual Rooms
 

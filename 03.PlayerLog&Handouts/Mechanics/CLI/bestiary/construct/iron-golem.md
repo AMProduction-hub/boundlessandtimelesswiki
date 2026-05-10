@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/16
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Iron Golem
+- "Iron Golem"
 ---
-# [Iron Golem](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/iron-golem.md)
-*Source: Monster Manual p. 170, Curse of Strahd, Storm King's Thunder, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Iron Golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/iron-golem.md)
+*Source: Monster Manual p. 170. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 The mightiest of the golems, the iron golem is a massive, towering giant wrought of heavy metal. An iron golem's shape can be worked into any form, though most are fashioned to look like giant suits of armor. Its fist can destroy creatures with a single blow, and its clanging steps shake the earth beneath its feet. Iron golems wield enormous blades to extend their reach, and all can belch clouds of deadly poison.
 
@@ -76,7 +77,8 @@ A golem doesn't require air, food, drink, or sleep.
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "16"
 "traits":
@@ -93,10 +95,10 @@ A golem doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The golem makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:*\
       \ 20 (3d8 + 7) bludgeoning damage."
     "name": "Slam"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:*\
       \ 23 (3d10 + 7) slashing damage."
     "name": "Sword"
   - "desc": "The golem exhales poisonous gas in a 15-foot cone. Each creature in that\
@@ -105,13 +107,6 @@ A golem doesn't require air, food, drink, or sleep.
     "name": "Poison Breath (Recharge 5-6)"
 "source":
   - "MM"
-  - "CoS"
-  - "SKT"
-  - "WDMM"
-  - "GoS"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/iron-golem.webp"
 ```
 ^statblock

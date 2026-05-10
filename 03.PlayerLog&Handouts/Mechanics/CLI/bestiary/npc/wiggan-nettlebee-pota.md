@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Wiggan Nettlebee
+- "Wiggan Nettlebee"
 ---
-# [Wiggan Nettlebee](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/wiggan-nettlebee-pota.md)
+# [Wiggan Nettlebee](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/wiggan-nettlebee-pota.md)
 *Source: Princes of the Apocalypse p. 212*  
 
 Wiggan Nettlebee is the patriarch of the Nettlebee clan, a wealthy family of halflings that raise livestock and farm their land. He presents the outward appearance of a modest rancher, and he forbids extravagance on his farm. Thinking he had found a cult dedicated to the dominating nature and utilizing its darker aspects, Wiggan joined the Cult of the Black Earth. He still doesn't know the full extent of the cult's plans.
@@ -48,15 +49,15 @@ Wiggan dislikes and distrusts outsiders. He believes they are all evildoers who 
 "traits":
   - "desc": "Wiggan is a 4th-level spellcaster. His spellcasting ability is Wisdom\
       \ (spell save DC 12, +4 to hit with spell attacks). He has the following cleric\
-      \ spells prepared:\n\nCantrips (at will): [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ spells prepared:\n\n**Cantrips (at will):** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md),\
       \ [shillelagh](03.PlayerLog&Handouts/Mechanics/CLI/spells/shillelagh.md), [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md),\
+      \n**1st level (4 slots):** [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md),\
       \ [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/healing-word.md),\
       \ [inflict wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/inflict-wounds.md),\
       \ [speak with animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md)\n\
-      \n2nd level (3 slots): [barkskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/barkskin.md),\
+      \n**2nd level (3 slots):** [barkskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/barkskin.md),\
       \ [spike growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/spike-growth.md),\
       \ [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md)"
     "name": "Spellcasting"
@@ -66,8 +67,8 @@ Wiggan dislikes and distrusts outsiders. He believes they are all evildoers who 
 "actions":
   - "desc": "Wiggan makes two attacks with his wooden cane."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +0 to hit (+4 to hit with shillelagh), reach\
-      \ 5 ft., one target. Hit: 1 (1d4 - 1) bludgeoning damage, or 6 (1d8 + 2)\
+  - "desc": "*Melee Weapon Attack:* +0 to hit (+4 to hit with shillelagh), reach\
+      \ 5 ft., one target. *Hit:* 1 (1d4 - 1) bludgeoning damage, or 6 (1d8 + 2)\
       \ bludgeoning damage with shillelagh."
     "name": "Wooden Cane"
 "source":

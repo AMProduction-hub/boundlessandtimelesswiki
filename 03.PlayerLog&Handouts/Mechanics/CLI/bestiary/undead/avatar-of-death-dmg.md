@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/monster/cr/
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Avatar of Death
+- "Avatar of Death"
 ---
-# [Avatar of Death](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/avatar-of-death-dmg.md)
-*Source: Dungeon Master's Guide p. 164, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Avatar of Death](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/avatar-of-death-dmg.md)
+*Source: Dungeon Master's Guide p. 164. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Summoned by the "Skull" card from the [Deck of Many Things](03.PlayerLog&Handouts/Mechanics/CLI/items/deck-of-many-things.md).
 
@@ -38,22 +39,23 @@ Summoned by the "Skull" card from the [Deck of Many Things](03.PlayerLog&Handout
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., truesight 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., [truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 60 ft., passive Perception 13"
 "languages": "all languages known to its summoner"
 "traits":
   - "desc": "The avatar can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
       \ an object."
     "name": "Incorporeal Movement"
   - "desc": "The avatar is immune to features that turn undead."
     "name": "Turn Immunity"
 "actions":
   - "desc": "The avatar sweeps its spectral scythe through a creature within 5 feet\
-      \ of it, dealing 7 (1d8 + 3) slashing damage plus 4 (d8) necrotic damage."
+      \ of it, dealing 7 (1d8 + 3) slashing damage plus 4 (1d8) necrotic damage."
     "name": "Reaping Scythe"
 "source":
   - "DMG"
-  - "TCE"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/avatar-of-death-dmg.webp"
 ```
 ^statblock

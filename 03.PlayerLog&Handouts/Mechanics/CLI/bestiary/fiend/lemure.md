@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lemure
+- "Lemure"
 ---
-# [Lemure](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/lemure.md)
-*Source: Monster Manual p. 76, Waterdeep: Dragon Heist, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Lemure](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/lemure.md)
+*Source: Monster Manual p. 76. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 A lemure arises when a mortal soul is twisted by evil and banished to the Nine Hells for eternity. The lowest type of devil, lemures are repugnant, shapeless creatures doomed to suffer torment until they are promoted to a higher form of devil, most commonly an imp.
 
@@ -130,10 +131,10 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > - A barbed devil has a 30 percent chance of summoning one barbed devil.  
 > - A bearded devil has a 30 percent chance of summoning one bearded devil.  
 > - A bone devil has a 40 percent chance of summoning `2d6` spined devils or one bone devil.  
-> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `d6` bearded devils, or one erinyes.  
+> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `1d6` bearded devils, or one erinyes.  
 > - A horned devil has a 30 percent chance of summoning one horned devil.  
 > - An ice devil has a 60 percent chance of summoning one ice devil.  
-> - A pit fiend summons `2d4` bearded devils, `d4` barbed devils, or one erinyes with no chance of failure.  
+> - A pit fiend summons `2d4` bearded devils, `1d4` barbed devils, or one erinyes with no chance of failure.  
 > 
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
@@ -161,25 +162,24 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "understands Infernal but can't speak"
 "cr": "0"
 "traits":
   - "desc": "Magical darkness doesn't impede the lemure's darkvision."
     "name": "Devil's Sight"
   - "desc": "A lemure that dies in the Nine Hells comes back to life with all its\
-      \ hit points in d10 days unless it is killed by a good-aligned creature with\
+      \ hit points in 1d10 days unless it is killed by a good-aligned creature with\
       \ a [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md) spell cast\
-      \ on that creature or its remains are sprinkled with holy water."
+      \ on that creature or its remains are sprinkled with [holy water](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-water-flask.md)."
     "name": "Hellish Rejuvenation"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) bludgeoning damage"
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d4) bludgeoning damage."
     "name": "Fist"
 "source":
   - "MM"
-  - "WDH"
-  - "BGDIA"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/lemure.webp"
 ```
 ^statblock

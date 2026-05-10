@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/hotdq
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Linan Swift
+- "Linan Swift"
 ---
-# [Linan Swift](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/linan-swift-hotdq.md)
+# [Linan Swift](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/linan-swift-hotdq.md)
 *Source: Hoard of the Dragon Queen p. 8, Tyranny of Dragons p. 24*  
 
 ```statblock
@@ -32,12 +33,14 @@ aliases:
   - !!int "10"
   - !!int "10"
 "speed": "30 ft."
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "0"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3\
-      \ (d6) piercing damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 3\
+      \ (1d6) piercing damage."
     "name": "Spear"
 "source":
   - "HotDQ"

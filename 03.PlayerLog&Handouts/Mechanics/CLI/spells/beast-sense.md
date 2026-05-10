@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/gruul-anarch
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
 - ttrpg-cli/spell/feat/adept-of-the-white-robes
@@ -15,11 +16,11 @@ tags:
 - ttrpg-cli/spell/subrace/human-mark-of-handling
 classes:
 - Barbarian (Path of the Totem Warrior)
-- Bard
+- Bard (Magical Secrets)
 - Druid
 - Ranger
 aliases:
-- Beast Sense
+- "Beast Sense"
 ---
 # Beast Sense
 *2nd-level, Divination (ritual)*  
@@ -32,6 +33,6 @@ aliases:
 
 You touch a willing beast. For the duration of the spell, you can use your action to see through the beast's eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses. While perceiving through the beast's senses, you gain the benefits of any special senses possessed by that creature, though you are [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) and [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened) to your own surroundings.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Barbarian (Path of the Totem Warrior)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-path-of-the-totem-warrior.md)
+**Classes**: [Barbarian (Path of the Totem Warrior)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-path-of-the-totem-warrior.md); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md)
 
 *Source: Player's Handbook p. 217*

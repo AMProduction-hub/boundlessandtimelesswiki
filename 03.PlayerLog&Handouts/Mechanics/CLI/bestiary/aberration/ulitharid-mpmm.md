@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ulitharid
+- "Ulitharid"
 ---
-# [Ulitharid](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/ulitharid-mpmm.md)
-*Source: Mordenkainen Presents: Monsters of the Multiverse p. 249, Volo's Guide to Monsters p. 175, Waterdeep: Dungeon of the Mad Mage p. 316*  
+# [Ulitharid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/ulitharid-mpmm.md)
+*Source: Mordenkainen Presents: Monsters of the Multiverse p. 249, Volo's Guide to Monsters p. 175*  
 
 Very rarely, when a tadpole from the brine pool of an [elder brain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/elder-brain-mpmm.md) is implanted into a creature, that creature transforms into an ulitharid: a larger and more potent [mind flayer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/mind-flayer.md) with six tentacles. Illithids innately recognize that an ulitharid's survival is more important than their own. An [elder brain's](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/elder-brain-mpmm.md) reaction to the rise of an ulitharid varies. In most colonies, the ulitharid becomes an elder brain's most favored servant, invested with power and authority. In others, the [elder brain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/elder-brain-mpmm.md) perceives an ulitharid as a potential rival and manipulates or quashes the ulitharid's ambitions accordingly.
 
@@ -41,9 +42,9 @@ This process doesn't work on the brain of an ulitharid that dies a natural death
   - !!int "21"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+9"
-  - "wisdom": "+8"
-  - "charisma": "+9"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "8"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+9"
@@ -53,7 +54,8 @@ This process doesn't work on the brain of an ulitharid that dies a natural death
     "desc": "+8"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 120 ft., passive Perception 18"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 18"
 "languages": "Deep Speech, Undercommon, telepathy 2 miles"
 "cr": "9"
 "traits":
@@ -77,15 +79,15 @@ This process doesn't work on the brain of an ulitharid that dies a natural death
       \ the psychic link at any time (no action required)."
     "name": "Psionic Hub"
 "actions":
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one creature. *Hit:*\
       \ 27 (4d10 + 5) psychic damage. If the target is Large or smaller, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14) and must succeed on a DC 17 Intelligence saving throw or be\
       \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
       \ until this grapple ends."
     "name": "Tentacles"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
       \ Humanoid [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-      \ by the ulitharid. Hit: 55 (10d10) piercing damage. If this damage reduces\
+      \ by the ulitharid. *Hit:* 55 (10d10) piercing damage. If this damage reduces\
       \ the target to 0 hit points, the ulitharid kills the target by extracting and\
       \ devouring its brain."
     "name": "Extract Brain"
@@ -97,9 +99,9 @@ This process doesn't work on the brain of an ulitharid that dies a natural death
     "name": "Mind Blast (Recharge 5-6)"
   - "desc": "The ulitharid casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 17):\n\n\
-      At will: [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
-      \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md)\n\n1/day\
-      \ each: [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
+      **At will:** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md)\n\n**1/day\
+      \ each:** [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
       \ [feeblemind](03.PlayerLog&Handouts/Mechanics/CLI/spells/feeblemind.md), [mass\
       \ suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-suggestion.md),\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md) (self\
@@ -109,7 +111,6 @@ This process doesn't work on the brain of an ulitharid that dies a natural death
 "source":
   - "MPMM"
   - "VGM"
-  - "WDMM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/ulitharid-mpmm.webp"
 ```
 ^statblock

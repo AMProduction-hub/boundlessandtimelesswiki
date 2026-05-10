@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/paladin
 - ttrpg-cli/spell/level/5th-level
@@ -14,14 +15,14 @@ tags:
 - ttrpg-cli/spell/subclass/life-domain
 classes:
 - Artificer (Alchemist)
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Cleric (Grave Domain)
 - Cleric (Life Domain)
 - Paladin
 - Sorcerer (Divine Soul)
 aliases:
-- Raise Dead
+- "Raise Dead"
 ---
 # Raise Dead
 *5th-level, Necromancy*  
@@ -40,6 +41,6 @@ This spell closes all mortal wounds, but it doesn't restore missing body parts. 
 
 Coming back from the dead is an ordeal. The target takes a −4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.
 
-**Classes**: [Artificer (Alchemist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-alchemist-tce.md "subclass=TCE;class=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Grave Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-grave-domain-xge.md "subclass=XGE"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric (Life Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-life-domain.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
+**Classes**: [Artificer (Alchemist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-alchemist-tce.md "subclass=TCE;class=TCE"); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Grave Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-grave-domain-xge.md "subclass=XGE"); [Cleric (Life Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-life-domain.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE")
 
 *Source: Player's Handbook p. 270. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

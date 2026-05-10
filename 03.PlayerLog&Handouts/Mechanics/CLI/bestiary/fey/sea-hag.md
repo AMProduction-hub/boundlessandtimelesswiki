@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sea Hag
+- "Sea Hag"
 ---
-# [Sea Hag](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/sea-hag.md)
-*Source: Monster Manual p. 179, Princes of the Apocalypse, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Storm Lord's Wrath, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Sea Hag](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/sea-hag.md)
+*Source: Monster Manual p. 179. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Sea hags live in dismal and polluted underwater lairs, surrounded by merrow and other aquatic monsters.
 
@@ -108,7 +109,8 @@ Hags dwell in dark and twisted woods, bleak moors, storm-lashed seacoasts, and g
   - !!int "12"
   - !!int "13"
 "speed": "30 ft., swim 40 ft."
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Aquan, Common, Giant"
 "cr": "2"
 "traits":
@@ -128,7 +130,7 @@ Hags dwell in dark and twisted woods, bleak moors, storm-lashed seacoasts, and g
       \ the hag."
     "name": "Horrific Appearance"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage."
     "name": "Claws"
   - "desc": "The hag targets one [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
@@ -151,27 +153,21 @@ Hags dwell in dark and twisted woods, bleak moors, storm-lashed seacoasts, and g
       \ aunties. Grandmothers usually have three to five lair actions, aunties usually\
       \ only one (if they have any at all). Unless otherwise noted, any lair action\
       \ that requires a creature to make a saving throw uses the save DC of the hag's\
-      \ most powerful ability."
-    "name": ""
-  - "desc": "On initiative count 20 (losing initiative ties), the hag can take a lair\
-      \ action to cause one of the following effects, but can't use the same effect\
-      \ two rounds in a row:"
-    "name": ""
-  - "desc": "- Until initiative count 20 on the next round, the hag can pass through\
-      \ solid walls, doors, ceilings, and floors as if the surfaces weren't there.\
-      \  \n- The hag targets any number of doors and windows that she can see, causing\
-      \ each one to either open or close as she wishes. Closed doors can be magically\
-      \ locked (requiring a successful DC 20 Strength check to force open) until she\
-      \ chooses to make them unlocked, or until she uses this lair action again to\
-      \ open them.  "
-    "name": ""
-  - "desc": "A powerful sea hag might have the following additional lair actions:"
-    "name": ""
-  - "desc": "- The hag fills up to four 10-foot cubes of water with ink. The inky\
-      \ areas are heavily obscured for 1 minute, although a steady, strong underwater\
-      \ current disperses the ink on initiative count 10. The hag ignores the obscuring\
-      \ effect of the ink.  \n- The hag chooses one humanoid within the lair and instantly\
-      \ creates a simulacrum of that creature (as if created with the [simulacrum](03.PlayerLog&Handouts/Mechanics/CLI/spells/simulacrum.md)\
+      \ most powerful ability.\n\nOn initiative count 20 (losing initiative ties),\
+      \ the hag can take a lair action to cause one of the following effects, but\
+      \ can't use the same effect two rounds in a row:\n\n- Until initiative count\
+      \ 20 on the next round, the hag can pass through solid walls, doors, ceilings,\
+      \ and floors as if the surfaces weren't there.  \n- The hag targets any number\
+      \ of doors and windows that she can see, causing each one to either open or\
+      \ close as she wishes. Closed doors can be magically locked (requiring a successful\
+      \ DC 20 Strength check to force open) until she chooses to make them unlocked,\
+      \ or until she uses this lair action again to open them.  \n\nA powerful sea\
+      \ hag might have the following additional lair actions:\n\n- The hag fills up\
+      \ to four 10-foot cubes of water with ink. The inky areas are heavily obscured\
+      \ for 1 minute, although a steady, strong underwater current disperses the ink\
+      \ on initiative count 10. The hag ignores the obscuring effect of the ink. \
+      \ \n- The hag chooses one humanoid within the lair and instantly creates a simulacrum\
+      \ of that creature (as if created with the [simulacrum](03.PlayerLog&Handouts/Mechanics/CLI/spells/simulacrum.md)\
       \ spell). This hideous simulacrum is formed out of seaweed, slime, half-eaten\
       \ fish, and other garbage, but still generally resembles the creature it is\
       \ imitating. This simulacrum obeys the hag's commands and is destroyed on initiative\
@@ -183,40 +179,25 @@ Hags dwell in dark and twisted woods, bleak moors, storm-lashed seacoasts, and g
       \ of a single hag, including some that can directly harm intruders. Any regional\
       \ effect that requires a creature to make a saving throw uses the save DC of\
       \ the hag's most powerful ability. These effects either end immediately if the\
-      \ hag dies or abandons the lair, or take up to 2d10 days to fade away."
-    "name": ""
-  - "desc": "The region within 1 mile of a grandmother hag's lair is warped by the\
-      \ creature's fell magic, which creates one or more of the following effects:"
-    "name": ""
-  - "desc": "- Birds, rodents, snakes, spiders, or toads (or some other creatures\
-      \ appropriate to the hag) are found in great profusion.  \n- Beasts that have\
-      \ an Intelligence score of 2 or lower are [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ hag dies or abandons the lair, or take up to 2d10 days to fade away.\n\n\
+      The region within 1 mile of a grandmother hag's lair is warped by the creature's\
+      \ fell magic, which creates one or more of the following effects:\n\n- Birds,\
+      \ rodents, snakes, spiders, or toads (or some other creatures appropriate to\
+      \ the hag) are found in great profusion.  \n- Beasts that have an Intelligence\
+      \ score of 2 or lower are [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
       \ by the hag and directed to be aggressive toward intruders in the area.  \n\
       - Strange carved figurines, twig fetishes, or rag dolls magically appear in\
-      \ trees.  "
-    "name": ""
-  - "desc": "A powerful sea hag creates one or more of the following additional regional\
-      \ effects within 1 mile of her lair:"
-    "name": ""
-  - "desc": "- Most surfaces are covered by a thin film of slime, which is slick and\
-      \ sticks to anything that touches it.  \n- Currents and tides are exceptionally\
-      \ strong and treacherous. Any ability check made to safely navigate or control\
-      \ a vessel moving through these waters has disadvantage.  \n- Shores are littered\
-      \ with dead, rotting fish. The hag can sense when one of the fish is handled\
-      \ and cause it to speak with her voice.  "
+      \ trees.  \n\nA powerful sea hag creates one or more of the following additional\
+      \ regional effects within 1 mile of her lair:\n\n- Most surfaces are covered\
+      \ by a thin film of slime, which is slick and sticks to anything that touches\
+      \ it.  \n- Currents and tides are exceptionally strong and treacherous. Any\
+      \ ability check made to safely navigate or control a vessel moving through these\
+      \ waters has disadvantage.  \n- Shores are littered with dead, rotting fish.\
+      \ The hag can sense when one of the fish is handled and cause it to speak with\
+      \ her voice.  "
     "name": ""
 "source":
   - "MM"
-  - "PotA"
-  - "TftYP"
-  - "ToA"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "SLW"
-  - "MOT"
-  - "IDRotF"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/token/sea-hag.webp"
 ```
 ^statblock

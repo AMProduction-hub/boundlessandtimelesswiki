@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Wererat
+- "Wererat"
 ---
-# [Wererat](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/wererat.md)
-*Source: Monster Manual p. 209, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Wererat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wererat.md)
+*Source: Monster Manual p. 209. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Wererats are cunning lycanthropes with sly, avaricious personalities. They are wiry and twitchy in humanoid form, with thin hair and darting eyes. In their humanoid and hybrid forms, wererats prefer light weapons and use ambush tactics rather than fighting as a pack. Although a wererat can deliver a nasty bite in its rat form, it favors that form for stealthy infiltration and escape rather than combat.
 
@@ -81,7 +82,11 @@ Some individuals see little point in fighting the curse and accept what they are
     "desc": "+4"
 "damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
-"senses": "darkvision 60 ft. (rat form only), passive Perception 12"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft. (rat form only), passive Perception 12"
 "languages": "Common (can't speak in rat form)"
 "cr": "2"
 "traits":
@@ -96,27 +101,18 @@ Some individuals see little point in fighting the curse and accept what they are
 "actions":
   - "desc": "The wererat makes two attacks, only one of which can be a bite."
     "name": "Multiattack (Humanoid or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage. If the target is a humanoid, it must succeed\
       \ on a DC 11 Constitution saving throw or be cursed with wererat lycanthropy."
     "name": "Bite (Rat or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword (Humanoid or Hybrid Form Only)"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Hand Crossbow (Humanoid or Hybrid Form Only)"
 "source":
   - "MM"
-  - "TftYP"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "BGDIA"
-  - "IMR"
-  - "EGW"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/wererat.webp"
 ```
 ^statblock

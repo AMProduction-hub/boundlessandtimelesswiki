@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/age/renaissance
 - ttrpg-cli/item/gear/ammunition-firearm
 - ttrpg-cli/item/rarity/none
-aliases: 
+aliases:
 - "Renaissance Bullet"
 ---
 # Renaissance Bullet

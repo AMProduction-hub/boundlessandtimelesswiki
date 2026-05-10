@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Identify the Party's Goals; Wilderness Goals
+- "Identify the Party's Goals; Wilderness Goals"
 ---
 # Identify the Party's Goals; Wilderness Goals
 *Source: Dungeon Master's Guide p. 72* 
 
 **Wilderness Goals**
-
-`dice: [](identify-the-partys-goals-wilderness-goals.md#^wilderness-goals)`
 
 | dice: d20 | Goal |
 |-----------|------|

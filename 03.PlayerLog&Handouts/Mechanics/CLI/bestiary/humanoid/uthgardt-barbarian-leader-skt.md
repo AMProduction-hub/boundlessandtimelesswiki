@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Uthgardt Barbarian Leader
+- "Uthgardt Barbarian Leader"
 ---
-# [Uthgardt Barbarian Leader](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/uthgardt-barbarian-leader-skt.md)
+# [Uthgardt Barbarian Leader](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/uthgardt-barbarian-leader-skt.md)
 *Source: Storm King's Thunder p. 86*  
 
 ```statblock
@@ -33,6 +34,8 @@ aliases:
   - !!int "11"
   - !!int "9"
 "speed": "30 ft."
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
 "senses": "passive Perception 10"
 "languages": "Bothii, Common, Elvish"
 "cr": "2"
@@ -42,10 +45,10 @@ aliases:
       \ until the start of its next turn."
     "name": "Reckless"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d12 + 3) slashing damage."
     "name": "Greataxe"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 150/600 ft., one target. *Hit:*\
       \ 7 (1d8 + 3) piercing damage, plus an extra 10 (3d6) piercing damage against\
       \ a sworn enemy See the [oathbow](03.PlayerLog&Handouts/Mechanics/CLI/items/oathbow.md)\
       \ entry for the other properties."

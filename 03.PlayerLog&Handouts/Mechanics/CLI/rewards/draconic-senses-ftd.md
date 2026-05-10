@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-reward
+cssclasses:
+- json5e-reward
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/reward/draconic-gift
 aliases:
-- Draconic Senses
+- "Draconic Senses"
 ---
 # Draconic Senses
 *Draconic Gift, rare*  

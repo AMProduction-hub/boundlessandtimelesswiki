@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 aliases:
-- Vidorant's Vault
+- "Vidorant's Vault"
 ---
 # Vidorant's Vault
 *Source: Keys from the Golden Vault, p. 119* 
@@ -13,7 +14,7 @@ aliases:
 
 Over the years, the notorious elf thief [Nixylanna Vidorant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/nixylanna-vidorant-kftgv.md) has stolen many famed prizes and stored them in her vault. Her former partner believes one of these trophies—a ruby diadem—rightly belongs to him. He hires the characters to infiltrate Vidorant's vault, bypass its security features, and steal the diadem. In a twist, the characters come face-to-face with Vidorant, and she offers them a deal that's hard to refuse.
 
-![Nixylanna Vidorant's guard...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/059-08-001-ch8-splash.webp#center "Nixylanna Vidorant's guards are not yet aware of the would-be thieves lurking below them")
+![Nixylanna Vidorant's guards are not yet aware of the would-be thieves lurking below them](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/059-08-001-ch8-splash.webp#center)
 
 ## Adventure Background
 
@@ -83,8 +84,6 @@ The party's preparation for the heist might include seeking information from Vid
 By combing through local pubs or asking around with their own informants, the characters can locate up to six guards ([veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md)) formerly employed by Vidorant. Use the Former Guards table to help you roleplay each guard.
 
 **Former Guards**
-
-`dice: [](09-vidorants-vault.md#^former-guards)`
 
 | dice: d6 | Ex-Guard |
 |----------|----------|
@@ -277,7 +276,7 @@ The southwest wall of this room contains a secret door to the exterior. Vidorant
 
 ##### Trap
 
-Any character who has a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 15 or higher notices the floor is unusually clean in a 10-foot square in front of the gem crates. When a creature steps on this area, the floor collapses into a 10-foot-deep pit with poisoned spikes lining its floor. Any creature on the collapsing floor falls into the pit, taking 3 (`d6`) bludgeoning damage and landing [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). In addition, the creature must succeed on a DC 14 Dexterity saving throw or be impaled by `d3` spikes, each of which deals 3 (`d6`) piercing damage plus 7 (`2d6`) poison damage.
+Any character who has a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 15 or higher notices the floor is unusually clean in a 10-foot square in front of the gem crates. When a creature steps on this area, the floor collapses into a 10-foot-deep pit with poisoned spikes lining its floor. Any creature on the collapsing floor falls into the pit, taking 3 (`1d6`) bludgeoning damage and landing [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). In addition, the creature must succeed on a DC 14 Dexterity saving throw or be impaled by `1d3` spikes, each of which deals 3 (`1d6`) piercing damage plus 7 (`2d6`) poison damage.
 
 A character who searches the floor for traps and succeeds on a DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check detects the trap, which can be disabled by placing a strong object such as a pole or crowbar between the floor panels. If the check made to detect the trap succeeds by 5 or more, the character also spots a concealed switch on one wall that disables the trap.
 
@@ -435,7 +434,7 @@ Two permanent [silent image](03.PlayerLog&Handouts/Mechanics/CLI/spells/silent-i
 
 ##### Spiked Pit
 
-Any creature that falls into the pit is impaled by `d3` spikes, each of which deals 3 (`d6`) piercing damage plus 7 (`2d6`) poison damage.
+Any creature that falls into the pit is impaled by `1d3` spikes, each of which deals 3 (`1d6`) piercing damage plus 7 (`2d6`) poison damage.
 
 #### T11a–b: Stairwell
 
@@ -453,7 +452,7 @@ Guards don't patrol this area.
 > On the second floor's large balcony, a table and chairs allow for dining while enjoying a lovely view of the city. The view is unimpeded by a low railing. To the east, a rope ladder hangs from the balcony to the ground fifteen feet below. A double door leads into the building.
 ^33a
 
-A creature that falls off the balcony can catch the railing with a successful DC 16 Dexterity saving throw. On a failed save, the creature falls to the ground 15 feet below, taking 3 (`d6`) bludgeoning damage from the fall.
+A creature that falls off the balcony can catch the railing with a successful DC 16 Dexterity saving throw. On a failed save, the creature falls to the ground 15 feet below, taking 3 (`1d6`) bludgeoning damage from the fall.
 
 ##### Guards
 
@@ -488,7 +487,7 @@ The door to area T12 is locked but easily unlocked from inside this room.
 
 The two paintings of night festivals are worth 250 gp each.
 
-![Disguised as a vault guard...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/064-08-004-ruby-diadem.webp#center "Disguised as a vault guard, an adventurer sets his sights on the precious Ruby Diadem of Erlynn Blessedore")
+![Disguised as a vault guard, an adventurer sets his sights on the precious Ruby Diadem of Erlynn Blessedore](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/064-08-004-ruby-diadem.webp#center)
 
 #### T14: Strong Room
 

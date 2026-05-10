@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Umber Hulk
+- "Umber Hulk"
 ---
-# [Umber Hulk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/umber-hulk.md)
-*Source: Monster Manual p. 292, Princes of the Apocalypse, Waterdeep: Dungeon of the Mad Mage, Infernal Machine Rebuild, Icewind Dale: Rime of the Frostmaiden, Light of Xaryxis*  
+# [Umber Hulk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/umber-hulk.md)
+*Source: Monster Manual p. 292*  
 
 An abominable horror from deep beneath the earth, an umber hulk burrows into cave complexes, dungeons, or Underdark settlements in search of food. Those lucky enough to survive an umber hulk attack often remember precious little of the incident, thanks to the umber hulk's mind-scrambling gaze.
 
@@ -50,7 +51,8 @@ Many survivors of an umber hulk encounter recollect little about the attack, bec
   - !!int "10"
   - !!int "10"
 "speed": "30 ft., burrow 20 ft."
-"senses": "darkvision 120 ft., tremorsense 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., tremorsense 60 ft., passive Perception 10"
 "languages": "Umber Hulk"
 "cr": "5"
 "traits":
@@ -75,19 +77,14 @@ Many survivors of an umber hulk encounter recollect little about the attack, bec
   - "desc": "The umber hulk makes three attacks: two with its claws and one with its\
       \ mandibles."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d8 + 5) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (2d8 + 5) slashing damage."
     "name": "Mandibles"
 "source":
   - "MM"
-  - "PotA"
-  - "WDMM"
-  - "IMR"
-  - "IDRotF"
-  - "LoX"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/umber-hulk.webp"
 ```
 ^statblock

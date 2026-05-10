@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Calcryx
+- "Calcryx"
 ---
-# [Calcryx](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/calcryx-tftyp.md)
+# [Calcryx](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/calcryx-tftyp.md)
 *Source: Tales from the Yawning Portal p. 23*  
 
 The smallest, least intelligent, and most animalistic of the chromatic dragons, white dragons dwell in frigid climes, favoring arctic areas or icy mountains. They are vicious, cruel reptiles driven by hunger and greed.
@@ -107,22 +108,24 @@ Tiamat's most hated enemy is Bahamut the Platinum Dragon, with whom she shares c
   - !!int "11"
 "speed": "30 ft., burrow 15 ft., fly 60 ft., swim 30 ft."
 "saves":
-  - "dexterity": "+2"
-  - "constitution": "+4"
-  - "wisdom": "+2"
-  - "charisma": "+2"
+  - "dexterity": !!int "2"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "2"
+  - "charisma": !!int "2"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+2"
 "damage_immunities": "cold"
-"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Draconic"
 "cr": "2"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d10 + 2) piercing damage plus 2 (d4) cold damage."
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
+      \ (1d10 + 2) piercing damage plus 2 (1d4) cold damage."
     "name": "Bite"
   - "desc": "The dragon exhales an icy blast of hail in a 15-foot cone. Each creature\
       \ in that area must make a DC 12 Constitution saving throw, taking 22 (5d8)\

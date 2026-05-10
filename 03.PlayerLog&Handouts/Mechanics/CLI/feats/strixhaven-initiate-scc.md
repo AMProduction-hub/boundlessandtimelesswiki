@@ -1,14 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/feat
 aliases:
-- Strixhaven Initiate
+- "Strixhaven Initiate"
 ---
 # Strixhaven Initiate
 *Source: Strixhaven: A Curriculum of Chaos p. 36*  
+
 You have studied some magical theory and have learned a few spells associated with Strixhaven University.
 
 Choose one of Strixhaven's colleges: Lorehold, Prismari, Quandrix, Silverquill, or Witherbloom. You learn two cantrips and one 1st-level spell based on the college you choose, as specified in the Strixhaven Spells table.

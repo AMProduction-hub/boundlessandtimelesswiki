@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 aliases:
-- Lore of Lurue
+- "Lore of Lurue"
 ---
 # Lore of Lurue
 *Source: Candlekeep Mysteries, p. 114* 
@@ -106,8 +107,6 @@ The journey with the satyrs should take at least 2 hours and as long as 6 hours,
 
 **Demiplane Encounters**
 
-`dice: [](11-lore-of-lurue.md#^demiplane-encounters)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–5 | No encounter. |
@@ -115,7 +114,7 @@ The journey with the satyrs should take at least 2 hours and as long as 6 hours,
 | 8–9 | Two hungry [wereboars](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wereboar.md) barge out of the underbrush and attack the party. |
 | 10–13 | A nearby tree bleeds gold sap. A successful DC 16 Intelligence ([Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature)) or Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check reveals that the sap has healing properties. (The satyrs know about these properties.) Anyone who consumes the sap regains `2d4 + 2` hit points. The tree has enough sap for four doses. |
 | 14–16 | Three human [berserkers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md) pass nearby while on a hunt, pursuing a family of deer. If the characters make their presence known, the berserkers attack them instead. |
-| 17–20 | Four injured [wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wolf.md) come upon the party but keep their distance. Each has `d8` hit points remaining. If approached, they instinctively snarl but then quickly whimper in pain. Their blood-matted fur is evidence of a recent attack on the wolves (they were wounded by hunters but escaped). If a character makes a successful DC 14 Wisdom ([Animal Handling](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Animal%20Handling)) check, the wolves become calm and allow the characters to treat their wounds. If they are given aid, the wolves trail behind the party and assist in fights if needed. |
+| 17–20 | Four injured [wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wolf.md) come upon the party but keep their distance. Each has `1d8` hit points remaining. If approached, they instinctively snarl but then quickly whimper in pain. Their blood-matted fur is evidence of a recent attack on the wolves (they were wounded by hunters but escaped). If a character makes a successful DC 14 Wisdom ([Animal Handling](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Animal%20Handling)) check, the wolves become calm and allow the characters to treat their wounds. If they are given aid, the wolves trail behind the party and assist in fights if needed. |
 ^demiplane-encounters
 
 ## Into the Wood
@@ -351,4 +350,4 @@ Regardless of the outcome of the characters' efforts, the book's final scene end
 
 As these words pass into the characters' consciousness, the book begins to pull the characters out of the story. When the last line is read, the characters return to the same spot in Candlekeep they left. *Lore of Lurue*, closed and sealed, rests where it did when the characters' experience began.
 
-If the characters defeated the corrupted unicorn before Selûne intervened, and thus they feel deserving of a reward, they might discover that Lurue herself has provided them with one. Sitting on the front cover of the book as the characters emerge from the demiplane is a moonstone and opal ring. A successful DC 18 Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)) check reveals this to be a [ring of shooting stars](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-shooting-stars.md). In addition, each character is the recipient of a supernatural gift from Lurue: a *charm of animal conjuring* (see ""Charms"" in the "Dungeon Master's Guide").
+If the characters defeated the corrupted unicorn before Selûne intervened, and thus they feel deserving of a reward, they might discover that Lurue herself has provided them with one. Sitting on the front cover of the book as the characters emerge from the demiplane is a moonstone and opal ring. A successful DC 18 Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)) check reveals this to be a [ring of shooting stars](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-shooting-stars.md). In addition, each character is the recipient of a supernatural gift from Lurue: a [charm of animal conjuring](03.PlayerLog&Handouts/Mechanics/CLI/rewards/charm-of-animal-conjuring.md) (see ""Charms"" in the "Dungeon Master's Guide").

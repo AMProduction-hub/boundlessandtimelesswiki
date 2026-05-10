@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/9
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nycaloth
+- "Nycaloth"
 ---
-# [Nycaloth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/nycaloth.md)
-*Source: Monster Manual p. 314, Princes of the Apocalypse, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything, Keys from the Golden Vault*  
+# [Nycaloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/nycaloth.md)
+*Source: Monster Manual p. 314*  
 
 The elite airborne shock troops of the yugoloths, nycaloths look like muscular gargoyles. Powerful bat wings bear them swiftly aloft in battle, and the razor-sharp claws of their hands and feet cut through flesh and bone with ease. A nightmarish foe, a nycaloth strikes hard and fast without warning, then teleports away. It uses its innate magic to turn [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) or create illusory doubles of itself, further confounding its enemies.
 
@@ -58,8 +59,8 @@ Whatever the case, no fiend finds the General unless the General desires it. His
 > 
 > - An arcanaloth has a 40 percent chance of summoning one arcanaloth.  
 > - A mezzoloth has a 30 percent chance of summoning one mezzoloth.  
-> - A nycaloth has a 50 percent chance of summoning `d4` mezzoloths or one nycaloth.  
-> - An ultroloth has a 50 percent chance of summoning `d6` mezzoloths, `d4` nycaloths, or one ultroloth.  
+> - A nycaloth has a 50 percent chance of summoning `1d4` mezzoloths or one nycaloth.  
+> - An ultroloth has a 50 percent chance of summoning `1d6` mezzoloths, `1d4` nycaloths, or one ultroloth.  
 > 
 > A summoned yugoloth appears in an unoccupied space within 60 feet of its summoner, does as it pleases (unless its summoner is an ultroloth, in which case it acts as an ally of its summoner), and can't summon other yugoloths. The summoned yugoloth remains for l minute, until it or its summoner dies, or until its summoner takes a bonus action to dismiss it
 ^variant-yugoloth-summoning
@@ -99,13 +100,17 @@ Whatever the case, no fiend finds the General unless the General desires it. His
   \ nonmagical attacks"
 "damage_immunities": "acid, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Abyssal, Infernal, telepathy 60 ft."
 "cr": "9"
 "traits":
   - "desc": "The nycaloth's innate spellcasting ability is Charisma. The nycaloth\
       \ can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \n**At will:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
@@ -120,7 +125,7 @@ Whatever the case, no fiend finds the General unless the General desires it. His
   - "desc": "The nycaloth makes two melee attacks, or it makes one melee attack and\
       \ teleports before or after the attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) slashing damage. If the target is a creature, it must succeed\
       \ on a DC 16 Constitution saving throw or take 5 (2d4) slashing damage at\
       \ the start of each of its turns due to a fiendish wound. Each time the nycaloth\
@@ -129,7 +134,7 @@ Whatever the case, no fiend finds the General unless the General desires it. His
       \ DC 13 Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine))\
       \ check. The wound also closes if the target receives magical healing."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 18\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 18\
       \ (2d12 + 5) slashing damage."
     "name": "Greataxe"
   - "desc": "The nycaloth magically teleports, along with any equipment it is wearing\
@@ -137,12 +142,6 @@ Whatever the case, no fiend finds the General unless the General desires it. His
     "name": "Teleport"
 "source":
   - "MM"
-  - "PotA"
-  - "ToA"
-  - "WDMM"
-  - "BGDIA"
-  - "TCE"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/nycaloth.webp"
 ```
 ^statblock

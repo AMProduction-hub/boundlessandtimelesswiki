@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/item/rarity/none
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
-aliases: 
+aliases:
 - "Hoopak"
 ---
 # Hoopak
@@ -23,6 +24,6 @@ A hoopak is a sturdy stick with a sling at one end and a pointed tip at the othe
 
 ## Special
 
-When you make a melee attack with this weapon, you ignore its ammunition property. You can use the hoopak as a martial ranged weapon. If you do, it uses the ammunition property, uses sling bullets, and deals `d4` bludgeoning damage on a hit.
+When you make a melee attack with this weapon, you ignore its ammunition property. You can use the hoopak as a martial ranged weapon. If you do, it uses the ammunition property, uses sling bullets, and deals `1d4` bludgeoning damage on a hit.
 
 *Source: Dragonlance: Shadow of the Dragon Queen p. 188*

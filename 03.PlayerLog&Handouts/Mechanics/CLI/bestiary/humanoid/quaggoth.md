@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Quaggoth
+- "Quaggoth"
 ---
-# [Quaggoth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/quaggoth.md)
-*Source: Monster Manual p. 256, Waterdeep: Dungeon of the Mad Mage, Icewind Dale: Rime of the Frostmaiden, Light of Xaryxis*  
+# [Quaggoth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/quaggoth.md)
+*Source: Monster Manual p. 256*  
 
 Savage and territorial, quaggoths climb the chasms of the Underdark. They maul their foes in a frenzy, becoming even more murderous in the face of death.
 
@@ -61,7 +62,8 @@ Generations of hunting venomous subterranean creatures and perpetual exposure to
     "desc": "+5"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": "Undercommon"
 "cr": "2"
 "traits":
@@ -72,14 +74,11 @@ Generations of hunting venomous subterranean creatures and perpetual exposure to
 "actions":
   - "desc": "The quaggoth makes two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Claw"
 "source":
   - "MM"
-  - "WDMM"
-  - "IDRotF"
-  - "LoX"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/quaggoth.webp"
 ```
 ^statblock

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Spirit Tales
+- "Spirit Tales"
 ---
 # Spirit Tales
 *Source: Van Richten's Guide to Ravenloft p. 28. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)* 

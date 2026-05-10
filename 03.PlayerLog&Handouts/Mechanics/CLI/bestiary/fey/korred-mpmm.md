@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Korred
+- "Korred"
 ---
-# [Korred](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/korred-mpmm.md)
+# [Korred](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/korred-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 166, Volo's Guide to Monsters p. 168*  
 
 Korreds are unpredictable, secretive Fey with strong ties to earth and stone. Because of their magical hair and mystical understanding of minerals, they are sought after by treasure-hunting dwarves and others who desire wealth beneath the earth.
@@ -51,7 +52,10 @@ Korreds have hair all over their bodies, but the hair that grows from their head
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
-"senses": "darkvision 120 ft., tremorsense 120 ft., passive Perception 15"
+"gear":
+  - "[greatclub](03.PlayerLog&Handouts/Mechanics/CLI/items/greatclub.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., tremorsense 120 ft., passive Perception 15"
 "languages": "Dwarvish, Gnomish, Sylvan, Terran, Undercommon"
 "cr": "7"
 "traits":
@@ -61,20 +65,20 @@ Korreds have hair all over their bodies, but the hair that grows from their head
 "actions":
   - "desc": "The korred makes two Greatclub or Rock attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (1d8 + 6) bludgeoning damage, or 19 (3d8 + 6) bludgeoning damage if the\
       \ korred is on the ground."
     "name": "Greatclub"
-  - "desc": "Ranged Weapon Attack: +9 to hit, range 60/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +9 to hit, range 60/120 ft., one target. *Hit:*\
       \ 10 (1d8 + 6) bludgeoning damage, or 19 (3d8 + 6) bludgeoning damage if\
       \ the korred is on the ground."
     "name": "Rock"
   - "desc": "The korred casts one of the following spells, requiring no spell components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 13):\n\nAt will:\
+      \ and using Wisdom as the spellcasting ability (spell save DC 13):\n\n**At will:**\
       \ [commune with nature](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune-with-nature.md)\
       \ (as an action), [meld into stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/meld-into-stone.md),\
       \ [stone shape](03.PlayerLog&Handouts/Mechanics/CLI/spells/stone-shape.md)\n\
-      \n1/day: [Otto's irresistible dance](03.PlayerLog&Handouts/Mechanics/CLI/spells/ottos-irresistible-dance.md)"
+      \n**1/day:** [Otto's irresistible dance](03.PlayerLog&Handouts/Mechanics/CLI/spells/ottos-irresistible-dance.md)"
     "name": "Spellcasting"
 "bonus_actions":
   - "desc": "The korred has at least one 50-foot-long rope woven out of its hair.\

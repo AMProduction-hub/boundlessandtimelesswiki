@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Epilogue
+- "Epilogue"
 ---
 # Epilogue
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 261* 
@@ -27,7 +28,7 @@ The characters can help Ten-Towners rebuild their settlements in the wake of the
 
 Characters who help rebuild Ten-Towns might be asked to take up the mantle of speaker in one or more communities, replacing leaders who were killed during the adventure. If he survived, Speaker Naerth Maxildanarr of Targos opposes the characters' political ascendance, since they represent a threat to Zhentarim control of the region; without a power base of his own, however, Naerth can do little to stop them.
 
-![The end of winter signals ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/191-08-001-end-of-winter.webp#center "The end of winter signals a resurgence of life in Icewind Dale")
+![The end of winter signals a resurgence of life in Icewind Dale](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/191-08-001-end-of-winter.webp#center)
 
 ## Winter Everlasting
 

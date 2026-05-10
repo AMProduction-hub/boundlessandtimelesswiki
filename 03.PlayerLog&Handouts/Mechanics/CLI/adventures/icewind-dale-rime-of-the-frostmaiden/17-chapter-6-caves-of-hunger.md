@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Chapter 6: Caves of Hunger
+- "Chapter 6: Caves of Hunger"
 ---
 # Chapter 6: Caves of Hunger
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 215* 
@@ -15,7 +16,7 @@ Equipped with the "Rime of the Frostmaiden," the characters can begin their sear
 
 The characters must use the "Rime of the Frostmaiden" to open a crack in the glacial wall at a place where a waterfall once tumbled down the glacier. The newly formed passage leads to the Caves of Hunger, a dungeon that was sealed off by the Frostmaiden long ago—a network of sepulchral ice caves haunted by ravenous beings. These chambers must be successfully navigated to reach the Netherese city of Ythryn.
 
-![After opening a fissure in...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/170-06-000-intro-splash.webp#center "After opening a fissure in the Reghed Glacier, a party of explorers prepares to head inside")
+![After opening a fissure in the Reghed Glacier, a party of explorers prepares to head inside](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/170-06-000-intro-splash.webp#center)
 
 ## Running This Chapter
 
@@ -132,8 +133,6 @@ The Caves of Hunger have a way of capturing and holding on to psychic trauma. In
 
 **Psychic Hauntings**
 
-`dice: [](17-chapter-6-caves-of-hunger.md#^psychic-hauntings)`
-
 | dice: d12 | Haunting |
 |-----------|----------|
 | 1 | A man wanders around in the cavern. His fingers are black with frostbite, and his mouth is agape in a silent scream. Although he appears real, the man is no more substantial than a phantom and does not respond to any interaction. |
@@ -160,8 +159,6 @@ You can stage an encounter with Tekeli-li anywhere you like. If you're not sure 
 If the characters have not encountered the vampire by the time they reach area H36, it attacks them there.
 
 **Tekeli-li's Location**
-
-`dice: [](17-chapter-6-caves-of-hunger.md#^tekeli-lis-location)`
 
 | dice: d6 | Location |
 |----------|----------|
@@ -301,7 +298,7 @@ If [Professor Skant](03.PlayerLog&Handouts/Mechanics/CLI/items/professor-skant-i
 
 A character can use an action to press the eye, thereby using the slab to cast the [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md) spell. The spell lasts for 1 hour or until the character's concentration on the spell ends. The slab, which used to function whenever the button was pressed, is damaged. Once the spell is cast, the slab ceases to be magical.
 
-![A halfling adventurer enco...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/173-06-001-iron-golem.webp#center "A halfling adventurer encounters the head of a decapitated iron golem")
+![A halfling adventurer encounters the head of a decapitated iron golem](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/173-06-001-iron-golem.webp#center)
 
 #### H9. Golem Head
 
@@ -372,7 +369,7 @@ Terrible psychic trauma lingers in this cave, causing any creature that enters i
 
 One skeleton at the back of the cave wears a tarnished silver holy symbol shaped like a four-pointed star (25 gp) around its neck. A successful DC 15 Intelligence ([History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)) check identifies it as a holy symbol of Mystryl (see the "Mystryl" sidebar).
 
-![Tekeli-li the gnoll vampir...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/174-06-002-gnoll-vampire.webp#center "Tekeli-li the gnoll vampire assumes hyena form as it sneaks up behind unsuspecting prey")
+![Tekeli-li the gnoll vampire assumes hyena form as it sneaks up behind unsuspecting prey](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/174-06-002-gnoll-vampire.webp#center)
 
 #### H13. Icicle-Filled Cave
 
@@ -551,7 +548,7 @@ The "snowballs" in the shallow crater are six unhatched remorhaz eggs, each one 
 
 An undamaged remorhaz egg can be sold to an interested buyer in Bryn Shander for up to 500 gp.
 
-![A remorhaz uses its body h...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/175-06-003-remorhaz.webp#center "A remorhaz uses its body heat to warm the pool containing its unborn young")
+![A remorhaz uses its body heat to warm the pool containing its unborn young](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/175-06-003-remorhaz.webp#center)
 
 #### H24. Remorhaz Mother
 
@@ -733,7 +730,7 @@ If the characters make it this far and haven't yet faced Tekeli-li, the [gnoll v
 
 ![Purple Pear](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/176-06-004-purple-pear.webp#center)
 
-This grove of pear trees was enchanted by Netherese arcanists to endure high altitude and harsh weather. That magic has enabled the trees to thrive even in these icy caverns. Essential to the grove's survival is a [dryad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/dryad.md) named Hathowyn, who resides in the southernmost tree. If the dryad dies, the trees die `d10` days later. Centuries of isolation have made Hathowyn lonely, and the dryad hungers for conversation and companionship.
+This grove of pear trees was enchanted by Netherese arcanists to endure high altitude and harsh weather. That magic has enabled the trees to thrive even in these icy caverns. Essential to the grove's survival is a [dryad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/dryad.md) named Hathowyn, who resides in the southernmost tree. If the dryad dies, the trees die `1d10` days later. Centuries of isolation have made Hathowyn lonely, and the dryad hungers for conversation and companionship.
 
 If Tekeli-li is present, Hathowyn remains hidden in her tree until the gnoll vampire leaves or is destroyed. Tekeli-li has never seen the dryad and is unaware of her presence. If given the chance, Hathowyn tries to engage the characters in conversation, speaking Elvish or Sylvan. She hopes to keep them in the grove for as long as possible. If the characters try to leave, Hathowyn tries to charm one of them into staying and keeping her company. The dryad knows the following information:
 
@@ -747,8 +744,6 @@ If Tekeli-li is present, Hathowyn remains hidden in her tree until the gnoll vam
 Each tree has `3d6` ripe pears hanging from its branches, most of them within reach. Any creature that eats more than half of a purple pear gains the benefit of a special charm (see ""Supernatural Gifts"" in the "Dungeon Master's Guide"). Determine the charm randomly by rolling a `d20` and consulting the Purple Pear Charms table. This charm must vanish from a creature before it can gain any more charms by eating purple pears. A creature that eats three or more purple pears within 1 hour is [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for 24 hours thereafter and suffers painful cramps until the condition ends.
 
 **Purple Pear Charms**
-
-`dice: [](17-chapter-6-caves-of-hunger.md#^purple-pear-charms)`
 
 | dice: d20 | Supernatural Charm |
 |-----------|--------------------|

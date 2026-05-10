@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- What Happens Next?; Home Base
+- "What Happens Next?; Home Base"
 ---
 # What Happens Next?; Home Base
 *Source: Eberron: Rising from the Last War p. 240* 
 
 **Home Base**
-
-`dice: [](what-happens-next-home-base-erlw.md#^home-base)`
 
 | dice: d12 | Location |
 |-----------|----------|

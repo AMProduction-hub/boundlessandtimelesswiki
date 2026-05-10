@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 12: Maze Level
+- "Level 12: Maze Level"
 ---
 # Level 12: Maze Level
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 159* 
@@ -103,8 +104,6 @@ Any character who succeeds on a DC 15 Intelligence ([Religion](03.PlayerLog&Hand
 Any humanoid that enters the area between the pillars or starts its turn there must succeed on a DC 18 Wisdom saving throw or manifest a character flaw that lasts until the victim is subjected to a [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md) spell, a [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md) spell, or similar magic. The flaw supersedes any conflicting flaw and is determined by rolling on the Madness of Baphomet table. A creature that succeeds on the saving throw can't be affected by the pillars again for 24 hours.
 
 **Madness of Baphomet**
-
-`dice: [](13-level-12-maze-level.md#^madness-of-baphomet)`
 
 | dice: d100 | Flaw (lasts until cured) |
 |------------|--------------------------|
@@ -402,7 +401,7 @@ The characters hear the incessant chirping of crickets as they approach this 20-
 
 Each crate contains hundreds of harmless, chirping cave crickets, feeding from a 1-foot-deep bed of bat guano mixed with maggot-ridden offal. The cave crickets are used by the drow to feed the bats in area 11.
 
-The secret door in the floor is an 8-foot-square, 1-foot-thick slab of stone that pivots on a central axis. Opening it requires a successful DC 15 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. Applying 150 pounds of weight to either side of the door also causes it to swing open. Any creature that accidentally opens the door by standing on it can avoid a fall by making a successful DC 15 Dexterity saving throw. A creature that falls through the open door drops 10 feet and lands on the claw-shaped rock formation in area 14, taking 3 (`d6`) bludgeoning damage.
+The secret door in the floor is an 8-foot-square, 1-foot-thick slab of stone that pivots on a central axis. Opening it requires a successful DC 15 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. Applying 150 pounds of weight to either side of the door also causes it to swing open. Any creature that accidentally opens the door by standing on it can avoid a fall by making a successful DC 15 Dexterity saving throw. A creature that falls through the open door drops 10 feet and lands on the claw-shaped rock formation in area 14, taking 3 (`1d6`) bludgeoning damage.
 
 ### 16. Web-Filled Cave
 

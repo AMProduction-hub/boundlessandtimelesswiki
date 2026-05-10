@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/rot
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Galvan
+- "Galvan"
 ---
-# [Galvan](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/galvan-rot.md)
+# [Galvan](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/galvan-rot.md)
 *Source: The Rise of Tiamat p. 9, Tyranny of Dragons p. 12*  
 
 ```statblock
@@ -35,7 +36,7 @@ aliases:
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+6"
@@ -43,7 +44,10 @@ aliases:
     "desc": "+7"
 "damage_resistances": "one of the following: acid, cold, fire, lightning, poison"
 "damage_immunities": "lightning"
-"senses": "darkvision 60 ft., passive Perception 11"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common, Draconic, Infernal"
 "cr": "7"
 "traits":
@@ -55,7 +59,7 @@ aliases:
   - "desc": "Galvan has the [Blue Dragon Mask](03.PlayerLog&Handouts/Mechanics/CLI/items/blue-dragon-mask-rotos.md)."
     "name": "Special Equipment"
   - "desc": "While wearing no armor and wearing the Blue Dragon Mask, Galvan adds\
-      \ his Charisma bonus to her AC (included)."
+      \ his Charisma bonus to his AC (included)."
     "name": "Draconic Majesty"
   - "desc": "If Galvan deals lightning damage to a creature while wearing the Blue\
       \ Dragon Mask, that creature can't take reactions until its next turn."
@@ -82,11 +86,11 @@ aliases:
 "actions":
   - "desc": "Galvan attacks twice with its shortsword."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage plus 10 (3d6) damage of the type to which Galvan\
       \ has resistance."
     "name": "Shortsword"
-  - "desc": "Ranged Spell Attack: +7 to hit, range 90 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +7 to hit, range 90 ft., one target. *Hit:*\
       \ 27 (6d8) damage of the type to which Galvan has damage resistance."
     "name": "Orb of Dragon's Breath (3/Day)"
 "source":

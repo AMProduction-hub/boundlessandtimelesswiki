@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/slw
 aliases:
-- House of Thalivar
+- "House of Thalivar"
 ---
 # House of Thalivar
 *Source: Essentials Kit: Storm Lord's Wrath* 
@@ -80,8 +81,6 @@ Each night, Thalivar's [ghost](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/unde
 Thalivar's [ghost](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghost.md) tries to scare away anyone who enters his tower. As the characters explore, roll on the Ghostly Events table to introduce creepy phenomena, or invent your own!
 
 **Ghostly Events**
-
-`dice: [](07-house-of-thalivar.md#^ghostly-events)`
 
 | dice: d6 | Event |
 |----------|-------|

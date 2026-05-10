@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nine-Fingers Keene
+- "Nine-Fingers Keene"
 ---
-# [Nine-Fingers Keene](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/nine-fingers-keene-bgdia.md)
+# [Nine-Fingers Keene](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/nine-fingers-keene-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 170*  
 
 The current leader of the Guild, Nine-Fingers Keene, disdains flashy garb and illusion magic. She appears to the world as she is: an unassuming woman of middling age and build. Her forgettable looks have proven her greatest asset as a thief, as her victims have trouble recognizing her even when they meet her again face-to-face. Keene's leadership over the years earned her a reputation of thoughtful pragmatism. When necessary, she seeks revenge for offenses against the Guild—provided doing so is profitable. Her methods are vicious when necessary, and she is as feared as she is respected.
@@ -38,8 +39,8 @@ Keene has become increasingly intolerant of the populous tide turning against he
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+7"
-  - "intelligence": "+4"
+  - "dexterity": !!int "7"
+  - "intelligence": !!int "4"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+10"
@@ -55,12 +56,16 @@ Keene has become increasingly intolerant of the populous tide turning against he
     "desc": "+10"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+10"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 16"
 "languages": "Common, Thieves' cant"
 "cr": "5"
 "traits":
   - "desc": "On each of her turns in combat, Nine-Fingers can use a bonus action to\
-      \ take the Dash, Disengage, or Hide action."
+      \ take the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash),\
+      \ [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage),\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action."
     "name": "Cunning Action"
   - "desc": "Nine-Fingers adds double her proficiency bonus to the damage she deals\
       \ on ranged attacks made with daggers (already factored into her attacks)."
@@ -68,8 +73,8 @@ Keene has become increasingly intolerant of the populous tide turning against he
 "actions":
   - "desc": "Nine-Fingers attacks three times with her daggers."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 6 (1d4 + 4) piercing damage, plus 6 piercing damage\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 6 (1d4 + 4) piercing damage, plus 6 piercing damage\
       \ if it's a ranged attack."
     "name": "Dagger"
 "reactions":

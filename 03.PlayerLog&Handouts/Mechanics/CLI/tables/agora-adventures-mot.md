@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Agora Adventures
+- "Agora Adventures"
 ---
 # Agora Adventures
 *Source: Mythic Odysseys of Theros p. 122* 
 
 **Agora Adventures**
-
-`dice: [](agora-adventures-mot.md#^agora-adventures)`
 
 | dice: d12 | Adventure Goal |
 |-----------|----------------|

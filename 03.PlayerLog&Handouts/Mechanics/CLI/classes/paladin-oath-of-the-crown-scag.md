@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/subclass/paladin/crown
 aliases:
-- Oath of the Crown
+- "Oath of the Crown"
 ---
 # Oath of the Crown
 *[Paladin](./paladin.md): Sacred Oath*  
@@ -43,35 +44,21 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Oath of the Crown (Level 3)
-
 The Oath of the Crown is sworn to the ideals of civilization, be it the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership. The paladins who swear this oath dedicate themselves to serving society and, in particular, the laws that hold society together. These paladins are the watchful guardians on the walls, standing against the chaotic tides of barbarism that threaten to tear down all that civilization has built, and are commonly known as guardians, exemplars, or sentinels. Often, paladins who swear this oath are members of an order of knighthood in service to a nation or sovereign, and undergo their oath as part of their admission to the order's ranks.
+
+## Subclass Features
 
 ### Tenets of the Crown (Level 3)
 
 The tenets of the Oath of the Crown are often set by the sovereign to which their oath is sworn, but generally emphasize the following tenets.
 
-#### Law
-_Source: Sword Coast Adventurer's Guide_
+**Law.** The law is paramount. It is the mortar that holds the stones of civilization together, and it must be respected.
 
-The law is paramount. It is the mortar that holds the stones of civilization together, and it must be respected.
+**Loyalty.** Your word is your bond. Without loyalty, oaths and laws are meaningless.
 
-#### Loyalty
-_Source: Sword Coast Adventurer's Guide_
+**Courage.** You must be willing to do what needs to be done for the sake of order, even in the face of overwhelming odds. If you don't act, then who will?
 
-Your word is your bond. Without loyalty, oaths and laws are meaningless.
-
-#### Courage
-_Source: Sword Coast Adventurer's Guide_
-
-You must be willing to do what needs to be done for the sake of order, even in the face of overwhelming odds. If you don't act, then who will?
-
-#### Responsibility
-_Source: Sword Coast Adventurer's Guide_
-
-You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations.
+**Responsibility.** You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations.
 
 ### Oath Spells (Level 3)
 
@@ -98,7 +85,7 @@ As a bonus action, you issue a challenge that compels other creatures to do batt
 
 ### Turn the Tide (Level 3)
 
-As a bonus action, you can bolster injured creatures with your Channel Divinity. Each creature of your choice that can hear you within 30 feet of you regains hit points equal to `d6` + your Charisma modifier (minimum of 1) if it has no more than half of its hit points.
+As a bonus action, you can bolster injured creatures with your Channel Divinity. Each creature of your choice that can hear you within 30 feet of you regains hit points equal to `1d6` + your Charisma modifier (minimum of 1) if it has no more than half of its hit points.
 
 ### Divine Allegiance (Level 7)
 

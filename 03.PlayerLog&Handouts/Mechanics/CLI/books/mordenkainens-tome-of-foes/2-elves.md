@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Elves
+- "Elves"
 ---
 # Elves
 *Source: Mordenkainen's Tome of Foes, p. 35* 
@@ -509,7 +510,7 @@ The Drow Deities table lists the members of the Dark Seldarine. For each god, th
 
 #### Lolth
 
-Unlike Corellon, who asks very little of his followers, Lolth is a demanding mistress. What she demands most of all are sacrifices of treasure and blood. Time and time again, the screams of sacrificial victims echo through Lolth's lightless temples as they fall under the knives of her priestesses. Her altars are piled with skulls picked clean of flesh by the giant spiders that lurk in the webdraped stalactites overhead.
+Unlike Corellon, who asks very little of his followers, Lolth is a demanding mistress. What she demands most of all are sacrifices of treasure and blood. Time and time again, the screams of sacrificial victims echo through Lolth's lightless temples as they fall under the knives of her priestesses. Her altars are piled with skulls picked clean of flesh by the giant spiders that lurk in the web-draped stalactites overhead.
 
 In return for victims and adoration, Lolth grants signs of her favor, such as great success during a slave raid on the surface, the matron of a rival house being struck down by an inexplicable illness, or an heiress to the house being born under propitious omens.
 

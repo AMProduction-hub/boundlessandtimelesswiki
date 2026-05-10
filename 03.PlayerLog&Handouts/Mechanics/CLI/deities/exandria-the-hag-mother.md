@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/deity/exandria
 - ttrpg-cli/domain/knowledge
 - ttrpg-cli/domain/trickery
-aliases: 
-- The Hag Mother
+aliases:
+- "The Hag Mother"
 ---
 # The Hag Mother
 *Source: Explorer's Guide to Wildemount p. 32* 

@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/item/rarity/rare
 - ttrpg-cli/item/shield/
 - ttrpg-cli/item/tier/major
-aliases: 
+aliases:
 - "Shield of the Silver Dragon"
 ---
 # Shield of the Silver Dragon

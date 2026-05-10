@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Oracle
+- "Oracle"
 ---
-# [Oracle](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/oracle-mot.md)
+# [Oracle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/oracle-mot.md)
 *Source: Mythic Odysseys of Theros p. 238*  
 
 Oracles posses the ability to interpret the patterns and language of Nyx, divining from it the flow of fates and the will of the gods. Most of these gifted—or cursed—mortals communicate with a single god, interpreting their intentions for the wider world. Others aren't aligned with a god and observe the night sky, reading Nyx like a vast, cryptic scroll for insights.
@@ -35,8 +36,8 @@ Oracles posses the ability to interpret the patterns and language of Nyx, divini
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+5"
-  - "charisma": "+4"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+5"
@@ -50,13 +51,13 @@ Oracles posses the ability to interpret the patterns and language of Nyx, divini
 "traits":
   - "desc": "The oracle's spellcasting ability is Wisdom (spell save DC 13, +5 to\
       \ hit with spell attacks). It can innately cast the following spells, requiring\
-      \ no material components:\n\nAt will: [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ no material components:\n\n**At will:** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n3/day each: [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md),\
+      \n**3/day each:** [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md),\
       \ [guiding bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/guiding-bolt.md),\
       \ [healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/healing-word.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md)\n\
-      \n1/day each: [augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md),\
+      \n**1/day each:** [augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md),\
       \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)"
     "name": "Innate Spellcasting"
   - "desc": "While the oracle is wearing no armor and wielding no shield, its AC includes\
@@ -64,7 +65,7 @@ Oracles posses the ability to interpret the patterns and language of Nyx, divini
       \ attack while within 5 feet of it takes 9 (2d8) force damage."
     "name": "Blessings of the Gods"
 "actions":
-  - "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Spell Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) force damage."
     "name": "Eldritch Touch"
 "reactions":

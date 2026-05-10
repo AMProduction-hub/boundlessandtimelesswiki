@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Hazlan Wild Magic
+- "Hazlan Wild Magic"
 ---
 # Hazlan Wild Magic
 *Source: Van Richten's Guide to Ravenloft p. 116* 
 
 **Hazlan Wild Magic**
-
-`dice: [](hazlan-wild-magic-vrgr.md#^hazlan-wild-magic)`
 
 | dice: d20 | Wild Magic Effect |
 |-----------|-------------------|

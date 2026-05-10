@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Zombie
+- "Zombie"
 ---
-# [Zombie](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/zombie.md)
-*Source: Monster Manual p. 316, Curse of Strahd, Lost Mine of Phandelver, Princes of the Apocalypse, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Divine Contention, Dragon of Icespire Peak, Storm Lord's Wrath, Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything, Journeys through the Radiant Citadel, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault, Hunt for the Thessalhydra. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md)
+*Source: Monster Manual p. 316. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 From somewhere in the darkness, a gurgling moan is heard. A form lurches into view, dragging one foot as it raises bloated arms and broken hands. The zombie advances, driven to kill anyone too slow to escape its grasp.
 
@@ -62,10 +63,11 @@ A zombie doesn't require air, food, drink, or sleep.
   - !!int "5"
 "speed": "20 ft."
 "saves":
-  - "wisdom": "+0"
+  - "wisdom": !!int "0"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": "understands all languages it spoke in life but can't speak"
 "cr": "1/4"
 "traits":
@@ -74,30 +76,11 @@ A zombie doesn't require air, food, drink, or sleep.
       \ or from a critical hit. On a success, the zombie drops to 1 hit point instead."
     "name": "Undead Fortitude"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) bludgeoning damage."
     "name": "Slam"
 "source":
   - "MM"
-  - "CoS"
-  - "LMoP"
-  - "PotA"
-  - "TftYP"
-  - "ToA"
-  - "WDMM"
-  - "GoS"
-  - "DC"
-  - "DIP"
-  - "SLW"
-  - "SDW"
-  - "BGDIA"
-  - "ERLW"
-  - "EGW"
-  - "TCE"
-  - "JttRC"
-  - "DSotDQ"
-  - "KftGV"
-  - "HftT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/zombie.webp"
 ```
 ^statblock

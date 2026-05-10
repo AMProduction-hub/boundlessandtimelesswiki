@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 aliases:
-- Hell of a Summer
+- "Hell of a Summer"
 ---
 # Hell of a Summer
 *Source: Waterdeep: Dragon Heist, p. 115* 
@@ -37,8 +38,6 @@ During the hours when Ammalia is home and awake, her location in the villa can b
 
 **Ammalia's Location**
 
-`dice: [](08-hell-of-a-summer.md#^ammalias-location)`
-
 | dice: d100 | Result |
 |------------|--------|
 | 1-70 | She's tending to her butterfly garden (C25). |
@@ -53,8 +52,6 @@ During the hours when Ammalia is home and awake, her location in the villa can b
 During the hours when Victoro is home and awake, his location in the villa can be determined randomly:
 
 **Victoro's Location**
-
-`dice: [](08-hell-of-a-summer.md#^victoros-location)`
 
 | dice: d100 | Result |
 |------------|--------|
@@ -80,8 +77,6 @@ The Cassalanter twins aren't members of their parents' cult and have no other fr
 During the hours when the children are awake, their location in the villa can be determined randomly:
 
 **Terenzio and Elzerina's Location**
-
-`dice: [](08-hell-of-a-summer.md#^terenzio-and-elzerinas-location)`
 
 | dice: d100 | Result |
 |------------|--------|
@@ -204,11 +199,20 @@ If the occupants or features of a location change during the Founders' Day party
 
 #### Guest House
 
-The Cassalanters host guests in this stately guest house. **CG1. Mud Room**. Guests can remove and store dirty cloaks and boots here. **CG2. Storage**. Guests can store their traveling gear here. **CG3. Dining Room**. This room is furnished with two dining tables, each surrounded by six chairs. **CG4. Kitchen**. Guests are expected to dine with the Cassalanters in the manor but can prepare their own breakfast here. **CG5. Parlor**. This room is furnished with a billiard table, a card table, and four luxurious armchairs. **CG6. Sitting Room**. This room features an upright piano and four luxurious armchairs. **CG7. Bedrooms**. Each room contains a bed for two, a pair of wardrobes, a small vanity with matching stool, and a storage trunk for valuables. **CG8. Master Bedroom**. This room has a balcony and contains a large canopied bed, a standing mirror in a gilded frame, a writing desk and matching chair, a dresser, a tall wardrobe, and an owlbear throw rug draped over a padded chair with matching ottoman.
+The Cassalanters host guests in this stately guest house.
+
+- **CG1. Mud Room.** Guests can remove and store dirty cloaks and boots here.  
+- **CG2. Storage.** Guests can store their traveling gear here.  
+- **CG3. Dining Room.** This room is furnished with two dining tables, each surrounded by six chairs.  
+- **CG4. Kitchen.** Guests are expected to dine with the Cassalanters in the manor but can prepare their own breakfast here.  
+- **CG5. Parlor.** This room is furnished with a billiard table, a card table, and four luxurious armchairs.  
+- **CG6. Sitting Room.** This room features an upright piano and four luxurious armchairs.  
+- **CG7. Bedrooms.** Each room contains a bed for two, a pair of wardrobes, a small vanity with matching stool, and a storage trunk for valuables.  
+- **CG8. Master Bedroom.** This room has a balcony and contains a large canopied bed, a standing mirror in a gilded frame, a writing desk and matching chair, a dresser, a tall wardrobe, and an owlbear throw rug draped over a padded chair with matching ottoman.  
 
 > [!gallery]
-> ![Cassalanter Villa, Guest S...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dragon-heist/img/guest-second-players.webp#gallery "Cassalanter Villa, Guest Second Floor (Player Version)")
-> ![Cassalanter Villa, Guest T...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dragon-heist/img/guest-third-players.webp#gallery "Cassalanter Villa, Guest Third Floor (Player Version)")
+> ![Cassalanter Villa, Guest Second Floor (Player Version)](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dragon-heist/img/guest-second-players.webp#gallery)
+> ![Cassalanter Villa, Guest Third Floor (Player Version)](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dragon-heist/img/guest-third-players.webp#gallery)
 
 #### Coach House
 
@@ -790,7 +794,7 @@ This event can occur only on Founders' Day or sooner.
 
 Armed with the [Stone of Golorr](03.PlayerLog&Handouts/Mechanics/CLI/items/stone-of-golorr-wdh.md) and the keys to unlock the Vault of Dragons, [Victoro Cassalanter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/victoro-cassalanter-wdh.md) enters the vault, uses a [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md) spell to appear as Lord Dagult Neverember, and tricks [Aurinax](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/aurinax-wdh.md) the gold dragon into relinquishing the gold. A dozen House Cassalanter [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) disguised as members of the City Guard stuff the gold into sacks while a dozen more haul the sacks to a pair of waiting carriages for safe transport back to Cassalanter Villa. Each sack holds 1,000 gp, and each carriage can hold fifty sacks (50,000 gp) at a time. Getting the gold from the Vault of Dragons to Cassalanter Villa takes ten round trips (five per carriage) and the better part of a day. Three [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) [imps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/imp.md) accompany each carriage, which is driven by a [bearded devil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/bearded-devil.md) wearing a hat and a high-collared cape to conceal its true nature. Upon arrival at Cassalanter Villa, each carriage is met by a dozen [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) in House Cassalanter livery, who unload the sacks of gold and place them in C29.
 
-![Jenks catches sight of Lad...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dragon-heist/img/summer-scene.webp#center "Jenks catches sight of Lady Cassalanter in the summer street")
+![Jenks catches sight of Lady Cassalanter in the summer street](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dragon-heist/img/summer-scene.webp#center)
 
 ### Day of the Damned
 

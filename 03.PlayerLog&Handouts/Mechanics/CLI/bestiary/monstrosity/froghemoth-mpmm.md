@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/10
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Froghemoth
+- "Froghemoth"
 ---
-# [Froghemoth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/froghemoth-mpmm.md)
+# [Froghemoth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/froghemoth-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 130, Volo's Guide to Monsters p. 145*  
 
 A froghemoth is an amphibious predator as big as an elephant. It lairs in swamps and has four tentacles, a thick rubbery hide, a fang-filled maw with a prehensile tongue, and an extendable stalk sporting three bulbous eyes that face in different directions.
@@ -43,15 +44,16 @@ If [bullywugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bullywug.md
   - !!int "5"
 "speed": "30 ft., swim 30 ft."
 "saves":
-  - "constitution": "+9"
-  - "wisdom": "+5"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+9"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_resistances": "fire, lightning"
-"senses": "darkvision 60 ft., passive Perception 19"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 19"
 "languages": ""
 "cr": "10"
 "traits":
@@ -65,7 +67,7 @@ If [bullywugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bullywug.md
   - "desc": "The froghemoth makes one Bite attack and two Tentacle attacks, and it\
       \ can use Tongue."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 22 (3d10 + 6) piercing damage, and the target is swallowed if it is a Medium\
       \ or smaller creature. A swallowed creature is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
       \ and [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
@@ -80,7 +82,7 @@ If [bullywugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bullywug.md
       \ creature is no longer [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ by it and can escape from the corpse using 10 feet of movement, exiting [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 20 ft., one target. *Hit:*\
       \ 19 (3d8 + 6) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 16) if it is a Huge or smaller creature. Until the grapple ends,\
       \ the froghemoth can't use this tentacle on another target. The froghemoth has\

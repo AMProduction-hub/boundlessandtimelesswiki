@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Roleplaying a Beholder; Beholder Bonds
+- "Roleplaying a Beholder; Beholder Bonds"
 ---
 # Roleplaying a Beholder; Beholder Bonds
 *Source: Volo's Guide to Monsters p. 8* 
 
 **Beholder Bonds**
-
-`dice: [](roleplaying-a-beholder-beholder-bonds-vgm.md#^beholder-bonds)`
 
 | dice: d6 | Bond |
 |----------|------|

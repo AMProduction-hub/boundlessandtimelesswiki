@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Connected Creatures; Faerie Dragon Connections
+- "Connected Creatures; Faerie Dragon Connections"
 ---
 # Connected Creatures; Faerie Dragon Connections
 *Source: Fizban's Treasury of Dragons p. 118* 
 
 **Faerie Dragon Connections**
-
-`dice: [](connected-creatures-faerie-dragon-connections-ftd.md#^faerie-dragon-connections)`
 
 | dice: d10 | Connected Creatures |
 |-----------|---------------------|

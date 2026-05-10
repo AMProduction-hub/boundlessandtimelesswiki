@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dip
 aliases:
-- Axeholm
+- "Axeholm"
 ---
 # Axeholm
 *Source: Essentials Kit: Dragon of Icespire Peak, p. 12* 
@@ -27,7 +28,7 @@ To complete the Axeholm Quest, adventurers must kill or drive out all the monste
 > 
 > **Arrow Slits.** When using an arrow slit for protection, a creature gains three-quarters cover (see "the rulebook") against outside threats. A Medium character can't squeeze through an arrow slit, but a Small character can with a successful DC 10 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check.
 > 
-> **Ballistas.** For its defense, Axeholm relied heavily on ballistas—massive crossbows that fire heavy bolts. A crew of three dwarves operated each ballista. Before it can be fired, a ballista must be loaded and aimed. It takes one action to load the weapon, one action to aim it, and one action to fire it. *Ranged Weapon Attack*: +6 to hit, range 120/480 ft., one target. *Hit*: 16 (`3d10`) piercing damage.
+> **Ballistas.** For its defense, Axeholm relied heavily on ballistas—massive crossbows that fire heavy bolts. A crew of three dwarves operated each ballista. Before it can be fired, a ballista must be loaded and aimed. It takes one action to load the weapon, one action to aim it, and one action to fire it. *Ranged Weapon Attack*: `+6` to hit, range 120/480 ft., one target. *Hit*: 16 (`3d10`) piercing damage.
 > 
 > **Ceilings.** Ceilings throughout are fifteen feet high and flat, unless the text says otherwise.
 > 

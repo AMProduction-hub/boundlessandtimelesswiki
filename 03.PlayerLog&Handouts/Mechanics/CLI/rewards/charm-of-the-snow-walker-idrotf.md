@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-reward
+cssclasses:
+- json5e-reward
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/reward/charm
 aliases:
-- Charm of the Snow Walker
+- "Charm of the Snow Walker"
 ---
 # Charm of the Snow Walker
 

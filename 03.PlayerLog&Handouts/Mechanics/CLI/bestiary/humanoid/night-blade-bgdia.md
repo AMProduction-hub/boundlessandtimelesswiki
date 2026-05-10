@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Night Blade
+- "Night Blade"
 ---
-# [Night Blade](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/night-blade-bgdia.md)
+# [Night Blade](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/night-blade-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 233*  
 
 Bhaal's cultists emulate their deity, carrying out gruesome murders to spread fear and horror. They are charming and disarming when they wish, but in combat their true, bloodthirsty nature comes to the fore.
@@ -51,7 +52,10 @@ Low-ranking cultists of Bhaal are called night blades, whom Bhaal blesses with [
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
-"senses": "darkvision 60, passive Perception 10"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60, passive Perception 10"
 "languages": "Common"
 "cr": "1/4"
 "traits":
@@ -60,8 +64,8 @@ Low-ranking cultists of Bhaal are called night blades, whom Bhaal blesses with [
       \ unless they have resistance or immunity to such damage."
     "name": "Aura of Murder"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
 "source":
   - "BGDIA"

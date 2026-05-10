@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hook Horror Spore Servant
+- "Hook Horror Spore Servant"
 ---
-# [Hook Horror Spore Servant](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/hook-horror-spore-servant-oota.md)
+# [Hook Horror Spore Servant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/hook-horror-spore-servant-oota.md)
 *Source: Out of the Abyss p. 68*  
 
 ```statblock
@@ -36,13 +37,14 @@ aliases:
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)"
-"senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft. (blind beyond this radius), passive Perception 8"
 "languages": ""
 "cr": "3"
 "actions":
   - "desc": "The spore servant makes two hook attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (2d6 + 4) piercing damage."
     "name": "Hook"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kalaman Soldier
+- "Kalaman Soldier"
 ---
-# [Kalaman Soldier](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/kalaman-soldier-dsotdq.md)
+# [Kalaman Soldier](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kalaman-soldier-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 202*  
 
 Kalaman soldiers are the rank-and-file troops of the army of Kalaman. They are trained to fight defensively, bolstering one another in battle.
@@ -40,13 +41,15 @@ Kalaman soldiers are the rank-and-file troops of the army of Kalaman. They are t
     "desc": "+3"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
 "senses": "passive Perception 12"
 "languages": "Common"
 "cr": "1/2"
 "actions":
   - "desc": "The soldier makes two Longsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with\
       \ two hands."
     "name": "Longsword"

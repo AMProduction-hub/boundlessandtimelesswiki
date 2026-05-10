@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/very-rare
 - ttrpg-cli/item/weapon/melee
 - ttrpg-cli/item/weapon/simple
-aliases: 
+aliases:
 - "+3 Moon Sickle"
 ---
 # +3 Moon Sickle

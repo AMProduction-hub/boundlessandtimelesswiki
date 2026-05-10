@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gorzil's Gang Troglodyte
+- "Gorzil's Gang Troglodyte"
 ---
-# [Gorzil's Gang Troglodyte](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/gorzils-gang-troglodyte-wdmm.md)
+# [Gorzil's Gang Troglodyte](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gorzils-gang-troglodyte-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 150*  
 
 ```statblock
@@ -36,7 +37,8 @@ aliases:
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands Undercommon but can't speak"
 "cr": "1/4"
 "traits":
@@ -57,10 +59,10 @@ aliases:
   - "desc": "The troglodyte makes three attacks: one with its bite and two with its\
       \ longsword."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with\
       \ two hands."
     "name": "Longsword"

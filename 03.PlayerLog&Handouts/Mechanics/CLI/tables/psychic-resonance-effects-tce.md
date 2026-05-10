@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
-- Psychic Resonance Effects
+- "Psychic Resonance Effects"
 ---
 # Psychic Resonance Effects
 *Source: Tasha's Cauldron of Everything p. 160* 
 
 **Psychic Resonance Effects**
-
-`dice: [](psychic-resonance-effects-tce.md#^psychic-resonance-effects)`
 
 | dice: d100 | Effect |
 |------------|--------|

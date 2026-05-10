@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Jot
+- "Jot"
 ---
-# [Jot](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/jot-tftyp.md)
+# [Jot](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jot-tftyp.md)
 *Source: Tales from the Yawning Portal p. 15*  
 
 ```statblock
@@ -39,7 +40,8 @@ aliases:
   \ nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "Abyssal, Common"
 "cr": "1"
 "traits":
@@ -53,7 +55,7 @@ aliases:
   - "desc": "Jot has advantage on saving throws against spells and other magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) piercing damage, and the target must succeed on a DC 10 Constitution\
       \ saving throw or take 5 (2d4) poison damage and become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\

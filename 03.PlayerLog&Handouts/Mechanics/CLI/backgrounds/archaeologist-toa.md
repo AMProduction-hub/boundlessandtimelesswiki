@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/toa
 aliases:
-- Archaeologist
+- "Archaeologist"
 ---
 # Archaeologist
 *Source: Tomb of Annihilation p. 192*  
@@ -23,8 +24,6 @@ An archaeologist learns about the long-lost and fallen cultures of the past by s
 Prior to becoming an adventurer, you spent most of your young life crawling around in the dust, pilfering relics of questionable value from crypts and ruins. Though you managed to sell a few of your discoveries and earn enough coin to buy proper adventuring gear, you have held onto an item that has great emotional value to you. Roll on the Signature Item table to see what you have, or choose an item from the table.
 
 **Signature Item**
-
-`dice: [](archaeologist-toa.md#^signature-item)`
 
 | dice: d8 | Item |
 |----------|------|
@@ -46,8 +45,6 @@ When you enter a ruin or dungeon, you can correctly ascertain its original purpo
 
 Few archaeologists can resist the lure of an unexplored ruin or dungeon, particularly if such a site is the source of legends or is rumored to contain the treasures and relics of wizards, warlords, or royalty. Some archaeologists plunder for wealth or fame, while others consider it their calling to illuminate the past or keep the world's greatest treasures from falling into the wrong hands. Whatever their motivations, archaeologists combine the qualities of a scrappy historian with the self-made heroism of a treasure-hunting scoundrel.
 
-`dice: [](archaeologist-toa.md#^personality-trait)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | I love a good puzzle or mystery |
@@ -60,8 +57,6 @@ Few archaeologists can resist the lure of an unexplored ruin or dungeon, particu
 | 8 | You might think I'm a scholar, but I love a good brawl. These fists were made for punching. |
 ^personality-trait
 
-`dice: [](archaeologist-toa.md#^ideal)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | Preservation. That artifact belongs in a museum. (Good) |
@@ -72,8 +67,6 @@ Few archaeologists can resist the lure of an unexplored ruin or dungeon, particu
 | 6 | Danger. With every great discovery comes grave danger. The two walk hand in hand. (Any) |
 ^ideal
 
-`dice: [](archaeologist-toa.md#^bond)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | Ever since I was a child, I've heard stories about a lost city. I aim to find it, learn its secrets, and earn my place in the history books. |
@@ -83,8 +76,6 @@ Few archaeologists can resist the lure of an unexplored ruin or dungeon, particu
 | 5 | I'm secretly in love with the wealthy patron who sponsors my archaeological exploits. |
 | 6 | I hope to bring prestige to a library, a museum, or a university. |
 ^bond
-
-`dice: [](archaeologist-toa.md#^flaw)`
 
 | dice: d6 | Flaw |
 |----------|------|

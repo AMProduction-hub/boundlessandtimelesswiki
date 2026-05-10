@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Swashbuckler
+- "Swashbuckler"
 ---
-# [Swashbuckler](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/swashbuckler-mpmm.md)
+# [Swashbuckler](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/swashbuckler-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 238, Volo's Guide to Monsters p. 217*  
 
 Swashbucklers are charming ne'er-do-wells who live by their own codes of honor. They crave notoriety, often indulge in romantic trysts, and eke out livings as pirates and corsairs, rarely staying in one place for too long.
@@ -21,8 +22,6 @@ Swashbucklers are charming ne'er-do-wells who live by their own codes of honor. 
 Many swashbucklers have a signature flourish with which they embellish their actions to make themselves more memorable. You can roll on the Swashbuckler Flourishes table or choose one of the options to find a suitably dramatic flourish for a swashbuckler.
 
 **Swashbuckler Flourishes**
-
-`dice: [](swashbuckler-mpmm.md#^swashbuckler-flourishes)`
 
 | dice: d8 | Flourish |
 |----------|----------|
@@ -62,6 +61,9 @@ Many swashbucklers have a signature flourish with which they embellish their act
     "desc": "+5"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+6"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "3"
@@ -72,10 +74,10 @@ Many swashbucklers have a signature flourish with which they embellish their act
 "actions":
   - "desc": "The swashbuckler makes one Dagger attack and two Rapier attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 6 (1d4 + 4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 6 (1d4 + 4) piercing damage."
     "name": "Dagger"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) piercing damage."
     "name": "Rapier"
 "bonus_actions":

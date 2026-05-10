@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Oracular Conflux Villains
+- "Oracular Conflux Villains"
 ---
 # Oracular Conflux Villains
 *Source: Mythic Odysseys of Theros p. 142* 
 
 **Oracular Conflux Villains**
-
-`dice: [](oracular-conflux-villains-mot.md#^oracular-conflux-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

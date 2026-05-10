@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Chapter 4: Building Eberron Adventures
+- "Chapter 4: Building Eberron Adventures"
 ---
 # Chapter 4: Building Eberron Adventures
 *Source: Eberron: Rising from the Last War, p. 183* 
@@ -17,7 +18,7 @@ This chapter begins with a look at three key themes that pervade many Eberron ad
 
 Specific monsters and nonplayer characters (NPCs) mentioned in this chapter can be found either in the "Monster Manual" or in "chapter 6" of this book. When a creature's name appears in bold type, that's a visual cue pointing you to the creature's stat block in the "Monster Manual" or in chapter 6. If the stat block appears in chapter 6, the text tells you so.
 
-![Passengers from all over K...](03.PlayerLog&Handouts/Mechanics/CLI/books/eberron-rising-from-the-last-war/img/104-4-01.webp#center "Passengers from all over Khorvaire disembark from a lightning train.")
+![Passengers from all over Khorvaire disembark from a lightning train.](03.PlayerLog&Handouts/Mechanics/CLI/books/eberron-rising-from-the-last-war/img/104-4-01.webp#center)
 
 ## Adventure Themes
 

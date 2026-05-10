@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Villains; Villain's Scheme
+- "Villains; Villain's Scheme"
 ---
 # Villains; Villain's Scheme
 *Source: Dungeon Master's Guide p. 94* 
 
 **Villain's Scheme**
-
-`dice: [](villains-villains-scheme.md#^villains-scheme)`
 
 | dice: d8 | Objective | Scheme |
 |----------|-----------|--------|

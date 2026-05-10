@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dolgaunt
+- "Dolgaunt"
 ---
-# [Dolgaunt](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/dolgaunt-erlw.md)
+# [Dolgaunt](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/dolgaunt-erlw.md)
 *Source: Eberron: Rising from the Last War p. 290*  
 
 Dolgaunts are emaciated hobgoblins with disease-hued flesh. Their eye sockets gape open and empty above a mouth with a wormlike tongue. Writhing cilia cover their bodies, with longer tendrils around their heads and two wiry tentacles protruding from their bare shoulders. A dolgaunt is blind but can perceive its surroundings through the sensitive cilia that cover its skin. It can also absorb life through its tentacles, allowing it to drain the vitality out of any creature it touches.
@@ -48,7 +49,8 @@ When the daelkyr were defeated, the dolgaunts descended into the depths of Khybe
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)"
-"senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 14"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft. (blind beyond this radius), passive Perception 14"
 "languages": "Deep Speech, Goblin"
 "cr": "3"
 "traits":
@@ -64,13 +66,13 @@ When the daelkyr were defeated, the dolgaunts descended into the depths of Khybe
   - "desc": "The dolgaunt makes two tentacle attacks and two unarmed strikes. Up to\
       \ two tentacle attacks can be replaced by Vitality Drain."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 15 ft., one target. *Hit:*\
       \ 7 (1d6 + 4) bludgeoning damage. The target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 12) if it is a Large or smaller creature. Until this grapple ends,\
       \ the dolgaunt can't use the same tentacle on another target. The dolgaunt has\
       \ two tentacles."
     "name": "Tentacle"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d4 + 4) bludgeoning damage."
     "name": "Unarmed Strike"
   - "desc": "One creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\

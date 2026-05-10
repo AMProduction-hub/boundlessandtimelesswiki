@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Runed Behir
+- "Runed Behir"
 ---
-# [Runed Behir](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/runed-behir-wdmm.md)
+# [Runed Behir](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/runed-behir-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 158*  
 
 ```statblock
@@ -38,17 +39,18 @@ aliases:
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
 "damage_immunities": "lightning"
-"senses": "darkvision 90 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 90 ft., passive Perception 16"
 "languages": "Draconic"
 "cr": "11"
 "actions":
   - "desc": "The behir makes two attacks: one with its bite and one to constrict."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:*\
       \ 22 (3d10 + 6) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one Large or smaller\
-      \ creature. Hit: 17 (2d10 + 6) bludgeoning damage plus 17 (2d10 + 6) slashing\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one Large or smaller\
+      \ creature. *Hit:* 17 (2d10 + 6) bludgeoning damage plus 17 (2d10 + 6) slashing\
       \ damage. The target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 16) if the behir isn't already constricting a creature, and the\
       \ target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
@@ -77,11 +79,11 @@ aliases:
 "legendary_actions":
   - "desc": "The behir casts [color spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/color-spray.md)\
       \ or [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md), requiring\
-      \ no components."
+      \ no components. Its spellcasting ability is Charisma (spell save DC 13).\n"
     "name": "Lesser Magic"
   - "desc": "The behir casts [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
       \ or [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md),\
-      \ requiring no components."
+      \ requiring no components.\n"
     "name": "Greater Magic (Costs 2 Actions)"
 "source":
   - "WDMM"

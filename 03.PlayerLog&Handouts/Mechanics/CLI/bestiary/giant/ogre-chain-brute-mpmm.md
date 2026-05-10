@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ogre Chain Brute
+- "Ogre Chain Brute"
 ---
-# [Ogre Chain Brute](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/ogre-chain-brute-mpmm.md)
+# [Ogre Chain Brute](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre-chain-brute-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 201, Mordenkainen's Tome of Foes p. 221*  
 
 An ogre chain brute wields a great spiked chain, swinging it with both hands in a wide circle to knock foes off their feet. Alternatively, the ogre can swing the chain in a crushing overhead smash.
@@ -41,14 +42,15 @@ Ogres love to rush headlong into battle, but with enough time and patience, some
   - !!int "7"
   - !!int "7"
 "speed": "40 ft."
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": "Common, Giant"
 "cr": "3"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d4 + 4) bludgeoning damage."
     "name": "Fist"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
       \ 13 (2d8 + 4) bludgeoning damage, and the target must make a DC 14 Constitution\
       \ saving throw or be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
       \ for 1 minute. The target repeats the saving throw if it takes damage and at\

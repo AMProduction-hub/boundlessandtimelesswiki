@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/slw
 aliases:
-- Attack on the Wayside Inn
+- "Attack on the Wayside Inn"
 ---
 # Attack on the Wayside Inn
 *Source: Essentials Kit: Storm Lord's Wrath* 

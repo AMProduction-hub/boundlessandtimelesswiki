@@ -1,14 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/feat
 aliases:
-- Dungeon Delver
+- "Dungeon Delver"
 ---
 # Dungeon Delver
 *Source: Player's Handbook p. 166*  
+
 Alert to the hidden traps and secret doors found in many dungeons, you gain the following benefits:
 
 - You have advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) and Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) checks made to detect the presence of secret doors.  

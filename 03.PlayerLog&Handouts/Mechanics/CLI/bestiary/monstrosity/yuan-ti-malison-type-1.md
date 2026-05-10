@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/3
@@ -13,10 +14,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Yuan-ti Malison (Type 1)
+- "Yuan-ti Malison (Type 1)"
 ---
-# [Yuan-ti Malison (Type 1)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/yuan-ti-malison-type-1.md)
-*Source: Monster Manual p. 309, Storm King's Thunder, Tomb of Annihilation, Candlekeep Mysteries*  
+# [Yuan-ti Malison (Type 1)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-1.md)
+*Source: Monster Manual p. 309*  
 
 A malison is a hideous blend of human and serpentine features. Three different types of malisons are known to exist, and other types are possible. Malisons form the middle caste of yuan-ti society and hunt with arrows tipped with their own venom. They use their magical powers of suggestion to force their enemies' surrender.
 
@@ -87,14 +88,18 @@ Yuan-ti life revolves around their temples, yet yuan-ti don't love the gods they
     "desc": "+4"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Abyssal, Common, Draconic"
 "cr": "3"
 "traits":
   - "desc": "The yuan-ti's innate spellcasting ability is Charisma (spell save DC\
       \ 13). The yuan-ti can innately cast the following spells, requiring no material\
-      \ components:\n\nAt will: [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md)\
-      \ (snakes only)\n\n3/day: [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
+      \ components:\n\n**At will:** [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md)\
+      \ (snakes only)\n\n**3/day:** [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
     "name": "Innate Spellcasting (Yuan-ti Form Only)"
   - "desc": "The yuan-ti can use its action to polymorph into a Medium snake, or back\
       \ into its true form. Its statistics are the same in each form. Any equipment\
@@ -104,29 +109,26 @@ Yuan-ti life revolves around their temples, yet yuan-ti don't love the gods they
   - "desc": "The yuan-ti has advantage on saving throws against spells and other magical\
       \ effects."
     "name": "Magic Resistance"
-  - "desc": "The yuan-ti has one of the following types:\n\n- Type 1. Human body\
-      \ with snake head  \n- Type 2. Human head and body with snakes for arms\
-      \  \n- Type 3. Human head and upper body with a serpentine lower body instead\
+  - "desc": "The yuan-ti has one of the following types:\n\n- **Type 1.** Human body\
+      \ with snake head  \n- **Type 2.** Human head and body with snakes for arms\
+      \  \n- **Type 3.** Human head and upper body with a serpentine lower body instead\
       \ of legs  "
     "name": "Malison Type"
 "actions":
   - "desc": "The yuan-ti makes two ranged attacks or two melee attacks, but can use\
       \ its bite only once."
     "name": "Multiattack (Yuan-ti Form Only)"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Scimitar (Yuan-ti Form Only)"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:*\
       \ 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage."
     "name": "Longbow (Yuan-ti Form Only)"
 "source":
   - "MM"
-  - "SKT"
-  - "ToA"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/yuan-ti-malison-type-1.webp"
 ```
 ^statblock

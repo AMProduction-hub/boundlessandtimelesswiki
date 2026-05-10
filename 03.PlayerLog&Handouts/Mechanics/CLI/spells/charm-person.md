@@ -1,19 +1,20 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/selesnya-initiate
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/feat/aberrant-dragonmark
-- ttrpg-cli/spell/feat/divinely-favored
+- ttrpg-cli/spell/feat/divinely-favored/neutral
 - ttrpg-cli/spell/feat/fey-touched
-- ttrpg-cli/spell/feat/magic-initiate
-- ttrpg-cli/spell/feat/strixhaven-initiate
+- ttrpg-cli/spell/feat/magic-initiate/wizard-spells
+- ttrpg-cli/spell/feat/strixhaven-initiate/witherbloom-3
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/school/enchantment
 - ttrpg-cli/spell/subclass/arcane-trickster
@@ -23,7 +24,7 @@ tags:
 - ttrpg-cli/spell/subrace/tiefling-devils-tongue
 - ttrpg-cli/spell/subrace/tiefling-fierna
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Trickery Domain)
 - Druid
 - Fighter (Eldritch Knight)
@@ -33,7 +34,7 @@ classes:
 - Warlock
 - Wizard
 aliases:
-- Charm Person
+- "Charm Person"
 ---
 # Charm Person
 *1st-level, Enchantment*  
@@ -48,6 +49,6 @@ You attempt to charm a humanoid you can see within range. It must make a Wisdom 
 
 **At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.
 
-**Classes**: [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Ranger (Fey Wanderer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-fey-wanderer-tce.md "subclass=TCE"); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Cleric (Trickery Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-trickery-domain.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Trickery Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-trickery-domain.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Ranger (Fey Wanderer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-fey-wanderer-tce.md "subclass=TCE"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 221. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

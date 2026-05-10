@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/race/leonin
 aliases:
-- Leonin
+- "Leonin"
 ---
 # Leonin
 *Source: Mythic Odysseys of Theros p. 20*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/leonin.webp#right)
 
-- **Ability Scores**: Strength +1; Constitution +2
+- **Ability Scores**: str +1 con +2
 - **Size**: Medium
 - **Speed**: 35 ft.
 
@@ -35,7 +36,7 @@ You can see in dim light within 60 feet of you as if it were bright light and in
 
 ### Claws
 
-Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal slashing damage equal to `d4` + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal slashing damage equal to `1d4` + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
 
 ### Hunter's Instincts
 
@@ -73,8 +74,6 @@ Leonin rely on themselves and their prides. A pride is bound together by the exp
 
 **Leonin and the Gods**
 
-`dice: [](leonin-mot.md#^leonin-and-the-gods)`
-
 | dice: d6 | Attitude |
 |----------|----------|
 | 1 | I'm amused by the antics of the gods and their earnest, but ultimately deluded, mortal champions, and I feel smugly superior in my detachment. |
@@ -94,4 +93,4 @@ Along with their personal names, leonin identify themselves by their pride. A me
 - **Pride Names.** Embereye, Flintclaw, Goldenfield, Ironmane, Starfeller, Sunguides  
 
 
-![Leonin matrons lead the pr...](03.PlayerLog&Handouts/Mechanics/CLI/races/img/leonin-matron.webp#center "Leonin matrons lead the prides of Oreskos, protecting the plains from interlopers")
+![Leonin matrons lead the prides of Oreskos, protecting the plains from interlopers](03.PlayerLog&Handouts/Mechanics/CLI/races/img/leonin-matron.webp#center)

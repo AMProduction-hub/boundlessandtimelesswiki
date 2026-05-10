@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Cosmotronic Blastseeker
+- "Cosmotronic Blastseeker"
 ---
-# [Cosmotronic Blastseeker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/cosmotronic-blastseeker-ggr.md)
+# [Cosmotronic Blastseeker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cosmotronic-blastseeker-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 242*  
 
 While chemisters focus on inventing new tools, weapons, and other devices for the guild to use, the role of a blastseeker is to put those devices to work. Despite the name, not all such devices produce explosions, but all the most interesting ones (from the Izzet perspective) do.
@@ -36,8 +37,8 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+5"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "5"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -45,6 +46,8 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
     "desc": "+3"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+1"
+"gear":
+  - "[warhammer](03.PlayerLog&Handouts/Mechanics/CLI/items/warhammer.md)"
 "senses": "passive Perception 11"
 "languages": "any one language (usually Common)"
 "cr": "4"
@@ -52,9 +55,9 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
   - "desc": "The blastseeker's innate spellcasting ability is Intelligence (spell\
       \ save DC 14, +6 to hit with spell attacks). The blastseeker can innately\
       \ cast the following spells, requiring no components other than its Izzet gear,\
-      \ which doesn't function for others:\n\n3/day each: [scorching ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md),\
+      \ which doesn't function for others:\n\n**3/day each:** [scorching ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md),\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2/day: [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)"
+      \n**2/day:** [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)"
     "name": "Innate Spellcasting"
   - "desc": "When the blastseeker rolls damage for a spell, it can reroll up to four\
       \ dice of damage. It must use the new dice."
@@ -63,7 +66,7 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
       \ with advantage."
     "name": "Tides of Chaos (1/Day)"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) bludgeoning damage, or 7 (1d10 + 2) bludgeoning damage if used\
       \ with two hands."
     "name": "Warhammer"

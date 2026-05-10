@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ram Sugar
+- "Ram Sugar"
 ---
-# [Ram Sugar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/ram-sugar-cm.md)
+# [Ram Sugar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ram-sugar-cm.md)
 *Source: Candlekeep Mysteries p. 132*  
 
 Fanatics are often part of a cult's leadership, using their charisma and dogma to influence and prey on those of weak will. Most are interested in personal power above all else.
@@ -43,19 +44,21 @@ Fanatics are often part of a cult's leadership, using their charisma and dogma t
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+2"
 "damage_resistances": "fire"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 11"
 "languages": "Common, Draconic"
 "cr": "2"
 "traits":
   - "desc": "Ram Sugar is a 4th-level spellcaster. Its spellcasting ability is Wisdom\
       \ (spell save DC 11, +3 to hit with spell attacks). Ram Sugar has the following\
-      \ cleric spells prepared:\n\nCantrips (at will): [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
+      \ cleric spells prepared:\n\n**Cantrips (at will):** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \n**1st level (4 slots):** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [inflict wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/inflict-wounds.md),\
       \ [shield of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield-of-faith.md)\n\
-      \n2nd level (3 slots): [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
+      \n**2nd level (3 slots):** [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md)"
     "name": "Spellcasting"
   - "desc": "Ram Sugar has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
@@ -64,8 +67,8 @@ Fanatics are often part of a cult's leadership, using their charisma and dogma t
 "actions":
   - "desc": "Ram Sugar makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one creature. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one creature. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
   - "desc": "Ram Sugar exhales fire in a 30-foot-long line that is 5 feet wide. Any\
       \ creature in the line must make a DC 11 Dexterity saving throw, taking 7 (2d6)\

@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/artifact
 - ttrpg-cli/item/weapon/ranged
 - ttrpg-cli/item/weapon/simple
-aliases: 
+aliases:
 - "Ephixis, Bow of Nylea"
 ---
 # Ephixis, Bow of Nylea

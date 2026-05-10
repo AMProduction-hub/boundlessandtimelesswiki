@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-hazard
+cssclasses:
+- json5e-hazard
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/hazard/wth
 aliases:
-- Blizzard
+- "Blizzard"
 ---
 # Blizzard
 *Weather*  

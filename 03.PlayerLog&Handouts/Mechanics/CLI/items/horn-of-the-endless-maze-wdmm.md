@@ -1,14 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
+- ttrpg-cli/item/gear/instrument
 - ttrpg-cli/item/rarity/rare
-aliases: 
+aliases:
 - "Horn of the Endless Maze"
 ---
 # Horn of the Endless Maze
-*Wondrous item, rare*  
+*Wondrous item, instrument ([horn](03.PlayerLog&Handouts/Mechanics/CLI/items/horn.md)), rare*  
 
 
 - **Weight**: 2.0 lbs.

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/3
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lizardfolk Subchief
+- "Lizardfolk Subchief"
 ---
-# [Lizardfolk Subchief](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/lizardfolk-subchief-gos.md)
-*Source: Ghosts of Saltmarsh p. 242, Storm Lord's Wrath*  
+# [Lizardfolk Subchief](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk-subchief-gos.md)
+*Source: Ghosts of Saltmarsh p. 242*  
 
 The lizardfolk subchief (seen in Danger at Dunwater) is a devout priest of Semuanya, pursuing the worship of its god in a manner similar to a cleric. It wields a dagger crafted of a massive crocodile tooth blessed by Semuanya, representing the subchief's prowess in both battle and piety.
 
@@ -36,7 +37,7 @@ The lizardfolk subchief (seen in Danger at Dunwater) is a devout priest of Semua
   - !!int "12"
 "speed": "30 ft., swim 30 ft."
 "saves":
-  - "wisdom": "+5"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+4"
@@ -50,23 +51,23 @@ The lizardfolk subchief (seen in Danger at Dunwater) is a devout priest of Semua
 "traits":
   - "desc": "The subchief is a 5th-level spellcaster. Its spellcasting ability is\
       \ Wisdom (spell save DC 13, +5 to hit with spell attacks). It has the following\
-      \ cleric spells prepared:\n\nCantrips (at will): [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
+      \ cleric spells prepared:\n\n**Cantrips (at will):** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
       \ [spare the dying](03.PlayerLog&Handouts/Mechanics/CLI/spells/spare-the-dying.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \n**1st level (4 slots):** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [guiding bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/guiding-bolt.md),\
       \ [purify food and drink](03.PlayerLog&Handouts/Mechanics/CLI/spells/purify-food-and-drink.md)\n\
-      \n2nd level (3 slots): [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
+      \n**2nd level (3 slots):** [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md),\
-      \ [silence](03.PlayerLog&Handouts/Mechanics/CLI/spells/silence.md)\n\n3rd\
-      \ level (2 slots): [bestow curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/bestow-curse.md),\
+      \ [silence](03.PlayerLog&Handouts/Mechanics/CLI/spells/silence.md)\n\n**3rd\
+      \ level (2 slots):** [bestow curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/bestow-curse.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md)"
     "name": "Spellcasting"
   - "desc": "The subchief can hold its breath for 15 minutes."
     "name": "Hold Breath"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage."
     "name": "Tooth Dagger"
   - "desc": "The subchief invokes the primal magic of Semuanya, summoning a spectral\
@@ -78,7 +79,6 @@ The lizardfolk subchief (seen in Danger at Dunwater) is a devout priest of Semua
     "name": "Jaws of Semuanya (Recharge 5-6)"
 "source":
   - "GoS"
-  - "SLW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/lizardfolk-subchief-gos.webp"
 ```
 ^statblock

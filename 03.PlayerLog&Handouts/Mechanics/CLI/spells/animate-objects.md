@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/izzet-engineer
 - ttrpg-cli/spell/class/artificer
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/5th-level
@@ -13,12 +14,12 @@ tags:
 - ttrpg-cli/spell/subclass/forge-domain
 classes:
 - Artificer
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Forge Domain)
 - Sorcerer
 - Wizard
 aliases:
-- Animate Objects
+- "Animate Objects"
 ---
 # Animate Objects
 *5th-level, Transmutation*  
@@ -39,8 +40,8 @@ As a bonus action, you can mentally command any creature you made with this spel
 |------|----|----|--------|-----|-----|
 | [Tiny](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-object-tiny.md) | 20 | 18 | `+8` to hit, `1d4 + 4` damage | 4 (` - 3`) | 18 (` + 4`) |
 | [Small](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-object-small.md) | 25 | 16 | `+6` to hit, `1d8 + 2` damage | 6 (` - 2`) | 14 (` + 2`) |
-| [Medium](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-object-medium.md) | 40 | 13 | `+5` to hit, `2d6 + 1` damage | 10 (`d20`) | 12 (` + 1`) |
-| [Large](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-object-large.md) | 50 | 10 | `+6` to hit, `2d10 + 2` damage | 14 (` + 2`) | 10 (`d20`) |
+| [Medium](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-object-medium.md) | 40 | 13 | `+5` to hit, `2d6 + 1` damage | 10 (`1d20`) | 12 (` + 1`) |
+| [Large](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-object-large.md) | 50 | 10 | `+6` to hit, `2d10 + 2` damage | 14 (` + 2`) | 10 (`1d20`) |
 | [Huge](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-object-huge.md) | 80 | 10 | `+8` to hit, `2d12 + 4` damage | 18 (` + 4`) | 6 (` - 3`) |
 ^animated-object-statistics
 
@@ -50,6 +51,6 @@ If you command an object to attack, it can make a single melee attack against a 
 
 **At Higher Levels.** If you cast this spell using a spell slot of 6th level or higher, you can animate two additional objects for each slot level above 5th.
 
-**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Cleric (Forge Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-forge-domain-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Forge Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-forge-domain-xge.md "subclass=XGE"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 213. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

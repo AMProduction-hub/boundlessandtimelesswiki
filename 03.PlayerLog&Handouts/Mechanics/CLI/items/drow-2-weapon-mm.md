@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/item/age/futuristic
@@ -11,7 +12,7 @@ tags:
 - ttrpg-cli/item/weapon/ranged
 - ttrpg-cli/item/weapon/simple
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Drow +2 Weapon"
 - "Drow +2 Antimatter Rifle"
 - "Drow +2 Automatic Rifle"

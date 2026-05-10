@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Saber-Toothed Tiger
+- "Saber-Toothed Tiger"
 ---
-# [Saber-Toothed Tiger](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/saber-toothed-tiger.md)
-*Source: Monster Manual p. 336, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Curse of Strahd, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Saber-Toothed Tiger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/saber-toothed-tiger.md)
+*Source: Monster Manual p. 336. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Saber-Toothed Tiger"
@@ -52,19 +53,14 @@ aliases:
       \ the tiger can make one bite attack against it as a bonus action."
     "name": "Pounce"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (1d10 + 5) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) slashing damage."
     "name": "Claw"
 "source":
   - "MM"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
-  - "CoS"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/saber-toothed-tiger.webp"
 ```
 ^statblock

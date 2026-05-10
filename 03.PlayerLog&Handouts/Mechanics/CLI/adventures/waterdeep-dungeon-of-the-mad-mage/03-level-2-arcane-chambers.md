@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 2: Arcane Chambers
+- "Level 2: Arcane Chambers"
 ---
 # Level 2: Arcane Chambers
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 27* 
@@ -198,7 +199,7 @@ The door to this room bears a sign written in Common that reads, "Kalabash's Roo
 > **Summoning Circle**. An old rug woven with arcane symbols lies in the middle of the floor. (Beneath the rug, painted on the stone floor, is a 10-foot-diameter summoning circle that has been partially erased.)
 ^0f9
 
-The summoning circle hidden under the rug radiates an aura of abjuration magic under the scrutiny of a [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell, but three of its activation glyphs have been erased. A character who examines the circle and succeeds on a DC 15 Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana) or [Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check can reconstruct the circle and, with blood or paint, reapply the missing glyphs in `d10` minutes.
+The summoning circle hidden under the rug radiates an aura of abjuration magic under the scrutiny of a [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell, but three of its activation glyphs have been erased. A character who examines the circle and succeeds on a DC 15 Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana) or [Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check can reconstruct the circle and, with blood or paint, reapply the missing glyphs in `1d10` minutes.
 
 If the circle is completed, it immediately summons Kalabash (CE male Calishite human [mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage.md)). Appearing in the middle of the circle, Kalabash attacks any creatures he sees. He is intoxicated and suffers the effects of the [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) condition until he sobers up or until the condition is ended with a [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md) spell or similar magic. Erasing part of the completed circle causes Kalabash to be whisked back to his pocket dimension.
 
@@ -366,7 +367,7 @@ If the characters approach from area 9b without a Xanathar Guild escort, the bug
 
 The five poison dart traps are embedded in the walls north of the pressure plates. A character who searches the hall for traps and succeeds on a DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check spots the nearest pressure plate and the dart holes in the wall north of it.
 
-When more than 20 pounds of weight are placed on a pressure plate, four darts shoot from the north wall. Each dart makes a ranged attack (+8 to hit) against a random target above the pressure plate. On a hit, a dart deals 2 (`d4`) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 10 (`3d6`) poison damage on a failed save, or half as much damage on a successful one. Each trap can be triggered three times before its supply of darts is exhausted.
+When more than 20 pounds of weight are placed on a pressure plate, four darts shoot from the north wall. Each dart makes a ranged attack (`+8` to hit) against a random target above the pressure plate. On a hit, a dart deals 2 (`1d4`) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 10 (`3d6`) poison damage on a failed save, or half as much damage on a successful one. Each trap can be triggered three times before its supply of darts is exhausted.
 
 ##### Hidden Lever
 
@@ -448,7 +449,7 @@ While enlarged by the duergar skull, the gelatinous cube has the following modif
 
 #### 10b. Flooded Room
 
-This laboratory, with a 20-foot-high ceiling, is completely filled with 24,000 cubic feet of salt water created by a spell gone awry. Opening the door causes the water to empty into area 10a. Creatures within 20 feet of the opened door are caught in the deluge and must make a DC 12 Strength saving throw. Any creature that fails the saving throw is knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) and takes 5 (`d10`) bludgeoning damage.
+This laboratory, with a 20-foot-high ceiling, is completely filled with 24,000 cubic feet of salt water created by a spell gone awry. Opening the door causes the water to empty into area 10a. Creatures within 20 feet of the opened door are caught in the deluge and must make a DC 12 Strength saving throw. Any creature that fails the saving throw is knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) and takes 5 (`1d10`) bludgeoning damage.
 
 Once the water is released, it fills both rooms to a depth of half an inch. Swept into area 10a with the water is the putrid, rotting corpse of a human wizard in green and purple robes. This is what remains of Salamanth, one of Halaster's more foolish apprentices.
 
@@ -674,7 +675,7 @@ This old festival hall has an arched ceiling 30 feet high and contains the follo
 
 The rust monsters can't find enough ferrous metal to satisfy their hunger. The helm provides a momentary distraction that characters can use to cross the hall safely after they first arrive. The next time they come here, though, the rust monsters are waiting for them.
 
-The torch brackets bolted to the walls are beyond the rust monsters' reach but make irresistible snacks if fed to the creatures. Tearing loose a torch bracket requires an action and a successful DC 15 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. One bracket is enough to distract the rust monsters for `d6` minutes.
+The torch brackets bolted to the walls are beyond the rust monsters' reach but make irresistible snacks if fed to the creatures. Tearing loose a torch bracket requires an action and a successful DC 15 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. One bracket is enough to distract the rust monsters for `1d6` minutes.
 
 ### 18. Cold Storage
 
@@ -806,7 +807,7 @@ The room contains dozens of suits of plate armor, scale armor, and chain mail, a
 > **Animated Ballistae**. Parked in front of the door to area 22a are two animated ballistae.
 ^161
 
-Each animated ballista is a Large wood-and-iron construct with AC 15, 50 hit points, a walking speed of 30 feet, immunity to poison damage, and the following ability scores: Strength 14, Dexterity 10, Constitution 10, Intelligence 3, Wisdom 3, and Charisma 1. It has [blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight) out to a range of 120 feet and is blind beyond this distance. It can't be [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed), [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified), or [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned), and it can't right itself if knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). As an action, it can fire a magic bolt of fire (+6 to hit) at a target it can perceive, dealing 16 (`3d10`) fire damage on a hit, but it can't attack any creature directly above it. Treat each ballista as a monster with a challenge rating of 2 (450 XP).
+Each animated ballista is a Large wood-and-iron construct with AC 15, 50 hit points, a walking speed of 30 feet, immunity to poison damage, and the following ability scores: Strength 14, Dexterity 10, Constitution 10, Intelligence 3, Wisdom 3, and Charisma 1. It has [blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight) out to a range of 120 feet and is blind beyond this distance. It can't be [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed), [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified), or [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned), and it can't right itself if knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). As an action, it can fire a magic bolt of fire (`+6` to hit) at a target it can perceive, dealing 16 (`3d10`) fire damage on a hit, but it can't attack any creature directly above it. Treat each ballista as a monster with a challenge rating of 2 (450 XP).
 
 The ballistae can't perceive (and thus they ignore) creatures that keep to the easternmost 60-foot section of the hallway. Once they detect intruders, however, the ballistae amble forward on hinged legs to close the distance. If a ballista has nothing to attack on its turn, it returns to its starting position.
 

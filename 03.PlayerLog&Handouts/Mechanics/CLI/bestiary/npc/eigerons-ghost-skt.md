@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Eigeron's Ghost
+- "Eigeron's Ghost"
 ---
-# [Eigeron's Ghost](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/eigerons-ghost-skt.md)
+# [Eigeron's Ghost](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/eigerons-ghost-skt.md)
 *Source: Storm King's Thunder p. 129*  
 
 ```statblock
@@ -42,7 +43,8 @@ aliases:
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common, Giant"
 "cr": "4"
 "traits":
@@ -50,14 +52,14 @@ aliases:
       \ Plane, and vice versa."
     "name": "Ethereal Sight"
   - "desc": "The ghost can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
       \ an object."
     "name": "Incorporeal Movement"
   - "desc": "If it is destroyed, the ghost re-forms after 24 hours. To truly destroy\
       \ the ghost, characters must lay Eigeron's spirit to rest by killing Blagothkus."
     "name": "Rejuvenation"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 17\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 17\
       \ (4d6 + 3) necrotic damage."
     "name": "Withering Touch"
   - "desc": "The ghost enters the Ethereal Plane from the Material Plane, or vice\

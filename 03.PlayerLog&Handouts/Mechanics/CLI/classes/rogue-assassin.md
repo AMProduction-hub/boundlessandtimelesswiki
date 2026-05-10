@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/rogue/assassin
 aliases:
-- Assassin
+- "Assassin"
 ---
 # Assassin
 *[Rogue](./rogue.md): Roguish Archetype*  
@@ -43,13 +44,11 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Assassin (Level 3)
-
 You focus your training on the grim art of death. Those who adhere to this archetype are diverse—hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.
 
 Your archetype grants you features at 3rd level and then again at 9th, 13th, and 17th level.
+
+## Subclass Features
 
 ### Assassinate (Level 3)
 

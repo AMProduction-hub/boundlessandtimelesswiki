@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Iroas's Villains
+- "Iroas's Villains"
 ---
 # Iroas's Villains
 *Source: Mythic Odysseys of Theros p. 132* 
 
 **Iroas's Villains**
-
-`dice: [](iroass-villains-mot.md#^iroass-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/5th-level
@@ -12,14 +13,14 @@ tags:
 - ttrpg-cli/spell/subclass/the-archfey
 - ttrpg-cli/spell/subclass/the-genie
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Ranger (Gloom Stalker)
 - Sorcerer
 - Warlock (The Archfey)
 - Warlock (The Genie)
 - Wizard
 aliases:
-- Seeming
+- "Seeming"
 ---
 # Seeming
 *5th-level, Illusion*  
@@ -38,6 +39,6 @@ The changes wrought by this spell fail to hold up to physical inspection. For ex
 
 A creature can use its action to inspect a target and make an Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check against your spell save DC. If it succeeds, it becomes aware that the target is disguised.
 
-**Classes**: [Ranger (Gloom Stalker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-gloom-stalker-xge.md "subclass=XGE"); [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Archfey)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-archfey.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Ranger (Gloom Stalker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-gloom-stalker-xge.md "subclass=XGE"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock (The Archfey)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-archfey.md); [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 274. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

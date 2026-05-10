@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Flying Spider
+- "Giant Flying Spider"
 ---
-# [Giant Flying Spider](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-flying-spider-wdmm.md)
+# [Giant Flying Spider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-flying-spider-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 150*  
 
 ```statblock
@@ -35,7 +36,9 @@ aliases:
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
-"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "cr": "1"
 "traits":
@@ -48,7 +51,7 @@ aliases:
   - "desc": "The spider ignores movement restrictions caused by webbing."
     "name": "Web Walker"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 7 (1d8 + 3) piercing damage, and the target must make a DC 11 Constitution\
       \ saving throw, taking 9 (2d8) poison damage on a failed save, or half as\
       \ much damage on a successful one. If the poison damage reduces the target to\
@@ -57,7 +60,7 @@ aliases:
       \ while [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ in this way."
     "name": "Bite"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 30/60 ft., one creature. *Hit:*\
       \ The target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ by webbing. As an action, the [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ target can make a DC 12 Strength check, bursting the webbing on a success.\

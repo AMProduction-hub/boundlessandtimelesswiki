@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/deity/norse
 - ttrpg-cli/domain/tempest
-aliases: 
-- Aegir
+aliases:
+- "Aegir"
 ---
 # Aegir
 *Source: Player's Handbook p. 299* 

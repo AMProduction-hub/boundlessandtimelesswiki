@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/race/hobgoblin
 aliases:
-- Hobgoblin
+- "Hobgoblin"
 ---
 # Hobgoblin
 *Source: Dungeon Master's Guide p. 282*  

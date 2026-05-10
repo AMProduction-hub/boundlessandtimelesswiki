@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/hotdq
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Rezmir
+- "Rezmir"
 ---
-# [Rezmir](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/rezmir-hotdq.md)
+# [Rezmir](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rezmir-hotdq.md)
 *Source: Hoard of the Dragon Queen p. 93, Tyranny of Dragons p. 180*  
 
 ```statblock
@@ -34,8 +35,8 @@ aliases:
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+4"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -44,7 +45,11 @@ aliases:
 "damage_immunities": "acid"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "blindsight 10 ft., darkvision 120 ft., passive Perception 11"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": "Common, Draconic, Infernal, Giant, Netherese"
 "cr": "7"
 "traits":
@@ -67,25 +72,24 @@ aliases:
       \ can choose to succeed instead."
     "name": "Legendary Resistance (1/Day)"
 "actions":
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d6 + 6) slashing damage plus 7 (2d6) necrotic damage. If the target\
       \ is a creature, it can't regain hit points for 1 minute. The target can make\
       \ a DC 15 Constitution saving throw at the end of each of its turns, ending\
       \ this effect early on a success."
     "name": "Greatsword (Hazirawn)"
-  - "desc": "Ranged Spell Attack: +8 to hit, range 90 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +8 to hit, range 90 ft., one target. *Hit:*\
       \ 18 (4d8) acid damage."
     "name": "Caustic Bolt"
   - "desc": "Rezmir breathes acid in a 30-foot line that is 5 feet wide. Each creature\
       \ in the line must make a DC 14 Dexterity saving throw, taking 22 (5d8) acid\
       \ damage on a failed save, or half as much damage on a successful one."
     "name": "Acid Breath (Recharge 5-6)"
+"legendary_description": "If she is wearing the Black Dragon Mask, Rezmir can take\
+  \ up to two legendary actions between each of her turns, taking the actions all\
+  \ at once or spreading them over the round. A legendary action can be taken only\
+  \ at the start or end of a turn."
 "legendary_actions":
-  - "desc": "If she is wearing the Black Dragon Mask, Rezmir can take up to two legendary\
-      \ actions between each of her turns, taking the actions all at once or spreading\
-      \ them over the round. A legendary action can be taken only at the start or\
-      \ end of a turn."
-    "name": ""
   - "desc": "A 15-foot radius of magical darkness extends from a point Rezmir can\
       \ see within 60 feet of her and spreads around corners. The darkness lasts as\
       \ long as Rezmir maintains [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration),\
@@ -96,7 +100,8 @@ aliases:
     "name": "Darkness (Costs 2 Actions)"
   - "desc": "Rezmir makes one melee attack."
     "name": "Melee Attack"
-  - "desc": "Rezmir takes the Hide action."
+  - "desc": "Rezmir takes the [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide)\
+      \ action."
     "name": "Hide"
 "source":
   - "HotDQ"

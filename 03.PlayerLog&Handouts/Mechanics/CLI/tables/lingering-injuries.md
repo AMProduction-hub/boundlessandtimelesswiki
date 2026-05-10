@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Lingering Injuries
+- "Lingering Injuries"
 ---
 # Lingering Injuries
 *Source: Dungeon Master's Guide p. 272* 
 
 **Lingering Injuries**
-
-`dice: [](lingering-injuries.md#^lingering-injuries)`
 
 | dice: d20 | Injury |
 |-----------|--------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reduced-Threat Hook Horror
+- "Reduced-Threat Hook Horror"
 ---
-# [Reduced-Threat Hook Horror](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/reduced-threat-hook-horror-tftyp.md)
+# [Reduced-Threat Hook Horror](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/reduced-threat-hook-horror-tftyp.md)
 *Source: Tales from the Yawning Portal p. 113*  
 
 ```statblock
@@ -35,7 +36,9 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+1"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 13"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "Hook Horror"
 "cr": "3"
 "traits":
@@ -52,7 +55,7 @@ aliases:
 "actions":
   - "desc": "The hook horror makes two hook attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (2d6 + 4) piercing damage."
     "name": "Hook"
 "source":

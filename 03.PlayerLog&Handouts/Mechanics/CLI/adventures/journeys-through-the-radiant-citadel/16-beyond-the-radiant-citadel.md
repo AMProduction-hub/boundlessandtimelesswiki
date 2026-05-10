@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 aliases:
-- Beyond the Radiant Citadel
+- "Beyond the Radiant Citadel"
 ---
 # Beyond the Radiant Citadel
 *Source: Journeys through the Radiant Citadel, p. 222* 
@@ -57,13 +58,11 @@ Authority in the Tayyib Empire stems from Empress Firuzeh. Nobles who hold prewa
 
 ### Adventures in the Tayyib Empire
 
-![Secrets and dangers from p...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/148-15-001-tayyib-stepwells.webp#center "Secrets and dangers from previous dynasties lurk within the stepwells of the Tayyib Empire")
+![Secrets and dangers from previous dynasties lurk within the stepwells of the Tayyib Empire](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/148-15-001-tayyib-stepwells.webp#center)
 
 Consider the plots on the Tayyib Empire Adventures table when planning forays through the empire.
 
 **Tayyib Empire Adventures**
-
-`dice: [](16-beyond-the-radiant-citadel.md#^tayyib-empire-adventures)`
 
 | dice: d4 | Adventure |
 |----------|-----------|
@@ -120,8 +119,6 @@ The Demon Festival kicks off the summer monsoon season, marking a city-wide peri
 Consider the plots on the Umizu Adventures table when planning explorations in Umizu.
 
 **Umizu Adventures**
-
-`dice: [](16-beyond-the-radiant-citadel.md#^umizu-adventures)`
 
 | dice: d4 | Adventure |
 |----------|-----------|

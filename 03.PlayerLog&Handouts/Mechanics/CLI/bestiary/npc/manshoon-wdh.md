@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/13
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Manshoon
+- "Manshoon"
 ---
-# [Manshoon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/manshoon-wdh.md)
+# [Manshoon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/manshoon-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 209*  
 
 Referred to in this adventure simply as "Manshoon," this clone of the ancient archwizard infiltrated Waterdeep years ago and has been hiding out in Kolat Towers ever since, in the city's Southern Ward.
@@ -55,49 +56,50 @@ Manshoon can have only one simulacrum at any given time, and he uses it as a sub
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "strength": "+2"
-  - "dexterity": "+4"
-  - "constitution": "+3"
-  - "intelligence": "+13"
-  - "wisdom": "+9"
-  - "charisma": "+5"
+  - "strength": !!int "2"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "3"
+  - "intelligence": !!int "13"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+11"
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+11"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Draconic, Goblin, Infernal, Orc, Undercommon"
 "cr": "13"
 "traits":
   - "desc": "Manshoon is an 18th-level spellcaster. His spellcasting ability is Intelligence\
       \ (spell save DC 21, +15 to hit with spell attacks). He has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
-      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**1st level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [magic\
       \ missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md), [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\
-      \n2nd level (3 slots): [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \n**2nd level (3 slots):** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md)\n\n\
-      3rd level (3 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      **3rd level (3 slots):** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md),\
-      \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)\n\n4th\
-      \ level (3 slots): [fire shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-shield.md),\
+      \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)\n\n**4th\
+      \ level (3 slots):** [fire shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-shield.md),\
       \ [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md),\
-      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\n5th\
-      \ level (3 slots): [Bigby's hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/bigbys-hand.md),\
+      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\n**5th\
+      \ level (3 slots):** [Bigby's hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/bigbys-hand.md),\
       \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md), [wall of\
-      \ force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md)\n\n6th\
-      \ level (1 slots): [flesh to stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/flesh-to-stone.md),\
+      \ force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md)\n\n**6th\
+      \ level (1 slots):** [flesh to stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/flesh-to-stone.md),\
       \ [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md)\n\
-      \n7th level (1 slots): [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
+      \n**7th level (1 slots):** [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
       \ [simulacrum](03.PlayerLog&Handouts/Mechanics/CLI/spells/simulacrum.md)\n\n\
-      8th level (1 slots): [feeblemind](03.PlayerLog&Handouts/Mechanics/CLI/spells/feeblemind.md),\
+      **8th level (1 slots):** [feeblemind](03.PlayerLog&Handouts/Mechanics/CLI/spells/feeblemind.md),\
       \ [mind blank](03.PlayerLog&Handouts/Mechanics/CLI/spells/mind-blank.md)\n\n\
-      9th level (1 slots): [imprisonment](03.PlayerLog&Handouts/Mechanics/CLI/spells/imprisonment.md),\
+      **9th level (1 slots):** [imprisonment](03.PlayerLog&Handouts/Mechanics/CLI/spells/imprisonment.md),\
       \ [power word kill](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-kill.md)"
     "name": "Spellcasting"
   - "desc": "Manshoon wears a black [robe of the archmagi](03.PlayerLog&Handouts/Mechanics/CLI/items/robe-of-the-archmagi.md)\
@@ -109,13 +111,13 @@ Manshoon can have only one simulacrum at any given time, and he uses it as a sub
       \ throws against spells and other magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) bludgeoning damage."
     "name": "Metal Fist"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage when used\
       \ with two hands. Manshoon can expend 1 of the staff's charges to deal an extra\
-      \ 3 (d6) force damage on a hit."
+      \ 3 (1d6) force damage on a hit."
     "name": "Staff of Power"
 "source":
   - "WDH"

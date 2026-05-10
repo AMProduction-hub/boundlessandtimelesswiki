@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/domain/twilight
 - ttrpg-cli/subclass/cleric/twilight
 aliases:
-- Twilight Domain
+- "Twilight Domain"
 ---
 # Twilight Domain
 *[Cleric](./cleric.md): Divine Domain*  
@@ -44,10 +45,6 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Twilight Domain (Level 1)
-
 The twilit transition from light into darkness often brings calm and even joy, as the day's labors end and the hours of rest begin. The darkness can also bring terrors, but the gods of twilight guard against the horrors of the night.
 
 Clerics who serve these deities-examples of which appear on the Twilight Deities table-bring comfort to those who seek rest and protect them by venturing into the encroaching darkness to ensure that the dark is a comfort, not a terror.
@@ -66,8 +63,9 @@ Clerics who serve these deities-examples of which appear on the Twilight Deities
 | [Yondalla](03.PlayerLog&Handouts/Mechanics/CLI/deities/nonhuman-yondalla.md) | Halfling |
 ^twilight-deities
 
-#### Domain Spells
-_Source: Tasha's Cauldron of Everything_
+## Subclass Features
+
+### Domain Spells (Level 1)
 
 *1st-level Twilight Domain feature*
 
@@ -112,7 +110,7 @@ You can use your Channel Divinity to refresh your allies with soothing twilight.
 
 As an action, you present your holy symbol, and a sphere of twilight emanates from you. The sphere is centered on you, has a 30-foot radius, and is filled with dim light. The sphere moves with you, and it lasts for 1 minute or until you are [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) or die. Whenever a creature (including you) ends its turn in the sphere, you can grant that creature one of these benefits:
 
-- You grant it temporary hit points equal to `d6` plus your cleric level.  
+- You grant it temporary hit points equal to `1d6` plus your cleric level.  
 - You end one effect on it causing it to be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened).  
 
 ### Steps of Night (Level 6)
@@ -125,13 +123,13 @@ You can draw on the mystical power of night to rise into the air. As a bonus act
 
 *8th-level Twilight Domain feature*
 
-You gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `d8` radiant damage. When you reach 14th level, the extra damage increases to `2d8`.
+You gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `1d8` radiant damage. When you reach 14th level, the extra damage increases to `2d8`.
 
 ### Blessed Strikes (Level 8)
 
 *8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Divine Strike feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Twilight Shroud (Level 17)
 

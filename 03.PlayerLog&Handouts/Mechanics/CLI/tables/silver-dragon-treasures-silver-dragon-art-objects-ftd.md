@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Silver Dragon Treasures; Silver Dragon Art Objects
+- "Silver Dragon Treasures; Silver Dragon Art Objects"
 ---
 # Silver Dragon Treasures; Silver Dragon Art Objects
 *Source: Fizban's Treasury of Dragons p. 148* 
 
 **Silver Dragon Art Objects**
-
-`dice: [](silver-dragon-treasures-silver-dragon-art-objects-ftd.md#^silver-dragon-art-objects)`
 
 | dice: d10 | Object |
 |-----------|--------|

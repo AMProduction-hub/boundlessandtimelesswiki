@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Erebos's Divine Schemes
+- "Erebos's Divine Schemes"
 ---
 # Erebos's Divine Schemes
 *Source: Mythic Odysseys of Theros p. 125* 
 
 **Erebos's Divine Schemes**
-
-`dice: [](ereboss-divine-schemes-mot.md#^ereboss-divine-schemes)`
 
 | dice: d4 | Scheme |
 |----------|--------|

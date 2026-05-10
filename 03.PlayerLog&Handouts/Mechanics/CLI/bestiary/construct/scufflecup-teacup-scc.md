@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Scufflecup Teacup
+- "Scufflecup Teacup"
 ---
-# [Scufflecup Teacup](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/scufflecup-teacup-scc.md)
+# [Scufflecup Teacup](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/scufflecup-teacup-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 159*  
 
 Scufflecup is a game students created after finding a box of teacups in a nearby building's storage room. The students discovered that pouring hot tea into the cups animates them for 10 minutes and causes them to sprout little arms and legs.
@@ -37,11 +38,12 @@ Scufflecup is a game students created after finding a box of teacups in a nearby
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 6"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft. (blind beyond this radius), passive Perception 6"
 "languages": ""
 "cr": "0"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d3 + 2) bludgeoning damage."
     "name": "Slam"
 "source":

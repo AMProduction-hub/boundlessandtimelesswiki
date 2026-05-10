@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Young Winter Wolf
+- "Young Winter Wolf"
 ---
-# [Young Winter Wolf](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/young-winter-wolf-tftyp.md)
+# [Young Winter Wolf](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/young-winter-wolf-tftyp.md)
 *Source: Tales from the Yawning Portal p. 181*  
 
 ```statblock
@@ -49,7 +50,7 @@ aliases:
       \ [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) piercing damage. If the target is a creature, it must succeed\
       \ on a DC 13 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Bite"

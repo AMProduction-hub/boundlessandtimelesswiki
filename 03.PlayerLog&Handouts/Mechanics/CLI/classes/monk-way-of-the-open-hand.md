@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/monk/open-hand
 aliases:
-- Way of the Open Hand
+- "Way of the Open Hand"
 ---
 # Way of the Open Hand
 *[Monk](./monk.md): Monastic Tradition*  
@@ -43,11 +44,9 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Way of the Open Hand (Level 3)
-
 Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm.
+
+## Subclass Features
 
 ### Open Hand Technique (Level 3)
 

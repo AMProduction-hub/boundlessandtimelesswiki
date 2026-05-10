@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Tool Proficiencies
+- "Tool Proficiencies"
 ---
 # Tool Proficiencies
 *Source: Xanathar's Guide to Everything p. 78* 
@@ -173,7 +174,7 @@ With 1 minute of work and raw materials, you can make a door or window harder to
 
 #### Temporary Shelter
 
-As part of a long rest, you can construct a lean-to or a similar shelter to keep your group dry and in the shade for the duration of the rest. Because it was fashioned quickly from whatever wood was available, the shelter collapses `d3` days after being assembled.
+As part of a long rest, you can construct a lean-to or a similar shelter to keep your group dry and in the shade for the duration of the rest. Because it was fashioned quickly from whatever wood was available, the shelter collapses `1d3` days after being assembled.
 
 **Carpenter's Tools**
 

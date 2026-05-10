@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Iroas's Quests
+- "Iroas's Quests"
 ---
 # Iroas's Quests
 *Source: Mythic Odysseys of Theros p. 132* 
 
 **Iroas's Quests**
-
-`dice: [](iroass-quests-mot.md#^iroass-quests)`
 
 | dice: d6 | Adventure Goal |
 |----------|----------------|

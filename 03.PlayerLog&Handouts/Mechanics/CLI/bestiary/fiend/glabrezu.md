@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/9
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Glabrezu
+- "Glabrezu"
 ---
-# [Glabrezu](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/glabrezu.md)
-*Source: Monster Manual p. 58, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Glabrezu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/glabrezu.md)
+*Source: Monster Manual p. 58. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 A glabrezu takes great pleasure in destroying mortals through temptation, and these creatures are among the few demons to offer their service to creatures foolish enough to summon them.
 
@@ -167,13 +168,13 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > 
 > Some demons can have an action option that allows them to summon other demons. Summon Demon (1/Day). The demon chooses what to summon and attempts a magical summoning.
 > 
-> - A balor has a 50 percent chance of summoning `d8` vrocks, `d6` hezrous, `d4` glabrezus, `d3` nalfeshnees, `d2` mariliths, or one goristro.  
+> - A balor has a 50 percent chance of summoning `1d8` vrocks, `1d6` hezrous, `1d4` glabrezus, `1d3` nalfeshnees, `1d2` mariliths, or one goristro.  
 > - A barlgura has a 30 percent chance of summoning one barlgura.  
 > - A chasme has a 30 percent chance of summoning one chasme.  
-> - A glabrezu has a 30 percent chance of summoning `d3` vrocks, `d2` hezrous, or one glabrezu.  
+> - A glabrezu has a 30 percent chance of summoning `1d3` vrocks, `1d2` hezrous, or one glabrezu.  
 > - A hezrou has a 30 percent chance of summoning `2d6` dretches or one hezrou.  
-> - A marilith has a 50 percent chance of summoning `d6` vrocks, `d4` hezrous, `d3` glabrezus, `d2` nalfeshnees, or one marilith.  
-> - A nalfeshnee has a 50 percent chance of summoning `d4` vrocks, `d3` hezrous, `d2` glabrezus, or one nalfeshnee.  
+> - A marilith has a 50 percent chance of summoning `1d6` vrocks, `1d4` hezrous, `1d3` glabrezus, `1d2` nalfeshnees, or one marilith.  
+> - A nalfeshnee has a 50 percent chance of summoning `1d4` vrocks, `1d3` hezrous, `1d2` glabrezus, or one nalfeshnee.  
 > - A vrock has a 30 percent chance of summoning `2d4` dretches or one vrock.  
 > - A yochlol has a 50 percent chance of summoning one yochlol.  
 > 
@@ -205,24 +206,25 @@ Demonologists organize the chaotic distribution of demons into broad categories 
   - !!int "16"
 "speed": "40 ft."
 "saves":
-  - "strength": "+9"
-  - "constitution": "+9"
-  - "wisdom": "+7"
-  - "charisma": "+7"
+  - "strength": !!int "9"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "7"
 "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 13"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 13"
 "languages": "Abyssal, telepathy 120 ft."
 "cr": "9"
 "traits":
   - "desc": "The glabrezu's spellcasting ability is Intelligence (spell save DC 16).\
       \ The glabrezu can innately cast the following spells, requiring no material\
-      \ components:\n\nAt will: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ components:\n\n**At will:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md)\n\
-      \n1/day each: [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
+      \n**1/day each:** [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [power word stun](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-stun.md)"
     "name": "Innate Spellcasting"
   - "desc": "The glabrezu has advantage on saving throws against spells and other\
@@ -233,22 +235,17 @@ Demonologists organize the chaotic distribution of demons into broad categories 
       \ fists. Alternatively, it makes two attacks with its pincers and casts one\
       \ spell."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
       \ 16 (2d10 + 5) bludgeoning damage. If the target is a Medium or smaller creature,\
       \ it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15). The glabrezu has two pincers, each of which can grapple only\
       \ one target."
     "name": "Pincer"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) bludgeoning damage."
     "name": "Fist"
 "source":
   - "MM"
-  - "TftYP"
-  - "WDMM"
-  - "GoS"
-  - "BGDIA"
-  - "EGW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/glabrezu.webp"
 ```
 ^statblock

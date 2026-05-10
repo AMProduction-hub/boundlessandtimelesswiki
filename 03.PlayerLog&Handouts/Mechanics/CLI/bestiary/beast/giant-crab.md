@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-8
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Crab
+- "Giant Crab"
 ---
-# [Giant Crab](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-crab.md)
-*Source: Monster Manual p. 324, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Crab](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-crab.md)
+*Source: Monster Manual p. 324. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Giant Crab"
@@ -36,30 +37,21 @@ aliases:
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "blindsight 30 ft., passive Perception 9"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., passive Perception 9"
 "languages": ""
 "cr": "1/8"
 "traits":
   - "desc": "The crab can breathe air and water."
     "name": "Amphibious"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 11). The crab has two claws, each of which can grapple only one\
       \ target."
     "name": "Claw"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "BGDIA"
-  - "EGW"
-  - "MOT"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-crab.webp"
 ```
 ^statblock

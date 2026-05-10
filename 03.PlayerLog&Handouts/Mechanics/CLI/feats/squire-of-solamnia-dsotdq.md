@@ -1,15 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/feat
 aliases:
-- Squire of Solamnia
+- "Squire of Solamnia"
 ---
 # Squire of Solamnia
 *Source: Dragonlance: Shadow of the Dragon Queen p. 34*  
-**Prerequisite**:  Fighter,  Campaign,  Paladin,  Campaign, or [Knight of Solamnia](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/knight-of-solamnia-dsotdq.md),  Campaign
+
+**Prerequisite**:  Fighter, Dragonlance Campaign,  Paladin, Dragonlance Campaign, or [Knight of Solamnia](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/knight-of-solamnia-dsotdq.md), Dragonlance Campaign
+
 Your training in the ways of the Knights of Solamnia grants you these benefits:
 
 - **Mount Up.** Mounting or dismounting costs you only 5 feet of movement.  

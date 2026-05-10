@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reduced-Threat Helmed Horror
+- "Reduced-Threat Helmed Horror"
 ---
-# [Reduced-Threat Helmed Horror](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/reduced-threat-helmed-horror-tftyp.md)
+# [Reduced-Threat Helmed Horror](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/reduced-threat-helmed-horror-tftyp.md)
 *Source: Tales from the Yawning Portal p. 113*  
 
 ```statblock
@@ -46,7 +47,10 @@ aliases:
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 14"
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 14"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "4"
 "traits":
@@ -66,7 +70,7 @@ aliases:
 "actions":
   - "desc": "The helmed horror makes two longsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with\
       \ two hands."
     "name": "Longsword"

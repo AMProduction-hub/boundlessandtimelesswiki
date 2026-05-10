@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 9: Dweomercore
+- "Level 9: Dweomercore"
 ---
 # Level 9: Dweomercore
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 117* 
@@ -164,7 +165,7 @@ The recessed wall of this corridor has engravings of eight wizards clutching sta
 
 The walls of this room rise vertically 10 feet, then angle inward to a 20-foot-high apex. In the middle of the room, standing atop a 1-foot-high cylindrical block of stone, is a statue of a scowling medusa with a longbow and an empty quiver. The statue gazes north.
 
-When a creature sets off the trap in area 2, a [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) arrow materializes in the medusa's grasp as the statue animates. It immediately draws back on the bow and shoots the arrow at the creature that triggered the trap (+6 to hit), dealing 6 (`1d8 + 2`) piercing damage plus 14 (`4d6`) poison damage on a hit.
+When a creature sets off the trap in area 2, a [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) arrow materializes in the medusa's grasp as the statue animates. It immediately draws back on the bow and shoots the arrow at the creature that triggered the trap (`+6` to hit), dealing 6 (`1d8 + 2`) piercing damage plus 14 (`4d6`) poison damage on a hit.
 
 The medusa statue is a Medium object with AC 15, 50 hit points, and immunity to all damage except force damage. It weighs 1,200 pounds. A creature can use an action to try to knock the statue off its base, doing so with a successful DC 18 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. If it is toppled, the statue does not animate until returned to its former position. (If Wormriddle learns about the toppled statue, she and her flesh golems set it right before seeking to punish those responsible.)
 
@@ -222,7 +223,7 @@ Each room contains identical furnishings:
 > 
 > **Bed and Footlocker**. Against the far wall rests a plain bed and an iron-banded footlocker with a sturdy padlock that can be picked by using thieves' tools and making a successful DC 20 Dexterity check. (If a room is vacant, its key is in the lock; otherwise, a room's key is in the possession of the room's resident.)
 > 
-> **Desk**. A plain desk contains quill pens, jars of ink, blank scrolls, notes, notebooks, and `d6` empty copper scroll canisters designed to fit inside the pneumatic tubes. Hanging on the wall above the desk is a framed portrait of Halaster. (The portraits in different rooms have different expressions.)
+> **Desk**. A plain desk contains quill pens, jars of ink, blank scrolls, notes, notebooks, and `1d6` empty copper scroll canisters designed to fit inside the pneumatic tubes. Hanging on the wall above the desk is a framed portrait of Halaster. (The portraits in different rooms have different expressions.)
 ^4c4
 
 #### 8a. Turbulence's Room
@@ -255,7 +256,7 @@ After Yarek died, the Horned Sisters picked through his footlocker and took anyt
 
 A trashy odor fills this room. A 30-foot-long, 10-foot-wide, 60-foot-deep pit in the middle of the floor is filled with refuse and failed experiments to a depth of 10 feet. The chemical mixture has spawned a toxic slime.
 
-Any creature knocked into the pit falls 60 feet onto the soft pile of trash, taking `d4` bludgeoning damage per 10 feet fallen. In addition, a creature that lands in the toxic slime takes 10 (`3d6`) poison damage at the start of each of its turns until the slime is washed off with water or alcohol. A character can determine how to clean off the slime with a successful DC 10 Intelligence ([Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature)) check.
+Any creature knocked into the pit falls 60 feet onto the soft pile of trash, taking `1d4` bludgeoning damage per 10 feet fallen. In addition, a creature that lands in the toxic slime takes 10 (`3d6`) poison damage at the start of each of its turns until the slime is washed off with water or alcohol. A character can determine how to clean off the slime with a successful DC 10 Intelligence ([Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature)) check.
 
 ### 10. Where's Halaster?
 
@@ -273,7 +274,7 @@ Each room contains identical furnishings:
 > 
 > **Bed, Dresser, and Chest**. Against the far wall rests a comfortable bed, a handsome dresser, and a claw-footed iron chest with an [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md) spell cast on it (keyed to the student assigned to the room). A creature can force open the magically locked chest with a successful DC 25 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check.
 > 
-> **Desk**. A beautiful rolltop desk contains quill pens, jars of ink, blank scrolls, notes, notebooks, and `d6` empty copper scroll canisters designed to fit inside the pneumatic tubes. Hanging on the wall above the desk is a framed portrait of Halaster. (The portraits in different rooms have different expressions.)
+> **Desk**. A beautiful rolltop desk contains quill pens, jars of ink, blank scrolls, notes, notebooks, and `1d6` empty copper scroll canisters designed to fit inside the pneumatic tubes. Hanging on the wall above the desk is a framed portrait of Halaster. (The portraits in different rooms have different expressions.)
 ^4ce
 
 #### 11a. Spite's Room
@@ -452,7 +453,7 @@ Nylas plans to ambush and kill Turbulence (see area 17) when she enters the hall
 
 #### Cauldron
 
-A [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell can't penetrate the cauldron's lead shell. It weighs 10 pounds and contains `d10` doses of a transparent magic liquid that smells and tastes like vinegar. Any creature that drinks a dose of the liquid regains one expended spell slot of any level. If the cauldron is removed from its niche, the magic liquid contained therein turns to ordinary vinegar. The same thing occurs if the vinegar becomes mixed with any other substance. If the empty cauldron is left in the niche, it automatically fills with twelve doses of the magic liquid at the next dawn.
+A [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell can't penetrate the cauldron's lead shell. It weighs 10 pounds and contains `1d10` doses of a transparent magic liquid that smells and tastes like vinegar. Any creature that drinks a dose of the liquid regains one expended spell slot of any level. If the cauldron is removed from its niche, the magic liquid contained therein turns to ordinary vinegar. The same thing occurs if the vinegar becomes mixed with any other substance. If the empty cauldron is left in the niche, it automatically fills with twelve doses of the magic liquid at the next dawn.
 
 ### 17. Spellcasting Hall
 
@@ -529,7 +530,7 @@ Any character who studies the chalkboard drawings and succeeds on a DC 15 Intell
 
 #### Slaad Tadpole
 
-Wormriddle the night hag prepared a special demonstration for students by implanting a captured quaggoth with a red slaad egg pellet. Unfortunately for her, the slaad tadpole has hatched sooner than expected. The night hag hasn't checked on her subject recently and doesn't know the tadpole is loose. The tadpole attacks the first humanoid that approaches within 5 feet of it. Left alone, the tadpole grows into a [blue slaad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/blue-slaad.md) after `d12` hours. Characters who enroll in the academy might be tasked with eradicating it for Wormriddle.
+Wormriddle the night hag prepared a special demonstration for students by implanting a captured quaggoth with a red slaad egg pellet. Unfortunately for her, the slaad tadpole has hatched sooner than expected. The night hag hasn't checked on her subject recently and doesn't know the tadpole is loose. The tadpole attacks the first humanoid that approaches within 5 feet of it. Left alone, the tadpole grows into a [blue slaad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/blue-slaad.md) after `1d12` hours. Characters who enroll in the academy might be tasked with eradicating it for Wormriddle.
 
 ### 21. Classrooms
 
@@ -652,8 +653,6 @@ Each statue is a Large object with AC 15, 50 hit points, and immunity to poison 
 
 **Statue Sound Effects**
 
-`dice: [](10-level-9-dweomercore.md#^statue-sound-effects)`
-
 | dice: d8 | Effect |
 |----------|--------|
 | 1 | One statue loudly breaks wind. |
@@ -718,7 +717,7 @@ The kitchen is tidy and filled with spicy aromas and the smell of charred food. 
 
 The devils perform their duties in a half-hearted manner, usually undercooking or overcooking the food. Despite their displeasure, they keep the kitchen clean and tidy, as befits their orderly nature. The living unseen servants have no function other than to deliver meals.
 
-The stove is powered by magic from the Elemental Plane of Fire and puts out a lot of heat. Any creature that touches the stove or starts its turn in contact with it takes 5 (`d10`) fire damage.
+The stove is powered by magic from the Elemental Plane of Fire and puts out a lot of heat. Any creature that touches the stove or starts its turn in contact with it takes 5 (`1d10`) fire damage.
 
 ##### Pneumatic Tubes
 

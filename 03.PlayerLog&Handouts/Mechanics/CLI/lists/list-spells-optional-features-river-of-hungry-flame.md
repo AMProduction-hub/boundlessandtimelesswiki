@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/optfeature/river-of-hungry-flame
 aliases:
-- Spells for River of Hungry Flame
+- "Spells for River of Hungry Flame"
 ---
 # Spells for River of Hungry Flame
 

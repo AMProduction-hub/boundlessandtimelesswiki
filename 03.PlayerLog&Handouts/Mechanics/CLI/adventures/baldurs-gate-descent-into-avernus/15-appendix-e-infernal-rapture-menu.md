@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Appendix E: Infernal Rapture Menu
+- "Appendix E: Infernal Rapture Menu"
 ---
 # Appendix E: Infernal Rapture Menu
 *Source: Baldur's Gate: Descent Into Avernus, p. 244* 

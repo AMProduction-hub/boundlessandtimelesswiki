@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Darathra Shendrel
+- "Darathra Shendrel"
 ---
-# [Darathra Shendrel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/darathra-shendrel-skt.md)
+# [Darathra Shendrel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/darathra-shendrel-skt.md)
 *Source: Storm King's Thunder p. 253*  
 
 As the Lord Protector of Triboar and a secret agent of the Harpers, Darathra has sworn an oath to defend the town. She takes her duty very seriously. In addition to her gear, Darathra has an unarmored warhorse named Buster.
@@ -52,6 +53,9 @@ Flaw:"I refuse to back down. Push me, and I'll push back."
     "desc": "+2"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+4"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
 "senses": "passive Perception 12"
 "languages": "Common"
 "traits":
@@ -67,11 +71,11 @@ Flaw:"I refuse to back down. Push me, and I'll push back."
 "actions":
   - "desc": "Darathra makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
-      \ (2d6 + 3) slashing damage"
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
+      \ (2d6 + 3) slashing damage."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit:\
-      \ 5 (d10) piercing damage. Darathra carries twenty crossbow bolts."
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 100/400 ft., one target. *Hit:*\
+      \ 5 (1d10) piercing damage. Darathra carries twenty crossbow bolts."
     "name": "Heavy Crossbow"
 "source":
   - "SKT"

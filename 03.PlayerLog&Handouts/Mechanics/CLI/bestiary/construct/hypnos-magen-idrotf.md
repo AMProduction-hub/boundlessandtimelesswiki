@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hypnos Magen
+- "Hypnos Magen"
 ---
-# [Hypnos Magen](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/hypnos-magen-idrotf.md)
+# [Hypnos Magen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/hypnos-magen-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 301*  
 
 Hypnos magen are telepathic and use their power of suggestion to control others. Their creators use them to force enemies to withdraw or surrender.

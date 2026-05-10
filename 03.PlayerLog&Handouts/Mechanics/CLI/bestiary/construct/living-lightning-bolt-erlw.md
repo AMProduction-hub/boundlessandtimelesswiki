@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Living Lightning Bolt
+- "Living Lightning Bolt"
 ---
-# [Living Lightning Bolt](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/living-lightning-bolt-erlw.md)
+# [Living Lightning Bolt](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/living-lightning-bolt-erlw.md)
 *Source: Eberron: Rising from the Last War p. 299*  
 
 ## Constructed Nature
@@ -72,7 +73,8 @@ For example, if you turn [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/f
   \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "cr": "5"
 "traits":
@@ -85,7 +87,7 @@ For example, if you turn [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/f
 "actions":
   - "desc": "The living spell makes two Magical Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +7 to hit, reach 10 ft., one target. Hit: 21\
+  - "desc": "*Melee Spell Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 21\
       \ (5d6 + 4) lightning damage."
     "name": "Magical Strike"
   - "desc": "The living spell unleashes a stroke of lightning in a line 100 feet long\

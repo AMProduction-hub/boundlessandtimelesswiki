@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/28
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sul Khatesh
+- "Sul Khatesh"
 ---
-# [Sul Khatesh](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sul-khatesh-erlw.md)
+# [Sul Khatesh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sul-khatesh-erlw.md)
 *Source: Eberron: Rising from the Last War p. 304*  
 
 Sul Khatesh is known as the Keeper of Secrets and the Queen of Shadows. She embodies the fears and superstitions surrounding magic, from malevolent warlocks to mad wizards, from deadly curses to magical power that draws those who wield it deeper into darkness.
@@ -57,10 +58,10 @@ Some thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh 
   - !!int "25"
 "speed": "40 ft., fly 40 ft. (hover)"
 "saves":
-  - "constitution": "+12"
-  - "intelligence": "+18"
-  - "wisdom": "+14"
-  - "charisma": "+15"
+  - "constitution": !!int "12"
+  - "intelligence": !!int "18"
+  - "wisdom": !!int "14"
+  - "charisma": !!int "15"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+18"
@@ -78,25 +79,26 @@ Some thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh 
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 16"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 16"
 "languages": "all, telepathy 150 ft."
 "cr": "28"
 "traits":
   - "desc": "Sul Khatesh's spellcasting ability is Intelligence (spell save DC 26,\
       \ +18 to hit with spell attacks). She can innately cast the following spells,\
-      \ requiring no material components:\n\nAt will: [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      \ requiring no material components:\n\n**At will:** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [eyebite](03.PlayerLog&Handouts/Mechanics/CLI/spells/eyebite.md), [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md),\
       \ [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md),\
-      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n3/day\
-      \ each: [chain lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/chain-lightning.md),\
+      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n**3/day\
+      \ each:** [chain lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/chain-lightning.md),\
       \ [create undead](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-undead.md),\
       \ [dream](03.PlayerLog&Handouts/Mechanics/CLI/spells/dream.md), [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md),\
       \ [mass suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-suggestion.md),\
-      \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)\n\n1/day\
-      \ each: [foresight](03.PlayerLog&Handouts/Mechanics/CLI/spells/foresight.md),\
+      \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)\n\n**1/day\
+      \ each:** [foresight](03.PlayerLog&Handouts/Mechanics/CLI/spells/foresight.md),\
       \ [gate](03.PlayerLog&Handouts/Mechanics/CLI/spells/gate.md), [power word kill](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-kill.md),\
       \ [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)"
     "name": "Innate Spellcasting"
@@ -110,10 +112,10 @@ Some thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh 
 "actions":
   - "desc": "Sul Khatesh makes four attacks with Arcane Blast."
     "name": "Multiattack"
-  - "desc": "Ranged Spell Attack: +18 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +18 to hit, range 120 ft., one target. *Hit:*\
       \ 15 (1d10 + 10) force damage."
     "name": "Arcane Blast"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 36 (5d12 + 4) force damage."
     "name": "Magic Staff"
   - "desc": "Sul Khatesh conjures orbs of magical energy that plummet to the ground\
@@ -135,6 +137,9 @@ Some thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh 
       \ otherwise replaced by those of the new form, except any class features or\
       \ legendary actions of that form."
     "name": "Change Shape"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Sul Khatesh can expend a use to take one of the following actions. Sul Khatesh\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Sul Khatesh makes two attacks with her Arcane Blast or one attack with\
       \ her magic staff."

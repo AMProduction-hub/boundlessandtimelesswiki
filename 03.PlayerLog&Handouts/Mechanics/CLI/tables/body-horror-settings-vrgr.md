@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Body Horror Settings
+- "Body Horror Settings"
 ---
 # Body Horror Settings
 *Source: Van Richten's Guide to Ravenloft p. 47* 
 
 **Body Horror Settings**
-
-`dice: [](body-horror-settings-vrgr.md#^body-horror-settings)`
 
 | dice: d8 | Setting |
 |----------|---------|

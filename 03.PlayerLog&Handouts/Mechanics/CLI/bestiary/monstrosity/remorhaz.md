@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/11
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Remorhaz
+- "Remorhaz"
 ---
-# [Remorhaz](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/remorhaz.md)
-*Source: Monster Manual p. 258, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Light of Xaryxis. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Remorhaz](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/remorhaz.md)
+*Source: Monster Manual p. 258. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 From beneath the snow and ice bursts a remorhaz in a cloud of steam, its body pulsing with internal fire. Wing like fins flare from the back of the creature's head, and its wide mouth brims with jagged teeth.
 
@@ -44,7 +45,8 @@ Frost giant hunters scour the icy wastes for remorhaz nests and eggs. The giants
   - !!int "5"
 "speed": "30 ft., burrow 20 ft."
 "damage_immunities": "cold, fire"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 10"
 "languages": ""
 "cr": "11"
 "traits":
@@ -52,7 +54,7 @@ Frost giant hunters scour the icy wastes for remorhaz nests and eggs. The giants
       \ within 5 feet of it takes 10 (3d6) fire damage."
     "name": "Heated Body"
 "actions":
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 40 (6d10 + 7) piercing damage plus 10 (3d6) fire damage. If the target\
       \ is a creature, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 17). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
@@ -74,14 +76,6 @@ Frost giant hunters scour the icy wastes for remorhaz nests and eggs. The giants
     "name": "Swallow"
 "source":
   - "MM"
-  - "SKT"
-  - "TftYP"
-  - "WDMM"
-  - "BGDIA"
-  - "IMR"
-  - "EGW"
-  - "IDRotF"
-  - "LoX"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/remorhaz.webp"
 ```
 ^statblock

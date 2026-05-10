@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/16
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Arkhan the Cruel
+- "Arkhan the Cruel"
 ---
-# [Arkhan the Cruel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/arkhan-the-cruel-bgdia.md)
+# [Arkhan the Cruel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/arkhan-the-cruel-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 111*  
 
 Arkhan the Cruel is an evil dragonborn champion of Tiamat. Arkhan believes he can use the Hand of Vecna to unlock the means of freeing Tiamat from her prison in the Nine Hells, but only if the hand doesn't kill him first. The hand is slowly corrupting Arkhan's flesh and decomposing his body on one side.
@@ -41,8 +42,8 @@ If Arkhan finds himself overwhelmed with opposition, he orders the abishai to at
   - !!int "18"
 "speed": "40 ft."
 "saves":
-  - "wisdom": "+5"
-  - "charisma": "+9"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+10"
@@ -53,17 +54,21 @@ If Arkhan finds himself overwhelmed with opposition, he orders the abishai to at
 "damage_resistances": "fire; poison; bludgeoning, piercing, slashing from nonmagical\
   \ attacks"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft. (can see invisible creatures out to the same range),\
-  \ passive Perception 10"
+"gear":
+  - "[fane-eater](03.PlayerLog&Handouts/Mechanics/CLI/items/fane-eater-bgdia.md)"
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft. (can see invisible creatures out to the same range), passive Perception\
+  \ 10"
 "languages": "Common, Draconic"
 "cr": "16"
 "traits":
   - "desc": "Arkhan's spellcasting ability is Charisma (spell save DC 17). He can\
-      \ cast the following spells, requiring no material components:\n\n3/day each:\
+      \ cast the following spells, requiring no material components:\n\n**3/day each:**\
       \ [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [branding smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/branding-smite.md)\
       \ (at 4th level), [revivify](03.PlayerLog&Handouts/Mechanics/CLI/spells/revivify.md)\n\
-      \n1/day each: [geas](03.PlayerLog&Handouts/Mechanics/CLI/spells/geas.md),\
+      \n**1/day each:** [geas](03.PlayerLog&Handouts/Mechanics/CLI/spells/geas.md),\
       \ [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md)"
     "name": "Innate Spellcasting"
   - "desc": "While Arkhan isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated),\
@@ -89,15 +94,15 @@ If Arkhan finds himself overwhelmed with opposition, he orders the abishai to at
 "actions":
   - "desc": "Arkhan makes three weapon attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:*\
       \ 16 (1d8 + 12) slashing damage, or 17 (1d10 + 12) slashing damage when\
       \ used with two hands, plus 9 (2d8) cold damage. If the target is a creature\
       \ and Arkhan rolls a 20 on the attack roll, the creature takes an extra 9 (2d8)\
       \ necrotic damage, and Arkhan regains an amount of hit points equal to the necrotic\
       \ damage dealt."
     "name": "Fane-Eater (Battleaxe)"
-  - "desc": "Melee  or Ranged Weapon Attack: +10 to hit, reach 5 ft. or range\
-      \ 30/120 ft., one target. Hit: 8 (1d6 + 5) piercing damage, plus 4 piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +10 to hit, reach 5 ft. or range\
+      \ 30/120 ft., one target. *Hit:* 8 (1d6 + 5) piercing damage, plus 4 piercing\
       \ damage and 9 (2d8) cold damage if the javelin was used to make a melee attack."
     "name": "Javelin"
 "source":

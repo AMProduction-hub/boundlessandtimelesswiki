@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 aliases:
-- Reach for the Stars
+- "Reach for the Stars"
 ---
 # Reach for the Stars
 *Source: Keys from the Golden Vault, p. 41* 
@@ -15,7 +16,7 @@ aliases:
 
 Acquiring *The Celestial Codex* is the primary goal of this adventure, but the characters also have a chance to free Markos from the Far Realm entity's control. Body horror is a recurring theme in this adventure; before running it, discuss with your players their level of comfort with these elements.
 
-![A friendly spirit appears ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/018-03-001-ch3-splash.webp#center "A friendly spirit appears as a disembodied head, warning heroes about the dangers that await them in Delphi Mansion")
+![A friendly spirit appears as a disembodied head, warning heroes about the dangers that await them in Delphi Mansion](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/018-03-001-ch3-splash.webp#center)
 
 ## Adventure Background
 
@@ -132,14 +133,12 @@ Since the day Markos contacted Krokulmar, its presence has slowly warped Delphi 
 
 **Eldritch Surges**
 
-`dice: [](04-reach-for-the-stars.md#^eldritch-surges)`
-
 | dice: d4 | Surge Effect |
 |----------|--------------|
 | 1 | The air becomes heavy and malleable. The space in the room becomes "difficult terrain". While in the room, creatures have a flying speed equal to their walking speed. |
 | 2 | Doors and windows in the room grow biting teeth. A creature that passes through a door or window in the room must succeed on a DC 13 Dexterity saving throw or take 5 (`2d4`) piercing damage. A creature can take this damage only once per turn. |
 | 3 | Illusory magic causes one to perceive objects and creatures a short distance from their actual locations. While in the room, a creature has disadvantage on attack rolls. |
-| 4 | An animated shadow of the creature that caused the surge appears in its space while it is in the room. Until the creature leaves the room, immediately after it makes an ability check, an attack roll, or casts a spell on its turn, the shadow makes a melee spell attack (+4 to hit) against a random creature within 5 feet of it, dealing 5 (`2d4`) necrotic damage on a hit. |
+| 4 | An animated shadow of the creature that caused the surge appears in its space while it is in the room. Until the creature leaves the room, immediately after it makes an ability check, an attack roll, or casts a spell on its turn, the shadow makes a melee spell attack (`+4` to hit) against a random creature within 5 feet of it, dealing 5 (`2d4`) necrotic damage on a hit. |
 ^eldritch-surges
 
 ### Delphi Mansion Locations
@@ -157,7 +156,7 @@ Locations in Delphi Mansion are keyed to map 3.2.
 > A sickly sweet scent hangs in the air of this dusty foyer. Two staircases rise from the hardwood floor to a balcony, and a glass chandelier hangs above the center of the room. Below the chandelier, the pelt of an owlbear has been made into a fine rug, its head staring at the entrance.
 ^0f6
 
-The stairs climb to a balcony (area `D10`). The ceiling here rises 30 feet from the floor. The owlbear rug weighs 50 pounds.
+The stairs climb to a balcony (area D10). The ceiling here rises 30 feet from the floor. The owlbear rug weighs 50 pounds.
 
 #### D2: Dining Hallway
 
@@ -200,7 +199,7 @@ The kitchen is in shambles. The half-eaten food on the cookery and plates has be
 
 #### D5: Pantry
 
-The pantry is well stocked, and the foodstuffs here haven't spoiled yet. A sack of potatoes rests against the east wall next to stairs that lead to the wine cellar (area `D23`).
+The pantry is well stocked, and the foodstuffs here haven't spoiled yet. A sack of potatoes rests against the east wall next to stairs that lead to the wine cellar (area D23).
 
 #### D6: Parlor
 
@@ -258,9 +257,9 @@ The stairs here descend 20 feet to area D8a and climb 20 feet to area D8c.
 
 The cloaked figure is [Zala Morphus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zala-morphus-kftgv.md), a human mage who has been transformed into a [nothic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/nothic.md). Zala helped Markos contact Krokulmar and blames this Far Realm entity for her transformation. Now she anxiously turns to the stars, hoping to find a way to return to her human form. Zala has no interest in Markos's current activities and little knowledge about them.
 
-Zala speaks Common, Deep Speech, and Elvish. If the characters attack her, Zala responds in kind. If they claim to be looking for *The Celestial Codex*, Zala advises them to search Markos's office (area D11b) or his bedroom (area `D15`).
+Zala speaks Common, Deep Speech, and Elvish. If the characters attack her, Zala responds in kind. If they claim to be looking for *The Celestial Codex*, Zala advises them to search Markos's office (area D11b) or his bedroom (area D15).
 
-Zala wants a map of the Great Snake constellation from the star-map room (area `D21`). If the characters retrieve the map for her, Zala tells characters about the locked secret door in the wine cellar (area `D23`) along with the password ("farrl'v hrak").
+Zala wants a map of the Great Snake constellation from the star-map room (area D21). If the characters retrieve the map for her, Zala tells characters about the locked secret door in the wine cellar (area D23) along with the password ("farrl'v hrak").
 
 ##### Treasure
 
@@ -281,7 +280,7 @@ The easternmost bedroom contains a [gibbering mouther](03.PlayerLog&Handouts/Mec
 
 #### D10: Balcony
 
-This balcony overlooks the foyer (area `D1`), the floor of which is 20 feet below.
+This balcony overlooks the foyer (area D1), the floor of which is 20 feet below.
 
 #### D11a: Empty Office
 
@@ -320,7 +319,7 @@ The file cabinet in the northeast niche is unlocked and contains correspondence 
 
 One of the cloaked figures is Markos's head researcher, Xander (lawful evil, human [cult fanatic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cult-fanatic.md)). The other figure is an apprentice named Kura (lawful evil, human [cultist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cultist.md)). Both have embraced the Far Realm entity and the power it offers. Xander and Kura are indifferent toward intruders and don't attack unless the intruders aim to harm them or hinder their research.
 
-Xander and Kura don't keep track of Markos's movements, but they know he has been spending a lot of time in the caves below the basement (area `D27`). They assume *The Celestial Codex* is with Markos or in his bedroom (area `D15`).
+Xander and Kura don't keep track of Markos's movements, but they know he has been spending a lot of time in the caves below the basement (area D27). They assume *The Celestial Codex* is with Markos or in his bedroom (area D15).
 
 ##### Treasure
 
@@ -339,7 +338,7 @@ Markos used to sit on the rug and meditate while pondering the forces of the mul
 
 ##### Trapdoor
 
-The trapdoor in the ceiling leads to the master bath (area `D17`). An unfolding wooden ladder allows easy access.
+The trapdoor in the ceiling leads to the master bath (area D17). An unfolding wooden ladder allows easy access.
 
 #### D15: Markos's Bedroom
 
@@ -400,9 +399,9 @@ A [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spe
 
 The hook-handed figure is Markos's former butler, Esquire (use the [hook horror](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hook-horror.md) stat block). Esquire isn't bound inside the circle and attacks intruders on sight. He doesn't know the cause of his transformation. If the characters explain that an evil entity is responsible for Esquire's transformation or that Markos might be in danger from this entity, Esquire lets them live if they vow to save Markos.
 
-Esquire's tattered butler uniform has a pocket containing a locket and a note. The locket is under the effects of a [magic mouth](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-mouth.md) spell; when opened, it speaks the password to the temple (area `D24`), "farrl'v hrak," which is Deep Speech for "forever changing." The note contains a sketch of a wine bottle and a row of four circles. The second circle from the left is crossed out. (The circles represent the casks in area `D23`, the crossed-out one representing the cask blocking a secret door.)
+Esquire's tattered butler uniform has a pocket containing a locket and a note. The locket is under the effects of a [magic mouth](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-mouth.md) spell; when opened, it speaks the password to the temple (area D24), "farrl'v hrak," which is Deep Speech for "forever changing." The note contains a sketch of a wine bottle and a row of four circles. The second circle from the left is crossed out. (The circles represent the casks in area D23, the crossed-out one representing the cask blocking a secret door.)
 
-![A bubbling green potion co...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/025-03-006-far-realm-surprise.webp#center "A bubbling green potion contains a Far Realm surprise")
+![A bubbling green potion contains a Far Realm surprise](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/025-03-006-far-realm-surprise.webp#center)
 
 #### D20: Component Storage
 
@@ -410,7 +409,7 @@ This walk-in closet contains four cabinets, each one filled with carefully organ
 
 **Treasure**. Characters who search the cabinets can find a material component for any 1st- or 2nd-level spell, provided the component has a value less than 1 gp. Characters also find a potion, its bubbling green liquid stained by a drop of some dark substance (octopus ink).
 
-The alchemists in area `D13` concocted the potion, which functions as a [potion of poison](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-poison.md) but has an additional property. When the poison effect ends, the imbiber sprouts a tentacle made of inky shadow. This shadowy tentacle lasts for 1 hour. As a bonus action, the potion's imbiber can use the tentacle to make a melee weapon attack (`+4` to hit) against a creature the imbiber can see within 5 feet of itself. On a hit, the target takes 4 (`d8`) necrotic damage.
+The alchemists in area D13 concocted the potion, which functions as a [potion of poison](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-poison.md) but has an additional property. When the poison effect ends, the imbiber sprouts a tentacle made of inky shadow. This shadowy tentacle lasts for 1 hour. As a bonus action, the potion's imbiber can use the tentacle to make a melee weapon attack (`+4` to hit) against a creature the imbiber can see within 5 feet of itself. On a hit, the target takes 4 (`1d8`) necrotic damage.
 
 #### D21: Star-Map Room
 
@@ -431,7 +430,7 @@ Each of these unfurnished rooms contains two [ghouls](03.PlayerLog&Handouts/Mech
 
 Three of the wine casks contain varying amounts of wine. The fourth cask is empty and positioned in front of a secret door in the west wall. Characters who examine the empty cask see handprints on it, suggesting it has been moved multiple times. The characters also feel cold air coming from the wall, suggesting the presence of a secret door. The wine cask must be moved aside to access the secret door.
 
-**Secret Door**. An [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md) spell has been cast on the secret door. The password to bypass the spell is "farrl'v hrak," which is Deep Speech for "forever changing." Esquire's locket (see area `D19`) speaks the password when opened.
+**Secret Door**. An [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md) spell has been cast on the secret door. The password to bypass the spell is "farrl'v hrak," which is Deep Speech for "forever changing." Esquire's locket (see area D19) speaks the password when opened.
 
 Alternatively, a character can use an action to try to force open the locked secret door, doing so with a successful DC 20 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check.
 
@@ -448,9 +447,9 @@ The arcane energies in this room are particularly volatile. The first character 
 
 ##### Cloaked Figures
 
-The cloaked figures are four neutral, human [cultists](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cultist.md) who are taking notes on the eldritch surges that occur in this area. These cultists defend themselves if attacked but otherwise pose no threat. They know Markos is performing a ritual in area `D27` but won't share this information until the statue is destroyed.
+The cloaked figures are four neutral, human [cultists](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cultist.md) who are taking notes on the eldritch surges that occur in this area. These cultists defend themselves if attacked but otherwise pose no threat. They know Markos is performing a ritual in area D27 but won't share this information until the statue is destroyed.
 
-**Statue**. The statue depicts Krokulmar and was created with the aid of a [spell scroll](03.PlayerLog&Handouts/Mechanics/CLI/items/spell-scroll.md) of [stone shape](03.PlayerLog&Handouts/Mechanics/CLI/spells/stone-shape.md). Any creature that touches the statue for the first time on a turn must succeed on a DC 11 Wisdom saving throw or take 3 (`d6`) psychic damage.
+**Statue**. The statue depicts Krokulmar and was created with the aid of a [spell scroll](03.PlayerLog&Handouts/Mechanics/CLI/items/spell-scroll.md) of [stone shape](03.PlayerLog&Handouts/Mechanics/CLI/spells/stone-shape.md). Any creature that touches the statue for the first time on a turn must succeed on a DC 11 Wisdom saving throw or take 3 (`1d6`) psychic damage.
 
 The statue amplifies the eldritch surges, which a character can ascertain by examining the statue and then succeeding on a DC 15 Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)) check. If the statue is destroyed, the eldritch surges stop occurring throughout the mansion. The statue is a Medium object with AC 17, 36 hit points, and immunity to poison and psychic damage.
 
@@ -461,7 +460,7 @@ The statue amplifies the eldritch surges, which a character can ascertain by exa
 > Four severed heads and three headless bodies lie on the floor of this room, which also contains four small crates in the far corner.
 ^132
 
-The severed heads and decapitated bodies belong to Elra Lionheart and her three human adventuring companions. The body of one of Elra's companions is missing (and can be found in area `D27`).
+The severed heads and decapitated bodies belong to Elra Lionheart and her three human adventuring companions. The body of one of Elra's companions is missing (and can be found in area D27).
 
 If Elra is with the characters (see "Meeting Elra" earlier in this adventure), she mourns her dead companions and hopes there might be a way to bring her and her friends back from the dead.
 

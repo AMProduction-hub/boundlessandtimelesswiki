@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- F'yorl
+- "F'yorl"
 ---
-# [F'yorl](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/fyorl-idrotf.md)
+# [F'yorl](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fyorl-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 183*  
 
 ```statblock
@@ -32,9 +33,9 @@ aliases:
   - !!int "17"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+7"
-  - "wisdom": "+6"
-  - "charisma": "+6"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -48,7 +49,8 @@ aliases:
     "desc": "+6"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "Deep Speech, Undercommon, telepathy 120 ft."
 "cr": "0"
 "traits":

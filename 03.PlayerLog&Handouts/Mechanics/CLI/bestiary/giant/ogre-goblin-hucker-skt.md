@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ogre Goblin Hucker
+- "Ogre Goblin Hucker"
 ---
-# [Ogre Goblin Hucker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/ogre-goblin-hucker-skt.md)
+# [Ogre Goblin Hucker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre-goblin-hucker-skt.md)
 *Source: Storm King's Thunder p. 50*  
 
 ```statblock
@@ -32,20 +33,24 @@ aliases:
   - !!int "7"
   - !!int "7"
 "speed": "40 ft."
-"senses": "darkvision 60 ft., passive Perception 8"
+"gear":
+  - "[greatclub](03.PlayerLog&Handouts/Mechanics/CLI/items/greatclub.md)"
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": "Common, Giant"
 "cr": "2"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) bludgeoning damage."
     "name": "Greatclub"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 11 (2d6 + 4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 11 (2d6 + 4) piercing damage."
     "name": "Javelin"
-  - "desc": "Ranged Weapon Attack: +3 to hit, range 150/600 ft. (can't hit targets\
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, range 150/600 ft. (can't hit targets\
       \ within 30 feet of the hucker), one target. Hit: 5 (2d4) bludgeoning damage,\
       \ or 10 (4d4) piercing damage if the projectile is wearing a spiked helmet.\
-      \ Hit or Miss: The goblin projectile takes d6 bludgeoning damage per 10\
+      \ *Hit or Miss:* The goblin projectile takes 1d6 bludgeoning damage per 10\
       \ feet it travels through the air (maximum 20d6)."
     "name": "Goblin Projectile"
 "source":

@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/rarity/uncommon
 - ttrpg-cli/item/tier/minor
-aliases: 
+aliases:
 - "Robe of Useful Items"
 ---
 # Robe of Useful Items
@@ -25,8 +26,6 @@ The robe has two of each of the following patches:
 - Sack  
 
 In addition, the robe has `4d4` other patches. The DM chooses the patches or determines them randomly.
-
-`dice: [](robe-of-useful-items.md#^patch)`
 
 | dice: d100 | Patch |
 |------------|-------|

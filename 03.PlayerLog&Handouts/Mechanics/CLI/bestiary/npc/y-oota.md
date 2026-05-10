@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Y
+- "Y"
 ---
-# [Y](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/y-oota.md)
+# [Y](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/y-oota.md)
 *Source: Out of the Abyss p. 29*  
 
 ```statblock
@@ -22,8 +23,8 @@ aliases:
 "alignment": "Neutral"
 "ac": !!int "13"
 "ac_class": "[leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/leather-armor.md)"
-"hp": !!int "36"
-"hit_dice": "8d6 + 8"
+"hp": !!int "49"
+"hit_dice": "11d6 + 11"
 "modifier": !!int "2"
 "stats":
   - !!int "9"
@@ -36,7 +37,11 @@ aliases:
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 120 ft., passive Perception 7"
+"gear":
+  - "[hooked shortspear](03.PlayerLog&Handouts/Mechanics/CLI/items/hooked-shortspear-oota.md)"
+  - "[light repeating crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/light-repeating-crossbow-oota.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 7"
 "languages": "Dwarvish, Undercommon, Elvish"
 "cr": "3"
 "traits":
@@ -48,27 +53,36 @@ aliases:
     "name": "Innate Spellcasting"
   - "desc": "Y is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell\
       \ save DC 12, +4 to hit with spell attacks). The derro knows the following\
-      \ sorcerer spells:\n\nCantrips (at will): [acid splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md),\
+      \ sorcerer spells:\n\n**Cantrips (at will):** [acid splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md),\
-      \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
-      \n1st level (4 slots): [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md),\
+      \n**1st level (4 slots):** [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md),\
       \ [chromatic orb](03.PlayerLog&Handouts/Mechanics/CLI/spells/chromatic-orb.md),\
-      \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)\n\n2nd level\
-      \ (3 slots): [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)\n\n**2nd level\
+      \ (3 slots):** [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [spider climb](03.PlayerLog&Handouts/Mechanics/CLI/spells/spider-climb.md)\n\
-      \n3rd level (2 slots): [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)"
+      \n**3rd level (2 slots):** [blink](03.PlayerLog&Handouts/Mechanics/CLI/spells/blink.md),\
+      \ [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)"
     "name": "Spellcasting"
-  - "desc": "Y has advantage on saving throws against spells and other magical effects."
+  - "desc": "The derro has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)."
+    "name": "Insanity"
+  - "desc": "The derro has advantage on saving throws against spells and other magical\
+      \ effects."
     "name": "Magic Resistance"
-  - "desc": "While in sunlight, Y has disadvantage on attack rolls, as well as on\
-      \ Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+  - "desc": "While in sunlight, the derro has disadvantage on attack rolls, as well\
+      \ as on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ checks that rely on sight."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2\
-      \ (1d6 - 1) bludgeoning damage."
-    "name": "Quarterstaff"
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 1\
+      \ (1d4 - 1) piercing damage. If the target is a creature, the derro can choose\
+      \ to deal no damage and try to trip the target instead, in which case the target\
+      \ must succeed on a DC 9 Strength saving throw or fall [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Hooked Shortspear"
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 40/160 ft., one target. *Hit:*\
+      \ 6 (1d8 + 2) piercing damage."
+    "name": "Light Repeating Crossbow"
 "source":
   - "OotA"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/y-oota.webp"

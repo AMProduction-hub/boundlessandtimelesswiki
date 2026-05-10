@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Charmayne Daymore
+- "Charmayne Daymore"
 ---
-# [Charmayne Daymore](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/charmayne-daymore-kftgv.md)
+# [Charmayne Daymore](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/charmayne-daymore-kftgv.md)
 *Source: Keys from the Golden Vault p. 159*  
 
 A powerful spellcaster, Charmayne had become jealous of the king's passion and warmth. Longing to possess those qualities, she painstakingly created rituals to drain Jhaeros's vitality and charm, and to funnel these qualities into herself. However, the magic only enhanced her greed and jealousy; the more she took from Jhaeros, the hungrier for power Charmayne became, going so far as to murder her fellow councilor, Regine, while she slept.
@@ -37,9 +38,9 @@ As she came to realize the people of Ghalasine didn't love her as they did the k
   - !!int "16"
 "speed": "30 ft., fly 30 ft. (hover)"
 "saves":
-  - "intelligence": "+9"
-  - "wisdom": "+6"
-  - "charisma": "+7"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+9"
@@ -58,8 +59,8 @@ As she came to realize the people of Ghalasine didn't love her as they did the k
   - "desc": "Charmayne makes three Ashen Burst attacks. She can replace one of these\
       \ attacks with one use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +9 to hit, reach 5 ft. or range 60\
-      \ ft., one target. Hit: 17 (5d6) fire damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +9 to hit, reach 5 ft. or range 60\
+      \ ft., one target. *Hit:* 17 (5d6) fire damage."
     "name": "Ashen Burst"
   - "desc": "Charmayne creates a magical explosion of fire centered on a point she\
       \ can see within 120 feet of herself. Each creature in a 20-foot-radius sphere\
@@ -69,16 +70,14 @@ As she came to realize the people of Ghalasine didn't love her as they did the k
       \ into a Tiny charcoal figurine."
     "name": "Cinder Spite (Recharge 5-6)"
   - "desc": "Charmayne casts one of the following spells, using Intelligence as the\
-      \ spellcasting ability (spell save DC 17):\n\nAt will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
-      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n3/day:\
+      \ spellcasting ability (spell save DC 17):\n\n**At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n**3/day:**\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)\n\n\
-      1/day each: [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      **1/day each:** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)"
     "name": "Spellcasting"
 "reactions":
-  - "desc": ""
-    "name": "Charmayne can take up to three reactions per round but only one per turn."
   - "desc": "In response to being hit by an attack, Charmayne utters a word in Ignan,\
       \ dealing 10 (3d6) fire damage to the attacker. Charmayne then teleports,\
       \ along with any equipment she is wearing or carrying, up to 30 feet to an unoccupied\

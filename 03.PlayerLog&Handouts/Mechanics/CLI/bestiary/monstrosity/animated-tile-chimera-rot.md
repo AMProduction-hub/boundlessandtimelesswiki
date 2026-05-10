@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/rot
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Animated Tile Chimera
+- "Animated Tile Chimera"
 ---
-# [Animated Tile Chimera](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/animated-tile-chimera-rot.md)
+# [Animated Tile Chimera](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/animated-tile-chimera-rot.md)
 *Source: The Rise of Tiamat p. 42, Tyranny of Dragons p. 128*  
 
 ```statblock
@@ -42,7 +43,8 @@ aliases:
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 18"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 18"
 "languages": "understands Draconic but can't speak"
 "cr": "6"
 "traits":
@@ -55,13 +57,13 @@ aliases:
       \ and one with its claws. When its fire breath is available, it can use the\
       \ breath in place of its bite or horns."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (1d12 + 4) bludgeoning damage."
     "name": "Horns"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage."
     "name": "Claws"
   - "desc": "The dragon head exhales fire in a 15-foot cone. Each creature in that\

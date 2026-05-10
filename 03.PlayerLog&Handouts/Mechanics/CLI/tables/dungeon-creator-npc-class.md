@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Dungeon Creator; NPC Class
+- "Dungeon Creator; NPC Class"
 ---
 # Dungeon Creator; NPC Class
 *Source: Dungeon Master's Guide p. 99* 
 
 **NPC Class**
-
-`dice: [](dungeon-creator-npc-class.md#^npc-class)`
 
 | dice: d20 | Class |
 |-----------|-------|

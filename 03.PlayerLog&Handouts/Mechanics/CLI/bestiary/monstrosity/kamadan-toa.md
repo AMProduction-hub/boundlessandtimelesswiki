@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kamadan
+- "Kamadan"
 ---
-# [Kamadan](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/kamadan-toa.md)
+# [Kamadan](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/kamadan-toa.md)
 *Source: Tomb of Annihilation p. 225*  
 
 A kamadan (pronounced KAM-ah-dan) is a feline predator that resembles a leopard with six snakes sprouting from its shoulders. Although it bears a passing resemblance to a displacer beast, the two creatures are unrelated (though some sages claim otherwise).
@@ -59,13 +60,13 @@ Kamadans typically hunt alone or in mated pairs. They can exhale clouds of sleep
   - "desc": "The kamadan makes two attacks: one with its bite or claw and one with\
       \ its snakes."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 6 (1d6 + 3) piercing damage, and the target must make a DC 12 Constitution\
       \ saving throw, taking 21 (6d6) poison damage on a failed save, or half as\
       \ much damage on a successful one."

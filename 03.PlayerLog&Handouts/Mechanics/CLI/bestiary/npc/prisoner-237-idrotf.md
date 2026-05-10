@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Prisoner 237
+- "Prisoner 237"
 ---
-# [Prisoner 237](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/prisoner-237-idrotf.md)
+# [Prisoner 237](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/prisoner-237-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 160*  
 
 Vaelish Gant, Prisoner 237 within the walls of Revel's End, is a member of the Arcane Brotherhood who first engaged in criminal activity by insinuating himself into the trade network of Ten-Towns. He hoped that his work would help the Arcane Brotherhood gain control of the region. A few years ago, shortly after his arrival in Ten-Towns, Gant established a protection racket in Bryn Shander and tried to turn the town against its speaker, Duvessa Shane, with the goal of supplanting her. He also tried to destabilize the economy of Ten-Towns. A party of adventurers thwarted his criminal ventures by capturing him.
@@ -55,21 +56,21 @@ Gant has neither a spellbook nor material components for spellcasting, and he ca
 "traits":
   - "desc": "Prisoner 237 is a 5th-level spellcaster. His spellcasting ability is\
       \ Intelligence (spell save DC 13; +5 to hit with spell attacks). He has the\
-      \ following wizard spells prepared:\n\nCantrips (at will): [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
-      \ [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
+      \ following wizard spells prepared:\n\n**Cantrips (at will):** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md)*,\
+      \ [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md)*, [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\
-      \ (see \"Actions\" below)\n\n1st level (4 slots): [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md),\
+      \ (see \"Actions\" below)\n\n**1st level (4 slots):** [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)*,\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)\n\
-      \n2nd level (3 slots): [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md),\
-      \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
-      \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\n\
-      3rd level (2 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
-      \ [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)\n\
-      \nPrisoner 237 needs material components to cast these spells."
+      \n**2nd level (3 slots):** [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md)*,\
+      \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md)*,\
+      \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)*\n\n\
+      **3rd level (2 slots):** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      \ [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)*\n\
+      \n*Prisoner 237 needs material components to cast these spells."
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee Spell Attack: +5 to hit (with advantage on the attack if the\
-      \ target is wearing armor made of metal), reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +5 to hit (with advantage on the attack if the\
+      \ target is wearing armor made of metal), reach 5 ft., one creature. *Hit:*\
       \ 9 (2d8) lightning damage, and the target can't take reactions until the\
       \ start of its next turn."
     "name": "Shocking Grasp (Cantrip)"

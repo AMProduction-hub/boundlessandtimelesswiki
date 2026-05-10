@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Haungharassk
+- "Haungharassk"
 ---
-# [Haungharassk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/haungharassk-wdmm.md)
+# [Haungharassk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/haungharassk-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 258*  
 
 Haungharassk is a magical snail as large as an elephant, with a shell of gleaming gold.
@@ -37,8 +38,8 @@ Haungharassk is a magical snail as large as an elephant, with a shell of gleamin
 "languages": ""
 "cr": "0"
 "traits":
-  - "desc": "A pound of salt thrown onto the snail's skin deals d6 acid damage to\
-      \ the creature."
+  - "desc": "A pound of salt thrown onto the snail's skin deals 1d6 acid damage\
+      \ to the creature."
     "name": "Salt Sensitivity"
   - "desc": "A creature that uses an action to touch the living snail gains 6 temporary\
       \ hit points that last for 24 hours. Any creature or object that touches the\

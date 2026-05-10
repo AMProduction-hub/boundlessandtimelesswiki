@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Athreos's Quests
+- "Athreos's Quests"
 ---
 # Athreos's Quests
 *Source: Mythic Odysseys of Theros p. 116* 
 
 **Athreos's Quests**
-
-`dice: [](athreoss-quests-mot.md#^athreoss-quests)`
 
 | dice: d6 | Adventure Goal |
 |----------|----------------|

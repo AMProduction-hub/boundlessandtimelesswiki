@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 aliases:
-- Officers and Crew
+- "Officers and Crew"
 ---
 # Officers and Crew
 *Source: Ghosts of Saltmarsh p. 194* 
@@ -47,7 +48,7 @@ If the check total is between 1 and 9, the crew's quality score decreases by 1.
 
 If the check total is 0 or lower, the crew mutinies. They become hostile to the officers and might attempt to kill them, imprison them, or throw them overboard. The crew can be cowed into obedience through violence, combat, or offers of treasure or other rewards.
 
-When the DM ends the mutiny, the crew's quality score increases by `d4`.
+When the DM ends the mutiny, the crew's quality score increases by `1d4`.
 
 ### Shore Leave
 

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 aliases:
-- Appendix A: Character Backgrounds
+- "Appendix A: Character Backgrounds"
 ---
 # Appendix A: Character Backgrounds
 *Source: Tomb of Annihilation, p. 191* 

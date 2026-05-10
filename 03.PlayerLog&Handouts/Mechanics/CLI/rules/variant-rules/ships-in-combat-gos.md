@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 aliases:
-- Ships in Combat
+- "Ships in Combat"
 ---
 # Ships in Combat
 *Source: Ghosts of Saltmarsh p. 198* 
@@ -37,7 +38,7 @@ Managing a ship's entire crew in combat can prove cumbersome, especially as larg
 
 Slaying a ship's crew reduces the number of actions most ships can take, making the crew a tempting target in combat. Resolve individual attacks as normal, using the guidelines for resolving many, identical attacks at once from the "Dungeon Master's Guide" as needed.
 
-In the case of spells that cover an area, such as [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md) or [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md), you might track the exact location of the spell and crew to determine how many sailors it affects. Alternatively, you can roll `d6` per level of the spell. The total of the dice is the number of crew members caught in the spell's area.
+In the case of spells that cover an area, such as [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md) or [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md), you might track the exact location of the spell and crew to determine how many sailors it affects. Alternatively, you can roll `1d6` per level of the spell. The total of the dice is the number of crew members caught in the spell's area.
 
 ## Crashing a Ship
 
@@ -51,8 +52,8 @@ A creature struck by a ship must make a Dexterity saving throw with a DC equal t
 
 | Size | Bludgeoning Damage |
 |------|--------------------|
-| Small | `d6` |
-| Medium | `d10` |
+| Small | `1d6` |
+| Medium | `1d10` |
 | Large | `4d10` |
 | Huge | `8d10` |
 | Gargantuan | `16d10` |

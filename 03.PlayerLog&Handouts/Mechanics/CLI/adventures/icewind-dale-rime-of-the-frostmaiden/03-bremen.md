@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Bremen
+- "Bremen"
 ---
 # Bremen
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 27* 
@@ -154,11 +155,11 @@ Tali asks the characters to record everything they can perceive about the creatu
 
 The characters have the use of Grynsk's two rowboats (see the "Rowboat Statistics" sidebar). The damaged one has 36 hit points instead of 50. Three sets of fishing tackle are stashed in the center of each boat.
 
-The lake is covered in ice floes, which make travel dangerous. As the characters row out from Bremen, their boats must steer around `1d4 + 1` ice floes. Any character who tries to steer a boat around an ice floe must succeed on a DC 14 Wisdom check, adding their proficiency bonus to the roll if they're proficient with water vehicles. On a failed check, the boat hits the ice floe and takes `d6` bludgeoning damage.
+The lake is covered in ice floes, which make travel dangerous. As the characters row out from Bremen, their boats must steer around `1d4 + 1` ice floes. Any character who tries to steer a boat around an ice floe must succeed on a DC 14 Wisdom check, adding their proficiency bonus to the roll if they're proficient with water vehicles. On a failed check, the boat hits the ice floe and takes `1d6` bludgeoning damage.
 
 > [!note] Rowboat Statistics
 > 
-> A [rowboat](03.PlayerLog&Handouts/Mechanics/CLI/vehicles/rowboat.md) has a speed of 1½ miles per hour and can hold up to four Medium creatures and their gear. An undamaged [rowboat](03.PlayerLog&Handouts/Mechanics/CLI/vehicles/rowboat.md) has AC 11 and 50 hit points. A [rowboat](03.PlayerLog&Handouts/Mechanics/CLI/vehicles/rowboat.md) reduced to 0 hit points in the water sinks over the course of `d4` rounds.
+> A [rowboat](03.PlayerLog&Handouts/Mechanics/CLI/vehicles/rowboat.md) has a speed of 1½ miles per hour and can hold up to four Medium creatures and their gear. An undamaged [rowboat](03.PlayerLog&Handouts/Mechanics/CLI/vehicles/rowboat.md) has AC 11 and 50 hit points. A [rowboat](03.PlayerLog&Handouts/Mechanics/CLI/vehicles/rowboat.md) reduced to 0 hit points in the water sinks over the course of `1d4` rounds.
 ^rowboat-statistics
 
 #### Falling in the Water
@@ -177,13 +178,11 @@ If the characters are out on the lake in a boat, roll on the Lake Events table a
 
 **Lake Events**
 
-`dice: [](03-bremen.md#^lake-events)`
-
 | dice: d20 | Lake Event |
 |-----------|------------|
 | 1–10 | The lake is still and quiet for the next hour. A fine time for some fishing. |
-| 11–12 | The characters spot a rowboat from Lonelywood or Termalaine. It has `d4` fishers ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) aboard and keeps its distance. The fishers are antisocial but nonthreatening. They fish in the vicinity for the better part of an hour, then head back toward Lonelywood with their catch. |
-| 13 | The characters encounter a keelboat flying the Targos flag. It has `d6` fishers ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) and a captain ([scout](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md)) aboard. They don't believe the lake monster is real and try to badger the characters into fishing elsewhere. They use trawling nets to fish in the vicinity for the better part of an hour, then head back toward Targos with their catch. |
+| 11–12 | The characters spot a rowboat from Lonelywood or Termalaine. It has `1d4` fishers ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) aboard and keeps its distance. The fishers are antisocial but nonthreatening. They fish in the vicinity for the better part of an hour, then head back toward Lonelywood with their catch. |
+| 13 | The characters encounter a keelboat flying the Targos flag. It has `1d6` fishers ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) and a captain ([scout](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md)) aboard. They don't believe the lake monster is real and try to badger the characters into fishing elsewhere. They use trawling nets to fish in the vicinity for the better part of an hour, then head back toward Targos with their catch. |
 | 14 | A cold wind blows across the lake for the next hour. The lake's normally still waters become choppy. Until the wind abates, ability checks made to steer the boat and fish for trout have disadvantage, as do saving throws against the effects of extreme cold. |
 | 15 | A [knucklehead trout](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/knucklehead-trout-idrotf.md) (see appendix C) leaps out of the lake, makes a tail attack against one random character in the boat, and dives back into the frigid water. A character with a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 13 or higher is not [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised) by the fish and can use its reaction to make an opportunity attack against it or try to grapple the fish as it dives back into the water. |
 | 16–20 | The awakened [plesiosaurus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/plesiosaurus.md) makes its presence known. Run the "Clever Beast" encounter. |
@@ -205,8 +204,6 @@ A character who succeeds on a DC 13 Intelligence ([Nature](03.PlayerLog&Handouts
 The plesiosaurus prefers to dine on fish, not people. Characters knocked into the lake are more likely to freeze to death or sink to the bottom than be eaten. If a character harms the plesiosaurus, it reacts in kind.
 
 **Plesiosaurus Behavior**
-
-`dice: [](03-bremen.md#^plesiosaurus-behavior)`
 
 | dice: d6 | Behavior |
 |----------|----------|

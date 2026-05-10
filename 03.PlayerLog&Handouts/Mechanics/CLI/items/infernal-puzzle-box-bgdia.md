@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/item/rarity/uncommon
-aliases: 
+aliases:
 - "Infernal Puzzle Box"
 ---
 # Infernal Puzzle Box

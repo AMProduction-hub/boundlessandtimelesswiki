@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/item/rarity/rare
-aliases: 
+aliases:
 - "Hook of Fisher's Delight"
 ---
 # Hook of Fisher's Delight
@@ -15,8 +16,6 @@ aliases:
 This tiny silver fishhook has a little gold feather attached to it. For it to function, the feathered hook must be tied to the end of a fishing line and immersed in enough water to fill at least a 10-foot cube. At the end of each uninterrupted hour of immersion, roll a `d6`. On a 6, a floppy, 6-inch-long magical fish appears on the end of the hook. The color and properties of the conjured fish are determined by rolling on the Hook of Fisher's Delight table. Once the hook conjures a fish, it can't do so again until the next dawn.
 
 **Hook of Fisher's Delight**
-
-`dice: [](hook-of-fishers-delight-idrotf.md#^hook-of-fishers-delight)`
 
 | dice: d20 | Fish Color | Result |
 |-----------|------------|--------|

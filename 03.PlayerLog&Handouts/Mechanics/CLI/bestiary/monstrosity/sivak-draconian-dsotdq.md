@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sivak Draconian
+- "Sivak Draconian"
 ---
-# [Sivak Draconian](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/sivak-draconian-dsotdq.md)
+# [Sivak Draconian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/sivak-draconian-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 199*  
 
 Sivak draconians are fearsome brutes created from the eggs of silver dragons. They fly on mighty wings over battlefields wherever the fighting is the fiercest, making them effective shock troops. Sivaks can magically change their features to mimic the appearance of those they've slain. This allows these cunning soldiers to sow confusion and despair among their enemies. When sivaks are killed, their crumbling bodies mimic the form of their killers and shriek in agony.
@@ -39,9 +40,10 @@ Draconians are bipedal monsters born from metallic dragon eggs that have been co
   - !!int "10"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "strength": "+6"
-  - "wisdom": "+2"
-"senses": "darkvision 60 ft., passive Perception 10"
+  - "strength": !!int "6"
+  - "wisdom": !!int "2"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Draconic"
 "cr": "4"
 "traits":
@@ -57,10 +59,10 @@ Draconians are bipedal monsters born from metallic dragon eggs that have been co
 "actions":
   - "desc": "The draconian makes two Serrated Sword attacks and one Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) slashing damage."
     "name": "Serrated Sword"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) bludgeoning damage. If the target is a Large or smaller creature,\
       \ it must succeed on a DC 14 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Tail"

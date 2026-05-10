@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/ritual
@@ -13,14 +14,14 @@ tags:
 - ttrpg-cli/spell/subclass/oath-of-glory
 - ttrpg-cli/spell/subclass/order-domain
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Cleric (Order Domain)
 - Paladin (Oath of Devotion)
 - Paladin (Oath of Glory)
 - Sorcerer (Divine Soul)
 aliases:
-- Commune
+- "Commune"
 ---
 # Commune
 *5th-level, Divination (ritual)*  
@@ -37,6 +38,6 @@ Divine beings aren't necessarily omniscient, so you might receive "unclear" as a
 
 If you cast the spell two or more times before finishing your next long rest, there is a cumulative  chance for each casting after the first that you get no answer. The DM makes this roll in secret.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Paladin (Oath of Devotion)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-devotion.md); [Paladin (Oath of Glory)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-glory-tce.md "subclass=TCE"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric (Order Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-order-domain-tce.md "subclass=TCE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Order Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-order-domain-tce.md "subclass=TCE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin (Oath of Devotion)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-devotion.md); [Paladin (Oath of Glory)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-glory-tce.md "subclass=TCE"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE")
 
 *Source: Player's Handbook p. 223. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

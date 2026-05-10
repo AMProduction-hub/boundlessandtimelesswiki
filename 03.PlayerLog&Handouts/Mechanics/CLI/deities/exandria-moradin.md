@@ -1,14 +1,15 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/deity/exandria
 - ttrpg-cli/domain/forge
 - ttrpg-cli/domain/knowledge
 - ttrpg-cli/domain/war
-aliases: 
-- Moradin
+aliases:
+- "Moradin"
 ---
 # Moradin
 *Source: Explorer's Guide to Wildemount p. 24* 

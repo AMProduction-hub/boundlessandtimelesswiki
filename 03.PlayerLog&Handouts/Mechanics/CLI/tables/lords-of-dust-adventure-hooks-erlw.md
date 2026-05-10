@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Lords of Dust Adventure Hooks
+- "Lords of Dust Adventure Hooks"
 ---
 # Lords of Dust Adventure Hooks
 *Source: Eberron: Rising from the Last War p. 217* 
 
 **Lords of Dust Adventure Hooks**
-
-`dice: [](lords-of-dust-adventure-hooks-erlw.md#^lords-of-dust-adventure-hooks)`
 
 | dice: d6 | Adventure Hook |
 |----------|----------------|

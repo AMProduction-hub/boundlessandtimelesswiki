@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/4
@@ -16,10 +17,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Orc War Chief
+- "Orc War Chief"
 ---
-# [Orc War Chief](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/orc-war-chief.md)
-*Source: Monster Manual p. 246, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Icewind Dale: Rime of the Frostmaiden*  
+# [Orc War Chief](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc-war-chief.md)
+*Source: Monster Manual p. 246*  
 
 Orcs are savage raiders and pillagers with stooped postures, low foreheads, and piggish faces with prominent lower canines that resemble tusks.
 
@@ -72,7 +73,7 @@ Gruumsh bestows special blessings upon war chiefs who prove themselves in battle
 
 > [!quote] A quote from An account of War Chief Hartusk's brutality in the aftermath of the Battle of the Cold Vale  
 > 
-> He worked his serrated long knife savagely, tearing out the king's throat to the howls of approval from his legions .The ferocious orc didn't stop there, digging and ripping the blade back and forth unrelentingly until he took the head off the dwarf king's shoulders.
+> He worked his serrated long knife savagely, tearing out the king's throat to the howls of approval from his legions. The ferocious orc didn't stop there, digging and ripping the blade back and forth unrelentingly until he took the head off the dwarf king's shoulders.
 
 
 ```statblock
@@ -95,30 +96,34 @@ Gruumsh bestows special blessings upon war chiefs who prove themselves in battle
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "strength": "+6"
-  - "constitution": "+6"
-  - "wisdom": "+2"
+  - "strength": !!int "6"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Orc"
 "cr": "4"
 "traits":
   - "desc": "As a bonus action, the orc can move up to its speed toward a hostile\
       \ creature that it can see."
     "name": "Aggressive"
-  - "desc": "The orc deals an extra 4 (d8) damage when it hits with a weapon attack\
+  - "desc": "The orc deals an extra 4 (1d8) damage when it hits with a weapon attack\
       \ (included in the attacks)."
     "name": "Gruumsh's Fury"
 "actions":
   - "desc": "The orc makes two attacks with its greataxe or its spear."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 15\
-      \ (1d12 + 4 plus d8) slashing damage."
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 15\
+      \ (1d12 + 4 plus 1d8) slashing damage."
     "name": "Greataxe"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 12 (1d6 + 4 plus d8) piercing damage, or 13 (2d8\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 12 (1d6 + 4 plus 1d8) piercing damage, or 13 (2d8\
       \ + 4) piercing damage if used with two hands to make a melee attack."
     "name": "Spear"
   - "desc": "Each creature of the war chief's choice that is within 30 feet of it,\
@@ -128,11 +133,6 @@ Gruumsh bestows special blessings upon war chiefs who prove themselves in battle
     "name": "Battle Cry (1/Day)"
 "source":
   - "MM"
-  - "SKT"
-  - "ToA"
-  - "WDMM"
-  - "GoS"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/orc-war-chief.webp"
 ```
 ^statblock

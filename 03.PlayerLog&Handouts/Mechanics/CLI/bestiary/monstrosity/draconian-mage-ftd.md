@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Draconian Mage
+- "Draconian Mage"
 ---
-# [Draconian Mage](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/draconian-mage-ftd.md)
+# [Draconian Mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/draconian-mage-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 179*  
 
 Draconians born from the eggs of bronze, green, and emerald dragons have some ability to wield magic. They often lead small groups of draconian foot soldiers, using their magic to snipe across the battlefield or aid their allies' incursions and attacks. They have wings that allow them to glide during a fall.
@@ -45,10 +46,13 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+2"
-  - "wisdom": "+2"
-  - "charisma": "+4"
-"senses": "darkvision 60 ft., passive Perception 10"
+  - "intelligence": !!int "2"
+  - "wisdom": !!int "2"
+  - "charisma": !!int "4"
+"gear":
+  - "[trident](03.PlayerLog&Handouts/Mechanics/CLI/items/trident.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Draconic"
 "cr": "2"
 "traits":
@@ -63,16 +67,16 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
 "actions":
   - "desc": "The draconian makes two Trident or Necrotic Ray attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Trident"
-  - "desc": "Ranged Spell Attack: +4 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +4 to hit, range 60 ft., one target. *Hit:*\
       \ 10 (3d6) necrotic damage."
     "name": "Necrotic Ray"
   - "desc": "The draconian casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 12):\n\
-      \n1/day each: [enlarge/reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md),\
+      \n**1/day each:** [enlarge/reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [stinking cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/stinking-cloud.md)"
     "name": "Spellcasting"

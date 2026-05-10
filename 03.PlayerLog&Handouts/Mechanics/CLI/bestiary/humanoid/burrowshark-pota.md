@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Burrowshark
+- "Burrowshark"
 ---
-# [Burrowshark](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/burrowshark-pota.md)
+# [Burrowshark](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/burrowshark-pota.md)
 *Source: Princes of the Apocalypse p. 196*  
 
 Elite warriors of the earth cult, burrowsharks are fierce champions who ride trained bulettes into battle. While their powerful mounts rend and tear foes to pieces, burrowsharks leap to the ground and cut down their foes without mercy.
@@ -46,6 +47,8 @@ Burrowsharks are much like Black Earth guards, since both have uncanny footing a
     "desc": "+3"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 12"
 "languages": "Common"
 "cr": "4"
@@ -59,8 +62,8 @@ Burrowsharks are much like Black Earth guards, since both have uncanny footing a
 "actions":
   - "desc": "The burrowshark makes three melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Spear"
 "reactions":

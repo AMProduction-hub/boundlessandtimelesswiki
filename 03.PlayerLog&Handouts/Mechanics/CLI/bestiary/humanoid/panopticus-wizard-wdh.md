@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Panopticus Wizard
+- "Panopticus Wizard"
 ---
-# [Panopticus Wizard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/panopticus-wizard-wdh.md)
+# [Panopticus Wizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/panopticus-wizard-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 106*  
 
 This bald-headed and tattooed dwarf operates Xanathar's "panopticus" magical surveillance system.
@@ -42,15 +43,17 @@ Apprentice wizards are novice arcane spellcasters who serve more experienced wiz
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+4"
 "damage_resistances": "poison"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 10"
 "languages": "Common, Dwarvish"
 "cr": "1/4"
 "traits":
   - "desc": "The Dwarf is a 1st-level spellcaster. Its spellcasting ability is Intelligence.\
-      \ It has the following wizard spells prepared:\n\nCantrips (at will): [fire\
+      \ It has the following wizard spells prepared:\n\n**Cantrips (at will):** [fire\
       \ bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md), [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (2 slots): [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md),\
+      \n**1st level (2 slots):** [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)"
     "name": "Spellcasting"
@@ -58,9 +61,9 @@ Apprentice wizards are novice arcane spellcasters who serve more experienced wiz
       \ to poison damage."
     "name": "Dwarven Resilience"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) piercing damage. Or Ranged Weapon Attack: +2 to hit, range 20/60\
-      \ ft., one target. Hit: 2 (d4) piercing damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d4) piercing damage. Or Ranged Weapon Attack: +2 to hit, range 20/60\
+      \ ft., one target. *Hit:* 2 (1d4) piercing damage."
     "name": "Dagger"
 "source":
   - "WDH"

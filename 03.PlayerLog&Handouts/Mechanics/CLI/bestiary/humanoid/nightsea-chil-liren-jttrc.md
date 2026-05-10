@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nightsea Chil-liren
+- "Nightsea Chil-liren"
 ---
-# [Nightsea Chil-liren](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/nightsea-chil-liren-jttrc.md)
+# [Nightsea Chil-liren](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/nightsea-chil-liren-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 177*  
 
 Janya is populated by descendants of Djaynai who escaped into the sea during the Passage of Vultures. The magic of Djaynaian transmuters and that of the Nightsea itself gave these people the ability to live beneath the waves. Now known as Nightsea Chil-liren, the people of Janya look similar to the humans of Djaynai, but their brown skin is often tinged shades of gray, and eel-like fins run along their arms and legs.
@@ -37,15 +38,18 @@ Janya is populated by descendants of Djaynai who escaped into the sea during the
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Aquan, Common"
 "cr": "1/8"
 "traits":
   - "desc": "Nightsea Chil-liren can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 3 (d6) piercing damage, or 4 (d8) piercing damage\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +2 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 3 (1d6) piercing damage, or 4 (1d8) piercing damage\
       \ if used with two hands to make a melee attack."
     "name": "Spear"
 "source":

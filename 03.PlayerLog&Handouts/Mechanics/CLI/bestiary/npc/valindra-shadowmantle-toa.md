@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/21
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Valindra Shadowmantle
+- "Valindra Shadowmantle"
 ---
-# [Valindra Shadowmantle](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/valindra-shadowmantle-toa.md)
+# [Valindra Shadowmantle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/valindra-shadowmantle-toa.md)
 *Source: Tomb of Annihilation p. 58*  
 
 Liches are the remains of great wizards who embrace undeath as a means of preserving themselves. They further their own power at any cost, having no interest in the affairs of the living except where those affairs interfere with their own. Scheming and insane, they hunger for long-forgotten knowledge and the most terrible secrets. Because the shadow of death doesn't hang over them, they can conceive plans that take years, decades, or centuries to come to fruition.
@@ -45,9 +46,9 @@ With her ability to appear as a living elf, Valindra can easily conceal her lich
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+10"
-  - "intelligence": "+12"
-  - "wisdom": "+9"
+  - "constitution": !!int "10"
+  - "intelligence": !!int "12"
+  - "wisdom": !!int "9"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+19"
@@ -64,37 +65,38 @@ With her ability to appear as a living elf, Valindra can easily conceal her lich
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 19"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 19"
 "languages": "Common, Abyssal, Draconic, Dwarvish, Elvish, Infernal"
 "cr": "21"
 "traits":
   - "desc": "Valindra is an 18th-level spellcaster. Her spellcasting ability is Intelligence\
       \ (spell save DC 20, +12 to hit with spell attacks). Valindra has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
-      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**1st level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \n**2nd level (3 slots):** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [Melf's acid arrow](03.PlayerLog&Handouts/Mechanics/CLI/spells/melfs-acid-arrow.md),\
       \ [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md)\n\
-      \n3rd level (3 slots): [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
+      \n**3rd level (3 slots):** [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
-      \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)\n\n4th\
-      \ level (3 slots): [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
+      \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)\n\n**4th\
+      \ level (3 slots):** [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
       \ [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md)\n\
-      \n5th level (3 slots): [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
-      \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)\n\n6th\
-      \ level (1 slots): [disintegrate](03.PlayerLog&Handouts/Mechanics/CLI/spells/disintegrate.md),\
+      \n**5th level (3 slots):** [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
+      \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)\n\n**6th\
+      \ level (1 slots):** [disintegrate](03.PlayerLog&Handouts/Mechanics/CLI/spells/disintegrate.md),\
       \ [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md)\n\
-      \n7th level (1 slots): [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
+      \n**7th level (1 slots):** [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)\n\
-      \n8th level (1 slots): [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
+      \n**8th level (1 slots):** [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
       \ [power word stun](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-stun.md)\n\
-      \n9th level (1 slots): [power word kill](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-kill.md)"
+      \n**9th level (1 slots):** [power word kill](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-kill.md)"
     "name": "Spellcasting"
   - "desc": "As a bonus action, Valindra can mask her shriveled flesh and appear to\
       \ be a living elf. This magical illusion lasts until she ends it as a bonus\
@@ -107,20 +109,23 @@ With her ability to appear as a living elf, Valindra can easily conceal her lich
     "name": "Preparation"
   - "desc": "If Valindra fails a saving throw, she can choose to succeed instead."
     "name": "Legendary Resistance (3/Day)"
-  - "desc": "If destroyed Valindra gains a new body in d10 days, regaining all her\
-      \ hit points and becoming active again. The new body appears within 5 feet of\
-      \ the phylactery."
+  - "desc": "If destroyed Valindra gains a new body in 1d10 days, regaining all\
+      \ her hit points and becoming active again. The new body appears within 5 feet\
+      \ of the phylactery."
     "name": "Rejuvenation"
   - "desc": "Valindra has advantage on saving throws against any effect that turns\
       \ undead."
     "name": "Turn Resistance"
 "actions":
-  - "desc": "Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +12 to hit, reach 5 ft., one creature. *Hit:*\
       \ 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving\
       \ throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
       \ its turns, ending the effect on itself on a success."
     "name": "Paralyzing Touch"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Valindra can expend a use to take one of the following actions. Valindra\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Valindra casts a cantrip."
     "name": "Cantrip"

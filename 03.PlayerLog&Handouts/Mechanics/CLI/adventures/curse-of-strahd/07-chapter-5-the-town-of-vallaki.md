@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 aliases:
-- Chapter 5: The Town of Vallaki
+- "Chapter 5: The Town of Vallaki"
 ---
 # Chapter 5: The Town of Vallaki
 *Source: Curse of Strahd, p. 95* 
@@ -56,8 +57,6 @@ If trouble breaks out at one of the gates, the guards there cry out, "To arms!" 
 
 If the characters explore a residence other than the burgomaster's mansion (area N3), roll a `d20` and consult the following table to determine the house's occupant.
 
-`dice: [](07-chapter-5-the-town-of-vallaki.md#^occupant)`
-
 | dice: d20 | Occupant |
 |-----------|----------|
 | 1–3 | None |
@@ -72,7 +71,7 @@ A house infested with rats appears abandoned at first. The rats are servants of 
 
 #### Townsfolk
 
-A house of Vallakian townsfolk contains `d4` adults (male and female human [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) and `d8`−1 children (male and female human noncombatants). Anyone who listens at the door hears chatter from within. Townsfolk won't willingly invite strangers into their homes, but they will speak with characters from behind closed doors or while standing in their vestibules.
+A house of Vallakian townsfolk contains `1d4` adults (male and female human [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) and `1d8`−1 children (male and female human noncombatants). Anyone who listens at the door hears chatter from within. Townsfolk won't willingly invite strangers into their homes, but they will speak with characters from behind closed doors or while standing in their vestibules.
 
 #### Cultists
 
@@ -157,9 +156,9 @@ The inn's wine supply is almost depleted, and the latest delivery from the Wizar
 
 [Urwin Martikov](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/urwin-martikov-cos.md) (LG male human) is a [wereraven](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wereraven-vrgr.md) (see appendix D) and a high-ranking member of the Keepers of the Feather, a secret society of wereravens that opposes Strahd. Urwin's wife and business partner, [Danika Dorakova](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/danika-dorakova-cos.md) (LG female human), is also a [wereraven](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wereraven-vrgr.md), as are their two sons, Brom and Bray. The boys have only 7 hit points each and, at ages eleven and nine, are too young to be effective combatants.
 
-At any given time, another `d4` [wereravens](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wereraven-vrgr.md) (members of the Keepers of the Feather) are present at the inn, either perched on the rooftop in raven form or huddled inside in human form. These wereravens are loyal friends of the Martikovs and help protect the inn.
+At any given time, another `1d4` [wereravens](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wereraven-vrgr.md) (members of the Keepers of the Feather) are present at the inn, either perched on the rooftop in raven form or huddled inside in human form. These wereravens are loyal friends of the Martikovs and help protect the inn.
 
-If the characters earn the trust of the wereravens in Vallaki, the Keepers of the Feather will watch their backs. The next time the characters get themselves in serious trouble, you can have a group of `d4` [wereravens](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wereraven-vrgr.md) show up to rescue or otherwise help them.
+If the characters earn the trust of the wereravens in Vallaki, the Keepers of the Feather will watch their backs. The next time the characters get themselves in serious trouble, you can have a group of `1d4` [wereravens](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wereraven-vrgr.md) show up to rescue or otherwise help them.
 
 #### Fortunes of Ravenloft
 
@@ -746,7 +745,7 @@ If the characters trigger the [glyph of warding](03.PlayerLog&Handouts/Mechanics
 
 Victor found a spellbook in his father's library and is using it to teach himself the art of spellcasting. Only recently has he been able to decipher some of its high-level spells. He's a weird, awkward, and off-putting fellow who is dangerous only if threatened.
 
-For practice and for fun, Victor dug up some old cat bones behind the Wachter estate (see area N4) and animated them, creating six cat skeletons (use the [cat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/cat.md) stat block, but give them [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) out to a range of 60 feet and immunity to poison damage, [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion), and the [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) condition). The skeletons attack only when Victor commands them to.
+For practice and for fun, Victor dug up some old cat bones behind the Wachter estate (see area N4) and animated them, creating six [cat skeletons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/cat-skeleton-cos.md) (use the [cat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/cat.md) stat block, but give them [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) out to a range of 60 feet and immunity to poison damage, [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion), and the [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) condition). The skeletons attack only when Victor commands them to.
 
 The "children" standing in the corner are painted wooden dolls dressed in clothing that Victor wore as a child. He pretends they are his disobedient pupils.
 
@@ -1361,7 +1360,7 @@ In addition to [Luvash](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/luvash-
 
 ##### Dealing with Luvash
 
-[Luvash](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/luvash-cos.md) is unhappy because his seven-year-old daughter, [Arabelle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/arabelle-cos.md), has vanished. She's been gone for a little more than a day. Because everyone in the camp was drunk and [Arrigal](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/arrigal-cos.md) was away, no one remembers seeing or hearing anything strange. [Luvash](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/luvash-cos.md) is determined to find her, no matter what the cost, and most of his camp is out scouring the woods when the characters arrive. (Missing from the camp are twelve [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/vistana-bandit-cos.md). Each hour that passes, `d4` of them return to camp with no news on [Arabelle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/arabelle-cos.md)'s whereabouts.)
+[Luvash](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/luvash-cos.md) is unhappy because his seven-year-old daughter, [Arabelle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/arabelle-cos.md), has vanished. She's been gone for a little more than a day. Because everyone in the camp was drunk and [Arrigal](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/arrigal-cos.md) was away, no one remembers seeing or hearing anything strange. [Luvash](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/luvash-cos.md) is determined to find her, no matter what the cost, and most of his camp is out scouring the woods when the characters arrive. (Missing from the camp are twelve [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/vistana-bandit-cos.md). Each hour that passes, `1d4` of them return to camp with no news on [Arabelle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/arabelle-cos.md)'s whereabouts.)
 
 If an alarm is sounded, nine Vistani [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/vistana-bandit-cos.md) (NE male and female humans) emerge from three of the surrounding wagons (area N9g) and arrive at the tent with weapons drawn in 2 rounds.
 
@@ -1408,7 +1407,7 @@ There are four of these wagons at the camp.
 > You hear heavy snores from within this barrel-topped wagon.
 ^3fd
 
-Each of these wagons contains `d4` sleeping Vistani (CN male and female human [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/vistana-bandit-cos.md)). These Vistani wake up if their wagon is shaken or if they take damage and have at least 1 hit point remaining.
+Each of these wagons contains `1d4` sleeping Vistani (CN male and female human [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/vistana-bandit-cos.md)). These Vistani wake up if their wagon is shaken or if they take damage and have at least 1 hit point remaining.
 
 #### N9g. Wagon of Gambling Vistani
 

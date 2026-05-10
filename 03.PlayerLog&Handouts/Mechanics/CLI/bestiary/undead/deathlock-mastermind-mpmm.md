@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/8
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Deathlock Mastermind
+- "Deathlock Mastermind"
 ---
-# [Deathlock Mastermind](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/deathlock-mastermind-mpmm.md)
+# [Deathlock Mastermind](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/deathlock-mastermind-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 87, Mordenkainen's Tome of Foes p. 129*  
 
 Though deathlocks exist to serve their patrons, they retain some freedom when it comes to devising tactics and carrying out plans. Powerful deathlocks recruit lesser creatures to help them carry out their missions, becoming the masterminds behind vast conspiracies and intrigues that culminate in the accomplishment of great acts of evil.
@@ -42,8 +43,8 @@ An powerful necromancer might also discover the wicked methods of creating a dea
   - !!int "17"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+5"
-  - "charisma": "+6"
+  - "intelligence": !!int "5"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -56,7 +57,8 @@ An powerful necromancer might also discover the wicked methods of creating a dea
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 14"
 "languages": "the languages it knew in life"
 "cr": "8"
 "traits":
@@ -70,10 +72,10 @@ An powerful necromancer might also discover the wicked methods of creating a dea
 "actions":
   - "desc": "The deathlock makes two Deathly Claw or Grave Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (3d6 + 3 necrotic damage)."
     "name": "Deathly Claw"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 120 ft., one target. *Hit:*\
       \ 13 (3d8) necrotic damage. If the target is Large or smaller, it must succeed\
       \ on a DC 16 Strength saving throw or become [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ as shadowy tendrils wrap around it for 1 minute. A [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
@@ -81,11 +83,11 @@ An powerful necromancer might also discover the wicked methods of creating a dea
       \ itself on a success."
     "name": "Grave Bolt"
   - "desc": "The deathlock casts one of the following spells, using Charisma as the\
-      \ spellcasting ability (spell save DC 14):\n\nAt will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ spellcasting ability (spell save DC 14):\n\n**At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [minor\
       \ illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\n\
-      1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      **1/day each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)"

@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/5
 - ttrpg-cli/monster/size/medium
-- ttrpg-cli/monster/type/humanoid/elf
+- ttrpg-cli/monster/type/humanoid/drow-elf
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Shunn Shurreth
+- "Shunn Shurreth"
 ---
-# [Shunn Shurreth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/shunn-shurreth-wdmm.md)
+# [Shunn Shurreth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/shunn-shurreth-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 33*  
 
 A drow priestess of Lolth placed a curse on Shunn and forced him into exile after he displeased her. The curse partially transformed him into a spider, giving him eight red arachnid eyes, a mouth full of fangs, and black bristles sprouting from his slender limbs. A remove curse or [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md) spell restores Shunn's natural form, but Shunn doesn't want the curse lifted. His horrific appearance strikes fear into the hearts of his comrades-in-arms and has earned him favor with Xanathar. Shunn believes that returning to his normal form might weaken his influence over his gang and diminish his status in the Xanathar Guild.
@@ -20,7 +21,7 @@ A drow priestess of Lolth placed a curse on Shunn and forced him into exile afte
 "name": "Shunn Shurreth (WDMM)"
 "size": "Medium"
 "type": "humanoid"
-"subtype": "elf"
+"subtype": "Drow elf"
 "alignment": "Lawful Evil"
 "ac": !!int "18"
 "ac_class": "[studded leather](03.PlayerLog&Handouts/Mechanics/CLI/items/studded-leather-armor.md),\
@@ -37,22 +38,26 @@ A drow priestess of Lolth placed a curse on Shunn and forced him into exile afte
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+7"
-  - "constitution": "+5"
-  - "wisdom": "+4"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+10"
-"senses": "darkvision 120 ft., passive Perception 14"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 14"
 "languages": "Elvish, Undercommon"
 "cr": "5"
 "traits":
   - "desc": "Shunn's spellcasting ability is Charisma (spell save DC 12). It can innately\
-      \ cast the following spells, requiring no material components:\n\nAt will:\
+      \ cast the following spells, requiring no material components:\n\n**At will:**\
       \ [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
-      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \n**1/day each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
       \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md) (self only)"
     "name": "Innate Spellcasting"
@@ -69,10 +74,10 @@ A drow priestess of Lolth placed a curse on Shunn and forced him into exile afte
 "actions":
   - "desc": "Shunn makes two shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) piercing damage plus 10 (3d6) poison damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +7 to hit, range 30/120 ft., one target. *Hit:*\
       \ 7 (1d6 + 4) piercing damage, and the target must succeed on a DC 13 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 hour. If the saving throw fails by 5 or more, the target is also [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\

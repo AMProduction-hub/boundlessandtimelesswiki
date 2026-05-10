@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/gruul-anarch
 - ttrpg-cli/spell/class/artificer
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
 - ttrpg-cli/spell/class/sorcerer
@@ -14,7 +15,7 @@ tags:
 - ttrpg-cli/spell/optfeature/eternal-mountain-defense
 - ttrpg-cli/spell/school/abjuration
 - ttrpg-cli/spell/subclass/arcane-trickster
-- ttrpg-cli/spell/subclass/circle-of-the-land
+- ttrpg-cli/spell/subclass/circle-of-the-land/mountain
 - ttrpg-cli/spell/subclass/eldritch-knight
 - ttrpg-cli/spell/subclass/oath-of-conquest
 - ttrpg-cli/spell/subclass/oath-of-redemption
@@ -22,10 +23,10 @@ tags:
 - ttrpg-cli/spell/subclass/war-domain
 classes:
 - Artificer
-- Bard
+- Bard (Magical Secrets)
 - Cleric (War Domain)
 - Druid
-- Druid (Circle of the Land)
+- Druid (Circle of the Land, Mountain)
 - Fighter (Eldritch Knight)
 - Paladin (Oath of Conquest)
 - Paladin (Oath of Redemption)
@@ -35,7 +36,7 @@ classes:
 - Sorcerer
 - Wizard
 aliases:
-- Stoneskin
+- "Stoneskin"
 ---
 # Stoneskin
 *4th-level, Abjuration*  
@@ -48,6 +49,6 @@ aliases:
 
 This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.
 
-**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Paladin (Oath of the Ancients)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-ancients.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Paladin (Oath of Conquest)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-conquest-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Paladin (Oath of Redemption)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-redemption-xge.md "subclass=XGE"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Cleric (War Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-war-domain.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (War Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-war-domain.md); [Druid (Circle of the Land, Mountain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Paladin (Oath of Conquest)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-conquest-xge.md "subclass=XGE"); [Paladin (Oath of Redemption)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-redemption-xge.md "subclass=XGE"); [Paladin (Oath of the Ancients)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-ancients.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 278. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

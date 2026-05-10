@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/12
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Archon of Falling Stars
+- "Archon of Falling Stars"
 ---
-# [Archon of Falling Stars](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/archon-of-falling-stars-mot.md)
+# [Archon of Falling Stars](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/archon-of-falling-stars-mot.md)
 *Source: Mythic Odysseys of Theros p. 212*  
 
 The epic accounting of the world's earliest histories called *The Cosmogony* recounts the battle between a group of the gods' champions and a mighty archon, which took place at the mysterious eastern edge of the world. Defeated, the falling archon is said to have met the rising sun. But Heliod showed mercy to the penitent archon, who swore to uphold justice and righteousness in the world's wildest places. As a sign of his mercy, Heliod gave the archon a spear that rivaled his own in its brilliance. This was the first archon of falling stars.
@@ -39,10 +40,10 @@ Even though the age of archons is long past, many wonder if the few surviving ar
   - !!int "19"
 "speed": "30 ft."
 "saves":
-  - "strength": "+9"
-  - "constitution": "+8"
-  - "wisdom": "+9"
-  - "charisma": "+8"
+  - "strength": !!int "9"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -56,16 +57,17 @@ Even though the age of archons is long past, many wonder if the few surviving ar
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 120 ft., passive Perception 19"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 19"
 "languages": "all"
 "cr": "12"
 "traits":
   - "desc": "The archon's spellcasting ability is Wisdom (spell save DC 17, +9 to\
       \ hit with spell attacks). The archon can innately cast the following spells,\
-      \ requiring no material components:\n\nAt will: [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \ requiring no material components:\n\n**At will:** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [guiding bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/guiding-bolt.md),\
       \ [spare the dying](03.PlayerLog&Handouts/Mechanics/CLI/spells/spare-the-dying.md)\n\
-      \n1/day each: [crusader's mantle](03.PlayerLog&Handouts/Mechanics/CLI/spells/crusaders-mantle.md),\
+      \n**1/day each:** [crusader's mantle](03.PlayerLog&Handouts/Mechanics/CLI/spells/crusaders-mantle.md),\
       \ [spirit guardians](03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-guardians.md)"
     "name": "Innate Spellcasting"
   - "desc": "The archon has advantage on saving throws against spells and other magical\
@@ -90,9 +92,13 @@ Even though the age of archons is long past, many wonder if the few surviving ar
 "actions":
   - "desc": "The archon makes two attacks with its radiant spear."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
       \ 12 (2d6 + 5) piercing damage plus 10 (3d6) radiant damage."
     "name": "Radiant Spear"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the archon of falling stars can expend a use to take one of the following\
+  \ actions. The archon of falling stars regains all expended uses at the start of\
+  \ each of its turns."
 "legendary_actions":
   - "desc": "The archon makes a radiant spear attack or casts [guiding bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/guiding-bolt.md)."
     "name": "Attack"

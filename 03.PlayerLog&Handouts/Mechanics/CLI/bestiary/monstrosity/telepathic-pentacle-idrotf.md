@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Telepathic Pentacle
+- "Telepathic Pentacle"
 ---
-# [Telepathic Pentacle](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/telepathic-pentacle-idrotf.md)
+# [Telepathic Pentacle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/telepathic-pentacle-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 244*  
 
 Months before Ythryn's fall, a circle of mages known as the Telepathic Pentacle tried to fuse their minds together to become a conjoined telepathic force. The procedure went terribly wrong, and their bodies and minds melded into a single monstrosity. Iriolarthas imprisoned the thing in this empty well so that its latent telepathic powers could be tapped by the city's elite. A short obituary is engraved around the lip of the well in Draconic: "Herein lie the immortal remains of the Telepathic Pentacle. Sit, meditate, and learn."
@@ -37,7 +38,8 @@ Months before Ythryn's fall, a circle of mages known as the Telepathic Pentacle 
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 16"
 "languages": ""
 "cr": "8"
 "traits":
@@ -65,7 +67,7 @@ Months before Ythryn's fall, a circle of mages known as the Telepathic Pentacle 
 "actions":
   - "desc": "The Telepathic Pentacle makes as many bite attacks as it has heads."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 10 (1d10 + 5) piercing damage."
     "name": "Bite"
 "source":

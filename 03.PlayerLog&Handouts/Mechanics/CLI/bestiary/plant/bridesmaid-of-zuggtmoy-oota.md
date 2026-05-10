@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bridesmaid of Zuggtmoy
+- "Bridesmaid of Zuggtmoy"
 ---
-# [Bridesmaid of Zuggtmoy](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/bridesmaid-of-zuggtmoy-oota.md)
+# [Bridesmaid of Zuggtmoy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/bridesmaid-of-zuggtmoy-oota.md)
 *Source: Out of the Abyss p. 230*  
 
 ```statblock
@@ -32,7 +33,8 @@ aliases:
   - !!int "8"
   - !!int "18"
 "speed": "20 ft."
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "understands Abyssal but can't speak"
 "cr": "1/8"
 "traits":

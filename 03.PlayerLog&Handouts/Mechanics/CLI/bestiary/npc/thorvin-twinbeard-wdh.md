@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Thorvin Twinbeard
+- "Thorvin Twinbeard"
 ---
-# [Thorvin Twinbeard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/thorvin-twinbeard-wdh.md)
+# [Thorvin Twinbeard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/thorvin-twinbeard-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 216*  
 
 Thorvin serves as Xanathar's chief engineer and trapsmith. He also serves the Harpers as a paid informant, keeping that faction apprised of Xanathar's plans as well as he can. Thorvin uses the ruse of maintenance inspections to cover up secret meetings he holds with Harper spies in Skullport and elsewhere.
@@ -37,7 +38,10 @@ Thorvin wears iron-rimmed spectacles and carries a large, heavy wrench that doub
   - !!int "10"
 "speed": "25 ft."
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Dwarvish"
 "cr": "0"
 "traits":
@@ -45,8 +49,8 @@ Thorvin wears iron-rimmed spectacles and carries a large, heavy wrench that doub
       \ to poison damage."
     "name": "Dwarven Resilience"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) bludgeoning damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d4) bludgeoning damage."
     "name": "Club"
 "source":
   - "WDH"

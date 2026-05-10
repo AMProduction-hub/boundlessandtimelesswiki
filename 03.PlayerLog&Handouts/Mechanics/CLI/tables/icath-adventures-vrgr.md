@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- I'Cath Adventures
+- "I'Cath Adventures"
 ---
 # I'Cath Adventures
 *Source: Van Richten's Guide to Ravenloft p. 121* 
 
 **I'Cath Adventures**
-
-`dice: [](icath-adventures-vrgr.md#^icath-adventures)`
 
 | dice: d10 | Adventure |
 |-----------|-----------|

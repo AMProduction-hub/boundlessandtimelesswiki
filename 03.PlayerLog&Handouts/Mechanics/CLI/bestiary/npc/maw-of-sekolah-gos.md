@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Maw of Sekolah
+- "Maw of Sekolah"
 ---
-# [Maw of Sekolah](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/maw-of-sekolah-gos.md)
+# [Maw of Sekolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/maw-of-sekolah-gos.md)
 *Source: Ghosts of Saltmarsh p. 244*  
 
 Summoned from the shadowy depths of the ocean through ritual and tidal magic, the Maw of Sekolah appears in The Final Enemy as the avatar of the hungry sahuagin god. This huge, two-headed shark is fed a steady diet of sentient creatures, captured by the sahuagin and offered up as tribute. Sahuagin priestesses adorn the fins of the maw of Sekolah with gemmed bands and polished skulls.
@@ -35,14 +36,15 @@ Summoned from the shadowy depths of the ocean through ritual and tidal magic, th
   - !!int "7"
 "speed": "0 ft., swim 50 ft."
 "saves":
-  - "strength": "+8"
-  - "constitution": "+6"
+  - "strength": !!int "8"
+  - "constitution": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+8"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
-"senses": "darkvision 120 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 15"
 "languages": "Sahuagin, telepathy 100 ft."
 "cr": "7"
 "traits":
@@ -55,12 +57,15 @@ Summoned from the shadowy depths of the ocean through ritual and tidal magic, th
   - "desc": "The maw of Sekolah makes one attack with its bite and one attack with\
       \ its tail smash."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 16 (2d10 + 5) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 9 (1d8 + 5) bludgeoning damage."
     "name": "Tail Smash"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Maw can expend a use to take one of the following actions. Maw regains all\
+  \ expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "The maw of Sekolah makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ check."

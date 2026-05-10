@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/item/rarity/none
 - ttrpg-cli/item/wondrous/other
-aliases: 
+aliases:
 - "Tangler Grenade"
 ---
 # Tangler Grenade

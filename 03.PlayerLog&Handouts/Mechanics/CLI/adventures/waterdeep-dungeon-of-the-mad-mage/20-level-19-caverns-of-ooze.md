@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 19: Caverns of Ooze
+- "Level 19: Caverns of Ooze"
 ---
 # Level 19: Caverns of Ooze
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 243* 
@@ -40,7 +41,7 @@ Most of the ooze that flows through this level is harmless elemental waste, but 
 The characters encounter six Ghaunadaur-worshiping duergar who were transformed by Halaster's magic into a single [gray ooze](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/gray-ooze.md) with a challenge rating of 8 (3,900 XP) and these changes:
 
 - The ooze is Huge, with 152 (`16d12 + 48`) hit points and a Strength score of 18.  
-- As an action, it can make two attacks with its pseudopods (+7 to hit). On a hit, a pseudopod deals 21 (`6d6`) acid damage, or 42 (`12d6`) acid damage while the ooze is enlarged.  
+- As an action, it can make two attacks with its pseudopods (`+7` to hit). On a hit, a pseudopod deals 21 (`6d6`) acid damage, or 42 (`12d6`) acid damage while the ooze is enlarged.  
 - The ooze has the Enlarge and Invisibility traits below.  
 
 ##### Enlarge (Recharges after a Short or Long Rest)
@@ -60,7 +61,7 @@ The characters encounter two Ghaunadaur-worshiping drow who were transformed by 
 
 ##### Innate Spellcasting
 
-The pudding's spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It can cast the following spells, requiring no components:
+The pudding's spellcasting ability is Intelligence (spell save DC 12, `+4` to hit with spell attacks). It can cast the following spells, requiring no components:
 
 At will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)
 
@@ -255,8 +256,6 @@ The gas spore drifted into this cave from area 8. Its spores contain memory frag
 
 **Beholder Memories**
 
-`dice: [](20-level-19-caverns-of-ooze.md#^beholder-memories)`
-
 | dice: d100 | Memory |
 |------------|--------|
 | 01–20 | The beholder chases a deep gnome through a fungal forest in a vast Underdark cavern illuminated by glowing mushrooms and phosphorescent fungi. |
@@ -373,7 +372,7 @@ The disk embedded in the altar can be removed by turning it 360 degrees counterc
 
 If the altar is opened, the multi-armed representation of Ghaunadaur animates and attacks creatures within 10 feet of it or within 5 feet of the altar. The statue is a Large object with AC 17, 50 hit points, a speed of 0 feet, and immunity to acid, poison, and psychic damage. It has the following ability scores: Strength 14, Dexterity 10, Intelligence 3, Wisdom 3, and Charisma 1. It has [blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight) out to a range of 10 feet and is blind beyond this radius.
 
-As an action, the animated statue makes a single melee weapon attack (+10 to hit) with its claws. On a hit, the claws deal 22 (`5d6 + 5`) slashing damage to the target, and any nonmagical armor worn by the target is destroyed.
+As an action, the animated statue makes a single melee weapon attack (`+10` to hit) with its claws. On a hit, the claws deal 22 (`5d6 + 5`) slashing damage to the target, and any nonmagical armor worn by the target is destroyed.
 
 #### Treasure
 
@@ -411,7 +410,7 @@ Only a carefully worded [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.m
 
 **Hatch**. Not visible from the floor of the cavern is an open hatch with a ladder that descends to area 13b.
 
-A ballista is a Large object with AC 15, 50 hit points, and immunity to poison and psychic damage. Before it can be fired, a ballista must be loaded and aimed. (The ballistae are loaded when the characters first arrive.) It takes one action to load the weapon, one action to aim it, and one action to fire it (+6 to hit, range 120/480 ft., one target). On a hit, a ballista bolt deals 16 (`3d10`) piercing damage.
+A ballista is a Large object with AC 15, 50 hit points, and immunity to poison and psychic damage. Before it can be fired, a ballista must be loaded and aimed. (The ballistae are loaded when the characters first arrive.) It takes one action to load the weapon, one action to aim it, and one action to fire it (`+6` to hit, range 120/480 ft., one target). On a hit, a ballista bolt deals 16 (`3d10`) piercing damage.
 
 Each ballista comes with ten bolts stored in a rack built into the weapon's stand. A swivel base gives each ballista a firing arc of 180 degrees.
 

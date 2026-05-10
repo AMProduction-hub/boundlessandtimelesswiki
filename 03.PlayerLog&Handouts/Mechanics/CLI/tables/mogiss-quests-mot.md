@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Mogis's Quests
+- "Mogis's Quests"
 ---
 # Mogis's Quests
 *Source: Mythic Odysseys of Theros p. 152* 
 
 **Mogis's Quests**
-
-`dice: [](mogiss-quests-mot.md#^mogiss-quests)`
 
 | dice: d6 | Adventure Goal |
 |----------|----------------|

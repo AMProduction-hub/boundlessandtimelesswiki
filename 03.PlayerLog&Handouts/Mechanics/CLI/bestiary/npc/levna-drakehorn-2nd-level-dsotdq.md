@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Levna Drakehorn (2nd Level)
+- "Levna Drakehorn (2nd Level)"
 ---
-# [Levna Drakehorn (2nd Level)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/levna-drakehorn-2nd-level-dsotdq.md)
+# [Levna Drakehorn (2nd Level)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/levna-drakehorn-2nd-level-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 213*  
 
 ```statblock
@@ -34,7 +35,7 @@ aliases:
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+4"
+  - "constitution": !!int "4"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+4"
@@ -42,6 +43,8 @@ aliases:
     "desc": "+4"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
 "senses": "passive Perception 12"
 "languages": "Common"
 "traits":
@@ -52,11 +55,11 @@ aliases:
       \ one of her allies is within 5 feet of the creature and the ally isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
   - "desc": "Levna can use a bonus action on her turn to regain hit points equal to\
-      \ d10 + her level. Once she uses this feature, she can't use it again until\
+      \ 1d10 + her level. Once she uses this feature, she can't use it again until\
       \ she finishes a short or long rest."
     "name": "Second Wind"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d6 + 2) slashing damage."
     "name": "Greatsword"
 "reactions":

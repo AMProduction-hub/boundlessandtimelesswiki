@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- The Soul's Shape; Ankhtepot's Soul
+- "The Soul's Shape; Ankhtepot's Soul"
 ---
 # The Soul's Shape; Ankhtepot's Soul
 *Source: Van Richten's Guide to Ravenloft p. 110* 
 
 **Ankhtepot's Soul**
-
-`dice: [](the-souls-shape-ankhtepots-soul-vrgr.md#^ankhtepots-soul)`
 
 | dice: d8 | The Ka's Form |
 |----------|---------------|

@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/race/half-elf/aquatic-elf-descent
 aliases:
-- Half-Elf (Aquatic Elf Descent)
+- "Half-Elf (Aquatic Elf Descent)"
 ---
 # Half-Elf (Aquatic Elf Descent)
 *Source: Sword Coast Adventurer's Guide p. 116*  
 
 
-- **Ability Scores**: Charisma +2; Apply +1 to one of Strength, Dexterity, Constitution, Intelligence, or Wisdom.
+- **Ability Scores**: Apply +1 to one of Strength, Dexterity, Constitution, Intelligence, or Wisdom.
 - **Size**: Medium
 - **Speed**: 30 ft.
 

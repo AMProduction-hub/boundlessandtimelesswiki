@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 aliases:
-- Ocean Environs
+- "Ocean Environs"
 ---
 # Ocean Environs
 *Source: Ghosts of Saltmarsh p. 202* 
@@ -19,8 +20,6 @@ Blue holes are filled with secrets. Many blue holes hide monsters or treasure, a
 
 **Hiding in Blue Holes**
 
-`dice: [](ocean-environs-gos.md#^hiding-in-blue-holes)`
-
 | dice: d10 | Creatures or Treasure |
 |-----------|-----------------------|
 | 1 | `2d10` [sahuagin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin.md) |
@@ -28,24 +27,24 @@ Blue holes are filled with secrets. Many blue holes hide monsters or treasure, a
 | 3 | `1d4 + 1` [chuuls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/chuul.md) |
 | 4 | 1 [sea hag](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/sea-hag.md) and `2d4` [merrow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/merrow.md) |
 | 5 | 1 [plesiosaurus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/plesiosaurus.md) |
-| 6 | `d4` [swarms of quippers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-quippers.md) |
+| 6 | `1d4` [swarms of quippers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-quippers.md) |
 | 7 | `2d4` [reef sharks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/reef-shark.md) |
 | 8 | 1 [giant shark](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-shark.md) |
-| 9 | `d6` items from "Magic Item Table A" in chapter 7, ""Treasure"," of the "Dungeon Master's Guide" |
-| 10 | Treasure rolled on the [Treasure Hoard: Challenge 0–4 table](03.PlayerLog&Handouts/Mechanics/CLI/tables/individual-treasure-challenge-04.md) in chapter 7, ""Treasure"," of the "Dungeon Master's Guide" |
+| 9 | `1d6` items from "Magic Item Table A" in chapter 7, ""Treasure"," of the "Dungeon Master's Guide" |
+| 10 | Treasure rolled on the [Treasure Hoard: Challenge 0—4](03.PlayerLog&Handouts/Mechanics/CLI/tables/treasure-hoard-challenge-04.md) table in chapter 7, ""Treasure"," of the "Dungeon Master's Guide" |
 ^hiding-in-blue-holes
 
 ## Coral Reefs
 
 Coral reefs grow all over the ocean floor, though most are found within depths of less than 150 feet near the shoreline. Reefs range from a few feet to over 1,000 miles in length and width. These colorful ecosystems house small fish, crustaceans, and mollusks. As a result, predators come to reefs looking for prey.
 
-Uneven and sharp, coral reefs can harm those forced into them. A creature forcibly moved on the reef—without using the creature's action, bonus action, or reaction—takes 3 (`d6`) slashing damage per 5 feet of reef that it is pushed over.
+Uneven and sharp, coral reefs can harm those forced into them. A creature forcibly moved on the reef—without using the creature's action, bonus action, or reaction—takes 3 (`1d6`) slashing damage per 5 feet of reef that it is pushed over.
 
 ## Currents
 
-Ocean water is moved by wind and tides to create constant river-like flows called currents. Tidal currents are typically the strongest. They're usually found within 50 miles of shore and at depths of less than 300 feet. These currents have a speed of `d6` miles per hour that changes daily.
+Ocean water is moved by wind and tides to create constant river-like flows called currents. Tidal currents are typically the strongest. They're usually found within 50 miles of shore and at depths of less than 300 feet. These currents have a speed of `1d6` miles per hour that changes daily.
 
-Currents become weaker farther out to sea and deeper in the ocean. These currents have a speed of `d4`−1 miles per hour that changes daily.
+Currents become weaker farther out to sea and deeper in the ocean. These currents have a speed of `1d4`−1 miles per hour that changes daily.
 
 ![](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/img/gos-096-za-06-ocean-environs-p203.webp#center)
 
@@ -99,8 +98,6 @@ If a ship encounters eldritch mist, choose a type or roll for one on the Eldritc
 
 **Eldritch Mist Types**
 
-`dice: [](ocean-environs-gos.md#^eldritch-mist-types)`
-
 | dice: d6 | Mist Type |
 |----------|-----------|
 | 1–2 | Ghost Fog |
@@ -113,8 +110,6 @@ If a ship encounters eldritch mist, choose a type or roll for one on the Eldritc
 Mist lightly obscures the area it fills. Depending on its density, it heavily obscures an area beyond a certain distance from creatures within. Use the Mist Thickness table to determine a mist's thickness at random. The Mist Obfuscation table notes how far a creature in mist can see before the area beyond is heavily obscured.
 
 **Mist Thickness**
-
-`dice: [](ocean-environs-gos.md#^mist-thickness)`
 
 | dice: d10 | Thickness |
 |-----------|-----------|
@@ -182,8 +177,6 @@ Even worse than the threat of storms is the menace of weather imbued with magic.
 
 **Magical Storm Type**
 
-`dice: [](ocean-environs-gos.md#^magical-storm-type)`
-
 | dice: d8 | Magic |
 |----------|-------|
 | 1 | Abjuration |
@@ -202,11 +195,11 @@ A storm infused with abjuration magic repels ships, as if protecting something i
 
 ### Conjuration
 
-When conjuration magic churns within a storm's heart, creatures of wind and rain emerge from distant realms to attack anything they encounter. The ship encounters `d3` hostile [air elementals](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/air-elemental.md).
+When conjuration magic churns within a storm's heart, creatures of wind and rain emerge from distant realms to attack anything they encounter. The ship encounters `1d3` hostile [air elementals](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/air-elemental.md).
 
 ### Divination
 
-When divination magic seeps into a storm, howling winds and residual whispers temporarily scramble the knowledge of a ship's crew; for `d3` days, the ship's crew suffers disadvantage on all quality checks.
+When divination magic seeps into a storm, howling winds and residual whispers temporarily scramble the knowledge of a ship's crew; for `1d3` days, the ship's crew suffers disadvantage on all quality checks.
 
 ### Enchantment
 
@@ -214,7 +207,7 @@ Storms infused with enchantment magic disarm a creature's sense of danger, enthr
 
 ### Evocation
 
-These ferocious storms are wracked with thunderbolts, driving sheets of acid rain, exploding meteors, and other dangers. After each day of the storm, every component aboard the ship takes `d10` fire, `d10` acid, and `d10` lightning damage. In addition, roll a `d20` and add the crew's quality. On a 10 or less, the crew's quality decreases by 1, and `d6` members of the crew are killed.
+These ferocious storms are wracked with thunderbolts, driving sheets of acid rain, exploding meteors, and other dangers. After each day of the storm, every component aboard the ship takes `1d10` fire, `1d10` acid, and `1d10` lightning damage. In addition, roll a `d20` and add the crew's quality. On a 10 or less, the crew's quality decreases by 1, and `1d6` members of the crew are killed.
 
 ### Illusion
 
@@ -222,7 +215,7 @@ A storm brimming with illusions poses little direct harm to a ship, but experien
 
 ### Necromancy
 
-Ghosts howl and whirl in this storm's wind, while the remains of long-dead mariners stir in their watery graves. During the storm, `d4` [specters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md), `2d4` [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md), and `4d6` [zombies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md) emerge from the waves to attack the ship.
+Ghosts howl and whirl in this storm's wind, while the remains of long-dead mariners stir in their watery graves. During the storm, `1d4` [specters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md), `2d4` [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md), and `4d6` [zombies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md) emerge from the waves to attack the ship.
 
 ### Transmutation
 
@@ -257,20 +250,18 @@ Shipwrecks at the bottom of the ocean make the perfect locations for monsters' l
 
 **Shipwreck Contents**
 
-`dice: [](ocean-environs-gos.md#^shipwreck-contents)`
-
 | dice: d10 | Creatures or Treasure |
 |-----------|-----------------------|
 | 1 | 1 [sahuagin priestess](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-priestess.md) and `2d10` [sahuagin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin.md) |
 | 2 | 1 [young bronze dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-bronze-dragon.md) |
 | 3 | `4d10` [giant crabs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-crab.md) |
 | 4 | `3d10` [giant seahorses](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-sea-horse.md) |
-| 5 | `d4` [hunter sharks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/hunter-shark.md) |
+| 5 | `1d4` [hunter sharks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/hunter-shark.md) |
 | 6 | 1 [giant octopus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-octopus.md) |
 | 7 | `2d6` [merrow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/merrow.md) |
 | 8 | `2d10` [merfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/merfolk.md) |
-| 9 | `d6` items from [Magic Item Table B](03.PlayerLog&Handouts/Mechanics/CLI/tables/magic-item-table-b.md) in chapter 7, ""Treasure"," of the "Dungeon Master's Guide" |
-| 10 | Treasure rolled on the [Treasure Hoard: Challenge 5–10 table](03.PlayerLog&Handouts/Mechanics/CLI/tables/individual-treasure-challenge-510.md) in chapter 7, ""Treasure"," of the "Dungeon Master's Guide" |
+| 9 | `1d6` items from [Magic Item Table B](03.PlayerLog&Handouts/Mechanics/CLI/tables/magic-item-table-b.md) in chapter 7, ""Treasure"," of the "Dungeon Master's Guide" |
+| 10 | Treasure rolled on the [Treasure Hoard: Challenge 5—10](03.PlayerLog&Handouts/Mechanics/CLI/tables/treasure-hoard-challenge-510.md) table in chapter 7, ""Treasure"," of the "Dungeon Master's Guide" |
 ^shipwreck-contents
 
 ## Whirlpools
@@ -326,8 +317,6 @@ Determine how many of the group's checks succeeded—the officers' and the crew'
 While a whirlpool might be a short-lived hazard that drags things into the depths, they might also serve as a violent passage to another realm. In such cases, things dragged into a whirlpool are deposited elsewhere, be it through a crack in the seafloor leading to an Underdark ocean or a portal to a different plane of existence. Use the Whirlpool Destinations table to choose or randomly determine where a whirlpool leads, usually to a body of water in that destination. See "chapter 2" of the "Dungeon Master's Guide" for information about the destinations on other planes.
 
 **Whirlpool Destinations**
-
-`dice: [](ocean-environs-gos.md#^whirlpool-destinations)`
 
 | dice: d10 | Destination |
 |-----------|-------------|

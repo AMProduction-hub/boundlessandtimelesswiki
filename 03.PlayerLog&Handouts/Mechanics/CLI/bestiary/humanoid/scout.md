@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -18,10 +19,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Scout
+- "Scout"
 ---
-# [Scout](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/scout.md)
-*Source: Monster Manual p. 349, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Ghosts of Saltmarsh, Divine Contention, Dragon of Icespire Peak, Storm Lord's Wrath, Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Journeys through the Radiant Citadel, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Scout](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md)
+*Source: Monster Manual p. 349. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Scouts are skilled hunters and trackers who offer their services for a fee. Most hunt wild game, but a few work as bounty hunters, serve as guides, or provide military reconnaissance.
 
@@ -53,6 +54,9 @@ Scouts are skilled hunters and trackers who offer their services for a fee. Most
     "desc": "+6"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+5"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 15"
 "languages": "any one language (usually Common)"
 "cr": "1/2"
@@ -63,32 +67,14 @@ Scouts are skilled hunters and trackers who offer their services for a fee. Most
 "actions":
   - "desc": "The scout makes two melee attacks or two ranged attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, ranged 150/600 ft., one target.\
-      \ Hit: 6 (1d8 + 2) piercing damage."
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, ranged 150/600 ft., one target.\
+      \ *Hit:* 6 (1d8 + 2) piercing damage."
     "name": "Longbow"
 "source":
   - "MM"
-  - "CoS"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "ToA"
-  - "GoS"
-  - "DC"
-  - "DIP"
-  - "SLW"
-  - "SDW"
-  - "BGDIA"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
-  - "CM"
-  - "JttRC"
-  - "DSotDQ"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/scout.webp"
 ```
 ^statblock

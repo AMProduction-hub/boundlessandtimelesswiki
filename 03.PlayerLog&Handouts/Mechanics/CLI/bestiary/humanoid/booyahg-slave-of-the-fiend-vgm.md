@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Booyahg Slave of the Fiend
+- "Booyahg Slave of the Fiend"
 ---
-# [Booyahg Slave of the Fiend](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/booyahg-slave-of-the-fiend-vgm.md)
+# [Booyahg Slave of the Fiend](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/booyahg-slave-of-the-fiend-vgm.md)
 *Source: Volo's Guide to Monsters p. 42*  
 
 This goblin warlock serves a patron who can extract payment in flesh if the goblin doesn't do as promised. Often this patron is a coven of hags serving as the tribe's boss, a fiend that has made its way into the world, or an undying lord such as a lich or a vampire. (For more information on undying lord patrons, see the "Sword Coast Adventurer's Guide").
@@ -44,8 +45,8 @@ A goblin with access to booyahg becomes a member of the lashers and can often ri
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+4"
-  - "charisma": "+7"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+4"
@@ -56,19 +57,23 @@ A goblin with access to booyahg becomes a member of the lashers and can often ri
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+4"
 "damage_resistances": "slashing from nonmagical attacks not made with silvered weapons"
-"senses": "darkvision 60 ft., darkvision 60 ft., passive Perception 11"
+"gear":
+  - "[mace](03.PlayerLog&Handouts/Mechanics/CLI/items/mace.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "any two languages (usually Abyssal or Infernal), Goblin"
 "cr": "7"
 "traits":
   - "desc": "The goblin is a 17th-level spellcaster. Its spellcasting ability is Charisma\
       \ (spell save DC 15, +7 to hit with spell attacks). It regains its expended\
       \ spell slots when it finishes a short or long rest. It knows the following\
-      \ warlock spells:\n\nCantrips (at will): [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md),\
+      \ warlock spells:\n\n**Cantrips (at will):** [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md),\
       \ [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md), [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [minor\
       \ illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
-      \n1st-5th level (4 slots): [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \n**1st-5th level (4 slots):** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md),\
       \ [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md),\
       \ [hellish rebuke](03.PlayerLog&Handouts/Mechanics/CLI/spells/hellish-rebuke.md),\
@@ -80,11 +85,11 @@ A goblin with access to booyahg becomes a member of the lashers and can often ri
     "name": "Spellcasting"
   - "desc": "The goblin's innate spellcasting ability is Charisma. It can innately\
       \ cast the following spells (spell save DC 15), requiring no material components:\n\
-      \nAt will: [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
+      \n**At will:** [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
       \ [false life](03.PlayerLog&Handouts/Mechanics/CLI/spells/false-life.md), [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md)\
       \ (self only), [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)\
       \ (self only), [silent image](03.PlayerLog&Handouts/Mechanics/CLI/spells/silent-image.md)\n\
-      \n1/day each: [feeblemind](03.PlayerLog&Handouts/Mechanics/CLI/spells/feeblemind.md),\
+      \n**1/day each:** [feeblemind](03.PlayerLog&Handouts/Mechanics/CLI/spells/feeblemind.md),\
       \ [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)"
     "name": "Innate Spellcasting"
@@ -95,8 +100,8 @@ A goblin with access to booyahg becomes a member of the lashers and can often ri
   - "desc": "The goblin"
     "name": "Nimble Escape"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
-      \ (d6) bludgeoning damage plus 10 (3d6) fire damage."
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
+      \ (1d6) bludgeoning damage plus 10 (3d6) fire damage."
     "name": "Mace"
 "source":
   - "VGM"

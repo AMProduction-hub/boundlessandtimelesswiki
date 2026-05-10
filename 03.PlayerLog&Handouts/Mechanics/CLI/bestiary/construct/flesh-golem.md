@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Flesh Golem
+- "Flesh Golem"
 ---
-# [Flesh Golem](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/flesh-golem.md)
-*Source: Monster Manual p. 169, Curse of Strahd, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Sleeping Dragon's Wake, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Flesh Golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/flesh-golem.md)
+*Source: Monster Manual p. 169. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A flesh golem is a grisly assortment of humanoid body parts stitched and bolted together into a muscled brute imbued with formidable strength. Its brain is capable of simple reason, though its thoughts are no more sophisticated than those of a young child. The golem's muscle tissue responds to the power of lightning, invigorating the creature with vitality and strength. Powerful enchantments protect the golem's skin, deflecting spells and all but the most potent weapons.
 
@@ -75,7 +76,8 @@ A golem doesn't require air, food, drink, or sleep.
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "5"
 "traits":
@@ -107,23 +109,11 @@ A golem doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The golem makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) bludgeoning damage."
     "name": "Slam"
 "source":
   - "MM"
-  - "CoS"
-  - "TftYP"
-  - "ToA"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "SDW"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/flesh-golem.webp"
 ```
 ^statblock

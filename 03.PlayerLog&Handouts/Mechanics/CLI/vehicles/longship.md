@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-vehicle
+cssclasses:
+- json5e-vehicle
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/vehicle/size/gargantuan
 - ttrpg-cli/vehicle/terrain/sea
 - ttrpg-cli/vehicle/type/ship
 aliases:
-- Longship
+- "Longship"
 ---
 # Longship
 %%-- Embedded content starts on the next line. --%%

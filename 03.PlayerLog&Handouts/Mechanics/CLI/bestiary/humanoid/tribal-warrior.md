@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-8
@@ -18,10 +19,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tribal Warrior
+- "Tribal Warrior"
 ---
-# [Tribal Warrior](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/tribal-warrior.md)
-*Source: Monster Manual p. 350, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Tribal Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md)
+*Source: Monster Manual p. 350. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Tribal warriors live beyond civilization, most often subsisting on fishing and hunting. Each tribe acts in accordance with the wishes of its chief, who is the greatest or oldest warrior of the tribe or a tribe member blessed by the gods.
 
@@ -44,6 +45,8 @@ Tribal warriors live beyond civilization, most often subsisting on fishing and h
   - !!int "11"
   - !!int "8"
 "speed": "30 ft."
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 10"
 "languages": "any one language"
 "cr": "1/8"
@@ -53,20 +56,12 @@ Tribal warriors live beyond civilization, most often subsisting on fishing and h
       \ ally isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Spear"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "ToA"
-  - "GoS"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/tribal-warrior.webp"
 ```
 ^statblock

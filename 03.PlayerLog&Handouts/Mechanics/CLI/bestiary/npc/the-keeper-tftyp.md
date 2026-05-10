@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- The Keeper
+- "The Keeper"
 ---
-# [The Keeper](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/the-keeper-tftyp.md)
+# [The Keeper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/the-keeper-tftyp.md)
 *Source: Tales from the Yawning Portal p. 173*  
 
 ```statblock
@@ -33,25 +34,28 @@ aliases:
   - !!int "9"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+5"
-  - "constitution": "+8"
-  - "wisdom": "+4"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+12"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[greatclub](03.PlayerLog&Handouts/Mechanics/CLI/items/greatclub.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Giant"
 "cr": "7"
 "actions":
   - "desc": "The Keeper makes two battleaxe attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 15 ft., one target. *Hit:*\
       \ 20 (3d8 + 7) slashing damage, or 23 (3d10 + 7) slashing damage if used\
       \ with both hands."
     "name": "Battleaxe +1"
-  - "desc": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +9 to hit, range 60/240 ft., one target. *Hit:*\
       \ 28 (4d10 + 6) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 17 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Rock"

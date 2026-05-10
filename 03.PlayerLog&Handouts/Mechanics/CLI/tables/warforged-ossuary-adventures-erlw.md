@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Warforged Ossuary Adventures
+- "Warforged Ossuary Adventures"
 ---
 # Warforged Ossuary Adventures
 *Source: Eberron: Rising from the Last War p. 212* 
 
 **Warforged Ossuary Adventures**
-
-`dice: [](warforged-ossuary-adventures-erlw.md#^warforged-ossuary-adventures)`
 
 | dice: d6 | Adventure Goal |
 |----------|----------------|

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Creating a Moonstone Dragon; Moonstone Dragon Ideals
+- "Creating a Moonstone Dragon; Moonstone Dragon Ideals"
 ---
 # Creating a Moonstone Dragon; Moonstone Dragon Ideals
 *Source: Fizban's Treasury of Dragons p. 130* 
 
 **Moonstone Dragon Ideals**
-
-`dice: [](creating-a-moonstone-dragon-moonstone-dragon-ideals-ftd.md#^moonstone-dragon-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

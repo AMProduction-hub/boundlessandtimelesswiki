@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Karametra's Divine Schemes
+- "Karametra's Divine Schemes"
 ---
 # Karametra's Divine Schemes
 *Source: Mythic Odysseys of Theros p. 137* 
 
 **Karametra's Divine Schemes**
-
-`dice: [](karametras-divine-schemes-mot.md#^karametras-divine-schemes)`
 
 | dice: d4 | Scheme |
 |----------|--------|

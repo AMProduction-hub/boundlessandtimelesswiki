@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Random Yuan-ti Servants; Yuan-ti Protectors
+- "Random Yuan-ti Servants; Yuan-ti Protectors"
 ---
 # Random Yuan-ti Servants; Yuan-ti Protectors
 *Source: Volo's Guide to Monsters p. 102* 
 
 **Yuan-ti Protectors**
-
-`dice: [](random-yuan-ti-servants-yuan-ti-protectors-vgm.md#^yuan-ti-protectors)`
 
 | dice: d100 | Protector(s) |
 |------------|--------------|

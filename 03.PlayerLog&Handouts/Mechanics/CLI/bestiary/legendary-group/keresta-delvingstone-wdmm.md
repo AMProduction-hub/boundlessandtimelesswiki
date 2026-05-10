@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/legendary-group
 aliases:
-- Keresta Delvingstone
+- "Keresta Delvingstone"
 ---
 # Keresta Delvingstone
 
-## Regional effects
+## Regional Effects
 _Source: Waterdeep: Dungeon of the Mad Mage_
 
 Vanrakdoom is Keresta's lair, and the following regional effects are noticeable throughout it:

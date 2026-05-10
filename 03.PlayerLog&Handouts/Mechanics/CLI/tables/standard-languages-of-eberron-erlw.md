@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Standard Languages of Eberron
+- "Standard Languages of Eberron"
 ---
 # Standard Languages of Eberron
 *Source: Eberron: Rising from the Last War p. 6* 

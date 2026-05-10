@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 aliases:
-- School Is in Session
+- "School Is in Session"
 ---
 # School Is in Session
 *Source: Strixhaven: A Curriculum of Chaos, p. 41* 
@@ -13,7 +14,7 @@ The following four chapters present a series of Dungeons & Dragons adventures op
 
 "Chapters 1" and "2" contain all the information the players need to play Strixhaven students. Each adventure takes place over the course of one academic year. For instance, "Campus Kerfuffle," the adventure in this chapter, takes place during the characters' first year at the university. "Hunt for Mage Tower," in chapter 4, takes place during the characters' second year at the university, and so on. The adventures can be run consecutively as a campaign or individually, as described below.
 
-![Strixhaven students are of...](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/025-03-001-chapter-splash.webp#center "Strixhaven students are often in awe of their surroundings at the famed university of magic")
+![Strixhaven students are often in awe of their surroundings at the famed university of magic](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/025-03-001-chapter-splash.webp#center)
 
 ## Running the Adventures
 
@@ -56,7 +57,7 @@ If you run chapter 4, 5, or 6 as a standalone adventure, you should ask each pla
 
 ![Relationships; Starting Relationship Points](03.PlayerLog&Handouts/Mechanics/CLI/tables/relationships-starting-relationship-points-scc.md)
 
-![First-year students rush t...](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/026-03-002-first-year-students.webp#center "First-year students rush to class carrying armloads of books—and all their excitement for the start of a new academic year")
+![First-year students rush to class carrying armloads of books—and all their excitement for the start of a new academic year](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/026-03-002-first-year-students.webp#center)
 
 ### Using the Maps
 
@@ -109,7 +110,7 @@ Characters can gain the benefit from a new Extracurricular only by joining it at
 
 ### Extracurricular Benefits
 
-![Students find many magical...](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/028-03-004.webp#center "Students find many magical ways to celebrate their achievements")
+![Students find many magical ways to celebrate their achievements](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/028-03-004.webp#center)
 
 While a student participates in an Extracurricular, they gain a Student Die and a Relationship Point, as explained below.
 
@@ -257,7 +258,7 @@ While a student has a Job, they earn a wage and a Relationship Point, as explain
 
 A student who works a Job gains 5 gp at the start of each week that they hold the Job. If a student quits during the academic year, they stop earning this money at the end of the week in which they quit.
 
-![Strixhaven student employe...](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/029-03-005.webp#center "Strixhaven student employees work beside staff members to fill the many jobs available on campus")
+![Strixhaven student employees work beside staff members to fill the many jobs available on campus](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/029-03-005.webp#center)
 
 #### Relationship Point
 
@@ -392,7 +393,7 @@ These rules provide characters with benefits—or drawbacks!—based on their so
 
 The rules encompass only interactions with student NPCs. Professors, administrators, and other older adults aren't part of the Relationship rules.
 
-![A Witherbloom student heal...](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/030-03-006-a-witherbloom-student-heals-a-friend.webp#center "A Witherbloom student heals a friend from Silverquill")
+![A Witherbloom student heals a friend from Silverquill](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/030-03-006-a-witherbloom-student-heals-a-friend.webp#center)
 
 ### Session Zero
 
@@ -443,7 +444,7 @@ At any time during the adventures in this book, a character can end their friend
 
 Once a student NPC has become a character's Friend, the character has the option of deepening the Relationship. The next time a Relationship encounter happens with the Friend, the character can express a wish for a deeper connection with that NPC. This might be a romantic pairing, a deeper platonic camaraderie, or a sibling-like bond. Before this encounter takes place, talk to the player to ensure a clear understanding of what sort of Relationship they seek with the NPC.
 
-![Students discuss their sha...](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/031-03-007-sunset-date.webp#center "Students discuss their shared interests during a sunset date")
+![Students discuss their shared interests during a sunset date](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/031-03-007-sunset-date.webp#center)
 
 ##### Becoming Beloveds
 

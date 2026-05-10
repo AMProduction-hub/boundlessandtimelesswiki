@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/item/rarity/none
 - ttrpg-cli/item/vehicle/land
-aliases: 
+aliases:
 - "Carriage"
 ---
 # Carriage

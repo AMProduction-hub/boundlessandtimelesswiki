@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Swarm of Cranium Rats
+- "Swarm of Cranium Rats"
 ---
-# [Swarm of Cranium Rats](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/swarm-of-cranium-rats-mpmm.md)
+# [Swarm of Cranium Rats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/swarm-of-cranium-rats-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 83, Volo's Guide to Monsters p. 133*  
 
 ## Cranium Rat
@@ -47,7 +48,8 @@ A single cranium rat uses its natural telepathy to communicate hunger, fear, and
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 30 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 30 ft., passive Perception 10"
 "languages": "telepathy 30 ft."
 "cr": "5"
 "traits":
@@ -59,17 +61,17 @@ A single cranium rat uses its natural telepathy to communicate hunger, fear, and
       \ its thoughts, as well as to all divination spells."
     "name": "Telepathic Shroud"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 0 ft., one target in the swarm's\
-      \ space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 0 ft., one target in the swarm's\
+      \ space. *Hit:* 14 (4d6) piercing damage, or 7 (2d6) piercing damage if\
       \ the swarm has half of its hit points or fewer, plus 22 (5d8) psychic damage."
     "name": "Bites"
   - "desc": "As long as it has more than half of its hit points remaining, the swarm\
       \ casts one of the following spells, requiring no spell components and using\
-      \ Intelligence as the spellcasting ability (spell save DC 13):\n\nAt will:\
+      \ Intelligence as the spellcasting ability (spell save DC 13):\n\n**At will:**\
       \ [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md), [comprehend\
       \ languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md)\n\
-      \n1/day each: [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
+      \n**1/day each:** [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
       \ [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md)"
     "name": "Spellcasting (Psionics)"
 "bonus_actions":

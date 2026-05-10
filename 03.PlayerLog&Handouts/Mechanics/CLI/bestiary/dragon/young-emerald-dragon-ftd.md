@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Young Emerald Dragon
+- "Young Emerald Dragon"
 ---
-# [Young Emerald Dragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/young-emerald-dragon-ftd.md)
+# [Young Emerald Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-emerald-dragon-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 197*  
 
 Emerald dragons are the most curious, cunning, and manipulative of the gem dragons, wielding psionic power to weave illusions to deceive and disorient. They cloak their own presence so they can observe other creatures without being discovered as they collect information on everything from local cultural practices to supernatural occurrences.
@@ -38,8 +39,6 @@ Use the Emerald Dragon Personality Traits and Emerald Dragon Ideals tables to in
 
 ### Emerald Dragon Personality Traits
 
-`dice: [](young-emerald-dragon-ftd.md#^trait)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | I repeat what others have said back to them to make sure I have remembered it correctly. |
@@ -53,8 +52,6 @@ Use the Emerald Dragon Personality Traits and Emerald Dragon Ideals tables to in
 ^trait
 
 ### Emerald Dragon Ideals
-
-`dice: [](young-emerald-dragon-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -71,8 +68,6 @@ Use the Emerald Dragon Personality Traits and Emerald Dragon Ideals tables to in
 The Emerald Dragon Adventure Hooks table offers suggestions for stories and adventures involving emerald dragons.
 
 ### Emerald Dragon Adventure Hooks
-
-`dice: [](young-emerald-dragon-ftd.md#^adventure-hook)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|
@@ -91,8 +86,6 @@ The Emerald Dragon Adventure Hooks table offers suggestions for stories and adve
 Emerald dragons generally go out of their way to avoid interacting with other intelligent creatures. However, their interest in history and culture occasionally gets the better of them, prompting them to seek some engagement with the folk of the world.
 
 ### Young Emerald Dragon Connections
-
-`dice: [](young-emerald-dragon-ftd.md#^connected-creatures)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|
@@ -124,10 +117,10 @@ Emerald dragons generally go out of their way to avoid interacting with other in
   - !!int "16"
 "speed": "40 ft., burrow 30 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+7"
-  - "wisdom": "+5"
-  - "charisma": "+6"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -138,7 +131,9 @@ Emerald dragons generally go out of their way to avoid interacting with other in
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "damage_resistances": "fire, psychic"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 18"
 "languages": "Common, Draconic, telepathy 120 ft."
 "cr": "8"
 "traits":
@@ -148,10 +143,10 @@ Emerald dragons generally go out of their way to avoid interacting with other in
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
-      \ 16 (2d10 + 5) piercing damage plus 3 (d6) psychic damage."
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
+      \ 16 (2d10 + 5) piercing damage plus 3 (1d6) psychic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d6 + 5) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales a wave of psychic dissonance in a 30-foot cone. Each\
@@ -163,9 +158,9 @@ Emerald dragons generally go out of their way to avoid interacting with other in
     "name": "Disorienting Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 14):\n\n\
-      At will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\
+      **At will:** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\
       \ (the hand is invisible), [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
-      \n1/day each: [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \n**1/day each:** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [silent image](03.PlayerLog&Handouts/Mechanics/CLI/spells/silent-image.md)"
     "name": "Spellcasting (Psionics)"

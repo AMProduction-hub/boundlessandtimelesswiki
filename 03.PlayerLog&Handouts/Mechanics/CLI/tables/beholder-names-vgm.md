@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Beholder Names
+- "Beholder Names"
 ---
 # Beholder Names
 *Source: Volo's Guide to Monsters p. 9* 
 
 **Beholder Names**
-
-`dice: [](beholder-names-vgm.md#^beholder-names)`
 
 | dice: d20 | Name |
 |-----------|------|

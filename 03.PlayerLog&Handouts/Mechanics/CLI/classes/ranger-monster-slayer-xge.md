@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/ranger/monster-slayer
 aliases:
-- Monster Slayer
+- "Monster Slayer"
 ---
 # Monster Slayer
 *[Ranger](./ranger.md): Ranger Archetype*  
@@ -43,11 +44,9 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Monster Slayer (Level 3)
-
 You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A Monster Slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats. Trained in supernatural techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty, mystical foes.
+
+## Subclass Features
 
 ### Monster Slayer Magic (Level 3)
 
@@ -72,13 +71,13 @@ You can use this feature a number of times equal to your Wisdom modifier (minimu
 
 ### Slayer's Prey (Level 3)
 
-Starting at 3rd level, you can focus your ire on one foe, increasing the harm you inflict on it. As a bonus action, you designate one creature you can see within 60 feet of you as the target of this feature. The first time each turn that you hit that target with a weapon attack, it takes an extra `d6` damage from the weapon.
+Starting at 3rd level, you can focus your ire on one foe, increasing the harm you inflict on it. As a bonus action, you designate one creature you can see within 60 feet of you as the target of this feature. The first time each turn that you hit that target with a weapon attack, it takes an extra `1d6` damage from the weapon.
 
 This benefit lasts until you finish a short or long rest. It ends early if you designate a different creature.
 
 ### Supernatural Defense (Level 7)
 
-At 7th level, you gain extra resilience against your prey's assaults on your mind and body. Whenever the target of your Slayer's Prey forces you to make a saving throw and whenever you make an ability check to escape that target's grapple, add `d6` to your roll.
+At 7th level, you gain extra resilience against your prey's assaults on your mind and body. Whenever the target of your Slayer's Prey forces you to make a saving throw and whenever you make an ability check to escape that target's grapple, add `1d6` to your roll.
 
 ### Magic-User's Nemesis (Level 11)
 

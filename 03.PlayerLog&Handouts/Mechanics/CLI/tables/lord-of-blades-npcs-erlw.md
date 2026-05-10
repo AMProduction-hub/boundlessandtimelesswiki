@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Lord of Blades NPCs
+- "Lord of Blades NPCs"
 ---
 # Lord of Blades NPCs
 *Source: Eberron: Rising from the Last War p. 214* 
 
 **Lord of Blades NPCs**
-
-`dice: [](lord-of-blades-npcs-erlw.md#^lord-of-blades-npcs)`
 
 | dice: d6 | NPC |
 |----------|-----|

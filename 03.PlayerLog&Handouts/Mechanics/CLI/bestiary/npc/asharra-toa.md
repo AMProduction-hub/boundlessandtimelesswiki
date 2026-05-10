@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Asharra
+- "Asharra"
 ---
-# [Asharra](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/asharra-toa.md)
+# [Asharra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/asharra-toa.md)
 *Source: Tomb of Annihilation p. 69*  
 
 Aarakocra range the Howling Gyre, an endless storm of mighty winds and lashing rains that surrounds the tranquil realm of Aaqa in the Elemental Plane of Air. Making aerial patrols, these birdlike humanoids guard the windy borders of their home against invaders from the Elemental Plane of Earth, such as gargoyles, their sworn enemies.
@@ -45,27 +46,29 @@ The incredibly old leader of the community at Kir Sabal. The others refer to her
     "desc": "+5"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
 "senses": "passive Perception 17"
 "languages": "Auran, Common"
 "cr": "2"
 "traits":
   - "desc": "Asharra is a 5th-level spellcaster. Her spellcasting ability is Wisdom\
       \ (spell save DC 13, +5 to hit with spell attacks). Asharra has the following\
-      \ druid spells prepared:\n\nCantrips (at will): [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
+      \ druid spells prepared:\n\n**Cantrips (at will):** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
       \ [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md), [produce\
-      \ flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md)\n\n1st\
-      \ level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md)\n\n**1st\
+      \ level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
       \ [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md),\
+      \n**2nd level (3 slots):** [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md)\n\
-      \n3rd level (2 slots): [call lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/call-lightning.md),\
+      \n**3rd level (2 slots):** [call lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/call-lightning.md),\
       \ [wind wall](03.PlayerLog&Handouts/Mechanics/CLI/spells/wind-wall.md)"
     "name": "Spellcasting"
   - "desc": "If the aarakocra is flying and dives at least 30 feet straight toward\
       \ a target and then hits it with a melee weapon attack, the attack deals an\
-      \ extra 3 (d6) damage to the target."
+      \ extra 3 (1d6) damage to the target."
     "name": "Dive Attack"
   - "desc": "Asharra knows a ritual called the Dance of the Seven Winds, which temporarily\
       \ grants magical flight to as many as ten nonflying creatures. The ritual, which\
@@ -80,11 +83,11 @@ The incredibly old leader of the community at Kir Sabal. The others refer to her
       \ ability to fly."
     "name": "Dance of the Seven Winds"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) slashing damage."
     "name": "Talon"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
     "name": "Javelin"
   - "desc": "Five aarakocra within 30 feet of each other can magically summon an [air\
       \ elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/air-elemental.md).\

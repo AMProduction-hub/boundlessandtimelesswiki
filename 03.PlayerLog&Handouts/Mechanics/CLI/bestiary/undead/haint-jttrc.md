@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Haint
+- "Haint"
 ---
-# [Haint](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/haint-jttrc.md)
+# [Haint](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/haint-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 185*  
 
 Rising from the sorrowful dead, haints are spirits that change their shape in tragic imitation of what they once were. A haint can shift from its spectral form to appear as the corporeal Humanoid it was in life, passing as a living creature. These spirits might mistakenly view innocents as those who killed them or entreat mortals to exact revenge on their behalf.
@@ -49,12 +50,13 @@ Rising from the sorrowful dead, haints are spirits that change their shape in tr
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "any languages it knew in life"
 "cr": "7"
 "traits":
   - "desc": "The haint can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
       \ an object."
     "name": "Incorporeal Movement"
   - "desc": "The haint doesn't require air, food, drink, or sleep."
@@ -62,7 +64,7 @@ Rising from the sorrowful dead, haints are spirits that change their shape in tr
 "actions":
   - "desc": "The haint makes two Sorrowful Touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +6 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +6 to hit, reach 5 ft., one creature. *Hit:*\
       \ 21 (4d8 + 3) psychic damage."
     "name": "Sorrowful Touch"
   - "desc": "The haint magically assumes the appearance of the Humanoid it was in\

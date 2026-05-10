@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/10
@@ -13,10 +14,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Githyanki Gish
+- "Githyanki Gish"
 ---
-# [Githyanki Gish](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/githyanki-gish-mpmm.md)
-*Source: Mordenkainen Presents: Monsters of the Multiverse p. 140, Mordenkainen's Tome of Foes p. 205, Waterdeep: Dungeon of the Mad Mage p. 312*  
+# [Githyanki Gish](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githyanki-gish-mpmm.md)
+*Source: Mordenkainen Presents: Monsters of the Multiverse p. 140, Mordenkainen's Tome of Foes p. 205*  
 
 Gish blend their magical abilities with swordplay to become dangerous foes in battle. Their specialized capabilities make them well suited for assassination, raiding, and espionage.
 
@@ -44,9 +45,9 @@ Githyanki descend from an ancient people who were also the progenitors of githze
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+6"
-  - "intelligence": "+7"
-  - "wisdom": "+6"
+  - "constitution": !!int "6"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+6"
@@ -54,6 +55,8 @@ Githyanki descend from an ancient people who were also the progenitors of githze
     "desc": "+6"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
 "senses": "passive Perception 16"
 "languages": "Gith"
 "cr": "10"
@@ -61,22 +64,22 @@ Githyanki descend from an ancient people who were also the progenitors of githze
   - "desc": "The githyanki makes three Longsword or Telekinetic Bolt attacks, or it\
       \ makes one of those attacks and uses Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with\
       \ two hands, plus 22 (5d8) psychic damage."
     "name": "Longsword"
-  - "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +7 to hit, range 120 ft., one target. *Hit:*\
       \ 28 (8d6) force damage."
     "name": "Telekinetic Bolt"
   - "desc": "The githyanki casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 15):\n\n\
-      At will: [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mage\
+      **At will:** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mage\
       \ hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md) (the hand is\
       \ invisible), [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md)\n\
-      \n3/day each: [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md),\
+      \n**3/day each:** [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md)\
-      \ (self only)\n\n1/day each: [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
+      \ (self only)\n\n**1/day each:** [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md),\
       \ [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)"
     "name": "Spellcasting (Psionics)"
@@ -87,7 +90,6 @@ Githyanki descend from an ancient people who were also the progenitors of githze
 "source":
   - "MPMM"
   - "MTF"
-  - "WDMM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/githyanki-gish-mpmm.webp"
 ```
 ^statblock

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dip
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gorthok the Thunder Boar
+- "Gorthok the Thunder Boar"
 ---
-# [Gorthok the Thunder Boar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/gorthok-the-thunder-boar-dip.md)
+# [Gorthok the Thunder Boar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gorthok-the-thunder-boar-dip.md)
 *Source: Dragon of Icespire Peak p. 58*  
 
 Gorthok is a primal nature spirit that takes the form of a boar as big as an elephant, with lightning that dances along its tusks. Gorthok serves the will of Talos, god of storms, and can be summoned during stormy weather to do the bidding of Talos's evil followers. Like its patron deity, Gorthok revels in destruction.
@@ -36,7 +37,8 @@ Gorthok is a primal nature spirit that takes the form of a boar as big as an ele
 "speed": "50 ft."
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
 "damage_immunities": "lightning, thunder"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "cr": "6"
 "traits":
@@ -47,10 +49,10 @@ Gorthok is a primal nature spirit that takes the form of a boar as big as an ele
   - "desc": "Gorthok makes two melee attacks: one with its lightning tusks and one\
       \ with its thunder hooves."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 12 (2d6 + 5) slashing damage plus 7 (2d6) lightning damage."
     "name": "Lightning Tusks"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 12 (2d6 + 5) bludgeoning damage plus 7 (2d6) thunder damage."
     "name": "Thunder Hooves"
   - "desc": "Gorthok shoots a bolt of lightning at one creature it can see within\

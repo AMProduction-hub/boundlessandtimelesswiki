@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vistana Commoner
+- "Vistana Commoner"
 ---
-# [Vistana Commoner](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/vistana-commoner-cos.md)
+# [Vistana Commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/vistana-commoner-cos.md)
 *Source: Curse of Strahd p. 28*  
 
 ```statblock
@@ -32,23 +33,25 @@ aliases:
   - !!int "10"
   - !!int "10"
 "speed": "30 ft."
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "0"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) bludgeoning damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d4) bludgeoning damage."
     "name": "Club"
   - "desc": "10\n\n- The target is unable to perform a certain kind of act involving\
       \ fine motor control, such as tying knots, writing, playing an instrument, sewing,\
       \ or casting spells that have somatic components. When this curse ends, the\
-      \ Vistana takes d6 psychic damage.  \n- The target's appearance changes in\
+      \ Vistana takes 1d6 psychic damage.  \n- The target's appearance changes in\
       \ a sinister yet purely cosmetic way. For example, the curse can place a scar\
       \ on the target's face, turn the target's teeth into yellow fangs, or give the\
-      \ target bad breath. When this curse ends, the Vistana takes d6 psychic damage.\
+      \ target bad breath. When this curse ends, the Vistana takes 1d6 psychic damage.\
       \  \n- A nonmagical item in the target's possession (chosen by the DM) disappears\
       \ and can't be found until the curse ends. The lost item can weigh no more than\
-      \ 1 pound. When this curse ends, the Vistana takes d6 psychic damage.  \n\
+      \ 1 pound. When this curse ends, the Vistana takes 1d6 psychic damage.  \n\
       - The target gains vulnerability to a damage type of the Vistana's choice. When\
       \ this curse ends, the Vistana takes 3d6 psychic damage.  \n- The target has\
       \ disadvantage on ability checks and saving throws tied to one ability score\

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 3: Sargauth Level
+- "Level 3: Sargauth Level"
 ---
 # Level 3: Sargauth Level
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 43* 
@@ -195,7 +196,7 @@ The corpses hanging in the webs are the desiccated husks of prisoners who served
 
 #### Spider Eggs
 
-If the party is defeated, stabilized characters awaken after `d4` hours to find themselves cocooned in sticky webs and suspended 10 feet off the floor, with spider eggs implanted in their bodies. A cocooned character is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) and can use its action to try to escape by making a successful DC 15 Strength check.
+If the party is defeated, stabilized characters awaken after `1d4` hours to find themselves cocooned in sticky webs and suspended 10 feet off the floor, with spider eggs implanted in their bodies. A cocooned character is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) and can use its action to try to escape by making a successful DC 15 Strength check.
 
 Spider eggs implanted in a host hatch in `2d12` hours, killing the host as the baby spiders chew their way out. This infestation functions like a disease. A [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md) spell or similar magic cast upon the host kills the spider eggs, ending the threat.
 
@@ -459,8 +460,6 @@ This 20-foot-high cave abuts the River Sargauth and has the following features:
 The gondola and the skeletal ferryman are all creations of Halaster. The gondola, which can hold up to seven Medium creatures and their gear, is a Large object with AC 11, 50 hit points, and immunity to poison and psychic damage.
 
 The tiefling skeleton understands Common and Infernal, but can't speak. It plies the River Sargauth in whichever direction its riders want to go. When the characters reach their destination, the tiefling extends a bony hand, expecting a payment of one coin per passenger. If it doesn't receive the proper payment, both it and the boat fade away. Characters who destroy the skeleton or use an effect that turns undead against it can commandeer the gondola—but without its proper pilot, the ship is attacked whenever it enters a section of the river marked with a wavy arrow. Roll a `d6` and consult the following table to determine the nature of the attackers:
-
-`dice: [](04-level-3-sargauth-level.md#^creatures)`
 
 | dice: d6 | Creatures |
 |----------|-----------|
@@ -780,15 +779,13 @@ Once each party member has papers, the bugbears take the characters to see Azrok
 
 **Random Encounters in Azrok's Hold**
 
-`dice: [](04-level-3-sargauth-level.md#^random-encounters-in-azroks-hold)`
-
 | dice: d10 | Encounter |
 |-----------|-----------|
 | 1 | Halaster's scrying eye (see "Halaster's Lair"), which observes the characters silently for a minute before disappearing |
 | 2 | A goblin child (noncombatant) eating a dead rat |
 | 3 | A [goblin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) hauling a bucket of garbage to area 17e |
-| 4 | `d4` [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) with shovels, either digging through rubble or heading to a dig site |
-| 5 | `d3` [bugbears](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bugbear.md) who sneer at visitors and make rude comments as they pass by |
+| 4 | `1d4` [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) with shovels, either digging through rubble or heading to a dig site |
+| 5 | `1d3` [bugbears](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bugbear.md) who sneer at visitors and make rude comments as they pass by |
 | 6 | A [bugbear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bugbear.md) with an [intellect devourer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/intellect-devourer.md) in its skull that tries to lure characters to area 21f |
 | 7 | [Preeta Kreepa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/preeta-kreepa-wdmm.md) (see area 21m) |
 | 8–10 | Three [hobgoblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hobgoblin.md) and a [hobgoblin captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hobgoblin-captain.md) keeping the peace and checking visitors' identification papers |

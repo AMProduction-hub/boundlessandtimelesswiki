@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Captain Hask
+- "Captain Hask"
 ---
-# [Captain Hask](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/captain-hask-dsotdq.md)
+# [Captain Hask](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/captain-hask-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 148*  
 
 ```statblock
@@ -34,14 +35,15 @@ aliases:
   - !!int "17"
 "speed": "35 ft."
 "saves":
-  - "intelligence": "+6"
-  - "wisdom": "+3"
-  - "charisma": "+6"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "3"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)"
-"senses": "truesight 60 ft., passive Perception 13"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Draconic"
 "cr": "6"
 "traits":
@@ -62,10 +64,10 @@ aliases:
 "actions":
   - "desc": "Hask makes three Rend or Energy Ray attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d12 + 2) slashing damage."
     "name": "Rend"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 60 ft., one target. *Hit:*\
       \ 8 (1d10 + 3) force damage."
     "name": "Energy Ray"
   - "desc": "Hask exhales a 15-foot cone of noxious gas. Each creature in that area\
@@ -76,12 +78,12 @@ aliases:
       \ and is immune to all draconians' Noxious Breath for 24 hours."
     "name": "Noxious Breath (Recharge 5-6)"
   - "desc": "Hask casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 14):\n\nAt\
-      \ will: [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
-      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n2/day\
-      \ each: [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 14):\n\n**At\
+      \ will:** [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n**2/day\
+      \ each:** [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
-      \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)\n\n1/day:\
+      \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)\n\n**1/day:**\
       \ [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md)"
     "name": "Spellcasting"
 "source":

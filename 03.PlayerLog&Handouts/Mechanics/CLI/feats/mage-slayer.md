@@ -1,14 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/feat
 aliases:
-- Mage Slayer
+- "Mage Slayer"
 ---
 # Mage Slayer
 *Source: Player's Handbook p. 168*  
+
 You have practiced techniques useful in melee combat against spellcasters, gaining the following benefits:
 
 - When a creature within 5 feet of you casts a spell, you can use your reaction to make a melee weapon attack against that creature.  

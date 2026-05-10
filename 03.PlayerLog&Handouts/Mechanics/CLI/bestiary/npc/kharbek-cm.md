@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kharbek
+- "Kharbek"
 ---
-# [Kharbek](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/kharbek-cm.md)
+# [Kharbek](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kharbek-cm.md)
 *Source: Candlekeep Mysteries p. 167*  
 
 Kharbek, a 145-year-old shield dwarf, is the only survivor of a party of adventurers captured by the Order of the Immortal Lotus. If questioned, Kharbek is able to recall how a member of the Immortal Lotus disguised as a beggar lured the group to the temple, where the adventurers were tortured one by one. Kharbek's weapons rest on a nearby table. If their wounds are healed and levels of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) removed, Kharbek offers to fight alongside the characters as a sign of gratitude.
@@ -63,7 +64,11 @@ Kharbek is a mountain dwarf explorer with brown skin, brown eyes, and jet-black 
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+5"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 15"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Common, Dwarvish"
 "cr": "1/2"
 "traits":
@@ -77,11 +82,11 @@ Kharbek is a mountain dwarf explorer with brown skin, brown eyes, and jet-black 
 "actions":
   - "desc": "Kharbek makes two melee attacks or two ranged attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, ranged 150/600 ft., one target.\
-      \ Hit: 6 (1d8 + 2) piercing damage."
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, ranged 150/600 ft., one target.\
+      \ *Hit:* 6 (1d8 + 2) piercing damage."
     "name": "Longbow"
 "source":
   - "CM"

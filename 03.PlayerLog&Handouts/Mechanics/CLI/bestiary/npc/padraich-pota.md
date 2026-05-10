@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Padraich
+- "Padraich"
 ---
-# [Padraich](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/padraich-pota.md)
+# [Padraich](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/padraich-pota.md)
 *Source: Princes of the Apocalypse p. 170*  
 
 ```statblock
@@ -33,6 +34,8 @@ aliases:
   - !!int "11"
   - !!int "9"
 "speed": "30 ft."
+"gear":
+  - "[maul](03.PlayerLog&Handouts/Mechanics/CLI/items/maul.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "2"
@@ -42,7 +45,7 @@ aliases:
       \ until the start of its next turn."
     "name": "Reckless"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) bludgeoning damage."
     "name": "Maul"
 "source":

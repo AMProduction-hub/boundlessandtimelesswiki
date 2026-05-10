@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/21
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hutijin
+- "Hutijin"
 ---
-# [Hutijin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/hutijin-mpmm.md)
+# [Hutijin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hutijin-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 157, Mordenkainen's Tome of Foes p. 175*  
 
 Politics in the Nine Hells are anything but predictable. Alliances form all the time, but most wind up unraveling due to treachery. Nevertheless, for all their backbiting and betrayal, devils do occasionally display loyalty, offering unwavering service to their masters. One such example is Hutijin, a duke of Cania and loyal servant of Mephistopheles.
@@ -42,9 +43,9 @@ Mephistopheles forbids Hutijin from making too many forays into the Material Pla
   - !!int "25"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+9"
-  - "constitution": "+14"
-  - "wisdom": "+11"
+  - "dexterity": !!int "9"
+  - "constitution": !!int "14"
+  - "wisdom": !!int "11"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+14"
@@ -57,7 +58,10 @@ Mephistopheles forbids Hutijin from making too many forays into the Material Pla
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 21"
+"gear":
+  - "[mace](03.PlayerLog&Handouts/Mechanics/CLI/items/mace.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 21"
 "languages": "all, telepathy 120 ft."
 "cr": "21"
 "traits":
@@ -77,7 +81,7 @@ Mephistopheles forbids Hutijin from making too many forays into the Material Pla
   - "desc": "Hutijin makes one Bite attack, one Claw attack, one Mace attack, and\
       \ one Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 5 ft., one target. *Hit:*\
       \ 15 (2d6 + 8) fire damage. The target must succeed on a DC 22 Constitution\
       \ saving throw or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned).\
       \ While [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
@@ -86,27 +90,27 @@ Mephistopheles forbids Hutijin from making too many forays into the Material Pla
       \ target can repeat the saving throw at the end of each of its turns, ending\
       \ the effect on itself on a success."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) cold damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 5 ft., one target. *Hit:*\
       \ 15 (2d6 + 8) force damage."
     "name": "Mace"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. *Hit:*\
       \ 19 (2d10 + 8) thunder damage."
     "name": "Tail"
   - "desc": "Hutijin teleports, along with any equipment he is wearing and carrying,\
       \ up to 120 feet to an unoccupied space he can see."
     "name": "Teleport"
   - "desc": "Hutijin casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 22):\n\nAt\
-      \ will: [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md)\
+      \ and using Charisma as the spellcasting ability (spell save DC 22):\n\n**At\
+      \ will:** [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md)\
       \ (can become Medium when changing his appearance), [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
       \ (self only), [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md), [wall\
-      \ of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)\n\n3/day:\
+      \ of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)\n\n**3/day:**\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md)"
     "name": "Spellcasting"
 "reactions":
@@ -117,6 +121,9 @@ Mephistopheles forbids Hutijin from making too many forays into the Material Pla
       \ each of its turns, ending the effect on itself on a success. A creature that\
       \ saves against this effect is immune to his Fearful Voice for 24 hours."
     "name": "Fearful Voice (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Hutijin can expend a use to take one of the following actions. Hutijin regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Hutijin makes one Claw, Mace, or Tail attack."
     "name": "Attack"

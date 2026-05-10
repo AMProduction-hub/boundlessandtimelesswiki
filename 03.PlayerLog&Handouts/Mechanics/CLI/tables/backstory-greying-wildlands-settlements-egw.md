@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Backstory; Greying Wildlands Settlements
+- "Backstory; Greying Wildlands Settlements"
 ---
 # Backstory; Greying Wildlands Settlements
 *Source: Explorer's Guide to Wildemount p. 191* 
 
 **Greying Wildlands Settlements**
-
-`dice: [](backstory-greying-wildlands-settlements-egw.md#^greying-wildlands-settlements)`
 
 | dice: d100 | Settlement Name | Type |
 |------------|-----------------|------|

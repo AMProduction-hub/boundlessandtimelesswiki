@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Githyanki Raiding Parties; Githyanki Special Allies
+- "Githyanki Raiding Parties; Githyanki Special Allies"
 ---
 # Githyanki Raiding Parties; Githyanki Special Allies
 *Source: Mordenkainen's Tome of Foes p. 98* 
 
 **Githyanki Special Allies**
-
-`dice: [](githyanki-raiding-parties-githyanki-special-allies-mtf.md#^githyanki-special-allies)`
 
 | dice: d10 | Ally |
 |-----------|------|

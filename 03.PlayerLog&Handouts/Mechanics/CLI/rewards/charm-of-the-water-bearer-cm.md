@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-reward
+cssclasses:
+- json5e-reward
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/reward/charm
 aliases:
-- Charm of the Water Bearer
+- "Charm of the Water Bearer"
 ---
 # Charm of the Water Bearer
 

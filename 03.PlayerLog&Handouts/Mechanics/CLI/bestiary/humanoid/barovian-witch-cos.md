@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Barovian Witch
+- "Barovian Witch"
 ---
-# [Barovian Witch](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/barovian-witch-cos.md)
+# [Barovian Witch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/barovian-witch-cos.md)
 *Source: Curse of Strahd p. 229*  
 
 The mad women and men known as Barovian witches forge pacts with Strahd and the Dark Powers of Ravenloft in exchange for magic and longevity. They prefer to live in the shadows and can see in the dark. When traveling in the open, they use [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md) spells to assume less conspicuous forms. They also use these spells to grow long, sharp claws with which they can attack.
@@ -49,27 +50,30 @@ Barovian witches use the [find familiar](03.PlayerLog&Handouts/Mechanics/CLI/spe
     "desc": "+4"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common"
 "cr": "1/2"
 "traits":
   - "desc": "The witch is a 3rd-level spellcaster. Its spellcasting ability is Intelligence\
       \ (spell save DC 12, +4 to hit with spell attacks). The witch has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
-      \n1st level (4 slots): [ray of sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md),\
+      \n**1st level (4 slots):** [ray of sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md),\
       \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md), [Tasha's hideous\
       \ laughter](03.PlayerLog&Handouts/Mechanics/CLI/spells/tashas-hideous-laughter.md)\n\
-      \n2nd level (2 slots): [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
+      \n**2nd level (2 slots):** [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)"
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) slashing damage. This attack is magical."
     "name": "Claws (Requires Alter Self)"
-  - "desc": "Melee  or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 2 (d4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +2 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 2 (1d4) piercing damage."
     "name": "Dagger"
 "source":
   - "CoS"

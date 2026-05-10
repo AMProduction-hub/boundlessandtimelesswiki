@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Brother Broumane
+- "Brother Broumane"
 ---
-# [Brother Broumane](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/brother-broumane-jttrc.md)
+# [Brother Broumane](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/brother-broumane-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 178*  
 
 ```statblock
@@ -35,15 +36,18 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Aquan, Common"
 "cr": "1/8"
 "traits":
   - "desc": "Brother Broumane can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 3 (d6) piercing damage, or 4 (d8) piercing damage\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +2 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 3 (1d6) piercing damage, or 4 (1d8) piercing damage\
       \ if used with two hands to make a melee attack."
     "name": "Spear"
 "source":

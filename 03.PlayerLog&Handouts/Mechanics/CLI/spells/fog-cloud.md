@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/feat/aberrant-dragonmark
-- ttrpg-cli/spell/feat/divinely-favored
-- ttrpg-cli/spell/feat/magic-initiate
-- ttrpg-cli/spell/feat/strixhaven-initiate
+- ttrpg-cli/spell/feat/divinely-favored/neutral
+- ttrpg-cli/spell/feat/magic-initiate/wizard-spells
+- ttrpg-cli/spell/feat/strixhaven-initiate/witherbloom-3
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/race/triton
 - ttrpg-cli/spell/reward/thassas-devotee
@@ -22,7 +23,7 @@ tags:
 - ttrpg-cli/spell/subclass/the-genie
 - ttrpg-cli/spell/subrace/half-elf-mark-of-storm
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Tempest Domain)
 - Druid
 - Fighter (Eldritch Knight)
@@ -32,7 +33,7 @@ classes:
 - Warlock (The Genie)
 - Wizard
 aliases:
-- Fog Cloud
+- "Fog Cloud"
 ---
 # Fog Cloud
 *1st-level, Conjuration*  
@@ -47,6 +48,6 @@ You create a 20-foot-radius sphere of fog centered on a point within range. The 
 
 **At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st.
 
-**Classes**: [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Cleric (Tempest Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-tempest-domain.md); [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Tempest Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-tempest-domain.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 243. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

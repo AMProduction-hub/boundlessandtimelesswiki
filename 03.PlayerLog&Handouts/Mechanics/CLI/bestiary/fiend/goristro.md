@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/17
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Goristro
+- "Goristro"
 ---
-# [Goristro](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/goristro.md)
+# [Goristro](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/goristro.md)
 *Source: Monster Manual p. 59*  
 
 The goristro resembles a fiendish minotaur towering more than twenty feet tall. When controlled by a demon lord, goristros make formidable living siege engines and prized pets. Goristros possess preternatural cunning when navigating labyrinthine passages and shifting corridors, pursuing foes in a terrifying hunt.
@@ -167,13 +168,13 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > 
 > Some demons can have an action option that allows them to summon other demons. Summon Demon (1/Day). The demon chooses what to summon and attempts a magical summoning.
 > 
-> - A balor has a 50 percent chance of summoning `d8` vrocks, `d6` hezrous, `d4` glabrezus, `d3` nalfeshnees, `d2` mariliths, or one goristro.  
+> - A balor has a 50 percent chance of summoning `1d8` vrocks, `1d6` hezrous, `1d4` glabrezus, `1d3` nalfeshnees, `1d2` mariliths, or one goristro.  
 > - A barlgura has a 30 percent chance of summoning one barlgura.  
 > - A chasme has a 30 percent chance of summoning one chasme.  
-> - A glabrezu has a 30 percent chance of summoning `d3` vrocks, `d2` hezrous, or one glabrezu.  
+> - A glabrezu has a 30 percent chance of summoning `1d3` vrocks, `1d2` hezrous, or one glabrezu.  
 > - A hezrou has a 30 percent chance of summoning `2d6` dretches or one hezrou.  
-> - A marilith has a 50 percent chance of summoning `d6` vrocks, `d4` hezrous, `d3` glabrezus, `d2` nalfeshnees, or one marilith.  
-> - A nalfeshnee has a 50 percent chance of summoning `d4` vrocks, `d3` hezrous, `d2` glabrezus, or one nalfeshnee.  
+> - A marilith has a 50 percent chance of summoning `1d6` vrocks, `1d4` hezrous, `1d3` glabrezus, `1d2` nalfeshnees, or one marilith.  
+> - A nalfeshnee has a 50 percent chance of summoning `1d4` vrocks, `1d3` hezrous, `1d2` glabrezus, or one nalfeshnee.  
 > - A vrock has a 30 percent chance of summoning `2d4` dretches or one vrock.  
 > - A yochlol has a 50 percent chance of summoning one yochlol.  
 > 
@@ -205,10 +206,10 @@ Demonologists organize the chaotic distribution of demons into broad categories 
   - !!int "14"
 "speed": "40 ft."
 "saves":
-  - "strength": "+13"
-  - "dexterity": "+6"
-  - "constitution": "+13"
-  - "wisdom": "+7"
+  - "strength": !!int "13"
+  - "dexterity": !!int "6"
+  - "constitution": !!int "13"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
@@ -216,7 +217,8 @@ Demonologists organize the chaotic distribution of demons into broad categories 
   \ nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 17"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 17"
 "languages": "Abyssal"
 "cr": "17"
 "traits":
@@ -237,14 +239,14 @@ Demonologists organize the chaotic distribution of demons into broad categories 
   - "desc": "The goristro makes three attacks: two with its fists and one with its\
       \ hoof."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:*\
       \ 20 (3d8 + 7) bludgeoning damage."
     "name": "Fist"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:*\
       \ 23 (3d10 + 7) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 21 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Hoof"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:*\
       \ 45 (7d10 + 7) piercing damage."
     "name": "Gore"
 "source":

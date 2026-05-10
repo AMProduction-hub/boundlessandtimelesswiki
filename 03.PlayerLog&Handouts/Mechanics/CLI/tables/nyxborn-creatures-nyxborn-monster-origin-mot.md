@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Nyxborn Creatures; Nyxborn Monster Origin
+- "Nyxborn Creatures; Nyxborn Monster Origin"
 ---
 # Nyxborn Creatures; Nyxborn Monster Origin
 *Source: Mythic Odysseys of Theros p. 203* 
 
 **Nyxborn Monster Origin**
-
-`dice: [](nyxborn-creatures-nyxborn-monster-origin-mot.md#^nyxborn-monster-origin)`
 
 | dice: d6 | Origin |
 |----------|--------|

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 aliases:
-- Axe from the Grave
+- "Axe from the Grave"
 ---
 # Axe from the Grave
 *Source: Keys from the Golden Vault, p. 103* 
@@ -13,7 +14,7 @@ aliases:
 
 Famed bard Froderic Dartwild is dead, and his beautiful mandolin, called Golden Axe, has been stolen from his grave. Even worse, Froderic has risen as a zombie, terrifying the hamlet of Toadhop. In this heist, the characters must track down Golden Axe from the music school owner who stole it and return it to Froderic so the bard can rest peacefully in death once again.
 
-![A chasme demon aims to thw...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/051-07-001-ch7-splash.webp#center "A chasme demon aims to thwart a bard's bold escape from Skalderang Conservatory")
+![A chasme demon aims to thwart a bard's bold escape from Skalderang Conservatory](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/051-07-001-ch7-splash.webp#center)
 
 ## Adventure Background
 
@@ -162,7 +163,7 @@ In addition to providing a sandcastle model of Skalderang Conservatory, Mackerel
 > "One more thing. Sythian is terrified of frogs and toads—has been ever since he was swallowed by a giant toad as a young boy. He'd kill us for telling you that."
 ^29c
 
-Mackerel and Trout know that frogs commonly huddle near the river. A character who spends at least 15 minutes walking along the shoreline can make a DC 13 Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check, locating `d4` [frogs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/frog.md) on a success. Catching a frog requires a successful DC 10 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check.
+Mackerel and Trout know that frogs commonly huddle near the river. A character who spends at least 15 minutes walking along the shoreline can make a DC 13 Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check, locating `1d4` [frogs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/frog.md) on a success. Catching a frog requires a successful DC 10 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check.
 
 ### About Joster Mareet
 
@@ -383,7 +384,7 @@ Between 1 p.m. and 5 p.m., Sythian's students relax here. Three [quasits](03.Pla
 
 The missing paintings were sold at auctions to pay off some of Sythian's debts. The remaining decor includes three [light crossbows](03.PlayerLog&Handouts/Mechanics/CLI/items/light-crossbow.md) and three [heavy crossbows](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md) (all of which are functional but missing ammunition) mounted on the walls, as well as a stag's head mounted above a fireplace.
 
-![Joster Mareet conspires wi...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/056-07-004-quasit-conspiracy.webp#center "Joster Mareet conspires with three quasits, including one in centipede form and one in bat form")
+![Joster Mareet conspires with three quasits, including one in centipede form and one in bat form](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/056-07-004-quasit-conspiracy.webp#center)
 
 #### C5: Shrine (Locked)
 

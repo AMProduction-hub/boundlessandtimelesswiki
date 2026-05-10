@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Steel Defender
+- "Steel Defender"
 ---
-# [Steel Defender](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/steel-defender-tce.md)
+# [Steel Defender](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/steel-defender-tce.md)
 *Source: Tasha's Cauldron of Everything p. 19, Eberron: Rising from the Last War p. 61*  
 
 ```statblock
@@ -44,14 +45,15 @@ aliases:
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 0"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 0"
 "languages": "understands the languages you speak"
 "traits":
   - "desc": "The defender can't be [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised)."
     "name": "Vigilant"
 "actions":
-  - "desc": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft.,\
-      \ one target you can see. Hit: 1d8 + PB force damage."
+  - "desc": "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft.,\
+      \ one target you can see. *Hit:* 1d8 + PB force damage."
     "name": "Force-Empowered Rend"
   - "desc": "The magical mechanisms inside the defender restore 2d8 + PB hit points\
       \ to itself or to one construct or object within 5 feet of it."

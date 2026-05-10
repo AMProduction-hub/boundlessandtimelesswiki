@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/level/6th-level
 - ttrpg-cli/spell/school/conjuration
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Druid
 aliases:
-- Wall of Thorns
+- "Wall of Thorns"
 ---
 # Wall of Thorns
 *6th-level, Conjuration*  
@@ -28,8 +29,8 @@ When the wall appears, each creature within its area must make a Dexterity savin
 
 A creature can move through the wall, albeit slowly and painfully. For every 1 foot a creature moves through the wall, it must spend 4 feet of movement. Furthermore, the first time a creature enters the wall on a turn or ends its turn there, the creature must make a Dexterity saving throw. It takes `7d8` slashing damage on a failed save, or half as much damage on a successful one.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 7th level or higher, both types of damage increase by `d8` for each slot level above 6th.
+**At Higher Levels.** When you cast this spell using a spell slot of 7th level or higher, both types of damage increase by `1d8` for each slot level above 6th.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md)
 
 *Source: Player's Handbook p. 287. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

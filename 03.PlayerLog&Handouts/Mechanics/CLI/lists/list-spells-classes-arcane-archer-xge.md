@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/arcane-archer
 aliases:
-- Spells for Arcane Archer
+- "Spells for Arcane Archer"
 ---
 # Spells for Arcane Archer
 

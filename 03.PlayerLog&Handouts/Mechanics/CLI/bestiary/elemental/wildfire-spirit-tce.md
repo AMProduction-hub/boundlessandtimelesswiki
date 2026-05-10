@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Wildfire Spirit
+- "Wildfire Spirit"
 ---
-# [Wildfire Spirit](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/wildfire-spirit-tce.md)
+# [Wildfire Spirit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/wildfire-spirit-tce.md)
 *Source: Tasha's Cauldron of Everything p. 40*  
 
 ```statblock
@@ -35,11 +36,12 @@ aliases:
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "understands the languages you speak"
 "actions":
-  - "desc": "Ranged Weapon Attack: your spell attack modifier to hit, range 60 ft.,\
-      \ one target you can see. Hit: 1d6 + PB fire damage."
+  - "desc": "*Ranged Weapon Attack:* your spell attack modifier to hit, range 60 ft.,\
+      \ one target you can see. *Hit:* 1d6 + PB fire damage."
     "name": "Flame Seed"
   - "desc": "The spirit and each willing creature of your choice within 5 feet of\
       \ it teleport up to 15 feet to unoccupied spaces you can see. Then each creature\

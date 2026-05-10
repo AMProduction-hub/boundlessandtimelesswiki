@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Fennor
+- "Fennor"
 ---
-# [Fennor](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/fennor-pota.md)
+# [Fennor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fennor-pota.md)
 *Source: Princes of the Apocalypse p. 170*  
 
 ```statblock
@@ -33,6 +34,8 @@ aliases:
   - !!int "11"
   - !!int "9"
 "speed": "30 ft."
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "3"
@@ -44,7 +47,7 @@ aliases:
 "actions":
   - "desc": "Fennor makes two attacks with her greatsword"
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage."
     "name": "Greatsword"
 "source":

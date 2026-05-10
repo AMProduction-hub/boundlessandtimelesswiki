@@ -1,70 +1,71 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/arcana-domain
 aliases:
-- Spells for Arcana Domain
+- "Spells for Arcana Domain"
 ---
 # Spells for Arcana Domain
 
 ## Cantrip
 
-- [Acid Splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md "PHB") at class level 17
-- [Blade Ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-ward.md "PHB") at class level 17
-- [Booming Blade](03.PlayerLog&Handouts/Mechanics/CLI/spells/booming-blade-tce.md "TCE") at class level 17
-- [Chill Touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md "PHB") at class level 17
-- [Control Flames](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-flames-xge.md "XGE") at class level 17
-- [Create Bonfire](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-bonfire-xge.md "XGE") at class level 17
-- [Dancing Lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md "PHB") at class level 17
-- [Fire Bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md "PHB") at class level 17
-- [Friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md "PHB") at class level 17
-- [Frostbite](03.PlayerLog&Handouts/Mechanics/CLI/spells/frostbite-xge.md "XGE") at class level 17
-- [Green-Flame Blade](03.PlayerLog&Handouts/Mechanics/CLI/spells/green-flame-blade-tce.md "TCE") at class level 17
-- [Gust](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-xge.md "XGE") at class level 17
-- [Infestation](03.PlayerLog&Handouts/Mechanics/CLI/spells/infestation-xge.md "XGE") at class level 17
-- [Light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md "PHB") at class level 17
-- [Lightning Lure](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-lure-tce.md "TCE") at class level 17
-- [Mage Hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md "PHB") at class level 17
-- [Mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md "PHB") at class level 17
-- [Message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md "PHB") at class level 17
-- [Mind Sliver](03.PlayerLog&Handouts/Mechanics/CLI/spells/mind-sliver-tce.md "TCE") at class level 17
-- [Minor Illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md "PHB") at class level 17
-- [Mold Earth](03.PlayerLog&Handouts/Mechanics/CLI/spells/mold-earth-xge.md "XGE") at class level 17
-- [Poison Spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md "PHB") at class level 17
-- [Prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md "PHB") at class level 17
-- [Ray of Frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md "PHB") at class level 17
-- [Shape Water](03.PlayerLog&Handouts/Mechanics/CLI/spells/shape-water-xge.md "XGE") at class level 17
-- [Shocking Grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md "PHB") at class level 17
-- [Sword Burst](03.PlayerLog&Handouts/Mechanics/CLI/spells/sword-burst-tce.md "TCE") at class level 17
-- [Thunderclap](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderclap-xge.md "XGE") at class level 17
-- [Toll the Dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/toll-the-dead-xge.md "XGE") at class level 17
-- [True Strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-strike.md "PHB") at class level 17
+- [Acid Splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md "PHB")
+- [Blade Ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-ward.md "PHB")
+- [Booming Blade](03.PlayerLog&Handouts/Mechanics/CLI/spells/booming-blade-tce.md "TCE")
+- [Chill Touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md "PHB")
+- [Control Flames](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-flames-xge.md "XGE")
+- [Create Bonfire](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-bonfire-xge.md "XGE")
+- [Dancing Lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md "PHB")
+- [Fire Bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md "PHB")
+- [Friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md "PHB")
+- [Frostbite](03.PlayerLog&Handouts/Mechanics/CLI/spells/frostbite-xge.md "XGE")
+- [Green-Flame Blade](03.PlayerLog&Handouts/Mechanics/CLI/spells/green-flame-blade-tce.md "TCE")
+- [Gust](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-xge.md "XGE")
+- [Infestation](03.PlayerLog&Handouts/Mechanics/CLI/spells/infestation-xge.md "XGE")
+- [Light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md "PHB")
+- [Lightning Lure](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-lure-tce.md "TCE")
+- [Mage Hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md "PHB")
+- [Mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md "PHB")
+- [Message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md "PHB")
+- [Mind Sliver](03.PlayerLog&Handouts/Mechanics/CLI/spells/mind-sliver-tce.md "TCE")
+- [Minor Illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md "PHB")
+- [Mold Earth](03.PlayerLog&Handouts/Mechanics/CLI/spells/mold-earth-xge.md "XGE")
+- [Poison Spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md "PHB")
+- [Prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md "PHB")
+- [Ray of Frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md "PHB")
+- [Shape Water](03.PlayerLog&Handouts/Mechanics/CLI/spells/shape-water-xge.md "XGE")
+- [Shocking Grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md "PHB")
+- [Sword Burst](03.PlayerLog&Handouts/Mechanics/CLI/spells/sword-burst-tce.md "TCE")
+- [Thunderclap](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderclap-xge.md "XGE")
+- [Toll the Dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/toll-the-dead-xge.md "XGE")
+- [True Strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-strike.md "PHB")
 
 ## 1st Level
 
-- [Detect Magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md "PHB") at class level 17
-- [Magic Missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md "PHB") at class level 17
+- [Detect Magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md "PHB")
+- [Magic Missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md "PHB")
 
 ## 2nd Level
 
-- [Magic Weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-weapon.md "PHB") at class level 17
-- [Nystul's Magic Aura](03.PlayerLog&Handouts/Mechanics/CLI/spells/nystuls-magic-aura.md "PHB") at class level 17
+- [Magic Weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-weapon.md "PHB") at class level 3
+- [Nystul's Magic Aura](03.PlayerLog&Handouts/Mechanics/CLI/spells/nystuls-magic-aura.md "PHB") at class level 3
 
 ## 3rd Level
 
-- [Dispel Magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md "PHB") at class level 17
-- [Magic Circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-circle.md "PHB") at class level 17
+- [Dispel Magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md "PHB") at class level 5
+- [Magic Circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-circle.md "PHB") at class level 5
 
 ## 4th Level
 
-- [Arcane Eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md "PHB") at class level 17
-- [Leomund's Secret Chest](03.PlayerLog&Handouts/Mechanics/CLI/spells/leomunds-secret-chest.md "PHB") at class level 17
+- [Arcane Eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md "PHB") at class level 7
+- [Leomund's Secret Chest](03.PlayerLog&Handouts/Mechanics/CLI/spells/leomunds-secret-chest.md "PHB") at class level 7
 
 ## 5th Level
 
-- [Planar Binding](03.PlayerLog&Handouts/Mechanics/CLI/spells/planar-binding.md "PHB") at class level 17
-- [Teleportation Circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleportation-circle.md "PHB") at class level 17
+- [Planar Binding](03.PlayerLog&Handouts/Mechanics/CLI/spells/planar-binding.md "PHB") at class level 9
+- [Teleportation Circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleportation-circle.md "PHB") at class level 9
 
 ## 6th Level
 

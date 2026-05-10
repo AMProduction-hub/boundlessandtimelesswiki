@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dread Warrior
+- "Dread Warrior"
 ---
-# [Dread Warrior](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/dread-warrior-tftyp.md)
+# [Dread Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/dread-warrior-tftyp.md)
 *Source: Tales from the Yawning Portal p. 233*  
 
 The Red Wizards (Dead in Thay) make use of several kinds of undead minions, including the special servants known as dread warriors. After being created by a secret ritual, a dread warrior is further enchanted so that a Red Wizard can employ the creature in the fashion of a spellcaster's familiar. By creating a psychic link with a dread warrior, a Red Wizard can experience the world through the creature's senses and direct the warrior.
@@ -40,7 +41,7 @@ A dread warrior doesn't require air, food, drink, or sleep.
   - !!int "10"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+3"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+4"
@@ -49,7 +50,11 @@ A dread warrior doesn't require air, food, drink, or sleep.
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[battleaxe](03.PlayerLog&Handouts/Mechanics/CLI/items/battleaxe.md)"
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common"
 "cr": "1"
 "traits":
@@ -61,12 +66,12 @@ A dread warrior doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The dread warrior makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if wielded\
       \ with two hands."
     "name": "Battleaxe"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
     "name": "Javelin"
 "source":
   - "TftYP"

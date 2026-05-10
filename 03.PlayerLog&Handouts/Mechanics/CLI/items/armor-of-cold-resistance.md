@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/armor/heavy
@@ -10,7 +11,7 @@ tags:
 - ttrpg-cli/item/rarity/rare
 - ttrpg-cli/item/tier/major
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Armor of Cold Resistance"
 - "Breastplate of Cold Resistance"
 - "Chain Mail of Cold Resistance"
@@ -28,7 +29,7 @@ aliases:
 ---
 # Armor of Cold Resistance
 *Major, rare (requires attunement)*  
-
+![Armor of resistance (Leather Armor), Armor of invulnerability (Plate Armor)](03.PlayerLog&Handouts/Mechanics/CLI/items/img/armor-of-cold-resistance.webp#right)
 
 
 **Variants**:

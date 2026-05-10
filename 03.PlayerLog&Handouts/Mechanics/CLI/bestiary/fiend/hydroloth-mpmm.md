@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hydroloth
+- "Hydroloth"
 ---
-# [Hydroloth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/hydroloth-mpmm.md)
+# [Hydroloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hydroloth-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 158, Mordenkainen's Tome of Foes p. 249*  
 
 Like the thought-stealing waters of the River Styx they inhabit, hydroloths filch the memories of creatures they attack, stealing away thoughts for delivery to whatever master they happen to serve. Hydroloths also savor finding lost things, especially those that have been swallowed up in the deeps.
@@ -46,7 +47,9 @@ For amphibious assaults or underwater conflicts, hydroloths have no equal among 
   \ attacks"
 "damage_immunities": "acid, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 14"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Abyssal, Infernal, telepathy 60 ft."
 "cr": "9"
 "traits":
@@ -64,10 +67,10 @@ For amphibious assaults or underwater conflicts, hydroloths have no equal among 
   - "desc": "The hydroloth makes two Bite or Claw attacks. It can replace one attack\
       \ with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 16\
       \ (2d10 + 5) force damage plus 9 (2d10) psychic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target.  Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target.  *Hit:*\
       \ 14 (2d8 + 5) force damage plus 9 (2d10) psychic damage."
     "name": "Claw"
   - "desc": "The hydroloth targets one creature it can see within 60 feet of it. The\
@@ -86,11 +89,11 @@ For amphibious assaults or underwater conflicts, hydroloths have no equal among 
     "name": "Teleport"
   - "desc": "The hydroloth casts one of the following spells, requiring no material\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 16):\n\nAt will: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ DC 16):\n\n**At will:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
-      \ (self only)\n\n3/day each: [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md),\
+      \ (self only)\n\n**3/day each:** [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md),\
       \ [crown of madness](03.PlayerLog&Handouts/Mechanics/CLI/spells/crown-of-madness.md),\
       \ [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md), [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
     "name": "Spellcasting"

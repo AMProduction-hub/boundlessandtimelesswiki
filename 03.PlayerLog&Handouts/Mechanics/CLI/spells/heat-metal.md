@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/izzet-engineer
 - ttrpg-cli/spell/class/artificer
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/feat/adept-of-the-red-robes
 - ttrpg-cli/spell/level/2nd-level
@@ -14,11 +15,11 @@ tags:
 - ttrpg-cli/spell/subclass/forge-domain
 classes:
 - Artificer
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Forge Domain)
 - Druid
 aliases:
-- Heat Metal
+- "Heat Metal"
 ---
 # Heat Metal
 *2nd-level, Transmutation*  
@@ -33,8 +34,8 @@ Choose a manufactured metal object, such as a metal weapon or a suit of heavy or
 
 If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn't drop the object, it has disadvantage on attack rolls and ability checks until the start of your next turn.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by `d8` for each slot level above 2nd.
+**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by `1d8` for each slot level above 2nd.
 
-**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Cleric (Forge Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-forge-domain-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Forge Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-forge-domain-xge.md "subclass=XGE"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md)
 
 *Source: Player's Handbook p. 250. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

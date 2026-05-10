@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hybrid Spy
+- "Hybrid Spy"
 ---
-# [Hybrid Spy](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/hybrid-spy-ggr.md)
+# [Hybrid Spy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hybrid-spy-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 218*  
 
 ## Simic Hybrids
@@ -22,7 +23,7 @@ The Guardian Project is a consequence of increasing tension within the Simic Com
 "name": "Hybrid Spy (GGR)"
 "size": "Medium"
 "type": "humanoid"
-"subtype": "Simic hybrid"
+"subtype": "simic hybrid"
 "alignment": "Neutral Good"
 "ac": !!int "13"
 "hp": !!int "22"
@@ -41,7 +42,10 @@ The Guardian Project is a consequence of increasing tension within the Simic Com
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Common plus any one language"
 "cr": "1/2"
 "traits":
@@ -54,7 +58,7 @@ The Guardian Project is a consequence of increasing tension within the Simic Com
 "actions":
   - "desc": "The hybrid makes two shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Shortsword"
 "source":

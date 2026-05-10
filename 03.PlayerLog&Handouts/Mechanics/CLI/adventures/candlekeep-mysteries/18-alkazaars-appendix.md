@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 aliases:
-- Alkazaar's Appendix
+- "Alkazaar's Appendix"
 ---
 # Alkazaar's Appendix
 *Source: Candlekeep Mysteries, p. 198* 
@@ -143,7 +144,7 @@ The sapphire is inside the golem's chest, hidden behind an 8-inch-diameter stone
 The disk can be removed to reveal the glowing sapphire only when the golem receives a command to use its power from someone whose commands it obeys (see "Getting the Golem's Attention" below). Otherwise, the sapphire remains hidden. The gemstone is 6 inches in diameter and has the following properties:
 
 - It is indestructible until the golem completes its mission.  
-- The sapphire has 3 charges. As an action, the golem can expend 1 charge to cast [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md) (as a 9th-level spell) from the sapphire using Constitution as its spellcasting ability. The sapphire ceases to glow if all its charges are expended, but it regains `d3` expended charges daily at dawn and glows again once it has 1 or more charges.  
+- The sapphire has 3 charges. As an action, the golem can expend 1 charge to cast [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md) (as a 9th-level spell) from the sapphire using Constitution as its spellcasting ability. The sapphire ceases to glow if all its charges are expended, but it regains `1d3` expended charges daily at dawn and glows again once it has 1 or more charges.  
 - The golem attacks anyone who tries to remove the sapphire, which is worth 25,000 gp.  
 
 #### Getting the Golem's Attention
@@ -248,8 +249,6 @@ As they enter the cave, the characters see that the walls are sculpted and chise
 A creature that spends 5 minutes digging through the dung can roll on the Worm Dung Treasure table. Once a treasure is found, eliminate that entry from the table.
 
 **Worm Dung Treasure**
-
-`dice: [](18-alkazaars-appendix.md#^worm-dung-treasure)`
 
 | dice: d4 | Treasure |
 |----------|----------|
@@ -371,7 +370,7 @@ For the [dragon tortoise](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/dr
 - It lacks a swimming speed and the Amphibious trait.  
 - Its breath weapon is a 60-foot cone of abrasive sand instead of steam that deals slashing damage instead of fire damage.  
 
-[Ogruhl](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/dragon-tortoise-cm.md) has been trapped here for millennia, [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) by magic chains. Ogruhl was the prisoner of a cruel Netherese wizard. When the city around the tortoise was abandoned, Ogruhl was left to die. A band of chwingas found the tortoise and brought it food and water little by little to keep it alive. Over time, the chwingas and Ogruhl developed a symbiotic relationship—it defended them and provided a home for them, and they helped it to survive.
+[Ogruhl](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ogruhl-cm.md) has been trapped here for millennia, [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) by magic chains. Ogruhl was the prisoner of a cruel Netherese wizard. When the city around the tortoise was abandoned, Ogruhl was left to die. A band of chwingas found the tortoise and brought it food and water little by little to keep it alive. Over time, the chwingas and Ogruhl developed a symbiotic relationship—it defended them and provided a home for them, and they helped it to survive.
 
 **Helping Ogruhl**. A successful DC 20 Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)) check determines that the chains that bind Ogruhl can be broken with a successful [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md) spell (DC 19).
 
@@ -398,7 +397,7 @@ The golem points to the sandstorm and seems puzzled about what to do next.
 
 As the characters explore the necropolis, describe the scene to keep them on edge—the desolation, the scent of scorched sand, and the hiss of the sandstorm that increases in volume as they draw near. With the exception of the mastaba (see area V1), the necropolis consists of a series of ruined stone walls jutting out of the sand and patches of paved streets revealed by the howling winds. The swirling sandstorm at its center can be seen and heard from anywhere in the necropolis.
 
-The necropolis also contains buried treasures. A character who searches for an hour and succeeds on a DC 20 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check finds some hidden treasure determined by rolling on the "Treasure Hoard: Challenge 5–10 table" in the "Dungeon Master's Guide". Up to four such hoards can be found before the city is picked clean.
+The necropolis also contains buried treasures. A character who searches for an hour and succeeds on a DC 20 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check finds some hidden treasure determined by rolling on the [Treasure Hoard: Challenge 5—10](03.PlayerLog&Handouts/Mechanics/CLI/tables/treasure-hoard-challenge-510.md) table in the "Dungeon Master's Guide". Up to four such hoards can be found before the city is picked clean.
 
 To keep the characters on their toes, you can use one of the following encounters.
 

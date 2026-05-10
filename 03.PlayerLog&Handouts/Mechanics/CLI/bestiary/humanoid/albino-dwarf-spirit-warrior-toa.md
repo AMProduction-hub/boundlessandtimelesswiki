@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/1
@@ -9,16 +10,18 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Albino Dwarf Spirit Warrior
+- "Albino Dwarf Spirit Warrior"
 ---
-# [Albino Dwarf Spirit Warrior](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/albino-dwarf-spirit-warrior-toa.md)
+# [Albino Dwarf Spirit Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/albino-dwarf-spirit-warrior-toa.md)
 *Source: Tomb of Annihilation p. 210*  
-
-The albino dwarves of Chult were driven from their subterranean homes by volcanic activity, and those who didn't seek refuge in Port Nyanzaru adapted to living in the jungle. They make armor out of dinosaur hide; shape weapons out of dinosaur bones, flint, and wood; and craft ornate jewelry out of bones, feathers, tusks, and stone beads. Albino dwarves haven't forgotten how to forge metal, but they seldom have the means to do so.
 
 ## Albino Dwarf Spirit Warriors
 
 An albino dwarf can become so attuned to the land of Chult that a benevolent nature spirit takes notice and bestows a powerful charm on the dwarf, granting it innate spellcasting abilities. These dwarf spirit warriors dedicate themselves to preserving the natural beauty of Chult and battling unnatural threats. An albino dwarf spirit warrior has the statistics of an albino dwarf warrior, except it has a challenge rating of 1 (200 XP) and gains an Innate Spellcasting feature.
+
+## Albino Dwarf
+
+The albino dwarves of Chult were driven from their subterranean homes by volcanic activity, and those who didn't seek refuge in Port Nyanzaru adapted to living in the jungle. They make armor out of dinosaur hide; shape weapons out of dinosaur bones, flint, and wood; and craft ornate jewelry out of bones, feathers, tusks, and stone beads. Albino dwarves haven't forgotten how to forge metal, but they seldom have the means to do so.
 
 ```statblock
 "name": "Albino Dwarf Spirit Warrior (ToA)"
@@ -47,12 +50,15 @@ An albino dwarf can become so attuned to the land of Chult that a benevolent nat
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+4"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[handaxe](03.PlayerLog&Handouts/Mechanics/CLI/items/handaxe.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Common, Dwarvish"
 "cr": "1"
 "traits":
   - "desc": "The dwarf's innate spellcasting ability is Wisdom. It can innately cast\
-      \ the following spells, requiring no material components:\n\n1/day each:\
+      \ the following spells, requiring no material components:\n\n**1/day each:**\
       \ [hunter's mark](03.PlayerLog&Handouts/Mechanics/CLI/spells/hunters-mark.md),\
       \ [jump](03.PlayerLog&Handouts/Mechanics/CLI/spells/jump.md), [pass without\
       \ trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md),\
@@ -62,8 +68,8 @@ An albino dwarf can become so attuned to the land of Chult that a benevolent nat
   - "desc": "The dwarf has advantage on saving throws against poison."
     "name": "Dwarven Resilience"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d6 + 1) slashing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d6 + 1) slashing damage."
     "name": "Handaxe"
 "source":
   - "ToA"

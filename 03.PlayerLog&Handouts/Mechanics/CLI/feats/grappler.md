@@ -1,15 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/feat
 aliases:
-- Grappler
+- "Grappler"
 ---
 # Grappler
 *Source: Player's Handbook p. 167. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+
 **Prerequisite**: Strength 13 or higher
+
 You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:
 
 - You have advantage on attack rolls against a creature you are grappling.  

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Jackal
+- "Jackal"
 ---
-# [Jackal](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/jackal.md)
-*Source: Monster Manual p. 331, Ghosts of Saltmarsh. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Jackal](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/jackal.md)
+*Source: Monster Manual p. 331. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Jackal"
@@ -48,12 +49,11 @@ aliases:
       \ [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 1\
       \ (1d4 - 1) piercing damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "GoS"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/jackal.webp"
 ```
 ^statblock

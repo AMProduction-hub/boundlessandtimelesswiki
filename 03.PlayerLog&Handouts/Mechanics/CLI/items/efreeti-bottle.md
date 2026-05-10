@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/rarity/very-rare
 - ttrpg-cli/item/tier/major
-aliases: 
+aliases:
 - "Efreeti Bottle"
 ---
 # Efreeti Bottle
@@ -17,8 +18,6 @@ aliases:
 This painted brass bottle weighs 1 pound. When you use an action to remove the stopper, a cloud of thick smoke flows out of the bottle. At the end of your turn, the smoke disappears with a flash of harmless fire, and an [efreeti](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/efreeti.md) appears in an unoccupied space within 30 feet of you.
 
 The first time the bottle is opened, the DM rolls to determine what happens.
-
-`dice: [](efreeti-bottle.md#^effect)`
 
 | dice: d100 | Effect |
 |------------|--------|

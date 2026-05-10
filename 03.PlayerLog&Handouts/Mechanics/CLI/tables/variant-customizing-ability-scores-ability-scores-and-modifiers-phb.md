@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Variant: Customizing Ability Scores; Ability Scores and Modifiers
+- "Variant: Customizing Ability Scores; Ability Scores and Modifiers"
 ---
 # Variant: Customizing Ability Scores; Ability Scores and Modifiers
 *Source: Player's Handbook p. 13. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)* 

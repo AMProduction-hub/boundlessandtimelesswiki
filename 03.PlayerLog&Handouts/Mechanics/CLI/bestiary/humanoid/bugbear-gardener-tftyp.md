@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bugbear Gardener
+- "Bugbear Gardener"
 ---
-# [Bugbear Gardener](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/bugbear-gardener-tftyp.md)
+# [Bugbear Gardener](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bugbear-gardener-tftyp.md)
 *Source: Tales from the Yawning Portal p. 29*  
 
 ```statblock
@@ -39,7 +40,11 @@ aliases:
     "desc": "+6"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+  - "[morningstar](03.PlayerLog&Handouts/Mechanics/CLI/items/morningstar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Goblin"
 "cr": "1"
 "traits":
@@ -51,11 +56,11 @@ aliases:
       \ the attack."
     "name": "Surprise Attack"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:*\
       \ 13 (2d10 + 2) slashing damage."
     "name": "Glaive"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 9 (2d6 + 2) piercing damage in melee or 5 (1d6\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 9 (2d6 + 2) piercing damage in melee or 5 (1d6\
       \ + 2) piercing damage at range."
     "name": "Javelin"
 "source":

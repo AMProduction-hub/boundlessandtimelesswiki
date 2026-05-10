@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lizardfolk Commoner
+- "Lizardfolk Commoner"
 ---
-# [Lizardfolk Commoner](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/lizardfolk-commoner-gos.md)
+# [Lizardfolk Commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk-commoner-gos.md)
 *Source: Ghosts of Saltmarsh p. 241*  
 
 These lizardfolk, found wandering the halls in Danger at Dunwater, are just as fierce as their armed kin, and can equip themselves with weapons and shields if such are available.
@@ -49,7 +50,7 @@ These lizardfolk, found wandering the halls in Danger at Dunwater, are just as f
   - "desc": "The lizardfolk can hold its breath for 15 minutes."
     "name": "Hold Breath"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Bite"
 "source":

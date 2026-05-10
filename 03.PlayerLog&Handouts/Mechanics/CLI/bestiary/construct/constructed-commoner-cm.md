@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Constructed Commoner
+- "Constructed Commoner"
 ---
-# [Constructed Commoner](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/constructed-commoner-cm.md)
+# [Constructed Commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/constructed-commoner-cm.md)
 *Source: Candlekeep Mysteries p. 149*  
 
 To populate the demiplane without endangering any innocents, the Harpers created constructs out of wooden mannequins to act as villagers. Magic makes them look like flesh-and-blood people, and the constructs conduct themselves as convincingly real humanoids who are simply living their lives in Wisteria Vale. [Detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spells do not reveal their true nature, as each construct is shielded by a spell that makes it seem nonmagical.
@@ -41,6 +42,8 @@ Constructed commoners don't bleed or feel pain like flesh-and-blood humanoids. I
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
 "senses": "passive Perception 10"
 "languages": "Common"
 "cr": "0"
@@ -50,8 +53,8 @@ Constructed commoners don't bleed or feel pain like flesh-and-blood humanoids. I
       \ it becomes a lifeless object."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) bludgeoning damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d4) bludgeoning damage."
     "name": "Club"
 "source":
   - "CM"

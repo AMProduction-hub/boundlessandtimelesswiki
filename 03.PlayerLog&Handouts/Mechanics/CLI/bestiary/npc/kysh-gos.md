@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kysh
+- "Kysh"
 ---
-# [Kysh](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/kysh-gos.md)
+# [Kysh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kysh-gos.md)
 *Source: Ghosts of Saltmarsh p. 240*  
 
 A prisoner of the sahuagin in The Final Enemy, Kysh is a defender of the deep sea realms who is ready to join the party in their struggle. Tritons are folk of the Elemental Plane of Water who journeyed to the Material Plane to watch over the dark places of the ocean depths. They stand guard over portals, deep sea chasms, and other places where foul monsters might emerge. When such threats appear, the tritons take up arms to drive them from the world.
@@ -39,13 +40,16 @@ A prisoner of the sahuagin in The Final Enemy, Kysh is a defender of the deep se
     "desc": "+4"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+3"
-"senses": "darkvision 60 ft., passive Perception 11"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common, Primordial"
 "cr": "1"
 "traits":
   - "desc": "Kysh's spellcasting ability is Charisma (spell save DC 12, +4 to hit\
       \ with spell attacks). He can cast the following spell, requiring only verbal\
-      \ components:\n\n1/day: [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md)"
+      \ components:\n\n**1/day:** [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md)"
     "name": "Innate Spellcasting"
   - "desc": "Kysh can breathe air and water."
     "name": "Amphibious"
@@ -56,8 +60,8 @@ A prisoner of the sahuagin in The Final Enemy, Kysh is a defender of the deep se
 "actions":
   - "desc": "Kysh makes two melee attacks with his spear."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft, one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft, one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Spear"
 "source":

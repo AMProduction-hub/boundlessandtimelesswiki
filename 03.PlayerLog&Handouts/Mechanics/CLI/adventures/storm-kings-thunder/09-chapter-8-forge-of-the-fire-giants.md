@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 aliases:
-- Chapter 8: Forge of the Fire Giants
+- "Chapter 8: Forge of the Fire Giants"
 ---
 # Chapter 8: Forge of the Fire Giants
 *Source: Storm King's Thunder, p. 167* 
@@ -141,8 +142,6 @@ Check to see if reinforcements arrive once during the day and once at night by r
 
 #### Ironslag Reinforcements
 
-`dice: [](09-chapter-8-forge-of-the-fire-giants.md#^creature-s)`
-
 | dice: d100 | Creature(s) |
 |------------|-------------|
 | 01–60 | None |
@@ -168,7 +167,7 @@ Check to see if reinforcements arrive once during the day and once at night by r
 > 
 > **Fireplaces.** Ironslag's fireplaces are hewn out of the rock and have basalt mantelpiece ornately carved with images of hell hounds and fire elementals. These openings are wide and tall enough for a party of adventurers to stand in. The fire in each one burns constantly, fed by natural gas that spews from `1d4 + 4` holes in the floor. A fireplace's flame can be extinguished by plugging the holes, each of which is 4 inches in diameter. Any creature that enters a fire or starts its turn there takes 10 (`3d6`) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 10 (`3d6`) fire damage at the start of each of its turns. A creature can extinguish the flames by using a quart or more of water, a thick blanket, or some other means.
 > 
-> **Gantries.** The upper level of Ironslag features iron walkways that are bolted to the walls and stabilized with taut chains bolted to the ceiling. Iron cranes, pulleys, and swingarms are attached to some of the gantries. The gantry floors are iron grills with holes large enough for a human fist to pass through. A gantry grants three-quarters cover against any ranged attack that must pass through it to hit its target.
+> **Gantries.** The upper level of Ironslag features iron walkways that are bolted to the walls and stabilized with taut chains bolted to the ceiling. Iron cranes, pulleys, and swing-arms are attached to some of the gantries. The gantry floors are iron grills with holes large enough for a human fist to pass through. A gantry grants three-quarters cover against any ranged attack that must pass through it to hit its target.
 > 
 > **Illumination.** The yakfolk village and other outdoor locations rely on natural light. The mines are unlit. Rooms and corridors in Ironslag that are equipped with fireplaces or iron braziers are dimly lit.
 > 
@@ -193,7 +192,7 @@ When the characters first arrive, there is a 50 percent chance that the chimera 
 
 ##### Treasure
 
-Characters who search the chimera's nest find several items taken from prey: 120 cp, 45 sp, six 100 gp gemstones, a torn-up suit of gnome-sized leather armor with a tiny electrum music box (worth 50 gp) tucked inside one of its many pockets, a dagger with an obsidian blade (worth 75 gp), a gold-plated helm studded with gems and topped with a tiny golden anvil (worth 750 gp), and `d3` magic items (roll on Magic Item Table B in chapter 7 of the "Dungeon Master's Guide").
+Characters who search the chimera's nest find several items taken from prey: 120 cp, 45 sp, six 100 gp gemstones, a torn-up suit of gnome-sized leather armor with a tiny electrum music box (worth 50 gp) tucked inside one of its many pockets, a dagger with an obsidian blade (worth 75 gp), a gold-plated helm studded with gems and topped with a tiny golden anvil (worth 750 gp), and `1d3` magic items (roll on Magic Item Table B in chapter 7 of the "Dungeon Master's Guide").
 
 ### 2. Bridge
 
@@ -323,7 +322,7 @@ The second chest contains a clay jug painted with images of flying djinn (worth 
 
 The third chest contains weapons (three shortswords, four daggers, two battleaxes, three shortbows, and three quivers with `2d10` arrows in each) taken from prisoners.
 
-The fourth chest contains a pair of electrum bracers with embossed dwarf faces on them (worth 250 gp for the pair), as well as `d4` magic items. Roll on Magic Item Table C in chapter 7 of the "Dungeon Master's Guide" for the first item, and on Table A for any others.
+The fourth chest contains a pair of electrum bracers with embossed dwarf faces on them (worth 250 gp for the pair), as well as `1d4` magic items. Roll on Magic Item Table C in chapter 7 of the "Dungeon Master's Guide" for the first item, and on Table A for any others.
 
 #### Development
 
@@ -334,7 +333,7 @@ The moon elf slaves know all the information in the "Slaves of the Yakfolk" side
 - Yakfolk can perform a ritual that lets them possess humanoids by "crawling under their skin." (The elves have seen the ritual performed in Kartha-Kaya's hut.)  
 - The yakfolk ambushed a patrol of dwarves from Citadel Adbar, captured several members, and used their possession ritual to inhabit the dwarves. The chief then sent these assassins to kill Citadel Adbar's king. (The elves saw the ritual being performed.)  
 
-If the characters agree to escort Halani back to her tribe in the Moonwood, she leads them to an icy waterfall in the heart of the forest where they can rest for the night. A group of six moon elf [scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md) wander by a short time later and offer to take Halani home. She has nothing to give the characters in gratitude, but the characters' kindness doesn't go unnoticed by the forest's ancient spirits. After finishing a long rest in the forest, each character who aided in Halani's safe return gains a *charm of the slayer* (see the ""Supernatural Gifts"" section in chapter 7 of the *Dungeon Master's Guide*).
+If the characters agree to escort Halani back to her tribe in the Moonwood, she leads them to an icy waterfall in the heart of the forest where they can rest for the night. A group of six moon elf [scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md) wander by a short time later and offer to take Halani home. She has nothing to give the characters in gratitude, but the characters' kindness doesn't go unnoticed by the forest's ancient spirits. After finishing a long rest in the forest, each character who aided in Halani's safe return gains a [charm of the slayer](03.PlayerLog&Handouts/Mechanics/CLI/rewards/charm-of-the-slayer.md) (see the ""Supernatural Gifts"" section in chapter 7 of the *Dungeon Master's Guide*).
 
 Characters can follow up on the elves' claim that yakfolk are planning to assassinate the king of Citadel Adbar, either immediately or once they have concluded their business in Ironslag. If they visit the dwarven stronghold and seek an audience with King Harnoth, run the suggested encounter in the "Citadel Adbar" section in chapter 3. If they later return to Ironslag, the yakfolk village remains as they left it.
 
@@ -438,7 +437,7 @@ Twelve iron-framed beds line the walls of this chamber. At the foot of each bed 
 
 ##### Treasure
 
-Each footlocker contains a sack holding `1d10 × 100` gp plus `d4` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
+Each footlocker contains a sack holding `1d10 × 100` gp plus `1d4` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
 
 ### 17. Ore Depository
 
@@ -563,7 +562,7 @@ The iron chest under the table is 9 feet long, 6 feet tall, and 6 feet wide, and
 
 If the chest is opened without using the combination, the act releases a cloud of incendiary gas that ignites on contact with the air and fills a 20-foot-radius sphere centered on the chest. Any creature in the area must succeed on a DC 15 Dexterity saving throw, taking 45 (`10d8`) fire damage on a failed saving throw, or half as much damage on a successful one. The trap can't be disabled from outside the chest and is triggered only once.
 
-Inside the chest, resting on a bed of ashes, is a giant-sized adamantine crown set with six black opals (worth 7,500 gp and weighing 150 pounds). Under the ashes are 6,300 gp, [Duke Zalto](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/duke-zalto-skt.md)'s [conch of teleportation](03.PlayerLog&Handouts/Mechanics/CLI/items/conch-of-teleportation-skt.md) (see appendix B), and `d4` magic items. Roll on Magic Item Table F in chapter 7 of the "Dungeon Master's Guide" for the first item and on Table D for any others.
+Inside the chest, resting on a bed of ashes, is a giant-sized adamantine crown set with six black opals (worth 7,500 gp and weighing 150 pounds). Under the ashes are 6,300 gp, [Duke Zalto](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/duke-zalto-skt.md)'s [conch of teleportation](03.PlayerLog&Handouts/Mechanics/CLI/items/conch-of-teleportation-skt.md) (see appendix B), and `1d4` magic items. Roll on Magic Item Table F in chapter 7 of the "Dungeon Master's Guide" for the first item and on Table D for any others.
 
 #### 26B. South Bedchamber
 
@@ -656,7 +655,7 @@ Flanking the forge are two cable towers that support the bucket chain 50 feet ov
 
 #### Development
 
-[Duke Zalto](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/duke-zalto-skt.md) needs the incredible heat produced by the adamantine forge to repair his colossus, since normal fires aren't hot enough. If Zalto gets his hands on the [iron flask](03.PlayerLog&Handouts/Mechanics/CLI/items/iron-flask.md) containing [Maegera the Dawn Titan](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/maegera-the-dawn-titan-skt.md) (see the "Special Delivery" section at the end of this chapter), he goes inside the adamantine forge and opens the [iron flask](03.PlayerLog&Handouts/Mechanics/CLI/items/iron-flask.md), releasing the fire primordial from the flask and trapping it in the forge. Zalto then exits the forge, which begins to put out tremendous heat. The temperature in the room rises immediately, such that any creature that ends its turn in the room takes 5 (`d10`) fire damage, or 11 (`2d10`) fire damage if it's wearing metal armor. A creature that comes into direct contact with the superheated shell of the forge for the first time on a turn takes 33 (`6d10`) fire damage. A creature that enters the superheated forge for the first time on a turn or starts its turn inside the forge takes 132 (`24d10`) fire damage.
+[Duke Zalto](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/duke-zalto-skt.md) needs the incredible heat produced by the adamantine forge to repair his colossus, since normal fires aren't hot enough. If Zalto gets his hands on the [iron flask](03.PlayerLog&Handouts/Mechanics/CLI/items/iron-flask.md) containing [Maegera the Dawn Titan](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/maegera-the-dawn-titan-skt.md) (see the "Special Delivery" section at the end of this chapter), he goes inside the adamantine forge and opens the [iron flask](03.PlayerLog&Handouts/Mechanics/CLI/items/iron-flask.md), releasing the fire primordial from the flask and trapping it in the forge. Zalto then exits the forge, which begins to put out tremendous heat. The temperature in the room rises immediately, such that any creature that ends its turn in the room takes 5 (`1d10`) fire damage, or 11 (`2d10`) fire damage if it's wearing metal armor. A creature that comes into direct contact with the superheated shell of the forge for the first time on a turn takes 33 (`6d10`) fire damage. A creature that enters the superheated forge for the first time on a turn or starts its turn inside the forge takes 132 (`24d10`) fire damage.
 
 The ancient rune magic that protects the forge also prevents Maegera from escaping, even while the hatch and the vents are open. Maegera can still be trapped inside an [iron flask](03.PlayerLog&Handouts/Mechanics/CLI/items/iron-flask.md) or a similar magical prison, however, and it voluntarily fails any saving throw if doing so enables it to escape from the adamantine forge.
 

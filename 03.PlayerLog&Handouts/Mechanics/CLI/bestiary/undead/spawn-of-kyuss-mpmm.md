@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Spawn of Kyuss
+- "Spawn of Kyuss"
 ---
-# [Spawn of Kyuss](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/spawn-of-kyuss-mpmm.md)
+# [Spawn of Kyuss](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/spawn-of-kyuss-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 225, Volo's Guide to Monsters p. 192*  
 
 Kyuss was a high priest of Orcus who plundered corpses from necropolises to create the first spawn of Kyuss. Even centuries after Kyuss's death, his malign disciples continue performing the horrific rites he perfected.
@@ -40,11 +41,12 @@ Spawn of Kyuss are expressions of Orcus's intent to replace all life with undeat
   - !!int "3"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+1"
+  - "wisdom": !!int "1"
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": "understands the languages it knew in life but can't speak"
 "cr": "5"
 "traits":
@@ -63,7 +65,7 @@ Spawn of Kyuss are expressions of Orcus's intent to replace all life with undeat
 "actions":
   - "desc": "The spawn of Kyuss makes two Claw attacks, and it uses Burrowing Worm."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage plus 7 (2d6) necrotic damage."
     "name": "Claw"
   - "desc": "A worm launches from the spawn of Kyuss at one Humanoid that the spawn\

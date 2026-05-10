@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Crow
+- "Crow"
 ---
-# [Crow](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/crow-wdmm.md)
+# [Crow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/crow-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 302*  
 
 ```statblock
@@ -44,7 +45,7 @@ aliases:
       \ check."
     "name": "Mimicry"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 1\
       \ piercing damage."
     "name": "Beak"
 "source":

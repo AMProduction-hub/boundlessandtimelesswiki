@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Irian, the Eternal Dawn; Irian Manifest Zone Features
+- "Irian, the Eternal Dawn; Irian Manifest Zone Features"
 ---
 # Irian, the Eternal Dawn; Irian Manifest Zone Features
 *Source: Eberron: Rising from the Last War p. 230* 
 
 **Irian Manifest Zone Features**
-
-`dice: [](irian-the-eternal-dawn-irian-manifest-zone-features-erlw.md#^irian-manifest-zone-features)`
 
 | dice: d4 | Feature |
 |----------|---------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Howling Hatred Initiate
+- "Howling Hatred Initiate"
 ---
-# [Howling Hatred Initiate](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/howling-hatred-initiate-pota.md)
+# [Howling Hatred Initiate](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/howling-hatred-initiate-pota.md)
 *Source: Princes of the Apocalypse p. 190*  
 
 Howling Hatred initiates are attracted by the cult's philosophy of non-attachment and the rejection of material things, unaware of the cult's true nature. The cult attracts adherents of all kinds, from dreamy-eyed youths with little property to world-weary folk eager to put their faith in something as tangible and powerful as an elemental force.
@@ -44,6 +45,8 @@ Initiates live on little but air for a month, believing that this regimen purifi
     "desc": "+2"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 9"
 "languages": "Common"
 "cr": "1/8"
@@ -54,8 +57,8 @@ Initiates live on little but air for a month, believing that this regimen purifi
   - "desc": "The initiate can hold its breath for 30 minutes."
     "name": "Hold Breath"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
 "source":
   - "PotA"

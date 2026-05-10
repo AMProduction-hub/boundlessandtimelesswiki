@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Planar Effects
+- "Planar Effects"
 ---
 # Planar Effects
 *Source: Dungeon Master's Guide p. 50* 
@@ -49,7 +50,7 @@ In contrast to the dissonance experienced by evil creatures here, good creatures
 
 ## Bytopia: Pervasive Goodwill
 
-At the end of each long rest taken on this plane, a visitor that is neither lawful good nor neutral good must make a DC 10 Wisdom saving throw. On a failed save, the creature's alignment changes to lawful good or neutral good (whichever is closer to the creature's current alignment). The change becomes permanent if the creature doesn't leave the plane within `d4` days. Otherwise, the creature's alignment reverts to normal after one day spent on a plane other than Bytopia. Casting the [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md) spell on the creature also restores its original alignment.
+At the end of each long rest taken on this plane, a visitor that is neither lawful good nor neutral good must make a DC 10 Wisdom saving throw. On a failed save, the creature's alignment changes to lawful good or neutral good (whichever is closer to the creature's current alignment). The change becomes permanent if the creature doesn't leave the plane within `1d4` days. Otherwise, the creature's alignment reverts to normal after one day spent on a plane other than Bytopia. Casting the [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md) spell on the creature also restores its original alignment.
 
 ## Elysium: Overwhelming Joy
 
@@ -93,8 +94,6 @@ If a corrupted creature doesn't leave the plane within `1d4 + 2` days, its align
 
 **Abyssal Corruption**
 
-`dice: [](planar-effects.md#^abyssal-corruption)`
-
 | dice: d10 | Result |
 |-----------|--------|
 | 1-4 | **Treachery.** The character gains the following flaw: "I can only achieve my goals by making sure that my companions don't achieve theirs." |
@@ -121,7 +120,7 @@ The plane's cruel nature makes it difficult for visitors to help one another. Wh
 
 ## The Nine Hells: Pervasive Evil
 
-Evil pervades the Nine Hells, and visitors to this plane feel its influence. At the end of each long rest taken on this plane, a visitor that isn't evil must make a DC 10 Wisdom saving throw. On a failed save, the creature's alignment changes to lawful evil. The change becomes permanent if the creature doesn't leave the plane within `d4` days. Otherwise, the creature's alignment reverts to normal after one day spent on a plane other than the Nine Hells. Casting the [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md) spell on the creature also restores its original alignment.
+Evil pervades the Nine Hells, and visitors to this plane feel its influence. At the end of each long rest taken on this plane, a visitor that isn't evil must make a DC 10 Wisdom saving throw. On a failed save, the creature's alignment changes to lawful evil. The change becomes permanent if the creature doesn't leave the plane within `1d4` days. Otherwise, the creature's alignment reverts to normal after one day spent on a plane other than the Nine Hells. Casting the [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md) spell on the creature also restores its original alignment.
 
 ## Acheron: Bloodlust
 

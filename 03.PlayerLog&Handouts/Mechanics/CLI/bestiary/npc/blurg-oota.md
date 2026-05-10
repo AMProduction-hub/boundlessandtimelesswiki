@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Blurg
+- "Blurg"
 ---
-# [Blurg](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/blurg-oota.md)
+# [Blurg](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/blurg-oota.md)
 *Source: Out of the Abyss p. 29*  
 
 ```statblock
@@ -38,7 +39,11 @@ aliases:
     "desc": "+5"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Orc, Dwarvish, Elvish, Undercommon"
 "cr": "2"
 "traits":
@@ -54,11 +59,11 @@ aliases:
 "actions":
   - "desc": "Blurg makes two greataxe attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (1d12 + 4) slashing damage."
     "name": "Greataxe"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
     "name": "Javelin"
 "source":
   - "OotA"

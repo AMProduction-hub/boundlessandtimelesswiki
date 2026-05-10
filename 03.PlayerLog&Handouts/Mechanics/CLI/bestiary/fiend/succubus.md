@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/4
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Succubus
+- "Succubus"
 ---
-# [Succubus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/succubus.md)
-*Source: Monster Manual p. 285, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Succubus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/succubus.md)
+*Source: Monster Manual p. 285. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Succubi and incubi inhabit all of the Lower Planes, and the lascivious dark-winged fiends can be found in service to devils, demons, night hags, rakshasas, and yugoloths. Asmodeus, ruler of the Nine Hells, uses these fiends to tempt mortals to perform evil acts. The demon lord Graz'zt keeps succubi and incubi as advisers and consorts.
 
@@ -69,7 +70,8 @@ Succubi and incubi can reproduce with one another to spawn more of their kind. L
     "desc": "+7"
 "damage_resistances": "cold; fire; lightning; poison; bludgeoning, piercing, slashing\
   \ from nonmagical attacks"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Abyssal, Common, Infernal, telepathy 60 ft."
 "cr": "4"
 "traits":
@@ -84,7 +86,7 @@ Succubi and incubi can reproduce with one another to spawn more of their kind. L
       \ form if it dies."
     "name": "Shapechanger"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Claw (Fiend Form Only)"
   - "desc": "One humanoid the fiend can see within 30 feet of it must succeed on a\
@@ -110,13 +112,6 @@ Succubi and incubi can reproduce with one another to spawn more of their kind. L
     "name": "Etherealness"
 "source":
   - "MM"
-  - "SKT"
-  - "TftYP"
-  - "ToA"
-  - "BGDIA"
-  - "ERLW"
-  - "EGW"
-  - "TCE"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/succubus.webp"
 ```
 ^statblock

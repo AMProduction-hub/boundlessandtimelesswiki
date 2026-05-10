@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Hoard Item Quirks; Draconic Quirks
+- "Hoard Item Quirks; Draconic Quirks"
 ---
 # Hoard Item Quirks; Draconic Quirks
 *Source: Fizban's Treasury of Dragons p. 25* 
 
 **Draconic Quirks**
-
-`dice: [](hoard-item-quirks-draconic-quirks-ftd.md#^draconic-quirks)`
 
 | dice: d8 | Quirk |
 |----------|-------|

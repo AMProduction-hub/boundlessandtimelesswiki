@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Body Horror Monsters
+- "Body Horror Monsters"
 ---
 # Body Horror Monsters
 *Source: Van Richten's Guide to Ravenloft p. 45* 

@@ -1,14 +1,15 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/deity/theros
 - ttrpg-cli/domain/death
 - ttrpg-cli/domain/knowledge
 - ttrpg-cli/domain/life
-aliases: 
-- Pharika
+aliases:
+- "Pharika"
 ---
 # Pharika
 *Source: Mythic Odysseys of Theros p. 70* 
@@ -91,8 +92,6 @@ Pharika craves champions who support her ongoing experiments, torment her enemie
 
 **Pharika's Favor**
 
-`dice: [](theros-pharika-mot.md#^pharikas-favor)`
-
 | dice: d6 | Circumstance |
 |----------|--------------|
 | 1 | You were born in a plague-struck village's final days, ultimately being the only survivor. |
@@ -108,8 +107,6 @@ Pharika craves champions who support her ongoing experiments, torment her enemie
 In accepting Pharika as your patron, you entrust your health and your knowledge to her. As her follower, consider the ideals on the Pharika's Ideals table as alternatives to those suggested for your background.
 
 **Pharika's Ideals**
-
-`dice: [](theros-pharika-mot.md#^pharikas-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

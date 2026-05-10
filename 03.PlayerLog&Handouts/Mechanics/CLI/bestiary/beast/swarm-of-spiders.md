@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -16,10 +17,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Swarm of Spiders
+- "Swarm of Spiders"
 ---
-# [Swarm of Spiders](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/swarm-of-spiders.md)
-*Source: Monster Manual p. 338, Curse of Strahd, Storm King's Thunder, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Divine Contention, Dragon of Icespire Peak, Mythic Odysseys of Theros. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Swarm of Spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-spiders.md)
+*Source: Monster Manual p. 338. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 > [!note] The Nature of Swarms
 > 
@@ -52,7 +53,8 @@ aliases:
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "blindsight 10 ft., passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., passive Perception 8"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -69,19 +71,12 @@ aliases:
   - "desc": "The swarm ignores movement restrictions caused by webbing."
     "name": "Web Walker"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's\
-      \ space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 0 ft., one target in the swarm's\
+      \ space. *Hit:* 10 (4d4) piercing damage, or 5 (2d4) piercing damage if\
       \ the swarm has half of its hit points or fewer."
     "name": "Bites"
 "source":
   - "MM"
-  - "CoS"
-  - "SKT"
-  - "WDMM"
-  - "GoS"
-  - "DC"
-  - "DIP"
-  - "MOT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/swarm-of-spiders.webp"
 ```
 ^statblock

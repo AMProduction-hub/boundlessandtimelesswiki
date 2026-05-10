@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/24
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tanazir Quandrix
+- "Tanazir Quandrix"
 ---
-# [Tanazir Quandrix](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/tanazir-quandrix-scc.md)
+# [Tanazir Quandrix](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/tanazir-quandrix-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 218*  
 
 The dragon Tanazir Quandrix is one of the most potent masters of the magic that governs physical reality and theoretical abstraction. Through this knowledge, she can alter the physical properties of existence, gain fundamental understanding, and manipulate the flow of thought.
@@ -40,10 +41,10 @@ Tanazir's spells, legendary actions, and breath weapon manifest luminous pattern
   - !!int "17"
 "speed": "40 ft., fly 80 ft. (hover)"
 "saves":
-  - "dexterity": "+9"
-  - "constitution": "+15"
-  - "wisdom": "+11"
-  - "charisma": "+10"
+  - "dexterity": !!int "9"
+  - "constitution": !!int "15"
+  - "wisdom": !!int "11"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+23"
@@ -54,7 +55,8 @@ Tanazir's spells, legendary actions, and breath weapon manifest luminous pattern
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+18"
 "damage_immunities": "force, psychic"
-"senses": "blindsight 120 ft., passive Perception 28"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft., passive Perception 28"
 "languages": "Common, Draconic, telepathy 120 ft."
 "cr": "24"
 "traits":
@@ -63,10 +65,10 @@ Tanazir's spells, legendary actions, and breath weapon manifest luminous pattern
 "actions":
   - "desc": "Tanazir makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 15 ft., one target. *Hit:*\
       \ 14 (1d10 + 9) piercing damage plus 7 (2d6) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:*\
       \ 16 (2d6 + 9) slashing damage. If the target is a creature, it is addled\
       \ by recursive thoughts, reducing its speed to 0 until the start of Tanazir's\
       \ next turn."
@@ -84,13 +86,16 @@ Tanazir's spells, legendary actions, and breath weapon manifest luminous pattern
     "name": "Teleport"
   - "desc": "Tanazir casts one of the following spells, requiring no material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 24):\n\n\
-      1/day each: [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md),\
+      **1/day each:** [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md),\
       \ [enlarge/reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md),\
       \ [mirage arcane](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirage-arcane.md)\
       \ (as an action), [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md),\
       \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md) (as an action),\
       \ [seeming](03.PlayerLog&Handouts/Mechanics/CLI/spells/seeming.md)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Tanazir can expend a use to take one of the following actions. Tanazir regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Tanazir makes one Claw attack."
     "name": "Claw"
@@ -99,7 +104,7 @@ Tanazir's spells, legendary actions, and breath weapon manifest luminous pattern
       \ up to 30 feet closer to the center of that space and take 16 (3d10) force\
       \ damage."
     "name": "Fold Space (Costs 2 Actions)"
-  - "desc": "Tanazir magically summons d4 [fractal mascots](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/fractal-mascot-scc.md)\
+  - "desc": "Tanazir magically summons 1d4 [fractal mascots](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/fractal-mascot-scc.md)\
       \ in unoccupied spaces she can see within 120 feet of herself. The fractals\
       \ obey her commands and take their turns immediately after hers. While any of\
       \ these fractals remain, attack rolls made against Tanazir have disadvantage.\

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/azorius-functionary
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
@@ -22,7 +23,7 @@ tags:
 - ttrpg-cli/spell/subrace/human-mark-of-finding
 classes:
 - Barbarian (Path of the Ancestral Guardian)
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
@@ -31,7 +32,7 @@ classes:
 - Warlock (The Great Old One)
 - Wizard
 aliases:
-- Clairvoyance
+- "Clairvoyance"
 ---
 # Clairvoyance
 *3rd-level, Divination*  
@@ -48,6 +49,6 @@ When you cast the spell, you choose seeing or hearing. You can use the chosen se
 
 A creature that can see the sensor (such as a creature benefiting from [see invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/see-invisibility.md) or [truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)) sees a luminous, intangible orb about the size of your fist.
 
-**Classes**: [Warlock (The Great Old One)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-great-old-one.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Barbarian (Path of the Ancestral Guardian)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-path-of-the-ancestral-guardian-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Barbarian (Path of the Ancestral Guardian)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-path-of-the-ancestral-guardian-xge.md "subclass=XGE"); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock (The Great Old One)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-great-old-one.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 222. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

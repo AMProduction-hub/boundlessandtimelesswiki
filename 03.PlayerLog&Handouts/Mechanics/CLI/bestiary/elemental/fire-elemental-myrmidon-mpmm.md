@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Fire Elemental Myrmidon
+- "Fire Elemental Myrmidon"
 ---
-# [Fire Elemental Myrmidon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/fire-elemental-myrmidon-mpmm.md)
+# [Fire Elemental Myrmidon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-elemental-myrmidon-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 123, Mordenkainen's Tome of Foes p. 203*  
 
 ## Elemental Myrmidons
@@ -42,7 +43,10 @@ Elemental myrmidons are Elementals conjured and bound by magic into ritually cre
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Ignan, one language of its creator's choice"
 "cr": "7"
 "traits":
@@ -50,12 +54,12 @@ Elemental myrmidons are Elementals conjured and bound by magic into ritually cre
       \ a 40-foot radius."
     "name": "Illumination"
   - "desc": "For every 5 feet the myrmidon moves in 1 foot or more of water, it takes\
-      \ 2 (d4) cold damage."
+      \ 2 (1d4) cold damage."
     "name": "Water Susceptibility"
 "actions":
   - "desc": "The myrmidon makes three Scimitar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) force damage."
     "name": "Scimitar"
   - "desc": "The myrmidon uses Multiattack. Each attack that hits deals an extra 7\

@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/sorcerer/aberrant-mind
 aliases:
-- Aberrant Mind
+- "Aberrant Mind"
 ---
 # Aberrant Mind
 *[Sorcerer](./sorcerer.md): Sorcerous Origin*  
@@ -43,17 +44,11 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Aberrant Mind (Level 1)
-
 An alien influence has wrapped its tendrils around your mind, giving you psionic power. You can now touch other minds with that power and alter the world around you by using it to control the magical energy of the multiverse. Will this power shine from you as a hopeful beacon to others? Or will you be a source of terror to those who feel the stab of your mind and witness the strange manifestations of your might?
 
 As an Aberrant Mind sorcerer, you decide how you acquired your powers. Were you born with them? Or did an event later in life leave you shining with psionic awareness? Consult the Aberrant Origins table for a possible origin of your power.
 
 **Aberrant Origins**
-
-`dice: [](sorcerer-aberrant-mind-tce.md#^aberrant-origins)`
 
 | dice: d6 | Origin |
 |----------|--------|
@@ -64,6 +59,8 @@ As an Aberrant Mind sorcerer, you decide how you acquired your powers. Were you 
 | 5 | As a child, you had an imaginary friend that looked like a flumph or a strange platypus-like creature. One day, it gifted you with psionic powers, which have ended up being not so imaginary. |
 | 6 | Your nightmares whisper the truth to you: your psionic powers are not your own. You draw them from your parasitic twin! |
 ^aberrant-origins
+
+## Subclass Features
 
 ### Psionic Spells (Level 1)
 

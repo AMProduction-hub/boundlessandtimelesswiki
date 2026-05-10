@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/race/half-orc/mark-of-finding
 aliases:
-- Half-Orc (Mark of Finding)
+- "Half-Orc (Mark of Finding)"
 ---
 # Half-Orc (Mark of Finding)
 *Source: Eberron: Rising from the Last War p. 41*  
 
 
-- **Ability Scores**: Strength +2; Constitution +1
+- **Ability Scores**: str +2 con +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Wisdom

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Signature Case
+- "Signature Case"
 ---
 # Signature Case
 *Source: Eberron: Rising from the Last War p. 87* 
 
 **Signature Case**
-
-`dice: [](signature-case-erlw.md#^signature-case)`
 
 | dice: d6 | Case |
 |----------|------|

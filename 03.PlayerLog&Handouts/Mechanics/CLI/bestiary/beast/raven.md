@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Raven
+- "Raven"
 ---
-# [Raven](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/raven.md)
-*Source: Monster Manual p. 335, Curse of Strahd, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Raven](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/raven.md)
+*Source: Monster Manual p. 335. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Raven"
@@ -47,15 +48,11 @@ aliases:
       \ check."
     "name": "Mimicry"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 1\
       \ piercing damage."
     "name": "Beak"
 "source":
   - "MM"
-  - "CoS"
-  - "IDRotF"
-  - "CM"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/raven.webp"
 ```
 ^statblock

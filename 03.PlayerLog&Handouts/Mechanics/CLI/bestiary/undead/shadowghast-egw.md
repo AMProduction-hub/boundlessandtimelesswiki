@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Shadowghast
+- "Shadowghast"
 ---
-# [Shadowghast](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/shadowghast-egw.md)
+# [Shadowghast](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/shadowghast-egw.md)
 *Source: Explorer's Guide to Wildemount p. 299*  
 
 A shadowghast is an undead assassin. Leaping out from the shadows and trailing tendrils of darkness, it closes in on its prey with nary a sound, then tears into a victim with its paralyzing claws and furious bite.
@@ -43,7 +44,8 @@ A shadowghast is an undead assassin. Leaping out from the shadows and trailing t
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": ""
 "cr": "5"
 "traits":
@@ -52,17 +54,17 @@ A shadowghast is an undead assassin. Leaping out from the shadows and trailing t
       \ until the start of its next turn. On a successful saving throw, the creature\
       \ is immune to this Stench for 24 hours."
     "name": "Stench"
-  - "desc": "While in dim light or darkness, the shadowghast can take the Hide action\
-      \ as a bonus action."
+  - "desc": "While in dim light or darkness, the shadowghast can take the [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide)\
+      \ action as a bonus action."
     "name": "Shadow Stealth"
 "actions":
   - "desc": "The shadowghast makes two attacks: one with its bite and one with its\
       \ claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit:\
-      \ 11 (2d8 + 2) slashing damage plus 5 (d10) necrotic damage."
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:*\
+      \ 11 (2d8 + 2) slashing damage plus 5 (1d10) necrotic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) slashing damage. If the target is a creature other than an undead,\
       \ it must succeed on a DC 12 Constitution saving throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\

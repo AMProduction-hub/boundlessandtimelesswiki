@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nosferatu
+- "Nosferatu"
 ---
-# [Nosferatu](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/nosferatu-vrgr.md)
+# [Nosferatu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/nosferatu-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 239*  
 
 Vicious, undead hunters, nosferatu possess the endless thirst of vampires but none of their grace. For them, existence is nothing more than an everlasting string of cold, desperate nights punctuated by crimson splashes of momentary warmth and lucidity. These joys are fleeting, as their blood addiction can never be quelled.
@@ -39,9 +40,9 @@ For a few moments after feeding, nosferatu are lucid and capable of considering 
   - !!int "14"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+7"
-  - "constitution": "+8"
-  - "wisdom": "+6"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
@@ -50,7 +51,8 @@ For a few moments after feeding, nosferatu are lucid and capable of considering 
 "damage_resistances": "necrotic"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "the languages it knew in life"
 "cr": "8"
 "traits":
@@ -71,17 +73,17 @@ For a few moments after feeding, nosferatu are lucid and capable of considering 
   - "desc": "The nosferatu makes two Claw attacks followed by one Bite attack. If\
       \ both Claw attacks hit the same creature, the Bite attack is made with advantage."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d8 + 5) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:*\
       \ 9 (1d8 + 5) piercing damage plus 7 (2d6) necrotic damage. If the target\
       \ is missing any of its hit points, it instead takes 11 (2d10) necrotic damage.\n\
       \nThe target's hit point maximum is reduced by an amount equal to the necrotic\
       \ damage taken, and the nosferatu regains hit points equal to that amount. The\
       \ reduction lasts until the target finishes a long rest. The target dies if\
       \ its hit point maximum is reduced to 0. A Humanoid slain in this way and then\
-      \ buried in the ground rises as a nosferatu after d10 days."
+      \ buried in the ground rises as a nosferatu after 1d10 days."
     "name": "Bite"
   - "desc": "The nosferatu vomits blood in a 15-foot cone. Each creature in that area\
       \ must make a DC 16 Constitution saving throw. On a failed save, a creature\

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Gods of Theros
+- "Gods of Theros"
 ---
 # Gods of Theros
 *Source: Mythic Odysseys of Theros p. 35* 

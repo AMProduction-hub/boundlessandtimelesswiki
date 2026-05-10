@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Felidar
+- "Felidar"
 ---
-# [Felidar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/felidar-ggr.md)
+# [Felidar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/felidar-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 199*  
 
 A felidar is a celestial creature whose nature reflects an inherent devotion to law and order. It resembles an enormous cat with two pairs of downward-sloping horns and prominent teeth. Its blue-gray hide has a silvery, geometric pattern, and its thick white mane falls in an orderly fashion around its shoulders.
@@ -37,15 +38,16 @@ Nearly every felidar forms a close bond with one other creature. Winged felidars
   - !!int "14"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+6"
-  - "charisma": "+5"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+6"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
-"senses": "truesight 120 ft., passive Perception 16"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 16"
 "languages": "understands Celestial and Common but can't speak"
 "cr": "5"
 "traits":
@@ -72,10 +74,10 @@ Nearly every felidar forms a close bond with one other creature. Winged felidars
 "actions":
   - "desc": "The felidar makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 17\
       \ (3d8 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (3d6 + 4) slashing damage."
     "name": "Claws"
 "source":

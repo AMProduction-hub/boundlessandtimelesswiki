@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scc-arir
 aliases:
-- A Reckoning in Ruins
+- "A Reckoning in Ruins"
 ---
 # A Reckoning in Ruins
 *Source: Strixhaven: A Reckoning in Ruins, p. 157* 
 
 As the fourth and final year of the characters' academic career at Strixhaven dawns, the university faces a crisis. In this adventure, the characters come face-to-face with an awful truth: not only does [Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md) Grenshel threaten the safety of everyone on campus, but the university's masters are powerless against the villain. It becomes clear that the characters must drop their studies and stop him at all costs.
 
-![When the characters discov...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/100-06-001-chapter-splash.webp#center "When the characters discover Murgaxor's deadly plan, they must spring into action")
+![When the characters discover Murgaxor's deadly plan, they must spring into action](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/100-06-001-chapter-splash.webp#center)
 
 ## Running This Adventure
 
@@ -43,8 +44,6 @@ Use the Fourth-Year Encounters table for random encounters on campus during the 
 
 **Fourth-Year Encounters**
 
-`dice: [](1-a-reckoning-in-ruins.md#^fourth-year-encounters)`
-
 | dice: d10 | Encounter |
 |-----------|-----------|
 | 1–4 | 2 [bulettes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/bulette.md) |
@@ -59,8 +58,6 @@ Before starting this adventure, have the players choose at least three courses t
 
 **Fourth-Year Courses**
 
-`dice: [](1-a-reckoning-in-ruins.md#^fourth-year-courses)`
-
 | dice: d6 | Course | Offered By |
 |----------|--------|------------|
 | 1 | Advanced Applied Magic | General Studies |
@@ -71,7 +68,7 @@ Before starting this adventure, have the players choose at least three courses t
 | 6 | Extraplanar Cryptozoology | Witherbloom |
 ^fourth-year-courses
 
-![Fourth-year courses are th...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/101-06-002.webp#center "Fourth-year courses are the university's most challenging, and students often employ magical study techniques to get by")
+![Fourth-year courses are the university's most challenging, and students often employ magical study techniques to get by](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/101-06-002.webp#center)
 
 ## A Sinister Shadow
 
@@ -174,7 +171,7 @@ Earlier in the week, a load of supply crates failed to arrive at a storage area 
 
 Ten students are scheduled to serve detention during the characters' shift. The characters can easily find out these students' identities beforehand from Professor Lang (see "Students in Detention"). The students in detention are already there when the characters arrive for their shift.
 
-![Idyllic huts dot the bayou...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/102-06-003-idyllic-huts.webp#center "Idyllic huts dot the bayou surrounding Witherbloom College's campus")
+![Idyllic huts dot the bayou surrounding Witherbloom College's campus](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/102-06-003-idyllic-huts.webp#center)
 
 #### The Instructor's Secret
 
@@ -208,8 +205,6 @@ Should it become necessary, each student in the table uses the appropriate pledg
 
 **Students in Detention**
 
-`dice: [](1-a-reckoning-in-ruins.md#^students-in-detention)`
-
 | dice: d10 | Student (College) | Offense |
 |-----------|-------------------|---------|
 | 1 | Quentillius A. Melentor III ([Prismari](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/prismari-pledgemage-scc.md)) | Released [pest mascots](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/pest-mascot-scc.md) in Widdershins Hall |
@@ -238,11 +233,11 @@ Instructor Minexes directs the students to look for the lost supplies in the are
 
 ##### Crates
 
-Each crate is a sealed, steel box weighing about 150 pounds. Also, each crate has AC 19; 33 hit points; and immunity to fire, poison, and psychic damage. Finally, each is secured with a locking mechanism that requires a successful DC 18 Dexterity check with thieves' tools to unlock. Instructor Minexes carries a master key that unlocks each crate. They all contain spell components. The unstable cargo Instructor Minexes is worried about is in "area D6"; see that area for more information.
+Each crate is a sealed, steel box weighing about 150 pounds. Also, each crate has AC 19; 33 hit points; and immunity to fire, poison, and psychic damage. Finally, each is secured with a locking mechanism that requires a successful DC 18 Dexterity check with thieves' tools to unlock. Instructor Minexes carries a master key that unlocks each crate. They all contain spell components. The unstable cargo Instructor Minexes is worried about is in area D6; see that area for more information.
 
 ##### Murgaxor's Influence
 
-When the characters examine any of the crates except for the empty crate in "area D5", they get an unsettling feeling. [Detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) reveals latent, sinister magic in the air, as well as a strange sense of magically generated protection.
+When the characters examine any of the crates except for the empty crate in area D5, they get an unsettling feeling. [Detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) reveals latent, sinister magic in the air, as well as a strange sense of magically generated protection.
 
 The characters can deduce that this magical signature belongs to [Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md), who must have contaminated all of these supplies. If the players don't figure it out on their own, a successful DC 15 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check reveals that [Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md) has cloaked himself with magical protection, but only from something very specific. It's possible that he has protected himself from the spells of specific spellcasters, although it isn't clear yet who.
 
@@ -292,7 +287,7 @@ Two [brackish trudges](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/bracki
 
 To retrieve the crate, the characters must distract, kill, or incapacitate the brackish trudges. Due to their euphoria, the trudges are only semi-aware of their surroundings, so any Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)) check made to hide from them has advantage.
 
-![When the Detention Bog isn...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/104-06-004-detention-bog.webp#center "When the Detention Bog isn't officially in use, students practice experimental magic here")
+![When the Detention Bog isn't officially in use, students practice experimental magic here](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/104-06-004-detention-bog.webp#center)
 
 #### D3. Lonely Crate
 
@@ -301,7 +296,7 @@ To retrieve the crate, the characters must distract, kill, or incapacitate the b
 > At the far end of a broken bridge is a mound of earth barely large enough for one person to stand on. A dented metal crate is partially embedded in the mound.
 ^3ba
 
-One of the malfunctioning ruin grinders hurled this crate to its current resting place when the hydra that's now in "area D5" attacked. A character who examines the broken bridge and succeeds on a DC 13 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check identifies large bite marks in the wood. Once this evidence is found, a successful DC 12 Intelligence ([Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature)) check confirms that a Huge reptile smashed and bit into the wood.
+One of the malfunctioning ruin grinders hurled this crate to its current resting place when the hydra that's now in area D5 attacked. A character who examines the broken bridge and succeeds on a DC 13 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check identifies large bite marks in the wood. Once this evidence is found, a successful DC 12 Intelligence ([Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature)) check confirms that a Huge reptile smashed and bit into the wood.
 
 #### D4. Confused Constructs
 
@@ -356,7 +351,7 @@ When the characters rendezvous with Instructor Minexes in the northwest corner o
 
 #### Treasure
 
-To further thank the characters, Instructor Minexes allows them to take 5 uses of planar unguent from the crate in "area D1", assuming that this crate is among those recovered from the bog.
+To further thank the characters, Instructor Minexes allows them to take 5 uses of planar unguent from the crate in area D1, assuming that this crate is among those recovered from the bog.
 
 ## Advance to 9th Level!
 
@@ -557,7 +552,7 @@ Harmless samples of flesh are stored here in jars. However, [Murgaxor](03.Player
 
 ###### Box of Helping Hands
 
-This unmarked, 2-foot-by-3-foot metal box has a simple latch keeping it closed. The box contains a dozen [crawling claws](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/crawling-claw.md). If the lid is opened, the crawling claws quickly skitter out. A character who immediately tries to close the lid can make a DC 15 Dexterity check; if the check succeeds, `d6` crawling claws escape before the lid shuts; the others are trapped in the box, unable to escape until it is opened again.
+This unmarked, 2-foot-by-3-foot metal box has a simple latch keeping it closed. The box contains a dozen [crawling claws](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/crawling-claw.md). If the lid is opened, the crawling claws quickly skitter out. A character who immediately tries to close the lid can make a DC 15 Dexterity check; if the check succeeds, `1d6` crawling claws escape before the lid shuts; the others are trapped in the box, unable to escape until it is opened again.
 
 On their first turn in combat, crawling claws that escaped from the box scurry about the cave, knocking over jars of chemical supplies and creating a chemical mixture that fills the cave with noxious gas for 1 minute. When a creature enters the gas-filled cave for the first time on a turn or starts its turn there, that creature must make a DC 13 Constitution saving throw, taking 22 (`5d8`) poison damage on a failed save, or half as much damage on a successful one. Creatures that don't need to breathe are immune to the gas, as are the crawling claws. A [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md) spell or similar magic disperses the gas.
 
@@ -575,7 +570,7 @@ A character who searches the northwest wall of the cave and succeeds on a DC 15 
 
 The secret chamber is unlit and contains a set of [alchemist's supplies](03.PlayerLog&Handouts/Mechanics/CLI/items/alchemists-supplies.md) along with two [potions of healing (greater)](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-greater-healing.md) and one [potion of poison](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-poison.md).
 
-![Lorehold expeditions into ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/107-06-006-lorehold-expeditions.webp#center "Lorehold expeditions into the badlands sometimes awaken more than mere memories")
+![Lorehold expeditions into the badlands sometimes awaken more than mere memories](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/107-06-006-lorehold-expeditions.webp#center)
 
 ##### T6. Mushroom Cave
 
@@ -699,7 +694,7 @@ In addition to the characters' Friends, Rivals, and Beloveds, this gathering inc
 
 #### Relationships: Before We Go
 
-![Adventurers never know wha...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/109-06-007-adventurers-never-know.webp#center "Adventurers never know what lurks within an ancient ruin")
+![Adventurers never know what lurks within an ancient ruin](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/109-06-007-adventurers-never-know.webp#center)
 
 This scene is the final opportunity for the characters to interact with their fellow students on campus before this adventure's climax and conclusion. As such, this Relationship encounter is more free-form than others.
 
@@ -719,7 +714,7 @@ Two hundred years of preparation have led [Murgaxor](03.PlayerLog&Handouts/Mecha
 
 #### Regional Effects
 
-[Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md)'s ritual wreaks havoc on the equilibrium of life and death, creating the following regional effects in the Ruins of Caerdoon and the fortress, which is detailed in a later section. These effects end `d6` days after the ritual ends or is interrupted:
+[Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md)'s ritual wreaks havoc on the equilibrium of life and death, creating the following regional effects in the Ruins of Caerdoon and the fortress, which is detailed in a later section. These effects end `1d6` days after the ritual ends or is interrupted:
 
 - **Clinging to Life.** Death saving throws are made with advantage.  
 - **Grievous Wounds.** Any creature that scores a critical hit rolls one additional damage die to determine damage.  
@@ -795,7 +790,7 @@ A character who searches the area and succeeds on a DC 15 Wisdom ([Perception](0
 
 The munition can be thrown up to 30 feet and explodes on impact. Any creature within a 15-foot-radius sphere centered on the point of impact must make a DC 14 Dexterity saving throw, taking 35 (`10d6`) fire damage on a failed save, or half as much damage on a successful one. In addition, each object in that area that isn't being worn or carried takes 35 (`10d6`) fire damage.
 
-![The ruins near Strixhaven ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/111-06-008-the-ruins-near-strixhaven.webp#center "The ruins near Strixhaven are watched over by strange creatures")
+![The ruins near Strixhaven are watched over by strange creatures](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/111-06-008-the-ruins-near-strixhaven.webp#center)
 
 ##### N4. Supply Train
 
@@ -846,7 +841,7 @@ The wights take their orders from the wraith in area N1, and the wraith has inst
 
 ##### N6. Fortress
 
-![Khelvor the daemogoth eage...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/112-06-009-khelvor.webp#center "Khelvor the daemogoth eagerly anticipates the suffering that will occur when Murgaxor's ritual is complete")
+![Khelvor the daemogoth eagerly anticipates the suffering that will occur when Murgaxor's ritual is complete](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/112-06-009-khelvor.webp#center)
 
 > [!readaloud] 
 > 
@@ -900,7 +895,7 @@ Completing the life-draining ritual occupies all of [Murgaxor](03.PlayerLog&Hand
 
 [Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md)'s ritual can't be completed without five ritual stones, which circle [Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md) while he performs the ritual. Without the stones, he can't manipulate the forces of life and death and would be overwhelmed by their power. See area M6 for more information about these stones.
 
-![The Ruins of Caerdoon hold...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/113-06-010-the-ruins-of-caerdoon-hold.webp#center "The Ruins of Caerdoon hold many remnants of ancient warfare")
+![The Ruins of Caerdoon hold many remnants of ancient warfare](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/113-06-010-the-ruins-of-caerdoon-hold.webp#center)
 
 ### Basement Features
 
@@ -1000,7 +995,7 @@ On initiative count 20 (losing initiative ties), [Murgaxor](03.PlayerLog&Handout
 
 - **Clay Behemoth.** A [clay golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clay-golem.md) erupts from the floor in an unoccupied space within 15 feet of the ritual circle. The golem obeys [Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md)'s commands, takes its turns on initiative count 10 (losing initiative ties), fights until destroyed, and reverts to a mound of inanimate clay after 1 hour.  
 - **Earthen Fist.** A Medium fist made of packed earth rises from the floor in an unoccupied space that [Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md) can see within 30 feet of him. The fist then attacks one creature of his choice that is within 5 feet of the fist. The fist has a +11 bonus to hit, and on a hit, the target takes 13 (`3d8`) bludgeoning damage and is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled) (escape DC 15). The fist disappears if the attack roll misses or if the grapple ends. When the fist disappears, this lair action recharges, allowing [Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md) to use it again.  
-- **Necrotic Burst.** Tendrils of necrotic energy erupt from the ritual circle and lash out at any number of creatures [Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md) can see within 15 feet of the circle. Each target must succeed on a DC 15 Dexterity saving throw, or it takes 5 (`d10`) necrotic damage and can't regain hit points until the start of its next turn.  
+- **Necrotic Burst.** Tendrils of necrotic energy erupt from the ritual circle and lash out at any number of creatures [Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md) can see within 15 feet of the circle. Each target must succeed on a DC 15 Dexterity saving throw, or it takes 5 (`1d10`) necrotic damage and can't regain hit points until the start of its next turn.  
 - **Summon Mephits.** [Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md) summons four [mud mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/mud-mephit.md) that appear in unoccupied spaces within 15 feet of the ritual circle. The mephits obey [Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md)'s commands, take their turns on initiative count 15 (losing initiative ties), and fight until destroyed.  
 
 #### Stopping the Ritual
@@ -1016,7 +1011,7 @@ The pitiful, muddy figure on the floor is [Murgaxor](03.PlayerLog&Handouts/Mecha
 
 ### Heroes of Strixhaven
 
-![Strixhaven's faculty membe...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/115-06-011-faculty-members.webp#center "Strixhaven's faculty members celebrate the characters' victory over Murgaxor")
+![Strixhaven's faculty members celebrate the characters' victory over Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-a-reckoning-in-ruins/img/115-06-011-faculty-members.webp#center)
 
 If the characters stop [Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md)'s ritual, the mishaps plaguing Strixhaven University cease, and the corruption affecting Strixhaven's scholars vanishes. If [Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md) survives the ritual's premature end, the characters have a choice to make. They can take him back to Strixhaven to stand trial for his crimes, or they can administer justice themselves.
 

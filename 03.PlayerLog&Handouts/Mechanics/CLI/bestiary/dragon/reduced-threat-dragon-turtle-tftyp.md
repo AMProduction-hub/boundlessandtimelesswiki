@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/17
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reduced-Threat Dragon Turtle
+- "Reduced-Threat Dragon Turtle"
 ---
-# [Reduced-Threat Dragon Turtle](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/reduced-threat-dragon-turtle-tftyp.md)
+# [Reduced-Threat Dragon Turtle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/reduced-threat-dragon-turtle-tftyp.md)
 *Source: Tales from the Yawning Portal p. 113*  
 
 ```statblock
@@ -33,11 +34,12 @@ aliases:
   - !!int "12"
 "speed": "20 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+9"
-  - "wisdom": "+5"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "5"
 "damage_resistances": "fire"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": "Aquan, Draconic"
 "cr": "17"
 "traits":
@@ -52,10 +54,10 @@ aliases:
   - "desc": "The dragon turtle makes three attacks: one with its bite and two with\
       \ its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 15 ft., one target. *Hit:*\
       \ 26 (3d12 + 7) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 16 (2d8 + 7) slashing damage."
     "name": "Claw"
   - "desc": "The dragon turtle exhales scalding steam in a 60-foot cone. Each creature\

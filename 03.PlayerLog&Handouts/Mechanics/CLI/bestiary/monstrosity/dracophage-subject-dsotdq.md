@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dracophage Subject
+- "Dracophage Subject"
 ---
-# [Dracophage Subject](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/dracophage-subject-dsotdq.md)
+# [Dracophage Subject](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/dracophage-subject-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 118*  
 
 Kapak draconians are created using copper dragon eggs. These cunning opponents relish striking foes who are distracted or unaware. Kapaks often coat their weapons with their paralytic saliva, making them formidable assassins as well. Their small wings don't allow kapaks to fly, but they do help the draconians turn a fall into a rough glide. When they die, kapaks dissolve into acid that can splash onto nearby creatures.
@@ -39,7 +40,7 @@ Draconians are bipedal monsters born from metallic dragon eggs that have been co
   - !!int "11"
 "speed": "40 ft., climb 40 ft."
 "saves":
-  - "dexterity": "+5"
+  - "dexterity": !!int "5"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+4"
@@ -49,7 +50,10 @@ Draconians are bipedal monsters born from metallic dragon eggs that have been co
     "desc": "+7"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Draconic"
 "cr": "3"
 "traits":
@@ -65,7 +69,7 @@ Draconians are bipedal monsters born from metallic dragon eggs that have been co
       \ and it can move up to 2 feet horizontally for every 1 foot it descends."
     "name": "Glide"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) piercing damage plus 7 (2d6) poison damage. If the target is\
       \ a Humanoid, it must succeed on a DC 12 Constitution saving throw or be infected\
       \ with a disease—a minuscule slaad egg.\n\nA Humanoid host can carry only one\

@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/scag
 aliases:
-- Mercenary Veteran
+- "Mercenary Veteran"
 ---
 # Mercenary Veteran
 *Source: Sword Coast Adventurer's Guide p. 152*  
@@ -21,7 +22,7 @@ Now you're looking for something else, perhaps greater reward for the risks you 
 
 > [!note] Mercenaries of the North
 > 
-> Countless mercenary companies operate up and down the Sword Coast and throughout the North. Most are smallscale operations that employ a dozen to a hundred folk who offer security services, hunt monsters and brigands, or go to war in exchange for gold. Some organizations, such as the Zhentarim, Flaming Fist, and the nation of Mintarn have hundreds or thousands of members and can provide private armies to those with enough funds. A few organizations operating in the North are described below.
+> Countless mercenary companies operate up and down the Sword Coast and throughout the North. Most are small-scale operations that employ a dozen to a hundred folk who offer security services, hunt monsters and brigands, or go to war in exchange for gold. Some organizations, such as the Zhentarim, Flaming Fist, and the nation of Mintarn have hundreds or thousands of members and can provide private armies to those with enough funds. A few organizations operating in the North are described below.
 > 
 > **The Chill.** The cold and mysterious Lurkwood serves as the home of numerous groups of goblinoids that have banded together into one tribe called the Chill. Unlike most of their kind, the Chill refrains from raiding the people of the North and maintains relatively good relations so that they can hire themselves out as warriors. Few city-states in the North are willing to field an army alongside the Chill, but several are happy to quietly pay the Chill to battle the Uthgardt, orcs, trolls of the Evermoors, and other threats to civilization.
 > 

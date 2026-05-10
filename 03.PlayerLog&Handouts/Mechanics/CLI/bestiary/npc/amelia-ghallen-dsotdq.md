@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Amelia Ghallen
+- "Amelia Ghallen"
 ---
-# [Amelia Ghallen](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/amelia-ghallen-dsotdq.md)
+# [Amelia Ghallen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/amelia-ghallen-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 180*  
 
 ```statblock
@@ -38,6 +39,10 @@ aliases:
     "desc": "+5"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
+"gear":
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 12"
 "languages": "any one language (usually Common)"
 "cr": "3"
@@ -45,14 +50,14 @@ aliases:
   - "desc": "Amelia makes two longsword attacks. If it has a shortsword drawn, it\
       \ can also make a shortsword attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with\
       \ two hands."
     "name": "Longsword"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, range 100/400 ft., one target. *Hit:*\
       \ 6 (1d10 + 1) piercing damage."
     "name": "Heavy Crossbow"
 "source":

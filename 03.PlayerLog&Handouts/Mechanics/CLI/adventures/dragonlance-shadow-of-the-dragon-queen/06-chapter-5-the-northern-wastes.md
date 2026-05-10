@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 aliases:
-- Chapter 5: The Northern Wastes
+- "Chapter 5: The Northern Wastes"
 ---
 # Chapter 5: The Northern Wastes
 *Source: Dragonlance: Shadow of the Dragon Queen, p. 105* 
 
 Buried beneath the magically scarred reaches of the Northern Wastes lies an ancient ruin now known as the City of Lost Names. In a bygone age, the city was named Onyari. Built by the Kingpriest of Istar, it soared through the heavens, but it was brought low by enraged dragons who discovered its grim secret: its flight relied on the innate magic of the draconic graveyard it was built on. Now, Onyari's ruins draw the attention of the Red Dragon Army, whose leaders believe they can raise the city into the heavens once more. The black-robed mage [Lohezet](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lohezet-dsotdq.md) and the priest [Belephaion](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/belephaion-dsotdq.md) lead an expedition to claim the city as a massive weapon of war. The death knight [Lord Soth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lord-soth-dsotdq.md) joins them, following whispers from the Dragon Queen to use the Cataclysmic fire from the depths of Castle Kalaman to raise the dead dragons buried in Onyari's foundations and bring them to her service.
 
-![Soldiers from Kalaman stru...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/069-05-001-chapter-splash.webp#center "Soldiers from Kalaman struggle to survive amid the treacherous canyons of the Northern Wastes")
+![Soldiers from Kalaman struggle to survive amid the treacherous canyons of the Northern Wastes](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/069-05-001-chapter-splash.webp#center)
 
 ## Running This Chapter
 
@@ -142,8 +143,6 @@ Each day the characters travel the Northern Wastes (or whenever you please), rol
 
 **Nature of the Wash**
 
-`dice: [](06-chapter-5-the-northern-wastes.md#^nature-of-the-wash)`
-
 | dice: d10 | Wash Effect |
 |-----------|-------------|
 | 1–3 | The Wash is low. Canyons are dry. |
@@ -169,8 +168,6 @@ Countless threats loom in the wild, dangerous Northern Wastes. Whenever you want
 
 **Northern Wastes Encounters**
 
-`dice: [](06-chapter-5-the-northern-wastes.md#^northern-wastes-encounters)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–10 | No encounter |
@@ -185,8 +182,6 @@ Hostile Dragon Army patrols scour the Northern Wastes for pre-Cataclysm ruins to
 
 **Dragon Army Patrol**
 
-`dice: [](06-chapter-5-the-northern-wastes.md#^dragon-army-patrol)`
-
 | dice: d4 | Encounter |
 |----------|-----------|
 | 1 | 8 [baaz draconians](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/baaz-draconian-dsotdq.md) and 2 [Dragon Army soldiers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/dragon-army-soldier-dsotdq.md) |
@@ -199,7 +194,7 @@ Hostile Dragon Army patrols scour the Northern Wastes for pre-Cataclysm ruins to
 
 The characters find a stone archway lined with sigils. This gate used to be a teleportation gate—part of a magical transportation system created by Istarian mages. It once stood in Onyari before the city fell. As soon as a character approaches, magical energy swirls within the arch. The magic kicks up nearby debris that animates as a hostile [clay golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clay-golem.md).
 
-![Few can survive the flood-...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/070-05-002-canyons-of-northern-wastes.webp#center "Few can survive the flood-prone canyons of the Northern Wastes")
+![Few can survive the flood-prone canyons of the Northern Wastes](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/070-05-002-canyons-of-northern-wastes.webp#center)
 
 ##### Golem
 
@@ -218,8 +213,6 @@ Characters can learn the sigil sequence on the gate so they can teleport to it w
 Roll on the table below to determine what predators the characters encounter. Each entry provides a different threat depending on whether the Wash is high or low (as noted in parentheses).
 
 **Wastes Predators**
-
-`dice: [](06-chapter-5-the-northern-wastes.md#^wastes-predators)`
 
 | dice: d10 | Encounter |
 |-----------|-----------|
@@ -588,7 +581,7 @@ The Sunward Fortress's pinnacle remains unexcavated, but characters who investig
 
 #### Dragon Army Excavation
 
-At the base of the spire's remains stand a dozen ragged canvas tents in the red and black colors of the Red Dragon Army. Dozens of empty or shattered crates are scattered amid the camp. Nearby, an earthen ramp cuts through the clay and leads to an opening into the ruined spire's foundation. This opening leads to area `D1`.
+At the base of the spire's remains stand a dozen ragged canvas tents in the red and black colors of the Red Dragon Army. Dozens of empty or shattered crates are scattered amid the camp. Nearby, an earthen ramp cuts through the clay and leads to an opening into the ruined spire's foundation. This opening leads to area D1.
 
 ##### Abandoned Gear
 
@@ -633,7 +626,7 @@ A cleric of Sirrion or a character who succeeds on a DC 14 Intelligence ([Religi
 
 ##### Stairs
 
-The stairs here descend to area `D3`.
+The stairs here descend to area D3.
 
 #### D2: Abandoned Dormitories
 
@@ -663,7 +656,7 @@ Four mutated [draconian-slaad hybrids](03.PlayerLog&Handouts/Mechanics/CLI/besti
 
 > [!readaloud] 
 > 
-> **Claw.** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (`1d4 + 3`) piercing damage plus 7 (`2d6`) poison damage. If the target is a Humanoid, it must succeed on a DC 12 Constitution saving throw or be infected with a disease—a minuscule slaad egg.
+> **Claw.** Melee Weapon Attack: `+5` to hit, reach 5 ft., one target. Hit: 5 (`1d4 + 3`) piercing damage plus 7 (`2d6`) poison damage. If the target is a Humanoid, it must succeed on a DC 12 Constitution saving throw or be infected with a disease—a minuscule slaad egg.
 > 
 > A Humanoid host can carry only one slaad egg at a time. Over three months, the egg moves to the chest cavity, gestates, and forms a [slaad tadpole](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/slaad-tadpole.md). In the 24-hour period before the tadpole is born, the host feels unwell; its speed is halved; and it has disadvantage on attack rolls, ability checks, and saving throws. At birth, the tadpole chews its way through vital organs and out of the host's chest in 1 round, killing the host in the process.
 > 
@@ -672,7 +665,7 @@ Four mutated [draconian-slaad hybrids](03.PlayerLog&Handouts/Mechanics/CLI/besti
 
 ##### Stairs
 
-In the northwest corner of the level, stairs descend to area `D5`.
+In the northwest corner of the level, stairs descend to area D5.
 
 #### D4: Barricaded Room
 
@@ -714,7 +707,7 @@ Hidden in the shadows south of the chasm is the mutated draconian [Virruza](03.P
 
 The chasm drops 70 feet to an uneven stone floor below. A creature that falls into the chasm takes 24 (`7d6`) bludgeoning damage.
 
-The bridges crossing the chasm look treacherous but are stable. If [Virruza](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/virruza-dsotdq.md) hits a creature on a bridge with his Hurl Flame attack, the bridge begins to smolder, igniting at the beginning of his next turn. After a bridge ignites, a creature that enters the bridge for the first time on a turn or starts its turn there must succeed on a DC 14 Dexterity saving throw or take 3 (`d6`) fire damage. A bridge falls into the chasm 3 rounds after it ignites.
+The bridges crossing the chasm look treacherous but are stable. If [Virruza](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/virruza-dsotdq.md) hits a creature on a bridge with his Hurl Flame attack, the bridge begins to smolder, igniting at the beginning of his next turn. After a bridge ignites, a creature that enters the bridge for the first time on a turn or starts its turn there must succeed on a DC 14 Dexterity saving throw or take 3 (`1d6`) fire damage. A bridge falls into the chasm 3 rounds after it ignites.
 
 ##### Virruza
 
@@ -749,7 +742,7 @@ Characters who search the south side of the chamber find [Virruza](03.PlayerLog&
 
 Once the characters have investigated area `D5`—and potentially claimed [Virruza](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/virruza-dsotdq.md)'s notes—they have all the information about this site [Dalamar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/dalamar-dsotdq.md) requires.
 
-If the characters want to seal the entrance to the Sunward Fortress or otherwise bury the Spawning Shard, the equipment left around the ruins allows them to collapse the ramp leading to area `D1` with four hours of effort. Destructive magic hastens this work.
+If the characters want to seal the entrance to the Sunward Fortress or otherwise bury the Spawning Shard, the equipment left around the ruins allows them to collapse the ramp leading to area D1 with four hours of effort. Destructive magic hastens this work.
 
 ### E: Wakenreth
 
@@ -1407,11 +1400,9 @@ During each round of this encounter, roll on the Wind's End Battlefield Events t
 
 **Wind's End Battlefield Events**
 
-`dice: [](06-chapter-5-the-northern-wastes.md#^winds-end-battlefield-events)`
-
 | dice: d10 | Event |
 |-----------|-------|
-| 1–4 | A [Dragon Army officer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/dragon-army-officer-dsotdq.md) (see appendix B) on a dragonnel flies overhead, firing a heavy crossbow at the character closest to the Fray. The attack has a +4 bonus to hit and deals 7 (`1d10 + 2`) piercing damage plus 5 (`d10`) fire damage on a hit. |
+| 1–4 | A [Dragon Army officer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/dragon-army-officer-dsotdq.md) (see appendix B) on a dragonnel flies overhead, firing a heavy crossbow at the character closest to the Fray. The attack has a +4 bonus to hit and deals 7 (`1d10 + 2`) piercing damage plus 5 (`1d10`) fire damage on a hit. |
 | 5–7 | A dragonnel roars and strafes the battlefield, throwing up a cloud of dust. For the next round, the battlefield is heavily obscured. |
 | 8–9 | Two [Dragon Army soldiers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/dragon-army-soldier-dsotdq.md) (see appendix B) arrive, appearing in unoccupied spaces adjacent to the Fray near a random player character. |
 | 10 | A dead dragonnel falls from the sky, crashing in a 10-foot area centered on a random player character who isn't in the dragonnel pens. Each creature in the crash area must succeed on a DC 14 Dexterity saving throw or take 33 (`6d10`) bludgeoning damage and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). If all characters are in the dragonnel pens, reroll on this table. |
@@ -1427,4 +1418,4 @@ The characters entering the passage in Wind's End concludes this chapter and mak
 
 The characters will discover what dangers lie beyond this passage in chapter 6.
 
-![The Dragon Army blocks the...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/092-05-008-dragon-army-blockade.webp#center "The Dragon Army blocks the path leading to the City of Lost Names")
+![The Dragon Army blocks the path leading to the City of Lost Names](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/092-05-008-dragon-army-blockade.webp#center)

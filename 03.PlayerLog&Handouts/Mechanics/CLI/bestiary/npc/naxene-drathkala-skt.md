@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Naxene Drathkala
+- "Naxene Drathkala"
 ---
-# [Naxene Drathkala](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/naxene-drathkala-skt.md)
+# [Naxene Drathkala](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/naxene-drathkala-skt.md)
 *Source: Storm King's Thunder p. 252*  
 
 Goldenfields' crops are vital to Waterdeep's survival, which is why the Watchful Order of Magists and Protectors sent Naxene to make sure the temple-farm is adequately defended. At first she regarded the task as a punishment, but now she appreciates the peace and quiet.
@@ -59,16 +60,16 @@ Flaw:"I'm too smart to be wrong about anything."
       \ about anything.\""
     "name": "Roleplaying Information"
 "actions":
-  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one creature. *Hit:*\
       \ 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used\
       \ with two hands."
     "name": "Staff"
   - "desc": "Naxene casts one of the following spells, using Intelligence as the spellcasting\
-      \ ability (spell save DC 13; +5 to hit with spell attacks):\n\nAt will:\
-      \ [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md) (d10\
+      \ ability (spell save DC 13; +5 to hit with spell attacks):\n\n**At will:**\
+      \ [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md) (1d10\
       \ fire damage), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
-      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n1/day\
-      \ each: [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md),\
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n**1/day\
+      \ each:** [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
     "name": "Spellcasting"

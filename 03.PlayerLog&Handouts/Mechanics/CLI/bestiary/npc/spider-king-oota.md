@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Spider King
+- "Spider King"
 ---
-# [Spider King](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/spider-king-oota.md)
+# [Spider King](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/spider-king-oota.md)
 *Source: Out of the Abyss p. 74*  
 
 ```statblock
@@ -33,14 +34,16 @@ aliases:
   - !!int "4"
 "speed": "30 ft., climb 30 ft."
 "saves":
-  - "constitution": "+3"
-  - "wisdom": "+2"
+  - "constitution": !!int "3"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
-"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": ""
 "cr": "1"
 "traits":
@@ -61,7 +64,7 @@ aliases:
       \ and knocked [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)."
     "name": "Two Heads"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 7 (1d8 + 3) piercing damage, and the target must make a DC 11 Constitution\
       \ saving throw, taking 9 (2d8) poison damage on a failed save, or half as\
       \ much damage on a successful one. If the poison damage reduces the target to\
@@ -70,7 +73,7 @@ aliases:
       \ while [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ in this way."
     "name": "Bite"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 30/60 ft., one creature. *Hit:*\
       \ The target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ by webbing. As an action, the [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ target can make a DC 12 Strength check, bursting the webbing on a success.\

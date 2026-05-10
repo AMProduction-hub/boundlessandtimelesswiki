@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Keranos's Divine Schemes
+- "Keranos's Divine Schemes"
 ---
 # Keranos's Divine Schemes
 *Source: Mythic Odysseys of Theros p. 141* 
 
 **Keranos's Divine Schemes**
-
-`dice: [](keranoss-divine-schemes-mot.md#^keranoss-divine-schemes)`
 
 | dice: d4 | Scheme |
 |----------|--------|

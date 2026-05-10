@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/18
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- The Lord of Blades
+- "The Lord of Blades"
 ---
-# [The Lord of Blades](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/the-lord-of-blades-erlw.md)
+# [The Lord of Blades](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/the-lord-of-blades-erlw.md)
 *Source: Eberron: Rising from the Last War p. 300*  
 
 The Lord of Blades is a warforged warlord who has broken all ties with his former masters. He has established a nation for his people deep in the Mournland, centered in a great fortress where warforged from all over Khorvaire can come and feel a sense of belonging. No one knows what the Lord of Blades plans for his followers, but many fear that he intends to build a legion of warforged zealots, primed to march from the Mournland to unleash destruction on their former masters.
@@ -42,10 +43,10 @@ The Lord of Blades doesn't require air, food, drink, or sleep.
   - !!int "18"
 "speed": "40 ft."
 "saves":
-  - "strength": "+11"
-  - "constitution": "+10"
-  - "intelligence": "+10"
-  - "wisdom": "+9"
+  - "strength": !!int "11"
+  - "constitution": !!int "10"
+  - "intelligence": !!int "10"
+  - "wisdom": !!int "9"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+10"
@@ -66,20 +67,20 @@ The Lord of Blades doesn't require air, food, drink, or sleep.
 "traits":
   - "desc": "The Lord of Blades is a 20th-level spellcaster. His spellcasting ability\
       \ is Intelligence (spell save DC 18, +10 to hit with spell attacks). He has\
-      \ the following artificer spells prepared:\n\nCantrips (at will): [fire\
+      \ the following artificer spells prepared:\n\n**Cantrips (at will):** [fire\
       \ bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md) (see \"Actions\"\
       \ below), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (4 slots): [expeditious retreat](03.PlayerLog&Handouts/Mechanics/CLI/spells/expeditious-retreat.md),\
+      \n**1st level (4 slots):** [expeditious retreat](03.PlayerLog&Handouts/Mechanics/CLI/spells/expeditious-retreat.md),\
       \ [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md),\
+      \n**2nd level (3 slots):** [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md),\
       \ [heat metal](03.PlayerLog&Handouts/Mechanics/CLI/spells/heat-metal.md), [scorching\
       \ ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md), [see invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/see-invisibility.md)\n\
-      \n3rd level (3 slots): [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \n**3rd level (3 slots):** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [haste](03.PlayerLog&Handouts/Mechanics/CLI/spells/haste.md)\n\
-      \n4th level (3 slots): [freedom of movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md),\
+      \n**4th level (3 slots):** [freedom of movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md),\
       \ [Mordenkainen's faithful hound](03.PlayerLog&Handouts/Mechanics/CLI/spells/mordenkainens-faithful-hound.md)\n\
-      \n5th level (2 slots): [animate objects](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-objects.md),\
+      \n**5th level (2 slots):** [animate objects](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-objects.md),\
       \ [wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md)"
     "name": "Spellcasting"
   - "desc": "Any critical hit against the Lord of Blades becomes a normal hit."
@@ -102,15 +103,18 @@ The Lord of Blades doesn't require air, food, drink, or sleep.
   - "desc": "The Lord of Blades makes three attacks: two with his adamantine sixblade\
       \ and one with his bladed wings."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 21 (3d10 + 5) slashing damage plus 7 (2d6) force damage."
     "name": "Adamantine Sixblade"
-  - "desc": "Melee  or Ranged Weapon Attack: +11 to hit, reach 5 ft. or range\
-      \ 20/60 ft., one target. Hit: 8 (1d6 + 5) slashing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +11 to hit, reach 5 ft. or range\
+      \ 20/60 ft., one target. *Hit:* 8 (1d6 + 5) slashing damage."
     "name": "Bladed Wings"
-  - "desc": "Ranged Spell Attack: +10 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +10 to hit, range 120 ft., one target. *Hit:*\
       \ 22 (4d10) fire damage."
     "name": "Fire Bolt (Cantrip)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, The Lord of Blades can expend a use to take one of the following actions.\
+  \ The Lord of Blades regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "The Lord of Blades makes one weapon attack."
     "name": "Attack"

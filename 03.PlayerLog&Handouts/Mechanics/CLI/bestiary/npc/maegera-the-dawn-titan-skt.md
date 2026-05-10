@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/23
@@ -9,14 +10,14 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Maegera the Dawn Titan
+- "Maegera the Dawn Titan"
 ---
-# [Maegera the Dawn Titan](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/maegera-the-dawn-titan-skt.md)
+# [Maegera the Dawn Titan](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/maegera-the-dawn-titan-skt.md)
 *Source: Storm King's Thunder p. 241*  
 
 Maegera is powerful elemental that has been trapped in the forges of Gauntlgrym for millennia. About fifty years ago, Maegera briefly escaped and triggered the eruption of Mount Hotenow. Lava from the volcano flowed toward the coast, laying waste to Neverwinter. The city is still rebuilding in the wake of that catastrophe.
 
-The fire giant duke Zalto recently sent a team of drow to infiltrate Gauntlgrym and trap Maegera in an iron flask . Zalto needs the primordial to ignite an adamantine forge beneath the Ice Spires. Returning Maegera to Gauntlgrym is one way to thwart the fire giant's plans.
+The fire giant duke Zalto recently sent a team of drow to infiltrate Gauntlgrym and trap Maegera in an iron flask. Zalto needs the primordial to ignite an adamantine forge beneath the Ice Spires. Returning Maegera to Gauntlgrym is one way to thwart the fire giant's plans.
 
 Maegera looks like a 50-foot-tall, multi-limbed beast made of flame, with smoldering black pits for eyes.
 
@@ -38,9 +39,9 @@ Maegera looks like a 50-foot-tall, multi-limbed beast made of flame, with smolde
   - !!int "19"
 "speed": "50 ft."
 "saves":
-  - "constitution": "+12"
-  - "wisdom": "+7"
-  - "charisma": "+11"
+  - "constitution": !!int "12"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "11"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
@@ -50,7 +51,8 @@ Maegera looks like a 50-foot-tall, multi-limbed beast made of flame, with smolde
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "blindsight 120 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft., passive Perception 10"
 "languages": "Ignan"
 "cr": "23"
 "traits":
@@ -78,13 +80,16 @@ Maegera looks like a 50-foot-tall, multi-limbed beast made of flame, with smolde
 "actions":
   - "desc": "Maegera makes three slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit:\
-      \ 15 (3d6 + 5) bludgeoning damage plus 35 (10d6) fire damage"
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 15 ft., one target. *Hit:*\
+      \ 15 (3d6 + 5) bludgeoning damage plus 35 (10d6) fire damage,"
     "name": "Slam"
   - "desc": "Maegera casts [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)\
       \ (spell save DC 19), requiring no material components and using Charisma as\
       \ the spellcasting ability.\n"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Maegera can expend a use to take one of the following actions. Maegera regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Maegera targets one creature that it can see within 60 feet of it. Any\
       \ resistance or immunity to fire damage that the target gains from a spell or\

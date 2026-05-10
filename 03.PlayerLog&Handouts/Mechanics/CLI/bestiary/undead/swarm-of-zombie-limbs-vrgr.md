@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Swarm of Zombie Limbs
+- "Swarm of Zombie Limbs"
 ---
-# [Swarm of Zombie Limbs](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/swarm-of-zombie-limbs-vrgr.md)
+# [Swarm of Zombie Limbs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/swarm-of-zombie-limbs-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 254*  
 
 Among the undead, a lone zombie ranks far from the most menacing. The horror of the shambling dead lies not in their individual menace, though, but their numbers, their persistence, and their disregard for their own well-being. A throng of zombies will douse a forest fire with their own ashes or march into a dragon's maw until the monster chokes. In the course of their relentless marches, zombies might suffer all manner of trauma, potentially reducing them to masses of crawling limbs, infecting them with terrible diseases (see zombie plague spreader), or crushing an entire horde into a single, rotting titan (see zombie clot).
@@ -21,8 +22,6 @@ Among the undead, a lone zombie ranks far from the most menacing. The horror of 
 Among the types of horror adventures detailed in "chapter 2", tales of uncontrolled zombie outbreaks orbit the "dark fantasy" and "disaster horror" genres. The horror of these adventures focuses not on the terror of a single zombie, but of countless individual threats overwhelming society. When creating your own undead calamities, consider the plots presented on the Zombie Apocalypses table.
 
 **Zombie Apocalypses**
-
-`dice: [](swarm-of-zombie-limbs-vrgr.md#^zombie-apocalypses)`
 
 | dice: d4 | Zombie Plot |
 |----------|-------------|
@@ -60,7 +59,8 @@ Among the types of horror adventures detailed in "chapter 2", tales of uncontrol
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 9"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft. (blind beyond this radius), passive Perception 9"
 "languages": ""
 "cr": "1"
 "traits":
@@ -73,12 +73,12 @@ Among the types of horror adventures detailed in "chapter 2", tales of uncontrol
 "actions":
   - "desc": "The swarm makes one Undead Mass attack and one Grasping Limbs attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 0 ft., one target in the swarm's\
-      \ space. Hit: 5 (1d6 + 2) bludgeoning damage, or 4 (1d4 + 2) bludgeoning\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 0 ft., one target in the swarm's\
+      \ space. *Hit:* 5 (1d6 + 2) bludgeoning damage, or 4 (1d4 + 2) bludgeoning\
       \ damage if the swarm has half of its hit points or fewer."
     "name": "Undead Mass"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 0 ft., one creature in the\
-      \ swarm's space. Hit: 7 (2d6) necrotic damage, and the creature must succeed\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 0 ft., one creature in the\
+      \ swarm's space. *Hit:* 7 (2d6) necrotic damage, and the creature must succeed\
       \ on a DC 12 Strength saving throw or be [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
       \ The creature can repeat the saving throw at the end of each of its turns,\
       \ taking 7 (2d6) necrotic damage on a failed save. The creature is freed if\

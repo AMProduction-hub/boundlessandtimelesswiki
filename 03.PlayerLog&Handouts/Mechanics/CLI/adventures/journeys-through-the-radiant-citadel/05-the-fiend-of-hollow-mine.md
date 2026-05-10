@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 aliases:
-- The Fiend of Hollow Mine
+- "The Fiend of Hollow Mine"
 ---
 # The Fiend of Hollow Mine
 *Source: Journeys through the Radiant Citadel, p. 48* 
@@ -70,7 +71,7 @@ Consider the following suggestions to involve the characters in this adventure's
 
 ## Starting the Adventure
 
-![Ghouls drag a fresh victim...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/029-04-001-ghouls.webp#center "Ghouls drag a fresh victim into the depths of Hollow Mine")
+![Ghouls drag a fresh victim into the depths of Hollow Mine](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/029-04-001-ghouls.webp#center)
 
 The adventure begins just outside the village of Milpazul, a tiny community a few hours' journey from the city of San Citlán.
 
@@ -452,7 +453,7 @@ Emerging from the cenote, the characters find themselves in San Citlán in the m
 
 A character who succeeds on a DC 14 Intelligence ([History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History) or [Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)) check knows the costumes represent La Catrina, patron spirit of the city; Don Roque, a long-dead politician who became the satirical face of the government; and Los Diablitos, comical renditions of fiends from local fables.
 
-![The living and the dead ce...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/034-04-004-night-of-the-remembered.webp#center "The living and the dead celebrate the Night of the Remembered in San Citlán")
+![The living and the dead celebrate the Night of the Remembered in San Citlán](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/034-04-004-night-of-the-remembered.webp#center)
 
 ### The Fiend's Trail
 
@@ -558,8 +559,6 @@ A chase participant can make attacks and cast spells against other creatures wit
 Complications occur randomly during the chase. Each participant rolls on the Parade Chase Complications table at the end of its turn. If a complication occurs, it affects the next chase participant in the initiative order, not the participant who rolled the die. The participant who rolled the die or the participant affected by the complication can spend "inspiration" to negate the complication.
 
 **Parade Chase Complications**
-
-`dice: [](05-the-fiend-of-hollow-mine.md#^parade-chase-complications)`
 
 | dice: d10 | Complication |
 |-----------|--------------|
@@ -724,8 +723,6 @@ San Citlán's history is rife with conflict. After years of failed invasions ove
 Consider the plots on the San Citlán Adventures table when planning adventures in San Citlán.
 
 **San Citlán Adventures**
-
-`dice: [](05-the-fiend-of-hollow-mine.md#^san-citlan-adventures)`
 
 | dice: d4 | Adventure |
 |----------|-----------|

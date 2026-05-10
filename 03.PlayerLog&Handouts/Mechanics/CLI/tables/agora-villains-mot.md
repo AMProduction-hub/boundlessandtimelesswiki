@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Agora Villains
+- "Agora Villains"
 ---
 # Agora Villains
 *Source: Mythic Odysseys of Theros p. 122* 
 
 **Agora Villains**
-
-`dice: [](agora-villains-mot.md#^agora-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

@@ -1,25 +1,26 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/silverquill-student
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/ritual
 - ttrpg-cli/spell/school/divination
 - ttrpg-cli/spell/subclass/aberrant-mind
-- ttrpg-cli/spell/subclass/lunar-sorcery
+- ttrpg-cli/spell/subclass/lunar-sorcery/full-moon
 - ttrpg-cli/spell/subclass/peace-domain
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Peace Domain)
 - Sorcerer (Aberrant Mind)
-- Sorcerer (Lunar Sorcery)
+- Sorcerer (Lunar Sorcery, Full Moon)
 - Wizard
 aliases:
-- Rary's Telepathic Bond
+- "Rary's Telepathic Bond"
 ---
 # Rary's Telepathic Bond
 *5th-level, Divination (ritual)*  
@@ -34,6 +35,6 @@ You forge a telepathic link among up to eight willing creatures of your choice w
 
 Until the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can't extend to other planes of existence.
 
-**Classes**: [Sorcerer (Aberrant Mind)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-aberrant-mind-tce.md "subclass=TCE"); [Cleric (Peace Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-peace-domain-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Sorcerer (Lunar Sorcery)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-lunar-sorcery-dsotdq.md "subclass=DSotDQ")
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Peace Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-peace-domain-tce.md "subclass=TCE"); [Sorcerer (Aberrant Mind)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-aberrant-mind-tce.md "subclass=TCE"); [Sorcerer (Lunar Sorcery, Full Moon)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-lunar-sorcery-dsotdq.md "subclass=DSotDQ"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 270. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> (as "Telepathic Bond")*

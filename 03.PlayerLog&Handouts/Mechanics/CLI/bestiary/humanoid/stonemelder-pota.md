@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Stonemelder
+- "Stonemelder"
 ---
-# [Stonemelder](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/stonemelder-pota.md)
+# [Stonemelder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/stonemelder-pota.md)
 *Source: Princes of the Apocalypse p. 197*  
 
 Stonemelders are spellcasters who gain their power from Ogrémoch, using elemental earth magic to sheathe their bodies in carapaces of rock. They are elite champions of the cult and answer only to the cult leaders. Not even the Black Earth priests tell stonemelders what to do.
@@ -48,16 +49,16 @@ Each stonemelder carries a weapon known as a Black Earth rod. Such a rod is like
 "traits":
   - "desc": "The Stonemelder is a 7th-level spellcaster. Its spellcasting ability\
       \ is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the\
-      \ following sorcerer spells:\n\nCantrips (at will): [acid splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md),\
+      \ following sorcerer spells:\n\n**Cantrips (at will):** [acid splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md),\
       \ [blade ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-ward.md), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md), [mold earth](03.PlayerLog&Handouts/Mechanics/CLI/spells/mold-earth-xge.md)\n\
-      \n1st level (4 slots): [expeditious retreat](03.PlayerLog&Handouts/Mechanics/CLI/spells/expeditious-retreat.md),\
+      \n**1st level (4 slots):** [expeditious retreat](03.PlayerLog&Handouts/Mechanics/CLI/spells/expeditious-retreat.md),\
       \ [false life](03.PlayerLog&Handouts/Mechanics/CLI/spells/false-life.md), [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\
-      \n2nd level (3 slots): [Maximilian's earthen grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/maximilians-earthen-grasp-xge.md),\
-      \ [shatter](03.PlayerLog&Handouts/Mechanics/CLI/spells/shatter.md)\n\n3rd\
-      \ level (3 slots): [erupting earth](03.PlayerLog&Handouts/Mechanics/CLI/spells/erupting-earth-xge.md),\
+      \n**2nd level (3 slots):** [Maximilian's earthen grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/maximilians-earthen-grasp-xge.md),\
+      \ [shatter](03.PlayerLog&Handouts/Mechanics/CLI/spells/shatter.md)\n\n**3rd\
+      \ level (3 slots):** [erupting earth](03.PlayerLog&Handouts/Mechanics/CLI/spells/erupting-earth-xge.md),\
       \ [meld into stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/meld-into-stone.md)\n\
-      \n4th level (1 slots): [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)"
+      \n**4th level (1 slots):** [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)"
     "name": "Spellcasting"
   - "desc": "When the Stonemelder dies, it turns to stone and explodes in a burst\
       \ of rock shards, becoming a smoking pile of rubble. Each creature within 10\
@@ -66,10 +67,10 @@ Each stonemelder carries a weapon known as a Black Earth rod. Such a rod is like
       \ on a successful one."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) bludgeoning damage. The Stonemelder can also expend a spell slot\
       \ to deal extra damage, dealing 2d8 bludgeoning damage for a 1st level slot,\
-      \ plus an additional d8 for each level of the slot above 1st."
+      \ plus an additional 1d8 for each level of the slot above 1st."
     "name": "Black Earth Rod"
 "source":
   - "PotA"

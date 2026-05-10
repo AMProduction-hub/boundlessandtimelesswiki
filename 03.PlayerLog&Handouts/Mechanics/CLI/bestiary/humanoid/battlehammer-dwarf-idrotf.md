@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Battlehammer Dwarf
+- "Battlehammer Dwarf"
 ---
-# [Battlehammer Dwarf](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/battlehammer-dwarf-idrotf.md)
+# [Battlehammer Dwarf](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/battlehammer-dwarf-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 107*  
 
 ```statblock
@@ -43,7 +44,11 @@ aliases:
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+5"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 15"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "any one language (usually Common), Dwarvish"
 "cr": "1/2"
 "traits":
@@ -55,10 +60,10 @@ aliases:
 "actions":
   - "desc": "The dwarf makes two melee attacks or two ranged attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 3 (1d6 + 0) slashing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +2 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 3 (1d6 + 0) slashing damage."
     "name": "Handaxe"
-  - "desc": "Ranged Weapon Attack: +4 to hit, ranged 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, ranged 80/320 ft., one target. *Hit:*\
       \ 6 (1d8 + 2) piercing damage."
     "name": "Light Crossbow"
 "source":

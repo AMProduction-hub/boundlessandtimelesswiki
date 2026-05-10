@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/item/rarity/unknown/magic
 - ttrpg-cli/item/weapon/melee
 - ttrpg-cli/item/weapon/simple
-aliases: 
+aliases:
 - "Candle Mace"
 ---
 # Candle Mace

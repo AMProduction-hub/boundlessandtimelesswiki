@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Chapter 3: The Darklake
+- "Chapter 3: The Darklake"
 ---
 # Chapter 3: The Darklake
 *Source: Out of the Abyss, p. 39* 
@@ -68,8 +69,6 @@ Every 4 hours that the characters are on the Darklake, roll a `d20` and consult 
 
 ### Darklake Random Encounters
 
-`dice: [](03-chapter-3-the-darklake.md#^type-of-encounter)`
-
 | dice: d20 | Type of Encounter |
 |-----------|-------------------|
 | 1–13 | No encounter |
@@ -81,8 +80,6 @@ Every 4 hours that the characters are on the Darklake, roll a `d20` and consult 
 ### Darklake Terrain Encounters
 
 Special terrain rules are explained after the table.
-
-`dice: [](03-chapter-3-the-darklake.md#^terrain)`
 
 | dice: d10 | Terrain |
 |-----------|---------|
@@ -104,7 +101,7 @@ This terrain encounter occurs only if one or more party members are traveling by
 
 #### Falls or Locks
 
-Any character with a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 12 or better can hear the roar of a waterfall ahead. A successful DC 14 group Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check is necessary to steer or swim away from the falls. Otherwise, the characters go over, falling `1d6 × 10` feet into a pool or river `1d6 × 5` feet deep. A creature swept over the falls must succeed on a DC 11 Dexterity saving throw or take `d6` bludgeoning damage per 10 feet fallen. A successful save indicates that the creature avoids a hard landing in the water below.
+Any character with a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 12 or better can hear the roar of a waterfall ahead. A successful DC 14 group Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check is necessary to steer or swim away from the falls. Otherwise, the characters go over, falling `1d6 × 10` feet into a pool or river `1d6 × 5` feet deep. A creature swept over the falls must succeed on a DC 11 Dexterity saving throw or take `1d6` bludgeoning damage per 10 feet fallen. A successful save indicates that the creature avoids a hard landing in the water below.
 
 There is a 50 percent chance that any waterfall area contains a duergar-built lock designed to traverse it, in which case there is no risk of going over the falls. It takes a successful DC 11 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check to figure out how to operate the lock. Once a lock is opened, it takes 1 hour for the water level to lower so the party can proceed.
 
@@ -114,7 +111,7 @@ A small island rises from the water ahead. An island with no hostile creatures m
 
 #### Low Ceiling
 
-The clearance of the cave or passage lowers suddenly to 3 feet above the water's surface. Each Medium character must succeed on a DC 10 Dexterity saving throw or take `d4` bludgeoning damage from hitting the ceiling before the passage ends.
+The clearance of the cave or passage lowers suddenly to 3 feet above the water's surface. Each Medium character must succeed on a DC 10 Dexterity saving throw or take `1d4` bludgeoning damage from hitting the ceiling before the passage ends.
 
 #### Rockfall
 
@@ -144,8 +141,6 @@ An underwater crevasse or drain creates a small vortex in this area, much like t
 
 The sections that follow the table provide additional information to help you run each creature encounter.
 
-`dice: [](03-chapter-3-the-darklake.md#^encounter)`
-
 | dice: d12 | Encounter |
 |-----------|-----------|
 | 1 | 1 aquatic [troll](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/troll.md) |
@@ -154,8 +149,8 @@ The sections that follow the table provide additional information to help you ru
 | 4 | 1 [green hag](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/green-hag.md) |
 | 5 | 1 [grell](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/grell.md) |
 | 6–7 | `1d6 + 2` [ixitxachitl](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/ixitxachitl-oota.md) (see appendix C) |
-| 8 | `d4` [kuo-toa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kuo-toa.md) in a keelboat |
-| 9 | `d4` [merrow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/merrow.md) |
+| 8 | `1d4` [kuo-toa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kuo-toa.md) in a keelboat |
+| 9 | `1d4` [merrow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/merrow.md) |
 | 10 | `3d6` [stirges](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/stirge.md) |
 | 11 | 1 [swarm of quippers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-quippers.md) |
 | 12 | 1 [water weird](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-weird.md) |
@@ -177,13 +172,11 @@ Roll a `d20` and consult the Duergar Keelboat Cargo table to determine what, if 
 
 #### Duergar Keelboat Cargo
 
-`dice: [](03-chapter-3-the-darklake.md#^cargo)`
-
 | dice: d20 | Cargo |
 |-----------|-------|
 | 1–10 | None |
 | 11–13 | ` × 100` pounds of unrefined iron ore |
-| 14–16 | `d4` zurkhwood crates filled with mining tools |
+| 14–16 | `1d4` zurkhwood crates filled with mining tools |
 | 17–19 | `2d4` zurkhwood casks of harvested fungi (see "Fungi of the Underdark" in chapter 2) |
 | 20 | A locked iron chest containing `3d6 × 100` gp and a random magic item (roll once on Magic Item Table B in "chapter 7" of the *Dungeon Master's Guide*). |
 ^cargo
@@ -208,14 +201,12 @@ Roll a `d20` and consult the Kuo-toa Keelboat Cargo table to determine what, if 
 
 #### Kuo-toa Keelboat Cargo
 
-`dice: [](03-chapter-3-the-darklake.md#^cargo)`
-
 | dice: d20 | Cargo |
 |-----------|-------|
 | 1–15 | None |
-| 16–17 | `d4` nets; each net has a 50 percent chance of containing `3d6` dead, edible quippers |
-| 18–19 | `d4` nets; each net has a 50 percent chance of containing `d4` living stirges |
-| 20 | `d4` pieces of broken, barnacle-encrusted statuary, each worth 50 gp; each weighing `1d4 × 5` pounds; and each depicting a weird alien creature, a long-forgotten god, or fragment thereof. |
+| 16–17 | `1d4` nets; each net has a 50 percent chance of containing `3d6` dead, edible quippers |
+| 18–19 | `1d4` nets; each net has a 50 percent chance of containing `1d4` living stirges |
+| 20 | `1d4` pieces of broken, barnacle-encrusted statuary, each worth 50 gp; each weighing `1d4 × 5` pounds; and each depicting a weird alien creature, a long-forgotten god, or fragment thereof. |
 ^cargo
 
 #### Merrow
@@ -240,13 +231,11 @@ Roll a `d6` and consult the Weird Discoveries table to determine what the [water
 
 #### Weird Discoveries
 
-`dice: [](03-chapter-3-the-darklake.md#^discovery)`
-
 | dice: d6 | Discovery |
 |----------|-----------|
 | 1–2 | Sunken altar dedicated to a forgotten deity |
 | 3–4 | Sunken statue with 500 gp black pearls for eyes; a thief who removes one or both gems becomes the target of a [contagion](03.PlayerLog&Handouts/Mechanics/CLI/spells/contagion.md) spell (save DC 14). |
-| 5–6 | Sunken, sealed sarcophagus containing a [mummy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/mummy.md) and `d4` art objects (roll on the 250 gp Art Objects table in "chapter 7" of the *Dungeon Master's Guide*) |
+| 5–6 | Sunken, sealed sarcophagus containing a [mummy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/mummy.md) and `1d4` art objects (roll on the 250 gp Art Objects table in "chapter 7" of the *Dungeon Master's Guide*) |
 ^discovery
 
 ## Sloobludop
@@ -355,7 +344,7 @@ No matter whether the characters approach the final encounter as willing partici
 
 ## 1. Gate
 
-Sloobludop is enclosed to the north and south by outer "walls" of heavy netting with sharp bone hooks woven into them. In the middle of each wall is a gate through which creatures can safely pass. Any creature wishing to crawl through the netting can do so with a successful DC 15 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check. On a failure, the creature takes `d8` piercing damage and becomes [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) in the netting, requiring a successful DC 12 Strength check as an action to break free.
+Sloobludop is enclosed to the north and south by outer "walls" of heavy netting with sharp bone hooks woven into them. In the middle of each wall is a gate through which creatures can safely pass. Any creature wishing to crawl through the netting can do so with a successful DC 15 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check. On a failure, the creature takes `1d8` piercing damage and becomes [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) in the netting, requiring a successful DC 12 Strength check as an action to break free.
 
 Stationed outside each gate are four [kuo-toa whips](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kuo-toa-whip.md). They confront anyone who approaches. Party members escorted by other kuo-toa can pass through the gate unchallenged. If the characters are unescorted, any kuo-toa they meet attempt to capture them. Roll a `d20`. On a 1–7, captives are taken to area 3. On an 8–18, captives are taken to area 4. On a 19–20, the guards are evenly split and immediately begin to brawl for the right to take the characters as prisoners.
 
@@ -443,7 +432,7 @@ Although Bloppblippodd falls, the ritual still achieves a terrible success. Read
 > Another sound rises above the burbling cries of the kuo-toa. The dark surface of the water farther out bubbles and begins to foam. A thick, oily tentacle bursts forth, followed by another. Then two monstrous heads break the surface, both resembling hideous, angry baboons with wickedly curved tusks. Both heads are attached to a single torso, and the monster's red eyes burn with bloodlust and madness. The creature rising from the Darklake must stand thirty feet tall or more, with water cascading down its back and shoulders. Upon reaching its full height, the great demon throws back both its heads and roars!
 ^12e
 
-The kuo-toa offerings and the fervor of his worshipers in the Darklake have drawn the attention of [Demogorgon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/demogorgon-mpmm.md) (see appendix D). Upon witnessing the rise of the Prince of Demons, each party member must succeed on a DC 13 Charisma saving throw or gain a level of madness (see "Madness" in chapter 2). The kuo-toa become [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) for `d10` minutes, crying out "Leemooggoogoon!" over and over again.
+The kuo-toa offerings and the fervor of his worshipers in the Darklake have drawn the attention of [Demogorgon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/demogorgon-mpmm.md) (see appendix D). Upon witnessing the rise of the Prince of Demons, each party member must succeed on a DC 13 Charisma saving throw or gain a level of madness (see "Madness" in chapter 2). The kuo-toa become [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) for `1d10` minutes, crying out "Leemooggoogoon!" over and over again.
 
 Demogorgon wades toward Sloobludop, heads roaring and gibbering, tentacles flailing and smashing the water. In 4 rounds, he comes within reach of the shoreline and lashes out, smashing docks and sending bodies flying with each sweep of his tentacles. When the demon lord attacks, some kuo-toa recover their wits enough to flee, while others cower, [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed) with fear.
 

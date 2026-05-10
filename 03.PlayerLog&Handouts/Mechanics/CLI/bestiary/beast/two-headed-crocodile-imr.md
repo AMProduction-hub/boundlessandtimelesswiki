@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Two-Headed Crocodile
+- "Two-Headed Crocodile"
 ---
-# [Two-Headed Crocodile](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/two-headed-crocodile-imr.md)
+# [Two-Headed Crocodile](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/two-headed-crocodile-imr.md)
 *Source: Infernal Machine Rebuild p. 89*  
 
 ```statblock
@@ -56,7 +57,7 @@ aliases:
 "actions":
   - "desc": "The two-headed crocodile makes two attacks with its bite."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d10 + 2) piercing damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 12). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and that head of the crocodile can't bite another target."

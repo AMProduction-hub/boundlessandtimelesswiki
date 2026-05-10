@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/item/gear/
 - ttrpg-cli/item/rarity/none
-aliases: 
+aliases:
 - "Mournland Trinket"
 ---
 # Mournland Trinket
@@ -14,8 +15,6 @@ aliases:
 
 
 **Mournland Trinkets**
-
-`dice: [](mournland-trinket-erlw.md#^mournland-trinkets)`
 
 | dice: d10 | Trinket |
 |-----------|---------|

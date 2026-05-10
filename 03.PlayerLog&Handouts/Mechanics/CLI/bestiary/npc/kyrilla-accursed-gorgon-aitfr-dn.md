@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/aitfr-dn
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kyrilla, Accursed Gorgon
+- "Kyrilla, Accursed Gorgon"
 ---
-# [Kyrilla, Accursed Gorgon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/kyrilla-accursed-gorgon-aitfr-dn.md)
+# [Kyrilla, Accursed Gorgon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kyrilla-accursed-gorgon-aitfr-dn.md)
 *Source: Adventures in the Forgotten Realms: Deepest Night p. 12*  
 
 Some small part of Kyrilla hopes she might be pardoned from her immortal curse one day, but her ire and spite have overtaken her heart, and the only way she can imagine escaping eternity is by impressing the gods with her tenacity. She doesn't want pity nor compassion. She wants to be feared and loathed and to press on with existence despite it all. And now that Kathikon is dead and she is alone, she cannot remember mercy.
@@ -69,8 +70,8 @@ Kyrilla does not require food or drink but does breathe and sleep.
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+6"
-  - "charisma": "+6"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+6"
@@ -83,7 +84,10 @@ Kyrilla does not require food or drink but does breathe and sleep.
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)"
-"senses": "darkvision 60 ft., passive Perception 16"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 16"
 "languages": "Common, Draconic, Primordial"
 "cr": "10"
 "traits":
@@ -121,16 +125,16 @@ Kyrilla does not require food or drink but does breathe and sleep.
   - "desc": "Kyrilla makes one attack to constrict and two attacks with her claws,\
       \ or she makes three attacks with her longbow."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (3d6 + 3) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:*\
       \ 10 (3d6) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13) if it is a Large or smaller creature. Until this grapple ends,\
       \ the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and Kyrilla can't constrict another target."
     "name": "Constrict"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +7 to hit, range 150/600 ft., one target. *Hit:*\
       \ 16 (3d8 + 3) piercing damage."
     "name": "Longbow"
   - "desc": "Kyrilla conjures a swarm of poisonous snakes into an empty space within\
@@ -139,21 +143,12 @@ Kyrilla does not require food or drink but does breathe and sleep.
       \ for up to 1 hour. She can summon no more than three swarms per day. Kyrilla\
       \ can banish any or all of her summoned swarms with a bonus action."
     "name": "Summon Swarm of Poisonous Snakes (Recharge 5-6)"
-"legendary_actions":
-  - "desc": "Kyrilla or a swarm of poisonous snakes makes a weapon attack."
-    "name": "Claw"
-  - "desc": "Kyrilla makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-      \ check."
-    "name": "Detect"
-  - "desc": "Kyrilla moves up to her speed without provoking opportunity attacks."
-    "name": "Slither"
 "lair_actions":
   - "desc": "When fighting inside her lair, Kyrilla can invoke the ambient magic there\
       \ to take lair actions. On initiative count 20 (losing initiative ties), she\
-      \ takes a lair action to cause one of the following effects:"
-    "name": ""
-  - "desc": "- Kyrilla casts [moonbeam](03.PlayerLog&Handouts/Mechanics/CLI/spells/moonbeam.md)\
-      \ (no components required). While maintaining [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
+      \ takes a lair action to cause one of the following effects:\n\n- Kyrilla casts\
+      \ [moonbeam](03.PlayerLog&Handouts/Mechanics/CLI/spells/moonbeam.md) (no components\
+      \ required). While maintaining [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
       \ on this effect, she can't take other lair actions.  \n- Kyrilla casts [cloud\
       \ of daggers](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloud-of-daggers.md)\
       \ (no components required), except the daggers are flying snakes and the spell\
@@ -166,17 +161,27 @@ Kyrilla does not require food or drink but does breathe and sleep.
     "name": ""
 "regional_effects":
   - "desc": "The region containing Kyrilla's lair is warped by her accursed nature\
-      \ and the meteoric stone around her, which together create the following effects:"
-    "name": ""
-  - "desc": "- Water sources within the lair are supernaturally fouled and poisonous.\
-      \ Creatures that drink these waters must make a DC 14 Constitution saving throw\
-      \ or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ and the meteoric stone around her, which together create the following effects:\n\
+      \n- Water sources within the lair are supernaturally fouled and poisonous. Creatures\
+      \ that drink these waters must make a DC 14 Constitution saving throw or be\
+      \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. Afflicted creatures can make a new saving throw at the end of\
       \ each of their turns, ending the condition on a success.  \n- Plants within\
       \ 1 mile of the lair suffer from a calcifying mold that dries and hardens leaves,\
       \ killing many otherwise hearty thistles and heather.  \n- Fog lightly obscures\
       \ the land within 3 miles of the lair.  "
     "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Kyrilla can expend a use to take one of the following actions. Kyrilla regains\
+  \ all expended uses at the start of each of their turns."
+"legendary_actions":
+  - "desc": "Kyrilla or a swarm of poisonous snakes makes a weapon attack."
+    "name": "Claw"
+  - "desc": "Kyrilla makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ check."
+    "name": "Detect"
+  - "desc": "Kyrilla moves up to her speed without provoking opportunity attacks."
+    "name": "Slither"
 "source":
   - "AitFR-DN"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/kyrilla-accursed-gorgon-aitfr-dn.webp"

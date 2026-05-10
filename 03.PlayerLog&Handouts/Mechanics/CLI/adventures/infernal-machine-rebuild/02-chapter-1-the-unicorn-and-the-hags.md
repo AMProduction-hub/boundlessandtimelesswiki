@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 aliases:
-- Chapter 1: The Unicorn and the Hags
+- "Chapter 1: The Unicorn and the Hags"
 ---
 # Chapter 1: The Unicorn and the Hags
 *Source: Infernal Machine Rebuild, p. 4* 
@@ -77,8 +78,8 @@ The treant attacks using its Animate Trees action to add even more danger to the
 
 As the party continues on through the woods, the characters must succeed on three DC 14 group Dexterity checks to avoid crossing the sunbeams. Each character gains a +2 bonus to their check if a ranger or druid is with the party. A failed check triggers a random effect. Roll a `d4` to determine the effect, which targets the character or characters with the lowest check:
 
-- Heavy, spiked nuts the size of mace heads fall from the trees, dealing 2 (`d4`) bludgeoning damage.  
-- Arboreal fungus releases a cloud of toxic spores in the area. The character must succeed on a DC 12 Constitution saving throw or take 3 (`d6`) poison damage.  
+- Heavy, spiked nuts the size of mace heads fall from the trees, dealing 2 (`1d4`) bludgeoning damage.  
+- Arboreal fungus releases a cloud of toxic spores in the area. The character must succeed on a DC 12 Constitution saving throw or take 3 (`1d6`) poison damage.  
 - Arboreal fungus releases a cloud of confusion spores. The character must succeed on a DC 12 Constitution saving throw or have disadvantage on the next ability check they make.  
 - A torrent of falling spiked nuts and both types of spores assails the character.  
 
@@ -189,7 +190,7 @@ The characters can attempt to cross over using the fallen tower as a bridge, or 
 
 A character can attempt to cross the chasm using the exterior of the fallen clock tower as a bridge, or using its interior as a tunnel. Either way, the character must succeed on two DC 14 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) checks to safely cross. Characters who are roped together gain no benefit for these checks, but are in a better position to help each other if one falls.
 
-On a first failed check, pieces of the tower crumble and fall 100 feet to the bottom of the chasm, but the character is unharmed. On a second failed check, more crumbling rock trips up or batters the character, who takes 4 (`d8`) bludgeoning damage and falls. A character who is not roped to another character or some solid part of the tower falls 100 feet, taking `10d6` bludgeoning damage.
+On a first failed check, pieces of the tower crumble and fall 100 feet to the bottom of the chasm, but the character is unharmed. On a second failed check, more crumbling rock trips up or batters the character, who takes 4 (`1d8`) bludgeoning damage and falls. A character who is not roped to another character or some solid part of the tower falls 100 feet, taking `10d6` bludgeoning damage.
 
 If failed checks cause significant sections of the tower to crumble, you might decide that the DC of the check to climb across increases, or that checks are made with disadvantage.
 

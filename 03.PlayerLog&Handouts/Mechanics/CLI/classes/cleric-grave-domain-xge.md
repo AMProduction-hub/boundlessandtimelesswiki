@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/domain/grave
 - ttrpg-cli/subclass/cleric/grave
 aliases:
-- Grave Domain
+- "Grave Domain"
 ---
 # Grave Domain
 *[Cleric](./cleric.md): Divine Domain*  
@@ -48,11 +49,11 @@ aliases:
 > 
 > I guess if you can't disintegrate them or eat them, burying dead bodies makes as much sense as anything else.
 
-## Class Features
-
-### Grave Domain (Level 1)
-
 Gods of the grave watch over the line between life and death. To these deities, death and the afterlife are a foundational part of the multiverse. To desecrate the peace of the dead is an abomination. Deities of the grave include Kelemvor, [Wee Jas](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-wee-jas.md), the ancestral spirits of the Undying Court, [Hades](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-hades.md), [Anubis](03.PlayerLog&Handouts/Mechanics/CLI/deities/egyptian-anubis.md), and [Osiris](03.PlayerLog&Handouts/Mechanics/CLI/deities/egyptian-osiris.md). Followers of these deities seek to put wandering spirits to rest, destroy the undead, and ease the suffering of the dying. Their magic also allows them to stave off death for a time, particularly for a person who still has some great work to accomplish in the world. This is a delay of death, not a denial of it, for death will eventually get its due.
+
+## Subclass Features
+
+### Domain Spells (Level 1)
 
 **Grave Domain Spells**
 
@@ -98,7 +99,7 @@ _Source: Tasha's Cauldron of Everything p. 30_
 
 *8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Potent Spellcasting feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Keeper of Souls (Level 17)
 

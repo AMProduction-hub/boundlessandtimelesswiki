@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/armor/medium
 - ttrpg-cli/item/rarity/rare
 - ttrpg-cli/item/tier/major
-aliases: 
+aliases:
 - "Elven Chain"
 ---
 # Elven Chain

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -15,10 +16,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Poisonous Snake
+- "Giant Poisonous Snake"
 ---
-# [Giant Poisonous Snake](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-poisonous-snake.md)
-*Source: Monster Manual p. 327, Curse of Strahd, Storm King's Thunder, Tomb of Annihilation, Ghosts of Saltmarsh, Mythic Odysseys of Theros, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Poisonous Snake](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-poisonous-snake.md)
+*Source: Monster Manual p. 327. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Giant Poisonous Snake"
@@ -40,23 +41,18 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "blindsight 10 ft., passive Perception 12"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., passive Perception 12"
 "languages": ""
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
       \ 6 (1d4 + 4) piercing damage, and the target must make a DC 11 Constitution\
       \ saving throw, taking 10 (3d6) poison damage on a failed save, or half as\
       \ much damage on a successful one."
     "name": "Bite"
 "source":
   - "MM"
-  - "CoS"
-  - "SKT"
-  - "ToA"
-  - "GoS"
-  - "MOT"
-  - "TCE"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-poisonous-snake.webp"
 ```
 ^statblock

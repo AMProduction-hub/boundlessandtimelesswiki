@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/azfyt
 aliases:
-- A Zib for Your Thoughts
+- "A Zib for Your Thoughts"
 ---
 # A Zib for Your Thoughts
 *Source: A Zib for Your Thoughts, p. 2* 
@@ -53,8 +54,6 @@ Veszka was hired by a client from a guild to accomplish this task. Each guild ha
 At the beginning of the adventure, roll a client from the chart below, or choose one. The guild affiliation of the client may influence future adventures if you choose. Vezska does not give up the description of the client unless forced to do so.
 
 **Vezska's Client**
-
-`dice: [](1-a-zib-for-your-thoughts.md#^vezskas-client)`
 
 | dice: d6 | Faction |
 |----------|---------|
@@ -144,11 +143,11 @@ The party can take different approaches to find the individuals on the list. Onc
 
 #### Use Contacts
 
-If a character has an appropriate contact to press for information, they can reach out to that contact for assistance. It takes one hour to arrange a meeting with the contact and `d6` hours for the contact to find the individual's place of work and residence. If the contact is not particularly suited to find the requested individual, the time it takes to find their location is doubled.
+If a character has an appropriate contact to press for information, they can reach out to that contact for assistance. It takes one hour to arrange a meeting with the contact and `1d6` hours for the contact to find the individual's place of work and residence. If the contact is not particularly suited to find the requested individual, the time it takes to find their location is doubled.
 
 #### Gather Information
 
-Characters can go to public gathering places to attempt to find out where the individuals are located. After `d4` hours, a character sifting through many idle conversations makes a DC 10 Charisma check. On a success, they find out either the place of work or the residence of the individual, as they choose. Characters get advantage on this check if they are in the precinct where the subject lives.
+Characters can go to public gathering places to attempt to find out where the individuals are located. After `1d4` hours, a character sifting through many idle conversations makes a DC 10 Charisma check. On a success, they find out either the place of work or the residence of the individual, as they choose. Characters get advantage on this check if they are in the precinct where the subject lives.
 
 - **Argona** lives in Precinct Three and currently is working at the gardens on Millennial Platform.  
 - **Delrim Munn** lives and works in Precinct Five, operating out of a small lab near the Blistercoils.  

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/25
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Marut
+- "Marut"
 ---
-# [Marut](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/marut-mpmm.md)
+# [Marut](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/marut-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 173, Mordenkainen's Tome of Foes p. 213*  
 
 The nigh-unstoppable inevitables serve a singular purpose: they enforce contracts forged in the Hall of Concordance in the city of Sigil. Primus, the leader of the modrons, created maruts and other inevitables to bring order to dealings between planar folk. A wide array of disparate creatures, including yugoloths, will enter into a contract with inevitables if asked.
@@ -40,9 +41,9 @@ Inevitables care nothing for the spirit of an agreement, only the letter. A maru
   - !!int "18"
 "speed": "40 ft., fly 30 ft. (hover)"
 "saves":
-  - "intelligence": "+12"
-  - "wisdom": "+10"
-  - "charisma": "+12"
+  - "intelligence": !!int "12"
+  - "wisdom": !!int "10"
+  - "charisma": !!int "12"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+10"
@@ -57,7 +58,8 @@ Inevitables care nothing for the spirit of an agreement, only the letter. A maru
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 20"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 20"
 "languages": "all but rarely speaks"
 "cr": "25"
 "traits":
@@ -73,7 +75,7 @@ Inevitables care nothing for the spirit of an agreement, only the letter. A maru
 "actions":
   - "desc": "The marut makes two Unerring Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: automatic hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* automatic hit, reach 5 ft., one target. *Hit:*\
       \ 60 force damage, and the target is pushed up to 5 feet away from the marut\
       \ if it is Huge or smaller."
     "name": "Unerring Slam"

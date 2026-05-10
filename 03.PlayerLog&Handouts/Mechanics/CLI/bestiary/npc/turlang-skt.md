@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Turlang
+- "Turlang"
 ---
-# [Turlang](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/turlang-skt.md)
+# [Turlang](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/turlang-skt.md)
 *Source: Storm King's Thunder p. 107*  
 
 ```statblock
@@ -46,10 +47,10 @@ aliases:
 "actions":
   - "desc": "The treant makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 16 (3d6 + 6) bludgeoning damage."
     "name": "Slam"
-  - "desc": "Ranged Weapon Attack: +10 to hit, range 60/180 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +10 to hit, range 60/180 ft., one target. *Hit:*\
       \ 28 (4d10 + 6) bludgeoning damage."
     "name": "Rock"
   - "desc": "The treant magically animates one or two trees it can see within 60 feet\
@@ -63,16 +64,16 @@ aliases:
     "name": "Animate Trees (1/Day)"
   - "desc": "Turlang casts one of the following spells, requiring no material spell\
       \ components and using Wisdom as the spellcasting ability (spell save DC 15):\n\
-      \nAt will: [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
+      \n**At will:** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
       \ [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md), [resistance](03.PlayerLog&Handouts/Mechanics/CLI/spells/resistance.md),\
       \ [speak with plants](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-plants.md)\n\
-      \n2/day each: [animal messenger](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-messenger.md),\
+      \n**2/day each:** [animal messenger](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-messenger.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md), [goodberry](03.PlayerLog&Handouts/Mechanics/CLI/spells/goodberry.md),\
       \ [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md),\
       \ [pass without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md),\
       \ [speak with animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md)\n\
-      \n1/day each: [commune with nature](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune-with-nature.md)\
+      \n**1/day each:** [commune with nature](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune-with-nature.md)\
       \ (cast as 1 action), [conjure woodland beings](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-woodland-beings.md),\
       \ [hallucinatory terrain](03.PlayerLog&Handouts/Mechanics/CLI/spells/hallucinatory-terrain.md)\
       \ (cast as 1 action)"

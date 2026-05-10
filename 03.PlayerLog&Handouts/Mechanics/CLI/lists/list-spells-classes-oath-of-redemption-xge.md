@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/oath-of-redemption
 aliases:
-- Spells for Oath of Redemption
+- "Spells for Oath of Redemption"
 ---
 # Spells for Oath of Redemption
 
 ## 1st Level
 
-- [Sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md "PHB") at class level 5
-- [Sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md "PHB") at class level 5
+- [Sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md "PHB") at class level 3
+- [Sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md "PHB") at class level 3
 
 ## 2nd Level
 
@@ -20,15 +21,15 @@ aliases:
 
 ## 3rd Level
 
-- [Counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md "PHB") at class level 5
-- [Hypnotic Pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md "PHB") at class level 5
+- [Counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md "PHB") at class level 9
+- [Hypnotic Pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md "PHB") at class level 9
 
 ## 4th Level
 
-- [Otiluke's Resilient Sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/otilukes-resilient-sphere.md "PHB") at class level 5
-- [Stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md "PHB") at class level 5
+- [Otiluke's Resilient Sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/otilukes-resilient-sphere.md "PHB") at class level 13
+- [Stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md "PHB") at class level 13
 
 ## 5th Level
 
-- [Hold Monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md "PHB") at class level 5
-- [Wall of Force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md "PHB") at class level 5
+- [Hold Monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md "PHB") at class level 17
+- [Wall of Force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md "PHB") at class level 17

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/25
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kostchtchie
+- "Kostchtchie"
 ---
-# [Kostchtchie](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/kostchtchie-bgdia.md)
+# [Kostchtchie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kostchtchie-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 105*  
 
 The demon lord Kostchtchie resembles a squat hill giant with short, bandy legs and a grossly shaped head.
@@ -38,9 +39,9 @@ Frost giants who forsake their gods and turn to demon worship can summon Kostcht
   - !!int "19"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+9"
-  - "constitution": "+16"
-  - "wisdom": "+14"
+  - "dexterity": !!int "9"
+  - "constitution": !!int "16"
+  - "wisdom": !!int "14"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+12"
@@ -54,15 +55,18 @@ Frost giants who forsake their gods and turn to demon worship can summon Kostcht
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 24"
+"gear":
+  - "[matalotok](03.PlayerLog&Handouts/Mechanics/CLI/items/matalotok-bgdia.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 24"
 "languages": "Abyssal, Giant, telepathy 120 ft."
 "cr": "25"
 "traits":
   - "desc": "Kostchtchie's innate spellcasting ability is Charisma (spell save DC\
       \ 20). He can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
-      \ [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md)\n\n1/day\
-      \ each: [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md),\
+      \n**At will:** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \ [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md)\n\n**1/day\
+      \ each:** [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md),\
       \ [gate](03.PlayerLog&Handouts/Mechanics/CLI/spells/gate.md), [harm](03.PlayerLog&Handouts/Mechanics/CLI/spells/harm.md),\
       \ [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md),\
       \ [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md), [wind\
@@ -77,14 +81,17 @@ Frost giants who forsake their gods and turn to demon worship can summon Kostcht
   - "desc": "Kostchtchie makes two melee attacks, only one of which can be a bite\
       \ attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +18 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +18 to hit, reach 5 ft., one creature. *Hit:*\
       \ 13 (1d6 + 10) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +18 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +18 to hit, reach 10 ft., one target. *Hit:*\
       \ 19 (2d8 + 10) bludgeoning damage, or 21 (2d10 + 10) bludgeoning damage\
       \ when used with two hands, and the weapon emits a burst of cold that deals\
       \ 10 (3d6) cold damage to each creature within 30 feet of it."
     "name": "Matalotok (Warhammer)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Kostchtchie can expend a use to take one of the following actions. Kostchtchie\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Kostchtchie makes one melee weapon attack."
     "name": "Attack"

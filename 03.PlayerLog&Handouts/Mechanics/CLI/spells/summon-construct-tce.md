@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/spell/class/artificer
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/4th-level
 - ttrpg-cli/spell/school/conjuration
@@ -13,13 +14,13 @@ tags:
 - ttrpg-cli/spell/subclass/eldritch-knight
 classes:
 - Artificer
-- Bard
+- Bard (Magical Secrets)
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
 - Sorcerer (Clockwork Soul)
 - Wizard
 aliases:
-- Summon Construct
+- "Summon Construct"
 ---
 # Summon Construct
 *4th-level, Conjuration*  
@@ -36,6 +37,6 @@ The creature is an ally to you and your companions. In combat, the creature shar
 
 **At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block.
 
-**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Sorcerer (Clockwork Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-clockwork-soul-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer (Clockwork Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-clockwork-soul-tce.md "subclass=TCE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Tasha's Cauldron of Everything p. 111*

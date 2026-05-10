@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/lmop
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ash Zombie
+- "Ash Zombie"
 ---
-# [Ash Zombie](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/ash-zombie-lmop.md)
+# [Ash Zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ash-zombie-lmop.md)
 *Source: Lost Mine of Phandelver p. 31*  
 
 From somewhere in the darkness, a gurgling moan is heard. A form lurches into view, dragging one foot as it raises bloated arms and broken hands. The zombie advances, driven to kill anyone too slow to escape its grasp.
@@ -42,10 +43,11 @@ The first time the zombie takes damage, any living creature within 5 feet of the
   - !!int "5"
 "speed": "20 ft."
 "saves":
-  - "wisdom": "+0"
+  - "wisdom": !!int "0"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": "understands all languages it spoke in life but can't speak"
 "cr": "1/4"
 "traits":
@@ -60,7 +62,7 @@ The first time the zombie takes damage, any living creature within 5 feet of the
       \ the effect on it early with a successful save."
     "name": "Ash Puff"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) bludgeoning damage."
     "name": "Slam"
 "source":

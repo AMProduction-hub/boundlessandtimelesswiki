@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Enna Galakiir (Levels 5-8)
+- "Enna Galakiir (Levels 5-8)"
 ---
-# [Enna Galakiir (Levels 5-8)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/enna-galakiir-levels-5-8-kftgv.md)
+# [Enna Galakiir (Levels 5-8)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/enna-galakiir-levels-5-8-kftgv.md)
 *Source: Keys from the Golden Vault p. 8*  
 
 ```statblock
@@ -47,12 +48,16 @@ aliases:
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 16"
 "languages": "any two languages"
 "cr": "1"
 "traits":
   - "desc": "On each of its turns, Enna Galakiir can use a bonus action to take the\
-      \ Dash, Disengage, or Hide action."
+      \ [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash), [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage),\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action."
     "name": "Cunning Action"
   - "desc": "Enna Galakiir deals an extra 7 (2d6) damage when it hits a target with\
       \ a weapon attack and has advantage on the attack roll, or when the target is\
@@ -62,10 +67,10 @@ aliases:
 "actions":
   - "desc": "Enna Galakiir makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Hand Crossbow"
 "source":

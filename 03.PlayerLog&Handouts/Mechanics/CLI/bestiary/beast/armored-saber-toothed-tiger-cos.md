@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Armored Saber-Toothed Tiger
+- "Armored Saber-Toothed Tiger"
 ---
-# [Armored Saber-Toothed Tiger](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/armored-saber-toothed-tiger-cos.md)
+# [Armored Saber-Toothed Tiger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/armored-saber-toothed-tiger-cos.md)
 *Source: Curse of Strahd p. 115*  
 
 ```statblock
@@ -51,10 +52,10 @@ aliases:
       \ the tiger can make one bite attack against it as a bonus action."
     "name": "Pounce"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (1d10 + 5) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) slashing damage."
     "name": "Claw"
 "source":

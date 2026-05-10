@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/15
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hundred-Handed One
+- "Hundred-Handed One"
 ---
-# [Hundred-Handed One](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/hundred-handed-one-mot.md)
+# [Hundred-Handed One](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/hundred-handed-one-mot.md)
 *Source: Mythic Odysseys of Theros p. 225*  
 
 Extra pairs of arms magically orbit the bodies of the titanic, nearly forgotten artisans known as hundred-handed ones. These giants often dwell in remote mountains and seaside cliffs, where they carve their memories into the ancient stone, covering their territories with intricate reliefs and massive statues of bygone ages. Some linger near ancient temples and palaces, ruins they once raised to the gods or archons of old.
@@ -35,15 +36,18 @@ Extra pairs of arms magically orbit the bodies of the titanic, nearly forgotten 
   - !!int "16"
 "speed": "40 ft."
 "saves":
-  - "constitution": "+12"
-  - "wisdom": "+8"
+  - "constitution": !!int "12"
+  - "wisdom": !!int "8"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+8"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+8"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 18"
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 18"
 "languages": "Giant"
 "cr": "15"
 "traits":
@@ -54,10 +58,10 @@ Extra pairs of arms magically orbit the bodies of the titanic, nearly forgotten 
 "actions":
   - "desc": "The giant makes four longsword attacks or two rock attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:*\
       \ 21 (3d8 + 8) slashing damage."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +13 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +13 to hit, range 60/240 ft., one target. *Hit:*\
       \ 30 (4d10 + 8) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 21 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Rock"

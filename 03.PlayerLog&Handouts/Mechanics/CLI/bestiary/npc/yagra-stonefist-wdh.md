@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Yagra Stonefist
+- "Yagra Stonefist"
 ---
-# [Yagra Stonefist](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/yagra-stonefist-wdh.md)
+# [Yagra Stonefist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yagra-stonefist-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 20*  
 
 *Half-orc mercenary*
@@ -44,7 +45,11 @@ Yagra is a Black Network mercenary who gets paid to protect a Zhent negotiator n
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
+  - "[mace](03.PlayerLog&Handouts/Mechanics/CLI/items/mace.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Orc"
 "cr": "1/2"
 "traits":
@@ -60,11 +65,11 @@ Yagra is a Black Network mercenary who gets paid to protect a Zhent negotiator n
 "actions":
   - "desc": "Yagra makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 5 (1d6 + 2) bludgeoning damage."
     "name": "Mace"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit:\
-      \ 5 (d10) piercing damage."
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 100/400 ft., one target. *Hit:*\
+      \ 5 (1d10) piercing damage."
     "name": "Heavy Crossbow"
 "source":
   - "WDH"

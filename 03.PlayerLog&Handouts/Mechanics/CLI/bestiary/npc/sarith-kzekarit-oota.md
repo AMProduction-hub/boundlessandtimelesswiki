@@ -1,24 +1,25 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/1-4
 - ttrpg-cli/monster/size/medium
-- ttrpg-cli/monster/type/humanoid/elf
+- ttrpg-cli/monster/type/humanoid/drow-elf
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sarith Kzekarit
+- "Sarith Kzekarit"
 ---
-# [Sarith Kzekarit](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sarith-kzekarit-oota.md)
+# [Sarith Kzekarit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sarith-kzekarit-oota.md)
 *Source: Out of the Abyss p. 7*  
 
 ```statblock
 "name": "Sarith Kzekarit (OotA)"
 "size": "Medium"
 "type": "humanoid"
-"subtype": "elf"
+"subtype": "Drow elf"
 "alignment": "Neutral Evil"
 "ac": !!int "15"
 "ac_class": "[chain shirt](03.PlayerLog&Handouts/Mechanics/CLI/items/chain-shirt.md)"
@@ -38,14 +39,18 @@ aliases:
     "desc": "+2"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 120 ft., passive Perception 12"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 12"
 "languages": "Elvish, Undercommon"
 "cr": "1/4"
 "traits":
   - "desc": "Sarith's spellcasting ability is Charisma (spell save DC 11). It can\
       \ innately cast the following spells, requiring no material components:\n\n\
-      At will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
-      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      **At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
+      \n**1/day each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md)"
     "name": "Innate Spellcasting"
   - "desc": "Sarith has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
@@ -56,10 +61,10 @@ aliases:
       \ checks that rely on sight."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage, and the target must succeed on a DC 13 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 hour. If the saving throw fails by 5 or more, the target is also [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\

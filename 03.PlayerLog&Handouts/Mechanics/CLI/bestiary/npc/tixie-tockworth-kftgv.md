@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tixie Tockworth
+- "Tixie Tockworth"
 ---
-# [Tixie Tockworth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/tixie-tockworth-kftgv.md)
+# [Tixie Tockworth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/tixie-tockworth-kftgv.md)
 *Source: Keys from the Golden Vault p. 85*  
 
 Using magic and mechanical know-how, Tixie Tockworth has transformed most of herself into a machine. What was once her torso is now a steel carapace that can discharge jets of scalding steam. Her left arm ends in a humming blade. Her right arm ends in a metal shield. Her eyes are shiny, metallic red orbs that can see through illusions.
@@ -38,14 +39,17 @@ In her current form, Tockworth ruthlessly seeks to destroy anyone and anything t
   - !!int "10"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+6"
-  - "wisdom": "+2"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+9"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "truesight 60 ft., passive Perception 12"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Gnomish, Terran, Undercommon"
 "cr": "7"
 "traits":
@@ -61,17 +65,17 @@ In her current form, Tockworth ruthlessly seeks to destroy anyone and anything t
 "actions":
   - "desc": "Tockworth makes three Shortsword or Lightning Discharge attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage plus 10 (3d6) force damage."
     "name": "Shortsword"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 60 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 60 ft., one creature. *Hit:*\
       \ 16 (3d10) lightning damage."
     "name": "Lightning Discharge"
   - "desc": "Tockworth casts one of the following spells, requiring no material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 14):\n\n\
-      At will: [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md)\
-      \ (self only)\n\n2/day: [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md)\n\
-      \n1/day each: [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
+      **At will:** [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md)\
+      \ (self only)\n\n**2/day:** [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md)\n\
+      \n**1/day each:** [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
       \ [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md)"
     "name": "Spellcasting"
 "bonus_actions":

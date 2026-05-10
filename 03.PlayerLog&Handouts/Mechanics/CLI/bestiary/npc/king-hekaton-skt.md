@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/13
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- King Hekaton
+- "King Hekaton"
 ---
-# [King Hekaton](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/king-hekaton-skt.md)
+# [King Hekaton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/king-hekaton-skt.md)
 *Source: Storm King's Thunder p. 222*  
 
 Storm giants are contemplative seers that live in places far removed from mortal civilization. Most have pale purple-gray skin and hair, and glittering emerald eyes.
@@ -83,10 +84,10 @@ Some giants abandon their own gods and fall prey to demon cults, paying homage t
   - !!int "18"
 "speed": "50 ft., swim 50 ft."
 "saves":
-  - "strength": "+14"
-  - "constitution": "+10"
-  - "wisdom": "+9"
-  - "charisma": "+9"
+  - "strength": !!int "14"
+  - "constitution": !!int "10"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+8"
@@ -104,10 +105,10 @@ Some giants abandon their own gods and fall prey to demon cults, paying homage t
 "traits":
   - "desc": "The giant's innate spellcasting ability is Charisma (spell save DC 17).\
       \ It can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [feather fall](03.PlayerLog&Handouts/Mechanics/CLI/spells/feather-fall.md),\
       \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md)\n\
-      \n3/day each: [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md),\
+      \n**3/day each:** [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md),\
       \ [water breathing](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-breathing.md)"
     "name": "Innate Spellcasting"
   - "desc": "Hekaton can breathe air and water."
@@ -115,10 +116,10 @@ Some giants abandon their own gods and fall prey to demon cults, paying homage t
 "actions":
   - "desc": "Hekaton makes two broken chain attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:*\
       \ 18 (3d6 + 9) bludgeoning damage."
     "name": "Broken Chain"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 120/480 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:*\
       \ 18 (3d10 + 2) piercing damage."
     "name": "Ballista"
   - "desc": "Hekaton hurls a magical lightning bolt at a point he can see within 500\

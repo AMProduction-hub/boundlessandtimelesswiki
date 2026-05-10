@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Adventures in Sharn; Life in the City
+- "Adventures in Sharn; Life in the City"
 ---
 # Adventures in Sharn; Life in the City
 *Source: Eberron: Rising from the Last War p. 239* 
 
 **Life in the City**
-
-`dice: [](adventures-in-sharn-life-in-the-city-erlw.md#^life-in-the-city)`
 
 | dice: d6 | Adventure Seed |
 |----------|----------------|

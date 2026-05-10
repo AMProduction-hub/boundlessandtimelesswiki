@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Markham Southwell
+- "Markham Southwell"
 ---
-# [Markham Southwell](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/markham-southwell-skt.md)
+# [Markham Southwell](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/markham-southwell-skt.md)
 *Source: Storm King's Thunder p. 248*  
 
 Sheriff Markham of Bryn Shander is a brawny, likable man of few words. Nothing is more important to him than protecting Icewind Dale. He judges others by their actions, not their words.
@@ -46,6 +47,9 @@ Flaw:"I bury my emotions and have no interest in small talk."
     "desc": "+5"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+5"
+"gear":
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
 "senses": "passive Perception 16"
 "languages": "Common"
 "traits":
@@ -59,11 +63,11 @@ Flaw:"I bury my emotions and have no interest in small talk."
 "actions":
   - "desc": "Markham makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with\
       \ two hands."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, range 100/400 ft., one target. *Hit:*\
       \ 6 (1d10 + 1) piercing damage. Markham carries twenty crossbow bolts."
     "name": "Heavy Crossbow"
 "source":

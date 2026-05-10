@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Gnome Names – Clan
+- "Gnome Names – Clan"
 ---
 # Gnome Names – Clan
 *Source: Xanathar's Guide to Everything p. 178* 
 
 **Gnome Names – Clan**
-
-`dice: [](gnome-names-clan-xge.md#^gnome-names-clan)`
 
 | dice: d100 | Name |
 |------------|------|

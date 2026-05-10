@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Neo-Otyugh
+- "Neo-Otyugh"
 ---
-# [Neo-Otyugh](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/neo-otyugh-imr.md)
+# [Neo-Otyugh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/neo-otyugh-imr.md)
 *Source: Infernal Machine Rebuild p. 75*  
 
 A neo-otyugh is a stronger, more intelligent version of an otyugh—a grotesque aberration sporting three legs, snake-like tentacles, and a perpetually ravenous maw. Like an otyugh, a neo-otyugh buries itself under mounds of offal and carrion to ambush prey. Their improved intellect and innate spellcasting makes them especially effective against humanoid targets, as they use their powers of control to split off a straggler from a party, then attack.
@@ -35,16 +36,17 @@ A neo-otyugh is a stronger, more intelligent version of an otyugh—a grotesque 
   - !!int "6"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+9"
+  - "constitution": !!int "9"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": "Otyugh"
 "cr": "7"
 "traits":
   - "desc": "The neo-otyugh's innate spellcasting ability is Intelligence (spell save\
       \ DC 12). It can innately cast the following spells, requiring no components:\n\
-      \nAt will: [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md)\n\
-      \n1/day each: [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \n**At will:** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md)\n\
+      \n**1/day each:** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md)"
     "name": "Innate Spellcasting (Psionics)"
   - "desc": "The otyugh can magically transmit simple messages and images to any creature\
@@ -55,16 +57,16 @@ A neo-otyugh is a stronger, more intelligent version of an otyugh—a grotesque 
   - "desc": "The neo-otyugh makes three attacks: one with its bite and two with its\
       \ tentacles."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 16 (2d10 + 5) piercing damage. If the target is a creature, it must succeed\
       \ on a DC 17 Constitution saving throw against disease or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ until the disease is cured. Every 24 hours that elapse, the target must repeat\
-      \ the saving throw, reducing its hit point maximum by 5 (d10) on a failure.\
+      \ the saving throw, reducing its hit point maximum by 5 (1d10) on a failure.\
       \ The disease is cured on a success. The target dies if the disease reduces\
       \ its hit point maximum to 0. This reduction to the target's hit point maximum\
       \ lasts until the disease is cured."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 15 ft., one target. *Hit:*\
       \ 10 (1d10 + 5) bludgeoning damage. If the target is Large or smaller, it\
       \ is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 16) and [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\

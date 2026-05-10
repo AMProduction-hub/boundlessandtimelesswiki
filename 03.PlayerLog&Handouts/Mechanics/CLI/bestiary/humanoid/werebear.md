@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -13,10 +14,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Werebear
+- "Werebear"
 ---
-# [Werebear](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/werebear.md)
-*Source: Monster Manual p. 208, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Werebear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/werebear.md)
+*Source: Monster Manual p. 208. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Werebears are powerful lycanthropes with the ability to temper their monstrous natures and reject their violent impulses. In humanoid form, they are large, muscular, and covered in hair matching the color of their ursine form's fur. A werebear is a loner by nature, fearing what might happen to innocent creatures around it when its bestial nature takes over.
 
@@ -64,7 +65,7 @@ Some individuals see little point in fighting the curse and accept what they are
 "subtype": "human, shapechanger"
 "alignment": "Neutral Good"
 "ac": !!int "10"
-"ac_class": "11 from natural armor in bear or hybrid form"
+"ac_class": "11 natural armor in bear or hybrid form"
 "hp": !!int "135"
 "hit_dice": "18d8 + 54"
 "modifier": !!int "0"
@@ -81,6 +82,8 @@ Some individuals see little point in fighting the curse and accept what they are
     "desc": "+7"
 "damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
 "senses": "passive Perception 17"
 "languages": "Common (can't speak in bear form)"
 "cr": "5"
@@ -99,21 +102,18 @@ Some individuals see little point in fighting the curse and accept what they are
       \ it makes two greataxe attacks. In hybrid form, it can attack like a bear or\
       \ a humanoid."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (2d10 + 4) piercing damage. If the target is a humanoid, it must succeed\
       \ on a DC 14 Constitution saving throw or be cursed with werebear lycanthropy."
     "name": "Bite (Bear or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) slashing damage."
     "name": "Claw (Bear or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (1d12 + 4) slashing damage."
     "name": "Greataxe (Humanoid or Hybrid Form Only)"
 "source":
   - "MM"
-  - "GoS"
-  - "EGW"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/werebear.webp"
 ```
 ^statblock

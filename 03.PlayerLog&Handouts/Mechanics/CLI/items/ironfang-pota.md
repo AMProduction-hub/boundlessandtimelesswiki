@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/legendary
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
-aliases: 
+aliases:
 - "Ironfang"
 ---
 # Ironfang
@@ -19,7 +20,7 @@ aliases:
 
 A [war pick](03.PlayerLog&Handouts/Mechanics/CLI/items/war-pick.md) forged from a single piece of iron, Ironfang has a fang-like head inscribed with ancient runes. The pick is heavy in the hand, but when the wielder swings the pick in anger, the weapon seems almost weightless. This weapon is immune to any form of rust, acid, or corrosion—nothing seems to mark it. Ironfang contains a spark of [Ogrémoch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ogremoch-pota.md), the Prince of Evil Earth.
 
-You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit with it, the target takes an extra `d8` thunder damage.
+You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit with it, the target takes an extra `1d8` thunder damage.
 
 ## Earth Mastery
 
@@ -33,7 +34,7 @@ You gain the following benefits while you hold Ironfang:
 
 ## Shatter
 
-Ironfang has 3 charges. You can use your action to expend 1 charge and cast the 2nd-level version of [shatter](03.PlayerLog&Handouts/Mechanics/CLI/spells/shatter.md) (DC 17). Ironfang regains `d3` expended charges daily at dawn.
+Ironfang has 3 charges. You can use your action to expend 1 charge and cast the 2nd-level version of [shatter](03.PlayerLog&Handouts/Mechanics/CLI/spells/shatter.md) (DC 17). Ironfang regains `1d3` expended charges daily at dawn.
 
 ## The Rumbling
 

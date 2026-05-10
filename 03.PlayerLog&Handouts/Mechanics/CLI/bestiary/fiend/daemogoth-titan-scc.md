@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/16
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Daemogoth Titan
+- "Daemogoth Titan"
 ---
-# [Daemogoth Titan](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/daemogoth-titan-scc.md)
+# [Daemogoth Titan](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/daemogoth-titan-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 190*  
 
 Daemogoth titans are towering monsters that blight the land around them. A daemogoth grows in power over the course of decades spent feeding on sorrow and draining life from nature. Eventually that growth turns the daemogoth into a titan.
@@ -41,9 +42,9 @@ When a supplicant piques a daemogoth titan's interest, the titan can grant a ble
   - !!int "20"
 "speed": "40 ft."
 "saves":
-  - "intelligence": "+12"
-  - "wisdom": "+9"
-  - "charisma": "+10"
+  - "intelligence": !!int "12"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+17"
@@ -56,7 +57,8 @@ When a supplicant piques a daemogoth titan's interest, the titan can grant a ble
 "damage_immunities": "psychic"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 120 ft., passive Perception 19"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 19"
 "languages": "Abyssal, Infernal, telepathy 120 ft."
 "cr": "16"
 "traits":
@@ -77,13 +79,16 @@ When a supplicant piques a daemogoth titan's interest, the titan can grant a ble
 "actions":
   - "desc": "The titan makes two Agonizing Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +12 to hit, reach 15 ft. or range\
-      \ 120 ft., one target. Hit: 17 (3d6 + 7) force damage. If the target is\
+  - "desc": "*Melee  or Ranged Spell Attack:* +12 to hit, reach 15 ft. or range\
+      \ 120 ft., one target. *Hit:* 17 (3d6 + 7) force damage. If the target is\
       \ a creature, the titan regains 5 hit points."
     "name": "Agonizing Burst"
   - "desc": "The titan teleports to an unoccupied space it can see within 120 feet\
       \ of itself."
     "name": "Teleport"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the daemogoth titan can expend a use to take one of the following actions.\
+  \ The daemogoth titan regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The titan makes one Agonizing Burst attack."
     "name": "Attack"

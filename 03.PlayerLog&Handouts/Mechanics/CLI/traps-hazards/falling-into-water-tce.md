@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-hazard
+cssclasses:
+- json5e-hazard
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/hazard/wld
 aliases:
-- Falling into Water
+- "Falling into Water"
 ---
 # Falling into Water
 *Wilderness Hazard*  

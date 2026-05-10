@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Adult Oblex
+- "Adult Oblex"
 ---
-# [Adult Oblex](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\ooze/adult-oblex-mpmm.md)
+# [Adult Oblex](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/adult-oblex-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 198, Mordenkainen's Tome of Foes p. 218*  
 
 Older oblexes, called adults and elders, have eaten so many memories that they can form duplicates of the creatures they have devoured from the substance of their bodies, sending these copies off to lure prey into their clutches while remaining tethered to the slime by long tendrils of goo. These duplicated creatures are indistinguishable from their victims except for a faint sulfurous smell. Oblexes use these duplicates to lead prey into danger or to infiltrate settlements so they can feed on superior victims.
@@ -51,8 +52,8 @@ When oblexes feed on thoughts, they can form weird copies of their prey to use a
   - !!int "15"
 "speed": "20 ft."
 "saves":
-  - "intelligence": "+7"
-  - "charisma": "+5"
+  - "intelligence": !!int "7"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+5"
@@ -67,7 +68,8 @@ When oblexes feed on thoughts, they can form weird copies of their prey to use a
   \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 60 ft. (blind beyond this distance), passive Perception 14"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this distance), passive Perception 14"
 "languages": "Common plus two more languages"
 "cr": "5"
 "traits":
@@ -81,7 +83,7 @@ When oblexes feed on thoughts, they can form weird copies of their prey to use a
 "actions":
   - "desc": "The oblex makes two pseudopod attacks, and it uses Eat Memories."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage plus 7 (2d6) psychic damage."
     "name": "Pseudopod"
   - "desc": "The oblex targets one creature it can see within 5 feet of it. The target\
@@ -100,7 +102,7 @@ When oblexes feed on thoughts, they can form weird copies of their prey to use a
     "name": "Eat Memories"
   - "desc": "The oblex casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 15):\n\n\
-      3/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md)\
+      **3/day each:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md)\
       \ (as 5th-level spell), [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [hypnotic pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md)"
     "name": "Spellcasting (Psionics)"

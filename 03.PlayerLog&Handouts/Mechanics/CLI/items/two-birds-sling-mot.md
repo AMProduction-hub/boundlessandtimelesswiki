@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/item/rarity/rare
 - ttrpg-cli/item/weapon/ranged
 - ttrpg-cli/item/weapon/simple
-aliases: 
+aliases:
 - "Two-Birds Sling"
 ---
 # Two-Birds Sling

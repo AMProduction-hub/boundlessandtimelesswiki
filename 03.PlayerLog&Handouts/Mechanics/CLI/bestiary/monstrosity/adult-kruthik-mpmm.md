@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Adult Kruthik
+- "Adult Kruthik"
 ---
-# [Adult Kruthik](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/adult-kruthik-mpmm.md)
+# [Adult Kruthik](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/adult-kruthik-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 169, Mordenkainen's Tome of Foes p. 212*  
 
 It takes six months of steady eating for a [young kruthik](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/young-kruthik-mpmm.md) to reach adult size. The natural life span of an adult kruthik is roughly seven years.
@@ -62,7 +63,8 @@ Kruthiks abide the presence of Constructs, Elementals, Oozes, and Undead, and th
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 15"
 "languages": "Kruthik"
 "cr": "2"
 "traits":
@@ -76,10 +78,10 @@ Kruthiks abide the presence of Constructs, Elementals, Oozes, and Undead, and th
 "actions":
   - "desc": "The kruthik makes two Stab or Spike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Stab"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 20/60 ft., one target. *Hit:*\
       \ 5 (1d4 + 3) piercing damage."
     "name": "Spike"
 "source":

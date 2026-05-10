@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gallows Speaker
+- "Gallows Speaker"
 ---
-# [Gallows Speaker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/gallows-speaker-vrgr.md)
+# [Gallows Speaker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/gallows-speaker-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 234*  
 
 Gallows speakers arise from places of mass death or sites where creatures regularly meet their doom. Over time, pain-wracked phantoms and lingering souls combine into an entity that knows death in myriad forms. Such amalgamated spirits are tormented by their collective pain, endlessly moaning disjointed final thoughts as they lash out at the living. Having known untold deaths, gallows speakers can predict suffering, foreseeing dooms leveled against them and overwhelming their foes with visions of innumerable violent deaths.
@@ -36,7 +37,7 @@ Gallows speakers rarely speak coherently or communicate with the living, instead
   - !!int "18"
 "speed": "0 ft., fly 40 ft. (hover)"
 "saves":
-  - "wisdom": "+4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
@@ -50,7 +51,8 @@ Gallows speakers rarely speak coherently or communicate with the living, instead
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "truesight 60 ft., passive Perception 17"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 60 ft., passive Perception 17"
 "languages": "any languages its component spirits knew in life"
 "cr": "6"
 "traits":
@@ -58,13 +60,13 @@ Gallows speakers rarely speak coherently or communicate with the living, instead
       \ on the Material Plane and vice versa."
     "name": "Divination Senses"
   - "desc": "The gallows speaker can move through other creatures and objects as if\
-      \ they were difficult terrain. It takes 5 (d10) force damage if it ends it\
+      \ they were difficult terrain. It takes 5 (1d10) force damage if it ends it\
       \ turn inside an object."
     "name": "Incorporeal Movement"
   - "desc": "The gallows speaker doesn't require air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Spell Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +7 to hit, reach 5 ft., one creature. *Hit:*\
       \ 15 (2d10 + 4) psychic damage, and the target must roll a d4 and subtract\
       \ the number rolled from the next attack roll or saving throw it makes before\
       \ the start of the gallows speaker's next turn."

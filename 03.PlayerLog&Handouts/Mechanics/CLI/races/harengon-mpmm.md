@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/harengon
 aliases:
-- Harengon
+- "Harengon"
 ---
 # Harengon
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 22*  

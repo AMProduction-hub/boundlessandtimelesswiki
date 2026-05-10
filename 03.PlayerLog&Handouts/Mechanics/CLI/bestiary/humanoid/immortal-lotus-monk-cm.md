@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Immortal Lotus Monk
+- "Immortal Lotus Monk"
 ---
-# [Immortal Lotus Monk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/immortal-lotus-monk-cm.md)
+# [Immortal Lotus Monk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/immortal-lotus-monk-cm.md)
 *Source: Candlekeep Mysteries p. 165*  
 
 ```statblock
@@ -39,6 +40,8 @@ aliases:
     "desc": "+5"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
+"gear":
+  - "[dart](03.PlayerLog&Handouts/Mechanics/CLI/items/dart.md)"
 "senses": "passive Perception 15"
 "languages": "Common"
 "cr": "5"
@@ -49,11 +52,11 @@ aliases:
 "actions":
   - "desc": "The monk makes two attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) force damage, and if the target is a creature, it must succeed\
       \ on a DC 14 Dexterity saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Force Strike"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 20/60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 20/60 ft., one target. *Hit:*\
       \ 5 (1d4 + 3) piercing damage."
     "name": "Dart"
 "source":

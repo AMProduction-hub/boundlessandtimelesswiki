@@ -1,32 +1,33 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/golgari-agent
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/conjuration
 - ttrpg-cli/spell/subclass/alchemist
 - ttrpg-cli/spell/subclass/circle-of-spores
-- ttrpg-cli/spell/subclass/circle-of-the-land
+- ttrpg-cli/spell/subclass/circle-of-the-land/underdark
 - ttrpg-cli/spell/subclass/death-domain
 - ttrpg-cli/spell/subclass/oath-of-conquest
 - ttrpg-cli/spell/subclass/the-undead
 classes:
 - Artificer (Alchemist)
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Death Domain)
 - Druid (Circle of Spores)
-- Druid (Circle of the Land)
+- Druid (Circle of the Land, Underdark)
 - Paladin (Oath of Conquest)
 - Sorcerer
 - Warlock (The Undead)
 - Wizard
 aliases:
-- Cloudkill
+- "Cloudkill"
 ---
 # Cloudkill
 *5th-level, Conjuration*  
@@ -43,8 +44,8 @@ When a creature enters the spell's area for the first time on a turn or starts i
 
 The fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, the damage increases by `d8` for each slot level above 5th.
+**At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, the damage increases by `1d8` for each slot level above 5th.
 
-**Classes**: [Cleric (Death Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-death-domain-dmg.md "subclass=DMG"); [Warlock (The Undead)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-undead-vrgr.md "subclass=VRGR"); [Artificer (Alchemist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-alchemist-tce.md "subclass=TCE;class=TCE"); [Paladin (Oath of Conquest)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-conquest-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid (Circle of Spores)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md)
+**Classes**: [Artificer (Alchemist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-alchemist-tce.md "subclass=TCE;class=TCE"); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Death Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-death-domain-dmg.md "subclass=DMG"); [Druid (Circle of Spores)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE"); [Druid (Circle of the Land, Underdark)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Paladin (Oath of Conquest)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-conquest-xge.md "subclass=XGE"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock (The Undead)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-undead-vrgr.md "subclass=VRGR"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 222. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

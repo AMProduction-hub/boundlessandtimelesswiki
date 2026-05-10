@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/6
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mage (Familiar)
+- "Mage (Familiar)"
 ---
-# [Mage (Familiar)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/mage-familiar.md)
-*Source: Monster Manual p. 347, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Divine Contention, Dragon of Icespire Peak, Storm Lord's Wrath, Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Candlekeep Mysteries, Journeys through the Radiant Citadel, Light of Xaryxis, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Mage (Familiar)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage-familiar.md)
+*Source: Monster Manual p. 347. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Mage (Familiar)"
@@ -35,23 +36,25 @@ aliases:
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+6"
-  - "wisdom": "+4"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+6"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 11"
 "languages": "any four languages"
 "cr": "6"
 "traits":
   - "desc": "The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence\
       \ (spell save DC 14, +6 to hit with spell attacks). The mage has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**1st level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [find familiar](03.PlayerLog&Handouts/Mechanics/CLI/spells/find-familiar.md)\
       \ (one of the creatures described in the spell or some other Tiny monster, such\
       \ as a [crawling claw](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/crawling-claw.md),\
@@ -59,42 +62,20 @@ aliases:
       \ or [quasit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/quasit.md)),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [magic\
       \ missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md), [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\
-      \n2nd level (3 slots): [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md),\
+      \n**2nd level (3 slots):** [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\n\
-      3rd level (3 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      **3rd level (3 slots):** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md)\n\
-      \n4th level (3 slots): [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md),\
-      \ [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md)\n\n5th\
-      \ level (1 slots): [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md)"
+      \n**4th level (3 slots):** [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md),\
+      \ [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md)\n\n**5th\
+      \ level (1 slots):** [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md)"
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
 "source":
   - "MM"
-  - "CoS"
-  - "PotA"
-  - "SKT"
-  - "ToA"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "DC"
-  - "DIP"
-  - "SLW"
-  - "SDW"
-  - "BGDIA"
-  - "ERLW"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
-  - "TCE"
-  - "CM"
-  - "JttRC"
-  - "LoX"
-  - "DSotDQ"
-  - "KftGV"
 ```
 ^statblock
 

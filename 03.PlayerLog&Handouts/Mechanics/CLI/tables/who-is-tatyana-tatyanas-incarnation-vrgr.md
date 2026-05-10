@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Who Is Tatyana?; Tatyana's Incarnation
+- "Who Is Tatyana?; Tatyana's Incarnation"
 ---
 # Who Is Tatyana?; Tatyana's Incarnation
 *Source: Van Richten's Guide to Ravenloft p. 70* 
 
 **Tatyana's Incarnation**
-
-`dice: [](who-is-tatyana-tatyanas-incarnation-vrgr.md#^tatyanas-incarnation)`
 
 | dice: d8 | Who Is Tatyana's Newest Incarnation? |
 |----------|--------------------------------------|

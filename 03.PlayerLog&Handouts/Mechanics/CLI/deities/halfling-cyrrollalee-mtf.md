@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/deity/halfling
 - ttrpg-cli/domain/life
 - ttrpg-cli/domain/peace
-aliases: 
-- Cyrrollalee
+aliases:
+- "Cyrrollalee"
 ---
 # Cyrrollalee
 *Source: Mordenkainen's Tome of Foes p. 104, Tasha's Cauldron of Everything p. 33* 

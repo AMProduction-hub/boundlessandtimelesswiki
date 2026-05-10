@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/ranger/swarmkeeper
 aliases:
-- Swarmkeeper
+- "Swarmkeeper"
 ---
 # Swarmkeeper
 *[Ranger](./ranger.md): Ranger Archetype*  
@@ -43,11 +44,9 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Swarmkeeper (Level 3)
-
 Feeling a deep connection to the environment around them, some rangers reach out through their magical connection to the world and bond with a swarm of nature spirits. The swarm becomes a potent force in battle, as well as helpful company for the ranger. Some Swarmkeepers are outcasts or hermits, keeping to themselves and their attendant swarms rather than dealing with the discomfort of others. Other Swarmkeepers enjoy building vibrant communities that work for the mutual benefit of all those they consider part of their swarm.
+
+## Subclass Features
 
 ### Gathered Swarm (Level 3)
 
@@ -56,8 +55,6 @@ Feeling a deep connection to the environment around them, some rangers reach out
 A swarm of intangible nature spirits has bonded itself to you and can assist you in battle. While you're alive, the swarm remains in your space, crawling on you or flying and skittering around you within your space. You determine its appearance, or you generate its appearance by rolling on the Swarm Appearance table.
 
 **Swarm Appearance**
-
-`dice: [](ranger-swarmkeeper-tce.md#^swarm-appearance)`
 
 | dice: d4 | Appearance |
 |----------|------------|
@@ -69,7 +66,7 @@ A swarm of intangible nature spirits has bonded itself to you and can assist you
 
 Once on each of your turns, you can cause the swarm to assist you in one of the following ways, immediately after you hit a creature with an attack:
 
-- The attack's target takes `d6` piercing damage from the swarm.  
+- The attack's target takes `1d6` piercing damage from the swarm.  
 - The attack's target must succeed on a Strength saving throw against your spell save DC or be moved by the swarm up to 15 feet horizontally in a direction of your choice.  
 - You are moved by the swarm 5 feet horizontally in a direction of your choice.  
 
@@ -113,7 +110,7 @@ You can use this feature a number of times equal to your proficiency bonus, and 
 
 Your Gathered Swarm grows mightier in the following ways:
 
-- The damage of Gathered Swarm increases to `d8`.  
+- The damage of Gathered Swarm increases to `1d8`.  
 - If a creature fails its saving throw against being moved by Gathered Swarm, you can also cause the swarm to knock the creature [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).  
 - When you are moved by Gathered Swarm, it gives you half cover until the start of your next turn.  
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/25
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Slarkrethel
+- "Slarkrethel"
 ---
-# [Slarkrethel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/slarkrethel-skt.md)
+# [Slarkrethel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/slarkrethel-skt.md)
 *Source: Storm King's Thunder p. 224*  
 
 Beneath the waves, the kraken sleeps for untold ages, awaiting some fell sign or calling. Land-born mortals who sail the open sea forget the reasons their ancestors dreaded the ocean, even as the races of the deep ignore strange gaps in their histories when their civilizations nearly vanished after the appearance of the tentacled horror.
@@ -50,15 +51,16 @@ A kraken lives in dark depths, usually a sunken rift or a cavern filled with det
   - !!int "20"
 "speed": "20 ft., swim 60 ft."
 "saves":
-  - "strength": "+18"
-  - "dexterity": "+8"
-  - "constitution": "+15"
-  - "intelligence": "+14"
-  - "wisdom": "+12"
+  - "strength": !!int "18"
+  - "dexterity": !!int "8"
+  - "constitution": !!int "15"
+  - "intelligence": !!int "14"
+  - "wisdom": !!int "12"
 "damage_immunities": "lightning; bludgeoning, piercing, slashing from nonmagical attacks"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)"
-"senses": "truesight 120 ft., passive Perception 14"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 14"
 "languages": "understands Abyssal, Celestial, Infernal, and Primordial but can't speak,\
   \ telepathy 120 ft."
 "cr": "25"
@@ -78,7 +80,7 @@ A kraken lives in dark depths, usually a sunken rift or a cavern filled with det
   - "desc": "Slarkrethel makes three tentacle attacks, each of which it can replace\
       \ with one use of Fling."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 5 ft., one target. *Hit:*\
       \ 23 (3d8 + 10) piercing damage. If the target is a Large or smaller creature\
       \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ by Slarkrethel, that creature is swallowed, and the grapple ends. While swallowed,\
@@ -93,14 +95,14 @@ A kraken lives in dark depths, usually a sunken rift or a cavern filled with det
       \ creature is no longer [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ by it and can escape from the corpse using 15 feet of movement, exiting [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 30 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 30 ft., one target. *Hit:*\
       \ 20 (3d6 + 10) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 18). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
       \ Slarkrethel has ten tentacles, each of which can grapple one target."
     "name": "Tentacle"
   - "desc": "One Large or smaller object held or creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ by Slarkrethel is thrown up to 60 feet in a random direction and knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
-      \ If a thrown target strikes a solid surface, the target takes 3 (d6) bludgeoning\
+      \ If a thrown target strikes a solid surface, the target takes 3 (1d6) bludgeoning\
       \ damage for every 10 feet it was thrown. If the target is thrown at another\
       \ creature, that creature must succeed on a DC 18 Dexterity saving throw or\
       \ take the same damage and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
@@ -112,13 +114,13 @@ A kraken lives in dark depths, usually a sunken rift or a cavern filled with det
     "name": "Lightning Storm"
   - "desc": "Slarkrethel casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 22):\n\n\
-      At will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      **At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
-      \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)\n\n2/day\
-      \ each: [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md)\
+      \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)\n\n**2/day\
+      \ each:** [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md)\
       \ (cast as 1 action), [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md),\
-      \ [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md)\n\n1/day\
-      \ each: [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md),\
+      \ [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md)\n\n**1/day\
+      \ each:** [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md),\
       \ [chain lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/chain-lightning.md),\
       \ [feeblemind](03.PlayerLog&Handouts/Mechanics/CLI/spells/feeblemind.md), [foresight](03.PlayerLog&Handouts/Mechanics/CLI/spells/foresight.md),\
       \ [locate creature](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-creature.md),\
@@ -130,6 +132,34 @@ A kraken lives in dark depths, usually a sunken rift or a cavern filled with det
       \ [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md),\
       \ [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)"
     "name": "Spellcasting"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), the kraken takes a lair\
+      \ action to cause one of the following magical effects:\n\n- A strong current\
+      \ moves through the kraken's lair. Each creature within 60 feet of the kraken\
+      \ must succeed on a DC 23 Strength saving throw or be pushed up to 60 feet away\
+      \ from the kraken. On a success, the creature is pushed 10 feet away from the\
+      \ kraken.  \n- Creatures in the water within 60 feet of the kraken have vulnerability\
+      \ to lightning damage until initiative count 20 on the next round.  \n- The\
+      \ water in the kraken's lair becomes electrically charged. All creatures within\
+      \ 120 feet of the kraken must succeed on a DC 23 Constitution saving throw,\
+      \ taking 10 (3d6) lightning damage on a failed save, or half as much damage\
+      \ on a successful one.  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region containing a kraken's lair is warped by the creature's blasphemous\
+      \ presence, creating the following magical effects:\n\n- The kraken can alter\
+      \ the weather at will in a 6-mile radius centered on its lair. The effect is\
+      \ identical to the [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md)\
+      \ spell.  \n- Water elementals coalesce within 6 miles of the lair. These elementals\
+      \ can't leave the water and have Intelligence and Charisma scores of 1 (-5).\
+      \  \n- Aquatic creatures within 6 miles of the lair that have an Intelligence\
+      \ score of 2 or lower are [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ by the kraken and aggressive toward intruders in the area.  \n\nWhen the kraken\
+      \ dies, all of these regional effects fade immediately."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Slarkrethel can expend a use to take one of the following actions. Slarkrethel\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Slarkrethel makes one tentacle attack or uses its Fling."
     "name": "Tentacle Attack or Fling"
@@ -143,34 +173,6 @@ A kraken lives in dark depths, usually a sunken rift or a cavern filled with det
       \ A strong current disperses the cloud, which otherwise disappears at the end\
       \ of Slarkrethel's next turn."
     "name": "Ink Cloud (Costs 3 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), the kraken takes a lair\
-      \ action to cause one of the following magical effects:"
-    "name": ""
-  - "desc": "- A strong current moves through the kraken's lair. Each creature within\
-      \ 60 feet of the kraken must succeed on a DC 23 Strength saving throw or be\
-      \ pushed up to 60 feet away from the kraken. On a success, the creature is pushed\
-      \ 10 feet away from the kraken.  \n- Creatures in the water within 60 feet of\
-      \ the kraken have vulnerability to lightning damage until initiative count 20\
-      \ on the next round.  \n- The water in the kraken's lair becomes electrically\
-      \ charged. All creatures within 120 feet of the kraken must succeed on a DC\
-      \ 23 Constitution saving throw, taking 10 (3d6) lightning damage on a failed\
-      \ save, or half as much damage on a successful one.  "
-    "name": ""
-"regional_effects":
-  - "desc": "The region containing a kraken's lair is warped by the creature's blasphemous\
-      \ presence, creating the following magical effects:"
-    "name": ""
-  - "desc": "- The kraken can alter the weather at will in a 6-mile radius centered\
-      \ on its lair. The effect is identical to the [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md)\
-      \ spell.  \n- Water elementals coalesce within 6 miles of the lair. These elementals\
-      \ can't leave the water and have Intelligence and Charisma scores of 1 (-5).\
-      \  \n- Aquatic creatures within 6 miles of the lair that have an Intelligence\
-      \ score of 2 or lower are [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-      \ by the kraken and aggressive toward intruders in the area.  "
-    "name": ""
-  - "desc": "When the kraken dies, all of these regional effects fade immediately."
-    "name": ""
 "source":
   - "SKT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/slarkrethel-skt.webp"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Draconian Infiltrator
+- "Draconian Infiltrator"
 ---
-# [Draconian Infiltrator](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/draconian-infiltrator-ftd.md)
+# [Draconian Infiltrator](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/draconian-infiltrator-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 178*  
 
 Copper, black, and topaz dragon eggs yield these sly and stealthy draconians, who often serve their creators as scouts and spies. They use the paralytic venom of their saliva to coat their weapons, making them formidable assassins as well. Their wings allow them to turn a fall into a rough glide. When draconian infiltrators die, their bodies dissolve into pools of acid.
@@ -43,7 +44,7 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
   - !!int "11"
 "speed": "40 ft., climb 30 ft."
 "saves":
-  - "dexterity": "+5"
+  - "dexterity": !!int "5"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
@@ -51,7 +52,10 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
     "desc": "+7"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Draconic"
 "cr": "3"
 "traits":
@@ -73,8 +77,8 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
       \ until the end of the target's next turn. While [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ in this way, the target is also [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 7 (2d6) poison\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d4 + 3) piercing damage plus 7 (2d6) poison\
       \ damage."
     "name": "Dagger"
 "source":

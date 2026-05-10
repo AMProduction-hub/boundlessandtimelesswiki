@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/21
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Arcturia
+- "Arcturia"
 ---
-# [Arcturia](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/arcturia-wdmm.md)
+# [Arcturia](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/arcturia-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 296*  
 
 Unable to abide normalcy and consistency, Arcturia fixates on transforming herself, her surroundings, and other creatures. Her moods are ever-changing as well.
@@ -35,9 +36,9 @@ Unable to abide normalcy and consistency, Arcturia fixates on transforming herse
   - !!int "16"
 "speed": "30 ft., fly 60 ft. (hover)"
 "saves":
-  - "constitution": "+10"
-  - "intelligence": "+12"
-  - "wisdom": "+9"
+  - "constitution": !!int "10"
+  - "intelligence": !!int "12"
+  - "wisdom": !!int "9"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+19"
@@ -54,41 +55,42 @@ Unable to abide normalcy and consistency, Arcturia fixates on transforming herse
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 19"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 19"
 "languages": "Common plus up to five other languages"
 "cr": "21"
 "traits":
   - "desc": "Arcturia is an 18th-level spellcaster. Her spellcasting ability is Intelligence\
       \ (spell save DC 20, +12 to hit with spell attacks). Arcturia can cast [alter\
       \ self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md) at will and\
-      \ has the following wizard spells prepared:\n\nCantrips (at will): [mage\
+      \ has the following wizard spells prepared:\n\n**Cantrips (at will):** [mage\
       \ hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
-      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**1st level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \n**2nd level (3 slots):** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [enlarge/reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md),\
       \ [Melf's acid arrow](03.PlayerLog&Handouts/Mechanics/CLI/spells/melfs-acid-arrow.md),\
       \ [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md)\n\
-      \n3rd level (3 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      \n**3rd level (3 slots):** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [slow](03.PlayerLog&Handouts/Mechanics/CLI/spells/slow.md)\n\
-      \n4th level (3 slots): [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
-      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\n5th\
-      \ level (3 slots): [animate objects](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-objects.md),\
+      \n**4th level (3 slots):** [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
+      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\n**5th\
+      \ level (3 slots):** [animate objects](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-objects.md),\
       \ [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)\n\
-      \n6th level (1 slots): [disintegrate](03.PlayerLog&Handouts/Mechanics/CLI/spells/disintegrate.md),\
+      \n**6th level (1 slots):** [disintegrate](03.PlayerLog&Handouts/Mechanics/CLI/spells/disintegrate.md),\
       \ [flesh to stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/flesh-to-stone.md)\n\
-      \n7th level (1 slots): [reverse gravity](03.PlayerLog&Handouts/Mechanics/CLI/spells/reverse-gravity.md),\
-      \ [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)\n\n8th\
-      \ level (1 slots): [feeblemind](03.PlayerLog&Handouts/Mechanics/CLI/spells/feeblemind.md),\
-      \ [maze](03.PlayerLog&Handouts/Mechanics/CLI/spells/maze.md)\n\n9th level\
-      \ (1 slots): [true polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-polymorph.md)"
+      \n**7th level (1 slots):** [reverse gravity](03.PlayerLog&Handouts/Mechanics/CLI/spells/reverse-gravity.md),\
+      \ [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)\n\n**8th\
+      \ level (1 slots):** [feeblemind](03.PlayerLog&Handouts/Mechanics/CLI/spells/feeblemind.md),\
+      \ [maze](03.PlayerLog&Handouts/Mechanics/CLI/spells/maze.md)\n\n**9th level\
+      \ (1 slots):** [true polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-polymorph.md)"
     "name": "Spellcasting"
   - "desc": "If Arcturia fails a saving throw, it can choose to succeed instead."
     "name": "Legendary Resistance (3/Day)"
-  - "desc": "If it has a phylactery, a destroyed lich gains a new body in d10 days,\
+  - "desc": "If it has a phylactery, a destroyed lich gains a new body in 1d10 days,\
       \ regaining all its hit points and becoming active again. The new body appears\
       \ within 5 feet of the phylactery."
     "name": "Rejuvenation"
@@ -96,12 +98,15 @@ Unable to abide normalcy and consistency, Arcturia fixates on transforming herse
       \ undead."
     "name": "Turn Resistance"
 "actions":
-  - "desc": "Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +12 to hit, reach 5 ft., one creature. *Hit:*\
       \ 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving\
       \ throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
       \ its turns, ending the effect on itself on a success."
     "name": "Paralyzing Touch"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Arcturia can expend a use to take one of the following actions. Arcturia\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Arcturia casts a cantrip."
     "name": "Cantrip"

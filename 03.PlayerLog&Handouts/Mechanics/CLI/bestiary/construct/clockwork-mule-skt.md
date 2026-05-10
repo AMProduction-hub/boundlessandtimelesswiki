@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Clockwork Mule
+- "Clockwork Mule"
 ---
-# [Clockwork Mule](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/clockwork-mule-skt.md)
+# [Clockwork Mule](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-mule-skt.md)
 *Source: Storm King's Thunder p. 162*  
 
 ```statblock
@@ -53,7 +54,7 @@ aliases:
       \ effects that would knock it [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Sure-Footed"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) bludgeoning damage."
     "name": "Hooves"
 "source":

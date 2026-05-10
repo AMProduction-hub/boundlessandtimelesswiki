@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sovereign Basidia
+- "Sovereign Basidia"
 ---
-# [Sovereign Basidia](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sovereign-basidia-oota.md)
+# [Sovereign Basidia](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sovereign-basidia-oota.md)
 *Source: Out of the Abyss p. 88*  
 
 ```statblock
@@ -32,7 +33,8 @@ aliases:
   - !!int "15"
   - !!int "10"
 "speed": "30 ft."
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 12"
 "languages": ""
 "cr": "2"
 "traits":
@@ -47,7 +49,7 @@ aliases:
   - "desc": "Basidia uses either its Hallucination Spores or its Pacifying Spores,\
       \ then makes a fist attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (3d4 + 1) bludgeoning damage plus 7 (3d4) poison damage."
     "name": "Fist"
   - "desc": "Basidia targets one corpse of a humanoid or a Large or smaller beast\

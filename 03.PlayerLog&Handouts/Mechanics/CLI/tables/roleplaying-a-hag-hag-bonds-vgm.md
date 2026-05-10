@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Roleplaying a Hag; Hag Bonds
+- "Roleplaying a Hag; Hag Bonds"
 ---
 # Roleplaying a Hag; Hag Bonds
 *Source: Volo's Guide to Monsters p. 54* 
 
 **Hag Bonds**
-
-`dice: [](roleplaying-a-hag-hag-bonds-vgm.md#^hag-bonds)`
 
 | dice: d8 | Bond |
 |----------|------|

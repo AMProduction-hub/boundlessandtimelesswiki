@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 aliases:
-- The Scrivener's Tale
+- "The Scrivener's Tale"
 ---
 # The Scrivener's Tale
 *Source: Candlekeep Mysteries, p. 184* 
@@ -186,9 +187,9 @@ The characters' status as seasoned adventurers means they have no difficulty ent
 
 #### Yvandre Rillyn
 
-The driving force behind the Rillyn family's revival, Yvandre (a human [veteran](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md)) is an iron-willed and accomplished swordfighter as well as a rising political figure in Baldur's Gate. Her manner is brusque but professional. She is happy to deal with anyone who appears likely to further her family's goals, but she can be ruthless toward those who cross her. A former member of the Flaming Fist, she has many friends in that mercenary company who would be only too happy to make trouble for the characters on her behalf.
+The driving force behind the Rillyn family's revival, Yvandre (a human [veteran](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md)) is an iron-willed and accomplished sword-fighter as well as a rising political figure in Baldur's Gate. Her manner is brusque but professional. She is happy to deal with anyone who appears likely to further her family's goals, but she can be ruthless toward those who cross her. A former member of the Flaming Fist, she has many friends in that mercenary company who would be only too happy to make trouble for the characters on her behalf.
 
-If Yvandre is attacked, `d4` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) arrive at the end of each of her turns until twenty have appeared.
+If Yvandre is attacked, `1d4` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) arrive at the end of each of her turns until twenty have appeared.
 
 ##### Personality Trait
 

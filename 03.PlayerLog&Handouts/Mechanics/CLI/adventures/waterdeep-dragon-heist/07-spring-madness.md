@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 aliases:
-- Spring Madness
+- "Spring Madness"
 ---
 # Spring Madness
 *Source: Waterdeep: Dragon Heist, p. 99* 
@@ -24,8 +25,6 @@ As they explore [Xanathar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/xana
 Roll percentile dice to determine the beholder's location when the characters arrive, and consult the [Xanathar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/xanathar-wdh.md)'s Location table.
 
 **Xanathar's Location**
-
-`dice: [](07-spring-madness.md#^xanathars-location)`
 
 | dice: d100 | Result |
 |------------|--------|
@@ -643,7 +642,7 @@ When the halfling spots the characters, a relieved smile crosses his face. "Fina
 Bepis is a strongheart halfling commoner, with these changes:
 
 - Bepis is lawful good.  
-- He is Small and has 3 (`d6`) hit points.  
+- He is Small and has 3 (`1d6`) hit points.  
 - He has these racial traits: His walking speed is 25 feet. He can move through the space of a Medium or larger creature. He has advantage on saving throws against being [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened). He speaks Common and Halfling.  
 
 #### X32. Stairs and Scrying Sensor
@@ -666,7 +665,7 @@ The copper urns contain the dust of disintegrated beholders. If the dust from an
 
 ##### Crystal Crypts
 
-Each crystal cylinder has AC 10, 15 hit points, resistance to slashing and piercing damage, and vulnerability to bludgeoning damage. If a cylinder is shattered, the fluid within it washes across the floor as the dead beholder lands with a wet plop and expels `d4` baby [gas spores](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/gas-spore.md) that grow to full size in 30 days. Any character infected by these gas spores gains the following flaw until the disease is cured: "I hate other beholders. If I see a beholder, I must try to destroy it."
+Each crystal cylinder has AC 10, 15 hit points, resistance to slashing and piercing damage, and vulnerability to bludgeoning damage. If a cylinder is shattered, the fluid within it washes across the floor as the dead beholder lands with a wet plop and expels `1d4` baby [gas spores](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/gas-spore.md) that grow to full size in 30 days. Any character infected by these gas spores gains the following flaw until the disease is cured: "I hate other beholders. If I see a beholder, I must try to destroy it."
 
 ##### Secret Door
 
@@ -772,7 +771,7 @@ The Xanathar Guild recently captured some trolls in Undermountain. The trolls ar
 > A small crowd of onlookers is gathered around a ten-foot-tall wicker effigy of a troll, stamping their feet as two young men struggle to set the likeness ablaze with sputtering torches.
 > 
 > 
-> Suddenly a whitehaired man bolts toward the crowd, his face a mask of terror. Behind him lurches a massive, green-skinned giant dragging a ball and chain across the cobbled street. A blind helm covers the troll's eyes, but its mouth is a veritable cavern of sharp teeth. It flails its arms, slashing at the fog around it, and lets out a horrible wail of frustration. The crowd panics at the sight of it and flees into the mist and rain. Meanwhile, two members of the City Watch sneak up behind the blind troll, hoping to strike a mortal blow.
+> Suddenly a white-haired man bolts toward the crowd, his face a mask of terror. Behind him lurches a massive, green-skinned giant dragging a ball and chain across the cobbled street. A blind helm covers the troll's eyes, but its mouth is a veritable cavern of sharp teeth. It flails its arms, slashing at the fog around it, and lets out a horrible wail of frustration. The crowd panics at the sight of it and flees into the mist and rain. Meanwhile, two members of the City Watch sneak up behind the blind troll, hoping to strike a mortal blow.
 ^2d3
 
 The white-haired man is a Waterdavian noble of no real accomplishments named Bromas Sultlue. When he sees the characters, he shouts, "It's a troll! Do something!" If the characters intervene, the two City Watch [veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md) fight alongside them. These constables act on the same initiative count. On their initiative count each round, there's a noncumulative 20 percent chance that another [veteran](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md) arrives and joins the fray.

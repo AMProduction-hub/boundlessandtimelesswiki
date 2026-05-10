@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Chwinga
+- "Chwinga"
 ---
-# [Chwinga](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/chwinga-toa.md)
+# [Chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-toa.md)
 *Source: Tomb of Annihilation p. 216*  
 
 A chwinga (pronounced cheh-WING-ah) is a tiny elemental spirit that lives in plants, rocks, and rivers far from civilization. Painfully shy, chwingas prefer to move about unseen.
@@ -50,13 +51,14 @@ Chwingas sleep but don't require air, food, or drink. They don't have names and 
     "desc": "+7"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
-"senses": "blindsight 60 ft., passive Perception 17"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., passive Perception 17"
 "languages": ""
 "cr": "0"
 "traits":
   - "desc": "The chwinga's innate spellcasting ability is Wisdom. It can innately\
       \ cast the following spells, requiring no material or verbal components:\n\n\
-      At will: [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
+      **At will:** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
       \ [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md), [pass\
       \ without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md),\
       \ [resistance](03.PlayerLog&Handouts/Mechanics/CLI/spells/resistance.md)"

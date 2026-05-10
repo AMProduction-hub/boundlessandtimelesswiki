@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Magic Item Table F
+- "Magic Item Table F"
 ---
 # Magic Item Table F
 *Source: Dungeon Master's Guide p. 144* 
 
 **Magic Item Table F**
-
-`dice: [](magic-item-table-f.md#^magic-item-table-f)`
 
 | dice: d100 | Magic Item |
 |------------|------------|
@@ -46,7 +45,7 @@ aliases:
 | 69 | [Bag of tricks, gray](03.PlayerLog&Handouts/Mechanics/CLI/items/bag-of-tricks-gray.md) |
 | 70 | [Bag of tricks, rust](03.PlayerLog&Handouts/Mechanics/CLI/items/bag-of-tricks-rust.md) |
 | 71 | [Bag of tricks, tan](03.PlayerLog&Handouts/Mechanics/CLI/items/bag-of-tricks-tan.md) |
-| 72 | [Boots of the winterlands](03.PlayerLog&Handouts/Mechanics/CLI/items/boots-of-the-winterlands.md) |
+| 72 | [Boots of the Winterlands](03.PlayerLog&Handouts/Mechanics/CLI/items/boots-of-the-winterlands.md) |
 | 73 | [Circlet of blasting](03.PlayerLog&Handouts/Mechanics/CLI/items/circlet-of-blasting.md) |
 | 74 | [Deck of illusions](03.PlayerLog&Handouts/Mechanics/CLI/items/deck-of-illusions.md) |
 | 75 | [Eversmoking bottle](03.PlayerLog&Handouts/Mechanics/CLI/items/eversmoking-bottle.md) |

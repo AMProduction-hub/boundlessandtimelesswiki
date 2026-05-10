@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/rarity/legendary
 - ttrpg-cli/item/tier/major
 - ttrpg-cli/item/wondrous/ring
-aliases: 
+aliases:
 - "Ring of Three Wishes"
 ---
 # Ring of Three Wishes

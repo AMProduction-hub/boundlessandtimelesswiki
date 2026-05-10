@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-4
@@ -13,9 +14,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gnoll Witherling
+- "Gnoll Witherling"
 ---
-# [Gnoll Witherling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/gnoll-witherling-mpmm.md)
+# [Gnoll Witherling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/gnoll-witherling-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 145, Volo's Guide to Monsters p. 155*  
 
 > [!quote] A quote from Mordenkainen  
@@ -49,7 +50,8 @@ Witherlings travel with their comrades and try to kill anything in their path. T
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 7"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 7"
 "languages": "understands Gnoll but can't speak"
 "cr": "1/4"
 "traits":
@@ -58,10 +60,10 @@ Witherlings travel with their comrades and try to kill anything in their path. T
 "actions":
   - "desc": "The witherling makes two Bite or Spiked Club attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) necrotic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage."
     "name": "Spiked Club"
 "bonus_actions":

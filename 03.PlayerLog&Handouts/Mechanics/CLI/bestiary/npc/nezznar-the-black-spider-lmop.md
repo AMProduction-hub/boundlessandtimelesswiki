@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/lmop
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nezznar the Black Spider
+- "Nezznar the Black Spider"
 ---
-# [Nezznar the Black Spider](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/nezznar-the-black-spider-lmop.md)
+# [Nezznar the Black Spider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/nezznar-the-black-spider-lmop.md)
 *Source: Lost Mine of Phandelver p. 59*  
 
 Drow (dark elves) are a devious, scheming subterranean race that worships Lolth, the Demon Queen of Spiders.
@@ -38,8 +39,8 @@ Drow society is strictly matriarchal. Male drow are relegated to servitor roles,
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+4"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -47,25 +48,26 @@ Drow society is strictly matriarchal. Male drow are relegated to servitor roles,
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
-"senses": "darkvision 120 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 14"
 "languages": "Elvish, Undercommon"
 "cr": "2"
 "traits":
   - "desc": "Nezznar is a 4th-level spellcaster that uses Intelligence as his spellcasting\
       \ ability (spell save DC 13; +5 to hit with spell attacks). Nezznar has the\
-      \ following spells prepared from the wizard's spell list:\n\nCantrips (at\
-      \ will): [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ following spells prepared from the wizard's spell list:\n\n**Cantrips (at\
+      \ will):** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md),\
       \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
-      \n1st level (4 slots): [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md),\
+      \n**1st level (4 slots):** [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
-      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n2nd level\
-      \ (3 slots): [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n**2nd level\
+      \ (3 slots):** [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
     "name": "Spellcasting"
   - "desc": "Nezznar can innately cast the following spells, requiring no material\
-      \ components:\n\nAt will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
-      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ components:\n\n**At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
+      \n**1/day each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md) (save\
       \ DC 12)"
     "name": "Innate Spellcasting"
@@ -78,8 +80,8 @@ Drow society is strictly matriarchal. Male drow are relegated to servitor roles,
       \ sunlight."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2\
-      \ (1d6 - 1) bludgeoning damage plus 3 (d6) poison damage."
+  - "desc": "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d6 - 1) bludgeoning damage plus 3 (1d6) poison damage."
     "name": "Spider Staff"
 "source":
   - "LMoP"

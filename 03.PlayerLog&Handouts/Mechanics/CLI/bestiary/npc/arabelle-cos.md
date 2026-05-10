@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Arabelle
+- "Arabelle"
 ---
-# [Arabelle](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/arabelle-cos.md)
+# [Arabelle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/arabelle-cos.md)
 *Source: Curse of Strahd p. 38*  
 
 ```statblock
@@ -32,6 +33,8 @@ aliases:
   - !!int "10"
   - !!int "10"
 "speed": "30 ft."
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "0"

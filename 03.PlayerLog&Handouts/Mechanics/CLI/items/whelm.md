@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/legendary
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
-aliases: 
+aliases:
 - "Whelm"
 ---
 # Whelm
@@ -27,7 +28,7 @@ You gain a +3 bonus to attack and damage rolls made with this magic weapon. At d
 
 ## Thrown Weapon
 
-Whelm has the thrown property, with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged weapon attack using it, the target takes an extra `d8` bludgeoning damage, or an extra `2d8` bludgeoning damage if the target is a giant. Each time you throw the weapon, it flies back to your hand after the attack. If you don't have a hand free, the weapon lands at your feet.
+Whelm has the thrown property, with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged weapon attack using it, the target takes an extra `1d8` bludgeoning damage, or an extra `2d8` bludgeoning damage if the target is a giant. Each time you throw the weapon, it flies back to your hand after the attack. If you don't have a hand free, the weapon lands at your feet.
 
 ## Shock Wave
 

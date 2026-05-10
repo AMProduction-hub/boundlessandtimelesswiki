@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/deity/exandria
 - ttrpg-cli/domain/tempest
 - ttrpg-cli/domain/war
-aliases: 
-- Kord
+aliases:
+- "Kord"
 ---
 # Kord
 *Source: Explorer's Guide to Wildemount p. 23* 

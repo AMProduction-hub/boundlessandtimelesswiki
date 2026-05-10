@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Lairs and Hoards
+- "Lairs and Hoards"
 ---
 # Lairs and Hoards
 *Source: Fizban's Treasury of Dragons, p. 63* 
@@ -17,7 +18,7 @@ Dragons are deeply connected to the worlds in which they dwell. The magic of the
 
 ""What's in a Hoard?"" provides tables to determine the contents of a dragon's hoard, expanding on the treasure tables in the "Dungeon Master's Guide".
 
-![Fizban argues with a smug ...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/033-04-001-chapter-splash.webp#center "Fizban argues with a smug statue in the lair of an amused brass dragon")
+![Fizban argues with a smug statue in the lair of an amused brass dragon](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/033-04-001-chapter-splash.webp#center)
 
 ## Dragon Lairs
 
@@ -75,7 +76,7 @@ A dragon's presence can alter the behavior or physical characteristics of creatu
 
 **Draconic Tint**. Creatures that live within 6 miles of the lair develop coloration similar to the dragon's.
 
-**Pervasive Influence**. People dwelling within 12 miles of the dragon's lair develop personality traits inspired by the dragon—heightened suspicion, garrulousness, greed, placidity, or the like. Individuals manifest these tendencies in different ways and to different degrees. If the dragon dies or leaves the area, these traits fade over `d10` days.
+**Pervasive Influence**. People dwelling within 12 miles of the dragon's lair develop personality traits inspired by the dragon—heightened suspicion, garrulousness, greed, placidity, or the like. Individuals manifest these tendencies in different ways and to different degrees. If the dragon dies or leaves the area, these traits fade over `1d10` days.
 
 #### Planar Connections
 
@@ -148,7 +149,7 @@ Wyrmling dragons begin acquiring hoards as soon as they can fly, but their small
 
 As dragons transition from wyrmling to young age, at around five years, they also begin to look for their first permanent lairs and amass more substantial hoards, which grow in value to many thousands of gold pieces. Young dragons keep their hoards safe in the same central location where they sleep. Such dragons typically do not yet impose regional effects, but these effects might begin to manifest as the dragons' connections to their lairs develop. You can add regional effects and even lair actions to young dragons, particularly for dragons who have acquired an unusually large hoard. These dragons might not be old enough to fully step into the power of an adult, but gathering such a hoard makes them more powerful than other dragons of a similar age.
 
-![An ancient dragon's hoard ...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/034-04-002-an-ancient-dragons-hoard.webp#center "An ancient dragon's hoard can hold enough wealth to cause the rise and the ruin of dynasties")
+![An ancient dragon's hoard can hold enough wealth to cause the rise and the ruin of dynasties](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/034-04-002-an-ancient-dragons-hoard.webp#center)
 
 #### Adult Dragons
 
@@ -232,7 +233,7 @@ Shadowy cults, reclusive scholars, rival adventurers, and mysterious organizatio
 
 ![Competition for a Hoard; Hoard Magic](03.PlayerLog&Handouts/Mechanics/CLI/tables/competition-for-a-hoard-hoard-magic-ftd.md)
 
-![While a dragon slumbers, a...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/035-04-003-skilled-burglar.webp#center "While a dragon slumbers, a skilled burglar might be able to make off with a treasure or two, but looting the entire hoard is another matter")
+![While a dragon slumbers, a skilled burglar might be able to make off with a treasure or two, but looting the entire hoard is another matter](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/035-04-003-skilled-burglar.webp#center)
 
 ## What's in a Hoard?
 
@@ -268,7 +269,7 @@ You can determine the specific magic items found in a dragon's hoard in one of t
 
 As described in "Xanathar's Guide to Everything", the items found on [Magic Item Table A](03.PlayerLog&Handouts/Mechanics/CLI/tables/magic-item-table-a.md) through [Magic Item Table E](03.PlayerLog&Handouts/Mechanics/CLI/tables/magic-item-table-e.md) in the "Dungeon Master's Guide" are minor items, a category that includes common items, potions and scrolls (which can be used only once), and other items whose impact on the game is minor or utilitarian. The items on [Magic Item Table F](03.PlayerLog&Handouts/Mechanics/CLI/tables/magic-item-table-f.md) through [Magic Item Table I](03.PlayerLog&Handouts/Mechanics/CLI/tables/magic-item-table-i.md) are major items: permanent items that can have significant long-term impact on the game.
 
-![Green dragons are poison—f...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/036-04-004-green-dragons-are-poison.webp#center "Green dragons are poison—from their blood and fangs to the wispy gases of their breath and the sinister insinuations they whisper to the weak-willed")
+![Green dragons are poison—from their blood and fangs to the wispy gases of their breath and the sinister insinuations they whisper to the weak-willed](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/036-04-004-green-dragons-are-poison.webp#center)
 
 ### Creating a Hoard
 
@@ -282,13 +283,13 @@ A dragon's hoard contains each of the items listed for the dragon's age category
 
 140 (`4d6 × 10`) gp
 
-3 (`d6`) mundane items
+3 (`1d6`) mundane items
 
 9 (`2d8`) gems
 
-2 (`d4`) art objects
+2 (`1d4`) art objects
 
-4 (`d8`) magic items
+4 (`1d8`) magic items
 
 #### Adult Dragon Hoards
 
@@ -306,7 +307,7 @@ A dragon's hoard contains each of the items listed for the dragon's age category
 
 10 (`3d6`) art objects
 
-4 (`d8`) magic items
+4 (`1d8`) magic items
 
 #### Young Dragon Hoards
 
@@ -318,13 +319,13 @@ A dragon's hoard contains each of the items listed for the dragon's age category
 
 210 (`6d6 × 10`) pp
 
-4 (`d8`) mundane items
+4 (`1d8`) mundane items
 
 21 (`6d6`) gems
 
 5 (`2d4`) art objects
 
-4 (`d8`) magic items
+4 (`1d8`) magic items
 
 #### Ancient Dragon Hoards
 
@@ -348,7 +349,7 @@ A dragon's hoard contains each of the items listed for the dragon's age category
 
 ![Creating a Hoard; Hoard Mundane Items](03.PlayerLog&Handouts/Mechanics/CLI/tables/creating-a-hoard-hoard-mundane-items-ftd.md)
 
-![Trying to loot a dragon's ...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/038-04-006-trying-to-loot.webp#center "Trying to loot a dragon's hoard without waking its owner is a reckless endeavor")
+![Trying to loot a dragon's hoard without waking its owner is a reckless endeavor](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/038-04-006-trying-to-loot.webp#center)
 
 ![Creating a Hoard; Hoard Gems](03.PlayerLog&Handouts/Mechanics/CLI/tables/creating-a-hoard-hoard-gems-ftd.md)
 

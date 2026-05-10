@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/12
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Erinyes (Rope of Entanglement)
+- "Erinyes (Rope of Entanglement)"
 ---
-# [Erinyes (Rope of Entanglement)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/erinyes-rope-of-entanglement.md)
-*Source: Monster Manual p. 73, Tomb of Annihilation, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Erinyes (Rope of Entanglement)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/erinyes-rope-of-entanglement.md)
+*Source: Monster Manual p. 73. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 ```statblock
 "name": "Erinyes (Rope of Entanglement)"
@@ -34,15 +35,19 @@ aliases:
   - !!int "18"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+7"
-  - "constitution": "+8"
-  - "wisdom": "+6"
-  - "charisma": "+8"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "8"
 "damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
   \ that aren't silvered"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 12"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 12"
 "languages": "Infernal, telepathy 120 ft."
 "cr": "12"
 "traits":
@@ -58,11 +63,11 @@ aliases:
   - "desc": "The erinyes makes three attacks. It can use its [rope of entanglement](03.PlayerLog&Handouts/Mechanics/CLI/items/rope-of-entanglement.md)\
       \ in place of two of the attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with\
       \ two hands, plus 13 (3d8) poison damage."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +7 to hit, range 150/600 ft., one target. *Hit:*\
       \ 7 (1d8 + 3) piercing damage plus 13 (3d8) poison damage, and the target\
       \ must succeed on a DC 14 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned).\
       \ The poison lasts until it is removed by the [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md)\
@@ -74,9 +79,5 @@ aliases:
     "name": "Parry"
 "source":
   - "MM"
-  - "ToA"
-  - "BGDIA"
-  - "EGW"
-  - "KftGV"
 ```
 ^statblock

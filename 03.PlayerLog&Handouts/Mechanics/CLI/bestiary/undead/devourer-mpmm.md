@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/13
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Devourer
+- "Devourer"
 ---
-# [Devourer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/devourer-mpmm.md)
+# [Devourer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/devourer-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 93, Volo's Guide to Monsters p. 138*  
 
 Of all the abominations unleashed by [Orcus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/orcus-mpmm.md), devourers are among the most feared. These tall, mummy-like Undead wander the planes, consuming souls and spreading Orcus's creed of replacing all life with everlasting death.
@@ -42,7 +43,8 @@ Devourers hunt Humanoids with the intent of consuming them body and soul. After 
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "Abyssal, telepathy 120 ft."
 "cr": "13"
 "traits":
@@ -52,7 +54,7 @@ Devourers hunt Humanoids with the intent of consuming them body and soul. After 
   - "desc": "The devourer makes two Claw attacks and can use either Imprison Soul\
       \ or Soul Rend, if available."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 12 (2d6 + 5) slashing damage plus 21 (6d6) necrotic damage."
     "name": "Claw"
   - "desc": "The devourer chooses a living Humanoid with 0 hit points that it can\

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Credits
+- "Credits"
 ---
 # Credits
 *Source: Out of the Abyss* 
@@ -28,4 +29,7 @@ aliases:
 - **Project Management.** Neil Shinkle, John Hay  
 - **Production Services.** Cynda Callaway, Jefferson Dunlap, David Gershman  
 - **Brand and Marketing.** Nathan Stewart, Liz Schuh, Chris Lindsay, Shelly Mazzanoble, Hilary Ross, John Feil, Laura Tommervik, Greg Tito, Kim Lundstrom, Trevor Kidd  
-- **Playtesters.** Robert Alaniz, Jay Anderson, Bill Benham, Stacy Bermes, Anthony Caroselli, Krupal Desai, Frank Foulis, Jason Fuller, Gregory L. Harris, Justin Hicks, Yan Lacharité, Jonathan Longstaff, Matt Maranda, Shawn Merwin, Lou Michelli, Mike Mihalas, Karl Resch, Kyle Turner, Arthur Wright, Keoki Young
+- **Playtesters.** Robert Alaniz, Jay Anderson, Bill Benham, Stacy Bermes, Anthony Caroselli, Krupal Desai, Frank Foulis, Jason Fuller, Gregory L. Harris, Justin Hicks, Yan Lacharité, Jonathan Longstaff, Matt Maranda, Shawn Merwin, Lou Michelli, Mike Mihalas, Karl Resch, Kyle Turner, Arthur Wright, Keoki Young  
+
+> [!note]
+> Disclaimer: Before you take on demon lords, consult a physician. Do not drink alcohol while taking on demon lords. Taking alcohol and demon lords may increase your risk of death. Other side effects of demon lords may include hallucinations, mindless rage, gluttony, greed, paranoia, self-delusion, bestial urges, nihilism, hedonism, megalomania, a messiah complex, cannibalism, multiple personalities, and homicidal psychosis.

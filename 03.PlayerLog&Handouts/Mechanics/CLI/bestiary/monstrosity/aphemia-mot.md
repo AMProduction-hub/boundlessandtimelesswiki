@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Aphemia
+- "Aphemia"
 ---
-# [Aphemia](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/aphemia-mot.md)
+# [Aphemia](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/aphemia-mot.md)
 *Source: Mythic Odysseys of Theros p. 226*  
 
 The notorious Nyxborn harpy Aphemia prowls the marshy wastes around the necropolis of Asphodel. Her shrill songs enthrall the necropolis's undead inhabitants, which she leads on raids to waylay unsuspecting travelers and settlements.
@@ -37,8 +38,8 @@ Cruel, corpse-eating creatures, harpies endlessly seek their next meal, careless
   - !!int "16"
 "speed": "20 ft., fly 50 ft."
 "saves":
-  - "dexterity": "+6"
-  - "charisma": "+6"
+  - "dexterity": !!int "6"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+4"
@@ -49,7 +50,8 @@ Cruel, corpse-eating creatures, harpies endlessly seek their next meal, careless
 "damage_resistances": "necrotic"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 15"
 "languages": "Common"
 "cr": "5"
 "traits":
@@ -61,10 +63,10 @@ Cruel, corpse-eating creatures, harpies endlessly seek their next meal, careless
 "actions":
   - "desc": "Aphemia makes two attacks: one with her bite and one with her claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (2d4 + 3) piercing damage plus 13 (3d8) necrotic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage."
     "name": "Claws"
   - "desc": "Aphemia shrieks a cacophony of magical sounds. Each humanoid within 120\

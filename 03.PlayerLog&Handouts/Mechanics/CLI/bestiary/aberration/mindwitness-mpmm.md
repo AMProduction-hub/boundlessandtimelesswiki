@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mindwitness
+- "Mindwitness"
 ---
-# [Mindwitness](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/mindwitness-mpmm.md)
+# [Mindwitness](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/mindwitness-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 181, Volo's Guide to Monsters p. 176*  
 
 If a beholder is [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned) and brought to the brine pool of an elder brain, the beholder can be converted into a mindwitness. This alters some of its eye rays and transforms four of its eyestalks into tentacles similar to a mind flayer's. The mindwitness is psychically imprinted with devotion to the elder brain and submission to illithid commands.
@@ -40,13 +41,14 @@ If separated from its illithid masters, a mindwitness seeks out other telepathic
   - !!int "10"
 "speed": "0 ft., fly 20 ft. (hover)"
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+5"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+8"
 "condition_immunities": "[prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 120 ft., passive Perception 18"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 18"
 "languages": "Deep Speech, Undercommon, telepathy 600 ft."
 "cr": "5"
 "traits":
@@ -58,10 +60,10 @@ If separated from its illithid masters, a mindwitness seeks out other telepathic
   - "desc": "The mindwitness makes one Bite attack and one Tentacles attack, or it\
       \ uses Eye Ray three times."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 16\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 16\
       \ (4d6 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one creature. *Hit:*\
       \ 20 (4d8 + 2) psychic damage. If the target is Large or smaller, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13), and it must succeed on a DC 13 Intelligence saving throw or\
       \ be [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
@@ -69,25 +71,25 @@ If separated from its illithid masters, a mindwitness seeks out other telepathic
     "name": "Tentacles"
   - "desc": "The mindwitness shoots one magical eye ray at random (roll a d6, and\
       \ reroll if the ray has already been used this turn), choosing one target it\
-      \ can see within 120 feet of it:\n\n- 1 Aversion Ray. The targeted creature\
+      \ can see within 120 feet of it:\n\n- **1 Aversion Ray.** The targeted creature\
       \ must make a DC 13 Charisma saving throw. On a failed save, the target has\
       \ disadvantage on attack rolls for 1 minute. The target can repeat the saving\
       \ throw at the end of each of its turns, ending the effect on itself on a success.\
-      \  \n- 2 Fear Ray. The targeted creature must succeed on a DC 13 Wisdom\
+      \  \n- **2 Fear Ray.** The targeted creature must succeed on a DC 13 Wisdom\
       \ saving throw or be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
-      \ its turns, ending the effect on itself on a success.  \n- 3 Psychic Ray.\
+      \ its turns, ending the effect on itself on a success.  \n- **3 Psychic Ray.**\
       \ The target must succeed on a DC 13 Intelligence saving throw or take 27 (6d8)\
-      \ psychic damage.  \n- 4 Slowing Ray. The targeted creature must make a\
+      \ psychic damage.  \n- **4 Slowing Ray.** The targeted creature must make a\
       \ DC 13 Dexterity saving throw. On a failed save, the target's speed is halved\
       \ for 1 minute. In addition, the creature can't take reactions, and it can take\
       \ either an action or a bonus action on its turn but not both. The creature\
       \ can repeat the saving throw at the end of each of its turns, ending the effect\
-      \ on itself on a success.  \n- 5 Stunning Ray. The targeted creature must\
+      \ on itself on a success.  \n- **5 Stunning Ray.** The targeted creature must\
       \ succeed on a DC 13 Constitution saving throw or be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
-      \ its turns, ending the effect on itself on a success.  \n- 6 Telekinetic\
-      \ Ray. If the target is a creature, it must make a DC 13 Strength saving throw.\
+      \ its turns, ending the effect on itself on a success.  \n- **6 Telekinetic\
+      \ Ray.** If the target is a creature, it must make a DC 13 Strength saving throw.\
       \ On a failed save, the mindwitness moves it up to 30 feet in any direction,\
       \ and it is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ by the ray's telekinetic grip until the start of the mindwitness's next turn\

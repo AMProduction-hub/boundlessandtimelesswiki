@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Wasp
+- "Giant Wasp"
 ---
-# [Giant Wasp](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-wasp.md)
-*Source: Monster Manual p. 329, Tomb of Annihilation, Ghosts of Saltmarsh, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Wasp](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-wasp.md)
+*Source: Monster Manual p. 329. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Giant Wasp"
@@ -38,7 +39,7 @@ aliases:
 "languages": ""
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution\
       \ saving throw, taking 10 (3d6) poison damage on a failed save, or half as\
       \ much damage on a successful one. If the poison damage reduces the target to\
@@ -49,9 +50,6 @@ aliases:
     "name": "Sting"
 "source":
   - "MM"
-  - "ToA"
-  - "GoS"
-  - "EGW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-wasp.webp"
 ```
 ^statblock

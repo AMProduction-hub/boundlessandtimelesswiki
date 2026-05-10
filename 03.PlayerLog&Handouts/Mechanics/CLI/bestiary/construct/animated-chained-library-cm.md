@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Animated Chained Library
+- "Animated Chained Library"
 ---
-# [Animated Chained Library](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/animated-chained-library-cm.md)
+# [Animated Chained Library](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-chained-library-cm.md)
 *Source: Candlekeep Mysteries p. 24*  
 
 The three shelves are filled with books bound in iron covers, which are attached to chains that secure them to the shelves—a chained library. The reading desk is used to support the chained books while they are being read.
@@ -43,7 +44,8 @@ The three shelves are filled with books bound in iron covers, which are attached
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 7"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft. (blind beyond this radius), passive Perception 7"
 "languages": ""
 "cr": "1"
 "traits":
@@ -55,7 +57,7 @@ The three shelves are filled with books bound in iron covers, which are attached
 "actions":
   - "desc": "The library makes two attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) bludgeoning damage, and if the target is a creature, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 12)."
     "name": "Chained Book"

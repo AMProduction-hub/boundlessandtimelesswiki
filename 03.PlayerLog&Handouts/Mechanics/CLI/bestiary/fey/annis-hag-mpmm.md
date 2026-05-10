@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/6
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Annis Hag
+- "Annis Hag"
 ---
-# [Annis Hag](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/annis-hag-mpmm.md)
+# [Annis Hag](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/annis-hag-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 47, Volo's Guide to Monsters p. 159*  
 
 Annis hags lair in mountains or hills. These hunchbacked and hump-shouldered hags are the largest and most physically imposing of their kind, standing eight feet tall. They can easily tear a fully grown person apart, but they love hunting the young, preferring their flesh above all others.
@@ -51,26 +52,27 @@ A hag can have up to three iron tokens active at one time. As an action, the hag
   - !!int "15"
 "speed": "40 ft."
 "saves":
-  - "constitution": "+5"
+  - "constitution": !!int "5"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+5"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
 "damage_resistances": "cold"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Common, Giant, Sylvan"
 "cr": "6"
 "actions":
   - "desc": "The annis makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (3d6 + 5) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (3d6 + 5) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 36\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 36\
       \ (9d6 + 5) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15) if it is a Large or smaller creature. Until the grapple ends,\
       \ the target takes 36 (9d6 + 5) bludgeoning damage at the start of each of\
@@ -78,7 +80,7 @@ A hag can have up to three iron tokens active at one time. As an action, the hag
       \ this way."
     "name": "Crushing Hug"
   - "desc": "The hag casts one of the following spells, using Charisma as the spellcasting\
-      \ ability (spell save DC 13):\n\n3/day each: [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md)\
+      \ ability (spell save DC 13):\n\n**3/day each:** [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md)\
       \ (including the form of a Medium Humanoid), [Fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md)"
     "name": "Spellcasting"
 "source":

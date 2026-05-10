@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/6
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Medusa
+- "Medusa"
 ---
-# [Medusa](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/medusa.md)
-*Source: Monster Manual p. 214, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Infernal Machine Rebuild, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Medusa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/medusa.md)
+*Source: Monster Manual p. 214. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 As deadly as they are ravishing, the serpent-haired medusas suffer an immortal curse brought on by their vanity. They lurk in quiet exile among the tumbled ruins of their former lives, surrounded by the petrified remains of past admirers and would-be heroes.
 
@@ -54,7 +55,11 @@ A medusa is subject to its own curse. By looking vainly on its reflection, it tu
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Common"
 "cr": "6"
 "traits":
@@ -82,23 +87,17 @@ A medusa is subject to its own curse. By looking vainly on its reflection, it tu
   - "desc": "The medusa makes either three melee attacks—one with its snake hair and\
       \ two with its shortsword—or two ranged attacks with its longbow."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d4 + 2) piercing damage plus 14 (4d6) poison damage."
     "name": "Snake Hair"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 150/600 ft., one target. *Hit:*\
       \ 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage."
     "name": "Longbow"
 "source":
   - "MM"
-  - "WDMM"
-  - "GoS"
-  - "BGDIA"
-  - "ERLW"
-  - "IMR"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/medusa.webp"
 ```
 ^statblock

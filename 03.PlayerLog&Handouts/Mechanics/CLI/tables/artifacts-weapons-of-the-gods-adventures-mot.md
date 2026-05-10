@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Artifacts; Weapons of the Gods Adventures
+- "Artifacts; Weapons of the Gods Adventures"
 ---
 # Artifacts; Weapons of the Gods Adventures
 *Source: Mythic Odysseys of Theros p. 198* 
 
 **Weapons of the Gods Adventures**
-
-`dice: [](artifacts-weapons-of-the-gods-adventures-mot.md#^weapons-of-the-gods-adventures)`
 
 | dice: d6 | Plot |
 |----------|------|

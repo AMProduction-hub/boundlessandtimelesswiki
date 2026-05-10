@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Merfolk Salvager
+- "Merfolk Salvager"
 ---
-# [Merfolk Salvager](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/merfolk-salvager-gos.md)
+# [Merfolk Salvager](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/merfolk-salvager-gos.md)
 *Source: Ghosts of Saltmarsh p. 244*  
 
 Veterans of scouring the wrecks and ruins found in the deepest waters, these skilled warriors help defend their kin with rapier-like weapons of living coral. The salvagers escort other merfolk on scavenging missions, using their keen senses to detect danger. They are found allying with the lizardfolk in Danger at Dunwater.
@@ -35,7 +36,7 @@ Veterans of scouring the wrecks and ruins found in the deepest waters, these ski
   - !!int "13"
 "speed": "10 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+4"
+  - "dexterity": !!int "4"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+3"
@@ -50,10 +51,10 @@ Veterans of scouring the wrecks and ruins found in the deepest waters, these ski
 "actions":
   - "desc": "The salvager makes two attacks with its coral rapier."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8\
+  - "desc": "*Melee Attack Roll:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8\
       \ + 2) piercing damage."
     "name": "Coral Rapier"
-  - "desc": "Melee Attack Roll: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8\
+  - "desc": "*Melee Attack Roll:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8\
       \ + 2) piercing damage, and the creature must succeed on a DC 12 Constitution\
       \ saving throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ until the end of its next turn."

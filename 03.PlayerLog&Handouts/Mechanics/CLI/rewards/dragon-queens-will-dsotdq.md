@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-reward
+cssclasses:
+- json5e-reward
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/reward/charm
 aliases:
-- Dragon Queen's Will
+- "Dragon Queen's Will"
 ---
 # Dragon Queen's Will
 *Charm*  

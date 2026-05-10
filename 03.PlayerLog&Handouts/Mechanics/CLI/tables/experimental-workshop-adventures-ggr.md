@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Experimental Workshop Adventures
+- "Experimental Workshop Adventures"
 ---
 # Experimental Workshop Adventures
 *Source: Guildmasters' Guide to Ravnica p. 144* 
 
 **Experimental Workshop Adventures**
-
-`dice: [](experimental-workshop-adventures-ggr.md#^experimental-workshop-adventures)`
 
 | dice: d12 | Adventure Goal |
 |-----------|----------------|

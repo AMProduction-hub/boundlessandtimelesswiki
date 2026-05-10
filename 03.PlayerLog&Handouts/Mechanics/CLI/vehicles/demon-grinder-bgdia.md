@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-vehicle
+cssclasses:
+- json5e-vehicle
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/vehicle/size/gargantuan
 - ttrpg-cli/vehicle/terrain/land
 - ttrpg-cli/vehicle/type/infernal-war-machine
 aliases:
-- Demon Grinder
+- "Demon Grinder"
 ---
 # Demon Grinder
 %%-- Embedded content starts on the next line. --%%

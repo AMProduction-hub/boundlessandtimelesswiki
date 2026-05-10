@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/item/attunement/optional
 - ttrpg-cli/item/rarity/very-rare
-aliases: 
+aliases:
 - "Spell Gem (Topaz)"
 ---
 # Spell Gem (Topaz)

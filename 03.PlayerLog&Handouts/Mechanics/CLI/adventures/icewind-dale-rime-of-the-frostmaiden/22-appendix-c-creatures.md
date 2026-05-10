@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Appendix C: Creatures
+- "Appendix C: Creatures"
 ---
 # Appendix C: Creatures
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 268* 
@@ -13,7 +14,7 @@ This appendix describes new creatures that appear in the adventure, presenting t
 
 Several of the creatures in this appendix are common beasts—foxes, hares, mountain goats, seals, sperm whales, and walruses—that live among other beasts from the "Monster Manual", such as polar bears, deer, elk, [reindeer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/reindeer-idrotf.md) (use the [elk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/elk.md) stat block), killer whales, mammoths, moose (use the [giant goat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-goat.md) stat block), saber-toothed tigers, snowy owls, woolly rhinoceroses, and wolves. And then there's the notoriously ugly knucklehead trout, without which there would be no Ten-Towns.
 
-If the adventuring party includes a wizard who can prepare the [find familiar](03.PlayerLog&Handouts/Mechanics/CLI/spells/find-familiar.md) spell, consider allowing the wizard to add the fox and the hare to the spell's list of eligible familiars.
+If the adventuring party includes a wizard who can prepare the [find familiar](03.PlayerLog&Handouts/Mechanics/CLI/spells/find-familiar.md) spell, consider allowing the wizard to add the [fox](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/fox-idrotf.md) and the [hare](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/hare-idrotf.md) to the spell's list of eligible familiars.
 
 ![](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/212-08-003.webp#center)
 
@@ -206,7 +207,7 @@ Bjornhild worships the Frostmaiden and is so ruthless that her enemies believe s
 
 As if she weren't fearsome enough, Bjornhild has a pet [saber-toothed tiger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/saber-toothed-tiger.md) named Grava.
 
-![Queen Bjornhild Solvigsdot...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/250-08-015-bjornhild.webp#center "Queen Bjornhild Solvigsdottir and her saber-toothed tiger, Grava")
+![Queen Bjornhild Solvigsdottir and her saber-toothed tiger, Grava](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/250-08-015-bjornhild.webp#center)
 
 ### Tribe of the Wolf
 

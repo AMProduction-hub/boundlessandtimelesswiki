@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 11: Troglodyte Warrens
+- "Level 11: Troglodyte Warrens"
 ---
 # Level 11: Troglodyte Warrens
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 151* 
@@ -194,7 +195,7 @@ The floor of this damp cavern is littered with the corpses of twenty-one troglod
 
 #### 7c. Wounded Troglodytes
 
-Four adult [troglodytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/troglodyte.md) occupy this side cave. One troglodyte is at full health and guards the other three, which are wounded (each has `d6` hit points remaining). If the characters offer magical healing to all the wounded troglodytes and word of the deed gets around, they gain advantage on subsequent Charisma checks made to influence any troglodytes throughout area 7.
+Four adult [troglodytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/troglodyte.md) occupy this side cave. One troglodyte is at full health and guards the other three, which are wounded (each has `1d6` hit points remaining). If the characters offer magical healing to all the wounded troglodytes and word of the deed gets around, they gain advantage on subsequent Charisma checks made to influence any troglodytes throughout area 7.
 
 #### 7d. Fire Beetle Farm
 

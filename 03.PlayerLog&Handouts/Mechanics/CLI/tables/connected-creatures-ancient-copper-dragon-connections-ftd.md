@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Connected Creatures; Ancient Copper Dragon Connections
+- "Connected Creatures; Ancient Copper Dragon Connections"
 ---
 # Connected Creatures; Ancient Copper Dragon Connections
 *Source: Fizban's Treasury of Dragons p. 100* 
 
 **Ancient Copper Dragon Connections**
-
-`dice: [](connected-creatures-ancient-copper-dragon-connections-ftd.md#^ancient-copper-dragon-connections)`
 
 | dice: d4 | Connected Creatures |
 |----------|---------------------|

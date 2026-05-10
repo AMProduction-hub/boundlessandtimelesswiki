@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Black Dragon Adventures; Black Dragon Adventure Hooks
+- "Black Dragon Adventures; Black Dragon Adventure Hooks"
 ---
 # Black Dragon Adventures; Black Dragon Adventure Hooks
 *Source: Fizban's Treasury of Dragons p. 80* 
 
 **Black Dragon Adventure Hooks**
-
-`dice: [](black-dragon-adventures-black-dragon-adventure-hooks-ftd.md#^black-dragon-adventure-hooks)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|

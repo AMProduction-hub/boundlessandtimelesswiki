@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragon Army Soldier
+- "Dragon Army Soldier"
 ---
-# [Dragon Army Soldier](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/dragon-army-soldier-dsotdq.md)
+# [Dragon Army Soldier](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/dragon-army-soldier-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 200*  
 
 The Dragon Armies gather fanatical followers to their ranks. Recruits are indoctrinated to revere the Dragon Queen and view dragons as her favored servants. Troops in the Dragon Army wield weapons blessed by Takhisis to strike with the power of the dragons they fight alongside.
@@ -44,6 +45,9 @@ The weapons of Dragon Army troops are blessed with an infusion of dragon breath.
     "desc": "+4"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Draconic"
 "cr": "1"
@@ -54,12 +58,13 @@ The weapons of Dragon Army troops are blessed with an infusion of dragon breath.
 "actions":
   - "desc": "The soldier makes two Longsword or Javelin attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with\
-      \ two hands, plus 2 (d4) fire damage."
+      \ two hands, plus 2 (1d4) fire damage."
     "name": "Longsword"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 2 (d4) fire damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage plus 2 (1d4) fire\
+      \ damage."
     "name": "Javelin"
 "source":
   - "DSotDQ"

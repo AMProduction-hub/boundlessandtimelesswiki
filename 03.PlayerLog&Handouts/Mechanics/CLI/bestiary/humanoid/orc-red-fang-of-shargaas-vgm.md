@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 - ttrpg-cli/monster/cr/3
@@ -14,9 +15,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Orc Red Fang of Shargaas
+- "Orc Red Fang of Shargaas"
 ---
-# [Orc Red Fang of Shargaas](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/orc-red-fang-of-shargaas-vgm.md)
+# [Orc Red Fang of Shargaas](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc-red-fang-of-shargaas-vgm.md)
 *Source: Volo's Guide to Monsters p. 185*  
 
 Shargaas is the orc deity of deep darkness and sneakiness, a murderous god who hates anything that lives that isn't an orc. Orcs consider Shargaas to be a divinity suited to pariahs and weaklings, all of them unfit for true roles in tribal life. These outsiders live in the most remote, deepest parts of the tribe's domain.
@@ -62,12 +63,17 @@ In addition, orcs have special relationships with two creatures that are sometim
     "desc": "+2"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[dart](03.PlayerLog&Handouts/Mechanics/CLI/items/dart.md)"
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Orc"
 "cr": "3"
 "traits":
-  - "desc": "On each of its turns, the orc can use a bonus action to take the Dash,\
-      \ Disengage, or Hide action."
+  - "desc": "On each of its turns, the orc can use a bonus action to take the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash),\
+      \ [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage),\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action."
     "name": "Cunning Action"
   - "desc": "The orc deals 2 extra dice of damage when it hits a target with a weapon\
       \ attack (included in its attacks)."
@@ -82,10 +88,10 @@ In addition, orcs have special relationships with two creatures that are sometim
 "actions":
   - "desc": "The orc makes two scimitar or dart attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (3d6 + 3) slashing damage."
     "name": "Scimitar"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 20/60 ft., one target. *Hit:*\
       \ 10 (3d4 + 3) piercing damage."
     "name": "Dart"
   - "desc": "The orc casts [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md)\

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Creating a Red Dragon; Red Dragon Personality Traits
+- "Creating a Red Dragon; Red Dragon Personality Traits"
 ---
 # Creating a Red Dragon; Red Dragon Personality Traits
 *Source: Fizban's Treasury of Dragons p. 133* 
 
 **Red Dragon Personality Traits**
-
-`dice: [](creating-a-red-dragon-red-dragon-personality-traits-ftd.md#^red-dragon-personality-traits)`
 
 | dice: d8 | Trait |
 |----------|-------|

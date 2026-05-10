@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Borca Adventures
+- "Borca Adventures"
 ---
 # Borca Adventures
 *Source: Van Richten's Guide to Ravenloft p. 81* 
 
 **Borca Adventures**
-
-`dice: [](borca-adventures-vrgr.md#^borca-adventures)`
 
 | dice: d8 | Adventure |
 |----------|-----------|

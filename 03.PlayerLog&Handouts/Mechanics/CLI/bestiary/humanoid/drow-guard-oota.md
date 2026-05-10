@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Drow Guard
+- "Drow Guard"
 ---
-# [Drow Guard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/drow-guard-oota.md)
+# [Drow Guard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-guard-oota.md)
 *Source: Out of the Abyss p. 195*  
 
 ```statblock
@@ -19,7 +20,7 @@ aliases:
 "size": "Medium"
 "type": "humanoid"
 "subtype": "any race"
-"alignment": "Any alignment"
+"alignment": "Neutral Evil"
 "ac": !!int "16"
 "ac_class": "[chain shirt](03.PlayerLog&Handouts/Mechanics/CLI/items/chain-shirt.md),\
   \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)"
@@ -37,21 +38,25 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "darkvision 120 ft., passive Perception 12"
-"languages": "any one language (usually Common), Elvish"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 12"
+"languages": "any one language (usually Common), Elvish, Undercommon"
 "cr": "1/8"
 "traits":
-  - "desc": "The drow guard\n\nAt will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
-      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
-      \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md)"
+  - "desc": "The drow guard\n\n**At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
+      \n**1/day each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
+      \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md) (self only)"
     "name": "Innate Spellcasting"
   - "desc": "The drow guard"
     "name": "Fey Ancestry"
   - "desc": "the drow guard"
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Spear"
 "source":

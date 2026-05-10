@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/16
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Adult Silver Dragon
+- "Adult Silver Dragon"
 ---
-# [Adult Silver Dragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/adult-silver-dragon.md)
-*Source: Monster Manual p. 117, Storm King's Thunder, Ghosts of Saltmarsh. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Adult Silver Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-silver-dragon.md)
+*Source: Monster Manual p. 117. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 The friendliest and most social of the metallic dragons, silver dragons cheerfully assist good creatures in need.
 
@@ -107,10 +108,10 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
   - !!int "21"
 "speed": "40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+5"
-  - "constitution": "+12"
-  - "wisdom": "+6"
-  - "charisma": "+10"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "12"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+8"
@@ -121,7 +122,9 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_immunities": "cold"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 21"
 "languages": "Common, Draconic"
 "cr": "16"
 "traits":
@@ -131,13 +134,13 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
   - "desc": "The dragon can use its Frightful Presence. It then makes three attacks:\
       \ one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:*\
       \ 19 (2d10 + 8) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:*\
       \ 15 (2d6 + 8) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) bludgeoning damage."
     "name": "Tail"
   - "desc": "Each creature of the dragon's choice that is within 120 feet of the dragon\
@@ -147,11 +150,11 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
       \ throw is successful or the effect ends for it, the creature is immune to the\
       \ dragon's Frightful Presence for the next 24 hours."
     "name": "Frightful Presence"
-  - "desc": "The dragon uses one of the following breath weapons.\n\n- Cold Breath.\
+  - "desc": "The dragon uses one of the following breath weapons.\n\n- **Cold Breath.**\
       \ The dragon exhales an icy blast in a 60-foot cone. Each creature in that area\
       \ must make a DC 20 Constitution saving throw, taking 58 (13d8) cold damage\
-      \ on a failed save, or half as much damage on a successful one.  \n- Paralyzing\
-      \ Breath. The dragon exhales paralyzing gas in a 60-foot cone. Each creature\
+      \ on a failed save, or half as much damage on a successful one.  \n- **Paralyzing\
+      \ Breath.** The dragon exhales paralyzing gas in a 60-foot cone. Each creature\
       \ in that area must succeed on a DC 20 Constitution saving throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ for 1 minute. A creature can repeat the saving throw at the end of each of\
       \ its turns, ending the effect on itself on a success.  "
@@ -166,6 +169,43 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
       \ replaced by those of the new form, except any class features or legendary\
       \ actions of that form."
     "name": "Change Shape"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), the dragon takes a lair\
+      \ action to cause one of the following effects:\n\n- The dragon creates fog\
+      \ as if it had cast the [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md)\
+      \ spell. The fog lasts until initiative count 20 on the next round.  \n- A blisteringly\
+      \ cold wind blows through the lair near the dragon. Each creature within 120\
+      \ feet of the dragon must succeed on a DC 15 Constitution saving throw or take\
+      \ 5 (1d10) cold damage. Gases and vapors are dispersed by the wind, and unprotected\
+      \ flames are extinguished. Protected flames, such as lanterns, have a 50 percent\
+      \ chance of being extinguished.  \n\n**Additional Lair Action.** At your discretion,\
+      \ a legendary ([adult](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-silver-dragon.md)\
+      \ or [ancient](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-silver-dragon.md))\
+      \ silver dragon can use the following additional lair action while in its lair:\n\
+      \n- **Icy Grip.** A sudden, supernatural chill fills the lair near the dragon.\
+      \ Each creature of the dragon's choice that it can see within 120 feet of it\
+      \ must succeed on a DC 15 Constitution saving throw or be [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
+      \ until initiative count 20 on the next round. Creatures that have resistance\
+      \ to cold damage have advantage on the saving throw; creatures that have immunity\
+      \ to cold damage succeed automatically.  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region containing a legendary silver dragon's lair is warped by the\
+      \ dragon's magic, which creates one or more of the following effects.\n\n- Once\
+      \ per day, the dragon can alter the weather in a 6-mile radius centered on its\
+      \ lair. The dragon doesn't need to be outdoors; otherwise the effect is identical\
+      \ to the [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md)\
+      \ spell.  \n- Within 1 mile of the lair, winds buoy non-evil creatures that\
+      \ fall due to no act of the dragon's or its allies. Such creatures descend at\
+      \ a rate of 60 feet per round and take no falling damage.  \n- Given days or\
+      \ longer to work, the dragon can make clouds and fog within its lair as solid\
+      \ as stone, forming structures and other objects as it wishes.  \n\nIf the dragon\
+      \ dies, changed weather reverts to normal, as described in the spell, and the\
+      \ other effects fade in 1d10 days."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the dragon can expend a use to take one of the following actions. The dragon\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The dragon makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ check."
@@ -177,48 +217,8 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
       \ damage and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
       \ The dragon can then fly up to half its flying speed."
     "name": "Wing Attack (Costs 2 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), the dragon takes a lair\
-      \ action to cause one of the following effects:"
-    "name": ""
-  - "desc": "- The dragon creates fog as if it had cast the [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md)\
-      \ spell. The fog lasts until initiative count 20 on the next round.  \n- A blisteringly\
-      \ cold wind blows through the lair near the dragon. Each creature within 120\
-      \ feet of the dragon must succeed on a DC 15 Constitution saving throw or take\
-      \ 5 (d10) cold damage. Gases and vapors are dispersed by the wind, and unprotected\
-      \ flames are extinguished. Protected flames, such as lanterns, have a 50 percent\
-      \ chance of being extinguished.  "
-    "name": ""
-  - "desc": "At your discretion, a legendary ([adult](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-silver-dragon.md)\
-      \ or [ancient](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-silver-dragon.md))\
-      \ silver dragon can use the following additional lair action while in its lair:\n\
-      \n- Icy Grip. A sudden, supernatural chill fills the lair near the dragon.\
-      \ Each creature of the dragon's choice that it can see within 120 feet of it\
-      \ must succeed on a DC 15 Constitution saving throw or be [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
-      \ until initiative count 20 on the next round. Creatures that have resistance\
-      \ to cold damage have advantage on the saving throw; creatures that have immunity\
-      \ to cold damage succeed automatically.  "
-    "name": "Additional Lair Action"
-"regional_effects":
-  - "desc": "The region containing a legendary silver dragon's lair is warped by the\
-      \ dragon's magic, which creates one or more of the following effects."
-    "name": ""
-  - "desc": "- Once per day, the dragon can alter the weather in a 6-mile radius centered\
-      \ on its lair. The dragon doesn't need to be outdoors; otherwise the effect\
-      \ is identical to the [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md)\
-      \ spell.  \n- Within 1 mile of the lair, winds buoy non-evil creatures that\
-      \ fall due to no act of the dragon's or its allies. Such creatures descend at\
-      \ a rate of 60 feet per round and take no falling damage.  \n- Given days or\
-      \ longer to work, the dragon can make clouds and fog within its lair as solid\
-      \ as stone, forming structures and other objects as it wishes.  "
-    "name": ""
-  - "desc": "If the dragon dies, changed weather reverts to normal, as described in\
-      \ the spell, and the other effects fade in d10 days."
-    "name": ""
 "source":
   - "MM"
-  - "SKT"
-  - "GoS"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/adult-silver-dragon.webp"
 ```
 ^statblock

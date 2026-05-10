@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Misericordia and Other Noble Estates; Noble Families and Estates
+- "Misericordia and Other Noble Estates; Noble Families and Estates"
 ---
 # Misericordia and Other Noble Estates; Noble Families and Estates
 *Source: Van Richten's Guide to Ravenloft p. 77* 

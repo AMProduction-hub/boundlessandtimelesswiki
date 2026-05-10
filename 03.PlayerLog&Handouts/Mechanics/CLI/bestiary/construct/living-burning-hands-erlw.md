@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Living Burning Hands
+- "Living Burning Hands"
 ---
-# [Living Burning Hands](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/living-burning-hands-erlw.md)
+# [Living Burning Hands](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/living-burning-hands-erlw.md)
 *Source: Eberron: Rising from the Last War p. 298*  
 
 ## Constructed Nature
@@ -72,7 +73,8 @@ For example, if you turn [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/f
   \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": ""
 "cr": "1"
 "traits":
@@ -83,7 +85,7 @@ For example, if you turn [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/f
       \ magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Spell Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) fire damage."
     "name": "Magical Strike"
   - "desc": "The living spell unleashes a thin sheet of flames in a 15-foot cone.\

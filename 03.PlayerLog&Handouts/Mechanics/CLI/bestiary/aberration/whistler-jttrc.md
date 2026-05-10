@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Whistler
+- "Whistler"
 ---
-# [Whistler](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/whistler-jttrc.md)
+# [Whistler](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/whistler-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 221*  
 
 Whistlers are inscrutable stalkers hailing from airy, screeching reaches of the Far Realm. They are difficult to see as they're not tethered to one point in space, blurring in a state of perpetual physical uncertainty. A dead whistler appears as a gray, featureless, humanlike biped with long limbs and thin fingers. Those stalked by a whistler can't shut out its soundless, seven-note tune, an otherworldly melody that invades and scourges the mind. Few creatures that encounter a whistler escape; those that do are forever haunted by the stalker's frightful tune.
@@ -35,8 +36,8 @@ Whistlers are inscrutable stalkers hailing from airy, screeching reaches of the 
   - !!int "18"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+7"
-  - "charisma": "+8"
+  - "dexterity": !!int "7"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+11"
@@ -44,7 +45,8 @@ Whistlers are inscrutable stalkers hailing from airy, screeching reaches of the 
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "blindsight 60 ft., passive Perception 13"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., passive Perception 13"
 "languages": "Deep Speech, telepathy 120 ft."
 "cr": "9"
 "traits":
@@ -56,7 +58,7 @@ Whistlers are inscrutable stalkers hailing from airy, screeching reaches of the 
 "actions":
   - "desc": "The whistler makes three Psychic Swipe attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +8 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +8 to hit, reach 10 ft., one creature. *Hit:*\
       \ 15 (2d10 + 4) psychic damage."
     "name": "Psychic Swipe"
   - "desc": "The whistler telepathically whistles an otherworldly melody into the\

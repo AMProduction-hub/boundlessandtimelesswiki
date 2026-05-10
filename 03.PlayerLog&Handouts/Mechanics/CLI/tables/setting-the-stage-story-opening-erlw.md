@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Setting the Stage; Story Opening
+- "Setting the Stage; Story Opening"
 ---
 # Setting the Stage; Story Opening
 *Source: Eberron: Rising from the Last War p. 186* 
 
 **Story Opening**
-
-`dice: [](setting-the-stage-story-opening-erlw.md#^story-opening)`
 
 | dice: d6 | Event |
 |----------|-------|

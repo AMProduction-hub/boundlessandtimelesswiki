@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Awakened Brown Bear
+- "Awakened Brown Bear"
 ---
-# [Awakened Brown Bear](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/awakened-brown-bear-wdmm.md)
+# [Awakened Brown Bear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/awakened-brown-bear-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 72*  
 
 ```statblock
@@ -45,10 +46,10 @@ aliases:
 "actions":
   - "desc": "The bear makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage."
     "name": "Claws"
 "source":

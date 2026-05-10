@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Spy
+- "Spy"
 ---
-# [Spy](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/spy.md)
-*Source: Monster Manual p. 349, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Spy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md)
+*Source: Monster Manual p. 349. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Rulers, nobles, merchants, guildmasters, and other wealthy individuals use spies to gain the upper hand in a world of cutthroat politics. A spy is trained to secretly gather information. Loyal spies would rather die than divulge information that could compromise them or their employers.
 
@@ -50,12 +51,16 @@ Rulers, nobles, merchants, guildmasters, and other wealthy individuals use spies
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 16"
 "languages": "any two languages"
 "cr": "1"
 "traits":
-  - "desc": "On each of its turns, the spy can use a bonus action to take the Dash,\
-      \ Disengage, or Hide action."
+  - "desc": "On each of its turns, the spy can use a bonus action to take the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash),\
+      \ [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage),\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action."
     "name": "Cunning Action"
   - "desc": "The spy deals an extra 7 (2d6) damage when it hits a target with a\
       \ weapon attack and has advantage on the attack roll, or when the target is\
@@ -65,32 +70,14 @@ Rulers, nobles, merchants, guildmasters, and other wealthy individuals use spies
 "actions":
   - "desc": "The spy makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Hand Crossbow"
 "source":
   - "MM"
-  - "CoS"
-  - "PotA"
-  - "SKT"
-  - "ToA"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "SLW"
-  - "BGDIA"
-  - "ERLW"
-  - "IMR"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
-  - "CM"
-  - "JttRC"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/spy.webp"
 ```
 ^statblock

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
-- Magical Miscellany
+- "Magical Miscellany"
 ---
 # Magical Miscellany
 *Source: Tasha's Cauldron of Everything, p. 105* 
@@ -15,7 +16,7 @@ The chapter first presents new spells for player characters and monsters to use.
 
 The DM decides how the options in this chapter appear in a campaign and may choose to use some, all, or none of them, so make sure to let your DM know which options you'd most like to use in play.
 
-![In her lab, Tasha confers ...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/069-03-001.webp#center "In her lab, Tasha confers with the demon lord Graz'zt through a magic mirror")
+![In her lab, Tasha confers with the demon lord Graz'zt through a magic mirror](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/069-03-001.webp#center)
 
 ## Spells
 
@@ -49,7 +50,7 @@ The Magic Themes table offers just a few suggestions that might inspire you whil
 
 ![Personalizing Spells; Magic Themes](03.PlayerLog&Handouts/Mechanics/CLI/tables/personalizing-spells-magic-themes-tce.md)
 
-![A farmer sorcerer hurls ma...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/075-03-007.webp#center "A farmer sorcerer hurls magic missiles that look like chickens")
+![A farmer sorcerer hurls magic missiles that look like chickens](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/075-03-007.webp#center)
 
 ## Magic Items
 

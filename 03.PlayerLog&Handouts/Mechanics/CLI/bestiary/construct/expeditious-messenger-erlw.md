@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Expeditious Messenger
+- "Expeditious Messenger"
 ---
-# [Expeditious Messenger](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/expeditious-messenger-erlw.md)
+# [Expeditious Messenger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/expeditious-messenger-erlw.md)
 *Source: Eberron: Rising from the Last War p. 293*  
 
 An expeditious messenger is a speedy flier, designed to quickly carry messages for its creator. Their speedy and efficient attitude makes expeditious messengers quite chatty, and they natter on as fast as they move.
@@ -51,7 +52,8 @@ Each kind of homunculus has a body constructed from different kinds of materials
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "one language spoken by its creator"
 "cr": "1/8"
 "traits":
@@ -63,7 +65,7 @@ Each kind of homunculus has a body constructed from different kinds of materials
       \ telepathically."
     "name": "Telepathic Bond"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) piercing damage."
     "name": "Bite"
 "source":

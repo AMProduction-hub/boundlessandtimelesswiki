@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gloamwing
+- "Gloamwing"
 ---
-# [Gloamwing](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/gloamwing-ggr.md)
+# [Gloamwing](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/gloamwing-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 215*  
 
 A gloamwing's head is almost ratlike, with prominent teeth, and its leathery skin is stretched tight over its skull, where its eyes are empty sockets. Its body is mottled with bony plates, and great wings stretch from its shoulders.
@@ -35,8 +36,8 @@ A gloamwing's head is almost ratlike, with prominent teeth, and its leathery ski
   - !!int "6"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "strength": "+8"
-  - "dexterity": "+6"
+  - "strength": !!int "8"
+  - "dexterity": !!int "6"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
@@ -48,7 +49,8 @@ A gloamwing's head is almost ratlike, with prominent teeth, and its leathery ski
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "understands Common"
 "cr": "8"
 "traits":
@@ -64,10 +66,10 @@ A gloamwing's head is almost ratlike, with prominent teeth, and its leathery ski
 "actions":
   - "desc": "The gloamwing makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 18\
       \ (3d8 + 5) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (3d6 + 5) slashing damage."
     "name": "Claws"
 "source":

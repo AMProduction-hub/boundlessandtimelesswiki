@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/8
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Githyanki Knight
+- "Githyanki Knight"
 ---
-# [Githyanki Knight](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/githyanki-knight.md)
-*Source: Monster Manual p. 160, Waterdeep: Dungeon of the Mad Mage, Light of Xaryxis*  
+# [Githyanki Knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githyanki-knight.md)
+*Source: Monster Manual p. 160*  
 
 The githyanki plunder countless worlds from the decks of their astral vessels and the backs of red dragons. Feathers, beads, gems, and precious metals decorate their armor and weapons-the legendary silver swords with which they cut through their foes. Since winning their freedom from the mind flayers, the githyanki have become ruthless conquerors under the rulership of their dread lich-queen, Vlaakith.
 
@@ -77,26 +78,26 @@ Whether these tall, gaunt creatures were peaceful or savage, cultured or primiti
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+5"
-  - "intelligence": "+5"
-  - "wisdom": "+5"
+  - "constitution": !!int "5"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "5"
 "senses": "passive Perception 12"
 "languages": "Gith"
 "cr": "8"
 "traits":
   - "desc": "The githyanki's innate spellcasting ability is Intelligence (spell save\
       \ DC 13, +5 to hit with spell attacks). It can innately cast the following\
-      \ spells, requiring no components:\n\nAt will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\
-      \ (the hand is invisible)\n\n3/day each: [jump](03.PlayerLog&Handouts/Mechanics/CLI/spells/jump.md),\
+      \ spells, requiring no components:\n\n**At will:** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\
+      \ (the hand is invisible)\n\n**3/day each:** [jump](03.PlayerLog&Handouts/Mechanics/CLI/spells/jump.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md), [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md)\
       \ (self only), [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\
-      \n1/day each: [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md),\
+      \n**1/day each:** [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md),\
       \ [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)"
     "name": "Innate Spellcasting (Psionics)"
 "actions":
   - "desc": "The githyanki makes two silver greatsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d6 + 6) slashing damage plus 10 (3d6) psychic damage. This is a magic\
       \ weapon attack. On a critical hit against a target in an astral body (as with\
       \ the [astral projection](03.PlayerLog&Handouts/Mechanics/CLI/spells/astral-projection.md)\
@@ -105,8 +106,6 @@ Whether these tall, gaunt creatures were peaceful or savage, cultured or primiti
     "name": "Silver Greatsword"
 "source":
   - "MM"
-  - "WDMM"
-  - "LoX"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/githyanki-knight.webp"
 ```
 ^statblock

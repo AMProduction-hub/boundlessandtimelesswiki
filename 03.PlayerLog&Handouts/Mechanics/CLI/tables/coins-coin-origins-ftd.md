@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Coins; Coin Origins
+- "Coins; Coin Origins"
 ---
 # Coins; Coin Origins
 *Source: Fizban's Treasury of Dragons p. 70* 
 
 **Coin Origins**
-
-`dice: [](coins-coin-origins-ftd.md#^coin-origins)`
 
 | dice: d10 | Origin |
 |-----------|--------|

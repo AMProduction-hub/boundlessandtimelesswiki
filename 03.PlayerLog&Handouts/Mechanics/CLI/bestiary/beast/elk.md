@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Elk
+- "Elk"
 ---
-# [Elk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/elk.md)
-*Source: Monster Manual p. 322, Princes of the Apocalypse, Storm King's Thunder, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Elk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/elk.md)
+*Source: Monster Manual p. 322. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Elk"
@@ -44,18 +45,14 @@ aliases:
       \ throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Charge"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) bludgeoning damage."
     "name": "Ram"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
-      \ creature. Hit: 8 (2d4 + 3) bludgeoning damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
+      \ creature. *Hit:* 8 (2d4 + 3) bludgeoning damage."
     "name": "Hooves"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "EGW"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/elk.webp"
 ```
 ^statblock

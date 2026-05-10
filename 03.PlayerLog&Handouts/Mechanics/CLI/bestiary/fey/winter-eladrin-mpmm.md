@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/10
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Winter Eladrin
+- "Winter Eladrin"
 ---
-# [Winter Eladrin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/winter-eladrin-mpmm.md)
+# [Winter Eladrin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/winter-eladrin-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 117, Mordenkainen's Tome of Foes p. 197*  
 
 When sorrow distresses eladrin, they enter the winter season, becoming figures of melancholy. Frozen tears drop from their cheeks, and their palpable sadness emanates from them as icy cold.
@@ -56,7 +57,11 @@ Whenever one of the eladrin presented here finishes a long rest, they can associ
   - !!int "13"
 "speed": "30 ft."
 "damage_resistances": "cold"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Elvish, Sylvan"
 "cr": "10"
 "traits":
@@ -81,16 +86,16 @@ Whenever one of the eladrin presented here finishes a long rest, they can associ
   - "desc": "The eladrin makes two Longsword or Longbow attacks. It can replace one\
       \ attack with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
-      \ (d8) slashing damage, or 5 (d10) slashing damage if used with two hands,\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
+      \ (1d8) slashing damage, or 5 (1d10) slashing damage if used with two hands,\
       \ plus 13 (3d8) cold damage."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +7 to hit, range 150/600 ft., one target. *Hit:*\
       \ 7 (1d8 + 3) piercing damage plus 13 (3d8) cold damage."
     "name": "Longbow"
   - "desc": "The eladrin casts one of the following spells, requiring no material\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 16):\n\nAt will: [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md),\
+      \ DC 16):\n\n**At will:** [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md),\
       \ [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md),\
       \ [sleet storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleet-storm.md)"
     "name": "Spellcasting"

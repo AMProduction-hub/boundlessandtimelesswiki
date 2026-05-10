@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Height and Weight
+- "Height and Weight"
 ---
 # Height and Weight
 *Source: Volo's Guide to Monsters p. 120* 
@@ -17,7 +18,7 @@ aliases:
 | [Goblin](03.PlayerLog&Handouts/Mechanics/CLI/races/goblin-mpmm.md) | 3'5" | 35 lb. | +`2d4` | × 1 lb. |
 | [Goliath](03.PlayerLog&Handouts/Mechanics/CLI/races/goliath-mpmm.md) | 6'2" | 200 lb. | +`2d10` | × (`2d6`) lb. |
 | [Hobgoblin](03.PlayerLog&Handouts/Mechanics/CLI/races/hobgoblin-mpmm.md) | 4'8" | 110 lb. | +`2d10` | × (`2d4`) lb. |
-| [Kenku](03.PlayerLog&Handouts/Mechanics/CLI/races/kenku-mpmm.md) | 4'4" | 50 lb. | +`2d8` | × (`d6`) lb. |
+| [Kenku](03.PlayerLog&Handouts/Mechanics/CLI/races/kenku-mpmm.md) | 4'4" | 50 lb. | +`2d8` | × (`1d6`) lb. |
 | [Kobold](03.PlayerLog&Handouts/Mechanics/CLI/races/kobold-mpmm.md) | 2'1" | 25 lb. | +`2d4` | × 1 lb. |
 | [Lizardfolk](03.PlayerLog&Handouts/Mechanics/CLI/races/lizardfolk-mpmm.md) | 4'9" | 120 lb. | +`2d10` | × (`2d6`) lb. |
 | [Orc](03.PlayerLog&Handouts/Mechanics/CLI/races/orc-mpmm.md) | 5'4" | 175 lb. | +`2d8` | × (`2d6`) lb. |

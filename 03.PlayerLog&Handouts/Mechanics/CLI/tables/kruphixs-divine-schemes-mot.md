@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Kruphix's Divine Schemes
+- "Kruphix's Divine Schemes"
 ---
 # Kruphix's Divine Schemes
 *Source: Mythic Odysseys of Theros p. 149* 
 
 **Kruphix's Divine Schemes**
-
-`dice: [](kruphixs-divine-schemes-mot.md#^kruphixs-divine-schemes)`
 
 | dice: d4 | Scheme |
 |----------|--------|

@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/evocation
@@ -14,12 +15,12 @@ tags:
 classes:
 - Artificer (Armorer)
 - Artificer (Artillerist)
-- Bard
+- Bard (Magical Secrets)
 - Paladin (Oath of Redemption)
 - Sorcerer (Clockwork Soul)
 - Wizard
 aliases:
-- Wall of Force
+- "Wall of Force"
 ---
 # Wall of Force
 *5th-level, Evocation*  
@@ -34,6 +35,6 @@ An invisible wall of force springs into existence at a point you choose within r
 
 Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md). A [disintegrate](03.PlayerLog&Handouts/Mechanics/CLI/spells/disintegrate.md) spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall.
 
-**Classes**: [Sorcerer (Clockwork Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-clockwork-soul-tce.md "subclass=TCE"); [Artificer (Artillerist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artillerist-tce.md "subclass=TCE;class=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Paladin (Oath of Redemption)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-redemption-xge.md "subclass=XGE"); [Artificer (Armorer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-armorer-tce.md "subclass=TCE;class=TCE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Artificer (Armorer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-armorer-tce.md "subclass=TCE;class=TCE"); [Artificer (Artillerist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artillerist-tce.md "subclass=TCE;class=TCE"); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Paladin (Oath of Redemption)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-redemption-xge.md "subclass=XGE"); [Sorcerer (Clockwork Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-clockwork-soul-tce.md "subclass=TCE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 285. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

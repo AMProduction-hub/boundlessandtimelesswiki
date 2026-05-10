@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sergeant
+- "Sergeant"
 ---
-# [Sergeant](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/sergeant-wdh.md)
+# [Sergeant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sergeant-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 197*  
 
 ```statblock
@@ -37,12 +38,14 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 12"
 "languages": "any one language (usually Common)"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Spear"
 "source":

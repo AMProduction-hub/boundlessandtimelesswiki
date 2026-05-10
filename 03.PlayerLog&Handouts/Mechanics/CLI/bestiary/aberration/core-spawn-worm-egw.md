@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/15
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Core Spawn Worm
+- "Core Spawn Worm"
 ---
-# [Core Spawn Worm](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/core-spawn-worm-egw.md)
+# [Core Spawn Worm](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/core-spawn-worm-egw.md)
 *Source: Explorer's Guide to Wildemount p. 287*  
 
 This invertebrate horror has quivering, barbed tentacles set around its massive, toothy maw. The worm's cracked and stony hide pulses with a dull orange glow, as if it might be composed of primordial lava perpetually on the verge of hardening into solid rock.
@@ -43,8 +44,8 @@ The aberrant creatures known as core spawn are a subterranean breed of heralds, 
   - !!int "4"
 "speed": "60 ft., burrow 40 ft."
 "saves":
-  - "constitution": "+10"
-  - "wisdom": "+4"
+  - "constitution": !!int "10"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
@@ -52,7 +53,8 @@ The aberrant creatures known as core spawn are a subterranean breed of heralds, 
 "damage_immunities": "fire, psychic"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "blindsight 30 ft., tremorsense 60 ft., passive Perception 14"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., tremorsense 60 ft., passive Perception 14"
 "languages": "understands Deep Speech but can't speak"
 "cr": "15"
 "traits":
@@ -68,12 +70,12 @@ The aberrant creatures known as core spawn are a subterranean breed of heralds, 
   - "desc": "The worm makes two attacks: one with its barbed tentacles and one with\
       \ its bite."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 10 ft., one creature. *Hit:*\
       \ 25 (5d6 + 8) piercing damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 18). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
       \ The tentacles can grapple only one creature at a time."
     "name": "Barbed Tentacles"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:*\
       \ 30 (5d8 + 8) piercing damage. If the target is a Large or smaller creature,\
       \ it must succeed on a DC 18 Dexterity saving throw or be swallowed by the worm.\
       \ A swallowed creature is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\

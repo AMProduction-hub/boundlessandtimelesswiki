@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sage
+- "Sage"
 ---
-# [Sage](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/sage-cm.md)
+# [Sage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sage-cm.md)
 *Source: Candlekeep Mysteries p. 9*  
 
 Candlekeep's resident lore experts are master sages and sages who dedicate themselves to scholarship above all.
@@ -53,18 +54,18 @@ Candlekeep's resident lore experts are master sages and sages who dedicate thems
 "languages": "Common plus any four languages"
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Spell Attack: +6 to hit (with advantage if the target is wearing\
-      \ armor made of metal), reach 5 ft., one creature. Hit: 9 (2d8) lightning\
+  - "desc": "*Melee Spell Attack:* +6 to hit (with advantage if the target is wearing\
+      \ armor made of metal), reach 5 ft., one creature. *Hit:* 9 (2d8) lightning\
       \ damage, and the target can't take reactions until the start of its next turn."
     "name": "Shocking Grasp (Cantrip)"
   - "desc": "The sage casts one of the following spells, using Intelligence as the\
-      \ spellcasting ability (save DC 14, +6 to hit with spell attacks):\n\nAt\
-      \ will: [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mage\
+      \ spellcasting ability (save DC 14, +6 to hit with spell attacks):\n\n**At\
+      \ will:** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mage\
       \ hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md)\n\
-      \n3/day each: [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
+      \n**3/day each:** [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
-      \ [identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md)\n\n1/day\
-      \ each: [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \ [identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md)\n\n**1/day\
+      \ each:** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md), [locate\
       \ object](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-object.md), [see\
       \ invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/see-invisibility.md),\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Grenl
+- "Grenl"
 ---
-# [Grenl](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/grenl-tftyp.md)
+# [Grenl](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/grenl-tftyp.md)
 *Source: Tales from the Yawning Portal p. 25*  
 
 Goblins are small, black-hearted, selfish humanoids that lair in caves, abandoned mines, despoiled dungeons, and other dismal settings. Individually weak, goblins gather in large-sometimes overwhelming-numbers. They crave power and regularly abuse whatever authority they obtain.
@@ -59,25 +60,30 @@ Maglubiyet the Mighty One, the Lord of Depths and Darkness, is the greater god o
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 9"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "Common, Goblin"
 "cr": "1/4"
 "traits":
   - "desc": "Grenl is a 1st-level spellcaster. Her spellcasting ability is Wisdom\
       \ (spell save DC 11, +3 to hit with spell attacks). She has the following\
-      \ cleric spells prepared:\n\nCantrips (at will): [poison spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md),\
+      \ cleric spells prepared:\n\n**Cantrips (at will):** [poison spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (2 slots): [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md),\
+      \n**1st level (2 slots):** [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md),\
       \ [inflict wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/inflict-wounds.md)"
     "name": "Spellcasting"
-  - "desc": "The goblin can take the Disengage or Hide action as a bonus action on\
-      \ each of its turns."
+  - "desc": "The goblin can take the [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action\
+      \ as a bonus action on each of its turns."
     "name": "Nimble Escape"
 "actions":
-  - "desc": "Melee Weapon Attack: +4, reach 5 ft., one target. Hit: 5 (1d6\
+  - "desc": "*Melee Weapon Attack:* +4, reach 5 ft., one target. *Hit:* 5 (1d6\
       \ + 2) piercing damage."
     "name": "Scimitar"
-  - "desc": "Ranged Weapon Attack: +4, range 80/320 ft., one target. Hit: 5\
+  - "desc": "*Ranged Weapon Attack:* +4, range 80/320 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortbow"
 "source":

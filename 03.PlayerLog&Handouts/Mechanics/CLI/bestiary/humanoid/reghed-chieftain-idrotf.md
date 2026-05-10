@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reghed Chieftain
+- "Reghed Chieftain"
 ---
-# [Reghed Chieftain](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/reghed-chieftain-idrotf.md)
+# [Reghed Chieftain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/reghed-chieftain-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 152*  
 
 ## Reghed Nomads
@@ -47,14 +48,16 @@ Each Reghed tribe is made up of smaller clans, each with its own chieftain (the 
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "strength": "+7"
-  - "dexterity": "+5"
-  - "constitution": "+6"
+  - "strength": !!int "7"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+10"
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+5"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 11"
 "languages": "any one language (usually Common)"
 "cr": "5"
@@ -67,11 +70,11 @@ Each Reghed tribe is made up of smaller clans, each with its own chieftain (the 
 "actions":
   - "desc": "The chieftain makes three melee attacks or two ranged attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. and range\
-      \ 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. and range\
+      \ 20/60 ft., one target. *Hit:* 11 (2d6 + 4) piercing damage, or 13 (2d8\
       \ + 4) piercing damage if used with two hands to make a melee attack."
     "name": "Spear"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:*\
       \ 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature,\
       \ it must succeed on a DC 15 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Shield Bash"

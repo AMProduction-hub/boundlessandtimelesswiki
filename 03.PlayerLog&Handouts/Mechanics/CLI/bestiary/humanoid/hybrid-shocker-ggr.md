@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hybrid Shocker
+- "Hybrid Shocker"
 ---
-# [Hybrid Shocker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/hybrid-shocker-ggr.md)
+# [Hybrid Shocker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hybrid-shocker-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 218*  
 
 ## Simic Hybrids
@@ -22,7 +23,7 @@ The Guardian Project is a consequence of increasing tension within the Simic Com
 "name": "Hybrid Shocker (GGR)"
 "size": "Medium"
 "type": "humanoid"
-"subtype": "Simic hybrid"
+"subtype": "simic hybrid"
 "alignment": "Neutral Good"
 "ac": !!int "12"
 "hp": !!int "39"
@@ -42,7 +43,7 @@ The Guardian Project is a consequence of increasing tension within the Simic Com
 "cr": "1"
 "traits":
   - "desc": "Any creature that touches the hybrid or hits it with a melee attack while\
-      \ within 5 feet of it takes 5 (d10) lightning damage."
+      \ within 5 feet of it takes 5 (1d10) lightning damage."
     "name": "Electrified Body"
   - "desc": "The hybrid sheds bright light in a 10-foot radius and dim light for an\
       \ additional 10 feet."
@@ -51,14 +52,14 @@ The Guardian Project is a consequence of increasing tension within the Simic Com
   - "desc": "The hybrid makes two attacks: one with its shocking touch and one with\
       \ its tentacles."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d8) lightning damage."
     "name": "Shocking Touch"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 15 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 15 ft., one creature. *Hit:*\
       \ The target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 11), and the hybrid pulls the target up to 15 feet straight toward\
-      \ it. Until this grapple ends, the target takes 5 (d10) lightning damage at\
-      \ the start of each of its turns, and the hybrid shocker can't use its tentacles\
+      \ it. Until this grapple ends, the target takes 5 (1d10) lightning damage\
+      \ at the start of each of its turns, and the hybrid shocker can't use its tentacles\
       \ on another creature."
     "name": "Tentacles"
 "source":

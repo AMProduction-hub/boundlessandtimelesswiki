@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 6: Lost Level
+- "Level 6: Lost Level"
 ---
 # Level 6: Lost Level
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 81* 

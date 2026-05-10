@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Master of Souls
+- "Master of Souls"
 ---
-# [Master of Souls](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/master-of-souls-bgdia.md)
+# [Master of Souls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/master-of-souls-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 234*  
 
 Those who follow Myrkul are either wizards or those who seek to master the necromantic arts.
@@ -43,7 +44,7 @@ A follower of Myrkul wields a flail that has a skull replacing the normal flail'
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -55,17 +56,17 @@ A follower of Myrkul wields a flail that has a skull replacing the normal flail'
 "traits":
   - "desc": "The master of souls is a 5th-level spellcaster. Its spellcasting ability\
       \ is Intelligence (spell save DC 14, +6 to hit with spell attacks). It has\
-      \ the following wizard spells prepared:\n\nCantrips (at will): [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md)\
+      \ the following wizard spells prepared:\n\n**Cantrips (at will):** [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md)\
       \ (see \"Actions\" below), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (4 slots): [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md),\
+      \n**1st level (4 slots):** [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [ray of sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md)\
       \ (see \"Actions\" below), [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\
-      \n2nd level (3 slots): [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \n**2nd level (3 slots):** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md), [scorching\
       \ ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md) (see \"\
-      Actions\" below)\n\n3rd level (2 slots): [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
+      Actions\" below)\n\n**3rd level (2 slots):** [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)"
     "name": "Spellcasting"
   - "desc": "When the master of souls cast a spell that deals damage, it can change\
@@ -74,26 +75,26 @@ A follower of Myrkul wields a flail that has a skull replacing the normal flail'
 "actions":
   - "desc": "The master of souls attacks twice with its flail."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4\
-      \ (d8) bludgeoning damage plus 14 (4d6) necrotic damage, and the target\
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 4\
+      \ (1d8) bludgeoning damage plus 14 (4d6) necrotic damage, and the target\
       \ has disadvantage on all saving throws until the end of the master of souls'\
       \ next turn."
     "name": "Silvered Skull Flail"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 120 ft., one creature. *Hit:*\
       \ 13 (2d8) necrotic damage, and the target can't regain hit points until the\
       \ start of the master of souls' next turn. If the target is undead, it has disadvantage\
       \ on attack rolls against the master of souls for the same duration."
     "name": "Chill Touch (Cantrip)"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 60 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 60 ft., one creature. *Hit:*\
       \ 9 (2d8) poison damage, and the target must succeed on a DC 14 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ until the end of the master of souls' next turn. If the master of souls casts\
       \ this spell using a spell slot of 2nd level or higher, the damage increases\
-      \ by d8 for each slot level above 1st."
+      \ by 1d8 for each slot level above 1st."
     "name": "Ray of Sickness (1st-Level Spell; Requires a Spell Slot)"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one target per ray\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 120 ft., one target per ray\
       \ (3 rays if a 2nd-level spell slot is used, 4 rays if a 3rd-level spell slot\
-      \ is used). Hit: 7 (2d6) fire damage per ray."
+      \ is used). *Hit:* 7 (2d6) fire damage per ray."
     "name": "Scorching Ray (2nd-Level Spell; Requires a Spell Slot)"
 "source":
   - "BGDIA"

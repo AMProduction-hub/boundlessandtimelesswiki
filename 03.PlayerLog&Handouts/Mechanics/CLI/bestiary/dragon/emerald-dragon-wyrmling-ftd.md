@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Emerald Dragon Wyrmling
+- "Emerald Dragon Wyrmling"
 ---
-# [Emerald Dragon Wyrmling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/emerald-dragon-wyrmling-ftd.md)
+# [Emerald Dragon Wyrmling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/emerald-dragon-wyrmling-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 197*  
 
 Emerald dragons are the most curious, cunning, and manipulative of the gem dragons, wielding psionic power to weave illusions to deceive and disorient. They cloak their own presence so they can observe other creatures without being discovered as they collect information on everything from local cultural practices to supernatural occurrences.
@@ -38,8 +39,6 @@ Use the Emerald Dragon Personality Traits and Emerald Dragon Ideals tables to in
 
 ### Emerald Dragon Personality Traits
 
-`dice: [](emerald-dragon-wyrmling-ftd.md#^trait)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | I repeat what others have said back to them to make sure I have remembered it correctly. |
@@ -53,8 +52,6 @@ Use the Emerald Dragon Personality Traits and Emerald Dragon Ideals tables to in
 ^trait
 
 ### Emerald Dragon Ideals
-
-`dice: [](emerald-dragon-wyrmling-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -71,8 +68,6 @@ Use the Emerald Dragon Personality Traits and Emerald Dragon Ideals tables to in
 The Emerald Dragon Adventure Hooks table offers suggestions for stories and adventures involving emerald dragons.
 
 ### Emerald Dragon Adventure Hooks
-
-`dice: [](emerald-dragon-wyrmling-ftd.md#^adventure-hook)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|
@@ -91,8 +86,6 @@ The Emerald Dragon Adventure Hooks table offers suggestions for stories and adve
 Emerald dragons generally go out of their way to avoid interacting with other intelligent creatures. However, their interest in history and culture occasionally gets the better of them, prompting them to seek some engagement with the folk of the world.
 
 ### Emerald Dragon Wyrmling Connections
-
-`dice: [](emerald-dragon-wyrmling-ftd.md#^connected-creatures)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|
@@ -124,10 +117,10 @@ Emerald dragons generally go out of their way to avoid interacting with other in
   - !!int "14"
 "speed": "30 ft., burrow 20 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+3"
-  - "constitution": "+4"
-  - "wisdom": "+3"
-  - "charisma": "+4"
+  - "dexterity": !!int "3"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "3"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+4"
@@ -138,7 +131,9 @@ Emerald dragons generally go out of their way to avoid interacting with other in
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
 "damage_resistances": "fire, psychic"
-"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 15"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Draconic, telepathy 120 ft."
 "cr": "2"
 "traits":
@@ -146,8 +141,8 @@ Emerald dragons generally go out of their way to avoid interacting with other in
       \ and can leave a 10-foot-diameter tunnel in its wake."
     "name": "Tunneler"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit:\
-      \ 7 (1d10 + 2) piercing damage plus 3 (d6) psychic damage."
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:*\
+      \ 7 (1d10 + 2) piercing damage plus 3 (1d6) psychic damage."
     "name": "Bite"
   - "desc": "The dragon exhales a wave of psychic dissonance in a 15-foot cone. Each\
       \ creature in that area must make a DC 12 Intelligence saving throw. On a failed\
@@ -158,7 +153,7 @@ Emerald dragons generally go out of their way to avoid interacting with other in
     "name": "Disorienting Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 12):\n\n\
-      At will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\
+      **At will:** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\
       \ (the hand is invisible), [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)"
     "name": "Spellcasting (Psionics)"
 "source":

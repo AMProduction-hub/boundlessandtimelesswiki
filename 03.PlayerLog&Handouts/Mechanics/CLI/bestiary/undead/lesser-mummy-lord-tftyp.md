@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/15
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lesser Mummy Lord
+- "Lesser Mummy Lord"
 ---
-# [Lesser Mummy Lord](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/lesser-mummy-lord-tftyp.md)
+# [Lesser Mummy Lord](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/lesser-mummy-lord-tftyp.md)
 *Source: Tales from the Yawning Portal p. 224*  
 
 ```statblock
@@ -33,10 +34,10 @@ aliases:
   - !!int "16"
 "speed": "20 ft."
 "saves":
-  - "constitution": "+8"
-  - "intelligence": "+5"
-  - "wisdom": "+9"
-  - "charisma": "+8"
+  - "constitution": !!int "8"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+5"
@@ -50,7 +51,8 @@ aliases:
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "the languages it knew in life"
 "cr": "15"
 "traits":
@@ -67,7 +69,7 @@ aliases:
   - "desc": "The mummy can use its Dreadful Glare and makes one attack with its rotting\
       \ fist."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (3d6 + 4) bludgeoning damage plus 21 (6d6) necrotic damage. If the target\
       \ is a creature, it must succeed on a DC 16 Constitution saving throw or be\
       \ cursed with mummy rot. The cursed target can't regain hit points, and its\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/9
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Treant
+- "Treant"
 ---
-# [Treant](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/treant.md)
-*Source: Monster Manual p. 289, Storm King's Thunder, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Candlekeep Mysteries, Journeys through the Radiant Citadel, Light of Xaryxis, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Treant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/treant.md)
+*Source: Monster Manual p. 289. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Treants are awakened trees that dwell in ancient forests. Although treants prefer to while away the days, months, and years in quiet contemplation, they fiercely protect their woodland demesnes from outside threats.
 
@@ -63,10 +64,10 @@ Woodcutters who avoid culling healthy living trees and hunters who take only wha
 "actions":
   - "desc": "The treant makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 16 (3d6 + 6) bludgeoning damage."
     "name": "Slam"
-  - "desc": "Ranged Weapon Attack: +10 to hit, range 60/180 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +10 to hit, range 60/180 ft., one target. *Hit:*\
       \ 28 (4d10 + 6) bludgeoning damage."
     "name": "Rock"
   - "desc": "The treant magically animates one or two trees it can see within 60 feet\
@@ -80,20 +81,6 @@ Woodcutters who avoid culling healthy living trees and hunters who take only wha
     "name": "Animate Trees (1/Day)"
 "source":
   - "MM"
-  - "SKT"
-  - "WDH"
-  - "GoS"
-  - "BGDIA"
-  - "ERLW"
-  - "IMR"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
-  - "TCE"
-  - "CM"
-  - "JttRC"
-  - "LoX"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/treant.webp"
 ```
 ^statblock

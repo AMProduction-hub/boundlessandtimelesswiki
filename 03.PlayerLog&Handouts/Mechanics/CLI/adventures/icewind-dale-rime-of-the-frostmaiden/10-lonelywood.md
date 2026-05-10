@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Lonelywood
+- "Lonelywood"
 ---
 # Lonelywood
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 79* 
@@ -77,7 +78,7 @@ The tavern's raven-haired barkeep, Danae Xotal (lawful evil human [spy](03.Playe
 
 This aptly named building—which used to be the only inn in town—closed after its last owner, a retired sawyer named DeGrootz, hanged himself in the common room two years ago. Some locals believe that DeGrootz's hanging was staged to conceal his murder at the hands of some old "friends" of his. Townsfolk are currently using the vacant building for lumber storage, but anyone interested in refurbishing and reopening the old inn is welcome to try.
 
-![The dreaded white moose of...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/068-01-033-white-moose.webp#center "The dreaded white moose of Lonelywood is no one's prey")
+![The dreaded white moose of Lonelywood is no one's prey](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/068-01-033-white-moose.webp#center)
 
 ## The White Moose
 
@@ -102,13 +103,11 @@ If the characters demand more than tasty treats as an incentive, Speaker Huddle 
 
 ### Tracking the Moose
 
-To find the white moose, the characters must venture into the forest and search for the beast's tracks in the snow. Any character who spends an hour searching for moose tracks and succeeds on a DC 15 Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check finds a set of them. If the characters follow these tracks, roll a `d6`. On a 6, the tracks lead to the elven tomb, where the white moose can be found. On any other roll, the tracks lead to an ordinary moose (use the [giant goat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-goat.md) stat block) that's encountered after `d4` hours. This moose poses no threat if the characters leave it alone. After each encounter with an ordinary moose, the characters can repeat their search for moose tracks and, upon finding some, make another `d6` roll to determine if the tracks belong to the elusive white moose.
+To find the white moose, the characters must venture into the forest and search for the beast's tracks in the snow. Any character who spends an hour searching for moose tracks and succeeds on a DC 15 Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check finds a set of them. If the characters follow these tracks, roll a `d6`. On a 6, the tracks lead to the elven tomb, where the white moose can be found. On any other roll, the tracks lead to an ordinary moose (use the [giant goat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-goat.md) stat block) that's encountered after `1d4` hours. This moose poses no threat if the characters leave it alone. After each encounter with an ordinary moose, the characters can repeat their search for moose tracks and, upon finding some, make another `d6` roll to determine if the tracks belong to the elusive white moose.
 
 After every three hours the characters spend in the forest, check for a random encounter using the Lonelywood Forest Encounters table.
 
 **Lonelywood Forest Encounters**
-
-`dice: [](10-lonelywood.md#^lonelywood-forest-encounters)`
 
 | dice: d20 | Encounter |
 |-----------|-----------|
@@ -128,17 +127,17 @@ There is only one banshee haunting the forest. If it's destroyed, it re-forms af
 
 #### Brown Bear(s)
 
-A hungry [brown bear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/brown-bear.md) is pulling some low branches off a tree and gnawing on them when it sees the party and moves toward the group in search of tastier food. A character can use an action to try to frighten away the bear, doing so with a successful DC 15 Charisma ([Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)) check. If the characters kill this bear, the next brown bear encounter (if this result comes up again) is with the bear's mate and `d4` cubs (noncombatants).
+A hungry [brown bear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/brown-bear.md) is pulling some low branches off a tree and gnawing on them when it sees the party and moves toward the group in search of tastier food. A character can use an action to try to frighten away the bear, doing so with a successful DC 15 Charisma ([Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)) check. If the characters kill this bear, the next brown bear encounter (if this result comes up again) is with the bear's mate and `1d4` cubs (noncombatants).
 
 #### Chwingas
 
-As the characters navigate the woods or stop to rest, `d4` [chwingas](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-toa.md) (see appendix C) take an interest in them.
+As the characters navigate the woods or stop to rest, `1d4` [chwingas](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) (see appendix C) take an interest in them.
 
 #### Fox and Hare
 
 The characters spot an arctic [fox](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/fox-idrotf.md) patiently stalking a snowshoe [hare](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/hare-idrotf.md) (see appendix C for both creatures' stat blocks). If the characters leave the animals alone, roll a `d6` to determine what happens next. On an odd roll, the hare escapes from the fox; on an even roll, the fox catches the hare and takes it back to its lair.
 
-Characters can interrupt the fox's hunt and speak to either animal using magic or an ability that facilitates communication with small beasts. Speaking to the fox prompts the hare to flee, and vice versa. A friendly animal can lead the characters to the white moose's tracks in the snow after `d4` hours.
+Characters can interrupt the fox's hunt and speak to either animal using magic or an ability that facilitates communication with small beasts. Speaking to the fox prompts the hare to flee, and vice versa. A friendly animal can lead the characters to the white moose's tracks in the snow after `1d4` hours.
 
 #### Wolf Pack
 

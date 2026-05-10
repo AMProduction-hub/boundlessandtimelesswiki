@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Doomwake Giant
+- "Doomwake Giant"
 ---
-# [Doomwake Giant](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/doomwake-giant-mot.md)
+# [Doomwake Giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/doomwake-giant-mot.md)
 *Source: Mythic Odysseys of Theros p. 224*  
 
 Belief is a powerful force in Theros, capable of bringing about wonders and changing the world—but not always for the better. Doomwake giants arise from pernicious fears that infect a whole city or region. If enough mortals dread destruction for long enough, their terror can manifest as one of these massive Nyxborn beings. Once unleashed, a doomwake giant goes on a rampage, fulfilling the prophecy mortals believed into being. After doing so, these terrors typically roam to the edges of the world, where they either fade away over time or become legends that take on their own terrible life.
@@ -39,8 +40,8 @@ Beyond these primal giants, though, other giants fill the tales of Theros.
   - !!int "16"
 "speed": "40 ft."
 "saves":
-  - "constitution": "+10"
-  - "wisdom": "+6"
+  - "constitution": !!int "10"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+7"
@@ -49,7 +50,8 @@ Beyond these primal giants, though, other giants fill the tales of Theros.
 "damage_immunities": "necrotic, poison"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "Giant"
 "cr": "11"
 "traits":
@@ -65,7 +67,7 @@ Beyond these primal giants, though, other giants fill the tales of Theros.
 "actions":
   - "desc": "The giant makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 15 ft., one target. *Hit:*\
       \ 20 (3d8 + 7) bludgeoning damage plus 10 (3d6) necrotic damage."
     "name": "Slam"
   - "desc": "The giant exhales a mighty gust that creates a blast of deadly mist in\

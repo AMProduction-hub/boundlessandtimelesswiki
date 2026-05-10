@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Anvilwrought Raptor
+- "Anvilwrought Raptor"
 ---
-# [Anvilwrought Raptor](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/anvilwrought-raptor-mot.md)
+# [Anvilwrought Raptor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/anvilwrought-raptor-mot.md)
 *Source: Mythic Odysseys of Theros p. 209*  
 
 Prized among Meletis's thaumaturges, anvilwrought raptors are often crafted in the form of a hawk or an owl. Most serve as messengers and spies, flying over the busy streets or high over the land while carrying or seeking vital information for their masters.
@@ -49,7 +50,8 @@ A few extremely rare and valuable anvilwroughts were crafted by the hand of Purp
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 14"
 "languages": "understands one language of its creator but can't speak"
 "cr": "1/2"
 "traits":
@@ -64,7 +66,7 @@ A few extremely rare and valuable anvilwroughts were crafted by the hand of Purp
 "actions":
   - "desc": "The raptor makes two attacks with its beak."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) piercing damage."
     "name": "Beak"
 "source":

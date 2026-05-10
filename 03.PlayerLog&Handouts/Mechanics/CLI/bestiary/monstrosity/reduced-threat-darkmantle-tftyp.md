@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reduced-Threat Darkmantle
+- "Reduced-Threat Darkmantle"
 ---
-# [Reduced-Threat Darkmantle](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/reduced-threat-darkmantle-tftyp.md)
+# [Reduced-Threat Darkmantle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/reduced-threat-darkmantle-tftyp.md)
 *Source: Tales from the Yawning Portal p. 113*  
 
 ```statblock
@@ -34,7 +35,8 @@ aliases:
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+1"
-"senses": "blindsight 60 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -49,7 +51,7 @@ aliases:
       \ a cave formation such as a stalactite or stalagmite."
     "name": "False Appearance"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:*\
       \ 6 (1d6 + 3) bludgeoning damage, and the darkmantle attaches to the target.\
       \ If the target is Medium or smaller and the darkmantle has advantage on the\
       \ attack roll, it attaches by engulfing the target's head, and the target is\

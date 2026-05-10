@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Purphoros's Quests
+- "Purphoros's Quests"
 ---
 # Purphoros's Quests
 *Source: Mythic Odysseys of Theros p. 168* 
 
 **Purphoros's Quests**
-
-`dice: [](purphoross-quests-mot.md#^purphoross-quests)`
 
 | dice: d6 | Adventure Goal |
 |----------|----------------|

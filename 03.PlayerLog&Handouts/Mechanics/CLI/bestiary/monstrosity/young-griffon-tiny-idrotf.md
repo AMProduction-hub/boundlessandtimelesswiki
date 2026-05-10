@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Young Griffon (Tiny)
+- "Young Griffon (Tiny)"
 ---
-# [Young Griffon (Tiny)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/young-griffon-tiny-idrotf.md)
+# [Young Griffon (Tiny)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/young-griffon-tiny-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 163*  
 
 A griffon is a ferocious avian carnivore with the muscular body of a lion and the head, forelegs, and wings of an eagle.
@@ -36,7 +37,8 @@ A griffon is a ferocious avian carnivore with the muscular body of a lion and th
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": ""
 "cr": "0"
 "traits":
@@ -46,10 +48,10 @@ A griffon is a ferocious avian carnivore with the muscular body of a lion and th
 "actions":
   - "desc": "The griffon makes two attacks: one with its beak and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1\
       \ piercing damage."
     "name": "Beak"
-  - "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1\
       \ slashing damage."
     "name": "Claws"
 "source":

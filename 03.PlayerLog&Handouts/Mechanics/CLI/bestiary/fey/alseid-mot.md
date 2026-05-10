@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Alseid
+- "Alseid"
 ---
-# [Alseid](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/alseid-mot.md)
+# [Alseid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/alseid-mot.md)
 *Source: Mythic Odysseys of Theros p. 235*  
 
 Touched with the golden light of the sun, alseids inhabit meadows, plains, and lands of cultivated natural beauty. Many live in closer proximity to human civilization than other nymphs. Farmers are grateful for the presence of alseids on their lands and often leave them offerings of mead, honey, flowers, and dates in return for protecting their flocks and making their crops more abundant.
@@ -56,9 +57,9 @@ A nymph doesn't require food, drink, or sleep.
 "traits":
   - "desc": "The alseid's spellcasting ability is Charisma (spell save DC 14). It\
       \ can innately cast the following spells, requiring no material components:\n\
-      \n3/day each: [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
+      \n**3/day each:** [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
-      \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)\n\n1/day each:\
+      \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)\n\n**1/day each:**\
       \ [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
       \ [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md),\
       \ [plant growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/plant-growth.md)"
@@ -72,7 +73,7 @@ A nymph doesn't require food, drink, or sleep.
 "actions":
   - "desc": "The alseid makes two radiant touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Spell Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d10 + 4) radiant damage."
     "name": "Radiant Touch"
 "source":

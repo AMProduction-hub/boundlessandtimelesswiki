@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/dsotdq
 aliases:
-- Mage of High Sorcery
+- "Mage of High Sorcery"
 ---
 # Mage of High Sorcery
 *Source: Dragonlance: Shadow of the Dragon Queen p. 30*  
-![Mages of High Sorcery of t...](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/img/mage-of-high-sorcery.webp#right "Mages of High Sorcery of the Orders of the Black, Red, and White Robes")
+![Mages of High Sorcery of the Orders of the Black, Red, and White Robes](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/img/mage-of-high-sorcery.webp#right)
 
-***Prerequisites***  Campaign
+***Prerequisites*** Dragonlance Campaign
 
 - **Skill Proficiencies.** [Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana), [History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)  
 - **Languages.** Two of your choice  
@@ -36,8 +37,6 @@ Mages of High Sorcery are typically sorcerers, warlocks, or wizards and might ha
 When you make your character, roll once on the Mage of High Sorcery Trinkets table instead of on the [Trinkets table](03.PlayerLog&Handouts/Mechanics/CLI/items/trinket.md) in the Player's Handbook for your starting trinket.
 
 **Mage of High Sorcery Trinkets**
-
-`dice: [](mage-of-high-sorcery-dsotdq.md#^mage-of-high-sorcery-trinkets)`
 
 | dice: d6 | Trinket |
 |----------|---------|

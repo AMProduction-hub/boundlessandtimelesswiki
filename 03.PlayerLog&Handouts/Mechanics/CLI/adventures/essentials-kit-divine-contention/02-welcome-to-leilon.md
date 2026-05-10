@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dc
 aliases:
-- Welcome to Leilon
+- "Welcome to Leilon"
 ---
 # Welcome to Leilon
 *Source: Essentials Kit: Divine Contention* 
@@ -46,13 +47,11 @@ This shop is crammed with curiosities dredged from the ruins of Leilon: old fish
 
 **Peculiarities**
 
-`dice: [](02-welcome-to-leilon.md#^peculiarities)`
-
 | dice: d20 | Peculiarity | Price |
 |-----------|-------------|-------|
-| 1-5 | Random Magic Item ([Table C](03.PlayerLog&Handouts/Mechanics/CLI/tables/magic-item-table-c.md)) | 500 gp |
-| 6-10 | Random "Trinket" | 10 gp |
-| 11-20 | Unique tool kit (engraved, etc) | 50 gp |
+| 1–5 | Random Magic Item ([Table C](03.PlayerLog&Handouts/Mechanics/CLI/tables/magic-item-table-c.md)) | 500 gp |
+| 6–10 | Random "Trinket" | 10 gp |
+| 11–20 | Unique tool kit (engraved, etc) | 50 gp |
 ^peculiarities
 
 A painted tryptic above the counter shows three adventurers: a dark-skinned warrior woman, a red-bearded dwarf, and a third whose portrait has faded with age. Aubrey explains that these are the "Swords of Leilon": an old adventuring company local to the area.
@@ -125,7 +124,7 @@ The Leilon town square has become a place where local vendors and those passing 
 
 ### Tymora Shrine
 
-A shrine to Tymora, goddess of luck, was recently erected in Leilon. Puck Caribdas, a lithe, rambunctious male elf, runs the temple and sells potions for the prices listed on the Puck's Potions table. Other than [potions of healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-healing.md), Puck only has `d4` vials of each potion. Each tenday, Puck's inventory refreshes, and you can reroll to determine the elf's new potion supply.
+A shrine to Tymora, goddess of luck, was recently erected in Leilon. Puck Caribdas, a lithe, rambunctious male elf, runs the temple and sells potions for the prices listed on the Puck's Potions table. Other than [potions of healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-healing.md), Puck only has `1d4` vials of each potion. Each tenday, Puck's inventory refreshes, and you can reroll to determine the elf's new potion supply.
 
 **Puck's Potions**
 
@@ -144,11 +143,9 @@ The shrine to Tyr, god of justice, was recently repaired and reopened by Vangol 
 
 ### Umber Hulk's Shell Inn
 
-Alion Malwyn, a kind-hearted human, runs this newly constructed two-story inn. A bed for the night costs 5 sp, while a meal costs 1 sp. If the characters stay here, Alion shares a tale from another traveler with them. Roll `d6` and consult the Leilon Tales table to determine which tale Alion knows or pick a tale the characters haven't heard yet.
+Alion Malwyn, a kind-hearted human, runs this newly constructed two-story inn. A bed for the night costs 5 sp, while a meal costs 1 sp. If the characters stay here, Alion shares a tale from another traveler with them. Roll `1d6` and consult the Leilon Tales table to determine which tale Alion knows or pick a tale the characters haven't heard yet.
 
 **Leilon Tales**
-
-`dice: [](02-welcome-to-leilon.md#^leilon-tales)`
 
 | dice: d6 | Tale |
 |----------|------|

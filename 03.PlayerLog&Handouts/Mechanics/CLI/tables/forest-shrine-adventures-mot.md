@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Forest Shrine Adventures
+- "Forest Shrine Adventures"
 ---
 # Forest Shrine Adventures
 *Source: Mythic Odysseys of Theros p. 158* 
 
 **Forest Shrine Adventures**
-
-`dice: [](forest-shrine-adventures-mot.md#^forest-shrine-adventures)`
 
 | dice: d10 | Adventure Goal |
 |-----------|----------------|

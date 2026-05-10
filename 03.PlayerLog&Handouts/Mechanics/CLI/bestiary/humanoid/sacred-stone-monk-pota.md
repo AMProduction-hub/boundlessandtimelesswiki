@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sacred Stone Monk
+- "Sacred Stone Monk"
 ---
-# [Sacred Stone Monk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/sacred-stone-monk-pota.md)
+# [Sacred Stone Monk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sacred-stone-monk-pota.md)
 *Source: Princes of the Apocalypse p. 196*  
 
 Sacred Stone monks are followers of a martial philosophy that seeks to emulate the strength of rock and stone. They don gargoyle masks and use a finely honed sense of touch to measure their surroundings by contact with the ground. They avoid speaking, or extraneous thought for that matter. They live only to test themselves with deprivation and to punish those who doubt the strength of elemental earth.
@@ -54,7 +55,7 @@ Sacred Stone monks are followers of a martial philosophy that seeks to emulate t
 "actions":
   - "desc": "The monk makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) bludgeoning damage."
     "name": "Unarmed Strike"
 "reactions":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Merrenoloth
+- "Merrenoloth"
 ---
-# [Merrenoloth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/merrenoloth-mpmm.md)
+# [Merrenoloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/merrenoloth-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 180, Mordenkainen's Tome of Foes p. 250*  
 
 The grim captains of the ferries on the River Styx, merrenoloths can navigate safely through the worst storms and always stay on course. Wielding fiery oars, merrenoloths strike fear into anyone who forcefully boards their vessels.
@@ -36,8 +37,8 @@ The grim captains of the ferries on the River Styx, merrenoloths can navigate sa
   - !!int "11"
 "speed": "30 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+5"
-  - "intelligence": "+5"
+  - "dexterity": !!int "5"
+  - "intelligence": !!int "5"
 "skillsaves":
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+5"
@@ -51,7 +52,9 @@ The grim captains of the ferries on the River Styx, merrenoloths can navigate sa
   \ nonmagical attacks"
 "damage_immunities": "acid, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 14"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Abyssal, Infernal, telepathy 60 ft."
 "cr": "3"
 "traits":
@@ -61,7 +64,7 @@ The grim captains of the ferries on the River Styx, merrenoloths can navigate sa
 "actions":
   - "desc": "The merrenoloth makes one Oar attack and uses Fear Gaze."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (2d4 + 3) fire damage."
     "name": "Oar"
   - "desc": "The merrenoloth targets one creature it can see within 60 feet of it.\
@@ -72,11 +75,11 @@ The grim captains of the ferries on the River Styx, merrenoloths can navigate sa
     "name": "Fear Gaze"
   - "desc": "The merrenoloth casts one of the following spells, requiring no material\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 13):\n\nAt will: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \ DC 13):\n\n**At will:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md), [detect\
       \ magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md), [dispel\
       \ magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md), [gust\
-      \ of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md)\n\n3/day:\
+      \ of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md)\n\n**3/day:**\
       \ [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md)"
     "name": "Spellcasting"
 "bonus_actions":
@@ -86,26 +89,21 @@ The grim captains of the ferries on the River Styx, merrenoloths can navigate sa
 "lair_actions":
   - "desc": "On initiative count 20 (losing initiative ties) while captaining a vessel,\
       \ the merrenoloth can take one of the following lair actions; it can't take\
-      \ the same lair action two rounds in a row:"
-    "name": ""
-  - "desc": "- Gale. The air within 60 feet of the vessel is filled with wind.\
-      \ Until initiative count 20 on the next round, that area is difficult terrain,\
-      \ and when a Medium or smaller creature flies into that area or starts its turn\
-      \ flying there, it must succeed on a DC 13 Strength saving throw or be knocked\
-      \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).  \n\
-      - Propel. A strong wind propels the vessel, increasing its speed by 30 feet\
-      \ until initiative count 20 on the next round.  \n- Repair. The vessel regains\
-      \ 22 (4d10) hit points.  "
+      \ the same lair action two rounds in a row:\n\n- **Gale.** The air within 60\
+      \ feet of the vessel is filled with wind. Until initiative count 20 on the next\
+      \ round, that area is difficult terrain, and when a Medium or smaller creature\
+      \ flies into that area or starts its turn flying there, it must succeed on a\
+      \ DC 13 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
+      \  \n- **Propel.** A strong wind propels the vessel, increasing its speed by\
+      \ 30 feet until initiative count 20 on the next round.  \n- **Repair.** The\
+      \ vessel regains 22 (4d10) hit points.  "
     "name": ""
 "regional_effects":
   - "desc": "A merrenoloth imbues its vessel with magic that creates one or more of\
-      \ the following effects:"
-    "name": ""
-  - "desc": "- Unerring. The vessel always stays on course to the destination\
-      \ the merrenoloth names.  \n- Unsinkable. The vessel doesn't sink even if\
-      \ its hull is breached.  "
-    "name": ""
-  - "desc": "If the merrenoloth dies, these effects fade over the course of d6 hours."
+      \ the following effects:\n\n- **Unerring.** The vessel always stays on course\
+      \ to the destination the merrenoloth names.  \n- **Unsinkable.** The vessel\
+      \ doesn't sink even if its hull is breached.  \n\nIf the merrenoloth dies, these\
+      \ effects fade over the course of 1d6 hours."
     "name": ""
 "source":
   - "MPMM"

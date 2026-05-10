@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/13
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Orlekto
+- "Orlekto"
 ---
-# [Orlekto](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/orlekto-skt.md)
+# [Orlekto](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/orlekto-skt.md)
 *Source: Storm King's Thunder p. 256*  
 
 ```statblock
@@ -33,10 +34,10 @@ aliases:
   - !!int "18"
 "speed": "50 ft., swim 50 ft."
 "saves":
-  - "strength": "+14"
-  - "constitution": "+10"
-  - "wisdom": "+9"
-  - "charisma": "+9"
+  - "strength": !!int "14"
+  - "constitution": !!int "10"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+14"
@@ -46,6 +47,8 @@ aliases:
     "desc": "+9"
 "damage_resistances": "cold"
 "damage_immunities": "lightning, thunder"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
 "senses": "passive Perception 19"
 "languages": "Common, Giant"
 "cr": "13"
@@ -63,10 +66,10 @@ aliases:
 "actions":
   - "desc": "Orlekto makes two greatsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:*\
       \ 30 (6d6 + 9) slashing damage."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +14 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +14 to hit, range 60/240 ft., one target. *Hit:*\
       \ 35 (4d12 + 9) bludgeoning damage."
     "name": "Rock"
   - "desc": "Orlekto hurls a magical lightning bolt at a point it can see within 500\
@@ -76,9 +79,9 @@ aliases:
     "name": "Lightning Strike (Recharge 5-6)"
   - "desc": "Orlekto casts one of the following spells, requiring no material spell\
       \ components and using Charisma as the spellcasting ability (spell save DC 17):\n\
-      \nAt will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md)\n\
-      \n1/day each: [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md)\
+      \n**1/day each:** [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md)\
       \ (cast as 1 action), [water breathing](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-breathing.md)"
     "name": "Spellcasting"
 "source":

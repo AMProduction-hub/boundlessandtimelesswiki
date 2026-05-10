@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -13,9 +14,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Clockwork Oaken Bolter
+- "Clockwork Oaken Bolter"
 ---
-# [Clockwork Oaken Bolter](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/clockwork-oaken-bolter-mpmm.md)
+# [Clockwork Oaken Bolter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-oaken-bolter-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 80, Mordenkainen's Tome of Foes p. 126*  
 
 No ordinary ballista, an oaken bolter is a Construct capable of striking at long distances. The bolts it launches can rend flesh, destroy armor, or drag enemies toward traps or melee-oriented clockworks—and at shorter ranges, burst with explosive force.
@@ -29,8 +30,6 @@ Gnomes' tinkering with magic and mechanical devices has produced many failed Con
 Gnome artisans prefer unique clockworks over perfectly functioning ones that copy too much from other creations. A clockwork can be customized by adding one of the following enhancements and one potential malfunction to its stat block. You can select randomly or choose a pair of modifications that fit the temperament of the clockwork's builder.
 
 **Clockwork Enhancements**
-
-`dice: [](clockwork-oaken-bolter-mpmm.md#^clockwork-enhancements)`
 
 | dice: d10 | Enhancement |
 |-----------|-------------|
@@ -47,8 +46,6 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 ^clockwork-enhancements
 
 **Clockwork Malfunctions**
-
-`dice: [](clockwork-oaken-bolter-mpmm.md#^clockwork-malfunctions)`
 
 | dice: d8 | Malfunction |
 |----------|-------------|
@@ -87,7 +84,8 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands one language of its creator but can't speak"
 "cr": "5"
 "traits":
@@ -100,14 +98,14 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
   - "desc": "The clockwork makes two Lancing Bolt attacks or one Lancing Bolt attack\
       \ and one Harpoon attack."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 100/400\
-      \ ft., one target. Hit: 15 (2d10 + 4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 100/400\
+      \ ft., one target. *Hit:* 15 (2d10 + 4) piercing damage."
     "name": "Lancing Bolt"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 50/200 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +7 to hit, range 50/200 ft., one target. *Hit:*\
       \ 9 (1d10 + 4) piercing damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 12). While [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ in this way, a creature's speed isn't reduced, but it can move only in directions\
-      \ that bring it closer to the clockwork. A creature takes 5 (d10) slashing\
+      \ that bring it closer to the clockwork. A creature takes 5 (1d10) slashing\
       \ damage if it escapes from the grapple or if it tries and fails. The clockwork\
       \ can grapple only one creature at a time with its harpoon."
     "name": "Harpoon"

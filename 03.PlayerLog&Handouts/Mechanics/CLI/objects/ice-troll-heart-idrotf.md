@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-object
+cssclasses:
+- json5e-object
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/object/size/tiny
 - ttrpg-cli/object/type/unknown
 aliases:
-- Ice Troll Heart
+- "Ice Troll Heart"
 ---
 # Ice Troll Heart
 %%-- Embedded content starts on the next line. --%%

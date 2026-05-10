@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Smoke Mephit
+- "Smoke Mephit"
 ---
-# [Smoke Mephit](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/smoke-mephit.md)
-*Source: Monster Manual p. 217, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Keys from the Golden Vault*  
+# [Smoke Mephit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/smoke-mephit.md)
+*Source: Monster Manual p. 217*  
 
 ## Mephits
 
@@ -53,7 +54,8 @@ Smoke mephits are crude, lazy creatures of air and fire that billow smoke consta
     "desc": "+4"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Auran, Ignan"
 "cr": "1/4"
 "traits":
@@ -65,7 +67,7 @@ Smoke mephits are crude, lazy creatures of air and fire that billow smoke consta
       \ Wind disperses the cloud, which otherwise lasts for 1 minute."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d4 + 2) slashing damage."
     "name": "Claws"
   - "desc": "The mephit exhales a 15-foot cone of smoldering ash. Each creature in\
@@ -74,12 +76,6 @@ Smoke mephits are crude, lazy creatures of air and fire that billow smoke consta
     "name": "Cinder Breath (Recharge 6)"
 "source":
   - "MM"
-  - "CoS"
-  - "PotA"
-  - "SKT"
-  - "ToA"
-  - "WDMM"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/smoke-mephit.webp"
 ```
 ^statblock

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/26
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Topaz Greatwyrm
+- "Topaz Greatwyrm"
 ---
-# [Topaz Greatwyrm](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/topaz-greatwyrm-ftd.md)
+# [Topaz Greatwyrm](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/topaz-greatwyrm-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 201*  
 
 More so even than their chromatic and metallic kin, gem dragons are fascinated with cultivating their dragonsight and fusing the awareness of their echoes across the Material Plane. Some of them believe that, by doing so, they are taking steps toward reuniting the shattered consciousness of Sardior the Ruby Dragon, and they pursue this awakening as an act of near-religious devotion. Others seek to exploit their knowledge of the many worlds of the Material Plane as a source of power—and indeed, a gem dragon who becomes a greatwyrm has access to almost unimaginable power.
@@ -48,10 +49,10 @@ Gem greatwyrms' ascension transforms their bodies to appear as crystal, their sc
   - !!int "25"
 "speed": "60 ft., burrow 60 ft., fly 120 ft. (hover), swim 60 ft."
 "saves":
-  - "dexterity": "+10"
-  - "constitution": "+17"
-  - "wisdom": "+15"
-  - "charisma": "+15"
+  - "dexterity": !!int "10"
+  - "constitution": !!int "17"
+  - "wisdom": !!int "15"
+  - "charisma": !!int "15"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+26"
@@ -64,7 +65,8 @@ Gem greatwyrms' ascension transforms their bodies to appear as crystal, their sc
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "truesight 120 ft., passive Perception 25"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 25"
 "languages": "Common, Draconic"
 "cr": "26"
 "traits":
@@ -82,10 +84,10 @@ Gem greatwyrms' ascension transforms their bodies to appear as crystal, their sc
 "actions":
   - "desc": "The greatwyrm makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:*\
       \ 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 10 ft., one target. *Hit:*\
       \ 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature,\
       \ it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 19) and is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
@@ -113,7 +115,7 @@ Gem greatwyrms' ascension transforms their bodies to appear as crystal, their sc
       \ Rest)"
   - "desc": "The greatwyrm casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 26, +18\
-      \ to hit with spell attack):\n\n1/day each: [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \ to hit with spell attack):\n\n**1/day each:** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [forcecage](03.PlayerLog&Handouts/Mechanics/CLI/spells/forcecage.md), [plane\
       \ shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md), [reverse\
       \ gravity](03.PlayerLog&Handouts/Mechanics/CLI/spells/reverse-gravity.md), [time\
@@ -128,6 +130,9 @@ Gem greatwyrms' ascension transforms their bodies to appear as crystal, their sc
   - "desc": "The greatwyrm magically teleports to an unoccupied space it can see within\
       \ 60 feet of it."
     "name": "Psychic Step"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the topaz greatwyrm can expend a use to take one of the following actions.\
+  \ The topaz greatwyrm regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The greatwyrm makes one Claw attack."
     "name": "Claw"

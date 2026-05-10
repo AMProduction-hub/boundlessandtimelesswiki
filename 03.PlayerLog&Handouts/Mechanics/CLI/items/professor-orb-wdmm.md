@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/item/rarity/rare
-aliases: 
+aliases:
 - "Professor Orb"
 ---
 # Professor Orb
@@ -21,4 +22,4 @@ A Professor Orb has extensive knowledge of four narrow academic subjects. When m
 
 In addition to the knowledge it possesses, a professor orb can cast the [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md) cantrip at will. It uses the spell only to transport itself. Its spellcasting ability is Intelligence.
 
-*Source: Waterdeep: Dungeon of the Mad Mage p. 284*
+*Source: Waterdeep: Dungeon of the Mad Mage p. 131*

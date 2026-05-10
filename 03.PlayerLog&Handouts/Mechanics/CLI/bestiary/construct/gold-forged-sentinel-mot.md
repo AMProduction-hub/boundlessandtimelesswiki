@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gold-Forged Sentinel
+- "Gold-Forged Sentinel"
 ---
-# [Gold-Forged Sentinel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/gold-forged-sentinel-mot.md)
+# [Gold-Forged Sentinel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/gold-forged-sentinel-mot.md)
 *Source: Mythic Odysseys of Theros p. 211*  
 
 The original purpose of gold-forged sentinels is a mystery, and of all Purphoros's original anvilwroughts, this construct is the most difficult to control. A sentinel often operates without a master, stalking the high places of the mortal world or waiting, still as a statue, for what could be decades before reanimating to carry out their mysterious purpose.
@@ -49,7 +50,8 @@ A few extremely rare and valuable anvilwroughts were crafted by the hand of Purp
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "understands one language of its creator but can't speak"
 "cr": "5"
 "traits":
@@ -66,7 +68,7 @@ A few extremely rare and valuable anvilwroughts were crafted by the hand of Purp
 "actions":
   - "desc": "The sentinel makes two ram attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) bludgeoning damage."
     "name": "Ram"
   - "desc": "The sentinel exhales fire in a 15-foot cone. Each creature in that area\

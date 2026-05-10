@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-8
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Slaad Tadpole
+- "Slaad Tadpole"
 ---
-# [Slaad Tadpole](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/slaad-tadpole.md)
-*Source: Monster Manual p. 276, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault*  
+# [Slaad Tadpole](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/slaad-tadpole.md)
+*Source: Monster Manual p. 276*  
 
 ## Slaadi
 
@@ -73,7 +74,8 @@ Some slaadi can transform into the humanoid creatures from which they were origi
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "damage_resistances": "acid, cold, fire, lightning, thunder"
-"senses": "darkvision 60 ft., passive Perception 7"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 7"
 "languages": "understands Slaad but can't speak"
 "cr": "1/8"
 "traits":
@@ -81,16 +83,11 @@ Some slaadi can transform into the humanoid creatures from which they were origi
       \ effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "EGW"
-  - "IDRotF"
-  - "CM"
-  - "DSotDQ"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/slaad-tadpole.webp"
 ```
 ^statblock

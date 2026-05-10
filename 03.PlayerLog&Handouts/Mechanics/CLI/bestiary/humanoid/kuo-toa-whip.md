@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kuo-toa Whip
+- "Kuo-toa Whip"
 ---
-# [Kuo-toa Whip](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/kuo-toa-whip.md)
-*Source: Monster Manual p. 200, Princes of the Apocalypse, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh*  
+# [Kuo-toa Whip](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kuo-toa-whip.md)
+*Source: Monster Manual p. 200*  
 
 Kuo-toa are degenerate fishlike humanoids that once inhabited the shores and islands of the surface world. Long ago humans and their ilk drove the kuo-toa underground, where they dwell in madness and everlasting night. Kuo-toa can no longer abide daylight.
 
@@ -47,9 +48,9 @@ In general, kuo-toa don't like the weight of armor on their slippery bodies and 
 > 
 > **Multiattack.** The kuo-toa makes one bite attack and two unarmed strikes.
 > 
-> **Bite.** Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 4 (`1d4 + 2`) piercing damage.
+> **Bite.** Melee Weapon Attack: `+6` to hit, reach 5 ft., one target. Hit: 4 (`1d4 + 2`) piercing damage.
 > 
-> **Unarmed Strike.** Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (`1d6 + 2`) bludgeoning damage + 3 (`d6`) lightning damage, and the target can't take reactions until the end of the kuo-toa's next turn.
+> **Unarmed Strike.** Melee Weapon Attack: `+6` to hit, reach 5 ft., one target. Hit: 5 (`1d6 + 2`) bludgeoning damage + 3 (`1d6`) lightning damage, and the target can't take reactions until the end of the kuo-toa's next turn.
 ^variant-kuo-toa-monitor
 
 > [!quote] A quote from Sabal Mizzrym of Menzoberranzan  
@@ -81,15 +82,16 @@ In general, kuo-toa don't like the weight of armor on their slippery bodies and 
     "desc": "+6"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+5"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "Undercommon"
 "cr": "1"
 "traits":
   - "desc": "The kuo-toa is a 2nd-level spellcaster. Its spellcasting ability is Wisdom\
       \ (spell save DC 12, +4 to hit with spell attacks). The kuo-toa has the following\
-      \ cleric spells prepared:\n\nCantrips (at will): [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
+      \ cleric spells prepared:\n\n**Cantrips (at will):** [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (3 slots): [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md),\
+      \n**1st level (3 slots):** [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md),\
       \ [shield of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield-of-faith.md)"
     "name": "Spellcasting"
   - "desc": "The kuo-toa can breathe air and water."
@@ -109,10 +111,10 @@ In general, kuo-toa don't like the weight of armor on their slippery bodies and 
   - "desc": "The kuo-toa makes two attacks: one with its bite and one with its pincer\
       \ staff."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage. If the target is a Medium or smaller creature,\
       \ it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14). Until this grapple ends, the kuo-toa can't use its pincer\
@@ -120,10 +122,6 @@ In general, kuo-toa don't like the weight of armor on their slippery bodies and 
     "name": "Pincer Staff"
 "source":
   - "MM"
-  - "PotA"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/kuo-toa-whip.webp"
 ```
 ^statblock

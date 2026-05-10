@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Brain in Iron
+- "Brain in Iron"
 ---
-# [Brain in Iron](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/brain-in-iron-imr.md)
+# [Brain in Iron](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/brain-in-iron-imr.md)
 *Source: Infernal Machine Rebuild p. 48*  
 
 ```statblock
@@ -33,24 +34,25 @@ aliases:
   - !!int "15"
 "speed": "20 ft."
 "saves":
-  - "intelligence": "+7"
-  - "charisma": "+5"
+  - "intelligence": !!int "7"
+  - "charisma": !!int "5"
 "damage_immunities": "necrotic, poison, psychic"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "cr": "6"
 "traits":
   - "desc": "The brain in iron's innate spellcasting ability is Intelligence (spell\
       \ save DC 15). It can innately cast the following spells, requiring no components:\n\
-      \nAt will: [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \n**At will:** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [zone\
       \ of truth](03.PlayerLog&Handouts/Mechanics/CLI/spells/zone-of-truth.md)\n\n\
-      3/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      **3/day each:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md), [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md)\n\
-      \n1/day each: [compulsion](03.PlayerLog&Handouts/Mechanics/CLI/spells/compulsion.md),\
+      \n**1/day each:** [compulsion](03.PlayerLog&Handouts/Mechanics/CLI/spells/compulsion.md),\
       \ [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md),\
       \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md) (cast at 3rd\
       \ level), [Tasha's hideous laughter](03.PlayerLog&Handouts/Mechanics/CLI/spells/tashas-hideous-laughter.md)"

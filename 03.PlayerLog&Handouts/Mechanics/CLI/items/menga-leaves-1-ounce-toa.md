@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/item/gear/
 - ttrpg-cli/item/rarity/unknown
-aliases: 
+aliases:
 - "Menga leaves (1 ounce)"
 ---
 # Menga leaves (1 ounce)

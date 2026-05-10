@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/eet
 - ttrpg-cli/item/gear/
 - ttrpg-cli/item/rarity/none
-aliases: 
+aliases:
 - "Trinket"
 ---
 # Trinket
@@ -16,8 +17,6 @@ aliases:
 When you make your character, you can roll once on the Trinkets table to gain a trinket, a simple item lightly touched by mystery. The DM might also use this table. It can help stock a room in a dungeon or fill a creatures pockets.
 
 **Elemental Evil Trinket Table**
-
-`dice: [](trinket-eet.md#^elemental-evil-trinket-table)`
 
 | dice: d100 | Trinket |
 |------------|---------|
@@ -69,7 +68,7 @@ When you make your character, you can roll once on the Trinkets table to gain a 
 | 46 | A glass pendant with a hole in the center that a mild breeze always blows out of |
 | 47 | A soft feather that falls like a stone when dropped |
 | 48 | A large transparent gem that, when gripped tightly, whispers in Terran |
-| 49 | A small crystal snowglobe that, when shaken, seems to form silhouettes of dancing forms |
+| 49 | A small crystal snow globe that, when shaken, seems to form silhouettes of dancing forms |
 | 50 | Half of a palm-sized geode that pulses dimly with purple light |
 | 51 | A book filled with writing that only appears when the book is held underwater |
 | 52 | A sealed envelope made of red leather that you haven't been able to open. It smells of campfire |
@@ -112,7 +111,7 @@ When you make your character, you can roll once on the Trinkets table to gain a 
 | 89 | A chess piece fashioned to look like fire myrmidon |
 | 90 | A spinning top with an image of one of the four elements on each side |
 | 91 | A single hoop earring made of a porous red stone |
-| 92 | An arrowhead carved from seasalt |
+| 92 | An arrowhead carved from sea salt |
 | 93 | A small comb made of blue coral |
 | 94 | Seven small beads of sandstone on a string, all different colors |
 | 95 | A romance chapbook written in Undercommon titled "Just one Layer of Grey" |

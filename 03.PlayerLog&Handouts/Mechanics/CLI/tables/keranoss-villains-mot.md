@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Keranos's Villains
+- "Keranos's Villains"
 ---
 # Keranos's Villains
 *Source: Mythic Odysseys of Theros p. 140* 
 
 **Keranos's Villains**
-
-`dice: [](keranoss-villains-mot.md#^keranoss-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

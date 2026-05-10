@@ -1,35 +1,36 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/divination
-- ttrpg-cli/spell/subclass/circle-of-the-land
+- ttrpg-cli/spell/subclass/circle-of-the-land/coast
 - ttrpg-cli/spell/subclass/divine-soul
 - ttrpg-cli/spell/subclass/knowledge-domain
 - ttrpg-cli/spell/subclass/light-domain
 - ttrpg-cli/spell/subclass/oath-of-the-watchers
 - ttrpg-cli/spell/subclass/oath-of-vengeance
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Cleric (Knowledge Domain)
 - Cleric (Light Domain)
 - Druid
-- Druid (Circle of the Land)
+- Druid (Circle of the Land, Coast)
 - Paladin (Oath of Vengeance)
 - Paladin (Oath of the Watchers)
 - Sorcerer (Divine Soul)
 - Warlock
 - Wizard
 aliases:
-- Scrying
+- "Scrying"
 ---
 # Scrying
 *5th-level, Divination*  
@@ -66,6 +67,6 @@ On a failed save, the spell creates an invisible sensor within 10 feet of the ta
 
 Instead of targeting a creature, you can choose a location you have seen before as the target of this spell. When you do, the sensor appears at that location and doesn't move.
 
-**Classes**: [Cleric (Knowledge Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-knowledge-domain.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Paladin (Oath of Vengeance)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-vengeance.md); [Cleric (Light Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-light-domain.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Paladin (Oath of the Watchers)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-watchers-tce.md "subclass=TCE")
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Knowledge Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-knowledge-domain.md); [Cleric (Light Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-light-domain.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Druid (Circle of the Land, Coast)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Paladin (Oath of Vengeance)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-vengeance.md); [Paladin (Oath of the Watchers)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-watchers-tce.md "subclass=TCE"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 273. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

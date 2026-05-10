@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reduced-Threat Behir
+- "Reduced-Threat Behir"
 ---
-# [Reduced-Threat Behir](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/reduced-threat-behir-tftyp.md)
+# [Reduced-Threat Behir](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/reduced-threat-behir-tftyp.md)
 *Source: Tales from the Yawning Portal p. 113*  
 
 ```statblock
@@ -38,7 +39,8 @@ aliases:
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_immunities": "lightning"
-"senses": "darkvision 90 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 90 ft., passive Perception 16"
 "languages": "Draconic"
 "cr": "11"
 "traits":
@@ -50,7 +52,7 @@ aliases:
 "actions":
   - "desc": "The behir makes two attacks: one with its bite and one to constrict."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 22 (3d10 + 6) piercing damage."
     "name": "Bite"
   - "desc": "The behir exhales a line of lightning that is 20 feet long and 5 feet\

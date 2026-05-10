@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Backstory; Family Relationships
+- "Backstory; Family Relationships"
 ---
 # Backstory; Family Relationships
 *Source: Explorer's Guide to Wildemount p. 191* 
 
 **Family Relationships**
-
-`dice: [](backstory-family-relationships-egw.md#^family-relationships)`
 
 | dice: d100 | Relationship |
 |------------|--------------|

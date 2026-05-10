@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Young Basilisk
+- "Young Basilisk"
 ---
-# [Young Basilisk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/young-basilisk-oota.md)
+# [Young Basilisk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/young-basilisk-oota.md)
 *Source: Out of the Abyss p. 100*  
 
 ```statblock
@@ -32,7 +33,8 @@ aliases:
   - !!int "8"
   - !!int "7"
 "speed": "15 ft."
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": ""
 "cr": "1"
 "traits":
@@ -52,8 +54,8 @@ aliases:
       \ itself with its gaze."
     "name": "Petrifying Gaze"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
-      \ (1d4 + 1) piercing damage plus 2 (d4) poison damage."
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
+      \ (1d4 + 1) piercing damage plus 2 (1d4) poison damage."
     "name": "Bite"
 "source":
   - "OotA"

@@ -1,31 +1,32 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/the-undying
 aliases:
-- Spells for The Undying
+- "Spells for The Undying"
 ---
 # Spells for The Undying
 
 ## Cantrip
 
-- [Spare the Dying](03.PlayerLog&Handouts/Mechanics/CLI/spells/spare-the-dying.md "PHB") with access to 4th-level spells
+- [Spare the Dying](03.PlayerLog&Handouts/Mechanics/CLI/spells/spare-the-dying.md "PHB") as cantrip
 
 ## 1st Level
 
-- [False Life](03.PlayerLog&Handouts/Mechanics/CLI/spells/false-life.md "PHB") with access to 4th-level spells
-- [Ray of Sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md "PHB") with access to 4th-level spells
+- [False Life](03.PlayerLog&Handouts/Mechanics/CLI/spells/false-life.md "PHB") with access to 1st-level spells
+- [Ray of Sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md "PHB") with access to 1st-level spells
 
 ## 2nd Level
 
-- [Blindness/Deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md "PHB") with access to 4th-level spells
-- [Silence](03.PlayerLog&Handouts/Mechanics/CLI/spells/silence.md "PHB") with access to 4th-level spells
+- [Blindness/Deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md "PHB") with access to 2nd-level spells
+- [Silence](03.PlayerLog&Handouts/Mechanics/CLI/spells/silence.md "PHB") with access to 2nd-level spells
 
 ## 3rd Level
 
-- [Feign Death](03.PlayerLog&Handouts/Mechanics/CLI/spells/feign-death.md "PHB") with access to 4th-level spells
-- [Speak with Dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md "PHB") with access to 4th-level spells
+- [Feign Death](03.PlayerLog&Handouts/Mechanics/CLI/spells/feign-death.md "PHB") with access to 3rd-level spells
+- [Speak with Dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md "PHB") with access to 3rd-level spells
 
 ## 4th Level
 
@@ -34,5 +35,5 @@ aliases:
 
 ## 5th Level
 
-- [Contagion](03.PlayerLog&Handouts/Mechanics/CLI/spells/contagion.md "PHB") with access to 4th-level spells
-- [Legend Lore](03.PlayerLog&Handouts/Mechanics/CLI/spells/legend-lore.md "PHB") with access to 4th-level spells
+- [Contagion](03.PlayerLog&Handouts/Mechanics/CLI/spells/contagion.md "PHB") with access to 5th-level spells
+- [Legend Lore](03.PlayerLog&Handouts/Mechanics/CLI/spells/legend-lore.md "PHB") with access to 5th-level spells

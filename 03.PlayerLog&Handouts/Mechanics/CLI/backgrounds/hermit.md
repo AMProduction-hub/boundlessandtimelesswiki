@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Hermit
+- "Hermit"
 ---
 # Hermit
 *Source: Player's Handbook p. 134*  
@@ -28,8 +29,6 @@ Work with your DM to determine the details of your discovery and its impact on t
 
 What was the reason for your isolation, and what changed to allow you to end your solitude? You can work with your DM to determine the exact nature of your seclusion, or you can choose or roll on the table below to determine the reason behind your seclusion.
 
-`dice: [](hermit.md#^life-of-seclusion)`
-
 | dice: d8 | Life of Seclusion |
 |----------|-------------------|
 | 1 | I was searching for spiritual enlightenment. |
@@ -46,8 +45,6 @@ What was the reason for your isolation, and what changed to allow you to end you
 
 Some hermits are well suited to a life of seclusion, whereas others chafe against it and long for company. Whether they embrace solitude or long to escape it, the solitary life shapes their attitudes and ideals. A few are driven slightly mad by their years apart from society.
 
-`dice: [](hermit.md#^personality-trait)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | I've been isolated for so long that I rarely speak, preferring gestures and the occasional grunt. |
@@ -60,8 +57,6 @@ Some hermits are well suited to a life of seclusion, whereas others chafe agains
 | 8 | I am working on a grand philosophical theory and love sharing my ideas. |
 ^personality-trait
 
-`dice: [](hermit.md#^ideal)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | Greater Good. My gifts are meant to be shared with all, not used for my own benefit. (Good) |
@@ -72,8 +67,6 @@ Some hermits are well suited to a life of seclusion, whereas others chafe agains
 | 6 | Self-Knowledge. If you know yourself, there's nothing left to know. (Any) |
 ^ideal
 
-`dice: [](hermit.md#^bond)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | Nothing is more important than the other members of my hermitage, order, or association. |
@@ -83,8 +76,6 @@ Some hermits are well suited to a life of seclusion, whereas others chafe agains
 | 5 | Should my discovery come to light, it could bring ruin to the world. |
 | 6 | My isolation gave me great insight into a great evil that only I can destroy. |
 ^bond
-
-`dice: [](hermit.md#^flaw)`
 
 | dice: d6 | Flaw |
 |----------|------|

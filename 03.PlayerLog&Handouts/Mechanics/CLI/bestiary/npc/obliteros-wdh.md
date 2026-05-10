@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Obliteros
+- "Obliteros"
 ---
-# [Obliteros](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/obliteros-wdh.md)
+# [Obliteros](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/obliteros-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 66*  
 
 An awakened Giant Shark who inhabits the harbor around Mistshore.
@@ -37,7 +38,8 @@ An awakened Giant Shark who inhabits the harbor around Mistshore.
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
-"senses": "blindsight 60 ft., passive Perception 13"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., passive Perception 13"
 "languages": "Aquan"
 "cr": "5"
 "traits":
@@ -47,7 +49,7 @@ An awakened Giant Shark who inhabits the harbor around Mistshore.
   - "desc": "Obliteros can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 22\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 22\
       \ (3d10 + 6) piercing damage."
     "name": "Bite"
 "source":

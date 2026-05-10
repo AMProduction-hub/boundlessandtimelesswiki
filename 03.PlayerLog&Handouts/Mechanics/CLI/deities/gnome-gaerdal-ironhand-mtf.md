@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/deity/gnome
 - ttrpg-cli/domain/peace
 - ttrpg-cli/domain/war
-aliases: 
-- Gaerdal Ironhand
+aliases:
+- "Gaerdal Ironhand"
 ---
 # Gaerdal Ironhand
 *Source: Mordenkainen's Tome of Foes p. 112, Tasha's Cauldron of Everything p. 33* 

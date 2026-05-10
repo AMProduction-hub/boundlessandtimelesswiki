@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Skyjek Roc
+- "Skyjek Roc"
 ---
-# [Skyjek Roc](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/skyjek-roc-ggr.md)
+# [Skyjek Roc](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/skyjek-roc-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 219*  
 
 The aerial forces of the Boros Legion-skyknights who fly alongside the angels-take to the air mounted on Skyjek rocs. These avians are named for the skyknights who are also part of the Wojek League, called Skyjeks. From the backs of their rocs, these mounted soldiers carry out reconnaissance missions, bombard enemies on the ground, and engage flying foes.
@@ -39,8 +40,8 @@ Skyjek rocs are headstrong and impulsive, but their bravery makes them ideal mou
   - !!int "8"
 "speed": "20 ft., fly 90 ft."
 "saves":
-  - "dexterity": "+3"
-  - "wisdom": "+2"
+  - "dexterity": !!int "3"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
@@ -54,10 +55,10 @@ Skyjek rocs are headstrong and impulsive, but their bravery makes them ideal mou
 "actions":
   - "desc": "The roc makes two attacks: one with its beak and one with its talons."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d8 + 5) piercing damage."
     "name": "Beak"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d4 + 5) slashing damage."
     "name": "Talons"
 "source":

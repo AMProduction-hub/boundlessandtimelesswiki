@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Otto
+- "Otto"
 ---
-# [Otto](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/otto-wdmm.md)
+# [Otto](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/otto-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 96*  
 
 ```statblock
@@ -38,13 +39,14 @@ aliases:
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Draconic, Sylvan"
 "cr": "3"
 "traits":
   - "desc": "The dragon's innate spellcasting ability is Charisma (spell save DC 13).\
       \ It can innately cast a number of spells, requiring no material components:\n\
-      \n1/day each: [color spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/color-spray.md),\
+      \n**1/day each:** [color spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/color-spray.md),\
       \ [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [hallucinatory terrain](03.PlayerLog&Handouts/Mechanics/CLI/spells/hallucinatory-terrain.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [major\
@@ -73,7 +75,7 @@ aliases:
       \ magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:*\
       \ 2d6 + 4 piercing damage."
     "name": "Bite"
   - "desc": "The dragon exhales a puff of euphoria gas at one creature within 5 feet\
@@ -85,6 +87,34 @@ aliases:
       \ do on its turn is make a DC 11 Wisdom saving throw, ending the effect on itself\
       \ on a success."
     "name": "Euphoria Breath (Recharge 5-6)"
+"lair_actions":
+  - "desc": "As they are presented in the \"Monster Manual\", faerie dragons don't\
+      \ have access to lair actions while in their lairs. At your discretion, a [green](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/faerie-dragon-green.md)\
+      \ or [older faerie dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/faerie-dragon-violet.md)\
+      \ can take one of the following lair actions on initiative count 20 (losing\
+      \ initiative ties):\n\n- **Chaotic Aura.** The faerie dragon creates misdirecting\
+      \ currents of air and magic around itself. Until initiative count 20 on the\
+      \ next round, whenever a ranged attack roll misses the dragon, reroll the attack\
+      \ against a random creature within 30 feet of the dragon that doesn't have total\
+      \ cover against the attack.  \n- **Grasping Plants.** The faerie dragon causes\
+      \ roots and vines to temporarily grow around it; until initiative count 20 on\
+      \ the next round, the ground within 20 feet of the dragon is \"difficult terrain\"\
+      .  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region containing a faerie dragon's lair can be transformed by its\
+      \ presence, creating one or more of the following effects:\n\n- **Compulsory\
+      \ Offering.** The first time a creature comes within 1 mile of the faerie dragon's\
+      \ lair, the creature must succeed on a DC 15 Wisdom saving throw or feel an\
+      \ overwhelming compulsion to leave an offering worth at least 5 gp stashed in\
+      \ an out-of-the-way place. The dragon immediately senses the location of this\
+      \ gift. A creature can be affected only once by this compulsion.  \n- **Malleable\
+      \ Time.** Time is fluid within 1 mile of the faerie dragon's lair, flowing somewhere\
+      \ between half and twice its normal speed.  \n- **Mischief Afoot.** Sapient\
+      \ creatures that spend a year within 5 miles of the faerie dragon's lair feel\
+      \ the persistent urge to play pranks on others.  \n\nIf the faerie dragon dies,\
+      \ these effects fade over the course of 1d10 days."
+    "name": ""
 "source":
   - "WDMM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/otto-wdmm.webp"

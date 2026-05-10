@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Rool
+- "Rool"
 ---
-# [Rool](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/rool-skt.md)
+# [Rool](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rool-skt.md)
 *Source: Storm King's Thunder p. 221*  
 
 ```statblock
@@ -34,8 +35,8 @@ aliases:
   - !!int "10"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+6"
-  - "intelligence": "+4"
+  - "dexterity": !!int "6"
+  - "intelligence": !!int "4"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+6"
@@ -46,7 +47,11 @@ aliases:
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+9"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[light crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/light-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Thieves' cant plus any two languages, Orc"
 "cr": "8"
 "traits":
@@ -68,12 +73,12 @@ aliases:
 "actions":
   - "desc": "Rool makes two shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage, and the target must make a DC 15 Constitution\
       \ saving throw, taking 24 (7d6) poison damage on a failed save, or half as\
       \ much damage on a successful one."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one target. *Hit:*\
       \ 7 (1d8 + 3) piercing damage, and the target must make a DC 15 Constitution\
       \ saving throw, taking 24 (7d6) poison damage on a failed save, or half as\
       \ much damage on a successful one."

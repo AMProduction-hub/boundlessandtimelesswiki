@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Eblis
+- "Eblis"
 ---
-# [Eblis](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/eblis-toa.md)
+# [Eblis](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/eblis-toa.md)
 *Source: Tomb of Annihilation p. 219*  
 
 Eblis (pronounced EH-blee) are thought to be reincarnations of evil humans who were punished by gods for acts of larceny and kidnapping. These intelligent, evil cranes loom 8 feet tall and lay eggs as mundane birds do. They can manipulate objects with their beaks and feet.
@@ -44,14 +45,14 @@ Eblis try to sway other creatures into doing their bidding, and their plots are 
 "traits":
   - "desc": "The eblis's innate spellcasting ability is Intelligence (spell save DC\
       \ 11). It can innately cast the following spells, requiring no material components:\n\
-      \n1/day each: [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md),\
+      \n**1/day each:** [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md),\
       \ [hypnotic pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md),\
       \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)"
     "name": "Innate Spellcasting"
 "actions":
   - "desc": "The eblis attacks twice with its beak."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target *Hit:* 5\
       \ (1d4 + 3) piercing damage."
     "name": "Beak"
 "source":

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Dwarf Names – Clan
+- "Dwarf Names – Clan"
 ---
 # Dwarf Names – Clan
 *Source: Xanathar's Guide to Everything p. 176* 
 
 **Dwarf Names – Clan**
-
-`dice: [](dwarf-names-clan-xge.md#^dwarf-names-clan)`
 
 | dice: d100 | Name |
 |------------|------|

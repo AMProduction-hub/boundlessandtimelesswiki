@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Frog
+- "Frog"
 ---
-# [Frog](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/frog.md)
-*Source: Monster Manual p. 322, Tomb of Annihilation, Curse of Strahd, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Frog](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/frog.md)
+*Source: Monster Manual p. 322. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A frog has no effective attacks. It feeds on small insects and typically dwells near water, in trees, or underground. The frog's statistics can also be used to represent a toad.
 
@@ -38,7 +39,8 @@ A frog has no effective attacks. It feeds on small insects and typically dwells 
     "desc": "+1"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
-"senses": "darkvision 30 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 30 ft., passive Perception 11"
 "languages": ""
 "cr": "0"
 "traits":
@@ -49,9 +51,6 @@ A frog has no effective attacks. It feeds on small insects and typically dwells 
     "name": "Standing Leap"
 "source":
   - "MM"
-  - "ToA"
-  - "CoS"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/frog.webp"
 ```
 ^statblock

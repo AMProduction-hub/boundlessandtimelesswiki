@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragon Turtle Wyrmling
+- "Dragon Turtle Wyrmling"
 ---
-# [Dragon Turtle Wyrmling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/dragon-turtle-wyrmling-ftd.md)
+# [Dragon Turtle Wyrmling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/dragon-turtle-wyrmling-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 192*  
 
 Dragon turtles are mighty creatures whose inherent magic is intimately linked with the oceans of the Material Plane. The dragon turtle presented in the *Monster Manual* is a typical adult, at least a century old and boasting a valuable hoard. You can use the stat blocks in this section for older or younger dragon turtles. In addition, chapter 5 includes lair actions and regional effects that can be used for adult or ancient dragon turtles. An ancient dragon turtle is a mythic creature akin to a greatwyrm, combining the power of multiple echoes from across the worlds of the Material Plane. Such a creature can be as large as an island—and indeed, legends suggest that many unwitting sailors wrecked at sea have mistaken slumbering dragon turtles for solid ground.
@@ -23,8 +24,6 @@ Ancient dragon turtles might sleep for years or decades while floating along the
 Use the Dragon Turtle Personality Traits and Dragon Turtle Ideals tables to inspire your portrayal of distinctive dragon turtle characters, and use the Dragon Turtle Spellcasting table to help select spells for a spellcasting dragon. (Though the *Monster Manual*doesn't explicitly include dragon turtles in the variant rules for making a dragon a spellcaster, you can apply those rules to these aquatic dragons.)
 
 ### Dragon Turtle Personality Traits
-
-`dice: [](dragon-turtle-wyrmling-ftd.md#^trait)`
 
 | dice: d8 | Trait |
 |----------|-------|
@@ -39,8 +38,6 @@ Use the Dragon Turtle Personality Traits and Dragon Turtle Ideals tables to insp
 ^trait
 
 ### Dragon Turtle Ideals
-
-`dice: [](dragon-turtle-wyrmling-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -57,8 +54,6 @@ Use the Dragon Turtle Personality Traits and Dragon Turtle Ideals tables to insp
 The Dragon Turtle Adventure Hooks table offers suggestions for stories and adventures involving dragon turtles.
 
 ### Dragon Turtle Adventure Hooks
-
-`dice: [](dragon-turtle-wyrmling-ftd.md#^adventure-hook)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|
@@ -77,8 +72,6 @@ The Dragon Turtle Adventure Hooks table offers suggestions for stories and adven
 Dragon turtles are stolid and slow to anger. This temperament, combined with their disinterest in moral quandaries, allows them to get along with—or at least abide—most creatures they encounter. They frequently enter symbiotic relationships with other sea creatures that can bring them food or treasure, and they sometimes agree to work for creatures who ply them with generous sums of wealth.
 
 ### Dragon Turtle Wyrmling Connections
-
-`dice: [](dragon-turtle-wyrmling-ftd.md#^connected-creatures)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|
@@ -109,18 +102,19 @@ Dragon turtles are stolid and slow to anger. This temperament, combined with the
   - !!int "10"
 "speed": "20 ft., swim 30 ft."
 "saves":
-  - "dexterity": "+2"
-  - "constitution": "+4"
-  - "wisdom": "+2"
+  - "dexterity": !!int "2"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "2"
 "damage_resistances": "fire"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "Draconic"
 "cr": "4"
 "traits":
   - "desc": "The dragon turtle can breathe air and water."
     "name": "Amphibious"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (1d12 + 3) piercing damage."
     "name": "Bite"
   - "desc": "The dragon turtle exhales steam in a 15-foot cone. Each creature in that\

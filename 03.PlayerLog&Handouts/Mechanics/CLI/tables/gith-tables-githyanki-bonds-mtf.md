@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Gith Tables; Githyanki Bonds
+- "Gith Tables; Githyanki Bonds"
 ---
 # Gith Tables; Githyanki Bonds
 *Source: Mordenkainen's Tome of Foes p. 97* 
 
 **Githyanki Bonds**
-
-`dice: [](gith-tables-githyanki-bonds-mtf.md#^githyanki-bonds)`
 
 | dice: d4 | Bond |
 |----------|------|

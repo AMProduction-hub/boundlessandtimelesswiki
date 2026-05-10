@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Espionage Agency Contacts; Agency Contacts
+- "Espionage Agency Contacts; Agency Contacts"
 ---
 # Espionage Agency Contacts; Agency Contacts
 *Source: Eberron: Rising from the Last War p. 78* 
 
 **Agency Contacts**
-
-`dice: [](espionage-agency-contacts-agency-contacts-erlw.md#^agency-contacts)`
 
 | dice: d8 | Contact |
 |----------|---------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Centaur Mummy
+- "Centaur Mummy"
 ---
-# [Centaur Mummy](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/centaur-mummy-tftyp.md)
+# [Centaur Mummy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/centaur-mummy-tftyp.md)
 *Source: Tales from the Yawning Portal p. 231*  
 
 In The Hidden Shrine of Tamoachan, characters must contend with a mummified centaur that wants to prevent them from moving any farther into the dungeon. Combining the most lethal features of two creature types, the centaur mummy can attack nearby targets with its melee weapons while trying to use its Dreadful Glare against enemies that hold back.
@@ -35,7 +36,7 @@ In The Hidden Shrine of Tamoachan, characters must contend with a mummified cent
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+5"
+  - "wisdom": !!int "5"
 "damage_vulnerabilities": "fire"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
 "damage_immunities": "necrotic, poison"
@@ -44,7 +45,10 @@ In The Hidden Shrine of Tamoachan, characters must contend with a mummified cent
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[pike](03.PlayerLog&Handouts/Mechanics/CLI/items/pike.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Sylvan"
 "cr": "6"
 "traits":
@@ -56,10 +60,10 @@ In The Hidden Shrine of Tamoachan, characters must contend with a mummified cent
   - "desc": "The centaur mummy makes two melee attacks, one with its pike and one\
       \ with its hooves, or it attacks with its pike and uses Dreadful Glare."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 10 (1d10 + 5) piercing damage."
     "name": "Pike"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) piercing damage plus 10 (3d6) necrotic damage. If the target\
       \ is a creature, it must succeed on a DC 14 Constitution saving throw or be\
       \ cursed with mummy rot. The cursed target can't regain hit points, and its\

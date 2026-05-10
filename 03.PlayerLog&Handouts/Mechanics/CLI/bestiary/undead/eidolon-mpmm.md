@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/12
@@ -15,9 +16,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Eidolon
+- "Eidolon"
 ---
-# [Eidolon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/eidolon-mpmm.md)
+# [Eidolon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/eidolon-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 114, Mordenkainen's Tome of Foes p. 194*  
 
 To protect sites they deem holy, gods often rely on eidolons, ghostly spirits bound to safeguard a sacred place. Forged from the souls of those with unwavering devotion, eidolons stalk temples and vaults to ensure that no enemy defiles, damages, or plunders these sites. If an enemy sets foot inside a warded location, the [eidolon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/eidolon-mpmm.md) plunges into a [statue](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/sacred-statue-mpmm.md) specially prepared to house its soul; it then animates this effigy and uses the statue to drive out the intruders.
@@ -40,7 +41,7 @@ To protect sites they deem holy, gods often rely on eidolons, ghostly spirits bo
   - !!int "16"
 "speed": "0 ft., fly 40 ft. (hover)"
 "saves":
-  - "wisdom": "+8"
+  - "wisdom": !!int "8"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+8"
@@ -55,12 +56,13 @@ To protect sites they deem holy, gods often rely on eidolons, ghostly spirits bo
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 18"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 18"
 "languages": "the languages it knew in life"
 "cr": "12"
 "traits":
   - "desc": "The eidolon can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
       \ an object other than a [sacred statue](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/sacred-statue-mpmm.md)."
     "name": "Incorporeal Movement"
   - "desc": "When the eidolon moves into a space occupied by a [sacred statue](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/sacred-statue-mpmm.md),\

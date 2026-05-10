@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Peacock
+- "Peacock"
 ---
-# [Peacock](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/peacock-bgdia.md)
+# [Peacock](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/peacock-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 195*  
 
 ```statblock
@@ -46,8 +47,8 @@ aliases:
       \ ally isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) piercing damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d4) piercing damage."
     "name": "Beak"
 "source":
   - "BGDIA"

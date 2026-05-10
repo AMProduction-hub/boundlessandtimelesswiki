@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Awakened White Moose
+- "Awakened White Moose"
 ---
-# [Awakened White Moose](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/awakened-white-moose-idrotf.md)
+# [Awakened White Moose](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/awakened-white-moose-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 82*  
 
 A white moose is attacking loggers in the forest near Lonelywood. The town's logging industry is essential to the growth and survival of Ten-Towns, and Speaker Nimsy Huddle has assured the other speakers that Lonelywood's "moose problem" will be dealt with in short order. Hunters have been dispatched to kill the moose, but it has eluded them so far. From what the hunters have seen, their prey is smarter than the average moose, and its white hide makes it hard to spot in the snow. What they don't know is that the moose is using a magic mirror as a scrying device to show it where its enemies are.
@@ -49,10 +50,10 @@ A white moose is attacking loggers in the forest near Lonelywood. The town's log
 "actions":
   - "desc": "The moose makes two attacks: one with its antlers and one with its hooves."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) piercing damage."
     "name": "Antlers"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d4 + 4) bludgeoning damage."
     "name": "Hooves"
 "source":

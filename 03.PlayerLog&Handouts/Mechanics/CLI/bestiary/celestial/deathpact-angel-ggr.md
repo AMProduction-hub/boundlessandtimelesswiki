@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/14
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Deathpact Angel
+- "Deathpact Angel"
 ---
-# [Deathpact Angel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/deathpact-angel-ggr.md)
+# [Deathpact Angel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/deathpact-angel-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 192*  
 
 Deathpact angels dwell in the grandest of Orzhov cathedrals, where they surround themselves with wealth and wretched vassals that are utterly in their thrall.
@@ -51,9 +52,9 @@ Orzhov angels might claim positions as executioners, commanders, or power broker
   - !!int "23"
 "speed": "30 ft., fly 90 ft."
 "saves":
-  - "intelligence": "+9"
-  - "wisdom": "+10"
-  - "charisma": "+11"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "10"
+  - "charisma": !!int "11"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+10"
@@ -68,18 +69,19 @@ Orzhov angels might claim positions as executioners, commanders, or power broker
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 120 ft., passive Perception 20"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 20"
 "languages": "all"
 "cr": "14"
 "traits":
   - "desc": "The angel's innate spellcasting ability is Charisma (spell save DC 19,\
       \ +11 to hit with spell attacks). The angel can innately cast the following\
-      \ spells, requiring no material components:\n\nAt will: [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md)\
+      \ spells, requiring no material components:\n\n**At will:** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md)\
       \ (as a 2nd-level spell), [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md)\n\
-      \n3/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md)\
+      \n**3/day each:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md)\
       \ (as a 5th-level spell), [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\n\
-      1/day: [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md)"
+      **1/day:** [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md)"
     "name": "Innate Spellcasting"
   - "desc": "As a bonus action, the angel targets a creature [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
       \ by it that it can see within 30 feet of it. The angel deals 11 (2d10) necrotic\
@@ -96,7 +98,7 @@ Orzhov angels might claim positions as executioners, commanders, or power broker
   - "desc": "The angel makes two attacks with its scythe. It can substitute Chains\
       \ of Obligation for one of these attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
       \ 9 (2d4 + 4) slashing damage plus 27 (6d8) necrotic damage."
     "name": "Scythe"
   - "desc": "The angel targets one creature [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\

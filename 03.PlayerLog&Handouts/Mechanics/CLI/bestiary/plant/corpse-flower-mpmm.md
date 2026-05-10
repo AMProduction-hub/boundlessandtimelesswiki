@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/8
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Corpse Flower
+- "Corpse Flower"
 ---
-# [Corpse Flower](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/corpse-flower-mpmm.md)
+# [Corpse Flower](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/corpse-flower-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 82, Mordenkainen's Tome of Foes p. 127*  
 
 A corpse flower can sprout atop the grave of an evil necromancer or the remains of powerful Undead creatures. Unless it is uprooted and burned while it is still a seedling, the corpse flower grows to enormous size over several weeks, then tears itself free of the earth and begins scavenging Humanoid corpses from battlefields and graveyards. Using its fibrous tentacles, it stuffs the remains into its body to sustain and repair itself. The plant has a malevolent bent and despises the living.
@@ -41,7 +42,8 @@ With or without corpses nested in its body, a corpse flower exudes a stench of d
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 12"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft. (blind beyond this radius), passive Perception 12"
 "languages": ""
 "cr": "8"
 "traits":
@@ -64,7 +66,7 @@ With or without corpses nested in its body, a corpse flower exudes a stench of d
 "actions":
   - "desc": "The corpse flower makes three Tentacle attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
       \ 9 (2d6 + 2) bludgeoning damage plus 10 (3d6) poison damage."
     "name": "Tentacle"
   - "desc": "The corpse flower swallows one unsecured Humanoid corpse within 10 feet\

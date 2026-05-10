@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Prismari Apprentice
+- "Prismari Apprentice"
 ---
-# [Prismari Apprentice](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/prismari-apprentice-scc.md)
+# [Prismari Apprentice](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/prismari-apprentice-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 205*  
 
 The students of Prismari College—first as apprentices and then as pledgemages—see no distinction between magic and art. No two Prismari students have the same style of spellcasting; each wields the elemental magic taught by the college in a way that expresses their personality. In the hands of Prismari students, spells that conjure fire or bend water to one's will become vibrant and expressive showcases, thrumming with creative energy.
@@ -41,8 +42,8 @@ The scholars of Prismari College believe that art is the truest form of spellcra
   - !!int "15"
 "speed": "35 ft."
 "saves":
-  - "dexterity": "+4"
-  - "charisma": "+4"
+  - "dexterity": !!int "4"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+4"
@@ -54,13 +55,13 @@ The scholars of Prismari College believe that art is the truest form of spellcra
 "languages": "Common plus any two languages"
 "cr": "2"
 "actions":
-  - "desc": "Melee  or Ranged Spell Attack: +4 to hit, reach 5 ft. or range 60\
-      \ ft., one target. Hit: 10 (3d6) fire or cold damage (the apprentice's choice)."
+  - "desc": "*Melee  or Ranged Spell Attack:* +4 to hit, reach 5 ft. or range 60\
+      \ ft., one target. *Hit:* 10 (3d6) fire or cold damage (the apprentice's choice)."
     "name": "Elemental Strike"
   - "desc": "The apprentice casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 12):\n\
-      \nAt will: [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
-      \n1/day each: [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md),\
+      \n**At will:** [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
+      \n**1/day each:** [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [silent\
       \ image](03.PlayerLog&Handouts/Mechanics/CLI/spells/silent-image.md)"
     "name": "Spellcasting"
@@ -71,7 +72,7 @@ The scholars of Prismari College believe that art is the truest form of spellcra
       \ space on a turn, that creature must succeed on a DC 12 Dexterity saving throw\
       \ or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
       \ If the apprentice ends its turn in another creature's space, the apprentice\
-      \ takes 5 (d10) force damage and is pushed into the nearest unoccupied space."
+      \ takes 5 (1d10) force damage and is pushed into the nearest unoccupied space."
     "name": "Surge of Artistry (Recharge 4-6)"
 "source":
   - "SCC"

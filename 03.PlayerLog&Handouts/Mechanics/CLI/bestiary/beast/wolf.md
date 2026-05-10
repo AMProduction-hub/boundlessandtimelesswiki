@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Wolf
+- "Wolf"
 ---
-# [Wolf](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/wolf.md)
-*Source: Monster Manual p. 341, Curse of Strahd, Lost Mine of Phandelver, Princes of the Apocalypse, Storm King's Thunder, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Candlekeep Mysteries, Hunt for the Thessalhydra. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Wolf](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wolf.md)
+*Source: Monster Manual p. 341. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Wolf"
@@ -52,22 +53,12 @@ aliases:
       \ [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) piercing damage. If the target is a creature, it must succeed\
       \ on a DC 11 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Bite"
 "source":
   - "MM"
-  - "CoS"
-  - "LMoP"
-  - "PotA"
-  - "SKT"
-  - "GoS"
-  - "EGW"
-  - "IDRotF"
-  - "TCE"
-  - "CM"
-  - "HftT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/wolf.webp"
 ```
 ^statblock

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Bluetspur Adventures
+- "Bluetspur Adventures"
 ---
 # Bluetspur Adventures
 *Source: Van Richten's Guide to Ravenloft p. 74* 
 
 **Bluetspur Adventures**
-
-`dice: [](bluetspur-adventures-vrgr.md#^bluetspur-adventures)`
 
 | dice: d8 | Adventure |
 |----------|-----------|

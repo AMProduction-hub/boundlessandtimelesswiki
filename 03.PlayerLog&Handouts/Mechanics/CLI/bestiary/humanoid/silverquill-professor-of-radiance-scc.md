@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Silverquill Professor of Radiance
+- "Silverquill Professor of Radiance"
 ---
-# [Silverquill Professor of Radiance](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/silverquill-professor-of-radiance-scc.md)
+# [Silverquill Professor of Radiance](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/silverquill-professor-of-radiance-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 215*  
 
 Professors of radiance call up magic through spoken words and glyphs formed of magically shaped ink and light. The professors channel radiance to illuminate their allies, bolstering them with encouragement and inspiring any who witness their orations. Professors of radiance can turn their words into potent assets in battle or strike at their foes with searing radiance.
@@ -41,10 +42,10 @@ The scholars of Silverquill College study the power of magic shaped through spok
   - !!int "19"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "intelligence": "+6"
-  - "wisdom": "+4"
-  - "charisma": "+7"
+  - "dexterity": !!int "5"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -62,20 +63,20 @@ The scholars of Silverquill College study the power of magic shaped through spok
   - "desc": "The professor makes two Radiant Strike attacks. The professor can replace\
       \ one of the attacks with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 17 (3d8 + 4) radiant damage. If the target is a\
+  - "desc": "*Melee  or Ranged Spell Attack:* +7 to hit, reach 5 ft. or range 120\
+      \ ft., one target. *Hit:* 17 (3d8 + 4) radiant damage. If the target is a\
       \ creature, it must succeed on a DC 15 Constitution saving throw be [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
       \ until the end of its next turn."
     "name": "Radiant Strike"
   - "desc": "The professor casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 15):\n\
-      \nAt will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
-      \ [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md)\n\n2/day\
-      \ each: [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md), [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \n**At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md)\n\n**2/day\
+      \ each:** [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md), [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [daylight](03.PlayerLog&Handouts/Mechanics/CLI/spells/daylight.md), [mage\
-      \ armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)\n\n1/day\
-      \ each: [hypnotic pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md),\
+      \ armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)\n\n**1/day\
+      \ each:** [hypnotic pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md),\
       \ [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)"
     "name": "Spellcasting"
 "source":

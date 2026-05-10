@@ -1,18 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/legendary
-aliases: 
+aliases:
 - "Wreath of the Prism (Exalted)"
 ---
 # Wreath of the Prism (Exalted)
 *Wondrous item, legendary (requires attunement)*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/wreath-of-the-prism.webp#right)
 
-- **Properties**: Vestige of Divergence
 
 This loop of golden thorns is inset with dozens of gems representing the five colors of Tiamat.
 

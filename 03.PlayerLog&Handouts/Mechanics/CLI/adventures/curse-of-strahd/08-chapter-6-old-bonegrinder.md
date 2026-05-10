@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 aliases:
-- Chapter 6: Old Bonegrinder
+- "Chapter 6: Old Bonegrinder"
 ---
 # Chapter 6: Old Bonegrinder
 *Source: Curse of Strahd, p. 125* 

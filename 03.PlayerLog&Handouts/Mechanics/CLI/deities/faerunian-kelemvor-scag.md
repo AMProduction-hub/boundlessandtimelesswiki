@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/death
 - ttrpg-cli/domain/grave
-aliases: 
-- Kelemvor
-- The Lord of the Dead
-- The Judge of the Damned
+aliases:
+- "Kelemvor"
+- "The Lord of the Dead"
+- "The Judge of the Damned"
 ---
 # Kelemvor
 *Source: Sword Coast Adventurer's Guide p. 21, Xanathar's Guide to Everything p. 19* 

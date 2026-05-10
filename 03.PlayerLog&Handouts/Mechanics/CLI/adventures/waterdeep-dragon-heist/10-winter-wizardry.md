@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 aliases:
-- Winter Wizardry
+- "Winter Wizardry"
 ---
 # Winter Wizardry
 *Source: Waterdeep: Dragon Heist, p. 147* 
@@ -745,7 +746,7 @@ Nothing violent happens during the Deadwinter Day feast, but the tavern suffers 
 
 The feast is a great opportunity for characters to hobnob with neighbors, guild members, and City Watch constables, as well as to gather information on local happenings.
 
-![Nat, Jenks and Squiddly ma...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dragon-heist/img/winter-scene.webp#center "Nat, Jenks and Squiddly make the best of Waterdeep's harsh winter")
+![Nat, Jenks and Squiddly make the best of Waterdeep's harsh winter](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dragon-heist/img/winter-scene.webp#center)
 
 ### Secret Simulacrum
 

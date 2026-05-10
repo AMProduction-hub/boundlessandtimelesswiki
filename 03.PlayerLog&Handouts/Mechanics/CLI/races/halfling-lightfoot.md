@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/halfling/lightfoot
 aliases:
-- Halfling (Lightfoot)
+- "Halfling (Lightfoot)"
 ---
 # Halfling (Lightfoot)
 *Source: Player's Handbook p. 28. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/halfling.webp#right)
 
-- **Ability Scores**: Charisma +1
+- **Ability Scores**: cha +1
 - **Size**: Small
 - **Speed**: 25 ft.
 

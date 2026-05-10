@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Omens of Mogis
+- "Omens of Mogis"
 ---
 # Omens of Mogis
 *Source: Mythic Odysseys of Theros p. 111* 
 
 **Omens of Mogis**
-
-`dice: [](omens-of-mogis-mot.md#^omens-of-mogis)`
 
 | dice: d6 | dice: d100 | Omen of Mogis |
 |----------|------------|---------------|

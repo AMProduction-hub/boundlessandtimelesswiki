@@ -1,25 +1,26 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/size/medium
-- ttrpg-cli/monster/type/humanoid/elf
+- ttrpg-cli/monster/type/humanoid/drow-elf
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Drow Elite Warrior (Magic Equipment)
+- "Drow Elite Warrior (Magic Equipment)"
 ---
-# [Drow Elite Warrior (Magic Equipment)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/drow-elite-warrior-magic-equipment.md)
-*Source: Monster Manual p. 128, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Divine Contention, Dragon of Icespire Peak, Storm Lord's Wrath, Icewind Dale: Rime of the Frostmaiden*  
+# [Drow Elite Warrior (Magic Equipment)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-elite-warrior-magic-equipment.md)
+*Source: Monster Manual p. 128*  
 
 ```statblock
 "name": "Drow Elite Warrior (Magic Equipment)"
 "size": "Medium"
 "type": "humanoid"
-"subtype": "elf"
+"subtype": "Drow elf"
 "alignment": "Neutral Evil"
 "ac": !!int "20"
 "ac_class": "[+2 studded leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/drow-2-armor-mm.md),\
@@ -36,22 +37,26 @@ aliases:
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+7"
-  - "constitution": "+5"
-  - "wisdom": "+4"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+10"
-"senses": "darkvision 120 ft., passive Perception 14"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 14"
 "languages": "Elvish, Undercommon"
 "cr": "5"
 "traits":
   - "desc": "The drow's spellcasting ability is Charisma (spell save DC 12). It can\
       \ innately cast the following spells, requiring no material components:\n\n\
-      At will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
-      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      **At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
+      \n**1/day each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
       \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md) (self only)"
     "name": "Innate Spellcasting"
@@ -70,10 +75,10 @@ aliases:
 "actions":
   - "desc": "The drow makes two shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d6 + 6) piercing damage plus 10 (3d6) poison damage."
     "name": "+2 Shortsword"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +7 to hit, range 30/120 ft., one target. *Hit:*\
       \ 7 (1d6 + 4) piercing damage, and the target must succeed on a DC 13 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 hour. If the saving throw fails by 5 or more, the target is also [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
@@ -87,14 +92,6 @@ aliases:
     "name": "Parry"
 "source":
   - "MM"
-  - "SKT"
-  - "TftYP"
-  - "WDH"
-  - "WDMM"
-  - "DC"
-  - "DIP"
-  - "SLW"
-  - "IDRotF"
 ```
 ^statblock
 

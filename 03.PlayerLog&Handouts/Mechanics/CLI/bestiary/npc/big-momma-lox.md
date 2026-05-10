@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/lox
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Big Momma
+- "Big Momma"
 ---
-# [Big Momma](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/big-momma-lox.md)
+# [Big Momma](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/big-momma-lox.md)
 *Source: Light of Xaryxis p. 29*  
 
 ```statblock
@@ -37,14 +38,15 @@ aliases:
     "desc": "+5"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+11"
-"senses": "darkvision 120 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 15"
 "languages": ""
 "cr": "11"
 "traits":
   - "desc": "Big Momma doesn't require air."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:*\
       \ 45 (6d12 + 6) piercing damage. If the target is a Large or smaller creature,\
       \ it must succeed on a DC 16 Dexterity saving throw or be swallowed by Big Momma.\
       \ Big Momma can have one creature swallowed at a time.\n\nA swallowed creature\

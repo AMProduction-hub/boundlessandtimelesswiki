@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Connected Creatures; Ancient Sapphire Dragon Connections
+- "Connected Creatures; Ancient Sapphire Dragon Connections"
 ---
 # Connected Creatures; Ancient Sapphire Dragon Connections
 *Source: Fizban's Treasury of Dragons p. 139* 
 
 **Ancient Sapphire Dragon Connections**
-
-`dice: [](connected-creatures-ancient-sapphire-dragon-connections-ftd.md#^ancient-sapphire-dragon-connections)`
 
 | dice: d4 | Connected Creatures |
 |----------|---------------------|

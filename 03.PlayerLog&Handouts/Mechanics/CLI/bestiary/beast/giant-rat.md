@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-8
@@ -13,10 +14,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Rat
+- "Giant Rat"
 ---
-# [Giant Rat](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-rat.md)
-*Source: Monster Manual p. 327, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Rat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-rat.md)
+*Source: Monster Manual p. 327. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Giant Rat"
@@ -35,7 +36,8 @@ aliases:
   - !!int "10"
   - !!int "4"
 "speed": "30 ft."
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "cr": "1/8"
 "traits":
@@ -47,21 +49,11 @@ aliases:
       \ [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "BGDIA"
-  - "EGW"
-  - "IDRotF"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-rat.webp"
 ```
 ^statblock

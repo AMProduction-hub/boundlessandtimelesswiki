@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/life
 - ttrpg-cli/domain/light
 - ttrpg-cli/domain/twilight
-aliases: 
-- Helm
-- The Watcher
-- He of the Unsleeping Eyes
-- The Vigilant One
+aliases:
+- "Helm"
+- "The Watcher"
+- "He of the Unsleeping Eyes"
+- "The Vigilant One"
 ---
 # Helm
 *Source: Sword Coast Adventurer's Guide p. 21, Tasha's Cauldron of Everything p. 34* 

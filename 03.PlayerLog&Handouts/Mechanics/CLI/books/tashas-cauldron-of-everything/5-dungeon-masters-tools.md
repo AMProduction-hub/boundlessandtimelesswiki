@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
-- Dungeon Master's Tools
+- "Dungeon Master's Tools"
 ---
 # Dungeon Master's Tools
 *Source: Tasha's Cauldron of Everything, p. 139* 
@@ -13,7 +14,7 @@ The Dungeon Master employs many tools when preparing and running a D&D campaign.
 
 The tools herein build on the material in the "Dungeon Master's Guide" and the "Monster Manual". You may use some, all, or none of these tools, and feel free to customize how they work. Your group's enjoyment is paramount, so make these rules your own, aiming to match your group's tastes.
 
-![Tasha prepares to win anot...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/090-04-001.webp#center "Tasha prepares to win another game of wizardly chess against her rival Mordenkainen.")
+![Tasha prepares to win another game of wizardly chess against her rival Mordenkainen.](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/090-04-001.webp#center)
 
 ## Session Zero
 
@@ -51,7 +52,7 @@ You might need to help the player run the sidekick for the first few sessions an
 - Sidekicks are stalwart companions who can perform tasks both in and out of combat, including things such as setting up camp and carrying gear.  
 - Ideally, a sidekick's abilities should complement those of the main character. For example, a spellcaster makes a good sidekick for a fighter or rogue.  
 
-![During a festival below on...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/091-04-002.webp#center "During a festival below one of the walking statues of Waterdeep, young friends dream of embarking on adventures together.")
+![During a festival below one of the walking statues of Waterdeep, young friends dream of embarking on adventures together.](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/091-04-002.webp#center)
 
 ### Social Contract
 
@@ -160,9 +161,9 @@ If it's unclear whether a melee attack in the stat block uses Strength or Dexter
 - [Warrior Sidekick](03.PlayerLog&Handouts/Mechanics/CLI/classes/warrior-sidekick-tce.md)  
 
 > [!gallery]
-> ![Experts, Left to Right: a ...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/092-04-003.webp#gallery "Experts, Left to Right: a Tortle, a Winged Kobold, and a Kenku")
-> ![Spellcasters, Left to Righ...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/093-04-004.webp#gallery "Spellcasters, Left to Right: a Bullywug, a Goblin, and a Tabaxi")
-> ![Warriors, Left to Right: a...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/094-04-005.webp#gallery "Warriors, Left to Right: an Aasimar, a Firbolg, and a Wolf")
+> ![Experts, Left to Right: a Tortle, a Winged Kobold, and a Kenku](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/092-04-003.webp#gallery)
+> ![Spellcasters, Left to Right: a Bullywug, a Goblin, and a Tabaxi](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/093-04-004.webp#gallery)
+> ![Warriors, Left to Right: an Aasimar, a Firbolg, and a Wolf](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/094-04-005.webp#gallery)
 
 ## Parleying with Monsters
 
@@ -324,7 +325,7 @@ Consider rolling on the Psychic Resonance Effects table when the following circu
 - A creature becomes [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened).  
 - A creature experiences telepathic communication.  
 
-![Animals converse after gai...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/101-04-012.webp#center "Animals converse after gaining sapience from ambient psychic energy.")
+![Animals converse after gaining sapience from ambient psychic energy.](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/101-04-012.webp#center)
 
 ![Psychic Resonance Effects](03.PlayerLog&Handouts/Mechanics/CLI/tables/psychic-resonance-effects-tce.md)
 
@@ -453,7 +454,7 @@ When determining the difficulty of an encounter with a hostile mimic colony, con
 
 In wild places brimming with nature's power, gardens meticulously tended by eccentric wizards, and blessed groves touched by divine providence, plants can sometimes produce fruit bursting with primal magic. Not every fruit-bearing plant holds this stored magic, but those that do bear obvious signs: their colors are more vibrant or shift randomly, their skin sparkles in the light or glows in the dark, soft hums emanate from them, or they feel peculiar to the touch.
 
-A fruit-bearing plant that is suffused with magic might produce `d6` pieces of primal fruit every week. Primal fruit remains potent for 1 week, after which it loses its magical properties but remains edible.
+A fruit-bearing plant that is suffused with magic might produce `1d6` pieces of primal fruit every week. Primal fruit remains potent for 1 week, after which it loses its magical properties but remains edible.
 
 As an action, a creature can eat a piece of primal fruit to gain its effects. This fruit can be squeezed into juice or cooked into a dish and retains its magic. Choose an effect or roll on the Primal Fruit Effects table to determine what happens when a piece of the fruit is consumed. An [identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md) spell or similar magic reveals the beneficial effect of a piece of fruit before it is eaten, but it doesn't reveal a curse or side effect.
 
@@ -550,7 +551,7 @@ Fit this into your campaign by making the name of the creature the first item on
 > 
 > This gallery is decorated with seven framed paintings of creatures. A few chairs and benches have been placed in front of the art for viewing.
 > 
-> A plaque mounted on one of the walls bears the following dedication: "In order to gain all knowledge, one must know where to start. Count on your enemies to reveal the source of the secret. This room is dedicated to the defeat of all monsters within." 
+> A plaque mounted on one of the walls bears the following dedication: "In order to gain all knowledge, one must know where to start. Count on your enemies to reveal the source of the secret. This room is dedicated to the defeat of all monsters within."
 ^3a3
 
 Characters should be free to explore the gallery and inspect the paintings and dedication to discover the parts of the puzzle.
@@ -685,7 +686,7 @@ All four locks must be opened before the box's contents (whatever they might be)
 
 Show the players puzzle handout 2 (see the end of this chapter) when their characters examine the keys. Each key has a different number of teeth: six, five, four, and three, respectively.
 
-Each lock has a creature molded in iron above it: a bat, snake, spider, or wolf, respectively. These locks can't be picked. If anything other than the correct key is placed inside a lock, creatures corresponding to the image above the lock (`d4` [giant bats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-bat.md), `d4` [giant poisonous snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-poisonous-snake.md), `d4` [giant wolf spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-wolf-spider.md), or `d4` [wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wolf.md)) are summoned into the room. Each summoned creature is hostile and disappears after 10 minutes or when reduced to 0 hit points. These beasts can't be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened).
+Each lock has a creature molded in iron above it: a bat, snake, spider, or wolf, respectively. These locks can't be picked. If anything other than the correct key is placed inside a lock, creatures corresponding to the image above the lock (`1d4` [giant bats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-bat.md), `1d4` [giant poisonous snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-poisonous-snake.md), `1d4` [giant wolf spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-wolf-spider.md), or `1d4` [wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wolf.md)) are summoned into the room. Each summoned creature is hostile and disappears after 10 minutes or when reduced to 0 hit points. These beasts can't be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened).
 
 #### Solution
 
@@ -723,7 +724,7 @@ This gem-filled room can be placed in any dungeon, estate, or building with mult
 
 > [!readaloud] 
 > 
-> Dozens of gems lie strewn upon the floor. Amid the treasure stands a marble statue with its hands clasped in front of it. A placard at the statue's base reads, "Only one treasure may leave this room. Cross with another and find your tomb." 
+> Dozens of gems lie strewn upon the floor. Amid the treasure stands a marble statue with its hands clasped in front of it. A placard at the statue's base reads, "Only one treasure may leave this room. Cross with another and find your tomb."
 ^3bd
 
 #### Puzzle Features
@@ -808,7 +809,7 @@ This map puzzle is designed to lead a party through a dungeon where a roaming be
 > 
 > Out of the gloom appears a hooded goblin carrying a lantern.
 > 
-> "Hello, friends!" the goblin says. "I can help you through these parts—if you can figure out my riddles. You don't want to make a wrong turn in here, as there are eyes everywhere. Solve the riddles and follow my directions to the letter." 
+> "Hello, friends!" the goblin says. "I can help you through these parts—if you can figure out my riddles. You don't want to make a wrong turn in here, as there are eyes everywhere. Solve the riddles and follow my directions to the letter."
 ^3cc
 
 The [goblin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) is friendly, and its offer is genuine. It's name is Igor (pronounced *eye*-gor), which it reveals only if asked. The characters find themselves in a maze that emits magical darkness that can't be dispelled. No vision can penetrate this darkness, and only the goblin's lantern can illuminate it. Igor's lantern emits light in a 5-foot radius, but only so long as the goblin holds it. The lantern goes dark if any other creature takes custody of it.

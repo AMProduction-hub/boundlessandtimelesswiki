@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-8
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Twig Blight
+- "Twig Blight"
 ---
-# [Twig Blight](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/twig-blight.md)
-*Source: Monster Manual p. 32, Curse of Strahd, Lost Mine of Phandelver, Tales from the Yawning Portal, Ghosts of Saltmarsh, Hunt for the Thessalhydra, Dragon of Icespire Peak. Available in the Basic Rules (2014)*  
+# [Twig Blight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/twig-blight.md)
+*Source: Monster Manual p. 32. Available in the Basic Rules (2014)*  
 
 Twig blights can root in soil, which they do when living prey are scarce. While rooted, they resemble woody shrubs. When it pulls its roots free of the ground to move, a twig blight's branches twist together to form a humanoid-looking body with a head and limbs.
 
@@ -68,7 +69,8 @@ Blights are independent creatures, but most act under a Gulthias tree's control,
 "damage_vulnerabilities": "fire"
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 9"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 9"
 "languages": "understands Common but can't speak"
 "cr": "1/8"
 "traits":
@@ -76,17 +78,11 @@ Blights are independent creatures, but most act under a Gulthias tree's control,
       \ shrub."
     "name": "False Appearance"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d4 + 1) piercing damage."
     "name": "Claws"
 "source":
   - "MM"
-  - "CoS"
-  - "LMoP"
-  - "TftYP"
-  - "GoS"
-  - "HftT"
-  - "DIP"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/twig-blight.webp"
 ```
 ^statblock

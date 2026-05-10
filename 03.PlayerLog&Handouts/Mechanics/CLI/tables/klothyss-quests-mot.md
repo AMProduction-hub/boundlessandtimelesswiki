@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Klothys's Quests
+- "Klothys's Quests"
 ---
 # Klothys's Quests
 *Source: Mythic Odysseys of Theros p. 144* 
 
 **Klothys's Quests**
-
-`dice: [](klothyss-quests-mot.md#^klothyss-quests)`
 
 | dice: d6 | Adventure Goal |
 |----------|----------------|

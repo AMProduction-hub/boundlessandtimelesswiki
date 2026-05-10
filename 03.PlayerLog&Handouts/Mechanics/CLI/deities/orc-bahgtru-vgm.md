@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 - ttrpg-cli/deity/orc
 - ttrpg-cli/domain/war
-aliases: 
-- Bahgtru
+aliases:
+- "Bahgtru"
 ---
 # Bahgtru
 *Source: Volo's Guide to Monsters p. 83* 

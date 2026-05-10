@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Dark Fantasy Settings
+- "Dark Fantasy Settings"
 ---
 # Dark Fantasy Settings
 *Source: Van Richten's Guide to Ravenloft p. 51* 
 
 **Dark Fantasy Settings**
-
-`dice: [](dark-fantasy-settings-vrgr.md#^dark-fantasy-settings)`
 
 | dice: d8 | Setting |
 |----------|---------|

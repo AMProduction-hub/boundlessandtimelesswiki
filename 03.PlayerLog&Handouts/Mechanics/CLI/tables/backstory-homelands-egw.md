@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Backstory; Homelands
+- "Backstory; Homelands"
 ---
 # Backstory; Homelands
 *Source: Explorer's Guide to Wildemount p. 191* 
 
 **Homelands**
-
-`dice: [](backstory-homelands-egw.md#^homelands)`
 
 | dice: d100 | Region (Government) |
 |------------|---------------------|

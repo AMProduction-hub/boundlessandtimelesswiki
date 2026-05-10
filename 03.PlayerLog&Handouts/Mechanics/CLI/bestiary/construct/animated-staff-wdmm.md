@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Animated Staff
+- "Animated Staff"
 ---
-# [Animated Staff](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/animated-staff-wdmm.md)
+# [Animated Staff](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-staff-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 262*  
 
 ```statblock
@@ -33,7 +34,8 @@ aliases:
 "speed": "0 ft., fly 30 ft. (hover)"
 "damage_resistances": "cold"
 "damage_immunities": "poison"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 12"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 12"
 "languages": "Common"
 "traits":
   - "desc": "A creature can grab the staff out of the air with a successful grapple\
@@ -61,7 +63,7 @@ aliases:
       \ expends its last charge, roll a d20. On a 1, the staff turns to water and\
       \ is destroyed."
     "name": "Staff of Frost"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d6) bludgeoning damage plus 1 cold damage."
     "name": "Staff"
 "source":

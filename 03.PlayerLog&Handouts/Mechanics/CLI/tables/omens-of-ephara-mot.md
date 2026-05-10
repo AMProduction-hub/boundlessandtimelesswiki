@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Omens of Ephara
+- "Omens of Ephara"
 ---
 # Omens of Ephara
 *Source: Mythic Odysseys of Theros p. 111* 
 
 **Omens of Ephara**
-
-`dice: [](omens-of-ephara-mot.md#^omens-of-ephara)`
 
 | dice: d6 | dice: d100 | Omen of Ephara |
 |----------|------------|----------------|

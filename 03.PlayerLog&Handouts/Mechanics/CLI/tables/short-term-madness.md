@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Short-Term Madness
+- "Short-Term Madness"
 ---
 # Short-Term Madness
 *Source: Dungeon Master's Guide p. 259. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>* 
 
 **Short-Term Madness**
-
-`dice: [](short-term-madness.md#^short-term-madness)`
 
 | dice: d100 | Effects (lasts 1d10 minutes) |
 |------------|------------------------------|

@@ -1,21 +1,20 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Variant: Mixing Potions; Potion Miscibility
+- "Variant: Mixing Potions; Potion Miscibility"
 ---
 # Variant: Mixing Potions; Potion Miscibility
 *Source: Dungeon Master's Guide p. 140* 
 
 **Potion Miscibility**
 
-`dice: [](variant-mixing-potions-potion-miscibility.md#^potion-miscibility)`
-
 | dice: d100 | Result |
 |------------|--------|
-| 01 | The mixture creates a magical explosion, dealing `6d10` force damage to the mixer and `d10` force damage to each creature within 5 feet of the mixer. |
+| 01 | The mixture creates a magical explosion, dealing `6d10` force damage to the mixer and `1d10` force damage to each creature within 5 feet of the mixer. |
 | 02-08 | The mixture becomes an ingested poison of the DM's choice. |
 | 09-15 | Both potions lose their effects. |
 | 16-25 | One potion loses its effect. |

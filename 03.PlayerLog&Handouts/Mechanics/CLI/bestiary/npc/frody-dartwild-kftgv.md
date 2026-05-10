@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Frody Dartwild
+- "Frody Dartwild"
 ---
-# [Frody Dartwild](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/frody-dartwild-kftgv.md)
+# [Frody Dartwild](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/frody-dartwild-kftgv.md)
 *Source: Keys from the Golden Vault p. 105*  
 
 ```statblock
@@ -32,10 +33,11 @@ aliases:
   - !!int "5"
 "speed": "20 ft."
 "saves":
-  - "wisdom": "+0"
+  - "wisdom": !!int "0"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": "Common"
 "cr": "1/4"
 "traits":
@@ -44,7 +46,7 @@ aliases:
       \ or from a critical hit. On a success, Frody drops to 1 hit point instead."
     "name": "Undead Fortitude"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) bludgeoning damage."
     "name": "Slam"
 "source":

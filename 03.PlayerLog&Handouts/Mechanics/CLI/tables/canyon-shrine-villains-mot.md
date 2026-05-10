@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Canyon Shrine Villains
+- "Canyon Shrine Villains"
 ---
 # Canyon Shrine Villains
 *Source: Mythic Odysseys of Theros p. 154* 
 
 **Canyon Shrine Villains**
-
-`dice: [](canyon-shrine-villains-mot.md#^canyon-shrine-villains)`
 
 | dice: d8 | Villain |
 |----------|---------|

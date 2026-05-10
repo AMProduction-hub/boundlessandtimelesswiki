@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/artifact
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
-aliases: 
+aliases:
 - "The Bloody End (Awakened)"
 ---
 # The Bloody End (Awakened)
@@ -15,7 +16,6 @@ aliases:
 
 
 - **Damage**: 1d8 piercing
-- **Properties**: Vestige of Divergence
 - **Weight**: 4.0 lbs.
 
 Carrying the power of Bane, this adamantine morningstar sports foot-long spikes and has a jagged blade on its pommel.
@@ -51,6 +51,6 @@ When the morningstar reaches an awakened state, it gains the following propertie
 - The weapon's bonus to attack and damage rolls increases to +2.  
 - The saving throw DC for spells cast from the morningstar increases to 15.  
 - When you reduce a creature to 0 hit points with an attack using The Bloody End, you can cause the following effect: each creature of your choice within 15 feet of you must succeed on a DC 15 Wisdom saving throw or be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) of you until the end of your next turn. This property can't be used again until the next dawn.  
-- When a creature hits you with a melee attack, you can use your reaction to deal `d6` psychic damage to the attacker.  
+- When a creature hits you with a melee attack, you can use your reaction to deal `1d6` psychic damage to the attacker.  
 
 *Source: Explorer's Guide to Wildemount p. 278*

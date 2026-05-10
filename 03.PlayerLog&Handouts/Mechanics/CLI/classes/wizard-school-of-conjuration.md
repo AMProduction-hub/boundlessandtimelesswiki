@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/wizard/conjuration
 aliases:
-- School of Conjuration
+- "School of Conjuration"
 ---
 # School of Conjuration
 *[Wizard](./wizard.md): Arcane Tradition*  
@@ -43,11 +44,9 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### School of Conjuration (Level 2)
-
 As a conjurer, you favor spells that produce objects and creatures out of thin air. You can conjure billowing clouds of killing fog or summon creatures from elsewhere to fight on your behalf. As your mastery grows, you learn spells of transportation and can teleport yourself across vast distances, even to other planes of existence, in an instant.
+
+## Subclass Features
 
 ### Conjuration Savant (Level 2)
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Zorbo
+- "Zorbo"
 ---
-# [Zorbo](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/zorbo-toa.md)
+# [Zorbo](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/zorbo-toa.md)
 *Source: Tomb of Annihilation p. 241*  
 
 A zorbo (pronounced ZOR-boh) is a ferocious omnivore similar in size and appearance to a koala. Living in trees and caves, it has long claws, a dour disposition, and a fondness for humanoid flesh. A zorbo alters its natural armor to match its surroundings, and it can weaken and destroy armor, shields, and protective magic items with its sharp claws.
@@ -50,7 +51,7 @@ A zorbo (pronounced ZOR-boh) is a ferocious omnivore similar in size and appeara
       \ If the zorbo isn't in contact with any of these substances, its AC is 10."
     "name": "Natural Armor"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (2d6 + 1) slashing damage, and if the target is a creature wearing armor,\
       \ carrying a shield, or in possession of a magic item that improves its AC,\
       \ it must make a DC 11 Dexterity saving throw. On a failed save, one such item\

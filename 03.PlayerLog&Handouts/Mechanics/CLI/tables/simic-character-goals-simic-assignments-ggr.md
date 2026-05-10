@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Simic Character Goals; Simic Assignments
+- "Simic Character Goals; Simic Assignments"
 ---
 # Simic Character Goals; Simic Assignments
 *Source: Guildmasters' Guide to Ravnica p. 159* 
 
 **Simic Assignments**
-
-`dice: [](simic-character-goals-simic-assignments-ggr.md#^simic-assignments)`
 
 | dice: d6 | Assignment |
 |----------|------------|

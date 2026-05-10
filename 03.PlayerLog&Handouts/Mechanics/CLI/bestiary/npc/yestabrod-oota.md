@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Yestabrod
+- "Yestabrod"
 ---
-# [Yestabrod](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/yestabrod-oota.md)
+# [Yestabrod](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yestabrod-oota.md)
 *Source: Out of the Abyss p. 233*  
 
 ```statblock
@@ -34,18 +35,19 @@ aliases:
 "speed": "30 ft."
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 12"
 "languages": "Abyssal, telepathy 60 ft."
 "cr": "4"
 "traits":
   - "desc": "If Yestabrod fails a saving throw, it can choose to succeed instead."
     "name": "Legendary Resistance (1/Day)"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (3d4 + 1) bludgeoning damage plus 7 (3d4) poison damage."
     "name": "Slam"
   - "desc": "Yestabrod releases spores in a 30-foot cone. Each creature in that area\
-      \ must succeed on a DC 12 Dexterity saving throw or take d6 acid damage at\
+      \ must succeed on a DC 12 Dexterity saving throw or take 1d6 acid damage at\
       \ the start of each of Yestabrod's turns. A creature can repeat the saving throw\
       \ at the end of each of its turn, ending the effect on itself on a success."
     "name": "Caustic Spores (1/Day)"
@@ -64,6 +66,9 @@ aliases:
       \ dies and is reanimated as a spore servant if it's a type of creature that\
       \ can be (see the \"Myconids\" entry in the Monster Manual)."
     "name": "Infestation Spores (1/Day)"
+"legendary_description": "Legendary Action Uses: 2. Immediately after another creature's\
+  \ turn, Yestabrod can expend a use to take one of the following actions. Yestabrod\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Gore, offal, and acid erupt from a corpse within 20 feet of Yestabrod.\
       \ Creatures within 10 feet of the corpse must succeed on a DC 12 Dexterity saving\

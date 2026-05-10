@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 aliases:
-- Chapter 2: The Dessarin Valley
+- "Chapter 2: The Dessarin Valley"
 ---
 # Chapter 2: The Dessarin Valley
 *Source: Princes of the Apocalypse, p. 18* 
@@ -478,7 +479,7 @@ Most of the Dessarin Valley is wilderness in which wildlife is abundant and mons
 
 #### Frequency
 
-Check for a random encounter in the morning, afternoon, evening, and midnight. Roll `d20`; an encounter occurs on an 18 or higher.
+Check for a random encounter in the morning, afternoon, evening, and midnight. Roll `1d20`; an encounter occurs on an 18 or higher.
 
 #### Range
 
@@ -500,9 +501,9 @@ Encounters marked with an asterisk have explanations that appear after the table
 | — | 2 | `1d4 + 1` [jackalweres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/jackalwere.md) |
 | 3 | — | Knights of Samular* |
 | 4 | 3 | Pilgrims* |
-| — | 4 | `d2` [owlbears](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/owlbear.md) |
+| — | 4 | `1d2` [owlbears](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/owlbear.md) |
 | 5 | 5 | Elk tribe hunters* |
-| 6 | 6 | `d3` [ankhegs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/ankheg.md) |
+| 6 | 6 | `1d3` [ankhegs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/ankheg.md) |
 | 7 | 7 | `1d3 + 1` [bugbears](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bugbear.md) |
 | 8 | 8 | `1d4 + 1` [orcs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc.md) |
 | 9 | — | Dwarf miners* |
@@ -515,11 +516,11 @@ Encounters marked with an asterisk have explanations that appear after the table
 | 16 | 13 | `1d4 + 1` [gnolls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gnoll.md) |
 | 17 | — | Shepherds* |
 | 18 | 14 | `1d6 + 2` [wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wolf.md) |
-| 19 | 15 | `d3` [ogres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md) |
-| — | 16 | `d2` [gargoyles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/gargoyle.md) |
+| 19 | 15 | `1d3` [ogres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md) |
+| — | 16 | `1d2` [gargoyles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/gargoyle.md) |
 | — | 17 | `1d3 + 1` [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) |
-| 20 | 18 | `d2` [perytons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/peryton.md) |
-| — | 19 | `d3` [wights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wight.md) |
+| 20 | 18 | `1d2` [perytons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/peryton.md) |
+| — | 19 | `1d3` [wights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wight.md) |
 | — | 20 | The Watchful Knight* |
 
 #### River Travels
@@ -530,7 +531,7 @@ Encounters marked with an asterisk have explanations that appear after the table
 | 4–5 | Air cult skyriders* |
 | 6–9 | River pirates* |
 | 10–14 | Keelboat* |
-| 15–16 | `d4` [merrow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/merrow.md) |
+| 15–16 | `1d4` [merrow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/merrow.md) |
 | 17–18 | `2d4` [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) |
 | 19–20 | 1 [water elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-elemental.md) |
 
@@ -540,13 +541,13 @@ Encounters marked with an asterisk have explanations that appear after the table
 |----|----|----|
 | 2 | — | [Aarakocra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/aarakocra.md) war band* |
 | — | 2 | `2d6` [jackalweres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/jackalwere.md) |
-| 3 | 3 | `d3` [manticores](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/manticore.md) |
+| 3 | 3 | `1d3` [manticores](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/manticore.md) |
 | 4 | 4 | `1d3 + 1` [trolls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/troll.md) |
 | 5 | 5 | Elk tribe hunters* |
-| — | 6 | `d8` [will-o'-wisps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/will-o-wisp.md) |
+| — | 6 | `1d8` [will-o'-wisps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/will-o-wisp.md) |
 | 6 | — | Knights of Samular* |
 | 7 | — | Homestead* |
-| — | 7 | `d2` [ghasts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghast.md) and `1d4 + 2` [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) |
+| — | 7 | `1d2` [ghasts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghast.md) and `1d4 + 2` [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) |
 | 8 | 8 | `1d4 + 1` [gargoyles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/gargoyle.md) |
 | 9 | 9 | Air cult skyriders* |
 | 10 | 10 | Water cult raiders* |
@@ -558,10 +559,10 @@ Encounters marked with an asterisk have explanations that appear after the table
 | — | 15 | `1d4 + 1` [wights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wight.md) |
 | 16 | 16 | `2d4` mephits* |
 | 17 | — | Dwarf miners* |
-| — | 17 | `d3` [vampire spawn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampire-spawn.md) |
-| 18 | 18 | `d3` elementals* |
+| — | 17 | `1d3` [vampire spawn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampire-spawn.md) |
+| 18 | 18 | `1d3` elementals* |
 | 19 | 19 | 1 [bulette](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/bulette.md) |
-| 20 | 20 | `d2` [hill giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/hill-giant.md) |
+| 20 | 20 | `1d2` [hill giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/hill-giant.md) |
 
 ##### Aarakocra Scouts
 
@@ -577,7 +578,7 @@ A group of scouts for the air cult consists of `1d4 + 1` [hurricanes](03.PlayerL
 
 ##### Air Cult Skyriders
 
-One [Feathergale knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/feathergale-knight-pota.md) leads `d4` [skyweavers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/skyweaver-pota.md). They all ride [giant vultures](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-vulture.md). See chapter 7 for the cultists' statistics
+One [Feathergale knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/feathergale-knight-pota.md) leads `1d4` [skyweavers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/skyweaver-pota.md). They all ride [giant vultures](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-vulture.md). See chapter 7 for the cultists' statistics
 
 ##### Caravan
 
@@ -589,11 +590,11 @@ A band of dwarf miners consists of `1d4 + 1` shield dwarf [scouts](03.PlayerLog&
 
 ##### Earth Cult Marauders
 
-A band of marauders for the earth cult consists of `1d4 + 1` [Black Earth guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/black-earth-guard-pota.md), a [Black Earth priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/black-earth-priest-pota.md), and `d4`−1 [ogres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md). See chapter 7 for the cultists' statistics.
+A band of marauders for the earth cult consists of `1d4 + 1` [Black Earth guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/black-earth-guard-pota.md), a [Black Earth priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/black-earth-priest-pota.md), and `1d4`−1 [ogres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md). See chapter 7 for the cultists' statistics.
 
 ##### Earth Cult Robbers
 
-These earth cult robbers stake out spots to waylay passersby. The group consists of `1d4 + 1` [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md) and `d4` [Black Earth guard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/black-earth-guard-pota.md)s (see chapter 7).
+These earth cult robbers stake out spots to waylay passersby. The group consists of `1d4 + 1` [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md) and `1d4` [Black Earth guard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/black-earth-guard-pota.md)s (see chapter 7).
 
 ##### Elementals
 
@@ -609,19 +610,19 @@ The fire cult sends out raiders that include `2d6` [Eternal Flame guardians](03.
 
 ##### Fire Cult War Band
 
-A war band of the fire cult consists of `d6` [Eternal Flame guardians](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/eternal-flame-guardian-pota.md), an [Eternal Flame priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/eternal-flame-priest-pota.md), and `d3` [hell hounds](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hell-hound.md). See chapter 7 for the cultists' statistics.
+A war band of the fire cult consists of `1d6` [Eternal Flame guardians](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/eternal-flame-guardian-pota.md), an [Eternal Flame priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/eternal-flame-priest-pota.md), and `1d3` [hell hounds](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hell-hound.md). See chapter 7 for the cultists' statistics.
 
 ##### Homestead
 
-The party discovers a homestead. Roll a `d6` to determine the race of the people there: 1–3, Tethyrian human; 4, Illuskan human; 5–6, halfling. A homestead consists of `d6` adult [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) and `d6`−1 noncombatant children. Residents might provide friendly adventurers with food and shelter.
+The party discovers a homestead. Roll a `d6` to determine the race of the people there: 1–3, Tethyrian human; 4, Illuskan human; 5–6, halfling. A homestead consists of `1d6` adult [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) and `1d6`−1 noncombatant children. Residents might provide friendly adventurers with food and shelter.
 
 ##### Keelboat
 
-A river trader's keelboat carries `1d4 + 4` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) (the sailors), `d4` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md), and a captain (a [spy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md)). They are willing to offer passage to adventurers heading in the same direction.
+A river trader's keelboat carries `1d4 + 4` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) (the sailors), `1d4` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md), and a captain (a [spy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md)). They are willing to offer passage to adventurers heading in the same direction.
 
 ##### Knights of Samular
 
-This armed patrol consists of `d4` [veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md) and `d4` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md). They hail from Summit Hall and offer a hearty "Well met!" to the characters.
+This armed patrol consists of `1d4` [veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md) and `1d4` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md). They hail from Summit Hall and offer a hearty "Well met!" to the characters.
 
 ##### Mephits
 
@@ -629,23 +630,23 @@ Several mephits travel in a pack. Roll a `d6` to determine the mephit type: 1, [
 
 ##### Pilgrims
 
-A group of pilgrims includes `2d6` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md), `1d4 + 1` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md), `d4` [acolytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/acolyte.md), and a [priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/priest.md) bound for a holy or special site. They're happy for company.
+A group of pilgrims includes `2d6` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md), `1d4 + 1` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md), `1d4` [acolytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/acolyte.md), and a [priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/priest.md) bound for a holy or special site. They're happy for company.
 
 ##### River Pirates
 
-A keelboat carries `2d4` [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md), `d4` [thugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md), and a pirate captain (a [bandit captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit-captain.md)).
+A keelboat carries `2d4` [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md), `1d4` [thugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md), and a pirate captain (a [bandit captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit-captain.md)).
 
 ##### Shepherds
 
-A group of shepherds watch over herd animals. Roll a `d6` to determine the shepherds' race: 1–4, human; 5–6, halfling. The group consists of `d4` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) and `d2` leaders (scouts).
+A group of shepherds watch over herd animals. Roll a `d6` to determine the shepherds' race: 1–4, human; 5–6, halfling. The group consists of `1d4` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) and `1d2` leaders (scouts).
 
 ##### The Watchful Knight
 
-Once, this [helmed horror](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/helmed-horror.md) stood watch in the common room of the Inn of the Watchful Knight in Beliard. It chooses one character at random, advances to within 5 feet, then studies the target for several seconds. If attacked, it fights back, retreating after it loses half its hit points. Otherwise, it follows the chosen character for `d3` days, guarding its temporary master in combat. At the end of that time the helmed horror wanders off again.
+Once, this [helmed horror](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/helmed-horror.md) stood watch in the common room of the Inn of the Watchful Knight in Beliard. It chooses one character at random, advances to within 5 feet, then studies the target for several seconds. If attacked, it fights back, retreating after it loses half its hit points. Otherwise, it follows the chosen character for `1d3` days, guarding its temporary master in combat. At the end of that time the helmed horror wanders off again.
 
 ##### Water Cult Marauders
 
-A marauder gang of the water cult consists of `2d6` [Crushing Wave reavers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/crushing-wave-reaver-pota.md), a [Crushing Wave priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/crushing-wave-priest-pota.md), and `d2` [fathomers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/fathomer-pota.md). See chapter 7 for the cultists' statistics.
+A marauder gang of the water cult consists of `2d6` [Crushing Wave reavers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/crushing-wave-reaver-pota.md), a [Crushing Wave priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/crushing-wave-priest-pota.md), and `1d2` [fathomers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/fathomer-pota.md). See chapter 7 for the cultists' statistics.
 
 ##### Water Cult Raiders
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 - ttrpg-cli/monster/cr/1-2
@@ -14,9 +15,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Orc Nurtured One of Yurtrus
+- "Orc Nurtured One of Yurtrus"
 ---
-# [Orc Nurtured One of Yurtrus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/orc-nurtured-one-of-yurtrus-vgm.md)
+# [Orc Nurtured One of Yurtrus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc-nurtured-one-of-yurtrus-vgm.md)
 *Source: Volo's Guide to Monsters p. 184*  
 
 When plague strikes a tribe, the hands of Yurtrus isolate the sick. The priests then minister to those who can be saved but not healed. The hands cultivate the sickness of these nurtured ones, turning them into instruments of defense and weapons of war. When orcs go to battle, a band of nurtured ones might charge in first-to give themselves up while softening up the enemy by spreading Yurtrus's vile blessing in its ranks.
@@ -50,7 +51,8 @@ In addition, orcs have special relationships with two creatures that are sometim
   - !!int "11"
   - !!int "7"
 "speed": "30 ft."
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Orc"
 "cr": "1/2"
 "traits":
@@ -69,8 +71,8 @@ In addition, orcs have special relationships with two creatures that are sometim
   - "desc": "The orc has advantage on saving throws against poison and disease."
     "name": "Nurtured One of Yurtrus"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
-      \ (1d4 + 2) slashing damage plus 2 (d4) necrotic damage."
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
+      \ (1d4 + 2) slashing damage plus 2 (1d4) necrotic damage."
     "name": "Claws"
   - "desc": "The orc reduces itself to 0 hit points, triggering its Corrupted Carrier\
       \ trait."

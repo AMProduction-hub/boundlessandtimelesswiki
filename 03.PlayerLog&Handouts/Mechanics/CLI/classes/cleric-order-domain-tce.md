@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/domain/order
 - ttrpg-cli/subclass/cleric/order
 aliases:
-- Order Domain
+- "Order Domain"
 ---
 # Order Domain
 *[Cleric](./cleric.md): Divine Domain*  
@@ -44,15 +45,15 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Order Domain (Level 1)
-
 The Order Domain represents discipline, as well as devotion to a society or an institution and strict obedience to the laws governing it. On Ravnica, the domain is favored by clerics of the Azorius Senate, who use it to maintain and enforce the law, and of the Orzhov Syndicate, who exploit law and order for their personal gain. On other worlds, gods who grant access to this domain include Bane, Tyr, Majere, [Erathis](03.PlayerLog&Handouts/Mechanics/CLI/deities/dawn-war-erathis-dmg.md), [Pholtus](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-pholtus.md), [Wee Jas](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-wee-jas.md), Aureon, [Maglubiyet](03.PlayerLog&Handouts/Mechanics/CLI/deities/nonhuman-maglubiyet.md), [Nuada](03.PlayerLog&Handouts/Mechanics/CLI/deities/celtic-nuada.md), [Athena](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-athena.md), [Anubis](03.PlayerLog&Handouts/Mechanics/CLI/deities/egyptian-anubis.md), [Forseti](03.PlayerLog&Handouts/Mechanics/CLI/deities/norse-forseti.md), and [Asmodeus](03.PlayerLog&Handouts/Mechanics/CLI/deities/dawn-war-asmodeus-dmg.md).
 
 The ideal of order is obedience to the law above all else, rather than to a specific individual or the passing influence of emotion or popular rule. Clerics of order are typically concerned with how things are done, rather than whether an action's results are just. Following the law and obeying its edicts is critical, especially when it benefits these clerics and their guilds or deities.
 
 Law establishes hierarchies. Those selected by the law to lead must be obeyed. Those who obey must do so to the best of their ability. In this manner, law creates an intricate web of obligations that allows society to forge order and security in a chaotic multiverse.
+
+## Subclass Features
+
+### Domain Spells (Level 1)
 
 At each indicated cleric level, you add the listed spells to your spells prepared.
 
@@ -93,13 +94,13 @@ You can use this feature a number of times equal to your Wisdom modifier (minimu
 
 ### Divine Strike (Level 8)
 
-At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `d8` psychic damage to the target. When you reach 14th level, the extra damage increases to `2d8`.
+At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `1d8` psychic damage to the target. When you reach 14th level, the extra damage increases to `2d8`.
 
 ### Blessed Strikes (Level 8)
 
 *8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Divine Strike feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Order's Wrath (Level 17)
 

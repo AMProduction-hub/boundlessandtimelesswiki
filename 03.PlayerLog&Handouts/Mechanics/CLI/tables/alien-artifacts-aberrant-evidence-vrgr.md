@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Alien Artifacts; Aberrant Evidence
+- "Alien Artifacts; Aberrant Evidence"
 ---
 # Alien Artifacts; Aberrant Evidence
 *Source: Van Richten's Guide to Ravenloft p. 75* 
 
 **Aberrant Evidence**
-
-`dice: [](alien-artifacts-aberrant-evidence-vrgr.md#^aberrant-evidence)`
 
 | dice: d6 | Evidence |
 |----------|----------|

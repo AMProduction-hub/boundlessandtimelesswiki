@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Creating a Deep Dragon; Deep Dragon Spellcasting
+- "Creating a Deep Dragon; Deep Dragon Spellcasting"
 ---
 # Creating a Deep Dragon; Deep Dragon Spellcasting
 *Source: Fizban's Treasury of Dragons p. 107* 

@@ -1,14 +1,15 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/life
-aliases: 
-- Chauntea
-- The Great Mother
-- The Grain Goddess
+aliases:
+- "Chauntea"
+- "The Great Mother"
+- "The Grain Goddess"
 ---
 # Chauntea
 *Source: Sword Coast Adventurer's Guide p. 21* 

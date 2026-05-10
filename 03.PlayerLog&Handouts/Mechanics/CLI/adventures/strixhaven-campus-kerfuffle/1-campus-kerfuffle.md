@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scc-ck
 aliases:
-- Campus Kerfuffle
+- "Campus Kerfuffle"
 ---
 # Campus Kerfuffle
 *Source: Strixhaven: Campus Kerfuffle, p. 60* 
@@ -46,8 +47,6 @@ Use the First-Year Encounters table for random encounters on campus during this 
 
 **First-Year Encounters**
 
-`dice: [](1-campus-kerfuffle.md#^first-year-encounters)`
-
 | dice: d10 | Encounter |
 |-----------|-----------|
 | 1–4 | 2 [stirges](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/stirge.md) and 1 [giant rat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-rat.md), both of which were attracted to a nearby sickly scent and are hostile |
@@ -61,8 +60,6 @@ Use the First-Year Encounters table for random encounters on campus during this 
 Before starting this adventure, have the players choose at least three courses their characters are taking this year, either by coming up with the courses themselves or by rolling on the First-Year Courses table. Inform them that the characters are also enrolled in a required course, Magical Physiologies.
 
 **First-Year Courses**
-
-`dice: [](1-campus-kerfuffle.md#^first-year-courses)`
 
 | dice: d6 | Course | Offered By |
 |----------|--------|------------|
@@ -78,7 +75,7 @@ Before starting this adventure, have the players choose at least three courses t
 
 This adventure begins when students have arrived on Strixhaven's campus and the term's classes are about to start. For the characters, the first order of business is to complete the orientation required of first-year students. Orientation takes place in the Biblioplex, the university's grand library. A full description of the Biblioplex follows this section.
 
-![Some Strixhaven students t...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/050-03-026-biblioplex.webp#center "Some Strixhaven students take studying very seriously. Others would rather play with magic in the Biblioplex")
+![Some Strixhaven students take studying very seriously. Others would rather play with magic in the Biblioplex](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/050-03-026-biblioplex.webp#center)
 
 ### Orientation
 
@@ -112,7 +109,7 @@ The Biblioplex has the following features:
 
 - **Ceilings.** The ceilings throughout the first floor of the Biblioplex are 50 feet high. The second- and third-floor ceilings are 30 feet high.  
 
-![Many students employ deep ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/051-03-027-concentration.webp#center "Many students employ deep concentration techniques to help them tackle their rigorous class schedules")
+![Many students employ deep concentration techniques to help them tackle their rigorous class schedules](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/051-03-027-concentration.webp#center)
 
 - **Magic Stairs.** As in all Strixhaven buildings, the stairs and steps leading into and within the Biblioplex are enchanted to move and reshape for full accessibility. See the "Strixhaven Accessibility" sidebar.  
 - **Transport Circles.** A runic circle is painted on the floor near each staircase in the Biblioplex, as well as at the top and bottom of the steps leading to the main entrance in area B1. These circles are permanent, customized teleportation circles. When a user moves onto a circle and mentally focuses on the floor to which they wish to travel, they are transported to the destination floor, arriving at that floor's runic circle for that staircase. (Students are all aware that entering the second floor is forbidden without permission from a faculty member.) The circle at the bottom of the front steps transports users to the circle at the top of the steps and vice versa.  
@@ -139,7 +136,7 @@ Enchanted marble steps lead up 5 feet to a small plaza at the Biblioplex's entra
 
 #### B2. Biblioplex Lounge
 
-Luxurious couches and sturdy tables furnish this spacious area. Students, employees, and staff members often use this lounge to relax between shifts in the student store (area B5), the Biblioplex café (area B6), or elsewhere in the library. Each table holds piles of magazines, newsletters, flyers, and nonmagical scrolls from around campus. A character who examines these materials finds recruitment flyers from `d3` Extracurriculars. They also find "Help Wanted" ads for the Jobs at the Biblioplex. "Extracurriculars" and "Jobs" are detailed earlier in the chapter.
+Luxurious couches and sturdy tables furnish this spacious area. Students, employees, and staff members often use this lounge to relax between shifts in the student store (area B5), the Biblioplex café (area B6), or elsewhere in the library. Each table holds piles of magazines, newsletters, flyers, and nonmagical scrolls from around campus. A character who examines these materials finds recruitment flyers from `1d3` Extracurriculars. They also find "Help Wanted" ads for the Jobs at the Biblioplex. "Extracurriculars" and "Jobs" are detailed earlier in the chapter.
 
 #### B3. Student Café Seating
 
@@ -167,8 +164,6 @@ The café always serves coffee and tea, which costs 1 cp per cup. The sandwich o
 
 **Café Sandwich of the Day**
 
-`dice: [](1-campus-kerfuffle.md#^cafe-sandwich-of-the-day)`
-
 | dice: d6 | Sandwich |
 |----------|----------|
 | 1 | Grilled halloumi with morels on wheat |
@@ -195,7 +190,7 @@ In these quiet areas, students sit on the grass and study among lush foliage. So
 
 Members of the Fantastical Horticulture Club often relax in this area and hold meetings here from time to time. If the characters explore this area before or after orientation, Urzmaktok Grojsh (neutral orc [Witherbloom apprentice](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/witherbloom-apprentice-scc.md); see the "Fellow Students" section) is here, recruiting first-year students to the club.
 
-![The Biblioplex is a storie...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/053-03-028-biblioplex.webp#center "The Biblioplex is a storied hall of learning on campus as well as a meeting place for friends of all stripes")
+![The Biblioplex is a storied hall of learning on campus as well as a meeting place for friends of all stripes](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/053-03-028-biblioplex.webp#center)
 
 #### B10. Main Stacks
 
@@ -251,7 +246,7 @@ This area on the library's third floor holds copies of most of the mundane, wide
 
 At the center of this area stands a statue depicting a mighty, benevolent dragon. The magical statue reads aloud the contents of most books placed in front of it if a character makes that request verbally or mentally. (The magic of the statue can assess text such as verbal curses that present a danger if read aloud, and the statue ignores requests to read such text.)
 
-![Cleaning up after students...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/054-03-029-cleaning.webp#center "Cleaning up after students is often a harried undertaking. Luckily, the many Biblioplex assistants are up to the task")
+![Cleaning up after students is often a harried undertaking. Luckily, the many Biblioplex assistants are up to the task](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/054-03-029-cleaning.webp#center)
 
 ## Orientation Challenge
 
@@ -295,7 +290,7 @@ This clue refers the characters to the room they start the orientation in (area 
 
 If a character touches the pooled energy below the snarl, they momentarily lose track of their body, overwhelmed by the snarl's magical power. The character automatically disengages from the snarl and discovers that they are holding a [potion of healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-healing.md).
 
-![The magic snarl at the hea...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/055-03-030-snarl.webp#center "The magic snarl at the heart of the Hall of Oracles shines through the Biblioplex like a miniature sun")
+![The magic snarl at the heart of the Hall of Oracles shines through the Biblioplex like a miniature sun](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/055-03-030-snarl.webp#center)
 
 ### Clue 2: Student Art Gallery
 
@@ -506,7 +501,7 @@ Have each player note their character's Exam results—how many Student Dice the
 > - Inexperienced scholars and adventurers sometimes assume that "slaad" is a misspelling or mispronunciation. Calling these creatures "salads" is frowned upon.  
 ^all-about-slaadi
 
-![Frogs are common on campus...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/057-03-031-frogs.webp#center "Frogs are common on campus and are often kept as pets")
+![Frogs are common on campus and are often kept as pets](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/057-03-031-frogs.webp#center)
 
 ## Advance to 2nd Level!
 
@@ -628,7 +623,7 @@ In this scene, the characters have the opportunity to play a game of Wizard Gizz
 
 After setting the scene and explaining the rules, reveal that a [bag of tricks (gray)](03.PlayerLog&Handouts/Mechanics/CLI/items/bag-of-tricks-gray.md) will be awarded to the winner of the next game. The bag belongs to Javenesh Stoutclaw (see the "Fellow Students" section), a second-year Lorehold College student and the tavern's assistant manager. Javenesh doesn't need the bag and is entertained by watching first-year students compete to win. He also secretly hopes that sponsoring the game might win him more friends on campus.
 
-![Bow's End Tavern caters to...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/059-03-032-tavern.webp#center "Bow's End Tavern caters to a wide range of tastes and dietary needs")
+![Bow's End Tavern caters to a wide range of tastes and dietary needs](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/059-03-032-tavern.webp#center)
 
 ##### Relationship Encounter
 
@@ -706,7 +701,7 @@ The characters might hear any of the following remarks. The first two rumors are
 - **Chimera Prop.** "The drama guild plans to use dragon, goat, and lion puppets to simulate a chimera. Someone has figured out how to magically replicate those creatures' sounds.  
 - **Black Dragon Prop.** "Someone wants to summon and control a real young black dragon on stage. No way will that work!"  
 
-![Students keep the bibliopl...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/060-03-033-biblioplex-assistants.webp#center "Students keep the biblioplex assistants busy with their many requests while studying")
+![Students keep the biblioplex assistants busy with their many requests while studying](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/060-03-033-biblioplex-assistants.webp#center)
 
 ### Campus Daredevils
 
@@ -783,7 +778,7 @@ The manor has the following features:
 - **Lighting.** By night, the interior of the manor is in darkness.  
 - **Magic Stairs.** Stairs and steps in the manor are enchanted to move and reshape themselves for full accessibility.  
 - **Transport Circles.** A runic circle is painted on the floor near each staircase in the manor, as well as at the top and bottom of the steps leading inside the building in area C1. These circles are permanent, customized teleportation circles. Anyone can move onto a circle and mentally focus on the floor to which they wish to travel. (The circle leading to the attic is in the manor's hidden staircase, which must be found first.) When a character is teleported from a circle near a staircase, they arrive on the destination floor on the runic circle nearest the corresponding staircase. The circle outside the main entrance automatically transports characters directly in front of the manor's front doors.  
-- **Security.** If an outside door is smashed or the characters engage in noticeable vandalism, a [Silverquill professor of radiance](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/silverquill-professor-of-radiance-scc.md) and a [Quandrix professor of substance](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/quandrix-professor-of-substance-scc.md) (see "chapter 7" for both) arrive at the manor in `d4` rounds. Both are serving as campus security for the night and deal with the characters as noted in the sidebar "The Jig Is Up!"  
+- **Security.** If an outside door is smashed or the characters engage in noticeable vandalism, a [Silverquill professor of radiance](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/silverquill-professor-of-radiance-scc.md) and a [Quandrix professor of substance](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/quandrix-professor-of-substance-scc.md) (see "chapter 7" for both) arrive at the manor in `1d4` rounds. Both are serving as campus security for the night and deal with the characters as noted in the sidebar "The Jig Is Up!"  
 
 > [!note] Just a Little Vandalism?
 > 
@@ -869,7 +864,7 @@ The painting was created using magic by a talented student as a parlor trick. If
 
 A student's magic trick, the stoles in both these areas each animate into a [fire snake](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-snake.md) if any character moves within 5 feet of the busts. The fire snakes wink out of existence when defeated.
 
-![Students caught breaking i...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/062-03-034.webp#center "Students caught breaking into Captain Dapplewing's Manor after hours face punishment")
+![Students caught breaking into Captain Dapplewing's Manor after hours face punishment](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/062-03-034.webp#center)
 
 ##### C8. Kitchen
 
@@ -927,7 +922,7 @@ Once Captain Dapplewing's study, this large office is often used for sensitive d
 
 On the northern wall, a plaque holds the heads of a black and a red dragon, each clearly constructed from metallic crafting supplies. This device is a strange magic curiosity that was once a favorite of the captain's and that faculty members using the office know to avoid. The plaque animates both heads to attack any character who moves within 5 feet of it.
 
-While animated, each dragon head has [blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight) out to a range of 30 feet and is blind beyond that distance. On initiative count 20, the black dragon head exhales a glob of acid while the red dragon exhales a fiery missile, each targeting one creature the head can see (+6 to hit). A creature hit by either attack takes 6 (`1d8 + 2`) damage of the appropriate type (acid or fire).
+While animated, each dragon head has [blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight) out to a range of 30 feet and is blind beyond that distance. On initiative count 20, the black dragon head exhales a glob of acid while the red dragon exhales a fiery missile, each targeting one creature the head can see (`+6` to hit). A creature hit by either attack takes 6 (`1d8 + 2`) damage of the appropriate type (acid or fire).
 
 Each head has a speed of 0, AC 16, 25 hit points, and immunity to poison and psychic damage. Their ability scores are as follows: Strength 6, Dexterity 14, Constitution 10, Intelligence 3, Wisdom 3, and Charisma 1.
 
@@ -1009,8 +1004,6 @@ The Phrases table offers some suggestions, but feel free to come up with additio
 
 **Phrases**
 
-`dice: [](1-campus-kerfuffle.md#^phrases)`
-
 | dice: d6 | Phrase |
 |----------|--------|
 | 1 | "Really? In those robes?" |
@@ -1088,7 +1081,7 @@ A student sees the characters and shouts a greeting. Beckoning the characters cl
 > "The festival is all about improv. The drama guild gives out prompts, and anyone who wants can take the stage and deliver their lines however they please. It's hilarious—you've got to come check it out!"
 ^206
 
-![The Rose Stage hosts every...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/063-03-035.webp#center "The Rose Stage hosts everything from intimate poetry readings to grandiose multimedia performances")
+![The Rose Stage hosts everything from intimate poetry readings to grandiose multimedia performances](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/063-03-035.webp#center)
 
 ### The Rose Stage
 
@@ -1183,8 +1176,6 @@ To increase the level of the challenge—and the fun—you might have interested
 
 **Festival Character Prompts**
 
-`dice: [](1-campus-kerfuffle.md#^festival-character-prompts)`
-
 | dice: d12 | Prompt |
 |-----------|--------|
 | 1 | Cowardly monarch |
@@ -1210,8 +1201,6 @@ When a character handles props, allow them to choose the props they like most fr
 Though prop-handling characters have no way to know it, one of the wooden cutout monsters turns into a real owlbear in the next section!
 
 **Festival Props**
-
-`dice: [](1-campus-kerfuffle.md#^festival-props)`
 
 | dice: d8 | Prop |
 |----------|------|
@@ -1241,7 +1230,7 @@ A character might jeer at a performer on the stage. If they taunt a player chara
 
 During the festival, characters might mingle with other students. If there are students the characters wish to earn Relationship Points with, treat this as a Relationship encounter, as described earlier in the chapter. Have players note the results of this encounter on their tracking sheets.
 
-![World-class concerts happe...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/065-03-036-concerts.webp#center "World-class concerts happen regularly on the Rose Stage")
+![World-class concerts happen regularly on the Rose Stage](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/065-03-036-concerts.webp#center)
 
 #### Exit, Pursued by an Owlbear
 
@@ -1284,7 +1273,7 @@ Professor Totsky gives the characters a [flask of holy water](03.PlayerLog&Hando
 
 The day after the incident at the Rose Stage Festival, the characters are scheduled to collect spell components from Sedgemoor and bring those samples back to Professor Lang, who teaches their Magical Physiologies course. This gives them a convenient opportunity to investigate that area on behalf of Professor Totsky.
 
-The characters know that they must pour the flask of holy water given to them by Professor Totsky into an underwater spring somewhere in area S7. Doing so should prevent future flare-ups of the wild magic that tainted the eldritch balm behind all the strange campus mishaps. In addition, they can find [Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md)'s journal, which points to a spellcaster's troublesome meddling, in area S7.
+The characters know that they must pour the [flask of holy water](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-water-flask.md) given to them by Professor Totsky into an underwater spring somewhere in area S7. Doing so should prevent future flare-ups of the wild magic that tainted the eldritch balm behind all the strange campus mishaps. In addition, they can find [Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md)'s journal, which points to a spellcaster's troublesome meddling, in area S7.
 
 When the characters venture into Sedgemoor, read or paraphrase the following to set the scene:
 
@@ -1386,7 +1375,7 @@ If you're running all four adventures in this book as a campaign, a character sp
 
 The journal belonged to the evil [Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md); it slipped out of his pocket while he practiced the corrupting magic that caused this academic year's mishaps. The journal notes that [Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md)'s last step in this scheme involved the Rose Stage Festival, so it's clear he has no more immediate plans to threaten campus. However, this isn't the end of his villainy—the true extent becomes clear in later adventures.
 
-![Strange creatures live in ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/067-03-037-strange-creatures.webp#center "Strange creatures live in the swampy areas of Strixhaven's campus. Sometimes those creatures are dangerous")
+![Strange creatures live in the swampy areas of Strixhaven's campus. Sometimes those creatures are dangerous](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/067-03-037-strange-creatures.webp#center)
 
 #### End of the Year
 

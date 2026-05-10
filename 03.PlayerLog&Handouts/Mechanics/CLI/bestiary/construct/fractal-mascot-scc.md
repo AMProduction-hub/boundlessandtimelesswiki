@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Fractal Mascot
+- "Fractal Mascot"
 ---
-# [Fractal Mascot](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/fractal-mascot-scc.md)
+# [Fractal Mascot](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/fractal-mascot-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 192*  
 
 To an untrained eye, a fractal mascot looks like a creature made from facets of hard light. But arithmancers know that these fractals are actually living equations: artificial life forms created by extrapolating magic from the mathematical patterns in nature.
@@ -42,10 +43,10 @@ Because of their arithmetic basis, fractal mascots can alter both their size and
 "cr": "1/4"
 "traits":
   - "desc": "The fractal can move through creatures and objects as if they were difficult\
-      \ terrain. It takes 5 (d10) force damage if it ends its turn inside an object."
+      \ terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
     "name": "Relative Density"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d4 + 1) force damage, or 6 (2d4 + 1) force damage if the fractal is\
       \ Medium or bigger."
     "name": "Quantum Strike"

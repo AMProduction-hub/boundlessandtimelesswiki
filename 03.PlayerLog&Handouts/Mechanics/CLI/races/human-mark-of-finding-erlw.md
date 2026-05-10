@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/race/human/mark-of-finding
 aliases:
-- Human (Mark of Finding)
+- "Human (Mark of Finding)"
 ---
 # Human (Mark of Finding)
 *Source: Eberron: Rising from the Last War p. 41*  
 
 
-- **Ability Scores**: Constitution +1; Wisdom +2
+- **Ability Scores**: con +1 wis +2
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Wisdom

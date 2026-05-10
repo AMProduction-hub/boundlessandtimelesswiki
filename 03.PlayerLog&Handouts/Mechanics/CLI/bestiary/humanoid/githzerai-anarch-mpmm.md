@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/16
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Githzerai Anarch
+- "Githzerai Anarch"
 ---
-# [Githzerai Anarch](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/githzerai-anarch-mpmm.md)
+# [Githzerai Anarch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githzerai-anarch-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 142, Mordenkainen's Tome of Foes p. 207*  
 
 Anarchs are githzerai sages and mystics who lead communities and maintain the adamantine citadels that serve as strong points in Limbo and on other planes. They have formidable psionic capabilities and are able to manipulate the unformed substance of their adopted plane with a thought.
@@ -46,10 +47,10 @@ Githzerai are otherworldly folk with psionic powers who share an ancestral link 
   - !!int "14"
 "speed": "30 ft., fly 40 ft. (hover)"
 "saves":
-  - "strength": "+8"
-  - "dexterity": "+10"
-  - "intelligence": "+9"
-  - "wisdom": "+10"
+  - "strength": !!int "8"
+  - "dexterity": !!int "10"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "10"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+9"
@@ -69,18 +70,52 @@ Githzerai are otherworldly folk with psionic powers who share an ancestral link 
 "actions":
   - "desc": "The githzerai makes three Unarmed Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 9 (1d8 + 5) bludgeoning damage plus 18 (4d8) psychic damage."
     "name": "Unarmed Strike"
   - "desc": "The githzerai casts one of the following spells, requiring no spell components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 18):\n\nAt will:\
+      \ and using Wisdom as the spellcasting ability (spell save DC 18):\n\n**At will:**\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md) (the\
-      \ hand is invisible)\n\n3/day each: [see invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/see-invisibility.md),\
+      \ hand is invisible)\n\n**3/day each:** [see invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/see-invisibility.md),\
       \ [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)\n\
-      \n1/day each: [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md),\
+      \n**1/day each:** [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md),\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md),\
       \ [wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md)"
     "name": "Spellcasting (Psionics)"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), the anarch can take\
+      \ one of the following lair actions; the anarch can't take the same lair action\
+      \ two rounds in a row:\n\n- **Create Object.** The anarch casts the creation\
+      \ spell (as a 9th-level spell) using the unformed substance of Limbo instead\
+      \ of shadow material. If used in Limbo, the object remains until the anarch's\
+      \ [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
+      \ is broken, regardless of its composition. If the anarch moves more than 120\
+      \ feet from the object, the anarch's [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
+      \ breaks.  \n- **Move Object.** The anarch can magically move an object it can\
+      \ see within 150 feet of it by making a Wisdom check with advantage. The DC\
+      \ depends on the object's size: DC 5 for Tiny, DC 10 for Small, DC 15 for Medium,\
+      \ DC 20 for Large, and DC 25 for Huge or larger.  \n- **Psionic Bolt.** The\
+      \ anarch casts the lightning bolt spell (at 5th level), but the anarch can change\
+      \ the damage type from lightning to cold, fire, psychic, radiant, or thunder.\
+      \ If the spell deals damage other than fire or lightning, it doesn't ignite\
+      \ flammable objects.  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region containing an anarch's lair is warped by its presence, which\
+      \ creates one or more of the following effects:\n\n- **Form Substance.** In\
+      \ Limbo, the anarch can spend 10 minutes stabilizing a 5-mile area centered\
+      \ on it, causing the unformed substance to take whatever inanimate form the\
+      \ anarch chooses. During that process, the anarch determines the shape and composition\
+      \ of the forms created.  \n- **Stabilize Object.** The anarch stabilizes any\
+      \ object created in Limbo and brought to the Material Plane for as long as the\
+      \ anarch remains within 1 mile of it (no action required).  \n\nIf the anarch\
+      \ dies, these effects end after 1d6 rounds. All formed substance becomes a\
+      \ chaotic churn of energy and matter, unraveling into unformed substance that\
+      \ dissipates 1d6 rounds later."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the githzerai anarch can expend a use to take one of the following actions.\
+  \ The githzerai anarch regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The githzerai makes one Unarmed Strike attack."
     "name": "Strike"
@@ -92,41 +127,6 @@ Githzerai are otherworldly folk with psionic powers who share an ancestral link 
       \ effect, except that the githzerai can orient the area in any direction and\
       \ creatures and objects fall toward the end of the area."
     "name": "Change Gravity (Costs 3 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), the anarch can take\
-      \ one of the following lair actions; the anarch can't take the same lair action\
-      \ two rounds in a row:"
-    "name": ""
-  - "desc": "- Create Object. The anarch casts the creation spell (as a 9th-level\
-      \ spell) using the unformed substance of Limbo instead of shadow material. If\
-      \ used in Limbo, the object remains until the anarch's [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-      \ is broken, regardless of its composition. If the anarch moves more than 120\
-      \ feet from the object, the anarch's [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-      \ breaks.  \n- Move Object. The anarch can magically move an object it can\
-      \ see within 150 feet of it by making a Wisdom check with advantage. The DC\
-      \ depends on the object's size: DC 5 for Tiny, DC 10 for Small, DC 15 for Medium,\
-      \ DC 20 for Large, and DC 25 for Huge or larger.  \n- Psionic Bolt. The\
-      \ anarch casts the lightning bolt spell (at 5th level), but the anarch can change\
-      \ the damage type from lightning to cold, fire, psychic, radiant, or thunder.\
-      \ If the spell deals damage other than fire or lightning, it doesn't ignite\
-      \ flammable objects.  "
-    "name": ""
-"regional_effects":
-  - "desc": "The region containing an anarch's lair is warped by its presence, which\
-      \ creates one or more of the following effects:"
-    "name": ""
-  - "desc": "- Form Substance. In Limbo, the anarch can spend 10 minutes stabilizing\
-      \ a 5-mile area centered on it, causing the unformed substance to take whatever\
-      \ inanimate form the anarch chooses. During that process, the anarch determines\
-      \ the shape and composition of the forms created.  \n- Stabilize Object.\
-      \ The anarch stabilizes any object created in Limbo and brought to the Material\
-      \ Plane for as long as the anarch remains within 1 mile of it (no action required).\
-      \  "
-    "name": ""
-  - "desc": "If the anarch dies, these effects end after d6 rounds. All formed substance\
-      \ becomes a chaotic churn of energy and matter, unraveling into unformed substance\
-      \ that dissipates d6 rounds later."
-    "name": ""
 "source":
   - "MPMM"
   - "MTF"

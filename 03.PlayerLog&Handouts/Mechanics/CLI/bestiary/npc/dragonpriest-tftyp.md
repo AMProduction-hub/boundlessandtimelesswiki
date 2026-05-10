@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragonpriest
+- "Dragonpriest"
 ---
-# [Dragonpriest](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/dragonpriest-tftyp.md)
+# [Dragonpriest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/dragonpriest-tftyp.md)
 *Source: Tales from the Yawning Portal p. 16*  
 
 ```statblock
@@ -35,7 +36,8 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Elvish, Draconic"
 "cr": "5"
 "traits":
@@ -48,10 +50,10 @@ aliases:
       \ its turn with 0 hit points and doesn't regenerate."
     "name": "Regeneration"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage."
     "name": "Claw"
 "source":

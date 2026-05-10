@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Appendix A: Diabolical Deals
+- "Appendix A: Diabolical Deals"
 ---
 # Appendix A: Diabolical Deals
 *Source: Baldur's Gate: Descent Into Avernus, p. 212* 
@@ -171,8 +172,6 @@ A devil might be persuaded to void a contract in exchange for one of the followi
 The Contract Forms table has examples of different forms of infernal contracts. The sections that follow the table describe the various contracts and the means by which they can be destroyed and voided.
 
 **Contract Forms**
-
-`dice: [](11-appendix-a-diabolical-deals.md#^contract-forms)`
 
 | dice: d6 | Contract Form |
 |----------|---------------|

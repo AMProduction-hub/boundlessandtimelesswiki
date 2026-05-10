@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/item/gear/
 - ttrpg-cli/item/rarity/none
-aliases: 
+aliases:
 - "Frostfell and Everice Trinket"
 ---
 # Frostfell and Everice Trinket
@@ -14,8 +15,6 @@ aliases:
 
 
 **Trinkets from the Frostfell and Everice**
-
-`dice: [](frostfell-and-everice-trinket-erlw.md#^trinkets-from-the-frostfell-and-everice)`
 
 | dice: d8 | Trinket |
 |----------|---------|

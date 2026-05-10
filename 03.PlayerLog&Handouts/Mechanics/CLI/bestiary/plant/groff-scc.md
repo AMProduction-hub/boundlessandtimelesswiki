@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Groff
+- "Groff"
 ---
-# [Groff](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/groff-scc.md)
+# [Groff](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/groff-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 194*  
 
 Many a Strixhaven student wandering the bayou has stepped on a seemingly mundane patch of moss—only to discover that it was the back of a hungry groff lurking beneath the surface. These shaggy swamp creatures have canine faces and glowing blue eyes, and they are ravenous carnivores—with pest mascots being their favorite food. A handful of more intrepid Witherbloom mages have learned to follow groffs in order to track down pest mascots, but most of these mages have yet to find a way to capture the pests before the groff eats someone.
@@ -39,7 +40,8 @@ Many a Strixhaven student wandering the bayou has stepped on a seemingly mundane
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": ""
 "cr": "4"
 "traits":
@@ -53,10 +55,10 @@ Many a Strixhaven student wandering the bayou has stepped on a seemingly mundane
 "actions":
   - "desc": "The groff makes one Bite attack and one Swamp Claw attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d8 + 5) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d6 + 5) slashing damage. If the target is a Medium or smaller creature,\
       \ it must succeed on a DC 15 Strength saving throw or become engulfed by the\
       \ groff. While engulfed, the target can't breathe, is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\

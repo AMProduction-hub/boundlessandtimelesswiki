@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ghald
+- "Ghald"
 ---
-# [Ghald](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/ghald-pota.md)
+# [Ghald](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ghald-pota.md)
 *Source: Princes of the Apocalypse p. 210*  
 
 Ghald is an 8-foot-tall, four-armed sahuagin who works with a partner, Unferth, for the Kraken Society in Yartar. He's careful not to emerge from his hiding place beneath the docks unless it's dark and rainy, and even then he hides under a bulky cloak. He and Unferth serve as the Kraken Society's top operatives in this part of the North, and specialize in advancing the agenda of the society through theft, intimidation, and assassination.
@@ -38,16 +39,19 @@ When the thieves' guild known as the Hand of Yartar comes into possession of a p
   - !!int "17"
 "speed": "30 ft., swim 50 ft."
 "saves":
-  - "dexterity": "+6"
-  - "constitution": "+6"
-  - "intelligence": "+5"
-  - "wisdom": "+4"
+  - "dexterity": !!int "6"
+  - "constitution": !!int "6"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+4"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
-"senses": "darkvision 120 ft., passive Perception 17"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 17"
 "languages": "Common, Sahuagin"
 "cr": "7"
 "traits":
@@ -69,14 +73,14 @@ When the thieves' guild known as the Hand of Yartar comes into possession of a p
 "actions":
   - "desc": "Ghald makes three attacks, one with his bite and two with his shortswords."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:*\
       \ 9 (2d4 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:*\
       \ 11 (2d6 + 4) piercing damage."
     "name": "Shortsword"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one Medium or Small\
-      \ creature against which Ghald has advantage on the attack roll. Hit: 9 (2d4\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one Medium or Small\
+      \ creature against which Ghald has advantage on the attack roll. *Hit:* 9 (2d4\
       \ + 4) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15). Until the grapple ends, the target can't breathe, and Ghald\
       \ has advantage on attack rolls against it."

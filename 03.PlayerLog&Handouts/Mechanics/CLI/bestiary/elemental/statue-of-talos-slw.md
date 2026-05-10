@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/slw
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Statue of Talos
+- "Statue of Talos"
 ---
-# [Statue of Talos](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/statue-of-talos-slw.md)
+# [Statue of Talos](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/statue-of-talos-slw.md)
 *Source: Storm Lord's Wrath*  
 
 ```statblock
@@ -33,7 +34,7 @@ aliases:
   - !!int "9"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "wisdom": "+4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
@@ -43,7 +44,8 @@ aliases:
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Terran"
 "cr": "10"
 "traits":
@@ -54,10 +56,10 @@ aliases:
   - "desc": "The statue makes five attacks: one with its headbutt and four with its\
       \ lightning bolt blades."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) piercing damage."
     "name": "Headbutt"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d4 + 4) slashing damage."
     "name": "Lightning Bolt Blades"
 "source":

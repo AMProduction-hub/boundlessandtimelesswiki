@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 aliases:
-- Sins of Our Elders
+- "Sins of Our Elders"
 ---
 # Sins of Our Elders
 *Source: Journeys through the Radiant Citadel, p. 78* 
@@ -62,7 +63,7 @@ Consider the following ways to involve characters in this adventure:
 
 ## Cycle of Dread
 
-![Monsters and wild beasts m...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/050-06-001-monsters-and-wild-beasts.webp#center "Monsters and wild beasts mysteriously appear to menace the people of Yeonido")
+![Monsters and wild beasts mysteriously appear to menace the people of Yeonido](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/050-06-001-monsters-and-wild-beasts.webp#center)
 
 A bitter spirit and strict local traditions trap Yeonido in a cycle of quiet suffering. While spirits called gwishin are well known among the city's populace, social mores prevent people from speaking openly about their dead ancestors. One vengeful gwishin takes advantage of this custom to torment the city.
 
@@ -357,7 +358,7 @@ If the characters try to convince [Young-Gi](03.PlayerLog&Handouts/Mechanics/CLI
 
 ## Lingering Memories
 
-![From the Park of the Elder...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/055-06-004-park-of-the-elders.webp#center "From the Park of the Elders, Dae Won-Ha's spirit spreads her influence across the city that forgot her")
+![From the Park of the Elders, Dae Won-Ha's spirit spreads her influence across the city that forgot her](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/055-06-004-park-of-the-elders.webp#center)
 
 Once the characters have visited some of the sites above, they'll likely learn the name Dae Won-Ha or [Young-Gi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/young-gi-jttrc.md), but they might not discover who these individuals are or how they relate to the city's past.
 
@@ -516,8 +517,6 @@ The story of Yeonido's origins is often accompanied by the cautionary tale of th
 Consider the plots on the Yeonido Adventures table when planning adventures in Yeonido.
 
 **Yeonido Adventures**
-
-`dice: [](07-sins-of-our-elders.md#^yeonido-adventures)`
 
 | dice: d8 | Adventure |
 |----------|-----------|

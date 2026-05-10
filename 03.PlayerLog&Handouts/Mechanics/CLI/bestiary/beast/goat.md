@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -13,10 +14,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Goat
+- "Goat"
 ---
-# [Goat](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/goat.md)
-*Source: Monster Manual p. 330, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Goat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/goat.md)
+*Source: Monster Manual p. 330. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Goat"
@@ -40,7 +41,7 @@ aliases:
 "cr": "0"
 "traits":
   - "desc": "If the goat moves at least 20 feet straight toward a target and then\
-      \ hits it with a ram attack on the same turn, the target takes an extra 2 (d4)\
+      \ hits it with a ram attack on the same turn, the target takes an extra 2 (1d4)\
       \ bludgeoning damage. If the target is a creature, it must succeed on a DC 10\
       \ Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Charge"
@@ -48,19 +49,11 @@ aliases:
       \ effects that would knock it [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Sure-Footed"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d4 + 1) bludgeoning damage."
     "name": "Ram"
 "source":
   - "MM"
-  - "CoS"
-  - "PotA"
-  - "SKT"
-  - "ToA"
-  - "WDMM"
-  - "GoS"
-  - "BGDIA"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/goat.webp"
 ```
 ^statblock

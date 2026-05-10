@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Kruphix's Monsters
+- "Kruphix's Monsters"
 ---
 # Kruphix's Monsters
 *Source: Mythic Odysseys of Theros p. 148* 

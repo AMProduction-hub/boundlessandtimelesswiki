@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Wild Magic Surge
+- "Wild Magic Surge"
 ---
 # Wild Magic Surge
 *Source: Player's Handbook p. 103. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)* 
 
 **Wild Magic Surge**
-
-`dice: [](wild-magic-surge-phb.md#^wild-magic-surge)`
 
 | dice: d100 | Effect |
 |------------|--------|
@@ -33,7 +32,7 @@ aliases:
 | 31-32 | You are transported to the Astral Plane until the end of your next turn, after which time you return to the space you previously occupied or the nearest unoccupied space if that space is occupied. |
 | 33-34 | Maximize the damage of the next damaging spell you cast within the next minute. |
 | 35-36 | Roll a `d10`. Your age changes by a number of years equal to the roll. If the roll is odd, you get younger (minimum 1 year old). If the roll is even, you get older. |
-| 37-38 | `d6` [flumphs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/flumph.md) controlled by the DM appear in unoccupied spaces within 60 feet of you and are [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) of you. They vanish after 1 minute. |
+| 37-38 | `1d6` [flumphs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/flumph.md) controlled by the DM appear in unoccupied spaces within 60 feet of you and are [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) of you. They vanish after 1 minute. |
 | 39-40 | You regain `2d10` hit points. |
 | 41-42 | You turn into a potted plant until the start of your next turn. While a plant, you are [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) and have vulnerability to all damage. If you drop to 0 hit points, your pot breaks, and your form reverts. |
 | 43-44 | For the next minute, you can teleport up to 20 feet as a bonus action on each of your turns. |
@@ -51,12 +50,12 @@ aliases:
 | 67-68 | You are [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) by the nearest creature until the end of your next turn. |
 | 69-70 | Each creature within 30 feet of you becomes [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) for the next minute. The invisibility ends on a creature when it attacks or casts a spell. |
 | 71-72 | You gain resistance to all damage for the next minute. |
-| 73-74 | A random creature within 60 feet of you becomes [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for `d4` hours. |
+| 73-74 | A random creature within 60 feet of you becomes [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for `1d4` hours. |
 | 75-76 | You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) until the end of its next turn. |
 | 77-78 | You cast [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md) on yourself. If you fail the saving throw, you turn into a sheep for the spell's duration. |
 | 79-80 | Illusory butterflies and flower petals flutter in the air within 10 feet of you for the next minute. |
 | 81-82 | You can take one additional action immediately. |
-| 83-84 | Each creature within 30 feet of you takes `d10` necrotic damage. You regain hit points equal to the sum of the necrotic damage dealt. |
+| 83-84 | Each creature within 30 feet of you takes `1d10` necrotic damage. You regain hit points equal to the sum of the necrotic damage dealt. |
 | 85-86 | You cast [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md). |
 | 87-88 | You cast [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md) on a random creature within 60 feet of you. |
 | 89-90 | You become [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) for the next minute. During that time, other creatures can't hear you. The invisibility ends if you attack or cast a spell. |

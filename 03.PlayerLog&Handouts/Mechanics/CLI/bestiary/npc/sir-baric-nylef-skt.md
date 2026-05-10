@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sir Baric Nylef
+- "Sir Baric Nylef"
 ---
-# [Sir Baric Nylef](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sir-baric-nylef-skt.md)
+# [Sir Baric Nylef](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sir-baric-nylef-skt.md)
 *Source: Storm King's Thunder p. 249*  
 
 As a knight of the Order of the Gauntlet, Sir Baric has sworn oaths to catch evildoers and bring them to justice. His current quarry is a dwarf brigand, Worvil "the Weevil" Forkbeard, who is rumored to be hiding in Icewind Dale. In addition to his gear, Sir Baric has an unarmored warhorse, Henry.
@@ -50,6 +51,9 @@ Flaw:"I'm not afraid to die. When Tyr finally calls me, I'll go to him happily."
     "desc": "+4"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+4"
+"gear":
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
+  - "[maul](03.PlayerLog&Handouts/Mechanics/CLI/items/maul.md)"
 "senses": "passive Perception 12"
 "languages": "Common"
 "traits":
@@ -64,11 +68,11 @@ Flaw:"I'm not afraid to die. When Tyr finally calls me, I'll go to him happily."
       Flaw: \"I'm not afraid to die. When Tyr finally calls me, I'll go to him happily.\""
     "name": "Roleplaying Information"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage."
     "name": "Maul"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit:\
-      \ 5 (d10) piercing damage. Baric carries twenty crossbow bolts."
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 100/400 ft., one target. *Hit:*\
+      \ 5 (1d10) piercing damage. Baric carries twenty crossbow bolts."
     "name": "Heavy Crossbow"
 "source":
   - "SKT"

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Backstory; Menagerie Coast Settlements
+- "Backstory; Menagerie Coast Settlements"
 ---
 # Backstory; Menagerie Coast Settlements
 *Source: Explorer's Guide to Wildemount p. 191* 
 
 **Menagerie Coast Settlements**
-
-`dice: [](backstory-menagerie-coast-settlements-egw.md#^menagerie-coast-settlements)`
 
 | dice: d100 | Settlement Name | Type |
 |------------|-----------------|------|

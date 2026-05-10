@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Krull
+- "Krull"
 ---
-# [Krull](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/krull-bgdia.md)
+# [Krull](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/krull-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 110*  
 
 ```statblock
@@ -34,8 +35,8 @@ aliases:
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+8"
-  - "charisma": "+4"
+  - "wisdom": !!int "8"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+4"
@@ -45,42 +46,44 @@ aliases:
     "desc": "+4"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+8"
+"gear":
+  - "[+1 maul](03.PlayerLog&Handouts/Mechanics/CLI/items/1-weapon.md)"
 "senses": "passive Perception 15"
 "languages": "Aquan, Common, Draconic"
 "cr": "6"
 "traits":
   - "desc": "Krull is a 14th-level spellcaster. His spellcasting ability is Wisdom\
       \ (spell save DC 16, +8 to hit with spell attacks). He has the following cleric\
-      \ spells prepared:\n\nCantrips (at will): [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md),\
+      \ spells prepared:\n\n**Cantrips (at will):** [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md),\
       \ [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md), [resistance](03.PlayerLog&Handouts/Mechanics/CLI/spells/resistance.md),\
       \ [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
       \ [spare the dying](03.PlayerLog&Handouts/Mechanics/CLI/spells/spare-the-dying.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
+      \n**1st level (4 slots):** [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
       \ [false life](03.PlayerLog&Handouts/Mechanics/CLI/spells/false-life.md), [inflict\
       \ wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/inflict-wounds.md), [ray\
       \ of sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md)\n\
-      \n2nd level (3 slots): [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
+      \n**2nd level (3 slots):** [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
       \ [gentle repose](03.PlayerLog&Handouts/Mechanics/CLI/spells/gentle-repose.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [ray of enfeeblement](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-enfeeblement.md),\
       \ [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md)\n\
-      \n3rd level (3 slots): [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
+      \n**3rd level (3 slots):** [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [magic circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-circle.md),\
       \ [speak with dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md),\
       \ [spirit guardians](03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-guardians.md),\
       \ [vampiric touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/vampiric-touch.md)\n\
-      \n4th level (3 slots): [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \n**4th level (3 slots):** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md), [death ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/death-ward.md),\
       \ [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md), [locate\
       \ creature](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-creature.md)\n\
-      \n5th level (2 slots): [antilife shell](03.PlayerLog&Handouts/Mechanics/CLI/spells/antilife-shell.md),\
+      \n**5th level (2 slots):** [antilife shell](03.PlayerLog&Handouts/Mechanics/CLI/spells/antilife-shell.md),\
       \ [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md), [contagion](03.PlayerLog&Handouts/Mechanics/CLI/spells/contagion.md),\
       \ [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md)\n\
-      \n6th level (1 slots): [create undead](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-undead.md),\
+      \n**6th level (1 slots):** [create undead](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-undead.md),\
       \ [true seeing](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-seeing.md)\n\
-      \n7th level (1 slots): [divine word](03.PlayerLog&Handouts/Mechanics/CLI/spells/divine-word.md),\
+      \n**7th level (1 slots):** [divine word](03.PlayerLog&Handouts/Mechanics/CLI/spells/divine-word.md),\
       \ [regenerate](03.PlayerLog&Handouts/Mechanics/CLI/spells/regenerate.md)"
     "name": "Spellcasting"
   - "desc": "Krull can hold his breath for 1 hour."
@@ -89,10 +92,10 @@ aliases:
       \ damage."
     "name": "Inescapable Destruction"
 "actions":
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d4 + 5) piercing damage."
     "name": "Claws"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d6 + 6) bludgeoning damage plus 9 (2d8) necrotic damage."
     "name": "+1 Maul"
   - "desc": "Krull withdraws into his shell. Until he emerges as a bonus action, he\

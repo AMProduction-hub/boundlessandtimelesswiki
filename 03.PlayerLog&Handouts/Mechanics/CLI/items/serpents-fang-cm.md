@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/item/rarity/rare
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
-aliases: 
+aliases:
 - "Serpent's Fang"
 ---
 # Serpent's Fang
@@ -19,6 +20,6 @@ aliases:
 - **Properties**: [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Weight**: 3.0 lbs.
 
-This single-edged magic sword is made from the scrimshawed fang of a giant serpent. Its hilt changes shape to adjust to the grasp of any creature that picks it up. The weapon deals an extra `d10` poison damage to any target it hits.
+This single-edged magic sword is made from the scrimshawed fang of a giant serpent. Its hilt changes shape to adjust to the grasp of any creature that picks it up. The weapon deals an extra `1d10` poison damage to any target it hits.
 
 *Source: Candlekeep Mysteries p. 98*

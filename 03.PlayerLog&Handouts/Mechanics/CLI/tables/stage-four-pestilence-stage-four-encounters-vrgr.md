@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Stage Four: Pestilence; Stage Four Encounters
+- "Stage Four: Pestilence; Stage Four Encounters"
 ---
 # Stage Four: Pestilence; Stage Four Encounters
 *Source: Van Richten's Guide to Ravenloft p. 155* 
 
 **Stage Four Encounters**
-
-`dice: [](stage-four-pestilence-stage-four-encounters-vrgr.md#^stage-four-encounters)`
 
 | dice: d6 | Encounter |
 |----------|-----------|

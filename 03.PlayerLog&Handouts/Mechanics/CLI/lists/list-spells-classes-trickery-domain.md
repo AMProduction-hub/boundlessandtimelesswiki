@@ -1,22 +1,23 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/trickery-domain
 aliases:
-- Spells for Trickery Domain
+- "Spells for Trickery Domain"
 ---
 # Spells for Trickery Domain
 
 ## 1st Level
 
-- [Charm Person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md "PHB") at class level 5
-- [Disguise Self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md "PHB") at class level 5
+- [Charm Person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md "PHB")
+- [Disguise Self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md "PHB")
 
 ## 2nd Level
 
-- [Mirror Image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md "PHB") at class level 5
-- [Pass without Trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md "PHB") at class level 5
+- [Mirror Image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md "PHB") at class level 3
+- [Pass without Trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md "PHB") at class level 3
 
 ## 3rd Level
 
@@ -25,10 +26,10 @@ aliases:
 
 ## 4th Level
 
-- [Dimension Door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md "PHB") at class level 5
-- [Polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md "PHB") at class level 5
+- [Dimension Door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md "PHB") at class level 7
+- [Polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md "PHB") at class level 7
 
 ## 5th Level
 
-- [Dominate Person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md "PHB") at class level 5
-- [Modify Memory](03.PlayerLog&Handouts/Mechanics/CLI/spells/modify-memory.md "PHB") at class level 5
+- [Dominate Person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md "PHB") at class level 9
+- [Modify Memory](03.PlayerLog&Handouts/Mechanics/CLI/spells/modify-memory.md "PHB") at class level 9

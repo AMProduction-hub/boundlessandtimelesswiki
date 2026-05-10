@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 aliases:
-- Credits
+- "Credits"
 ---
 # Credits
 *Source: Keys from the Golden Vault* 
@@ -41,5 +42,8 @@ aliases:
 ![](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/credits.webp#center)
 
 > [!gallery]
-> ![On the Cover: Daring thiev...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/credits2.webp#gallery "On the Cover: Daring thieves infiltrate a conservatory to steal a magical instrument, unaware of the evil that awaits them. Illustrator Anna Podedworna gives us a glimpse of the danger.")
-> ![On the Cover: The Golden V...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/credits3.webp#gallery "On the Cover: The Golden Vault is your gateway to adventure. Simen Meyer shows us the door to this vault, but not the treasure within. That you must discover for yourself!")
+> ![On the Cover: Daring thieves infiltrate a conservatory to steal a magical instrument, unaware of the evil that awaits them. Illustrator Anna Podedworna gives us a glimpse of the danger.](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/credits2.webp#gallery)
+> ![On the Cover: The Golden Vault is your gateway to adventure. Simen Meyer shows us the door to this vault, but not the treasure within. That you must discover for yourself!](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/credits3.webp#gallery)
+
+> [!note]
+> Disclaimer: The Golden Vault cannot be held responsible for the infiltration of any property by burglars or any other acquisition experts, or for the purloinment of any belongings, regardless of their worth or current ownership status. The Golden Vault disavows any individuals who claim association with the organization, which is legally nonexistent. Any individuals who swindle, manipulate, take advantage of, or otherwise harm innocents are subject to the Golden Vault's legally imaginary scrutiny.

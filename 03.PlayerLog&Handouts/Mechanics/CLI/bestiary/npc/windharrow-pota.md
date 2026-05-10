@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Windharrow
+- "Windharrow"
 ---
-# [Windharrow](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/windharrow-pota.md)
+# [Windharrow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/windharrow-pota.md)
 *Source: Princes of the Apocalypse p. 192*  
 
 An opportunistic half-moon elf rake and bandit formerly known as Harald Grayspear, Windharrow was given his new name by Aerisi Kalinoth. When Aerisi was still with her family, Harald charmed and flattered his way into her favor. When Aerisi ran away from home to become the air prophet, she took Windharrow with her.
@@ -50,23 +51,26 @@ Windharrow is loyal to Aerisi Kalinoth as long as he fears her power. If his lif
     "desc": "+7"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Auran, Common, Elvish"
 "cr": "3"
 "traits":
   - "desc": "Windharrow is an 8th-level spellcaster. His spellcasting ability is Charisma\
       \ (spell save DC 13, +5 to hit with spell attacks). Windharrow knows the following\
-      \ bard spells:\n\nCantrips (at will): [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md),\
+      \ bard spells:\n\n**Cantrips (at will):** [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [vicious mockery](03.PlayerLog&Handouts/Mechanics/CLI/spells/vicious-mockery.md)\n\
-      \n1st level (4 slots): [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
+      \n**1st level (4 slots):** [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [dissonant whispers](03.PlayerLog&Handouts/Mechanics/CLI/spells/dissonant-whispers.md),\
       \ [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \n**2nd level (3 slots):** [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [shatter](03.PlayerLog&Handouts/Mechanics/CLI/spells/shatter.md), [silence](03.PlayerLog&Handouts/Mechanics/CLI/spells/silence.md)\n\
-      \n3rd level (3 slots): [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md),\
+      \n**3rd level (3 slots):** [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md),\
       \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md), [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\
-      \n4th level (2 slots): [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
+      \n**4th level (2 slots):** [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
       \ [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md)"
     "name": "Spellcasting"
   - "desc": "Windharrow has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
@@ -75,7 +79,7 @@ Windharrow is loyal to Aerisi Kalinoth as long as he fears her power. If his lif
 "actions":
   - "desc": "Windharrow makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 7 (1d8 + 3) piercing damage."
     "name": "Rapier"
 "source":

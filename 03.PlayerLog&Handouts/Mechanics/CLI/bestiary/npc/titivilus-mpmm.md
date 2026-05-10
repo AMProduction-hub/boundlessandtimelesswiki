@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/16
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Titivilus
+- "Titivilus"
 ---
-# [Titivilus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/titivilus-mpmm.md)
+# [Titivilus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/titivilus-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 242, Mordenkainen's Tome of Foes p. 179*  
 
 Dispater, the gloomy Lord of Dis, rules from his iron palace, seeming to hide behind its labyrinthine corridors, iron walls, diabolical traps, and monstrous servants. Knowing he has enemies on all sides and fearing he'll be displaced like Moloch, Geryon, and so many others, he almost never travels farther than the sprawling city that lies outside his palace.
@@ -44,10 +45,10 @@ Titivilus recognizes the precariousness of his position. After all, Dispater's a
   - !!int "26"
 "speed": "40 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+11"
-  - "constitution": "+8"
-  - "wisdom": "+11"
-  - "charisma": "+13"
+  - "dexterity": !!int "11"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "11"
+  - "charisma": !!int "13"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+13"
@@ -64,7 +65,8 @@ Titivilus recognizes the precariousness of his position. After all, Dispater's a
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "all, telepathy 120 ft."
 "cr": "16"
 "traits":
@@ -84,7 +86,7 @@ Titivilus recognizes the precariousness of his position. After all, Dispater's a
 "actions":
   - "desc": "Titivilus makes one Silver Sword attack, and he uses Frightful Word."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) force damage, or 9 (1d10 + 4) force damage if used with two\
       \ hands, plus 16 (3d10) necrotic damage. If the target is a creature, its\
       \ hit point maximum is reduced by an amount equal to half the necrotic damage\
@@ -111,14 +113,17 @@ Titivilus recognizes the precariousness of his position. After all, Dispater's a
       \ Words for 24 hours."
     "name": "Twisting Words"
   - "desc": "Titivilus casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 21):\n\nAt\
-      \ will: [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 21):\n\n**At\
+      \ will:** [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
       \ [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md),\
       \ [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md),\
       \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md), [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\
-      \n3/day each: [mislead](03.PlayerLog&Handouts/Mechanics/CLI/spells/mislead.md),\
+      \n**3/day each:** [mislead](03.PlayerLog&Handouts/Mechanics/CLI/spells/mislead.md),\
       \ [modify memory](03.PlayerLog&Handouts/Mechanics/CLI/spells/modify-memory.md)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Titivilus can expend a use to take one of the following actions. Titivilus\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Titivilus uses Twisting Words. Alternatively, he targets one creature\
       \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\

@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Character Options
+- "Character Options"
 ---
 # Character Options
 *Source: Explorer's Guide to Wildemount, p. 161* 
 
-![Wizards who master the art...](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/082-04-01.webp#center "Wizards who master the art of dunamancy have infinite worlds and possibilities at their fingertips")
+![Wizards who master the art of dunamancy have infinite worlds and possibilities at their fingertips](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/082-04-01.webp#center)
 
 > [!quote] A quote from Sunbreaker Olomon  
 > 
@@ -521,7 +522,7 @@ This section presents a sampling of spells developed through the manipulation of
 
     [immovable object](03.PlayerLog&Handouts/Mechanics/CLI/spells/immovable-object-egw.md)** (transmutation)  
 
-    [wristpocket](03.PlayerLog&Handouts/Mechanics/CLI/spells/wristpocket-egw.md) (conjuration, ritual)  
+    [Wristpocket](03.PlayerLog&Handouts/Mechanics/CLI/spells/wristpocket-egw.md) (conjuration, ritual)  
 - **Level 3.** [pulse wave](03.PlayerLog&Handouts/Mechanics/CLI/spells/pulse-wave-egw.md) (evocation)  
 - **Level 4.** [gravity sinkhole](03.PlayerLog&Handouts/Mechanics/CLI/spells/gravity-sinkhole-egw.md)** (evocation)  
 - **Level 5.** [temporal shunt](03.PlayerLog&Handouts/Mechanics/CLI/spells/temporal-shunt-egw.md)* (transmutation)  
@@ -779,9 +780,9 @@ If the characters are completing their goals too quickly, remember that it's mor
 
 Each time a character completes one of their three prophecy goals, they gain a reward of the DM's determination. Any of the following rewards are suitable for completing a goal, or the DM might decide on unique rewards of the same general level:
 
-- For the next `d10` days, the character gains inspiration whenever they finish a long rest.  
-- For the next `d10` days, the character has advantage on saving throws to avoid being [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened).  
-- For the next `d4` days, the character's weapon attacks deal an extra `d6` damage of the weapon's type.  
+- For the next `1d10` days, the character gains inspiration whenever they finish a long rest.  
+- For the next `1d10` days, the character has advantage on saving throws to avoid being [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened).  
+- For the next `1d4` days, the character's weapon attacks deal an extra `1d6` damage of the weapon's type.  
 
 ### Backgrounds
 

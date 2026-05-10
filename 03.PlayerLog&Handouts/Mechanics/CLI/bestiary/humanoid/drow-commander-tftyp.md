@@ -1,24 +1,25 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/5
 - ttrpg-cli/monster/size/medium
-- ttrpg-cli/monster/type/humanoid/elf
+- ttrpg-cli/monster/type/humanoid/drow-elf
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Drow Commander
+- "Drow Commander"
 ---
-# [Drow Commander](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/drow-commander-tftyp.md)
+# [Drow Commander](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-commander-tftyp.md)
 *Source: Tales from the Yawning Portal p. 209*  
 
 ```statblock
 "name": "Drow Commander (TftYP)"
 "size": "Medium"
 "type": "humanoid"
-"subtype": "elf"
+"subtype": "Drow elf"
 "alignment": "Neutral Evil"
 "ac": !!int "18"
 "ac_class": "[studded leather](03.PlayerLog&Handouts/Mechanics/CLI/items/studded-leather-armor.md),\
@@ -35,31 +36,35 @@ aliases:
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+7"
-  - "constitution": "+5"
-  - "wisdom": "+4"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+10"
-"senses": "darkvision 120 ft., passive Perception 14"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 14"
 "languages": "Elvish, Undercommon"
 "cr": "5"
 "traits":
   - "desc": "The drow's spellcasting ability is Charisma (spell save DC 12). It can\
       \ innately cast the following spells, requiring no material components:\n\n\
-      At will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
-      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      **At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
+      \n**1/day each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
       \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md) (self only)"
     "name": "Innate Spellcasting"
-  - "desc": "The drow carries three magical bolts, as follows:\n\n- A bolt of holding,\
+  - "desc": "The drow carries three magical bolts, as follows:\n\n- A *bolt of holding*,\
       \ which casts [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md)\
       \ on a target hit with the bolt, as well as up to two other targets within 30\
-      \ feet of that target  \n- A bolt of blinding, which casts [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md)\
+      \ feet of that target  \n- A *bolt of blinding*, which casts [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md)\
       \ to blind on a target hit with the bolt, as well as up to two other targets\
-      \ within 30 feet of that target  \n- A bolt of vapors, which casts [stinking\
+      \ within 30 feet of that target  \n- A *bolt of vapors*, which casts [stinking\
       \ cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/stinking-cloud.md) centered\
       \ on the point it hits  \n\nEach of these effects has a spell save DC of 15\
       \ and a duration of 1 minute."
@@ -74,10 +79,10 @@ aliases:
 "actions":
   - "desc": "The drow makes two shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d6 + 6) piercing damage plus 10 (3d6) poison damage."
     "name": "Shortsword +2"
-  - "desc": "Ranged Weapon Attack: +8 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +8 to hit, range 30/120 ft., one target. *Hit:*\
       \ 8 (1d6 + 5) piercing damage, and the target must succeed on a DC 13 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 hour. If the saving throw fails by 5 or more, the target is also [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\

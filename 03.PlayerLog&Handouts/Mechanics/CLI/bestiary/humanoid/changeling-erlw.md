@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/1-2
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Changeling
+- "Changeling"
 ---
-# [Changeling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/changeling-erlw.md)
+# [Changeling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/changeling-erlw.md)
 *Source: Eberron: Rising from the Last War p. 317*  
 
 Changelings are a humanoid race of shapechangers who conceal their true identities behind false faces. Their gifts of mimicry allow them to appear as members of any humanoid culture, playing the part of a dwarf one day and a dragonborn the next. Although changelings can adopt any guise, most rely on a few established personas, each with a developed history and a network of friends and acquaintances.
@@ -47,6 +48,8 @@ Changelings are a humanoid race of shapechangers who conceal their true identiti
     "desc": "+2"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+5"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Dwarvish, Elvish, Halfling, Thieves' cant"
 "cr": "1/2"
@@ -59,8 +62,8 @@ Changelings are a humanoid race of shapechangers who conceal their true identiti
 "actions":
   - "desc": "The changeling makes two attacks with its dagger."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
   - "desc": "Each creature within 30 feet of the changeling must succeed on a DC 13\
       \ Wisdom saving throw or be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\

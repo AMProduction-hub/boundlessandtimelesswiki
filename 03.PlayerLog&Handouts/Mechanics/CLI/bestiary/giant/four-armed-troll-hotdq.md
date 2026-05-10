@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/hotdq
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Four-Armed Troll
+- "Four-Armed Troll"
 ---
-# [Four-Armed Troll](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/four-armed-troll-hotdq.md)
+# [Four-Armed Troll](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/four-armed-troll-hotdq.md)
 *Source: Hoard of the Dragon Queen p. 65, Tyranny of Dragons p. 81*  
 
 Sometimes when a troll loses a limb, it regenerates two limbs to replace the one it lost. This can result in trolls with multiple arms. A four-armed troll uses the troll stat block, except that it is a Challenge Rating 6 monster (2,300 XP) and has alternate action options to suit.
@@ -37,7 +38,8 @@ Sometimes when a troll loses a limb, it regenerates two limbs to replace the one
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Giant"
 "cr": "6"
 "traits":
@@ -54,10 +56,10 @@ Sometimes when a troll loses a limb, it regenerates two limbs to replace the one
       \ its claws. If two or more claws hit the same target, the troll rends the target,\
       \ dealing an extra 2d6 slashing damage."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage."
     "name": "Claw"
 "source":

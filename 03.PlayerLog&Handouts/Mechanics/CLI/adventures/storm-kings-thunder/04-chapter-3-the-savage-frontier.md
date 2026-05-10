@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 aliases:
-- Chapter 3: The Savage Frontier
+- "Chapter 3: The Savage Frontier"
 ---
 # Chapter 3: The Savage Frontier
 *Source: Storm King's Thunder, p. 63* 
@@ -193,11 +194,11 @@ If this encounter occurs at sea, the characters encounter a pirate captain (use 
 
 #### Treasure
 
-Each bandit carries a pouch containing `d10` gp. The bandit captain's pouch holds `2d10` gp and `d6` gems worth 100 gp each.
+Each bandit carries a pouch containing `1d10` gp. The bandit captain's pouch holds `2d10` gp and `1d6` gems worth 100 gp each.
 
 ### Battlefield
 
-The characters discover the corpses of `3d10` Uthgardt barbarians and `d4` frost giants. The barbarians and giants appear to have killed one another within the past week. Carrion birds and one or two [wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wolf.md) pick at the corpses and flee if they are startled or attacked.
+The characters discover the corpses of `3d10` Uthgardt barbarians and `1d4` frost giants. The barbarians and giants appear to have killed one another within the past week. Carrion birds and one or two [wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wolf.md) pick at the corpses and flee if they are startled or attacked.
 
 ### Cloud Castle
 
@@ -250,7 +251,7 @@ If this encounter occurs at sea, the characters encounter `3d6` friendly [sea el
 
 ### Fire Giant
 
-A [fire giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/fire-giant.md) is searching for lost fragments of the Vonindod. The giant carries a [rod of the Vonindod](03.PlayerLog&Handouts/Mechanics/CLI/items/rod-of-the-vonindod-skt.md) (see appendix B), and `1d4 + 2` [smoke mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/smoke-mephit.md) are fluttering around it. The giant is frustrated because weeks of searching have yielded nothing of value. If it spots the adventurers, it puts away the rod and begins hurling rocks at them to alleviate its boredom and frustration. The mephits follow the giants' commands to the best of their ability, though they loathe melee combat. On subsequent occurrences of this encounter, you can replace the mephits with `d2` [hell hounds](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hell-hound.md), `d2` [fire elementals](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-elemental.md), or `1d4 + 2` [magmins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/magmin.md).
+A [fire giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/fire-giant.md) is searching for lost fragments of the Vonindod. The giant carries a [rod of the Vonindod](03.PlayerLog&Handouts/Mechanics/CLI/items/rod-of-the-vonindod-skt.md) (see appendix B), and `1d4 + 2` [smoke mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/smoke-mephit.md) are fluttering around it. The giant is frustrated because weeks of searching have yielded nothing of value. If it spots the adventurers, it puts away the rod and begins hurling rocks at them to alleviate its boredom and frustration. The mephits follow the giants' commands to the best of their ability, though they loathe melee combat. On subsequent occurrences of this encounter, you can replace the mephits with `1d2` [hell hounds](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hell-hound.md), `1d2` [fire elementals](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-elemental.md), or `1d4 + 2` [magmins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/magmin.md).
 
 #### Treasure
 
@@ -258,11 +259,11 @@ The fire giant has a sack containing `3d6 × 100` cp, `2d6 × 100` sp, `1d6 × 1
 
 ### Food Hunters
 
-A male [hill giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/hill-giant.md) is looking for food, stuffing anything that looks even remotely edible into a big sack that he drags behind him. Lagging a few hundred feet behind the giant are `d4` bored [ogres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md) and `d6` [bugbears](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bugbear.md). Characters spot the giant from far enough away that they can plan an ambush. For an ambush to succeed, the characters must catch the monsters by surprise by succeeding on a group DC 10 Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)) check. The ogres and bugbears carry no treasure. The hill giant's sack contains `d4` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
+A male [hill giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/hill-giant.md) is looking for food, stuffing anything that looks even remotely edible into a big sack that he drags behind him. Lagging a few hundred feet behind the giant are `1d4` bored [ogres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md) and `1d6` [bugbears](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bugbear.md). Characters spot the giant from far enough away that they can plan an ambush. For an ambush to succeed, the characters must catch the monsters by surprise by succeeding on a group DC 10 Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)) check. The ogres and bugbears carry no treasure. The hill giant's sack contains `1d4` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
 
 ### Frost Giants
 
-The characters come upon `d3` [frost giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/frost-giant.md). If a single giant is encountered, it has a [winter wolf](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/winter-wolf.md) companion. The giants are marauders looking for homesteads or caravans to wreck and plunder.
+The characters come upon `1d3` [frost giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/frost-giant.md). If a single giant is encountered, it has a [winter wolf](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/winter-wolf.md) companion. The giants are marauders looking for homesteads or caravans to wreck and plunder.
 
 #### Sea
 
@@ -274,11 +275,11 @@ Each frost giant has a sack containing `3d6 × 100` cp, `2d6 × 100` sp, `1d6 ×
 
 ### Hill Giants
 
-A band of `1d2 + 1` male [hill giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/hill-giant.md) is searching for homesteads to pillage. The giants hurl rocks at any small folk they see. If the giants are anywhere near Grudd Haug (see chapter 5, "Den of the Hill Giants"), the characters might be able to convince a defeated, captured giant to lead them there. Each giant carries a sack holding `d3` mundane items; roll on the Items in a Giant's Bag table in the introduction to determine the contents of each one.
+A band of `1d2 + 1` male [hill giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/hill-giant.md) is searching for homesteads to pillage. The giants hurl rocks at any small folk they see. If the giants are anywhere near Grudd Haug (see chapter 5, "Den of the Hill Giants"), the characters might be able to convince a defeated, captured giant to lead them there. Each giant carries a sack holding `1d3` mundane items; roll on the Items in a Giant's Bag table in the introduction to determine the contents of each one.
 
 ### Horse-Drawn Wagon
 
-The characters encounter a [draft horse](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/draft-horse.md) pulling a battered old wagon. Accompanying the wagon are `d6`−1 people (use the [commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) stat block unless otherwise noted below). If the die result indicates that no commoners are present, that means the drivers are either missing or dead, leaving the horse and wagon unattended. If one or more people are present, assume that they are guiding the wagon toward the nearest settlement. The encounter might be one of the following:
+The characters encounter a [draft horse](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/draft-horse.md) pulling a battered old wagon. Accompanying the wagon are `1d6`−1 people (use the [commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) stat block unless otherwise noted below). If the die result indicates that no commoners are present, that means the drivers are either missing or dead, leaving the horse and wagon unattended. If one or more people are present, assume that they are guiding the wagon toward the nearest settlement. The encounter might be one of the following:
 
 - Friendly furriers transporting `2d4` bundles of animal pelts worth 50 gp per bundle  
 - Friendly peddlers transporting `3d6` ten-gallon kegs of dwarven ale worth 5 gp each  
@@ -328,7 +329,7 @@ A group of `1d3 + 1` [stone giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary
 
 #### Treasure
 
-Each giant has a sack containing `2d6 × 100` gp, `d6` 100 gp gems, and one mundane item, determined by rolling on the Items in a Giant's Bag table in the introduction.
+Each giant has a sack containing `2d6 × 100` gp, `1d6` 100 gp gems, and one mundane item, determined by rolling on the Items in a Giant's Bag table in the introduction.
 
 ### Travelers
 
@@ -336,32 +337,32 @@ The characters encounter one or more travelers (use the [commoner](03.PlayerLog&
 
 > [!note] 
 > 
-> **Forest**: `d6` hunters or trappers who heard something big moving through the forest and ran
+> **Forest**: `1d6` hunters or trappers who heard something big moving through the forest and ran
 > 
-> **Grassland**: `d6` farmers whose homestead was attacked by hill giants, or `d4` ranchers on [riding horses](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/riding-horse.md) who are heading to a nearby settlement to warn it about giants in the area
+> **Grassland**: `1d6` farmers whose homestead was attacked by hill giants, or `1d4` ranchers on [riding horses](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/riding-horse.md) who are heading to a nearby settlement to warn it about giants in the area
 > 
-> **Hills/Moors**: `d4` shepherds guiding the remnants of their flock to safety after a harrowing hill giant encounter
+> **Hills/Moors**: `1d4` shepherds guiding the remnants of their flock to safety after a harrowing hill giant encounter
 > 
-> **Mountains**: `d4` prospectors or miners who had a close call with some frost giants or stone giants and were forced to leave behind their mining gear, supplies, and treasure
+> **Mountains**: `1d4` prospectors or miners who had a close call with some frost giants or stone giants and were forced to leave behind their mining gear, supplies, and treasure
 > 
 > **Road/Trail**: Either `3d6` peasants fleeing their homes after a frost giant, hill giant, or stone giant attack; an angry mob of `6d6` peasants looking to reclaim their land or avenge dead loved ones; or a lone merchant or minstrel in a horse-drawn wagon who is relocating to a safer settlement
 > 
-> **Sea**: Either a friendly vessel carrying `6d6` crew and passengers who saw a cloud giant castle or a frost giant greatship, or `d4` survivors floating on debris after their ship was sunk by a frost giant greatship
+> **Sea**: Either a friendly vessel carrying `6d6` crew and passengers who saw a cloud giant castle or a frost giant greatship, or `1d4` survivors floating on debris after their ship was sunk by a frost giant greatship
 > 
-> **Tundra**: `d4` hunters or trappers who narrowly escaped from a fire giant or a frost giant but were forced to leave a companion behind
+> **Tundra**: `1d4` hunters or trappers who narrowly escaped from a fire giant or a frost giant but were forced to leave a companion behind
 ^176
 
 ### Uthgardt Marauders
 
-The characters encounter a hostile group of Uthgardt barbarians consisting of `4d6` [tribal warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md) and an [Uthgardt shaman](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/uthgardt-shaman-skt.md) (see appendix C). If the group has twenty or more tribal warriors, add `d3` [berserkers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md) and a tribal chieftain (a [berserker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md) with 90 hit points) to the group. If the encounter occurs during the day, the Uthgardt are prowling the countryside while hunting wild game; if the encounter occurs at night, they are camped.
+The characters encounter a hostile group of Uthgardt barbarians consisting of `4d6` [tribal warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md) and an [Uthgardt shaman](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/uthgardt-shaman-skt.md) (see appendix C). If the group has twenty or more tribal warriors, add `1d3` [berserkers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md) and a tribal chieftain (a [berserker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md) with 90 hit points) to the group. If the encounter occurs during the day, the Uthgardt are prowling the countryside while hunting wild game; if the encounter occurs at night, they are camped.
 
-Use the information in the "Uthgardt" section to choose an appropriate tribe based on the location where the encounter takes place. If these Uthgardt belong to the Gray Wolf tribe, use the [werewolf](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/werewolf.md) statistics for the chieftain and the berserkers, and give the chieftain 90 hit points. Also give the Gray Wolf chieftain `d4` [wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wolf.md) as animal companions.
+Use the information in the "Uthgardt" section to choose an appropriate tribe based on the location where the encounter takes place. If these Uthgardt belong to the Gray Wolf tribe, use the [werewolf](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/werewolf.md) statistics for the chieftain and the berserkers, and give the chieftain 90 hit points. Also give the Gray Wolf chieftain `1d4` [wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wolf.md) as animal companions.
 
 The barbarians carry no treasure.
 
 #### Sea
 
-If this encounter occurs at sea, the characters encounter `d3` longships, each with ten [berserkers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md) and thirty [tribal warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md) aboard. One of the berserkers serves as the captain. These hostile, bloodthirsty Northfolk raiders hail from Gundarlun, the Korinn Archipelago, Tuern, or the Whalebones. The longships have a speed of 3 miles per hour. If the vessel the characters are in moves at least as fast, the characters can flee from the barbarians and avoid an altercation.
+If this encounter occurs at sea, the characters encounter `1d3` longships, each with ten [berserkers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md) and thirty [tribal warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md) aboard. One of the berserkers serves as the captain. These hostile, bloodthirsty Northfolk raiders hail from Gundarlun, the Korinn Archipelago, Tuern, or the Whalebones. The longships have a speed of 3 miles per hour. If the vessel the characters are in moves at least as fast, the characters can flee from the barbarians and avoid an altercation.
 
 ## Locations of the North
 
@@ -407,7 +408,7 @@ As one travels east away from the Silver Marches, the old road passes between th
 
 The [ancient blue dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-blue-dragon.md) [Iymrith](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/iymrith-skt.md) claims Ascore as part of her domain. Though she's not here to watch over it, two of her offspring have made separate lairs for themselves inside a couple of the great stone ships. These [adult blue dragons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-blue-dragon.md), Anaxaster and Chezzaran, frequently accost each other in the sky, playfully jousting and breathing lightning as they zoom around. They are flying over Ascore when the characters first lay eyes on the ruined city. After an hour of fun, the dragons return to their lairs to rest. If the characters take no steps to conceal themselves and enter the city while the dragons are in the sky, the dragons spot the party and attack.
 
-The ships that the dragons have turned into their lairs are hollow, sand-filled hulks surrounded by open desert. Each ship has `1d6 + 4` [gargoyles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/gargoyle.md) perched on it, watching the sands for treasure-seekers. If the characters make their way past the gargoyles into a dragon's lair and defeat the dragon within, they find the dragon's hoard hidden under the sand. Roll on the "Treasure Hoard: Challenge 11–16" table in "chapter 7" of the "Dungeon Master's Guide" to determine the contents of each dragon's trove.
+The ships that the dragons have turned into their lairs are hollow, sand-filled hulks surrounded by open desert. Each ship has `1d6 + 4` [gargoyles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/gargoyle.md) perched on it, watching the sands for treasure-seekers. If the characters make their way past the gargoyles into a dragon's lair and defeat the dragon within, they find the dragon's hoard hidden under the sand. Roll on the [Treasure Hoard: Challenge 11—16](03.PlayerLog&Handouts/Mechanics/CLI/tables/treasure-hoard-challenge-1116.md) table in "chapter 7" of the "Dungeon Master's Guide" to determine the contents of each dragon's trove.
 
 ### Aurilssbarg
 
@@ -563,7 +564,7 @@ Built on a hillside in the floodplain of the Delimbiyr River, the walled town of
 
 Unknown to Daggerford's citizens, a [succubus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/succubus.md) named Pencheska has usurped Morwen's identity and now governs in her stead. The succubus has imprisoned the real duchess in Cromm's Hold, a keep on the edge of the Lizard Marsh (see the "Lizard Marsh" entry for details). Pencheska is using her position to infiltrate the Lords' Alliance. She rules Daggerford much as Lady Morwen did, sternly but fairly, and does little to arouse suspicion.
 
-Recently, hill giants ranging south of the Forlorn Hills have begun to encroach upon the farmlands and noble estates around Daggerford. The succubus, hoping to appear benevolent, is readying the town to accommodate farmers looking for sanctuary, and the town's outer walls bristle with lookouts. The "duchess" has also raised taxes to pay for Zhentarim mercenaries to patrol the lands north of Daggerford. Pencheska has forged a promising alliance with the Black Network, and her primary Zhentarim contact in town is a plump halfling weasel named Nelkin Danniker (N male lightfoot halfling [spy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md)), known to his associates as the Snail because of his slow, deliberate way of talking. The Snail relaxes at the River Shining Tavern and Inn, watched over by `d6` [thugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md) (N male and female humans of various ethnicities) posing as nondescript inn patrons.
+Recently, hill giants ranging south of the Forlorn Hills have begun to encroach upon the farmlands and noble estates around Daggerford. The succubus, hoping to appear benevolent, is readying the town to accommodate farmers looking for sanctuary, and the town's outer walls bristle with lookouts. The "duchess" has also raised taxes to pay for Zhentarim mercenaries to patrol the lands north of Daggerford. Pencheska has forged a promising alliance with the Black Network, and her primary Zhentarim contact in town is a plump halfling weasel named Nelkin Danniker (N male lightfoot halfling [spy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md)), known to his associates as the Snail because of his slow, deliberate way of talking. The Snail relaxes at the River Shining Tavern and Inn, watched over by `1d6` [thugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md) (N male and female humans of various ethnicities) posing as nondescript inn patrons.
 
 Another popular tavern in town, the Happy Cow, is run by Koggin and Lily Hardcheese (LG male and female strongheart halfling [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)). Koggin also operates a money-lending enterprise out of the tavern and employs several other family members to help run both businesses, including three brothers and three sisters, a dozen nieces and nephews, and several distant relations. One of the Happy Cow's regular patrons is a female half-elf named Zira, who is actually an [adult bronze dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-bronze-dragon.md) named Zirazylym in polymorphed form. Zira is fond of the Hardcheese family and doesn't meddle in their business. She avoids contact with the characters unless events involving the Black Network bring them together (see the "Shalvus Martholio's Quest" section in chapter 2).
 
@@ -689,7 +690,7 @@ The miners of Fireshear dwell here all year. Ramps carved into the cliffs lead d
 
 The town has three leaders, who form a ruling triumvirate that handles trade negotiations with representatives of other settlements and disperses supplies among the townsfolk. Each member is a representative of one of the town's founding companies. Triumvirate members serve for life or until they resign, and they are known to take bribes, rewarding families who pay them in coin or precious ore with supplies of higher quality or in greater quantity. The current members are Tharkus Gromm (NE male shield dwarf [thug](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md)) of Hammaver House; Darva (NG female dragonborn [mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage.md)) of the Silver Triangle; and Zalaron Daska (N male Tethyrian human [veteran](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md)) of the Delvers of Brokenstone.
 
-Fireshear is also home to a retired civilar (captain) of Waterdeep's Griffon Cavalry and a member of the Emerald Enclave named Dasharra Keldabar (LG female shield dwarf [veteran](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md)). She lives north of town, in a mostly underground hovel on a ridge that overlooks the sea. Locals know that Dasharra raises griffons, trains them as mounts, and teaches people how to ride them. The griffons are kept in a low, sturdy wooden shelter next to her home. At any time, Dasharra has `1d4 + 6` adult [griffons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/griffon.md) and `d4` griffon eggs in her care. Dasharra employs six Zhentarim mercenaries (N male and female Tethyrian human [veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md)) as guards, three of whom stand watch outside the griffon pens while the others rest in a cramped loft above the griffons' stalls.
+Fireshear is also home to a retired civilar (captain) of Waterdeep's Griffon Cavalry and a member of the Emerald Enclave named Dasharra Keldabar (LG female shield dwarf [veteran](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md)). She lives north of town, in a mostly underground hovel on a ridge that overlooks the sea. Locals know that Dasharra raises griffons, trains them as mounts, and teaches people how to ride them. The griffons are kept in a low, sturdy wooden shelter next to her home. At any time, Dasharra has `1d4 + 6` adult [griffons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/griffon.md) and `1d4` griffon eggs in her care. Dasharra employs six Zhentarim mercenaries (N male and female Tethyrian human [veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md)) as guards, three of whom stand watch outside the griffon pens while the others rest in a cramped loft above the griffons' stalls.
 
 If one or more characters are members of the Emerald Enclave, the adventurers can easily convince Dasharra to help them fly to Svardborg, Lyn Armaal, or some other destination within a few hundred miles of Fireshear. Otherwise, they must pay for her services. She charges 250 gp per person for training and another 25 gp per person per day of travel. Characters who want to be trained must undergo three days of intense lessons, after which they know enough about griffon riding to control their mounts. Each griffon is able to carry one Medium rider or two Small riders (along with their armor and portable gear), and Dasharra has saddles and reins sized for both Small and Medium riders. Dasharra's "alpha griffon," Screecher, allows no one but her to ride it. Dasharra's other griffons are trained to follow Screecher wherever it goes and can't be coaxed into veering off course unless they are magically [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed).
 
@@ -703,7 +704,7 @@ The frost giant raid occurs whether the characters remain in town or not. If the
 
 #### Treasure
 
-Each giant carries a sack containing `d4` mundane items (roll on the Items in a Giant's Bag table in the introduction). Aboard the greatship is an unlocked wooden chest, its lid frozen shut. Dealing 5 damage or more to the lid forces it open. The chest contains 1,500 sp, 450 gp, and `d3` magic items, determined by rolling on [Magic Item Table C](03.PlayerLog&Handouts/Mechanics/CLI/tables/magic-item-table-c.md) in "chapter 7" of the "Dungeon Master's Guide".
+Each giant carries a sack containing `1d4` mundane items (roll on the Items in a Giant's Bag table in the introduction). Aboard the greatship is an unlocked wooden chest, its lid frozen shut. Dealing 5 damage or more to the lid forces it open. The chest contains 1,500 sp, 450 gp, and `1d3` magic items, determined by rolling on [Magic Item Table C](03.PlayerLog&Handouts/Mechanics/CLI/tables/magic-item-table-c.md) in "chapter 7" of the "Dungeon Master's Guide".
 
 ### Flint Rock
 
@@ -825,8 +826,6 @@ Whenever a dryad is killed, one or more conjured animals rise up out of the grou
 
 #### Avenging Animals
 
-`dice: [](04-chapter-3-the-savage-frontier.md#^animal-s)`
-
 | dice: d4 | Animal(s) |
 |----------|-----------|
 | 1 | 2 [brown bears](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/brown-bear.md) |
@@ -887,7 +886,7 @@ Most Great Worm tribe members are nomads who hunt and forage in the wilderness. 
 
 The remorhaz lair can be explored and plundered if the creatures are killed. The area is a 20-foot-diameter oval chamber with walls of glazed ice. Scattered on the floor are three 500 gp gemstones, fifteen 100 gp gemstones, and one magic item determined by rolling on [Magic Item Table C](03.PlayerLog&Handouts/Mechanics/CLI/tables/magic-item-table-c.md) in "chapter 7" of the "Dungeon Master's Guide".
 
-If the characters slay Wormblod and bring proof of his demise, the couatl emerges from the altar and bestows on each of them a *charm of restoration* (see the ""Supernatural Gifts"" section in "chapter 7" of the "Dungeon Master's Guide"). The couatl then returns to the altar and makes no further attempt to communicate with them.
+If the characters slay Wormblod and bring proof of his demise, the couatl emerges from the altar and bestows on each of them a [charm of restoration](03.PlayerLog&Handouts/Mechanics/CLI/rewards/charm-of-restoration.md) (see the ""Supernatural Gifts"" section in "chapter 7" of the "Dungeon Master's Guide"). The couatl then returns to the altar and makes no further attempt to communicate with them.
 
 ### Griffon's Nest
 
@@ -928,7 +927,7 @@ If the characters return the strongboxes to Hawk's Nest or deliver them to Sunda
 
 #### Treasure
 
-Each strongbox contains 500 gp. Each giant's sack also holds `d4` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
+Each strongbox contains 500 gp. Each giant's sack also holds `1d4` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
 
 ### Helm's Hold
 
@@ -950,9 +949,9 @@ If the characters express any interest in helping the Gilded Eye, Zara shares th
 - The frost giants have attacked and plundered several homesteads and caravans along the High Road.  
 - The Gilded Eye wants the characters to find out where the giants are coming from.  
 
-Characters who accept the quest and head south for 10 miles spot a [frost giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/frost-giant.md) walking toward the coast. The giant recently attacked a caravan traveling north along the High Road and has 88 hit points remaining. He carries a sack stuffed with pillaged food as well as `d4` mundane items (roll on the Items in a Giant's Bag table in the introduction). The giant fights to the death if he is attacked. If the characters follow the giant while keeping their distance, he leads them to a miles-long stretch of 100-foot-high cliffs. Anchored a half mile off the coast is a greatship (see the "Svardborg: General Features" sidebar in chapter 7, "Berg of the Frost Giants") with two giant-sized punts tethered to it. Three [frost giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/frost-giant.md) are aboard the ship. When the giant carrying the sack of food waves from the top of the cliffs, one of the giants aboard the ship climbs into a punt and rows it to shore, while the first giant climbs down the cliff to meet it. Most of the ship's crew is still plundering the mainland, so the ship isn't leaving anytime soon.
+Characters who accept the quest and head south for 10 miles spot a [frost giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/frost-giant.md) walking toward the coast. The giant recently attacked a caravan traveling north along the High Road and has 88 hit points remaining. He carries a sack stuffed with pillaged food as well as `1d4` mundane items (roll on the Items in a Giant's Bag table in the introduction). The giant fights to the death if he is attacked. If the characters follow the giant while keeping their distance, he leads them to a miles-long stretch of 100-foot-high cliffs. Anchored a half mile off the coast is a greatship (see the "Svardborg: General Features" sidebar in chapter 7, "Berg of the Frost Giants") with two giant-sized punts tethered to it. Three [frost giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/frost-giant.md) are aboard the ship. When the giant carrying the sack of food waves from the top of the cliffs, one of the giants aboard the ship climbs into a punt and rows it to shore, while the first giant climbs down the cliff to meet it. Most of the ship's crew is still plundering the mainland, so the ship isn't leaving anytime soon.
 
-Sixteen frost giants have yet to return to the ship from their inland raids. If the characters hide aboard the ship or remain within sight of it, roll a `d20` at the end of each hour that passes. On a roll of 17 or higher, `d4` [frost giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/frost-giant.md) return and signal the ship to send a punt to shore. If no punt is available, the giants swim to the ship to find out what happened.
+Sixteen frost giants have yet to return to the ship from their inland raids. If the characters hide aboard the ship or remain within sight of it, roll a `d20` at the end of each hour that passes. On a roll of 17 or higher, `1d4` [frost giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/frost-giant.md) return and signal the ship to send a punt to shore. If no punt is available, the giants swim to the ship to find out what happened.
 
 #### Treasure
 
@@ -1021,17 +1020,15 @@ When in this region, use the Random Encounters in Icewind Dale table instead of 
 
 #### Random Encounters in Icewind Dale
 
-`dice: [](04-chapter-3-the-savage-frontier.md#^encounter)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1 | 1 [ancient white dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-white-dragon.md) |
 | 2–5 | `1d4 + 2` [crag cats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/crag-cat-skt.md) (see appendix C) |
-| 6–8 | `d3` [frost giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/frost-giant.md) |
+| 6–8 | `1d3` [frost giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/frost-giant.md) |
 | 9–12 | Reghed barbarians ([berserker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md) and [tribal warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md)) |
 | 13–15 | `3d8` reindeer ([elk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/elk.md)) |
 | 16–17 | Ten-Towners ([scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md)) |
-| 18–19 | `d6` [yeti](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yeti.md) |
+| 18–19 | `1d6` [yeti](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yeti.md) |
 | 20 | 1 [young remorhaz](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/young-remorhaz.md) |
 ^encounter
 
@@ -1047,7 +1044,7 @@ The crag cats hide in the snow and attempt to surprise the party.
 
 ##### Frost Giants
 
-If a lone giant is encountered, it has a [winter wolf](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/winter-wolf.md) companion. The frost giants are hunting for food. They have no treasure to speak of, though each carries a sack containing `d4` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
+If a lone giant is encountered, it has a [winter wolf](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/winter-wolf.md) companion. The frost giants are hunting for food. They have no treasure to speak of, though each carries a sack containing `1d4` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
 
 ##### Reghed Barbarians
 
@@ -1095,7 +1092,7 @@ The blue dragon [Iymrith](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/iymri
 
 ### Jalanthar
 
-The village of Jalanthar is a riverbank waystop for barges traveling up and down the Rauvin River. The hardy residents, who call themselves Jalantharren, live in stone cottages with mud-sealed timber roofs that are covered with turf to resist burning. The homes are half-buried in the ground and from a distance can be easily mistaken for small grassy knolls. The hills north of Jalanthar are riddled with caves, wherein the natives take refuge should the village come under attack. The caves are furnished and well-stocked with preserves.
+The village of Jalanthar is a riverbank way-stop for barges traveling up and down the Rauvin River. The hardy residents, who call themselves Jalantharren, live in stone cottages with mud-sealed timber roofs that are covered with turf to resist burning. The homes are half-buried in the ground and from a distance can be easily mistaken for small grassy knolls. The hills north of Jalanthar are riddled with caves, wherein the natives take refuge should the village come under attack. The caves are furnished and well-stocked with preserves.
 
 Jalanthar boasts just one amenity for travelers. The Crowing Cockatrice inn is a low-walled, poorly built oval stone keep in the heart of the village. It features a central yard covered by a rickety roof made of old shields and bits of rusted armor, pounded flat and held up with a profusion of props and cross-braced poles to form a stable. The innkeeper, Myles Heldruin (LG male Damaran human [commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)), is a friendly, talkative young man eager to please those with coin to spend.
 
@@ -1197,7 +1194,7 @@ Six [stone giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/stone-gian
 
 #### Treasure
 
-Each stone giant carries a sack containing `1d6 × 100` gp in mixed coinage, `d6` 100 gp gemstones, and one mundane item, determined by rolling on the Items in a Giant's Bag table in the introduction.
+Each stone giant carries a sack containing `1d6 × 100` gp in mixed coinage, `1d6` 100 gp gemstones, and one mundane item, determined by rolling on the Items in a Giant's Bag table in the introduction.
 
 ### Lonely Moor
 
@@ -1402,7 +1399,7 @@ The Hunt Lords lurk in a dusty ground-floor banquet hall, slumped in chairs arou
 
 #### Treasure
 
-At the back of the Hunt Lords' banquet hall is a locked treasure chest. Amrath wears the key to it around his neck, but a character can pick the lock using thieves' tools with a successful DC 20 Dexterity check. The chest contains 600 gp in a gray sack made of stitched orc skin, a leather pouch that holds six 50 gp gems, and `d3` magic items, determined by rolling on [Magic Item Table B](03.PlayerLog&Handouts/Mechanics/CLI/tables/magic-item-table-b.md) in "chapter 7" of the "Dungeon Master's Guide".
+At the back of the Hunt Lords' banquet hall is a locked treasure chest. Amrath wears the key to it around his neck, but a character can pick the lock using thieves' tools with a successful DC 20 Dexterity check. The chest contains 600 gp in a gray sack made of stitched orc skin, a leather pouch that holds six 50 gp gems, and `1d3` magic items, determined by rolling on [Magic Item Table B](03.PlayerLog&Handouts/Mechanics/CLI/tables/magic-item-table-b.md) in "chapter 7" of the "Dungeon Master's Guide".
 
 ### Northern Means
 
@@ -1536,7 +1533,7 @@ To reach the relic buried under the Gray Wolves' altar, the characters must smas
 
 If the characters arrive at Raven Rock in the morning or the afternoon, they see `2d4` giant ravens (use the [giant vulture](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-vulture.md) statistics) flying lazy circles at a height of 300 feet above the spirit mound. If the characters arrive in the evening, the giant ravens are perched quietly on their wooden roosts. The ravens aren't present at night. The giant ravens don't attack intruders or squawk at them, but they remember with perfect clarity any trespassers they see and describe them to the next group of Black Raven barbarians they meet.
 
-If the giant ravens see the characters take the magma ring, the Black Raven barbarians learn about the theft `d4` days later. After that time, there is a cumulative 5 percent chance per day that the Black Ravens locate the characters (or a subset of them, if the party splits up). Alternatively, you can have them catch up to the party at a dramatic moment of your choice. Wherever the characters happen to be, an [Uthgardt shaman](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/uthgardt-shaman-skt.md) (see appendix C) and six [tribal warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md), each mounted on a [giant raven](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-raven-skt.md), attack the characters. Rules for mounted combat appear in "chapter 9" of the "Player's Handbook".
+If the giant ravens see the characters take the magma ring, the Black Raven barbarians learn about the theft `1d4` days later. After that time, there is a cumulative 5 percent chance per day that the Black Ravens locate the characters (or a subset of them, if the party splits up). Alternatively, you can have them catch up to the party at a dramatic moment of your choice. Wherever the characters happen to be, an [Uthgardt shaman](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/uthgardt-shaman-skt.md) (see appendix C) and six [tribal warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md), each mounted on a [giant raven](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-raven-skt.md), attack the characters. Rules for mounted combat appear in "chapter 9" of the "Player's Handbook".
 
 #### Suggested Encounter (Night)
 
@@ -1789,13 +1786,13 @@ This dry, dusty village is located south of the High Forest, on the old Iron Roa
 
 Two teenage cattle ranchers named Albie Grizlow and Leshonna Daar (CE male and female Tethyrian human [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) mounted on [riding horses](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/riding-horse.md) intercept the characters as they approach within five miles of Uluvin. The teenagers tell the party that the village has fallen to hill giants and goblins and that many villagers have taken refuge in the nearby forest.
 
-Characters can give the village a wide berth, or they can deal with the threat. If they get within three miles of the village, they start to see scattered farmsteads surrounded by dry fields. At each farmstead are `3d6` [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md); they either are searching the cottage and barn for treasure, chasing chickens and swine in the field, or dancing around `d4` tied-up prisoners ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)). The goblins have covered their captives' heads with old buckets, flowerpots, and feedbags so that they can't see. There is a 50 percent chance that an [ogre](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md) is also present, trying to catch a [pig](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/pig-skt.md) or lift a cow and take it back to Grudd Haug (see chapter 5, "Den of the Hill Giants"). The goblins and the ogre are too distracted to notice the adventurers if they stick to the road. The ogre and most of the goblins have no treasure, but the goblin leader at each farmstead carries a trinket (roll on the Trinkets table in "chapter 5" of the "Player's Handbook").
+Characters can give the village a wide berth, or they can deal with the threat. If they get within three miles of the village, they start to see scattered farmsteads surrounded by dry fields. At each farmstead are `3d6` [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md); they either are searching the cottage and barn for treasure, chasing chickens and swine in the field, or dancing around `1d4` tied-up prisoners ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)). The goblins have covered their captives' heads with old buckets, flowerpots, and feedbags so that they can't see. There is a 50 percent chance that an [ogre](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md) is also present, trying to catch a [pig](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/pig-skt.md) or lift a cow and take it back to Grudd Haug (see chapter 5, "Den of the Hill Giants"). The goblins and the ogre are too distracted to notice the adventurers if they stick to the road. The ogre and most of the goblins have no treasure, but the goblin leader at each farmstead carries a trinket (roll on the Trinkets table in "chapter 5" of the "Player's Handbook").
 
 If the characters enter the village, they see dusty wood-frame buildings with tall facades lining the Iron Road. Three [hill giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/hill-giant.md) are outside in plain view, overturning wagons, smashing through clay-tiled rooftops with their greatclubs, and stuffing into their sacks anything that catches their eye. Characters can easily take these hill giants by surprise. An inn and saloon called the Black Bull's Tail stands at the intersection where the road branches. Two more [hill giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/hill-giant.md) have ripped through the inn's facade and destroyed most of the furnishings, including the stairs leading up to the second floor, and are in the midst of gorging themselves on food and ale. If they hear sounds of combat outside, they investigate, hurling benches, rain barrels, and whatever else they can find in lieu of rocks.
 
 #### Treasure
 
-Each hill giant has a sack containing `2d6 × 100` cp and `d4` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
+Each hill giant has a sack containing `2d6 × 100` cp and `1d4` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
 
 Once the monsters are driven out, the characters can travel north to the edge of the High Forest and let the villagers know that it's safe to return. If they do so, a grateful old widow named Zoranda Heller (LG female Chondathan [commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) gives them a [ring of protection](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-protection.md) that her late husband, a rancher, found in a field.
 
@@ -1833,7 +1830,7 @@ Although these giants pose no threat to Waterdeep, they know of at least one evi
 
 #### Treasure
 
-If the characters defeat the giants, they can plunder the giants' possessions. Countess Mulara wears two bejeweled necklaces (each worth 7,500 gp and weighing 125 pounds). Both she and the count own a collection of twenty ornate masks made of painted gold (each worth 750 gp and weighing 50 pounds). Among the furnishings in their bedchamber is an alabaster chest containing 800 pp and `d3` magic items, determined by rolling on [Magic Item Table F](03.PlayerLog&Handouts/Mechanics/CLI/tables/magic-item-table-f.md) in "chapter 7" of the "Dungeon Master's Guide". The chest weighs 500 pounds and has an [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md) spell cast on it.
+If the characters defeat the giants, they can plunder the giants' possessions. Countess Mulara wears two bejeweled necklaces (each worth 7,500 gp and weighing 125 pounds). Both she and the count own a collection of twenty ornate masks made of painted gold (each worth 750 gp and weighing 50 pounds). Among the furnishings in their bedchamber is an alabaster chest containing 800 pp and `1d3` magic items, determined by rolling on [Magic Item Table F](03.PlayerLog&Handouts/Mechanics/CLI/tables/magic-item-table-f.md) in "chapter 7" of the "Dungeon Master's Guide". The chest weighs 500 pounds and has an [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md) spell cast on it.
 
 ![](03.PlayerLog&Handouts/Mechanics/CLI/adventures/storm-kings-thunder/img/051-skt03-19.webp#center)
 
@@ -1873,7 +1870,7 @@ Xantharl was a well-known ranger and explorer of the North. The fortified villag
 - His speed is 25 feet.  
 - He has advantage on saving throws against poison and resistance to poison damage.  
 - He has [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) out to a range of 60 feet, and he speaks Common, Draconic, and Dwarvish.  
-- Instead of a scimitar and a dagger, he wields a pair of [+1 handaxes](03.PlayerLog&Handouts/Mechanics/CLI/items/1-weapon.md) (+5 to hit with each). As an action, he can make three melee attacks, two attacks with one handaxe and one attack with the other handaxe. Each handaxe deals 6 (`1d6 + 3`) slashing damage on a hit.  
+- Instead of a scimitar and a dagger, he wields a pair of [+1 handaxes](03.PlayerLog&Handouts/Mechanics/CLI/items/1-weapon.md) (`+5` to hit with each). As an action, he can make three melee attacks, two attacks with one handaxe and one attack with the other handaxe. Each handaxe deals 6 (`1d6 + 3`) slashing damage on a hit.  
 
 The Lord of Xantharl's Keep is [Narbeck Horn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/narbeck-horn-skt.md) (N male shield dwarf [knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/knight.md) armed with a greataxe instead of a greatsword), who reports to the marchion of Mirabar. Narbeck has a [sending stone](03.PlayerLog&Handouts/Mechanics/CLI/items/sending-stones.md) that allows him to speak to the marchion directly, ensuring that news of any threat to Mirabar from the south is quickly relayed. Narbeck commands a garrison of one hundred fifty veterans, which is over twice the population of the village itself.
 
@@ -1887,7 +1884,7 @@ A while back, Worvil Forkbeard told a few friends that he needed a place to hide
 
 #### Treasure
 
-Kaltivar the frost giant carries a sack containing `2d6 × 100` gp, `d4` mundane items (determined by rolling on the Items in a Giant's Bag table in the introduction), and one magic item, determined by rolling on [Magic Item Table C](03.PlayerLog&Handouts/Mechanics/CLI/tables/magic-item-table-c.md) in "chapter 7" of the "Dungeon Master's Guide". The goblinoids have no treasure.
+Kaltivar the frost giant carries a sack containing `2d6 × 100` gp, `1d4` mundane items (determined by rolling on the Items in a Giant's Bag table in the introduction), and one magic item, determined by rolling on [Magic Item Table C](03.PlayerLog&Handouts/Mechanics/CLI/tables/magic-item-table-c.md) in "chapter 7" of the "Dungeon Master's Guide". The goblinoids have no treasure.
 
 ### Yartar
 
@@ -1928,7 +1925,7 @@ If the characters search the ruins of the Sly Fox, they encounter a runaway chil
 
 Perched atop a crag overlooking the Rauvin Road, with a clear view of the Evermoors to the south and the Moonwood to the north, is a keep of mortared stone with a high-pitched roof that has wooden statues of baying wolves rising from its peaks. A branch in the road winds up to the keep's gatehouse and bailey. From the keep, the Zymorven family of Silverymoon has watched over the surrounding lands for four generations.
 
-Lord Harthos Zymorven (CG male Chondathan human [knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/knight.md)) commands Zymorven Hall, which appears to have no guards to defend it. Many of the hallways and rooms, however, have suits of armor standing in dark corners, swords mounted on oak-paneled walls, and dusty carpets spread across stone floors. These are actually suits of [animated armor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-armor.md), [flying swords](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/flying-sword.md), and [rugs of smothering](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/rug-of-smothering.md) that obey Lord Zymorven's commands. Lord Zymorven retains the services of a scribe, a stablehand, a cook, and a musician (all [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)), as well as an old witch (use the [druid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md) statistics) who is skilled at making herbal remedies and poultices.
+Lord Harthos Zymorven (CG male Chondathan human [knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/knight.md)) commands Zymorven Hall, which appears to have no guards to defend it. Many of the hallways and rooms, however, have suits of armor standing in dark corners, swords mounted on oak-paneled walls, and dusty carpets spread across stone floors. These are actually suits of [animated armor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-armor.md), [flying swords](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/flying-sword.md), and [rugs of smothering](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/rug-of-smothering.md) that obey Lord Zymorven's commands. Lord Zymorven retains the services of a scribe, a stable hand, a cook, and a musician (all [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)), as well as an old witch (use the [druid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md) statistics) who is skilled at making herbal remedies and poultices.
 
 Lord Zymorven's duty is to be vigilant and watch for trouble, which could come from any direction. Soldiers patrolling the Rauvin Road on horseback are welcome to use the keep as a place where they can rest as well as obtain food, drink, and lodging for their horses. Characters who take up [Urgala Meltimer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/urgala-meltimer-skt.md)'s quest (see chapter 2) might have cause to pay a visit to Zymorven Hall.
 
@@ -1999,13 +1996,13 @@ The [teleportation circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleportat
 
 #### Loudwater Circle
 
-The [teleportation circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleportation-circle.md) in Loudwater is located in a 30-foot-square cellar under a tavern called the Smiling Satyr. Tucked underneath a wooden staircase is an unmade bed where the circle's attending mage sleeps. His name is Revil Slombarr (CG male Chondathan human [mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage.md)). He's a heavyset young man who shirks his duties from time to time to visit nearby festhalls. There is a 50 percent chance that Revil is absent when the characters arrive, in which case he returns after `d4` hours.
+The [teleportation circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleportation-circle.md) in Loudwater is located in a 30-foot-square cellar under a tavern called the Smiling Satyr. Tucked underneath a wooden staircase is an unmade bed where the circle's attending mage sleeps. His name is Revil Slombarr (CG male Chondathan human [mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage.md)). He's a heavyset young man who shirks his duties from time to time to visit nearby festhalls. There is a 50 percent chance that Revil is absent when the characters arrive, in which case he returns after `1d4` hours.
 
 The stairs leads up to a secret door that opens inside a large wooden trunk bolted to the floor above. Characters who climb out of the trunk find themselves in a curtained cloakroom near the taproom. A Harper sympathizer named Gharwin Umbryl (LG male human [commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) runs the Smiling Satyr and does his best to cover for Revil.
 
 #### Mirabar Circle
 
-The Mirabarran authorities would be angry to learn that the Harpers have compromised the city's security by constructing a permanent [teleportation circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleportation-circle.md) within Mirabar's walls. The circle is inscribed in a stable house loft and can be quickly hidden under hay. The circle's attendant, Zazspar Bronzefire (LG male shield dwarf [mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage.md)), poses as a stablehand, complete with leather overalls and straw in his beard.
+The Mirabarran authorities would be angry to learn that the Harpers have compromised the city's security by constructing a permanent [teleportation circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleportation-circle.md) within Mirabar's walls. The circle is inscribed in a stable house loft and can be quickly hidden under hay. The circle's attendant, Zazspar Bronzefire (LG male shield dwarf [mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage.md)), poses as a stable hand, complete with leather overalls and straw in his beard.
 
 #### Neverwinter Circle
 

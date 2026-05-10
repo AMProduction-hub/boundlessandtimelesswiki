@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reduced-Threat Displacer Beast
+- "Reduced-Threat Displacer Beast"
 ---
-# [Reduced-Threat Displacer Beast](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/reduced-threat-displacer-beast-tftyp.md)
+# [Reduced-Threat Displacer Beast](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/reduced-threat-displacer-beast-tftyp.md)
 *Source: Tales from the Yawning Portal p. 113*  
 
 ```statblock
@@ -32,7 +33,8 @@ aliases:
   - !!int "12"
   - !!int "8"
 "speed": "40 ft."
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": ""
 "cr": "3"
 "traits":
@@ -55,8 +57,8 @@ aliases:
 "actions":
   - "desc": "The displacer beast makes two attacks with its tentacles."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit:\
-      \ 7 (1d6 + 4) bludgeoning damage plus 3 (d6) piercing damage."
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:*\
+      \ 7 (1d6 + 4) bludgeoning damage plus 3 (1d6) piercing damage."
     "name": "Tentacle"
 "source":
   - "TftYP"

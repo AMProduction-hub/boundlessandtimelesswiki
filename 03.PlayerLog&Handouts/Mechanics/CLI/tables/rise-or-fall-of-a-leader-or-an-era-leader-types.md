@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Rise or Fall of a Leader or an Era; Leader Types
+- "Rise or Fall of a Leader or an Era; Leader Types"
 ---
 # Rise or Fall of a Leader or an Era; Leader Types
 *Source: Dungeon Master's Guide p. 27* 
 
 **Leader Types**
-
-`dice: [](rise-or-fall-of-a-leader-or-an-era-leader-types.md#^leader-types)`
 
 | dice: d6 | Leader Types |
 |----------|--------------|

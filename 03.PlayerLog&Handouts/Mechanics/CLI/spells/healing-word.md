@@ -1,14 +1,15 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/druid
-- ttrpg-cli/spell/feat/divinely-favored
-- ttrpg-cli/spell/feat/magic-initiate
-- ttrpg-cli/spell/feat/strixhaven-initiate
+- ttrpg-cli/spell/feat/divinely-favored/neutral
+- ttrpg-cli/spell/feat/magic-initiate/druid-spells
+- ttrpg-cli/spell/feat/strixhaven-initiate/witherbloom-3
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/school/evocation
 - ttrpg-cli/spell/subclass/alchemist
@@ -16,12 +17,12 @@ tags:
 - ttrpg-cli/spell/subrace/halfling-mark-of-healing
 classes:
 - Artificer (Alchemist)
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Druid
 - Sorcerer (Divine Soul)
 aliases:
-- Healing Word
+- "Healing Word"
 ---
 # Healing Word
 *1st-level, Evocation*  
@@ -32,10 +33,10 @@ aliases:
 - **Components:** V
 - **Duration:** Instantaneous
 
-A creature of your choice that you can see within range regains hit points equal to `d4` + your spellcasting ability modifier. This spell has no effect on undead or constructs.
+A creature of your choice that you can see within range regains hit points equal to `1d4` + your spellcasting ability modifier. This spell has no effect on undead or constructs.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the healing increases by `d4` for each slot level above 1st.
+**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the healing increases by `1d4` for each slot level above 1st.
 
-**Classes**: [Artificer (Alchemist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-alchemist-tce.md "subclass=TCE;class=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
+**Classes**: [Artificer (Alchemist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-alchemist-tce.md "subclass=TCE;class=TCE"); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE")
 
 *Source: Player's Handbook p. 250. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

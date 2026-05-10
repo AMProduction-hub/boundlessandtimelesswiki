@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Yuan-ti Names
+- "Yuan-ti Names"
 ---
 # Yuan-ti Names
 *Source: Volo's Guide to Monsters p. 99* 
 
 **Yuan-ti Names**
-
-`dice: [](yuan-ti-names-vgm.md#^yuan-ti-names)`
 
 | dice: d20 | Name |
 |-----------|------|

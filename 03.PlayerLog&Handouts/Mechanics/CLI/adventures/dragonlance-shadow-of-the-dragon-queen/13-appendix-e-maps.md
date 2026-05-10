@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 aliases:
-- Appendix E: Maps
+- "Appendix E: Maps"
 ---
 # Appendix E: Maps
 *Source: Dragonlance: Shadow of the Dragon Queen, p. 223* 
@@ -14,7 +15,7 @@ aliases:
 > ![Player Version](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/178-map-12-01-kalaman-northern-wastes-player.webp#gallery)
 
 > [!gallery]
-> ![Map: The Continent of Ansa...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/180-map-12-02-ansalon-continent.webp#gallery "Map: The Continent of Ansalon on the World of Krynn")
+> ![Map: The Continent of Ansalon on the World of Krynn](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/180-map-12-02-ansalon-continent.webp#gallery)
 > ![Player Version](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/181-map-12-02-ansalon-continent-player.webp#gallery)
 
 ![Poster Map](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/ansalon-poster-map.webp#center)

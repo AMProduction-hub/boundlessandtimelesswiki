@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Githyanki Raiding Parties; Raiding Party Leader
+- "Githyanki Raiding Parties; Raiding Party Leader"
 ---
 # Githyanki Raiding Parties; Raiding Party Leader
 *Source: Mordenkainen's Tome of Foes p. 98* 
 
 **Raiding Party Leader**
-
-`dice: [](githyanki-raiding-parties-raiding-party-leader-mtf.md#^raiding-party-leader)`
 
 | dice: d6 | Leader |
 |----------|--------|

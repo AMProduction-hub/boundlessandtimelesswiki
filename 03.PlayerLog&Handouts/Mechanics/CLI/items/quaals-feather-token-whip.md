@@ -1,16 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/rarity/rare
 - ttrpg-cli/item/tier/minor
-aliases: 
+aliases:
 - "Quaal's Feather Token, Whip"
 ---
 # Quaal's Feather Token, Whip
 *Wondrous item, minor, rare*  
-
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/quaals-feather-token-whip.webp#right)
 
 
 This tiny object looks like a feather. Different types of feather tokens exist, each with a different single-use effect.

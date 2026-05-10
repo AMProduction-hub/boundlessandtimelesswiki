@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Elf Names – Family
+- "Elf Names – Family"
 ---
 # Elf Names – Family
 *Source: Xanathar's Guide to Everything p. 176* 
 
 **Elf Names – Family**
-
-`dice: [](elf-names-family-xge.md#^elf-names-family)`
 
 | dice: d100 | Name |
 |------------|------|

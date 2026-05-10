@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/paladin
 - ttrpg-cli/spell/class/wizard
@@ -18,7 +19,7 @@ tags:
 - ttrpg-cli/spell/subclass/eldritch-knight
 - ttrpg-cli/spell/subclass/grave-domain
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Cleric (Grave Domain)
 - Druid (Circle of Spores)
@@ -28,7 +29,7 @@ classes:
 - Sorcerer (Divine Soul)
 - Wizard
 aliases:
-- Gentle Repose
+- "Gentle Repose"
 ---
 # Gentle Repose
 *2nd-level, Necromancy (ritual)*  
@@ -43,6 +44,6 @@ You touch a corpse or other remains. For the duration, the target is protected f
 
 The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md).
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid (Circle of Spores)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE"); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Cleric (Grave Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-grave-domain-xge.md "subclass=XGE"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Grave Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-grave-domain-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Druid (Circle of Spores)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE"); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 245. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

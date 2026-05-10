@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ruin Grinder
+- "Ruin Grinder"
 ---
-# [Ruin Grinder](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/ruin-grinder-scc.md)
+# [Ruin Grinder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/ruin-grinder-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 211*  
 
 Created by the archaeomancers of Lorehold College, ruin grinders are mighty automatons built to excavate ancient ruins and artifacts. The massive toothed shovels attached to a ruin grinder's arms tear through millennia-old bedrock with ease, leading some Lorehold mages to fear that the grinders destroy more history than they unearth.
@@ -40,7 +41,8 @@ Created by the archaeomancers of Lorehold College, ruin grinders are mighty auto
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "5"
 "traits":
@@ -55,7 +57,7 @@ Created by the archaeomancers of Lorehold College, ruin grinders are mighty auto
 "actions":
   - "desc": "The ruin grinder makes two Excavator attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d6 + 6) force damage. If the target is a Huge or smaller creature, it\
       \ must succeed on a DC 17 Strength saving throw or be pushed up to 10 feet away\
       \ and knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."

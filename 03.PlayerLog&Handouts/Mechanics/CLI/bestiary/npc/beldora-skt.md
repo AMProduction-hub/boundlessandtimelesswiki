@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Beldora
+- "Beldora"
 ---
-# [Beldora](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/beldora-skt.md)
+# [Beldora](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/beldora-skt.md)
 *Source: Storm King's Thunder p. 249*  
 
 Beldora is a member of the Harpers who survives using her wits and wiles. She looks like a homeless waif, but she's a survivor who shies away from material wealth.
@@ -51,6 +52,9 @@ Flaw:"I like lying to people. Makes life more interesting, no?"
     "desc": "+5"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+5"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 13"
 "languages": "Common, Draconic, Dwarvish, Halfling"
 "traits":
@@ -61,10 +65,10 @@ Flaw:"I like lying to people. Makes life more interesting, no?"
       \ Makes life more interesting, no?\""
     "name": "Roleplaying Information"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage. Beldora carries ten crossbow bolts."
     "name": "Hand Crossbow"
 "reactions":

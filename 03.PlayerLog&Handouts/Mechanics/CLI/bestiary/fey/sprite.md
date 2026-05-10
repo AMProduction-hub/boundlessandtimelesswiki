@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sprite
+- "Sprite"
 ---
-# [Sprite](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/sprite.md)
-*Source: Monster Manual p. 283, Princes of the Apocalypse, Storm King's Thunder, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Infernal Machine Rebuild, Candlekeep Mysteries, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Sprite](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/sprite.md)
+*Source: Monster Manual p. 283. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 In secret groves and shaded glens, tiny sprites with dragonfly wings flutter. For all their fey splendor, however, sprites lack warmth and compassion. They are aggressive and hardy warriors, taking severe measures to ward strangers away from their homes. Interlopers that come too close have their moral character judged, then are put to sleep or frightened off.
 
@@ -63,14 +64,17 @@ Unlike pixies, sprites rarely indulge in frivolous merriment and fun. They are f
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+8"
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
 "senses": "passive Perception 13"
 "languages": "Common, Elvish, Sylvan"
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 1\
       \ slashing damage."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 40/160 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 40/160 ft., one target. *Hit:*\
       \ 1 piercing damage, and the target must succeed on a DC 10 Constitution saving\
       \ throw or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. If its saving throw result is 5 or lower, the [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
@@ -91,14 +95,6 @@ Unlike pixies, sprites rarely indulge in frivolous merriment and fun. They are f
     "name": "Invisibility"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "GoS"
-  - "BGDIA"
-  - "ERLW"
-  - "IMR"
-  - "CM"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/token/sprite.webp"
 ```
 ^statblock

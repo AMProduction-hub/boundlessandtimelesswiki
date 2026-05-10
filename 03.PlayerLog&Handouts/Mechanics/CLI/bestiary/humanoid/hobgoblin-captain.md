@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/3
@@ -14,10 +15,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hobgoblin Captain
+- "Hobgoblin Captain"
 ---
-# [Hobgoblin Captain](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/hobgoblin-captain.md)
-*Source: Monster Manual p. 186, Princes of the Apocalypse, Storm King's Thunder, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Dragonlance: Shadow of the Dragon Queen*  
+# [Hobgoblin Captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hobgoblin-captain.md)
+*Source: Monster Manual p. 186*  
 
 War horns sound, stones fly from catapults, and the thunder of a thousand booted feet echoes across the land as hobgoblins march to battle. Across the borderlands of civilization, settlements and settlers must contend with these aggressive humanoids, whose thirst for conquest is never satisfied.
 
@@ -95,7 +96,11 @@ Hobgoblins worship Maglubiyet the Mighty One, the greater god of goblinoids. As 
   - !!int "10"
   - !!int "13"
 "speed": "30 ft."
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Goblin"
 "cr": "3"
 "traits":
@@ -106,11 +111,11 @@ Hobgoblins worship Maglubiyet the Mighty One, the greater god of goblinoids. As 
 "actions":
   - "desc": "The hobgoblin makes two greatsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d6 + 2) slashing damage."
     "name": "Greatsword"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
     "name": "Javelin"
   - "desc": "For 1 minute, the hobgoblin can utter a special command or warning whenever\
       \ a nonhostile creature that it can see within 30 feet of it makes an attack\
@@ -120,11 +125,6 @@ Hobgoblins worship Maglubiyet the Mighty One, the greater god of goblinoids. As 
     "name": "Leadership (Recharges after a Short or Long Rest)"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "WDMM"
-  - "BGDIA"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/hobgoblin-captain.webp"
 ```
 ^statblock

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ayik Ur (6th Level)
+- "Ayik Ur (6th Level)"
 ---
-# [Ayik Ur (6th Level)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/ayik-ur-6th-level-dsotdq.md)
+# [Ayik Ur (6th Level)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ayik-ur-6th-level-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 211*  
 
 ```statblock
@@ -34,7 +35,7 @@ aliases:
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+7"
+  - "dexterity": !!int "7"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+3"
@@ -46,6 +47,9 @@ aliases:
     "desc": "+7"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+4"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 17"
 "languages": "Common"
 "traits":
@@ -55,7 +59,7 @@ aliases:
       \ armor."
     "name": "Bonus Proficiencies"
   - "desc": "Ayik can use a bonus action on his turn to regain hit points equal to\
-      \ d10 + his level. Once he uses this feature, he can't use it again until\
+      \ 1d10 + his level. Once he uses this feature, he can't use it again until\
       \ he finishes a short or long rest."
     "name": "Second Wind"
   - "desc": "Ayik's attack rolls now score a critical hit on a roll of 19 or 20 on\
@@ -65,10 +69,10 @@ aliases:
       \ action on his turn."
     "name": "Extra Attack"
 "actions":
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +9 to hit, range 150/600 ft., one target. *Hit:*\
       \ 8 (1d8 + 4) piercing damage."
     "name": "Longbow"
 "source":

@@ -1,24 +1,25 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/9
 - ttrpg-cli/monster/size/medium
-- ttrpg-cli/monster/type/humanoid/any-race
+- ttrpg-cli/monster/type/humanoid/human
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Portia Dzuth
+- "Portia Dzuth"
 ---
-# [Portia Dzuth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/portia-dzuth-wdmm.md)
+# [Portia Dzuth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/portia-dzuth-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 239*  
 
 ```statblock
 "name": "Portia Dzuth (WDMM)"
 "size": "Medium"
 "type": "humanoid"
-"subtype": "any race"
+"subtype": "human"
 "alignment": "Lawful Neutral"
 "ac": !!int "18"
 "ac_class": "[plate armor](03.PlayerLog&Handouts/Mechanics/CLI/items/plate-armor.md)"
@@ -34,8 +35,8 @@ aliases:
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "strength": "+9"
-  - "constitution": "+6"
+  - "strength": !!int "9"
+  - "constitution": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+9"
@@ -43,6 +44,9 @@ aliases:
     "desc": "+5"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
 "senses": "passive Perception 16"
 "languages": "Common"
 "cr": "9"
@@ -62,11 +66,11 @@ aliases:
 "actions":
   - "desc": "Portia makes three attacks with its greatsword or its shortbow."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) slashing damage, plus 7 (2d6) slashing damage if Portia has\
       \ more than half of its total hit points remaining."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage, plus 7 (2d6) piercing damage if Portia has\
       \ more than half of its total hit points remaining."
     "name": "Shortbow"

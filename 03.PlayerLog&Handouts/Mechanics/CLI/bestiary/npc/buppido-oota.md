@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Buppido
+- "Buppido"
 ---
-# [Buppido](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/buppido-oota.md)
+# [Buppido](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/buppido-oota.md)
 *Source: Out of the Abyss p. 6*  
 
 ```statblock
@@ -26,7 +27,7 @@ aliases:
 "hit_dice": "3d6 + 3"
 "modifier": !!int "2"
 "stats":
-  - !!int "10"
+  - !!int "9"
   - !!int "14"
   - !!int "12"
   - !!int "11"
@@ -36,10 +37,17 @@ aliases:
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 120 ft., passive Perception 7"
+"gear":
+  - "[hooked shortspear](03.PlayerLog&Handouts/Mechanics/CLI/items/hooked-shortspear-oota.md)"
+  - "[light repeating crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/light-repeating-crossbow-oota.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 7"
 "languages": "Dwarvish, Undercommon"
 "cr": "1/4"
 "traits":
+  - "desc": "Buppido has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)."
+    "name": "Insanity"
   - "desc": "Buppido has advantage on saving throws against spells and other magical\
       \ effects."
     "name": "Magic Resistance"
@@ -48,13 +56,14 @@ aliases:
       \ checks that rely on sight."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3\
-      \ (d6) piercing damage. If the target is Medium or smaller, Buppido can choose\
-      \ to deal no damage and knock it [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
-    "name": "Hooked Spear"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 1\
+      \ (1d4 - 1) piercing damage. If the target is a creature, Buppido can choose\
+      \ to deal no damage and try to trip the target instead, in which case the target\
+      \ must succeed on a DC 9 Strength saving throw or fall [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Hooked Shortspear"
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 40/160 ft., one target. *Hit:*\
       \ 6 (1d8 + 2) piercing damage."
-    "name": "Light Crossbow"
+    "name": "Light Repeating Crossbow"
 "source":
   - "OotA"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/buppido-oota.webp"

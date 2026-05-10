@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Naiad
+- "Naiad"
 ---
-# [Naiad](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/naiad-cm.md)
+# [Naiad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/naiad-cm.md)
 *Source: Candlekeep Mysteries p. 84*  
 
 ```statblock
@@ -48,9 +49,9 @@ aliases:
 "traits":
   - "desc": "The naiad's spellcasting ability is Charisma (spell save DC 14). It can\
       \ innately cast the following spells, requiring no material components:\n\n\
-      At will: [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
-      \n3/day: [phantasmal force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md)\n\
-      \n1/day each: [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md),\
+      **At will:** [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
+      \n**3/day:** [phantasmal force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md)\n\
+      \n**1/day each:** [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md),\
       \ [hypnotic pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md)"
     "name": "Innate Spellcasting"
   - "desc": "The naiad can breathe air and water."
@@ -64,7 +65,7 @@ aliases:
 "actions":
   - "desc": "The naiad makes two psychic touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Spell Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d10 + 4) psychic damage."
     "name": "Psychic Touch"
 "source":

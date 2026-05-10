@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 aliases:
-- Maestro's Fall
+- "Maestro's Fall"
 ---
 # Maestro's Fall
 *Source: Waterdeep: Dragon Heist, p. 131* 
@@ -185,7 +186,7 @@ Secured to the walls are racks of cooking ingredients, including jars of spices,
 The crew dines here throughout the day. At any given time, the cabin contains the following:
 
 - Six sailors ([drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md)) are enjoying a meal.  
-- Aboard the *Heartbreaker* or the *Hellraiser*, the sailors are joined by `d4` carnies ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)). Furnishings include a table, ten stools, and two oak cabinets containing dishes, [tankards](03.PlayerLog&Handouts/Mechanics/CLI/items/tankard.md), and utensils.  
+- Aboard the *Heartbreaker* or the *Hellraiser*, the sailors are joined by `1d4` carnies ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)). Furnishings include a table, ten stools, and two oak cabinets containing dishes, [tankards](03.PlayerLog&Handouts/Mechanics/CLI/items/tankard.md), and utensils.  
 
 #### J8. Forecastle
 
@@ -232,7 +233,7 @@ Each captain keeps a modest collection of mundane books. Each hides his spellboo
 
 ##### Locked Trunk
 
-A successful DC 20 Dexterity check by a character using thieves' tools opens the padlock, or it can be broken off with a successful DC 20 Strength (Athletics) check. The trunk contains folded clothes, 250 gp in a sack, `d6` pearls (worth 100 gp each) in a silk pouch, a [potion of water breathing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-water-breathing.md), and a bottle of excellent wine (worth 25 gp), bearing a label in the shape of an eye patch and the name "One-Eyed Jax" in Common.
+A successful DC 20 Dexterity check by a character using thieves' tools opens the padlock, or it can be broken off with a successful DC 20 Strength (Athletics) check. The trunk contains folded clothes, 250 gp in a sack, `1d6` pearls (worth 100 gp each) in a silk pouch, a [potion of water breathing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-water-breathing.md), and a bottle of excellent wine (worth 25 gp), bearing a label in the shape of an eye patch and the name "One-Eyed Jax" in Common.
 
 #### J11. Aft Castle Upper Deck
 
@@ -278,8 +279,6 @@ A door made of crisscrossing iron bars and fitted with a sturdy lock seals off t
 There's a 25 percent chance that a sailor ([drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md)) is being held in the brig after punching a crewmate during an argument.
 
 **Brig Occupant**
-
-`dice: [](09-maestros-fall.md#^brig-occupant)`
 
 | dice: d100 | result |
 |------------|--------|
@@ -777,7 +776,7 @@ These Bregan D'aerthe spies are on their way to a secret meeting with [Laeral Si
 
 Harper spies in Luskan recently warned Laeral that Jarlaxle might be in Waterdeep. She reached out to him with a [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md) spell to arrange this meeting, in the hope of finding out his plans. The characters can follow the drow spies to the rendezvous. If the drow realize they're being followed, they make no effort to shake their pursuers. If they're attacked, they scatter and try to complete their mission before heading back to the *Eyecatcher*.
 
-If a battle erupts and escape appears impossible, the drow fight to the death. A City Watch patrol consisting of six [veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md) arrives `d4` minutes later to make arrests.
+If a battle erupts and escape appears impossible, the drow fight to the death. A City Watch patrol consisting of six [veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md) arrives `1d4` minutes later to make arrests.
 
 #### Jarlaxle's Letter
 
@@ -808,7 +807,7 @@ If Laeral becomes aware of the characters, she appears before them and asks what
 
 If the characters inquire about the letter, she shows it to them and asks their opinions on Luskan's joining the Lords' Alliance. In her mind, Luskan is a greedy pirate state that can't be trusted under any circumstances. If the characters feel similarly, she trusts them enough to ask for their help in finding and securing Lord Neverember's hidden cache of dragons. In exchange, she promises them a 5,000 gp reward and Waterdeep's gratitude.
 
-![Nat, Jenks and Squiddly en...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dragon-heist/img/autumn-scene.webp#center "Nat, Jenks and Squiddly enjoy a windy autumn day on the docks")
+![Nat, Jenks and Squiddly enjoy a windy autumn day on the docks](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dragon-heist/img/autumn-scene.webp#center)
 
 ### Day of Wonders Parade
 

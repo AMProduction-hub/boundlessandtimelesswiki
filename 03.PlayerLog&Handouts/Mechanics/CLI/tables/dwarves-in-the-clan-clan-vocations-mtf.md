@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Dwarves in the Clan; Clan Vocations
+- "Dwarves in the Clan; Clan Vocations"
 ---
 # Dwarves in the Clan; Clan Vocations
 *Source: Mordenkainen's Tome of Foes p. 82* 
 
 **Clan Vocations**
-
-`dice: [](dwarves-in-the-clan-clan-vocations-mtf.md#^clan-vocations)`
 
 | dice: d20 | Vocation |
 |-----------|----------|

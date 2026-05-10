@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Status Symbols
+- "Status Symbols"
 ---
 # Status Symbols
 *Source: Volo's Guide to Monsters p. 42* 
 
 **Status Symbols**
-
-`dice: [](status-symbols-vgm.md#^status-symbols)`
 
 | dice: d20 | Status Symbol |
 |-----------|---------------|

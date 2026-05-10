@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
@@ -17,7 +18,7 @@ tags:
 - ttrpg-cli/spell/subclass/knowledge-domain
 - ttrpg-cli/spell/subrace/tiefling-fierna
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Knowledge Domain)
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
@@ -25,7 +26,7 @@ classes:
 - Warlock
 - Wizard
 aliases:
-- Suggestion
+- "Suggestion"
 ---
 # Suggestion
 *2nd-level, Enchantment*  
@@ -44,6 +45,6 @@ You can also specify conditions that will trigger a special activity during the 
 
 If you or any of your companions damage the target, the spell ends.
 
-**Classes**: [Cleric (Knowledge Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-knowledge-domain.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Knowledge Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-knowledge-domain.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 279. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

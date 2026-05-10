@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Chapter 2: Icewind Dale
+- "Chapter 2: Icewind Dale"
 ---
 # Chapter 2: Icewind Dale
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 101* 
@@ -17,7 +18,7 @@ Trapped in winter's cold embrace, nomadic humans follow herds of [reindeer](03.P
 
 Despite the unnatural cold and other dangers, people still brave the journey to reach this harsh winterscape, searching for opportunity and adventure.
 
-![The goblin fortress of Kar...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/089-02-000-chapter-splash.webp#center "The goblin fortress of Karkolohk perches atop a rocky spur in the foothills of the Spine of the World")
+![The goblin fortress of Karkolohk perches atop a rocky spur in the foothills of the Spine of the World](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/089-02-000-chapter-splash.webp#center)
 
 ## Running This Chapter
 
@@ -42,8 +43,6 @@ By the time the characters reach 3rd level, they have garnered enough of a reput
 You can either choose which tales to share with the players, or you can ask each player to roll once on the table. Let the players decide which tales (if any) they want to investigate.
 
 **Tall Tales in Ten-Towns**
-
-`dice: [](13-chapter-2-icewind-dale.md#^tall-tales-in-ten-towns)`
 
 | dice: d20 | Tale |
 |-----------|------|
@@ -115,7 +114,7 @@ Yselm knows the way to Jarlmoot but doesn't help the characters fight any threat
 
 Karkolohk quest (see "Karkolohk")
 
-A goblin messenger from Karkolohk was recently captured in Bryn Shander and found to be carrying a declaration of peace from Chief Yarb-Gnock, addressed to Speaker Duvessa Shane. Yarb-Gnock would like Speaker Shane to send delegates to Karkolohk to conduct "treaty negotiations." Sherriff Markham Southwell doesn't believe a word of Yarb-Gnock's message and offers a reward of 300 gp for the goblin chieftain's head.
+A goblin messenger from Karkolohk was recently captured in Bryn Shander and found to be carrying a declaration of peace from Chief Yarb-Gnock, addressed to Speaker Duvessa Shane. Yarb-Gnock would like Speaker Shane to send delegates to Karkolohk to conduct "treaty negotiations." Sheriff Markham Southwell doesn't believe a word of Yarb-Gnock's message and offers a reward of 300 gp for the goblin chieftain's head.
 
 Upon arriving at Karkolohk, the characters discover that the declaration of peace is either a genuine attempt to end hostilities with Ten-Towns, or a desperate ploy by Yarb-Gnock to lure adventurers to Karkolohk to that they can help him escape. As the DM, you get to determine Yarb-Gnock's true intentions (see "Gnome Diplomacy" for more information).
 
@@ -125,7 +124,7 @@ Lost Spire of Netheril quest (see "Lost Spire of Netheril")
 
 Yeti are growing bold and striking closer to Ten-Towns than ever before, going so far as to venture onto frozen lakes to attack ice fishers. Local merchants who earn a living selling yeti hides and meat are offering up to 100 gp for every dead yeti brought back to Ten-Towns.
 
-A hunter named Mylbor Tafferac (neutral evil human [gladiator](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gladiator.md) with [Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival) +7) has been scouring the tundra for the Red Yeti—a yeti so terrifying and cruel that its fur is stained red with the blood of its kills. One night at a tavern, Mylbor bets the characters 300 gp that he'll find and kill the Red Yeti before they can. If the characters take the bet, the contest sparks excitement in taverns across Ten-Towns, leading to all sorts of side-betting.
+A hunter named Mylbor Tafferac (neutral evil human [gladiator](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gladiator.md) with [Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival) [Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival) (`+7`)) has been scouring the tundra for the Red Yeti—a yeti so terrifying and cruel that its fur is stained red with the blood of its kills. One night at a tavern, Mylbor bets the characters 300 gp that he'll find and kill the Red Yeti before they can. If the characters take the bet, the contest sparks excitement in taverns across Ten-Towns, leading to all sorts of side-betting.
 
 The characters' search for the Red Yeti leads to the accidental discovery of the Lost Spire of Netheril. Only after the characters explore the lost spire and return to Ten-Towns do they discover the Red Yeti is dead—found and killed by the incomparable Mylbor Tafferac.
 
@@ -167,8 +166,6 @@ If you're not sure how often to schedule random encounters in a 24-hour period, 
 
 **Number of Wilderness Encounters**
 
-`dice: [](13-chapter-2-icewind-dale.md#^number-of-wilderness-encounters)`
-
 | dice: d8 | Number of Encounters |
 |----------|----------------------|
 | 1 | One encounter in the morning (dawn to noon) |
@@ -184,15 +181,13 @@ If you're not sure how often to schedule random encounters in a 24-hour period, 
 When you're ready to stage an encounter in the wilderness, roll two 20-sided dice of different colors. The first `d20` is the **encounter die**; the second `d20` is the **blizzard die**. Use them as follows:
 
 - Roll the encounter die and consult the Random Wilderness Encounters table to determine what the characters come across.  
-- Roll the blizzard die and add 1. If this total is higher than the encounter die roll, the encounter takes place during a blizzard (see "Blizzards"). The blizzard starts `d4` hours before the encounter is triggered and ends `d4` hours after it is resolved.  
+- Roll the blizzard die and add 1. If this total is higher than the encounter die roll, the encounter takes place during a blizzard (see "Blizzards"). The blizzard starts `1d4` hours before the encounter is triggered and ends `1d4` hours after it is resolved.  
 
 The Random Wilderness Encounters table is structured so that certain monsters are more likely to be encountered in a blizzard than others. For example, at the two extremes, yetis are always encountered in a blizzard, whereas perytons almost never are.
 
 Some the random encounters are designed to test the characters in battle, while others encourage roleplaying. All of them paint a picture of Icewind Dale as a harsh realm full of a wide variety of creatures struggling to survive. An encounter's difficulty—noted as Easy, Medium, Hard, or Deadly in the Difficulty column of the Random Wilderness Encounters table—assumes the characters are 4th, 5th, or 6th level. It's okay for some encounters to be easy and others to be hard or deadly. Easy encounters build players' confidence; hard and deadly encounters force players to weigh their characters' options and think outside the box. If the characters find themselves in a tough spot, give the players time to try to find a way out of it, encourage them to be creative, and award inspiration when appropriate.
 
 **Random Wilderness Encounters**
-
-`dice: [](13-chapter-2-icewind-dale.md#^random-wilderness-encounters)`
 
 | dice: d20 | Encounter | Difficulty |
 |-----------|-----------|------------|
@@ -226,7 +221,7 @@ Known to Ten-Towners as the White Wyrm, Arveiaturace is an [ancient white dragon
 
 At one time, Arveiaturace served a wizard named Meltharond, whose frozen corpse remains strapped to a saddle on the dragon's back. Arveiaturace has never acknowledged his death and still speaks to his body as if he were alive. He was, while he lived, her only friend and confidant.
 
-![Arveiaturace the White Wyr...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/091-02-002-dragon.webp#center "Arveiaturace the White Wyrm and Her Mysterious Rider")
+![Arveiaturace the White Wyrm and Her Mysterious Rider](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/091-02-002-dragon.webp#center)
 
 ##### Running the Encounter
 
@@ -249,8 +244,6 @@ An awakened beast can be persuaded to help the characters, and perhaps even join
 If asked to give its name, the awakened beast either comes up with a name on the fly or adopts a suggested name that it likes. If you're having trouble coming up with a voice for the awakened beast, try mimicking the speech of a cartoon character or a famous actor.
 
 **Awakened Beast Encounter**
-
-`dice: [](13-chapter-2-icewind-dale.md#^awakened-beast-encounter)`
 
 | dice: d8 | Awakened Beast |
 |----------|----------------|
@@ -293,7 +286,7 @@ One berserker wears a magic ring made of ice on one finger. The characters notic
 
 Chwingas are elemental spirits that mean no harm. They adapt quickly to almost any natural setting and occasionally offer supernatural gifts to those they glom onto. But a blizzard can drive a [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) insane, causing it to behave unpredictably until the blizzard passes.
 
-The characters encounter a [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-toa.md) (see appendix C) that makes its presence known by springing out of a snowdrift or appearing from behind a frozen bush. It looks like a spindly, snow-white doll wearing a decorative mask. In its tiny hands it holds a frozen berry, which it offers to the characters.
+The characters encounter a [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) (see appendix C) that makes its presence known by springing out of a snowdrift or appearing from behind a frozen bush. It looks like a spindly, snow-white doll wearing a decorative mask. In its tiny hands it holds a frozen berry, which it offers to the characters.
 
 ##### Running the Encounter
 
@@ -339,8 +332,6 @@ One of the frost druid's prepared spells is [moonbeam](03.PlayerLog&Handouts/Mec
 
 **Frost Druid Friends**
 
-`dice: [](13-chapter-2-icewind-dale.md#^frost-druid-friends)`
-
 | dice: d4 | Encounter |
 |----------|-----------|
 | 1 | [Awakened tree](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/awakened-tree.md) (coniferous only) |
@@ -385,8 +376,6 @@ The goliaths might be involved in a quest, a scavenger hunt, or an elaborate dar
 
 **Athletic Contests**
 
-`dice: [](13-chapter-2-icewind-dale.md#^athletic-contests)`
-
 | dice: d4 | Contest |
 |----------|---------|
 | 1 | Tug o' War. Two teams grip opposite ends of a 50-foot-long rope: the goliaths on one side, the adventuring party on the other. The teams need not have the same number of members, and the goliaths have no objection to being outnumbered. If the sum of the characters' combined Strength scores is higher than the sum of the goliaths' combined Strength scores, the characters win the tug o' war. If the sums are the same, the contest ends in a draw. Otherwise, the goliaths win. |
@@ -421,8 +410,6 @@ Wherever large herds are encountered, characters can expect to find humans as we
 
 **Sea of Moving Ice Herds**
 
-`dice: [](13-chapter-2-icewind-dale.md#^sea-of-moving-ice-herds)`
-
 | dice: d6 | Herd |
 |----------|------|
 | 1 | `3d6` [killer whales](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/killer-whale.md) |
@@ -431,8 +418,6 @@ Wherever large herds are encountered, characters can expect to find humans as we
 ^sea-of-moving-ice-herds
 
 **Tundra Herds**
-
-`dice: [](13-chapter-2-icewind-dale.md#^tundra-herds)`
 
 | dice: d6 | Herd |
 |----------|------|
@@ -467,8 +452,6 @@ Characters with the Outlander background have advantage on ability checks to imp
 If the characters change the attitude of a group of Reghed nomads from indifferent to friendly, the nomads invite the party to their nearest campsite (see "Reghed Tribe Camp"), where the nomads provide food, drink, and shelter.
 
 **Reghed Tribes**
-
-`dice: [](13-chapter-2-icewind-dale.md#^reghed-tribes)`
 
 | dice: d20 | Tribe | Starting Attitude |
 |-----------|-------|-------------------|
@@ -542,11 +525,9 @@ This encounter always occurs during a blizzard. Roll a `d6` and consult the Yeti
 
 **Yeti Encounter**
 
-`dice: [](13-chapter-2-icewind-dale.md#^yeti-encounter)`
-
 | dice: d6 | Encounter | Difficulty |
 |----------|-----------|------------|
-| 1–3 | `d4` [yeti](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yeti.md) | Medium |
+| 1–3 | `1d4` [yeti](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yeti.md) | Medium |
 | 4–5 | 1 [abominable yeti](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/abominable-yeti.md) | Hard |
 | 6 | 1 [yeti tyke](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yeti-tyke-idrotf.md) (see appendix C) | Easy |
 ^yeti-encounter
@@ -609,7 +590,7 @@ A 1-foot-diameter copper bell dangles from a 10-foot-tall wooden pole attached t
 
 ###### Angajuk Arrives
 
-It takes 30 minutes for Angajuk the [sperm whale](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/sperm-whale-idrotf.md) (see appendix C) to arrive after the bell is rung, accompanied by `d4` harmless narwhals or dolphins. Angajuk has an Intelligence of 10 and speaks Common. Its deep, resonant voice carries a slight echo. Once the whale appears, characters must persuade it to be of service (see "Earning Angajuk's Trust" below). Otherwise, it submerges and departs after a few minutes. If the whale is befriended and the characters communicate their desired destination to it, Angajuk takes them where they want to go provided the location is on or in the Sea of Moving Ice. The awakened whale knows the location of the Frostmaiden's island and, despite some close encounters with Auril's roc, is willing to travel there.
+It takes 30 minutes for Angajuk the [sperm whale](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/sperm-whale-idrotf.md) (see appendix C) to arrive after the bell is rung, accompanied by `1d4` harmless narwhals or dolphins. Angajuk has an Intelligence of 10 and speaks Common. Its deep, resonant voice carries a slight echo. Once the whale appears, characters must persuade it to be of service (see "Earning Angajuk's Trust" below). Otherwise, it submerges and departs after a few minutes. If the whale is befriended and the characters communicate their desired destination to it, Angajuk takes them where they want to go provided the location is on or in the Sea of Moving Ice. The awakened whale knows the location of the Frostmaiden's island and, despite some close encounters with Auril's roc, is willing to travel there.
 
 Angajuk's boat can hold up to eight Medium creatures and their gear, and up to 1,000 pounds of cargo.
 
@@ -775,7 +756,7 @@ A character must attune to the modified Summer Star to use it. While holding the
 
 Macreadus knows what must be done to fix the device but can't activate the item because he's dead. If no one can attune to the modified *Summer Star* because everyone in the party is dead and trapped as a spirit in the Border Ethereal, nothing more can be done with the device until someone else comes along who can attune to it. Fortunately for the characters, they don't have long to wait before someone arrives (see the "Werebear Visitor" sidebar). Characters in spirit form can convince the new arrival to do what they cannot, perhaps by writing messages in the snow, or on a section of wall or floor using ash from a nearby fireplace.
 
-Macreadus's spirit can finally rest after it witnesses the activation of the new and improved *Summer Star*. As it departs, the party receives a special blessing from Lathander. Any party member who died within the past 24 hours is instantly restored to life at full health, regardless of how the character died. In addition, each character who helped lay Macreadus's spirit to rest gains a *blessing of the Morninglord* (described below). For rules on blessings, see ""Supernatural Gifts"" in the "Dungeon Master's Guide".
+Macreadus's spirit can finally rest after it witnesses the activation of the new and improved *Summer Star*. As it departs, the party receives a special blessing from Lathander. Any party member who died within the past 24 hours is instantly restored to life at full health, regardless of how the character died. In addition, each character who helped lay Macreadus's spirit to rest gains a [blessing of the Morninglord](03.PlayerLog&Handouts/Mechanics/CLI/rewards/blessing-of-the-morninglord-idrotf.md) (described below). For rules on blessings, see ""Supernatural Gifts"" in the "Dungeon Master's Guide".
 
 > [!note] 
 > 
@@ -1069,7 +1050,7 @@ The portico is sturdier than it looks. It has AC 15, 75 hit points, and immunity
 
 The wyrmlings don't pursue prey that flees the cave. Instead, they roost atop snowy outcroppings above the entrance and keep watch for several hours before retiring to their lair (area Q4) to rest.
 
-![The white wyrmlings Gelym ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/109-02-010-dragons.webp#center "The white wyrmlings Gelym and Tyzar perch outside the Bear's Head")
+![The white wyrmlings Gelym and Tyzar perch outside the Bear's Head](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/109-02-010-dragons.webp#center)
 
 ##### Q3. Eggshells in Cells
 
@@ -1305,7 +1286,7 @@ The third layer of ice covers 221 gp, a 1-foot-tall marble statuette of a griffo
 
 The fourth layer of ice shields the biggest, heaviest items and the treasure the dragon values the most: a 3-foot-diameter ceremonial bronze bowl inlaid with carnelians (1,000 gp), seven garnets (100 gp each), a suit of [mithral armor](03.PlayerLog&Handouts/Mechanics/CLI/items/mithral-armor.md) (chain mail), and a near-perfect replica of the [Wand of Orcus](03.PlayerLog&Handouts/Mechanics/CLI/items/wand-of-orcus.md) that emits green light from the skull at its tip. Any character who tries to attune to this [Wand of Orcus](03.PlayerLog&Handouts/Mechanics/CLI/items/wand-of-orcus.md) realizes it's a fake, though it does emit magical light comparable to that created by a [continual flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/continual-flame.md) spell.
 
-![The Dark Duchess is trappe...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/112-02-011-dark-duchess.webp#center "The Dark Duchess is trapped in the ice—another victim of the Frostmaiden's everlasting winter")
+![The Dark Duchess is trapped in the ice—another victim of the Frostmaiden's everlasting winter](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/112-02-011-dark-duchess.webp#center)
 
 ##### D10. Galley
 
@@ -1381,13 +1362,13 @@ Tinjong worships Silvanus (god of nature) and has no agenda. She tries to be hel
 
 ###### Tinjong's Cave
 
-If the characters need a place to rest and recuperate, Tinjong leads them to her cave overlooking the sea. It contains no furnishings, but there are plenty of furs for warmth and enough wood and oil to start a fire. A [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-toa.md) shares the cave with Tinjong but spends most of its time hiding in a rock. It emerges to greet Tinjong when she returns, however. The [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) likes music and bestows a supernatural charm (see "New Chwinga Charms") upon the first character who spends at least 1 hour playing music for it.
+If the characters need a place to rest and recuperate, Tinjong leads them to her cave overlooking the sea. It contains no furnishings, but there are plenty of furs for warmth and enough wood and oil to start a fire. A [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) shares the cave with Tinjong but spends most of its time hiding in a rock. It emerges to greet Tinjong when she returns, however. The [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) likes music and bestows a supernatural charm (see "New Chwinga Charms") upon the first character who spends at least 1 hour playing music for it.
 
 ### Id Ascendant
 
 Stories about a comet crashing in the mountains (see "Tall Tales in Ten-Towns") or a quest concerning a telepathic message (see "Distress Signal") might bring adventurers to this location, as might a character who has the Escaped Prisoner secret (see appendix B).
 
-![Otherworldy creatures issu...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/113-02-012-nautiloid.webp#center "Otherworldy creatures issue forth from a crashed illithid nautiloid")
+![Otherworldy creatures issue forth from a crashed illithid nautiloid](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/113-02-012-nautiloid.webp#center)
 
 #### Nautiloid Down
 
@@ -1599,7 +1580,7 @@ The deck is covered in frost. A pintle mount for a telescope is fastened near th
 
 ##### N9. Captains' Quarters
 
-![A thoughtful adventurer tr...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/116-02-013-squidling.webp#center "A thoughtful adventurer transports a gnome squidling back to Ten-Towns")
+![A thoughtful adventurer transports a gnome squidling back to Ten-Towns](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/116-02-013-squidling.webp#center)
 
 > [!readaloud] 
 > 
@@ -1608,7 +1589,7 @@ The deck is covered in frost. A pintle mount for a telescope is fastened near th
 > Five strange, glowing gizmos are attached to the chitinous walls seven feet above the floor. These devices look like the tips of metal wands held in pincer-claws.
 ^36d
 
-The five gizmos on the walls fire beams of radiant energy whenever a non-illithid is in the room. At the start of each turn, each gizmo targets a random creature in the room (including mind flayers). The target must succeed on a DC 16 Dexterity saving throw or be struck by the gizmo's beam, taking 4 (`d8`) radiant damage. Each gizmo is a Tiny object with AC 16, 3 hit points, and immunity to poison and psychic damage. A character can use an action to try to tear a gizmo from the wall, doing so with a successful DC 10 Strength check. Reducing a gizmo to 0 hit points or tearing it from the wall destroys it.
+The five gizmos on the walls fire beams of radiant energy whenever a non-illithid is in the room. At the start of each turn, each gizmo targets a random creature in the room (including mind flayers). The target must succeed on a DC 16 Dexterity saving throw or be struck by the gizmo's beam, taking 4 (`1d8`) radiant damage. Each gizmo is a Tiny object with AC 16, 3 hit points, and immunity to poison and psychic damage. A character can use an action to try to tear a gizmo from the wall, doing so with a successful DC 10 Strength check. Reducing a gizmo to 0 hit points or tearing it from the wall destroys it.
 
 ###### Crystal Sphere
 
@@ -1616,7 +1597,7 @@ The crystal sphere is a cryogenic stasis pod, identical to the ones in area N3 a
 
 ###### Worktable
 
-Amid the clutter on the table are two magic items (see "Treasure" below), which a character can find only by rooting through the junk. Any creature that does so has a 50 percent chance of knocking two things together and triggering an electrical discharge. When such a discharge occurs, every creature within 5 feet of the table must make a DC 17 Dexterity saving throw. On a failed save, the creature takes 4 (`d8`) lightning damage.
+Amid the clutter on the table are two magic items (see "Treasure" below), which a character can find only by rooting through the junk. Any creature that does so has a 50 percent chance of knocking two things together and triggering an electrical discharge. When such a discharge occurs, every creature within 5 feet of the table must make a DC 17 Dexterity saving throw. On a failed save, the creature takes 4 (`1d8`) lightning damage.
 
 ###### Treasure
 
@@ -1776,7 +1757,7 @@ Each chest contains a single item. The four items are as follows:
 - A gleaming scale from a young white dragon  
 - A fist-sized stone from Kelvin's Cairn  
 
-![The ghosts of ancient fros...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/125-02-014-ghosts.webp#center "The ghosts of ancient frost giant jarls sit in judgment over all who would disturb their rest")
+![The ghosts of ancient frost giant jarls sit in judgment over all who would disturb their rest](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/125-02-014-ghosts.webp#center)
 
 #### Leaving Jarlmoot
 
@@ -1798,7 +1779,7 @@ A goblin prison-fort clings to an icy crag in the rocky, wind-blasted western fo
 Any of the following hooks might lure characters to the gates of Karkolohk:
 
 - The characters learn about the goblin fortress while they're in Ten-Towns (see "Tall Tales in Ten-Towns").  
-- Sherriff Markham Southwell of Bryn Shander hires the characters to bring him the head of the goblin chief, Yarb-Gnock (see "Peace Out" and "Gnome Diplomacy" below).  
+- Sheriff Markham Southwell of Bryn Shander hires the characters to bring him the head of the goblin chief, Yarb-Gnock (see "Peace Out" and "Gnome Diplomacy" below).  
 - The characters follow a goblin wagon heading back to Karkolohk (see "Foaming Mugs").  
 - The characters find a shield guardian's amulet in the Lost Spire of Netheril (see "Lost Spire of Netheril") and use its tracking feature, which leads them to Karkolohk, where the shield guardian is found.  
 
@@ -1939,7 +1920,7 @@ The walkway was shoddily constructed and shows signs of having been repaired man
 > Ramshackle huts cling precariously to the rock face, their rope ladders swaying with every gust of wind.
 ^3a0
 
-These huts are secured to the rock face with stilts. Each hut is 15 to 20 feet above the path of wooden planks that runs the length of the ledge below them. The huts' interiors are lined with animal pelts and thick strips of bark. Each hut contains an adult [goblin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) and `d6` goblin children (noncombatants).
+These huts are secured to the rock face with stilts. Each hut is 15 to 20 feet above the path of wooden planks that runs the length of the ledge below them. The huts' interiors are lined with animal pelts and thick strips of bark. Each hut contains an adult [goblin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) and `1d6` goblin children (noncombatants).
 
 When the fortress comes under attack, the goblins who live here pull up their rope ladders, which makes getting to the huts difficult. A creature can reach a hut by scaling the icy cliff, but doing this requires a successful DC 15 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check.
 
@@ -2126,7 +2107,7 @@ The members of the previous expedition searched through the books and plucked th
 
 *The Unfettered Mind*. This lunatic text discusses how one might exist solely as a disembodied brain, preserved for eons in a magical suspension fluid. It includes sketches of brains in jars.
 
-![A dwarf adventurer explore...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/133-02-021-dwarf.webp#center "A dwarf adventurer explores the upside-down spire of a lost city")
+![A dwarf adventurer explores the upside-down spire of a lost city](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/133-02-021-dwarf.webp#center)
 
 ##### P8. Upside-Down Reading Room
 
@@ -2304,8 +2285,6 @@ If [Dzaan's simulacrum](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/dzaans-
 
 **Rune Chamber Effect**
 
-`dice: [](13-chapter-2-icewind-dale.md#^rune-chamber-effect)`
-
 | dice: d100 | Effect |
 |------------|--------|
 | 01–10 | The illusory object or creature is destroyed. If this happens to [Dzaan's simulacrum](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/dzaans-simulacrum-idrotf.md), it instantly drops to 0 hit points and collapses into a pile of ice and snow. |
@@ -2403,7 +2382,7 @@ Another large tent is occupied by the shaman, who keeps a large collection of me
 
 ###### Treasure
 
-In addition to the medicinal herbs, the shaman's tent contains `d4` [potions of healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-healing.md) in plain wooden vials sealed with corks made of animal fat, as well as a [spell scroll](03.PlayerLog&Handouts/Mechanics/CLI/items/spell-scroll.md) of [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md) (or some other 1st- or 2nd-level spell from the druid spell list).
+In addition to the medicinal herbs, the shaman's tent contains `1d4` [potions of healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-healing.md) in plain wooden vials sealed with corks made of animal fat, as well as a [spell scroll](03.PlayerLog&Handouts/Mechanics/CLI/items/spell-scroll.md) of [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md) (or some other 1st- or 2nd-level spell from the druid spell list).
 
 > [!gallery]
 > ![Map 2.11: Reghed Tribe Camp](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/135-map-2-11-reghed-camp.webp#gallery)
@@ -2436,7 +2415,7 @@ Revel's End is controlled by the Lords' Alliance, a loose confederation of settl
 
 Each member of the Lords' Alliance assigns one representative to Revel's End, and together they form a parole committee called the Absolution Council. Rarely are all ten council members present, since Revel's End offers little in the way of comfort and amenities. If the council needs a tie-breaking vote to determine whether to commute a prisoner's sentence, the prison warden—a neutral arbiter with no ties to any Lords' Alliance member—casts the deciding vote.
 
-![The remote prison of Revel...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/137-02-023-revels-end.webp#center "The remote prison of Revel's End contains many of the Sword Coast's most dangerous criminals")
+![The remote prison of Revel's End contains many of the Sword Coast's most dangerous criminals](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/137-02-023-revels-end.webp#center)
 
 #### Involving the Characters
 
@@ -2626,16 +2605,14 @@ To add detail to some of the inmates, roll on the Prisoners table or choose entr
 
 **Prisoners**
 
-`dice: [](13-chapter-2-icewind-dale.md#^prisoners)`
-
 | dice: d6 | Prisoner |
 |----------|----------|
-| 1 | Noble convicted of slave trading (has served `d6` years of a 10-year sentence) |
-| 2 | Spy convicted of espionage (has served `d6` years of a 10-year sentence) |
-| 3 | Assassin or noble convicted of conspiracy to murder members of a noble family (has served `d20` years of a life sentence) |
-| 4 | Famous adventurer convicted of reckless endangerment (has served `d4` years of a 5-year sentence) |
-| 5 | Spellcaster convicted of using magic to influence others (has served `d4` years of a 5-year sentence) |
-| 6 | Leader of a thieves' guild convicted of multiple crimes (has served `d20` years of a life sentence) |
+| 1 | Noble convicted of slave trading (has served `1d6` years of a 10-year sentence) |
+| 2 | Spy convicted of espionage (has served `1d6` years of a 10-year sentence) |
+| 3 | Assassin or noble convicted of conspiracy to murder members of a noble family (has served `1d20` years of a life sentence) |
+| 4 | Famous adventurer convicted of reckless endangerment (has served `1d4` years of a 5-year sentence) |
+| 5 | Spellcaster convicted of using magic to influence others (has served `1d4` years of a 5-year sentence) |
+| 6 | Leader of a thieves' guild convicted of multiple crimes (has served `1d20` years of a life sentence) |
 ^prisoners
 
 ##### R18. Surveillance Hub
@@ -2877,7 +2854,7 @@ If the party earns Rahi's trust and friendship, she might approach a goliath mem
 > Modify the [griffon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/griffon.md) stat block as follows to account for the young griffon's development:
 > 
 > - At birth, the [griffon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/young-griffon-tiny-idrotf.md) is Tiny and has 5 (`1d4 + 3`) hit points, a flying speed of 40 feet, and a Strength score of 2. It has a +0 bonus to hit on its attacks and deals 1 piercing damage with its beak and 1 slashing damage with its claws. Its challenge rating is 0 (10 XP).  
-> - After 1 year, the [griffon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/young-griffon-small-idrotf.md) is Small and has 13 (`2d6 + 6`) hit points and a Strength score of 8. It has a +1 bonus to hit on its attacks and deals 2 (`d4`) piercing damage with its beak and 2 (`d4`) slashing damage with its claws. Its challenge rating is 1/4 (50 XP).  
+> - After 1 year, the [griffon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/young-griffon-small-idrotf.md) is Small and has 13 (`2d6 + 6`) hit points and a Strength score of 8. It has a +1 bonus to hit on its attacks and deals 2 (`1d4`) piercing damage with its beak and 2 (`1d4`) slashing damage with its claws. Its challenge rating is 1/4 (50 XP).  
 > - After 2 years, the [griffon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/young-griffon-medium-idrotf.md) is Medium and has 32 (`5d6 + 15`) hit points and a Strength score of 12. It has a +3 bonus to hit on its attacks and deals 4 (`1d6 + 1`) piercing damage with its beak and 6 (`2d4 + 1`) slashing damage with its claws. Its challenge rating is 1 (200 XP).  
 > - After 3 years, the [griffon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/griffon.md) is fully grown and tame enough to be ridden as a mount.  
 ^griffon-taming
@@ -2897,7 +2874,7 @@ The runestone is one of two sacred stones in Skytower Shelter (the other is in a
 
 A [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell reveals an aura of transmutation magic around the runestone. Any humanoid creature that prays or meditates next to the runestone for at least 1 hour gains a runestone die, a `d6`. Once within the next 24 hours, it can roll the die and add the number rolled to one Strength check or weapon attack roll it makes. It can wait until after it rolls the `d20` before deciding to use the runestone die, but must decide before the DM says whether the roll succeeds or fails. Once the runestone die is rolled, it is lost, and the humanoid can't gain another from this runestone for 10 days.
 
-![Rahi the goliath helps a g...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/143-02-024-rahi.webp#center "Rahi the goliath helps a griffon hatchling gain the confidence it needs to fly")
+![Rahi the goliath helps a griffon hatchling gain the confidence it needs to fly](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/143-02-024-rahi.webp#center)
 
 ##### S8. Passage of Carvings
 
@@ -3015,7 +2992,7 @@ The following locations are keyed to map 2.14.
 
 The tracks in the snow were made by two goliath warriors returning from a hunt. See area W2 for more about the stone platform and the bleachers.
 
-The bones are those of an adult white dragon named Stygiarus, which met its doom at the hands of the goliaths of Wyrmdoom Crag. Four [chwingas](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-toa.md) (see appendix C) lurk amid the bones and make their presence known by popping out as the characters approach. The chwingas follow the characters around for as long as the party remains in the vicinity of Wyrmdoom Crag. The goliaths of Wyrmdoom Crag are aware of the chwingas and usually ignore them.
+The bones are those of an adult white dragon named Stygiarus, which met its doom at the hands of the goliaths of Wyrmdoom Crag. Four [chwingas](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) (see appendix C) lurk amid the bones and make their presence known by popping out as the characters approach. The chwingas follow the characters around for as long as the party remains in the vicinity of Wyrmdoom Crag. The goliaths of Wyrmdoom Crag are aware of the chwingas and usually ignore them.
 
 Each [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) has a fascination for something and is irresistibly drawn to any character who has or demonstrates that certain something. If a character indulges a [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md)'s fascination once a day for three consecutive days, the [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) rewards that character with a supernatural gift before it departs (see ""Supernatural Gifts"" in the "Dungeon Master's Guide"). See the "New Chwinga Charms" section in appendix C for more charms. Each [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md)'s fascination is described below:
 
@@ -3027,7 +3004,7 @@ Each [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-id
 
 **Chwinga 4** wears a gown made of pine needles. It is fascinated by characters who chew with their mouths open and tries to look down their throats while they eat.
 
-![Goat-ball is the favorite ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/146-02-025-goat-ball.webp#center "Goat-ball is the favorite sport and pastime of the Wyrmdoom Crag goliaths")
+![Goat-ball is the favorite sport and pastime of the Wyrmdoom Crag goliaths](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/146-02-025-goat-ball.webp#center)
 
 ##### W2. Goat-Ball Court
 
@@ -3119,7 +3096,7 @@ The main source of clean water for the clan is the well. A fire bucket is lowere
 
 These 10-foot-high caves are the quarters of the chieftain and the best warriors of the clan. Ogolai claims the southernmost cave, where the tribe's valuables are kept (see "Treasure" below).
 
-The northernmost cave contains a wounded [aarakocra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/aarakocra.md) named Sikki-kree, who is being tended to by a [goliath warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goliath-warrior-idrotf.md) named [Aruk Thundercaller Thuunlakalaga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/aruk-thundercaller-thuunlakalaga-idrotf.md), who has [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight) +4 and [Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine) +4. Sikki-kree crashed in the mountains when she was caught in a blizzard and was rescued by goliath hunters. Aruk has been nursing the aarakocra back to health, but he can do only so much. Although Sikki-kree's minor wounds have healed, she has a broken wing that requires at least 10 hit points of magical healing to be mended. The goliaths of Wyrmdoom Crag have no such magic at their disposal. Any character who helps Sikki-kree regain her ability to fly earns the aarakocra's gratitude and the respect of the Wyrmdoom goliaths.
+The northernmost cave contains a wounded [aarakocra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/aarakocra.md) named Sikki-kree, who is being tended to by a [goliath warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goliath-warrior-idrotf.md) named [Aruk Thundercaller Thuunlakalaga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/aruk-thundercaller-thuunlakalaga-idrotf.md), who has [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight) [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight) (`+4`) and [Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine) [Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine) (`+4`). Sikki-kree crashed in the mountains when she was caught in a blizzard and was rescued by goliath hunters. Aruk has been nursing the aarakocra back to health, but he can do only so much. Although Sikki-kree's minor wounds have healed, she has a broken wing that requires at least 10 hit points of magical healing to be mended. The goliaths of Wyrmdoom Crag have no such magic at their disposal. Any character who helps Sikki-kree regain her ability to fly earns the aarakocra's gratitude and the respect of the Wyrmdoom goliaths.
 
 Once Sikki-kree can fly again, she thanks the characters for their help before getting Ogolai's permission to depart. Ogolai is indebted to the characters for helping the aarakocra, enough that she will agree to a meeting with the chieftain of the Skytower goliaths if the characters request one.
 

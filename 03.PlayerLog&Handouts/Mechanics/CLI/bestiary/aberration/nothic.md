@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nothic
+- "Nothic"
 ---
-# [Nothic](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/nothic.md)
-*Source: Monster Manual p. 236, Curse of Strahd, Lost Mine of Phandelver, Princes of the Apocalypse, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the Basic Rules (2014)*  
+# [Nothic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/nothic.md)
+*Source: Monster Manual p. 236. Available in the Basic Rules (2014)*  
 
 A baleful eye peers out from the darkness, its gleam hinting at a weird intelligence and unnerving malevolence. Most times, a nothic is content to watch, weighing and assessing the creatures it encounters. When driven to violence, it uses its horrific gaze to rot the flesh from its enemies' bones.
 
@@ -56,7 +57,8 @@ Nothics are notorious for infiltrating arcane academies and other places rich in
     "desc": "+2"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "truesight 120 ft., passive Perception 12"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 12"
 "languages": "Undercommon"
 "cr": "2"
 "traits":
@@ -66,7 +68,7 @@ Nothics are notorious for infiltrating arcane academies and other places rich in
 "actions":
   - "desc": "The nothic makes two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Claw"
   - "desc": "The nothic targets one creature it can see within 30 feet of it. The\
@@ -81,17 +83,6 @@ Nothics are notorious for infiltrating arcane academies and other places rich in
     "name": "Weird Insight"
 "source":
   - "MM"
-  - "CoS"
-  - "LMoP"
-  - "PotA"
-  - "ToA"
-  - "WDMM"
-  - "BGDIA"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
-  - "JttRC"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/nothic.webp"
 ```
 ^statblock

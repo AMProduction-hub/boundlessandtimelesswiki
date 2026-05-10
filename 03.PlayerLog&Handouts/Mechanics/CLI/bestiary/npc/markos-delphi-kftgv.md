@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/3
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Markos Delphi
+- "Markos Delphi"
 ---
-# [Markos Delphi](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/markos-delphi-kftgv.md)
+# [Markos Delphi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/markos-delphi-kftgv.md)
 *Source: Keys from the Golden Vault p. 53*  
 
 Markos Delphi grew up with an insatiable curiosity. Eventually, he had his fill of worldly knowledge and began delving into the arcane, eager to understand the secrets of the planes of existence. Raised in a family of scholars and academics, Markos wished to make a breakthrough discovery that would propel himself and his family to new heights.
@@ -38,8 +39,8 @@ This quest for understanding became Markos's obsession. He sequestered himself a
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+3"
-  - "charisma": "+5"
+  - "wisdom": !!int "3"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -48,26 +49,27 @@ This quest for understanding became Markos's obsession. He sequestered himself a
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
 "damage_immunities": "psychic"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Celestial, Common, Deep Speech"
 "cr": "3"
 "actions":
   - "desc": "Markos makes two Ceremonial Blade attacks, two Psychic Orb attacks, or\
       \ one of each."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d6 + 2) piercing damage plus 3 (d6) poison damage. If the target is\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
+      \ (1d6 + 2) piercing damage plus 3 (1d6) poison damage. If the target is\
       \ a creature, it must succeed on a DC 13 Constitution saving throw or become\
       \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. The creature can repeat the saving throw at the end of each\
       \ of its turns, ending the effect on itself on a success."
     "name": "Ceremonial Blade"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 60 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 60 ft., one creature. *Hit:*\
       \ 10 (2d6 + 3) psychic damage."
     "name": "Psychic Orb"
   - "desc": "Markos casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 13):\n\n1/day\
-      \ each: [arms of Hadar](03.PlayerLog&Handouts/Mechanics/CLI/spells/arms-of-hadar.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 13):\n\n**1/day\
+      \ each:** [arms of Hadar](03.PlayerLog&Handouts/Mechanics/CLI/spells/arms-of-hadar.md),\
       \ [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)"
     "name": "Spellcasting"

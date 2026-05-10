@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/aitfr-dn
 aliases:
-- Part 2: The Inner Lair
+- "Part 2: The Inner Lair"
 ---
 # Part 2: The Inner Lair
 *Source: Adventures in the Forgotten Realms: Deepest Night, p. 5* 
@@ -109,7 +110,7 @@ A [giant zombie constrictor snake](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/
 
 ### Treasure
 
-The silver seal in the floor is mostly iron under a layer of silver leaf worth 525 gp. Etched into it is an inscription in a rare dialect of Primordial, explaining lore about the Stone of Creation and its lesser artifacts—whatever lore you may want to convey to bring your players and their characters up to speed—and the names of Kyrilla and Kathikon, who were meant to be guardians of the artifacts.
+The silver seal in the floor is mostly iron under a layer of silver leaf worth 525 gp. Etched into it is an inscription in a rare dialect of Terran, explaining lore about the Stone of Creation and its lesser artifacts—whatever lore you may want to convey to bring your players and their characters up to speed—and the names of Kyrilla and Kathikon, who were meant to be guardians of the artifacts.
 
 ## 6. Giant Snake Den
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Thug
+- "Thug"
 ---
-# [Thug](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/thug.md)
-*Source: Monster Manual p. 350, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Candlekeep Mysteries, Curse of Strahd, Journeys through the Radiant Citadel, Light of Xaryxis, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Thug](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md)
+*Source: Monster Manual p. 350. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Thugs are ruthless enforcers skilled at intimidation and violence. They work for money and have few scruples.
 
@@ -39,6 +40,9 @@ Thugs are ruthless enforcers skilled at intimidation and violence. They work for
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+2"
+"gear":
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
+  - "[mace](03.PlayerLog&Handouts/Mechanics/CLI/items/mace.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "1/2"
@@ -50,32 +54,14 @@ Thugs are ruthless enforcers skilled at intimidation and violence. They work for
 "actions":
   - "desc": "The thug makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 5 (1d6 + 2) bludgeoning damage."
     "name": "Mace"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit:\
-      \ 5 (d10) piercing damage."
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 100/400 ft., one target. *Hit:*\
+      \ 5 (1d10) piercing damage."
     "name": "Heavy Crossbow"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "ToA"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "SLW"
-  - "BGDIA"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
-  - "TCE"
-  - "CM"
-  - "CoS"
-  - "JttRC"
-  - "LoX"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/thug.webp"
 ```
 ^statblock

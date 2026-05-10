@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/spell/class/artificer
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/feat/aberrant-dragonmark
 - ttrpg-cli/spell/feat/artificer-initiate
-- ttrpg-cli/spell/feat/initiate-of-high-sorcery
-- ttrpg-cli/spell/feat/magic-initiate
+- ttrpg-cli/spell/feat/initiate-of-high-sorcery/solinari
+- ttrpg-cli/spell/feat/magic-initiate/wizard-spells
 - ttrpg-cli/spell/level/cantrip
 - ttrpg-cli/spell/optfeature/pact-of-the-tome
 - ttrpg-cli/spell/race/kobold
@@ -23,7 +24,7 @@ tags:
 - ttrpg-cli/spell/subrace/half-elf-moon-elf-or-sun-elf-descent
 classes:
 - Artificer
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Arcana Domain)
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
@@ -31,7 +32,7 @@ classes:
 - Warlock
 - Wizard
 aliases:
-- Lightning Lure
+- "Lightning Lure"
 ---
 # Lightning Lure
 *cantrip, Evocation*  
@@ -42,10 +43,10 @@ aliases:
 - **Components:** V
 - **Duration:** Instantaneous
 
-You create a lash of lightning energy that strikes at one creature of your choice that you can see within 15 feet of you. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take `d8` lightning damage if it is within 5 feet of you.
+You create a lash of lightning energy that strikes at one creature of your choice that you can see within 15 feet of you. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take `1d8` lightning damage if it is within 5 feet of you.
 
-This spell's damage increases by `d8` when you reach 5th level (`2d8`), 11th level (`3d8`), and 17th level (`4d8`).
+This spell's damage increases by `1d8` when you reach 5th level (`2d8`), 11th level (`3d8`), and 17th level (`4d8`).
 
-**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Tasha's Cauldron of Everything p. 107, Sword Coast Adventurer's Guide p. 143*

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/screen
 aliases:
-- DM Screen; Light
+- "DM Screen; Light"
 ---
 # DM Screen; Light
 *Source: Dungeon Master's Screen* 

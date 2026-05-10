@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Winged Thrull
+- "Winged Thrull"
 ---
-# [Winged Thrull](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/winged-thrull-ggr.md)
+# [Winged Thrull](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/winged-thrull-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 221*  
 
 Winged thrulls are at once the most intelligent of Orzhov thrulls (which isn't saying much), as well as the smallest, most unobtrusive, and most mobile. They act as messengers and spies for their Orzhov masters and tend to mimic the mannerisms and movements of the oligarchs they serve.
@@ -42,18 +43,19 @@ A thrull doesn't require air, food, drink, or sleep.
   - !!int "8"
 "speed": "30 ft., fly 30 ft."
 "saves":
-  - "dexterity": "+4"
+  - "dexterity": !!int "4"
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "understands Common but can't speak"
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) slashing damage."
     "name": "Claws"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 20/60 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) bludgeoning damage."
     "name": "Rock"
 "reactions":

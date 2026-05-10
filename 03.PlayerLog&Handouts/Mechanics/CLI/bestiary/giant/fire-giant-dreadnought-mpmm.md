@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/14
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Fire Giant Dreadnought
+- "Fire Giant Dreadnought"
 ---
-# [Fire Giant Dreadnought](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/fire-giant-dreadnought-mpmm.md)
+# [Fire Giant Dreadnought](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/fire-giant-dreadnought-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 124, Volo's Guide to Monsters p. 147*  
 
 > [!quote] A quote from Mordenkainen  
@@ -48,9 +49,9 @@ When not called on to fight, dreadnoughts maintain their strength by using their
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+11"
-  - "charisma": "+5"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "11"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+13"
@@ -67,11 +68,11 @@ When not called on to fight, dreadnoughts maintain their strength by using their
 "actions":
   - "desc": "The giant makes two Fireshield or Rock attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:*\
       \ 22 (4d6 + 8) bludgeoning damage plus 7 (2d6) fire damage plus 7 (2d6)\
       \ piercing damage."
     "name": "Fireshield"
-  - "desc": "Ranged Weapon Attack: +13 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +13 to hit, range 60/240 ft., one target. *Hit:*\
       \ 30 (4d10 + 8) bludgeoning damage."
     "name": "Rock"
   - "desc": "The giant moves up to 30 feet in a straight line and can move through\

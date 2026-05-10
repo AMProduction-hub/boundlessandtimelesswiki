@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/item/armor/heavy
@@ -8,7 +9,7 @@ tags:
 - ttrpg-cli/item/armor/medium
 - ttrpg-cli/item/rarity/unknown/magic
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Drow +3 Armor"
 - "Drow +3 Breastplate"
 - "Drow +3 Chain Mail"

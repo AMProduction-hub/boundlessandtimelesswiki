@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Duergar Alchemist
+- "Duergar Alchemist"
 ---
-# [Duergar Alchemist](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/duergar-alchemist-oota.md)
+# [Duergar Alchemist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar-alchemist-oota.md)
 *Source: Out of the Abyss p. 76*  
 
 ```statblock
@@ -35,7 +36,11 @@ aliases:
   - !!int "9"
 "speed": "25 ft."
 "damage_resistances": "poison"
-"senses": "darkvision 120 ft., passive Perception 10"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+  - "[war pick](03.PlayerLog&Handouts/Mechanics/CLI/items/war-pick.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "Dwarvish, Undercommon"
 "cr": "1"
 "traits":
@@ -55,14 +60,14 @@ aliases:
       \ lacks the room to become Large, it attains the maximum size possible in the\
       \ space available."
     "name": "Enlarge (Recharges after a Short or Long Rest)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged."
     "name": "War Pick"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 20 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 20 ft., one target. *Hit:*\
       \ 7 (2d6) acid damage."
     "name": "Acid Vial"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 20 ft., one target. Hit:\
-      \ 2 (d4) fire damage at the start of each of the target's turns. A creature\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 20 ft., one target. *Hit:*\
+      \ 2 (1d4) fire damage at the start of each of the target's turns. A creature\
       \ can end this damage by using its action to make a successful DC 10 Dexterity\
       \ check to extinguish the flames."
     "name": "Alchemist's Fire"

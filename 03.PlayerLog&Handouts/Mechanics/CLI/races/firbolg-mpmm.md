@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/firbolg
 aliases:
-- Firbolg
+- "Firbolg"
 ---
 # Firbolg
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 15*  

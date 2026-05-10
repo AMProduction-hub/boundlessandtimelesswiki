@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragonbait
+- "Dragonbait"
 ---
-# [Dragonbait](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/dragonbait-toa.md)
+# [Dragonbait](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/dragonbait-toa.md)
 *Source: Tomb of Annihilation p. 218*  
 
 Dragonbait is a champion of good and a saurial-a race that originated on a distant world and whose members have long lives. Very few saurials dwell in the Forgotten Realms, and no saurial communities are believed to exist anywhere in the world.
@@ -63,8 +64,8 @@ Dragonbait "shouts" the scent of ham while going where others fear to tread. (Tr
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+6"
-  - "charisma": "+7"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+5"
@@ -85,7 +86,7 @@ Dragonbait "shouts" the scent of ham while going where others fear to tread. (Tr
 "actions":
   - "desc": "Dragonbait makes two melee weapon attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d8 + 5) slashing damage, or 10 (1d10 + 5) slashing damage when used\
       \ with two hands. If the target is a fiend or an undead it takes an extra 11\
       \ (2d10) radiant damage."

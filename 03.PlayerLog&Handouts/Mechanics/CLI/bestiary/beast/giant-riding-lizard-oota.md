@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Riding Lizard
+- "Giant Riding Lizard"
 ---
-# [Giant Riding Lizard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-riding-lizard-oota.md)
+# [Giant Riding Lizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-riding-lizard-oota.md)
 *Source: Out of the Abyss p. 131*  
 
 ```statblock
@@ -32,7 +33,8 @@ aliases:
   - !!int "10"
   - !!int "5"
 "speed": "30 ft., climb 30 ft."
-"senses": "darkvision 30 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 30 ft., passive Perception 10"
 "languages": ""
 "cr": "1/4"
 "traits":
@@ -40,7 +42,7 @@ aliases:
       \ without needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) piercing damage."
     "name": "Bite"
 "source":

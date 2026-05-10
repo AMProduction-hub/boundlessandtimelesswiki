@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/deity/drow
 - ttrpg-cli/domain/war
-aliases: 
-- Selvetarm
+aliases:
+- "Selvetarm"
 ---
 # Selvetarm
 *Source: Mordenkainen's Tome of Foes p. 54* 

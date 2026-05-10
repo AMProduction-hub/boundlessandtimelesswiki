@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/4
@@ -9,16 +10,16 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Fidelio
+- "Fidelio"
 ---
-# [Fidelio](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/fidelio-wdmm.md)
+# [Fidelio](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fidelio-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 197*  
 
 ```statblock
 "name": "Fidelio (WDMM)"
 "size": "Medium"
 "type": "undead"
-"alignment": "Any alignment"
+"alignment": "Lawful Good"
 "ac": !!int "11"
 "hp": !!int "80"
 "hit_dice": "10d8"
@@ -42,19 +43,20 @@ aliases:
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 11"
-"languages": "any languages it knew in life"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
+"languages": "Common"
 "cr": "4"
 "traits":
   - "desc": "Fidelio can see 60 feet into the Ethereal Plane when it is on the Material\
       \ Plane, and vice versa."
     "name": "Ethereal Sight"
   - "desc": "Fidelio can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
       \ an object."
     "name": "Incorporeal Movement"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 17\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 17\
       \ (4d6 + 3) necrotic damage."
     "name": "Withering Touch"
   - "desc": "Fidelio enters the Ethereal Plane from the Material Plane, or vice versa.\

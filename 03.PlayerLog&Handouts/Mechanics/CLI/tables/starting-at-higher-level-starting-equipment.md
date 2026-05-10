@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Starting at Higher Level; Starting Equipment
+- "Starting at Higher Level; Starting Equipment"
 ---
 # Starting at Higher Level; Starting Equipment
 *Source: Dungeon Master's Guide p. 38* 

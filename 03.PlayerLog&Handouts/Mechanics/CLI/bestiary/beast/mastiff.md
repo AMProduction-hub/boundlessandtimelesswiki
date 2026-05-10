@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-8
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mastiff
+- "Mastiff"
 ---
-# [Mastiff](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/mastiff.md)
-*Source: Monster Manual p. 332, Curse of Strahd, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Mastiff](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/mastiff.md)
+*Source: Monster Manual p. 332. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Mastiffs are impressive hounds prized by humanoids for their loyalty and keen senses. Mastiffs can be trained as guard dogs, hunting dogs, and war dogs. Halflings and other Small humanoids ride them as mounts.
 
@@ -47,21 +48,12 @@ Mastiffs are impressive hounds prized by humanoids for their loyalty and keen se
       \ checks that rely on hearing or smell."
     "name": "Keen Hearing and Smell"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) piercing damage. If the target is a creature, it must succeed\
       \ on a DC 11 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Bite"
 "source":
   - "MM"
-  - "CoS"
-  - "SKT"
-  - "TftYP"
-  - "WDH"
-  - "BGDIA"
-  - "ERLW"
-  - "EGW"
-  - "DSotDQ"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/mastiff.webp"
 ```
 ^statblock

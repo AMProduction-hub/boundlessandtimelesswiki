@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/ranger/gloom-stalker
 aliases:
-- Gloom Stalker
+- "Gloom Stalker"
 ---
 # Gloom Stalker
 *[Ranger](./ranger.md): Ranger Archetype*  
@@ -47,11 +48,9 @@ aliases:
 > 
 > So you sneak around in the dark? You know most everything but humans can see in the dark, right? We all see you. Tiptoeing doesn't turn you [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible).
 
-## Class Features
-
-### Gloom Stalker (Level 3)
-
 Gloom Stalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most folk enter such places with trepidation, but a Gloom Stalker ventures boldly into the darkness, seeking to ambush threats before they can reach the broader world. Such rangers are often found in the Underdark, but they will go any place where evil lurks in the shadows.
+
+## Subclass Features
 
 ### Gloom Stalker Magic (Level 3)
 
@@ -72,7 +71,7 @@ Starting at 3rd level, you learn an additional spell when you reach certain leve
 
 At 3rd level, you master the art of the ambush. You can give yourself a bonus to your initiative rolls equal to your Wisdom modifier.
 
-At the start of your first turn of each combat, your walking speed increases by 10 feet, which lasts until the end of that turn. If you take the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on that turn, you can make one additional weapon attack as part of that action. If that attack hits, the target takes an extra `d8` damage of the weapon's damage type.
+At the start of your first turn of each combat, your walking speed increases by 10 feet, which lasts until the end of that turn. If you take the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on that turn, you can make one additional weapon attack as part of that action. If that attack hits, the target takes an extra `1d8` damage of the weapon's damage type.
 
 ### Umbral Sight (Level 3)
 

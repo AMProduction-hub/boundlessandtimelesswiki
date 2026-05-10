@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/2
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Naiad
+- "Naiad"
 ---
-# [Naiad](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/naiad-mot.md)
-*Source: Mythic Odysseys of Theros p. 236, Candlekeep Mysteries*  
+# [Naiad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/naiad-mot.md)
+*Source: Mythic Odysseys of Theros p. 236*  
 
 Naiads live in and near water. They might be spotted among rivers and lakes, on isolated shores, or amid coral labyrinths and deep sea fumaroles. Wherever rivers and seas show their variety and force, naiads gather to revel in nature's might. Individual naiads often grow fixated with a single type or body of water, potentially preferring a deep sea trench, coastline, or river system above all others. Over time, such a resident nymph often becomes connected with their aquatic home through sightings and stories, becoming a guardian of the place and, in effect, a manifestation of its personality.
 
@@ -66,9 +67,9 @@ A nymph doesn't require food, drink, or sleep.
 "traits":
   - "desc": "The naiad's spellcasting ability is Charisma (spell save DC 14). It can\
       \ innately cast the following spells, requiring no material components:\n\n\
-      At will: [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
-      \n3/day: [phantasmal force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md)\n\
-      \n1/day each: [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md),\
+      **At will:** [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
+      \n**3/day:** [phantasmal force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md)\n\
+      \n**1/day each:** [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md),\
       \ [hypnotic pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md)"
     "name": "Innate Spellcasting"
   - "desc": "The naiad can breathe air and water."
@@ -82,12 +83,11 @@ A nymph doesn't require food, drink, or sleep.
 "actions":
   - "desc": "The naiad makes two psychic touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Spell Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d10 + 4) psychic damage."
     "name": "Psychic Touch"
 "source":
   - "MOT"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/token/naiad-mot.webp"
 ```
 ^statblock

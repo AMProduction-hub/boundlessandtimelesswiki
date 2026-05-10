@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/0
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tressym
+- "Tressym"
 ---
-# [Tressym](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/tressym-skt.md)
-*Source: Storm King's Thunder p. 242, Infernal Machine Rebuild*  
+# [Tressym](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/tressym-skt.md)
+*Source: Storm King's Thunder p. 242*  
 
 A tressym is a mischievous winged cat as big as a house cat, with a wingspan of 3 feet.
 
@@ -50,7 +51,8 @@ With the DM's permission, a person who casts the [find familiar](03.PlayerLog&Ha
     "desc": "+4"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "understands Common but can't speak"
 "cr": "0"
 "traits":
@@ -67,12 +69,11 @@ With the DM's permission, a person who casts the [find familiar](03.PlayerLog&Ha
       \ spell can choose to conjure a tressym instead of a normal cat."
     "name": "Familiar"
 "actions":
-  - "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1\
       \ slashing damage."
     "name": "Claws"
 "source":
   - "SKT"
-  - "IMR"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/tressym-skt.webp"
 ```
 ^statblock

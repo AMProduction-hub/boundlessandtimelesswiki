@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Counterflux Blastseeker
+- "Counterflux Blastseeker"
 ---
-# [Counterflux Blastseeker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/counterflux-blastseeker-ggr.md)
+# [Counterflux Blastseeker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/counterflux-blastseeker-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 242*  
 
 While chemisters focus on inventing new tools, weapons, and other devices for the guild to use, the role of a blastseeker is to put those devices to work. Despite the name, not all such devices produce explosions, but all the most interesting ones (from the Izzet perspective) do.
@@ -36,13 +37,15 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+4"
-  - "wisdom": "+2"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
+"gear":
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
 "senses": "passive Perception 12"
 "languages": "Common plus any one language"
 "cr": "2"
@@ -50,25 +53,25 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
   - "desc": "The blastseeker's innate spellcasting ability is Intelligence (spell\
       \ save DC 14, +6 to hit with spell attacks). The blastseeker can innately\
       \ cast the following spells, requiring no components other than its Izzet gear,\
-      \ which doesn't function for others:\n\n3/day each: [enlarge/reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md),\
+      \ which doesn't function for others:\n\n**3/day each:** [enlarge/reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md) (self\
       \ only), [scorching ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md)\n\
-      \n1/day each: [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      \n**1/day each:** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [protection from energy](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-energy.md)"
     "name": "Innate Spellcasting"
   - "desc": "The blastseeker can create an additional effect immediately after casting\
-      \ a spell. Roll a d6 to determine the effect:\n\n- 1–3.. The blastseeker\
+      \ a spell. Roll a d6 to determine the effect:\n\n- **1–3..** The blastseeker\
       \ creates a 15-foot-radius [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
       \ sphere centered on itself that lasts until the end of its next turn. Creatures\
       \ in the sphere have disadvantage on saving throws against spells and other\
-      \ magical effects.  \n- 4–6.. The blastseeker creates a 15-foot-radius [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
+      \ magical effects.  \n- **4–6..** The blastseeker creates a 15-foot-radius [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
       \ sphere centered on itself that lasts until the end of its next turn. Creatures\
       \ in the sphere have advantage on saving throws against spells and other magical\
       \ effects.  "
     "name": "Counterflux Overcast (Recharge 5-6)"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage."
     "name": "Rapier"
 "source":

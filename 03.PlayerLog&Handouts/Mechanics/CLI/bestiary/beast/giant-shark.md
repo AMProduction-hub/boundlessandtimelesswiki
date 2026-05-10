@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Shark
+- "Giant Shark"
 ---
-# [Giant Shark](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-shark.md)
-*Source: Monster Manual p. 328, Storm King's Thunder, Tomb of Annihilation, Ghosts of Saltmarsh, Dragon of Icespire Peak, Sleeping Dragon's Wake, Icewind Dale: Rime of the Frostmaiden, Journeys through the Radiant Citadel, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Shark](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-shark.md)
+*Source: Monster Manual p. 328. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A giant shark is 30 feet long and normally found in deep oceans. Utterly fearless, it preys on anything that crosses its path, including whales and ships.
 
@@ -38,7 +39,8 @@ A giant shark is 30 feet long and normally found in deep oceans. Utterly fearles
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
-"senses": "blindsight 60 ft., passive Perception 13"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., passive Perception 13"
 "languages": ""
 "cr": "5"
 "traits":
@@ -48,19 +50,11 @@ A giant shark is 30 feet long and normally found in deep oceans. Utterly fearles
   - "desc": "The shark can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 22\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 22\
       \ (3d10 + 6) piercing damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "SKT"
-  - "ToA"
-  - "GoS"
-  - "DIP"
-  - "SDW"
-  - "IDRotF"
-  - "JttRC"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-shark.webp"
 ```
 ^statblock

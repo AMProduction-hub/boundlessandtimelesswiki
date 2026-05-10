@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lumalia
+- "Lumalia"
 ---
-# [Lumalia](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/lumalia-tftyp.md)
+# [Lumalia](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lumalia-tftyp.md)
 *Source: Tales from the Yawning Portal p. 153*  
 
 ```statblock
@@ -33,8 +34,8 @@ aliases:
   - !!int "20"
 "speed": "30 ft., fly 90 ft."
 "saves":
-  - "wisdom": "+9"
-  - "charisma": "+9"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+9"
@@ -44,14 +45,17 @@ aliases:
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 19"
+"gear":
+  - "[mace](03.PlayerLog&Handouts/Mechanics/CLI/items/mace.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 19"
 "languages": "all, telepathy 120 ft."
 "cr": "10"
 "traits":
   - "desc": "Lumalia's spellcasting ability is Charisma (spell save DC 17). Lumalia\
       \ can innately cast the following spells, requiring only verbal components:\n\
-      \nAt will: [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md)\n\
-      \n1/day each: [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md),\
+      \n**At will:** [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md)\n\
+      \n**1/day each:** [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md),\
       \ [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md)"
     "name": "Innate Spellcasting"
   - "desc": "Lumalia's weapon attacks are magical. When Lumalia hits with any weapon,\
@@ -63,7 +67,7 @@ aliases:
 "actions":
   - "desc": "Lumalia makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) bludgeoning damage plus 18 (4d8) radiant damage."
     "name": "Mace"
   - "desc": "Lumalia touches another creature. The target magically regains 20 (4d8\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/19
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lord Soth
+- "Lord Soth"
 ---
-# [Lord Soth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/lord-soth-dsotdq.md)
+# [Lord Soth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lord-soth-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 206*  
 
 Lord Soth is the most powerful death knight on Krynn. Once a Solamnic Knight of the Order of the Rose, Soth was a paragon of virtue and justice who allowed his pride to lead him down an evil path. The gods gave Soth a chance at redemption, charging him with confronting the Kingpriest of Istar and averting the Cataclysm. However, he was undone by his pride, abandoned his quest, and allowed the Cataclysm to devastate Krynn. Soth perished during the Cataclysm but then rose from the ashes as an Undead horror. In his cursed castle, Dargaard Keep, Soth long ignored the ruined world, but the Dragon Queen's summons has called his evil forth once more.
@@ -38,14 +39,15 @@ In battle, Soth is a terror, wielding the last remnant of the Cataclysm's fires 
   - !!int "20"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+9"
-  - "charisma": "+11"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "11"
 "damage_immunities": "necrotic, poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "Common, Infernal, Solamnic"
 "cr": "19"
 "traits":
@@ -63,7 +65,7 @@ In battle, Soth is a terror, wielding the last remnant of the Cataclysm's fires 
 "actions":
   - "desc": "Soth makes three Forsaken Brand attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 10 (1d8 + 6) bludgeoning damage plus 18 (4d8) necrotic damage, and if\
       \ the target is a creature, it can't regain hit points until the start of Soth's\
       \ next turn."
@@ -85,13 +87,16 @@ In battle, Soth is a terror, wielding the last remnant of the Cataclysm's fires 
       \ one. If this damage reduces the target to 0 hit points, the target dies."
     "name": "Word of Death (1/Day)"
   - "desc": "Soth casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 19):\n\nAt\
-      \ will: [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md) (cast\
-      \ at 3rd level)\n\n2/day each: [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 19):\n\n**At\
+      \ will:** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md) (cast\
+      \ at 3rd level)\n\n**2/day each:** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md) (cast\
-      \ at 3rd level)\n\n1/day: [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md)\
+      \ at 3rd level)\n\n**1/day:** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md)\
       \ (cast at 6th level)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Lord can expend a use to take one of the following actions. Lord regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Soth moves up to his speed or commands a mount he is riding to move up\
       \ to its speed. The movement from this action doesn't provoke opportunity attacks.\

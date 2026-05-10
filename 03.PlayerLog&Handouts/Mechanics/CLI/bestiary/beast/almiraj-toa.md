@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Almiraj
+- "Almiraj"
 ---
-# [Almiraj](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/almiraj-toa.md)
+# [Almiraj](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/almiraj-toa.md)
 *Source: Tomb of Annihilation p. 211*  
 
 An almiraj (pronounced AWL-meer-ahj) is a large, timid rabbit with a 1-foot-long spiral horn emerging from its forehead, not unlike the horn of a unicorn. If driven to attack, it tries to spear enemies with its horn.
@@ -40,7 +41,8 @@ Almiraj were brought to Chult long ago by merchants of the distant land of Zakha
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 30 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 30 ft., passive Perception 14"
 "languages": ""
 "cr": "0"
 "traits":
@@ -51,7 +53,7 @@ Almiraj were brought to Chult long ago by merchants of the distant land of Zakha
       \ spell can summon an almiraj."
     "name": "Familiar"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) piercing damage."
     "name": "Horn"
 "source":

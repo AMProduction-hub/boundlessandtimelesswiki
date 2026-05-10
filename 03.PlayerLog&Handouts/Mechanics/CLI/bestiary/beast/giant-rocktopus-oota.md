@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Rocktopus
+- "Giant Rocktopus"
 ---
-# [Giant Rocktopus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-rocktopus-oota.md)
+# [Giant Rocktopus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-rocktopus-oota.md)
 *Source: Out of the Abyss p. 28*  
 
 ```statblock
@@ -36,7 +37,8 @@ aliases:
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": ""
 "cr": "1"
 "traits":
@@ -44,7 +46,7 @@ aliases:
       \ checks."
     "name": "Camouflage"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 15 ft., one target. *Hit:*\
       \ 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 16). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and the octopus can't use its tentacles on another target."
@@ -52,7 +54,8 @@ aliases:
   - "desc": "A 20-foot-radius cloud of ink extends all around the octopus if it is\
       \ underwater. The area is heavily obscured for 1 minute, although a significant\
       \ current can disperse the ink. After releasing the ink, the octopus can use\
-      \ the Dash action as a bonus action."
+      \ the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash) action\
+      \ as a bonus action."
     "name": "Ink Cloud (Recharges after a Short or Long Rest)"
 "source":
   - "OotA"

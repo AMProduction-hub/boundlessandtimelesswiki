@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/item/armor/heavy
 - ttrpg-cli/item/armor/medium
 - ttrpg-cli/item/rarity/rare
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Mizzium Armor"
 - "Mizzium Breastplate"
 - "Mizzium Chain Mail"

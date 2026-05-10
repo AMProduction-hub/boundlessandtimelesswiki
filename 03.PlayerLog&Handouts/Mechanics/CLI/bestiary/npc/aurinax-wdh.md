@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/17
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Aurinax
+- "Aurinax"
 ---
-# [Aurinax](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/aurinax-wdh.md)
+# [Aurinax](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/aurinax-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 194*  
 
 ```statblock
@@ -33,10 +34,10 @@ aliases:
   - !!int "24"
 "speed": "40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+8"
-  - "constitution": "+13"
-  - "wisdom": "+8"
-  - "charisma": "+13"
+  - "dexterity": !!int "8"
+  - "constitution": !!int "13"
+  - "wisdom": !!int "8"
+  - "charisma": !!int "13"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+8"
@@ -47,7 +48,9 @@ aliases:
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+8"
 "damage_immunities": "fire"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 24"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 24"
 "languages": "Common, Draconic"
 "cr": "17"
 "traits":
@@ -59,13 +62,13 @@ aliases:
   - "desc": "Aurinax can use its Frightful Presence. It then makes three attacks:\
       \ one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:*\
       \ 19 (2d10 + 8) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 5 ft., one target. *Hit:*\
       \ 15 (2d6 + 8) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 15 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) bludgeoning damage."
     "name": "Tail"
   - "desc": "Each creature of Aurinax's choice that is within 120 feet of Aurinax\
@@ -75,10 +78,10 @@ aliases:
       \ throw is successful or the effect ends for it, the creature is immune to Aurinax's\
       \ Frightful Presence for the next 24 hours."
     "name": "Frightful Presence"
-  - "desc": "Aurinax uses one of the following breath weapons.\n\n- Fire Breath.\
+  - "desc": "Aurinax uses one of the following breath weapons.\n\n- **Fire Breath.**\
       \ Aurinax exhales fire in a 60-foot cone. Each creature in that area must make\
       \ a DC 21 Dexterity saving throw, taking 66 (12d10) fire damage on a failed\
-      \ save, or half as much damage on a successful one.  \n- Weakening Breath.\
+      \ save, or half as much damage on a successful one.  \n- **Weakening Breath.**\
       \ Aurinax exhales gas in a 60-foot cone. Each creature in that area must succeed\
       \ on a DC 21 Strength saving throw or have disadvantage on Strength-based attack\
       \ rolls, Strength checks, and Strength saving throws for 1 minute. A creature\
@@ -95,6 +98,9 @@ aliases:
       \ by those of the new form, except any class features or legendary actions of\
       \ that form."
     "name": "Change Shape"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Aurinax can expend a use to take one of the following actions. Aurinax regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Aurinax makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ check."

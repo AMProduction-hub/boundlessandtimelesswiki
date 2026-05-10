@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 aliases:
-- Friends and Foes
+- "Friends and Foes"
 ---
 # Friends and Foes
 *Source: Strixhaven: A Curriculum of Chaos, p. 183* 
@@ -15,7 +16,7 @@ The creatures in this bestiary are organized alphabetically. A few creatures are
 
 The Strixhaven Creatures table below lists every creature in this chapter, along with the creature's type and challenge rating (CR).
 
-![Strixhaven students battle...](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/116-07-001-chapter-splash.webp#center "Strixhaven students battle a mage hunter and an Oriq recruiter")
+![Strixhaven students battle a mage hunter and an Oriq recruiter](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/116-07-001-chapter-splash.webp#center)
 
 ![Friends and Foes; Strixhaven Creatures](03.PlayerLog&Handouts/Mechanics/CLI/tables/friends-and-foes-strixhaven-creatures-scc.md)
 

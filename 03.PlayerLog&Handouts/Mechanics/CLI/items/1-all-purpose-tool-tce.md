@@ -1,15 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/gear/spellcasting-focus
 - ttrpg-cli/item/rarity/uncommon
-aliases: 
+aliases:
 - "+1 All-Purpose Tool"
 ---
 # +1 All-Purpose Tool
-*Wondrous item, uncommon (requires attunement by an artificer)*  
+*Wondrous item, spellcasting focus, uncommon (requires attunement by an artificer)*  
 
 
 

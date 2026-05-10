@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/rot
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mend-nets
+- "Mend-nets"
 ---
-# [Mend-nets](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/mend-nets-rot.md)
+# [Mend-nets](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/mend-nets-rot.md)
 *Source: The Rise of Tiamat p. 32, Tyranny of Dragons p. 116*  
 
 ```statblock
@@ -33,6 +34,8 @@ aliases:
   - !!int "11"
   - !!int "8"
 "speed": "30 ft."
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 10"
 "languages": "any one language"
 "cr": "1/8"
@@ -42,8 +45,8 @@ aliases:
       \ ally isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Spear"
 "source":

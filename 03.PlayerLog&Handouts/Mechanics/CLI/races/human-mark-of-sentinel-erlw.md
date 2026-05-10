@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/race/human/mark-of-sentinel
 aliases:
-- Human (Mark of Sentinel)
+- "Human (Mark of Sentinel)"
 ---
 # Human (Mark of Sentinel)
 *Source: Eberron: Rising from the Last War p. 48*  
 
 
-- **Ability Scores**: Constitution +2; Wisdom +1
+- **Ability Scores**: con +2 wis +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Wisdom

@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/rogue/mastermind
 aliases:
-- Mastermind
+- "Mastermind"
 ---
 # Mastermind
 *[Rogue](./rogue.md): Roguish Archetype*  
@@ -47,11 +48,9 @@ aliases:
 > 
 > Oh, please. If anyone is a mastermind around here, it's me. You're like a master doofus or a master dummy. No, you are!
 
-## Class Features
-
-### Mastermind (Level 3)
-
 Your focus is on people and on the influence and secrets they have. Many spies, courtiers, and schemers follow this archetype, leading lives of intrigue. Words are your weapons as often as knives or poison, and secrets and favors are some of your favorite treasures.
+
+## Subclass Features
 
 ### Master of Intrigue (Level 3)
 

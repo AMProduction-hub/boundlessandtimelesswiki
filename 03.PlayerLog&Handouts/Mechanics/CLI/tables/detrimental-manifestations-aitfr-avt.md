@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/aitfr-avt
 aliases:
-- Detrimental Manifestations
+- "Detrimental Manifestations"
 ---
 # Detrimental Manifestations
 *Source: Adventures in the Forgotten Realms: A Verdant Tomb p. 12, Adventures in the Forgotten Realms: Deepest Night p. 15, Adventures in the Forgotten Realms: From Cyan Depths p. 15* 
 
 **Detrimental Manifestations**
-
-`dice: [](detrimental-manifestations-aitfr-avt.md#^detrimental-manifestations)`
 
 | dice: d100 | Manifestation |
 |------------|---------------|

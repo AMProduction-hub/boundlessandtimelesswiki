@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Elemental Spirit
+- "Elemental Spirit"
 ---
-# [Elemental Spirit](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/elemental-spirit-tce.md)
+# [Elemental Spirit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/elemental-spirit-tce.md)
 *Source: Tasha's Cauldron of Everything p. 111*  
 
 ```statblock
@@ -37,7 +38,8 @@ aliases:
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Primordial, understands the languages you speak"
 "traits":
   - "desc": "The elemental can move through a space as narrow as 1 inch wide without\
@@ -47,8 +49,8 @@ aliases:
   - "desc": "The elemental makes a number of attacks equal to half this spell's level\
       \ (rounded down)."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft.,\
-      \ one target. Hit: 1d10 + 4 + the spell's level bludgeoning damage (Air,\
+  - "desc": "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft.,\
+      \ one target. *Hit:* 1d10 + 4 + the spell's level bludgeoning damage (Air,\
       \ Earth, and Water only) or fire damage (Fire only)."
     "name": "Slam"
 "source":

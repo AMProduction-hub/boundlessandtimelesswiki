@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/deity/dwarven
 - ttrpg-cli/domain/knowledge
 - ttrpg-cli/domain/life
-aliases: 
-- Mya
+aliases:
+- "Mya"
 ---
 # Mya
 *Source: Mordenkainen's Tome of Foes p. 73* 

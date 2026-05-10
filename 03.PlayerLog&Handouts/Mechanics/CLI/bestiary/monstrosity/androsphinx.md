@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/17
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Androsphinx
+- "Androsphinx"
 ---
-# [Androsphinx](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/androsphinx.md)
-*Source: Monster Manual p. 281, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Androsphinx](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/androsphinx.md)
+*Source: Monster Manual p. 281. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 An androsphinx bears the head of a humanoid male on its lion's body. Outwardly gruff and downcast, it often begins conversations with insults or negative observations. Beneath this gruff exterior, however, an androsphinx has a noble heart. It has no wish to lie or deceive, but it doesn't give away information readily, choosing its words as wisely as it guards its secrets.
 
@@ -76,10 +77,10 @@ A sphinx presides over an ancient temple, sepulcher, or vault, within which are 
   - !!int "23"
 "speed": "40 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+6"
-  - "constitution": "+11"
-  - "intelligence": "+9"
-  - "wisdom": "+10"
+  - "dexterity": !!int "6"
+  - "constitution": !!int "11"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "10"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+9"
@@ -90,28 +91,29 @@ A sphinx presides over an ancient temple, sepulcher, or vault, within which are 
 "damage_immunities": "psychic; bludgeoning, piercing, slashing from nonmagical attacks"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 120 ft., passive Perception 20"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 20"
 "languages": "Common, Sphinx"
 "cr": "17"
 "traits":
   - "desc": "The sphinx is a 12th-level spellcaster. Its spellcasting ability is Wisdom\
       \ (spell save DC 18, +10 to hit with spell attacks). It requires no material\
       \ components to cast its spells. The sphinx has the following cleric spells\
-      \ prepared:\n\nCantrips (at will): [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
+      \ prepared:\n\n**Cantrips (at will):** [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
       \ [spare the dying](03.PlayerLog&Handouts/Mechanics/CLI/spells/spare-the-dying.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \n**1st level (4 slots):** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md)\n\
-      \n2nd level (3 slots): [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md),\
+      \n**2nd level (3 slots):** [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md),\
       \ [zone of truth](03.PlayerLog&Handouts/Mechanics/CLI/spells/zone-of-truth.md)\n\
-      \n3rd level (3 slots): [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
-      \ [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\n4th\
-      \ level (3 slots): [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \n**3rd level (3 slots):** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \ [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\n**4th\
+      \ level (3 slots):** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [freedom of movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md)\n\
-      \n5th level (2 slots): [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md),\
+      \n**5th level (2 slots):** [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md),\
       \ [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md)\n\
-      \n6th level (1 slots): [heroes' feast](03.PlayerLog&Handouts/Mechanics/CLI/spells/heroes-feast.md)"
+      \n**6th level (1 slots):** [heroes' feast](03.PlayerLog&Handouts/Mechanics/CLI/spells/heroes-feast.md)"
     "name": "Spellcasting"
   - "desc": "The sphinx is immune to any effect that would sense its emotions or read\
       \ its thoughts, as well as any divination spell that it refuses. Wisdom ([Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight))\
@@ -122,47 +124,37 @@ A sphinx presides over an ancient temple, sepulcher, or vault, within which are 
 "actions":
   - "desc": "The sphinx makes two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 17 (2d10 + 6) slashing damage."
     "name": "Claw"
   - "desc": "The sphinx emits a magical roar. Each time it roars before finishing\
       \ a long rest, the roar is louder and the effect is different, as detailed below.\
       \ Each creature within 500 feet of the sphinx and able to hear the roar must\
-      \ make a saving throw.\n\n- First Roar. Each creature that fails a DC 18\
+      \ make a saving throw.\n\n- **First Roar.** Each creature that fails a DC 18\
       \ Wisdom saving throw is [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
       \ for 1 minute. A [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
       \ creature can repeat the saving throw at the end of each of its turns, ending\
-      \ the effect on itself on a success.  \n- Second Roar. Each creature that\
+      \ the effect on itself on a success.  \n- **Second Roar.** Each creature that\
       \ fails a DC 18 Wisdom saving throw is [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened)\
       \ and [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
       \ for 1 minute. A [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
       \ creature is [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ and can repeat the saving throw at the end of each of its turns, ending the\
-      \ effect on itself on a success.  \n- Third Roar. Each creature makes a\
+      \ effect on itself on a success.  \n- **Third Roar.** Each creature makes a\
       \ DC 18 Constitution saving throw. On a failed save, a creature takes 44 (8d10)\
       \ thunder damage and is knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
       \ On a successful save, the creature takes half as much damage and isn't knocked\
       \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).  "
     "name": "Roar (3/Day)"
-"legendary_actions":
-  - "desc": "The sphinx makes one claw attack."
-    "name": "Claw Attack"
-  - "desc": "The sphinx magically teleports, along with any equipment it is wearing\
-      \ or carrying, up to 120 feet to an unoccupied space it can see."
-    "name": "Teleport (Costs 2 Actions)"
-  - "desc": "The sphinx casts a spell from its list of prepared spells, using a spell\
-      \ slot as normal."
-    "name": "Cast a Spell (Costs 3 Actions)"
 "lair_actions":
   - "desc": "On initiative count 20 (losing initiative ties), the sphinx can take\
       \ a lair action to cause one of the following magical effects; the sphinx can't\
-      \ use an effect again until it finishes a short or long rest:"
-    "name": ""
-  - "desc": "- The flow of time is altered such that every creature in the lair must\
-      \ reroll initiative. The sphinx can choose not to reroll.  \n- The effects of\
-      \ time are altered such that every creature in the lair must succeed on a DC\
-      \ 15 Constitution saving throw or become d20 years older or younger (the sphinx's\
-      \ choice), but never any younger than 1 year old. A [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md)\
+      \ use an effect again until it finishes a short or long rest:\n\n- The flow\
+      \ of time is altered such that every creature in the lair must reroll initiative.\
+      \ The sphinx can choose not to reroll.  \n- The effects of time are altered\
+      \ such that every creature in the lair must succeed on a DC 15 Constitution\
+      \ saving throw or become 1d20 years older or younger (the sphinx's choice),\
+      \ but never any younger than 1 year old. A [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md)\
       \ spell can restore a creature's age to normal.  \n- The flow of time within\
       \ the lair is altered such that everything within moves up to 10 years forward\
       \ or backward (sphinx's choice). Only the sphinx is immediately aware of the\
@@ -174,11 +166,20 @@ A sphinx presides over an ancient temple, sepulcher, or vault, within which are 
       \ to its lair as a bonus action on its turn, taking up to seven creatures with\
       \ it.  "
     "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the androsphinx can expend a use to take one of the following actions. The\
+  \ androsphinx regains all expended uses at the start of each of its turns."
+"legendary_actions":
+  - "desc": "The sphinx makes one claw attack."
+    "name": "Claw Attack"
+  - "desc": "The sphinx magically teleports, along with any equipment it is wearing\
+      \ or carrying, up to 120 feet to an unoccupied space it can see."
+    "name": "Teleport (Costs 2 Actions)"
+  - "desc": "The sphinx casts a spell from its list of prepared spells, using a spell\
+      \ slot as normal."
+    "name": "Cast a Spell (Costs 3 Actions)"
 "source":
   - "MM"
-  - "EGW"
-  - "MOT"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/androsphinx.webp"
 ```
 ^statblock

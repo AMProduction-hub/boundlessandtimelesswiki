@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Creating a Brass Dragon; Brass Dragon Spellcasting
+- "Creating a Brass Dragon; Brass Dragon Spellcasting"
 ---
 # Creating a Brass Dragon; Brass Dragon Spellcasting
 *Source: Fizban's Treasury of Dragons p. 90* 

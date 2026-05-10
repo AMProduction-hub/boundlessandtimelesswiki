@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Dragonmarked House Adventure Hooks
+- "Dragonmarked House Adventure Hooks"
 ---
 # Dragonmarked House Adventure Hooks
 *Source: Eberron: Rising from the Last War p. 192* 
 
 **Dragonmarked House Adventure Hooks**
-
-`dice: [](dragonmarked-house-adventure-hooks-erlw.md#^dragonmarked-house-adventure-hooks)`
 
 | dice: d12 | Adventure Hook |
 |-----------|----------------|
@@ -25,6 +24,6 @@ aliases:
 | 8 | The characters are hired to protect a crucial shipment aboard an Orien lightning rail. |
 | 9 | At a carnival run by House Phiarlan, customers begin acting strangely. They all hum the same song, which spreads like a virus as more people hear it. |
 | 10 | A Sivis translator has gone missing after being hired to decipher a trove of scrolls thought destroyed during the Last War. |
-| 11 | A House Tharaskh mine collapses, and time is running out for the trapped miners. |
+| 11 | A House Tharashk mine collapses, and time is running out for the trapped miners. |
 | 12 | House Vadalis needs help recovering a herd of magebred horses stolen from a local ranch. |
 ^dragonmarked-house-adventure-hooks

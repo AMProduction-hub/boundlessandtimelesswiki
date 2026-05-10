@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/race/kuo-toa
 aliases:
-- Kuo-Toa
+- "Kuo-Toa"
 ---
 # Kuo-Toa
 *Source: Dungeon Master's Guide p. 282*  

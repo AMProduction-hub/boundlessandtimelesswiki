@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Davil Starsong
+- "Davil Starsong"
 ---
-# [Davil Starsong](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/davil-starsong-wdh.md)
+# [Davil Starsong](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/davil-starsong-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 199*  
 
 Within the Waterdeep division of the Black Network, Davil is accorded the title of Master of Opportunities and Negotiations because he's good at sniffing out lucrative business deals, and he makes friends easily.
@@ -44,8 +45,8 @@ The Doom Raiders were five unscrupulous adventurers who liked to plunder lich la
   - !!int "17"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "charisma": "+6"
+  - "dexterity": !!int "5"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -57,37 +58,40 @@ The Doom Raiders were five unscrupulous adventurers who liked to plunder lich la
     "desc": "+4"
   - "name": "[Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Common, Draconic, Dwarvish, Elvish"
 "cr": "6"
 "traits":
   - "desc": "Davil is a 12th-level spellcaster. His spellcasting ability is Charisma\
       \ (spell save DC 14, +6 to hit with spell attacks) He has the following bard\
-      \ spells prepared:\n\nCantrips (at will): [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ spells prepared:\n\n**Cantrips (at will):** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md), [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
       \ [vicious mockery](03.PlayerLog&Handouts/Mechanics/CLI/spells/vicious-mockery.md)\n\
-      \n1st level (4 slots): [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
+      \n**1st level (4 slots):** [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
-      \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)\n\n2nd level\
-      \ (3 slots): [crown of madness](03.PlayerLog&Handouts/Mechanics/CLI/spells/crown-of-madness.md),\
+      \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)\n\n**2nd level\
+      \ (3 slots):** [crown of madness](03.PlayerLog&Handouts/Mechanics/CLI/spells/crown-of-madness.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\n\
-      3rd level (3 slots): [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md),\
+      **3rd level (3 slots):** [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md),\
       \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md), [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\
-      \n4th level (3 slots): [compulsion](03.PlayerLog&Handouts/Mechanics/CLI/spells/compulsion.md),\
+      \n**4th level (3 slots):** [compulsion](03.PlayerLog&Handouts/Mechanics/CLI/spells/compulsion.md),\
       \ [freedom of movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md),\
-      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\n5th\
-      \ level (2 slots): [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md),\
+      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\n**5th\
+      \ level (2 slots):** [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md),\
       \ [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md)\n\
-      \n6th level (1 slots): [Otto's irresistible dance](03.PlayerLog&Handouts/Mechanics/CLI/spells/ottos-irresistible-dance.md)"
+      \n**6th level (1 slots):** [Otto's irresistible dance](03.PlayerLog&Handouts/Mechanics/CLI/spells/ottos-irresistible-dance.md)"
     "name": "Spellcasting"
   - "desc": "Davil has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
       \ and magic can't put him to sleep."
     "name": "Fey Ancestry"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage. Or Ranged Weapon Attack: +5 to hit, range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
 "source":
   - "WDH"

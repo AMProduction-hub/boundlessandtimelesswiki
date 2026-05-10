@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/domain/knowledge
 - ttrpg-cli/subclass/cleric/knowledge
 aliases:
-- Knowledge Domain
+- "Knowledge Domain"
 ---
 # Knowledge Domain
 *[Cleric](./cleric.md): Divine Domain*  
@@ -44,11 +45,11 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Knowledge Domain (Level 1)
-
 The gods of knowledge—including Oghma, [Boccob](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-boccob.md), Gilean, Aureon, and [Thoth](03.PlayerLog&Handouts/Mechanics/CLI/deities/egyptian-thoth.md)—value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities, or promote the practical knowledge of craft and invention. Some deities hoard knowledge and keep its secrets to themselves. And some promise their followers that they will gain tremendous power if they unlock the secrets of the multiverse. Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can. Some gods of knowledge promote the practical knowledge of craft and invention, including smith deities like Gond, Reorx, Onatar, [Moradin](03.PlayerLog&Handouts/Mechanics/CLI/deities/nonhuman-moradin.md), [Hephaestus](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-hephaestus.md), and [Goibhniu](03.PlayerLog&Handouts/Mechanics/CLI/deities/celtic-goibhniu.md).
+
+## Subclass Features
+
+### Domain Spells (Level 1)
 
 At each indicated cleric level, you add the listed spells to your spells prepared.
 
@@ -92,7 +93,7 @@ _Source: Tasha's Cauldron of Everything p. 30_
 
 *8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Potent Spellcasting feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Visions of the Past (Level 17)
 
@@ -100,10 +101,6 @@ Starting at 17th level, you can call up visions of the past that relate to an ob
 
 Once you use this feature, you can't use it again until you finish a short or long rest.
 
-#### Object Reading
+**Object Reading.** Holding an object as you meditate, you can see visions of the object's previous owner. After meditating for 1 minute, you learn how the owner acquired and lost the object, as well as the most recent significant event involving the object and that owner. If the object was owned by another creature in the recent past (within a number of days equal to your Wisdom score), you can spend 1 additional minute for each owner to learn the same information about that creature.
 
-Holding an object as you meditate, you can see visions of the object's previous owner. After meditating for 1 minute, you learn how the owner acquired and lost the object, as well as the most recent significant event involving the object and that owner. If the object was owned by another creature in the recent past (within a number of days equal to your Wisdom score), you can spend 1 additional minute for each owner to learn the same information about that creature.
-
-#### Area Reading
-
-As you meditate, you see visions of recent events in your immediate vicinity (a room, street, tunnel, clearing, or the like, up to a 50-foot cube), going back a number of days equal to your Wisdom score. For each minute you meditate, you learn about one significant event, beginning with the most recent. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals. However, they might also include more mundane events that are nevertheless important in your current situation.
+**Area Reading.** As you meditate, you see visions of recent events in your immediate vicinity (a room, street, tunnel, clearing, or the like, up to a 50-foot cube), going back a number of days equal to your Wisdom score. For each minute you meditate, you learn about one significant event, beginning with the most recent. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals. However, they might also include more mundane events that are nevertheless important in your current situation.

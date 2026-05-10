@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/22
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Shadrix Silverquill
+- "Shadrix Silverquill"
 ---
-# [Shadrix Silverquill](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/shadrix-silverquill-scc.md)
+# [Shadrix Silverquill](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/shadrix-silverquill-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 212*  
 
 Centuries ago, the dragon Shadrix Silverquill mastered the magic of light and shadow, and he focused that magic through communication. Shadrix's words thrummed with power, inspiring his allies and demoralizing his enemies.
@@ -38,10 +39,10 @@ He established Silverquill College on the principles of eloquence and leadership
   - !!int "26"
 "speed": "40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+9"
-  - "constitution": "+13"
-  - "wisdom": "+11"
-  - "charisma": "+15"
+  - "dexterity": !!int "9"
+  - "constitution": !!int "13"
+  - "wisdom": !!int "11"
+  - "charisma": !!int "15"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+18"
@@ -52,7 +53,8 @@ He established Silverquill College on the principles of eloquence and leadership
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+15"
 "damage_immunities": "psychic, radiant"
-"senses": "blindsight 120 ft., passive Perception 21"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft., passive Perception 21"
 "languages": "all"
 "cr": "22"
 "traits":
@@ -61,10 +63,10 @@ He established Silverquill College on the principles of eloquence and leadership
 "actions":
   - "desc": "Shadrix makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit:\
-      \ 12 (1d10 + 7) piercing damage plus 4 (d8) radiant damage."
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 15 ft., one target. *Hit:*\
+      \ 12 (1d10 + 7) piercing damage plus 4 (1d8) radiant damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:*\
       \ 10 (1d6 + 7) slashing damage. If the target is a creature, it is wracked\
       \ with despair and has disadvantage on attack rolls until the end of its next\
       \ turn."
@@ -77,12 +79,15 @@ He established Silverquill College on the principles of eloquence and leadership
       \ half as much damage and isn't [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)."
     "name": "Illuminating Shadow Breath (Recharge 5-6)"
   - "desc": "Shadrix casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 23):\n\n1/day\
-      \ each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 23):\n\n**1/day\
+      \ each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [daylight](03.PlayerLog&Handouts/Mechanics/CLI/spells/daylight.md), [hypnotic\
       \ pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md),\
       \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md), [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Shadrix can expend a use to take one of the following actions. Shadrix regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Shadrix makes one Claw attack."
     "name": "Claw"
@@ -92,9 +97,10 @@ He established Silverquill College on the principles of eloquence and leadership
       \ terrain. If he moves through a creature, it must succeed on a DC 21 Constitution\
       \ saving throw or become [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
       \ until the end of its next turn. If Shadrix ends this move inside an object,\
-      \ he takes 5 (d10) force damage and is shunted to the nearest unoccupied space."
+      \ he takes 5 (1d10) force damage and is shunted to the nearest unoccupied\
+      \ space."
     "name": "Shadow Slip (Costs 2 Actions)"
-  - "desc": "Shadrix magically summons d4 [inkling mascots](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/inkling-mascot-scc.md)\
+  - "desc": "Shadrix magically summons 1d4 [inkling mascots](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/inkling-mascot-scc.md)\
       \ in unoccupied spaces he can see within 60 feet of himself. The inklings obey\
       \ his commands and take their turns immediately after his. While any of these\
       \ inklings live, Shadrix has advantage on attack rolls and saving throws. These\

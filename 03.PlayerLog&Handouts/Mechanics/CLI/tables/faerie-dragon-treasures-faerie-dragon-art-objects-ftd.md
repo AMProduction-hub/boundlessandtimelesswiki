@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Faerie Dragon Treasures; Faerie Dragon Art Objects
+- "Faerie Dragon Treasures; Faerie Dragon Art Objects"
 ---
 # Faerie Dragon Treasures; Faerie Dragon Art Objects
 *Source: Fizban's Treasury of Dragons p. 120* 
 
 **Faerie Dragon Art Objects**
-
-`dice: [](faerie-dragon-treasures-faerie-dragon-art-objects-ftd.md#^faerie-dragon-art-objects)`
 
 | dice: d8 | Object |
 |----------|--------|

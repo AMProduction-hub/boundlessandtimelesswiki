@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- The Secret of Darkon's Doom; Azalin's Fate
+- "The Secret of Darkon's Doom; Azalin's Fate"
 ---
 # The Secret of Darkon's Doom; Azalin's Fate
 *Source: Van Richten's Guide to Ravenloft p. 92* 
 
 **Azalin's Fate**
-
-`dice: [](the-secret-of-darkons-doom-azalins-fate-vrgr.md#^azalins-fate)`
 
 | dice: d4 | Fate |
 |----------|------|

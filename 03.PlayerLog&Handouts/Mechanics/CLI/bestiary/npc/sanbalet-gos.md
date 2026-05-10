@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sanbalet
+- "Sanbalet"
 ---
-# [Sanbalet](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sanbalet-gos.md)
+# [Sanbalet](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sanbalet-gos.md)
 *Source: Ghosts of Saltmarsh p. 252*  
 
 In The Sinister Secret of Saltmarsh, Sanbalet is the leader of the land-based half of a smuggling ring. He is a cunning narcissist with an interest in illusion and mind control. He defends the contraband stored in the caves under the haunted house.
@@ -37,25 +38,27 @@ In The Sinister Secret of Saltmarsh, Sanbalet is the leader of the land-based ha
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 11"
 "languages": "Common"
 "cr": "1"
 "traits":
   - "desc": "Sanbalet is a 3rd-level spellcaster. His spellcasting ability is Intelligence\
       \ (spell save DC 13, +5 to hit with spell attacks). He has the following wizard\
-      \ spells prepared:\n\nCantrips (at will): [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ spells prepared:\n\n**Cantrips (at will):** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
-      \n1st level (4 slots): [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \n**1st level (4 slots):** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [color spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/color-spray.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
       \ [silent image](03.PlayerLog&Handouts/Mechanics/CLI/spells/silent-image.md)\n\
-      \n2nd level (2 slots): [magic mouth](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-mouth.md),\
+      \n**2nd level (2 slots):** [magic mouth](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-mouth.md),\
       \ [scorching ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md)"
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 3 (1d4 + 1) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 3 (1d4 + 1) piercing damage."
     "name": "Dagger"
 "source":
   - "GoS"

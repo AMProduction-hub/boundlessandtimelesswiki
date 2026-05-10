@@ -1,14 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/optional-feature/ai
 aliases:
-- Replicate Magic Item
+- "Replicate Magic Item"
 ---
 # Replicate Magic Item
 *Source: Tasha's Cauldron of Everything p. 22, Eberron: Rising from the Last War p. 63*  
+
 Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table's title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.
 
 In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the "Dungeon Master's Guide" for more information about it, including the type of object required for its making.
@@ -46,7 +48,7 @@ In the tables, an item's entry tells you whether the item requires attunement. S
 | Magic Item | Attunement |
 |------------|------------|
 | [Boots of striding and springing](03.PlayerLog&Handouts/Mechanics/CLI/items/boots-of-striding-and-springing.md) | Yes |
-| [Boots of the winterlands](03.PlayerLog&Handouts/Mechanics/CLI/items/boots-of-the-winterlands.md) | Yes |
+| [Boots of the Winterlands](03.PlayerLog&Handouts/Mechanics/CLI/items/boots-of-the-winterlands.md) | Yes |
 | [Bracers of archery](03.PlayerLog&Handouts/Mechanics/CLI/items/bracers-of-archery.md) | Yes |
 | [Brooch of shielding](03.PlayerLog&Handouts/Mechanics/CLI/items/brooch-of-shielding.md) | Yes |
 | [Cloak of protection](03.PlayerLog&Handouts/Mechanics/CLI/items/cloak-of-protection.md) | Yes |

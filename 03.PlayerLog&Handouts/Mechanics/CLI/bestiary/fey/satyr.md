@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Satyr
+- "Satyr"
 ---
-# [Satyr](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/satyr.md)
-*Source: Monster Manual p. 267, Storm King's Thunder, Infernal Machine Rebuild, Candlekeep Mysteries, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Satyr](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/satyr.md)
+*Source: Monster Manual p. 267. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Satyrs are raucous fey that frolic in wild forests, driven by curiosity and hedonism in equal measure.
 
@@ -81,6 +82,9 @@ Inebriated on drink and pleasure, satyrs give no thought to the consequences of 
     "desc": "+6"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
+"gear":
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Elvish, Sylvan"
 "cr": "1/2"
@@ -89,21 +93,17 @@ Inebriated on drink and pleasure, satyrs give no thought to the consequences of 
       \ effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (2d4 + 1) bludgeoning damage."
     "name": "Ram"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 80/320 ft., one target. *Hit:*\
       \ 6 (1d6 + 3) piercing damage."
     "name": "Shortbow"
 "source":
   - "MM"
-  - "SKT"
-  - "IMR"
-  - "CM"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/token/satyr.webp"
 ```
 ^statblock

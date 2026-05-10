@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Wooden Donkey
+- "Wooden Donkey"
 ---
-# [Wooden Donkey](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/wooden-donkey-wdmm.md)
+# [Wooden Donkey](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/wooden-donkey-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 84*  
 
 A crude wooden constructs resembling a donkey. Each of these magic dummies has a body made of a wooden keg turned on its side. A head and neck made of wood and sackcloth is attached to one end of the keg. At the other end is a tail made from a straw broom. Each keg is held up by four 2-foot-long peg legs.
@@ -39,7 +40,8 @@ A crude wooden constructs resembling a donkey. Each of these magic dummies has a
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft. (blind beyond this radius), passive Perception 10"
 "languages": ""
 "cr": "1/8"
 "traits":
@@ -50,7 +52,7 @@ A crude wooden constructs resembling a donkey. Each of these magic dummies has a
       \ against effects that would knock it [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Sure-Footed"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) bludgeoning damage."
     "name": "Hooves"
 "source":

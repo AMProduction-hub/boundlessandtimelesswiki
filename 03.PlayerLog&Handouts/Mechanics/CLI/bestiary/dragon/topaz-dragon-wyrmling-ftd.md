@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Topaz Dragon Wyrmling
+- "Topaz Dragon Wyrmling"
 ---
-# [Topaz Dragon Wyrmling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/topaz-dragon-wyrmling-ftd.md)
+# [Topaz Dragon Wyrmling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/topaz-dragon-wyrmling-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 223*  
 
 Decay and despair are bound up in the nature of topaz dragons, thanks to the necrotic energy of the Negative Plane that suffuses them. Their psionic power manifests the fundamental entropic principle that mortal beings and their creations are ultimately doomed to death and decomposition, and the dragons' demeanor is typically morbid and curmudgeonly as a result.
@@ -38,8 +39,6 @@ Use the Topaz Dragon Personality Traits and Topaz Dragon Ideals tables to inspir
 
 ### Topaz Dragon Personality Traits
 
-`dice: [](topaz-dragon-wyrmling-ftd.md#^trait)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | I seek no company other than my own, for no one else can compete with me. |
@@ -53,8 +52,6 @@ Use the Topaz Dragon Personality Traits and Topaz Dragon Ideals tables to inspir
 ^trait
 
 ### Topaz Dragon Ideals
-
-`dice: [](topaz-dragon-wyrmling-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -71,8 +68,6 @@ Use the Topaz Dragon Personality Traits and Topaz Dragon Ideals tables to inspir
 The Topaz Dragon Adventure Hooks table offers suggestions for stories and adventures involving topaz dragons.
 
 ### Topaz Dragon Adventure Hooks
-
-`dice: [](topaz-dragon-wyrmling-ftd.md#^adventure-hook)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|
@@ -91,8 +86,6 @@ The Topaz Dragon Adventure Hooks table offers suggestions for stories and advent
 Topaz dragons rarely tolerate any company but their own, and they are usually indifferent at best even toward their own kind. Moreover, their unpredictability means that even if a creature proves itself useful to a topaz dragon, it shouldn't count on being safe from the dragon the next time they meet. Topaz dragons rarely go out of their way to fight other creatures, however, with the exception of bronze dragons, for whom they bear an inexplicably intense hatred.
 
 ### Topaz Dragon Wyrmling Connections
-
-`dice: [](topaz-dragon-wyrmling-ftd.md#^connected-creatures)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|
@@ -124,10 +117,10 @@ Topaz dragons rarely tolerate any company but their own, and they are usually in
   - !!int "14"
 "speed": "30 ft., fly 60 ft., swim 30 ft."
 "saves":
-  - "dexterity": "+3"
-  - "constitution": "+3"
-  - "wisdom": "+3"
-  - "charisma": "+4"
+  - "dexterity": !!int "3"
+  - "constitution": !!int "3"
+  - "wisdom": !!int "3"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+6"
@@ -136,15 +129,17 @@ Topaz dragons rarely tolerate any company but their own, and they are usually in
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
 "damage_resistances": "cold, necrotic"
-"senses": "blindsight 10 ft., darkvision 120 ft., passive Perception 15"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 15"
 "languages": "Draconic"
 "cr": "2"
 "traits":
   - "desc": "The dragon can breathe both air and water."
     "name": "Amphibious"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d10 + 2) piercing damage plus 2 (d4) necrotic damage."
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
+      \ (1d10 + 2) piercing damage plus 2 (1d4) necrotic damage."
     "name": "Bite"
   - "desc": "The dragon exhales yellowish necrotic energy in a 15-foot cone. Each\
       \ creature in that area must make a DC 11 Constitution saving throw. On a failed\
@@ -156,7 +151,7 @@ Topaz dragons rarely tolerate any company but their own, and they are usually in
     "name": "Desiccating Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 12):\n\n\
-      1/day each: [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md)"
+      **1/day each:** [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md)"
     "name": "Spellcasting (Psionics)"
 "source":
   - "FTD"

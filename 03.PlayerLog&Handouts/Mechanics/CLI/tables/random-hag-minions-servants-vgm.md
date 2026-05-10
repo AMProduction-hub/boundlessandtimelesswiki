@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Random Hag Minions; Servants
+- "Random Hag Minions; Servants"
 ---
 # Random Hag Minions; Servants
 *Source: Volo's Guide to Monsters p. 61* 
 
 **Servants**
-
-`dice: [](random-hag-minions-servants-vgm.md#^servants)`
 
 | dice: d8 | Servant(s) |
 |----------|------------|

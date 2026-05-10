@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Building a Party; Party Makeup
+- "Building a Party; Party Makeup"
 ---
 # Building a Party; Party Makeup
 *Source: Guildmasters' Guide to Ravnica p. 11* 
 
 **Party Makeup**
-
-`dice: [](building-a-party-party-makeup-ggr.md#^party-makeup)`
 
 | dice: d8 | Party Makeup |
 |----------|--------------|

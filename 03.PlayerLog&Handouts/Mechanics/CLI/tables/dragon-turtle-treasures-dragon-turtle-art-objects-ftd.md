@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Dragon Turtle Treasures; Dragon Turtle Art Objects
+- "Dragon Turtle Treasures; Dragon Turtle Art Objects"
 ---
 # Dragon Turtle Treasures; Dragon Turtle Art Objects
 *Source: Fizban's Treasury of Dragons p. 113* 
 
 **Dragon Turtle Art Objects**
-
-`dice: [](dragon-turtle-treasures-dragon-turtle-art-objects-ftd.md#^dragon-turtle-art-objects)`
 
 | dice: d10 | Object |
 |-----------|--------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Miros Xelbrin
+- "Miros Xelbrin"
 ---
-# [Miros Xelbrin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/miros-xelbrin-skt.md)
+# [Miros Xelbrin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/miros-xelbrin-skt.md)
 *Source: Storm King's Thunder p. 251*  
 
 Innkeeper Miros is a retired carnival attraction, dubbed "the Yeti" because of his barrel-shaped body and the thick, white hair covering his arms, chest, back, and head. When Goldenfields suffers, so does his business, so he takes strides to protect the compound.
@@ -45,6 +46,9 @@ Flaw:"When something upsets me, I have a tendency to fly into a rage."
     "desc": "+4"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
 "senses": "passive Perception 13"
 "languages": "Common"
 "traits":
@@ -58,17 +62,17 @@ Flaw:"When something upsets me, I have a tendency to fly into a rage."
       \ into a rage.\""
     "name": "Roleplaying Information"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 5 (1d4 + 3) bludgeoning damage, and the target [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13) and takes 5 (1d4 + 3) bludgeoning damage at the start of\
       \ each of Miros's turns until the grapple ends. Miros cannot make attacks while\
       \ grappling a creature."
     "name": "Bear Hug"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d4 + 1) bludgeoning damage"
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
+      \ (1d4 + 1) bludgeoning damage."
     "name": "Club"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit:\
-      \ 5 (d10) piercing damage. Miros carries ten crossbow bolts."
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 100/400 ft., one target. *Hit:*\
+      \ 5 (1d10) piercing damage. Miros carries ten crossbow bolts."
     "name": "Heavy Crossbow"
 "source":
   - "SKT"

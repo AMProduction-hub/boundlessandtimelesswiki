@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/3
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Assassin Vine
+- "Assassin Vine"
 ---
-# [Assassin Vine](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/assassin-vine-toa.md)
-*Source: Tomb of Annihilation p. 213, Ghosts of Saltmarsh, Sleeping Dragon's Wake*  
+# [Assassin Vine](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/assassin-vine-toa.md)
+*Source: Tomb of Annihilation p. 213*  
 
 An assassin vine is an ambulatory plant that collects its fertilizer by grabbing and crushing prey and depositing the carcasses near its roots. It usually stays put unless it needs to seek out prey. A mature plant consists of a main vine, about 20 feet long. Smaller vines up to 5 feet long branch from the main vine every 6 inches. In late summer, the secondary vines produce bunches of small fruits that resemble wild grapes. The fruit is tough and has a hearty but bitter flavor.
 
@@ -41,7 +42,8 @@ A subterranean variant grows near hot springs, volcanic vents, and other sources
   \ [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 30 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., passive Perception 10"
 "languages": ""
 "cr": "3"
 "traits":
@@ -49,7 +51,7 @@ A subterranean variant grows near hot springs, volcanic vents, and other sources
       \ a normal plant."
     "name": "False Appearance"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 20 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 20 ft., one creature. *Hit:*\
       \ The target takes 11 (2d6 + 4) bludgeoning damage, and it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and it takes 21 (6d6) poison damage at the start of each of its turns. The\
@@ -66,8 +68,6 @@ A subterranean variant grows near hot springs, volcanic vents, and other sources
     "name": "Entangling Vines"
 "source":
   - "ToA"
-  - "GoS"
-  - "SDW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/assassin-vine-toa.webp"
 ```
 ^statblock

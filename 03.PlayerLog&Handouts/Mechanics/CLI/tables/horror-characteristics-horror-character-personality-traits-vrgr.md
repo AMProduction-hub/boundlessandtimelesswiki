@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Horror Characteristics; Horror Character Personality Traits
+- "Horror Characteristics; Horror Character Personality Traits"
 ---
 # Horror Characteristics; Horror Character Personality Traits
 *Source: Van Richten's Guide to Ravenloft p. 32* 
 
 **Horror Character Personality Traits**
-
-`dice: [](horror-characteristics-horror-character-personality-traits-vrgr.md#^horror-character-personality-traits)`
 
 | dice: d12 | Personality Trait |
 |-----------|-------------------|

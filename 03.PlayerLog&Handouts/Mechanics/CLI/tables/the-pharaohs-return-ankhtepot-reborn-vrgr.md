@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- The Pharaoh's Return; Ankhtepot Reborn
+- "The Pharaoh's Return; Ankhtepot Reborn"
 ---
 # The Pharaoh's Return; Ankhtepot Reborn
 *Source: Van Richten's Guide to Ravenloft p. 110* 
 
 **Ankhtepot Reborn**
-
-`dice: [](the-pharaohs-return-ankhtepot-reborn-vrgr.md#^ankhtepot-reborn)`
 
 | dice: d4 | Development |
 |----------|-------------|

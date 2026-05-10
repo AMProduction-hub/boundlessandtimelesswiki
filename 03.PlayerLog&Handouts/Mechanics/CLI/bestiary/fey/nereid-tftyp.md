@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nereid
+- "Nereid"
 ---
-# [Nereid](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/nereid-tftyp.md)
+# [Nereid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/nereid-tftyp.md)
 *Source: Tales from the Yawning Portal p. 240*  
 
 One of the most inviting locations in the Hidden Shrine of Tamoachan is a gently illuminated pool of water, beside which sits a lovely being singing a pleasant tune. The figure is a nereid—a fey water creature that can shape its environment to suit its needs. Whether male or female, a nereid bears an otherworldly beauty.
@@ -42,7 +43,8 @@ One of the most inviting locations in the Hidden Shrine of Tamoachan is a gently
     "desc": "+5"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Aquan, Common, Elvish, Sylvan"
 "cr": "2"
 "traits":
@@ -67,8 +69,8 @@ One of the most inviting locations in the Hidden Shrine of Tamoachan is a gently
   - "desc": "The nereid can comprehend and verbally communicate with beasts."
     "name": "Speak With Animals"
 "actions":
-  - "desc": "Melee  or Ranged Spell Attack: +5 to hit, reach 5 ft. or range 30\
-      \ ft., one target. Hit: 16 (2d12 + 3) acid damage, and the target is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
+  - "desc": "*Melee  or Ranged Spell Attack:* +5 to hit, reach 5 ft. or range 30\
+      \ ft., one target. *Hit:* 16 (2d12 + 3) acid damage, and the target is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
       \ until the start of the nereid's next turn."
     "name": "Blinding Acid"
   - "desc": "The nereid touches one creature it can see within 5 feet of it. The target\

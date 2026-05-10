@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deck
+cssclasses:
+- json5e-deck
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Secrets Deck
+- "Secrets Deck"
 ---
 # Secrets Deck
 *Source: Waterdeep: Dungeon of the Mad Mage p. 319*  

@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/half-orc
 aliases:
-- Half-Orc
+- "Half-Orc"
 ---
 # Half-Orc
 *Source: Player's Handbook p. 40. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/half-orc.webp#right)
 
-- **Ability Scores**: Strength +2; Constitution +1
+- **Ability Scores**: str +2 con +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 

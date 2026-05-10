@@ -1,15 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/gear/spellcasting-focus
 - ttrpg-cli/item/rarity/uncommon
-aliases: 
+aliases:
 - "Slumbering Dragon-Touched Focus"
 ---
 # Slumbering Dragon-Touched Focus
-*Wondrous item, uncommon (requires attunement by a spellcaster)*  
+*Wondrous item, spellcasting focus, uncommon (requires attunement by a spellcaster)*  
 
 
 

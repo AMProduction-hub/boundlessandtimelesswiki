@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Owl
+- "Giant Owl"
 ---
-# [Giant Owl](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-owl.md)
-*Source: Monster Manual p. 327, Storm King's Thunder, Eberron: Rising from the Last War, Infernal Machine Rebuild, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Owl](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-owl.md)
+*Source: Monster Manual p. 327. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Giant owls often befriend fey and other sylvan creatures and are guardians of their woodland realms.
 
@@ -41,7 +42,8 @@ Giant owls often befriend fey and other sylvan creatures and are guardians of th
     "desc": "+5"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 120 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 15"
 "languages": "Giant Owl, understands Common, Elvish, and Sylvan but can't speak them"
 "cr": "1/4"
 "traits":
@@ -52,15 +54,11 @@ Giant owls often befriend fey and other sylvan creatures and are guardians of th
       \ checks that rely on hearing or sight."
     "name": "Keen Hearing and Sight"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (2d6 + 1) slashing damage."
     "name": "Talons"
 "source":
   - "MM"
-  - "SKT"
-  - "ERLW"
-  - "IMR"
-  - "EGW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-owl.webp"
 ```
 ^statblock

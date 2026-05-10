@@ -1,19 +1,20 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/class/artificer
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/feat/aberrant-dragonmark
 - ttrpg-cli/spell/feat/artificer-initiate
-- ttrpg-cli/spell/feat/divinely-favored
-- ttrpg-cli/spell/feat/initiate-of-high-sorcery
-- ttrpg-cli/spell/feat/magic-initiate
-- ttrpg-cli/spell/feat/strixhaven-initiate
+- ttrpg-cli/spell/feat/divinely-favored/neutral
+- ttrpg-cli/spell/feat/initiate-of-high-sorcery/solinari
+- ttrpg-cli/spell/feat/magic-initiate/wizard-spells
+- ttrpg-cli/spell/feat/strixhaven-initiate/lorehold-1
 - ttrpg-cli/spell/level/cantrip
 - ttrpg-cli/spell/optfeature/blessed-warrior
 - ttrpg-cli/spell/optfeature/pact-of-the-tome
@@ -31,7 +32,7 @@ tags:
 - ttrpg-cli/spell/subrace/half-elf-moon-elf-or-sun-elf-descent
 classes:
 - Artificer
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Cleric (Arcana Domain)
 - Cleric (Light Domain)
@@ -42,7 +43,7 @@ classes:
 - Warlock (The Celestial)
 - Wizard
 aliases:
-- Light
+- "Light"
 ---
 # Light
 *cantrip, Evocation*  
@@ -57,6 +58,6 @@ You touch one object that is no larger than 10 feet in any dimension. Until the 
 
 If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.
 
-**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Cleric (Light Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-light-domain.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Warlock (The Celestial)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-celestial-xge.md "subclass=XGE"); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Cleric (Light Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-light-domain.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock (The Celestial)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-celestial-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 255. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

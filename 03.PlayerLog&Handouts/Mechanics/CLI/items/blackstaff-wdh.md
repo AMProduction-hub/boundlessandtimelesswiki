@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/legendary
 - ttrpg-cli/item/weapon/simple
-aliases: 
+aliases:
 - "Blackstaff"
 ---
 # Blackstaff
@@ -27,7 +28,7 @@ The staff has 20 charges for the following properties. The staff regains `2d8 + 
 
 ## Power Strike
 
-When you hit with a melee attack using the staff, you can expend 1 charge to deal an extra `d6` force damage to the target.
+When you hit with a melee attack using the staff, you can expend 1 charge to deal an extra `1d6` force damage to the target.
 
 ## Spells
 

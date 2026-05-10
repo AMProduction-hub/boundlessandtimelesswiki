@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Thri-kreen (Weapons and Psionics)
+- "Thri-kreen (Weapons and Psionics)"
 ---
-# [Thri-kreen (Weapons and Psionics)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/thri-kreen-weapons-and-psionics.md)
-*Source: Monster Manual p. 288, Journeys through the Radiant Citadel, Light of Xaryxis*  
+# [Thri-kreen (Weapons and Psionics)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thri-kreen-weapons-and-psionics.md)
+*Source: Monster Manual p. 288*  
 
 ```statblock
 "name": "Thri-kreen (Weapons and Psionics)"
@@ -42,17 +43,18 @@ aliases:
     "desc": "+4"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+3"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Thri-kreen"
 "cr": "1"
 "traits":
   - "desc": "The thri-kreen's innate spellcasting ability is Wisdom. The thri-kreen\
-      \ can innately cast the following spells, requiring no components:\n\nAt will:\
+      \ can innately cast the following spells, requiring no components:\n\n**At will:**\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md) (the\
       \ hand is [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible))\n\
-      \n2/day each: [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md),\
+      \n**2/day each:** [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md),\
       \ [magic weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-weapon.md)\n\
-      \n1/day: [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
+      \n**1/day:** [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
       \ (self only)"
     "name": "Innate Spellcasting (Psionics)"
   - "desc": "The thri-kreen can change the color of its carapace to match the color\
@@ -67,7 +69,7 @@ aliases:
   - "desc": "The thri-kreen makes two attacks: one with its bite and one with its\
       \ claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d6 + 1) piercing damage, and the target must succeed on a DC 11 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. If the saving throw fails by 5 or more, the target is also [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
@@ -76,21 +78,19 @@ aliases:
       \ target can repeat the saving throw at the end of each of its turns, ending\
       \ the effect on itself on a success."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (2d4 + 1) slashing damage."
     "name": "Claws"
   - "desc": "The thri-kreen makes two gythka attacks or two chatkcha attacks."
     "name": "Weapons Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d8 + 1) slashing damage."
     "name": "Gythka"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) slashing damage."
     "name": "Chatkcha"
 "source":
   - "MM"
-  - "JttRC"
-  - "LoX"
 ```
 ^statblock
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Neogi Master
+- "Neogi Master"
 ---
-# [Neogi Master](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/neogi-master-mpmm.md)
+# [Neogi Master](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/neogi-master-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 192, Volo's Guide to Monsters p. 180*  
 
 Neogi masters use magic, as a result of a pact between neogi and aberrant entities they met during their journey from their home world. These entities—known by such names as Acamar, Caiphon, Gibbeth, and Hadar—resemble stars and embody the essence of evil.
@@ -48,7 +49,7 @@ Neogi usually dwell in far-flung locations on the Material Plane, as well as in 
   - !!int "18"
 "speed": "30 ft., climb 30 ft."
 "saves":
-  - "wisdom": "+3"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -60,7 +61,8 @@ Neogi usually dwell in far-flung locations on the Material Plane, as well as in 
     "desc": "+3"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+6"
-"senses": "darkvision 120 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "Common, Deep Speech, Undercommon, telepathy 30 ft."
 "cr": "4"
 "traits":
@@ -77,24 +79,24 @@ Neogi usually dwell in far-flung locations on the Material Plane, as well as in 
   - "desc": "The neogi makes one Bite attack and one Claw attack, or it makes two\
       \ Tentacle of Hadar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage plus 14 (4d6) poison damage, and the target\
       \ must succeed on a DC 12 Constitution saving throw or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. A target can repeat the saving throw at the end of each of its\
       \ turns, ending the effect on itself on a success."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (2d4 + 3) piercing damage."
     "name": "Claw"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 120 ft., one target. *Hit:*\
       \ 14 (3d6 + 4) necrotic damage, and the target can't take reactions until\
       \ the end of the neogi's next turn, as a spectral tentacle clings to the target."
     "name": "Tentacle of Hadar"
   - "desc": "The neogi casts one of the following spells, using Charisma as the spellcasting\
-      \ ability (spell save DC 14):\n\nAt will: [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ ability (spell save DC 14):\n\n**At will:** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [minor\
       \ illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1/day each: [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
+      \n**1/day each:** [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [hunger of Hadar](03.PlayerLog&Handouts/Mechanics/CLI/spells/hunger-of-hadar.md)"
     "name": "Spellcasting"

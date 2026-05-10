@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Actions
+- "Actions"
 ---
 # Actions
 
@@ -171,7 +172,7 @@ _Source: Player's Handbook p. 192. Available in the <span title='Systems Referen
 
 - **Duration**: 1 action
 
-When you take the Hide action, you make a Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)) check in an attempt to hide, following the rules in "chapter 7 " for hiding. If you succeed, you gain certain benefits, as described in the ""Unseen Attackers and Targets"" section in the Player's Handbook.
+When you take the Hide action, you make a Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)) check in an attempt to hide, following the rules in "chapter 7" for hiding. If you succeed, you gain certain benefits, as described in the ""Unseen Attackers and Targets"" section in the Player's Handbook.
 
 ## Identify a Spell
 _Source: Xanathar's Guide to Everything p. 85_
@@ -319,7 +320,7 @@ _Source: Player's Handbook p. 197. Available in the <span title='Systems Referen
 
 You can use your action to administer first aid to an [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) creature and attempt to stabilize it, which requires a successful DC 10 Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)) check.
 
-A stable creature doesn't make death saving throws, even though it has 0 hit points, but it does remain [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious). The creature stops being stable, and must start making death saving throws again, if it takes any damage. A stable creature that isn't healed regains 1 hit point after `d4` hours.
+A stable creature doesn't make death saving throws, even though it has 0 hit points, but it does remain [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious). The creature stops being stable, and must start making death saving throws again, if it takes any damage. A stable creature that isn't healed regains 1 hit point after `1d4` hours.
 
 ## Tumble
 _Source: Dungeon Master's Guide p. 272_

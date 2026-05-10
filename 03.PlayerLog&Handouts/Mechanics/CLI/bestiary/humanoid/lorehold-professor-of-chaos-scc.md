@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lorehold Professor of Chaos
+- "Lorehold Professor of Chaos"
 ---
-# [Lorehold Professor of Chaos](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/lorehold-professor-of-chaos-scc.md)
+# [Lorehold Professor of Chaos](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lorehold-professor-of-chaos-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 198*  
 
 Professors of chaos wield magic inspired by the ebb and flow of chance. They study the course history has taken, looking for breaking points in the flow of events, and focus their magic into creating breaks that are to their advantage. Whether those breaks are in a series of events, in obstacles, or in enemies depends on the needs in the moment. They crush enemies' plans under the weight of time and lash out with magical energy that often takes the appearance of books, scrolls, and sheets of parchment.
@@ -39,10 +40,10 @@ The archaeomancers of Lorehold College draw their magical might from the flow of
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+5"
-  - "intelligence": "+7"
-  - "wisdom": "+5"
-  - "charisma": "+4"
+  - "constitution": !!int "5"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -63,7 +64,7 @@ The archaeomancers of Lorehold College draw their magical might from the flow of
       \ of [History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History),\
       \ if available."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +7 to hit, reach 30 ft., one target. Hit: 15\
+  - "desc": "*Melee Spell Attack:* +7 to hit, reach 30 ft., one target. *Hit:* 15\
       \ (2d10 + 4) force damage. If the target is a creature, it must succeed on\
       \ a DC 15 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Spectral Scroll"
@@ -73,16 +74,16 @@ The archaeomancers of Lorehold College draw their magical might from the flow of
       \ for 1 minute, but the [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ target's speed is halved instead of being reduced to 0. At the start of each\
       \ of its turns, the [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
-      \ target takes 4 (d8) force damage. A [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
+      \ target takes 4 (1d8) force damage. A [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ target can repeat the save at the end of each of its turns, ending the effect\
       \ on itself on a success."
     "name": "Weight of History (Recharge 5-6)"
   - "desc": "The professor casts one of the following spells, requiring no material\
-      \ components and using Intelligence as the spellcasting ability:\n\nAt will:\
+      \ components and using Intelligence as the spellcasting ability:\n\n**At will:**\
       \ [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
       \ [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
-      \ [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md)\n\n2/day\
-      \ each: [locate object](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-object.md),\
+      \ [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md)\n\n**2/day\
+      \ each:** [locate object](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-object.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [passwall](03.PlayerLog&Handouts/Mechanics/CLI/spells/passwall.md)"
     "name": "Spellcasting"
 "source":

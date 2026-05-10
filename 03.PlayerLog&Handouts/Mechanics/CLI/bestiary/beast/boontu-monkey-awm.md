@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/awm
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Boontu Monkey
+- "Boontu Monkey"
 ---
-# [Boontu Monkey](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/boontu-monkey-awm.md)
+# [Boontu Monkey](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/boontu-monkey-awm.md)
 *Source: Adventure with Muk p. 30*  
 
 Boontu monkeys are skittish and furtive creatures that are greedy and are always on the lookout for food. Although they are greedy, they never eat the sacred golden nuts from the boontu tree in which they live.
@@ -43,7 +44,7 @@ Some say that they were once greedy thieves that were turned to monkeys by a pow
       \ and the ally isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 1\
       \ (1d4 - 1) piercing damage."
     "name": "Bite"
 "source":

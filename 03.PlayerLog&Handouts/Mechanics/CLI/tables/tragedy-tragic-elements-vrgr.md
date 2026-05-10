@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Tragedy; Tragic Elements
+- "Tragedy; Tragic Elements"
 ---
 # Tragedy; Tragic Elements
 *Source: Van Richten's Guide to Ravenloft p. 148* 
 
 **Tragic Elements**
-
-`dice: [](tragedy-tragic-elements-vrgr.md#^tragic-elements)`
 
 | dice: d10 | Tragic Element |
 |-----------|----------------|

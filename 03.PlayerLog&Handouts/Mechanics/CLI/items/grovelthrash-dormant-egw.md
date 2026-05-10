@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/artifact
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
-aliases: 
+aliases:
 - "Grovelthrash (Dormant)"
 ---
 # Grovelthrash (Dormant)
@@ -17,7 +18,7 @@ aliases:
 - **Damage**:
   - One-handed: 1d8 bludgeoning
   - Two-handed: 1d10 bludgeoning
-- **Properties**: [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile), Vestige of Divergence
+- **Properties**: [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Weight**: 2.0 lbs.
 
 Crafted from a single piece of obsidian, this warhammer of Torog hums with magical energy and is carved with the images of faces screaming in pain.
@@ -37,7 +38,7 @@ A covetous [ultroloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/ultrol
 The warhammer grants the following benefits in its dormant state:
 
 - You can speak, read, and write Abyssal and Infernal.  
-- You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with an attack using this warhammer, you can deal an extra `2d6` bludgeoning damage to the target. If you do, you take `d6` psychic damage. The warhammer deals double damage to objects and structures.  
+- You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with an attack using this warhammer, you can deal an extra `2d6` bludgeoning damage to the target. If you do, you take `1d6` psychic damage. The warhammer deals double damage to objects and structures.  
 - While holding this weapon, you have advantage on Wisdom ([Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)) checks made to discern a lie spoken in a language you understand.  
 
 > [!note] Betrayer Artifact Properties

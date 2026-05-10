@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lorthuun
+- "Lorthuun"
 ---
-# [Lorthuun](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/lorthuun-oota.md)
+# [Lorthuun](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lorthuun-oota.md)
 *Source: Out of the Abyss p. 141*  
 
 ```statblock
@@ -33,14 +34,15 @@ aliases:
   - !!int "17"
 "speed": "0 ft., fly 20 ft. (hover)"
 "saves":
-  - "intelligence": "+8"
-  - "wisdom": "+7"
-  - "charisma": "+8"
+  - "intelligence": !!int "8"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+12"
 "condition_immunities": "[prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 120 ft., passive Perception 22"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 22"
 "languages": "Deep Speech, Undercommon"
 "cr": "9"
 "traits":
@@ -51,29 +53,29 @@ aliases:
       \ Lorthuun's own eye rays."
     "name": "Antimagic Cone"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (4d6) piercing damage."
     "name": "Bite"
   - "desc": "The beholder shoots three of the following magical eye rays at random\
       \ (reroll duplicates), choosing one to three targets it can see within 120 feet\
-      \ of it:\n\n- 1. Charm Ray. The targeted creature must succeed on a DC 16\
+      \ of it:\n\n- **1. Charm Ray.** The targeted creature must succeed on a DC 16\
       \ Wisdom saving throw or be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
       \ by the beholder for 1 hour, or until the beholder harms the creature.  \n\
-      - 2. Paralyzing Ray. The targeted creature must succeed on a DC 16 Constitution\
+      - **2. Paralyzing Ray.** The targeted creature must succeed on a DC 16 Constitution\
       \ saving throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
-      \ its turns, ending the effect on itself on a success.  \n- 3. Fear Ray.\
+      \ its turns, ending the effect on itself on a success.  \n- **3. Fear Ray.**\
       \ The targeted creature must succeed on a DC 16 Wisdom saving throw or be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
-      \ its turns, ending the effect on itself on a success.  \n- 4. Slowing Ray.\
+      \ its turns, ending the effect on itself on a success.  \n- **4. Slowing Ray.**\
       \ The targeted creature must succeed on a DC 16 Dexterity saving throw. On a\
       \ failed save, the target's speed is halved for 1 minute. In addition, the creature\
       \ can't take reactions, and it can take either an action or a bonus action on\
       \ its turn, not both. The creature can repeat the saving throw at the end of\
-      \ each of its turns, ending the effect on itself on a success.  \n- 5. Enervation\
-      \ Ray. The targeted creature must make a DC 16 Constitution saving throw,\
+      \ each of its turns, ending the effect on itself on a success.  \n- **5. Enervation\
+      \ Ray.** The targeted creature must make a DC 16 Constitution saving throw,\
       \ taking 36 (8d8) necrotic damage on a failed save, or half as much damage\
-      \ on a successful one.  \n- 6. Telekinetic Ray. If the target is a creature,\
+      \ on a successful one.  \n- **6. Telekinetic Ray.** If the target is a creature,\
       \ it must succeed on a DC 16 Strength saving throw or the beholder moves it\
       \ up to 30 feet in any direction. It is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ by the ray's telekinetic grip until the start of the beholder's next turn\
@@ -83,12 +85,11 @@ aliases:
       \ can also exert fine control on objects with this ray, such as manipulating\
       \ a simple tool or opening a door or a container.  "
     "name": "Eye Rays"
+"legendary_description": "Lorthuun can take 3 legendary actions, using the Eye Ray\
+  \ option below. It can take only one legendary action at a time and only at the\
+  \ end of another creature's turn. Lorthuun regains spent legendary actions at the\
+  \ start of its turn."
 "legendary_actions":
-  - "desc": "Lorthuun can take 3 legendary actions, using the Eye Ray option below.\
-      \ It can take only one legendary action at a time and only at the end of another\
-      \ creature's turn. Lorthuun regains spent legendary actions at the start of\
-      \ its turn."
-    "name": ""
   - "desc": "Lorthuun uses one random eye ray."
     "name": "Eye Ray"
 "source":

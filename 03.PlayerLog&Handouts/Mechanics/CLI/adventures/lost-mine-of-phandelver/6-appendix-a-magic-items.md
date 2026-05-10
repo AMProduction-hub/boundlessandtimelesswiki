@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/lmop
 aliases:
-- Appendix A: Magic Items
+- "Appendix A: Magic Items"
 ---
 # Appendix A: Magic Items
 *Source: Lost Mine of Phandelver, p. 52* 

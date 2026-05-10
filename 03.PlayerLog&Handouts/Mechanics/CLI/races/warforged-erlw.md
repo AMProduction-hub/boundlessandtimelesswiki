@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/race/warforged
 aliases:
-- Warforged
+- "Warforged"
 ---
 # Warforged
 *Source: Eberron: Rising from the Last War p. 35*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/warforged.webp#right)
 
-- **Ability Scores**: Constitution +2; Apply +1 to one of Strength, Dexterity, Intelligence, Wisdom, or Charisma.
+- **Ability Scores**: Apply +1 to one of Strength, Dexterity, Intelligence, Wisdom, or Charisma.
 - **Size**: Medium
 - **Speed**: 30 ft.
 
@@ -91,8 +92,6 @@ The more a warforged develops its individuality, the more likely it is to modify
 Warforged often display an odd personality trait or two, given how new they are to the world. The Warforged Quirks table contains example quirks.
 
 **Warforged Quirks**
-
-`dice: [](warforged-erlw.md#^warforged-quirks)`
 
 | dice: d8 | Quirk |
 |----------|-------|

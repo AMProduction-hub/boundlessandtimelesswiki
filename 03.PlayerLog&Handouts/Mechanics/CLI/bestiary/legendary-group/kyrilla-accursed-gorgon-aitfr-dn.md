@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/aitfr-dn
 - ttrpg-cli/monster/legendary-group
 aliases:
-- Kyrilla, Accursed Gorgon
+- "Kyrilla, Accursed Gorgon"
 ---
 # Kyrilla, Accursed Gorgon
 
-## Lair actions
+## Lair Actions
 _Source: Adventures in the Forgotten Realms: Deepest Night_
 
 When fighting inside her lair, Kyrilla can invoke the ambient magic there to take lair actions. On initiative count 20 (losing initiative ties), she takes a lair action to cause one of the following effects:
@@ -18,7 +19,7 @@ When fighting inside her lair, Kyrilla can invoke the ambient magic there to tak
 - Kyrilla casts [cloud of daggers](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloud-of-daggers.md) (no components required), except the daggers are flying snakes and the spell deals piercing damage. While maintaining [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) on this effect, she can't take other lair actions.  
 - Pools of liquid within 60 feet of Kyrilla surge and froth, splashing and soaking any creature on the ground within 5 feet of such pools. Creatures that succeed on a DC 14 Dexterity saving throw avoid getting liquid in their eyes and mouths. Kyrilla can't use this lair action again until she has used a different one.  
 
-## Regional effects
+## Regional Effects
 _Source: Adventures in the Forgotten Realms: Deepest Night_
 
 The region containing Kyrilla's lair is warped by her accursed nature and the meteoric stone around her, which together create the following effects:

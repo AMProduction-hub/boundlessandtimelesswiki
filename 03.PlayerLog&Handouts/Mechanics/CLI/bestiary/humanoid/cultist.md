@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-8
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Cultist
+- "Cultist"
 ---
-# [Cultist](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/cultist.md)
-*Source: Monster Manual p. 345, Curse of Strahd, Lost Mine of Phandelver, Princes of the Apocalypse, Storm King's Thunder, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Divine Contention, Dragon of Icespire Peak, Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Journeys through the Radiant Citadel, Keys from the Golden Vault, Hunt for the Thessalhydra. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Cultist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cultist.md)
+*Source: Monster Manual p. 345. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Cultists swear allegiance to dark powers such as elemental princes, demon lords, or archdevils. Most conceal their loyalties to avoid being ostracized, imprisoned, or executed for their beliefs. Unlike evil acolytes, cultists often show signs of insanity in their beliefs and practices.
 
@@ -41,6 +42,8 @@ Cultists swear allegiance to dark powers such as elemental princes, demon lords,
     "desc": "+2"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+2"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "1/8"
@@ -49,30 +52,11 @@ Cultists swear allegiance to dark powers such as elemental princes, demon lords,
       \ or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)."
     "name": "Dark Devotion"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d6 + 1) slashing damage."
     "name": "Scimitar"
 "source":
   - "MM"
-  - "CoS"
-  - "LMoP"
-  - "PotA"
-  - "SKT"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "DC"
-  - "DIP"
-  - "SLW"
-  - "BGDIA"
-  - "IMR"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
-  - "CM"
-  - "JttRC"
-  - "KftGV"
-  - "HftT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/cultist.webp"
 ```
 ^statblock

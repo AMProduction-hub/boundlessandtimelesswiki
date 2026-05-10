@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Heliod's Quests
+- "Heliod's Quests"
 ---
 # Heliod's Quests
 *Source: Mythic Odysseys of Theros p. 128* 
 
 **Heliod's Quests**
-
-`dice: [](heliods-quests-mot.md#^heliods-quests)`
 
 | dice: d6 | Adventure Goal |
 |----------|----------------|

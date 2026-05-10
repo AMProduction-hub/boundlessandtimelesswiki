@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/14
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Githyanki Supreme Commander
+- "Githyanki Supreme Commander"
 ---
-# [Githyanki Supreme Commander](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/githyanki-supreme-commander-mpmm.md)
+# [Githyanki Supreme Commander](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githyanki-supreme-commander-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 141, Mordenkainen's Tome of Foes p. 206*  
 
 Supreme commanders lead armies, each one commanding ten kith'raks, who in turn lead the rest of their forces. Most supreme commanders ride [red dragons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-red-dragon.md) into battle.
@@ -43,9 +44,9 @@ Githyanki descend from an ancient people who were also the progenitors of githze
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+9"
-  - "intelligence": "+8"
-  - "wisdom": "+8"
+  - "constitution": !!int "9"
+  - "intelligence": !!int "8"
+  - "wisdom": !!int "8"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+9"
@@ -60,7 +61,7 @@ Githyanki descend from an ancient people who were also the progenitors of githze
 "actions":
   - "desc": "The githyanki makes two Silver Greatsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 14 (2d6 + 7) slashing damage plus 17 (5d6) psychic damage. On a critical\
       \ hit against a target in an astral body (as with the [astral projection](03.PlayerLog&Handouts/Mechanics/CLI/spells/astral-projection.md)\
       \ spell), the githyanki can cut the silvery cord that tethers the target to\
@@ -68,10 +69,10 @@ Githyanki descend from an ancient people who were also the progenitors of githze
     "name": "Silver Greatsword"
   - "desc": "The githyanki casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 16):\n\n\
-      At will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\
-      \ (the hand is invisible)\n\n3/day each: [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md)\
+      **At will:** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\
+      \ (the hand is invisible)\n\n**3/day each:** [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md)\
       \ (self only), [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md)\
-      \ (self only)\n\n1/day each: [Bigby's hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/bigbys-hand.md),\
+      \ (self only)\n\n**1/day each:** [Bigby's hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/bigbys-hand.md),\
       \ [mass suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-suggestion.md),\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md),\
       \ [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)"
@@ -85,6 +86,10 @@ Githyanki descend from an ancient people who were also the progenitors of githze
       \ it. To do so, the githyanki must see the attacker and be wielding a melee\
       \ weapon."
     "name": "Parry"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the githyanki supreme commander can expend a use to take one of the following\
+  \ actions. The githyanki supreme commander regains all expended uses at the start\
+  \ of each of its turns."
 "legendary_actions":
   - "desc": "The githyanki targets one ally it can see within 30 feet of it. If the\
       \ target can see or hear the githyanki, the target can make one melee weapon\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Fly
+- "Giant Fly"
 ---
-# [Giant Fly](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-fly-dmg.md)
+# [Giant Fly](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-fly-dmg.md)
 *Source: Dungeon Master's Guide p. 169*  
 
 ```statblock
@@ -31,7 +32,8 @@ aliases:
   - !!int "10"
   - !!int "3"
 "speed": "30 ft., fly 60 ft."
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "source":
   - "DMG"

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 aliases:
-- Gold for Fools and Princes
+- "Gold for Fools and Princes"
 ---
 # Gold for Fools and Princes
 *Source: Journeys through the Radiant Citadel, p. 92* 
@@ -64,7 +65,7 @@ Consider the following ways to involve characters in this adventure:
 
 ## Starting the Adventure
 
-![Prince Kirina fends off an...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/059-07-001-twilight-dune-scorpions.webp#center "Prince Kirina fends off an attack by twilight dune scorpions")
+![Prince Kirina fends off an attack by twilight dune scorpions](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/059-07-001-twilight-dune-scorpions.webp#center)
 
 After arriving in Anisa, the characters overhear that the city's famed gold mine, the Goldwarren, has collapsed. Nearby, people are gathering to hear news of the missing miners, and two local princes will be speaking. Characters who ask questions about the situation among the gathered people can learn the following information:
 
@@ -395,7 +396,7 @@ Three survivors—including [Awa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/n
 
 Characters who investigate the area where the survivors were hiding can make a DC 14 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check. If they succeed, they find a series of runes drawn on the cave wall with chalk. If the characters found the runes in the alley after the scorpion attack, they recognize these being nearly identical. If they didn't, a character who succeeds on a DC 12 Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana) or [Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)) check knows that the runes are related to conjuration magic but can tell nothing more.
 
-![Awa is ambushed by an auru...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/064-07-004-ambushed-aurumvorax.webp#center "Awa is ambushed by an aurumvorax in the depths of the Goldwarren")
+![Awa is ambushed by an aurumvorax in the depths of the Goldwarren](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/064-07-004-ambushed-aurumvorax.webp#center)
 
 ## Beyond the Goldwarren
 
@@ -517,8 +518,6 @@ Sensan names are typically drawn from significant locations connected to the par
 Consider the plots on the Sensa Empire Adventures table when planning adventures in the region.
 
 **Sensa Empire Adventures**
-
-`dice: [](08-gold-for-fools-and-princes.md#^sensa-empire-adventures)`
 
 | dice: d4 | Adventure |
 |----------|-----------|

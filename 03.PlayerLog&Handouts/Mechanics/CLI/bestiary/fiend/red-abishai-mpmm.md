@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/19
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Red Abishai
+- "Red Abishai"
 ---
-# [Red Abishai](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/red-abishai-mpmm.md)
+# [Red Abishai](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/red-abishai-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 40, Mordenkainen's Tome of Foes p. 160*  
 
 Red abishais have no equals among the abishais when it comes to leadership ability and raw power. Red abishais lead other devils into battle or take charge of troublesome cults to ensure that they continue to carry out Tiamat's commands. A red abishai cuts a fearsome figure, and that sight can be inspiring to the abishai's allies, filling them with a fanatical willingness to fight.
@@ -46,9 +47,9 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
   - !!int "19"
 "speed": "30 ft., fly 50 ft."
 "saves":
-  - "strength": "+12"
-  - "constitution": "+10"
-  - "wisdom": "+8"
+  - "strength": !!int "12"
+  - "constitution": !!int "10"
+  - "wisdom": !!int "8"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+10"
@@ -59,7 +60,8 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
 "damage_immunities": "fire, poison"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 18"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 18"
 "languages": "Draconic, Infernal, telepathy 120 ft."
 "cr": "19"
 "traits":
@@ -72,10 +74,10 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
   - "desc": "The abishai makes one Bite attack and one Claw attack, and it can use\
       \ Frightful Presence or Incite Fanaticism."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 22 (3d10 + 6) piercing damage plus 38 (7d10) fire damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 17 (2d10 + 6) force damage plus 11 (2d10) fire damage."
     "name": "Claw"
   - "desc": "Each creature of the abishai's choice that is within 120 feet and aware\

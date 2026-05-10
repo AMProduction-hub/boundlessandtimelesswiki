@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/deity/dawn-war
 - ttrpg-cli/domain/life
 - ttrpg-cli/domain/light
-aliases: 
-- Pelor
+aliases:
+- "Pelor"
 ---
 # Pelor
 *Source: Dungeon Master's Guide p. 10* 

@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/scag
 aliases:
-- Faction Agent
+- "Faction Agent"
 ---
 # Faction Agent
 *Source: Sword Coast Adventurer's Guide p. 147*  

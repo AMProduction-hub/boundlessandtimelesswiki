@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Halfling Names – Clan
+- "Halfling Names – Clan"
 ---
 # Halfling Names – Clan
 *Source: Xanathar's Guide to Everything p. 179* 
 
 **Halfling Names – Clan**
-
-`dice: [](halfling-names-clan-xge.md#^halfling-names-clan)`
 
 | dice: d100 | Name |
 |------------|------|

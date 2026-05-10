@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Chardalyn Dragon
+- "Chardalyn Dragon"
 ---
-# [Chardalyn Dragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/chardalyn-dragon-idrotf.md)
+# [Chardalyn Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/chardalyn-dragon-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 281*  
 
 This construct is fashioned from pieces of chardalyn (see the sidebar on Chardalyn) that have been assembled in the form of a dragon. The only parts of the dragon not forged from chardalyn are its wing flaps, which are made of an oily film as tough as rubber, and its heart, which is an orb of pulsating, radiant energy. Demonic magic suffusing the chardalyn imbues the construct with malevolence, allowing it to enjoy the terror it causes. This effect extends outward from it, corrupting other creatures who get too close to the dragon. Those affected by the dragon's presence turn their efforts to helping the dragon inflict suffering on others.
@@ -37,8 +38,8 @@ A chardalyn dragon serves the tyrannical will of its evil creator—a tireless d
   - !!int "3"
 "speed": "30 ft., fly 90 ft."
 "saves":
-  - "strength": "+11"
-  - "constitution": "+8"
+  - "strength": !!int "11"
+  - "constitution": !!int "8"
 "damage_resistances": "radiant; bludgeoning, piercing, slashing from nonmagical attacks"
 "damage_immunities": "cold, poison"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
@@ -47,7 +48,8 @@ A chardalyn dragon serves the tyrannical will of its evil creator—a tireless d
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "the languages known by its creator"
 "cr": "11"
 "traits":
@@ -66,13 +68,13 @@ A chardalyn dragon serves the tyrannical will of its evil creator—a tireless d
       \ two with its claws and one with its tail. If the dragon isn't flying, it can\
       \ also make one attack with its wings."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 14 (2d6 + 7) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 18 (2d10 + 7) bludgeoning damage."
     "name": "Tail"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 12 (2d4 + 7) bludgeoning damage."
     "name": "Wings"
   - "desc": "Any creature with an Intelligence of 4 or more that is within 30 feet\

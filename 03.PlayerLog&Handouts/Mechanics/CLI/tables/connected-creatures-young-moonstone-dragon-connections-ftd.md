@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Connected Creatures; Young Moonstone Dragon Connections
+- "Connected Creatures; Young Moonstone Dragon Connections"
 ---
 # Connected Creatures; Young Moonstone Dragon Connections
 *Source: Fizban's Treasury of Dragons p. 131* 
 
 **Young Moonstone Dragon Connections**
-
-`dice: [](connected-creatures-young-moonstone-dragon-connections-ftd.md#^young-moonstone-dragon-connections)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|

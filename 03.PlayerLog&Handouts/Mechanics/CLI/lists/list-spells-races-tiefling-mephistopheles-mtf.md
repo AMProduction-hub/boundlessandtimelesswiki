@@ -1,16 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subrace/tiefling-mephistopheles
 aliases:
-- Spells for Tiefling (Mephistopheles)
+- "Spells for Tiefling (Mephistopheles)"
 ---
 # Spells for Tiefling (Mephistopheles)
 
 ## Cantrip
 
-- [Mage Hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md "PHB") as 2nd-level, at class level 3
+- [Mage Hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md "PHB") as cantrip
 
 ## 1st Level
 
@@ -18,4 +19,4 @@ aliases:
 
 ## 2nd Level
 
-- [Flame Blade](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-blade.md "PHB") as 2nd-level, at class level 3
+- [Flame Blade](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-blade.md "PHB") at class level 5

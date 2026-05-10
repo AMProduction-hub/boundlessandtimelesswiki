@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bulette
+- "Bulette"
 ---
-# [Bulette](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/bulette.md)
-*Source: Monster Manual p. 34, Princes of the Apocalypse, Storm King's Thunder, Icewind Dale: Rime of the Frostmaiden, Journeys through the Radiant Citadel, Light of Xaryxis, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Bulette](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/bulette.md)
+*Source: Monster Manual p. 34. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 A bulette is a massive predator that terrorizes any lands it inhabits. Also called a "land shark," it lives only to feed. Irascible and rapacious, bulettes fear no other creature, and they attack with no regard for superior numbers or strength.
 
@@ -56,7 +57,8 @@ Some sages believe the bulette is the result of a mad wizard's experiments at cr
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 16"
 "languages": ""
 "cr": "5"
 "traits":
@@ -64,7 +66,7 @@ Some sages believe the bulette is the result of a mad wizard's experiments at cr
       \ feet, with or without a running start."
     "name": "Standing Leap"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 30\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 30\
       \ (4d12 + 4) piercing damage."
     "name": "Bite"
   - "desc": "If the bulette jumps at least 15 feet as part of its movement, it can\
@@ -81,12 +83,6 @@ Some sages believe the bulette is the result of a mad wizard's experiments at cr
     "name": "Deadly Leap"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "IDRotF"
-  - "JttRC"
-  - "LoX"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/bulette.webp"
 ```
 ^statblock

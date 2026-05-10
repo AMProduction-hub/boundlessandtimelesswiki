@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/3
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hell Hound
+- "Hell Hound"
 ---
-# [Hell Hound](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/hell-hound.md)
-*Source: Monster Manual p. 182, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Candlekeep Mysteries, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Hell Hound](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hell-hound.md)
+*Source: Monster Manual p. 182. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Monstrous, fire-breathing fiends that take the form of powerful dogs, hell hounds are found on the battlefields of Acheron and throughout the Lower Planes. On the Material Plane, hell hounds are most commonly seen in service to devils, fire giants, and other evil creatures that use them as guard animals and companions.
 
@@ -50,7 +51,8 @@ Hell hounds are smarter than mundane beasts, and their lawful nature makes them 
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
 "damage_immunities": "fire"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "understands Infernal but can't speak it"
 "cr": "3"
 "traits":
@@ -62,7 +64,7 @@ Hell hounds are smarter than mundane beasts, and their lawful nature makes them 
       \ [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage plus 7 (2d6) fire damage."
     "name": "Bite"
   - "desc": "The hound exhales fire in a 15-foot cone. Each creature in that area\
@@ -71,20 +73,6 @@ Hell hounds are smarter than mundane beasts, and their lawful nature makes them 
     "name": "Fire Breath (Recharge 5-6)"
 "source":
   - "MM"
-  - "CoS"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "ToA"
-  - "WDH"
-  - "WDMM"
-  - "SLW"
-  - "BGDIA"
-  - "IMR"
-  - "EGW"
-  - "MOT"
-  - "CM"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/hell-hound.webp"
 ```
 ^statblock

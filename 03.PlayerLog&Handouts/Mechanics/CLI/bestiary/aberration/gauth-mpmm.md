@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/6
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gauth
+- "Gauth"
 ---
-# [Gauth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/gauth-mpmm.md)
+# [Gauth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/gauth-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 133, Volo's Guide to Monsters p. 125*  
 
 A gauth is a hungry, tyrannical creature similar to a beholder that eats magic and tries to exact tribute from anything weaker than itself. Its body is about 4 feet in diameter, with six eyestalks, a central eye (sometimes surrounded by multiple smaller eyes), and four small grasping tentacles near its mouth. It has color and texture variations similar to a true beholder.
@@ -43,14 +44,15 @@ A [beholder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/beholder.md
   - !!int "13"
 "speed": "0 ft., fly 20 ft. (hover)"
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+5"
-  - "charisma": "+4"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
 "condition_immunities": "[prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 120 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 15"
 "languages": "Deep Speech, Undercommon"
 "cr": "6"
 "traits":
@@ -70,27 +72,27 @@ A [beholder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/beholder.md
       \ one."
     "name": "Death Throes"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d8) piercing damage."
     "name": "Bite"
   - "desc": "The gauth shoots three of the following magical eye rays at random (roll\
       \ three d6s, and reroll duplicates), targeting one to three creatures it can\
-      \ see within 120 feet of it:\n\n- 1 Devour Magic Ray. The target must succeed\
+      \ see within 120 feet of it:\n\n- **1 Devour Magic Ray.** The target must succeed\
       \ on a DC 14 Dexterity saving throw or have one of its magic items lose all\
       \ magical properties until the start of the gauth's next turn. If the object\
-      \ is a charged item, it also loses d4 charges. Determine the affected item\
-      \ randomly, ignoring single-use items such as potions and scrolls.  \n- 2\
-      \ Enervation Ray. The target must make a DC 14 Constitution saving throw,\
+      \ is a charged item, it also loses 1d4 charges. Determine the affected item\
+      \ randomly, ignoring single-use items such as potions and scrolls.  \n- **2\
+      \ Enervation Ray.** The target must make a DC 14 Constitution saving throw,\
       \ taking 18 (4d8) necrotic damage on a failed save, or half as much damage\
-      \ on a successful one.  \n- 3 Fire Ray. The target must succeed on a DC\
-      \ 14 Dexterity saving throw or take 22 (4d10) fire damage.  \n- 4 Paralyzing\
-      \ Ray. The target must succeed on a DC 14 Constitution saving throw or be\
+      \ on a successful one.  \n- **3 Fire Ray.** The target must succeed on a DC\
+      \ 14 Dexterity saving throw or take 22 (4d10) fire damage.  \n- **4 Paralyzing\
+      \ Ray.** The target must succeed on a DC 14 Constitution saving throw or be\
       \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
-      \ its turns, ending the effect on itself on a success.  \n- 5 Pushing Ray.\
+      \ its turns, ending the effect on itself on a success.  \n- **5 Pushing Ray.**\
       \ The target must succeed on a DC 14 Strength saving throw or be pushed up to\
       \ 15 feet away from the gauth and have its speed halved until the start of the\
-      \ gauth's next turn.  \n- 6 Sleep Ray. The target must succeed on a DC 14\
+      \ gauth's next turn.  \n- **6 Sleep Ray.** The target must succeed on a DC 14\
       \ Wisdom saving throw or fall asleep and remain [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
       \ for 1 minute. The target awakens if it takes damage or another creature takes\
       \ an action to wake it. This ray has no effect on Constructs and Undead.  "

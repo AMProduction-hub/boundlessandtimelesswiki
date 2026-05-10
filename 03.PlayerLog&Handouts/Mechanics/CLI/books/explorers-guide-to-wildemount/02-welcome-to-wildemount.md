@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Welcome to Wildemount
+- "Welcome to Wildemount"
 ---
 # Welcome to Wildemount
 *Source: Explorer's Guide to Wildemount, p. 5* 

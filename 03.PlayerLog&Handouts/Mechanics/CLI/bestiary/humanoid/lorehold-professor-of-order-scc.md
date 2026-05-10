@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lorehold Professor of Order
+- "Lorehold Professor of Order"
 ---
-# [Lorehold Professor of Order](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/lorehold-professor-of-order-scc.md)
+# [Lorehold Professor of Order](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lorehold-professor-of-order-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 198*  
 
 Lorehold's professors of order search for evidence of patterns and predictable outcomes in history. They study the flow of events, learning which occurrences herald specific outcomes, and they trace their magic through those paths of causality. In their exploration of ruins, professors of order shore up dangerous structures and find the safest paths as they search. When confronted, they confound their foes by channeling the stasis of perfect order, creating resilient barriers of force and quashing hostile magic.
@@ -39,10 +40,10 @@ The archaeomancers of Lorehold College draw their magical might from the flow of
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+5"
-  - "intelligence": "+7"
-  - "wisdom": "+5"
-  - "charisma": "+4"
+  - "constitution": !!int "5"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -63,7 +64,7 @@ The archaeomancers of Lorehold College draw their magical might from the flow of
   - "desc": "The professor makes two Repelling Burst attacks. It can also use Force\
       \ Barrier, if available."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +7 to hit, reach 30 ft., one target. Hit: 13\
+  - "desc": "*Melee Spell Attack:* +7 to hit, reach 30 ft., one target. *Hit:* 13\
       \ (2d8 + 4) force damage. If the target is a Large or smaller creature, it\
       \ must succeed on a DC 15 Strength saving throw or be pushed up to 10 feet directly\
       \ away from the professor and become [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
@@ -78,9 +79,9 @@ The archaeomancers of Lorehold College draw their magical might from the flow of
     "name": "Force Barrier (Recharge 5-6)"
   - "desc": "The professor casts one of the following spells, requiring no material\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 15):\n\nAt will: [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
+      \ DC 15):\n\n**At will:** [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
       \ [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md)\n\
-      \n2/day each: [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
+      \n**2/day each:** [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [locate object](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-object.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [stone\
       \ shape](03.PlayerLog&Handouts/Mechanics/CLI/spells/stone-shape.md)"

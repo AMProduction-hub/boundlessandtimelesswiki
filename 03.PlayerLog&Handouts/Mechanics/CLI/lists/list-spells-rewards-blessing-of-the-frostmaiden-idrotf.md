@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/reward/blessing-of-the-frostmaiden
 aliases:
-- Spells for Blessing of the Frostmaiden
+- "Spells for Blessing of the Frostmaiden"
 ---
 # Spells for Blessing of the Frostmaiden
 

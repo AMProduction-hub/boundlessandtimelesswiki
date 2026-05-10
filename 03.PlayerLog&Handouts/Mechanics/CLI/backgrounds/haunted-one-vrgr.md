@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Haunted One
+- "Haunted One"
 ---
 # Haunted One
 *Source: Van Richten's Guide to Ravenloft p. 34, Curse of Strahd p. 209*  
@@ -27,8 +28,6 @@ Prior to becoming an adventurer, your path in life was defined by one dark momen
 
 **Harrowing Event**
 
-`dice: [](haunted-one-vrgr.md#^harrowing-event)`
-
 | dice: d10 | Event |
 |-----------|-------|
 | 1 | A monster that slaughtered dozens of innocent people spared your life, and you don't know why. |
@@ -49,8 +48,6 @@ Characters in a horror-focused campaign might have distinct motivations and char
 
 **Horror Character Personality Traits**
 
-`dice: [](haunted-one-vrgr.md#^horror-character-personality-traits)`
-
 | dice: d12 | Personality Trait |
 |-----------|-------------------|
 | 1 | I had an encounter that I believe gives me a special affinity with a supernatural creature or event. |
@@ -68,8 +65,6 @@ Characters in a horror-focused campaign might have distinct motivations and char
 ^horror-character-personality-traits
 
 **Horror Character Ideals**
-
-`dice: [](haunted-one-vrgr.md#^horror-character-ideals)`
 
 | dice: d12 | Ideal |
 |-----------|-------|
@@ -89,8 +84,6 @@ Characters in a horror-focused campaign might have distinct motivations and char
 
 **Horror Character Bonds**
 
-`dice: [](haunted-one-vrgr.md#^horror-character-bonds)`
-
 | dice: d12 | Bond |
 |-----------|------|
 | 1 | I desperately need to get back to someone or someplace, but I lost them in the Mists. |
@@ -108,8 +101,6 @@ Characters in a horror-focused campaign might have distinct motivations and char
 ^horror-character-bonds
 
 **Horror Character Flaws**
-
-`dice: [](haunted-one-vrgr.md#^horror-character-flaws)`
 
 | dice: d12 | Flaw |
 |-----------|------|

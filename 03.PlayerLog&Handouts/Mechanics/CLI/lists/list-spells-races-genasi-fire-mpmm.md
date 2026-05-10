@@ -1,16 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subrace/genasi-fire
 aliases:
-- Spells for Genasi (Fire)
+- "Spells for Genasi (Fire)"
 ---
 # Spells for Genasi (Fire)
 
 ## Cantrip
 
-- [Produce Flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md "PHB") at class level 3
+- [Produce Flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md "PHB") as cantrip
 
 ## 1st Level
 
@@ -18,4 +19,4 @@ aliases:
 
 ## 2nd Level
 
-- [Flame Blade](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-blade.md "PHB") at class level 3
+- [Flame Blade](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-blade.md "PHB") at class level 5

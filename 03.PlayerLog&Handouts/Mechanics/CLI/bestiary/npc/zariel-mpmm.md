@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/26
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Zariel
+- "Zariel"
 ---
-# [Zariel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/zariel-mpmm.md)
+# [Zariel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zariel-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 280, Mordenkainen's Tome of Foes p. 180*  
 
 > [!quote] A quote from Mordenkainen  
@@ -53,9 +54,9 @@ Zariel makes her lair in a basalt citadel that rises up in Avernus. From nearly 
   - !!int "30"
 "speed": "50 ft., fly 150 ft."
 "saves":
-  - "intelligence": "+16"
-  - "wisdom": "+16"
-  - "charisma": "+18"
+  - "intelligence": !!int "16"
+  - "wisdom": !!int "16"
+  - "charisma": !!int "18"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+18"
@@ -68,7 +69,11 @@ Zariel makes her lair in a basalt citadel that rises up in Avernus. From nearly 
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 26"
+"gear":
+  - "[flail](03.PlayerLog&Handouts/Mechanics/CLI/items/flail.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 26"
 "languages": "all, telepathy 120 ft."
 "cr": "26"
 "traits":
@@ -87,10 +92,10 @@ Zariel makes her lair in a basalt citadel that rises up in Avernus. From nearly 
   - "desc": "Zariel makes three Flail or Longsword attacks. She can replace one attack\
       \ with a use of Horrid Touch, if available."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) force damage plus 36 (8d8) fire damage."
     "name": "Flail"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) radiant damage, or 19 (2d10 + 8) radiant damage when used\
       \ with two hands, plus 36 (8d8) fire damage."
     "name": "Longsword"
@@ -107,30 +112,21 @@ Zariel makes her lair in a basalt citadel that rises up in Avernus. From nearly 
       \ up to 120 feet to an unoccupied space she can see."
     "name": "Teleport"
   - "desc": "Zariel casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 26):\n\nAt\
-      \ will: [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md)\
+      \ and using Charisma as the spellcasting ability (spell save DC 26):\n\n**At\
+      \ will:** [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md)\
       \ (can become Medium when changing her appearance), [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
       \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
       \ (self only), [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md),\
       \ [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)\n\
-      \n3/day each: [blade barrier](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-barrier.md),\
+      \n**3/day each:** [blade barrier](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-barrier.md),\
       \ [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md),\
       \ [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md)"
     "name": "Spellcasting"
-"legendary_actions":
-  - "desc": "Zariel uses Teleport."
-    "name": "Teleport"
-  - "desc": "Zariel turns her magical gaze toward one creature she can see within\
-      \ 120 feet of her and commands it to burn. The target must succeed on a DC 26\
-      \ Wisdom saving throw or take 22 (4d10) fire damage."
-    "name": "Immolating Gaze (Costs 2 Actions)"
 "lair_actions":
   - "desc": "On initiative count 20 (losing initiative ties), Zariel can take one\
       \ of the following lair actions; she can't take the same lair action two rounds\
-      \ in a row:"
-    "name": ""
-  - "desc": "- Fireball. Zariel casts the [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)\
-      \ spell.  \n- Infernal Illusions. Zariel casts the [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md)\
+      \ in a row:\n\n- **Fireball.** Zariel casts the [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)\
+      \ spell.  \n- **Infernal Illusions.** Zariel casts the [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md)\
       \ spell four times, targeting different areas with it. Zariel prefers to create\
       \ images of intruders' loved ones being burned alive. Zariel doesn't need to\
       \ concentrate on the spells, which end on initiative count 20 of the next round.\
@@ -142,19 +138,26 @@ Zariel makes her lair in a basalt citadel that rises up in Avernus. From nearly 
     "name": ""
 "regional_effects":
   - "desc": "The region containing Zariel's lair is warped by her magic, which creates\
-      \ one or more of the following effects:"
+      \ one or more of the following effects:\n\n- **Hellscape.** The area within\
+      \ 9 miles of the lair is filled with screaming voices and the stench of burning\
+      \ meat.  \n- **Pyres.** Once every 60 feet within 1 mile of the lair, 10-foot-high\
+      \ gouts of flame rise from the ground. Any creature or object that touches the\
+      \ flame takes 7 (2d6 fire damage, though it can take this damage no more than\
+      \ once per round.  \n- **Smoke.** The area within 2 miles of the lair, but no\
+      \ closer than 500 feet, is filled with smoke, which causes the area to be heavily\
+      \ obscured. The smoke can't be cleared away.  \n\nIf Zariel dies, these effects\
+      \ fade over the course of 1d10 days."
     "name": ""
-  - "desc": "- Hellscape. The area within 9 miles of the lair is filled with screaming\
-      \ voices and the stench of burning meat.  \n- Pyres. Once every 60 feet\
-      \ within 1 mile of the lair, 10-foot-high gouts of flame rise from the ground.\
-      \ Any creature or object that touches the flame takes 7 (2d6 fire damage,\
-      \ though it can take this damage no more than once per round.  \n- Smoke.\
-      \ The area within 2 miles of the lair, but no closer than 500 feet, is filled\
-      \ with smoke, which causes the area to be heavily obscured. The smoke can't\
-      \ be cleared away.  "
-    "name": ""
-  - "desc": "If Zariel dies, these effects fade over the course of d10 days."
-    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Zariel can expend a use to take one of the following actions. Zariel regains\
+  \ all expended uses at the start of each of their turns."
+"legendary_actions":
+  - "desc": "Zariel uses Teleport."
+    "name": "Teleport"
+  - "desc": "Zariel turns her magical gaze toward one creature she can see within\
+      \ 120 feet of her and commands it to burn. The target must succeed on a DC 26\
+      \ Wisdom saving throw or take 22 (4d10) fire damage."
+    "name": "Immolating Gaze (Costs 2 Actions)"
 "source":
   - "MPMM"
   - "MTF"

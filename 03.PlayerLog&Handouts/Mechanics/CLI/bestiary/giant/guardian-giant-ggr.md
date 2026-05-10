@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Guardian Giant
+- "Guardian Giant"
 ---
-# [Guardian Giant](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/guardian-giant-ggr.md)
+# [Guardian Giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/guardian-giant-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 201*  
 
 Most of the giants in the Boros Legion come from a single clan, the Skorskal, that has long been at odds with the Gruul Clans. These giants are guards and gatekeepers, well represented in the Sunhome Guard, as well as powerful muscle supporting Boros missions.
@@ -42,13 +43,15 @@ Giants use their tremendous size and strength to advance the cause of no less th
   - !!int "12"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+7"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+7"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+10"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 20"
 "languages": "Common, Giant"
 "cr": "8"
@@ -58,8 +61,8 @@ Giants use their tremendous size and strength to advance the cause of no less th
 "actions":
   - "desc": "The giant makes three spear attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +10 to hit, reach 10 ft. or range\
-      \ 60/240 ft., one target. Hit: 17 (3d6 + 7) piercing damage, or 20 (3d8\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +10 to hit, reach 10 ft. or range\
+      \ 60/240 ft., one target. *Hit:* 17 (3d6 + 7) piercing damage, or 20 (3d8\
       \ + 7) piercing damage if used with two hands to make a melee attack."
     "name": "Spear"
 "reactions":

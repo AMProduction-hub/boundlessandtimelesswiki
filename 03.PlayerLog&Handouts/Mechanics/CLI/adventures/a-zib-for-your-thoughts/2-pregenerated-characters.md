@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/azfyt
 aliases:
-- Pregenerated Characters
+- "Pregenerated Characters"
 ---
 # Pregenerated Characters
 *Source: A Zib for Your Thoughts* 
 
-- [Azorius Vedlaken Wizard](https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/main/pdf/AZfyT/Azorius%20Vedlaken%20Wizard%202.pdf)  
+- [Azorius Vedalken Wizard](https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/main/pdf/AZfyT/Azorius%20Vedlaken%20Wizard%202.pdf)  
 - [Boros Minotaur Fighter](https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/main/pdf/AZfyT/Boros%20Minotaur%20Fighter%202.pdf)  
 - [Dimir Human Rogue](https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/main/pdf/AZfyT/Dimir%20Human%20Rogue%202.pdf)  
 - [Golgari Elf Druid](https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/main/pdf/AZfyT/Golgari%20Elf%20Druid%202.pdf)  

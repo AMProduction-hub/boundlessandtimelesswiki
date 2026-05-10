@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/3
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bearded Devil
+- "Bearded Devil"
 ---
-# [Bearded Devil](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/bearded-devil.md)
-*Source: Monster Manual p. 70, Tomb of Annihilation, Waterdeep: Dragon Heist, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Bearded Devil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/bearded-devil.md)
+*Source: Monster Manual p. 70. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Bearded devils serve archdevils as shock troops, fighting shoulder-to-shoulder and reveling in the glory of battle. They respond with violence to any slight, real or imagined, gorging themselves on violence as their infernal saw-toothed glaives carve a path through their foes.
 
@@ -130,10 +131,10 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > - A barbed devil has a 30 percent chance of summoning one barbed devil.  
 > - A bearded devil has a 30 percent chance of summoning one bearded devil.  
 > - A bone devil has a 40 percent chance of summoning `2d6` spined devils or one bone devil.  
-> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `d6` bearded devils, or one erinyes.  
+> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `1d6` bearded devils, or one erinyes.  
 > - A horned devil has a 30 percent chance of summoning one horned devil.  
 > - An ice devil has a 60 percent chance of summoning one ice devil.  
-> - A pit fiend summons `2d4` bearded devils, `d4` barbed devils, or one erinyes with no chance of failure.  
+> - A pit fiend summons `2d4` bearded devils, `1d4` barbed devils, or one erinyes with no chance of failure.  
 > 
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
@@ -158,14 +159,17 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "strength": "+5"
-  - "constitution": "+4"
-  - "wisdom": "+2"
+  - "strength": !!int "5"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "2"
 "damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
   \ that aren't silvered"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"gear":
+  - "[glaive](03.PlayerLog&Handouts/Mechanics/CLI/items/glaive.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "Infernal, telepathy 120 ft."
 "cr": "3"
 "traits":
@@ -180,7 +184,7 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 "actions":
   - "desc": "The devil makes two attacks: one with its beard and one with its glaive."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 6 (1d8 + 2) piercing damage, and the target must succeed on a DC 12 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. While [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
@@ -188,22 +192,17 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
       \ saving throw at the end of each of its turns, ending the effect on itself\
       \ on a success."
     "name": "Beard"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
       \ 8 (1d10 + 3) slashing damage. If the target is a creature other than an\
       \ undead or a construct, it must succeed on a DC 12 Constitution saving throw\
-      \ or lose 5 (d10) hit points at the start of each of its turns due to an infernal\
-      \ wound. Each time the devil hits the wounded target with this attack, the damage\
-      \ dealt by the wound increases by 5 (d10). Any creature can take an action\
-      \ to stanch the wound with a successful DC 12 Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine))\
+      \ or lose 5 (1d10) hit points at the start of each of its turns due to an\
+      \ infernal wound. Each time the devil hits the wounded target with this attack,\
+      \ the damage dealt by the wound increases by 5 (1d10). Any creature can take\
+      \ an action to stanch the wound with a successful DC 12 Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine))\
       \ check. The wound also closes if the target receives magical healing."
     "name": "Glaive"
 "source":
   - "MM"
-  - "ToA"
-  - "WDH"
-  - "BGDIA"
-  - "EGW"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/bearded-devil.webp"
 ```
 ^statblock

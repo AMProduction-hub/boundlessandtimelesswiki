@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/14
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ice Devil
+- "Ice Devil"
 ---
-# [Ice Devil](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/ice-devil.md)
-*Source: Monster Manual p. 75, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Ice Devil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/ice-devil.md)
+*Source: Monster Manual p. 75. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Found most commonly on the cold layers of Stygia and Cania, ice devils serve as commanders of the infernal armies of the Nine Hells, tormenting lesser devils as an outlet for their anger and resentment. Coveting the power of their pit fiend superiors, ice devils work ceaselessly toward promotion, slaughtering the enemies of the Nine Hells and claiming as many souls as they can for their archdevil masters.
 
@@ -139,10 +140,10 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > - A barbed devil has a 30 percent chance of summoning one barbed devil.  
 > - A bearded devil has a 30 percent chance of summoning one bearded devil.  
 > - A bone devil has a 40 percent chance of summoning `2d6` spined devils or one bone devil.  
-> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `d6` bearded devils, or one erinyes.  
+> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `1d6` bearded devils, or one erinyes.  
 > - A horned devil has a 30 percent chance of summoning one horned devil.  
 > - An ice devil has a 60 percent chance of summoning one ice devil.  
-> - A pit fiend summons `2d4` bearded devils, `d4` barbed devils, or one erinyes with no chance of failure.  
+> - A pit fiend summons `2d4` bearded devils, `1d4` barbed devils, or one erinyes with no chance of failure.  
 > 
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
@@ -167,15 +168,17 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
   - !!int "18"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+7"
-  - "constitution": "+9"
-  - "wisdom": "+7"
-  - "charisma": "+9"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "9"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
 "damage_immunities": "fire, poison, cold"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 12"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 12"
 "languages": "Infernal, telepathy 120 ft."
 "cr": "14"
 "traits":
@@ -188,13 +191,13 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
   - "desc": "The devil makes three attacks: one with its bite, one with its claws,\
       \ and one with its tail."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 12 (2d6 + 5) piercing damage plus 10 (3d6) cold damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 10 (2d4 + 5) slashing damage plus 10 (3d6) cold damage."
     "name": "Claws"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:*\
       \ 12 (2d6 + 5) bludgeoning damage plus 10 (3d6) cold damage."
     "name": "Tail"
   - "desc": "The devil magically forms an opaque wall of ice on a solid surface it\
@@ -217,8 +220,6 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
     "name": "Wall of Ice (Recharge 6)"
 "source":
   - "MM"
-  - "BGDIA"
-  - "TCE"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/ice-devil.webp"
 ```
 ^statblock

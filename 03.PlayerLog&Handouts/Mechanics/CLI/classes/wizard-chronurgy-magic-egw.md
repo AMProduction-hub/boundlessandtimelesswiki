@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/subclass/wizard/chronurgy
 aliases:
-- Chronurgy Magic
+- "Chronurgy Magic"
 ---
 # Chronurgy Magic
 *[Wizard](./wizard.md): Arcane Tradition*  
@@ -43,14 +44,12 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Chronurgy Magic (Level 2)
-
 Focusing on the manipulation of time, those who follow the Chronurgy tradition learn to alter the pace of reality to their liking. Using the ramping of anticipatory dunamis energy, these mages can bend the flow of time as adroitly as a skilled musician plays an instrument, lending themselves and their allies an advantage in the blink of an eye.
 
 > [!note]
 > Note: This subclass has access to "Dunamancy Spells".
+
+## Subclass Features
 
 ### Chronal Shift (Level 2)
 

@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-hazard
+cssclasses:
+- json5e-hazard
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/hazard/smpl
 aliases:
-- Falling Portcullis
+- "Falling Portcullis"
 ---
 # Falling Portcullis
 *Generic Hazard*  

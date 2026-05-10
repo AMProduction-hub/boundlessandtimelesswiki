@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/item/attunement/required
@@ -9,7 +10,7 @@ tags:
 - ttrpg-cli/item/weapon/melee
 - ttrpg-cli/item/weapon/simple
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Armblade"
 - "Battleaxe Armblade"
 - "Club Armblade"

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 aliases:
-- The Murkmire Malevolence
+- "The Murkmire Malevolence"
 ---
 # The Murkmire Malevolence
 *Source: Keys from the Golden Vault, p. 11* 
@@ -13,7 +14,7 @@ aliases:
 
 Unbeknownst to anyone but a disgraced academic, the Varkenbluff Museum of Natural History is in grave danger. Archaeologists at a nearby dig site recently unearthed a curiosity: the Murkmire Stone. This object is actually an eldritch creature's egg, and it's about to hatch. The characters must infiltrate the museum, steal the egg, and return it to [Dr. Cassee Dannell](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/dr-cassee-dannell-kftgv.md) to be neutralized before it releases an eldritch horror.
 
-![Adventurers navigate aroun...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/004-01-001-ch1-splash.webp#center "Adventurers navigate around one of the more fearsome exhibits in the Varkenbluff Museum of Natural History")
+![Adventurers navigate around one of the more fearsome exhibits in the Varkenbluff Museum of Natural History](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/004-01-001-ch1-splash.webp#center)
 
 ## Adventure Background
 
@@ -153,13 +154,11 @@ The doors to the museum's offices (areas V5–V7) and basement (area V16) are lo
 
 As long as the characters aren't caught entering a restricted area or causing a public incident, the museum's guards ignore them during the gala.
 
-If one or more characters are spotted in a restricted area or cause a public incident, a [guard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) approaches them. Roll on the Museum Guards table to determine which guard arrives. Characters in formal dress are escorted to the Gemstone Wing, while characters who are improperly dressed for the occasion are told to leave the museum at once. If the characters protest, the guard becomes hostile and shouts for backup. At the end of each of the guard's turns, an additional `d4` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) arrive until all the museum guards are accounted for.
+If one or more characters are spotted in a restricted area or cause a public incident, a [guard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) approaches them. Roll on the Museum Guards table to determine which guard arrives. Characters in formal dress are escorted to the Gemstone Wing, while characters who are improperly dressed for the occasion are told to leave the museum at once. If the characters protest, the guard becomes hostile and shouts for backup. At the end of each of the guard's turns, an additional `1d4` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) arrive until all the museum guards are accounted for.
 
 Provided a guard hasn't shouted for backup, a character can take an action and use trickery or intimidation to convince a guard to leave. The character must make a DC 10 Charisma ([Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception), [Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation), or [Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)) check. If the check succeeds, the character convinces the guard to look for trouble elsewhere. If the check fails, the guard becomes hostile and behaves as described above, and the character can't repeat the check on that particular guard.
 
 **Museum Guards**
-
-`dice: [](02-the-murkmire-malevolence.md#^museum-guards)`
 
 | dice: d12 | Guard Description |
 |-----------|-------------------|
@@ -172,8 +171,8 @@ Provided a guard hasn't shouted for backup, a character can take an action and u
 | 7 | Sureth Dhanvhal (neutral human), a reserve soldier who is always pressed for time |
 | 8 | Brendara Valindril (lawful neutral elf), a graduate student in history at the university |
 | 9 | Grendor Battleaxe (neutral good dwarf), a wanderer paying off a debt to the museum |
-| 10 | Clark Jonathan Vanth(lawful good human), a young and naive individual |
-| 11 | Sareena Shu(chaotic neutral tiefling), an overeager lover of history and learning |
+| 10 | Clark Jonathan Vanth (lawful good human), a young and naive individual |
+| 11 | Sareena Shu (chaotic neutral tiefling), an overeager lover of history and learning |
 | 12 | Maryam Bikram (lawful neutral human), a city watch veteran who rigidly enforces the rules |
 ^museum-guards
 
@@ -192,7 +191,7 @@ Audible [alarm](03.PlayerLog&Handouts/Mechanics/CLI/spells/alarm.md) spells have
 - In the hall leading from area V11 to area V12  
 - On the door leading from area V12 to the hallway to area V13  
 
-If an alarm is on a door, touching the door sets off the alarm. If an alarm is on a 5-foot square, entering that square sets it off. The alarm on the front doors in area V1 extends 10 feet, covering the entire width of the doorway. When an alarm sounds, any guards in the area plus `d3` other guards from that floor hear it and investigate.
+If an alarm is on a door, touching the door sets off the alarm. If an alarm is on a 5-foot square, entering that square sets it off. The alarm on the front doors in area V1 extends 10 feet, covering the entire width of the doorway. When an alarm sounds, any guards in the area plus `1d3` other guards from that floor hear it and investigate.
 
 The characters can find a record of the museum's payment for these spells, including their specific locations, by searching the records room (area V6); the alarms can also be detected using [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md). The alarms aren't armed while the museum is open to the public.
 
@@ -210,7 +209,7 @@ If the characters don't carefully remove the Murkmire Stone from its pedestal in
 
 After hours, Maryam Bikram is stationed at the entrance to the gala. Eleven other museum guards watch the areas indicated in the Guard Locations After Hours table. Guards have keys to certain areas. Guards also have pass cards that allow them to bypass the museum's alarms (see "Bypassing Alarms" below).
 
-If the characters get into a noisy fight with one or more guards, an additional `d4` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) arrive each round until all the remaining museum guards are accounted for.
+If the characters get into a noisy fight with one or more guards, an additional `1d4` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) arrive each round until all the remaining museum guards are accounted for.
 
 If the guards incapacitate a character or a character surrenders, the guards haul that character to the nearby city watch headquarters. If all the characters are caught, their mission is unsuccessful and the adventure ends.
 
@@ -237,7 +236,7 @@ Characters who discover the museum's security measures can find ways to circumve
 - **Sneaking Past Guards.** The characters can find a document in the curator's office (area V5) that outlines the guards' stations after hours. During the gala, the curator keeps this document on her person (see the "Curator Alda Arkin" section). Characters who spend at least 1 minute studying the document have advantage on Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)) checks made to sneak past guards after hours.  
 - **Stealing Keys.** The curator carries a master key, while each guard carries a key that unlocks all doors to the area in which the guard is stationed. Guards in area V1 also have a key to the break room (area V7). A character can steal a guard's key in the same way as they can steal a pass card, described in "Bypassing Alarms" above.  
 
-![The Murkmire Stone is the ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/008-01-005-murkmire-stone-display.webp#center "The Murkmire Stone is the primary treasure on display during the Varkenbluff Museum's opening gala")
+![The Murkmire Stone is the primary treasure on display during the Varkenbluff Museum's opening gala](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/008-01-005-murkmire-stone-display.webp#center)
 
 #### Hiding in the Museum
 
@@ -272,19 +271,15 @@ When a character interacts with an attendee, roll on the Gala Attendees table to
 
 **Gala Attendees**
 
-`dice: [](02-the-murkmire-malevolence.md#^gala-attendees)`
-
 | dice: d4 | Attendee |
 |----------|----------|
-| 1 | Captain Frankheim Walters(chaotic neutral human), who never served in the military but implies he did |
-| 2 | Georgina Lucina Vandylarahal(neutral evil elf), a sneering heir to a mining fortune |
+| 1 | Captain Frankheim Walters (chaotic neutral human), who never served in the military but implies he did |
+| 2 | Georgina Lucina Vandylarahal (neutral evil elf), a sneering heir to a mining fortune |
 | 3 | Countess Helene Danforth (neutral good human), a member of an ancient, titled family with little actual wealth |
 | 4 | Dr. Horthnar Stonecrusher (lawful good dwarf), a surgeon who loves natural history and gemstones |
 ^gala-attendees
 
 **Museum Gossip**
-
-`dice: [](02-the-murkmire-malevolence.md#^museum-gossip)`
 
 | dice: d4 | Juicy Tidbit |
 |----------|--------------|
@@ -369,7 +364,7 @@ The eastern shop sells cheap souvenirs and bears a sign that reads, "The Histori
 
 ##### Treasure
 
-Each shop includes a small back room with a locked door. As an action, a character can try to unlock either door using thieves' tools, doing so with a successful DC 16 Dexterity check. Inside each shop's back room is a till containing `d6` gp, `2d6` sp, and `3d6` cp. Additionally, one set of [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md) can be cobbled together from the supplies in the back rooms.
+Each shop includes a small back room with a locked door. As an action, a character can try to unlock either door using thieves' tools, doing so with a successful DC 16 Dexterity check. Inside each shop's back room is a till containing `1d6` gp, `2d6` sp, and `3d6` cp. Additionally, one set of [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md) can be cobbled together from the supplies in the back rooms.
 
 #### V3: Ancient Plants Exhibit
 
@@ -683,8 +678,6 @@ The egg's removal from the Murkmire rapidly accelerated the development of the c
 ![The Murkmire Stone](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/011-01-005-the-murkmire-stone.webp#center)
 
 **Murkmire Stone Effects**
-
-`dice: [](02-the-murkmire-malevolence.md#^murkmire-stone-effects)`
 
 | dice: d12 | Effect |
 |-----------|--------|

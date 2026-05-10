@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Underworld Crossing Adventures
+- "Underworld Crossing Adventures"
 ---
 # Underworld Crossing Adventures
 *Source: Mythic Odysseys of Theros p. 118* 
 
 **Underworld Crossing Adventures**
-
-`dice: [](underworld-crossing-adventures-mot.md#^underworld-crossing-adventures)`
 
 | dice: d12 | Adventure Goal |
 |-----------|----------------|

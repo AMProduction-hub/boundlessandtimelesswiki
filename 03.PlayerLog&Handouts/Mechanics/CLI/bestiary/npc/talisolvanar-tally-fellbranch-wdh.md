@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Talisolvanar "Tally" Fellbranch
+- "Talisolvanar \"Tally\" Fellbranch"
 ---
-# [Talisolvanar "Tally" Fellbranch](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/talisolvanar-tally-fellbranch-wdh.md)
+# [Talisolvanar "Tally" Fellbranch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/talisolvanar-tally-fellbranch-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 32*  
 
 A male half-elf carpenter and woodcarver.
@@ -34,7 +35,10 @@ A male half-elf carpenter and woodcarver.
   - !!int "10"
   - !!int "10"
 "speed": "30 ft."
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Elvish"
 "cr": "0"
 "traits":
@@ -42,8 +46,8 @@ A male half-elf carpenter and woodcarver.
       \ and magic can't put him to sleep."
     "name": "Fey Ancestry"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) bludgeoning damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d4) bludgeoning damage."
     "name": "Club"
 "source":
   - "WDH"

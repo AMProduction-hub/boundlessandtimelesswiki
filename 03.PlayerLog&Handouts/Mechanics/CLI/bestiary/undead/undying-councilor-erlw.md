@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Undying Councilor
+- "Undying Councilor"
 ---
-# [Undying Councilor](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/undying-councilor-erlw.md)
+# [Undying Councilor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/undying-councilor-erlw.md)
 *Source: Eberron: Rising from the Last War p. 311*  
 
 Undying councilors guide and protect the people of Aerenal. They are the most powerful members of the Undying Court who still maintain their physical forms. While many undying councilors spend their days advising the living, some devote years projecting their consciousness into the Astral Plane, seeking new knowledge to share with their people. Still, not all minds are capable of assimilating immortality, and undying councilors sometimes buckle under the strain and go mad.
@@ -59,9 +60,9 @@ An undying doesn't require air, food, drink, or sleep.
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+6"
-  - "intelligence": "+7"
-  - "wisdom": "+9"
+  - "constitution": !!int "6"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "9"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -80,35 +81,36 @@ An undying doesn't require air, food, drink, or sleep.
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 19"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 19"
 "languages": "Common, Elvish"
 "cr": "10"
 "traits":
   - "desc": "The councilor is a 13th-level spellcaster. Its spellcasting ability is\
       \ Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following\
-      \ cleric spells prepared:\n\nCantrips (at will): [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ cleric spells prepared:\n\n**Cantrips (at will):** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md), [sacred\
       \ flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md), [spare\
       \ the dying](03.PlayerLog&Handouts/Mechanics/CLI/spells/spare-the-dying.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md),\
+      \n**1st level (4 slots):** [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md),\
       \ [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md), [create\
       \ or destroy water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-or-destroy-water.md)\n\
-      \n2nd level (3 slots): [augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md),\
+      \n**2nd level (3 slots):** [augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md),\
       \ [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md)\n\
-      \n3rd level (3 slots): [daylight](03.PlayerLog&Handouts/Mechanics/CLI/spells/daylight.md),\
+      \n**3rd level (3 slots):** [daylight](03.PlayerLog&Handouts/Mechanics/CLI/spells/daylight.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [spirit guardians](03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-guardians.md)\n\
-      \n4th level (3 slots): [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \n**4th level (3 slots):** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md), [guardian\
       \ of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/guardian-of-faith.md)\n\
-      \n5th level (2 slots): [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md),\
+      \n**5th level (2 slots):** [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md),\
       \ [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md)\
       \ (see \"Actions\" below), [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)\n\
-      \n6th level (1 slots): [forbiddance](03.PlayerLog&Handouts/Mechanics/CLI/spells/forbiddance.md),\
+      \n**6th level (1 slots):** [forbiddance](03.PlayerLog&Handouts/Mechanics/CLI/spells/forbiddance.md),\
       \ [planar ally](03.PlayerLog&Handouts/Mechanics/CLI/spells/planar-ally.md)\n\
-      \n7th level (1 slots): [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)"
+      \n**7th level (1 slots):** [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)"
     "name": "Spellcasting"
   - "desc": "The councilor magically sheds bright light in a 15-foot radius and dim\
       \ light for an additional 15 feet. The councilor can extinguish or restore this\
@@ -122,7 +124,7 @@ An undying doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The councilor makes two Radiant Touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +9 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Spell Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (3d6 + 5) radiant damage."
     "name": "Radiant Touch"
   - "desc": "The councilor touches another creature. The target magically regains\
@@ -134,9 +136,12 @@ An undying doesn't require air, food, drink, or sleep.
       \ a DC 17 Dexterity saving throw. A creature takes 14 (4d6) fire damage and\
       \ 14 (4d6) radiant damage on a failed save, or half as much damage on a successful\
       \ one. If the councilor casts this spell using a spell slot of 6th level or\
-      \ higher, the fire damage or the radiant damage (its choice) increases by d6\
+      \ higher, the fire damage or the radiant damage (its choice) increases by 1d6\
       \ for each slot level above 5th."
     "name": "Flame Strike (5th-Level Spell; Requires a Spell Slot)"
+"legendary_description": "Legendary Action Uses: 2. Immediately after another creature's\
+  \ turn, the undying councilor can expend a use to take one of the following actions.\
+  \ The undying councilor regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The councilor makes one attack with its Radiant Touch."
     "name": "Touch"

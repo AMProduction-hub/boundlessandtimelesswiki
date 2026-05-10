@@ -1,16 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/rarity/rare
 - ttrpg-cli/item/tier/major
-aliases: 
+aliases:
 - "Figurine of Wondrous Power, Ivory Goats"
 ---
 # Figurine of Wondrous Power, Ivory Goats
 *Wondrous item, major, rare*  
-
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/figurine-of-wondrous-power-ivory-goats.webp#right)
 
 
 A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.

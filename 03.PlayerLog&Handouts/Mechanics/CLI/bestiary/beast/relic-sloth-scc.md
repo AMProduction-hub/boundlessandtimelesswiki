@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Relic Sloth
+- "Relic Sloth"
 ---
-# [Relic Sloth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/relic-sloth-scc.md)
+# [Relic Sloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/relic-sloth-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 210*  
 
 For long expeditions, Lorehold mages often employ relic sloths to haul adventuring equipment and excavated artifacts—so long as their study isn't in any particular hurry. Relic sloths travel at an excruciatingly slow pace, deliberating every step and moving only when necessary. But this caution makes these hulking creatures perfect for traversing treacherous and crumbling ruins, where other beasts of burden would falter. The distinctive sickle-shaped claws on a relic sloth's forelimbs are primarily used for climbing, though they can fend off a hungry predator in a pinch.
@@ -41,7 +42,7 @@ For long expeditions, Lorehold mages often employ relic sloths to haul adventuri
 "languages": ""
 "cr": "2"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 14 (2d8 + 5) slashing damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15). The relic sloth can grapple no more than two targets at a\
       \ time."

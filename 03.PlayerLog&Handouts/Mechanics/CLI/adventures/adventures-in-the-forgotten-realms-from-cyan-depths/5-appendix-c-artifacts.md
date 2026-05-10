@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/aitfr-fcd
 aliases:
-- Appendix C: Artifacts
+- "Appendix C: Artifacts"
 ---
 # Appendix C: Artifacts
 *Source: Adventures in the Forgotten Realms: From Cyan Depths, p. 12* 

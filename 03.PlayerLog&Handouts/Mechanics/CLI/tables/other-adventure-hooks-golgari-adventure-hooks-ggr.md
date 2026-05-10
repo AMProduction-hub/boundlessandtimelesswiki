@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Other Adventure Hooks; Golgari Adventure Hooks
+- "Other Adventure Hooks; Golgari Adventure Hooks"
 ---
 # Other Adventure Hooks; Golgari Adventure Hooks
 *Source: Guildmasters' Guide to Ravnica p. 140* 
 
 **Golgari Adventure Hooks**
-
-`dice: [](other-adventure-hooks-golgari-adventure-hooks-ggr.md#^golgari-adventure-hooks)`
 
 | dice: d6 | Adventure Hook |
 |----------|----------------|

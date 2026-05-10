@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/12
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Firemane Angel
+- "Firemane Angel"
 ---
-# [Firemane Angel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/firemane-angel-ggr.md)
+# [Firemane Angel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/firemane-angel-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 190*  
 
 Firemane angels are holy champions and paragons of war who specialize in single combat. They are powerful warriors who seek out the mightiest foes in any conflict, trusting lesser soldiers to handle lesser opponents.
@@ -47,9 +48,9 @@ The wisest, most visionary angels are responsible for forming and implementing t
   - !!int "23"
 "speed": "40 ft., fly 120 ft."
 "saves":
-  - "strength": "+10"
-  - "wisdom": "+6"
-  - "charisma": "+10"
+  - "strength": !!int "10"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+6"
@@ -60,15 +61,18 @@ The wisest, most visionary angels are responsible for forming and implementing t
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 120 ft., passive Perception 16"
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 16"
 "languages": "all"
 "cr": "12"
 "traits":
   - "desc": "The angel's innate spellcasting ability is Charisma (spell save DC 18,\
       \ +10 to hit with spell attacks). The angel can innately cast the following\
-      \ spells, requiring no material components:\n\n3/day each: [compelled duel](03.PlayerLog&Handouts/Mechanics/CLI/spells/compelled-duel.md),\
+      \ spells, requiring no material components:\n\n**3/day each:** [compelled duel](03.PlayerLog&Handouts/Mechanics/CLI/spells/compelled-duel.md),\
       \ [guiding bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/guiding-bolt.md)\
-      \ (as a 5th-level spell)\n\n1/day each: [daylight](03.PlayerLog&Handouts/Mechanics/CLI/spells/daylight.md),\
+      \ (as a 5th-level spell)\n\n**1/day each:** [daylight](03.PlayerLog&Handouts/Mechanics/CLI/spells/daylight.md),\
       \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md) (as a 6th-level\
       \ spell)"
     "name": "Innate Spellcasting"
@@ -84,7 +88,7 @@ The wisest, most visionary angels are responsible for forming and implementing t
 "actions":
   - "desc": "The angel makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 10 (1d8 + 6) slashing damage, or 11 (1d10 + 6) slashing damage if used\
       \ with two hands, plus 22 (5d8) fire or radiant damage (angel's choice)."
     "name": "Longsword"

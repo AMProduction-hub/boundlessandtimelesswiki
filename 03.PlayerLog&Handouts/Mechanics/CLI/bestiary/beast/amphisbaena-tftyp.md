@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Amphisbaena
+- "Amphisbaena"
 ---
-# [Amphisbaena](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/amphisbaena-tftyp.md)
+# [Amphisbaena](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/amphisbaena-tftyp.md)
 *Source: Tales from the Yawning Portal p. 84*  
 
 ```statblock
@@ -34,17 +35,18 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "blindsight 10 ft., passive Perception 12"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., passive Perception 12"
 "languages": ""
 "cr": "3"
 "actions":
   - "desc": "The amphisbaena makes two attacks, only one of which can be a constrict\
       \ attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one creature. *Hit:*\
       \ 11 (2d6 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:*\
       \ 13 (2d8 + 4) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 16). Until this grapple ends, the creature is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and the snake can't constrict another target."

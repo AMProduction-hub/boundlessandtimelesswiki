@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 7: Maddgoth's Castle
+- "Level 7: Maddgoth's Castle"
 ---
 # Level 7: Maddgoth's Castle
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 95* 
@@ -421,7 +422,7 @@ The arch is one of Halaster's magic gates (see "Gates"). Inscribed on its wall i
 > **Windows**. Crystal-barred windows look down on the courtyard from the two floors above.
 ^405
 
-Pulling the correct lever in area 37 unlocks all the doors leading to the courtyard. A [knock](03.PlayerLog&Handouts/Mechanics/CLI/spells/knock.md) spell or similar magic can also unlock a door. Each time such a spell is cast in the courtyard, a blade of force like that created by the [Mordenkainen's sword](03.PlayerLog&Handouts/Mechanics/CLI/spells/mordenkainens-sword.md) spell materializes next to the statue. Each sword acts on initiative count 17. On its turn, the sword flies up to 20 feet toward the nearest creature and makes a melee spell attack against it (+8 to hit), dealing `3d10` force damage on a hit. A sword lasts for 1 minute or until successfully dispelled (DC 17), and it can pursue creatures beyond the courtyard's confines.
+Pulling the correct lever in area 37 unlocks all the doors leading to the courtyard. A [knock](03.PlayerLog&Handouts/Mechanics/CLI/spells/knock.md) spell or similar magic can also unlock a door. Each time such a spell is cast in the courtyard, a blade of force like that created by the [Mordenkainen's sword](03.PlayerLog&Handouts/Mechanics/CLI/spells/mordenkainens-sword.md) spell materializes next to the statue. Each sword acts on initiative count 17. On its turn, the sword flies up to 20 feet toward the nearest creature and makes a melee spell attack against it (`+8` to hit), dealing `3d10` force damage on a hit. A sword lasts for 1 minute or until successfully dispelled (DC 17), and it can pursue creatures beyond the courtyard's confines.
 
 The statue's eyes betray a hint of madness, and the wizard's helm is a representation of Maddgoth's magic helmet (found in area 25b). Like the castle, the statue can't be damaged or altered in any way. Carved into the pages of its open spellbook is the [Mordenkainen's sword](03.PlayerLog&Handouts/Mechanics/CLI/spells/mordenkainens-sword.md) spell. A wizard can take a rubbing of the spell and copy it into a spellbook.
 
@@ -707,7 +708,7 @@ A creature can use an action to adjust up to three levers and buttons, in any co
 > 
 > **Button 3**. The inscription under this button reads "FOG." Pushing the button fills the castle hallways (areas 18, 28, and 38) and the stairways connecting them with fog, making these areas heavily obscured. The fog lasts for 1 hour or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.
 > 
-> **Button 4**. The inscription next to this button reads "LOCKDOWN." Pushing the button causes every door in the castle (including the rooftop trapdoor) to lock, as if sealed by an [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md) spell. This effect lasts for 1 hour. While locked in this way, the interior doors—most of which are as much iron as glass—also become electrified. Such a door deals 5 (`d10`) lightning damage to any creature that touches it.
+> **Button 4**. The inscription next to this button reads "LOCKDOWN." Pushing the button causes every door in the castle (including the rooftop trapdoor) to lock, as if sealed by an [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md) spell. This effect lasts for 1 hour. While locked in this way, the interior doors—most of which are as much iron as glass—also become electrified. Such a door deals 5 (`1d10`) lightning damage to any creature that touches it.
 > 
 > **Button 5**. The inscription next to this button reads "DO NOT PRESS!" Pushing the button causes bolts of lightning to erupt from the console. Every creature in the room must make a DC 20 Dexterity saving throw, taking 44 (`8d10`) lightning damage on a failed save, or half as much damage on a successful one. A creature in metal armor has disadvantage on the saving throw.
 ^434

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-8
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Manes
+- "Manes"
 ---
-# [Manes](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/manes.md)
-*Source: Monster Manual p. 60, Tales from the Yawning Portal, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild*  
+# [Manes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/manes.md)
+*Source: Monster Manual p. 60*  
 
 Souls of evil creatures that descend to the Lower Planes are transformed into manes-the lowest form of demonkind. These wretched fiends attack any non-demon they see, and they are called to the Material Plane by those seeking to sow death and chaos.
 
@@ -171,13 +172,13 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > 
 > Some demons can have an action option that allows them to summon other demons. Summon Demon (1/Day). The demon chooses what to summon and attempts a magical summoning.
 > 
-> - A balor has a 50 percent chance of summoning `d8` vrocks, `d6` hezrous, `d4` glabrezus, `d3` nalfeshnees, `d2` mariliths, or one goristro.  
+> - A balor has a 50 percent chance of summoning `1d8` vrocks, `1d6` hezrous, `1d4` glabrezus, `1d3` nalfeshnees, `1d2` mariliths, or one goristro.  
 > - A barlgura has a 30 percent chance of summoning one barlgura.  
 > - A chasme has a 30 percent chance of summoning one chasme.  
-> - A glabrezu has a 30 percent chance of summoning `d3` vrocks, `d2` hezrous, or one glabrezu.  
+> - A glabrezu has a 30 percent chance of summoning `1d3` vrocks, `1d2` hezrous, or one glabrezu.  
 > - A hezrou has a 30 percent chance of summoning `2d6` dretches or one hezrou.  
-> - A marilith has a 50 percent chance of summoning `d6` vrocks, `d4` hezrous, `d3` glabrezus, `d2` nalfeshnees, or one marilith.  
-> - A nalfeshnee has a 50 percent chance of summoning `d4` vrocks, `d3` hezrous, `d2` glabrezus, or one nalfeshnee.  
+> - A marilith has a 50 percent chance of summoning `1d6` vrocks, `1d4` hezrous, `1d3` glabrezus, `1d2` nalfeshnees, or one marilith.  
+> - A nalfeshnee has a 50 percent chance of summoning `1d4` vrocks, `1d3` hezrous, `1d2` glabrezus, or one nalfeshnee.  
 > - A vrock has a 30 percent chance of summoning `2d4` dretches or one vrock.  
 > - A yochlol has a 50 percent chance of summoning one yochlol.  
 > 
@@ -213,19 +214,16 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "understands Abyssal but can't speak"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (2d4) slashing damage."
     "name": "Claws"
 "source":
   - "MM"
-  - "TftYP"
-  - "GoS"
-  - "BGDIA"
-  - "IMR"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/manes.webp"
 ```
 ^statblock

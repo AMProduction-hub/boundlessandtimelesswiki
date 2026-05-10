@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Chapter 14: The Labyrinth
+- "Chapter 14: The Labyrinth"
 ---
 # Chapter 14: The Labyrinth
 *Source: Out of the Abyss, p. 178* 
@@ -37,7 +38,7 @@ Twice each day that the party spends in the Labyrinth (whether traveling or rest
 > 
 > Random encounters in the Labyrinth take place in one of the following environments, modified as you wish to suit the creatures in the encounter.
 > 
-> **Caves.** Most caves in the Labyrinth are small (up to 30 feet in diameter), with uneven floors featuring stalagmites, columns, or pools of standing water. A cave has a 10 percent chance of featuring luminescent growth on the walls that fill it with dim light. In addition to the tunnel through which the characters enter, there are `d3` additional tunnels leading out. These tunnels can exit the cave through the floor, ceiling, or at odd angles.
+> **Caves.** Most caves in the Labyrinth are small (up to 30 feet in diameter), with uneven floors featuring stalagmites, columns, or pools of standing water. A cave has a 10 percent chance of featuring luminescent growth on the walls that fill it with dim light. In addition to the tunnel through which the characters enter, there are `1d3` additional tunnels leading out. These tunnels can exit the cave through the floor, ceiling, or at odd angles.
 > 
 > **Tunnels.** Most tunnels in the Labyrinth are 5 to 10 feet wide, with ceilings `1d8 + 3` feet high. A tunnel follows a straight path for no more than `2d4 × 10` feet before it turns.
 > 
@@ -48,21 +49,19 @@ Twice each day that the party spends in the Labyrinth (whether traveling or rest
 
 #### Labyrinth Encounters
 
-`dice: [](14-chapter-14-the-labyrinth.md#^encounter)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–10 | No encounter |
 | 11 | 1 [behir](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/behir.md) |
 | 12 | `2d4` [flumphs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/flumph.md) |
 | 13 | [Gnoll](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gnoll.md) pack |
-| 14 | `d4` [grells](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/grell.md) |
-| 15 | `d4` [hezrous](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hezrou.md) |
+| 14 | `1d4` [grells](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/grell.md) |
+| 15 | `1d4` [hezrous](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hezrou.md) |
 | 16 | `4d8` [manes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/manes.md) |
 | 17 | `2d4` [minotaurs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/minotaur.md) |
 | 18 | 1 [monodrone](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/monodrone.md) |
 | 19 | `2d6` [quaggoths](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/quaggoth.md) |
-| 20 | `d4` [shriekers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/shrieker.md) |
+| 20 | `1d4` [shriekers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/shrieker.md) |
 ^encounter
 
 #### Behir
@@ -213,15 +212,13 @@ If [Gash](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gash-oota.md) was att
 
 #### Maze Encounters
 
-`dice: [](14-chapter-14-the-labyrinth.md#^encounter)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–10 | No encounter |
 | 11–12 | Corpse |
 | 13–14 | Gnawed bones |
 | 15–17 | `2d4` [gnolls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gnoll.md) |
-| 18–20 | `d6` [minotaurs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/minotaur.md) |
+| 18–20 | `1d6` [minotaurs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/minotaur.md) |
 ^encounter
 
 #### Corpse
@@ -424,7 +421,7 @@ The roughly spherical engine is 40 feet below the top of the crevasse and 40 fee
 
 Having just recently found the Maze Engine, Baphomet has set a [nalfeshnee](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/nalfeshnee.md) named Slaughtertusk to watch over the crevasse and prevent any creature from approaching the device. Slaughtertusk would rather be helping the Horned King track down and kill Yeenoghu. The nalfeshnee is bored with its assigned task, although it knows better than to disobey the Horned King. Still, rather than immediately destroying any intruders, it toys with them for as long as possible.
 
-Slaughtertusk is happy to let a fight drag on, feasting on its enemies' pain before finally slaying them. If reduced to fewer than 100 hit points, it uses its Summon Demon feature (see the "Variant: Demon Summoning" sidebar in the "Demons" entry of the *Monster Manual*) and tries to summon `d6` [vrocks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/vrock.md). It has a 50 percent chance of succeeding.
+Slaughtertusk is happy to let a fight drag on, feasting on its enemies' pain before finally slaying them. If reduced to fewer than 100 hit points, it uses its Summon Demon feature (see the "Variant: Demon Summoning" sidebar in the "Demons" entry of the *Monster Manual*) and tries to summon `1d6` [vrocks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/vrock.md). It has a 50 percent chance of succeeding.
 
 Slaughtertusk is a bully at heart and begs for its life if the adventurers have it at their mercy, promising to tell them the secrets of the Maze Engine or anything else they want. At the first opportunity, it teleports away, summoning demonic aid to cover its retreat if possible.
 
@@ -463,8 +460,6 @@ The engine shuts down if any part of it comes into contact with an [antimagic fi
 The Maze Engine was damaged when the crevasse opened underneath it and swallowed it up. The engine can't be repaired, and once activated, it does strange and unpredictable things on each of its turns until it is deactivated or destroyed.
 
 On each of the engine's turns, roll a `d100` and consult the Maze Engine Effects table to determine what the engine does.
-
-`dice: [](14-chapter-14-the-labyrinth.md#^effect)`
 
 | dice: d100 | Effect |
 |------------|--------|

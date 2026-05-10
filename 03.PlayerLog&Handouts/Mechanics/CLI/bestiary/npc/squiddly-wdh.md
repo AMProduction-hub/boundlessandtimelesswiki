@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Squiddly
+- "Squiddly"
 ---
-# [Squiddly](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/squiddly-wdh.md)
+# [Squiddly](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/squiddly-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 63*  
 
 ```statblock
@@ -28,7 +29,8 @@ aliases:
   - !!int "10"
   - !!int "10"
   - !!int "10"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "source":
   - "WDH"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Quasit
+- "Quasit"
 ---
-# [Quasit](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/quasit.md)
-*Source: Monster Manual p. 63, Curse of Strahd, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything, Candlekeep Mysteries, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Quasit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/quasit.md)
+*Source: Monster Manual p. 63. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Quasits infest the Lower Planes. Physically weak, they keep to the shadows to plot mischief and wickedness. More powerful demons use quasits as spies and messengers when they aren't devouring them or pulling them apart to pass the time.
 
@@ -167,13 +168,13 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > 
 > Some demons can have an action option that allows them to summon other demons. Summon Demon (1/Day). The demon chooses what to summon and attempts a magical summoning.
 > 
-> - A balor has a 50 percent chance of summoning `d8` vrocks, `d6` hezrous, `d4` glabrezus, `d3` nalfeshnees, `d2` mariliths, or one goristro.  
+> - A balor has a 50 percent chance of summoning `1d8` vrocks, `1d6` hezrous, `1d4` glabrezus, `1d3` nalfeshnees, `1d2` mariliths, or one goristro.  
 > - A barlgura has a 30 percent chance of summoning one barlgura.  
 > - A chasme has a 30 percent chance of summoning one chasme.  
-> - A glabrezu has a 30 percent chance of summoning `d3` vrocks, `d2` hezrous, or one glabrezu.  
+> - A glabrezu has a 30 percent chance of summoning `1d3` vrocks, `1d2` hezrous, or one glabrezu.  
 > - A hezrou has a 30 percent chance of summoning `2d6` dretches or one hezrou.  
-> - A marilith has a 50 percent chance of summoning `d6` vrocks, `d4` hezrous, `d3` glabrezus, `d2` nalfeshnees, or one marilith.  
-> - A nalfeshnee has a 50 percent chance of summoning `d4` vrocks, `d3` hezrous, `d2` glabrezus, or one nalfeshnee.  
+> - A marilith has a 50 percent chance of summoning `1d6` vrocks, `1d4` hezrous, `1d3` glabrezus, `1d2` nalfeshnees, or one marilith.  
+> - A nalfeshnee has a 50 percent chance of summoning `1d4` vrocks, `1d3` hezrous, `1d2` glabrezus, or one nalfeshnee.  
 > - A vrock has a 30 percent chance of summoning `2d4` dretches or one vrock.  
 > - A yochlol has a 50 percent chance of summoning one yochlol.  
 > 
@@ -210,7 +211,8 @@ Demonologists organize the chaotic distribution of demons into broad categories 
   \ nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "Abyssal, Common"
 "cr": "1"
 "traits":
@@ -225,7 +227,7 @@ Demonologists organize the chaotic distribution of demons into broad categories 
       \ effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) piercing damage, and the target must succeed on a DC 10 Constitution\
       \ saving throw or take 5 (2d4) poison damage and become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
@@ -245,14 +247,6 @@ Demonologists organize the chaotic distribution of demons into broad categories 
     "name": "Invisibility"
 "source":
   - "MM"
-  - "CoS"
-  - "TftYP"
-  - "WDMM"
-  - "BGDIA"
-  - "EGW"
-  - "TCE"
-  - "CM"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/quasit.webp"
 ```
 ^statblock

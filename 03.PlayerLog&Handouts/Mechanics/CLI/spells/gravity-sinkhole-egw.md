@@ -1,15 +1,20 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/egw
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/level/4th-level
 - ttrpg-cli/spell/school/evocation
+- ttrpg-cli/spell/subclass/chronurgy-magic
+- ttrpg-cli/spell/subclass/graviturgy-magic
 classes:
-- Bard
+- Bard (Magical Secrets)
+- Wizard (Chronurgy Magic)
+- Wizard (Graviturgy Magic)
 aliases:
-- Gravity Sinkhole
+- "Gravity Sinkhole"
 ---
 # Gravity Sinkhole
 *4th-level, Evocation*  
@@ -22,8 +27,8 @@ aliases:
 
 A 20-foot-radius sphere of crushing force forms at a point you can see within range and tugs at the creatures there. Each creature in the sphere must make a Constitution saving throw. On a failed save, the creature takes `5d10` force damage and is pulled in a straight line toward the center of the sphere, ending in an unoccupied space as close to the center as possible (even if that space is in the air). On a successful save, the creature takes half as much damage and isn't pulled.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the damage increases by `d10` for each slot level above 4th.
+**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the damage increases by `1d10` for each slot level above 4th.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Wizard (Chronurgy Magic)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-chronurgy-magic-egw.md "subclass=EGW"); [Wizard (Graviturgy Magic)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-graviturgy-magic-egw.md "subclass=EGW")
 
 *Source: Explorer's Guide to Wildemount p. 187*

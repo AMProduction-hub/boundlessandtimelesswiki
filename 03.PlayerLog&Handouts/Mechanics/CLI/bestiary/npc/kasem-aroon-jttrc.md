@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kasem Aroon
+- "Kasem Aroon"
 ---
-# [Kasem Aroon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/kasem-aroon-jttrc.md)
+# [Kasem Aroon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kasem-aroon-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 21*  
 
 ```statblock
@@ -40,11 +41,13 @@ aliases:
     "desc": "+4"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+5"
+"gear":
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
 "senses": "passive Perception 12"
 "languages": "any two languages"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d8 + 1) piercing damage."
     "name": "Rapier"
 "reactions":

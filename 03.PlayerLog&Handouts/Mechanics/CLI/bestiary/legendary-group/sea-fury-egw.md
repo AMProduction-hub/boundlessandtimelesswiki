@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/legendary-group
 aliases:
-- Sea Fury
+- "Sea Fury"
 ---
 # Sea Fury
 
-## Lair actions
+## Lair Actions
 _Source: Explorer's Guide to Wildemount_
 
 A sea fury lurks in the caverns where its coven once dwelled, decorating the walls with the bones of its slain kin, as well as baubles stolen from sunken wrecks.
@@ -20,7 +21,7 @@ On initiative count 20 (losing initiative ties), the sea fury can take a lair ac
 - The sea fury conjures a 15-foot cube of water that fills an unoccupied space it can see within 30 feet of it, then moves the water in a straight line up to 60 feet, after which the water disperses. Any creature that comes into contact with the rushing [wave](03.PlayerLog&Handouts/Mechanics/CLI/items/wave.md) must succeed on a DC 16 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) by it and pushed 15 feet along its course.  
 - The sea fury calls forth the spirit of a dead sailor or sea hag that met its end in the lair. This spirit has the statistics of a [specter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md) and lasts until the sea fury uses another lair action. The specter appears in an unoccupied space within 30 feet of the sea fury and obeys the sea fury's commands.  
 
-## Regional effects
+## Regional Effects
 _Source: Explorer's Guide to Wildemount_
 
 The region containing a sea fury's lair is warped by the sea fury's magic, which creates the following effects:

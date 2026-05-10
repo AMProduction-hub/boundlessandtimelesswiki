@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/slw
 aliases:
-- Introduction
+- "Introduction"
 ---
 # Introduction
 *Source: Essentials Kit: Storm Lord's Wrath* 

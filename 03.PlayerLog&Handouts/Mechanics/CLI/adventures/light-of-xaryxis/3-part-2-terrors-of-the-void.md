@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/lox
 aliases:
-- Part 2: Terrors of the Void
+- "Part 2: Terrors of the Void"
 ---
 # Part 2: Terrors of the Void
 *Source: Light of Xaryxis, p. 21* 
@@ -26,9 +27,9 @@ Before running this session, familiarize yourself with the Rock of Bral, which i
 
 The neogi ship bearing down on the *Moondancer* at the end of chapter 3 is a nightspider called the *Ebonsnare*. See chapter 2 of the "Astral Adventurer's Guide" for more information on nightspiders.
 
-The *Ebonsnare* is crewed by eight [neogi pirates](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/neogi-pirate-bam.md) (see "Boo's Astral Menagerie") and twenty [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) of various races and alignments, whom the neogi have enslaved. The neogi also keep two [umber hulks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/umber-hulk.md) on board for use as shock troops during their raids. The nightspider is 250 feet away from the *Moondancer* when the characters spot it.
+The *Ebonsnare* is crewed by eight neogi pirates (see "Boo's Astral Menagerie") and twenty [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) of various races and alignments, whom the neogi have enslaved. The neogi also keep two [umber hulks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/umber-hulk.md) on board for use as shock troops during their raids. The nightspider is 250 feet away from the *Moondancer* when the characters spot it.
 
-The characters likely have little chance of repelling the neogi boarding party, especially if they have just fought off the psurlons hiding aboard the derelict nautiloid in chapter 3. Luckily, a patrol from the Rock of Bral happens upon the characters just in time to save them from having to fight the neogi. Alternatively, if the characters avoided encountering the psurlons or seem eager to test their mettle against the nightspider's crew, allow a group of four [neogi pirates](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/neogi-pirate-bam.md) and one [umber hulk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/umber-hulk.md) to board the *Moondancer*, then have the patrol arrive at a suitably dramatic moment during the fight.
+The characters likely have little chance of repelling the neogi boarding party, especially if they have just fought off the psurlons hiding aboard the derelict nautiloid in chapter 3. Luckily, a patrol from the Rock of Bral happens upon the characters just in time to save them from having to fight the neogi. Alternatively, if the characters avoided encountering the psurlons or seem eager to test their mettle against the nightspider's crew, allow a group of four neogi pirates and one [umber hulk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/umber-hulk.md) to board the *Moondancer*, then have the patrol arrive at a suitably dramatic moment during the fight.
 
 #### To the Rescue!
 
@@ -39,7 +40,7 @@ As the nightspider approaches the *Moondancer* (or after a few rounds of battle,
 > Suddenly, two galleons glide into view and begin pummeling the nightspider with ballista bolts and mangonel stones, forcing it to break off its attack and make for the cover of the asteroids.
 ^057
 
-The newly arrived space galleons are the *Stalwart* and the *Incorrigible*, both under the command of a lawful neutral [githyanki buccaneer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githyanki-buccaneer-bam.md) (see "Boo's Astral Menagerie") named Daar'vik. The *Stalwart*'s crew consists of eighteen [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md) of various races and alignments. The crew of the *Incorrigible* consists of eighteen [hadozee shipmates](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hadozee-shipmate-bam.md) (see "Boo's Astral Menagerie") of various alignments. The spelljammer aboard each ship is a lawful neutral, human [mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage.md).
+The newly arrived space galleons are the *Stalwart* and the *Incorrigible*, both under the command of a lawful neutral githyanki buccaneer (see "Boo's Astral Menagerie") named Daar'vik. The *Stalwart*'s crew consists of eighteen [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md) of various races and alignments. The crew of the *Incorrigible* consists of eighteen hadozee shipmates (see "Boo's Astral Menagerie") of various alignments. The spelljammer aboard each ship is a lawful neutral, human [mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage.md).
 
 Commander Daar'vik, aboard the *Incorrigible*, is familiar with both the *Moondancer* and its captain, whom he considers little better than a pirate, though the githyanki grudgingly respects [Elaina Sartell](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/elaina-sartell-lox.md)'s commission. His ship pulls up alongside the *Moondancer* so that Daar'vik can hail Captain Sartell and ask where the *Moondancer* is headed. She tells him that the *Moondancer* is going to the Rock of Bral, and Daar'vik offers to provide an escort—an offer Sartell readily accepts in the wake of the nightspider's ambush.
 
@@ -73,7 +74,7 @@ Characters who venture to the Happy Beholder can find [Commodore Krux](03.Player
 
 ![Commodore Krux](03.PlayerLog&Handouts/Mechanics/CLI/adventures/light-of-xaryxis/img/016-10-002-commodore-krux.webp#center)
 
-Krux is a lawful good [giff shipmate](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/giff-shipmate-bam.md) (see "Boo's Astral Menagerie"), a soldier who believes his glory days are behind him. Krux has spent the last few years working as a mercenary on and around the Rock of Bral, but lately the giff has been spending more time in his cups as new jobs have become fewer and farther between. The parrot perched on Krux's shoulder isn't his; the bird belongs to Large Luigi, the tavern's [beholder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/beholder.md) proprietor. Luigi uses the parrot to help cheer up downtrodden patrons.
+Krux is a lawful good giff shipmate (see "Boo's Astral Menagerie"), a soldier who believes his glory days are behind him. Krux has spent the last few years working as a mercenary on and around the Rock of Bral, but lately the giff has been spending more time in his cups as new jobs have become fewer and farther between. The parrot perched on Krux's shoulder isn't his; the bird belongs to Large Luigi, the tavern's [beholder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/beholder.md) proprietor. Luigi uses the parrot to help cheer up downtrodden patrons.
 
 Krux's demeanor brightens if the characters mention what's happening to their home world or start to describe their encounter with the astral elves in chapter 2. The giff leans forward intently, shoves his tankard to the side, and implores the characters to tell him everything. Krux grows visibly excited as he listens to the party's tale; by the end of it, he is willing to aid the characters in their effort to save their world from what he calls the Xaryxian Empire, based on similar attacks he has heard about occurring on other worlds.
 
@@ -84,7 +85,7 @@ Krux is tight-lipped regarding his own history with the Xaryxian Empire as well 
 > "A fleet of astral elf ships visited the Rock of Bral a few days before launching the attack on your world. The elves gave fair warning to various captains on the Rock, urging them to steer clear of your world lest their ships be fired upon. The elves undoubtedly left spies behind to make sure their warnings were heeded. Best we continue this chat aboard my ship."
 ^05c
 
-On the way to Krux's ship, the characters are accosted by four lawful evil [astral elf warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/astral-elf-warrior-bam.md) (see "Boo's Astral Menagerie") wearing cloaks and visors to conceal their identities. These elves (named Faarfryn, Helix, Kekarion, and Lannis) seek to avenge the defeat of Captain Azmadian and the *Dark Star* by killing the characters in the streets. Gadaric Main, the proconsul to Prince Andru of Bral, has given these emissaries diplomatic immunity. As a result, there's no one to stand in the elves' way. If he is present, Krux fights alongside the characters but is [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for the duration of the fight, due to his drunkenness.
+On the way to Krux's ship, the characters are accosted by four lawful evil astral elf warriors (see "Boo's Astral Menagerie") wearing cloaks and visors to conceal their identities. These elves (named Faarfryn, Helix, Kekarion, and Lannis) seek to avenge the defeat of Captain Azmadian and the *Dark Star* by killing the characters in the streets. Gadaric Main, the proconsul to Prince Andru of Bral, has given these emissaries diplomatic immunity. As a result, there's no one to stand in the elves' way. If he is present, Krux fights alongside the characters but is [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for the duration of the fight, due to his drunkenness.
 
 If the characters are in danger of being defeated by the astral elves, a dozen [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) begin throwing stones and food at the astral elves. A few brazen locals even start attacking the elves with sticks and clubs. Realizing they're outnumbered, the elves withdraw while threatening to finish off the characters later.
 
@@ -136,7 +137,7 @@ If the party threatens to take the *Second Wind* by force, Fel storms off the sh
 
 #### Flinch
 
-The first mate of the *Second Wind* is a neutral good [hadozee explorer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hadozee-explorer-bam.md) (see "Boo's Astral Menagerie") whom Krux refers to as Mister Flinch. The hadozee is also a skilled seamster; the repairs to the ship's sails are his work. Upon meeting the characters, the friendly hadozee begins offering unsolicited guidance on how to improve their wardrobes.
+The first mate of the *Second Wind* is a neutral good hadozee explorer (see "Boo's Astral Menagerie") whom Krux refers to as Mister Flinch. The hadozee is also a skilled seamster; the repairs to the ship's sails are his work. Upon meeting the characters, the friendly hadozee begins offering unsolicited guidance on how to improve their wardrobes.
 
 Flinch is an old comrade-in-arms of [Commodore Krux](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/commodore-krux-lox.md) and stands by the giff through thick and thin. The hadozee knows about Krux's history with the astral elves but says nothing of it, replying, if pressed, that "'tis not my tale to tell." Flinch has spent the last several months keeping an eye on the ship for Krux while serving in Fel's crew. He is relieved to have Krux back on board and glad to see his friend in such high spirits, though he privately worries that if their upcoming mission should fail, that might be more than the old soldier could bear.
 
@@ -154,9 +155,9 @@ Having a new venture to occupy his thoughts lifts Krux's spirits. The giff stops
 
 ### Ruthless Reigar
 
-Because of their exploits earlier in this adventure, the characters have unknowingly made an enemy of [Hastain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hastain-lox.md), a chaotic evil [reigar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/reigar-bam.md) (see "Boo's Astral Menagerie") who lives in a small palace on the Rock of Bral. [Hastain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hastain-lox.md) is a longtime ally of the Xaryxian Empire, which holds a grudge against [Commodore Krux](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/commodore-krux-lox.md) (for reasons described in chapter 7). [Hastain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hastain-lox.md)'s spies have been watching the giff, reporting on his activities and contacts.
+Because of their exploits earlier in this adventure, the characters have unknowingly made an enemy of [Hastain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hastain-lox.md), a chaotic evil reigar (see "Boo's Astral Menagerie") who lives in a small palace on the Rock of Bral. [Hastain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hastain-lox.md) is a longtime ally of the Xaryxian Empire, which holds a grudge against [Commodore Krux](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/commodore-krux-lox.md) (for reasons described in chapter 7). [Hastain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hastain-lox.md)'s spies have been watching the giff, reporting on his activities and contacts.
 
-When word of the recent altercation between the characters and the astral elves gets back to [Hastain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hastain-lox.md), the reigar decides to punish the characters for their insolence. [Hastain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hastain-lox.md) pursues them in an [esthetic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/esthetic-bam.md) (see "Boo's Astral Menagerie"), which trails the *Second Wind* at a safe distance. Once it becomes obvious that the party is heading to meet [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md), a wizard the reigar knows by reputation, [Hastain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hastain-lox.md) decides to put an end to the characters' meddling:
+When word of the recent altercation between the characters and the astral elves gets back to [Hastain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hastain-lox.md), the reigar decides to punish the characters for their insolence. [Hastain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hastain-lox.md) pursues them in an esthetic (see "Boo's Astral Menagerie"), which trails the *Second Wind* at a safe distance. Once it becomes obvious that the party is heading to meet [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md), a wizard the reigar knows by reputation, [Hastain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hastain-lox.md) decides to put an end to the characters' meddling:
 
 > [!readaloud] 
 > 
@@ -178,7 +179,7 @@ The esthetic is 250 feet away at the start of the battle and tries to get close 
 
 #### Victory
 
-If [Hastain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hastain-lox.md) dies, the [esthetic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/esthetic-bam.md) uses Jammerscream against the *Second Wind* if the ship's spelljamming helm hasn't already been disabled.
+If [Hastain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hastain-lox.md) dies, the esthetic uses Jammerscream against the *Second Wind* if the ship's spelljamming helm hasn't already been disabled.
 
 If the characters win the battle but their spelljamming helm is disabled, read:
 
@@ -221,7 +222,7 @@ The characters have enough time to take a short rest before the kindori arrive.
 
 #### Kindori Pod
 
-An hour after the events of the previous chapter, the characters encounter a pod of six [kindori](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/kindori-bam.md) (see "Boo's Astral Menagerie") flying across space along a migration route. The kindori defend themselves if attacked but otherwise pose no threat.
+An hour after the events of the previous chapter, the characters encounter a pod of six kindori (see "Boo's Astral Menagerie") flying across space along a migration route. The kindori defend themselves if attacked but otherwise pose no threat.
 
 The kindori keep their distance, staying at least 100 feet away from the crew of the *Second Wind*. The kindori are, however, attracted to lights. If the characters don't think of it themselves, [Commodore Krux](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/commodore-krux-lox.md) encourages someone to flash or wave a light to get the pod's attention. Flashing or waving a light causes one or two kindori to approach within 15 feet of the light's source while the remaining kindori keep their distance.
 
@@ -273,7 +274,7 @@ After welcoming Krux and his companions to her tower, [Topolah](03.PlayerLog&Han
 
 Aside from its crooked architecture, [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md)'s tower has the following features:
 
-- **Autognomes.** When [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md) purchased an expensive telescope from Orwyck Cogsworth, a gnome inventor on the Rock of Bral, he threw in eight [autognomes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/autognome-bam.md) (see "Boo's Astral Menagerie") that he built in his likeness, each sporting a dazzling metal mustache. The indifferent autognomes have the three directives common to all their kind plus the following directive: "Defend [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md) from hostile creatures."  
+- **Autognomes.** When [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md) purchased an expensive telescope from Orwyck Cogsworth, a gnome inventor on the Rock of Bral, he threw in eight autognomes (see "Boo's Astral Menagerie") that he built in his likeness, each sporting a dazzling metal mustache. The indifferent autognomes have the three directives common to all their kind plus the following directive: "Defend [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md) from hostile creatures."  
 
 ![Topolah and Her Birds](03.PlayerLog&Handouts/Mechanics/CLI/adventures/light-of-xaryxis/img/023-10-005-topolah-and-her-birds.webp#center)
 
@@ -297,7 +298,7 @@ The boxed text describing each floor of the tower includes information that [Top
 > "Most of my sustenance comes from these gardens," says [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md). "I get regular deliveries of fresh soil from dohwar merchants, and they get home-grown food and birds' eggs in return."
 ^079
 
-The four [autognomes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/autognome-bam.md) (see "Boo's Astral Menagerie") here are named Orwyck 1, Orwyck 3, Orwyck 6, and Orwyck 8. Their rope-and-pulley harnesses enable them to tend to the gardens.
+The four autognomes (see "Boo's Astral Menagerie") here are named Orwyck 1, Orwyck 3, Orwyck 6, and Orwyck 8. Their rope-and-pulley harnesses enable them to tend to the gardens.
 
 #### Second Floor
 
@@ -308,7 +309,7 @@ The four [autognomes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/aut
 > "Here are my living quarters," says [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md), "where I read my books and take my meals. My autognomes have no shortage of recipes. Today's repast is a deep-fried night scavver steak with a lunar béchamel."
 ^07b
 
-The two [autognomes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/autognome-bam.md) (see "Boo's Astral Menagerie"), Orwyck 2 and Orwyck 4, pay no mind to guests as they prepare [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md)'s next meal.
+The two autognomes (see "Boo's Astral Menagerie"), Orwyck 2 and Orwyck 4, pay no mind to guests as they prepare [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md)'s next meal.
 
 ##### Treasure
 
@@ -325,7 +326,7 @@ The two [autognomes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/auto
 > [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md) walks across the room and touches a wall, whereupon a tall opening appears in front of the telescope. "Would you care to have a look?"
 ^07e
 
-The two [autognomes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/autognome-bam.md) (see "Boo's Astral Menagerie"), Orwyck 5 and Orwyck 7, keep a close eye on visitors.
+The two autognomes (see "Boo's Astral Menagerie"), Orwyck 5 and Orwyck 7, keep a close eye on visitors.
 
 The telescope is pointed at the characters' home world. [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md) has been observing the planet for the past several days. Anyone who looks through the telescope can see crystalline vines engulfing the planet.
 
@@ -359,7 +360,7 @@ As they leave her tower and head back to their ship, she wishes them luck saving
 
 If Krux and the characters no longer have a ship, [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md) allows them to stay with her until another ship arrives, in which case you should modify the rest of this chapter as follows:
 
-- Modify the "Oh, Momma!" encounter so that the [void scavver](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/void-scavver-bam.md) attacks characters who loiter outside [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md)'s tower or on the dock.  
+- Modify the "Oh, Momma!" encounter so that the void scavver attacks characters who loiter outside [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md)'s tower or on the dock.  
 - An hour after [Big Momma](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/big-momma-lox.md) is defeated, a cosmic storm engulfs [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md)'s tower. While marveling at the storm, [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md) conveys the information in the "Old Flame" section.  
 - During the cosmic storm, [Grimzod Gargenhale](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/grimzod-gargenhale-lox.md) pays [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md) a visit. Conclude with "The Last Breath," skipping over "Gargenhale's Fleet."  
 
@@ -376,7 +377,7 @@ Have Krux and each character make a DC 21 Wisdom ([Perception](03.PlayerLog&Hand
 
 ![Big Momma](03.PlayerLog&Handouts/Mechanics/CLI/adventures/light-of-xaryxis/img/024-10-006-big-momma.webp#center)
 
-[Big Momma](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/big-momma-lox.md), a [void scavver](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/void-scavver-bam.md) (see "Boo's Astral Menagerie"), starts the encounter 40 feet from the characters' jolly boat, which is 50 feet from the end of [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md)'s dock and the same distance away from the *Second Wind*. On its first turn, the void scavver swims up to the jolly boat and attacks a random character. Characters who were [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised) can't act until the next round.
+[Big Momma](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/big-momma-lox.md), a void scavver (see "Boo's Astral Menagerie"), starts the encounter 40 feet from the characters' jolly boat, which is 50 feet from the end of [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md)'s dock and the same distance away from the *Second Wind*. On its first turn, the void scavver swims up to the jolly boat and attacks a random character. Characters who were [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised) can't act until the next round.
 
 A character can use an action and a pair of oars to row the jolly boat 10 feet horizontally in any direction along the gravity plane shared by [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md)'s asteroid and the *Second Wind*. Unlike the jolly boat, [Big Momma](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/big-momma-lox.md) flies through space like a fish through water and can move in any direction.
 
@@ -394,7 +395,7 @@ After the incident with [Big Momma](03.PlayerLog&Handouts/Mechanics/CLI/bestiary
 - He has a small fleet of ships nearby and might be persuaded to help the characters.  
 - Gargenhale owes [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md) a favor.  
 
-[Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md) doesn't mention that in the years following their breakup, Gargenhale met his mortal end and rose again as a [vampirate](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampirate-captain-bam.md). [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md) fears that the crew of the *Second Wind* might be discouraged by learning this fact before they meet Gargenhale in person. A character who succeeds on a DC 15 Wisdom ([Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)) check determines that [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md) is withholding information about Gargenhale and, if they call her out on it, can convince her to spill the beans.
+[Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md) doesn't mention that in the years following their breakup, Gargenhale met his mortal end and rose again as a vampirate. [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md) fears that the crew of the *Second Wind* might be discouraged by learning this fact before they meet Gargenhale in person. A character who succeeds on a DC 15 Wisdom ([Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)) check determines that [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md) is withholding information about Gargenhale and, if they call her out on it, can convince her to spill the beans.
 
 If she's asked about it, [Topolah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topolah-lox.md) doesn't divulge why their relationship fell apart, but she's quick to point out that she ended things with Gargenhale, not the other way around.
 
@@ -420,8 +421,8 @@ Enough space exists between the wreckage for the *Second Wind* to pass through t
 If the *Second Wind* passes through the wreckage instead of going around it, the following events occur in sequence:
 
 - **Crimson Flag.** A blood-red pirate flag drifting in space becomes snagged on the Second Wind's ballista.  
-- **Drifting Corpses.** Two human corpses drift close to the Second Wind. As they bump up against the ship's hull, the figures reveal themselves to be two chaotic neutral [vampirates](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampirate-bam.md) (see "Boo's Astral Menagerie") named Dorgio Dali and Vitalia Daggermore. These "survivors" of the battle clamber onto the deck and ask to speak to the captain. They say they're looking for a new commission and are eager to serve. Krux won't have them under his command, however, and orders that they be destroyed.  
-- **Scavenging Scavvers.** Three [gray scavvers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/gray-scavver-bam.md) (see "Boo's Astral Menagerie") pick at the drifting corpse of an astral elf warrior. Wounding a scavver causes it to dart away.  
+- **Drifting Corpses.** Two human corpses drift close to the Second Wind. As they bump up against the ship's hull, the figures reveal themselves to be two chaotic neutral vampirates (see "Boo's Astral Menagerie") named Dorgio Dali and Vitalia Daggermore. These "survivors" of the battle clamber onto the deck and ask to speak to the captain. They say they're looking for a new commission and are eager to serve. Krux won't have them under his command, however, and orders that they be destroyed.  
+- **Scavenging Scavvers.** Three gray scavvers (see "Boo's Astral Menagerie") pick at the drifting corpse of an astral elf warrior. Wounding a scavver causes it to dart away.  
 
 #### Will-o'-Wisp
 
@@ -467,7 +468,7 @@ In this chapter, the characters come to terms with Captain [Grimzod Gargenhale](
 
 ### Ship of the Dead
 
-The *Last Breath* is a space galleon that has been reduced to 90 hit points. Unless the characters take defensive measures, the galleon comes close enough for its captain, [Grimzod Gargenhale](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/grimzod-gargenhale-lox.md), to be heard. Gargenhale is a chaotic neutral [vampirate captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampirate-captain-bam.md) (see "Boo's Astral Menagerie"). He strikes a dramatic pose as he addresses Krux and the characters, toward whom he is friendly:
+The *Last Breath* is a space galleon that has been reduced to 90 hit points. Unless the characters take defensive measures, the galleon comes close enough for its captain, [Grimzod Gargenhale](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/grimzod-gargenhale-lox.md), to be heard. Gargenhale is a chaotic neutral vampirate captain (see "Boo's Astral Menagerie"). He strikes a dramatic pose as he addresses Krux and the characters, toward whom he is friendly:
 
 > [!readaloud] 
 > 
@@ -517,7 +518,7 @@ When the two parties come to an agreement, Gargenhale bows deeply and invites th
 
 #### Crew of the Last Breath
 
-The crew of the *Last Breath* includes eight [vampirates](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampirate-bam.md), a [vampirate mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampirate-mage-bam.md) named Rutledge Wynn (who is seated in the ship's spelljamming helm), a dead-eyed [ogre zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ogre-zombie.md), and a tiefling [ghost](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghost.md) named [Agony](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/agony-lox.md); see "Boo's Astral Menagerie" for "vampirate stat blocks".
+The crew of the *Last Breath* includes eight vampirates, a vampirate mage named Rutledge Wynn (who is seated in the ship's spelljamming helm), a dead-eyed [ogre zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ogre-zombie.md), and a tiefling [ghost](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghost.md) named [Agony](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/agony-lox.md); see "Boo's Astral Menagerie" for "vampirate stat blocks".
 
 The following rules apply to [Agony the ghost](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/agony-lox.md):
 
@@ -593,15 +594,15 @@ The following locations are depicted on the space galleon deck plans in the "Ast
 
 #### Forecastle
 
-Six [vampirates](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampirate-bam.md) (see "Boo's Astral Menagerie") are here, waiting to repel boarders. They fight until destroyed, knowing Gargenhale will show them no mercy if they're captured.
+Six vampirates (see "Boo's Astral Menagerie") are here, waiting to repel boarders. They fight until destroyed, knowing Gargenhale will show them no mercy if they're captured.
 
 #### Sterncastle
 
-The [ogre zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ogre-zombie.md) and two [vampirates](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampirate-bam.md) (see "Boo's Astral Menagerie") are here, waiting to repel boarders. Like the vampirates on the forecastle, these creatures fight until destroyed.
+The [ogre zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ogre-zombie.md) and two vampirates (see "Boo's Astral Menagerie") are here, waiting to repel boarders. Like the vampirates on the forecastle, these creatures fight until destroyed.
 
 #### 5: Spelljamming Helm
 
-Rutledge Wynn, the [vampirate mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampirate-mage-bam.md), is here. If Rutledge is reduced to 20 hit points or fewer, he casts [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md) and transports himself 500 feet into Wildspace, then casts [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md) on himself and flees.
+Rutledge Wynn, the vampirate mage, is here. If Rutledge is reduced to 20 hit points or fewer, he casts [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md) and transports himself 500 feet into Wildspace, then casts [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md) on himself and flees.
 
 ##### Spelljamming Helm
 
@@ -626,7 +627,7 @@ The door to this compartment is barred from the outside and has a tiny shuttered
 
 If he's present, Gargenhale says, "Here's the weapon I promised you. I liberated her from a star moth we destroyed a few days ago."
 
-The [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) prisoner is an [astral elf aristocrat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/astral-elf-aristocrat-bam.md) (see "Boo's Astral Menagerie") named Xedalli. She has 0 hit points and is stable. If the [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) elf receives any amount of magical healing, she regains consciousness but remains groggy and unable to think clearly or take actions until she is aboard the characters' ship or otherwise safe.
+The [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) prisoner is an astral elf aristocrat (see "Boo's Astral Menagerie") named Xedalli. She has 0 hit points and is stable. If the [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) elf receives any amount of magical healing, she regains consciousness but remains groggy and unable to think clearly or take actions until she is aboard the characters' ship or otherwise safe.
 
 ### Look, a Princess!
 

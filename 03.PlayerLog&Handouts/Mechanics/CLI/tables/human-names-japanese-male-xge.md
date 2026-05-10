@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Human Names – Japanese, Male
+- "Human Names – Japanese, Male"
 ---
 # Human Names – Japanese, Male
 *Source: Xanathar's Guide to Everything p. 181* 
 
 **Human Names – Japanese, Male**
-
-`dice: [](human-names-japanese-male-xge.md#^human-names-japanese-male)`
 
 | dice: d100 | Name |
 |------------|------|

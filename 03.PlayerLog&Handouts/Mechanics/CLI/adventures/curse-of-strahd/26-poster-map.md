@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 aliases:
-- Poster Map
+- "Poster Map"
 ---
 # Poster Map
 *Source: Curse of Strahd, p. 257* 

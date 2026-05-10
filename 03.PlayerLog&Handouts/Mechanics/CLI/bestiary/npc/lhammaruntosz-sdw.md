@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/sdw
 - ttrpg-cli/monster/cr/16
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lhammaruntosz
+- "Lhammaruntosz"
 ---
-# [Lhammaruntosz](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/lhammaruntosz-sdw.md)
+# [Lhammaruntosz](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lhammaruntosz-sdw.md)
 *Source: Sleeping Dragon's Wake*  
 
 Lhammaruntosz, a bronze dragon with the ability to heal quickly, spent decades defending Leilon and the surrounding area as the captain of the Scaly Eye, a fleet that battled pirates and other threats. To honor her deeds, the Swords of Leilon constructed the Bronze Shrine, a massive temple to Bahamut, god of metallic dragons, in a cliff overlooking the sea. The shrine's face is carved in Lhammaruntosz's likeness and includes quarters for the rest of the Scaly Eye and a magic statue of Bahamut, which the dragon can use to commune with the deity.
@@ -37,10 +38,10 @@ In recent decades Lhammaruntosz has retreated inside the shrine, becoming reclus
   - !!int "19"
 "speed": "40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+5"
-  - "constitution": "+11"
-  - "wisdom": "+7"
-  - "charisma": "+9"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "11"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+7"
@@ -49,29 +50,31 @@ In recent decades Lhammaruntosz has retreated inside the shrine, becoming reclus
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_immunities": "lightning"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 22"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 22"
 "languages": "Common, Draconic"
 "cr": "16"
 "traits":
   - "desc": "Lhammaruntosz is an 8th-level spellcaster. Her spellcasting ability is\
       \ Charisma (spell save DC 17; +9 to hit with spell attacks). She has the following\
-      \ sorcerer spells prepared:\n\nCantrips (at will): [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
+      \ sorcerer spells prepared:\n\n**Cantrips (at will):** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md)\n\
-      \n1st level (4 slots): [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \n**1st level (4 slots):** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [expeditious retreat](03.PlayerLog&Handouts/Mechanics/CLI/spells/expeditious-retreat.md),\
-      \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)\n\n2nd level\
-      \ (3 slots): [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)\n\n**2nd level\
+      \ (3 slots):** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\n\
-      3rd level (3 slots): [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      **3rd level (3 slots):** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [protection from energy](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-energy.md)\n\
-      \n4th level (2 slots): [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
+      \n**4th level (2 slots):** [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)"
     "name": "Spellcasting"
   - "desc": "Lhammaruntosz's spellcasting ability is Charisma (spell save DC 17).\
       \ She can innately cast the following spells, requiring no material components:\n\
-      \n1/day each: [create food and water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-food-and-water.md),\
+      \n**1/day each:** [create food and water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-food-and-water.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md), [speak\
       \ with animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md)"
@@ -86,13 +89,13 @@ In recent decades Lhammaruntosz has retreated inside the shrine, becoming reclus
   - "desc": "Lhammaruntosz can use her Frightful Presence. She then makes three attacks:\
       \ one with her bite and two with her claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:*\
       \ 18 (2d10 + 7) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 14 (2d6 + 7) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 15 ft., one target. *Hit:*\
       \ 16 (2d8 + 7) bludgeoning damage."
     "name": "Tail"
   - "desc": "Each creature of Lhammaruntosz's choice that is within 120 feet of her\
@@ -123,6 +126,54 @@ In recent decades Lhammaruntosz has retreated inside the shrine, becoming reclus
       \ are otherwise replaced by those of the new form, except any class features\
       \ or legendary actions of that form."
     "name": "Change Shape"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), the dragon takes a lair\
+      \ action to cause one of the following effects:\n\n- The dragon creates fog\
+      \ as though it had cast the [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md)\
+      \ spell. The fog lasts until initiative count 20 on the next round.  \n- A thunderclap\
+      \ originates at a point the dragon can see within 120 feet of it. Each creature\
+      \ within a 20-foot radius centered on that point must make a DC 15 Constitution\
+      \ saving throw or take 5 (1d10) thunder damage and be [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened)\
+      \ until the end of its next turn.  \n\n**Additional Lair Actions.** At your\
+      \ discretion, a legendary ([adult](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-bronze-dragon.md)\
+      \ or [ancient](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-bronze-dragon.md))\
+      \ bronze dragon can use one or more of the following additional lair actions\
+      \ while in its lair:\n\n- **Ocean's Call.** The dragon conjures a swarm of spectral\
+      \ dolphins. Each creature in the water within 120 feet of the dragon must succeed\
+      \ on a DC 15 Dexterity saving throw or take 5 (1d10) slashing damage; then\
+      \ the swarm vanishes.  \n- **Salt Burst.** The dragon chooses a point it can\
+      \ see in the lair. The air in a 20-foot-radius sphere centered on that point\
+      \ bursts with abrasive salt crystals. Each creature in that area must succeed\
+      \ on a DC 15 Dexterity saving throw or take 10 (3d6) slashing damage.  \n\
+      - **Whelming Water.** The dragon causes a strong current to course through the\
+      \ water in its lair. The dragon chooses any number of creatures it can see that\
+      \ are standing or swimming in water within 120 feet of it. Each chosen creature\
+      \ must succeed on a DC 15 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
+      \  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region containing a legendary bronze dragon's lair is warped by the\
+      \ dragon's magic.\n\n- Once per day, the dragon can alter the weather in a 6-mile\
+      \ radius centered on its lair. The dragon doesn't need to be outdoors; otherwise\
+      \ the effect is identical to the [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md)\
+      \ spell.  \n- Underwater plants within 6 miles of the dragon's lair take on\
+      \ dazzlingly brilliant hues.  \n- Within its lair, the dragon can set illusory\
+      \ sounds, such as soft music and strange echoes, so that they can be heard in\
+      \ various parts of the lair.  \n\nIf the dragon dies, changed weather reverts\
+      \ to normal, as described in the spell, and the other effects fade in 1d10\
+      \ days.\n\n**Additional Regional Effects.** Any of these effects might appear\
+      \ in the area around a bronze dragon's lair, in addition to or instead of the\
+      \ effects described in the *Monster Manual*:\n\n- **Phantom Escort.** Ghostly\
+      \ naval ships from an ancient armada appear, escorting well-meaning creatures\
+      \ in need of the dragon's help toward the dragon's lair.  \n- **Underwater Pursuit.**\
+      \ Sailors glimpse the shadowy, illusory form of a dragon in the depths below\
+      \ them, keeping pace with their vessel.  \n- **Unfailing Faithfulness.** Sapient\
+      \ creatures that spend a year within 10 miles of the dragon's lair find it nearly\
+      \ impossible to break a promise.  "
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Lhammaruntosz can expend a use to take one of the following actions. Lhammaruntosz\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Lhammaruntosz makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ check."
@@ -134,57 +185,6 @@ In recent decades Lhammaruntosz has retreated inside the shrine, becoming reclus
       \ damage and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
       \ Lhammaruntosz can then fly up to half her flying speed."
     "name": "Wing Attack (Costs 2 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), the dragon takes a lair\
-      \ action to cause one of the following effects:"
-    "name": ""
-  - "desc": "- The dragon creates fog as though it had cast the [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md)\
-      \ spell. The fog lasts until initiative count 20 on the next round.  \n- A thunderclap\
-      \ originates at a point the dragon can see within 120 feet of it. Each creature\
-      \ within a 20-foot radius centered on that point must make a DC 15 Constitution\
-      \ saving throw or take 5 (d10) thunder damage and be [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened)\
-      \ until the end of its next turn.  "
-    "name": ""
-  - "desc": "At your discretion, a legendary ([adult](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-bronze-dragon.md)\
-      \ or [ancient](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-bronze-dragon.md))\
-      \ bronze dragon can use one or more of the following additional lair actions\
-      \ while in its lair:\n\n- Ocean's Call. The dragon conjures a swarm of spectral\
-      \ dolphins. Each creature in the water within 120 feet of the dragon must succeed\
-      \ on a DC 15 Dexterity saving throw or take 5 (d10) slashing damage; then\
-      \ the swarm vanishes.  \n- Salt Burst. The dragon chooses a point it can\
-      \ see in the lair. The air in a 20-foot-radius sphere centered on that point\
-      \ bursts with abrasive salt crystals. Each creature in that area must succeed\
-      \ on a DC 15 Dexterity saving throw or take 10 (3d6) slashing damage.  \n\
-      - Whelming Water. The dragon causes a strong current to course through the\
-      \ water in its lair. The dragon chooses any number of creatures it can see that\
-      \ are standing or swimming in water within 120 feet of it. Each chosen creature\
-      \ must succeed on a DC 15 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
-      \  "
-    "name": "Additional Lair Actions"
-"regional_effects":
-  - "desc": "The region containing a legendary bronze dragon's lair is warped by the\
-      \ dragon's magic."
-    "name": ""
-  - "desc": "- Once per day, the dragon can alter the weather in a 6-mile radius centered\
-      \ on its lair. The dragon doesn't need to be outdoors; otherwise the effect\
-      \ is identical to the [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md)\
-      \ spell.  \n- Underwater plants within 6 miles of the dragon's lair take on\
-      \ dazzlingly brilliant hues.  \n- Within its lair, the dragon can set illusory\
-      \ sounds, such as soft music and strange echoes, so that they can be heard in\
-      \ various parts of the lair.  "
-    "name": ""
-  - "desc": "If the dragon dies, changed weather reverts to normal, as described in\
-      \ the spell, and the other effects fade in d10 days."
-    "name": ""
-  - "desc": "Any of these effects might appear in the area around a bronze dragon's\
-      \ lair, in addition to or instead of the effects described in the Monster Manual:\n\
-      \n- Phantom Escort. Ghostly naval ships from an ancient armada appear, escorting\
-      \ well-meaning creatures in need of the dragon's help toward the dragon's lair.\
-      \  \n- Underwater Pursuit. Sailors glimpse the shadowy, illusory form of\
-      \ a dragon in the depths below them, keeping pace with their vessel.  \n- Unfailing\
-      \ Faithfulness. Sapient creatures that spend a year within 10 miles of the\
-      \ dragon's lair find it nearly impossible to break a promise.  "
-    "name": "Additional Regional Effects"
 "source":
   - "SDW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/lhammaruntosz-sdw.webp"

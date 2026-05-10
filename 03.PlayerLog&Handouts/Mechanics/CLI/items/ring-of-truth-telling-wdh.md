@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/uncommon
 - ttrpg-cli/item/wondrous/ring
-aliases: 
+aliases:
 - "Ring of Truth Telling"
 ---
 # Ring of Truth Telling

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sir Godfrey Gwilym
+- "Sir Godfrey Gwilym"
 ---
-# [Sir Godfrey Gwilym](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sir-godfrey-gwilym-cos.md)
+# [Sir Godfrey Gwilym](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sir-godfrey-gwilym-cos.md)
 *Source: Curse of Strahd p. 139*  
 
 ```statblock
@@ -33,10 +34,10 @@ aliases:
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "strength": "+7"
-  - "constitution": "+7"
-  - "wisdom": "+6"
-  - "charisma": "+7"
+  - "strength": !!int "7"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "7"
 "damage_resistances": "necrotic, psychic"
 "damage_immunities": "poison"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
@@ -45,20 +46,21 @@ aliases:
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "the languages it knew in life"
 "cr": "6"
 "traits":
   - "desc": "Sir Godfrey is a 16th-level spellcaster. His spellcasting ability is\
       \ Wisdom (spell save DC 14, +6 to hit with spell attacks). He has the following\
-      \ paladin spells prepared:\n\n1st level (4 slots): [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \ paladin spells prepared:\n\n**1st level (4 slots):** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [divine favor](03.PlayerLog&Handouts/Mechanics/CLI/spells/divine-favor.md),\
       \ [thunderous smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderous-smite.md)\n\
-      \n2nd level (3 slots): [branding smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/branding-smite.md),\
+      \n**2nd level (3 slots):** [branding smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/branding-smite.md),\
       \ [magic weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-weapon.md)\n\
-      \n3rd level (3 slots): [blinding smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/blinding-smite.md),\
+      \n**3rd level (3 slots):** [blinding smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/blinding-smite.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md)\n\
-      \n4th level (2 slots): [staggering smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/staggering-smite.md)"
+      \n**4th level (2 slots):** [staggering smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/staggering-smite.md)"
     "name": "Spellcasting"
   - "desc": "The knight regains 10 hit points at the start of its turn. If the knight\
       \ takes fire or radiant damage, this trait doesn't function at the start of\
@@ -80,12 +82,12 @@ aliases:
 "actions":
   - "desc": "The knight makes two longsword attacks or two fist attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (2d10 + 4) slashing damage. If the target is a creature against which the\
       \ knight has sworn vengeance, the target takes an extra 14 (4d6) slashing\
       \ damage."
     "name": "Longsword"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage. If the target is a creature against which\
       \ the knight has sworn vengeance, the target takes an extra 14 (4d6) bludgeoning\
       \ damage. Instead of dealing damage, the knight can grapple the target (escape\

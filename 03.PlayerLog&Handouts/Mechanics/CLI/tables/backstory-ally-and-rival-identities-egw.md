@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Backstory; Ally and Rival Identities
+- "Backstory; Ally and Rival Identities"
 ---
 # Backstory; Ally and Rival Identities
 *Source: Explorer's Guide to Wildemount p. 191* 
 
 **Ally and Rival Identities**
-
-`dice: [](backstory-ally-and-rival-identities-egw.md#^ally-and-rival-identities)`
 
 | dice: d100 | Stat Block |
 |------------|------------|

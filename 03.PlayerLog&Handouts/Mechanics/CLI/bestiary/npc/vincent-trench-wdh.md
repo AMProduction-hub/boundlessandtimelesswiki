@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/13
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vincent Trench
+- "Vincent Trench"
 ---
-# [Vincent Trench](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/vincent-trench-wdh.md)
+# [Vincent Trench](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vincent-trench-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 32*  
 
 ```statblock
@@ -39,22 +40,23 @@ aliases:
     "desc": "+8"
 "damage_vulnerabilities": "piercing from magic weapons wielded by good creatures"
 "damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Infernal"
 "cr": "13"
 "traits":
   - "desc": "Vincent's innate spellcasting ability is Charisma (spell save DC 18,\
       \ +10 to hit with spell attacks). Vincent can innately cast the following\
-      \ spells, requiring no material components:\n\nAt will: [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \ spells, requiring no material components:\n\n**At will:** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [minor\
       \ illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\n\
-      3/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      **3/day each:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\n\
-      1/day each: [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md),\
+      **1/day each:** [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md),\
       \ [true seeing](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-seeing.md)"
     "name": "Innate Spellcasting"
@@ -65,7 +67,7 @@ aliases:
 "actions":
   - "desc": "Vincent makes two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d6 + 2) slashing damage, and the target is cursed if it is a creature.\
       \ The magical curse takes effect whenever the target takes a short or long rest,\
       \ filling the target's thoughts with horrible images and dreams. The cursed\

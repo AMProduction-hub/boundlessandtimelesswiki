@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Snapping Turtle
+- "Giant Snapping Turtle"
 ---
-# [Giant Snapping Turtle](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-snapping-turtle-toa.md)
+# [Giant Snapping Turtle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-snapping-turtle-toa.md)
 *Source: Tomb of Annihilation p. 222*  
 
 Giant snapping turtles can grow to be 12 feet in diameter. Although they appear slow and ponderous, they are capable of startling bursts of speed and will aggressively attack smaller creatures that approach them. One snap of a giant turtle's jaws can cut a human in half, and these creatures aren't fussy about what they eat.
@@ -34,7 +35,8 @@ Giant snapping turtles can grow to be 12 feet in diameter. Although they appear 
   - !!int "12"
   - !!int "5"
 "speed": "30 ft., swim 40 ft."
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": ""
 "cr": "3"
 "traits":
@@ -47,7 +49,7 @@ Giant snapping turtles can grow to be 12 feet in diameter. Although they appear 
       \ its turn and then use all its movement for that turn."
     "name": "Stable"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 18\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 18\
       \ (4d6 + 4) slashing damage."
     "name": "Bite"
 "source":

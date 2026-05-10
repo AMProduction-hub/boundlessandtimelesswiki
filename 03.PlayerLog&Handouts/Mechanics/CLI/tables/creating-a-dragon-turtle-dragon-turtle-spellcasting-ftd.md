@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Creating a Dragon Turtle; Dragon Turtle Spellcasting
+- "Creating a Dragon Turtle; Dragon Turtle Spellcasting"
 ---
 # Creating a Dragon Turtle; Dragon Turtle Spellcasting
 *Source: Fizban's Treasury of Dragons p. 110* 

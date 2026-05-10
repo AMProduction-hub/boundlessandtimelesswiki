@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-vehicle
+cssclasses:
+- json5e-vehicle
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/vehicle/size/huge
 - ttrpg-cli/vehicle/terrain/land
 - ttrpg-cli/vehicle/type/infernal-war-machine
 aliases:
-- Tormentor
+- "Tormentor"
 ---
 # Tormentor
 %%-- Embedded content starts on the next line. --%%

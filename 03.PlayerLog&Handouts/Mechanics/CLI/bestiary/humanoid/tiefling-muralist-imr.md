@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tiefling Muralist
+- "Tiefling Muralist"
 ---
-# [Tiefling Muralist](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/tiefling-muralist-imr.md)
+# [Tiefling Muralist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tiefling-muralist-imr.md)
 *Source: Infernal Machine Rebuild p. 17*  
 
 ```statblock
@@ -39,19 +40,18 @@ aliases:
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+2"
 "damage_resistances": "fire"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "any one language (usually Common), Infernal"
 "cr": "1/8"
 "traits":
-  - "desc": "The tiefling muralist\n\nAt will: [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
-      \ [hellish rebuke](03.PlayerLog&Handouts/Mechanics/CLI/spells/hellish-rebuke.md)"
-    "name": "Innate Spellcasting"
   - "desc": "The muralist has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
       \ or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)."
     "name": "Dark Devotion"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d6 + 1) slashing damage."
     "name": "Scimitar"
 "source":

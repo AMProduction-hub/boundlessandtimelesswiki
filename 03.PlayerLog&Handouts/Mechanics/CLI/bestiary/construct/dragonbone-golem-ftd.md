@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragonbone Golem
+- "Dragonbone Golem"
 ---
-# [Dragonbone Golem](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/dragonbone-golem-ftd.md)
+# [Dragonbone Golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/dragonbone-golem-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 183*  
 
 A dragonbone golem is composed of dragon bones linked together with adamantine wire into the form of a dragon, animated by drawing on the bones' inherent magic. Most dragon bone golems are created by powerful dragons from the bones of vanquished rivals. Each bone is etched with intricate glyphs that allow animating power to flow through the golem's form.
@@ -43,7 +44,8 @@ Dragonbone golems' resilience and obedience make them excellent lair guardians f
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands Draconic and the languages of its creator but can't speak"
 "cr": "11"
 "traits":
@@ -61,7 +63,7 @@ Dragonbone golems' resilience and obedience make them excellent lair guardians f
 "actions":
   - "desc": "The golem makes one Pinion attack and two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) piercing damage. If the target is a Medium or smaller creature,\
       \ it is pinned beneath the bony pinion and [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
       \ The golem has two pinions, each of which can restrain one target. If a creature\
@@ -71,8 +73,8 @@ Dragonbone golems' resilience and obedience make them excellent lair guardians f
       \ 17 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics))\
       \ check."
     "name": "Pinion"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
-      \ (2d6 + 5) piercing damage plus 5 (d10) necrotic damage."
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12\
+      \ (2d6 + 5) piercing damage plus 5 (1d10) necrotic damage."
     "name": "Rend"
   - "desc": "The golem emits a 60-foot cone of petrifying gas from its mouth. Each\
       \ creature in that area must succeed on a DC 15 Constitution saving throw or\

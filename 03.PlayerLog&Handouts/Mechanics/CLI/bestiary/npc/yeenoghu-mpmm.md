@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/24
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Yeenoghu
+- "Yeenoghu"
 ---
-# [Yeenoghu](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/yeenoghu-mpmm.md)
+# [Yeenoghu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yeenoghu-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 270, Mordenkainen's Tome of Foes p. 155*  
 
 The Beast of Butchery appears as a great scarred gnoll, towering 14 feet tall. Yeenoghu is the Gnoll Lord, and his creations are made in his twisted image. When the demon lord hunted across the Material Plane, packs of hyenas followed in his wake, and those that ate of great Yeenoghu's kills became gnolls. Few others worship the Beast of Butchery, but those who do tend to take on a gnoll-like aspect, hunching over and filing their teeth down to points.
@@ -51,9 +52,9 @@ The challenge rating of Yeenoghu is 25 (75,000 XP) when he's encountered in his 
   - !!int "15"
 "speed": "50 ft."
 "saves":
-  - "dexterity": "+10"
-  - "constitution": "+15"
-  - "wisdom": "+14"
+  - "dexterity": !!int "10"
+  - "constitution": !!int "15"
+  - "wisdom": !!int "14"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+9"
@@ -65,7 +66,10 @@ The challenge rating of Yeenoghu is 25 (75,000 XP) when he's encountered in his 
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 24"
+"gear":
+  - "[flail](03.PlayerLog&Handouts/Mechanics/CLI/items/flail.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 24"
 "languages": "all, telepathy 120 ft."
 "cr": "24"
 "traits":
@@ -77,30 +81,59 @@ The challenge rating of Yeenoghu is 25 (75,000 XP) when he's encountered in his 
 "actions":
   - "desc": "Yeenoghu makes three Flail attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 15 ft., one target. *Hit:*\
       \ 22 (2d12 + 9) force damage. If it's his turn, Yeenoghu can cause the target\
       \ to suffer one of the following additional effects, each of which he can apply\
-      \ only once per turn\n\n- Confusion. The target must succeed on a DC 17\
+      \ only once per turn\n\n- **Confusion.** The target must succeed on a DC 17\
       \ Wisdom saving throw or be affected by the confusion spell until the start\
-      \ of Yeenoghu's next turn.  \n- Force. The target takes an extra 13 (2d12)\
-      \ force damage.  \n- Paralysis. The target must succeed on a DC 17 Constitution\
+      \ of Yeenoghu's next turn.  \n- **Force.** The target takes an extra 13 (2d12)\
+      \ force damage.  \n- **Paralysis.** The target must succeed on a DC 17 Constitution\
       \ saving throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ until the start of Yeenoghu's next turn.  "
     "name": "Flail"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:*\
       \ 20 (2d10 + 9) acid damage."
     "name": "Bite"
   - "desc": "Yeenoghu casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 17):\n\nAt\
-      \ will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md)\n\
-      \n3/day each: [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 17):\n\n**At\
+      \ will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md)\n\
+      \n**3/day each:** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md), [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\n\
-      \n1/day: [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)"
+      \n**1/day:** [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)"
     "name": "Spellcasting"
 "bonus_actions":
   - "desc": "When Yeenoghu reduces a creature to 0 hit points with a melee attack,\
       \ he moves up to half his speed and makes one Bite attack."
     "name": "Rampage"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), Yeenoghu can take one\
+      \ of the following lair actions; he can't take the same lair action two rounds\
+      \ in a row:\n\n- **Incite the Pack.** Until the next initiative count 20, all\
+      \ gnolls and hyenas within the lair are enraged, causing them to have advantage\
+      \ on melee weapon attack rolls and causing attack rolls to have advantage against\
+      \ them.  \n- **Iron Spike.** Yeenoghu causes an iron spike—5 feet tall and 1\
+      \ inch in diameter—to burst from the ground at a point he can see within 100\
+      \ feet of him. Any creature in the space where the spike emerges must make a\
+      \ DC 24 Dexterity saving throw. On a failed save, the creature takes 27 (6d8)\
+      \ piercing damage and is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
+      \ by being impaled on the spike. A creature can use an action to remove itself\
+      \ (or a creature it can reach) from the spike, ending the restrained condition.\
+      \  \n- **Pack Rush.** Each gnoll or hyena that Yeenoghu can see can use its\
+      \ reaction to move up to its speed.  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region containing Yeenoghu's lair is warped by his magic, creating\
+      \ one or more of the following effects:\n\n- **Savage Predators.** Predatory\
+      \ beasts within 6 miles of the lair become unusually savage, killing far more\
+      \ than what they need for food. Carcasses of prey are left to rot in an unnatural\
+      \ display of wasteful slaughter.  \n- **Spiky Terrain.** Within 1 mile of the\
+      \ lair, large iron spikes grow out of the ground and stone surfaces. Yeenoghu\
+      \ impales the bodies of the slain on these spikes.  \n- If Yeenoghu dies, these\
+      \ effects fade over the course of 1d10 days.  "
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Yeenoghu can expend a use to take one of the following actions. Yeenoghu\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Yeenoghu moves up to his speed."
     "name": "Charge"
@@ -112,36 +145,6 @@ The challenge rating of Yeenoghu is 25 (75,000 XP) when he's encountered in his 
   - "desc": "Yeenoghu makes a separate Bite attack against each creature within 10\
       \ feet of him."
     "name": "Savage (Costs 2 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), Yeenoghu can take one\
-      \ of the following lair actions; he can't take the same lair action two rounds\
-      \ in a row:"
-    "name": ""
-  - "desc": "- Incite the Pack. Until the next initiative count 20, all gnolls\
-      \ and hyenas within the lair are enraged, causing them to have advantage on\
-      \ melee weapon attack rolls and causing attack rolls to have advantage against\
-      \ them.  \n- Iron Spike. Yeenoghu causes an iron spike—5 feet tall and 1\
-      \ inch in diameter—to burst from the ground at a point he can see within 100\
-      \ feet of him. Any creature in the space where the spike emerges must make a\
-      \ DC 24 Dexterity saving throw. On a failed save, the creature takes 27 (6d8)\
-      \ piercing damage and is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
-      \ by being impaled on the spike. A creature can use an action to remove itself\
-      \ (or a creature it can reach) from the spike, ending the restrained condition.\
-      \  \n- Pack Rush. Each gnoll or hyena that Yeenoghu can see can use its\
-      \ reaction to move up to its speed.  "
-    "name": ""
-"regional_effects":
-  - "desc": "The region containing Yeenoghu's lair is warped by his magic, creating\
-      \ one or more of the following effects:"
-    "name": ""
-  - "desc": "- Savage Predators. Predatory beasts within 6 miles of the lair become\
-      \ unusually savage, killing far more than what they need for food. Carcasses\
-      \ of prey are left to rot in an unnatural display of wasteful slaughter.  \n\
-      - Spiky Terrain. Within 1 mile of the lair, large iron spikes grow out of\
-      \ the ground and stone surfaces. Yeenoghu impales the bodies of the slain on\
-      \ these spikes.  \n- If Yeenoghu dies, these effects fade over the course of\
-      \ d10 days.  "
-    "name": ""
 "source":
   - "MPMM"
   - "MTF"

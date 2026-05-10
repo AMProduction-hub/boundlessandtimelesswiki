@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Scarecrow
+- "Scarecrow"
 ---
-# [Scarecrow](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/scarecrow.md)
-*Source: Monster Manual p. 268, Curse of Strahd, Waterdeep: Dragon Heist, Candlekeep Mysteries, Keys from the Golden Vault*  
+# [Scarecrow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/scarecrow.md)
+*Source: Monster Manual p. 268*  
 
 At harvest time, when death revisits the twilit world and summer's blossoms bow their withered heads, eerie scarecrows loom in silent vigil over empty fields. With immortal patience, these stoic sentinels hold their posts through wind, storm, and flood, bound to their master's command, eager to terrify prey with its sackcloth visage and rend victims with its razor-sharp claws.
 
@@ -47,7 +48,8 @@ A scarecrow is animated by the bound spirit of a slain evil creature, granting i
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "1"
 "traits":
@@ -57,7 +59,7 @@ A scarecrow is animated by the bound spirit of a slain evil creature, granting i
 "actions":
   - "desc": "The scarecrow makes two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (2d4 + 1) slashing damage. If the target is a creature, it must succeed\
       \ on a DC 11 Wisdom saving throw or be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
       \ until the end of the scarecrow's next turn."
@@ -70,10 +72,6 @@ A scarecrow is animated by the bound spirit of a slain evil creature, granting i
     "name": "Terrifying Glare"
 "source":
   - "MM"
-  - "CoS"
-  - "WDH"
-  - "CM"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/scarecrow.webp"
 ```
 ^statblock

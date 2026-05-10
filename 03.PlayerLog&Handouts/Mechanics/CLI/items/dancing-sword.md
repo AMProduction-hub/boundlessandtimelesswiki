@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/attunement/required
@@ -9,7 +10,7 @@ tags:
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Dancing Sword"
 - "Dancing Double-Bladed Scimitar"
 - "Dancing Greatsword"
@@ -20,7 +21,7 @@ aliases:
 ---
 # Dancing Sword
 *Major, very rare (requires attunement)*  
-![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/dancing-sword.webp#right)
+![Dancing Sword (Longsword)](03.PlayerLog&Handouts/Mechanics/CLI/items/img/dancing-sword.webp#right)
 
 
 You can use a bonus action to toss this magic sword into the air and speak the command word. When you do so, the sword begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of it. The sword uses your attack roll and ability score modifier to damage rolls.

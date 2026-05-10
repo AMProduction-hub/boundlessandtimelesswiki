@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/3
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Werewolf
+- "Werewolf"
 ---
-# [Werewolf](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/werewolf.md)
-*Source: Monster Manual p. 211, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Werewolf](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/werewolf.md)
+*Source: Monster Manual p. 211. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A werewolf is a savage predator. In its humanoid form, a werewolf has heightened senses, a fiery temper, and a tendency to eat rare meat. Its wolf form is a fearsome predator, but its hybrid form is more terrifying by far-a furred and well-muscled humanoid body topped by a ravening wolf's head. A werewolf can wield weapons in hybrid form, though it prefers to tear foes apart with its powerful claws and bite.
 
@@ -65,7 +66,7 @@ Some individuals see little point in fighting the curse and accept what they are
 "subtype": "human, shapechanger"
 "alignment": "Chaotic Evil"
 "ac": !!int "11"
-"ac_class": "12 from natural armor in wolf or hybrid form"
+"ac_class": "12 natural armor in wolf or hybrid form"
 "hp": !!int "58"
 "hit_dice": "9d8 + 18"
 "modifier": !!int "1"
@@ -84,6 +85,8 @@ Some individuals see little point in fighting the curse and accept what they are
     "desc": "+3"
 "damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 14"
 "languages": "Common (can't speak in wolf form)"
 "cr": "3"
@@ -100,30 +103,19 @@ Some individuals see little point in fighting the curse and accept what they are
   - "desc": "The werewolf makes two attacks: two with its spear (humanoid form) or\
       \ one with its bite and one with its claws (hybrid form)."
     "name": "Multiattack (Humanoid or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) piercing damage. If the target is a humanoid, it must succeed\
       \ on a DC 12 Constitution saving throw or be cursed with werewolf lycanthropy."
     "name": "Bite (Wolf or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 7 (2d4 + 2) slashing damage."
     "name": "Claws (Hybrid Form Only)"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one creature. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2)\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2)\
       \ piercing damage if used with two hands to make a melee attack."
     "name": "Spear (Humanoid Form Only)"
 "source":
   - "MM"
-  - "CoS"
-  - "PotA"
-  - "SKT"
-  - "WDH"
-  - "GoS"
-  - "BGDIA"
-  - "ERLW"
-  - "IMR"
-  - "EGW"
-  - "IDRotF"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/werewolf.webp"
 ```
 ^statblock

@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/rarity/uncommon
 - ttrpg-cli/item/tier/major
 - ttrpg-cli/item/wondrous/ring
-aliases: 
+aliases:
 - "Ring of Water Walking"
 ---
 # Ring of Water Walking

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Swarm of Poisonous Snakes
+- "Swarm of Poisonous Snakes"
 ---
-# [Swarm of Poisonous Snakes](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/swarm-of-poisonous-snakes.md)
-*Source: Monster Manual p. 338, Curse of Strahd, Tales from the Yawning Portal, Tomb of Annihilation, Dragon of Icespire Peak, Sleeping Dragon's Wake, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Swarm of Poisonous Snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-poisonous-snakes.md)
+*Source: Monster Manual p. 338. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 > [!note] The Nature of Swarms
 > 
@@ -46,7 +47,8 @@ aliases:
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "blindsight 10 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., passive Perception 10"
 "languages": ""
 "cr": "2"
 "traits":
@@ -55,22 +57,14 @@ aliases:
       \ can't regain hit points or gain temporary hit points."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 0 ft., one creature in the\
-      \ swarm's space. Hit: 7 (2d6) piercing damage, or 3 (d6) piercing damage\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 0 ft., one creature in the\
+      \ swarm's space. *Hit:* 7 (2d6) piercing damage, or 3 (1d6) piercing damage\
       \ if the swarm has half of its hit points or fewer. The target must make a DC\
       \ 10 Constitution saving throw, taking 14 (4d6) poison damage on a failed\
       \ save, or half as much damage on a successful one."
     "name": "Bites"
 "source":
   - "MM"
-  - "CoS"
-  - "TftYP"
-  - "ToA"
-  - "DIP"
-  - "SDW"
-  - "EGW"
-  - "MOT"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/swarm-of-poisonous-snakes.webp"
 ```
 ^statblock

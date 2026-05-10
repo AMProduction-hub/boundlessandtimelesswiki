@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/7
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mind Flayer
+- "Mind Flayer"
 ---
-# [Mind Flayer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/mind-flayer.md)
-*Source: Monster Manual p. 222, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Eberron: Rising from the Last War, Infernal Machine Rebuild, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Light of Xaryxis, Keys from the Golden Vault*  
+# [Mind Flayer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/mind-flayer.md)
+*Source: Monster Manual p. 222*  
 
 Mind flayers, also called illithids, are the scourge of sentient creatures across countless worlds. Psionic tyrants, slavers, and interdimensional voyagers, they are insidious masterminds that harvest entire races for their own twisted ends. Four tentacles snake from their octopus-like heads, flexing in hungry anticipation when sentient creatures come near.
 
@@ -61,9 +62,9 @@ An illithid experiences euphoria as it devours the brain of a humanoid, along wi
   - !!int "17"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+7"
-  - "wisdom": "+6"
-  - "charisma": "+6"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -77,15 +78,16 @@ An illithid experiences euphoria as it devours the brain of a humanoid, along wi
     "desc": "+6"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "Deep Speech, Undercommon, telepathy 120 ft."
 "cr": "7"
 "traits":
   - "desc": "The mind flayer's innate spellcasting ability is Intelligence (spell\
       \ save DC 15). It can innately cast the following spells, requiring no components:\n\
-      \nAt will: [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
-      \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md)\n\n1/day\
-      \ each: [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
+      \n**At will:** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md)\n\n**1/day\
+      \ each:** [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md) (self\
       \ only)"
     "name": "Innate Spellcasting (Psionics)"
@@ -93,16 +95,16 @@ An illithid experiences euphoria as it devours the brain of a humanoid, along wi
       \ magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:*\
       \ 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it is\
       \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15) and must succeed on a DC 15 Intelligence saving throw or be\
       \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
       \ until this grapple ends."
     "name": "Tentacles"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
       \ humanoid [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-      \ by the mind flayer. Hit: The target takes 55 (10d10) piercing damage.\
+      \ by the mind flayer. *Hit:* The target takes 55 (10d10) piercing damage.\
       \ If this damage reduces the target to 0 hit points, the mind flayer kills the\
       \ target by extracting and devouring its brain."
     "name": "Extract Brain"
@@ -114,15 +116,6 @@ An illithid experiences euphoria as it devours the brain of a humanoid, along wi
     "name": "Mind Blast (Recharge 5-6)"
 "source":
   - "MM"
-  - "TftYP"
-  - "WDH"
-  - "WDMM"
-  - "ERLW"
-  - "IMR"
-  - "IDRotF"
-  - "TCE"
-  - "LoX"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/mind-flayer.webp"
 ```
 ^statblock

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Molten Magma Roper
+- "Molten Magma Roper"
 ---
-# [Molten Magma Roper](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/molten-magma-roper-pota.md)
+# [Molten Magma Roper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/molten-magma-roper-pota.md)
 *Source: Princes of the Apocalypse p. 143*  
 
 ```statblock
@@ -39,7 +40,8 @@ aliases:
     "desc": "+5"
 "damage_vulnerabilities": "cold"
 "damage_immunities": "fire"
-"senses": "darkvision 60 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 16"
 "languages": ""
 "cr": "5"
 "traits":
@@ -59,14 +61,14 @@ aliases:
   - "desc": "The roper makes four attacks with its tendrils, uses Reel, and makes\
       \ one attack with its bite."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 22\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 22\
       \ (4d8 + 4) fire damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 50 ft., one creature. Hit:\
-      \ 4 (d8) fire damage and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 50 ft., one creature. *Hit:*\
+      \ 4 (1d8) fire damage and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15). Until the grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ and has disadvantage on Strength checks and Strength saving throws, and the\
-      \ roper can't use the same tendril on another target. A creature takes 4 (d8)\
+      \ roper can't use the same tendril on another target. A creature takes 4 (1d8)\
       \ fire damage each time it ends its turn grappled by the roper."
     "name": "Tendril"
   - "desc": "The roper pulls each creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\

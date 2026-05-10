@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-hazard
+cssclasses:
+- json5e-hazard
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Demon Ichor
+- "Demon Ichor"
 ---
 # Demon Ichor
 *Generic Hazard*  
@@ -20,8 +21,6 @@ When a creature comes in direct contact with demon ichor in Avernus, it must mak
 Demon ichor is sticky enough to adhere to most weapons. A creature in Avernus that takes damage from a weapon coated with demon ichor suffers a flesh-warping transformation if it fails its saving throw (as described above). After hitting its target, the weapon is no longer coated with demon ichor.
 
 **Flesh Warping**
-
-`dice: [](demon-ichor-bgdia.md#^flesh-warping)`
 
 | dice: d100 | Effect |
 |------------|--------|

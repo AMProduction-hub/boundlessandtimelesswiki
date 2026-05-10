@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tem Temble
+- "Tem Temble"
 ---
-# [Tem Temble](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/tem-temble-dsotdq.md)
+# [Tem Temble](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/tem-temble-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 213*  
 
 [Tem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/tem-temble-dsotdq.md) has the soul of a wanderer, though her feet most often take her deep into the wild and forgotten places of the world. Early in her travels, she befriended a winged lizard she named Melon, and the two have become inseparable. She fights the Dragon Armies' advance, channeling the rejuvenating magic of nature through her trusty hoopak to bolster her allies. Tem's mannerisms are similar to a cat's, as she disregards personal space and forever seeks to curl up in warm spots.
@@ -36,7 +37,7 @@ aliases:
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+4"
@@ -49,19 +50,21 @@ aliases:
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
+"gear":
+  - "[hoopak](03.PlayerLog&Handouts/Mechanics/CLI/items/hoopak-dsotdq.md)"
 "senses": "passive Perception 14"
 "languages": "Common, Kenderspeak"
 "traits":
   - "desc": "Tem's spellcasting ability is Wisdom (spell save DC 12, +4 to spell\
-      \ attacks). She has the following druid spells prepared:\n\nAt will: [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
+      \ attacks). She has the following druid spells prepared:\n\n**At will:** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
       \ [poison spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md)\n\
-      \n1st level (2 slots): [healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/healing-word.md)"
+      \n**1st level (2 slots):** [healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/healing-word.md)"
     "name": "Spellcasting"
   - "desc": "Tem is proficient with simple weapons and light armor."
     "name": "Bonus Proficiencies"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 40/160\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage, or 4 (1d4 + 2) bludgeoning\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 40/160\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage, or 4 (1d4 + 2) bludgeoning\
       \ damage if Tem used the hoopak's sling to make a ranged attack."
     "name": "Hoopak"
   - "desc": "Tem launches an infuriating barrage of insults at a creature she can\
@@ -70,7 +73,8 @@ aliases:
       \ end of its next turn."
     "name": "Taunt"
 "bonus_actions":
-  - "desc": "Tem takes the Disengage or Hide action."
+  - "desc": "Tem takes the [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action."
     "name": "Elusive"
 "source":
   - "DSotDQ"

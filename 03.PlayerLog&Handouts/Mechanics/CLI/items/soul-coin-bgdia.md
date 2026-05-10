@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/item/rarity/uncommon
-aliases: 
+aliases:
 - "Soul Coin"
 ---
 # Soul Coin
@@ -25,7 +26,7 @@ An evil creature can carry as many soul coins as it wishes (up to its maximum we
 
 A soul coin has 3 charges. A creature carrying the coin can use its action to expend 1 charge from a soul coin and use it to do one of the following:
 
-- **Drain Life.** You siphon away some of the soul's essence and gain `d10` temporary hit points.  
+- **Drain Life.** You siphon away some of the soul's essence and gain `1d10` temporary hit points.  
 - **Query.** You telepathically ask the soul a question and receive a brief telepathic response, which you can understand. The soul knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more than a sentence or two and might be cryptic.  
 
 ## Freeing a Soul

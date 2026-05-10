@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/22
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Miirym
+- "Miirym"
 ---
-# [Miirym](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/miirym-cm.md)
+# [Miirym](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/miirym-cm.md)
 *Source: Candlekeep Mysteries p. 16*  
 
 Well over 1,500 years ago, the silver dragon Miirym broke into Candlekeep, intent on adding its riches to her hoard. She devoured scholars and destroyed a score of irreplaceable books before she was confronted by an archmage and bound into service to protect Candlekeep as penance for her misdeeds. The wizard passed away before Miirym's sentence had been served, and other spellcasters were unable to break the enchantment that bound her.
@@ -40,11 +41,11 @@ Miirym doesn't have a treasure hoard. Instead, she protects the books and scroll
   - !!int "23"
 "speed": "0 ft., fly 60 ft. (hover)"
 "saves":
-  - "dexterity": "+7"
-  - "constitution": "+12"
-  - "intelligence": "+11"
-  - "wisdom": "+9"
-  - "charisma": "+13"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "12"
+  - "intelligence": !!int "11"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "13"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+11"
@@ -63,14 +64,15 @@ Miirym doesn't have a treasure hoard. Instead, she protects the books and scroll
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "blindsight 60 ft., darkvision 120 ft.; see also \"x-ray vision\" below,\
-  \ passive Perception 26"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft.; see also \"x-ray vision\" below, passive Perception 26"
 "languages": "Common, Draconic"
 "cr": "22"
 "traits":
   - "desc": "Miirym can't leave Candlekeep and is immune to any effect that would\
       \ place her in a location outside it, including an extradimensional space. If\
-      \ she dies, Miirym regains her form and all her hit points after d10 days,\
+      \ she dies, Miirym regains her form and all her hit points after 1d10 days,\
       \ reappearing in the location where she died or in the nearest unoccupied space."
     "name": "Bound to Candlekeep"
   - "desc": "Miirym regains 40 hit points at the start of her turn. If Miirym takes\
@@ -79,7 +81,8 @@ Miirym doesn't have a treasure hoard. Instead, she protects the books and scroll
       \ 0 hit points and doesn't regenerate."
     "name": "Regeneration"
   - "desc": "Miirym can move through other creatures and objects as if they were difficult\
-      \ terrain. She takes 5 (d10) force damage if she ends her turn inside an object."
+      \ terrain. She takes 5 (1d10) force damage if she ends her turn inside an\
+      \ object."
     "name": "Incorporeal Movement"
   - "desc": "If Miirym fails a saving throw, she can choose to succeed instead."
     "name": "Legendary Resistance (3/Day)"
@@ -90,7 +93,7 @@ Miirym doesn't have a treasure hoard. Instead, she protects the books and scroll
       \ Thicker substances block this vision, as does a thin sheet of lead."
     "name": "X-Ray Vision"
 "actions":
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 34 (9d6 + 3) force damage."
     "name": "Bite"
   - "desc": "Miirym uses one of the following breath weapons:"
@@ -117,16 +120,19 @@ Miirym doesn't have a treasure hoard. Instead, she protects the books and scroll
       \ Frightful Presence for the next 24 hours."
     "name": "Frightful Presence"
   - "desc": "Miirym casts one of the following spells, using Charisma as the spellcasting\
-      \ ability (save DC 21) and requiring no material components:\n\nAt will:\
+      \ ability (save DC 21) and requiring no material components:\n\n**At will:**\
       \ [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
-      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n3/day\
-      \ each: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n**3/day\
+      \ each:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [locate creature](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-creature.md)\n\
-      \n1/day each: [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md),\
+      \n**1/day each:** [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md),\
       \ [wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Miirym can expend a use to take one of the following actions. Miirym regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Miirym makes a bite attack."
     "name": "Bite"

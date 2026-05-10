@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Uthgardt Shaman (Black Raven)
+- "Uthgardt Shaman (Black Raven)"
 ---
-# [Uthgardt Shaman (Black Raven)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/uthgardt-shaman-black-raven-skt.md)
+# [Uthgardt Shaman (Black Raven)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/uthgardt-shaman-black-raven-skt.md)
 *Source: Storm King's Thunder p. 243*  
 
 ```statblock
@@ -42,23 +43,26 @@ aliases:
     "desc": "+4"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+6"
+"gear":
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 14"
 "languages": "Bothii, Common"
 "cr": "2"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
       \ damage if wielded with two hands."
     "name": "Spear"
-  - "desc": "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, range 80/320 ft., one target. *Hit:*\
       \ 4 (1d6 + 1) piercing damage."
     "name": "Shortbow"
   - "desc": "The shaman casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability (spell save DC 12; +4 to hit with spell attacks):\n\nAt will:\
+      \ ability (spell save DC 12; +4 to hit with spell attacks):\n\n**At will:**\
       \ [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1/day each: [augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md)\
+      \n**1/day each:** [augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md)\
       \ (cast as 1 action), [bestow curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/bestow-curse.md),\
       \ [cordon of arrows](03.PlayerLog&Handouts/Mechanics/CLI/spells/cordon-of-arrows.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\

@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-vehicle
+cssclasses:
+- json5e-vehicle
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/vehicle/size/gargantuan
 - ttrpg-cli/vehicle/terrain/air
 - ttrpg-cli/vehicle/type/ship
 aliases:
-- Astral Brig
+- "Astral Brig"
 ---
 # Astral Brig
 %%-- Embedded content starts on the next line. --%%

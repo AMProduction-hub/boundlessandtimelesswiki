@@ -1,6 +1,8 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
+- json5e-index
 ---
 # Index of Fiend
 
@@ -36,11 +38,11 @@ cssclasses: json5e-note
 - [Dretch](./dretch.md)
 - [Dybbuk](./dybbuk-mpmm.md)
 - [Eater of Hope](./eater-of-hope-mot.md)
-- [Erinyes (Rope of Entanglement)](./erinyes-rope-of-entanglement.md)
 - [Erinyes](./erinyes.md)
+- [Erinyes (Rope of Entanglement)](./erinyes-rope-of-entanglement.md)
+- [Fiendish Spirit](./fiendish-spirit-tce.md)
 - [Fiendish Spirit (Demon)](./fiendish-spirit-demon-tce.md)
 - [Fiendish Spirit (Devil)](./fiendish-spirit-devil-tce.md)
-- [Fiendish Spirit](./fiendish-spirit-tce.md)
 - [Fiendish Spirit (Yugoloth)](./fiendish-spirit-yugoloth-tce.md)
 - [Flind](./flind-mpmm.md)
 - [Glabrezu](./glabrezu.md)
@@ -72,10 +74,10 @@ cssclasses: json5e-note
 - [Nalfeshnee](./nalfeshnee.md)
 - [Narzugon](./narzugon-mpmm.md)
 - [Nergaliid](./nergaliid-egw.md)
-- [Night Hag (Coven)](./night-hag-coven.md)
 - [Night Hag](./night-hag.md)
-- [Nightmare Shepherd](./nightmare-shepherd-mot.md)
+- [Night Hag (Coven)](./night-hag-coven.md)
 - [Nightmare](./nightmare.md)
+- [Nightmare Shepherd](./nightmare-shepherd-mot.md)
 - [Nupperibo](./nupperibo-mpmm.md)
 - [Nycaloth](./nycaloth.md)
 - [Oinoloth](./oinoloth-mpmm.md)
@@ -94,7 +96,6 @@ cssclasses: json5e-note
 - [Shoosuva](./shoosuva-mpmm.md)
 - [Sibriex](./sibriex-mpmm.md)
 - [Sire of Insanity](./sire-of-insanity-ggr.md)
-- [Space Clown](./space-clown-bam.md)
 - [Spined Devil](./spined-devil.md)
 - [Stench Kow](./stench-kow-mpmm.md)
 - [Succubus](./succubus.md)

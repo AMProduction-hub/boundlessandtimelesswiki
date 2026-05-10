@@ -1,15 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/feat
 aliases:
-- Initiate of High Sorcery
+- "Initiate of High Sorcery"
 ---
 # Initiate of High Sorcery
 *Source: Dragonlance: Shadow of the Dragon Queen p. 32*  
-**Prerequisite**:  Sorcerer,  Campaign,  Wizard,  Campaign, or [Mage of High Sorcery](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/mage-of-high-sorcery-dsotdq.md),  Campaign
+
+**Prerequisite**:  Sorcerer, Dragonlance Campaign,  Wizard, Dragonlance Campaign, or [Mage of High Sorcery](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/mage-of-high-sorcery-dsotdq.md), Dragonlance Campaign
+
 You've received training from magic-users affiliated with the Mages of High Sorcery.
 
 Choose one of the three moons of Krynn to influence your magic: the black moon, Nuitari; the red moon, Lunitari; or the white moon, Solinari. You learn one cantrip of your choice from the wizard spell list and two 1st-level spells based on the moon you choose, as specified in the Lunar Spells table.

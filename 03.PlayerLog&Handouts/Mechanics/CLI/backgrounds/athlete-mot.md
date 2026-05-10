@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Athlete
+- "Athlete"
 ---
 # Athlete
 *Source: Mythic Odysseys of Theros p. 31*  
@@ -32,8 +33,6 @@ While many athletes practice various games and events, most excel at a single fo
 
 **Favored Event**
 
-`dice: [](athlete-mot.md#^favored-event)`
-
 | dice: d8 | Favored Event |
 |----------|---------------|
 | 1 | Marathon |
@@ -52,8 +51,6 @@ Competition can forge strong bonds between teammates and rivals or ignite bitter
 
 **Athlete Personality Traits**
 
-`dice: [](athlete-mot.md#^athlete-personality-traits)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | I feel most at peace during physical exertion, be it exercise or battle. |
@@ -68,8 +65,6 @@ Competition can forge strong bonds between teammates and rivals or ignite bitter
 
 **Athlete Ideals**
 
-`dice: [](athlete-mot.md#^athlete-ideals)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | Competition. I strive to test myself in all things. (Chaotic) |
@@ -82,8 +77,6 @@ Competition can forge strong bonds between teammates and rivals or ignite bitter
 
 **Athlete Bonds**
 
-`dice: [](athlete-mot.md#^athlete-bonds)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | My teammates are my family. |
@@ -95,8 +88,6 @@ Competition can forge strong bonds between teammates and rivals or ignite bitter
 ^athlete-bonds
 
 **Athlete Flaws**
-
-`dice: [](athlete-mot.md#^athlete-flaws)`
 
 | dice: d6 | Flaw |
 |----------|------|

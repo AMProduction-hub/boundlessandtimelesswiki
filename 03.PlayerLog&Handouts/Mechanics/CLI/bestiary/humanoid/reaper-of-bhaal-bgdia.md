@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reaper of Bhaal
+- "Reaper of Bhaal"
 ---
-# [Reaper of Bhaal](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/reaper-of-bhaal-bgdia.md)
+# [Reaper of Bhaal](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/reaper-of-bhaal-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 233*  
 
 Bhaal's cultists emulate their deity, carrying out gruesome murders to spread fear and horror. They are charming and disarming when they wish, but in combat their true, bloodthirsty nature comes to the fore.
@@ -55,13 +56,16 @@ Low-ranking cultists of Bhaal are called night blades, whom Bhaal blesses with [
     "desc": "+5"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+9"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common"
 "cr": "2"
 "traits":
   - "desc": "The reaper's innate spellcasting ability is Charisma (spell save DC 13).\
       \ It can innately cast the following spells, requiring no material components:\n\
-      \n1/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \n**1/day each:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md)"
     "name": "Innate Spellcasting"
@@ -72,8 +76,8 @@ Low-ranking cultists of Bhaal are called night blades, whom Bhaal blesses with [
 "actions":
   - "desc": "The reaper makes two dagger attacks and uses Shroud Self."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 7 (1d4 + 5) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 7 (1d4 + 5) piercing damage."
     "name": "Dagger"
   - "desc": "The reaper magically turns [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
       \ until the start of its next turn. This invisibility ends if the reaper makes\

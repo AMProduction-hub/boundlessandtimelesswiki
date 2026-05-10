@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Skeleton Key
+- "Skeleton Key"
 ---
-# [Skeleton Key](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/skeleton-key-toa.md)
+# [Skeleton Key](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeleton-key-toa.md)
 *Source: Tomb of Annihilation p. 126*  
 
 ```statblock
@@ -36,7 +37,10 @@ aliases:
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 9"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "understands all languages it spoke in life but can't speak"
 "cr": "1/4"
 "traits":
@@ -46,7 +50,7 @@ aliases:
 "actions":
   - "desc": "The skeleton makes two dagger attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage."
     "name": "Dagger"
 "source":

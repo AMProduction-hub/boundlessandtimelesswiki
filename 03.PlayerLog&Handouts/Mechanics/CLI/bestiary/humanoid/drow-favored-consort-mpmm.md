@@ -1,19 +1,20 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/18
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/size/medium
-- ttrpg-cli/monster/type/humanoid/elf
+- ttrpg-cli/monster/type/humanoid/drow-elf
 - ttrpg-cli/monster/type/humanoid/wizard
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Drow Favored Consort
+- "Drow Favored Consort"
 ---
-# [Drow Favored Consort](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/drow-favored-consort-mpmm.md)
+# [Drow Favored Consort](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-favored-consort-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 100, Mordenkainen's Tome of Foes p. 183*  
 
 Nearly every priestess of [Lolth](03.PlayerLog&Handouts/Mechanics/CLI/deities/drow-lolth-mtf.md), including the powerful [drow matron mother](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-matron-mother-mpmm.md) in this book, takes an attractive drow as consort. Chosen as much for beauty as for magical might, a drow favored consort can hold their own in both conversation and combat. Combining the roles of advisor, protector, and beloved, some favored consorts are content with a supporting role, while more ambitious consorts aspire to be the power behind the throne—or even to claim the throne themselves.
@@ -26,7 +27,7 @@ Some favored consorts work behind the scenes to undermine the evils encouraged b
 "name": "Drow Favored Consort (MPMM)"
 "size": "Medium"
 "type": "humanoid"
-"subtype": "elf, wizard"
+"subtype": "Drow elf, wizard"
 "alignment": "Any alignment"
 "ac": !!int "15"
 "hp": !!int "240"
@@ -41,9 +42,9 @@ Some favored consorts work behind the scenes to undermine the evils encouraged b
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+11"
-  - "constitution": "+9"
-  - "charisma": "+10"
+  - "dexterity": !!int "11"
+  - "constitution": !!int "9"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+11"
@@ -53,7 +54,10 @@ Some favored consorts work behind the scenes to undermine the evils encouraged b
     "desc": "+8"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+11"
-"senses": "darkvision 120 ft., passive Perception 18"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 18"
 "languages": "Elvish, Undercommon"
 "cr": "18"
 "traits":
@@ -68,21 +72,21 @@ Some favored consorts work behind the scenes to undermine the evils encouraged b
   - "desc": "The drow makes three Scimitar or Arcane Eruption attacks. The drow can\
       \ replace one of the attacks with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 8 (1d6 + 5) slashing damage plus 27 (6d8) poison damage."
     "name": "Scimitar"
-  - "desc": "Ranged Spell Attack: +10 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +10 to hit, range 120 ft., one target. *Hit:*\
       \ 36 (8d8) force damage, and the drow can push the target up to 10 feet away\
       \ if it is a Large or smaller creature."
     "name": "Arcane Eruption"
   - "desc": "The drow casts one of the following spells, requiring no material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 18):\n\n\
-      At will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      **At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [mage\
       \ hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md)\n\
-      \n3/day each: [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
+      \n**3/day each:** [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\n\
-      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \n**1/day each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
       \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md) (self only)"
     "name": "Spellcasting"

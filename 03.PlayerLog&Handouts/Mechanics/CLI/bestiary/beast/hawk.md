@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hawk
+- "Hawk"
 ---
-# [Hawk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/hawk.md)
-*Source: Monster Manual p. 330, Waterdeep: Dragon Heist, Baldur's Gate: Descent Into Avernus, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Hawk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/hawk.md)
+*Source: Monster Manual p. 330. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Hawk"
@@ -42,16 +43,11 @@ aliases:
       \ checks that rely on sight."
     "name": "Keen Sight"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1\
       \ slashing damage."
     "name": "Talons"
 "source":
   - "MM"
-  - "WDH"
-  - "BGDIA"
-  - "IDRotF"
-  - "CM"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/hawk.webp"
 ```
 ^statblock

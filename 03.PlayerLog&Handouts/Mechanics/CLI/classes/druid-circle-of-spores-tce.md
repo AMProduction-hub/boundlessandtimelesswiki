@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/druid/spores
 aliases:
-- Circle of Spores
+- "Circle of Spores"
 ---
 # Circle of Spores
 *[Druid](./druid.md): Druid Circle*  
@@ -43,15 +44,13 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Circle of Spores (Level 2)
-
 Druids of the Circle of Spores find beauty in decay. They see within mold and other fungi the ability to transform lifeless material into abundant, albeit somewhat strange, life.
 
 These druids believe that life and death are parts of a grand cycle, with one leading to the other and then back again. Death isn't the end of life, but instead a change of state that sees life shift into a new form.
 
 Druids of this circle have a complex relationship with the undead. Unlike most other druids, they see nothing inherently wrong with undeath, which they consider to be a companion to life and death. But these druids believe that the natural cycle is healthiest when each segment of it is vibrant and changing. Undead that seek to replace all life with undeath, or that try to avoid passing to a final rest, violate the cycle and must be thwarted.
+
+## Subclass Features
 
 ### Circle Spells (Level 2)
 
@@ -71,14 +70,14 @@ Once you gain access to one of these spells, you always have it prepared, and it
 
 ### Halo of Spores (Level 2)
 
-Starting at 2nd level, you are surrounded by invisible, necrotic spores that are harmless until you unleash them on a creature nearby. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to deal `d4` necrotic damage to that creature unless it succeeds on a Constitution saving throw against your spell save DC. The necrotic damage increases to `d6` at 6th level, `d8` at 10th level, and `d10` at 14th level.
+Starting at 2nd level, you are surrounded by invisible, necrotic spores that are harmless until you unleash them on a creature nearby. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to deal `1d4` necrotic damage to that creature unless it succeeds on a Constitution saving throw against your spell save DC. The necrotic damage increases to `1d6` at 6th level, `1d8` at 10th level, and `1d10` at 14th level.
 
 ### Symbiotic Entity (Level 2)
 
 At 2nd level, you gain the ability to channel magic into your spores. As an action, you can expend a use of your Wild Shape feature to awaken those spores, rather than transforming into a beast form, and you gain 4 temporary hit points for each level you have in this class. While this feature is active, you gain the following benefits:
 
 - When you deal your Halo of Spores damage, roll the damage die a second time and add it to the total.  
-- Your melee weapon attacks deal an extra `d6` necrotic damage to any target they hit.  
+- Your melee weapon attacks deal an extra `1d6` necrotic damage to any target they hit.  
 
 These benefits last for 10 minutes, until you lose all these temporary hit points, or until you use your Wild Shape again.
 

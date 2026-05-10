@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hrigg Roundrook
+- "Hrigg Roundrook"
 ---
-# [Hrigg Roundrook](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/hrigg-roundrook-dsotdq.md)
+# [Hrigg Roundrook](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hrigg-roundrook-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 211*  
 
 [Hrigg](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hrigg-roundrook-dsotdq.md) is a gregarious dwarf who laughs heartily and lives to feast on the finest food and fight the vilest evil. He is one of five siblings, each of whom were chosen by Kiri-Jolith, the god of war, to receive his divine power. From their homeland of Kayolin, the five siblings each set out on their own path to bring Kiri-Jolith's message directly to the Dragon Armies. Hrigg's path brought him to Kalaman, where he happily finds himself on the front line of an invasion.
@@ -36,7 +37,7 @@ aliases:
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+4"
@@ -47,14 +48,17 @@ aliases:
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[maul](03.PlayerLog&Handouts/Mechanics/CLI/items/maul.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Common, Dwarvish"
 "traits":
   - "desc": "Hrigg's spellcasting ability is Wisdom (spell save DC 12, +4 to hit\
-      \ with spell attacks). He has the following cleric spells prepared:\n\nAt\
-      \ will: [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ with spell attacks). He has the following cleric spells prepared:\n\n**At\
+      \ will:** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md)\n\
-      \n1st level (2 slots): [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md)"
+      \n**1st level (2 slots):** [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md)"
     "name": "Spellcasting"
   - "desc": "Hrigg is proficient with simple and martial weapons and light and medium\
       \ armor."
@@ -63,7 +67,7 @@ aliases:
       \ condition on himself."
     "name": "Dwarven Resilience"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d6 + 2) bludgeoning damage."
     "name": "Maul"
 "source":

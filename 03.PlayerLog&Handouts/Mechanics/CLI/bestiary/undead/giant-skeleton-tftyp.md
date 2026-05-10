@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/7
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Skeleton
+- "Giant Skeleton"
 ---
-# [Giant Skeleton](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/giant-skeleton-tftyp.md)
-*Source: Tales from the Yawning Portal p. 236, Divine Contention, Sleeping Dragon's Wake, Infernal Machine Rebuild*  
+# [Giant Skeleton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/giant-skeleton-tftyp.md)
+*Source: Tales from the Yawning Portal p. 236*  
 
 In the Tomb of Horrors, treasure sometimes presents itself for the taking. In one such location, the "reward" for an attempt to grab some valuables turns out to be the animated skeleton of a giant—deadly not only because of its size and strength, but because it has defenses normally possessed only by undead of much greater power.
 
@@ -42,7 +43,10 @@ A skeleton doesn't require air, food, drink, or sleep.
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 8"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": "understands Giant but can't speak"
 "cr": "7"
 "traits":
@@ -58,14 +62,11 @@ A skeleton doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The skeleton makes three scimitar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 15 (3d6 + 5) slashing damage."
     "name": "Scimitar"
 "source":
   - "TftYP"
-  - "DC"
-  - "SDW"
-  - "IMR"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/giant-skeleton-tftyp.webp"
 ```
 ^statblock

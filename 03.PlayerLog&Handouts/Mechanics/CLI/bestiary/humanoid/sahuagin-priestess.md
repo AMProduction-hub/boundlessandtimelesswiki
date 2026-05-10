@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sahuagin Priestess
+- "Sahuagin Priestess"
 ---
-# [Sahuagin Priestess](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/sahuagin-priestess.md)
-*Source: Monster Manual p. 264, Tales from the Yawning Portal, Ghosts of Saltmarsh, Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus*  
+# [Sahuagin Priestess](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-priestess.md)
+*Source: Monster Manual p. 264*  
 
 Across fog-shrouded coasts or endless ocean swells, an ominous drone sounded on a conch shell chills the blood of all who hear it. This is the sound of the sahuagin hunting horn-a call to raid and battle. Coastal settlers refer to sahuagin as "sea devils," for sahuagin have no compassion in them, slaughtering the crews of ships and decimating coastal villages.
 
@@ -67,20 +68,21 @@ The sahuagin put the malenti to good use as spies and assassins in aquatic elf c
     "desc": "+6"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+3"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "Sahuagin"
 "cr": "2"
 "traits":
   - "desc": "The sahuagin is a 6th-level spellcaster. Her spellcasting ability is\
       \ Wisdom (spell save DC 12, +4 to hit with spell attacks). She has the following\
-      \ cleric spells prepared:\n\nCantrips (at will): [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ cleric spells prepared:\n\n**Cantrips (at will):** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md),\
+      \n**1st level (4 slots):** [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [guiding bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/guiding-bolt.md)\n\
-      \n2nd level (3 slots): [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
+      \n**2nd level (3 slots):** [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md)\
-      \ (trident)\n\n3rd level (3 slots): [mass healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-healing-word.md),\
+      \ (trident)\n\n**3rd level (3 slots):** [mass healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-healing-word.md),\
       \ [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)"
     "name": "Spellcasting"
   - "desc": "The sahuagin has advantage on melee attack rolls against any creature\
@@ -96,18 +98,14 @@ The sahuagin put the malenti to good use as spies and assassins in aquatic elf c
   - "desc": "The sahuagin makes two melee attacks: one with her bite and one with\
       \ her claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d4 + 1) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d4 + 1) slashing damage."
     "name": "Claws"
 "source":
   - "MM"
-  - "TftYP"
-  - "GoS"
-  - "SDW"
-  - "BGDIA"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/sahuagin-priestess.webp"
 ```
 ^statblock

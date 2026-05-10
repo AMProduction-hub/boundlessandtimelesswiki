@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 aliases:
-- Chapter 1: A Great Upheaval
+- "Chapter 1: A Great Upheaval"
 ---
 # Chapter 1: A Great Upheaval
 *Source: Storm King's Thunder, p. 19* 
@@ -323,7 +324,7 @@ The windmill's interior is dark, gloomy, and filled with wooden gears and cogs t
 
 #### Treasure
 
-Longo and Yek are more interested in having fun than searching for treasure. They each carry a pouch that holds `d6` cp.
+Longo and Yek are more interested in having fun than searching for treasure. They each carry a pouch that holds `1d6` cp.
 
 ### 11. Bridge
 
@@ -331,7 +332,7 @@ A 70-foot-long, 10-foot-wide sloped bridge used to connect the village bailey to
 
 A creature with a Strength score of 15 or higher can leap across the broken section of the bridge if it moves at least 10 feet before the jump. The jump is made more difficult by the fact that the bridge is sloped:
 
-- A creature jumping from the lower part of the bridge to the higher part must succeed on a DC 10 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check to land on its feet. On a failed check, the creature falls [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) at the broken edge of the bridge and takes 2 (`d4`) bludgeoning damage from the fall.  
+- A creature jumping from the lower part of the bridge to the higher part must succeed on a DC 10 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check to land on its feet. On a failed check, the creature falls [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) at the broken edge of the bridge and takes 2 (`1d4`) bludgeoning damage from the fall.  
 - A creature jumping from the higher part of the bridge to the lower part must succeed on a DC 10 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check to land on its feet. On a failed check, the creature tumbles to the bottom of the bridge, landing [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) and taking 5 (`2d4`) bludgeoning damage from the fall.  
 
 ### 12. Gate to the Keep
@@ -513,7 +514,7 @@ A tunnel that the [ogres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogr
 
 #### 2a. Sleeping Caves
 
-Six of these caves are marked on the Dripping Caves map, and each one contains `d6` goblin noncombatants. The floor in each cave is covered with a grass pallet on which the goblins sleep. Apart from a few rusty pots, odd tools, and goblin toys, the sleeping caves contain nothing of value.
+Six of these caves are marked on the Dripping Caves map, and each one contains `1d6` goblin noncombatants. The floor in each cave is covered with a grass pallet on which the goblins sleep. Apart from a few rusty pots, odd tools, and goblin toys, the sleeping caves contain nothing of value.
 
 #### 2b. Cave of Bones
 
@@ -555,7 +556,7 @@ Boss Hark stripped the villagers of their weapons before herding them into this 
 
 In the absence of a true leader, [Morak Ur'gray](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/morak-urgray-skt.md) (LG male shield dwarf [commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)), the owner and proprietor of the Nightstone Inn, speaks on behalf of the villagers. Morak is an optimist, and he's counting on Lady Velrosa Nandar coming to the rescue. When he lays eyes on the adventurers, he breathes a sigh of relief and assumes they were hired by Lady Nandar. (He would be dismayed to learn that she didn't survive the attack on Nightstone.)
 
-Other noteworthy prisoners trapped in the cavern include Hiral Mystrum (LG male Tethyrian human [commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)), the village's cowardly priest of Lathander, and six unarmed [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) (LN male and female [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) of various ethnicities). The [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) were wounded by the [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) and [ogres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md) in the process of being captured; each has only `d6` hit points remaining.
+Other noteworthy prisoners trapped in the cavern include Hiral Mystrum (LG male Tethyrian human [commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)), the village's cowardly priest of Lathander, and six unarmed [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) (LN male and female [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) of various ethnicities). The [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) were wounded by the [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) and [ogres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md) in the process of being captured; each has only `1d6` hit points remaining.
 
 The other prisoners found here are surviving members of local families. All the adults are unarmed [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md), and all the children are noncombatants. They let Morak speak on their behalf. The families are as follows:
 
@@ -675,7 +676,7 @@ If the characters ask [Zephyros](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/np
 
 > [!note] 
 > 
-> **Spellcasting.** [Zephyros](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zephyros-skt.md) casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 17, +11 to hit with spell attacks):
+> **Spellcasting.** [Zephyros](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zephyros-skt.md) casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 17, `+11` to hit with spell attacks):
 > 
 > At will: [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md), [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)
 > 
@@ -719,7 +720,7 @@ The wooden chest is 9 feet long, 5 feet wide, and 5 feet tall. It contains an as
 
 ### Aerie
 
-The highest level of the tower has open archways set into its walls. Four [griffons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/griffon.md) have made nests in the aerie, and [Zephyros](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zephyros-skt.md) treats them like cats. At any given time, `d4` of the griffons are present; absent griffons are out hunting and return after `d4` hours. Griffons that are present attack if they or their nests are disturbed. The griffons' nests contain no treasure.
+The highest level of the tower has open archways set into its walls. Four [griffons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/griffon.md) have made nests in the aerie, and [Zephyros](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zephyros-skt.md) treats them like cats. At any given time, `1d4` of the griffons are present; absent griffons are out hunting and return after `1d4` hours. Griffons that are present attack if they or their nests are disturbed. The griffons' nests contain no treasure.
 
 ## Unfriendly Skies
 
@@ -753,8 +754,6 @@ N'von carries a pouch containing ten pinches of [faerie dust](03.PlayerLog&Hando
 One pinch of the faerie dust can substitute for the material components of any enchantment spell of 3rd level or lower. The faerie dust has other magical effects as well. If a pinch of faerie dust is sprinkled on a creature, roll percentile dice and consult the Faerie Dust table to determine the effect.
 
 #### Faerie Dust
-
-`dice: [](02-chapter-1-a-great-upheaval.md#^magical-effect)`
 
 | dice: d100 | Magical Effect |
 |------------|----------------|

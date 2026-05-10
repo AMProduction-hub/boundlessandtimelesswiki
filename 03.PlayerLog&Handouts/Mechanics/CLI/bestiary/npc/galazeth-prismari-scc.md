@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/23
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Galazeth Prismari
+- "Galazeth Prismari"
 ---
-# [Galazeth Prismari](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/galazeth-prismari-scc.md)
+# [Galazeth Prismari](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/galazeth-prismari-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 193*  
 
 The dragon Galazeth Prismari embodies the flow of magic from inspiration into artistic expression, whether through physical form or another sensory medium. His magic draws on primal energy—such as flame, lightning, and the tides—and weaves them into spectacles both beautiful and deadly.
@@ -38,10 +39,10 @@ Galazeth founded Prismari College to ensure that the study of magic wouldn't eve
   - !!int "26"
 "speed": "40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+9"
-  - "constitution": "+14"
-  - "wisdom": "+12"
-  - "charisma": "+15"
+  - "dexterity": !!int "9"
+  - "constitution": !!int "14"
+  - "wisdom": !!int "12"
+  - "charisma": !!int "15"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+16"
@@ -53,7 +54,8 @@ Galazeth founded Prismari College to ensure that the study of magic wouldn't eve
     "desc": "+22"
 "damage_resistances": "lightning"
 "damage_immunities": "cold, fire"
-"senses": "blindsight 120 ft., passive Perception 22"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft., passive Perception 22"
 "languages": "Common, Draconic"
 "cr": "23"
 "traits":
@@ -62,10 +64,10 @@ Galazeth founded Prismari College to ensure that the study of magic wouldn't eve
 "actions":
   - "desc": "Galazeth makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit:\
-      \ 13 (1d10 + 8) piercing damage plus 5 (d10) lightning damage."
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 15 ft., one target. *Hit:*\
+      \ 13 (1d10 + 8) piercing damage plus 5 (1d10) lightning damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (1d6 + 8) slashing damage. If the target is a Large or smaller creature,\
       \ it is knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Claw"
@@ -76,11 +78,14 @@ Galazeth founded Prismari College to ensure that the study of magic wouldn't eve
       \ one."
     "name": "Dancing Elements Breath (Recharge 5-6)"
   - "desc": "Galazeth casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 23):\n\n1/day\
-      \ each: [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 23):\n\n**1/day\
+      \ each:** [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md),\
       \ [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md),\
       \ [wall of stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-stone.md)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Galazeth can expend a use to take one of the following actions. Galazeth\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Galazeth makes one Claw attack."
     "name": "Claw"
@@ -90,10 +95,10 @@ Galazeth founded Prismari College to ensure that the study of magic wouldn't eve
       \ lightning damage. A creature can take this damage no more than once during\
       \ the move."
     "name": "Lightning Flash (Costs 2 Actions)"
-  - "desc": "Galazeth magically summons d4 [elemental mascots](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/art-elemental-mascot-scc.md)\
+  - "desc": "Galazeth magically summons 1d4 [elemental mascots](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/art-elemental-mascot-scc.md)\
       \ in unoccupied spaces he can see within 60 feet of himself. The art elementals\
       \ obey his commands and take their turns immediately after his. Any creature,\
-      \ other than an art elemental, takes 5 (d10) cold, fire, or lightning damage\
+      \ other than an art elemental, takes 5 (1d10) cold, fire, or lightning damage\
       \ (Galazeth's choice) if it ends its turn within 5 feet of one or more of these\
       \ elementals. When one of these elementals drops to 0 hit points, Galazeth can\
       \ fly up to 20 feet without provoking opportunity attacks. These elementals\

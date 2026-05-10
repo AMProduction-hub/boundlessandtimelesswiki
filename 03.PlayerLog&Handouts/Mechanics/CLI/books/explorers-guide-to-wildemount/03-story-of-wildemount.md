@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Story of Wildemount
+- "Story of Wildemount"
 ---
 # Story of Wildemount
 *Source: Explorer's Guide to Wildemount, p. 11* 
 
-![A monk of the Cobalt Soul ...](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/003-00-04.webp#center "A monk of the Cobalt Soul sheds light on Wildemount's past for a band of young adventurers.")
+![A monk of the Cobalt Soul sheds light on Wildemount's past for a band of young adventurers.](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/003-00-04.webp#center)
 
 > [!quote] A quote from Archivist Adia Shu of the Cobalt Soul  
 > 
@@ -169,7 +170,7 @@ The few scattered survivors of the floods found shelter among the higher jungles
 
 Over time, an older mind began to call from the waters and entered their dreams. This powerful being, a leviathan creation abandoned by his creator Zehir in the Divergence, called himself Uk'otoa. He spoke of his divinity and promised protection to the Ki'Nau people in exchange for their worship. The Ki'Nau accepted the persuasive entity as an ally and protector, allowing Uk'otoa to rise up as the guardian of the islands and help the Ki'Nau become a proud society of warriors, establishing dominance over the region for centuries.
 
-![Uk'otoa assaults unwelcome...](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/006-01-03.webp#center "Uk'otoa assaults unwelcome ships on the Lucidian Ocean")
+![Uk'otoa assaults unwelcome ships on the Lucidian Ocean](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/006-01-03.webp#center)
 
 #### The Marquesian Alliance
 
@@ -205,7 +206,7 @@ Taking pity on the survivors, the dwarves took in the elven refugees and offered
 
 Unfortunately, a township of criminals and outlaws has sprung up on the southern edge of the Savalirwood, just beyond the Dwendalian Empire. In addition to the dangerous denizens of this wretched thicket, which is known as Shadycreek Run, there are numerous raiders and thieves seeking relics from the ruins of the forest, escalating conflict throughout the region.
 
-![In the ruins of Ghor Drana...](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/007-01-04.webp#center "In the ruins of Ghor Dranas, drow face the sun for the first time")
+![In the ruins of Ghor Dranas, drow face the sun for the first time](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/007-01-04.webp#center)
 
 ### Eastern Wynandir
 

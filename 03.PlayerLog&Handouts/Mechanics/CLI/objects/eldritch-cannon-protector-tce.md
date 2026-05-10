@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-object
+cssclasses:
+- json5e-object
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/object/size/unknown
 - ttrpg-cli/object/type/unknown
 aliases:
-- Eldritch Cannon, Protector
+- "Eldritch Cannon, Protector"
 ---
 # Eldritch Cannon, Protector
 %%-- Embedded content starts on the next line. --%%
@@ -31,6 +32,6 @@ title: Eldritch Cannon, Protector
 
 ## Actions
 
-***Protector.*** The cannon emits a burst of positive energy that grants itself and each creature of your choice within 10 feet of it a number of temporary hit points equal to `d8` + your Intelligence modifier (minimum of +1).
+***Protector.*** The cannon emits a burst of positive energy that grants itself and each creature of your choice within 10 feet of it a number of temporary hit points equal to `1d8` + your Intelligence modifier (minimum of +1).
 ```
 ^statblock

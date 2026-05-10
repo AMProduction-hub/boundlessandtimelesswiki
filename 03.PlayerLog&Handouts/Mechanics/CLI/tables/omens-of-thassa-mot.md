@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Omens of Thassa
+- "Omens of Thassa"
 ---
 # Omens of Thassa
 *Source: Mythic Odysseys of Theros p. 111* 
 
 **Omens of Thassa**
-
-`dice: [](omens-of-thassa-mot.md#^omens-of-thassa)`
 
 | dice: d8 | dice: d100 | Omen of Thassa |
 |----------|------------|----------------|

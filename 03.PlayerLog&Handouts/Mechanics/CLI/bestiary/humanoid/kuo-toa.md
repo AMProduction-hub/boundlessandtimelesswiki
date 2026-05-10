@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kuo-toa
+- "Kuo-toa"
 ---
-# [Kuo-toa](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/kuo-toa.md)
-*Source: Monster Manual p. 199, Princes of the Apocalypse, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Explorer's Guide to Wildemount*  
+# [Kuo-toa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kuo-toa.md)
+*Source: Monster Manual p. 199*  
 
 Kuo-toa are degenerate fishlike humanoids that once inhabited the shores and islands of the surface world. Long ago humans and their ilk drove the kuo-toa underground, where they dwell in madness and everlasting night. Kuo-toa can no longer abide daylight.
 
@@ -47,9 +48,9 @@ In general, kuo-toa don't like the weight of armor on their slippery bodies and 
 > 
 > **Multiattack.** The kuo-toa makes one bite attack and two unarmed strikes.
 > 
-> **Bite.** Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 4 (`1d4 + 2`) piercing damage.
+> **Bite.** Melee Weapon Attack: `+6` to hit, reach 5 ft., one target. Hit: 4 (`1d4 + 2`) piercing damage.
 > 
-> **Unarmed Strike.** Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (`1d6 + 2`) bludgeoning damage + 3 (`d6`) lightning damage, and the target can't take reactions until the end of the kuo-toa's next turn.
+> **Unarmed Strike.** Melee Weapon Attack: `+6` to hit, reach 5 ft., one target. Hit: 5 (`1d6 + 2`) bludgeoning damage + 3 (`1d6`) lightning damage, and the target can't take reactions until the end of the kuo-toa's next turn.
 ^variant-kuo-toa-monitor
 
 > [!quote] A quote from Sabal Mizzrym of Menzoberranzan  
@@ -79,7 +80,11 @@ In general, kuo-toa don't like the weight of armor on their slippery bodies and 
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
-"senses": "darkvision 120 ft., passive Perception 14"
+"gear":
+  - "[net](03.PlayerLog&Handouts/Mechanics/CLI/items/net.md)"
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 14"
 "languages": "Undercommon"
 "cr": "1/4"
 "traits":
@@ -97,15 +102,15 @@ In general, kuo-toa don't like the weight of armor on their slippery bodies and 
       \ checks that rely on sight."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d4 + 1) piercing damage."
     "name": "Bite"
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Spear"
-  - "desc": "Ranged Weapon Attack: +3 to hit, range 5/15 ft., one Large or smaller\
-      \ creature. Hit: The target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, range 5/15 ft., one Large or smaller\
+      \ creature. *Hit:* The target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
       \ A creature can use its action to make a DC 10 Strength check to free itself\
       \ or another creature in a net, ending the effect on a success. Dealing 5 slashing\
       \ damage to the net (AC 10) frees the target without harming it and destroys\
@@ -123,12 +128,6 @@ In general, kuo-toa don't like the weight of armor on their slippery bodies and 
     "name": "Sticky Shield"
 "source":
   - "MM"
-  - "PotA"
-  - "TftYP"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "EGW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/kuo-toa.webp"
 ```
 ^statblock

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Chapter 10: Descent into the Depths
+- "Chapter 10: Descent into the Depths"
 ---
 # Chapter 10: Descent into the Depths
 *Source: Out of the Abyss, p. 143* 
@@ -105,8 +106,6 @@ The adventurers must contend with a variety of events as they lead their forces 
 
 For the rules on madness, see chapter 2 of this adventure and chapter 8, ""Running the Game"," in the *Dungeon Master's Guide*.
 
-`dice: [](10-chapter-10-descent-into-the-depths.md#^event)`
-
 | dice: d20 | Event |
 |-----------|-------|
 | 1–2 | Battle aftermath |
@@ -124,14 +123,12 @@ For the rules on madness, see chapter 2 of this adventure and chapter 8, ""Runni
 
 The party stumbles upon the remains of one or more creatures slaughtered by rampaging demons. Roll a `d10` and consult the Corpses table to determine what they find. A thorough search of the area yields no treasure.
 
-### Corpses
-
-`dice: [](10-chapter-10-descent-into-the-depths.md#^corpse-present)`
+#### Corpses
 
 | dice: d10 | Corpse Present |
 |-----------|----------------|
 | 1 | 1 dead [behir](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/behir.md) |
-| 2–3 | `d4` dead [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) and `d4`−1 dead [giant lizards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-lizard.md) |
+| 2–3 | `1d4` dead [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) and `1d4`−1 dead [giant lizards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-lizard.md) |
 | 4–5 | `3d8` dead [giant fire beetles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-fire-beetle.md) (their glands are no longer glowing) |
 | 6–7 | `2d4` dead [gricks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/grick.md) |
 | 8–9 | `2d4` dead [kuo-toa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kuo-toa.md) |
@@ -140,15 +137,13 @@ The party stumbles upon the remains of one or more creatures slaughtered by ramp
 
 Roll a `d6` and consult the Scavengers table to determine what scavengers, if any, are feasting on the remains.
 
-### Scavengers
-
-`dice: [](10-chapter-10-descent-into-the-depths.md#^scavengers)`
+##### Scavengers
 
 | dice: d6 | Scavengers |
 |----------|------------|
-| 1–2 | `d3` [black puddings](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/black-pudding.md) |
-| 3–4 | `d4` [carrion crawlers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/carrion-crawler.md) |
-| 5 | `d6` [gnolls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gnoll.md) and `d6` [hyenas](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/hyena.md) |
+| 1–2 | `1d3` [black puddings](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/black-pudding.md) |
+| 3–4 | `1d4` [carrion crawlers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/carrion-crawler.md) |
+| 5 | `1d6` [gnolls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gnoll.md) and `1d6` [hyenas](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/hyena.md) |
 | 6 | 1 [otyugh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/otyugh.md) |
 ^scavengers
 
@@ -160,17 +155,15 @@ Roll on the Creature Encounters table in chapter 2 or the Darklake Creature Enco
 
 Roll a `d20` and consult the Demon Encounters table to determine what appears. If the characters stumble upon Juiblex and flee immediately, the demon lord doesn't pursue or attack them.
 
-### Demon Encounters
-
-`dice: [](10-chapter-10-descent-into-the-depths.md#^encounter)`
+#### Demon Encounters
 
 | dice: d20 | Encounter |
 |-----------|-----------|
-| 1–4 | `d4` [barlguras](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/barlgura.md) |
-| 5–8 | `d4` [chasmes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/chasme.md) |
-| 9–10 | `d2` [hezrous](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hezrou.md) |
-| 11–14 | `d4` [shadow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/shadow.md) demons |
-| 15–18 | `d3` [vrocks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/vrock.md) |
+| 1–4 | `1d4` [barlguras](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/barlgura.md) |
+| 5–8 | `1d4` [chasmes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/chasme.md) |
+| 9–10 | `1d2` [hezrous](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hezrou.md) |
+| 11–14 | `1d4` [shadow demons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/shadow-demon.md) |
+| 15–18 | `1d3` [vrocks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/vrock.md) |
 | 19–20 | [Juiblex](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/juiblex-mpmm.md) (see appendix D) |
 ^encounter
 
@@ -178,9 +171,7 @@ Roll a `d20` and consult the Demon Encounters table to determine what appears. I
 
 A discipline problem is revealed among the NPCs. Roll a `d6` and consult the Discipline Problems table to determine what transpires.
 
-### Discipline Problems
-
-`dice: [](10-chapter-10-descent-into-the-depths.md#^problem)`
+#### Discipline Problems
 
 | dice: d6 | Problem |
 |----------|---------|
@@ -193,9 +184,7 @@ A discipline problem is revealed among the NPCs. Roll a `d6` and consult the Dis
 
 One or more NPC party members contract a disease. Roll a `d4` to determine how many NPCs are affected, then roll a `d6` and consult the Diseases table to determine which disease is contracted. See in chapter 8, ""Running the Game"," in the *Dungeon Master's Guide* for descriptions of cackle fever, sewer plague, and sight rot.
 
-### Diseases
-
-`dice: [](10-chapter-10-descent-into-the-depths.md#^disease)`
+#### Diseases
 
 | dice: d6 | Disease |
 |----------|---------|
@@ -208,8 +197,6 @@ One or more NPC party members contract a disease. Roll a `d4` to determine how m
 ### Madness
 
 One NPC party member goes mad. To determine the kind of madness, roll a `d6` and consult the Madness table below. To determine the madness effect, roll percentile dice and consult the appropriate table in "chapter 8" of the *Dungeon Master's Guide*.
-
-`dice: [](10-chapter-10-descent-into-the-depths.md#^madness)`
 
 | dice: d6 | Madness |
 |----------|---------|

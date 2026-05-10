@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/item/age/futuristic
@@ -12,7 +13,7 @@ tags:
 - ttrpg-cli/item/weapon/ranged
 - ttrpg-cli/item/weapon/simple
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Corpse Slayer"
 - "Corpse Slayer Antimatter Rifle"
 - "Corpse Slayer Automatic Rifle"
@@ -73,7 +74,7 @@ aliases:
 
 You gain a +1 bonus to attack and damage rolls made with this magic weapon.
 
-When you hit an undead creature with an attack using this weapon, the attack deals an extra `d8` damage of the weapon's type, and the creature has disadvantage on saving throws against effects that turn undead until the start of your next turn.
+When you hit an undead creature with an attack using this weapon, the attack deals an extra `1d8` damage of the weapon's type, and the creature has disadvantage on saving throws against effects that turn undead until the start of your next turn.
 
 **Variants**:
 - [Corpse Slayer Antimatter Rifle](#Corpse%20Slayer%20Antimatter%20Rifle)

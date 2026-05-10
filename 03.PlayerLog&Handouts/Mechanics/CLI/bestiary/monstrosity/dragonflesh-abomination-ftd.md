@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragonflesh Abomination
+- "Dragonflesh Abomination"
 ---
-# [Dragonflesh Abomination](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/dragonflesh-abomination-ftd.md)
+# [Dragonflesh Abomination](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/dragonflesh-abomination-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 187*  
 
 A dragonflesh abomination is the final stage of a grafter's transformation—a hulking monster whose corrupted brain is ablaze with desire for treasure. Its abhorrent transformation erases the last vestiges of its previous life. It sprouts a tail and clumsy wings and grows to enormous size, barely retaining a bipedal shape. Its stomach churns with acid, causing noxious fumes to waft from its mouth and providing it with a caustic breath weapon. Its body is in a constant state of growth and change, allowing it to quickly heal from its wounds.
@@ -43,8 +44,8 @@ While most would-be grafters wind up hideously scarred or dead, a few survive as
   - !!int "6"
 "speed": "30 ft., fly 40 ft."
 "saves":
-  - "strength": "+7"
-  - "constitution": "+6"
+  - "strength": !!int "7"
+  - "constitution": !!int "6"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
@@ -64,14 +65,14 @@ While most would-be grafters wind up hideously scarred or dead, a few survive as
   - "desc": "The abomination makes three attacks using Claw, Acidic Spit, or a combination\
       \ of them. It can replace one of the attacks with a Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
-      \ 8 (1d8 + 4) slashing damage plus 5 (d10) poison damage."
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
+      \ 8 (1d8 + 4) slashing damage plus 5 (1d10) poison damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 15 ft., one target. *Hit:*\
       \ 10 (1d12 + 4) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 15 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 60 ft., one target. *Hit:*\
       \ 10 (3d6) acid damage."
     "name": "Acidic Spit"
   - "desc": "The abomination belches forth a cloud of acidic gas in a 30-foot cone.\

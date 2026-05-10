@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Chapter 2: Khorvaire Gazetteer
+- "Chapter 2: Khorvaire Gazetteer"
 ---
 # Chapter 2: Khorvaire Gazetteer
 *Source: Eberron: Rising from the Last War, p. 103* 
@@ -19,7 +20,7 @@ aliases:
 
 Most player characters begin their adventures on the continent of Khorvaire, as shown on the poster map included with this book and on "map 2.1". Although humans make up the majority of the population in the nations of Khorvaire, the continent is home to a wide range of peoples and cultures. Once largely unified under the Kingdom of Galifar, today Khorvaire is split into many nations—some old, others newly born from the crucible of war. This chapter provides an overview of Khorvaire, a glimpse of the world that lies beyond it, and the predominant faiths of Eberron.
 
-![A Lyrandar airship venture...](03.PlayerLog&Handouts/Mechanics/CLI/books/eberron-rising-from-the-last-war/img/068-2-01.webp#center "A Lyrandar airship ventures toward the dead-gray mist of the Mournland.")
+![A Lyrandar airship ventures toward the dead-gray mist of the Mournland.](03.PlayerLog&Handouts/Mechanics/CLI/books/eberron-rising-from-the-last-war/img/068-2-01.webp#center)
 
 ## Nations of Khorvaire
 
@@ -367,7 +368,7 @@ Known at various times as Greenholt, Newholt, or Kymar's Folly, this outpost has
 > 
 > *We're all going to die.* That thought echoed through my mind as the wagon carried us toward the Great Crag. The diplomats around me intended to speak with the Daughters of Sora Kell. All I could think about was the stories my grandmother used to tell me. *Sora Maenya can crush a giant with her bare hands. She can eat the whole creature and still be hungry. If you're bad, she'll come in the night and carry you away. She'll make a lantern of your skull and torment you until the end of time.* And she's the *least* frightening member of the Daughters of Sora Kell!
 > 
-> When I could set aside my sheer terror, I was learning a great deal about this strange nation. The Daughters invested power in warlords, each of whom rules a territory in their name. It's sort of like Karrnath, except each of the warlords of Droaam is a horrifying monster. We were traveling through the territory of the Prince of Bones, an ancient troll said to be too evil to die. We'd already passed through the domain of Queen Sheska the medusa, where even the trees are turning to stone. Harpies. Gargoyles. There's even a king of the kobolds. Our caravan was being protected by gnolls. Not protected *from* gnolls, protected *by* gnolls. I thought things couldn't get any stranger. I couldn't have been more wrong....
+> When I could set aside my sheer terror, I was learning a great deal about this strange nation. The Daughters invested power in warlords, each of whom rules a territory in their name. It's sort of like Karrnath, except each of the warlords of Droaam is a horrifying monster. We were traveling through the territory of the Prince of Bones, an ancient troll said to be too evil to die. We'd already passed through the domain of Queen Sheshka the medusa, where even the trees are turning to stone. Harpies. Gargoyles. There's even a king of the kobolds. Our caravan was being protected by gnolls. Not protected *from* gnolls, protected *by* gnolls. I thought things couldn't get any stranger. I couldn't have been more wrong....
 ^the-korranberg-chronicledescent-into-droaam-my-trail-to-terror
 
 **Capital**: The Great Crag

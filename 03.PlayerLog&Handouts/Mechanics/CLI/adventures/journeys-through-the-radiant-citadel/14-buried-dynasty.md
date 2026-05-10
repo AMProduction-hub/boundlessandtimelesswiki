@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 aliases:
-- Buried Dynasty
+- "Buried Dynasty"
 ---
 # Buried Dynasty
 *Source: Journeys through the Radiant Citadel, p. 186* 
@@ -54,7 +55,7 @@ Consider the following ways to involve characters in this adventure:
 
 ### Secrets of Immortality
 
-![Any who would speak with t...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/123-13-002-hall-divine-wisdom.webp#center "Any who would speak with the White Jade Emperor must petition for an audience at the Hall of Divine Wisdom")
+![Any who would speak with the White Jade Emperor must petition for an audience at the Hall of Divine Wisdom](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/123-13-002-hall-divine-wisdom.webp#center)
 
 This adventure embroils characters in a conspiracy involving the highest levels of Yongjing's government. Before running the adventure, familiarize yourself with the "Yongjing Gazetteer" section. Keep the following details of the conspiracy secret, revealing them only when the adventure text instructs you to do so.
 
@@ -434,7 +435,7 @@ The soldiers continue to animate and attack until the bronze gate is opened (see
 
 Magic seals this bronze double door. It opens only if the ki-rin symbol on one of the statues in the room—the only statue that doesn't animate—is pressed. A character who succeeds on a DC 14 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) notices that all the jade statues have distinct designs suggestive of different animals on their armor and that these designs are rendered in a style similar to the ki-rin symbol on the doors. A character who takes an action to further scrutinize these designs or looks for a ki-rin symbol on the statues can make a DC 18 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check. On a failed check, the character investigates a few statues and doesn't see anything remarkable. On a successful check, the character notices that the decorations on the statue ten alcoves south of the door matches the ki-rin symbol on the gate. If a creature touches the symbol on that statue, the gate opens, and all currently animate statues return to their alcoves and deactivate.
 
-![Ancient jade statues anima...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/130-13-004-ancient-jade-statues.webp#center "Ancient jade statues animate to defend the secret ruins beneath Yongjing")
+![Ancient jade statues animate to defend the secret ruins beneath Yongjing](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/130-13-004-ancient-jade-statues.webp#center)
 
 #### S2: Hallway Alcoves
 
@@ -671,8 +672,6 @@ Numerous dwarven dynasties have ruled Great Xing, with the human population gene
 Consider the plots on the Yongjing Adventures table when planning adventures in Yongjing.
 
 **Yongjing Adventures**
-
-`dice: [](14-buried-dynasty.md#^yongjing-adventures)`
 
 | dice: d4 | Adventure |
 |----------|-----------|

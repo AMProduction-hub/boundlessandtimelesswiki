@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Dimir Character Goals; Dimir Assignments
+- "Dimir Character Goals; Dimir Assignments"
 ---
 # Dimir Character Goals; Dimir Assignments
 *Source: Guildmasters' Guide to Ravnica p. 137* 
 
 **Dimir Assignments**
-
-`dice: [](dimir-character-goals-dimir-assignments-ggr.md#^dimir-assignments)`
 
 | dice: d6 | Assignment |
 |----------|------------|

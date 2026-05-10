@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hobgoblin Devastator
+- "Hobgoblin Devastator"
 ---
-# [Hobgoblin Devastator](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/hobgoblin-devastator-mpmm.md)
+# [Hobgoblin Devastator](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/hobgoblin-devastator-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 153, Volo's Guide to Monsters p. 161*  
 
 Hobgoblins with a prodigious talent for magic sometimes undergo grueling training to become hobgoblin devastators. Devastators are spellcasters who call down fireballs and other destructive magic in the defense of the court they serve, whether that court is in the Feywild or the Material Plane. A hobgoblin devastator on the battlefield is a boon to their allies and a threat to every foe around them.
@@ -50,7 +51,10 @@ In the Feywild, many archfey seek to bolster their armies' might with the servic
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 11"
+"gear":
+  - "[quarterstaff](03.PlayerLog&Handouts/Mechanics/CLI/items/quarterstaff.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common, Goblin"
 "cr": "4"
 "traits":
@@ -62,17 +66,17 @@ In the Feywild, many archfey seek to bolster their armies' might with the servic
 "actions":
   - "desc": "The hobgoblin makes two Quarterstaff or Devastating Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) bludgeoning damage if used\
       \ with two hands, plus 13 (3d8) force damage."
     "name": "Quarterstaff"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 60 ft., one target. *Hit:*\
       \ 21 (4d8 + 3) force damage, and the target is knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Devastating Bolt"
   - "desc": "The hobgoblin casts one of the following spells, using Intelligence as\
-      \ the spellcasting ability (spell save DC 13):\n\nAt will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ the spellcasting ability (spell save DC 13):\n\n**At will:** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n2/day each: [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md),\
+      \n**2/day each:** [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md),\
       \ [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md),\
       \ [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)"

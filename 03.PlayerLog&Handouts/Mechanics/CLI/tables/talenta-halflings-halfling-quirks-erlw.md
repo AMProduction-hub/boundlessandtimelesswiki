@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Talenta Halflings; Halfling Quirks
+- "Talenta Halflings; Halfling Quirks"
 ---
 # Talenta Halflings; Halfling Quirks
 *Source: Eberron: Rising from the Last War p. 27* 
 
 **Halfling Quirks**
-
-`dice: [](talenta-halflings-halfling-quirks-erlw.md#^halfling-quirks)`
 
 | dice: d10 | Quirk |
 |-----------|-------|

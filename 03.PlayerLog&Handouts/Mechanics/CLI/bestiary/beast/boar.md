@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Boar
+- "Boar"
 ---
-# [Boar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/boar.md)
-*Source: Monster Manual p. 319, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Dragon of Icespire Peak, Mythic Odysseys of Theros, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Boar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/boar.md)
+*Source: Monster Manual p. 319. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 ```statblock
 "name": "Boar"
@@ -40,7 +41,7 @@ aliases:
 "cr": "1/4"
 "traits":
   - "desc": "If the boar moves at least 20 feet straight toward a target and then\
-      \ hits it with a tusk attack on the same turn, the target takes an extra 3 (d6)\
+      \ hits it with a tusk attack on the same turn, the target takes an extra 3 (1d6)\
       \ slashing damage. If the target is a creature, it must succeed on a DC 11 Strength\
       \ saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Charge"
@@ -48,17 +49,11 @@ aliases:
       \ it is reduced to 1 hit point instead."
     "name": "Relentless (Recharges after a Short or Long Rest)"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) slashing damage."
     "name": "Tusk"
 "source":
   - "MM"
-  - "SKT"
-  - "ToA"
-  - "WDMM"
-  - "DIP"
-  - "MOT"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/boar.webp"
 ```
 ^statblock

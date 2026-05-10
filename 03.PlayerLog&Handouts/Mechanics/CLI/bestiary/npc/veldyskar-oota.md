@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Veldyskar
+- "Veldyskar"
 ---
-# [Veldyskar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/veldyskar-oota.md)
+# [Veldyskar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/veldyskar-oota.md)
 *Source: Out of the Abyss p. 151*  
 
 ```statblock
@@ -32,12 +33,13 @@ aliases:
   - !!int "8"
   - !!int "7"
 "speed": "20 ft."
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "Common, Dwarvish, Giant, Undercommon"
 "cr": "3"
 "traits":
   - "desc": "Veldyskar can innately cast the following spell, requiring no material\
-      \ components:\n\n1/day: [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md)"
+      \ components:\n\n**1/day:** [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md)"
     "name": "Innate Spellcasting"
   - "desc": "If a creature starts its turn within 30 feet of Veldyskar and the two\
       \ of them can see each other, Veldyskar can force the creature to make a DC\
@@ -55,7 +57,7 @@ aliases:
       \ itself with its gaze."
     "name": "Petrifying Gaze"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) piercing damage plus 7 (2d6) poison damage."
     "name": "Bite"
 "source":

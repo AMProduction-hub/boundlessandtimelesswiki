@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Jalester Silvermane
+- "Jalester Silvermane"
 ---
-# [Jalester Silvermane](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/jalester-silvermane-wdh.md)
+# [Jalester Silvermane](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jalester-silvermane-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 205*  
 
 *Human patron*
@@ -49,13 +50,16 @@ Jalester carries a badge of the Watch (+2 bonus to AC if not using a shield). If
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "strength": "+4"
-  - "constitution": "+3"
+  - "strength": !!int "4"
+  - "constitution": !!int "3"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+4"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+4"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Elvish"
 "cr": "4"
@@ -67,13 +71,13 @@ Jalester carries a badge of the Watch (+2 bonus to AC if not using a shield). If
 "actions":
   - "desc": "Jalester makes two weapon attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage when used with\
       \ two hands."
     "name": "Longsword"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage. Or Ranged Weapon Attack: +4 to hit, range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
 "reactions":
   - "desc": "When a creature that Jalester can see misses him with a melee attack,\

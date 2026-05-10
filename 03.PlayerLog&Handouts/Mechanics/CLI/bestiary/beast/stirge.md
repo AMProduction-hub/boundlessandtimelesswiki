@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-8
@@ -18,10 +19,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Stirge
+- "Stirge"
 ---
-# [Stirge](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/stirge.md)
-*Source: Monster Manual p. 284, Lost Mine of Phandelver, Princes of the Apocalypse, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Keys from the Golden Vault, Hunt for the Thessalhydra. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Stirge](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/stirge.md)
+*Source: Monster Manual p. 284. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 This horrid flying creature looks like a cross between a large bat and an oversized mosquito. Its legs end in sharp pincers, and its long, needle-like proboscis slashes the air as it seeks its next meal.
 
@@ -49,11 +50,12 @@ A stirge attacks by landing on a victim, finding a vulnerable spot, and plunging
   - !!int "8"
   - !!int "6"
 "speed": "10 ft., fly 40 ft."
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": ""
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 5 (1d4 + 3) piercing damage, and the stirge attaches to the target. While\
       \ attached, the stirge doesn't attack. Instead, at the start of each of the\
       \ stirge's turns, the target loses 5 (1d4 + 3) hit points due to blood loss.\n\
@@ -63,19 +65,6 @@ A stirge attacks by landing on a victim, finding a vulnerable spot, and plunging
     "name": "Blood Drain"
 "source":
   - "MM"
-  - "LMoP"
-  - "PotA"
-  - "TftYP"
-  - "ToA"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "BGDIA"
-  - "IMR"
-  - "EGW"
-  - "KftGV"
-  - "HftT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/stirge.webp"
 ```
 ^statblock

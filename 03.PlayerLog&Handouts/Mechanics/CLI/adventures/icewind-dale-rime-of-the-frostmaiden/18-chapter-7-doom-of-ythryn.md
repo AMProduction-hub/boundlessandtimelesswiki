@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Chapter 7: Doom of Ythryn
+- "Chapter 7: Doom of Ythryn"
 ---
 # Chapter 7: Doom of Ythryn
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 231* 
 
 Ythryn rests in the silent depths of the Reghed Glacier. Ice encloses the enclave on all sides, yet the magic imbued in its stonework shields it from utter destruction. Ythryn is now a corpse city—a tomb for those who perished here and a death trap for those who dare to explore its ruined, glaciated halls.
 
-![Ythryn is haunted by nothi...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/177-07-000-intro-splash.webp#center "Ythryn is haunted by nothics who were once powerful Netherese spellcasters")
+![Ythryn is haunted by nothics who were once powerful Netherese spellcasters](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/177-07-000-intro-splash.webp#center)
 
 ## Running This Chapter
 
@@ -39,7 +40,7 @@ Although it lacks the means to communicate, the demilich dimly recalls the circu
 
 ### The Fall of Ythryn
 
-After using the [Ythryn mythallar](03.PlayerLog&Handouts/Mechanics/CLI/items/ythryn-mythallar-idrotf.md) (see appendix D) to lift the enclave of Ythryn into the sky, Iriolarthas and his apprentices traveled to the frozen north in search of relics of Ostoria, a bygone empire of magic-wielding giants that waged war against the dragons forty thousand years earlier. After many fruitless excavations, they found a large stone spindle bearing strange sigils at the bottom of the Sea of Moving Ice and brought it back to Ythryn for study in the fall of −343 DR, the Year of Chilled Marrow. During one of their experiments, something went wrong—a flash of power from the spindle caused the *Ythryn* *mythallar* to shut down, which in turn caused the city to fall out of the sky and crash into the ice below.
+After using the [Ythryn mythallar](03.PlayerLog&Handouts/Mechanics/CLI/items/ythryn-mythallar-idrotf.md) (see appendix D) to lift the enclave of Ythryn into the sky, Iriolarthas and his apprentices traveled to the frozen north in search of relics of Ostoria, a bygone empire of magic-wielding giants that waged war against the dragons forty thousand years earlier. After many fruitless excavations, they found a large stone spindle bearing strange sigils at the bottom of the Sea of Moving Ice and brought it back to Ythryn for study in the fall of −343 DR, the Year of Chilled Marrow. During one of their experiments, something went wrong—a flash of power from the spindle caused the [Ythryn mythallar](03.PlayerLog&Handouts/Mechanics/CLI/items/ythryn-mythallar-idrotf.md) to shut down, which in turn caused the city to fall out of the sky and crash into the ice below.
 
 The inhabitants of Ythryn had only a few moments to react as the city fell. Iriolarthas conjured a doorway to a magical demiplane and stepped through it just in time. As Ythryn settled into its icy grave, all magic in the city became undone for a brief time, as though something was trying to siphon it all away. The demiplane expelled Iriolarthas in that instant, trapping the lich in Ythryn, and became a living demiplane (see appendix C). Iriolarthas searched the ruins of the city for his spellbook and his phylactery, recovering only the former. He also found several magical servants in stasis that had survived the devastation, as well as a handful of apprentices who had used their spells in ingenious ways to escape death.
 
@@ -92,19 +93,17 @@ After each hour the characters spend exploring the city, or each time the charac
 
 **Ythryn Encounters**
 
-`dice: [](18-chapter-7-doom-of-ythryn.md#^ythryn-encounters)`
-
 | dice: d100 | Encounter |
 |------------|-----------|
 | 01–50 | No encounter |
 | 51–55 | A [tomb tapper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/tomb-tapper-idrotf.md) (see appendix C) |
-| 56–60 | `d3` [living Bigby's hands](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/living-bigbys-hand-idrotf.md) (see appendix C), or `2d4` [cult fanatics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cult-fanatic.md) (Knights of the Black Sword) if [Avarice](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/avarice-idrotf.md) is in Ythryn |
-| 61–65 | `d3` [spitting mimics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/spitting-mimic-idrotf.md) (see appendix C), or `d3` [coldlight walkers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/coldlight-walker-idrotf.md) (see appendix C) if Auril is in Ythryn |
-| 66–70 | `1d4 + 1` [gargoyles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/gargoyle.md), or a [frost giant skeleton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/frost-giant-skeleton-idrotf.md) (see appendix C) accompanied by `d3` [winter wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/winter-wolf.md) if Auril is in Ythryn |
-| 71–75 | `1d4 + 1` [demos magen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/demos-magen-idrotf.md) and `d4` [galvan magen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/galvan-magen-idrotf.md) (see appendix C for their statistics) |
-| 76–80 | `1d4 + 1` [demos magen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/demos-magen-idrotf.md) and `d4` [hypnos magen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/hypnos-magen-idrotf.md) (see appendix C for their statistics) |
-| 81–90 | `d6` [nothics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/nothic.md) (former Netherese wizards) that speak Loross instead of Undercommon (see the "Loross: The Netherese Tongue" ) |
-| 91–00 | Iriolarthas the [demilich](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/demilich.md), with `d3` [nothics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/nothic.md) that speak Loross instead of Undercommon trailing behind it (the demilich uses the nothics to open and close doors and clear obstacles, since it can't do so) |
+| 56–60 | `1d3` [living Bigby's hands](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/living-bigbys-hand-idrotf.md) (see appendix C), or `2d4` [cult fanatics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cult-fanatic.md) (Knights of the Black Sword) if [Avarice](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/avarice-idrotf.md) is in Ythryn |
+| 61–65 | `1d3` [spitting mimics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/spitting-mimic-idrotf.md) (see appendix C), or `1d3` [coldlight walkers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/coldlight-walker-idrotf.md) (see appendix C) if Auril is in Ythryn |
+| 66–70 | `1d4 + 1` [gargoyles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/gargoyle.md), or a [frost giant skeleton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/frost-giant-skeleton-idrotf.md) (see appendix C) accompanied by `1d3` [winter wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/winter-wolf.md) if Auril is in Ythryn |
+| 71–75 | `1d4 + 1` [demos magen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/demos-magen-idrotf.md) and `1d4` [galvan magen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/galvan-magen-idrotf.md) (see appendix C for their statistics) |
+| 76–80 | `1d4 + 1` [demos magen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/demos-magen-idrotf.md) and `1d4` [hypnos magen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/hypnos-magen-idrotf.md) (see appendix C for their statistics) |
+| 81–90 | `1d6` [nothics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/nothic.md) (former Netherese wizards) that speak Loross instead of Undercommon (see the "Loross: The Netherese Tongue" ) |
+| 91–00 | Iriolarthas the [demilich](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/demilich.md), with `1d3` [nothics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/nothic.md) that speak Loross instead of Undercommon trailing behind it (the demilich uses the nothics to open and close doors and clear obstacles, since it can't do so) |
 ^ythryn-encounters
 
 ### Magical Effects
@@ -121,7 +120,7 @@ Any humanoid that spends 12 hours in the necropolis must succeed on a DC 15 Cons
 
 A player character infected with the arcane blight gains the following flaw: "I don't trust anyone." This flaw, which supersedes any conflicting flaw, is fed by delusions that are difficult for the character to distinguish from reality. Common delusions include the belief that that allies are conspiring to steal the victim's riches or otherwise turn against the victim.
 
-Whenever it finishes a long rest, an infected humanoid must repeat the saving throw. On a successful save, the DC for future saves against the arcane blight drops by `d6`. If the saving throw DC drops to 0, the creature overcomes the arcane blight and becomes immune to the effect of further exposure. A creature that fails three of these saving throws transforms into a [nothic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/nothic.md) under the DM's control. Only a [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell or divine intervention can undo this transformation.
+Whenever it finishes a long rest, an infected humanoid must repeat the saving throw. On a successful save, the DC for future saves against the arcane blight drops by `1d6`. If the saving throw DC drops to 0, the creature overcomes the arcane blight and becomes immune to the effect of further exposure. A creature that fails three of these saving throws transforms into a [nothic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/nothic.md) under the DM's control. Only a [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell or divine intervention can undo this transformation.
 
 A [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md) spell or similar magic ends the infection on the target, removing the flaw and all other symptoms, but this magic doesn't protect the target against further exposure.
 
@@ -152,26 +151,22 @@ Searching an unnumbered location takes 30 minutes and requires a check for rando
 
 **Ythryn Treasures**
 
-`dice: [](18-chapter-7-doom-of-ythryn.md#^ythryn-treasures)`
-
 | dice: d20 | Treasure |
 |-----------|----------|
 | 1–10 | No treasure |
-| 11 | `d4` Netherese art objects (250 gp each) |
-| 12–14 | `d4` pieces of jewelry (100 gp each) |
+| 11 | `1d4` Netherese art objects (250 gp each) |
+| 12–14 | `1d4` pieces of jewelry (100 gp each) |
 | 15 | A [driftglobe](03.PlayerLog&Handouts/Mechanics/CLI/items/driftglobe.md) (or another common magic item of your choice) |
 | 16–20 | A frieze that reveals one piece of Ythryn lore (determined by rolling a `d20` and consulting the Ythryn Lore table below) |
 ^ythryn-treasures
 
-![Once a haven for wizards, ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/180-07-001-ythryn.webp#center "Once a haven for wizards, Ythryn is now a tomb filled with ancient secrets")
+![Once a haven for wizards, Ythryn is now a tomb filled with ancient secrets](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/180-07-001-ythryn.webp#center)
 
 ### Ythryn Lore
 
 As the characters explore Ythryn, they piece together a picture of what life was like in the enclave. Whenever a location instructs you to reveal some of Ythryn's lore, roll a `d20` and refer to the Ythryn Lore table. If you get a result that's come up before, roll again or choose a different result.
 
 **Ythryn Lore**
-
-`dice: [](18-chapter-7-doom-of-ythryn.md#^ythryn-lore)`
 
 | dice: d20 | Lore |
 |-----------|------|
@@ -269,7 +264,7 @@ The trophy can't be removed from its pedestal until it is won. If a creature tri
 > 
 > Chain Lightning is a game in which two teams of six players compete against each other. To win, a team must eliminate the other team's players by hitting them with a 3-inch-diameter iron ball. A player struck by the thrown ball is eliminated and teleported to the sidelines. The game ends when all of one team's players have been eliminated.
 > 
-> When the game begins, an iron ball magically appears in a random location on the arena floor roughly equidistant from the two teams. The ball is a simple ranged weapon with the finesse and thrown properties. Its range is 120 feet, and it deals `d4` bludgeoning damage on a hit.
+> When the game begins, an iron ball magically appears in a random location on the arena floor roughly equidistant from the two teams. The ball is a simple ranged weapon with the finesse and thrown properties. Its range is 120 feet, and it deals `1d4` bludgeoning damage on a hit.
 > 
 > To simulate a game of Chain Lightning, follow these steps:
 > 
@@ -278,7 +273,7 @@ The trophy can't be removed from its pedestal until it is won. If a creature tri
 > **Step 2.** To simulate the ball being passed around, every player makes a DC 15 Dexterity ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. If the team on offense gets more successes than the team on defense, one player on offense can try either to hurl the ball between the metal tines of an electrified mast, hoping to impart an electrical charge to the ball, or make a ranged weapon attack with the ball against a player on defense. Each option is described below:
 > 
 > - Hurling the ball between the tines of an electrified mast requires a successful ranged attack roll against AC 15. If this attack hits, the ball becomes electrically charged as it passes between the tines. Repeat step 1 to determine which team gets custody of the electrically charged ball.  
-> - If the ball is thrown at a player on defense and it hits, the player struck by the ball is eliminated. If the ball is electrically charged when it hits, it deals an additional 3 (`d6`) lightning damage to the eliminated player, and an arc of lightning shoots from the ball and automatically hits another randomly determined player on the same team. This second player takes 3 (`d6`) lightning damage and is also eliminated. If the ball is thrown at a player and it misses, it loses its electrical charge if it has one. Repeat step 1 to determine which team gets custody of the ball.  
+> - If the ball is thrown at a player on defense and it hits, the player struck by the ball is eliminated. If the ball is electrically charged when it hits, it deals an additional 3 (`1d6`) lightning damage to the eliminated player, and an arc of lightning shoots from the ball and automatically hits another randomly determined player on the same team. This second player takes 3 (`1d6`) lightning damage and is also eliminated. If the ball is thrown at a player and it misses, it loses its electrical charge if it has one. Repeat step 1 to determine which team gets custody of the ball.  
 > 
 > **How to Win.** Repeat step 2 until one team has eliminated all the players on the other team.
 ^chain-lightning
@@ -390,7 +385,7 @@ The night hags keep their heartstones and soul bags on their persons (see the "N
 
 Characters who ransack the hag's den find a platinum needle (1 gp) stuck in a pincushion, a pink quartz figurine of a rabbit (50 gp), a silver necklace from which hangs a crow's-foot pendant grasping a peridot (500 gp), a [potion of invisibility](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-invisibility.md) in a stoppered vial made from a witch's fingerbone, and a [potion of longevity](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-longevity.md) in a hollow gourd that bears a child's face locked in a scream.
 
-![Auntie Pinch, Auntie Pilla...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/181-07-002.webp#center "Auntie Pinch, Auntie Pillage, and Auntie Plunder are open for business")
+![Auntie Pinch, Auntie Pillage, and Auntie Plunder are open for business](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/181-07-002.webp#center)
 
 #### Y8. House of the Arcane
 
@@ -417,8 +412,6 @@ A humanoid that drinks from the goblet gains a supernatural charm (see ""Superna
 Once a creature has gained a charm from the goblet, it cannot gain another one by drinking from the goblet again.
 
 **Magic Goblet Charms**
-
-`dice: [](18-chapter-7-doom-of-ythryn.md#^magic-goblet-charms)`
 
 | dice: d8 | Charm |
 |----------|-------|
@@ -460,7 +453,7 @@ The characters must evade, defeat, or strike a deal with Scrivenscry if they wan
 
 ##### Searching the Library
 
-Characters who spend a few hours studying the books in the library learn `d3` facts from the Ythryn Lore table. One of the tomes they examine is an almanac that lists past winners of the city's Chain Lightning tournament (see area area Y3). Characters who read this tome find a summary of the game's rules.
+Characters who spend a few hours studying the books in the library learn `1d3` facts from the Ythryn Lore table. One of the tomes they examine is an almanac that lists past winners of the city's Chain Lightning tournament (see area area Y3). Characters who read this tome find a summary of the game's rules.
 
 In addition, characters who search the library find a journal written by Thufeus, one of the few mages who survived Ythryn's crash. It describes how the city fell from the sky and the attempts of its doomed survivors to escape (see "The Fall of Ythryn"). The last entry reads "Iriolarthas is convinced that aid will come in time from Netheril. I am not so sure."
 
@@ -597,7 +590,7 @@ The Arch-Astronomer, now a [green slaad](03.PlayerLog&Handouts/Mechanics/CLI/bes
 
 The chunk of wall from the Tower of Divination (area Y11) bears the following inscription in Draconic: "Third, a burnt palm loosens the tongue. Shed a secret about yourself for all to hear." This is a passage from the Rite of the Arcane Octad (see "Rite of the Arcane Octad" ).
 
-![A green slaad gazes into t...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/183-07-003-green-slaad.webp#center "A green slaad gazes into the eyepiece of Ythryn's telescope")
+![A green slaad gazes into the eyepiece of Ythryn's telescope](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/183-07-003-green-slaad.webp#center)
 
 #### Y16. Menagerie
 
@@ -616,13 +609,11 @@ The chimeric creator needs 8 hours to recharge before it can be used again. A ga
 
 **Chimeric Creations**
 
-`dice: [](18-chapter-7-doom-of-ythryn.md#^chimeric-creations)`
-
 | dice: d6 | Creature |
 |----------|----------|
 | 1 | A [weasel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/chimeric-weasel-idrotf.md) with glowing eyes that emit bright light out in a 20-foot radius and dim light for an additional 20 feet |
 | 2 | A [hare](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/chimeric-hare-idrotf.md) (see appendix C) with feathered wings and a flying speed of 30 feet |
-| 3 | A [baboon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/chimeric-baboon-idrotf.md) with a bite attack that deals an extra 3 (`d6`) poison damage on a hit |
+| 3 | A [baboon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/chimeric-baboon-idrotf.md) with a bite attack that deals an extra 3 (`1d6`) poison damage on a hit |
 | 4 | A [cat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/chimeric-cat-idrotf.md) with antennae that grant it [blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight) and [tremorsense](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Tremorsense) out to a range of 60 feet |
 | 5 | A [rat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/chimeric-rat-idrotf.md) with gills, iridescent scales, and the ability to breathe air and water |
 | 6 | A [fox](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/chimeric-fox-idrotf.md) (see appendix C) with fur that changes color to match its surroundings, giving it advantage on Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)) checks |
@@ -826,7 +817,7 @@ The crystals embedded in the niches are used to project Everlast's illusory form
 
 This hatch is mounted in the ceiling, 30 feet above the floor, and can be spotted from the floor only with a successful DC 20 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check. Knocking on the hatch causes it to swing open, revealing a 5-foot-diameter vertical shaft that ascends 50 feet to area Y19k. A character can use an action to pull open the hatch by force, doing so with a successful DC 20 Strength check.
 
-![A living blade of disaster...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/187-07-005-blade-of-disaster.webp#center "A living blade of disaster is a powerful, annihilating spell given a will of its own.")
+![A living blade of disaster is a powerful, annihilating spell given a will of its own.](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/187-07-005-blade-of-disaster.webp#center)
 
 #### Y19k. Dome
 
@@ -843,7 +834,7 @@ Two [living blades of disaster](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/con
 
 ##### Green Crystal
 
-This glowing crystal sustains the wall of force but has become loose in its stone fixture. Whenever a loud noise is made inside the chamber, the loose crystal flickers. Tremendously loud noises, such as those made by a [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md) spell or a [horn of blasting](03.PlayerLog&Handouts/Mechanics/CLI/items/horn-of-blasting.md), cause the crystal to go out for `d6` rounds, during which time the wall of force is suppressed. The first time this happens, the ice that coats the dome collapses.
+This glowing crystal sustains the wall of force but has become loose in its stone fixture. Whenever a loud noise is made inside the chamber, the loose crystal flickers. Tremendously loud noises, such as those made by a [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md) spell or a [horn of blasting](03.PlayerLog&Handouts/Mechanics/CLI/items/horn-of-blasting.md), cause the crystal to go out for `1d6` rounds, during which time the wall of force is suppressed. The first time this happens, the ice that coats the dome collapses.
 
 A character within reach of the crystal can use an action to pry it from its fixture, which causes the crystal to go dark for good, ending the wall of force. Destroying the crystal has the same effect. The crystal is a Tiny, 1-pound object with AC 13, 4 hit points, and immunity to poison and psychic damage.
 
@@ -909,7 +900,7 @@ This chamber was built to house unstable magic items during experimentation, but
 
 The spindle is immune to all damage and is unaffected by any magic in existence today. It can't be moved from this location. If it is targeted by a spell of 5th level or higher, an explosion of magical energy blasts from it: all magic items and magical effects within a three-mile radius (including those within the spire) are suppressed for 24 hours, and spellcasters are drained of any unexpended spell slots. Living spells, constructs, and other magically created creatures are unaffected. The pulse of energy suppresses magical traps throughout the city and causes the floating chamber above Skydock Spire (area Y28) to crash into to the ground, pulverizing it and dealing 99 (`18d10`) bludgeoning damage to each creature inside it.
 
-![This stone spindle, a reli...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/188-07-006-stone-spindle.webp#center "This stone spindle, a relic of the ancient world, brought down Ythryn nearly two thousand years ago")
+![This stone spindle, a relic of the ancient world, brought down Ythryn nearly two thousand years ago](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/188-07-006-stone-spindle.webp#center)
 
 #### Y19o. Library
 
@@ -1085,7 +1076,7 @@ From the moment it is donned, the crown begins to siphon memories from its weare
 
 After wearing the crown for 1 hour, a creature must succeed on a DC 15 Intelligence saving throw or be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned) until the crown is removed from its head by someone else. This saving throw is repeated at the end of each hour until either the crown has been removed or its wearer has become [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned). If a creature wears the crown for ten uninterrupted days, the condition becomes permanent, as the crown reduces its wearer to a mindless husk. A [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md) spell or similar magic ends the effect and restores the creature's lost memories.
 
-The crown can be destroyed on the *anvil of disjunction* (area Y4). It is otherwise impervious to damage. If the crown is destroyed, the memories it has absorbed flood over all creatures within 10 feet of it. Characters assailed by this barrage gain `d6` pieces of lore from the Ythryn Lore table.
+The crown can be destroyed on the *anvil of disjunction* (area Y4). It is otherwise impervious to damage. If the crown is destroyed, the memories it has absorbed flood over all creatures within 10 feet of it. Characters assailed by this barrage gain `1d6` pieces of lore from the Ythryn Lore table.
 
 ##### Inscription
 
@@ -1202,7 +1193,7 @@ Characters who ascend the stairs to the upper level come across the following di
 > A frost-covered plaque is bolted to a pedestal nearby, and the entire display is framed by four stone pillars that are, oddly, frost-free.
 ^6d4
 
-![A spitting mimic's size al...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/190-07-008-mimic.webp#center "A spitting mimic's size allows it to assume such large forms as walls and pillars.")
+![A spitting mimic's size allows it to assume such large forms as walls and pillars.](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/190-07-008-mimic.webp#center)
 
 The pillars are four [spitting mimics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/spitting-mimic-idrotf.md) (see appendix C) that guard the creature on display, attacking anyone who touches or otherwise disturbs it.
 
@@ -1257,7 +1248,7 @@ If she becomes aware of Vellynne's presence in Ythryn, [Avarice](03.PlayerLog&Ha
 
 #### Avarice as an Ally
 
-[Avarice](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/avarice-idrotf.md) is smart enough to ally with the characters if doing so might help her conquer Ythryn, but she won't join forces as long as [Vellynne Harpell](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vellynne-harpell-idrotf.md) is with them—she demands that they cast out her hated rival. If the characters oblige and banish Vellynne from their ranks, [Avarice](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/avarice-idrotf.md) reciprocates by sharing `d4` pieces of Ythryn lore she has learned (determine each piece by rolling on the Ythryn Lore table).
+[Avarice](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/avarice-idrotf.md) is smart enough to ally with the characters if doing so might help her conquer Ythryn, but she won't join forces as long as [Vellynne Harpell](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vellynne-harpell-idrotf.md) is with them—she demands that they cast out her hated rival. If the characters oblige and banish Vellynne from their ranks, [Avarice](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/avarice-idrotf.md) reciprocates by sharing `1d4` pieces of Ythryn lore she has learned (determine each piece by rolling on the Ythryn Lore table).
 
 Unlike Vellynne, who accompanies the characters, [Avarice](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/avarice-idrotf.md) prefers to remain in her glass chamber atop Skydock Spire and stay in touch with the characters remotely by using her [Rary's telepathic bond](03.PlayerLog&Handouts/Mechanics/CLI/spells/rarys-telepathic-bond.md) spell. Once the characters find all the inscriptions they need to bypass the force field around the Spire of Iriolarthas, [Avarice](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/avarice-idrotf.md) emerges from her base and accompanies them into the tower, eager to claim the treasures inside.
 

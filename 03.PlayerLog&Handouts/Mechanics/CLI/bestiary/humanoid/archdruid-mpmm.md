@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/12
@@ -13,18 +14,16 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Archdruid
+- "Archdruid"
 ---
-# [Archdruid](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/archdruid-mpmm.md)
-*Source: Mordenkainen Presents: Monsters of the Multiverse p. 48, Volo's Guide to Monsters p. 210, Waterdeep: Dungeon of the Mad Mage p. 311*  
+# [Archdruid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/archdruid-mpmm.md)
+*Source: Mordenkainen Presents: Monsters of the Multiverse p. 48, Volo's Guide to Monsters p. 210*  
 
 Archdruids watch over the natural wonders of their domains. They seldom interact with folk away from their druid groves and shrines, unless there is a great threat to the natural order or to a nearby community. An archdruid typically has one or more pupils who are [druids](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md), and the archdruid's lair is usually guarded by loyal Beasts and Fey creatures.
 
 When an archdruid uses their Change Shape action, you may choose the creature they turn into, abiding by the action's restrictions. Or you may roll on the Archdruid Favored Shapes table to determine the form the archdruid adopts.
 
 **Archdruid Favored Shapes**
-
-`dice: [](archdruid-mpmm.md#^archdruid-favored-shapes)`
 
 | dice: d8 | Favored Shape |
 |----------|---------------|
@@ -58,8 +57,8 @@ When an archdruid uses their Change Shape action, you may choose the creature th
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+9"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "9"
 "skillsaves":
   - "name": "[Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)"
     "desc": "+9"
@@ -74,22 +73,22 @@ When an archdruid uses their Change Shape action, you may choose the creature th
   - "desc": "The archdruid makes three Staff or Wildfire attacks. It can replace one\
       \ attack with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) bludgeoning damage plus 21 (6d6) poison damage."
     "name": "Staff"
-  - "desc": "Ranged Spell Attack: +9 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +9 to hit, range 120 ft., one target. *Hit:*\
       \ 26 (6d6 + 5) fire damage, and the target is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
       \ until the start of the druid's next turn."
     "name": "Wildfire"
   - "desc": "The archdruid casts one of the following spells, using Wisdom as the\
-      \ spellcasting ability (spell save DC 17):\n\nAt will: [beast sense](03.PlayerLog&Handouts/Mechanics/CLI/spells/beast-sense.md),\
+      \ spellcasting ability (spell save DC 17):\n\n**At will:** [beast sense](03.PlayerLog&Handouts/Mechanics/CLI/spells/beast-sense.md),\
       \ [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md), [speak\
       \ with animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md)\n\
-      \n3/day each: [animal messenger](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-messenger.md),\
+      \n**3/day each:** [animal messenger](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-messenger.md),\
       \ [dominate beast](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-beast.md),\
       \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
       \ [tree stride](03.PlayerLog&Handouts/Mechanics/CLI/spells/tree-stride.md)\n\
-      \n1/day each: [commune with nature](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune-with-nature.md)\
+      \n**1/day each:** [commune with nature](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune-with-nature.md)\
       \ (as an action), [mass cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-cure-wounds.md)"
     "name": "Spellcasting"
 "bonus_actions":
@@ -108,7 +107,6 @@ When an archdruid uses their Change Shape action, you may choose the creature th
 "source":
   - "MPMM"
   - "VGM"
-  - "WDMM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/archdruid-mpmm.webp"
 ```
 ^statblock

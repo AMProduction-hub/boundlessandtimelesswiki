@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- War-Torn Survivor; War-Torn Villains
+- "War-Torn Survivor; War-Torn Villains"
 ---
 # War-Torn Survivor; War-Torn Villains
 *Source: Eberron: Rising from the Last War p. 209* 
 
 **War-Torn Villains**
-
-`dice: [](war-torn-survivor-war-torn-villains-erlw.md#^war-torn-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

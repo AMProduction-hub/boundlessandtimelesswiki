@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hrigg Roundrook (4th Level)
+- "Hrigg Roundrook (4th Level)"
 ---
-# [Hrigg Roundrook (4th Level)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/hrigg-roundrook-4th-level-dsotdq.md)
+# [Hrigg Roundrook (4th Level)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hrigg-roundrook-4th-level-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 211*  
 
 ```statblock
@@ -34,7 +35,7 @@ aliases:
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+5"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+4"
@@ -45,15 +46,18 @@ aliases:
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 15"
+"gear":
+  - "[maul](03.PlayerLog&Handouts/Mechanics/CLI/items/maul.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Common, Dwarvish"
 "traits":
   - "desc": "Hrigg's spellcasting ability is Wisdom (spell save DC 13, +5 to hit\
-      \ with spell attacks). He has the following cleric spells prepared:\n\nAt\
-      \ will: [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ with spell attacks). He has the following cleric spells prepared:\n\n**At\
+      \ will:** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
       \ [spare the dying](03.PlayerLog&Handouts/Mechanics/CLI/spells/spare-the-dying.md)\n\
-      \n1st level (3 slots): [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
+      \n**1st level (3 slots):** [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md), [detect evil\
       \ and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md)"
     "name": "Spellcasting"
@@ -64,7 +68,7 @@ aliases:
       \ condition on himself."
     "name": "Dwarven Resilience"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d6 + 2) bludgeoning damage."
     "name": "Maul"
 "source":

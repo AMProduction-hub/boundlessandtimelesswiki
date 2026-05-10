@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Identify Important NPCs; Adventure Villains
+- "Identify Important NPCs; Adventure Villains"
 ---
 # Identify Important NPCs; Adventure Villains
 *Source: Dungeon Master's Guide p. 74* 
 
 **Adventure Villains**
-
-`dice: [](identify-important-npcs-adventure-villains.md#^adventure-villains)`
 
 | dice: d20 | Villain |
 |-----------|---------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Troglodyte Champion of Laogzed
+- "Troglodyte Champion of Laogzed"
 ---
-# [Troglodyte Champion of Laogzed](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/troglodyte-champion-of-laogzed-oota.md)
+# [Troglodyte Champion of Laogzed](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/troglodyte-champion-of-laogzed-oota.md)
 *Source: Out of the Abyss p. 229*  
 
 The Monster Manual provides statistics for the typical troglodyte. Once in a while, a troglodyte tribe produces an unusually smart and strong specimen that can spew acid-what many troglodytes consider blessings from Laogzed, their demonic god. These hulking troglodyte champions make excellent chieftains.
@@ -42,7 +43,10 @@ The Monster Manual provides statistics for the typical troglodyte. Once in a whi
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
-"senses": "darkvision 60 ft., passive Perception 11"
+"gear":
+  - "[greatclub](03.PlayerLog&Handouts/Mechanics/CLI/items/greatclub.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Troglodyte"
 "cr": "3"
 "traits":
@@ -63,13 +67,13 @@ The Monster Manual provides statistics for the typical troglodyte. Once in a whi
   - "desc": "The troglodyte makes three attacks: one with its bite and two with either\
       \ its claws or its greatclub."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d4 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d4 + 4) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) bludgeoning damage."
     "name": "Greatclub"
   - "desc": "The troglodyte spits acid in a line 15 feet long and 5 feet wide. Each\

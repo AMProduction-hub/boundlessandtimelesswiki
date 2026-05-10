@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Pig
+- "Pig"
 ---
-# [Pig](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/pig-skt.md)
+# [Pig](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/pig-skt.md)
 *Source: Storm King's Thunder p. 143*  
 
 ```statblock

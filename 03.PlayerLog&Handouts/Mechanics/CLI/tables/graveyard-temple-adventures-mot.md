@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Graveyard Temple Adventures
+- "Graveyard Temple Adventures"
 ---
 # Graveyard Temple Adventures
 *Source: Mythic Odysseys of Theros p. 126* 
 
 **Graveyard Temple Adventures**
-
-`dice: [](graveyard-temple-adventures-mot.md#^graveyard-temple-adventures)`
 
 | dice: d10 | Adventure Goal |
 |-----------|----------------|

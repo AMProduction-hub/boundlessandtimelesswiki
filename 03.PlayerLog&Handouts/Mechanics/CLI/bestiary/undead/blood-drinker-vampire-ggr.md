@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/8
@@ -9,18 +10,20 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Blood Drinker Vampire
+- "Blood Drinker Vampire"
 ---
-# [Blood Drinker Vampire](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/blood-drinker-vampire-ggr.md)
+# [Blood Drinker Vampire](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/blood-drinker-vampire-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 223*  
+
+## Blood Drinker Vampire
 
 Plenty of blood drinkers haunt Ravnica's alleys and sewers, preying on those who are foolish enough to leave the relative safety of the crowds.
 
-## Orzhov Vampires
+### Orzhov Vampires
 
 Vampires thrive in the Orzhov Syndicate, where they can collect tithes and payments from their debtors in the form of blood. Their undead nature gives them the same immortality enjoyed by the oligarch spirits, but they remain capable of experiencing all the delights of their corporeal forms. In contrast to Orzhov spirits, they also retain their personalities, which are almost uniformly cruel.
 
-## Blood Bond
+### Blood Bond
 
 Consuming a creature's blood creates a sort of empathic bond that allows the blood drinker vampire to exert some magical influence over its victim.
 
@@ -49,9 +52,9 @@ The vampires of Ravnica differ from those in the Monster Manual in important way
   - !!int "19"
 "speed": "40 ft., fly 40 ft. (hover)"
 "saves":
-  - "dexterity": "+7"
-  - "constitution": "+6"
-  - "wisdom": "+4"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+7"
@@ -60,18 +63,21 @@ The vampires of Ravnica differ from those in the Monster Manual in important way
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
 "damage_resistances": "necrotic; bludgeoning, piercing, slashing from nonmagical attacks"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "the languages it knew in life"
 "cr": "8"
 "actions":
   - "desc": "The vampire makes three melee attacks, only one of which can be a bite\
       \ attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one willing creature,\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one willing creature,\
       \ or a creature that is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ by the vampire, [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated),\
       \ or [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
-      \ Hit: 7 (1d6 + 4) piercing damage plus 7 (2d6) necrotic damage. If the\
+      \ *Hit:* 7 (1d6 + 4) piercing damage plus 7 (2d6) necrotic damage. If the\
       \ target is humanoid, it must succeed on a DC 15 Charisma saving throw or be\
       \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
       \ by the vampire for 1 minute. While [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
@@ -81,10 +87,10 @@ The vampires of Ravnica differ from those in the Monster Manual in important way
       \ the target finishes a long rest. The target dies if its hit point maximum\
       \ is reduced to 0."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) piercing damage."
     "name": "Rapier"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) bludgeoning damage. The vampire can also grapple the target (escape\
       \ DC 14) if it is a creature and the vampire has a hand free."
     "name": "Unarmed Strike"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Shield Dwarf Noble
+- "Shield Dwarf Noble"
 ---
-# [Shield Dwarf Noble](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/shield-dwarf-noble-skt.md)
+# [Shield Dwarf Noble](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/shield-dwarf-noble-skt.md)
 *Source: Storm King's Thunder p. 78*  
 
 ```statblock
@@ -41,14 +42,17 @@ aliases:
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+5"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[warhammer](03.PlayerLog&Handouts/Mechanics/CLI/items/warhammer.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "any two languages, Dwarvish"
 "cr": "1/8"
 "traits":
   - "desc": "The shield dwarf noble"
     "name": "Dwarven Resilience"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d8 + 1) bludgeoning damage, or 6 (1d10 + 1) bludgeoning damage if used\
       \ with two hands."
     "name": "Warhammer"

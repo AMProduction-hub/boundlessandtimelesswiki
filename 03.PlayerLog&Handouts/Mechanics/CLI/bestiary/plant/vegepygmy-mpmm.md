@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-4
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vegepygmy
+- "Vegepygmy"
 ---
-# [Vegepygmy](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/vegepygmy-mpmm.md)
+# [Vegepygmy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/vegepygmy-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 252, Volo's Guide to Monsters p. 196*  
 
 Typical vegepygmies originate from the remains left behind when a Humanoid or a Giant is killed by [russet mold](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/russet-mold-vgm.md). One or more vegepygmies emerge from the corpse a day later.
@@ -48,7 +49,10 @@ Although they prefer to eat fresh meat, bone, and blood, vegepygmies can absorb 
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "damage_resistances": "lightning, piercing"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[sling](03.PlayerLog&Handouts/Mechanics/CLI/items/sling.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Vegepygmy"
 "cr": "1/4"
 "traits":
@@ -61,10 +65,10 @@ Although they prefer to eat fresh meat, bone, and blood, vegepygmies can absorb 
       \ 0 hit points and doesn't regenerate."
     "name": "Regeneration"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage."
     "name": "Claws"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 4 (1d4 + 2) bludgeoning damage."
     "name": "Sling"
 "source":

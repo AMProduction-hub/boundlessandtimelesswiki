@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/14
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Greater Death Dragon
+- "Greater Death Dragon"
 ---
-# [Greater Death Dragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/greater-death-dragon-dsotdq.md)
+# [Greater Death Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/greater-death-dragon-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 195*  
 
 Some death dragons manage to retain almost all of their former selves, albeit twisted by their state of being. These greater death dragons scheme to achieve their ends, all the while amassing and jealously guarding treasure hoards as they did in life. In battle, they are deadly foes, channeling the Cataclysmic fire that limns their bones and fuels their breath. They take cruel delight in snatching foes in their jaws, rushing into the air, then dropping the snared creatures to their doom.
@@ -41,8 +42,8 @@ A death dragon's bones burn with violet Cataclysmic fire, which it can unleash i
   - !!int "10"
 "speed": "40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+7"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
@@ -52,7 +53,9 @@ A death dragon's bones burn with violet Cataclysmic fire, which it can unleash i
 "damage_immunities": "necrotic, poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 17"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 17"
 "languages": "Common, Draconic"
 "cr": "14"
 "traits":
@@ -63,13 +66,13 @@ A death dragon's bones burn with violet Cataclysmic fire, which it can unleash i
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
-      \ 17 (2d10 + 6) piercing damage plus 4 (d8) necrotic damage. If the target\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
+      \ 17 (2d10 + 6) piercing damage plus 4 (1d8) necrotic damage. If the target\
       \ is a Large or smaller creature, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 19). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and the dragon can't bite a different target."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft. one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft. one target. *Hit:* 10\
       \ (1d8 + 6) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales a wave of ghostly purple flames in a 60-foot cone.\
@@ -82,13 +85,17 @@ A death dragon's bones burn with violet Cataclysmic fire, which it can unleash i
       \ dragon's initiative but immediately after the dragon's turn. Absent any other\
       \ command, the zombie tries to kill any non-Undead creature it encounters."
     "name": "Cataclysmic Breath (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the greater death dragon can expend a use to take one of the following actions.\
+  \ The greater death dragon regains all expended uses at the start of each of its\
+  \ turns."
 "legendary_actions":
   - "desc": "The dragon makes one Claw attack."
     "name": "Claw"
   - "desc": "The dragon moves up to half its flying speed without provoking opportunity\
       \ attacks, carrying with it any creatures it is grappling. During this move,\
       \ if it enters the space of a Medium or smaller creature, that creature takes\
-      \ 4 (d8) necrotic damage. A creature can take this damage only once per turn."
+      \ 4 (1d8) necrotic damage. A creature can take this damage only once per turn."
     "name": "Cataclysmic Rush (Costs 2 Actions)"
 "source":
   - "DSotDQ"

@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/genasi/earth
 aliases:
-- Genasi (Earth)
+- "Genasi (Earth)"
 ---
 # Genasi (Earth)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 17*  
@@ -43,6 +44,12 @@ Starting at 5th level, you can cast the [pass without trace](03.PlayerLog&Handou
 Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).
 
 ## Description
+
+Tracing their ancestry to dao, the genies of the Elemental Plane of Earth, earth genasi inherit dao's steadfast strength and control over earth.
+
+An earth genasi's skin can be the colors of stone and earth or a human skin tone with glittering sparkles like gem dust. Some earth genasi have lines marking their skin like cracks, either showing glimmering gemlike veins or a dim, yellowish glow. Earth genasi hair can appear carved of stone or crystal or resemble strands of spun metal.
+
+### Genasi
 
 Tracing their ancestry to the genies of the Elemental Planes, each genasi can tap into the power of one of the elements. Air, earth, fire, and water—these are the four pillars of the Material Plane and the four types of genasi. Some genasi are direct descendants of a genie, while others were born to non-genasi parents who lived near a place suffused by a genie's magic.
 

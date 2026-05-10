@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Auril (Second Form)
+- "Auril (Second Form)"
 ---
-# [Auril (Second Form)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/auril-second-form-idrotf.md)
+# [Auril (Second Form)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/auril-second-form-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 277*  
 
 Auril's second form, known to her worshipers as Lady Icekiss or the Brittle Maiden, is that of a 10-foot-tall woman of fearsome aspect made entirely of ice and frost. Her eyes burn with a cold blue light, and a thin cloak of mist forms around her. Blades of ice grow out of her body at odd angles, breaking off before they get too long. When she moves, her body crackles.
@@ -75,8 +76,8 @@ A stat block is given for each of Auril's three forms. These descriptions do not
   - !!int "28"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+9"
-  - "wisdom": "+12"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "12"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+13"
@@ -95,7 +96,9 @@ A stat block is given for each of Auril's three forms. These descriptions do not
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 120 ft., truesight 120 ft., passive Perception 26"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., [truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 26"
 "languages": "all, telepathy 1000 ft."
 "cr": "10"
 "traits":
@@ -117,11 +120,11 @@ A stat block is given for each of Auril's three forms. These descriptions do not
 "actions":
   - "desc": "Auril attacks twice with her ice morningstar or hurls three ice darts."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage plus 9 (2d8) cold damage."
     "name": "Ice Morningstar"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 20/60 ft., one target. Hit:\
-      \ 5 (1d4 + 3) piercing damage plus 3 (d6) cold damage."
+  - "desc": "*Ranged Weapon Attack:* +7 to hit, range 20/60 ft., one target. *Hit:*\
+      \ 5 (1d4 + 3) piercing damage plus 3 (1d6) cold damage."
     "name": "Ice Dart"
   - "desc": "Auril causes a magical blast of cold air to erupt from her hand. Each\
       \ creature in a 60-foot cone must make a DC 21 Constitution saving throw, taking\
@@ -148,6 +151,9 @@ A stat block is given for each of Auril's three forms. These descriptions do not
       \ fire damage. The freed creature appears in an unoccupied space of its choice\
       \ within 30 feet of the shattered crystal."
     "name": "Ice Stasis (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Auril can expend a use to take one of the following actions. Auril regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Auril makes one weapon attack."
     "name": "Attack"

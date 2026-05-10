@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/22
@@ -15,9 +16,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Zaratan
+- "Zaratan"
 ---
-# [Zaratan](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/zaratan-mpmm.md)
+# [Zaratan](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/zaratan-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 278, Mordenkainen's Tome of Foes p. 201*  
 
 When a zaratan is summoned from the Elemental Plane of Earth, the ground rises up to take the shape of a hulking, armored reptile. A zaratan's steps trigger shock waves severe enough to level structures. It expresses its rage through trumpeting calls and the occasional boulder or blast of debris it spews from its cavernous maw. If seriously injured, a zaratan retracts its appendages to gain shelter beneath its impervious shell, biding its time until it recovers and can resume its march.
@@ -41,8 +42,8 @@ When a zaratan is summoned from the Elemental Plane of Earth, the ground rises u
   - !!int "18"
 "speed": "40 ft., swim 40 ft."
 "saves":
-  - "wisdom": "+12"
-  - "charisma": "+11"
+  - "wisdom": !!int "12"
+  - "charisma": !!int "11"
 "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
 "damage_immunities": "poison"
@@ -51,7 +52,8 @@ When a zaratan is summoned from the Elemental Plane of Earth, the ground rises u
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 15"
 "languages": ""
 "cr": "22"
 "traits":
@@ -63,14 +65,14 @@ When a zaratan is summoned from the Elemental Plane of Earth, the ground rises u
 "actions":
   - "desc": "The zaratan makes one Bite attack and one Stomp attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 20 ft., one target. *Hit:*\
       \ 28 (4d8 + 10) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 20 ft., one target. *Hit:*\
       \ 26 (3d10 + 10) thunder damage."
     "name": "Stomp"
-  - "desc": "Ranged Weapon Attack: +17 to hit, range 120 ft./240 ft., one target.\
-      \ Hit: 31 (6d8 + 10) force damage."
+  - "desc": "*Ranged Weapon Attack:* +17 to hit, range 120 ft./240 ft., one target.\
+      \ *Hit:* 31 (6d8 + 10) force damage."
     "name": "Spit Rock"
   - "desc": "The zaratan exhales rocky debris in a 90-foot cube. Each creature in\
       \ that area must make a DC 25 Dexterity saving throw. A creature takes 33 (6d10)\
@@ -97,6 +99,9 @@ When a zaratan is summoned from the Elemental Plane of Earth, the ground rises u
       \ doesn't fall [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
       \ or become trapped."
     "name": "Earth-Shaking Movement"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the zaratan can expend a use to take one of the following actions. The zaratan\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The zaratan makes one Stomp attack."
     "name": "Stomp"

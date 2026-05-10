@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/race/human/mark-of-handling
 aliases:
-- Human (Mark of Handling)
+- "Human (Mark of Handling)"
 ---
 # Human (Mark of Handling)
 *Source: Eberron: Rising from the Last War p. 42*  
 
 
-- **Ability Scores**: Wisdom +2; Apply +1 to one of Strength, Dexterity, Constitution, Intelligence, or Charisma.
+- **Ability Scores**: Apply +1 to one of Strength, Dexterity, Constitution, Intelligence, or Charisma.
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Wisdom

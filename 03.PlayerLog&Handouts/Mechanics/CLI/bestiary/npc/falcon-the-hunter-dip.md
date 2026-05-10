@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dip
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Falcon the Hunter
+- "Falcon the Hunter"
 ---
-# [Falcon the Hunter](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/falcon-the-hunter-dip.md)
+# [Falcon the Hunter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/falcon-the-hunter-dip.md)
 *Source: Dragon of Icespire Peak p. 56*  
 
 Adventurers encounter Falcon the Hunter if they visit his hunting lodge in Neverwinter Wood.
@@ -36,8 +37,8 @@ Adventurers encounter Falcon the Hunter if they visit his hunting lodge in Never
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+4"
-  - "wisdom": "+5"
+  - "dexterity": !!int "4"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+4"
@@ -45,6 +46,9 @@ Adventurers encounter Falcon the Hunter if they visit his hunting lodge in Never
     "desc": "+7"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+5"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
 "senses": "passive Perception 17"
 "languages": "Common"
 "cr": "4"
@@ -57,11 +61,11 @@ Adventurers encounter Falcon the Hunter if they visit his hunting lodge in Never
 "actions":
   - "desc": "Falcon makes three melee attacks or two ranged attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with\
       \ two hands."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:*\
       \ 11 (2d8 + 2) piercing damage."
     "name": "Longbow"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/21
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Solar
+- "Solar"
 ---
-# [Solar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/solar.md)
-*Source: Monster Manual p. 18, Baldur's Gate: Descent Into Avernus, Candlekeep Mysteries, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Solar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/solar.md)
+*Source: Monster Manual p. 18. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 An angel is a celestial agent sent forth into the planes to further its god's agenda for weal or woe. Its sublime beauty and presence can drive awestruck onlookers to their knees. Yet angels are destroyers too, and their appearance portends doom as often as it signals hope.
 
@@ -59,9 +60,9 @@ It is said that only twenty-four solars exist. The few solars that are known are
   - !!int "30"
 "speed": "50 ft., fly 150 ft."
 "saves":
-  - "intelligence": "+14"
-  - "wisdom": "+14"
-  - "charisma": "+17"
+  - "intelligence": !!int "14"
+  - "wisdom": !!int "14"
+  - "charisma": !!int "17"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+14"
@@ -71,18 +72,21 @@ It is said that only twenty-four solars exist. The few solars that are known are
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 24"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 24"
 "languages": "all, telepathy 120 ft."
 "cr": "21"
 "traits":
   - "desc": "The solar's spellcasting ability is Charisma (spell save DC 25). It can\
       \ innately cast the following spells, requiring no material components:\n\n\
-      At will: [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
+      **At will:** [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
-      \ (self only)\n\n3/day each: [blade barrier](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-barrier.md),\
+      \ (self only)\n\n**3/day each:** [blade barrier](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-barrier.md),\
       \ [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md),\
       \ [resurrection](03.PlayerLog&Handouts/Mechanics/CLI/spells/resurrection.md)\n\
-      \n1/day each: [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md),\
+      \n**1/day each:** [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md),\
       \ [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md)"
     "name": "Innate Spellcasting"
   - "desc": "The solar's weapon attacks are magical. When the solar hits with any\
@@ -96,11 +100,11 @@ It is said that only twenty-four solars exist. The few solars that are known are
 "actions":
   - "desc": "The solar makes two greatsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 5 ft., one target. *Hit:*\
       \ 22 (4d6 + 8) slashing damage plus 27 (6d8) radiant damage."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +13 to hit, range 150/600 ft., one target.\
-      \ Hit: 15 (2d8 + 6) piercing damage plus 27 (6d8) radiant damage. If the\
+  - "desc": "*Ranged Weapon Attack:* +13 to hit, range 150/600 ft., one target.\
+      \ *Hit:* 15 (2d8 + 6) piercing damage plus 27 (6d8) radiant damage. If the\
       \ target is a creature that has 100 hit points or fewer, it must succeed on\
       \ a DC 15 Constitution saving throw or die."
     "name": "Slaying Longbow"
@@ -115,6 +119,9 @@ It is said that only twenty-four solars exist. The few solars that are known are
       \ + 4) hit points and is freed from any curse, disease, poison, blindness,\
       \ or deafness."
     "name": "Healing Touch (4/Day)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the solar can expend a use to take one of the following actions. The solar\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The solar magically teleports, along with any equipment it is wearing\
       \ or carrying, up to 120 feet to an unoccupied space it can see."
@@ -132,9 +139,6 @@ It is said that only twenty-four solars exist. The few solars that are known are
     "name": "Blinding Gaze (Costs 3 Actions)"
 "source":
   - "MM"
-  - "BGDIA"
-  - "CM"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/token/solar.webp"
 ```
 ^statblock

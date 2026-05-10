@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Augen Trust (Spy)
+- "Augen Trust (Spy)"
 ---
 # Augen Trust (Spy)
 *Source: Explorer's Guide to Wildemount p. 203*  
@@ -31,8 +32,6 @@ You have a reliable and trustworthy contact who acts as your liaison to a networ
 
 There are many kinds of criminals, and within a thieves' guild or similar criminal organization, individual members have particular specialties. Even criminals who operate outside of such organizations have strong preferences for certain kinds of crimes over others. Choose the role you played in your criminal life, or roll on the table below.
 
-`dice: [](augen-trust-spy-egw.md#^specialty)`
-
 | dice: d8 | Specialty |
 |----------|-----------|
 | 1 | Blackmailer |
@@ -49,8 +48,6 @@ There are many kinds of criminals, and within a thieves' guild or similar crimin
 
 Criminals might seem like villains on the surface, and many of them are villainous to the core. But some have an abundance of endearing, if not redeeming, characteristics. There might be honor among thieves, but criminals rarely show any respect for law or authority.
 
-`dice: [](augen-trust-spy-egw.md#^personality-trait)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | I always have a plan for when things go wrong. |
@@ -63,8 +60,6 @@ Criminals might seem like villains on the surface, and many of them are villaino
 | 8 | I blow up at the slightest insult. |
 ^personality-trait
 
-`dice: [](augen-trust-spy-egw.md#^ideal)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | Honor. I don't steal from others in the trade. (Lawful) |
@@ -75,8 +70,6 @@ Criminals might seem like villains on the surface, and many of them are villaino
 | 6 | Redemption. There's a spark of good in everyone. (Good) |
 ^ideal
 
-`dice: [](augen-trust-spy-egw.md#^bond)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | I'm trying to pay off an old debt I owe to a generous benefactor. |
@@ -86,8 +79,6 @@ Criminals might seem like villains on the surface, and many of them are villaino
 | 5 | I'm guilty of a terrible crime. I hope I can redeem myself for it. |
 | 6 | Someone I loved died because of a mistake I made. That will never happen again. |
 ^bond
-
-`dice: [](augen-trust-spy-egw.md#^flaw)`
 
 | dice: d6 | Flaw |
 |----------|------|

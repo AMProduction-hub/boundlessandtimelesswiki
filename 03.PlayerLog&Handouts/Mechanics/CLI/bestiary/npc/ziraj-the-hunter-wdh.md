@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ziraj the Hunter
+- "Ziraj the Hunter"
 ---
-# [Ziraj the Hunter](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/ziraj-the-hunter-wdh.md)
+# [Ziraj the Hunter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ziraj-the-hunter-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 201*  
 
 Ziraj is a half-orc hunter who wields an oversized bow that shoots correspondingly large arrows. He is the Master of Assassination for the Black Network. If Ziraj sets out to kill someone, it's because one of his friends (Davil, Istrid, Skeemo, or Tashlyn) asked him to. The characters might become Ziraj's prey, or Ziraj might come to their aid to eliminate a common enemy. He's the strong, silent type.
@@ -46,8 +47,8 @@ The Doom Raiders were five unscrupulous adventurers who liked to plunder lich la
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+5"
-  - "charisma": "+5"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+7"
@@ -57,27 +58,31 @@ The Doom Raiders were five unscrupulous adventurers who liked to plunder lich la
     "desc": "+7"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[glaive](03.PlayerLog&Handouts/Mechanics/CLI/items/glaive.md)"
+  - "[oversized longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/oversized-longbow-wdh.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Orc"
 "cr": "8"
 "traits":
   - "desc": "Ziraj is a 10th-level spellcaster. His spellcasting ability is Charisma.\
-      \ He has the following paladin spells prepared:\n\n1st level (4 slots):\
+      \ He has the following paladin spells prepared:\n\n**1st level (4 slots):**\
       \ [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md), [protection\
       \ from evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md),\
       \ [thunderous smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderous-smite.md)\n\
-      \n2nd level (3 slots): [branding smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/branding-smite.md),\
+      \n**2nd level (3 slots):** [branding smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/branding-smite.md),\
       \ [find steed](03.PlayerLog&Handouts/Mechanics/CLI/spells/find-steed.md)\n\n\
-      3rd level (2 slots): [blinding smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/blinding-smite.md),\
+      **3rd level (2 slots):** [blinding smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/blinding-smite.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md)"
     "name": "Spellcasting"
 "actions":
   - "desc": "Ziraj makes three attacks with his glaive or with his oversized longbow."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d10 + 4) slashing damage."
     "name": "Glaive"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +7 to hit, range 150/600 ft., one target. *Hit:*\
       \ 11 (2d6 + 4) piercing damage."
     "name": "Oversized Longbow"
   - "desc": "Ziraj exudes magical menace. Each enemy within 30 feet of him must succeed\

@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 aliases:
-- Chapter 6: City of Lost Names
+- "Chapter 6: City of Lost Names"
 ---
 # Chapter 6: City of Lost Names
 *Source: Dragonlance: Shadow of the Dragon Queen, p. 135* 
 
 The goal of the Red Dragon Army's invasion is not only conquering Kalaman, but also obtaining a weapon to aid it in conquering all of Solamnia. A contingent of the Dragon Army's forces seeks to restore the ancient magic of the City of Lost Names, raising it as a devastating, flying battle platform. With these forces go [Lord Soth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lord-soth-dsotdq.md), who—following whispers from the Dragon Queen—seeks to raise an army of Undead dragons from the draconic graveyard beneath the city. While the characters' allies distract the enemy forces outside the ruined city, the characters infiltrate the City of Lost Names to discover the Dragon Army's plots and foil them.
 
-![The City of Lost Names has...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/093-06-001-chapter-splash.webp#center "The City of Lost Names has known centuries of peace, but now the Dragon Army claims its streets and skies")
+![The City of Lost Names has known centuries of peace, but now the Dragon Army claims its streets and skies](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/093-06-001-chapter-splash.webp#center)
 
 ## Running This Chapter
 
@@ -307,7 +308,7 @@ Characters who aren't taking the test are generally unaware of what's transpirin
 
 ### Running the Test
 
-![To conduct the Test of Hig...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/097-06-003-test-high-sorcery.webp#center "To conduct the Test of High Sorcery, the mage Demelin conjures a vision of Onyari's fall")
+![To conduct the Test of High Sorcery, the mage Demelin conjures a vision of Onyari's fall](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/097-06-003-test-high-sorcery.webp#center)
 
 When a test-taking character is ready to begin the test, [Demelin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/demelin-dsotdq.md) instructs them to move to the center of the room. Read or paraphrase the following text, addressing the test-taking character alone:
 
@@ -344,7 +345,7 @@ Scholars struggle to evacuate a collection of ancient tomes (or something else t
 
 The test shouldn't be strictly a combat encounter. The point is to gauge a character's values and disposition. Consider the following suggestions to make the test more dramatic:
 
-- **Altered Magic.** Spellcasting or other class features could function differently during the test. For example, perhaps each time the character casts a spell using a spell slot, they take 6 (`d12`) necrotic damage or gain 1 level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) that lingers until the test ends.  
+- **Altered Magic.** Spellcasting or other class features could function differently during the test. For example, perhaps each time the character casts a spell using a spell slot, they take 6 (`1d12`) necrotic damage or gain 1 level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) that lingers until the test ends.  
 - **Dream Logic.** Like a dream, the test doesn't need to make sense or be consistent from moment to moment. It's okay for the character's surroundings to shift dramatically or for unexpected individuals to show up. Don't let these changes make the character feel like their choices don't matter. Rather, change situations to heighten the drama—like by turning innocents into allies or childhood friends.  
 - **Timing.** The test should last as long as feels dramatic and end after a character-defining moral choice. If it seems like things are going too fast, raise the stakes and make things worse to see if the character sticks with their choices.  
 
@@ -430,8 +431,6 @@ As the characters explore the City of Lost Names, use the City Sights table to d
 
 **City Sights**
 
-`dice: [](07-chapter-6-city-of-lost-names.md#^city-sights)`
-
 | dice: d6 | Sight |
 |----------|-------|
 | 1 | A Humanoid skeleton lies under a fallen aqueduct. It holds a [dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md), and the words "we deserve this" are scratched into a nearby cobblestone. |
@@ -447,8 +446,6 @@ As the characters explore the City of Lost Names, use the City Sights table to d
 The City of Lost Names is full of Dragon Army troops and other threats. As the characters travel between locations, or whenever you please, roll on the Random City Encounters table.
 
 **Random City Encounters**
-
-`dice: [](07-chapter-6-city-of-lost-names.md#^random-city-encounters)`
 
 | dice: d8 | Encounter |
 |----------|-----------|
@@ -483,8 +480,6 @@ Five [kapak draconians](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity
 A character who interrogates a low-ranking member of the Red Dragon Army and succeeds on a DC 14 Charisma ([Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation) or [Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)) check learns one piece of information from the Dragon Army Interrogations table. On a failed check, the captive yells "As the Dragon Queen wills!" until silenced.
 
 **Dragon Army Interrogations**
-
-`dice: [](07-chapter-6-city-of-lost-names.md#^dragon-army-interrogations)`
 
 | dice: d4 | Information |
 |----------|-------------|
@@ -1026,7 +1021,7 @@ Atop a console, [Lohezet](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lohez
 
 #### T10: Bridge
 
-![At the Threshold of the He...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/109-06-007-belephaion-true-form.webp#center "At the Threshold of the Heavens, Belephaion reveals his true form")
+![At the Threshold of the Heavens, Belephaion reveals his true form](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/109-06-007-belephaion-true-form.webp#center)
 
 > [!readaloud] 
 > 

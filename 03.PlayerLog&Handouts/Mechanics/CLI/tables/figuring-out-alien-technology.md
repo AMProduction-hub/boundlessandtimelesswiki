@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Figuring Out Alien Technology
+- "Figuring Out Alien Technology"
 ---
 # Figuring Out Alien Technology
 *Source: Dungeon Master's Guide p. 268* 

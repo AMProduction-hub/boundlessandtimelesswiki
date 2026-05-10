@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 21: Terminus Level
+- "Level 21: Terminus Level"
 ---
 # Level 21: Terminus Level
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 265* 
@@ -481,7 +482,7 @@ This section of the mine has been depleted of mithral and iron ore. It contains 
 [Stalagma](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/stalagma-steelshadow-wdmm.md) is [Valtagar Steelshadow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/valtagar-steelshadow-wdmm.md)'s beloved mate, and only Valtagar knows that his wife is a dragon in disguise. In her true form, Stalagma looks like a slender, 30-foot-long dragon with shiny steel-gray scales covering her body, steely talons, and blade-like horns that sweep back from her narrow head. She has the statistics of an [adult silver dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-silver-dragon.md), with these changes:
 
 - Stalagma is lawful evil.  
-- While in duergar form, she has the Duergar Resilience and Sunlight Sensitivity traits of a [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md), as well as its Enlarge and Invisibility action options. In this form, she wields a glaive and can use her action to attack with it three times (+13 to hit), dealing 13 (`1d10 + 8`) slashing damage on a hit, or 19 (`2d10 + 8`) slashing damage in her enlarged duergar form.  
+- While in duergar form, she has the Duergar Resilience and Sunlight Sensitivity traits of a [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md), as well as its Enlarge and Invisibility action options. In this form, she wields a glaive and can use her action to attack with it three times (`+13` to hit), dealing 13 (`1d10 + 8`) slashing damage on a hit, or 19 (`2d10 + 8`) slashing damage in her enlarged duergar form.  
 - Instead of Cold Breath, she breathes acid in a 60-foot-long, 5-foot-wide line. The breath weapon deals acid damage instead of cold damage.  
 - She speaks Draconic, Dwarvish, and Terran.  
 
@@ -514,7 +515,7 @@ These chambers guard the stairs to level 22. The ceilings are 20 feet high throu
 > **Xindulus**. An [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) [ultroloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/ultroloth.md) named Xindulus guards a secret door leading to a 10-foot-wide spiral staircase that descends to level 22 (see "Secret Door" below).
 ^a71
 
-If anyone opens the secret door, the ultroloth appears and tries to slay them. It ignores those who leave the secret door alone, allowing them to move through the area unmolested. If threatened by three or more enemies, it tries to summon `d6` [mezzoloths](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/mezzoloth.md), `d4` [nycaloths](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/nycaloth.md), or another [ultroloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/ultroloth.md) (see the "Variant: Yugoloth Summoning" sidebar in the "Yugoloths" entry in the "Monster Manual").
+If anyone opens the secret door, the ultroloth appears and tries to slay them. It ignores those who leave the secret door alone, allowing them to move through the area unmolested. If threatened by three or more enemies, it tries to summon `1d6` [mezzoloths](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/mezzoloth.md), `1d4` [nycaloths](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/nycaloth.md), or another [ultroloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/ultroloth.md) (see the "Variant: Yugoloth Summoning" sidebar in the "Yugoloths" entry in the "Monster Manual").
 
 Xindulus won't negotiate with adventurers unless they offer it something immensely valuable, such as a legendary magic item or an artifact.
 
@@ -613,7 +614,7 @@ Once judgment is rendered, [Fazrian](03.PlayerLog&Handouts/Mechanics/CLI/bestiar
 
 Only a character judged innocent by [Fazrian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fazrian-wdmm.md) can alter the planetar's disposition enough to make it realize how corrupt it has become. Such a character can use an action to call on the planetar to look inward and judge itself, making a DC 26 Charisma ([Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)) check as part of that action. If the player roleplays well, grant the character advantage on the check. A character who gets a failure on the check can't try again, but they can still help another character who then tries to convince the planetar of its own guilt. On a successful check of this sort, a lingering shred of goodness in [Fazrian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fazrian-wdmm.md) is awakened. The planetar weeps as it begs Torm for forgiveness. Then, in a final act of atonement and self-sacrifice, it impales itself on its sword and dies.
 
-If the planetar dies by its own hand or at the hands of the characters, Torm bestows on each character a *blessing of protection* (see ""Supernatural Gifts"" in chapter 7 of the "Dungeon Master's Guide"). This blessing is permanent if its receiver is a worshiper of Torm; otherwise, the blessing lasts for 10 days. Torm's blessing is not bestowed on any character who releases one or both mariliths that are trapped in the crystal menhirs (see "Standing Gate to Level 19" below).
+If the planetar dies by its own hand or at the hands of the characters, Torm bestows on each character a [blessing of protection](03.PlayerLog&Handouts/Mechanics/CLI/rewards/blessing-of-protection.md) (see ""Supernatural Gifts"" in chapter 7 of the "Dungeon Master's Guide"). This blessing is permanent if its receiver is a worshiper of Torm; otherwise, the blessing lasts for 10 days. Torm's blessing is not bestowed on any character who releases one or both mariliths that are trapped in the crystal menhirs (see "Standing Gate to Level 19" below).
 
 ##### Nycaloth
 

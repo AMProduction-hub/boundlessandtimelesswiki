@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Harshnag
+- "Harshnag"
 ---
-# [Harshnag](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/harshnag-skt.md)
+# [Harshnag](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/harshnag-skt.md)
 *Source: Storm King's Thunder p. 120*  
 
 Gigantic reavers from the freezing lands beyond civilization, frost giants are fierce, hardy warriors that survive on the spoils of their raids and pillaging.They respect only brute strength and skill in battle, demonstrating both with their scars and the grisly trophies they take from their enemies.
@@ -24,7 +25,7 @@ Frost giants dwell in high peaks and glacial rifts where the sun hides its golde
 
 ## Reavers of the Storm
 
-The war horns of the frost giants howl as they march from their ice fortresses and glacial rifts amid the howling blizzard. When thatstorm clears, villages and steadings lay in ruins, ravens descending to feed on the corpses of any creatures foolish or unlucky enough to stand in the giants' path.
+The war horns of the frost giants howl as they march from their ice fortresses and glacial rifts amid the howling blizzard. When that storm clears, villages and steadings lay in ruins, ravens descending to feed on the corpses of any creatures foolish or unlucky enough to stand in the giants' path.
 
 Inns and taverns suffer the brunt of the damage, their cellars gutted and their casks of ale and mead gone. Smithies are likewise toppled, their iron and steel claimed. Curiously undisturbed are the houses of moneylenders and wealthy citizens, for the reavers have little use for coins or baubles. Frost giants prize gems and jewelry large enough to be worn and noticed. However, even those treasures are most often saved for trading opportunities with other giants more adept at crafting metal weapons and armor.
 
@@ -85,15 +86,17 @@ Some giants abandon their own gods and fall prey to demon cults, paying homage t
   - !!int "12"
 "speed": "40 ft."
 "saves":
-  - "constitution": "+9"
-  - "wisdom": "+4"
-  - "charisma": "+5"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+10"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
 "damage_immunities": "cold"
+"gear":
+  - "[gurt's greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/gurts-greataxe-skt.md)"
 "senses": "passive Perception 13"
 "languages": "Common, Giant"
 "cr": "9"
@@ -101,8 +104,8 @@ Some giants abandon their own gods and fall prey to demon cults, paying homage t
   - "desc": "If Harshnag fails a saving throw, he can choose to succeed instead."
     "name": "Legendary Resistance (1/Day)"
 "actions":
-  - "desc": "Ranged Weapon Attack: +5 to hit, ranged 20/60 ft., one Small, Medium,\
-      \ or Large creature. Hit: The target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, ranged 20/60 ft., one Small, Medium,\
+      \ or Large creature. *Hit:* The target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ until it escapes the net. Any creature can use its action to make a DC 17\
       \ Strength check to free itself or another creature in the net, ending the effect\
       \ on a success. Dealing 15 slashing damage to the net (AC 12) destroys the net\
@@ -110,11 +113,11 @@ Some giants abandon their own gods and fall prey to demon cults, paying homage t
     "name": "Weighted Net"
   - "desc": "The giant makes two greataxe attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 26 (3d12 + 7) slashing damage, or 39 (5d12 + 7) slashing damage if the\
       \ target is human."
     "name": "Gurt's Greataxe"
-  - "desc": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +9 to hit, range 60/240 ft., one target. *Hit:*\
       \ 28 (4d10 + 6) bludgeoning damage."
     "name": "Rock"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/25
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Klauth
+- "Klauth"
 ---
-# [Klauth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/klauth-skt.md)
+# [Klauth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/klauth-skt.md)
 *Source: Storm King's Thunder p. 95*  
 
 The most covetous of the true dragons, red dragons tirelessly seek to increase their treasure hoards. They are exceptionally vain, even for dragons, and their conceit is reflected in their proud bearing and their disdain for other creatures. The odor of sulfur and pumice surrounds a red dragon, whose swept-back horns and spinal frill define its silhouette. Its beaked snout vents smoke at all times, and its eyes dance with flame when it is angry. Its wings are the longest of any chromatic dragon, and have a blue-black tint along the trailing edge that resembles metal burned blue by fire.
@@ -111,17 +112,19 @@ Tiamat's most hated enemy is Bahamut the Platinum Dragon, with whom she shares c
   - !!int "23"
 "speed": "40 ft., climb 40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+8"
-  - "constitution": "+17"
-  - "wisdom": "+10"
-  - "charisma": "+14"
+  - "dexterity": !!int "8"
+  - "constitution": !!int "17"
+  - "wisdom": !!int "10"
+  - "charisma": !!int "14"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+16"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+8"
 "damage_immunities": "fire"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 26"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 26"
 "languages": "Common, Draconic"
 "cr": "25"
 "traits":
@@ -138,13 +141,13 @@ Tiamat's most hated enemy is Bahamut the Platinum Dragon, with whom she shares c
   - "desc": "Klauth can use his Frightful Presence. He then makes three attacks: one\
       \ with his bite and two with his claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:*\
       \ 21 (2d10 + 10) piercing damage plus 14 (4d6) fire damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 10 ft., one target. *Hit:*\
       \ 17 (2d6 + 10) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +17 to hit, reach 20 ft., one target. *Hit:*\
       \ 19 (2d8 + 10) bludgeoning damage."
     "name": "Tail"
   - "desc": "Each creature of Klauth's choice that is within 120 feet of Klauth and\
@@ -159,15 +162,15 @@ Tiamat's most hated enemy is Bahamut the Platinum Dragon, with whom she shares c
       \ save, or half as much damage on a successful one."
     "name": "Fire Breath (Recharge 5-6)"
   - "desc": "Klauth casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 22):\n\nAt\
-      \ will: [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 22):\n\n**At\
+      \ will:** [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [minor\
       \ illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n2/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \n**2/day each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
-      \ [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md)\n\n1/day\
-      \ each: [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \ [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md)\n\n**1/day\
+      \ each:** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md), [disintegrate](03.PlayerLog&Handouts/Mechanics/CLI/spells/disintegrate.md),\
       \ [etherealness](03.PlayerLog&Handouts/Mechanics/CLI/spells/etherealness.md),\
       \ [find the path](03.PlayerLog&Handouts/Mechanics/CLI/spells/find-the-path.md)\
@@ -177,6 +180,61 @@ Tiamat's most hated enemy is Bahamut the Platinum Dragon, with whom she shares c
       \ [mirage arcane](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirage-arcane.md)\
       \ (cast as 1 action), [prismatic spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/prismatic-spray.md)"
     "name": "Spellcasting"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), the dragon takes a lair\
+      \ action to cause one of the following effects; the dragon can't use the same\
+      \ effect two rounds in a row:\n\n- Magma erupts from a point on the ground the\
+      \ dragon can see within 120 feet of it, creating a 20-foot-high, 5-foot-radius\
+      \ geyser. Each creature in the geyser's area must make a DC 15 Dexterity saving\
+      \ throw, taking 21 (6d6) fire damage on a failed save, or half as much damage\
+      \ on a successful one.  \n- A tremor shakes the lair in a 60-foot radius around\
+      \ the dragon. Each creature other than the dragon on the ground in that area\
+      \ must succeed on a DC 15 Dexterity saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
+      \  \n- Volcanic gases form a cloud in a 20-foot-radius sphere centered on a\
+      \ point the dragon can see within 120 feet of it. The sphere spreads around\
+      \ corners, and its area is lightly obscured. It lasts until initiative count\
+      \ 20 on the next round. Each creature that starts its turn in the cloud must\
+      \ succeed on a DC 13 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ until the end of its turn. While [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ in this way, a creature is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).\
+      \  \n\n**Additional Lair Actions.** At your discretion, a legendary ([adult](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-red-dragon.md)\
+      \ or [ancient](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-red-dragon.md))\
+      \ red dragon can use one or both of the following additional lair actions while\
+      \ in its lair:\n\n- **Noxious Smoke.** A cloud of thick, dark smoke fills a\
+      \ 20-foot-radius sphere centered on a point the dragon can see within 120 feet\
+      \ of it. The sphere spreads around corners, and its area is heavily obscured.\
+      \ A creature other than the dragon that starts its turn in the cloud or enters\
+      \ it for the first time on its turn must succeed on a DC 15 Constitution saving\
+      \ throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ until the end of its turn. The cloud lasts until initiative count 20 on the\
+      \ next round.  \n- **Searing Heat.** Searing heat spreads out in a 15-foot-radius\
+      \ sphere centered on a point the dragon can see within 120 feet of it. Any creature\
+      \ that enters the affected area or starts its turn there must make a DC 15 Constitution\
+      \ saving throw, taking 10 (3d6) fire damage on a failed save, or half as much\
+      \ damage on a successful one. The heat lasts until initiative count 20 on the\
+      \ next round.  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region containing a legendary red dragon's lair is warped by the\
+      \ dragon's magic, which creates one or more of the following effects:\n\n- Small\
+      \ earthquakes are common within 6 miles of the dragon's lair.  \n- Water sources\
+      \ within 1 mile of the lair are supernaturally warm and tainted by sulfur. \
+      \ \n- Rocky fissures within 1 mile of the dragon's lair form portals to the\
+      \ Elemental Plane of Fire, allowing creatures of elemental fire into the world\
+      \ to dwell nearby.  \n\nIf the dragon dies, these effects fade over the course\
+      \ of 1d10 days.\n\n**Additional Regional Effects.** Any of these effects might\
+      \ appear in the area around a red dragon's lair, in addition to or instead of\
+      \ the effects described in the *Monster Manual*:\n\n- **Desertification.** Precipitation\
+      \ is almost nonexistent within 6 miles of the dragon's lair, making the land\
+      \ parched and arid and most plant life withered and brown.  \n- **Fiery Senses.**\
+      \ The dragon can hear up to 30 feet through any open flame within 1 mile of\
+      \ the dragon's lair.  \n- **Ominous Flames.** Open flames within 6 miles of\
+      \ the dragon's lair are tinged dark red, hiss and crackle constantly, and throw\
+      \ off embers and showers of sparks.  "
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Klauth can expend a use to take one of the following actions. Klauth regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Klauth makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ check."
@@ -188,66 +246,6 @@ Tiamat's most hated enemy is Bahamut the Platinum Dragon, with whom she shares c
       \ and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
       \ Klauth can then fly up to half his flying speed."
     "name": "Wing Attack (Costs 2 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), the dragon takes a lair\
-      \ action to cause one of the following effects; the dragon can't use the same\
-      \ effect two rounds in a row:"
-    "name": ""
-  - "desc": "- Magma erupts from a point on the ground the dragon can see within 120\
-      \ feet of it, creating a 20-foot-high, 5-foot-radius geyser. Each creature in\
-      \ the geyser's area must make a DC 15 Dexterity saving throw, taking 21 (6d6)\
-      \ fire damage on a failed save, or half as much damage on a successful one.\
-      \  \n- A tremor shakes the lair in a 60-foot radius around the dragon. Each\
-      \ creature other than the dragon on the ground in that area must succeed on\
-      \ a DC 15 Dexterity saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
-      \  \n- Volcanic gases form a cloud in a 20-foot-radius sphere centered on a\
-      \ point the dragon can see within 120 feet of it. The sphere spreads around\
-      \ corners, and its area is lightly obscured. It lasts until initiative count\
-      \ 20 on the next round. Each creature that starts its turn in the cloud must\
-      \ succeed on a DC 13 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-      \ until the end of its turn. While [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-      \ in this way, a creature is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).\
-      \  "
-    "name": ""
-  - "desc": "At your discretion, a legendary ([adult](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-red-dragon.md)\
-      \ or [ancient](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-red-dragon.md))\
-      \ red dragon can use one or both of the following additional lair actions while\
-      \ in its lair:\n\n- Noxious Smoke. A cloud of thick, dark smoke fills a\
-      \ 20-foot-radius sphere centered on a point the dragon can see within 120 feet\
-      \ of it. The sphere spreads around corners, and its area is heavily obscured.\
-      \ A creature other than the dragon that starts its turn in the cloud or enters\
-      \ it for the first time on its turn must succeed on a DC 15 Constitution saving\
-      \ throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-      \ until the end of its turn. The cloud lasts until initiative count 20 on the\
-      \ next round.  \n- Searing Heat. Searing heat spreads out in a 15-foot-radius\
-      \ sphere centered on a point the dragon can see within 120 feet of it. Any creature\
-      \ that enters the affected area or starts its turn there must make a DC 15 Constitution\
-      \ saving throw, taking 10 (3d6) fire damage on a failed save, or half as much\
-      \ damage on a successful one. The heat lasts until initiative count 20 on the\
-      \ next round.  "
-    "name": "Additional Lair Actions"
-"regional_effects":
-  - "desc": "The region containing a legendary red dragon's lair is warped by the\
-      \ dragon's magic, which creates one or more of the following effects:"
-    "name": ""
-  - "desc": "- Small earthquakes are common within 6 miles of the dragon's lair. \
-      \ \n- Water sources within 1 mile of the lair are supernaturally warm and tainted\
-      \ by sulfur.  \n- Rocky fissures within 1 mile of the dragon's lair form portals\
-      \ to the Elemental Plane of Fire, allowing creatures of elemental fire into\
-      \ the world to dwell nearby.  "
-    "name": ""
-  - "desc": "If the dragon dies, these effects fade over the course of d10 days."
-    "name": ""
-  - "desc": "Any of these effects might appear in the area around a red dragon's lair,\
-      \ in addition to or instead of the effects described in the Monster Manual:\n\
-      \n- Desertification. Precipitation is almost nonexistent within 6 miles\
-      \ of the dragon's lair, making the land parched and arid and most plant life\
-      \ withered and brown.  \n- Fiery Senses. The dragon can hear up to 30 feet\
-      \ through any open flame within 1 mile of the dragon's lair.  \n- Ominous\
-      \ Flames. Open flames within 6 miles of the dragon's lair are tinged dark\
-      \ red, hiss and crackle constantly, and throw off embers and showers of sparks.\
-      \  "
-    "name": "Additional Regional Effects"
 "source":
   - "SKT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/klauth-skt.webp"

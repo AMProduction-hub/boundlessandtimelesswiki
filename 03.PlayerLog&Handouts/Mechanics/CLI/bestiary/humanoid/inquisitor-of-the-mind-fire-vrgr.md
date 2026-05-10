@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Inquisitor of the Mind Fire
+- "Inquisitor of the Mind Fire"
 ---
-# [Inquisitor of the Mind Fire](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/inquisitor-of-the-mind-fire-vrgr.md)
+# [Inquisitor of the Mind Fire](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/inquisitor-of-the-mind-fire-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 248*  
 
 "Evil lurks everywhere. With our minds, we will unearth it, we will plumb its depths, and we will annihilate it." With those words, the psychically gifted priest Ulmed founded the Ulmist Inquisition, an order of psionic inquisitors that seeks to discover the wickedness hiding in people's souls.
@@ -41,9 +42,9 @@ Today the inquisition rules the city of Malitain, a vast city-state to the north
   - !!int "19"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+6"
-  - "wisdom": "+6"
-  - "charisma": "+7"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+6"
@@ -51,14 +52,15 @@ Today the inquisition rules the city of Malitain, a vast city-state to the north
     "desc": "+6"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 30 ft., passive Perception 16"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 30 ft., passive Perception 16"
 "languages": "any three languages, telepathy 120 ft."
 "cr": "8"
 "actions":
   - "desc": "The inquisitor attacks twice with its Silver Longsword or uses Mind Fire\
       \ twice."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage, or 9 (1d10 + 4) if used with two hands, plus\
       \ 18 (4d8) force damage."
     "name": "Silver Longsword"
@@ -72,17 +74,18 @@ Today the inquisition rules the city of Malitain, a vast city-state to the north
       \ until the start of the inquisitor's next turn. On the [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
       \ target's turn, the inquisitor can telepathically control the target's move,\
       \ action, or both. When controlled in this way, the target can take only the\
-      \ Attack (inquisitor chooses the target) or Dash action."
+      \ Attack (inquisitor chooses the target) or [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash)\
+      \ action."
     "name": "Inquisitor's Command (Recharge 5-6)"
   - "desc": "The inquisitor casts one of the following spells, requiring no components\
-      \ and using Charisma as the spellcasting ability (spell save DC 15):\n\nAt\
-      \ will: [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 15):\n\n**At\
+      \ will:** [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md),\
       \ [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md), [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\
-      \n1/day each: [mass suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-suggestion.md),\
+      \n**1/day each:** [mass suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-suggestion.md),\
       \ [modify memory](03.PlayerLog&Handouts/Mechanics/CLI/spells/modify-memory.md)"
     "name": "Innate Spellcasting (Psionics)"
 "source":

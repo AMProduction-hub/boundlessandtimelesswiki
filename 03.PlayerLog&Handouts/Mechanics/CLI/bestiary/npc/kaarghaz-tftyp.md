@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kaarghaz
+- "Kaarghaz"
 ---
-# [Kaarghaz](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/kaarghaz-tftyp.md)
+# [Kaarghaz](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kaarghaz-tftyp.md)
 *Source: Tales from the Yawning Portal p. 45*  
 
 The savage, degenerate troglodytes squat in the shallow depths of the Underdark in a constant state of war against their neighbors and one another. They mark the borders of their territories with cracked bones and skulls, or with pictographs painted in blood or dung.
@@ -50,19 +51,20 @@ Some troglodytes venerate Laogzed, a demonic, monstrously fat toad-lizard that s
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Draconic, Troglodyte"
 "cr": "2"
 "traits":
   - "desc": "Kaarghaz is a 4th-level spellcaster. His spellcasting ability is Charisma\
       \ (spell save DC 12, +4 to hit with spell attacks). He knows the following\
-      \ sorcerer spells:\n\nCantrips (at will): [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
+      \ sorcerer spells:\n\n**Cantrips (at will):** [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [poison\
       \ spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
-      \n1st level (6 slots): [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md),\
+      \n**1st level (6 slots):** [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md),\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)\n\
-      \n2nd level (3 slots): [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \n**2nd level (3 slots):** [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [scorching ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md)"
     "name": "Spellcasting"
   - "desc": "The troglodyte has advantage on Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
@@ -82,10 +84,10 @@ Some troglodytes venerate Laogzed, a demonic, monstrously fat toad-lizard that s
   - "desc": "The troglodyte makes three attacks: one with its bite and two with its\
       \ claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) slashing damage."
     "name": "Claw"
 "source":

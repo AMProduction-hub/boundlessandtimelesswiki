@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Shadow Mastiff
+- "Shadow Mastiff"
 ---
-# [Shadow Mastiff](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/shadow-mastiff-mpmm.md)
+# [Shadow Mastiff](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/shadow-mastiff-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 215, Volo's Guide to Monsters p. 190*  
 
 Shunning sunlight, these hounds are usually met as a pack. Some faiths devoted to deities of gloom and night, such as that of Shar in the Forgotten Realms, perform unholy rites to summon shadow mastiffs to work as temple sentinels and bodyguards.
@@ -47,7 +48,8 @@ Shadow mastiffs—hounds of the Shadowfell—move invisibly through the shadows,
     "desc": "+6"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks while\
   \ in dim light or darkness"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": ""
 "cr": "2"
 "traits":
@@ -57,7 +59,7 @@ Shadow mastiffs—hounds of the Shadowfell—move invisibly through the shadows,
       \ on attack rolls, ability checks, and saving throws."
     "name": "Sunlight Weakness"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) piercing damage. If the target is a creature, it must succeed\
       \ on a DC 13 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Bite"

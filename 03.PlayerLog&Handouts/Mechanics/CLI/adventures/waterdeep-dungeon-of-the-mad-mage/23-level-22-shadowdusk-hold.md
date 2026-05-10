@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 22: Shadowdusk Hold
+- "Level 22: Shadowdusk Hold"
 ---
 # Level 22: Shadowdusk Hold
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 277* 
@@ -51,7 +52,7 @@ All location descriptions for this level are keyed to map 22.
 The following features apply throughout Shadowdusk Hold unless otherwise noted in an area's description:
 
 - The hold consists of three tiers. Ceilings in rooms and hallways are 15 feet high unless stated otherwise. The floors are smooth stone polished to a mirror finish.  
-- Any humanoid that dies in Shadowdusk Hold rises from its corpse `d4` hours later as a [will-o'-wisp](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/will-o-wisp.md) under the DM's control. Casting [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md) on the corpse before the will-o'-wisp forms prevents such an occurrence, as does bringing the body out of Shadowdusk Hold or into the area of a [hallow](03.PlayerLog&Handouts/Mechanics/CLI/spells/hallow.md) spell.  
+- Any humanoid that dies in Shadowdusk Hold rises from its corpse `1d4` hours later as a [will-o'-wisp](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/will-o-wisp.md) under the DM's control. Casting [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md) on the corpse before the will-o'-wisp forms prevents such an occurrence, as does bringing the body out of Shadowdusk Hold or into the area of a [hallow](03.PlayerLog&Handouts/Mechanics/CLI/spells/hallow.md) spell.  
 - Sconces throughout Shadowdusk Hold flicker with torchlight created by [continual flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/continual-flame.md) spells. These magic torches are set in upside-down sconces, and their magical flames point downward.  
 
 ## Tier 1
@@ -224,8 +225,6 @@ The armoire holds fine clothing and a wooden jewelry box containing a pair of ma
 > **Furnishings**. These include a simple bed to the west, a dresser filled with clothes to the east, and a weapon and armor rack.
 ^aa8
 
-![Dezmyr Shadowdusk](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dungeon-of-the-mad-mage/img/074-22-04.webp#center)
-
 Derrion enjoys killing unwelcome visitors. He is a human [champion](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/champion-mpmm.md) (see appendix A), with these changes:
 
 - Derrion is chaotic evil.  
@@ -352,7 +351,7 @@ The bench holds a set of [alchemist's supplies](03.PlayerLog&Handouts/Mechanics/
 > **Tapestry**. A tapestry on the south wall depicts a landscape of trees made of tentacles, and floating islands of rock covered with drooling mouths and bloodshot eyeballs (see "Treasure" below).
 ^abf
 
-This room is used to rid objects and creatures of undesirable magical energy that might destabilize a sensitive experiment. In addition to the antimagic effect always active in the room, any creature that passes through this area has any magic items it carries and any magical effects active on it suppressed for `d4` minutes after it exits. [Detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) cast from outside the room does not detect the antimagic field.
+This room is used to rid objects and creatures of undesirable magical energy that might destabilize a sensitive experiment. In addition to the antimagic effect always active in the room, any creature that passes through this area has any magic items it carries and any magical effects active on it suppressed for `1d4` minutes after it exits. [Detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) cast from outside the room does not detect the antimagic field.
 
 ##### Treasure
 
@@ -724,6 +723,8 @@ Examination of the tapestry reveals that all the flags flapping above the city b
 This room contains unused furniture draped in cobwebs, including a canopied bed and a claw-footed armoire. A headless wooden mannequin in the southwest corner wears a dusty yellow ball gown more than a century out of fashion.
 
 #### 38c. Dezmyr's Sanctum
+
+![Dezmyr Shadowdusk](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dungeon-of-the-mad-mage/img/074-22-04.webp#center)
 
 > [!note] 
 > 

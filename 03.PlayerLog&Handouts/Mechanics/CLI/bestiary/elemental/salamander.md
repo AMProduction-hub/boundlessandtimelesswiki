@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Salamander
+- "Salamander"
 ---
-# [Salamander](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/salamander.md)
-*Source: Monster Manual p. 266, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Baldur's Gate: Descent Into Avernus, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Salamander](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/salamander.md)
+*Source: Monster Manual p. 266. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Salamanders slither across the Sea of Ash on the Elemental Plane of Fire, their sinuous coils and jagged spines smoldering. Intense heat washes off their bodies, while their yellow eyes glow like candles in the deep-set hollows of their hawkish faces.
 
@@ -64,26 +65,29 @@ This inherent heat is an asset to salamanders' skill as smiths, allowing them to
 "damage_vulnerabilities": "cold"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
 "damage_immunities": "fire"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Ignan"
 "cr": "5"
 "traits":
   - "desc": "A creature that touches the salamander or hits it with a melee attack\
       \ while within 5 feet of it takes 7 (2d6) fire damage."
     "name": "Heated Body"
-  - "desc": "Any metal melee weapon the salamander wields deals an extra 3 (d6)\
+  - "desc": "Any metal melee weapon the salamander wields deals an extra 3 (1d6)\
       \ fire damage on a hit (included in the attack)."
     "name": "Heated Weapons"
 "actions":
   - "desc": "The salamander makes two attacks: one with its spear and one with its\
       \ tail."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4)\
-      \ piercing damage if used with two hands to make a melee attack, plus 3 (d6)\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4)\
+      \ piercing damage if used with two hands to make a melee attack, plus 3 (1d6)\
       \ fire damage."
     "name": "Spear"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (2d6 + 4) bludgeoning damage plus 7 (2d6) fire damage, and the target\
       \ is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
@@ -92,13 +96,6 @@ This inherent heat is an asset to salamanders' skill as smiths, allowing them to
     "name": "Tail"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "ToA"
-  - "BGDIA"
-  - "JttRC"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/salamander.webp"
 ```
 ^statblock

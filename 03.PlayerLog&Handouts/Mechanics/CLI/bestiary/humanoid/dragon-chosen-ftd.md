@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragon Chosen
+- "Dragon Chosen"
 ---
-# [Dragon Chosen](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/dragon-chosen-ftd.md)
+# [Dragon Chosen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/dragon-chosen-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 189*  
 
 Dragon chosen are mighty warriors who offer their bodies as vessels for a dragon's might. They serve as enforcers of their masters' will; they often accompany dragon speakers—and are quick to defend them if they sense any ill intent. Dragon chosen are skilled in close combat, using two weapons to tear at their foes.
@@ -41,27 +42,30 @@ Dragon followers might serve and revere any kind of dragon, and their behavior a
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "strength": "+6"
-  - "dexterity": "+6"
-  - "constitution": "+4"
+  - "strength": !!int "6"
+  - "dexterity": !!int "6"
+  - "constitution": !!int "4"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+6"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
+"gear":
+  - "[handaxe](03.PlayerLog&Handouts/Mechanics/CLI/items/handaxe.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 13"
 "languages": "Common, Draconic"
 "cr": "3"
 "actions":
   - "desc": "The chosen makes one Handaxe attack and two Shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 7 (1d6 + 4) slashing damage. Hit or Miss: The\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 7 (1d6 + 4) slashing damage. *Hit or Miss:* The\
       \ handaxe magically returns to the chosen's hand immediately after a ranged\
       \ attack."
     "name": "Handaxe"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) piercing damage."
     "name": "Shortsword"
 "reactions":

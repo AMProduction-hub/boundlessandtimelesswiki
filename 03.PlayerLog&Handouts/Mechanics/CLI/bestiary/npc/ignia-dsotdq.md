@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ignia
+- "Ignia"
 ---
-# [Ignia](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/ignia-dsotdq.md)
+# [Ignia](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ignia-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 184*  
 
 ```statblock
@@ -33,26 +34,28 @@ aliases:
   - !!int "19"
 "speed": "40 ft., climb 40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+9"
-  - "wisdom": "+4"
-  - "charisma": "+8"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+8"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "damage_immunities": "fire"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 18"
 "languages": "Common, Draconic"
 "cr": "10"
 "actions":
   - "desc": "Ignia makes three attacks: one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
-      \ 17 (2d10 + 6) piercing damage plus 3 (d6) fire damage."
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:*\
+      \ 17 (2d10 + 6) piercing damage plus 3 (1d6) fire damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 13 (2d6 + 6) slashing damage."
     "name": "Claw"
   - "desc": "Ignia exhales fire in a 30-foot cone. Each creature in that area must\

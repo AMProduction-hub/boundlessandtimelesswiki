@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ghast
+- "Ghast"
 ---
-# [Ghast](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/ghast.md)
-*Source: Monster Manual p. 148, Curse of Strahd, Princes of the Apocalypse, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Divine Contention, Dragon of Icespire Peak, Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Ghast](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghast.md)
+*Source: Monster Manual p. 148. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Ghouls roam the night in packs, driven by an insatiable hunger for humanoid flesh.
 
@@ -53,7 +54,8 @@ Orcus sometimes infuses a ghoul with a stronger dose of abyssal energy, making a
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common"
 "cr": "2"
 "traits":
@@ -66,10 +68,10 @@ Orcus sometimes infuses a ghoul with a stronger dose of abyssal energy, making a
       \ throws against effects that turn undead."
     "name": "Turn Defiance"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:*\
       \ 12 (2d8 + 3) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage. If the target is a creature other than an undead,\
       \ it must succeed on a DC 10 Constitution saving throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
@@ -77,17 +79,6 @@ Orcus sometimes infuses a ghoul with a stronger dose of abyssal energy, making a
     "name": "Claws"
 "source":
   - "MM"
-  - "CoS"
-  - "PotA"
-  - "ToA"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "DC"
-  - "DIP"
-  - "SDW"
-  - "BGDIA"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/ghast.webp"
 ```
 ^statblock

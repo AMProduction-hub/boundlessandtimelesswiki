@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Omens of Purphoros
+- "Omens of Purphoros"
 ---
 # Omens of Purphoros
 *Source: Mythic Odysseys of Theros p. 111* 
 
 **Omens of Purphoros**
-
-`dice: [](omens-of-purphoros-mot.md#^omens-of-purphoros)`
 
 | dice: d8 | dice: d100 | Omen of Purphoros |
 |----------|------------|-------------------|

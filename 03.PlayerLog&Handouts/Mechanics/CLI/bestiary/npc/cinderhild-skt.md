@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Cinderhild
+- "Cinderhild"
 ---
-# [Cinderhild](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/cinderhild-skt.md)
+# [Cinderhild](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/cinderhild-skt.md)
 *Source: Storm King's Thunder p. 182*  
 
 ```statblock
@@ -32,11 +33,14 @@ aliases:
   - !!int "7"
 "speed": "40 ft."
 "damage_immunities": "fire"
+"gear":
+  - "[greatclub](03.PlayerLog&Handouts/Mechanics/CLI/items/greatclub.md)"
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
 "senses": "passive Perception 11"
 "languages": "Common, Giant"
 "cr": "2"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d4 + 4) piercing damage."
     "name": "Golden Pin"
 "source":

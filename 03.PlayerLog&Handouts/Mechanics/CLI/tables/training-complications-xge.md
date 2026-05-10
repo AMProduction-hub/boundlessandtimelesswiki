@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Training Complications
+- "Training Complications"
 ---
 # Training Complications
 *Source: Xanathar's Guide to Everything p. 134* 
 
 **Training Complications**
-
-`dice: [](training-complications-xge.md#^training-complications)`
 
 | dice: d6 | Complication |
 |----------|--------------|

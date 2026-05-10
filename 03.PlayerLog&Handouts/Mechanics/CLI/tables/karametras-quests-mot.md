@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Karametra's Quests
+- "Karametra's Quests"
 ---
 # Karametra's Quests
 *Source: Mythic Odysseys of Theros p. 136* 
 
 **Karametra's Quests**
-
-`dice: [](karametras-quests-mot.md#^karametras-quests)`
 
 | dice: d6 | Adventure Goal |
 |----------|----------------|

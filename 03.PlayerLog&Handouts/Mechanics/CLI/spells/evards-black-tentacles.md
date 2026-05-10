@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/4th-level
 - ttrpg-cli/spell/school/conjuration
@@ -13,7 +14,7 @@ tags:
 - ttrpg-cli/spell/subclass/the-fathomless
 - ttrpg-cli/spell/subclass/the-great-old-one
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
 - Sorcerer (Aberrant Mind)
@@ -21,7 +22,7 @@ classes:
 - Warlock (The Great Old One)
 - Wizard
 aliases:
-- Evard's Black Tentacles
+- "Evard's Black Tentacles"
 ---
 # Evard's Black Tentacles
 *4th-level, Conjuration*  
@@ -38,6 +39,6 @@ When a creature enters the affected area for the first time on a turn or starts 
 
 A creature [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) by the tentacles can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself.
 
-**Classes**: [Sorcerer (Aberrant Mind)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-aberrant-mind-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Great Old One)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-great-old-one.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Warlock (The Fathomless)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-fathomless-tce.md "subclass=TCE"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer (Aberrant Mind)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-aberrant-mind-tce.md "subclass=TCE"); [Warlock (The Fathomless)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-fathomless-tce.md "subclass=TCE"); [Warlock (The Great Old One)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-great-old-one.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 238. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> (as "Black Tentacles")*

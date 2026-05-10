@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hoard Mimic
+- "Hoard Mimic"
 ---
-# [Hoard Mimic](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/hoard-mimic-ftd.md)
+# [Hoard Mimic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hoard-mimic-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 204*  
 
 Kin to the common mimic described in the *Monster Manual*, hoard mimics are among the oldest and most cunning of their kind. A hoard mimic's massive, amorphous form and shape-shifting prowess allow it to take on the semblance of a vast trove of treasures, not just a single object. Like smaller mimics, hoard mimics exude adhesive goo to trap prey. They can also vent a fine, caustic mist from their pores that burns and blinds creatures caught in it.
@@ -37,15 +38,16 @@ Hoard mimics are so named because many enter into partnerships with dragons, eac
   - !!int "10"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+6"
-  - "wisdom": "+6"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "condition_immunities": "[prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Draconic, telepathy 120 ft."
 "cr": "8"
 "traits":
@@ -57,10 +59,10 @@ Hoard mimics are so named because many enter into partnerships with dragons, eac
 "actions":
   - "desc": "The mimic makes one Bite attack and two Pseudopod attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:*\
       \ 16 (2d10 + 5) piercing damage plus 7 (2d6) acid damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 12 (2d6 + 5) bludgeoning damage, and the mimic adheres to the target. A\
       \ creature adhered to the mimic is also [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ by it (escape DC 16). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\

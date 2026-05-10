@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/witherbloom-student
 - ttrpg-cli/spell/class/artificer
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/paladin
@@ -19,7 +20,7 @@ tags:
 - ttrpg-cli/spell/subclass/the-celestial
 classes:
 - Artificer
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Cleric (Grave Domain)
 - Cleric (Life Domain)
@@ -30,7 +31,7 @@ classes:
 - Sorcerer (Divine Soul)
 - Warlock (The Celestial)
 aliases:
-- Revivify
+- "Revivify"
 ---
 # Revivify
 *3rd-level, Necromancy*  
@@ -43,6 +44,6 @@ aliases:
 
 You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts.
 
-**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Druid (Circle of Wildfire)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-wildfire-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Celestial)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-celestial-xge.md "subclass=XGE"); [Cleric (Grave Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-grave-domain-xge.md "subclass=XGE"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric (Life Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-life-domain.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Grave Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-grave-domain-xge.md "subclass=XGE"); [Cleric (Life Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-life-domain.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Druid (Circle of Wildfire)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-wildfire-tce.md "subclass=TCE"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Warlock (The Celestial)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-celestial-xge.md "subclass=XGE")
 
 *Source: Player's Handbook p. 272. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

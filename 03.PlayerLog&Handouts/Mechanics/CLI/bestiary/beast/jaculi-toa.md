@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Jaculi
+- "Jaculi"
 ---
-# [Jaculi](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/jaculi-toa.md)
+# [Jaculi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/jaculi-toa.md)
 *Source: Tomb of Annihilation p. 225*  
 
 A jaculi (pronounced jah-KOO-lee) is a 15-foot-long snake that can alter the color and texture of its scales to camouflage itself. Altering its appearance to resemble wood or stone, it coils around pillars and tree trunks from which it launches itself like a javelin, striking with great force and accuracy.
@@ -43,7 +44,8 @@ Jaculis are found in damp climates, and their preferred habitats are rainforests
     "desc": "+1"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "blindsight 30 ft., passive Perception 11"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., passive Perception 11"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -54,7 +56,7 @@ Jaculis are found in damp climates, and their preferred habitats are rainforests
       \ checks that rely on smell."
     "name": "Keen Smell"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d6 + 2) piercing damage."
     "name": "Bite"
   - "desc": "The jaculi springs up to 30 feet in a straight line and makes a bite\

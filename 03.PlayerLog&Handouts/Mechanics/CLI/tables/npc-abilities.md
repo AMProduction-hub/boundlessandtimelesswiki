@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- NPC Abilities
+- "NPC Abilities"
 ---
 # NPC Abilities
 *Source: Dungeon Master's Guide p. 88* 
 
 **NPC Abilities**
-
-`dice: [](npc-abilities.md#^npc-abilities)`
 
 | dice: d6 | High Ability |
 |----------|--------------|

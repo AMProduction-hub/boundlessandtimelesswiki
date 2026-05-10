@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/ranger/fey-wanderer
 aliases:
-- Fey Wanderer
+- "Fey Wanderer"
 ---
 # Fey Wanderer
 *[Ranger](./ranger.md): Ranger Archetype*  
@@ -43,19 +44,17 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Fey Wanderer (Level 3)
-
 A fey mystique surrounds you, thanks to the boon of an archfey, the shining fruit you ate from a talking tree, the magic spring you swam in, or some other auspicious event. However you acquired your fey magic, you are now a Fey Wanderer, a ranger who represents both the mortal and the fey realms. As you wander the multiverse, your joyful laughter brightens the hearts of the downtrodden, and your martial prowess strikes terror in your foes, for great is the mirth of the fey and dreadful is their fury.
+
+## Subclass Features
 
 ### Dreadful Strikes (Level 3)
 
 *3rd-level Fey Wanderer feature*
 
-You can augment your weapon strikes with mind-scarring magic, drawn from the gloomy hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra `d4` psychic damage to the target, which can take this extra damage only once per turn.
+You can augment your weapon strikes with mind-scarring magic, drawn from the gloomy hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra `1d4` psychic damage to the target, which can take this extra damage only once per turn.
 
-The extra damage increases to `d6` when you reach 11th level in this class.
+The extra damage increases to `1d6` when you reach 11th level in this class.
 
 ### Fey Wanderer Magic (Level 3)
 
@@ -77,8 +76,6 @@ You learn an additional spell when you reach certain levels in this class, as sh
 You also possess a preternatural blessing from a fey ally or a place of fey power. Choose your blessing from the Feywild Gifts table or determine it randomly.
 
 **Feywild Gifts**
-
-`dice: [](ranger-fey-wanderer-tce.md#^feywild-gifts)`
 
 | dice: d6 | Gift |
 |----------|------|

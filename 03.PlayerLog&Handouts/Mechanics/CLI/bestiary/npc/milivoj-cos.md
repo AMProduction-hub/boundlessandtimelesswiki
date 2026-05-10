@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Milivoj
+- "Milivoj"
 ---
-# [Milivoj](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/milivoj-cos.md)
+# [Milivoj](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/milivoj-cos.md)
 *Source: Curse of Strahd p. 97*  
 
 ```statblock
@@ -32,11 +33,13 @@ aliases:
   - !!int "10"
   - !!int "10"
 "speed": "30 ft."
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "0"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) bludgeoning damage."
     "name": "Shovel"
 "source":

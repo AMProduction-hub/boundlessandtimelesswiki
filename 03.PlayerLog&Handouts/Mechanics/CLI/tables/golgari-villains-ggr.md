@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Golgari Villains
+- "Golgari Villains"
 ---
 # Golgari Villains
 *Source: Guildmasters' Guide to Ravnica p. 138* 
 
 **Golgari Villains**
-
-`dice: [](golgari-villains-ggr.md#^golgari-villains)`
 
 | dice: d8 | Villain |
 |----------|---------|

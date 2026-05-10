@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/rot
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sled Dog
+- "Sled Dog"
 ---
-# [Sled Dog](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/sled-dog-rot.md)
+# [Sled Dog](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/sled-dog-rot.md)
 *Source: The Rise of Tiamat p. 27, Tyranny of Dragons p. 113*  
 
 ```statblock
@@ -49,7 +50,7 @@ aliases:
       \ [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) piercing damage. If the target is a creature, it must succeed\
       \ on a DC 11 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Bite"

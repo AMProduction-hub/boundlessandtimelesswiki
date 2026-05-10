@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 aliases:
-- Classes
+- "Classes"
 ---
 # Classes
 *Source: Sword Coast Adventurer's Guide, p. 121* 
@@ -346,7 +347,7 @@ Human rangers of the Moonshaes are devoted to the Earthmother, and those that wo
 
 ### Elf Rangers
 
-Elf rangers are usually associated with a particular community such as Evereska or the tribes in the Misty Forest. Rather than being wandering explorers, elf rangers typically act as scouts and guardians of elven realms. Such elves usually devote themselves to Rillifane Rallathil or Solonor Thelandria. Elf rangers driven to roam might instead favor Fenmarel Mestarine, god of lone wanderers, or Shevarash, elven god of vengeance.
+Elf rangers are usually associated with a particular community such as Evereska or the tribes in the Misty Forest. Rather than being wandering explorers, elf rangers typically act as scouts and guardians of elven realms. Such elves usually devote themselves to Rillifane Rallathil or Solonor Thelandira. Elf rangers driven to roam might instead favor Fenmarel Mestarine, god of lone wanderers, or Shevarash, elven god of vengeance.
 
 ### Halfling Rangers
 

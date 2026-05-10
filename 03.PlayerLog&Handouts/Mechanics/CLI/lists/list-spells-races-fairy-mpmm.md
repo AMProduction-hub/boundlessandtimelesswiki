@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/race/fairy
 aliases:
-- Spells for Fairy
+- "Spells for Fairy"
 ---
 # Spells for Fairy
 
@@ -14,8 +15,8 @@ aliases:
 
 ## 1st Level
 
-- [Faerie Fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md "PHB") as cantrip
+- [Faerie Fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md "PHB") at class level 3
 
 ## 2nd Level
 
-- [Enlarge/Reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md "PHB") as cantrip
+- [Enlarge/Reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md "PHB") at class level 5

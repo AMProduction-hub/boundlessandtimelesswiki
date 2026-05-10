@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragonflesh Grafter
+- "Dragonflesh Grafter"
 ---
-# [Dragonflesh Grafter](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/dragonflesh-grafter-ftd.md)
+# [Dragonflesh Grafter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/dragonflesh-grafter-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 186*  
 
 An ordinary dragonflesh grafter is a hulking fusion of draconic and bipedal characteristics, standing between 8 and 12 feet tall. As its original nature wanes, its draconic powers grow, giving it a thick layer of dragon scale armor that covers the grafted areas of its body. A dragonflesh grafter can belch forth a gout of corrosive acid in a mockery of dragon breath.
@@ -43,18 +44,20 @@ While most would-be grafters wind up hideously scarred or dead, a few survive as
   - !!int "6"
 "speed": "30 ft."
 "saves":
-  - "strength": "+5"
-  - "constitution": "+4"
+  - "strength": !!int "5"
+  - "constitution": !!int "4"
+"gear":
+  - "[greatclub](03.PlayerLog&Handouts/Mechanics/CLI/items/greatclub.md)"
 "senses": "passive Perception 10"
 "languages": "Common, Draconic"
 "cr": "3"
 "actions":
   - "desc": "The grafter makes one Claw attack and one Greatclub attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
-      \ 7 (1d8 + 3) slashing damage plus 5 (d10) poison damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
+      \ 7 (1d8 + 3) slashing damage plus 5 (1d10) poison damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
       \ 12 (2d8 + 3) bludgeoning damage."
     "name": "Greatclub"
   - "desc": "The grafter retches forth a spray of acidic bile in a 30-foot cone. Each\

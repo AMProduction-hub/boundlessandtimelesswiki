@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bonnie
+- "Bonnie"
 ---
-# [Bonnie](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/bonnie-wdh.md)
+# [Bonnie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/bonnie-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 20*  
 
 *Human barmaid*
@@ -45,7 +46,8 @@ aliases:
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+3"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common"
 "cr": "4"
 "traits":
@@ -64,7 +66,7 @@ aliases:
 "actions":
   - "desc": "Bonnie makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) bludgeoning damage."
     "name": "Slam"
   - "desc": "Bonnie magically reads the surface thoughts of one creature within 60\

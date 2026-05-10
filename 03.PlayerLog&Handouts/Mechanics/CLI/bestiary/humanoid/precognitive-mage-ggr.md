@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Precognitive Mage
+- "Precognitive Mage"
 ---
-# [Precognitive Mage](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/precognitive-mage-ggr.md)
+# [Precognitive Mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/precognitive-mage-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 228*  
 
 Precognitive mages, a rarity among Azorius spellcasters, are capable of capturing glimpses of the future. They are typically employed to anticipate the actions of wanted criminals, thus aiding in their capture.
@@ -36,24 +37,27 @@ Precognitive mages, a rarity among Azorius spellcasters, are capable of capturin
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+6"
-  - "wisdom": "+3"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
-"senses": "truesight 120 ft., passive Perception 13"
+"gear":
+  - "[quarterstaff](03.PlayerLog&Handouts/Mechanics/CLI/items/quarterstaff.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 13"
 "languages": "Common plus any one language"
 "cr": "3"
 "traits":
   - "desc": "The mage's innate spellcasting ability is Intelligence (spell save DC\
       \ 14). It can cast the following spells, requiring no material components:\n\
-      \n3/day: [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \n**3/day:** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)\n\n\
-      1/day each: [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
+      **1/day each:** [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
       \ [locate object](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-object.md)"
     "name": "Innate Spellcasting"
 "actions":
-  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2\
+  - "desc": "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 2\
       \ (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used\
       \ with two hands."
     "name": "Quarterstaff"

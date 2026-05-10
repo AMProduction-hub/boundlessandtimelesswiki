@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Phenax's Divine Schemes
+- "Phenax's Divine Schemes"
 ---
 # Phenax's Divine Schemes
 *Source: Mythic Odysseys of Theros p. 165* 
 
 **Phenax's Divine Schemes**
-
-`dice: [](phenaxs-divine-schemes-mot.md#^phenaxs-divine-schemes)`
 
 | dice: d4 | Scheme |
 |----------|--------|

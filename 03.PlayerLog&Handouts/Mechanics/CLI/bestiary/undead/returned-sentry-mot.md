@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Returned Sentry
+- "Returned Sentry"
 ---
-# [Returned Sentry](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/returned-sentry-mot.md)
+# [Returned Sentry](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/returned-sentry-mot.md)
 *Source: Mythic Odysseys of Theros p. 241*  
 
 Most new or purposeless Returned are easily manipulated into serving their more forceful brethren. Having purpose forced upon them, these Returned perform simple, artless tasks with middling efficiency. Their one virtue is their tirelessness, which makes them exceptional guards. In the necropoleis, this sees many Returned employed as sentries, though they might also be messengers or laborers. If threatened, groups of these Returned work well together, sharing the unified goals of overcoming their foes and getting back to the task at hand.
@@ -42,6 +43,9 @@ Returned reenter the world blank and undead. No longer possessing the ability to
 "damage_resistances": "necrotic"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"gear":
+  - "[sling](03.PlayerLog&Handouts/Mechanics/CLI/items/sling.md)"
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 11"
 "languages": "the languages it knew in life"
 "cr": "1"
@@ -58,12 +62,12 @@ Returned reenter the world blank and undead. No longer possessing the ability to
       \ checks to ascertain the Returned's intentions or sincerity are made with disadvantage."
     "name": "Unreadable Face"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing\
       \ damage if used with two hands to make a melee attack, plus 7 (2d6) poison\
       \ damage."
     "name": "Spear"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 4 (1d4 + 2) bludgeoning damage."
     "name": "Sling"
 "source":

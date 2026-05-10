@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/10
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Death Slaad
+- "Death Slaad"
 ---
-# [Death Slaad](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/death-slaad.md)
-*Source: Monster Manual p. 278, Curse of Strahd, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything, Candlekeep Mysteries, Dragonlance: Shadow of the Dragon Queen*  
+# [Death Slaad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/death-slaad.md)
+*Source: Monster Manual p. 278*  
 
 Death slaadi are suffused with energy from the Negative Energy Plane and exemplify evil's corruption of chaos, and they take sadistic pleasure in bringing harm to others. They propagate their race by dragooning mobs of red and blue slaadi and invading other planes. Humanoids who survive the incursion become incubators for new slaadi.
 
@@ -79,21 +80,25 @@ Some slaadi can transform into the humanoid creatures from which they were origi
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+8"
 "damage_resistances": "acid, cold, fire, lightning, thunder"
-"senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 18"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 18"
 "languages": "Slaad, telepathy 60 ft."
 "cr": "10"
 "traits":
   - "desc": "The slaad's innate spellcasting ability is Charisma (spell save DC 15,\
       \ +7 to hit with spell attacks). The slaad can innately cast the following\
-      \ spells, requiring no material components:\n\nAt will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ spells, requiring no material components:\n\n**At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
       \ (self only), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md)\n\
-      \n2/day each: [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md),\
+      \n**2/day each:** [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md),\
       \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md),\
-      \ [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\n1/day\
-      \ each: [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
+      \ [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\n**1/day\
+      \ each:** [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)"
     "name": "Innate Spellcasting"
   - "desc": "The slaad can use its action to polymorph into a Small or Medium humanoid,\
@@ -113,25 +118,17 @@ Some slaadi can transform into the humanoid creatures from which they were origi
   - "desc": "The slaad makes three attacks: one with its bite and two with its claws\
       \ or greatsword."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d8 + 5) piercing damage plus 7 (2d6) necrotic damage."
     "name": "Bite (Slaad Form Only)"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (1d10 + 5) slashing damage plus 7 (2d6) necrotic damage."
     "name": "Claws (Slaad Form Only)"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) slashing damage plus 7 (2d6) necrotic damage."
     "name": "Greatsword"
 "source":
   - "MM"
-  - "CoS"
-  - "WDMM"
-  - "GoS"
-  - "BGDIA"
-  - "EGW"
-  - "TCE"
-  - "CM"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/death-slaad.webp"
 ```
 ^statblock

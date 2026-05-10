@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/14
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nurvureem, The Dark Lady
+- "Nurvureem, The Dark Lady"
 ---
-# [Nurvureem, The Dark Lady](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/nurvureem-the-dark-lady-pota.md)
+# [Nurvureem, The Dark Lady](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/nurvureem-the-dark-lady-pota.md)
 *Source: Princes of the Apocalypse p. 180*  
 
 ```statblock
@@ -33,10 +34,10 @@ aliases:
   - !!int "17"
 "speed": "40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+7"
-  - "constitution": "+10"
-  - "wisdom": "+6"
-  - "charisma": "+8"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "10"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+11"
@@ -44,7 +45,9 @@ aliases:
     "desc": "+7"
 "damage_resistances": "necrotic"
 "damage_immunities": "acid"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 21"
 "languages": "Common, Draconic"
 "cr": "14"
 "traits":
@@ -66,13 +69,13 @@ aliases:
   - "desc": "Nurvureem can use its Frightful Presence. It then makes three attacks:\
       \ one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
-      \ 17 (2d10 + 6) piercing damage plus 4 (d8) necrotic damage."
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
+      \ 17 (2d10 + 6) piercing damage plus 4 (1d8) necrotic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 13 (2d6 + 6) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 15 ft., one target. *Hit:*\
       \ 15 (2d8 + 6) bludgeoning damage."
     "name": "Tail"
   - "desc": "Each creature of Nurvureem's choice that is within 120 feet of Nurvureem\
@@ -87,6 +90,9 @@ aliases:
       \ (12d8) necrotic damage on a failed save, or half as much damage on a successful\
       \ one."
     "name": "Acid Breath (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Nurvureem can expend a use to take one of the following actions. Nurvureem\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Nurvureem makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ check."

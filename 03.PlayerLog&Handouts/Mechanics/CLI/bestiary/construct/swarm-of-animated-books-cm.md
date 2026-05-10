@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Swarm of Animated Books
+- "Swarm of Animated Books"
 ---
-# [Swarm of Animated Books](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/swarm-of-animated-books-cm.md)
+# [Swarm of Animated Books](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/swarm-of-animated-books-cm.md)
 *Source: Candlekeep Mysteries p. 19*  
 
 ```statblock
@@ -43,7 +44,8 @@ aliases:
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 10"
 "languages": ""
 "cr": "1/4"
 "traits":
@@ -58,8 +60,8 @@ aliases:
       \ points."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's\
-      \ space. Hit: 6 (2d4 + 1) bludgeoning damage, or 3 (1d4 + 1) bludgeoning\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 0 ft., one target in the swarm's\
+      \ space. *Hit:* 6 (2d4 + 1) bludgeoning damage, or 3 (1d4 + 1) bludgeoning\
       \ damage if the swarm has half its hit points or fewer."
     "name": "Book Club"
 "source":

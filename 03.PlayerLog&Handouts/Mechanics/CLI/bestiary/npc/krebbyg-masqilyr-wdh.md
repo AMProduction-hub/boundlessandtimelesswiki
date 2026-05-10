@@ -1,24 +1,25 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/4
 - ttrpg-cli/monster/size/medium
-- ttrpg-cli/monster/type/humanoid/elf
+- ttrpg-cli/monster/type/humanoid/drow-elf
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Krebbyg Masq'il'yr
+- "Krebbyg Masq'il'yr"
 ---
-# [Krebbyg Masq'il'yr](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/krebbyg-masqilyr-wdh.md)
+# [Krebbyg Masq'il'yr](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/krebbyg-masqilyr-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 67*  
 
 ```statblock
 "name": "Krebbyg Masq'il'yr (WDH)"
 "size": "Medium"
 "type": "humanoid"
-"subtype": "elf"
+"subtype": "Drow elf"
 "alignment": "Chaotic Neutral"
 "ac": !!int "18"
 "ac_class": "[studded leather](03.PlayerLog&Handouts/Mechanics/CLI/items/studded-leather-armor.md),\
@@ -35,22 +36,25 @@ aliases:
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+6"
-  - "constitution": "+4"
-  - "wisdom": "+3"
+  - "dexterity": !!int "6"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+8"
-"senses": "darkvision 120 ft., passive Perception 13"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "Elvish, Undercommon"
 "cr": "4"
 "traits":
   - "desc": "Krebbyg's spellcasting ability is Charisma (spell save DC 12) It can\
       \ innately cast the following spells, requiring no material components:\n\n\
-      At will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
-      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      **At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
+      \n**1/day each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
       \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md) (self only)"
     "name": "Innate Spellcasting"
@@ -69,10 +73,10 @@ aliases:
 "actions":
   - "desc": "Krebbyg makes two shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 30/90 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 30/90 ft., one target. *Hit:*\
       \ 9 (1d10 + 4) piercing damage plus 11 (2d10) poison damage."
     "name": "Poisonous Pistol"
 "source":

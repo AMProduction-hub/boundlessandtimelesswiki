@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Cave Badger
+- "Cave Badger"
 ---
-# [Cave Badger](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/cave-badger-oota.md)
+# [Cave Badger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/cave-badger-oota.md)
 *Source: Out of the Abyss p. 96*  
 
 ```statblock
@@ -32,7 +33,8 @@ aliases:
   - !!int "12"
   - !!int "5"
 "speed": "30 ft., burrow 15 ft."
-"senses": "darkvision 30 ft., tremorsense 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 30 ft., tremorsense 60 ft., passive Perception 11"
 "languages": ""
 "cr": "1/4"
 "traits":
@@ -44,10 +46,10 @@ aliases:
 "actions":
   - "desc": "The badger makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (2d4 + 1) slashing damage."
     "name": "Claws"
 "source":

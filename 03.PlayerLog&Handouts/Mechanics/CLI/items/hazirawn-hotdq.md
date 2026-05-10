@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/hotdq
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/legendary
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
-aliases: 
+aliases:
 - "Hazirawn"
 ---
 # Hazirawn
@@ -18,15 +19,15 @@ aliases:
 - **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Weight**: 6.0 lbs.
 
-A sentient (neutral evil) greatsword, Hazirawn is capable of speech in Common and Netherese. Even if you aren't attuned to the sword, you gain a +1 bonus to attack and damage rolls made with this weapon. If you are not attuned to Hazirawn, you deal an extra `d6` necrotic damage when you hit with the weapon.
+A sentient (neutral evil) greatsword, Hazirawn is capable of speech in Common and Netherese. Even if you aren't attuned to the sword, you gain a +1 bonus to attack and damage rolls made with this weapon. If you are not attuned to Hazirawn, you deal an extra `1d6` necrotic damage when you hit with the weapon.
 
 ## Increased Potency
 
-While you are attuned to this weapon, its bonus on attack and damage rolls increases to +2, and a hit deals an extra `2d6` necrotic damage (instead of `d6`).
+While you are attuned to this weapon, its bonus on attack and damage rolls increases to +2, and a hit deals an extra `2d6` necrotic damage (instead of `1d6`).
 
 ## Spells
 
-Hazirawn has 4 charges to cast spells. As long as the sword is attuned to you and you are holding it in your hand, you can cast [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) (1 charge), [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md) (1 charge), or [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md) (2 charges). Each night at midnight, Hazirawn regains `d4` expended charges.
+Hazirawn has 4 charges to cast spells. As long as the sword is attuned to you and you are holding it in your hand, you can cast [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) (1 charge), [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md) (1 charge), or [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md) (2 charges). Each night at midnight, Hazirawn regains `1d4` expended charges.
 
 ## Wounding
 

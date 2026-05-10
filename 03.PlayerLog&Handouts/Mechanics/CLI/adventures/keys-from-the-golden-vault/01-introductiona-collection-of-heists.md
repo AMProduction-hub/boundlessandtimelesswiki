@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 aliases:
-- Introduction–A Collection of Heists
+- "Introduction–A Collection of Heists"
 ---
 # Introduction–A Collection of Heists
 *Source: Keys from the Golden Vault, p. 5* 
 
 *Keys from the Golden Vault* presents thirteen Dungeons & Dragons adventures that feature heists. In each adventure, the characters receive a mission, plan the job, execute their plan, and try to escape the scene. You can run each heist as a standalone adventure or as part of a larger campaign (see "A Campaign of Heists" later in this introduction). Each adventure can be adapted to take place in any campaign setting you wish.
 
-![A rogue rappels down the i...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/000-00-001-intro-splash.webp#center "A rogue rappels down the icy walls of Revel's End, a prison in the frozen north")
+![A rogue rappels down the icy walls of Revel's End, a prison in the frozen north](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/000-00-001-intro-splash.webp#center)
 
 ## Using the Adventures
 
@@ -160,7 +161,7 @@ If a fight breaks out between the characters and a rival crew, use stat blocks f
 | Tosh | [Scout](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md) | [Spy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md) | [Veteran](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md) |
 ^rival-crew-statistics
 
-![Careful planning is key to...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/002-00-003-careful-planning.webp#center "Careful planning is key to pulling off a dangerous heist")
+![Careful planning is key to pulling off a dangerous heist](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/002-00-003-careful-planning.webp#center)
 
 #### Rival Crew in Play
 

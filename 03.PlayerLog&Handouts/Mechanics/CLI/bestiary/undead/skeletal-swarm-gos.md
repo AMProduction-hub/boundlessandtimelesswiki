@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/2
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Skeletal Swarm
+- "Skeletal Swarm"
 ---
-# [Skeletal Swarm](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/skeletal-swarm-gos.md)
-*Source: Ghosts of Saltmarsh p. 254, Divine Contention, Infernal Machine Rebuild*  
+# [Skeletal Swarm](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeletal-swarm-gos.md)
+*Source: Ghosts of Saltmarsh p. 254*  
 
 This swarm of bones found rising out of the sand in Isle of the Abbey is made from the remains of several animated skeletons. A skeletal swarm alternates its appearance between partially formed humanoid shapes and a chaotic, swirling mass.
 
@@ -45,7 +46,8 @@ This swarm of bones found rising out of the sand in Isle of the Abbey is made fr
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": ""
 "cr": "2"
 "traits":
@@ -57,14 +59,12 @@ This swarm of bones found rising out of the sand in Isle of the Abbey is made fr
       \ swarm can't regain hit points or gain temporary hit points."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 0 ft., one target in the swarm's\
-      \ space. Hit: 11 (2d8 + 2) slashing damage, or 6 (1d8 + 2) slashing damage\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 0 ft., one target in the swarm's\
+      \ space. *Hit:* 11 (2d8 + 2) slashing damage, or 6 (1d8 + 2) slashing damage\
       \ if the swarm has half of its hit points or fewer."
     "name": "Slash"
 "source":
   - "GoS"
-  - "DC"
-  - "IMR"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/skeletal-swarm-gos.webp"
 ```
 ^statblock

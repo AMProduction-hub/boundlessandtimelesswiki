@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Human Names – Indian, Female
+- "Human Names – Indian, Female"
 ---
 # Human Names – Indian, Female
 *Source: Xanathar's Guide to Everything p. 181* 
 
 **Human Names – Indian, Female**
-
-`dice: [](human-names-indian-female-xge.md#^human-names-indian-female)`
 
 | dice: d100 | Name |
 |------------|------|

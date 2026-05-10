@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Conclave Dryad
+- "Conclave Dryad"
 ---
-# [Conclave Dryad](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/conclave-dryad-ggr.md)
+# [Conclave Dryad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/conclave-dryad-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 194*  
 
 The lush forests that once grew on Ravnica are gone, but the dryads remain, striving to bring the sprawling city and the verdant green of nature into harmony. Dryads believe that their efforts are the will of Mat'Selesnya, the soul of the world, and they spread their teachings through every Selesnya enclave.
@@ -41,9 +42,9 @@ When leading its guild into battle, a dryad rides a magically summoned creature 
   - !!int "21"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+8"
-  - "wisdom": "+9"
-  - "charisma": "+9"
+  - "intelligence": !!int "8"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+8"
@@ -51,18 +52,21 @@ When leading its guild into battle, a dryad rides a magically summoned creature 
     "desc": "+8"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+9"
-"senses": "darkvision 60 ft., passive Perception 19"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 19"
 "languages": "Common, Elvish, Sylvan"
 "cr": "9"
 "traits":
   - "desc": "The dryad's innate spellcasting ability is Charisma (spell save DC 17).\
       \ The dryad can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md)\n\
-      \n3/day each: [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \n**At will:** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md)\n\
+      \n**3/day each:** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md), [plant\
       \ growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/plant-growth.md), [spike\
-      \ growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/spike-growth.md)\n\n1/day\
-      \ each: [moonbeam](03.PlayerLog&Handouts/Mechanics/CLI/spells/moonbeam.md),\
+      \ growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/spike-growth.md)\n\n**1/day\
+      \ each:** [moonbeam](03.PlayerLog&Handouts/Mechanics/CLI/spells/moonbeam.md),\
       \ [grasping vine](03.PlayerLog&Handouts/Mechanics/CLI/spells/grasping-vine.md),\
       \ [wall of thorns](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-thorns.md)"
     "name": "Innate Spellcasting"
@@ -76,7 +80,7 @@ When leading its guild into battle, a dryad rides a magically summoned creature 
   - "desc": "The dryad makes three attacks, using its vine staff, its longbow, or\
       \ both."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 17 Dexterity saving throw or become [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ by twisting vines for 1 minute. A target [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
@@ -84,7 +88,7 @@ When leading its guild into battle, a dryad rides a magically summoned creature 
       \ or Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics))\
       \ check, ending the effect on itself on a success."
     "name": "Vine Staff"
-  - "desc": "Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +8 to hit, range 150/600 ft., one target. *Hit:*\
       \ 8 (1d8 + 4) piercing damage."
     "name": "Longbow"
   - "desc": "The dryad magically summons a mount, which appears in an unoccupied space\

@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-hazard
+cssclasses:
+- json5e-hazard
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/hazard/haunt
 aliases:
-- Icon of the Lower Aerial Kingdoms
+- "Icon of the Lower Aerial Kingdoms"
 ---
 # Icon of the Lower Aerial Kingdoms
 *Generic Hazard*  

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Fire Elemental
+- "Fire Elemental"
 ---
-# [Fire Elemental](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/fire-elemental.md)
-*Source: Monster Manual p. 125, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Tasha's Cauldron of Everything, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Fire Elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-elemental.md)
+*Source: Monster Manual p. 125. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A faint humanoid shape threads through the core of this wild, moving flame. A fire elemental is a force of capricious devastation. Wherever it moves, it sets its surroundings ablaze, turning the world to ash, smoke, and cinders. Water can halt its destructive progress, causing the fire elemental to shrink back, hissing and smoking in pain and rage.
 
@@ -63,17 +64,18 @@ An elemental doesn't require air, food, drink, or sleep.
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Ignan"
 "cr": "5"
 "traits":
   - "desc": "The elemental can move through a space as narrow as 1 inch wide without\
       \ squeezing. A creature that touches the elemental or hits it with a melee attack\
-      \ while within 5 feet of it takes 5 (d10) fire damage. In addition, the elemental\
+      \ while within 5 feet of it takes 5 (1d10) fire damage. In addition, the elemental\
       \ can enter a hostile creature's space and stop there. The first time it enters\
-      \ a creature's space on a turn, that creature takes 5 (d10) fire damage and\
+      \ a creature's space on a turn, that creature takes 5 (1d10) fire damage and\
       \ catches fire; until someone takes an action to douse the fire, the creature\
-      \ takes 5 (d10) fire damage at the start of each of its turns."
+      \ takes 5 (1d10) fire damage at the start of each of its turns."
     "name": "Fire Form"
   - "desc": "The elemental sheds bright light in a 30-foot radius and dim light in\
       \ an additional 30 feet."
@@ -84,23 +86,13 @@ An elemental doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The elemental makes two touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) fire damage. If the target is a creature or a flammable object,\
       \ it ignites. Until a creature takes an action to douse the fire, the target\
-      \ takes 5 (d10) fire damage at the start of each of its turns."
+      \ takes 5 (1d10) fire damage at the start of each of its turns."
     "name": "Touch"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "ToA"
-  - "WDMM"
-  - "IMR"
-  - "EGW"
-  - "MOT"
-  - "TCE"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/fire-elemental.webp"
 ```
 ^statblock

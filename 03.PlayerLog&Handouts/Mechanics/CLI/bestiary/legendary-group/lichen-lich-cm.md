@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/legendary-group
 aliases:
-- Lichen Lich
+- "Lichen Lich"
 ---
 # Lichen Lich
 
-## Lair actions
+## Lair Actions
 _Source: Candlekeep Mysteries_
 
 On initiative count 20 (losing initiative ties), the lichen lich can take a lair action to cause one of the following effects:

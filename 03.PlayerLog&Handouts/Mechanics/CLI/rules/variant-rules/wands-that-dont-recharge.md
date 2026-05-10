@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Wands That Don't Recharge
+- "Wands That Don't Recharge"
 ---
 # Wands That Don't Recharge
 *Source: Dungeon Master's Guide p. 141* 

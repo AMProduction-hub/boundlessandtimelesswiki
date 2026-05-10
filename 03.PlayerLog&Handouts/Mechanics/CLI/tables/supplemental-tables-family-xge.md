@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Supplemental Tables; Family
+- "Supplemental Tables; Family"
 ---
 # Supplemental Tables; Family
 *Source: Xanathar's Guide to Everything p. 63* 
 
 **Family**
-
-`dice: [](supplemental-tables-family-xge.md#^family)`
 
 | dice: d100 | Family |
 |------------|--------|

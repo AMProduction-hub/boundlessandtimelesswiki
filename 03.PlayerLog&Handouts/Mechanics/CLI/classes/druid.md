@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/class/druid
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Druid
+- "Druid"
 ---
 # Druid
 *Source: Player's Handbook p. 64. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
@@ -144,8 +145,6 @@ When you decide what your character's treasured item is, think about giving it a
 
 **Treasured Item**
 
-`dice: [](druid.md#^treasured-item)`
-
 | dice: d6 | Treasured Item |
 |----------|----------------|
 | 1 | A twig from the meeting tree that stands in the center of your village |
@@ -162,8 +161,6 @@ _Source: Xanathar's Guide to Everything_
 Many druids feel a strong link to a specific aspect of the natural world, such as a body of water, an animal, a type of tree, or some other sort of plant. You identify with your chosen aspect; by its behavior or its very nature, it sets an example that you seek to emulate.
 
 **Guiding Aspects**
-
-`dice: [](druid.md#^guiding-aspects)`
 
 | dice: d6 | Guiding Aspects |
 |----------|-----------------|
@@ -183,8 +180,6 @@ It's not unusual for would-be druids to seek out (or be sought out by) instructo
 If your character received training from someone else, who or what was that individual, and what was the nature of your relationship? Did your mentor imbue you with a particular outlook or otherwise influence your approach to achieving the goals of your chosen path?
 
 **Mentors**
-
-`dice: [](druid.md#^mentors)`
 
 | dice: d6 | Mentors |
 |----------|---------|
@@ -468,13 +463,9 @@ You know Druidic, the secret language of druids. You can speak the language and 
 
 Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will. See "chapter 10" for the general rules of spellcasting and "chapter 11" for the druid spell list.
 
-#### Cantrips
+**Cantrips.** At 1st level, you know two cantrips of your choice from the druid spell list. You learn additional druid cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Druid table.
 
-At 1st level, you know two cantrips of your choice from the druid spell list. You learn additional druid cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Druid table.
-
-#### Preparing and Casting Spells
-
-The Druid table shows how many spell slots you have to cast your druid spells of 1st level and higher. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+**Preparing and Casting Spells.** The Druid table shows how many spell slots you have to cast your druid spells of 1st level and higher. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
 You prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.
 
@@ -482,21 +473,15 @@ For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-l
 
 You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
 
-#### Spellcasting Ability
-
-Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.
+**Spellcasting Ability.** Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.
 
 <span class='abilityDc'>**Spell save DC**: your proficiency bonus + your Wisdom</span>
 
 <span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Wisdom</span>
 
-#### Ritual Casting
+**Ritual Casting.** You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.
 
-You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.
-
-#### Spellcasting Focus
-
-You can use a [druidic focus](03.PlayerLog&Handouts/Mechanics/CLI/items/druidic-focus.md) as a spellcasting focus for your druid spells.
+**Spellcasting Focus.** You can use a [druidic focus](03.PlayerLog&Handouts/Mechanics/CLI/items/druidic-focus.md) as a spellcasting focus for your druid spells.
 
 ### Wild Shape (Level 2)
 

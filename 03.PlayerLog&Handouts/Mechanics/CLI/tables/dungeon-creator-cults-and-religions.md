@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Dungeon Creator; Cults and Religions
+- "Dungeon Creator; Cults and Religions"
 ---
 # Dungeon Creator; Cults and Religions
 *Source: Dungeon Master's Guide p. 99* 
 
 **Cults and Religions**
-
-`dice: [](dungeon-creator-cults-and-religions.md#^cults-and-religions)`
 
 | dice: d20 | Cult or Religious Group |
 |-----------|-------------------------|

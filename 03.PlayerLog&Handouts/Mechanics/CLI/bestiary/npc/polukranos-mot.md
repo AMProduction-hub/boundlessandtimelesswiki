@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/19
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Polukranos
+- "Polukranos"
 ---
-# [Polukranos](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/polukranos-mot.md)
+# [Polukranos](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/polukranos-mot.md)
 *Source: Mythic Odysseys of Theros p. 231*  
 
 Polukranos, called the World Eater, is the mortal manifestation of the eternal ideal of a hydra. In its first incarnation, it fell from Nyx to the mortal world, and so great were its size and strength that the gods Nylea and Heliod combined their power to bind the monster deep within the Nessian Wood. That incarnation was slain, but the eternal ideal remains. A new incarnation of the World Eater is a fearsome omen, as the monster only appears when the pillars of the world tremble and terrible things are afoot in the realm of the gods. Its rampages often presage an age of menace for all civilization.
@@ -40,7 +41,8 @@ What krakens are to the sea and dragons are to the sky, hydras are to the lands 
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+14"
 "damage_immunities": "acid"
-"senses": "darkvision 120 ft., passive Perception 24"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 24"
 "languages": ""
 "cr": "19"
 "traits":
@@ -74,16 +76,19 @@ What krakens are to the sea and dragons are to the sky, hydras are to the lands 
 "actions":
   - "desc": "Polukranos makes as many bite attacks as it has heads."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:*\
       \ 18 (2d10 + 7) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:*\
       \ 16 (2d8 + 7) bludgeoning damage."
     "name": "Stomp"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:*\
       \ 18 (2d10 + 7) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 21 Strength saving throw or be pushed up to 20 feet away from Polukranos."
     "name": "Tail"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Polukranos can expend a use to take one of the following actions. Polukranos\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Polukranos makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ check."

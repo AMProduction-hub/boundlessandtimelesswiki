@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/race/zombie
 aliases:
-- Zombie
+- "Zombie"
 ---
 # Zombie
 *Source: Dungeon Master's Guide p. 282*  
 
 
-- **Ability Scores**: Strength +1; Constitution +2; Intelligence -6; Wisdom -4; Charisma -4
+- **Ability Scores**: str +1 con +2 int -6 wis -4 cha -4
 - **Type**: undead
 - **Size**: Medium
 - **Speed**: 30 ft.

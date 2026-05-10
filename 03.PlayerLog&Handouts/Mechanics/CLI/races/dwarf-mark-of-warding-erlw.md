@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/race/dwarf/mark-of-warding
 aliases:
-- Dwarf (Mark of Warding)
+- "Dwarf (Mark of Warding)"
 ---
 # Dwarf (Mark of Warding)
 *Source: Eberron: Rising from the Last War p. 51*  
 
 
-- **Ability Scores**: Intelligence +1
+- **Ability Scores**: int +1
 - **Size**: Medium
 - **Speed**: 25 ft.
 - **Spellcasting**: Intelligence
@@ -44,7 +45,7 @@ You have proficiency with the [battleaxe](03.PlayerLog&Handouts/Mechanics/CLI/it
 
 ### Tool Proficiency
 
-You gain proficiency with the artisan's tools of your choice: [Smith's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/smiths-tools.md), [brewer's supplies](03.PlayerLog&Handouts/Mechanics/CLI/items/brewers-supplies.md), or [mason's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/masons-tools.md).
+You gain proficiency with the [artisan's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/artisans-tools.md) of your choice: [Smith's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/smiths-tools.md), [brewer's supplies](03.PlayerLog&Handouts/Mechanics/CLI/items/brewers-supplies.md), or [mason's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/masons-tools.md).
 
 ### Stonecunning
 

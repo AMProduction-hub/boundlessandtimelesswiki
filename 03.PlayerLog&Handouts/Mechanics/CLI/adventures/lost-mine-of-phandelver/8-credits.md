@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/lmop
 aliases:
-- Credits
+- "Credits"
 ---
 # Credits
 *Source: Lost Mine of Phandelver* 

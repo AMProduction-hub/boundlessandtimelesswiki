@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/lmop
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Redbrand Ruffian
+- "Redbrand Ruffian"
 ---
-# [Redbrand Ruffian](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/redbrand-ruffian-lmop.md)
+# [Redbrand Ruffian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/redbrand-ruffian-lmop.md)
 *Source: Lost Mine of Phandelver p. 61*  
 
 Redbrand ruffians are petty thugs and ruthless enforcers skilled at intimidation and violence. They work for money and have no scruples.
@@ -38,13 +39,15 @@ Redbrand ruffians are petty thugs and ruthless enforcers skilled at intimidation
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+2"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 9"
 "languages": "Common"
 "cr": "1/2"
 "actions":
   - "desc": "The ruffian makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
 "source":

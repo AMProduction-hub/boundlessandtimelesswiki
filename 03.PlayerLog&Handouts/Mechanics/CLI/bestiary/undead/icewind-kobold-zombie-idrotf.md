@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Icewind Kobold Zombie
+- "Icewind Kobold Zombie"
 ---
-# [Icewind Kobold Zombie](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/icewind-kobold-zombie-idrotf.md)
+# [Icewind Kobold Zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/icewind-kobold-zombie-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 297*  
 
 The necromancer Vellynne Harpell has Icewind kobold guides in her employ, including a pair that died and were turned into zombies using [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md) spells. The cold climate helps to preserve their dead flesh.
@@ -35,10 +36,13 @@ The necromancer Vellynne Harpell has Icewind kobold guides in her employ, includ
   - !!int "3"
 "speed": "20 ft."
 "saves":
-  - "wisdom": "+0"
+  - "wisdom": !!int "0"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 8"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": "understands Common and Draconic but can't speak"
 "cr": "1/8"
 "traits":
@@ -49,7 +53,7 @@ The necromancer Vellynne Harpell has Icewind kobold guides in her employ, includ
   - "desc": "The zombie doesn't require air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2\
+  - "desc": "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 2\
       \ (1d6 - 1) piercing damage."
     "name": "Javelin"
 "source":

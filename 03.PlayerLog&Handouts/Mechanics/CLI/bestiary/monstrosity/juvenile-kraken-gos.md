@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/14
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Juvenile Kraken
+- "Juvenile Kraken"
 ---
-# [Juvenile Kraken](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/juvenile-kraken-gos.md)
+# [Juvenile Kraken](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/juvenile-kraken-gos.md)
 *Source: Ghosts of Saltmarsh p. 238*  
 
 Hidden in a deep, dark underwater pit near the Styes, this creature bears the mark of the dark god Tharizdun's madness. Becoming more independent every day, it dreams of freeing itself from its aboleth tenders and wreaking its own foul will upon the seas.
@@ -36,16 +37,17 @@ Hidden in a deep, dark underwater pit near the Styes, this creature bears the ma
   - !!int "17"
 "speed": "20 ft., swim 50 ft."
 "saves":
-  - "strength": "+12"
-  - "dexterity": "+5"
-  - "constitution": "+10"
-  - "intelligence": "+9"
-  - "wisdom": "+7"
+  - "strength": !!int "12"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "10"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "7"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
 "damage_immunities": "lightning"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)"
-"senses": "truesight 120 ft., passive Perception 12"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 12"
 "languages": "Abyssal, Celestial, Infernal, Primordial, telepathy 60 ft. but can't\
   \ speak"
 "cr": "14"
@@ -61,7 +63,7 @@ Hidden in a deep, dark underwater pit near the Styes, this creature bears the ma
   - "desc": "The kraken makes two tentacle attacks, each of which it can replace with\
       \ a use of Fling."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 20 (3d8 + 7) piercing damage. If the target is a Medium or smaller creature\
       \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ by the kraken, that creature is swallowed and the grapple ends. While swallowed,\
@@ -77,14 +79,14 @@ Hidden in a deep, dark underwater pit near the Styes, this creature bears the ma
       \ is no longer [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ by it and can escape from the corpse using 10 feet of movement, exiting [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 20 ft., one target. *Hit:*\
       \ 17 (3d6 + 7) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 20). Until the grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
       \ The kraken has ten tentacles, each of which can grapple one target."
     "name": "Tentacle"
   - "desc": "One Medium or smaller object held or creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ by the kraken is thrown up to 40 feet in a random direction and knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
-      \ If a thrown target strikes a solid surface, the target takes 3 (d6) bludgeoning\
+      \ If a thrown target strikes a solid surface, the target takes 3 (1d6) bludgeoning\
       \ damage for every 10 feet it was thrown. If the target is thrown at another\
       \ creature, that creature must succeed on a DC 13 Dexterity saving throw or\
       \ take the same damage and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
@@ -94,6 +96,9 @@ Hidden in a deep, dark underwater pit near the Styes, this creature bears the ma
       \ saving throw, taking 22 (4d10) lightning damage on a failed save, or half\
       \ as much damage on a successful one."
     "name": "Lightning Strike"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the juvenile kraken can expend a use to take one of the following actions.\
+  \ The juvenile kraken regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The kraken makes one tentacle attack."
     "name": "Tentacle Attack (Costs 2 Actions)"

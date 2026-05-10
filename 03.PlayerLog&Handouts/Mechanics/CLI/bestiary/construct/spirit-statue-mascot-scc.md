@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Spirit Statue Mascot
+- "Spirit Statue Mascot"
 ---
-# [Spirit Statue Mascot](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/spirit-statue-mascot-scc.md)
+# [Spirit Statue Mascot](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/spirit-statue-mascot-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 216*  
 
 To enhance their studies of the past, Lorehold students often call upon the spirits of dead creatures. Mages seeking longer-term assistance from ancient spirits have learned to house these spirits in statues, giving them a more permanent residence from which to assist the living.
@@ -50,10 +51,10 @@ Some of these spirit statues bond with and mentor a specific mage, but most serv
   - "desc": "When the spirit statue is reduced to 0 hit points, the statue crumbles,\
       \ and the spirit returns to the afterlife in a burst of ghostly white flame.\
       \ Each creature within 5 feet of it must succeed on a DC 12 Constitution saving\
-      \ throw or take 3 (d6) radiant damage."
+      \ throw or take 3 (1d6) radiant damage."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) bludgeoning damage."
     "name": "Slam"
   - "desc": "The spirit statue touches one creature. Once within the next 10 minutes,\

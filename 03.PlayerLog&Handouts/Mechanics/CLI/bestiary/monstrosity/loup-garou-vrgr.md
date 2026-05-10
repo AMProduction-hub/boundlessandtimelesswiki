@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/13
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Loup Garou
+- "Loup Garou"
 ---
-# [Loup Garou](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/loup-garou-vrgr.md)
+# [Loup Garou](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/loup-garou-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 237*  
 
 Loup garou possess a strain of lycanthropy more virulent than that carried by common werewolves. Aside from being deadlier than their werewolf cousins, loup garou aggressively spread the plague of lycanthropy. Only through the death of a loup garou might those afflicted by it escape their curse.
@@ -42,9 +43,9 @@ Once a loup garou is slain, a [remove curse](03.PlayerLog&Handouts/Mechanics/CLI
   - !!int "16"
 "speed": "30 ft. (40 ft. in hybrid form, 50 ft. in dire wolf form)"
 "saves":
-  - "dexterity": "+9"
-  - "constitution": "+9"
-  - "charisma": "+8"
+  - "dexterity": !!int "9"
+  - "constitution": !!int "9"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+13"
@@ -52,7 +53,10 @@ Once a loup garou is slain, a [remove curse](03.PlayerLog&Handouts/Mechanics/CLI
     "desc": "+9"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 23"
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 23"
 "languages": "Common (can't speak in wolf form)"
 "cr": "13"
 "traits":
@@ -70,16 +74,16 @@ Once a loup garou is slain, a [remove curse](03.PlayerLog&Handouts/Mechanics/CLI
   - "desc": "The loup garou makes two attacks: two with its Longsword (humanoid form)\
       \ or one with its Bite and one with its Claws (dire wolf or hybrid form)."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) piercing damage plus 14 (4d6) necrotic damage. If the target\
       \ is a Humanoid, it must succeed on a DC 17 Constitution saving throw or be\
       \ cursed with loup garou lycanthropy."
     "name": "Bite (Dire Wolf or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage. If the target is a creature, it must succeed\
       \ on a DC 17 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Claws (Dire Wolf or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) slashing damage, or 15 (2d10 + 4) slashing damage if used with\
       \ two hands."
     "name": "Longsword (Humanoid Form Only)"
@@ -90,6 +94,9 @@ Once a loup garou is slain, a [remove curse](03.PlayerLog&Handouts/Mechanics/CLI
       \ is wearing or carrying isn't transformed. It reverts to its true form if it\
       \ dies."
     "name": "Change Shape"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the loup garou can expend a use to take one of the following actions. The\
+  \ loup garou regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The loup garou makes one Claws attack (dire wolf or hybrid form only)\
       \ or one Longsword attack (humanoid form only)."

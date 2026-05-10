@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Arrant Quill
+- "Arrant Quill"
 ---
-# [Arrant Quill](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/arrant-quill-cm.md)
+# [Arrant Quill](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/arrant-quill-cm.md)
 *Source: Candlekeep Mysteries p. 157*  
 
 Quill is a charismatic bard who carries himself with a quiet confidence that doesn't hint at the full extent of his skills or powers. His handsome features are marred by a scar that curves from the top of his left cheekbone down to his jaw, though he doesn't consider the scar disfiguring. If asked about the scar, he explains that he got it years ago when the man who burned down his home village slashed his face with a dagger. It serves as a grim reminder of his past.
@@ -39,9 +40,9 @@ As long as Quill remains in Wisteria Vale, he is immune to all damage and automa
   - !!int "20"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+7"
-  - "wisdom": "+6"
-  - "charisma": "+9"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+11"
@@ -51,14 +52,16 @@ As long as Quill remains in Wisteria Vale, he is immune to all damage and automa
     "desc": "+7"
   - "name": "[Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance)"
     "desc": "+13"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Draconic, Elvish, Undercommon"
 "cr": "11"
 "actions":
   - "desc": "Quill makes two attacks with his dagger and uses Supreme Mockery."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 6 (1d4 + 4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +8 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 6 (1d4 + 4) piercing damage."
     "name": "Dagger"
   - "desc": "Quill utters a short fable while targeting up to five creatures within\
       \ 30 feet of him that he can see. Each target that can hear Quill's magical\
@@ -72,13 +75,13 @@ As long as Quill remains in Wisteria Vale, he is immune to all damage and automa
       \ roll it makes before the end of its next turn."
     "name": "Supreme Mockery"
   - "desc": "Quill casts one of the following spells using Charisma as the spellcasting\
-      \ ability (save DC 17):\n\nAt will: [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
+      \ ability (save DC 17):\n\n**At will:** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n3/day each: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**3/day each:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
       \ [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md)\n\
-      \n1/day each: [mind blank](03.PlayerLog&Handouts/Mechanics/CLI/spells/mind-blank.md),\
+      \n**1/day each:** [mind blank](03.PlayerLog&Handouts/Mechanics/CLI/spells/mind-blank.md),\
       \ [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)"
     "name": "Spellcasting"
 "source":

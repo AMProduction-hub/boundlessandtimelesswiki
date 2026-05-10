@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -16,10 +17,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Half-Ogre (Ogrillon)
+- "Half-Ogre (Ogrillon)"
 ---
-# [Half-Ogre (Ogrillon)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/half-ogre-ogrillon.md)
-*Source: Monster Manual p. 238, Princes of the Apocalypse, Storm King's Thunder, Waterdeep: Dragon Heist, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Icewind Dale: Rime of the Frostmaiden, Dragonlance: Shadow of the Dragon Queen*  
+# [Half-Ogre (Ogrillon)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/half-ogre-ogrillon.md)
+*Source: Monster Manual p. 238*  
 
 Ogres are as lazy of mind as they are strong of body. They live by raiding, scavenging, and killing for food and pleasure. The average adult specimen stands between 9 and 10 feet tall and weighs close to a thousand pounds.
 
@@ -79,26 +80,23 @@ The half-ogre offspring of an ogre and an orc is also called an ogrillon. An adu
   - !!int "9"
   - !!int "10"
 "speed": "30 ft."
-"senses": "darkvision 60 ft., passive Perception 9"
+"gear":
+  - "[battleaxe](03.PlayerLog&Handouts/Mechanics/CLI/items/battleaxe.md)"
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "Common, Giant"
 "cr": "1"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d8 + 3) slashing damage, or 14 (2d10 + 3) slashing damage if used with\
       \ two hands."
     "name": "Battleaxe"
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 10 (2d6 + 3) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 10 (2d6 + 3) piercing damage."
     "name": "Javelin"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "WDH"
-  - "BGDIA"
-  - "ERLW"
-  - "IDRotF"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/token/half-ogre-ogrillon.webp"
 ```
 ^statblock

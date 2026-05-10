@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/rare
 - ttrpg-cli/item/shield/
-aliases: 
+aliases:
 - "Pariah's Shield"
 ---
 # Pariah's Shield

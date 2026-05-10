@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Pteranodon
+- "Pteranodon"
 ---
-# [Pteranodon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/pteranodon.md)
-*Source: Monster Manual p. 80, Tomb of Annihilation, Ghosts of Saltmarsh, Eberron: Rising from the Last War. Available in the Basic Rules (2014)*  
+# [Pteranodon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/pteranodon.md)
+*Source: Monster Manual p. 80. Available in the Basic Rules (2014)*  
 
 These flying reptiles have wingspans of 15 to 20 feet and typically dive for small marine prey, though they are opportunists and will attack any creature that appears edible. A pteranodon has no teeth, instead using its sharp beak to stab prey too large to swallow with one gulp.
 
@@ -54,14 +55,11 @@ Dinosaurs come in many sizes and shapes. Larger varieties often have drab colora
       \ of an enemy's reach."
     "name": "Flyby"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
-      \ (2d4 + 1) piercing damage"
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6\
+      \ (2d4 + 1) piercing damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "ToA"
-  - "GoS"
-  - "ERLW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/pteranodon.webp"
 ```
 ^statblock

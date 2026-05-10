@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragonborn of Tiamat
+- "Dragonborn of Tiamat"
 ---
-# [Dragonborn of Tiamat](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/dragonborn-of-tiamat-ftd.md)
+# [Dragonborn of Tiamat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/dragonborn-of-tiamat-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 185*  
 
 Champions of the dragon queen are often called Talons of Tiamat. They work tirelessly to free their master from her imprisonment in Avernus, and Tiamat grants these pawns immense strength and a devastating breath weapon. Champions of Tiamat are sometimes associated with the Cult of the Dragon (described in chapter 3).
@@ -39,10 +40,10 @@ The connection between dragonborn and their draconic ancestors manifests in a va
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "strength": "+8"
-  - "constitution": "+7"
-  - "wisdom": "+4"
-  - "charisma": "+6"
+  - "strength": !!int "8"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+8"
@@ -51,6 +52,8 @@ The connection between dragonborn and their draconic ancestors manifests in a va
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
 "senses": "passive Perception 14"
 "languages": "Common, Draconic"
 "cr": "7"
@@ -60,7 +63,7 @@ The connection between dragonborn and their draconic ancestors manifests in a va
 "actions":
   - "desc": "The dragonborn makes two Greataxe attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (1d12 + 5) slashing damage plus 13 (3d8) necrotic damage."
     "name": "Greataxe"
   - "desc": "The dragonborn exhales shadowy fire in a 30-foot cone. Each creature\

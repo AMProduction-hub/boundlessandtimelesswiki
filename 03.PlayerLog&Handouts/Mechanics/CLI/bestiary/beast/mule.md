@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-8
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mule
+- "Mule"
 ---
-# [Mule](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/mule.md)
-*Source: Monster Manual p. 333, Curse of Strahd, Storm King's Thunder, Ghosts of Saltmarsh, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Mule](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/mule.md)
+*Source: Monster Manual p. 333. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Mule"
@@ -45,15 +46,11 @@ aliases:
       \ effects that would knock it [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Sure-Footed"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) bludgeoning damage."
     "name": "Hooves"
 "source":
   - "MM"
-  - "CoS"
-  - "SKT"
-  - "GoS"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/mule.webp"
 ```
 ^statblock

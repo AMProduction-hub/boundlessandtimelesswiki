@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Thessalar's Homunculus
+- "Thessalar's Homunculus"
 ---
-# [Thessalar's Homunculus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/thessalars-homunculus-imr.md)
+# [Thessalar's Homunculus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/thessalars-homunculus-imr.md)
 *Source: Infernal Machine Rebuild p. 35*  
 
 ```statblock
@@ -35,7 +36,8 @@ aliases:
 "damage_immunities": "poison"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "0"
 "traits":
@@ -44,16 +46,16 @@ aliases:
       \ telepathically."
     "name": "Telepathic Bond"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 1 piercing damage, and the target must succeed on a DC 10 Constitution saving\
       \ throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. If the saving throw fails by 5 or more, the target is instead\
       \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-      \ for 5 (d10) minutes and [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
+      \ for 5 (1d10) minutes and [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
       \ while [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ in this way."
     "name": "Bite"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) acid damage."
     "name": "Acidic Spittle"
 "source":

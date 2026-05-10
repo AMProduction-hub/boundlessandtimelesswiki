@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Aruk Thundercaller Thuunlakalaga
+- "Aruk Thundercaller Thuunlakalaga"
 ---
-# [Aruk Thundercaller Thuunlakalaga](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/aruk-thundercaller-thuunlakalaga-idrotf.md)
+# [Aruk Thundercaller Thuunlakalaga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/aruk-thundercaller-thuunlakalaga-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 169*  
 
 Goliaths inhabit the Spine of the World, where their mettle is tested against orcs, ogres, frost giants, remorhazes, ice trolls, young white dragons, the treacherous mountain terrain, and the cruel indifference of nature.
@@ -43,6 +44,9 @@ Goliaths inhabit the Spine of the World, where their mettle is tested against or
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+4"
 "damage_resistances": "cold"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
 "senses": "passive Perception 14"
 "languages": "Common, Giant"
 "cr": "3"
@@ -56,11 +60,11 @@ Goliaths inhabit the Spine of the World, where their mettle is tested against or
 "actions":
   - "desc": "Aruk makes two attacks with its greataxe or hurls two javelins."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (1d12 + 4) slashing damage."
     "name": "Greataxe"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
     "name": "Javelin"
 "reactions":
   - "desc": "When Aruk takes damage, it reduces the damage taken by 9 (1d12 + 3)."

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/17
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Adult Red Dracolich
+- "Adult Red Dracolich"
 ---
-# [Adult Red Dracolich](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/adult-red-dracolich-tce.md)
+# [Adult Red Dracolich](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-red-dracolich-tce.md)
 *Source: Tasha's Cauldron of Everything p. 137*  
 
 ```statblock
@@ -33,10 +34,10 @@ aliases:
   - !!int "21"
 "speed": "40 ft., climb 40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+6"
-  - "constitution": "+13"
-  - "wisdom": "+7"
-  - "charisma": "+11"
+  - "dexterity": !!int "6"
+  - "constitution": !!int "13"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "11"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+13"
@@ -49,7 +50,9 @@ aliases:
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion)"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 23"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 23"
 "languages": "Common, Draconic"
 "cr": "17"
 "traits":
@@ -62,13 +65,13 @@ aliases:
   - "desc": "The dracolich can use its Frightful Presence. It then makes three attacks:\
       \ one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:*\
       \ 19 (2d10 + 8) piercing damage plus 7 (2d6) fire damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 5 ft., one target. *Hit:*\
       \ 15 (2d6 + 8) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 15 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) bludgeoning damage."
     "name": "Tail"
   - "desc": "Each creature of the dracolich's choice that is within 120 feet of the\
@@ -83,6 +86,9 @@ aliases:
       \ must make a DC 21 Dexterity saving throw, taking 63 (18d6) fire damage on\
       \ a failed save, or half as much damage on a successful one."
     "name": "Fire Breath (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the dracolich can expend a use to take one of the following actions. The\
+  \ dracolich regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The dracolich makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ check."

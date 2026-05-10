@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/lox
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vocath
+- "Vocath"
 ---
-# [Vocath](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/vocath-lox.md)
+# [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md)
 *Source: Light of Xaryxis p. 42*  
 
 ```statblock
@@ -33,9 +34,9 @@ aliases:
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+7"
-  - "wisdom": "+6"
-  - "charisma": "+5"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+9"
@@ -53,15 +54,15 @@ aliases:
 "actions":
   - "desc": "Vocath makes three Psi-Imbued Blade attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage, and if the target is a creature, it must succeed\
       \ on a DC 15 Wisdom saving throw or be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
       \ of Vocath until the end of the target's next turn."
     "name": "Psi-Imbued Blade"
   - "desc": "Vocath casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 15):\n\n\
-      At will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
-      \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md)\n\n1/day each:\
+      **At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md)\n\n**1/day each:**\
       \ [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md) (self\

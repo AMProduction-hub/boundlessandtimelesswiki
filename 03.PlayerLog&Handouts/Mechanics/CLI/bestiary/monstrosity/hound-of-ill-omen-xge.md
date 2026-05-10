@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hound of Ill Omen
+- "Hound of Ill Omen"
 ---
-# [Hound of Ill Omen](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/hound-of-ill-omen-xge.md)
+# [Hound of Ill Omen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hound-of-ill-omen-xge.md)
 *Source: Xanathar's Guide to Everything p. 50*  
 
 ```statblock
@@ -66,7 +67,7 @@ aliases:
       \ if its target is reduced to 0 hit points, or after 5 minutes."
     "name": "Ever at Your Heels"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) piercing damage. If the target is a creature, it must succeed\
       \ on a DC 13 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Bite"

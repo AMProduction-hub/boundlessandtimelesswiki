@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/subclass/wizard/graviturgy
 aliases:
-- Graviturgy Magic
+- "Graviturgy Magic"
 ---
 # Graviturgy Magic
 *[Wizard](./wizard.md): Arcane Tradition*  
@@ -43,14 +44,12 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Graviturgy Magic (Level 2)
-
 Understanding and mastering the forces that draw bodies of matter together or drive them apart, the students of the Graviturgy arcane tradition learn to further bend and manipulate the violent energy of gravity to their benefit, and the terrible detriment of their enemies.
 
 > [!note]
 > Note: This subclass has access to "Dunamancy Spells".
+
+## Subclass Features
 
 ### Adjust Density (Level 2)
 
@@ -72,7 +71,7 @@ You've learned how to manipulate gravity around a living being: whenever you cas
 
 *10th-level Graviturgy Magic feature*
 
-When another creature that you can see within 60 feet of you hits with a weapon attack, you can use your reaction to increase the attack's velocity, causing the attack's target to take an extra `d10` damage of the weapon's type.
+When another creature that you can see within 60 feet of you hits with a weapon attack, you can use your reaction to increase the attack's velocity, causing the attack's target to take an extra `1d10` damage of the weapon's type.
 
 Alternatively, if a creature within 60 feet of you takes damage from a fall, you can use your reaction to increase the fall's damage by `2d10`.
 

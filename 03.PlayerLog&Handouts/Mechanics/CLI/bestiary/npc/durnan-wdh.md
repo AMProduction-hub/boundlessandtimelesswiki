@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Durnan
+- "Durnan"
 ---
-# [Durnan](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/durnan-wdh.md)
+# [Durnan](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/durnan-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 203*  
 
 *Human proprietor*
@@ -48,8 +49,8 @@ Durnan doesn't often venture far from the Yawning Portal, using his employees to
   - !!int "10"
 "speed": "30 ft."
 "saves":
-  - "strength": "+8"
-  - "constitution": "+8"
+  - "strength": !!int "8"
+  - "constitution": !!int "8"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+8"
@@ -75,14 +76,14 @@ Durnan doesn't often venture far from the Yawning Portal, using his employees to
 "actions":
   - "desc": "Durnan makes four melee weapon attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage. If the target is an object, the hit instead deals\
       \ 16 slashing damage. If the target is a creature and Durnan rolls a 20 on the\
       \ d20 for the attack roll, the target takes an extra 14 slashing damage, and\
       \ Durnan rolls another d20. On a roll of 20, he lops off one of the target's\
       \ limbs, or some other part of its body if it is limbless."
     "name": "Grimvault"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 60/240 ft., one target. *Hit:*\
       \ 13 (2d10 + 2) piercing damage."
     "name": "Double Crossbow"
 "source":

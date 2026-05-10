@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Indefinite Madness
+- "Indefinite Madness"
 ---
 # Indefinite Madness
 *Source: Dungeon Master's Guide p. 259. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>* 
 
 **Indefinite Madness**
-
-`dice: [](indefinite-madness.md#^indefinite-madness)`
 
 | dice: d100 | Flaw (lasts until cured) |
 |------------|--------------------------|

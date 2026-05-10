@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Starting Area
+- "Starting Area"
 ---
 # Starting Area
 *Source: Dungeon Master's Guide p. 290* 
 
 **Starting Area**
-
-`dice: [](starting-area.md#^starting-area)`
 
 | dice: d10 | Configuration |
 |-----------|---------------|

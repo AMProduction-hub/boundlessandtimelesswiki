@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 aliases:
-- Welcome to the Realms
+- "Welcome to the Realms"
 ---
 # Welcome to the Realms
 *Source: Sword Coast Adventurer's Guide, p. 7* 
@@ -489,7 +490,7 @@ Most mythals are defensive in nature, designed to restrict the kinds of magic th
 
 In many ways, a mythal is less like a spell or a magic item than a living creation of magic, capable of growing stronger or weaker, absorbing damage, or dying. Mythals can also sometimes heal themselves, as did the mythal of Silverymoon, blossoming out of the Moonbridge following Mystra's most recent return. Each active mythal has one or more beings attuned to its effects, who can ignore any restrictions on spellcasting, can direct targetable effects of the mythal, and can teach others of appropriate skill how to access its secrets.
 
-Except in cities such as Silverymoon and Evereska, adventurers are most likely to encounter damaged or failing mythals in ruined locations where magic once had great influence. Although an identify spell might reveal some of the simplest effects of a mythal, active restrictions on spellcasting can be discovered only by trying (and failing) to cast a prohibited spell. A powerful spellcaster might learn how to access or repair a mythal without assistance, but such feats are legendary, and rarely attempted by even the most renowned of mages. Any elven city with Myth in its title (Myth Drannor, Myth Glaurach, Myth Nantar, and others) has, or had, a mythal protecting it. The ruins of such places are certain to have unpredictable effects related to their damaged or destroyed mythals .
+Except in cities such as Silverymoon and Evereska, adventurers are most likely to encounter damaged or failing mythals in ruined locations where magic once had great influence. Although an identify spell might reveal some of the simplest effects of a mythal, active restrictions on spellcasting can be discovered only by trying (and failing) to cast a prohibited spell. A powerful spellcaster might learn how to access or repair a mythal without assistance, but such feats are legendary, and rarely attempted by even the most renowned of mages. Any elven city with Myth in its title (Myth Drannor, Myth Glaurach, Myth Nantar, and others) has, or had, a mythal protecting it. The ruins of such places are certain to have unpredictable effects related to their damaged or destroyed mythals.
 
 ## Religion in the Realms
 
@@ -706,7 +707,7 @@ Although most people tremble in fear at the prospect of Beshaba's attendance at 
 
 Temples to Beshaba are virtually unknown. It's common, however, for rural folk to erect a post and mount antlers on it at the site of some roadside accident or murder. In cities, where antlers are hard to come by and murders and accidents more prevalent, the fashion is to draw the black antlers of Beshaba with charcoal on a nearby wall, leaving the symbol on display until weather scours it away. These "shrines," in either form, serve as warnings to others about places of ill fortune.
 
-More formal shrines to Beshaba exist in places where folk frequently hope to ward off misfortune. These sites tend to be posts or stones painted red with blackened antlers attached to them, or a red, triangular wallmounted plaque with attached antlers. Both types have a stone or bronze bowl where coins can be tossed or burnt offerings made. The Red Wizards of Thay commonly erect such shrines outside their ritual chambers to guard against unfortunate mistakes.
+More formal shrines to Beshaba exist in places where folk frequently hope to ward off misfortune. These sites tend to be posts or stones painted red with blackened antlers attached to them, or a red, triangular wall-mounted plaque with attached antlers. Both types have a stone or bronze bowl where coins can be tossed or burnt offerings made. The Red Wizards of Thay commonly erect such shrines outside their ritual chambers to guard against unfortunate mistakes.
 
 Few dare to take Beshaba as a patron. The rare clerics of the Maid of Misfortune are those who have been deeply affected by great misfortunes and who seek to warn others of the essential unfairness of life—or to inflict that unfairness upon them.
 

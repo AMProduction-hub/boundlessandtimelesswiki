@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Creating Theros Adventures
+- "Creating Theros Adventures"
 ---
 # Creating Theros Adventures
 *Source: Mythic Odysseys of Theros, p. 109* 
@@ -15,7 +16,7 @@ aliases:
 > 
 > "If you want a god to determine your fate, you must ask the god for an ordeal," Sarpedon said. "They will only grant it if they think you are worthy—whatever 'worthy' means for them. If you accomplish it, you may request a hand in your own destiny."
 
-![As with this clash between...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/069-04-01.webp#center "As with this clash between the gods Karametra and Pharika, the quarrels of deities and demigods often spill from Nyx into the realm of mortals ")
+![As with this clash between the gods Karametra and Pharika, the quarrels of deities and demigods often spill from Nyx into the realm of mortals](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/069-04-01.webp#center)
 
 As exemplified by the labors of Anthousa, the exploits of Haktos the Unscarred, the wondrous inventions of Dalakos, and Elspeth's escape from the Underworld, the heroes of Theros chart their own fates—and so will the player characters in your campaign.
 
@@ -200,7 +201,7 @@ You have advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/r
 
 As an action, you can imbue your eyes with enhanced vision for 10 minutes. While the blessing is active, your eyes look like the starry void of Nyx, and you can see [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) creatures and objects within 60 feet of you that are within your line of sight. Once you use this blessing, you can't use it again until the next dusk.
 
-- **Weapon of Nyx (Requires Piety 10+).** You can use a bonus action to cause one weapon you are holding to surge with divine power for 1 minute. On a hit, the weapon deals an extra `d8` radiant damage. (Depending on your god, it might deal a different damage type—necrotic for Erebos, lightning for Keranos, or fire for Purphoros, for example.) Once you use this blessing, you can't use it again until you finish a long rest.  
+- **Weapon of Nyx (Requires Piety 10+).** You can use a bonus action to cause one weapon you are holding to surge with divine power for 1 minute. On a hit, the weapon deals an extra `1d8` radiant damage. (Depending on your god, it might deal a different damage type—necrotic for Erebos, lightning for Keranos, or fire for Purphoros, for example.) Once you use this blessing, you can't use it again until you finish a long rest.  
 
 #### Emissaries
 
@@ -305,7 +306,7 @@ If Athreos were to have desires beyond his responsibilities to the dead, he woul
 
 ![Athreos's Divine Schemes](03.PlayerLog&Handouts/Mechanics/CLI/tables/athreoss-divine-schemes-mot.md)
 
-![The shores of the Rivers t...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/074-04-05.webp#center "The shores of the Rivers that Ring the World are watched by Athreos and his servants ")
+![The shores of the Rivers that Ring the World are watched by Athreos and his servants](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/074-04-05.webp#center)
 
 ### Underworld Crossing
 
@@ -375,7 +376,7 @@ The Ephara's Villains table suggests a variety of foes that might arise from amo
 
 Ephara isn't often associated with monsters. Even so, a few monsters common in urban settings might be involved with the deity or her worshipers. Since many of Ephara's most devout followers are scholars, they commonly use magically constructed creatures in their plans. The vast majority of villains associated with Ephara are humans: soldiers, politicians, priests, and scholars who believe that Ephara's vision of a proper city is more important than the people living in it. The Ephara's Monsters table presents just a few foes likely to serve the god's will.
 
-![Ephara's urn is a fountain of blessings ](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/077-04-06.webp#center)
+![Ephara's urn is a fountain of blessings](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/077-04-06.webp#center)
 
 ![Ephara's Monsters](03.PlayerLog&Handouts/Mechanics/CLI/tables/epharas-monsters-mot.md)
 
@@ -457,7 +458,7 @@ Erebos has legions of fallen monsters, heroes, and villains that he can send bac
 
 ![Erebos's Monsters](03.PlayerLog&Handouts/Mechanics/CLI/tables/ereboss-monsters-mot.md)
 
-![Erebos's minions hunt the ...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/081-04-08.webp#center "Erebos's minions hunt the Returned and warn those who consider the same folly ")
+![Erebos's minions hunt the Returned and warn those who consider the same folly](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/081-04-08.webp#center)
 
 ### Erebos as Campaign Villain
 
@@ -541,7 +542,7 @@ Heliod is rarely associated with deadly monsters, more often with celestial mess
 
 ![Heliod's Monsters](03.PlayerLog&Handouts/Mechanics/CLI/tables/heliods-monsters-mot.md)
 
-![Heliod's spear doles out h...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/085-04-10.webp#center "Heliod's spear doles out his blessings as well as his wrath ")
+![Heliod's spear doles out his blessings as well as his wrath](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/085-04-10.webp#center)
 
 ### Heliod as Campaign Villain
 
@@ -720,7 +721,7 @@ Karametra's followers usually protect innocents from monsters, but in certain ci
 
 ![Karametra's Monsters](03.PlayerLog&Handouts/Mechanics/CLI/tables/karametras-monsters-mot.md)
 
-![Karametra's acolytes gathe...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/093-04-14.webp#center "Karametra's acolytes gather the bounty of the wilds for the god's feasts in Setessa ")
+![Karametra's acolytes gather the bounty of the wilds for the god's feasts in Setessa](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/093-04-14.webp#center)
 
 ### Karametra as Campaign Villain
 
@@ -808,7 +809,7 @@ Keranos is associated with creatures that act as extensions of his volatile temp
 
 ![Keranos's Monsters](03.PlayerLog&Handouts/Mechanics/CLI/tables/keranoss-monsters-mot.md)
 
-![The mountain temples of Ke...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/097-04-16.webp#center "The mountain temples of Keranos are constantly wrapped in storm clouds ")
+![The mountain temples of Keranos are constantly wrapped in storm clouds](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/097-04-16.webp#center)
 
 ### Keranos as Campaign Villain
 
@@ -1074,7 +1075,7 @@ Mogis is associated with vicious monsters bent on wholesale destruction. He isn'
 
 ![Mogis's Monsters](03.PlayerLog&Handouts/Mechanics/CLI/tables/mogiss-monsters-mot.md)
 
-![Temples to Mogis can be fo...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/108-04-21.webp#center "Temples to Mogis can be found scattered across the badlands of Phoberos ")
+![Temples to Mogis can be found scattered across the badlands of Phoberos](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/108-04-21.webp#center)
 
 ### Mogis as Campaign Villain
 
@@ -1147,7 +1148,7 @@ Nylea's dictates are simple but inflexible, and her champions find that her favo
 > One day, Nylea came upon an enormous lynx lounging in the shade of an olive grove, blood on its maw, the carcass of a colossal boar beside him. The boar had been one of Nylea's favorites, and what followed was a legendary chase where the god pursued the lynx through the heart of the Nessian Wood. Whenever Nylea drew close, the great cat vanished into the forest's shadows. Seasons passed as the god loosed arrow after arrow at the lynx, but her efforts remained fruitless. Nylea eventually abandoned the hunt, only to find the feline waiting for her at the edge of a stream the next evening. The hunt resumed, but with the same outcome. It continued like that for some time, until Nylea began to grow fond of the beast. Soon, the pair started hunting together, and the lynx, which she called Halma, became one of Nylea's confidants.
 ^2c1
 
-![Nylea's sacred lynx guards...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/112-04-23.webp#center "Nylea's sacred lynx guards those who honor the Nessian Wood and hunts those who don't ")
+![Nylea's sacred lynx guards those who honor the Nessian Wood and hunts those who don't](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/112-04-23.webp#center)
 
 ### Nylea's Villains
 
@@ -1247,7 +1248,7 @@ Serpents, rare magical beings, and poisonous creatures number among Pharika's fa
 
 ![Pharika's Monsters](03.PlayerLog&Handouts/Mechanics/CLI/tables/pharikas-monsters-mot.md)
 
-![Pharika's clerics believe ...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/116-04-25.webp#center "Pharika's clerics believe that they are better healers because they are so well acquainted with death ")
+![Pharika's clerics believe that they are better healers because they are so well acquainted with death](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/116-04-25.webp#center)
 
 ### Pharika as Campaign Villain
 
@@ -1329,7 +1330,7 @@ Phenax is often associated with monsters and individuals that use cleverness and
 
 ![Phenax's Monsters](03.PlayerLog&Handouts/Mechanics/CLI/tables/phenaxs-monsters-mot.md)
 
-![Followers of Phenax have l...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/120-04-27.webp#center "Followers of Phenax have little respect for the rest of the pantheon ")
+![Followers of Phenax have little respect for the rest of the pantheon](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/120-04-27.webp#center)
 
 ### Phenax as Campaign Villain
 
@@ -1411,7 +1412,7 @@ In addition to his followers, Purphoros is associated with a wide range of other
 
 ![Purphoros's Monsters](03.PlayerLog&Handouts/Mechanics/CLI/tables/purphoross-monsters-mot.md)
 
-![The oracles of Purphoros r...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/124-04-29.webp#center "The oracles of Purphoros read the god's will in earth, fire, and volcanic fumes ")
+![The oracles of Purphoros read the god's will in earth, fire, and volcanic fumes](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/124-04-29.webp#center)
 
 ### Purphoros as Campaign Villain
 
@@ -1489,7 +1490,7 @@ Any sea creature might answer Thassa's call. In addition to any aquatic beast or
 
 ![Thassa's Monsters](03.PlayerLog&Handouts/Mechanics/CLI/tables/thassas-monsters-mot.md)
 
-![The floor of the Siren Sea...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/128-04-31.webp#center "The floor of the Siren Sea is littered with vessels that navigated the waves unwelcomed ")
+![The floor of the Siren Sea is littered with vessels that navigated the waves unwelcomed](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/128-04-31.webp#center)
 
 ### Thassa as Campaign Villain
 
@@ -1537,7 +1538,7 @@ Villains in seaside temples often seek to harness the might of the sea or are al
 
 ## Nautical Adventures
 
-*The* *Callapheia* chronicles the legendary story of Callaphe, captain of *The* *Monsoon*, whose wild adventures pitted her against all manner of pirates and sea monsters. Sailors also tell tales of the bold explorer Captain Siona and her ship, the *Pyleas*, recounting her epic voyages to mystical islands. Both captains and their crews still sail the waves of Theros, their stories far from complete. Yet word of their deeds has inspired generations of sailors, merely hinting at the endless treasures and adventures to be found at sea. This section provides an overview of the wonders and dangers heroes might encounter when they venture out to sea.
+*The* *Callapheia* chronicles the legendary story of Callaphe, captain of *The Monsoon*, whose wild adventures pitted her against all manner of pirates and sea monsters. Sailors also tell tales of the bold explorer Captain Siona and her ship, the *Pyleas*, recounting her epic voyages to mystical islands. Both captains and their crews still sail the waves of Theros, their stories far from complete. Yet word of their deeds has inspired generations of sailors, merely hinting at the endless treasures and adventures to be found at sea. This section provides an overview of the wonders and dangers heroes might encounter when they venture out to sea.
 
 > [!note] Running Nautical Adventures
 > 
@@ -1570,7 +1571,7 @@ In a campaign that often changes location, it can be difficult to have recurring
 - When the characters dream, they might meet other creatures in Nyx.  
 - Some of Theros's mystical islands move around on the sea, allowing the characters to run into them and their inhabitants multiple times.  
 
-![The kraken Arixmethes carr...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/131-04-33.webp#center "The kraken Arixmethes carries the ruins of a lost city affixed to the length of its spine ")
+![The kraken Arixmethes carries the ruins of a lost city affixed to the length of its spine](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/131-04-33.webp#center)
 
 ### Mystical Islands
 
@@ -1584,7 +1585,7 @@ While a mystical island could be a simple spur of rock and sand jutting from the
 
 ![Island Environments](03.PlayerLog&Handouts/Mechanics/CLI/tables/island-environments-mot.md)
 
-![Upon one of the Dakra Isle...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/132-04-34.webp#center "Upon one of the Dakra Isles, trespassers learn the truth behind the storied Curse of the Swine ")
+![Upon one of the Dakra Isles, trespassers learn the truth behind the storied Curse of the Swine](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/132-04-34.webp#center)
 
 #### Island Inhabitants
 
@@ -1627,7 +1628,7 @@ With vast triton realms hidden beneath the waves and legendary ruins drowned in 
 
 ![Underwater Adventures](03.PlayerLog&Handouts/Mechanics/CLI/tables/underwater-adventures-mot.md)
 
-![As the people of Olantin d...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/133-04-35.webp#center "As the people of Olantin discovered, ages of prosperity and culture mean nothing in the face of a wrathful sea ")
+![As the people of Olantin discovered, ages of prosperity and culture mean nothing in the face of a wrathful sea](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/133-04-35.webp#center)
 
 ## Underworld Adventures
 
@@ -1666,7 +1667,7 @@ Most adventurers hope their lives come to an end with some worthy conclusion. So
 
 Consider memorable moments from the character's story and how they can be reflected in the events of their final descent. Maybe they see the souls of friends, allies, or loved ones who perished, whether their fates are good or ill. Perhaps a villain the hero slew now exists as a broken misera, giving mute testament to the hero's success. Characters who overcame their personal flaws might even be confronted with symbolic or direct examples of their past failings and rebuke their old vices in a final, crystallizing act of growth.
 
-![Funerary masks help the ne...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/134-04-36.webp#center "Funerary masks help the newly dead resist the erosion of memory and identity in the Underworld ")
+![Funerary masks help the newly dead resist the erosion of memory and identity in the Underworld](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/134-04-36.webp#center)
 
 #### The Soul Abides
 
@@ -1731,7 +1732,7 @@ Since Phenax's escape, other souls have repeated his dangerous journey. When mor
 
 The exact details of Phenax's route are unclear, and aside from forging masks and a final swim, any number of challenges among islands in the Tartyx might comprise the path.
 
-![Those who follow the Path ...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/135-04-37.webp#center "Those who follow the Path of Phenax might return to the mortal world, but they never regain the lives they lost ")
+![Those who follow the Path of Phenax might return to the mortal world, but they never regain the lives they lost](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/135-04-37.webp#center)
 
 ### Beyond Death
 

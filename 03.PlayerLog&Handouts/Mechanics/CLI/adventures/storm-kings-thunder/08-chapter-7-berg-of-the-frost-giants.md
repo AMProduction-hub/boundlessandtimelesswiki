@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 aliases:
-- Chapter 7: Berg of the Frost Giants
+- "Chapter 7: Berg of the Frost Giants"
 ---
 # Chapter 7: Berg of the Frost Giants
 *Source: Storm King's Thunder, p. 155* 
@@ -13,7 +14,7 @@ aliases:
 
 From their icy fortress of Svardborg, [Jarl Storvald](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jarl-storvald-skt.md) and his frost giants strike out in their ships in search of the [Ring of Winter](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-winter-toa.md), an artifact they can use to bring about the Age of Everlasting Ice. Although they're far from reaching that goal, the frost giants pose a terrible threat to the North. In this part of their mission, the characters confront this threat head-on.
 
-If the characters obtain Storvald's [conch of teleportation](03.PlayerLog&Handouts/Mechanics/CLI/items/conch-of-teleportation-skt.md), they can use it to travel to Maelstrom, [King Hekaton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/king-hekaton-skt.md)'s undersea citadel (see chapter 10, "Hold of the Storm Giants"). In the course of accomplishing that goal, the characters must elude or overcome the many ruthless denizens of thefortress.
+If the characters obtain Storvald's [conch of teleportation](03.PlayerLog&Handouts/Mechanics/CLI/items/conch-of-teleportation-skt.md), they can use it to travel to Maelstrom, [King Hekaton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/king-hekaton-skt.md)'s undersea citadel (see chapter 10, "Hold of the Storm Giants"). In the course of accomplishing that goal, the characters must elude or overcome the many ruthless denizens of the fortress.
 
 The good news is that things could be worse. The bad news is that they soon will be. When the adventurers first arrive at Svardborg, [Jarl Storvald](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jarl-storvald-skt.md) isn't there. He's aboard the *Krigvind*, his flagship, hunting whales in the Sea of Moving Ice. As the characters search for his conch, the *Krigvind*and its giants are on their way back.
 
@@ -237,13 +238,13 @@ Characters who search the room find several wooden barrels, crates, and chests. 
 - A crate packed with a gold-inlaid wooden harp (worth 250 gp, weighs 100 pounds), two drums (worth 6 gp each), and six flutes (worth 2 gp each)  
 - A chest containing four 50-foot lengths of chain  
 - Four chests, each one holding `3d6 × 100` cp, `3d6 × 100` sp, and `3d6 × 100` gp  
-- A chest containing a dead, frozen shield dwarf (female) clad in *adamantine plate armor*, clutching a warhammer and carrying `d3` magic items, each determined by rolling on Magic Item Table C in chapter 7 of the "Dungeon Master's Guide".  
+- A chest containing a dead, frozen shield dwarf (female) clad in *adamantine plate armor*, clutching a warhammer and carrying `1d3` magic items, each determined by rolling on Magic Item Table C in chapter 7 of the "Dungeon Master's Guide".  
 
 ##### Development
 
 Characters who cast a [speak with dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md) spell on the frozen shield dwarf can learn that she was named Mordana Ur'gray and stowed away aboard a frost giant greatship by hiding in a chest. Unfortunately for her, the chest lid froze shut, and she couldn't get it open.
 
-It takes 8 hours for one character to assemble the [clockwork mule](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-mule-skt.md). At the end of that time, the character can make a DC 20 Intelligence check. The check is made with advantage if the character has the assembly instructions and can read Dethek (or has someone who can translate). If the check succeeds, the [clockwork mule](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-mule-skt.md) is assembled correctly. If the check fails, the character ends up with one or more leftover parts that the mule needs to function; the character must spend another `d4` hours working on the mule, and can then make a new Intelligence check to get it working.
+It takes 8 hours for one character to assemble the [clockwork mule](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-mule-skt.md). At the end of that time, the character can make a DC 20 Intelligence check. The check is made with advantage if the character has the assembly instructions and can read Dethek (or has someone who can translate). If the check succeeds, the [clockwork mule](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-mule-skt.md) is assembled correctly. If the check fails, the character ends up with one or more leftover parts that the mule needs to function; the character must spend another `1d4` hours working on the mule, and can then make a new Intelligence check to get it working.
 
 The [clockwork mule](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-mule-skt.md) has the statistics of a [mule](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/mule.md), with the following changes.
 
@@ -263,7 +264,7 @@ The frost giants have tracked a lot of snow through the main doors. Torch sconce
 
 ##### Treasure
 
-Each frost giant carries a sealskin sack containing `3d6 × 100` cp plus `d6` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction. A careful search of the room accompanied by a successful DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check reveals a small pouch hanging from the tooth of a white dragon head mounted on the wall above the empty crates. The pouch contains six 100 gp gemstones.
+Each frost giant carries a sealskin sack containing `3d6 × 100` cp plus `1d6` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction. A careful search of the room accompanied by a successful DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check reveals a small pouch hanging from the tooth of a white dragon head mounted on the wall above the empty crates. The pouch contains six 100 gp gemstones.
 
 #### 2B. Sleeping Quarters
 
@@ -337,7 +338,7 @@ Two female [frost giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/fro
 
 ##### Treasure
 
-Each frost giant carries a sealskin sack containing `3d6 × 100` sp, `1d6 × 100` gp, and `d3` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
+Each frost giant carries a sealskin sack containing `3d6 × 100` sp, `1d6 × 100` gp, and `1d3` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
 
 #### 4E. Bell Tower
 
@@ -388,7 +389,7 @@ A character who studies the treasure map and succeeds on a DC 10 Intelligence ([
 > *Watched by feathered brides.*
 ^391
 
-If the characters arrive at low tide at the location marked on the map, they see the barnacle-covered, broken mast of a shipwreck poking out of the murky water, pointing toward one of several caves in the cliffs. (The mast is submerged at high tide.) The cave is roughly 30 feet in diameter with a 20-foot-high ceiling. In the cave is the wreckage of a rowboat that two [harpies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/harpy.md) have made into a nest. The nest is littered with humanoid bones and also contains a rotted wooden chest with a black serpent formed in the shape of an "S" burned into its lid. It contains `d4` magic items. Roll on Magic Item Table G in chapter 7 of the "Dungeon Master's Guide" for the first item and on Table C for any other items.
+If the characters arrive at low tide at the location marked on the map, they see the barnacle-covered, broken mast of a shipwreck poking out of the murky water, pointing toward one of several caves in the cliffs. (The mast is submerged at high tide.) The cave is roughly 30 feet in diameter with a 20-foot-high ceiling. In the cave is the wreckage of a rowboat that two [harpies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/harpy.md) have made into a nest. The nest is littered with humanoid bones and also contains a rotted wooden chest with a black serpent formed in the shape of an "S" burned into its lid. It contains `1d4` magic items. Roll on Magic Item Table G in chapter 7 of the "Dungeon Master's Guide" for the first item and on Table C for any other items.
 
 ### 5. Yeti Cave
 
@@ -408,7 +409,7 @@ Fighting on the ship is tricky. Its sloped, icy deck is difficult terrain, and a
 
 #### Treasure
 
-The frost giant carries a sealskin sack containing `3d6 × 100` gp, `1d6 × 100` gp, and `d3` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
+The frost giant carries a sealskin sack containing `3d6 × 100` gp, `1d6 × 100` gp, and `1d3` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
 
 ### 8. Underwater Passage
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Living Unseen Servant
+- "Living Unseen Servant"
 ---
-# [Living Unseen Servant](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/living-unseen-servant-wdmm.md)
+# [Living Unseen Servant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/living-unseen-servant-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 313*  
 
 ## Living Spell
@@ -58,14 +59,15 @@ Like an overzealous butler or maid, a living [unseen servant](03.PlayerLog&Hando
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 12"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 12"
 "languages": "understands one language (usually Common) but can't speak"
 "cr": "0"
 "traits":
   - "desc": "The unseen servant is [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)."
     "name": "Invisibility"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 1\
       \ bludgeoning damage."
     "name": "Slam"
 "source":

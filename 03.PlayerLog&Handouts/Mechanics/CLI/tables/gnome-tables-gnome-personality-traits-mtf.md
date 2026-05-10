@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Gnome Tables; Gnome Personality Traits
+- "Gnome Tables; Gnome Personality Traits"
 ---
 # Gnome Tables; Gnome Personality Traits
 *Source: Mordenkainen's Tome of Foes p. 114* 
 
 **Gnome Personality Traits**
-
-`dice: [](gnome-tables-gnome-personality-traits-mtf.md#^gnome-personality-traits)`
 
 | dice: d6 | Personality Trait |
 |----------|-------------------|

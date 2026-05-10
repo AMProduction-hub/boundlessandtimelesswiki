@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Na
+- "Na"
 ---
-# [Na](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/na-toa.md)
+# [Na](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/na-toa.md)
 *Source: Tomb of Annihilation p. 228*  
 
 ```statblock

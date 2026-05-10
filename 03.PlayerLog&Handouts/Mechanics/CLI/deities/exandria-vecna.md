@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/deity/exandria
@@ -8,8 +9,8 @@ tags:
 - ttrpg-cli/domain/death
 - ttrpg-cli/domain/grave
 - ttrpg-cli/domain/knowledge
-aliases: 
-- Vecna
+aliases:
+- "Vecna"
 ---
 # Vecna
 *Source: Explorer's Guide to Wildemount p. 29, Sword Coast Adventurer's Guide p. 125* 

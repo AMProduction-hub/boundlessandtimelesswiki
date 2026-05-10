@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 aliases:
-- Encounters at Sea
+- "Encounters at Sea"
 ---
 # Encounters at Sea
 *Source: Ghosts of Saltmarsh p. 207* 
@@ -19,31 +20,29 @@ The levels given on the following tables allow you to sculpt what dangers the ch
 
 **Open Water Encounters (Levels 1–4)**
 
-`dice: [](encounters-at-sea-gos.md#^open-water-encounters-levels-14)`
-
 | dice: d100 | Encounter |
 |------------|-----------|
 | 01–03 | `3d6` [quippers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/quipper.md) |
 | 04–08 | 1 [swarm of quippers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-quippers.md) |
 | 09–12 | `3d10` [dolphins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/dolphin-mpmm.md) (see appendix C) |
 | 13–14 | 1 [giant octopus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-octopus.md) |
-| 15–16 | `d4` [killer whales](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/killer-whale.md) |
-| 17–18 | `d6` [merfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/merfolk.md) |
-| 19–20 | `d6` [giant sea horses](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-sea-horse.md) |
-| 21–24 | `d8` [giant crabs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-crab.md) |
-| 25–28 | `d4` [reef sharks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/reef-shark.md) |
+| 15–16 | `1d4` [killer whales](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/killer-whale.md) |
+| 17–18 | `1d6` [merfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/merfolk.md) |
+| 19–20 | `1d6` [giant sea horses](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-sea-horse.md) |
+| 21–24 | `1d8` [giant crabs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-crab.md) |
+| 25–28 | `1d4` [reef sharks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/reef-shark.md) |
 | 29 | 1 [hunter shark](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/hunter-shark.md) |
-| 30–34 | `d4` [sahuagin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin.md) |
-| 35–37 | `d4` [koalinth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/koalinth-gos.md) (see appendix C) |
+| 30–34 | `1d4` [sahuagin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin.md) |
+| 35–37 | `1d4` [koalinth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/koalinth-gos.md) (see appendix C) |
 | 38–40 | A rank 1 whirlpool connected to the Elemental Plane of Water (see "Whirlpools") |
-| 41–45 | `d4` [locathahs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/locathah-gos.md) (see appendix C) |
-| 46–51 | `d3` [harpies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/harpy.md) |
+| 41–45 | `1d4` [locathahs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/locathah-gos.md) (see appendix C) |
+| 46–51 | `1d3` [harpies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/harpy.md) |
 | 52–54 | 2 [merrow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/merrow.md) |
-| 55–57 | 1 [sahuagin priestess](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-priestess.md) and `d4` [sahuagin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin.md) |
+| 55–57 | 1 [sahuagin priestess](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-priestess.md) and `1d4` [sahuagin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin.md) |
 | 58–59 | 1 [koalinth sergeant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/koalinth-sergeant-gos.md) and `2d4` [koalinth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/koalinth-gos.md) (see appendix C for both) |
 | 60–62 | 1 [plesiosaurus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/plesiosaurus.md) |
-| 63–64 | `d3` [sea hags](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/sea-hag.md) |
-| 65–67 | `d4` [blood hawks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/blood-hawk.md) |
+| 63–64 | `1d3` [sea hags](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/sea-hag.md) |
+| 65–67 | `1d4` [blood hawks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/blood-hawk.md) |
 | 68–70 | 1 [sahuagin champion](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-champion-gos.md) (see appendix C) |
 | 71–74 | 1 [giant shark](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-shark.md) |
 | 75 | 1 [young bronze dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-bronze-dragon.md) |
@@ -52,29 +51,27 @@ The levels given on the following tables allow you to sculpt what dangers the ch
 
 **Open Water Encounters (Levels 5–10)**
 
-`dice: [](encounters-at-sea-gos.md#^open-water-encounters-levels-510)`
-
 | dice: d100 | Encounter |
 |------------|-----------|
 | 01–03 | 1 [giant shark](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-shark.md) |
-| 04–07 | `d4` [swarms of quippers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-quippers.md) |
-| 08–11 | `d10` [killer whales](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/killer-whale.md) |
+| 04–07 | `1d4` [swarms of quippers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-quippers.md) |
+| 08–11 | `1d10` [killer whales](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/killer-whale.md) |
 | 12–17 | `3d6` [merfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/merfolk.md) |
 | 18–25 | 1 [sahuagin high priestess](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-high-priestess-gos.md) and 1 [sahuagin wave shaper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-wave-shaper-gos.md) (see appendix C for both) |
 | 26–30 | `2d8` [giant crabs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-crab.md) |
 | 31–35 | `2d4` [reef sharks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/reef-shark.md) |
-| 36–38 | `d4` [hunter sharks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/hunter-shark.md) |
-| 39–40 | `d4` [water elementals](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-elemental.md) |
+| 36–38 | `1d4` [hunter sharks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/hunter-shark.md) |
+| 39–40 | `1d4` [water elementals](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-elemental.md) |
 | 41 | A rank 2 whirlpool connected to the Elemental Plane of Water (see "Whirlpools") |
 | 42–45 | `2d4` [locathahs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/locathah-gos.md) (see appendix C) |
-| 46–47 | 1 [harpy matriarch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/harpy-matriarch-gos.md) (see appendix C) and `d4` [harpies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/harpy.md) |
+| 46–47 | 1 [harpy matriarch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/harpy-matriarch-gos.md) (see appendix C) and `1d4` [harpies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/harpy.md) |
 | 48–49 | `2d4` [merrow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/merrow.md) |
-| 50–52 | 1 [sahuagin baron](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-baron.md) and `d4` [sahuagin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin.md) |
+| 50–52 | 1 [sahuagin baron](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-baron.md) and `1d4` [sahuagin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin.md) |
 | 53–57 | 1 [koalinth sergeant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/koalinth-sergeant-gos.md) and `2d4` [koalinth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/koalinth-gos.md) (see appendix C for both) |
 | 58–59 | `2d8` [giant crabs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-crab.md) |
-| 60–61 | `d4` [plesiosauruses](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/plesiosaurus.md) |
+| 60–61 | `1d4` [plesiosauruses](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/plesiosaurus.md) |
 | 62–63 | A coven of 3 [sea hags](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/sea-hag.md) |
-| 64–65 | `d4` [sahuagin blademasters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-blademaster-gos.md) (see appendix C) |
+| 64–65 | `1d4` [sahuagin blademasters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-blademaster-gos.md) (see appendix C) |
 | 66–69 | 1 [hydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hydra.md) |
 | 70–71 | 1 [marid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/marid.md) |
 | 72 | 1 [storm giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/storm-giant.md) |
@@ -86,21 +83,19 @@ The levels given on the following tables allow you to sculpt what dangers the ch
 
 **Open Water Encounters (Levels 11–20)**
 
-`dice: [](encounters-at-sea-gos.md#^open-water-encounters-levels-1120)`
-
 | dice: d100 | Encounter |
 |------------|-----------|
 | 01–03 | 1 [storm giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/storm-giant.md) |
 | 04–07 | `2d6` [giant sharks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-shark.md) |
 | 08–11 | 1 [marid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/marid.md) |
 | 12–18 | 1 [sahuagin high priestess](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-high-priestess-gos.md) and `2d4` [sahuagin champions](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-champion-gos.md) (see appendix C for both) |
-| 19–25 | 1 [sahuagin baron](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-baron.md) and `d4` [sahuagin blademasters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-blademaster-gos.md) (see appendix C) |
+| 19–25 | 1 [sahuagin baron](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-baron.md) and `1d4` [sahuagin blademasters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-blademaster-gos.md) (see appendix C) |
 | 26–28 | `3d6` [reef sharks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/reef-shark.md) |
 | 29–32 | `2d6` [hunter sharks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/hunter-shark.md) |
 | 33–39 | A rank 3 whirlpool connected to the Elemental Plane of Water (see "Whirlpools") |
 | 40–43 | A rank 4 whirlpool connected to the Elemental Plane of Water (see "Whirlpools") |
-| 44–45 | `d3` [hydras](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hydra.md) |
-| 46–48 | `d4` [koalinth sergeant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/koalinth-sergeant-gos.md) (see appendix C) and `3d10` [koalinth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/koalinth-gos.md) (see appendix C) |
+| 44–45 | `1d3` [hydras](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hydra.md) |
+| 46–48 | `1d4` [koalinth sergeant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/koalinth-sergeant-gos.md) (see appendix C) and `3d10` [koalinth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/koalinth-gos.md) (see appendix C) |
 | 49–50 | `2d4` [plesiosauruses](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/plesiosaurus.md) |
 | 51–53 | `3d6` [merrow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/merrow.md) |
 | 54–57 | 1 [harpy matriarch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/harpy-matriarch-gos.md) (see appendix C) and `2d8` [harpies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/harpy.md) |

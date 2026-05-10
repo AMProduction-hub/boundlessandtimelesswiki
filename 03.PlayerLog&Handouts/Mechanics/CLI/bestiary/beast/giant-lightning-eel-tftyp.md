@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Lightning Eel
+- "Giant Lightning Eel"
 ---
-# [Giant Lightning Eel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-lightning-eel-tftyp.md)
+# [Giant Lightning Eel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-lightning-eel-tftyp.md)
 *Source: Tales from the Yawning Portal p. 236*  
 
 ```statblock
@@ -32,7 +33,8 @@ aliases:
   - !!int "3"
 "speed": "5 ft., swim 30 ft."
 "damage_resistances": "lightning"
-"senses": "blindsight 60 ft., passive Perception 11"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., passive Perception 11"
 "languages": ""
 "cr": "3"
 "traits":
@@ -41,8 +43,8 @@ aliases:
 "actions":
   - "desc": "The eel makes two bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
-      \ (2d6 + 3) piercing damage plus 4 (d8) lightning damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
+      \ (2d6 + 3) piercing damage plus 4 (1d8) lightning damage."
     "name": "Bite"
   - "desc": "One creature the eel touches within 5 feet of it outside water, or each\
       \ creature within 15 feet of it in a body of water, must make a DC 12 Constitution\

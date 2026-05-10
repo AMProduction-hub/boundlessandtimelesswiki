@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 aliases:
-- Chapter 4: The Chosen Path
+- "Chapter 4: The Chosen Path"
 ---
 # Chapter 4: The Chosen Path
 *Source: Storm King's Thunder, p. 121* 
@@ -285,7 +286,7 @@ This egg-shaped chamber has a flat floor, which is normal terrain. A single colu
 - It has 44 hit points and a challenge rating of 2 (450 XP).  
 - It has resistance to cold damage.  
 - Any creature that starts its turn within 5 feet of the queen takes 5 (`2d4`) cold damage.  
-- While [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) in the [ice spider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/ice-spider-skt.md) queen's web, a creature takes 2 (`d4`) cold damage at the start of each of its turns. [Ice spider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/ice-spider-skt.md) webbing doesn't have immunity to bludgeoning damage.  
+- While [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) in the [ice spider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/ice-spider-skt.md) queen's web, a creature takes 2 (`1d4`) cold damage at the start of each of its turns. [Ice spider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/ice-spider-skt.md) webbing doesn't have immunity to bludgeoning damage.  
 
 The queen sits atop a cluster of thirty-two [ice spider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/ice-spider-skt.md) eggs, each one as big as a grapefruit. If the queen dies, the eggs immediately hatch, and the newborn spiders form a [swarm of insects](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-insects.md) (spiders) that acts on the queen's initiative count. The swarm has resistance to cold damage. If there are no foes for the swarm to attack, it begins devouring the corpse of its mother.
 
@@ -303,7 +304,7 @@ This room contains a pair of sculpted stone couches that double as beds. Frost c
 
 ##### Treasure
 
-Characters who search this room find a stitched leather sack on one of the beds. The sack has been here for months, left behind by an old and forgetful frost giant. It contains `d4` mundane items determined by rolling on the Items in a Giant's Bag table in the introduction. The sack also contains a [shard of the ise rune](03.PlayerLog&Handouts/Mechanics/CLI/items/shard-of-the-ise-rune-skt.md) (see appendix B) and three severed, frozen dwarf heads (two male and one female). One of the heads has ten gold teeth (worth 1 gp each).
+Characters who search this room find a stitched leather sack on one of the beds. The sack has been here for months, left behind by an old and forgetful frost giant. It contains `1d4` mundane items determined by rolling on the Items in a Giant's Bag table in the introduction. The sack also contains a [shard of the ise rune](03.PlayerLog&Handouts/Mechanics/CLI/items/shard-of-the-ise-rune-skt.md) (see appendix B) and three severed, frozen dwarf heads (two male and one female). One of the heads has ten gold teeth (worth 1 gp each).
 
 ### 11. Eye of Annam
 
@@ -543,7 +544,7 @@ While the furnace chamber is intact, a fire elemental under the control of anoth
 
 A spring-loaded harpoon gun, fashioned from burnished bronze with iron fittings, is bolted to the forward upper deck. It has a 90-degree arc of fire (side to side, as well as up and down). The gun comes with a winch, a 500-foot coil of rope, and ten steel-tipped harpoons. Although it fires harpoons instead of bolts, the gun is considered a ballista (see the ""Siege Equipment"" section in chapter 8 of the "Dungeon Master's Guide").
 
-Tying a rope to a harpoon, if desired, takes an action. In addition to dealing 16 (`3d10`) piercing damage on a hit, a harpoon impales its target. While impaled, the target can't take any action on its turn other than trying to free itself from the harpoon, which requires a successful DC 15 Strength check. If the check succeeds, the target takes 5 (`d10`) piercing damage as the harpoon is pulled free and is no longer impaled. If a harpoon is attached to the gun by a rope, a creature impaled on that harpoon can't move farther away from the gun or increase its altitude until it frees itself. A creature within reach of the gun's winch can use its action to reel in a harpooned creature, pulling it up to 20 feet closer to the gun.
+Tying a rope to a harpoon, if desired, takes an action. In addition to dealing 16 (`3d10`) piercing damage on a hit, a harpoon impales its target. While impaled, the target can't take any action on its turn other than trying to free itself from the harpoon, which requires a successful DC 15 Strength check. If the check succeeds, the target takes 5 (`1d10`) piercing damage as the harpoon is pulled free and is no longer impaled. If a harpoon is attached to the gun by a rope, a creature impaled on that harpoon can't move farther away from the gun or increase its altitude until it frees itself. A creature within reach of the gun's winch can use its action to reel in a harpooned creature, pulling it up to 20 feet closer to the gun.
 
 #### 3. Ballista
 
@@ -595,8 +596,6 @@ A downside of traveling by airship is that the vessel is easily spotted. Charact
 
 #### Random Aerial Encounters
 
-`dice: [](05-chapter-4-the-chosen-path.md#^encounter)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–5 | `2d6` [aarakocra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/aarakocra.md) |
@@ -628,7 +627,7 @@ The barbarians guide their mounts next to the airship, then leap onto the deck a
 
 #### Strong Winds
 
-The ship is at the mercy of strong winds for `d4` hours. At the end of that time, it has been blown off course far enough to add `2d4 × 10` miles to the current journey.
+The ship is at the mercy of strong winds for `1d4` hours. At the end of that time, it has been blown off course far enough to add `2d4 × 10` miles to the current journey.
 
 #### Young Green Dragon
 

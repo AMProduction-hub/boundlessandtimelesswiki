@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Zombie Clot
+- "Zombie Clot"
 ---
-# [Zombie Clot](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/zombie-clot-vrgr.md)
+# [Zombie Clot](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie-clot-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 255*  
 
 Among the undead, a lone zombie ranks far from the most menacing. The horror of the shambling dead lies not in their individual menace, though, but their numbers, their persistence, and their disregard for their own well-being. A throng of zombies will douse a forest fire with their own ashes or march into a dragon's maw until the monster chokes. In the course of their relentless marches, zombies might suffer all manner of trauma, potentially reducing them to masses of crawling limbs (see swarm of zombie limbs), infecting them with terrible diseases (see zombie plague spreader), or crushing an entire horde into a single, rotting titan.
@@ -21,8 +22,6 @@ Among the undead, a lone zombie ranks far from the most menacing. The horror of 
 Among the types of horror adventures detailed in "chapter 2", tales of uncontrolled zombie outbreaks orbit the "dark fantasy" and "disaster horror" genres. The horror of these adventures focuses not on the terror of a single zombie, but of countless individual threats overwhelming society. When creating your own undead calamities, consider the plots presented on the Zombie Apocalypses table.
 
 **Zombie Apocalypses**
-
-`dice: [](zombie-clot-vrgr.md#^zombie-apocalypses)`
 
 | dice: d4 | Zombie Plot |
 |----------|-------------|
@@ -51,7 +50,7 @@ Among the types of horror adventures detailed in "chapter 2", tales of uncontrol
   - !!int "10"
 "speed": "40 ft."
 "saves":
-  - "constitution": "+6"
+  - "constitution": !!int "6"
 "damage_immunities": "poison"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
@@ -59,7 +58,8 @@ Among the types of horror adventures detailed in "chapter 2", tales of uncontrol
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "understands the languages it knew in life but can't speak"
 "cr": "6"
 "traits":
@@ -77,7 +77,7 @@ Among the types of horror adventures detailed in "chapter 2", tales of uncontrol
 "actions":
   - "desc": "The zombie makes two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 18 (3d8 + 5) bludgeoning damage."
     "name": "Slam"
   - "desc": "The zombie flings a detached clump of corpses at a creature it can see\

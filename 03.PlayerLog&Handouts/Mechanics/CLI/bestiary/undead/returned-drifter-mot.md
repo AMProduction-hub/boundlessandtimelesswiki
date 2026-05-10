@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Returned Drifter
+- "Returned Drifter"
 ---
-# [Returned Drifter](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/returned-drifter-mot.md)
+# [Returned Drifter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/returned-drifter-mot.md)
 *Source: Mythic Odysseys of Theros p. 240*  
 
 Many Returned are pitiable souls who managed to escape from the Underworld only to find themselves stripped of the passions that motivated their flight. Lacking purpose and shunned by the living, these Returned typically seek places where they'll be left in peace, such as lonely tombs or the necropoleis of Asphodel and Odunos. There they go through half-hearted parodies of life, impeded by distraction and ennui. Despite this, even the most languorous Returned defend themselves if threatened and might be pressed into the service of their more willful brethren.
@@ -41,6 +42,9 @@ Returned reenter the world blank and undead. No longer possessing the ability to
 "damage_resistances": "necrotic"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+  - "[sling](03.PlayerLog&Handouts/Mechanics/CLI/items/sling.md)"
 "senses": "passive Perception 11"
 "languages": "the languages it knew in life"
 "cr": "1/4"
@@ -53,10 +57,10 @@ Returned reenter the world blank and undead. No longer possessing the ability to
       \ checks to ascertain the Returned's intentions or sincerity are made with disadvantage."
     "name": "Unreadable Face"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d6 + 2) slashing damage plus 3 (d6) poison damage."
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
+      \ (1d6 + 2) slashing damage plus 3 (1d6) poison damage."
     "name": "Scimitar"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 4 (1d4 + 2) bludgeoning damage."
     "name": "Sling"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -14,10 +15,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Griffon
+- "Griffon"
 ---
-# [Griffon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/griffon.md)
-*Source: Monster Manual p. 174, Princes of the Apocalypse, Storm King's Thunder, Waterdeep: Dragon Heist, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Griffon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/griffon.md)
+*Source: Monster Manual p. 174. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Griffons are ferocious avian carnivores with the muscular bodies of lions and the head, forelegs, and wings of eagles. When they attack, griffons are as swift and deadly as eagles, even as they strike with a lion's savage might and grace.
 
@@ -59,7 +60,8 @@ Once trained, a griffon is a fierce and loyal steed. It bonds with one master fo
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": ""
 "cr": "2"
 "traits":
@@ -69,23 +71,14 @@ Once trained, a griffon is a fierce and loyal steed. It bonds with one master fo
 "actions":
   - "desc": "The griffon makes two attacks: one with its beak and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) piercing damage."
     "name": "Beak"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage."
     "name": "Claws"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "WDH"
-  - "BGDIA"
-  - "ERLW"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/griffon.webp"
 ```
 ^statblock

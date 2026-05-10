@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Eiselcross Encounters: Levels 11–16
+- "Eiselcross Encounters: Levels 11–16"
 ---
 # Eiselcross Encounters: Levels 11–16
 *Source: Explorer's Guide to Wildemount p. 122* 
 
 **Eiselcross Encounters: Levels 11–16**
-
-`dice: [](eiselcross-encounters-levels-1116-egw.md#^eiselcross-encounters-levels-1116)`
 
 | dice: d6 | Encounter |
 |----------|-----------|

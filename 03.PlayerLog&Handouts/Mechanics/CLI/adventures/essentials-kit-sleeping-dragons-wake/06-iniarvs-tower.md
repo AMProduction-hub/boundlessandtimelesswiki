@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/sdw
 aliases:
-- Iniarv's Tower
+- "Iniarv's Tower"
 ---
 # Iniarv's Tower
 *Source: Essentials Kit: Sleeping Dragon's Wake* 
@@ -95,7 +96,7 @@ The walls of the keep stand 30 feet high. Three human Chimera Crew [scouts](03.P
 
 The Chimera Crew dug a 10-foot-deep pit trap with a 10-foot-square opening in the ground along the hole in the north wall. The pit is covered by a large tarp anchored on the pit's edge and camouflaged with dirt and debris. A creature with a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 14 or higher notices the pit.
 
-Any creature that steps on the tarp falls into the pit and pulls the tarp with it, taking 3 (`d6`) bludgeoning damage and landing [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). The bottom of the pit contains a [swarm of poisonous snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-poisonous-snakes.md). Climbing the walls of the pit without equipment requires a successful DC 15 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check.
+Any creature that steps on the tarp falls into the pit and pulls the tarp with it, taking 3 (`1d6`) bludgeoning damage and landing [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). The bottom of the pit contains a [swarm of poisonous snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-poisonous-snakes.md). Climbing the walls of the pit without equipment requires a successful DC 15 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check.
 
 #### I3. Gatehouse
 

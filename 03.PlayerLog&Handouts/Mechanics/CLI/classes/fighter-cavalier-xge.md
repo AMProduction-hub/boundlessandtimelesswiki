@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/fighter/cavalier
 aliases:
-- Cavalier
+- "Cavalier"
 ---
 # Cavalier
 *[Fighter](./fighter.md): Martial Archetype*  
@@ -43,11 +44,9 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Cavalier (Level 3)
-
 The archetypal Cavalier excels at mounted combat. Usually born among the nobility and raised at court, a Cavalier is equally at home leading a cavalry charge or exchanging repartee at a state dinner. Cavaliers also learn how to guard those in their charge from harm, often serving as the protectors of their superiors and of the weak. Compelled to right wrongs or earn prestige, many of these fighters leave their lives of comfort to embark on glorious adventure.
+
+## Subclass Features
 
 ### Bonus Proficiency (Level 3)
 
@@ -71,7 +70,7 @@ Regardless of the number of creatures you mark, you can make this special attack
 
 ### Warding Maneuver (Level 7)
 
-At 7th level, you learn to fend off strikes directed at you, your mount, or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack, you can roll `d8` as a reaction if you're wielding a melee weapon or a shield. Roll the die, and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage.
+At 7th level, you learn to fend off strikes directed at you, your mount, or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack, you can roll `1d8` as a reaction if you're wielding a melee weapon or a shield. Roll the die, and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage.
 
 You can use this feature a number of times equal to your Constitution modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.
 

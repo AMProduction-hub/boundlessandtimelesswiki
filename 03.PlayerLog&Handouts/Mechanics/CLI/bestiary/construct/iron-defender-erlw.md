@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Iron Defender
+- "Iron Defender"
 ---
-# [Iron Defender](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/iron-defender-erlw.md)
+# [Iron Defender](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/iron-defender-erlw.md)
 *Source: Eberron: Rising from the Last War p. 293*  
 
 An iron defender fights for its creator. They come in many shapes and are often crafted in the form of animals. More creative artificers craft iron defenders in the shape of hybrid animals or other fantastical creatures.
@@ -50,7 +51,8 @@ Each kind of homunculus has a body constructed from different kinds of materials
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "1"
 "traits":
@@ -62,9 +64,9 @@ Each kind of homunculus has a body constructed from different kinds of materials
       \ telepathically."
     "name": "Telepathic Bond"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage. If the target is a creature, it must succeed\
-      \ on a DC 13 Strength saving throw or take an extra 3 (d6) piercing damage\
+      \ on a DC 13 Strength saving throw or take an extra 3 (1d6) piercing damage\
       \ and be [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13). The defender can have only one creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ in this way at a time."

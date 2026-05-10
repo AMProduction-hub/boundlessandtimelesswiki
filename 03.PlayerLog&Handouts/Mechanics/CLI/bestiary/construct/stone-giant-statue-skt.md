@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Stone Giant Statue
+- "Stone Giant Statue"
 ---
-# [Stone Giant Statue](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/stone-giant-statue-skt.md)
+# [Stone Giant Statue](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/stone-giant-statue-skt.md)
 *Source: Storm King's Thunder p. 127*  
 
 ```statblock
@@ -40,7 +41,8 @@ aliases:
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": ""
 "cr": "0"
 "traits":

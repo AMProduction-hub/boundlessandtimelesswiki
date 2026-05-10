@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Folk Horror Settings
+- "Folk Horror Settings"
 ---
 # Folk Horror Settings
 *Source: Van Richten's Guide to Ravenloft p. 53* 
 
 **Folk Horror Settings**
-
-`dice: [](folk-horror-settings-vrgr.md#^folk-horror-settings)`
 
 | dice: d6 | Setting |
 |----------|---------|

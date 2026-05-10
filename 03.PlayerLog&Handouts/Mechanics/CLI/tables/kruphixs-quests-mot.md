@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Kruphix's Quests
+- "Kruphix's Quests"
 ---
 # Kruphix's Quests
 *Source: Mythic Odysseys of Theros p. 148* 
 
 **Kruphix's Quests**
-
-`dice: [](kruphixs-quests-mot.md#^kruphixs-quests)`
 
 | dice: d6 | Adventure Goal |
 |----------|----------------|

@@ -1,22 +1,21 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Magic Item Table G
+- "Magic Item Table G"
 ---
 # Magic Item Table G
 *Source: Dungeon Master's Guide p. 144* 
 
 **Magic Item Table G**
 
-`dice: [](magic-item-table-g.md#^magic-item-table-g)`
-
 | dice: d100 | Magic Item |
 |------------|------------|
 | 01-11 | [+2 weapon](03.PlayerLog&Handouts/Mechanics/CLI/items/2-weapon.md) |
-| 12-14 | `dice: [](magic-item-table-g.md#^figurine-of-wondrous-power)` |
+| 12-14 | Figurine of Wondrous Power |
 | 15 | [Adamantine breastplate](03.PlayerLog&Handouts/Mechanics/CLI/items/adamantine-armor.md) |
 | 16 | [Adamantine splint armor](03.PlayerLog&Handouts/Mechanics/CLI/items/adamantine-armor.md) |
 | 17 | [Amulet of health](03.PlayerLog&Handouts/Mechanics/CLI/items/amulet-of-health.md) |
@@ -106,8 +105,6 @@ aliases:
 ^magic-item-table-g
 
 **Figurine of Wondrous Power**
-
-`dice: [](magic-item-table-g.md#^figurine-of-wondrous-power)`
 
 | dice: d8 | Magic Item |
 |----------|------------|

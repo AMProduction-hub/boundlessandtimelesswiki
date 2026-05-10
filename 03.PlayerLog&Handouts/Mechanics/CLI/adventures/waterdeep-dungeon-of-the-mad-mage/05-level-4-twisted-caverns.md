@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 4: Twisted Caverns
+- "Level 4: Twisted Caverns"
 ---
 # Level 4: Twisted Caverns
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 59* 
@@ -173,7 +174,7 @@ Once the xorn are defeated, the characters can retrieve forty fist-sized crystal
 
 #### Treasure
 
-Each roper has `d4` gemstones (100 gp each) lodged in its gizzard, which characters can cut open once the roper is dead. They can also gather up a total of 32 cp and 11 sp scattered across the floor.
+Each roper has `1d4` gemstones (100 gp each) lodged in its gizzard, which characters can cut open once the roper is dead. They can also gather up a total of 32 cp and 11 sp scattered across the floor.
 
 ### 7. Mad Wizard's Retreat
 
@@ -192,7 +193,7 @@ A human wizard, the lone survivor of an expedition to the Underdark, has taken r
 
 The woman is Darribeth Meltimer (CG female Chondathan human [mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage.md), with the [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkvision.md) spell cast on herself and prepared instead of [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)). A former adventurer, she was driven insane by contact with demons in the Underdark. A [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md) spell or similar magic is needed to restore her sanity, without which Darribeth suffers from hallucinations and paranoia. If the characters approach her in a calm manner, Darribeth smiles and says to the toad on her knee, "Look, Teeha! I told you they're not demons. I wonder if Urgala sent them."
 
-Darribeth desperately wants to get back to her wife Urgala, whom she hasn't seen in a decade. When last they were together, Urgala and Darribeth were living in Amphail, a town north of Waterdeep. In the intervening years, Urgala moved farther north to the frontier town of Triboar, where she took over a modest inn called Northshield House. (See the adventure Storm King's Thunder for more information on Urgala Meltimer and her inn.)
+Darribeth desperately wants to get back to her wife Urgala, whom she hasn't seen in a decade. When last they were together, Urgala and Darribeth were living in Amphail, a town north of Waterdeep. In the intervening years, Urgala moved farther north to the frontier town of Triboar, where she took over a modest inn called Northshield House. (See the adventure Storm King's Thunder for more information on [Urgala Meltimer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/urgala-meltimer-skt.md) and her inn.)
 
 If her sanity is restored, Darribeth becomes her normal self—a curious and kind woman with a flair for magic who doesn't mind bending rules for the greater good. She speaks Common, Dwarvish, Halfling, and Undercommon.
 
@@ -223,7 +224,7 @@ The ceiling of this 30-foot-high cavern is studded with stalactites, and the flo
 > **Tripwires**. The uneven rock floor is dotted with small stalagmites, between which run nearly [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) trip wires made of webbing. These web strands set off hidden rockfall traps.
 ^257
 
-The driders in area 10 have strung thin web strands between some of the stalagmites, creating trip wires. Any creature that enters a square marked T on the map has a 50 percent chance of breaking a strand and triggering a trap that releases rocks from a hidden crevice in the ceiling. If a trap triggers, all creatures occupying the trapped square must succeed on a DC 14 Dexterity saving throw or be struck by a falling rock for 5 (`d10`) bludgeoning damage. In addition, the sound of the falling rocks alerts the driders in area 10.
+The driders in area 10 have strung thin web strands between some of the stalagmites, creating trip wires. Any creature that enters a square marked T on the map has a 50 percent chance of breaking a strand and triggering a trap that releases rocks from a hidden crevice in the ceiling. If a trap triggers, all creatures occupying the trapped square must succeed on a DC 14 Dexterity saving throw or be struck by a falling rock for 5 (`1d10`) bludgeoning damage. In addition, the sound of the falling rocks alerts the driders in area 10.
 
 A character adjacent to a trapped square or in a trapped square can spot the trip wires with a successful DC 17 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check, then track the thin webs to the point in the ceiling where the rocks are hidden. Once it is spotted, a rockfall trap can be disabled with a successful DC 12 Dexterity check by a creature in the trapped square; failing this check triggers the trap.
 

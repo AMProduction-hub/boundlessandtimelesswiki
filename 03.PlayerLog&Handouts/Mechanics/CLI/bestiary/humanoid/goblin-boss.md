@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -13,10 +14,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Goblin Boss
+- "Goblin Boss"
 ---
-# [Goblin Boss](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/goblin-boss.md)
-*Source: Monster Manual p. 166, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Keys from the Golden Vault*  
+# [Goblin Boss](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin-boss.md)
+*Source: Monster Manual p. 166*  
 
 Goblins are small, black-hearted, selfish humanoids that lair in caves, abandoned mines, despoiled dungeons, and other dismal settings. Individually weak, goblins gather in large-sometimes overwhelming-numbers. They crave power and regularly abuse whatever authority they obtain.
 
@@ -72,22 +73,27 @@ Maglubiyet the Mighty One, the Lord of Depths and Darkness, is the greater god o
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 9"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "Common, Goblin"
 "cr": "1"
 "traits":
-  - "desc": "The goblin can take the Disengage or Hide action as a bonus action on\
-      \ each of its turns."
+  - "desc": "The goblin can take the [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action\
+      \ as a bonus action on each of its turns."
     "name": "Nimble Escape"
 "actions":
   - "desc": "The goblin makes two attacks with its scimitar. The second attack has\
       \ disadvantage."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage."
     "name": "Scimitar"
-  - "desc": "Melee  or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 3 (d6) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +2 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 3 (1d6) piercing damage."
     "name": "Javelin"
 "reactions":
   - "desc": "When a creature the goblin can see targets it with an attack, the goblin\
@@ -96,14 +102,6 @@ Maglubiyet the Mighty One, the Lord of Depths and Darkness, is the greater god o
     "name": "Redirect Attack"
 "source":
   - "MM"
-  - "SKT"
-  - "ToA"
-  - "WDMM"
-  - "GoS"
-  - "BGDIA"
-  - "IDRotF"
-  - "TCE"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/goblin-boss.webp"
 ```
 ^statblock

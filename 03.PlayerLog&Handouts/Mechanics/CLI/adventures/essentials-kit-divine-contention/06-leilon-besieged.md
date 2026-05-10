@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dc
 aliases:
-- Leilon Besieged
+- "Leilon Besieged"
 ---
 # Leilon Besieged
 *Source: Essentials Kit: Divine Contention* 
@@ -42,8 +43,6 @@ It's possible that your players will veer off from the events on the flowchart. 
 Each time the group undertakes a new challenge on the Battle Flowchart, roll a `d12` on the Random Encounters table. Try to incorporate the resulting event into the scene when it feels most appropriate.
 
 **Random Encounters**
-
-`dice: [](06-leilon-besieged.md#^random-encounters)`
 
 | dice: d12 | Encounter |
 |-----------|-----------|
@@ -96,9 +95,9 @@ At the end of the battle, count the group's victories to determine the result of
 | Victories | Result |
 |-----------|--------|
 | 0 | Crushing Defeat |
-| 1-2 | Defeat |
+| 1–2 | Defeat |
 | 3 | Pyrrhic Victory (1,000 gp reward) |
-| 4-5 | Victory (2,500 gp reward) |
+| 4–5 | Victory (2,500 gp reward) |
 | 6+ | Decisive Victory (5,000 gp reward) |
 ^victory-results
 

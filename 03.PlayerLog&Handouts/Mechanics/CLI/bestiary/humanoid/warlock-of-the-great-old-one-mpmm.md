@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/6
@@ -14,9 +15,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Warlock of the Great Old One
+- "Warlock of the Great Old One"
 ---
-# [Warlock of the Great Old One](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/warlock-of-the-great-old-one-mpmm.md)
+# [Warlock of the Great Old One](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/warlock-of-the-great-old-one-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 256, Volo's Guide to Monsters p. 220*  
 
 Warlocks of the Great Old One gain their powers through magical pacts forged with eldritch entities from strange and distant realms of existence. Some of these warlocks associate with cultists devoted to these entities, as well as Aberrations that share their goals, yet other warlocks of the Great Old One are experts at rooting out the chaos and wickedness inspired by bizarre beings from beyond the stars.
@@ -44,15 +45,18 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+4"
-  - "charisma": "+7"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+4"
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+4"
 "damage_resistances": "psychic"
-"senses": "darkvision 60 ft., passive Perception 11"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "any two languages, telepathy 30 ft."
 "cr": "6"
 "traits":
@@ -63,8 +67,8 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
 "actions":
   - "desc": "The warlock makes two Dagger attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 10 (3d6) psychic\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d4 + 3) piercing damage plus 10 (3d6) psychic\
       \ damage."
     "name": "Dagger"
   - "desc": "The warlock opens a momentary extraplanar rift within 60 feet of it.\
@@ -75,13 +79,13 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
       \ save, a creature takes half as much damage and isn't [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)."
     "name": "Howling Void"
   - "desc": "The warlock casts one of the following spells, using Charisma as the\
-      \ spellcasting ability (spell save DC 15): \n\nAt will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ spellcasting ability (spell save DC 15): \n\n**At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md), [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md) (self\
       \ only), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1/day each: [arcane gate](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-gate.md),\
+      \n**1/day each:** [arcane gate](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-gate.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [true seeing](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-seeing.md)"
     "name": "Spellcasting"

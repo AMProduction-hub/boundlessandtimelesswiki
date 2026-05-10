@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Religious Service Complications
+- "Religious Service Complications"
 ---
 # Religious Service Complications
 *Source: Xanathar's Guide to Everything p. 132* 
 
 **Religious Service Complications**
-
-`dice: [](religious-service-complications-xge.md#^religious-service-complications)`
 
 | dice: d6 | Complication |
 |----------|--------------|

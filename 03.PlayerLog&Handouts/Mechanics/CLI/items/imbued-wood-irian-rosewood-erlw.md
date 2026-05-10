@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/item/attunement/required
@@ -8,7 +9,7 @@ tags:
 - ttrpg-cli/item/rarity/common
 - ttrpg-cli/item/weapon/simple
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Imbued Wood (Irian Rosewood)"
 - "Irian Rosewood Rod"
 - "Irian Rosewood Staff"

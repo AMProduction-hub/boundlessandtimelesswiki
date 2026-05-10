@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Will-o'-Wisp
+- "Will-o'-Wisp"
 ---
-# [Will-o'-Wisp](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/will-o-wisp.md)
-*Source: Monster Manual p. 301, Curse of Strahd, Princes of the Apocalypse, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Journeys through the Radiant Citadel, Light of Xaryxis. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Will-o'-Wisp](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/will-o-wisp.md)
+*Source: Monster Manual p. 301. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Will-o'-wisps are malevolent, wispy balls of light that haunt lonely places and battlefields, bound by dark fate or dark magic to feed on fear and despair.
 
@@ -63,7 +64,8 @@ A will-o'-wisp doesn't require air, drink, or sleep.
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 12"
 "languages": "the languages it knew in life"
 "cr": "2"
 "traits":
@@ -75,7 +77,7 @@ A will-o'-wisp doesn't require air, drink, or sleep.
   - "desc": "The will-o'-wisp can't wear or carry anything."
     "name": "Ephemeral"
   - "desc": "The will-o'-wisp can move through other creatures and objects as if they\
-      \ were difficult terrain. It takes 5 (d10) force damage if it ends its turn\
+      \ were difficult terrain. It takes 5 (1d10) force damage if it ends its turn\
       \ inside an object."
     "name": "Incorporeal Movement"
   - "desc": "The will-o'-wisp sheds bright light in a 5 to 20-foot radius and dim\
@@ -83,7 +85,7 @@ A will-o'-wisp doesn't require air, drink, or sleep.
       \ can alter the radius as a bonus action."
     "name": "Variable Illumination"
 "actions":
-  - "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 9 (2d8) lightning damage."
     "name": "Shock"
   - "desc": "The will-o'-wisp and its light magically become [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
@@ -93,18 +95,6 @@ A will-o'-wisp doesn't require air, drink, or sleep.
     "name": "Invisibility"
 "source":
   - "MM"
-  - "CoS"
-  - "PotA"
-  - "TftYP"
-  - "ToA"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "BGDIA"
-  - "IDRotF"
-  - "CM"
-  - "JttRC"
-  - "LoX"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/will-o-wisp.webp"
 ```
 ^statblock

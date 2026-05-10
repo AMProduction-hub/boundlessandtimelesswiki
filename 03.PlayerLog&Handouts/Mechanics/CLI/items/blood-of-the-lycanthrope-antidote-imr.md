@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/item/rarity/uncommon
 - ttrpg-cli/item/wondrous/potion
-aliases: 
+aliases:
 - "Blood of the Lycanthrope Antidote"
 ---
 # Blood of the Lycanthrope Antidote

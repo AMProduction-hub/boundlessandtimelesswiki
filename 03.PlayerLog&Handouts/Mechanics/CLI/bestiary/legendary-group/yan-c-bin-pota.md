@@ -1,24 +1,25 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/legendary-group
 aliases:
-- Yan-C-Bin
+- "Yan-C-Bin"
 ---
 # Yan-C-Bin
 
-## Lair actions
+## Lair Actions
 _Source: Princes of the Apocalypse_
 
 Yan-C-Bin dwells in a palace of air on the Elemental Plane of Air. In his palace and in air nodes on the Material Plane (including the Howling Caves, described in chapter 5), Yan-C-Bin is master. He can use the following actions in his lair. On initiative count 20 (losing initiative ties), Yan-C-Bin takes a lair action to cause one of the following effects; he can't use the same effect two rounds in a row:
 
 - Yan-C-Bin drops the temperature of the air, covering all surfaces with ice. This effect is identical to the [sleet storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleet-storm.md) spell.  
-- Yan-C-Bin controls the surrounding air as an extension of himself. Each creature Yan-C-Bin designates must succeed at a DC 24 Constitution saving throw or be hoisted or flung `3d6 × 10` feet through the air. A creature smashed into a solid object or released in mid-air takes `d6` bludgeoning damage for every 10 feet moved or fallen.  
+- Yan-C-Bin controls the surrounding air as an extension of himself. Each creature Yan-C-Bin designates must succeed at a DC 24 Constitution saving throw or be hoisted or flung `3d6 × 10` feet through the air. A creature smashed into a solid object or released in mid-air takes `1d6` bludgeoning damage for every 10 feet moved or fallen.  
 - Yan-C-Bin creates a torrent of debris within 120 feet of him that lasts until initiative count 20 on the next round. The debris lightly obscures every creature and object in the area for the duration. All creatures in the area must succeed at a DC 24 Wisdom saving throw or be [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) until initiative count 20 on the next round.  
 
-## Regional effects
+## Regional Effects
 _Source: Princes of the Apocalypse_
 
 When Yan-C-Bin inhabits an elemental node, the air is at his command. Temperatures fluctuate from blistering hot to freezing cold; thunder rolls and lightning cracks; powerful gales bear heavy creatures and objects aloft and hurl them with incredible force; cyclones touch down randomly, obliterating whatever they touch.
@@ -28,4 +29,4 @@ When Yan-C-Bin inhabits an elemental node, the air is at his command. Temperatur
 - Cyclones touch down within a 5-mile radius of Yan-C-Bin's lair. Every hour, there is a five percent chance that characters in this area are caught in the path of a cyclone moving 250 feet per round. Each character must succeed on a DC 21 Constitution saving throw or take 33 (`6d10`) bludgeoning damage. Wooden or flimsy structures in the path of the cyclone are destroyed.  
 - Natural caverns and windblown canyons within 1 mile of the lair form intermittent portals to the Elemental Plane of Air, allowing elemental creatures into the mortal world to dwell near those locations.  
 
-If Yan-C-Bin is destroyed or banished back to his home plane, the regional effects fade over the next `d10` days.
+If Yan-C-Bin is destroyed or banished back to his home plane, the regional effects fade over the next `1d10` days.

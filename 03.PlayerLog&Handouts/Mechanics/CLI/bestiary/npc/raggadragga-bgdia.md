@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/4
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Raggadragga
+- "Raggadragga"
 ---
-# [Raggadragga](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/raggadragga-bgdia.md)
+# [Raggadragga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/raggadragga-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 87*  
 
 ```statblock
@@ -22,7 +23,7 @@ aliases:
 "subtype": "human, shapechanger"
 "alignment": "Neutral Evil"
 "ac": !!int "10"
-"ac_class": "11 from natural armor in boar or hybrid form"
+"ac_class": "11 natural armor in boar or hybrid form"
 "hp": !!int "120"
 "hit_dice": "12d8 + 24"
 "modifier": !!int "0"
@@ -39,6 +40,8 @@ aliases:
     "desc": "+2"
 "damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
+"gear":
+  - "[maul](03.PlayerLog&Handouts/Mechanics/CLI/items/maul.md)"
 "senses": "passive Perception 12"
 "languages": "Common (can't speak in boar form)"
 "cr": "4"
@@ -59,10 +62,10 @@ aliases:
 "actions":
   - "desc": "Raggadragga makes two attacks, only one of which can be with its tusks."
     "name": "Multiattack (Humanoid or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) bludgeoning damage."
     "name": "Maul (Humanoid or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage. If the target is a humanoid, it must succeed\
       \ on a DC 12 Constitution saving throw or be cursed with wereboar lycanthropy."
     "name": "Tusks (Boar or Hybrid Form Only)"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/1-4
@@ -9,10 +10,12 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Albino Dwarf Warrior
+- "Albino Dwarf Warrior"
 ---
-# [Albino Dwarf Warrior](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/albino-dwarf-warrior-toa.md)
+# [Albino Dwarf Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/albino-dwarf-warrior-toa.md)
 *Source: Tomb of Annihilation p. 210*  
+
+## Albino Dwarf
 
 The albino dwarves of Chult were driven from their subterranean homes by volcanic activity, and those who didn't seek refuge in Port Nyanzaru adapted to living in the jungle. They make armor out of dinosaur hide; shape weapons out of dinosaur bones, flint, and wood; and craft ornate jewelry out of bones, feathers, tusks, and stone beads. Albino dwarves haven't forgotten how to forge metal, but they seldom have the means to do so.
 
@@ -43,15 +46,18 @@ The albino dwarves of Chult were driven from their subterranean homes by volcani
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+4"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[handaxe](03.PlayerLog&Handouts/Mechanics/CLI/items/handaxe.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Common, Dwarvish"
 "cr": "1/4"
 "traits":
   - "desc": "The dwarf has advantage on saving throws against poison."
     "name": "Dwarven Resilience"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d6 + 1) slashing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d6 + 1) slashing damage."
     "name": "Handaxe"
 "source":
   - "ToA"

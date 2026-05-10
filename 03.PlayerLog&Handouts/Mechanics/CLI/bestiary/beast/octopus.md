@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Octopus
+- "Octopus"
 ---
-# [Octopus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/octopus.md)
-*Source: Monster Manual p. 333, Storm King's Thunder, Ghosts of Saltmarsh, Infernal Machine Rebuild, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Octopus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/octopus.md)
+*Source: Monster Manual p. 333. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Octopus"
@@ -36,7 +37,8 @@ aliases:
     "desc": "+2"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 30 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 30 ft., passive Perception 12"
 "languages": ""
 "cr": "0"
 "traits":
@@ -48,7 +50,7 @@ aliases:
   - "desc": "The octopus can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 1\
       \ bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 10). Until this grapple ends, the octopus can't use its tentacles\
       \ on another target."
@@ -56,14 +58,11 @@ aliases:
   - "desc": "A 5-foot-radius cloud of ink extends all around the octopus if it is\
       \ underwater. The area is heavily obscured for 1 minute, although a significant\
       \ current can disperse the ink. After releasing the ink, the octopus can use\
-      \ the Dash action as a bonus action."
+      \ the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash) action\
+      \ as a bonus action."
     "name": "Ink Cloud (Recharges after a Short or Long Rest)"
 "source":
   - "MM"
-  - "SKT"
-  - "GoS"
-  - "IMR"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/octopus.webp"
 ```
 ^statblock

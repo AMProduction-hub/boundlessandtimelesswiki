@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Medusa
+- "Medusa"
 ---
-# [Medusa](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/medusa-mot.md)
+# [Medusa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/medusa-mot.md)
 *Source: Mythic Odysseys of Theros p. 206*  
 
 Medusas (often called gorgons on Theros) are closely associated with Pharika, the god of poison and medicine. Pharika has charged her favored servants with guarding secrets of life, health, and immortality that are too powerful to be known by those who lack the wisdom to use them properly. Those who approach a medusa with humility and worthy offerings might receive the creature's favor. The medusa might propose a dangerous quest to fetch some rare ingredient or legendary relic, promising to reward success with a bit of Pharika's knowledge. This information might lead to a cure for a plague, an alchemical breakthrough, or a secret of the cosmos.
@@ -43,7 +44,11 @@ Medusas (often called gorgons on Theros) are closely associated with Pharika, th
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Common"
 "cr": "6"
 "traits":
@@ -72,16 +77,16 @@ Medusas (often called gorgons on Theros) are closely associated with Pharika, th
       \ one to constrict, and one with its shortsword—or two ranged attacks with its\
       \ longbow."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d4 + 2) piercing damage plus 14 (4d6) poison damage."
     "name": "Snake Hair"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 150/600 ft., one target. *Hit:*\
       \ 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage."
     "name": "Longbow"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 10 ft., one target. *Hit:*\
       \ 7 (2d6) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 11). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and the medusa can't constrict another target."

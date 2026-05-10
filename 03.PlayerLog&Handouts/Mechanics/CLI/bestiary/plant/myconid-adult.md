@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Myconid Adult
+- "Myconid Adult"
 ---
-# [Myconid Adult](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/myconid-adult.md)
-*Source: Monster Manual p. 232, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Keys from the Golden Vault*  
+# [Myconid Adult](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/myconid-adult.md)
+*Source: Monster Manual p. 232*  
 
 Myconids are intelligent, ambulatory fungi that live in the Underdark, seek enlightenment, and deplore violence. If approached peacefully, myconids gladly provide shelter or allow safe passage through their colonies.
 
@@ -45,7 +46,8 @@ Like other fungi, myconids reproduce by mundane sporing. They carefully control 
   - !!int "13"
   - !!int "7"
 "speed": "20 ft."
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -57,7 +59,7 @@ Like other fungi, myconids reproduce by mundane sporing. They carefully control 
       \ direct sunlight."
     "name": "Sun Sickness"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (2d4) bludgeoning damage plus 5 (2d4) poison damage."
     "name": "Fist"
   - "desc": "The myconid ejects spores at one creature it can see within 5 feet of\
@@ -73,9 +75,6 @@ Like other fungi, myconids reproduce by mundane sporing. They carefully control 
     "name": "Rapport Spores"
 "source":
   - "MM"
-  - "WDMM"
-  - "GoS"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/myconid-adult.webp"
 ```
 ^statblock

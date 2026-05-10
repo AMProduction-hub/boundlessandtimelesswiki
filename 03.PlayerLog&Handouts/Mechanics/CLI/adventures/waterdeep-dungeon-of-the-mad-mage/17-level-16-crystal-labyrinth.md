@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 16: Crystal Labyrinth
+- "Level 16: Crystal Labyrinth"
 ---
 # Level 16: Crystal Labyrinth
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 209* 
@@ -103,7 +104,7 @@ The walls of this chamber are engraved with images of armored githyanki knights 
 
 #### 2c. Illithid Heads
 
-Twelve severed mind flayer heads are mounted on the east and west walls of this partially destroyed area. A [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell reveals an aura of necromancy magic around each head, which is a Tiny object with AC 5, 3 hit points, and immunity to poison and psychic damage. Reducing a head to 0 hit points destroys it. Whenever a head is destroyed, any remaining mind flayer heads in the area that haven't been destroyed emit a telepathic scream. Each creature in the room takes `d6` psychic damage for each screaming head (maximum `12d6`).
+Twelve severed mind flayer heads are mounted on the east and west walls of this partially destroyed area. A [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell reveals an aura of necromancy magic around each head, which is a Tiny object with AC 5, 3 hit points, and immunity to poison and psychic damage. Reducing a head to 0 hit points destroys it. Whenever a head is destroyed, any remaining mind flayer heads in the area that haven't been destroyed emit a telepathic scream. Each creature in the room takes `1d6` psychic damage for each screaming head (maximum `12d6`).
 
 ### 3. Main Cavern
 
@@ -393,7 +394,7 @@ The unhappiest of [Ashtyrranthor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/n
 
 [Ashtyrranthor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ashtyrranthor-wdmm.md)'s youngest child is miserable on Stardock. He is eager to leave the asteroid and begin life on his own, but his mother insists he help the githyanki. So he spends most of his time here, sleeping or darkly staring out into space.
 
-If the characters do not attack him at once, Infernexus proposes a deal. He helps them achieve their goals in the asteroid if they promise to kill his mother and help him carve out a lair for himself in Undermountain. He's very particular and doesn't consider any lair other than the Twisted Caverns (level 4) suitable. If a deal is struck, Infernexus becomes the characters' loyal companion for `d10` days. But if they haven't gotten the dragon to the Twisted Caverns by then, he betrays them.
+If the characters do not attack him at once, Infernexus proposes a deal. He helps them achieve their goals in the asteroid if they promise to kill his mother and help him carve out a lair for himself in Undermountain. He's very particular and doesn't consider any lair other than the Twisted Caverns (level 4) suitable. If a deal is struck, Infernexus becomes the characters' loyal companion for `1d10` days. But if they haven't gotten the dragon to the Twisted Caverns by then, he betrays them.
 
 If the characters attack Infernexus or refuse his deal, he fights until reduced to 100 hit points or fewer. He then screams for his mother, who hears the call and arrives at the window slits `1d4 + 1` rounds later.
 
@@ -426,7 +427,7 @@ Kaaltav's plate armor is set with six zircons (50 gp each) and six violet garnet
 
 #### 15c. Githyanki Quarters
 
-Twenty githyanki children (noncombatants) sleep in small stone-framed beds in this room. Any movement in the room wakes `d6` of them, who see the characters and shout out in alarm. The githyanki knight in area 15b arrives 1 round later as the other young awake. While the knight fights the characters, the githyanki young run throughout the crèche and raise the alarm.
+Twenty githyanki children (noncombatants) sleep in small stone-framed beds in this room. Any movement in the room wakes `1d6` of them, who see the characters and shout out in alarm. The githyanki knight in area 15b arrives 1 round later as the other young awake. While the knight fights the characters, the githyanki young run throughout the crèche and raise the alarm.
 
 ### 16. Nursery
 
@@ -650,7 +651,7 @@ The characters hear a lot of clatter as they approach this area, which extends u
 
 The warriors attack intruders on sight. Combat here brings reinforcements from area 27.
 
-The stoves are piping hot. Any creature that touches a stove for the first time on a turn takes 3 (`d6`) fire damage.
+The stoves are piping hot. Any creature that touches a stove for the first time on a turn takes 3 (`1d6`) fire damage.
 
 ### 27. Mess Hall
 

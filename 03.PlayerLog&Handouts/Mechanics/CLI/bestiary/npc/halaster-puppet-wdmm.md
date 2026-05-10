@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Halaster Puppet
+- "Halaster Puppet"
 ---
-# [Halaster Puppet](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/halaster-puppet-wdmm.md)
+# [Halaster Puppet](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/halaster-puppet-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 31*  
 
 ```statblock

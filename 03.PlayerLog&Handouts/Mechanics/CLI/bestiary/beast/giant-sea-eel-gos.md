@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Sea Eel
+- "Giant Sea Eel"
 ---
-# [Giant Sea Eel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-sea-eel-gos.md)
+# [Giant Sea Eel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-sea-eel-gos.md)
 *Source: Ghosts of Saltmarsh p. 237*  
 
 Snaking predators lurking in the dark waters of the ocean, these kelp-colored beasts serve as guards and mounts for the locathah (including those found in Danger at Dunwater).
@@ -35,20 +36,21 @@ Snaking predators lurking in the dark waters of the ocean, these kelp-colored be
   - !!int "7"
 "speed": "0 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+4"
+  - "dexterity": !!int "4"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": ""
 "cr": "1/2"
 "traits":
   - "desc": "The eel can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d10 + 2) piercing damage."
     "name": "Bite"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sekelok
+- "Sekelok"
 ---
-# [Sekelok](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sekelok-toa.md)
+# [Sekelok](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sekelok-toa.md)
 *Source: Tomb of Annihilation p. 120*  
 
 ```statblock
@@ -34,8 +35,8 @@ aliases:
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "strength": "+9"
-  - "constitution": "+6"
+  - "strength": !!int "9"
+  - "constitution": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+9"
@@ -45,13 +46,17 @@ aliases:
     "desc": "+6"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 16"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 16"
 "languages": "any one language (usually Common), Abyssal, Draconic"
 "cr": "9"
 "traits":
-  - "desc": "Sekelok\n\nAt will: [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md)\
+  - "desc": "Sekelok\n\n**At will:** [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md)\
       \ (snakes only), [poison spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md)\n\
-      \n3/day each: [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
+      \n**3/day each:** [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
     "name": "Innate Spellcasting"
   - "desc": "Sekelok rerolls a failed saving throw."
     "name": "Indomitable (2/Day)"
@@ -62,11 +67,11 @@ aliases:
 "actions":
   - "desc": "Sekelok makes three attacks with its greatsword or its shortbow."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) slashing damage, plus 7 (2d6) slashing damage if Sekelok has\
       \ more than half of its total hit points remaining."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage, plus 7 (2d6) piercing damage if Sekelok has\
       \ more than half of its total hit points remaining."
     "name": "Shortbow"

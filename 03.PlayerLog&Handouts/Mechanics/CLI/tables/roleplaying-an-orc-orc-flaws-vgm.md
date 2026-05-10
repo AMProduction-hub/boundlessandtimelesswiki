@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Roleplaying an Orc; Orc Flaws
+- "Roleplaying an Orc; Orc Flaws"
 ---
 # Roleplaying an Orc; Orc Flaws
 *Source: Volo's Guide to Monsters p. 87* 
 
 **Orc Flaws**
-
-`dice: [](roleplaying-an-orc-orc-flaws-vgm.md#^orc-flaws)`
 
 | dice: d6 | Flaw |
 |----------|------|

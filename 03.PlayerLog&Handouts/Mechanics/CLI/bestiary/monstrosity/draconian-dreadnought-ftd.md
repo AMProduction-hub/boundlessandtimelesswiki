@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Draconian Dreadnought
+- "Draconian Dreadnought"
 ---
-# [Draconian Dreadnought](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/draconian-dreadnought-ftd.md)
+# [Draconian Dreadnought](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/draconian-dreadnought-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 177*  
 
 The largest of the draconians are the dreadnoughts, who are born from the eggs of silver, blue, or sapphire dragons. They fly on mighty wings over the battlefield to wherever the fighting is the thickest. Their magical ability to change their appearance to mimic those they've slain allows them to sow confusion and despair among their enemies. When dreadnoughts are killed, their bodies burst into flames, scorching everything around them.
@@ -43,9 +44,10 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
   - !!int "10"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "strength": "+6"
-  - "wisdom": "+2"
-"senses": "darkvision 60 ft., passive Perception 10"
+  - "strength": !!int "6"
+  - "wisdom": !!int "2"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Draconic"
 "cr": "4"
 "traits":
@@ -57,10 +59,10 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
 "actions":
   - "desc": "The draconian makes two Serrated Sword attacks and one Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) slashing damage."
     "name": "Serrated Sword"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) bludgeoning damage. If the target is a Large or smaller creature,\
       \ it must succeed on a DC 14 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Tail"

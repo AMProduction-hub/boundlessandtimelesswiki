@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Sun Temple Adventures
+- "Sun Temple Adventures"
 ---
 # Sun Temple Adventures
 *Source: Mythic Odysseys of Theros p. 130* 
 
 **Sun Temple Adventures**
-
-`dice: [](sun-temple-adventures-mot.md#^sun-temple-adventures)`
 
 | dice: d12 | Adventure Goal |
 |-----------|----------------|

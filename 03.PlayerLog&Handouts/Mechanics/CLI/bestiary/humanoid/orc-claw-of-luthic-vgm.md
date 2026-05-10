@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 - ttrpg-cli/monster/cr/2
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Orc Claw of Luthic
+- "Orc Claw of Luthic"
 ---
-# [Orc Claw of Luthic](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/orc-claw-of-luthic-vgm.md)
+# [Orc Claw of Luthic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc-claw-of-luthic-vgm.md)
 *Source: Volo's Guide to Monsters p. 183*  
 
 Luthic is Gruumsh's wife and the paragon of maternity to all orcs. She is the Cave Mother, a fierce dweller in the darkness who raises new broods of orcs to be vicious and strong. Her symbol is the cave bear, and orc females raise such bears alongside orc whelps. Females particularly attracted to Luthic grow long nails and lacquer them, learning to use these claws as weapons much as Luthic uses her own.
@@ -57,21 +58,22 @@ In addition, orcs have special relationships with two creatures that are sometim
     "desc": "+4"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Orc"
 "cr": "2"
 "traits":
   - "desc": "The orc is a 5th-level spellcaster. Its spellcasting ability is Wisdom\
       \ (spell save DC 12, +4 to hit with spell attacks). The orc has the following\
-      \ cleric spells prepared:\n\nCantrips (at will): [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ cleric spells prepared:\n\n**Cantrips (at will):** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md), [resistance](03.PlayerLog&Handouts/Mechanics/CLI/spells/resistance.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md),\
+      \n**1st level (4 slots):** [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md),\
       \ [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [guiding bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/guiding-bolt.md)\n\
-      \n2nd level (3 slots): [augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md),\
+      \n**2nd level (3 slots):** [augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md),\
       \ [warding bond](03.PlayerLog&Handouts/Mechanics/CLI/spells/warding-bond.md)\n\
-      \n3rd level (2 slots): [bestow curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/bestow-curse.md),\
+      \n**3rd level (2 slots):** [bestow curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/bestow-curse.md),\
       \ [create food and water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-food-and-water.md)"
     "name": "Spellcasting"
   - "desc": "As a bonus action, the orc can move up to its speed toward a hostile\
@@ -81,7 +83,7 @@ In addition, orcs have special relationships with two creatures that are sometim
   - "desc": "The orc makes two claw attacks, or four claw attacks if it has fewer\
       \ than half of its hit points remaining."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage."
     "name": "Claw"
 "source":

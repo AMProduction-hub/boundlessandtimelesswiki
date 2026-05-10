@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gash
+- "Gash"
 ---
-# [Gash](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/gash-oota.md)
+# [Gash](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gash-oota.md)
 *Source: Out of the Abyss p. 181*  
 
 ```statblock
@@ -34,8 +35,12 @@ aliases:
   - !!int "10"
   - !!int "7"
 "speed": "25 ft."
-"senses": "darkvision 60 ft., passive Perception 10"
-"languages": "Gnoll"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
+"languages": "Gnoll, Abyssal"
 "cr": "1/2"
 "traits":
   - "desc": "When Gash reduces a creature to 0 hit points with a melee attack on its\
@@ -47,14 +52,14 @@ aliases:
       \ spell rids him of these effects."
     "name": "Wretched"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d4 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Spear"
-  - "desc": "Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, range 150/600 ft., one target. *Hit:*\
       \ 5 (1d8 + 1) piercing damage."
     "name": "Longbow"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/rot
 - ttrpg-cli/monster/cr/15
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Diderius
+- "Diderius"
 ---
-# [Diderius](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/diderius-rot.md)
+# [Diderius](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/diderius-rot.md)
 *Source: The Rise of Tiamat p. 40, Tyranny of Dragons p. 131*  
 
 ```statblock
@@ -33,10 +34,10 @@ aliases:
   - !!int "16"
 "speed": "20 ft."
 "saves":
-  - "constitution": "+8"
-  - "intelligence": "+5"
-  - "wisdom": "+9"
-  - "charisma": "+8"
+  - "constitution": !!int "8"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+5"
@@ -50,25 +51,26 @@ aliases:
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "the languages it knew in life"
 "cr": "15"
 "traits":
   - "desc": "Diderius is a 10th-level spellcaster. His spellcasting ability is Intelligence\
       \ (spell save DC 17, +9 to hit with spell attacks). He has the following wizard\
-      \ spells prepared:\n\nCantrips (at will): [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
+      \ spells prepared:\n\n**Cantrips (at will):** [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
-      \n1st level (4 slots): [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \n**1st level (4 slots):** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [cloud of daggers](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloud-of-daggers.md),\
+      \n**2nd level (3 slots):** [cloud of daggers](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloud-of-daggers.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [see invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/see-invisibility.md)\n\
-      \n3rd level (3 slots): [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
+      \n**3rd level (3 slots):** [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md)\n\
-      \n4th level (3 slots): [fire shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-shield.md),\
+      \n**4th level (3 slots):** [fire shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-shield.md),\
       \ [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md)\n\
-      \n5th level (2 slots): [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
+      \n**5th level (2 slots):** [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
       \ [wall of stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-stone.md)"
     "name": "Spellcasting"
   - "desc": "Diderius has advantage on saving throws against spells and other magical\
@@ -82,7 +84,7 @@ aliases:
   - "desc": "The mummy can use its Dreadful Glare and makes one attack with its rotting\
       \ fist."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (3d6 + 4) bludgeoning damage plus 21 (6d6) necrotic damage. If the target\
       \ is a creature, it must succeed on a DC 16 Constitution saving throw or be\
       \ cursed with mummy rot. The cursed target can't regain hit points, and its\
@@ -99,6 +101,9 @@ aliases:
       \ for the same duration. A target that succeeds on the saving throw is immune\
       \ to the Dreadful Glare of all mummies and mummy lords for the next 24 hours."
     "name": "Dreadful Glare"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Diderius can expend a use to take one of the following actions. Diderius\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Diderius makes one attack with its rotting fist or uses its Dreadful\
       \ Glare."

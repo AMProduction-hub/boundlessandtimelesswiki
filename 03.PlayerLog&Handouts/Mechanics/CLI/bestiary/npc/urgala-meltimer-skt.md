@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Urgala Meltimer
+- "Urgala Meltimer"
 ---
-# [Urgala Meltimer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/urgala-meltimer-skt.md)
+# [Urgala Meltimer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/urgala-meltimer-skt.md)
 *Source: Storm King's Thunder p. 254*  
 
 A retired adventurer, Urgala owns a respectable inn, the Northshield House, and she doesn't want to see it or her neighbors' homes destroyed. She has no tolerance for monsters or bullies.
@@ -46,6 +47,9 @@ Flaw:"I know how treacherous and greedy adventurers can be. I don't trust them-a
     "desc": "+5"
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+3"
+"gear":
+  - "[morningstar](03.PlayerLog&Handouts/Mechanics/CLI/items/morningstar.md)"
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Giant"
 "traits":
@@ -62,10 +66,10 @@ Flaw:"I know how treacherous and greedy adventurers can be. I don't trust them-a
 "actions":
   - "desc": "Urgala makes two attacks with her morningstar or her shortbow."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage."
     "name": "Morningstar"
-  - "desc": "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, range 80/320 ft., one target. *Hit:*\
       \ 5 (1d6 + 1) piercing damage. Urgala carries a quiver of twenty arrows."
     "name": "Shortbow"
 "source":

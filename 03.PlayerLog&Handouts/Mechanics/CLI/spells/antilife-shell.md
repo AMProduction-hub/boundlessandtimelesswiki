@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/witherbloom-student
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/abjuration
@@ -13,13 +14,13 @@ tags:
 - ttrpg-cli/spell/subclass/the-undead
 - ttrpg-cli/spell/subrace/dwarf-mark-of-warding
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Death Domain)
 - Cleric (Grave Domain)
 - Druid
 - Warlock (The Undead)
 aliases:
-- Antilife Shell
+- "Antilife Shell"
 ---
 # Antilife Shell
 *5th-level, Abjuration*  
@@ -36,6 +37,6 @@ The barrier prevents an affected creature from passing or reaching through. An a
 
 If you move so that an affected creature is forced to pass through the barrier, the spell ends.
 
-**Classes**: [Cleric (Death Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-death-domain-dmg.md "subclass=DMG"); [Warlock (The Undead)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-undead-vrgr.md "subclass=VRGR"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Grave Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-grave-domain-xge.md "subclass=XGE"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Death Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-death-domain-dmg.md "subclass=DMG"); [Cleric (Grave Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-grave-domain-xge.md "subclass=XGE"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Warlock (The Undead)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-undead-vrgr.md "subclass=VRGR")
 
 *Source: Player's Handbook p. 213. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

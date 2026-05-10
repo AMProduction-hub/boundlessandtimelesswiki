@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/4
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lizard King
+- "Lizard King"
 ---
-# [Lizard King](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/lizard-king.md)
-*Source: Monster Manual p. 205, Princes of the Apocalypse, Ghosts of Saltmarsh, Tasha's Cauldron of Everything*  
+# [Lizard King](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizard-king.md)
+*Source: Monster Manual p. 205*  
 
 Lizardfolk are primitive reptilian humanoids that lurk in the swamps and jungles of the world. Their hut villages thrive in forbidding grottos, half-sunken ruins, and watery caverns.
 
@@ -73,8 +74,8 @@ Lizardfolk speak Draconic, which they are thought to have learned from dragons i
   - !!int "15"
 "speed": "30 ft., swim 30 ft."
 "saves":
-  - "constitution": "+4"
-  - "wisdom": "+2"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
@@ -83,7 +84,10 @@ Lizardfolk speak Draconic, which they are thought to have learned from dragons i
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+4"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[trident](03.PlayerLog&Handouts/Mechanics/CLI/items/trident.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Abyssal, Draconic"
 "cr": "4"
 "traits":
@@ -97,21 +101,18 @@ Lizardfolk speak Draconic, which they are thought to have learned from dragons i
   - "desc": "The lizardfolk makes two attacks: one with its bite and one with its\
       \ claws or trident or two melee attacks with its trident."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) slashing damage."
     "name": "Claws"
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Trident"
 "source":
   - "MM"
-  - "PotA"
-  - "GoS"
-  - "TCE"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/lizard-king.webp"
 ```
 ^statblock

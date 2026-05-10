@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- King Jhaeros
+- "King Jhaeros"
 ---
-# [King Jhaeros](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/king-jhaeros-kftgv.md)
+# [King Jhaeros](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/king-jhaeros-kftgv.md)
 *Source: Keys from the Golden Vault p. 158*  
 
 Known for its exquisite glasswork, Ghalasine was a prosperous city ruled by King Jhaeros Astolko. Governing from Castle Cinis, Jhaeros was advised by two councilors, Regine LaVerne and Charmayne Daymore, and a guard captain named Naevys Tharesso. Jhaeros's rule was compassionate, just, and kind. Over the last year, however, Naevys watched with growing concern as Jhaeros became more withdrawn and secretive, closing Ghalasine to trade and failing to honor his alliances.
@@ -44,7 +45,8 @@ Jhaeros has been transformed into a heartless puppet under Charmayne's command.
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "understands Common, Draconic, Elvish, and Ignan but can't speak"
 "cr": "9"
 "traits":
@@ -71,7 +73,7 @@ Jhaeros has been transformed into a heartless puppet under Charmayne's command.
 "actions":
   - "desc": "Jhaeros makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 16\
       \ (2d10 + 5) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 15 Constitution saving throw or have its hit point maximum reduced\
       \ by an amount equal to the damage taken. The target dies if this attack reduces\

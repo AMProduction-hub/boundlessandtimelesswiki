@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Allosaurus
+- "Allosaurus"
 ---
-# [Allosaurus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/allosaurus.md)
-*Source: Monster Manual p. 79, Tomb of Annihilation, Waterdeep: Dragon Heist, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the Basic Rules (2014)*  
+# [Allosaurus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/allosaurus.md)
+*Source: Monster Manual p. 79. Available in the Basic Rules (2014)*  
 
 The allosaurus is a predator possessing great size, strength, and speed. It can run down almost any prey over open ground, pouncing to pull creatures down with its wicked claws.
 
@@ -55,18 +56,14 @@ Dinosaurs come in many sizes and shapes. Larger varieties often have drab colora
       \ the allosaurus can make one bite attack against it as a bonus action."
     "name": "Pounce"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (2d10 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage."
     "name": "Claw"
 "source":
   - "MM"
-  - "ToA"
-  - "WDH"
-  - "JttRC"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/allosaurus.webp"
 ```
 ^statblock

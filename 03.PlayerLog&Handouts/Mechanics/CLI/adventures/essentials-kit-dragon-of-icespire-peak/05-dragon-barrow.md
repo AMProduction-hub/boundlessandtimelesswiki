@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dip
 aliases:
-- Dragon Barrow
+- "Dragon Barrow"
 ---
 # Dragon Barrow
 *Source: Essentials Kit: Dragon of Icespire Peak, p. 20* 
@@ -78,7 +79,7 @@ The tunnels around the spiral staircase are haunted by three [will-o'-wisps](03.
 
 Each of these pits is 5 feet wide, 10 feet deep, and dug out of the earth. Rows of rusty swords are embedded into the floor of each pit, whose tops are covered by rotted wooden planks hidden under a thin layer of earth. A creature using a pole or similar tool to prod ahead detects the pit with a successful DC 10 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check.
 
-Any creature that steps onto a pit falls into it, taking `d6` bludgeoning damage and impaling itself on `d4` swords, each of which deals `d6` piercing damage.
+Any creature that steps onto a pit falls into it, taking `1d6` bludgeoning damage and impaling itself on `1d4` swords, each of which deals `1d6` piercing damage.
 
 #### D4. Skeletal Surprise
 

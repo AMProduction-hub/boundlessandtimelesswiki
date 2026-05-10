@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 1: Dungeon Level
+- "Level 1: Dungeon Level"
 ---
 # Level 1: Dungeon Level
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 13* 
@@ -223,7 +224,7 @@ On the table are stacks of coins totaling 220 cp, 91 sp, and 85 gp, as well as a
 
 ##### Treasure
 
-Each bandit carries `d6` gp in a pouch. The doppelganger has no interest in treasure and carries nothing of value.
+Each bandit carries `1d6` gp in a pouch. The doppelganger has no interest in treasure and carries nothing of value.
 
 ### 7. Vampire Haven
 
@@ -246,7 +247,7 @@ If they are forced to retreat to this hall, Uktarl (area 6) and Harria (area 8) 
 
 This area contains a cobweb-draped wooden coffin resting on a 2-foot-high block of gray stone. The coffin is intact and has an obvious 1-inch-diameter hole bored into its foot panel. The coffin's lid is unlocked.
 
-A thin layer of grave dirt inside the coffin has been flattened down, suggesting that a creature once slept here. A vial of holy water rests atop the dirt. The coffin is otherwise empty.
+A thin layer of grave dirt inside the coffin has been flattened down, suggesting that a creature once slept here. A [vial of holy water](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-water-flask.md) rests atop the dirt. The coffin is otherwise empty.
 
 ### 8. Bandit Headquarters
 
@@ -269,7 +270,7 @@ Halaster trapped the wyvern in a floating crystal sphere and left it here as a g
 
 The throne is impervious to all damage. Its velvet seat cushion serves as the hinged lid of an empty hidden compartment. Whatever treasure the compartment once held was stolen by adventurers long ago.
 
-The throne's serpent armrests magically animate and bite anyone who sits on the throne or raises the seat's lid. Each snake makes a single melee weapon attack (+8 to hit) and deals 3 (`1d4 + 1`) piercing damage on a hit. Any creature bitten by a snake must make a DC 13 Constitution saving throw, taking 24 (`7d6`) poison damage on a failed save, or half as much damage on a successful one. After each snake makes one attack, the armrests revert to their inanimate state until triggered again.
+The throne's serpent armrests magically animate and bite anyone who sits on the throne or raises the seat's lid. Each snake makes a single melee weapon attack (`+8` to hit) and deals 3 (`1d4 + 1`) piercing damage on a hit. Any creature bitten by a snake must make a DC 13 Constitution saving throw, taking 24 (`7d6`) poison damage on a failed save, or half as much damage on a successful one. After each snake makes one attack, the armrests revert to their inanimate state until triggered again.
 
 #### 8b. Harria's Room
 
@@ -299,7 +300,7 @@ Posing as vampires, the bandits and the doppelganger try to extort money from pa
 
 ##### Treasure
 
-Each bandit carries `d6` gp in a pouch. The doppelganger has a similar pouch, plus a tiger eye gemstone (10 gp) tucked into its boot.
+Each bandit carries `1d6` gp in a pouch. The doppelganger has a similar pouch, plus a tiger eye gemstone (10 gp) tucked into its boot.
 
 ### 9. Plundered Halls
 
@@ -569,8 +570,6 @@ Goblins and bugbears pass through these rooms often. No creatures live here, how
 ^093
 
 One of Halaster's magic gates once stood between the pillars but was destroyed during the Spellplague. The gate's destruction left behind a lingering aura of wild magic that can be perceived with a [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell. When a creature passes between the pillars, roll a `d12` and consult the following table to determine what happens:
-
-`dice: [](02-level-1-dungeon-level.md#^effect)`
 
 | dice: d12 | Effect |
 |-----------|--------|

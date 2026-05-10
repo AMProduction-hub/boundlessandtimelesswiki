@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/deity/dwarven
 - ttrpg-cli/domain/trickery
 - ttrpg-cli/domain/war
-aliases: 
-- Hanseath
+aliases:
+- "Hanseath"
 ---
 # Hanseath
 *Source: Mordenkainen's Tome of Foes p. 73* 

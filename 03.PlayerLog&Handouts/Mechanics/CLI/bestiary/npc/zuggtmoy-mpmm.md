@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/23
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Zuggtmoy
+- "Zuggtmoy"
 ---
-# [Zuggtmoy](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/zuggtmoy-mpmm.md)
+# [Zuggtmoy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zuggtmoy-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 281, Mordenkainen's Tome of Foes p. 157*  
 
 The Demon Queen of Fungi, Lady of Rot and Decay, Zuggtmoy is an alien creature whose only desire is to infect the living with spores, transforming them into her mindless servants and, eventually, into decomposing hosts for the mushrooms, molds, and other fungi that she spawns.
@@ -51,9 +52,9 @@ Zuggtmoy's principal lair is her palace on Shedaklah. It consists of two dozen m
   - !!int "24"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+9"
-  - "constitution": "+11"
-  - "wisdom": "+11"
+  - "dexterity": !!int "9"
+  - "constitution": !!int "11"
+  - "wisdom": !!int "11"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+11"
@@ -63,7 +64,8 @@ Zuggtmoy's principal lair is her palace on Shedaklah. It consists of two dozen m
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 21"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 21"
 "languages": "all, telepathy 120 ft."
 "cr": "23"
 "traits":
@@ -75,17 +77,17 @@ Zuggtmoy's principal lair is her palace on Shedaklah. It consists of two dozen m
 "actions":
   - "desc": "Zuggtmoy makes three Pseudopod attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:*\
       \ 15 (2d8 + 6) force damage plus 9 (2d8) poison damage."
     "name": "Pseudopod"
   - "desc": "Zuggtmoy casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 22):\n\nAt\
-      \ will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 22):\n\n**At\
+      \ will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [locate animals or plants](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-animals-or-plants.md)\n\
-      \n3/day each: [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \n**3/day each:** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md), [plant\
-      \ growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/plant-growth.md)\n\n1/day\
-      \ each: [etherealness](03.PlayerLog&Handouts/Mechanics/CLI/spells/etherealness.md),\
+      \ growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/plant-growth.md)\n\n**1/day\
+      \ each:** [etherealness](03.PlayerLog&Handouts/Mechanics/CLI/spells/etherealness.md),\
       \ [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)"
     "name": "Spellcasting"
 "bonus_actions":
@@ -116,6 +118,34 @@ Zuggtmoy's principal lair is her palace on Shedaklah. It consists of two dozen m
       \ her that is [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
       \ by her is hit by the attack instead."
     "name": "Protective Thrall"
+"lair_actions":
+  - "desc": "On Initiative count 20 (losing initiative ties), Zuggtmoy can take a\
+      \ lair action to cause one of the following effects; she can't use the same\
+      \ effect two rounds in a row:\n\n- **Rally Plants.** Up to four plant creatures\
+      \ that are friendly to Zuggtmoy and that Zuggtmoy can see can use their reactions\
+      \ to move up to their speed and make one weapon attack.  \n- **Summon Fungi.**\
+      \ Zuggtmoy causes four [gas spores](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/gas-spore.md)\
+      \ or [violet fungi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/violet-fungus.md)\
+      \ to appear in unoccupied spaces that she chooses within the lair. They vanish\
+      \ after 1 hour.  \n- **Unleash Spores.** Zuggtmoy uses either her Infestation\
+      \ Spores or her Mind Control Spores, centered on a mushroom or other fungus\
+      \ within her lair, instead of on herself.  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region containing Zuggtmoy's lair is warped by his magic, creating\
+      \ one or more of the following effects:\n\n- **Corrupted Nature.** Within 6\
+      \ miles of the lair, all Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine))\
+      \ and Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival))\
+      \ checks have disadvantage.  \n- **Fungal Infestation.** Molds and fungi grow\
+      \ on surfaces within 6 miles of the lair, even where they would normally find\
+      \ no purchase.  \n- **Mutating Vegetation.** Vegetation within 1 mile of the\
+      \ lair becomes infested with parasitic fungi, slowly mutating as it is overwhelmed.\
+      \  \n- If Zuggtmoy dies, these effects fade over the course of 1d10 days.\
+      \  "
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Zuggtmoy can expend a use to take one of the following actions. Zuggtmoy\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Zuggtmoy makes one Pseudopod attack."
     "name": "Attack"
@@ -124,33 +154,6 @@ Zuggtmoy's principal lair is her palace on Shedaklah. It consists of two dozen m
       \ up to its speed as she directs or to make one weapon attack against a target\
       \ that she designates."
     "name": "Exert Will"
-"lair_actions":
-  - "desc": "On Initiative count 20 (losing initiative ties), Zuggtmoy can take a\
-      \ lair action to cause one of the following effects; she can't use the same\
-      \ effect two rounds in a row:"
-    "name": ""
-  - "desc": "- Rally Plants. Up to four plant creatures that are friendly to Zuggtmoy\
-      \ and that Zuggtmoy can see can use their reactions to move up to their speed\
-      \ and make one weapon attack.  \n- Summon Fungi. Zuggtmoy causes four [gas\
-      \ spores](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/gas-spore.md) or\
-      \ [violet fungi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/violet-fungus.md)\
-      \ to appear in unoccupied spaces that she chooses within the lair. They vanish\
-      \ after 1 hour.  \n- Unleash Spores. Zuggtmoy uses either her Infestation\
-      \ Spores or her Mind Control Spores, centered on a mushroom or other fungus\
-      \ within her lair, instead of on herself.  "
-    "name": ""
-"regional_effects":
-  - "desc": "The region containing Zuggtmoy's lair is warped by his magic, creating\
-      \ one or more of the following effects:"
-    "name": ""
-  - "desc": "- Corrupted Nature. Within 6 miles of the lair, all Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine))\
-      \ and Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival))\
-      \ checks have disadvantage.  \n- Fungal Infestation. Molds and fungi grow\
-      \ on surfaces within 6 miles of the lair, even where they would normally find\
-      \ no purchase.  \n- Mutating Vegetation. Vegetation within 1 mile of the\
-      \ lair becomes infested with parasitic fungi, slowly mutating as it is overwhelmed.\
-      \  \n- If Zuggtmoy dies, these effects fade over the course of d10 days.  "
-    "name": ""
 "source":
   - "MPMM"
   - "MTF"

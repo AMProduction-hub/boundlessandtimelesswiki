@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/3
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nightmare
+- "Nightmare"
 ---
-# [Nightmare](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/nightmare.md)
-*Source: Monster Manual p. 235, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Mythic Odysseys of Theros, Curse of Strahd. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Nightmare](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/nightmare.md)
+*Source: Monster Manual p. 235. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 A nightmare appears in a cloud of roiling smoke, its mane, tail, and hooves wreathed in flame. The creature's unearthly black form moves with supernatural speed, vanishing in a cloud of brimstone as quickly as it appeared.
 
@@ -53,7 +54,7 @@ Nightmares don't appear naturally in the multiverse. They must be created from p
       \ an additional 10 feet."
     "name": "Illumination"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) bludgeoning damage plus 7 (2d6) fire damage."
     "name": "Hooves"
   - "desc": "The nightmare and up to three willing creatures within 5 feet of it magically\
@@ -61,10 +62,6 @@ Nightmares don't appear naturally in the multiverse. They must be created from p
     "name": "Ethereal Stride"
 "source":
   - "MM"
-  - "BGDIA"
-  - "IMR"
-  - "MOT"
-  - "CoS"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/nightmare.webp"
 ```
 ^statblock

@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/race/halfling/ghostwise
 aliases:
-- Halfling (Ghostwise)
+- "Halfling (Ghostwise)"
 ---
 # Halfling (Ghostwise)
 *Source: Sword Coast Adventurer's Guide p. 110*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/halfling.webp#right)
 
-- **Ability Scores**: Wisdom +1
+- **Ability Scores**: wis +1
 - **Size**: Small
 - **Speed**: 25 ft.
 

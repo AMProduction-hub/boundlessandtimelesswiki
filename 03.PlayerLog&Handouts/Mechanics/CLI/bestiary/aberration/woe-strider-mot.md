@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Woe Strider
+- "Woe Strider"
 ---
-# [Woe Strider](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/woe-strider-mot.md)
+# [Woe Strider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/woe-strider-mot.md)
 *Source: Mythic Odysseys of Theros p. 247*  
 
 Woe striders form from the souls of those who've broken the bonds of destiny. Over centuries, these cosmic blasphemers transform into hunched, long-limbed horrors. Sadistic things, woe striders seek ways to reweave themselves into the tapestry of destiny. This leads them to search for answers within the bowels of other beings, performing murderous haruspicy in pursuit of their discarded cosmic purpose. When they fail to find answers, their unnatural cries cause reality to shudder, undermining magic and sane minds alike.
@@ -40,7 +41,8 @@ Woe striders form from the souls of those who've broken the bonds of destiny. Ov
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 15"
 "languages": "telepathy 120 ft."
 "cr": "7"
 "traits":
@@ -54,14 +56,14 @@ Woe striders form from the souls of those who've broken the bonds of destiny. Ov
       \ hit the same creature, the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14)."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
-      \ 7 (1d6 + 4) slashing damage plus 3 (d6) psychic damage."
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
+      \ 7 (1d6 + 4) slashing damage plus 3 (1d6) psychic damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature that is\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature that is\
       \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
       \ [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated),\
       \ or [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
-      \ Hit: 13 (2d8 + 4) piercing damage plus 16 (3d10) psychic damage. In\
+      \ *Hit:* 13 (2d8 + 4) piercing damage plus 16 (3d10) psychic damage. In\
       \ addition, each magic item the creature is carrying that isn't an artifact\
       \ has its magical properties suppressed for 1 minute."
     "name": "Bite"

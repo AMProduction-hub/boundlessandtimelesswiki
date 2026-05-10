@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/gear/spellcasting-focus
 - ttrpg-cli/item/rarity/common
-aliases: 
+aliases:
 - "Imbued Wood Focus"
 ---
 # Imbued Wood Focus

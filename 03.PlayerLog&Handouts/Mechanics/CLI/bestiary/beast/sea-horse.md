@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sea Horse
+- "Sea Horse"
 ---
-# [Sea Horse](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/sea-horse.md)
+# [Sea Horse](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/sea-horse.md)
 *Source: Monster Manual p. 337. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock

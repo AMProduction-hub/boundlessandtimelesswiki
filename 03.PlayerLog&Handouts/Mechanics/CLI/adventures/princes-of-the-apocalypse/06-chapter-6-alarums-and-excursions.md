@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 aliases:
-- Chapter 6: Alarums and Excursions
+- "Chapter 6: Alarums and Excursions"
 ---
 # Chapter 6: Alarums and Excursions
 *Source: Princes of the Apocalypse, p. 148* 
@@ -204,7 +205,7 @@ The body is a [zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombi
 
 The boulder is stained with dry blood.
 
-Above the eastern entrance, two [zombies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md) stand on a ledge 10 feet up. They hold a wooden box full of rocks between them. When they spot an intruder, they let the box go so it crashes down on the interloper. The target must succeed on a DC 12 Dexterity saving throw or take 7 (`2d6`) bludgeoning damage. The zombies then jump down from the ledge (taking `d6` bludgeoning damage each) to attack.
+Above the eastern entrance, two [zombies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md) stand on a ledge 10 feet up. They hold a wooden box full of rocks between them. When they spot an intruder, they let the box go so it crashes down on the interloper. The target must succeed on a DC 12 Dexterity saving throw or take 7 (`2d6`) bludgeoning damage. The zombies then jump down from the ledge (taking `1d6` bludgeoning damage each) to attack.
 
 ### L3. Corpse Cave
 
@@ -885,7 +886,7 @@ Customarily, a barge from Yartar arrives on a regular schedule to deliver the wa
 
 The Zhentarim believes intrigue in Yartar is to blame: someone wants to harm the Black Network's profits. Zhentarim agents first suspected the Harpers, but trusted spies recently reported back that an unknown organization seems to be at work in Yartar.
 
-None of the reports that reach the Bargewright Inn contain any hint of the truth, but the troublemakers are members of the Kraken Society, trying to destabilize Yartar so they can replace the current waterbaron with their own stooge. Then the new waterbaron can swiftly fix the troubles and thereby win local support. The Black Network is an incidental casualty in this scheme.
+None of the reports that reach the Bargewright Inn contain any hint of the truth, but the troublemakers are members of the Kraken Society, trying to destabilize Yartar so they can replace the current Waterbaron with their own stooge. Then the new Waterbaron can swiftly fix the troubles and thereby win local support. The Black Network is an incidental casualty in this scheme.
 
 Regardless of why the "troubles" are occurring, the Zhentarim wants the situation fixed fast. The Black Network intends to mount two expeditions to Triboar, one by river on a barge and one by overland caravan. Both missions take coin to purchase new supplies, recruit new suppliers, and fund their spies in Triboar to identify who's behind the supply problems in Yartar.
 
@@ -1045,7 +1046,7 @@ When the characters can see the burial chamber better, read the following:
 > A crude fieldstone arch forms the entrance to the burial chamber. In three branching alcoves are three scorched altars—one of a tiger, another of an elk, and another of a bear. In the center of the chamber is a stone bier upon which rests a broken and blackened skeleton, its skull and limbs scattered about the chamber. The air of the sepulcher is deathly cold and scented with ash.
 ^692
 
-The three alcoves contain altars to beast spirits with early depictions of the Red Tiger totem (west alcove), the Elk totem (north alcove), and the Blue Bear totem (east alcove) . Red Tiger and Elk still survive as totem beasts of contemporary Uthgardt tribes.
+The three alcoves contain altars to beast spirits with early depictions of the Red Tiger totem (west alcove), the Elk totem (north alcove), and the Blue Bear totem (east alcove). Red Tiger and Elk still survive as totem beasts of contemporary Uthgardt tribes.
 
 The stone bier was the resting place of the Uthgardt chief's bones, which now lay scattered across the pedestal and upon the ground beside it.
 
@@ -1204,7 +1205,7 @@ After twenty steps, the stairs turn into a narrow path that follows switchbacks 
 
 Two-thirds of the way up, at a switchback turnaround, Grumink's miners constructed a trap. Its purpose is to make noise and warn the lookouts in area D2 above, but it's also dangerous. A character who has a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 15 or higher notices a steel tripwire fastened between boulders about two inches from the ground. A character who is looking for traps instead finds the tripwire with a successful DC 10 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check.
 
-If the tripwire is sprung, it tumbles one boulder along with a rush of smaller stones and gravel down the path. The first two creatures ascending the trail must make a DC 15 Dexterity saving throw. On a failure, the creature is knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) and takes 2 (`d4`) bludgeoning damage. A failure by 5 or more results in the creature being knocked from the pathway, sliding and falling to the next lower level of the path, and taking an additional 10 (`3d6`) bludgeoning damage.
+If the tripwire is sprung, it tumbles one boulder along with a rush of smaller stones and gravel down the path. The first two creatures ascending the trail must make a DC 15 Dexterity saving throw. On a failure, the creature is knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) and takes 2 (`1d4`) bludgeoning damage. A failure by 5 or more results in the creature being knocked from the pathway, sliding and falling to the next lower level of the path, and taking an additional 10 (`3d6`) bludgeoning damage.
 
 Cutting the tripwire triggers the trap. To disarm it, the wire must be disconnected, kept tight, and traced back to the wood panel it holds, shoring up the loose boulder and rocks. Then the boulder must be further supported until it can't fall due to lack of tension on the tripwire. Reworking the trap this way can be done in a few ways, but checks to do so are no worse than DC 10.
 

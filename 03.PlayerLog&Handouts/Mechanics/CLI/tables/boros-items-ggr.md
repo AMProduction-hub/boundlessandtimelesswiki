@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Boros Items
+- "Boros Items"
 ---
 # Boros Items
 *Source: Guildmasters' Guide to Ravnica p. 175* 

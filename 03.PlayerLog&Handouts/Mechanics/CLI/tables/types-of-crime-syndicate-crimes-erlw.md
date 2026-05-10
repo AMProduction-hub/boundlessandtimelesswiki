@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Types of Crime; Syndicate Crimes
+- "Types of Crime; Syndicate Crimes"
 ---
 # Types of Crime; Syndicate Crimes
 *Source: Eberron: Rising from the Last War p. 70* 
 
 **Syndicate Crimes**
-
-`dice: [](types-of-crime-syndicate-crimes-erlw.md#^syndicate-crimes)`
 
 | dice: d6 | Crime |
 |----------|-------|

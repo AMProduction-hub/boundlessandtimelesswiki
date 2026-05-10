@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dust Mephit
+- "Dust Mephit"
 ---
-# [Dust Mephit](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/dust-mephit.md)
-*Source: Monster Manual p. 215, Princes of the Apocalypse, Tomb of Annihilation. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Dust Mephit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/dust-mephit.md)
+*Source: Monster Manual p. 215. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 ## Mephits
 
@@ -54,7 +55,8 @@ Composed of earth and air, dust mephits are drawn to catacombs and find death mo
 "damage_vulnerabilities": "fire"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Auran, Terran"
 "cr": "1/2"
 "traits":
@@ -69,7 +71,7 @@ Composed of earth and air, dust mephits are drawn to catacombs and find death mo
       \ on itself on a success."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d4 + 2) slashing damage."
     "name": "Claws"
   - "desc": "The mephit exhales a 15-foot cone of blinding dust. Each creature in\
@@ -79,8 +81,6 @@ Composed of earth and air, dust mephits are drawn to catacombs and find death mo
     "name": "Blinding Breath (Recharge 6)"
 "source":
   - "MM"
-  - "PotA"
-  - "ToA"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/dust-mephit.webp"
 ```
 ^statblock

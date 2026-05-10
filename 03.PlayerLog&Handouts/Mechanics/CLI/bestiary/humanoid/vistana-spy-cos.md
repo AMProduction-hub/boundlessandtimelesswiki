@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vistana Spy
+- "Vistana Spy"
 ---
-# [Vistana Spy](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/vistana-spy-cos.md)
+# [Vistana Spy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/vistana-spy-cos.md)
 *Source: Curse of Strahd p. 28*  
 
 ```statblock
@@ -47,12 +48,16 @@ aliases:
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 16"
 "languages": "any two languages"
 "cr": "1"
 "traits":
-  - "desc": "On each of its turns, the spy can use a bonus action to take the Dash,\
-      \ Disengage, or Hide action."
+  - "desc": "On each of its turns, the spy can use a bonus action to take the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash),\
+      \ [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage),\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action."
     "name": "Cunning Action"
   - "desc": "The spy deals an extra 7 (2d6) damage when it hits a target with a\
       \ weapon attack and has advantage on the attack roll, or when the target is\
@@ -62,22 +67,22 @@ aliases:
 "actions":
   - "desc": "The spy makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Hand Crossbow"
   - "desc": "13\n\n- The target is unable to perform a certain kind of act involving\
       \ fine motor control, such as tying knots, writing, playing an instrument, sewing,\
       \ or casting spells that have somatic components. When this curse ends, the\
-      \ Vistana takes d6 psychic damage.  \n- The target's appearance changes in\
+      \ Vistana takes 1d6 psychic damage.  \n- The target's appearance changes in\
       \ a sinister yet purely cosmetic way. For example, the curse can place a scar\
       \ on the target's face, turn the target's teeth into yellow fangs, or give the\
-      \ target bad breath. When this curse ends, the Vistana takes d6 psychic damage.\
+      \ target bad breath. When this curse ends, the Vistana takes 1d6 psychic damage.\
       \  \n- A nonmagical item in the target's possession (chosen by the DM) disappears\
       \ and can't be found until the curse ends. The lost item can weigh no more than\
-      \ 1 pound. When this curse ends, the Vistana takes d6 psychic damage.  \n\
+      \ 1 pound. When this curse ends, the Vistana takes 1d6 psychic damage.  \n\
       - The target gains vulnerability to a damage type of the Vistana's choice. When\
       \ this curse ends, the Vistana takes 3d6 psychic damage.  \n- The target has\
       \ disadvantage on ability checks and saving throws tied to one ability score\

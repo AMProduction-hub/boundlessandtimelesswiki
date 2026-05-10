@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/tempest
-aliases: 
-- Akadi
+aliases:
+- "Akadi"
 ---
 # Akadi
 *Source: Sword Coast Adventurer's Guide p. 21* 

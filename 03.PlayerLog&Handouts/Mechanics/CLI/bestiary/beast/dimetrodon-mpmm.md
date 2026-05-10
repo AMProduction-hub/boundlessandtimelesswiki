@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-4
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dimetrodon
+- "Dimetrodon"
 ---
-# [Dimetrodon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/dimetrodon-mpmm.md)
+# [Dimetrodon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/dimetrodon-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 95, Volo's Guide to Monsters p. 139*  
 
 This sail-backed reptile is commonly found in areas where dinosaurs live. It hunts on shores and in shallow water, filling a similar role to a crocodile.
@@ -44,7 +45,7 @@ This sail-backed reptile is commonly found in areas where dinosaurs live. It hun
 "languages": ""
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d6 + 2) piercing damage."
     "name": "Bite"
 "source":

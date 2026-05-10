@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/hotdq
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Azbara Jos
+- "Azbara Jos"
 ---
-# [Azbara Jos](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/azbara-jos-hotdq.md)
+# [Azbara Jos](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/azbara-jos-hotdq.md)
 *Source: Hoard of the Dragon Queen p. 88, Tyranny of Dragons p. 180*  
 
 ```statblock
@@ -34,8 +35,8 @@ aliases:
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+3"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -45,23 +46,25 @@ aliases:
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 11"
 "languages": "Common, Draconic, Infernal, Primordial, Thayan"
 "cr": "4"
 "traits":
   - "desc": "Azbara is a 6th-level spellcaster that uses Intelligence as his spellcasting\
       \ ability (spell save DC 13, +5 to hit with spell attacks). Azbara has the\
-      \ following spells prepared from the wizard spell list:\n\nCantrips (at will):\
+      \ following spells prepared from the wizard spell list:\n\n**Cantrips (at will):**\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md),\
       \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
-      \n1st level (4 slots): [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md),\
+      \n**1st level (4 slots):** [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \n**2nd level (3 slots):** [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md), [scorching\
-      \ ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md)\n\n3rd\
-      \ level (3 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      \ ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md)\n\n**3rd\
+      \ level (3 slots):** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)"
     "name": "Spellcasting"
@@ -78,8 +81,8 @@ aliases:
       \ damage if they would normally take half damage from the spell."
     "name": "Sculpt Spells"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged\
-      \ 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or ranged\
+      \ 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
     "name": "Dagger"
 "source":
   - "HotDQ"

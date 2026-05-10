@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tridrone
+- "Tridrone"
 ---
-# [Tridrone](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/tridrone.md)
-*Source: Monster Manual p. 225, Tomb of Annihilation, Keys from the Golden Vault*  
+# [Tridrone](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/tridrone.md)
+*Source: Monster Manual p. 225*  
 
 Tridrones are shaped like inverted pyramids. They lead lesser modrons in battle.
 
@@ -66,7 +67,10 @@ When the gears of Mechanus complete seventeen cycles once every 289 years, Primu
   - !!int "10"
   - !!int "9"
 "speed": "30 ft."
-"senses": "truesight 120 ft., passive Perception 10"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 10"
 "languages": "Modron"
 "cr": "1/2"
 "traits":
@@ -79,16 +83,14 @@ When the gears of Mechanus complete seventeen cycles once every 289 years, Primu
 "actions":
   - "desc": "The tridrone makes three fist attacks or three javelin attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d4 + 1) bludgeoning damage."
     "name": "Fist"
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 4 (1d6 + 1) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 4 (1d6 + 1) piercing damage."
     "name": "Javelin"
 "source":
   - "MM"
-  - "ToA"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/tridrone.webp"
 ```
 ^statblock

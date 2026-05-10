@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Personality and Background
+- "Personality and Background"
 ---
 # Personality and Background
 *Source: Player's Handbook (2014), p. 121* 
@@ -110,7 +111,7 @@ With your DM's permission, you can instead choose a language from the Exotic Lan
 
 ![Dwarvish Alphabet](03.PlayerLog&Handouts/Mechanics/CLI/books/players-handbook-2014/img/c4dwarvishalphabet.webp#center)
 
-Some of these languages are actually families of languages with many dialects. For example, the Primordial language includes the Primordial, Primordial, Primordial, and Primordial dialects, one for each of the four elemental planes. Creatures that speak different dialects of the same language can communicate with one another.
+Some of these languages are actually families of languages with many dialects. For example, the Primordial language includes the Auran, Aquan, Ignan, and Terran dialects, one for each of the four elemental planes. Creatures that speak different dialects of the same language can communicate with one another.
 
 ![Standard Languages](03.PlayerLog&Handouts/Mechanics/CLI/tables/standard-languages-phb.md)
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Headless Body
+- "Headless Body"
 ---
-# [Headless Body](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/headless-body-kftgv.md)
+# [Headless Body](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/headless-body-kftgv.md)
 *Source: Keys from the Golden Vault p. 51*  
 
 ```statblock
@@ -34,9 +35,13 @@ aliases:
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+4"
-  - "wisdom": "+2"
-"senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 10"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "2"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft. (blind beyond this radius), passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "3"
 "traits":
@@ -45,11 +50,11 @@ aliases:
 "actions":
   - "desc": "The headless body makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit:\
-      \ 5 (d10) piercing damage."
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 100/400 ft., one target. *Hit:*\
+      \ 5 (1d10) piercing damage."
     "name": "Heavy Crossbow"
   - "desc": "For 1 minute, the headless body can utter a special command or warning\
       \ whenever a nonhostile creature that it can see within 30 feet of it makes\

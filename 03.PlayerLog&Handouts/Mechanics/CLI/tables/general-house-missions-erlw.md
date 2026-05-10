@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- General House Missions
+- "General House Missions"
 ---
 # General House Missions
 *Source: Eberron: Rising from the Last War p. 72* 
 
 **General House Missions**
-
-`dice: [](general-house-missions-erlw.md#^general-house-missions)`
 
 | dice: d8 | Mission |
 |----------|---------|

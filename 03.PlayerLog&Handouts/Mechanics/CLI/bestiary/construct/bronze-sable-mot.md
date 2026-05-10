@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bronze Sable
+- "Bronze Sable"
 ---
-# [Bronze Sable](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/bronze-sable-mot.md)
+# [Bronze Sable](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/bronze-sable-mot.md)
 *Source: Mythic Odysseys of Theros p. 210*  
 
 The first bronze sables were presented to Karametra as a gift by Purphoros to serve primarily as guardians in Karametra's temples. But as others have been created, some have been used as nimble scouts, always on alert for danger.
@@ -49,7 +50,8 @@ A few extremely rare and valuable anvilwroughts were crafted by the hand of Purp
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 12"
 "languages": "understands one language of its creator but can't speak"
 "cr": "1"
 "traits":
@@ -67,7 +69,7 @@ A few extremely rare and valuable anvilwroughts were crafted by the hand of Purp
 "actions":
   - "desc": "The sable makes two bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage."
     "name": "Bite"
 "source":

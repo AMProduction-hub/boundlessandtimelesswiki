@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
-- Monsters' Desires; Monstrosities
+- "Monsters' Desires; Monstrosities"
 ---
 # Monsters' Desires; Monstrosities
 *Source: Tasha's Cauldron of Everything p. 148* 
 
 **Monstrosities**
-
-`dice: [](monsters-desires-monstrosities-tce.md#^monstrosities)`
 
 | dice: d4 | Desired Offering |
 |----------|------------------|

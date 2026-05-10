@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Dwarves in the Clan; Clan's Notable Trait
+- "Dwarves in the Clan; Clan's Notable Trait"
 ---
 # Dwarves in the Clan; Clan's Notable Trait
 *Source: Mordenkainen's Tome of Foes p. 82* 
 
 **Clan's Notable Trait**
-
-`dice: [](dwarves-in-the-clan-clans-notable-trait-mtf.md#^clans-notable-trait)`
 
 | dice: d10 | Trait |
 |-----------|-------|

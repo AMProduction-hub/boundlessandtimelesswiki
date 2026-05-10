@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Piercer
+- "Piercer"
 ---
-# [Piercer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/piercer.md)
-*Source: Monster Manual p. 252, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Icewind Dale: Rime of the Frostmaiden*  
+# [Piercer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/piercer.md)
+*Source: Monster Manual p. 252*  
 
 Clinging to the ceilings of caverns and large subterranean passages, piercers blend in perfectly with natural rock, dropping in silence to impale unsuspecting foes on the ground below.
 
@@ -46,7 +47,9 @@ Piercers gather in colonies to maximize the effectiveness of their attacks, drop
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -57,18 +60,13 @@ Piercers gather in colonies to maximize the effectiveness of their attacks, drop
       \ without needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, one creature directly underneath\
-      \ the piercer. Hit: 3 (d6) piercing damage per 10 feet fallen, up to 21\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, one creature directly underneath\
+      \ the piercer. *Hit:* 3 (1d6) piercing damage per 10 feet fallen, up to 21\
       \ (6d6). Miss: The piercer takes half the normal falling damage for the distance\
       \ fallen."
     "name": "Drop"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "WDMM"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/piercer.webp"
 ```
 ^statblock

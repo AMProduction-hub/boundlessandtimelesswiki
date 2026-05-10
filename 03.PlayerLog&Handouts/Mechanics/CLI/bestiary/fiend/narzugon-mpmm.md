@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/13
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Narzugon
+- "Narzugon"
 ---
-# [Narzugon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/narzugon-mpmm.md)
+# [Narzugon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/narzugon-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 190, Mordenkainen's Tome of Foes p. 167*  
 
 Paladins who make deals with devils and carry their twisted sense of honor into the afterlife are especially valuable to the archdukes of the Nine Hells. These narzugons act as horrific perversions of knights errant, carrying out their masters' will.
@@ -41,9 +42,9 @@ Each narzugon claims a [nightmare](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/
   - !!int "19"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "constitution": "+8"
-  - "charisma": "+9"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "8"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+12"
@@ -53,7 +54,8 @@ Each narzugon claims a [nightmare](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 22"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 22"
 "languages": "Common, Infernal, telepathy 120 ft."
 "cr": "13"
 "traits":
@@ -68,10 +70,10 @@ Each narzugon claims a [nightmare](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/
   - "desc": "The narzugon makes three Hellfire Lance attacks. It also uses Infernal\
       \ Command or Terrifying Command."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (1d12 + 5) piercing damage plus 16 (3d10) fire damage. If this damage\
       \ kills a creature with a soul, the soul rises from the River Styx as a [lemure](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/lemure.md)\
-      \ in Avernus in d4 hours. If the creature isn't revived before then, only\
+      \ in Avernus in 1d4 hours. If the creature isn't revived before then, only\
       \ a [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell or killing\
       \ the lemure and casting true resurrection on the creature's original body can\
       \ restore it to life. Constructs and devils are immune to this effect."

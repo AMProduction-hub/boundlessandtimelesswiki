@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Theran Chimera
+- "Theran Chimera"
 ---
-# [Theran Chimera](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/theran-chimera-mot.md)
+# [Theran Chimera](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/theran-chimera-mot.md)
 *Source: Mythic Odysseys of Theros p. 216*  
 
 The term chimera applies to a wide variety of disparate monsters that combine the features of multiple beasts. While many artistic depictions represent chimeras as an amalgam of lion, ram, and dragon, these beasts appear with nearly endless variations.
@@ -26,8 +27,6 @@ The Theran chimera stat block presents one possible chimera configuration. You m
 
 **Body Composition**
 
-`dice: [](theran-chimera-mot.md#^body-composition)`
-
 | dice: d4 | Attack |
 |----------|--------|
 | 1 | **Plains Creature.** The chimera's body is that of a large lowland creature, such as a bull or a bear, and it lacks wings and a flying speed. The chimera is especially resilient, gaining resistance to cold and fire damage. |
@@ -38,19 +37,15 @@ The Theran chimera stat block presents one possible chimera configuration. You m
 
 **Head Attacks**
 
-`dice: [](theran-chimera-mot.md#^head-attacks)`
-
 | dice: d4 | Attack |
 |----------|--------|
 | 1 | **Bull Horns.** If the chimera moves at least 20 feet straight toward a target and then hits it with a head attack on the same turn, the target takes an extra 7 (`2d6`) piercing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone. |
 | 2 | **Shark Bite.** The chimera has advantage on a head attack roll against any creature that doesn't have all its hit points. |
-| 3 | **Unicorn Horn.** The chimera's head attack is magical and deals an extra 4 (`d8`) radiant damage. |
+| 3 | **Unicorn Horn.** The chimera's head attack is magical and deals an extra 4 (`1d8`) radiant damage. |
 | 4 | **Cockatrice Beak.** A creature hit by the chimera's head attack must succeed on a DC 15 Constitution saving throw or be restrained as it begins to turn to stone. The restrained creature must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified for 24 hours. |
 ^head-attacks
 
 **Breath Weapons**
-
-`dice: [](theran-chimera-mot.md#^breath-weapons)`
 
 | dice: d4 | Attack |
 |----------|--------|
@@ -61,8 +56,6 @@ The Theran chimera stat block presents one possible chimera configuration. You m
 ^breath-weapons
 
 **Tail Attacks**
-
-`dice: [](theran-chimera-mot.md#^tail-attacks)`
 
 | dice: d4 | Attack |
 |----------|--------|
@@ -91,12 +84,13 @@ The Theran chimera stat block presents one possible chimera configuration. You m
   - !!int "10"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "constitution": "+7"
-  - "wisdom": "+5"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "understands Draconic but can't speak"
 "cr": "7"
 "traits":
@@ -110,13 +104,13 @@ The Theran chimera stat block presents one possible chimera configuration. You m
       \ and one with its tail. When its breath weapon is available, it can use the\
       \ breath in place of its head or its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) slashing damage."
     "name": "Claws"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (1d12 + 4) piercing damage."
     "name": "Head"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (2d6 + 4) bludgeoning damage."
     "name": "Tail"
   - "desc": "The chimera exhales fire in a 15-foot cone. Each creature in that area\

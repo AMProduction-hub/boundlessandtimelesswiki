@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/5
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Skeletal Juggernaut
+- "Skeletal Juggernaut"
 ---
-# [Skeletal Juggernaut](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/skeletal-juggernaut-gos.md)
-*Source: Ghosts of Saltmarsh p. 253, Infernal Machine Rebuild*  
+# [Skeletal Juggernaut](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeletal-juggernaut-gos.md)
+*Source: Ghosts of Saltmarsh p. 253*  
 
 As seen lumbering across the beaches in Isle of the Abbey, a skeletal juggernaut is an oversized, bipedal assembly of bones that loses a portion of its mass with each step. These skeletal guardians hold together for only a short time before disassembling into a gang of individual undead.
 
@@ -38,7 +39,8 @@ As seen lumbering across the beaches in Isle of the Abbey, a skeletal juggernaut
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": ""
 "cr": "5"
 "traits":
@@ -51,7 +53,7 @@ As seen lumbering across the beaches in Isle of the Abbey, a skeletal juggernaut
 "actions":
   - "desc": "The juggernaut makes two claws attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
       \ 12 (2d8 + 3) slashing damage."
     "name": "Claws"
   - "desc": "The juggernaut collapses into a large heap before quickly reforming.\
@@ -62,7 +64,6 @@ As seen lumbering across the beaches in Isle of the Abbey, a skeletal juggernaut
     "name": "Avalanche of Bones (Recharge 5-6)"
 "source":
   - "GoS"
-  - "IMR"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/skeletal-juggernaut-gos.webp"
 ```
 ^statblock

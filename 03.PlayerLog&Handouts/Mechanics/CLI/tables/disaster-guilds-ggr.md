@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Disaster Guilds
+- "Disaster Guilds"
 ---
 # Disaster Guilds
 *Source: Guildmasters' Guide to Ravnica p. 125* 
 
 **Disaster Guilds**
-
-`dice: [](disaster-guilds-ggr.md#^disaster-guilds)`
 
 | dice: d12 | Guild |
 |-----------|-------|

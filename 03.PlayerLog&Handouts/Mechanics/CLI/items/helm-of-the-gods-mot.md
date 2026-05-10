@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/rare
-aliases: 
+aliases:
 - "Helm of the Gods"
 ---
 # Helm of the Gods
@@ -17,7 +18,7 @@ While wearing this helm, you know whether there is a celestial or fiend within 3
 
 Whenever you finish a long rest while wearing the helm, you can pray to one of the gods listed on the Helm of the Gods table and store the listed spell in the helm, replacing any spell that is already stored there. The save DC for the spell is 13.
 
-The helm has 3 charges. To cast a spell from the helm, you must expend 1 charge, and the helm regains `d3` charges daily at dawn.
+The helm has 3 charges. To cast a spell from the helm, you must expend 1 charge, and the helm regains `1d3` charges daily at dawn.
 
 | God | Spell |
 |-----|-------|

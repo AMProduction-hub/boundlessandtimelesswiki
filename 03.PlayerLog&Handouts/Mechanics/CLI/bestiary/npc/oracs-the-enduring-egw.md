@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/21
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Oracs the Enduring
+- "Oracs the Enduring"
 ---
-# [Oracs the Enduring](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/oracs-the-enduring-egw.md)
+# [Oracs the Enduring](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/oracs-the-enduring-egw.md)
 *Source: Explorer's Guide to Wildemount p. 154*  
 
 ```statblock
@@ -33,10 +34,10 @@ aliases:
   - !!int "19"
 "speed": "40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+9"
-  - "constitution": "+14"
-  - "wisdom": "+9"
-  - "charisma": "+11"
+  - "dexterity": !!int "9"
+  - "constitution": !!int "14"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "11"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+16"
@@ -49,7 +50,9 @@ aliases:
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion)"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 26"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 26"
 "languages": "Common, Draconic"
 "cr": "21"
 "traits":
@@ -62,13 +65,13 @@ aliases:
   - "desc": "The dracolich can use its Frightful Presence. It then makes three attacks:\
       \ one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 15 ft., one target. *Hit:*\
       \ 19 (2d10 + 8) piercing damage plus 9 (2d8) acid damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. *Hit:*\
       \ 15 (2d6 + 8) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 20 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) bludgeoning damage."
     "name": "Tail"
   - "desc": "Each creature of the dracolich's choice that is within 120 feet of the\
@@ -84,6 +87,9 @@ aliases:
       \ (15d8) acid damage on a failed save, or half as much damage on a successful\
       \ one."
     "name": "Acid Breath (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Oracs can expend a use to take one of the following actions. Oracs regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "The dracolich makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ check."

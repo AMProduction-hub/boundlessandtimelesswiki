@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Athreos's Divine Schemes
+- "Athreos's Divine Schemes"
 ---
 # Athreos's Divine Schemes
 *Source: Mythic Odysseys of Theros p. 117* 
 
 **Athreos's Divine Schemes**
-
-`dice: [](athreoss-divine-schemes-mot.md#^athreoss-divine-schemes)`
 
 | dice: d4 | Scheme |
 |----------|--------|

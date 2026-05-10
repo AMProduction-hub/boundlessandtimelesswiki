@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Magical Effects; Environmental Effects
+- "Magical Effects; Environmental Effects"
 ---
 # Magical Effects; Environmental Effects
 *Source: Eberron: Rising from the Last War p. 220* 
 
 **Environmental Effects**
-
-`dice: [](magical-effects-environmental-effects-erlw.md#^environmental-effects)`
 
 | dice: d8 | Effect |
 |----------|--------|

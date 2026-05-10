@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/17
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Zikzokrishka
+- "Zikzokrishka"
 ---
-# [Zikzokrishka](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/zikzokrishka-cm.md)
+# [Zikzokrishka](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zikzokrishka-cm.md)
 *Source: Candlekeep Mysteries p. 209*  
 
 ## Zikzokrishka's Phylactery
@@ -37,10 +38,10 @@ Zikzokrishka hid her phylactery deep within the Scimitar Spires, a mountain rang
   - !!int "19"
 "speed": "40 ft., burrow 30 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+6"
-  - "constitution": "+12"
-  - "wisdom": "+8"
-  - "charisma": "+10"
+  - "dexterity": !!int "6"
+  - "constitution": !!int "12"
+  - "wisdom": !!int "8"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+14"
@@ -53,7 +54,9 @@ Zikzokrishka hid her phylactery deep within the Scimitar Spires, a mountain rang
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 24"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 24"
 "languages": "Common, Draconic"
 "cr": "17"
 "traits":
@@ -66,13 +69,13 @@ Zikzokrishka hid her phylactery deep within the Scimitar Spires, a mountain rang
   - "desc": "Zikzokrishka can use its Frightful Presence. It then makes three attacks:\
       \ one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:\
-      \ 18 (2d10 + 7) piercing damage plus 5 (d10) lightning damage."
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:*\
+      \ 18 (2d10 + 7) piercing damage plus 5 (1d10) lightning damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:*\
       \ 14 (2d6 + 7) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:*\
       \ 16 (2d8 + 7) bludgeoning damage."
     "name": "Tail"
   - "desc": "Each creature of Zikzokrishka's choice that is within 120 feet of the\
@@ -88,26 +91,13 @@ Zikzokrishka hid her phylactery deep within the Scimitar Spires, a mountain rang
       \ 66 (12d10) lightning damage on a failed save, or half as much damage on\
       \ a successful one."
     "name": "Lightning Breath (Recharge 5-6)"
-"legendary_actions":
-  - "desc": "Zikzokrishka makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-      \ check."
-    "name": "Detect"
-  - "desc": "Zikzokrishka makes a tail attack."
-    "name": "Tail Attack"
-  - "desc": "Zikzokrishka beats its tattered wings. Each creature within 10 feet of\
-      \ Zikzokrishka must succeed on a DC 21 Dexterity saving throw or take 14 (2d6\
-      \ + 7) bludgeoning damage and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
-      \ After beating its wings this way, Zikzokrishka can fly up to half its flying\
-      \ speed."
-    "name": "Wing Attack (Costs 2 Actions)"
 "lair_actions":
   - "desc": "On initiative count 20 (losing initiative ties) whenever she is in the\
       \ are V3, Zikzokrishka can take a lair action to cause one of the following\
-      \ effects. She can't use the same effect two rounds in a row:"
-    "name": ""
-  - "desc": "- Part of the ceiling collapses above one creature that Zikzokrishka\
-      \ can see. The creature must succeed on a DC 15 Dexterity saving throw or take\
-      \ 21 (6d6) bludgeoning damage and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
+      \ effects. She can't use the same effect two rounds in a row:\n\n- Part of the\
+      \ ceiling collapses above one creature that Zikzokrishka can see. The creature\
+      \ must succeed on a DC 15 Dexterity saving throw or take 21 (6d6) bludgeoning\
+      \ damage and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
       \ and buried under rubble. A buried creature is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ and unable to stand up. A creature can use an action to try to pull itself\
       \ or another creature out of the rubble, doing so with a successful DC 10 Strength\
@@ -124,6 +114,21 @@ Zikzokrishka hid her phylactery deep within the Scimitar Spires, a mountain rang
       \ in the line must succeed on a DC 15 Dexterity saving throw or take 10 (3d6)\
       \ lightning damage.  "
     "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Zikzokrishka can expend a use to take one of the following actions. Zikzokrishka\
+  \ regains all expended uses at the start of each of their turns."
+"legendary_actions":
+  - "desc": "Zikzokrishka makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ check."
+    "name": "Detect"
+  - "desc": "Zikzokrishka makes a tail attack."
+    "name": "Tail Attack"
+  - "desc": "Zikzokrishka beats its tattered wings. Each creature within 10 feet of\
+      \ Zikzokrishka must succeed on a DC 21 Dexterity saving throw or take 14 (2d6\
+      \ + 7) bludgeoning damage and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
+      \ After beating its wings this way, Zikzokrishka can fly up to half its flying\
+      \ speed."
+    "name": "Wing Attack (Costs 2 Actions)"
 "source":
   - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/zikzokrishka-cm.webp"

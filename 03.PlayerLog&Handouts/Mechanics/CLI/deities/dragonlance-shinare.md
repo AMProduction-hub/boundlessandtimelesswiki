@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/deity/dragonlance
-aliases: 
-- Shinare
+aliases:
+- "Shinare"
 ---
 # Shinare
 *Source: Dragonlance: Shadow of the Dragon Queen p. 17* 

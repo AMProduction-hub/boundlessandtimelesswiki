@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mantrap
+- "Mantrap"
 ---
-# [Mantrap](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/mantrap-toa.md)
+# [Mantrap](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/mantrap-toa.md)
 *Source: Tomb of Annihilation p. 227*  
 
 A mantrap is a giant carnivorous plant that resembles an oversized flytrap. To attract prey, the mantrap releases a pollen that magically draws creatures to it. Though it will snap its leafy jaws shut around any warm-blooded creature that strays within its reach, it prefers humanoid prey.
@@ -52,8 +53,8 @@ A mantrap is a giant carnivorous plant that resembles an oversized flytrap. To a
       \ ordinary tropical plant."
     "name": "False Appearance"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one Medium or smaller\
-      \ creature. Hit: The target is trapped inside the mantrap's leafy jaws. While\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one Medium or smaller\
+      \ creature. *Hit:* The target is trapped inside the mantrap's leafy jaws. While\
       \ trapped in this way, the target is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
       \ and [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ has total cover from an attacks and other effects outside the mantrap, and\

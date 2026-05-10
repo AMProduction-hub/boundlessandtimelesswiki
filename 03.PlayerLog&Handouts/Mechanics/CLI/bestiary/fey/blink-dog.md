@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Blink Dog
+- "Blink Dog"
 ---
-# [Blink Dog](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/blink-dog.md)
-*Source: Monster Manual p. 318, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Eberron: Rising from the Last War, Mythic Odysseys of Theros, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Blink Dog](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/blink-dog.md)
+*Source: Monster Manual p. 318. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A blink dog takes its name from its ability to blink in and out of existence, a talent it uses to aid its attacks and to avoid harm. Blink dogs harbor a long-standing hatred for displacer beasts and attack them on sight.
 
@@ -47,7 +48,7 @@ A blink dog takes its name from its ability to blink in and out of existence, a 
       \ checks that rely on hearing or smell."
     "name": "Keen Hearing and Smell"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) piercing damage."
     "name": "Bite"
   - "desc": "The dog magically teleports, along with any equipment it is wearing or\
@@ -56,11 +57,6 @@ A blink dog takes its name from its ability to blink in and out of existence, a 
     "name": "Teleport (Recharge 4-6)"
 "source":
   - "MM"
-  - "WDMM"
-  - "GoS"
-  - "ERLW"
-  - "MOT"
-  - "TCE"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/token/blink-dog.webp"
 ```
 ^statblock

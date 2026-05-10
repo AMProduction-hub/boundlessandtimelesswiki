@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Orok
+- "Orok"
 ---
-# [Orok](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/orok-skt.md)
+# [Orok](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/orok-skt.md)
 *Source: Storm King's Thunder p. 115*  
 
 ```statblock
@@ -32,6 +33,9 @@ aliases:
   - !!int "7"
   - !!int "8"
 "speed": "30 ft."
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+  - "[sling](03.PlayerLog&Handouts/Mechanics/CLI/items/sling.md)"
 "senses": "passive Perception 8"
 "languages": "Bothii, Common"
 "cr": "1/8"
@@ -40,10 +44,10 @@ aliases:
       \ of Orok's allies is within 5 feet of the creature and the ally isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage."
     "name": "Dagger"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 4 (1d4 + 2) bludgeoning damage."
     "name": "Sling"
 "source":

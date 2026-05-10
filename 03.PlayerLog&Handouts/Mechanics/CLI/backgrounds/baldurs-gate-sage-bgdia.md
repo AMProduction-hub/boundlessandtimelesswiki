@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Baldur's Gate Sage
+- "Baldur's Gate Sage"
 ---
 # Baldur's Gate Sage
 *Source: Baldur's Gate: Descent Into Avernus p. 204, Player's Handbook p. 137*  
@@ -26,13 +27,11 @@ When you attempt to learn or recall a piece of lore, if you do not know that inf
 > [!note]
 > The effects of a Baldur's Gate feature can be used only while the character is in Baldur's Gate—though, at the DM's discretion, they might have applicable effects in situations similar to those in Baldur's Gate.
 
-Via your personal rumor mill and articles published in Baldur's Mouth, you can surmise a great deal about Baldurians' secrets—who's practicing necromancy, who's involved in spying or smuggling, who would purchase or craft dangerous magical wares without batting an eyelash. Whenever a noteworthy crime or mysterious happening occurs in the city, you immediately have a list of `d4` suspects who, if they aren't involved, have a strong chance of knowing who is.
+Via your personal rumor mill and articles published in Baldur's Mouth, you can surmise a great deal about Baldurians' secrets—who's practicing necromancy, who's involved in spying or smuggling, who would purchase or craft dangerous magical wares without batting an eyelash. Whenever a noteworthy crime or mysterious happening occurs in the city, you immediately have a list of `1d4` suspects who, if they aren't involved, have a strong chance of knowing who is.
 
 ## Specialty
 
 To determine the nature of your scholarly training, roll a d8 or choose from the options in the table below.
-
-`dice: [](baldurs-gate-sage-bgdia.md#^field-of-study)`
 
 | dice: d8 | Field of Study |
 |----------|----------------|
@@ -50,8 +49,6 @@ To determine the nature of your scholarly training, roll a d8 or choose from the
 
 Sages are defined by their extensive studies, and their characteristics reflect this life of study. Devoted to scholarly pursuits, a sage values knowledge highly—sometimes in its own right, sometimes as a means toward other ideals.
 
-`dice: [](baldurs-gate-sage-bgdia.md#^personality-trait)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | I use polysyllabic words that convey the impression of great erudition. |
@@ -64,8 +61,6 @@ Sages are defined by their extensive studies, and their characteristics reflect 
 | 8 | I'm convinced that people are always trying to steal my secrets. |
 ^personality-trait
 
-`dice: [](baldurs-gate-sage-bgdia.md#^ideal)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | Knowledge. The path to power and self-improvement is through knowledge. (Neutral) |
@@ -76,8 +71,6 @@ Sages are defined by their extensive studies, and their characteristics reflect 
 | 6 | Self-Improvement. The goal of a life of study is the betterment of oneself. (Any) |
 ^ideal
 
-`dice: [](baldurs-gate-sage-bgdia.md#^bond)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | It is my duty to protect my students. |
@@ -87,8 +80,6 @@ Sages are defined by their extensive studies, and their characteristics reflect 
 | 5 | I've been searching my whole life for the answer to a certain question. |
 | 6 | I sold my soul for knowledge. I hope to do great deeds and win it back. |
 ^bond
-
-`dice: [](baldurs-gate-sage-bgdia.md#^flaw)`
 
 | dice: d6 | Flaw |
 |----------|------|

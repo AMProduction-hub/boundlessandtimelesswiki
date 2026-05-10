@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deck
+cssclasses:
+- json5e-deck
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Deck of Many Things (13 Cards)
+- "Deck of Many Things (13 Cards)"
 ---
 # Deck of Many Things (13 Cards)
 *Source: Dungeon Master's Guide p. 162. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
@@ -20,8 +21,6 @@ Once a card is drawn, it fades from existence. Unless the card is the [Fool](03.
 Two of the cards in a deck of many things can earn a character the enmity of another being. With the [Flames](03.PlayerLog&Handouts/Mechanics/CLI/decks/deck-of-many-things.md#Flames) card, the enmity is overt. The character should experience the devil's malevolent efforts on multiple occasions. Seeking out the fiend shouldn't be a simple task, and the adventurer should clash with the devil's allies and followers a few times before being able to confront the devil itself.
 
 In the case of the [Rogue](03.PlayerLog&Handouts/Mechanics/CLI/decks/deck-of-many-things.md#Rogue) card, the enmity is secret and should come from someone thought to be a friend or an ally. As Dungeon Master, you should wait for a dramatically appropriate moment to reveal this enmity, leaving the adventurer guessing who is likely to become a betrayer.
-
-`dice: [](deck-of-many-things-13-cards.md#^1-playing-card-card)`
 
 | dice: 1d13 | Playing Card | Card |
 |------------|--------------|------|
@@ -48,7 +47,7 @@ You gain 50,000 XP, and a wondrous item (which the DM determines randomly) appea
 
 ### Moon
 ![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-03-moon.webp#card)
-You are granted the ability to cast the [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell `d3` times.
+You are granted the ability to cast the [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell `1d3` times.
 
 ### Star
 ![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-04-star.webp#card)

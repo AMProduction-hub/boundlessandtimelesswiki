@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/sdw
 aliases:
-- Introduction
+- "Introduction"
 ---
 # Introduction
 *Source: Essentials Kit: Sleeping Dragon's Wake* 
@@ -142,7 +143,7 @@ The "Adventure Background" section describes the events leading up to the advent
 
 The town of Leilon was once a fortified settlement on the High Road, midway between the cities of Neverwinter and Waterdeep. The settlement has been destroyed and rebuilt many times in its long history. The Lord Protector of Neverwinter, Dagult Neverember, recently hired a group of his citizens to rebuild the town, a construction project now well underway. They hope to create a fortified waypoint for travelers and merchants that can ward off the threats of the surrounding wilderness.
 
-Two forces of evil are on the rise nearby, eager to control the region around Leilon and eventually the Sword Coast. The first is a cult of Talos, god of storms, led by the priestess Fheralai Stormsworm. The cult's headquarters are inside a death knight-dreadnaught, an undead battleship, beached near a temple of Talos called the Tower of Storms.
+Two forces of evil are on the rise nearby, eager to control the region around Leilon and eventually the Sword Coast. The first is a cult of Talos, god of storms, led by the priestess Fheralai Stormsworn. The cult's headquarters are inside a death knight-dreadnaught, an undead battleship, beached near a temple of Talos called the Tower of Storms.
 
 Ularan Mortus, a priest of Myrkul, god of death, and his followers are raising an army of undead to lay siege to the city of Neverwinter. The spirit of the dead black dragon Chardansearavitriol, also known as Ebondeath, aids Ularan Mortus in exchange for help finding and seizing the body of a living dragon to inhabit.
 

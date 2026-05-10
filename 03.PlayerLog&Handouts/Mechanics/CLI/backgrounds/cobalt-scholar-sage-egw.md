@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Cobalt Scholar (Sage)
+- "Cobalt Scholar (Sage)"
 ---
 # Cobalt Scholar (Sage)
 *Source: Explorer's Guide to Wildemount p. 203*  
@@ -27,8 +28,6 @@ When you attempt to learn or recall a piece of lore, if you do not know that inf
 
 To determine the nature of your scholarly training, roll a d8 or choose from the options in the table below.
 
-`dice: [](cobalt-scholar-sage-egw.md#^field-of-study)`
-
 | dice: d8 | Field of Study |
 |----------|----------------|
 | 1 | Alchemist |
@@ -45,8 +44,6 @@ To determine the nature of your scholarly training, roll a d8 or choose from the
 
 Sages are defined by their extensive studies, and their characteristics reflect this life of study. Devoted to scholarly pursuits, a sage values knowledge highly—sometimes in its own right, sometimes as a means toward other ideals.
 
-`dice: [](cobalt-scholar-sage-egw.md#^personality-trait)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | I use polysyllabic words that convey the impression of great erudition. |
@@ -59,8 +56,6 @@ Sages are defined by their extensive studies, and their characteristics reflect 
 | 8 | I'm convinced that people are always trying to steal my secrets. |
 ^personality-trait
 
-`dice: [](cobalt-scholar-sage-egw.md#^ideal)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | Knowledge. The path to power and self-improvement is through knowledge. (Neutral) |
@@ -71,8 +66,6 @@ Sages are defined by their extensive studies, and their characteristics reflect 
 | 6 | Self-Improvement. The goal of a life of study is the betterment of oneself. (Any) |
 ^ideal
 
-`dice: [](cobalt-scholar-sage-egw.md#^bond)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | It is my duty to protect my students. |
@@ -82,8 +75,6 @@ Sages are defined by their extensive studies, and their characteristics reflect 
 | 5 | I've been searching my whole life for the answer to a certain question. |
 | 6 | I sold my soul for knowledge. I hope to do great deeds and win it back. |
 ^bond
-
-`dice: [](cobalt-scholar-sage-egw.md#^flaw)`
 
 | dice: d6 | Flaw |
 |----------|------|

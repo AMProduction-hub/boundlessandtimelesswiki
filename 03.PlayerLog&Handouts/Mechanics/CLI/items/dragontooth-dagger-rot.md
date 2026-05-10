@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/rot
 - ttrpg-cli/item/rarity/rare
 - ttrpg-cli/item/weapon/melee
 - ttrpg-cli/item/weapon/simple
-aliases: 
+aliases:
 - "Dragontooth Dagger"
 ---
 # Dragontooth Dagger
@@ -20,7 +21,7 @@ aliases:
 
 A dagger fashioned from the tooth of a dragon. While the blade is obviously a fang or predator's tooth, the handle is leather wrapped around the root of the tooth, and there is no crossguard.
 
-You gain a +1 bonus to attack and damage rolls made with this weapon. On a hit with this weapon, the target takes an extra `d6` acid damage.
+You gain a +1 bonus to attack and damage rolls made with this weapon. On a hit with this weapon, the target takes an extra `1d6` acid damage.
 
 ## Draconic Potency
 

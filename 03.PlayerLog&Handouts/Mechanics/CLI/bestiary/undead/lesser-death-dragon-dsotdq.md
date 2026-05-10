@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lesser Death Dragon
+- "Lesser Death Dragon"
 ---
-# [Lesser Death Dragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/lesser-death-dragon-dsotdq.md)
+# [Lesser Death Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/lesser-death-dragon-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 195*  
 
 Most death dragons are pale imitations of their former selves. They remember flashes and echoes, and sometimes things or creatures they encounter painfully remind them of what they once had. These fleeting moments of lucidity quickly burn away in rage and anguish, driving the dragons to destroy the would-be memento.
@@ -41,8 +42,8 @@ A death dragon's bones burn with violet Cataclysmic fire, which it can unleash i
   - !!int "5"
 "speed": "40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+4"
-  - "wisdom": "+4"
+  - "dexterity": !!int "4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
@@ -52,7 +53,9 @@ A death dragon's bones burn with violet Cataclysmic fire, which it can unleash i
 "damage_immunities": "necrotic, poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 14"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "understands Common and Draconic but can't speak"
 "cr": "10"
 "traits":
@@ -61,10 +64,10 @@ A death dragon's bones burn with violet Cataclysmic fire, which it can unleash i
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
-      \ 14 (2d8 + 5) piercing damage plus 4 (d8) necrotic damage."
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
+      \ 14 (2d8 + 5) piercing damage plus 4 (1d8) necrotic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft. one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft. one target. *Hit:* 8\
       \ (1d6 + 5) slashing damage. If the target is a Medium or smaller creature,\
       \ it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Duke Zalto
+- "Duke Zalto"
 ---
-# [Duke Zalto](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/duke-zalto-skt.md)
+# [Duke Zalto](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/duke-zalto-skt.md)
 *Source: Storm King's Thunder p. 184*  
 
 Master crafters and organized warriors, fire giants dwell among volcanoes, lava floes, and rocky mountains. They are ruthless militaristic brutes whose mastery of metalwork is legendary.
@@ -26,7 +27,7 @@ Fire giants shun cold as much as their cousins the frost giants hate heat. They 
 
 From birth, a fire giant is taught to embrace a legacy of war. At the cradle, its parents chant songs of battle. As children, fire giants play at war, hurling igneous rocks at one another across the banks of magma rivers. In later years, formal martial training becomes an integral part of life in the giants' fortresses and underground realms of smoke and ash.
 
-The fire giants' songs are odes of battles lost and won, while their dances are martial formations of pounding feet that resound like smiths' hammers throughout theirsmoky halls.
+The fire giants' songs are odes of battles lost and won, while their dances are martial formations of pounding feet that resound like smiths' hammers throughout their smoky halls.
 
 Just as fire giants pass down their knowledge of crafting from generation to generation, their renowned fighting prowess comes not from wild fury but from endless discipline and training. Enemies make the mistake of underestimating fire giants based on their brutish manner, learning too late that these giants live for combat and can be shrewd tacticians.
 
@@ -91,9 +92,9 @@ Some giants abandon their own gods and fall prey to demon cults, paying homage t
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+3"
-  - "constitution": "+10"
-  - "charisma": "+5"
+  - "dexterity": !!int "3"
+  - "constitution": !!int "10"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+11"
@@ -101,6 +102,8 @@ Some giants abandon their own gods and fall prey to demon cults, paying homage t
     "desc": "+6"
 "damage_resistances": "lightning"
 "damage_immunities": "fire"
+"gear":
+  - "[maul](03.PlayerLog&Handouts/Mechanics/CLI/items/maul.md)"
 "senses": "passive Perception 16"
 "languages": "Common, Elvish, Giant"
 "cr": "9"
@@ -115,10 +118,10 @@ Some giants abandon their own gods and fall prey to demon cults, paying homage t
 "actions":
   - "desc": "Zalto makes two maul attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 28 (6d6 + 7) bludgeoning damage."
     "name": "Maul"
-  - "desc": "Ranged Weapon Attack: +11 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +11 to hit, range 60/240 ft., one target. *Hit:*\
       \ 29 (4d10 + 7) bludgeoning damage."
     "name": "Rock"
 "source":

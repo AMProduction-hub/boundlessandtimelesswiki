@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- The Weevil
+- "The Weevil"
 ---
-# [The Weevil](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/the-weevil-skt.md)
+# [The Weevil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/the-weevil-skt.md)
 *Source: Storm King's Thunder p. 114*  
 
 ```statblock
@@ -34,16 +35,20 @@ aliases:
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "strength": "+4"
-  - "dexterity": "+5"
-  - "wisdom": "+2"
+  - "strength": !!int "4"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+4"
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+4"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "any two languages, Dwarvish"
 "cr": "2"
 "traits":
@@ -53,7 +58,7 @@ aliases:
   - "desc": "The Weevil makes three melee attacks with his handaxes. Or the Weevil\
       \ makes two ranged attacks with his handaxes."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 4) slashing damage."
     "name": "Handaxe +1"
 "reactions":

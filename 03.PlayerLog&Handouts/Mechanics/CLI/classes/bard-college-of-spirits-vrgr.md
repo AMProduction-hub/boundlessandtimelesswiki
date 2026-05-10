@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/subclass/bard/spirits
 aliases:
-- College of Spirits
+- "College of Spirits"
 ---
 # College of Spirits
 *[Bard](./bard.md): Bard College*  
@@ -43,11 +44,9 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### College of Spirits (Level 3)
-
 Bards of the College of Spirits seek tales with inherent power—be they legends, histories, or fictions—and bring their subjects to life. Using occult trappings, these bards conjure spiritual embodiments of powerful forces to change the world once more. Such spirits are capricious, though, and what a bard summons isn't always entirely under their control.
+
+## Subclass Features
 
 ### Guiding Whispers (Level 3)
 

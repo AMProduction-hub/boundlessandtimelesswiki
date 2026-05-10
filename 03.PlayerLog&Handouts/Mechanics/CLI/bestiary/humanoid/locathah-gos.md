@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/1-2
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Locathah
+- "Locathah"
 ---
-# [Locathah](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/locathah-gos.md)
-*Source: Ghosts of Saltmarsh p. 243, Infernal Machine Rebuild*  
+# [Locathah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/locathah-gos.md)
+*Source: Ghosts of Saltmarsh p. 243*  
 
 These resilient and proud fish-folk (found in Danger at Dunwater) have endured war, slavery, and mistreatment at the hands of other aquatic creatures. They dwell in submerged tribal communities along seacoasts, and hunt both above and below the water.
 
@@ -36,12 +37,14 @@ These resilient and proud fish-folk (found in Danger at Dunwater) have endured w
   - !!int "11"
 "speed": "30 ft., swim 30 ft."
 "saves":
-  - "dexterity": "+3"
+  - "dexterity": !!int "3"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+3"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 12"
 "languages": "Aquan, Common"
 "cr": "1/2"
@@ -59,13 +62,12 @@ These resilient and proud fish-folk (found in Danger at Dunwater) have endured w
 "actions":
   - "desc": "The locathah makes two melee attacks with its spear."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
       \ damage if used with two hands."
     "name": "Spear"
 "source":
   - "GoS"
-  - "IMR"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/locathah-gos.webp"
 ```
 ^statblock

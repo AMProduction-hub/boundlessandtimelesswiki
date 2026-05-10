@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/race/kenku
 aliases:
-- Kenku
+- "Kenku"
 ---
 # Kenku
 *Source: Dungeon Master's Guide p. 282*  
 
 
-- **Ability Scores**: Dexterity +2
+- **Ability Scores**: dex +2
 - **Size**: Medium
 - **Speed**: 30 ft.
 

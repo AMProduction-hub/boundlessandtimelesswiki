@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 aliases:
-- Ship Stat Blocks
+- "Ship Stat Blocks"
 ---
 # Ship Stat Blocks
 *Source: Ghosts of Saltmarsh p. 186* 

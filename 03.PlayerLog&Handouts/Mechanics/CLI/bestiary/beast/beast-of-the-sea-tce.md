@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Beast of the Sea
+- "Beast of the Sea"
 ---
-# [Beast of the Sea](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/beast-of-the-sea-tce.md)
+# [Beast of the Sea](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/beast-of-the-sea-tce.md)
 *Source: Tasha's Cauldron of Everything p. 61*  
 
 ```statblock
@@ -29,7 +30,8 @@ aliases:
   - !!int "14"
   - !!int "11"
 "speed": "5 ft., swim 60 ft."
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "understands the languages you speak"
 "traits":
   - "desc": "The beast can breathe both air and water."
@@ -38,8 +40,8 @@ aliases:
       \ that the beast makes."
     "name": "Primal Bond"
 "actions":
-  - "desc": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft.,\
-      \ one target. Hit: 1d6 + 2 + PB piercing damage or 1d6 + 2 + PB bludgeoning\
+  - "desc": "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft.,\
+      \ one target. *Hit:* 1d6 + 2 + PB piercing damage or 1d6 + 2 + PB bludgeoning\
       \ damage (your choice), and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC equal to your spellcasting save DC). Until this grapple ends, the\
       \ beast can't use this attack on another target."

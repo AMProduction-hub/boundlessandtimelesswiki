@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/16
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Star Spawn Larva Mage
+- "Star Spawn Larva Mage"
 ---
-# [Star Spawn Larva Mage](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/star-spawn-larva-mage-mpmm.md)
+# [Star Spawn Larva Mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/star-spawn-larva-mage-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 228, Mordenkainen's Tome of Foes p. 235*  
 
 A larva mage is a nightmarish combination of a mortal body and otherworldly substance. When a powerful cultist of a wormlike entity such as Kyuss or Kezef—usually a warlock or other spellcaster—contacts the comet-borne emissary of an Elder Evil, the emissary can merge with a mortal consciousness to create a larva mage. None of the original cultist's personality survives the transformation; what emerges is wholly alien.
@@ -60,9 +61,9 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+6"
-  - "charisma": "+8"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
@@ -74,7 +75,8 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 16"
 "languages": "Deep Speech"
 "cr": "16"
 "traits":
@@ -86,12 +88,12 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
 "actions":
   - "desc": "The mage makes three Slam or Eldritch Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 7 (1d8 + 3) bludgeoning damage, and the target must succeed on a DC 19 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ until the end of its next turn."
     "name": "Slam"
-  - "desc": "Ranged Spell Attack: +8 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +8 to hit, range 60 ft., one target. *Hit:*\
       \ 19 (3d10 + 3) force damage."
     "name": "Eldritch Bolt"
   - "desc": "Each creature other than a star spawn within 10 feet of the mage must\
@@ -104,15 +106,19 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
       \ on a success."
     "name": "Plague of Worms (Recharge 6)"
   - "desc": "The mage casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 16):\n\nAt\
-      \ will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 16):\n\n**At\
+      \ will:** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md), [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
-      \n1/day: [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md)"
+      \n**1/day:** [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md)"
     "name": "Spellcasting"
 "reactions":
   - "desc": "When a creature within 20 feet of the mage fails a saving throw, the\
       \ mage gains 10 temporary hit points."
     "name": "Feed on Weakness"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the star spawn larva mage can expend a use to take one of the following\
+  \ actions. The star spawn larva mage regains all expended uses at the start of each\
+  \ of its turns."
 "legendary_actions":
   - "desc": "The mage makes one Slam attack."
     "name": "Slam"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/lox
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Prince Xeleth
+- "Prince Xeleth"
 ---
-# [Prince Xeleth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/prince-xeleth-lox.md)
+# [Prince Xeleth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/prince-xeleth-lox.md)
 *Source: Light of Xaryxis p. 48*  
 
 ```statblock
@@ -34,9 +35,9 @@ aliases:
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+8"
-  - "wisdom": "+7"
-  - "charisma": "+7"
+  - "intelligence": !!int "8"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+8"
@@ -46,7 +47,10 @@ aliases:
     "desc": "+7"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+7"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Celestial, Common, Draconic, Elvish"
 "cr": "8"
 "traits":
@@ -60,7 +64,7 @@ aliases:
 "actions":
   - "desc": "Xeleth makes two Scimitar attacks and uses Radiant Beam (if available)."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage plus 10 (3d6) radiant damage."
     "name": "Scimitar"
   - "desc": "A magical beam of radiance flashes out from Xeleth's hand in a 5-foot-wide,\
@@ -69,15 +73,14 @@ aliases:
       \ much damage on a successful one."
     "name": "Radiant Beam (3/Day)"
   - "desc": "Xeleth casts one of the following spells, using Intelligence as the spellcasting\
-      \ ability:\n\n1/day each: [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md),\
+      \ ability:\n\n**1/day each:** [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md),\
       \ [mislead](03.PlayerLog&Handouts/Mechanics/CLI/spells/mislead.md), [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)"
     "name": "Spellcasting"
 "bonus_actions":
   - "desc": "Xeleth magically teleports up to 30 feet, along with anything it is wearing\
       \ or carrying, to an unoccupied space it can see."
     "name": "Starlight Step (3/Day)"
-  - "desc": "Xeleth has a 50 percent chance of magically summoning a [young solar\
-      \ dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-solar-dragon-bam.md).\
+  - "desc": "Xeleth has a 50 percent chance of magically summoning a young solar dragon.\
       \ A summoned dragon appears in an unoccupied space that the summoner can see,\
       \ acts on its own initiative count, and is an ally of its summoner. It remains\
       \ for 10 minutes, until it or its summoner dies, or until its summoner dismisses\

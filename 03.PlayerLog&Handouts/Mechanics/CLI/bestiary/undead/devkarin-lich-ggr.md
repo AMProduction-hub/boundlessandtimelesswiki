@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/14
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Devkarin Lich
+- "Devkarin Lich"
 ---
-# [Devkarin Lich](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/devkarin-lich-ggr.md)
+# [Devkarin Lich](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/devkarin-lich-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 198*  
 
 Powerful spellcasters of the Devkarin elves, steeped in Golgari magic, can transcend death to become liches. For them, life and death don't merely chase each other in an inevitable cycle; the two can intersect, and at that nexus the liches find immense power, which commands the awe, envy, and fear of other Golgari.
@@ -41,9 +42,9 @@ The lich doesn't require air, food, drink, or sleep.
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+7"
-  - "intelligence": "+9"
-  - "wisdom": "+8"
+  - "constitution": !!int "7"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "8"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+14"
@@ -58,34 +59,35 @@ The lich doesn't require air, food, drink, or sleep.
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 18"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 18"
 "languages": "Common, Elvish, Kraul"
 "cr": "14"
 "traits":
   - "desc": "The lich is a 14th-level Golgari spellcaster. Its spellcasting ability\
       \ is Intelligence (spell save DC 17, +9 to hit with spell attacks). The lich\
-      \ has the following wizard spells prepared:\n\nCantrips (at will): [acid\
+      \ has the following wizard spells prepared:\n\n**Cantrips (at will):** [acid\
       \ splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md), [chill\
       \ touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [poison spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (4 slots): [chromatic orb](03.PlayerLog&Handouts/Mechanics/CLI/spells/chromatic-orb.md),\
+      \n**1st level (4 slots):** [chromatic orb](03.PlayerLog&Handouts/Mechanics/CLI/spells/chromatic-orb.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
       \ [ray of sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md)\n\
-      \n2nd level (3 slots): [Melf's acid arrow](03.PlayerLog&Handouts/Mechanics/CLI/spells/melfs-acid-arrow.md),\
+      \n**2nd level (3 slots):** [Melf's acid arrow](03.PlayerLog&Handouts/Mechanics/CLI/spells/melfs-acid-arrow.md),\
       \ [ray of enfeeblement](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-enfeeblement.md),\
       \ [spider climb](03.PlayerLog&Handouts/Mechanics/CLI/spells/spider-climb.md),\
-      \ [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md)\n\n3rd level (3\
-      \ slots): [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
+      \ [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md)\n\n**3rd level (3\
+      \ slots):** [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [bestow curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/bestow-curse.md),\
       \ [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md), [vampiric touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/vampiric-touch.md)\n\
-      \n4th level (3 slots): [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
+      \n**4th level (3 slots):** [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
       \ [Evard's black tentacles](03.PlayerLog&Handouts/Mechanics/CLI/spells/evards-black-tentacles.md)\n\
-      \n5th level (2 slots): [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
+      \n**5th level (2 slots):** [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
       \ [insect plague](03.PlayerLog&Handouts/Mechanics/CLI/spells/insect-plague.md)\n\
-      \n6th level (1 slots): [circle of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/circle-of-death.md),\
+      \n**6th level (1 slots):** [circle of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/circle-of-death.md),\
       \ [create undead](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-undead.md)\n\
-      \n7th level (1 slots): [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md)"
+      \n**7th level (1 slots):** [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md)"
     "name": "Spellcasting"
   - "desc": "If the lich fails a saving throw, it can choose to succeed instead."
     "name": "Legendary Resistance (3/Day)"
@@ -102,13 +104,16 @@ The lich doesn't require air, food, drink, or sleep.
       \ or from a critical hit. On a success, the lich drops to 1 hit point instead."
     "name": "Undead Fortitude"
 "actions":
-  - "desc": "Melee Spell Attack: +9 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +9 to hit, reach 5 ft., one creature. *Hit:*\
       \ 14 (4d6) poison damage, and the target must succeed on a DC 17 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. The [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ target can repeat the saving throw at the end of each of its turns, ending\
       \ the effect on itself on a success."
     "name": "Noxious Touch"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the devkarin lich can expend a use to take one of the following actions.\
+  \ The devkarin lich regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The lich casts one of its cantrips."
     "name": "Cantrip"

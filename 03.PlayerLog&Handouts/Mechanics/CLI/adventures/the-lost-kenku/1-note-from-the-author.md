@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tlk
 aliases:
-- Note from the Author
+- "Note from the Author"
 ---
 # Note from the Author
 *Source: The Lost Kenku, p. 2* 
@@ -83,7 +84,7 @@ Celeste is the step daughter of the Wizard Weirding. She wants to leave the the 
 
 roaming the grounds. Celest also sufferers from chronic headaches as a result of the experiments her father does on her. Celest is unaware of the experiments performed, but a perception DC 15 can see that Celest wears a wig. If the wig is removed scars in an arcane pattern can be seen etched all over her scalp.
 
-Unlike the many of his other experiments, wizard weirding has been trying to alter his daughters brain to become a powerful psionicist.
+Unlike the many of his other experiments, Wizard Weirding has been trying to alter his daughters brain to become a powerful psionicist.
 
 Celest can cast Mind Blast once a day.
 
@@ -124,11 +125,11 @@ Equipment such as rope, shovels, pickaxes, and torches may be found in the equip
 
 ### Commercial District
 
-Local trade is done in the commercial District. The largest building in the commercial district is the tavern inn, Bucket's Bottom. Other areas are a sundrie shop, general store, and butcher's shop.
+Local trade is done in the commercial District. The largest building in the commercial district is the tavern inn, Bucket's Bottom. Other areas are a sundries shop, general store, and butcher's shop.
 
 #### Further Exploration
 
-- **Sundrie Shop.** Ballick's Goods run by Ballick the Gnome. Ballick sells various sundries and general goods. If asked, Ballick will inform the party that a kenku came through five days ago and bought his entire stock of sunflower seeds. The party would know that Cawkrin Jones had a weakness for sunflower seeds.  
+- **Sundries Shop.** Ballick's Goods run by Ballick the Gnome. Ballick sells various sundries and general goods. If asked, Ballick will inform the party that a kenku came through five days ago and bought his entire stock of sunflower seeds. The party would know that Cawkrin Jones had a weakness for sunflower seeds.  
 - **Butcher Shop.** Nard's Meat Shop, ran by Nard, a female human, who sells various meats. Most meats are from various dinosaurs. A kenku came through five days ago and bought three raw dino-steaks. (Cawkrin later used the stakes to distract the Kamadan patrolling the Manor lawn.)  
 - **Tavern.** The Bucket's Bottom is always busy, no matter the time of day. The large tavern is filled with locals relaxing and working off steam from a long day (or nights) at the mine. There is also a small boxing/wrestling ring in the tavern where the locals gamble on fights between boxers. While there are plenty of characters about, a few jump out to the party:  
 
@@ -143,7 +144,7 @@ The Manor of Weirding is a large, three story stone manor located on a hill near
 
 ### The Vines
 
-The vines have thorns and are poisonous. If pricked, an adventurer will take `d4` poison damage. A character can scale the wall and avoid the vines if they make a Dexterity check of DC15.
+The vines have thorns and are poisonous. If pricked, an adventurer will take `1d4` poison damage. A character can scale the wall and avoid the vines if they make a Dexterity check of DC15.
 
 ### The Gate
 
@@ -151,7 +152,7 @@ The Large Iron gate is closed. It is guarded by four Guards that will refuse ent
 
 ### The Yard
 
-A small yard consisting of dirt, grass, and the occasion flower seperates the main manor house from the sturrounding wall. Three trained Kamadan roam the yard, guarding against intruders. Use Kamadan stat block in Tomb of Annihilation.
+A small yard consisting of dirt, grass, and the occasion flower separates the main manor house from the surrounding wall. Three trained Kamadan roam the yard, guarding against intruders. Use Kamadan stat block in Tomb of Annihilation.
 
 ### Entrances into the Manor
 

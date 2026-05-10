@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nass Lantomir's Ghost
+- "Nass Lantomir's Ghost"
 ---
-# [Nass Lantomir's Ghost](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/nass-lantomirs-ghost-idrotf.md)
+# [Nass Lantomir's Ghost](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/nass-lantomirs-ghost-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 272*  
 
 Nass Lantomir was an apprentice of Zelenn the White, one of five archmages who oversee the Arcane Brotherhood. Nass and Zelenn's relationship started off well, but in recent years it has become painfully obvious to Zelenn that Nass has been slow to master the arcane tradition of divination. Zelenn's suggestion that Nass leave the Hosttower of the Arcane and gain experience abroad left Nass feeling unwanted. After much thought, however, Nass came around to the idea. She could put her magic to the test and carve out a name for herself.
@@ -62,28 +63,29 @@ The wooden covers of Nass's spellbook are bound in nothic hide, and silver clasp
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Abyssal, Common, Draconic, Orc"
 "cr": "6"
 "traits":
   - "desc": "The ghost is a 6th-level spellcaster. Its spellcasting ability is Intelligence\
       \ (spell save DC 14). The ghost has the following wizard spells prepared:\n\n\
-      Cantrips (at will): [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      **Cantrips (at will):** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
-      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**1st level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n3rd level (3 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md)"
+      \n**3rd level (3 slots):** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md)"
     "name": "Spellcasting"
   - "desc": "The ghost can see 60 feet into the Ethereal Plane when it is on the Material\
       \ Plane, and vice versa."
     "name": "Ethereal Sight"
   - "desc": "The ghost can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
       \ an object."
     "name": "Incorporeal Movement"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 17\
       \ (4d6 + 3) necrotic damage."
     "name": "Withering Touch"
   - "desc": "The ghost enters the Ethereal Plane from the Material Plane, or vice\

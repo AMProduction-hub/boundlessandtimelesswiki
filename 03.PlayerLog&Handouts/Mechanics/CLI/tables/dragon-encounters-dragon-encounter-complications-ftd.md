@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Dragon Encounters; Dragon Encounter Complications
+- "Dragon Encounters; Dragon Encounter Complications"
 ---
 # Dragon Encounters; Dragon Encounter Complications
 *Source: Fizban's Treasury of Dragons p. 53* 
 
 **Dragon Encounter Complications**
-
-`dice: [](dragon-encounters-dragon-encounter-complications-ftd.md#^dragon-encounter-complications)`
 
 | dice: d20 | Complication |
 |-----------|--------------|

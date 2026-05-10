@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deck
+cssclasses:
+- json5e-deck
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 aliases:
-- Trickster Gods of Omu
+- "Trickster Gods of Omu"
 ---
 # Trickster Gods of Omu
 *Source: Tomb of Annihilation p. 256*  

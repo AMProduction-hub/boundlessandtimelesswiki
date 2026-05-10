@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Dougan's Hole
+- "Dougan's Hole"
 ---
 # Dougan's Hole
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 53* 
@@ -84,7 +85,7 @@ If Dougan's Hole is the starting town for this adventure, the characters already
 
 The townsfolk urge characters to meet with Speaker Edgra Durmoot before trying to help the town with its wolf problem. Speaker Durmoot is stubborn to a fault. She firmly believes that the missing teenagers are dead, and she's not about to give food to the winter wolves when her own people barely have enough to feed themselves. She lets the characters deal with the winter wolves as they see fit but offers no assistance.
 
-![The winter wolf brothers, ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/041-01-020-winter-wolf.webp#center "The winter wolf brothers, Koran and Kanan, pose a threat to all who visit Dougan's Hole")
+![The winter wolf brothers, Koran and Kanan, pose a threat to all who visit Dougan's Hole](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/041-01-020-winter-wolf.webp#center)
 
 ### Good Wolf, Bad Wolf
 
@@ -103,7 +104,7 @@ The wilderness around Dougan's Hole is a frozen tundra. Snow falls frequently, a
 
 Also crossing the tundra are a pack of `1d6 + 1` [wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wolf.md), prowling the white in search of food. Characters who make a successful DC 13 Intelligence ([Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature)) check note that the wolves are gaunt from starvation. If the winter wolves are with the party, Kanan and Koran growl and bare their teeth, which deters the pack from approaching closer.
 
-![Terror lurks in the icy de...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/042-01-021.webp#center "Terror lurks in the icy depths of this frost giant lodge")
+![Terror lurks in the icy depths of this frost giant lodge](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/042-01-021.webp#center)
 
 ### Approaching the Lodge
 
@@ -238,4 +239,4 @@ If they escape the lodge and survive the journey home, Silja and Finn are reunit
 
 #### Treasure
 
-Hilda married her older brother, who was a hunter. He passed away a few years ago but left behind some magic boots he won from a wayward adventurer he bested in a drinking contest. If one or both of her children are returned safely, Hilda gives the characters her husband's [boots of the winterlands](03.PlayerLog&Handouts/Mechanics/CLI/items/boots-of-the-winterlands.md) as a thank-you.
+Hilda married her older brother, who was a hunter. He passed away a few years ago but left behind some magic boots he won from a wayward adventurer he bested in a drinking contest. If one or both of her children are returned safely, Hilda gives the characters her husband's [Boots of the Winterlands](03.PlayerLog&Handouts/Mechanics/CLI/items/boots-of-the-winterlands.md) as a thank-you.

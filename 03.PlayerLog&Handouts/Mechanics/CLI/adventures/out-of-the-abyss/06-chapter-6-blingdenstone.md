@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Chapter 6: Blingdenstone
+- "Chapter 6: Blingdenstone"
 ---
 # Chapter 6: Blingdenstone
 *Source: Out of the Abyss, p. 95* 
@@ -60,8 +61,6 @@ Once per day while the characters are exploring the deep gnome settlement, roll 
 
 #### Blingdenstone Encounters
 
-`dice: [](06-chapter-6-blingdenstone.md#^encounter)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–10 | No encounter |
@@ -91,8 +90,6 @@ The characters approach a section of Blingdenstone in horrible disrepair. If the
 
 #### Dungeon Hazards
 
-`dice: [](06-chapter-6-blingdenstone.md#^hazard)`
-
 | dice: d6 | Hazard |
 |----------|--------|
 | 1–3 | Patch of brown mold |
@@ -114,8 +111,6 @@ Some of the svirfneblin who perished during the drow invasion didn't go easily, 
 
 #### Ghost's Attitude
 
-`dice: [](06-chapter-6-blingdenstone.md#^attitude)`
-
 | dice: d20 | Attitude |
 |-----------|----------|
 | 1–6 | Indifferent and unaware of the characters until it is attacked by them |
@@ -126,20 +121,18 @@ Some of the svirfneblin who perished during the drow invasion didn't go easily, 
 
 #### Mephit Gang
 
-A mephit gang consists of `d4` [dust mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/dust-mephit.md) and `d4` [mud mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/mud-mephit.md). If encountered in Inner Blingdenstone or Rockblight, they are insane and attack immediately. Otherwise, they mock the party but don't fight except in self-defense.
+A mephit gang consists of `1d4` [dust mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/dust-mephit.md) and `1d4` [mud mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/mud-mephit.md). If encountered in Inner Blingdenstone or Rockblight, they are insane and attack immediately. Otherwise, they mock the party but don't fight except in self-defense.
 
 #### Roaming Ooze
 
 The presence of [the Pudding King](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/the-pudding-king-oota.md) (see "The Pudding Court" later in this chapter) is drawing oozes to Blingdenstone. Roll a `d4` and consult the Roaming Ooze table to determine what appears.
-
-`dice: [](06-chapter-6-blingdenstone.md#^encounter)`
 
 | dice: d4 | Encounter |
 |----------|-----------|
 | 1 | 1 [black pudding](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/black-pudding.md) |
 | 2 | 1 [gelatinous cube](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/gelatinous-cube.md) |
 | 3 | `1d4 + 1` [gray oozes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/gray-ooze.md), one of which is a psychic gray ooze variant (as described in the *Monster Manual*) |
-| 4 | `d2` [ochre jellies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/ochre-jelly.md) |
+| 4 | `1d2` [ochre jellies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/ochre-jelly.md) |
 ^encounter
 
 #### Svirfneblin Wererats
@@ -183,7 +176,7 @@ When the characters visit Blingdenstone, they can meet one or more of the follow
 | **Kazook Pickshine** | Alchemist and ore specialist who receives and gives quests |
 | **Chipgrin Goldwhisker** | Leader of the wererat colony |
 | **Burrow Warden Jadger** | Undead leader of the burrow wardens |
-| The [Pudding King](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/the-pudding-king-oota.md) | Insane deep gnome enthralled by the demon lord Juiblex |
+| [The Pudding King](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/the-pudding-king-oota.md) | Insane deep gnome enthralled by the demon lord Juiblex |
 
 ### Settlers, Squatters, and Invaders
 
@@ -292,8 +285,8 @@ Once the basilisks are defeated, characters can resume their exploration of the 
 
 | Age | Size | Notes |
 |-----|------|-------|
-| Infant (up to 3 months) | Tiny | AC 11; 4 (`1d4 + 2`) hit points; speed 10 ft.; Str 10 (+0); no Petrifying Gaze; bite attack is +2 to hit and deals 1 piercing damage plus 1 poison damage on a hit; Challenge 0 (10 XP) |
-| Young (3–12 months) | Small | AC 13; 22 (`4d6 + 8`) hit points; speed 15 ft.; Str 13 (+1); Petrifying Gaze has a range of 15 feet; bite attack is +3 to hit and deals 3 (`1d4 + 1`) piercing damage plus 2 (`d4`) poison damage on a hit; Challenge 1 (200 XP) |
+| Infant (up to 3 months) | Tiny | AC 11; 4 (`1d4 + 2`) hit points; speed 10 ft.; Str 10 (+0); no Petrifying Gaze; bite attack is `+2` to hit and deals 1 piercing damage plus 1 poison damage on a hit; Challenge 0 (10 XP) |
+| Young (3–12 months) | Small | AC 13; 22 (`4d6 + 8`) hit points; speed 15 ft.; Str 13 (+1); Petrifying Gaze has a range of 15 feet; bite attack is `+3` to hit and deals 3 (`1d4 + 1`) piercing damage plus 2 (`1d4`) poison damage on a hit; Challenge 1 (200 XP) |
 | Adult (12+ months) | Medium | See the Monster Manual |
 ^age-size-notes
 
@@ -362,7 +355,7 @@ If the characters reveal that they are fleeing the drow, the guards decide that 
 
 ![Map 6.2: Outer Blingdenstone](03.PlayerLog&Handouts/Mechanics/CLI/adventures/out-of-the-abyss/img/056-ooa06-03.webp#center)
 
-Between the gate and Blingdenstone proper, the svirfneblin built the maze: a twisting and turning path that runs between 10-foot-high walls studded with nails. Climbing a nail-studded wall requires a successful DC 13 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. Even with a successful check, a creature must succeed on a DC 13 Dexterity saving throw to avoid the nails, taking `d4` piercing damage on a failed save. The path slopes up and down, so sections can be flooded or inundated with poisonous smoke. At certain points, the path narrows to allow Small creatures through; Medium creatures must squeeze, and Large creatures can't fit through at all unless they have an amorphous form.
+Between the gate and Blingdenstone proper, the svirfneblin built the maze: a twisting and turning path that runs between 10-foot-high walls studded with nails. Climbing a nail-studded wall requires a successful DC 13 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. Even with a successful check, a creature must succeed on a DC 13 Dexterity saving throw to avoid the nails, taking `1d4` piercing damage on a failed save. The path slopes up and down, so sections can be flooded or inundated with poisonous smoke. At certain points, the path narrows to allow Small creatures through; Medium creatures must squeeze, and Large creatures can't fit through at all unless they have an amorphous form.
 
 A second path is inaccessible from the main gate, traveling above the winding path. This upper path is festooned with towers and battlements where defenders can fire freely at creatures attempting to make their way along the lower path. A paved road runs along the western wall of the cavern, onto which wagons and draft animals are hoisted so they can bypass the maze. The hoist mechanism can be destroyed with the single pull of a lever if invaders manage to hijack it.
 
@@ -462,7 +455,7 @@ If the characters managed to rescue Mev, or made a sincere effort to do so, awar
 
 ## 8. The Ruby in the Rough
 
-The Stoneheart Enclave agreed to join the Diggermattock effort to resettle Blingdenstone in exchange for help reclaiming this temple known as the Ruby in the Rough. The temple is dedicated to Segojan Earthcaller, the svirfneblin god of deep earth and nature. The rituals and day-to-day duties of the temple are overseen by a deep gnome named Glyphic Shroomlight, a nervous young novice doing his best in a situation requiring a much older and more experienced cleric (use the [acolyte](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/acolyte.md) statistics in the *Monster Manual*, but also give Glyphic the Stone Camouflage, Gnome Cunning, and Innate Spellcasting features of a [deep gnome](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/deep-gnome-svirfneblin.md)).
+The Stoneheart Enclave agreed to join the Diggermattock effort to resettle Blingdenstone in exchange for help reclaiming this temple known as the Ruby in the Rough. The temple is dedicated to Segojan Earthcaller, the svirfneblin god of deep earth and nature. The rituals and day-to-day duties of the temple are overseen by a deep gnome named [Glyphic Shroomlight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/glyphic-shroomlight-oota.md), a nervous young novice doing his best in a situation requiring a much older and more experienced cleric (use the [acolyte](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/acolyte.md) statistics in the *Monster Manual*, but also give Glyphic the Stone Camouflage, Gnome Cunning, and Innate Spellcasting features of a [deep gnome](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/deep-gnome-svirfneblin.md)).
 
 Despite the desecration of the drow invasion and the decades of scavenging and raiding in its aftermath, the old city's honored dead still rest securely in the catacombs beneath the temple. A passage on the east side of the cavern leads down into this network of small linked caverns accessible only through the temple.
 
@@ -504,7 +497,7 @@ Two blocked-off tunnels lead north and northeast to areas that have not been res
 
 ## 10. Staging Area
 
-This cave is fortified with barricades and defended by eight [deep gnomes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/deep-gnome-svirfneblin.md) and four cave [badgers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/badger.md) (see "Random Encounters in Blingdenstone"). There are no earth elementals reinforcing security here because the passage on the north wall—sealed at either end with a locked door—leads to areas where the deep gnomes have confirmed the influence of Ogrémoch's Bane.
+This cave is fortified with barricades and defended by eight [deep gnomes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/deep-gnome-svirfneblin.md) and four [cave badgers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/cave-badger-oota.md) (see "Random Encounters in Blingdenstone"). There are no earth elementals reinforcing security here because the passage on the north wall—sealed at either end with a locked door—leads to areas where the deep gnomes have confirmed the influence of Ogrémoch's Bane.
 
 ### Unseen Evil
 
@@ -528,7 +521,7 @@ The locals are willing to talk with the characters, pointing them toward a parti
 
 Vazuk was a simple leatherworker who died in the drow invasion. His spirit awoke when a family moved into what used to be his home, then began to throw fits and terrorize any creatures coming near.
 
-Vazuk is a [specter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md) (use the poltergeist variant). He can't be turned while inside his former home. He attacks the characters as soon as they enter the house, all the while screaming "Mine! My stuff! Not yours!"
+Vazuk is a [specter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md) (use the [poltergeist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/poltergeist.md) variant). He can't be turned while inside his former home. He attacks the characters as soon as they enter the house, all the while screaming "Mine! My stuff! Not yours!"
 
 #### Treasure
 
@@ -546,7 +539,7 @@ A circle of stone menhirs predating Blingdenstone stands at the center of this s
 
 Gurnik Tapfinger, head priest of Callarduran Smoothhands in the Stoneheart Enclave, approaches the characters if they show any interest in the Speaking Stones (use the [priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/priest.md) statistics in the *Monster Manual*, but also give Gurnik the Stone Camouflage, Gnome Cunning, and Innate Spellcasting features of a [deep gnome](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/deep-gnome-svirfneblin.md)). He asks them to undertake a task in a closed-off area of the old city known as Rockblight, where the temple of his god stands desecrated. If the characters agree, he gives them a ruby [spell gem](03.PlayerLog&Handouts/Mechanics/CLI/items/spell-gem-oota.md) (see appendix B) containing the [hallow](03.PlayerLog&Handouts/Mechanics/CLI/spells/hallow.md) spell and asks them to place the gem in the Steadfast Stone's menhir (see area 22).
 
-Gurnik warns them that once they place the gem, Ogrémoch's Bane will send its servants to stop them. They must defeat these servants until the gem awakens three temple guardians, at which point the temple will be cleansed and the characters can leave. Once the characters accomplish this task, Gurnik channels the power of the cleansed temple, bestowing a *blessing of protection* or a *blessing of weapon* on each of the characters (each player's choice); see ""Other Rewards"" in chapter 7 of the *Dungeon Master's Guide* for more information on blessings.
+Gurnik warns them that once they place the gem, Ogrémoch's Bane will send its servants to stop them. They must defeat these servants until the gem awakens three temple guardians, at which point the temple will be cleansed and the characters can leave. Once the characters accomplish this task, Gurnik channels the power of the cleansed temple, bestowing a [blessing of protection](03.PlayerLog&Handouts/Mechanics/CLI/rewards/blessing-of-protection.md) or a [blessing of weapon enhancement](03.PlayerLog&Handouts/Mechanics/CLI/rewards/blessing-of-weapon-enhancement.md) on each of the characters (each player's choice); see ""Other Rewards"" in chapter 7 of the *Dungeon Master's Guide* for more information on blessings.
 
 ## 14. Diggermattock Hall
 
@@ -982,8 +975,6 @@ To reach [the Pudding King](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/the
 ^benefits-for-completing-tasks
 
 #### Battle of Blingdenstone Encounters
-
-`dice: [](06-chapter-6-blingdenstone.md#^encounter)`
 
 | dice: d6 | Encounter |
 |----------|-----------|

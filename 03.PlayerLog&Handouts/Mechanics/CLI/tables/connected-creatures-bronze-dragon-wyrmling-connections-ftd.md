@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Connected Creatures; Bronze Dragon Wyrmling Connections
+- "Connected Creatures; Bronze Dragon Wyrmling Connections"
 ---
 # Connected Creatures; Bronze Dragon Wyrmling Connections
 *Source: Fizban's Treasury of Dragons p. 95* 
 
 **Bronze Dragon Wyrmling Connections**
-
-`dice: [](connected-creatures-bronze-dragon-wyrmling-connections-ftd.md#^bronze-dragon-wyrmling-connections)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|

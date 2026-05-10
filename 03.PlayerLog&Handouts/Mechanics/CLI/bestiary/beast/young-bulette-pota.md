@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Young Bulette
+- "Young Bulette"
 ---
-# [Young Bulette](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/young-bulette-pota.md)
+# [Young Bulette](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/young-bulette-pota.md)
 *Source: Princes of the Apocalypse p. 139*  
 
 ```statblock
@@ -42,7 +43,7 @@ aliases:
       \ Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Charge"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (2d8 + 5) piercing damage."
     "name": "Bite"
 "source":

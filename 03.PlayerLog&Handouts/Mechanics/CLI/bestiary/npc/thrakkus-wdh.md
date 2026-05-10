@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Thrakkus
+- "Thrakkus"
 ---
-# [Thrakkus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/thrakkus-wdh.md)
+# [Thrakkus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/thrakkus-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 89*  
 
 A member of the Guild of Butchers, Thrakkus has a lucrative side business. Zhents loyal to Manshoon pay Thrakkus to chop up people they kill, and he sells the meat on the sly.
@@ -36,6 +37,8 @@ A member of the Guild of Butchers, Thrakkus has a lucrative side business. Zhent
   - !!int "9"
 "speed": "30 ft."
 "damage_resistances": "fire"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
 "senses": "passive Perception 10"
 "languages": "Common, Draconic"
 "cr": "2"
@@ -45,7 +48,7 @@ A member of the Guild of Butchers, Thrakkus has a lucrative side business. Zhent
       \ until the start of his next turn."
     "name": "Reckless"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d12 + 3) slashing damage."
     "name": "Greataxe"
   - "desc": "Thrakkus can use his action to exhale a 15-foot cone of fire. Each creature\

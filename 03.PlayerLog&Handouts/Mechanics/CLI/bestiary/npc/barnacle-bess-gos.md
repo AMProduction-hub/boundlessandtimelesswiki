@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Barnacle Bess
+- "Barnacle Bess"
 ---
-# [Barnacle Bess](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/barnacle-bess-gos.md)
+# [Barnacle Bess](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/barnacle-bess-gos.md)
 *Source: Ghosts of Saltmarsh p. 220*  
 
 ```statblock
@@ -35,14 +36,15 @@ aliases:
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "blindsight 30 ft., passive Perception 9"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., passive Perception 9"
 "languages": "Common"
 "cr": "1/8"
 "traits":
   - "desc": "Bess can breathe air and water."
     "name": "Amphibious"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 11). Bess has two claws, each of which can grapple only one target."
     "name": "Claw"

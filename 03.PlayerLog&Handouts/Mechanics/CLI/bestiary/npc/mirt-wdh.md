@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mirt
+- "Mirt"
 ---
-# [Mirt](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/mirt-wdh.md)
+# [Mirt](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/mirt-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 211*  
 
 Once known as Mirt the Merciless and the Old Wolf, Mirt made a fortune and carved out a reputation as an adventurer and philanderer. Today, an older and wiser Mirt serves as one of the Masked Lords, a Harper, and a close advisor to Laeral Silverhand. The years have not worn him down, and though he has grown soft in the flesh, he remains deceptively strong, vigorous, and clear of mind. Mirt has survived the passing of centuries by means of magic, and of all the Masked Lords, he is the least concerned with concealing his identity.
@@ -44,8 +45,8 @@ In addition to his other magical gear, Mirt owns a Lord's ensemble (see appendix
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+8"
-  - "wisdom": "+5"
+  - "dexterity": !!int "8"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+8"
@@ -57,6 +58,9 @@ In addition to his other magical gear, Mirt owns a Lord's ensemble (see appendix
     "desc": "+6"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+8"
+"gear":
+  - "[+1 dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/1-weapon.md)"
+  - "[+1 longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/1-weapon.md)"
 "senses": "passive Perception 15"
 "languages": "Common, Dwarvish"
 "cr": "9"
@@ -83,13 +87,13 @@ In addition to his other magical gear, Mirt owns a Lord's ensemble (see appendix
   - "desc": "Mirt makes three attacks: two with his +1 longsword and one with his\
       \ +1 dagger."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (2d8 + 5) slashing damage, or 16 (2d10 + 5) slashing damage when used\
       \ with two hands."
     "name": "+1 Longsword"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d4 + 5) piercing damage. Or Ranged Weapon Attack: +9 to hit, range 20/60\
-      \ ft., one target. Hit: 7 (1d4 + 5) piercing damage."
+      \ ft., one target. *Hit:* 7 (1d4 + 5) piercing damage."
     "name": "+1 Dagger"
 "reactions":
   - "desc": "Mirt adds 2 to his AC against one melee attack that would hit him. To\

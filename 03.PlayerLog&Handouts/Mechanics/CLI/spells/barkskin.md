@@ -1,24 +1,25 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
 - ttrpg-cli/spell/feat/adept-of-the-red-robes
 - ttrpg-cli/spell/level/2nd-level
 - ttrpg-cli/spell/school/transmutation
-- ttrpg-cli/spell/subclass/circle-of-the-land
+- ttrpg-cli/spell/subclass/circle-of-the-land/forest
 - ttrpg-cli/spell/subclass/nature-domain
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Nature Domain)
 - Druid
-- Druid (Circle of the Land)
+- Druid (Circle of the Land, Forest)
 - Ranger
 aliases:
-- Barkskin
+- "Barkskin"
 ---
 # Barkskin
 *2nd-level, Transmutation*  
@@ -31,6 +32,6 @@ aliases:
 
 You touch a willing creature. Until the spell ends, the target's skin has a rough, bark-like appearance, and the target's AC can't be less than 16, regardless of what kind of armor it is wearing.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md); [Druid (Circle of the Land, Forest)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md)
 
 *Source: Player's Handbook p. 217. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

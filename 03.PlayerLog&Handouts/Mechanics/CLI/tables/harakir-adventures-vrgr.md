@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Har'Akir Adventures
+- "Har'Akir Adventures"
 ---
 # Har'Akir Adventures
 *Source: Van Richten's Guide to Ravenloft p. 110* 
 
 **Har'Akir Adventures**
-
-`dice: [](harakir-adventures-vrgr.md#^harakir-adventures)`
 
 | dice: d8 | Adventure |
 |----------|-----------|

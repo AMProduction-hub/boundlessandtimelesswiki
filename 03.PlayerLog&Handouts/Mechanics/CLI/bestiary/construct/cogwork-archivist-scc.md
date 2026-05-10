@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Cogwork Archivist
+- "Cogwork Archivist"
 ---
-# [Cogwork Archivist](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/cogwork-archivist-scc.md)
+# [Cogwork Archivist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/cogwork-archivist-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 188*  
 
 Programmed with knowledge of Strixhaven's extensive lore catalog, cogwork archivists serve as keepers of the university's various libraries. The archivists' towering metal frames are equipped with long, articulated limbs and retractable conservator tools, which they use to organize and preserve documents from throughout Strixhaven's winding history. Many cogwork archivists can be found among the towering shelves of the Biblioplex, simultaneously retrieving scrolls for curious students while keeping a stern eye on any rowdy groups that might disrupt the quiet atmosphere.
@@ -51,7 +52,8 @@ Programmed with knowledge of Strixhaven's extensive lore catalog, cogwork archiv
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "all"
 "cr": "4"
 "traits":
@@ -61,16 +63,16 @@ Programmed with knowledge of Strixhaven's extensive lore catalog, cogwork archiv
 "actions":
   - "desc": "The archivist makes two Grasping Limb attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 15 ft., one target. *Hit:*\
       \ 13 (2d8 + 4) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14). The archivist can have no more than two targets [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ at a time."
     "name": "Grasping Limb"
   - "desc": "The archivist casts one of the following spells, requiring no material\
-      \ components and using Intelligence as the spellcasting ability:\n\nAt will:\
+      \ components and using Intelligence as the spellcasting ability:\n\n**At will:**\
       \ [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n2/day: [silence](03.PlayerLog&Handouts/Mechanics/CLI/spells/silence.md)"
+      \n**2/day:** [silence](03.PlayerLog&Handouts/Mechanics/CLI/spells/silence.md)"
     "name": "Spellcasting"
 "source":
   - "SCC"

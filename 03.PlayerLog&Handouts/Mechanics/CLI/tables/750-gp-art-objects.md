@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- 750 gp Art Objects
+- "750 gp Art Objects"
 ---
 # 750 gp Art Objects
 *Source: Dungeon Master's Guide p. 134* 
 
 **750 gp Art Objects**
-
-`dice: [](750-gp-art-objects.md#^750-gp-art-objects)`
 
 | dice: d10 | Object |
 |-----------|--------|

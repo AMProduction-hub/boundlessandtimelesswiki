@@ -1,21 +1,22 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xge
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/paladin
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/evocation
 - ttrpg-cli/spell/subclass/divine-soul
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Paladin
 - Sorcerer (Divine Soul)
 aliases:
-- Holy Weapon
+- "Holy Weapon"
 ---
 # Holy Weapon
 *5th-level, Evocation*  
@@ -30,6 +31,6 @@ You imbue a weapon you touch with holy power. Until the spell ends, the weapon e
 
 As a bonus action on your turn, you can dismiss this spell and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 feet of the weapon must make a Constitution saving throw. On a failed save, a creature takes `4d8` radiant damage, and it is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) for 1 minute. On a successful save, a creature takes half as much damage and isn't [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded). At the end of each of its turns, a [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) creature can make a Constitution saving throw, ending the effect on itself on a success.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE")
 
 *Source: Xanathar's Guide to Everything p. 157*

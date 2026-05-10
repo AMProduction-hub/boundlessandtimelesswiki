@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/dimir-operative
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/feat/adept-of-the-white-robes
@@ -20,7 +21,7 @@ tags:
 - ttrpg-cli/spell/subrace/half-elf-mark-of-detection
 - ttrpg-cli/spell/subrace/tiefling-dispater
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
 - Sorcerer
@@ -28,7 +29,7 @@ classes:
 - Warlock (The Great Old One)
 - Wizard
 aliases:
-- Detect Thoughts
+- "Detect Thoughts"
 ---
 # Detect Thoughts
 *2nd-level, Divination*  
@@ -49,6 +50,6 @@ You can also use this spell to detect the presence of thinking creatures you can
 
 Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range.
 
-**Classes**: [Sorcerer (Aberrant Mind)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-aberrant-mind-tce.md "subclass=TCE"); [Warlock (The Great Old One)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-great-old-one.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer (Aberrant Mind)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-aberrant-mind-tce.md "subclass=TCE"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock (The Great Old One)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-great-old-one.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 231. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

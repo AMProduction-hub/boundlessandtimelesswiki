@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-8
@@ -18,10 +19,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kobold
+- "Kobold"
 ---
-# [Kobold](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/kobold.md)
-*Source: Monster Manual p. 195, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Kobold](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kobold.md)
+*Source: Monster Manual p. 195. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Kobolds are craven reptilian humanoids that worship evil dragons as demigods and serve them as minions and toadies. Kobolds inhabit dragons' lairs when they can but more commonly infest dungeons, gathering treasures and trinkets to add to their own tiny hoards.
 
@@ -55,7 +56,11 @@ In addition to the dragons they revere, kobolds worship a lesser god named Kurtu
   - !!int "7"
   - !!int "8"
 "speed": "30 ft."
-"senses": "darkvision 60 ft., passive Perception 8"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+  - "[sling](03.PlayerLog&Handouts/Mechanics/CLI/items/sling.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": "Common, Draconic"
 "cr": "1/8"
 "traits":
@@ -68,22 +73,14 @@ In addition to the dragons they revere, kobolds worship a lesser god named Kurtu
       \ [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage."
     "name": "Dagger"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 4 (1d4 + 2) bludgeoning damage."
     "name": "Sling"
 "source":
   - "MM"
-  - "TftYP"
-  - "ToA"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "BGDIA"
-  - "ERLW"
-  - "EGW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/kobold.webp"
 ```
 ^statblock

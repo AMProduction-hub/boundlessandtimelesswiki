@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/21
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Moloch
+- "Moloch"
 ---
-# [Moloch](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/moloch-mpmm.md)
+# [Moloch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/moloch-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 183, Mordenkainen's Tome of Foes p. 177*  
 
 > [!quote] A quote from Mordenkainen  
@@ -50,10 +51,10 @@ Most of Moloch's cultists have switched allegiance to one of the other archdevil
   - !!int "23"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+11"
-  - "constitution": "+13"
-  - "wisdom": "+11"
-  - "charisma": "+13"
+  - "dexterity": !!int "11"
+  - "constitution": !!int "13"
+  - "wisdom": !!int "11"
+  - "charisma": !!int "13"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+13"
@@ -68,7 +69,8 @@ Most of Moloch's cultists have switched allegiance to one of the other archdevil
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 21"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 21"
 "languages": "all, telepathy 120 ft."
 "cr": "21"
 "traits":
@@ -85,13 +87,13 @@ Most of Moloch's cultists have switched allegiance to one of the other archdevil
   - "desc": "Moloch makes one Bite attack, one Claw attack, and one Many-Tailed Whip\
       \ attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 5 ft., one target. *Hit:*\
       \ 26 (4d8 + 8) fire damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) force damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 30 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 30 ft., one target. *Hit:*\
       \ 13 (2d4 + 8) lightning damage plus 11 (2d10) thunder damage. If the target\
       \ is a creature, it must succeed on a DC 24 Strength saving throw or be pulled\
       \ up to 30 feet in a straight line toward Moloch."
@@ -112,8 +114,8 @@ Most of Moloch's cultists have switched allegiance to one of the other archdevil
       \ up to 120 feet to an unoccupied space he can see."
     "name": "Teleport"
   - "desc": "Moloch casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 21):\n\nAt\
-      \ will: [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md)\
+      \ and using Charisma as the spellcasting ability (spell save DC 21):\n\n**At\
+      \ will:** [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md)\
       \ (can become Medium when changing his appearance), [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md),\
@@ -121,6 +123,9 @@ Most of Moloch's cultists have switched allegiance to one of the other archdevil
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md), [wall\
       \ of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Moloch can expend a use to take one of the following actions. Moloch regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Moloch makes one Bite, Claw, or Many-Tailed Whip attack."
     "name": "Attack"

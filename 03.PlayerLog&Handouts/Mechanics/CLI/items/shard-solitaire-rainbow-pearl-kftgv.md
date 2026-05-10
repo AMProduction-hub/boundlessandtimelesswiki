@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/legendary
-aliases: 
+aliases:
 - "Shard Solitaire (Rainbow Pearl)"
 ---
 # Shard Solitaire (Rainbow Pearl)
@@ -23,6 +24,6 @@ When you use this property, you can tap into the unstable power of the stone's e
 
 ## Spellcasting
 
-The stone has 6 charges and regains `d6` expended charges daily at dawn. As an action, you can cast one of the stone's spells by expending the requisite number of charges, requiring no material components (save DC 16). The rainbow pearl shard solitaire can be used to cast the following spells: [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md) (3 charges; the target is banished to the stone's extradimensional space for the spell's duration), [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md) (1 charge), [prismatic spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/prismatic-spray.md) (6 charges), [water breathing](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-breathing.md) (2 charges).
+The stone has 6 charges and regains `1d6` expended charges daily at dawn. As an action, you can cast one of the stone's spells by expending the requisite number of charges, requiring no material components (save DC 16). The rainbow pearl shard solitaire can be used to cast the following spells: [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md) (3 charges; the target is banished to the stone's extradimensional space for the spell's duration), [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md) (1 charge), [prismatic spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/prismatic-spray.md) (6 charges), [water breathing](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-breathing.md) (2 charges).
 
 *Source: Keys from the Golden Vault p. 193*

@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-object
+cssclasses:
+- json5e-object
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/object/size/unknown
 - ttrpg-cli/object/type/unknown
 aliases:
-- Eldritch Cannon, Flamethrower
+- "Eldritch Cannon, Flamethrower"
 ---
 # Eldritch Cannon, Flamethrower
 %%-- Embedded content starts on the next line. --%%

@@ -1,15 +1,20 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/egw
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/level/8th-level
 - ttrpg-cli/spell/school/conjuration
+- ttrpg-cli/spell/subclass/chronurgy-magic
+- ttrpg-cli/spell/subclass/graviturgy-magic
 classes:
-- Bard
+- Bard (Magical Secrets)
+- Wizard (Chronurgy Magic)
+- Wizard (Graviturgy Magic)
 aliases:
-- Reality Break
+- "Reality Break"
 ---
 # Reality Break
 *8th-level, Conjuration*  
@@ -26,8 +31,6 @@ At the end of each of its turns, the affected target can repeat the Wisdom savin
 
 **Reality Break Effects**
 
-`dice: [](reality-break-egw.md#^reality-break-effects)`
-
 | dice: d10 | Effect |
 |-----------|--------|
 | 1-2 | **Vision of the Far Realm.** The target takes `6d12` psychic damage, and it is [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned) until the end of the turn. |
@@ -36,6 +39,6 @@ At the end of each of its turns, the affected target can repeat the Wisdom savin
 | 9-10 | **Chill of the Dark Void.** The target takes `10d12` cold damage, and it is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) until the end of the turn. |
 ^reality-break-effects
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Wizard (Chronurgy Magic)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-chronurgy-magic-egw.md "subclass=EGW"); [Wizard (Graviturgy Magic)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-graviturgy-magic-egw.md "subclass=EGW")
 
 *Source: Explorer's Guide to Wildemount p. 189*

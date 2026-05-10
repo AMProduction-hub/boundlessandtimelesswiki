@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/artifact
-aliases: 
+aliases:
 - "Demonomicon of Iggwilv"
 ---
 # Demonomicon of Iggwilv
@@ -25,7 +26,7 @@ The artifact has the following random properties, which you can determine by rol
 
 ## Spells
 
-The book has 8 charges. It regains `d8` expended charges daily at dawn. While holding it, you can use an action to cast [Tasha's hideous laughter](03.PlayerLog&Handouts/Mechanics/CLI/spells/tashas-hideous-laughter.md) from it or to expend 1 or more of its charges to cast one of the following spells (save DC 20) from it: [magic circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-circle.md) (1 charge), [magic jar](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-jar.md) (3 charges), [planar ally](03.PlayerLog&Handouts/Mechanics/CLI/spells/planar-ally.md) (3 charges), [planar binding](03.PlayerLog&Handouts/Mechanics/CLI/spells/planar-binding.md) (2 charges), [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md) (to layers of the Abyss only; 3 charges), [summon fiend](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-fiend-tce.md) (3 charges).
+The book has 8 charges. It regains `1d8` expended charges daily at dawn. While holding it, you can use an action to cast [Tasha's hideous laughter](03.PlayerLog&Handouts/Mechanics/CLI/spells/tashas-hideous-laughter.md) from it or to expend 1 or more of its charges to cast one of the following spells (save DC 20) from it: [magic circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-circle.md) (1 charge), [magic jar](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-jar.md) (3 charges), [planar ally](03.PlayerLog&Handouts/Mechanics/CLI/spells/planar-ally.md) (3 charges), [planar binding](03.PlayerLog&Handouts/Mechanics/CLI/spells/planar-binding.md) (2 charges), [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md) (to layers of the Abyss only; 3 charges), [summon fiend](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-fiend-tce.md) (3 charges).
 
 ## Abyssal Reference
 
@@ -45,7 +46,7 @@ The first 10 pages of the *Demonomicon* are blank. As an action while holding th
 
 When you finish a long rest, if you and the *Demonomicon* are on the same plane of existence, the trapped creature of the highest challenge rating within the book can attempt to possess you. You must make a DC 20 Charisma saving throw. On a failure, you are possessed by the creature, which controls you like a puppet. The possessing creature can release you as an action, appearing in the closest unoccupied space. On a successful save, the fiend can't try to possess you again for 7 days.
 
-When the tome is discovered, it has `d4` fiends occupying its pages, typically an assortment of demons.
+When the tome is discovered, it has `1d4` fiends occupying its pages, typically an assortment of demons.
 
 ## Destroying the Demonomicon
 

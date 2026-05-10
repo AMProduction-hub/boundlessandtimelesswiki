@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Newspaper Contact
+- "Newspaper Contact"
 ---
 # Newspaper Contact
 *Source: Eberron: Rising from the Last War p. 95* 
 
 **Newspaper Contact**
-
-`dice: [](newspaper-contact-erlw.md#^newspaper-contact)`
 
 | dice: d8 | Primary Contact |
 |----------|-----------------|

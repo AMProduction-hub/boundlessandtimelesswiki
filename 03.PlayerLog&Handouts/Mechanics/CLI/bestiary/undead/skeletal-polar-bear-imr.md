@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Skeletal Polar Bear
+- "Skeletal Polar Bear"
 ---
-# [Skeletal Polar Bear](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/skeletal-polar-bear-imr.md)
+# [Skeletal Polar Bear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeletal-polar-bear-imr.md)
 *Source: Infernal Machine Rebuild p. 34*  
 
 ```statblock
@@ -49,10 +50,10 @@ aliases:
 "actions":
   - "desc": "The bear makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d8 + 5) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) slashing damage."
     "name": "Claws"
 "source":

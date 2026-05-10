@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Clay Gladiator
+- "Clay Gladiator"
 ---
-# [Clay Gladiator](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/clay-gladiator-toa.md)
+# [Clay Gladiator](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clay-gladiator-toa.md)
 *Source: Tomb of Annihilation p. 100*  
 
 A clay gladiator fights if attacked or when called to the gladiatorial pit. If reduced to 0 hit points outside of the gladiatorial pit, the gladiator disappears along with its possessions, reappears in its cell at full health with spear and shield in hand, and returns to the gladiatorial pit if it can. If defeated in the gladiatorial pit, the gladiator leaves its spear behind before reforming in its cell
@@ -35,9 +36,9 @@ A clay gladiator fights if attacked or when called to the gladiatorial pit. If r
   - !!int "15"
 "speed": "30 ft., climb 30 ft."
 "saves":
-  - "strength": "+7"
-  - "dexterity": "+5"
-  - "constitution": "+6"
+  - "strength": !!int "7"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+10"
@@ -47,6 +48,8 @@ A clay gladiator fights if attacked or when called to the gladiatorial pit. If r
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 11"
 "languages": ""
 "cr": "5"
@@ -62,11 +65,11 @@ A clay gladiator fights if attacked or when called to the gladiatorial pit. If r
 "actions":
   - "desc": "The gladiator makes three melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with\
       \ two hands."
     "name": "Spear"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:*\
       \ 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature,\
       \ it must succeed on a DC 15 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Shield Bash"

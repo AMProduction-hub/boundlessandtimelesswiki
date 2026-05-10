@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Mother's Blessing; Lorinda's Daughter
+- "Mother's Blessing; Lorinda's Daughter"
 ---
 # Mother's Blessing; Lorinda's Daughter
 *Source: Van Richten's Guide to Ravenloft p. 161* 
 
 **Lorinda's Daughter**
-
-`dice: [](mothers-blessing-lorindas-daughter-vrgr.md#^lorindas-daughter)`
 
 | dice: d6 | Laoirse's Form | Statistics | CR |
 |----------|----------------|------------|----|

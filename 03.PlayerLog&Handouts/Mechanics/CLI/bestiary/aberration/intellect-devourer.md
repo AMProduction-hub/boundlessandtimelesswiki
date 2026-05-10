@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Intellect Devourer
+- "Intellect Devourer"
 ---
-# [Intellect Devourer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/intellect-devourer.md)
-*Source: Monster Manual p. 191, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Eberron: Rising from the Last War*  
+# [Intellect Devourer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/intellect-devourer.md)
+*Source: Monster Manual p. 191*  
 
 An intellect devourer resembles a walking brain protected by a crusty covering and set on bestial clawed legs. This foul aberration feeds on the intelligence of sentient creatures, taking over a victim's body on behalf of its mind flayer masters.
 
@@ -54,7 +55,8 @@ An intellect devourer consumes a creature's mind and memories, then turns the ho
     "desc": "+4"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 12"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 12"
 "languages": "understands Deep Speech but can't speak, telepathy 60 ft."
 "cr": "2"
 "traits":
@@ -67,7 +69,7 @@ An intellect devourer consumes a creature's mind and memories, then turns the ho
   - "desc": "The intellect devourer makes one attack with its claws and uses Devour\
       \ Intellect."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) slashing damage."
     "name": "Claws"
   - "desc": "The intellect devourer targets one creature it can see within 10 feet\
@@ -98,9 +100,6 @@ An intellect devourer consumes a creature's mind and memories, then turns the ho
     "name": "Body Thief"
 "source":
   - "MM"
-  - "WDH"
-  - "WDMM"
-  - "ERLW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/intellect-devourer.webp"
 ```
 ^statblock

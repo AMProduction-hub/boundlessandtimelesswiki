@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gargantuan Rug of Smothering
+- "Gargantuan Rug of Smothering"
 ---
-# [Gargantuan Rug of Smothering](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/gargantuan-rug-of-smothering-tftyp.md)
+# [Gargantuan Rug of Smothering](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/gargantuan-rug-of-smothering-tftyp.md)
 *Source: Tales from the Yawning Portal p. 56*  
 
 ```statblock
@@ -38,7 +39,8 @@ aliases:
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 6"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 6"
 "languages": ""
 "cr": "2"
 "traits":
@@ -57,8 +59,8 @@ aliases:
       \ rug."
     "name": "False Appearance"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller\
-      \ creature. Hit: The creature is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one Medium or smaller\
+      \ creature. *Hit:* The creature is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
       \ and at risk of suffocating, and the rug can't smother another target. In addition,\

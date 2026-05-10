@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 aliases:
-- Chapter 5: Den of the Hill Giants
+- "Chapter 5: Den of the Hill Giants"
 ---
 # Chapter 5: Den of the Hill Giants
 *Source: Storm King's Thunder, p. 137* 
@@ -93,8 +94,6 @@ All the hill giants in Grudd Haug, with the exception of Guh, are enslaved males
 
 #### Grudd Haug Reinforcements
 
-`dice: [](06-chapter-5-den-of-the-hill-giants.md#^creature-s)`
-
 | dice: d100 | Creature(s) |
 |------------|-------------|
 | 01–50 | None |
@@ -109,7 +108,7 @@ All the hill giants in Grudd Haug, with the exception of Guh, are enslaved males
 
 Adventurers can use hit-and-run tactics to weaken Grudd Haug's defenses. Depending on how much time passes between the adventurers' forays, the hill giant den might gain reinforcements from the nearby hills.
 
-At the end of each hour, roll percentile dice and consult the Grudd Haug Reinforcements table to determine what creatures, if any, appear. Unless otherwise noted, such creatures enter through the stockyard (area 9) and go to the feasting hall (area 2), to pay homage or deliver food to [Chief Guh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/chief-guh-skt.md). There is a 25 percent chance that the creatures have `d4` prisoners (unarmed [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) in tow. If Guh commands the reinforcements to stay, they take up defensive positions in and around the stockyard after confining their prisoners in area 13. Otherwise, they leave by the route they came after 20 minutes or so.
+At the end of each hour, roll percentile dice and consult the Grudd Haug Reinforcements table to determine what creatures, if any, appear. Unless otherwise noted, such creatures enter through the stockyard (area 9) and go to the feasting hall (area 2), to pay homage or deliver food to [Chief Guh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/chief-guh-skt.md). There is a 25 percent chance that the creatures have `1d4` prisoners (unarmed [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) in tow. If Guh commands the reinforcements to stay, they take up defensive positions in and around the stockyard after confining their prisoners in area 13. Otherwise, they leave by the route they came after 20 minutes or so.
 
 ### Areas of Grudd Haug
 
@@ -131,7 +130,7 @@ Hruk is Moog's mate (see the "Old Tower" section in chapter 3). He longs to be r
 
 [Chief Guh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/chief-guh-skt.md) is found here, along with five male [hill giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/hill-giant.md), four [ogres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md), and six [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md). Oil lamps in iron sconces are mounted to thick wooden pillars that support rafters 30 feet from the floor and the roof, which peaks 65 feet overhead. Protruding from the north, west, and south walls is a 10-foot-wide, 20-foot-high wooden ledge that the goblins use to get around the room. (The ledge was added after several goblins were crushed underfoot by careless hill giants and ogres.) A wooden ladder climbs up to the ledge, and windows a couple of feet above the ledge let shafts of natural light into the hall.
 
-Eight sturdy but battered wooden tables covered with globs of grease, gnawed bones, empty casks, and scraps of food stand near the north and south walls, while empty ale barrels lie around and underneath them. Refuse covers the dried mud floor, in the middle of which are two 20-foot-diameter circular holes topped with crisscrossing wooden beams held in place by mud cement. The beams are far enough apart that a Medium or smaller creature can slip between them without having to squeeze. A horrible stench rises from the holes, accompanied by the squealing of pigs (seearea 12).
+Eight sturdy but battered wooden tables covered with globs of grease, gnawed bones, empty casks, and scraps of food stand near the north and south walls, while empty ale barrels lie around and underneath them. Refuse covers the dried mud floor, in the middle of which are two 20-foot-diameter circular holes topped with crisscrossing wooden beams held in place by mud cement. The beams are far enough apart that a Medium or smaller creature can slip between them without having to squeeze. A horrible stench rises from the holes, accompanied by the squealing of pigs (see area 12).
 
 [Chief Guh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/chief-guh-skt.md) lies at the west end of the hall, slumped atop a four-wheeled, flatbed wagon that bends and creaks under her great bulk. The wagon's axles are cracked and bowed, its wheels canted inward. Piled around the wagon are bones and other refuse from Guh's recent meals, as well as the treasures she has amassed (see "Treasure"). Guh weighs more than 20,000 pounds. She can't move, so she keeps her greatclub close by so that she can bop creatures on the noggin. She is a [hill giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/hill-giant.md) with the following changes:
 
@@ -215,7 +214,7 @@ Four [hobgoblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hobgobli
 
 #### Treasure
 
-Each hobgoblin carries `d10` gp in a pouch.
+Each hobgoblin carries `1d10` gp in a pouch.
 
 ### 9. Stockyard
 
@@ -223,7 +222,7 @@ Five crude tents stand in the middle of this muddy yard, surrounding a campfire.
 
 Use the [goat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/goat.md) for the [sheep](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/sheep-skt.md), with the following changes:
 
-- It is a Small beast with 3 (`d6`) hit points.  
+- It is a Small beast with 3 (`1d6`) hit points.  
 - Its speed is 30 feet.  
 - It lacks the Charge feature and any effective attacks.  
 - Its challenge rating is 0 (0 XP).  
@@ -240,7 +239,7 @@ Two [hill giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/hill-giant.
 
 #### Treasure
 
-The caves hold a total of ten sleeping pallets. Each hill giant pallet has a stuffed sack that doubles as a pillow. Each sack contains `3d6 × 100` cp, `2d6 × 100` sp, and `1d6 × 100` gp plus `d3` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
+The caves hold a total of ten sleeping pallets. Each hill giant pallet has a stuffed sack that doubles as a pillow. Each sack contains `3d6 × 100` cp, `2d6 × 100` sp, and `1d6 × 100` gp plus `1d3` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
 
 ### 11. Pigkeeper's Den
 
@@ -299,7 +298,7 @@ This damp cave belongs to Slub the hill giant (see area 14). It contains a sleep
 
 #### Treasure
 
-Lying next to the half-eaten orc is a bloodstained sack containing `3d6 × 100` cp, `2d6 × 100` sp, and `1d6 × 100` gp plus `d4` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
+Lying next to the half-eaten orc is a bloodstained sack containing `3d6 × 100` cp, `2d6 × 100` sp, and `1d6 × 100` gp plus `1d4` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
 
 ### 16. Smithy
 
@@ -309,7 +308,7 @@ Grudd Haug's blacksmith is a female [hobgoblin](03.PlayerLog&Handouts/Mechanics/
 
 #### Treasure
 
-The hobgoblin carries a pouch containing `d10` gp. Each goblin carries a pouch containing `d10` cp.
+The hobgoblin carries a pouch containing `1d10` gp. Each goblin carries a pouch containing `1d10` cp.
 
 > [!note] Character Advancement
 > 

@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/item/gear/
 - ttrpg-cli/item/rarity/none
-aliases: 
+aliases:
 - "Trinket"
 ---
 # Trinket
@@ -16,8 +17,6 @@ aliases:
 When you make your character, you can roll once on the Trinkets table to gain a trinket, a simple item lightly touched by mystery. The DM might also use this table. It can help stock a room in a dungeon or fill a creatures pockets.
 
 **Player's Handbook Trinket Table**
-
-`dice: [](trinket.md#^players-handbook-trinket-table)`
 
 | dice: d100 | Trinket |
 |------------|---------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Quandrix Pledgemage
+- "Quandrix Pledgemage"
 ---
-# [Quandrix Pledgemage](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/quandrix-pledgemage-scc.md)
+# [Quandrix Pledgemage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/quandrix-pledgemage-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 208*  
 
 The students of Quandrix College—first as apprentices and then as pledgemages—immerse themselves in the magic of geometry and metaphysics. Their ultimate goal isn't mastery, however. Rather, in their projects they explore and expand knowledge without expecting concrete answers. Whether students are extrapolating mathematical patterns in nature or engaging in speculative dives into topological formulas that bend reality, their studies blur the line between abstract numerical theory and natural reality.
@@ -39,8 +40,8 @@ The scholars of Quandrix College focus on the mathematical principles that gover
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+4"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -54,16 +55,16 @@ The scholars of Quandrix College focus on the mathematical principles that gover
 "actions":
   - "desc": "The pledgemage makes two Exponential Lash attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +5 to hit, reach 5 ft. or range 60\
-      \ ft., one target. Hit: 6 (1d6 + 3) force damage, and the pledgemage can\
+  - "desc": "*Melee  or Ranged Spell Attack:* +5 to hit, reach 5 ft. or range 60\
+      \ ft., one target. *Hit:* 6 (1d6 + 3) force damage, and the pledgemage can\
       \ cause one creature it can see within 30 feet of the target to take 10 (2d6\
       \ + 3) force damage."
     "name": "Exponential Lash"
   - "desc": "The pledgemage casts one of the following spells, requiring no material\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 13):\n\nAt will: [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
-      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n1/day\
-      \ each: [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
+      \ DC 13):\n\n**At will:** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n**1/day\
+      \ each:** [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [enlarge/reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [plant\
       \ growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/plant-growth.md)"

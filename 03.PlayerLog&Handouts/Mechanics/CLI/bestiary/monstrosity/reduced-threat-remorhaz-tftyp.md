@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reduced-Threat Remorhaz
+- "Reduced-Threat Remorhaz"
 ---
-# [Reduced-Threat Remorhaz](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/reduced-threat-remorhaz-tftyp.md)
+# [Reduced-Threat Remorhaz](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/reduced-threat-remorhaz-tftyp.md)
 *Source: Tales from the Yawning Portal p. 113*  
 
 ```statblock
@@ -33,7 +34,8 @@ aliases:
   - !!int "5"
 "speed": "30 ft., burrow 20 ft."
 "damage_immunities": "cold, fire"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 10"
 "languages": ""
 "cr": "11"
 "traits":
@@ -46,7 +48,7 @@ aliases:
       \ within 5 feet of it takes 10 (3d6) fire damage."
     "name": "Heated Body"
 "actions":
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
       \ 40 (6d10 + 7) piercing damage plus 10 (3d6) fire damage. If the target\
       \ is a creature, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\

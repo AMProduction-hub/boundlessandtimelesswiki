@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/selesnya-initiate
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/paladin
 - ttrpg-cli/spell/feat/adept-of-the-white-robes
@@ -17,14 +18,14 @@ tags:
 - ttrpg-cli/spell/subrace/human-mark-of-sentinel
 classes:
 - Artificer (Battle Smith)
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Cleric (Peace Domain)
 - Paladin
 - Paladin (Oath of the Crown)
 - Sorcerer (Divine Soul)
 aliases:
-- Warding Bond
+- "Warding Bond"
 ---
 # Warding Bond
 *2nd-level, Abjuration*  
@@ -39,6 +40,6 @@ This spell wards a willing creature you touch and creates a mystic connection be
 
 The spell ends if you drop to 0 hit points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures. You can also dismiss the spell as an action.
 
-**Classes**: [Cleric (Peace Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-peace-domain-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Paladin (Oath of the Crown)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-crown-scag.md "subclass=SCAG"); [Artificer (Battle Smith)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-battle-smith-tce.md "subclass=TCE;class=TCE"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
+**Classes**: [Artificer (Battle Smith)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-battle-smith-tce.md "subclass=TCE;class=TCE"); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Peace Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-peace-domain-tce.md "subclass=TCE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin (Oath of the Crown)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-crown-scag.md "subclass=SCAG"); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE")
 
 *Source: Player's Handbook p. 287. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

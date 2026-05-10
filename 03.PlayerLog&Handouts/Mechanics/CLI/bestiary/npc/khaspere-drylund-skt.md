@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Khaspere Drylund
+- "Khaspere Drylund"
 ---
-# [Khaspere Drylund](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/khaspere-drylund-skt.md)
+# [Khaspere Drylund](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/khaspere-drylund-skt.md)
 *Source: Storm King's Thunder p. 216*  
 
 ```statblock
@@ -39,11 +40,13 @@ aliases:
     "desc": "+4"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+5"
+"gear":
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Dwarvish, Elvish"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d8 + 1) piercing damage."
     "name": "Rapier"
 "reactions":

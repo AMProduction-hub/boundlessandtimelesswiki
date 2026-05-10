@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-reward
+cssclasses:
+- json5e-reward
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/reward/draconic-gift
 aliases:
-- Scaled Toughness
+- "Scaled Toughness"
 ---
 # Scaled Toughness
 *Draconic Gift, legendary*  

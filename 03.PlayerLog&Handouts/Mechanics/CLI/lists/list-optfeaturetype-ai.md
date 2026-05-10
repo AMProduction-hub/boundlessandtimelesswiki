@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
-- Artificer Infusion
+- "Artificer Infusion"
 ---
 # Artificer Infusion
 *Source: Tasha's Cauldron of Everything, Eberron: Rising from the Last War* 

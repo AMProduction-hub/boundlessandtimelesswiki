@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Adventures in the Carnival; Carnival Adventures
+- "Adventures in the Carnival; Carnival Adventures"
 ---
 # Adventures in the Carnival; Carnival Adventures
 *Source: Van Richten's Guide to Ravenloft p. 87* 
 
 **Carnival Adventures**
-
-`dice: [](adventures-in-the-carnival-carnival-adventures-vrgr.md#^carnival-adventures)`
 
 | dice: d4 | Adventure |
 |----------|-----------|

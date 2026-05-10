@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Madam Eva
+- "Madam Eva"
 ---
-# [Madam Eva](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/madam-eva-cos.md)
+# [Madam Eva](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/madam-eva-cos.md)
 *Source: Curse of Strahd p. 233*  
 
 The fortune-teller Madam Eva lives among the Vistani but isn't truly one of them. She appears to be in her seventies, but she is, in fact, much older.
@@ -63,7 +64,7 @@ None of Madam Eva's Vistani kin know her true identity or purpose. They puzzle o
   - !!int "18"
 "speed": "20 ft."
 "saves":
-  - "constitution": "+5"
+  - "constitution": !!int "5"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -77,39 +78,41 @@ None of Madam Eva's Vistani kin know her true identity or purpose. They puzzle o
     "desc": "+9"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+7"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 19"
 "languages": "Abyssal, Common, Elvish, Infernal"
 "cr": "10"
 "traits":
   - "desc": "Madam Eva is a 16th-level spellcaster. Her spellcasting ability is Wisdom\
       \ (spell save DC 17, +9 to hit with spell attacks). Madam Eva has the following\
-      \ cleric spells prepared:\n\nCantrips (at will): [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
+      \ cleric spells prepared:\n\n**Cantrips (at will):** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md), [sacred\
       \ flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md), [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md),\
+      \n**1st level (4 slots):** [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md),\
       \ [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md), [detect\
       \ evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
       \ [protection from evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md)\n\
-      \n2nd level (3 slots): [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md),\
+      \n**2nd level (3 slots):** [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md),\
       \ [protection from poison](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-poison.md),\
       \ [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md)\n\
-      \n3rd level (3 slots): [create food and water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-food-and-water.md),\
+      \n**3rd level (3 slots):** [create food and water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-food-and-water.md),\
       \ [speak with dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md),\
       \ [spirit guardians](03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-guardians.md)\n\
-      \n4th level (3 slots): [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md),\
+      \n**4th level (3 slots):** [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md),\
       \ [freedom of movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md),\
       \ [guardian of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/guardian-of-faith.md)\n\
-      \n5th level (2 slots): [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md),\
+      \n**5th level (2 slots):** [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md),\
       \ [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md)\n\n\
-      6th level (1 slots): [find the path](03.PlayerLog&Handouts/Mechanics/CLI/spells/find-the-path.md),\
+      **6th level (1 slots):** [find the path](03.PlayerLog&Handouts/Mechanics/CLI/spells/find-the-path.md),\
       \ [harm](03.PlayerLog&Handouts/Mechanics/CLI/spells/harm.md), [true seeing](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-seeing.md)\n\
-      \n7th level (1 slots): [fire storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-storm.md),\
+      \n**7th level (1 slots):** [fire storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-storm.md),\
       \ [regenerate](03.PlayerLog&Handouts/Mechanics/CLI/spells/regenerate.md)\n\n\
-      8th level (1 slots): [earthquake](03.PlayerLog&Handouts/Mechanics/CLI/spells/earthquake.md)"
+      **8th level (1 slots):** [earthquake](03.PlayerLog&Handouts/Mechanics/CLI/spells/earthquake.md)"
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) piercing damage."
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d4) piercing damage."
     "name": "Dagger"
   - "desc": "Madam Eva targets one creature that she can see within 30 feet of her.\
       \ The target must succeed on a DC 17 Wisdom saving throw or be cursed. While\

@@ -1,14 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/optional-feature/pb
 aliases:
-- Pact of the Blade
+- "Pact of the Blade"
 ---
 # Pact of the Blade
 *Source: Player's Handbook p. 107. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+
 You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it (see chapter 5 for weapon options). You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
 
 Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.

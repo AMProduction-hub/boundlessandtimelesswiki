@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bristled Moorbounder
+- "Bristled Moorbounder"
 ---
-# [Bristled Moorbounder](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/bristled-moorbounder-egw.md)
+# [Bristled Moorbounder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/bristled-moorbounder-egw.md)
 *Source: Explorer's Guide to Wildemount p. 295*  
 
 A weird and deadly offshoot of the moorbounder has rows of long, bladelike bristles covering its sleek body. The creature weaponizes these blades, using them to slash nearby creatures to ribbons. However, these blades make the bristled moorbounder less suitable as a mount.
@@ -40,7 +41,8 @@ Moorbounders hunt with elongated tusks and retractable claws. With a vague resem
   - !!int "13"
   - !!int "5"
 "speed": "70 ft."
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": ""
 "cr": "3"
 "traits":
@@ -54,10 +56,10 @@ Moorbounders hunt with elongated tusks and retractable claws. With a vague resem
   - "desc": "The moorbounder makes two attacks: one with its blades and one with its\
       \ claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage."
     "name": "Blades"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (4d4 + 4) slashing damage."
     "name": "Claws"
 "source":

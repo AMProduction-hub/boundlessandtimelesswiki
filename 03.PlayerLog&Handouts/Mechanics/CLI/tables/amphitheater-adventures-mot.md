@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Amphitheater Adventures
+- "Amphitheater Adventures"
 ---
 # Amphitheater Adventures
 *Source: Mythic Odysseys of Theros p. 166* 
 
 **Amphitheater Adventures**
-
-`dice: [](amphitheater-adventures-mot.md#^amphitheater-adventures)`
 
 | dice: d10 | Adventure Goal |
 |-----------|----------------|

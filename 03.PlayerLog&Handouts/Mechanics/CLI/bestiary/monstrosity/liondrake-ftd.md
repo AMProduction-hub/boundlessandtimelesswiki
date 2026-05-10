@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Liondrake
+- "Liondrake"
 ---
-# [Liondrake](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/liondrake-ftd.md)
+# [Liondrake](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/liondrake-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 207*  
 
 A liondrake is a solitary and territorial predator with the long neck and wings of a brass dragon and the head and body of a lion (including a luxurious mane on males). Sometimes known as dragonnes, liondrakes rely on their ferocity and their frightful roar to overcome prey and drive off rivals.
@@ -39,17 +40,18 @@ Liondrakes are voracious hunters that range across well-established territories.
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
-"senses": "darkvision 60 ft., passive Perception 17"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 17"
 "languages": "Draconic"
 "cr": "7"
 "actions":
   - "desc": "The liondrake makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (2d10 + 4) piercing damage. If the target is a Medium or smaller creature,\
       \ it must succeed on a DC 15 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage."
     "name": "Claw"
   - "desc": "The liondrake lets out a terrifying roar audible out to 300 feet. Any\

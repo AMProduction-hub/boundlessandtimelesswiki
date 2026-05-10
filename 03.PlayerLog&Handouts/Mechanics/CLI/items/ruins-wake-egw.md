@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/artifact
 - ttrpg-cli/item/weapon/melee
 - ttrpg-cli/item/weapon/simple
-aliases: 
+aliases:
 - "Ruin's Wake"
 ---
 # Ruin's Wake
@@ -18,7 +19,7 @@ aliases:
   - One-handed: 1d6 piercing
   - Two-handed: 1d8 piercing
 - **Range**: 20/60
-- **Properties**: [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown), [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile), Vestige of Divergence
+- **Properties**: [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown), [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Weight**: 3.0 lbs.
 
 This spear is made from the ivory bone of an ancient gold dragon and carved with an Orc hymn to Gruumsh.

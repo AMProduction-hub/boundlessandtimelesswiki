@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/artifact
 - ttrpg-cli/item/weapon/melee
 - ttrpg-cli/item/weapon/simple
-aliases: 
+aliases:
 - "Blade of Broken Mirrors (Exalted)"
 ---
 # Blade of Broken Mirrors (Exalted)
@@ -16,7 +17,7 @@ aliases:
 
 - **Damage**: 1d4 piercing
 - **Range**: 20/60
-- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light), [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown), Vestige of Divergence
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light), [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown)
 - **Weight**: 1.0 lbs.
 
 A weapon of Tharizdun, this dagger is a piece of jagged stone whose blade is scribed with a maze-like pattern with no beginning or end.

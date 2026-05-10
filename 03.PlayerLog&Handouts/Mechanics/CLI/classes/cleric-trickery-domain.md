@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/domain/trickery
 - ttrpg-cli/subclass/cleric/trickery
 aliases:
-- Trickery Domain
+- "Trickery Domain"
 ---
 # Trickery Domain
 *[Cleric](./cleric.md): Divine Domain*  
@@ -44,11 +45,11 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Trickery Domain (Level 1)
-
 Gods of trickery—such as Tymora, Beshaba, [Olidammara](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-olidammara.md), the Traveler, [Garl Glittergold](03.PlayerLog&Handouts/Mechanics/CLI/deities/nonhuman-garl-glittergold.md), and [Loki](03.PlayerLog&Handouts/Mechanics/CLI/deities/norse-loki.md)—are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.
+
+## Subclass Features
+
+### Domain Spells (Level 1)
 
 At each indicated cleric level, you add the listed spells to your spells prepared.
 
@@ -83,14 +84,14 @@ As an action, you become [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/c
 
 ### Divine Strike (Level 8)
 
-At 8th level, you gain the ability to infuse your weapon strikes with poison—a gift from your deity. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `d8` poison damage to the target. When you reach 14th level, the extra damage increases to `2d8`.
+At 8th level, you gain the ability to infuse your weapon strikes with poison—a gift from your deity. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `1d8` poison damage to the target. When you reach 14th level, the extra damage increases to `2d8`.
 
 ### Blessed Strikes (Level 8)
 _Source: Tasha's Cauldron of Everything p. 30_
 
 *8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Divine Strike feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Improved Duplicity (Level 17)
 

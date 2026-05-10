@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Chapter 1: Character Creation
+- "Chapter 1: Character Creation"
 ---
 # Chapter 1: Character Creation
 *Source: Eberron: Rising from the Last War, p. 17* 
 
 The skyscrapers of Sharn rise up before you, the spires glimmering with magical lights. Or wind rushes through your hair as the airship you're riding races toward adventure in the jungles of Q'barra. Or you hunt Emerald Claw agents on the lightning rail, creeping through one train car after another. Or you chart another adventurous course on the war-torn continent of Khorvaire. Whatever path your character takes in Eberron, consider how the world affects your character.
 
-![With a homunculus on her s...](03.PlayerLog&Handouts/Mechanics/CLI/books/eberron-rising-from-the-last-war/img/004-1-01.webp#center "With a homunculus on her shoulder, the gnome artificer Vi brandishes her Arcane Firearm, as a heavily armored warforged stands guard.")
+![With a homunculus on her shoulder, the gnome artificer Vi brandishes her Arcane Firearm, as a heavily armored warforged stands guard.](03.PlayerLog&Handouts/Mechanics/CLI/books/eberron-rising-from-the-last-war/img/004-1-01.webp#center)
 
 Building on the book's introduction, this chapter reveals how you can create a character shaped by Eberron and its war-filled history. The chapter offers you the following choices:
 
@@ -389,10 +390,10 @@ See the [Orc](03.PlayerLog&Handouts/Mechanics/CLI/races/orc-mpmm.md) entry.
 
 See the following entries:
 
-- [Shifter (Beasthide)](03.PlayerLog&Handouts/Mechanics/CLI/races/shifter-beasthide-erlw.md)  
-- [Shifter (Longtooth)](03.PlayerLog&Handouts/Mechanics/CLI/races/shifter-longtooth-erlw.md)  
-- [Shifter (Swiftstride)](03.PlayerLog&Handouts/Mechanics/CLI/races/shifter-swiftstride-erlw.md)  
-- [Shifter (Wildhunt)](03.PlayerLog&Handouts/Mechanics/CLI/races/shifter-wildhunt-erlw.md)  
+- [Shifter (Beasthide)](03.PlayerLog&Handouts/Mechanics/CLI/races/shifter-mpmm.md)  
+- [Shifter (Longtooth)](03.PlayerLog&Handouts/Mechanics/CLI/races/shifter-mpmm.md)  
+- [Shifter (Swiftstride)](03.PlayerLog&Handouts/Mechanics/CLI/races/shifter-mpmm.md)  
+- [Shifter (Wildhunt)](03.PlayerLog&Handouts/Mechanics/CLI/races/shifter-mpmm.md)  
 
 ## Tieflings
 

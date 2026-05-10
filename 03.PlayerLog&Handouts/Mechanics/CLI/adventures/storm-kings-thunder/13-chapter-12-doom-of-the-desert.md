@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 aliases:
-- Chapter 12: Doom of the Desert
+- "Chapter 12: Doom of the Desert"
 ---
 # Chapter 12: Doom of the Desert
 *Source: Storm King's Thunder, p. 225* 
@@ -104,7 +105,7 @@ Several sinkholes lead down to the lower chambers.
 - A large open sinkhole in the middle of the amphitheater drops down into area 2; [Iymrith](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/iymrith-skt.md) uses it to enter and exit her lair.  
 - Three hidden sinkholes are marked 1A, 1B, and 1C on the map.  
 
-The first creature to enter a hidden sinkhole's space causes the sinkhole to appear and must succeed on a DC 15 Dexterity saving throw or fall to the bottom of it. A creature that falls into a sinkhole lands [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) but takes no damage, since the sand cushions its fall. The sinkhole remains open thereafter. Sinkhole 1A drops down into a rough-hewn passage that connects areas 4 and 5. Sinkhole 1B is directly above the purple wormling pit in area 5, and any creature falling into it is [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised) and attacked by `d4` purple wormlings. Sinkhole 1C drops down into a rough-hewn cave west of areas 2 and 3.
+The first creature to enter a hidden sinkhole's space causes the sinkhole to appear and must succeed on a DC 15 Dexterity saving throw or fall to the bottom of it. A creature that falls into a sinkhole lands [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) but takes no damage, since the sand cushions its fall. The sinkhole remains open thereafter. Sinkhole 1A drops down into a rough-hewn passage that connects areas 4 and 5. Sinkhole 1B is directly above the purple wormling pit in area 5, and any creature falling into it is [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised) and attacked by `1d4` purple wormlings. Sinkhole 1C drops down into a rough-hewn cave west of areas 2 and 3.
 
 #### Stairs Down
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Manshoon Simulacrum
+- "Manshoon Simulacrum"
 ---
-# [Manshoon Simulacrum](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/manshoon-simulacrum-wdh.md)
+# [Manshoon Simulacrum](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/manshoon-simulacrum-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 208*  
 
 Manshoon uses the [simulacrum](03.PlayerLog&Handouts/Mechanics/CLI/spells/simulacrum.md) spell to create a magical duplicate of himself as needed. He has customized the spell to increase his simulacrum's hit points at the expense of its spellcasting ability.
@@ -41,41 +42,42 @@ Manshoon can have only one simulacrum at any given time, and he uses it as a sub
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+11"
-  - "wisdom": "+7"
+  - "intelligence": !!int "11"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+12"
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+12"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Draconic, Goblin, Infernal, Orc, Undercommon"
 "cr": "8"
 "traits":
   - "desc": "Manshoon is an 18th-level spellcaster. His spellcasting ability is Intelligence\
       \ (spell save DC 19, +11 to hit with spell attacks). He has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
-      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**1st level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [magic\
       \ missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md), [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\
-      \n2nd level (3 slots): [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \n**2nd level (3 slots):** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md)\n\n\
-      3rd level (3 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      **3rd level (3 slots):** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md),\
-      \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)\n\n4th\
-      \ level (3 slots): [fire shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-shield.md),\
+      \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)\n\n**4th\
+      \ level (3 slots):** [fire shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-shield.md),\
       \ [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md),\
-      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\n5th\
-      \ level (3 slots): [Bigby's hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/bigbys-hand.md),\
+      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\n**5th\
+      \ level (3 slots):** [Bigby's hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/bigbys-hand.md),\
       \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md), [wall of\
       \ force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md)"
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) bludgeoning damage."
     "name": "Metal Fist"
 "source":

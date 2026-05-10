@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/15
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Felgolos
+- "Felgolos"
 ---
-# [Felgolos](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/felgolos-skt.md)
+# [Felgolos](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/felgolos-skt.md)
 *Source: Storm King's Thunder p. 192*  
 
 ```statblock
@@ -33,10 +34,10 @@ aliases:
   - !!int "19"
 "speed": "40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+5"
-  - "constitution": "+11"
-  - "wisdom": "+7"
-  - "charisma": "+9"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "11"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+7"
@@ -45,7 +46,9 @@ aliases:
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_immunities": "lightning"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 22"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 22"
 "languages": "Common, Draconic"
 "cr": "15"
 "traits":
@@ -57,13 +60,13 @@ aliases:
   - "desc": "Felgolos can use its Frightful Presence. It then makes three attacks:\
       \ one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:*\
       \ 18 (2d10 + 7) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 14 (2d6 + 7) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 15 ft., one target. *Hit:*\
       \ 16 (2d8 + 7) bludgeoning damage."
     "name": "Tail"
   - "desc": "Each creature of Felgolos's choice that is within 120 feet of Felgolos\
@@ -73,11 +76,11 @@ aliases:
       \ throw is successful or the effect ends for it, the creature is immune to Felgolos's\
       \ Frightful Presence for the next 24 hours."
     "name": "Frightful Presence"
-  - "desc": "Felgolos uses one of the following breath weapons.\n\n- Lightning Breath.\
+  - "desc": "Felgolos uses one of the following breath weapons.\n\n- **Lightning Breath.**\
       \ Felgolos exhales lightning in a 90-foot line that is 5 feet wide. Each creature\
       \ in that line must make a DC 19 Dexterity saving throw, taking 66 (12d10)\
       \ lightning damage on a failed save, or half as much damage on a successful\
-      \ one.  \n- Repulsion Breath. Felgolos exhales repulsion energy in a 30-foot\
+      \ one.  \n- **Repulsion Breath.** Felgolos exhales repulsion energy in a 30-foot\
       \ cone. Each creature in that area must succeed on a DC 19 Strength saving throw.\
       \ On a failed save, the creature is pushed 60 feet away from Felgolos.  "
     "name": "Breath Weapons (Recharge 5-6)"
@@ -91,6 +94,9 @@ aliases:
       \ by those of the new form, except any class features or legendary actions of\
       \ that form."
     "name": "Change Shape"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Felgolos can expend a use to take one of the following actions. Felgolos\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Felgolos makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ check."

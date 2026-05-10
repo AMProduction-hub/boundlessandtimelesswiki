@@ -1,30 +1,32 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/4th-level
+- ttrpg-cli/spell/reward/charm-of-the-mirage
 - ttrpg-cli/spell/school/illusion
 - ttrpg-cli/spell/subclass/arcane-trickster
-- ttrpg-cli/spell/subclass/circle-of-the-land
+- ttrpg-cli/spell/subclass/circle-of-the-land/desert
 - ttrpg-cli/spell/subclass/eldritch-knight
-- ttrpg-cli/spell/subclass/lunar-sorcery
+- ttrpg-cli/spell/subclass/lunar-sorcery/full-moon
 - ttrpg-cli/spell/subrace/elf-mark-of-shadow
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Druid
-- Druid (Circle of the Land)
+- Druid (Circle of the Land, Desert)
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
-- Sorcerer (Lunar Sorcery)
+- Sorcerer (Lunar Sorcery, Full Moon)
 - Warlock
 - Wizard
 aliases:
-- Hallucinatory Terrain
+- "Hallucinatory Terrain"
 ---
 # Hallucinatory Terrain
 *4th-level, Illusion*  
@@ -39,6 +41,6 @@ You make natural terrain in a 150-foot cube in range look, sound, and smell like
 
 The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the illusion. If the difference isn't obvious by touch, a creature carefully examining the illusion can attempt an Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check against your spell save DC to disbelieve it. A creature who discerns the illusion for what it is, sees it as a vague image superimposed on the terrain.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer (Lunar Sorcery)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-lunar-sorcery-dsotdq.md "subclass=DSotDQ")
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid (Circle of the Land, Desert)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer (Lunar Sorcery, Full Moon)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-lunar-sorcery-dsotdq.md "subclass=DSotDQ"); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 249. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Enhanced Medusa
+- "Enhanced Medusa"
 ---
-# [Enhanced Medusa](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/enhanced-medusa-imr.md)
+# [Enhanced Medusa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/enhanced-medusa-imr.md)
 *Source: Infernal Machine Rebuild p. 47*  
 
 ```statblock
@@ -41,13 +42,17 @@ aliases:
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "truesight 120 ft., passive Perception 14"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 14"
 "languages": "Common"
 "cr": "6"
 "traits":
   - "desc": "The medusa's innate spellcasting ability is Charisma (spell save DC 13).\
       \ The medusa can innately cast the following spells, requiring no material components:\n\
-      \nCantrips (at will): [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md)"
+      \n**Cantrips (at will):** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md)"
     "name": "Innate Spellcasting"
   - "desc": "When a creature that can see the medusa's eyes starts its turn within\
       \ 30 feet of the medusa, the medusa can force it to make a DC 14 Constitution\
@@ -74,13 +79,13 @@ aliases:
   - "desc": "The medusa makes either three melee attacks—one with its snake hair and\
       \ two with its shortsword—or two ranged attacks with its longbow."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d4 + 2) piercing damage plus 14 (4d6) poison damage."
     "name": "Snake Hair"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 150/600 ft., one target. *Hit:*\
       \ 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage."
     "name": "Longbow"
 "source":

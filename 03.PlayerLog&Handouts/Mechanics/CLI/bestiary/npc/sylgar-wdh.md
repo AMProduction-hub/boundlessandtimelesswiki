@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sylgar
+- "Sylgar"
 ---
-# [Sylgar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sylgar-wdh.md)
+# [Sylgar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sylgar-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 220*  
 
 Xanathar's pet fish.
@@ -33,14 +34,15 @@ Xanathar's pet fish.
   - !!int "7"
   - !!int "2"
 "speed": "0 ft., swim 40 ft."
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": ""
 "cr": "0"
 "traits":
   - "desc": "Sylgar can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1\
       \ piercing damage."
     "name": "Bite"
 "source":

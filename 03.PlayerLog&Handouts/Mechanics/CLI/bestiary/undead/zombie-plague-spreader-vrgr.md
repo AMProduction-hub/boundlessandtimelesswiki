@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Zombie Plague Spreader
+- "Zombie Plague Spreader"
 ---
-# [Zombie Plague Spreader](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/zombie-plague-spreader-vrgr.md)
+# [Zombie Plague Spreader](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie-plague-spreader-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 255*  
 
 Among the undead, a lone zombie ranks far from the most menacing. The horror of the shambling dead lies not in their individual menace, though, but their numbers, their persistence, and their disregard for their own well-being. A throng of zombies will douse a forest fire with their own ashes or march into a dragon's maw until the monster chokes. In the course of their relentless marches, zombies might suffer all manner of trauma, potentially reducing them to masses of crawling limbs (see swarm of zombie limbs), infecting them with terrible diseases, or crushing an entire horde into a single, rotting titan (see zombie clot).
@@ -21,8 +22,6 @@ Among the undead, a lone zombie ranks far from the most menacing. The horror of 
 Among the types of horror adventures detailed in "chapter 2", tales of uncontrolled zombie outbreaks orbit the "dark fantasy" and "disaster horror" genres. The horror of these adventures focuses not on the terror of a single zombie, but of countless individual threats overwhelming society. When creating your own undead calamities, consider the plots presented on the Zombie Apocalypses table.
 
 **Zombie Apocalypses**
-
-`dice: [](zombie-plague-spreader-vrgr.md#^zombie-apocalypses)`
 
 | dice: d4 | Zombie Plot |
 |----------|-------------|
@@ -54,7 +53,8 @@ Among the types of horror adventures detailed in "chapter 2", tales of uncontrol
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 7"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 7"
 "languages": "understands the languages it knew in life but can't speak"
 "cr": "4"
 "traits":
@@ -73,7 +73,7 @@ Among the types of horror adventures detailed in "chapter 2", tales of uncontrol
 "actions":
   - "desc": "The plague spreader makes two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) bludgeoning damage plus 9 (2d8) necrotic damage."
     "name": "Slam"
   - "desc": "The plague spreader releases toxic gas in a 30-foot-radius sphere centered\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hrabbaz
+- "Hrabbaz"
 ---
-# [Hrabbaz](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/hrabbaz-wdh.md)
+# [Hrabbaz](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hrabbaz-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 205*  
 
 Hrabbaz is a muscle-bound half-orc with a cleft palate who serves the lord and lady of House Gralhund as a bodyguard. He is well mannered and dresses impeccably-a disarming appearance that belies a murderous heart. Though he has great respect for Lady Yalah Gralhund, he is less fond of her moody husband, and wouldn't be sad to see Orond knocked down a peg or two.
@@ -35,8 +36,8 @@ Hrabbaz is a muscle-bound half-orc with a cleft palate who serves the lord and l
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "strength": "+8"
-  - "constitution": "+6"
+  - "strength": !!int "8"
+  - "constitution": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+8"
@@ -44,7 +45,10 @@ Hrabbaz is a muscle-bound half-orc with a cleft palate who serves the lord and l
     "desc": "+4"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 15"
+"gear":
+  - "[morningstar](03.PlayerLog&Handouts/Mechanics/CLI/items/morningstar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Common, Orc"
 "cr": "5"
 "traits":
@@ -55,12 +59,12 @@ Hrabbaz is a muscle-bound half-orc with a cleft palate who serves the lord and l
       \ to 1 hit point instead."
     "name": "Relentless Endurance (Recharges after a Long Rest)"
   - "desc": "As long as Hrabbaz has more than half his hit points left he deals an\
-      \ extra 3 (d6) damage on all hits."
+      \ extra 3 (1d6) damage on all hits."
     "name": "Extra Damage"
 "actions":
   - "desc": "Hrabbaz makes three attacks with his morningstar."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d8 + 5) piercing damage."
     "name": "Morningstar"
 "source":

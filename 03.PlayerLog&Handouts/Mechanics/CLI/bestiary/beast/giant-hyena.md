@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -13,10 +14,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Hyena
+- "Giant Hyena"
 ---
-# [Giant Hyena](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-hyena.md)
-*Source: Monster Manual p. 326, Tales from the Yawning Portal, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Hyena](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-hyena.md)
+*Source: Monster Manual p. 326. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Giant Hyena"
@@ -47,14 +48,11 @@ aliases:
       \ and make a bite attack."
     "name": "Rampage"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) piercing damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "TftYP"
-  - "GoS"
-  - "BGDIA"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-hyena.webp"
 ```
 ^statblock

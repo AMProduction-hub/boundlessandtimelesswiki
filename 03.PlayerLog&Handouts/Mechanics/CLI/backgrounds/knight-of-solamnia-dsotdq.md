@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/dsotdq
 aliases:
-- Knight of Solamnia
+- "Knight of Solamnia"
 ---
 # Knight of Solamnia
 *Source: Dragonlance: Shadow of the Dragon Queen p. 30*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/img/knight-of-solamnia.webp#right)
 
-***Prerequisites***  Campaign
+***Prerequisites*** Dragonlance Campaign
 
 - **Skill Proficiencies.** [Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics), [Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)  
 - **Languages.** Two of your choice  
@@ -36,8 +37,6 @@ For a more unusual take on a Knight of Solamnia character, consider playing a ba
 When you make your character, roll once on the Knight of Solamnia Trinkets table instead of on the [Trinkets table](03.PlayerLog&Handouts/Mechanics/CLI/items/trinket.md) in the Player's Handbook for your starting trinket.
 
 **Knight of Solamnia Trinkets**
-
-`dice: [](knight-of-solamnia-dsotdq.md#^knight-of-solamnia-trinkets)`
 
 | dice: d6 | Trinket |
 |----------|---------|

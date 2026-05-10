@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/rot
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Carnivorous Flower
+- "Carnivorous Flower"
 ---
-# [Carnivorous Flower](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/carnivorous-flower-rot.md)
+# [Carnivorous Flower](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/carnivorous-flower-rot.md)
 *Source: The Rise of Tiamat p. 67, Tyranny of Dragons p. 153*  
 
 ```statblock
@@ -33,8 +34,9 @@ aliases:
   - !!int "6"
 "speed": "0 ft."
 "saves":
-  - "constitution": "+7"
-"senses": "darkvision 120 ft., passive Perception 11"
+  - "constitution": !!int "7"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": "Otyugh"
 "cr": "5"
 "traits":
@@ -45,17 +47,17 @@ aliases:
 "actions":
   - "desc": "The plant makes three attacks: one with its bite and two with its tentacles."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d8 + 3) piercing damage. If the target is a creature, it must succeed\
       \ on a DC 15 Constitution saving throw against disease or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ until the disease is cured. Every 24 hours that elapse, the target must repeat\
-      \ the saving throw, reducing its hit point maximum by 5 (d10) on a failure.\
+      \ the saving throw, reducing its hit point maximum by 5 (1d10) on a failure.\
       \ The disease is cured on a success. The target dies if the disease reduces\
       \ its hit point maximum to 0. This reduction to the target's hit point maximum\
       \ lasts until the disease is cured."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
-      \ 7 (1d8 + 3) bludgeoning damage plus 4 (d8) piercing damage. If the target\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
+      \ 7 (1d8 + 3) bludgeoning damage plus 4 (1d8) piercing damage. If the target\
       \ is Medium or smaller, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13) and [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ until the grapple ends. The plant has two tentacles, each of which can grapple\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Narth Tezrin
+- "Narth Tezrin"
 ---
-# [Narth Tezrin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/narth-tezrin-skt.md)
+# [Narth Tezrin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/narth-tezrin-skt.md)
 *Source: Storm King's Thunder p. 254*  
 
 Narth sells gear to adventurers, and he also has an adventurous spirit. The Lionshield Coster pays him well, but he longs to make a name for himself. At the same time, he runs a business with his partner Alaestra and knows she wouldn't forgive him if he ran off and never returned.
@@ -49,11 +50,15 @@ Flaw:"I'll risk life and limb to become a legend."
     "desc": "+6"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+5"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 16"
 "languages": "Common, Dwarvish"
 "traits":
-  - "desc": "On each of his turns, Narth can use a bonus action to take the Dash,\
-      \ Disengage, or Hide action."
+  - "desc": "On each of his turns, Narth can use a bonus action to take the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash),\
+      \ [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage),\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action."
     "name": "Cunning Action"
   - "desc": "Narth sells gear to adventurers, and he also has an adventurous spirit.\
       \ The Lionshield Coster pays him well, but he longs to make a name for himself.\
@@ -64,10 +69,10 @@ Flaw:"I'll risk life and limb to become a legend."
       \ limb to become a legend.-\""
     "name": "Roleplaying Information"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage. Narth carries twenty crossbow bolts."
     "name": "Hand Crossbow"
 "source":

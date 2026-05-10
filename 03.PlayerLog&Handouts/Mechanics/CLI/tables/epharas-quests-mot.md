@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Ephara's Quests
+- "Ephara's Quests"
 ---
 # Ephara's Quests
 *Source: Mythic Odysseys of Theros p. 120* 
 
 **Ephara's Quests**
-
-`dice: [](epharas-quests-mot.md#^epharas-quests)`
 
 | dice: d6 | Adventure Goal |
 |----------|----------------|

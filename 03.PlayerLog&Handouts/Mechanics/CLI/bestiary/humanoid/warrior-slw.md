@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/slw
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Warrior
+- "Warrior"
 ---
-# [Warrior](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/warrior-slw.md)
+# [Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/warrior-slw.md)
 *Source: Storm Lord's Wrath*  
 
 ```statblock
@@ -34,7 +35,7 @@ aliases:
   - !!int "10"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+5"
+  - "constitution": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+6"
@@ -42,6 +43,9 @@ aliases:
     "desc": "+4"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+4"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
 "senses": "passive Perception 14"
 "languages": "Common, plus one of your choice"
 "traits":
@@ -50,8 +54,8 @@ aliases:
   - "desc": "The warrior's attack rolls score a critical hit on a roll of 19 or 20\
       \ on the d20."
     "name": "Improved Critical"
-  - "desc": "The warrior has one of the following traits of your choice:\n\n- Attacker.\
-      \ The warrior gains a +2 bonus to attack rolls.  \n- Defender. The warrior\
+  - "desc": "The warrior has one of the following traits of your choice:\n\n- **Attacker.**\
+      \ The warrior gains a +2 bonus to attack rolls.  \n- **Defender.** The warrior\
       \ gains the Protection reaction below.  "
     "name": "Martial Role"
 "actions":
@@ -59,11 +63,11 @@ aliases:
       \ [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action\
       \ on its turn."
     "name": "Extra Attack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with\
       \ two hands."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 150/600 ft., one target. *Hit:*\
       \ 6 (1d8 + 2) piercing damage."
     "name": "Longbow"
 "reactions":

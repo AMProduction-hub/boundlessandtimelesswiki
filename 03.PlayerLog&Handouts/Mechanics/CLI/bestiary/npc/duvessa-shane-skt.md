@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Duvessa Shane
+- "Duvessa Shane"
 ---
-# [Duvessa Shane](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/duvessa-shane-skt.md)
+# [Duvessa Shane](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/duvessa-shane-skt.md)
 *Source: Storm King's Thunder p. 248*  
 
 The daughter of a Waterdhavian trader and a tavern server, Duvessa has her mother's talent for negotiation and her father's charm. As the first woman to serve as Town Speaker of Bryn Shander, and a young one at that, she has much to prove.
@@ -47,6 +48,8 @@ Flaw:"I don't give an inch in any argument or conflict."
     "desc": "+4"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+5"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Dwarvish, Giant, Orc"
 "traits":
@@ -59,8 +62,8 @@ Flaw:"I don't give an inch in any argument or conflict."
       \ any argument of conflict.\""
     "name": "Roleplaying Information"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 2 (d4) piercing damage. Duvessa carries only one\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +2 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 2 (1d4) piercing damage. Duvessa carries only one\
       \ dagger."
     "name": "Dagger"
 "reactions":

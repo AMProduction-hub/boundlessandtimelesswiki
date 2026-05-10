@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/8
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Diviner Wizard
+- "Diviner Wizard"
 ---
-# [Diviner Wizard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/diviner-wizard-mpmm.md)
+# [Diviner Wizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/diviner-wizard-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 261, Volo's Guide to Monsters p. 213*  
 
 Diviners peer into the future and know that knowledge is power. They might act aloof and mysterious, hinting at omens and secrets, or they might be know-it-alls, spilling insights to advance their own status.
@@ -40,8 +41,8 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+7"
-  - "wisdom": "+4"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -53,8 +54,8 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "actions":
   - "desc": "The diviner makes three Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 20 (3d10 + 4) radiant damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +7 to hit, reach 5 ft. or range 120\
+      \ ft., one target. *Hit:* 20 (3d10 + 4) radiant damage."
     "name": "Arcane Burst"
   - "desc": "The diviner magically creates a burst of illumination in a 10-foot-radius\
       \ sphere centered on a point within 120 feet of it. Each creature in that area\
@@ -64,16 +65,16 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
       \ takes half as much damage and isn't [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)."
     "name": "Overwhelming Revelation (Recharge 5-6)"
   - "desc": "The diviner casts one of the following spells, using Intelligence as\
-      \ the spellcasting ability (spell save DC 15):\n\nAt will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ the spellcasting ability (spell save DC 15):\n\n**At will:** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n2/day each: [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md),\
+      \n**2/day each:** [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md),\
       \ [locate object](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-object.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [Rary's\
       \ telepathic bond](03.PlayerLog&Handouts/Mechanics/CLI/spells/rarys-telepathic-bond.md)\n\
-      \n1/day each: [true seeing](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-seeing.md)"
+      \n**1/day each:** [true seeing](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-seeing.md)"
     "name": "Spellcasting"
 "reactions":
   - "desc": "When the diviner or a creature it can see makes an attack roll, a saving\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Minotaur Living Crystal Statue
+- "Minotaur Living Crystal Statue"
 ---
-# [Minotaur Living Crystal Statue](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/minotaur-living-crystal-statue-gos.md)
+# [Minotaur Living Crystal Statue](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/minotaur-living-crystal-statue-gos.md)
 *Source: Ghosts of Saltmarsh p. 245*  
 
 Given life through powerful magic, a large, crudely carved crystal minotaur guards the tunnels in Isle of the Abbey.
@@ -42,7 +43,10 @@ Given life through powerful magic, a large, crudely carved crystal minotaur guar
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "6"
 "traits":
@@ -51,10 +55,10 @@ Given life through powerful magic, a large, crudely carved crystal minotaur guar
 "actions":
   - "desc": "The statue makes two attacks: one with its greataxe and one gore attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 17\
       \ (2d12 + 4) slashing damage."
     "name": "Greataxe"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) piercing damage."
     "name": "Gore"
 "reactions":

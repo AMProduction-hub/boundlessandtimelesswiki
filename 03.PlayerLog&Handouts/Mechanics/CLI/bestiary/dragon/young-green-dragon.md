@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/8
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Young Green Dragon
+- "Young Green Dragon"
 ---
-# [Young Green Dragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/young-green-dragon.md)
-*Source: Monster Manual p. 94, Storm King's Thunder, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Hunt for the Thessalhydra. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Young Green Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-green-dragon.md)
+*Source: Monster Manual p. 94. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 The most cunning and treacherous of true dragons, green dragons use misdirection and trickery to get the upper hand against their enemies. Nasty tempered and thoroughly evil, they take special pleasure in subverting and corrupting the good-hearted. In the ancient forests they roam, green dragons demonstrate an aggression that is often less about territory than it is about gaining power and wealth with as little effort as possible.
 
@@ -124,10 +125,10 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
   - !!int "15"
 "speed": "40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+6"
-  - "wisdom": "+4"
-  - "charisma": "+5"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+5"
@@ -137,7 +138,9 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
     "desc": "+4"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 17"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 17"
 "languages": "Common, Draconic"
 "cr": "8"
 "traits":
@@ -146,10 +149,10 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 "actions":
   - "desc": "The dragon makes three attacks: one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 15 (2d10 + 4) piercing damage plus 7 (2d6) poison damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales poisonous gas in a 30-foot cone. Each creature in\
@@ -158,10 +161,6 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
     "name": "Poison Breath (Recharge 5-6)"
 "source":
   - "MM"
-  - "SKT"
-  - "WDMM"
-  - "BGDIA"
-  - "HftT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/young-green-dragon.webp"
 ```
 ^statblock

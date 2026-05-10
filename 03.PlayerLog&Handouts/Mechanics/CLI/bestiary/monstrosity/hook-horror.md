@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/3
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hook Horror
+- "Hook Horror"
 ---
-# [Hook Horror](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/hook-horror.md)
-*Source: Monster Manual p. 189, Princes of the Apocalypse, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Light of Xaryxis, Keys from the Golden Vault*  
+# [Hook Horror](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hook-horror.md)
+*Source: Monster Manual p. 189*  
 
 A fierce predator of the Underdark, the hook horror aggressively defends its hunting grounds. The subterranean caverns where these creatures dwell echo with the constant clacking and scraping of their hooks as they wend their way up cliffs and along cavern walls. The monstrous hook horror has a head resembling a vulture's and the torso of an enormous beetle, with an exoskeleton studded by sharp, bony protuberances. It gains its name from its long, powerfully built arms and legs, which end in wickedly curved hooked claws.
 
@@ -50,7 +51,9 @@ Hook horrors live in extended family groups or clans. Each clan is ruled by the 
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 13"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "Hook Horror"
 "cr": "3"
 "traits":
@@ -62,16 +65,11 @@ Hook horrors live in extended family groups or clans. Each clan is ruled by the 
 "actions":
   - "desc": "The hook horror makes two hook attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (2d6 + 4) piercing damage."
     "name": "Hook"
 "source":
   - "MM"
-  - "PotA"
-  - "TftYP"
-  - "WDMM"
-  - "LoX"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/hook-horror.webp"
 ```
 ^statblock

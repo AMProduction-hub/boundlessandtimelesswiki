@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/11
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Shadar-kai Soul Monger
+- "Shadar-kai Soul Monger"
 ---
-# [Shadar-kai Soul Monger](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/shadar-kai-soul-monger-mpmm.md)
+# [Shadar-kai Soul Monger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/shadar-kai-soul-monger-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 214, Mordenkainen's Tome of Foes p. 226*  
 
 Wracked with despair over the loss of memories of a brighter time, soul mongers crave the vitality of others. The aching void within a soul monger radiates outward, manifesting as an unbearable weight that drains the vigor of anyone unfortunate enough to be in their presence. Those who have escaped the onslaught of a soul monger can hardly shake the memory of the sound they make—the moan of a tortured soul, lost in a bottomless well of tragedy.
@@ -54,9 +55,9 @@ Shadar-kai encountered outside the Shadowfell are often on quests to find the mo
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+7"
-  - "wisdom": "+7"
-  - "charisma": "+5"
+  - "dexterity": !!int "7"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
@@ -64,7 +65,8 @@ Shadar-kai encountered outside the Shadowfell are often on quests to find the mo
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 17"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 17"
 "languages": "Common, Elvish"
 "cr": "11"
 "traits":
@@ -85,10 +87,10 @@ Shadar-kai encountered outside the Shadowfell are often on quests to find the mo
 "actions":
   - "desc": "The shadar-kai makes two Shadow Dagger attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 13 (4d4 + 3) piercing damage plus 19 (3d12) necrotic\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 13 (4d4 + 3) piercing damage plus 19 (3d12) necrotic\
       \ damage, and the target has disadvantage on saving throws until the end of\
-      \ the shadar-kai's next turn. Hit or Miss: The dagger magically returns to\
+      \ the shadar-kai's next turn. *Hit or Miss:* The dagger magically returns to\
       \ the shadar-kai's hand immediately after a ranged attack."
     "name": "Shadow Dagger"
   - "desc": "The shadar-kai emits weariness in a 60-foot cube. Each creature in that\
@@ -99,7 +101,7 @@ Shadar-kai encountered outside the Shadowfell are often on quests to find the mo
     "name": "Wave of Weariness (Recharge 4-6)"
   - "desc": "The shadar-kai casts one of the following spells, requiring no material\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 16):\n\n1/day each: [bestow curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/bestow-curse.md),\
+      \ DC 16):\n\n**1/day each:** [bestow curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/bestow-curse.md),\
       \ [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
       \ [gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/spells/gaseous-form.md),\
       \ [seeming](03.PlayerLog&Handouts/Mechanics/CLI/spells/seeming.md)"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Grum'shar
+- "Grum'shar"
 ---
-# [Grum'shar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/grumshar-wdh.md)
+# [Grum'shar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/grumshar-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 29*  
 
 Apprentice wizards are novice arcane spellcasters who serve more experienced wizards or attend school. They perform menial work, such as cooking and cleaning, in exchange for education in the ways of magic.
@@ -39,15 +40,18 @@ Apprentice wizards are novice arcane spellcasters who serve more experienced wiz
     "desc": "+4"
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Orc"
 "cr": "1/4"
 "traits":
   - "desc": "Grum'shar is a 1st-level spellcaster. His spellcasting ability is Intelligence.\
-      \ He has the following wizard spells prepared:\n\nCantrips (at will): [fire\
+      \ He has the following wizard spells prepared:\n\n**Cantrips (at will):** [fire\
       \ bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md), [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (2 slots): [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md),\
+      \n**1st level (2 slots):** [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)"
     "name": "Spellcasting"
@@ -55,9 +59,9 @@ Apprentice wizards are novice arcane spellcasters who serve more experienced wiz
       \ He can only do this once per long rest."
     "name": "Relentless Endurance"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) piercing damage. Or Ranged Weapon Attack: +2 to hit, range 20/60\
-      \ ft., one target. Hit: 2 (d4) piercing damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d4) piercing damage. Or Ranged Weapon Attack: +2 to hit, range 20/60\
+      \ ft., one target. *Hit:* 2 (1d4) piercing damage."
     "name": "Dagger"
 "source":
   - "WDH"

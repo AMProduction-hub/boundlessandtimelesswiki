@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Arms of the Betrayers Destruction
+- "Arms of the Betrayers Destruction"
 ---
 # Arms of the Betrayers Destruction
 *Source: Explorer's Guide to Wildemount p. 274* 
 
 **Arms of the Betrayers Destruction**
-
-`dice: [](arms-of-the-betrayers-destruction-egw.md#^arms-of-the-betrayers-destruction)`
 
 | dice: d8 | Destruction Method |
 |----------|--------------------|

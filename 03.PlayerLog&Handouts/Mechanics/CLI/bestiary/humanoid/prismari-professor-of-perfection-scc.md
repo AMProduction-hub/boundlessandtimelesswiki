@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Prismari Professor of Perfection
+- "Prismari Professor of Perfection"
 ---
-# [Prismari Professor of Perfection](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/prismari-professor-of-perfection-scc.md)
+# [Prismari Professor of Perfection](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/prismari-professor-of-perfection-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 206*  
 
 Professors of perfection combine elemental magic with precise, forceful physical motion. Their sweeping gestures and dance-like steps gather the power of crashing waves, conjure the protection of unyielding stone, and shape great structures of ice. Binding and channeling these natural elements allow the professors to mold their environment to their needs, both for breathtaking performances and to control the fabric of a battlefield against their foes.
@@ -41,10 +42,10 @@ The scholars of Prismari College believe that art is the truest form of spellcra
   - !!int "19"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+6"
-  - "intelligence": "+5"
-  - "wisdom": "+4"
-  - "charisma": "+7"
+  - "dexterity": !!int "6"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+6"
@@ -67,16 +68,16 @@ The scholars of Prismari College believe that art is the truest form of spellcra
 "actions":
   - "desc": "The professor makes three Tidal Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 60\
-      \ ft., one target. Hit: 13 (2d8 + 4) cold damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +7 to hit, reach 5 ft. or range 60\
+      \ ft., one target. *Hit:* 13 (2d8 + 4) cold damage."
     "name": "Tidal Strike"
   - "desc": "The professor casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 15):\n\
-      \nAt will: [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
-      \n2/day each: [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md),\
+      \n**At will:** [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
+      \n**2/day each:** [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md),\
       \ [create or destroy water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-or-destroy-water.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [stone\
-      \ shape](03.PlayerLog&Handouts/Mechanics/CLI/spells/stone-shape.md)\n\n1/day:\
+      \ shape](03.PlayerLog&Handouts/Mechanics/CLI/spells/stone-shape.md)\n\n**1/day:**\
       \ [wall of ice](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-ice.md)"
     "name": "Spellcasting"
 "bonus_actions":

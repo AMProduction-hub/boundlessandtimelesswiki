@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sea Lion
+- "Sea Lion"
 ---
-# [Sea Lion](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/sea-lion-tftyp.md)
+# [Sea Lion](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/sea-lion-tftyp.md)
 *Source: Tales from the Yawning Portal p. 242, Ghosts of Saltmarsh p. 252*  
 
 These large marine mammals live along coastal regions and around islands at sea
@@ -58,10 +59,10 @@ These large marine mammals live along coastal regions and around islands at sea
 "actions":
   - "desc": "The sea lion makes three attacks: one bite attack and two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d8 + 3) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d8 + 3) piercing damage."
     "name": "Claw"
 "source":

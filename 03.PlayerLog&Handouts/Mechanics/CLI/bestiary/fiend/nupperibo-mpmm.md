@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nupperibo
+- "Nupperibo"
 ---
-# [Nupperibo](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/nupperibo-mpmm.md)
+# [Nupperibo](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/nupperibo-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 196, Mordenkainen's Tome of Foes p. 168*  
 
 > [!quote] A quote from Mordenkainen  
@@ -57,7 +58,8 @@ Nupperibos unthinkingly obey any command they receive telepathically from anothe
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 20 ft. (blind beyond this radius), passive Perception 11"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 20 ft. (blind beyond this radius), passive Perception 11"
 "languages": "understands Infernal but can't speak"
 "cr": "1/2"
 "traits":
@@ -71,7 +73,7 @@ Nupperibos unthinkingly obey any command they receive telepathically from anothe
       \ 24 hours."
     "name": "Driven Tracker"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Bite"
 "source":

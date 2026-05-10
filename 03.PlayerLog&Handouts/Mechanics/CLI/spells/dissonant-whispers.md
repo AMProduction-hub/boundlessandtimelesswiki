@@ -1,25 +1,26 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/rakdos-cultist
 - ttrpg-cli/spell/background/silverquill-student
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/feat/fey-touched
-- ttrpg-cli/spell/feat/initiate-of-high-sorcery
-- ttrpg-cli/spell/feat/magic-initiate
-- ttrpg-cli/spell/feat/strixhaven-initiate
+- ttrpg-cli/spell/feat/initiate-of-high-sorcery/nuitari
+- ttrpg-cli/spell/feat/magic-initiate/bard-spells
+- ttrpg-cli/spell/feat/strixhaven-initiate/silverquill-3
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/school/enchantment
 - ttrpg-cli/spell/subclass/aberrant-mind
 - ttrpg-cli/spell/subclass/the-great-old-one
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Sorcerer (Aberrant Mind)
 - Warlock (The Great Old One)
 aliases:
-- Dissonant Whispers
+- "Dissonant Whispers"
 ---
 # Dissonant Whispers
 *1st-level, Enchantment*  
@@ -32,8 +33,8 @@ aliases:
 
 You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes `3d6` psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened) creature automatically succeeds on the save.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by `d6` for each slot level above 1st.
+**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by `1d6` for each slot level above 1st.
 
-**Classes**: [Sorcerer (Aberrant Mind)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-aberrant-mind-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Great Old One)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-great-old-one.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Aberrant Mind)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-aberrant-mind-tce.md "subclass=TCE"); [Warlock (The Great Old One)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-great-old-one.md)
 
 *Source: Player's Handbook p. 234*

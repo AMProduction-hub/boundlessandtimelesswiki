@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Demos Magen
+- "Demos Magen"
 ---
-# [Demos Magen](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/demos-magen-idrotf.md)
+# [Demos Magen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/demos-magen-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 300*  
 
 Demos magen wear armor, wield weapons, and typically serve as guards.
@@ -44,6 +45,9 @@ Though magen look like humanoids with green skin, they are constructs. When one 
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+  - "[light crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/light-crossbow.md)"
 "senses": "passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "2"
@@ -59,10 +63,10 @@ Though magen look like humanoids with green skin, they are constructs. When one 
 "actions":
   - "desc": "The magen makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d6 + 2) slashing damage."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:*\
       \ 6 (1d8 + 2) piercing damage."
     "name": "Light Crossbow"
 "source":

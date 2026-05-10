@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lava Child
+- "Lava Child"
 ---
-# [Lava Child](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/lava-child-wdmm.md)
+# [Lava Child](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lava-child-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 313*  
 
 Physically identical to one another, lava children have muscular builds and childish, perpetually grinning faces. Most are born in the Fountains of Creation, also known as the Plane of Magma, which is wedged between the Elemental Planes of Earth and Fire. Within volcanic caverns, lava children form communities, serving primordial beings out of fear or worshiping gods of earth and fire.
@@ -42,7 +43,8 @@ Though they're not violent by nature, lava children fiercely defend territory th
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+2"
 "damage_immunities": "fire; bludgeoning, piercing, slashing from metal weapons"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Ignan"
 "cr": "3"
 "traits":
@@ -54,10 +56,10 @@ Though they're not violent by nature, lava children fiercely defend territory th
   - "desc": "The lava child makes two attacks: one with its bite and one with its\
       \ claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) slashing damage."
     "name": "Claws"
 "source":

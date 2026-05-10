@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/25
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Velomachus Lorehold
+- "Velomachus Lorehold"
 ---
-# [Velomachus Lorehold](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/velomachus-lorehold-scc.md)
+# [Velomachus Lorehold](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/velomachus-lorehold-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 219*  
 
 Velomachus Lorehold was the first dragon of Strixhaven to master the magic of order and chaos, the flow and prediction of events through time. Her magic encourages exploration and discovery through the lens of creating a direct conduit to the past.
@@ -40,10 +41,10 @@ Velomachus's spells, legendary actions, and breath weapon are accompanied by vis
   - !!int "18"
 "speed": "40 ft., climb 40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+10"
-  - "constitution": "+17"
-  - "wisdom": "+13"
-  - "charisma": "+12"
+  - "dexterity": !!int "10"
+  - "constitution": !!int "17"
+  - "wisdom": !!int "13"
+  - "charisma": !!int "12"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+18"
@@ -54,7 +55,8 @@ Velomachus's spells, legendary actions, and breath weapon are accompanied by vis
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+13"
 "damage_immunities": "thunder"
-"senses": "blindsight 120 ft., passive Perception 23"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft., passive Perception 23"
 "languages": "all"
 "cr": "25"
 "traits":
@@ -63,10 +65,10 @@ Velomachus's spells, legendary actions, and breath weapon are accompanied by vis
 "actions":
   - "desc": "Velomachus makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +18 to hit, reach 15 ft., one target. Hit:\
-      \ 15 (1d10 + 10) piercing damage plus 6 (d12) thunder damage."
+  - "desc": "*Melee Weapon Attack:* +18 to hit, reach 15 ft., one target. *Hit:*\
+      \ 15 (1d10 + 10) piercing damage plus 6 (1d12) thunder damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +18 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +18 to hit, reach 10 ft., one target. *Hit:*\
       \ 13 (1d6 + 10) slashing damage. If the target is a Huge or smaller creature,\
       \ it is knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Claw"
@@ -79,12 +81,15 @@ Velomachus's spells, legendary actions, and breath weapon are accompanied by vis
       \ were creatures that failed the saving throw."
     "name": "Battle Tide Breath (Recharge 5-6)"
   - "desc": "Velomachus casts one of the following spells, requiring no material components\
-      \ and using Intelligence as the spellcasting ability:\n\n1/day each: [contact\
+      \ and using Intelligence as the spellcasting ability:\n\n**1/day each:** [contact\
       \ other plane](03.PlayerLog&Handouts/Mechanics/CLI/spells/contact-other-plane.md)\
       \ (as an action, contacting a long-dead spirit), [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md),\
       \ [move earth](03.PlayerLog&Handouts/Mechanics/CLI/spells/move-earth.md), [wall\
       \ of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Velomachus can expend a use to take one of the following actions. Velomachus\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Velomachus makes one Claw attack."
     "name": "Claw"
@@ -92,7 +97,7 @@ Velomachus's spells, legendary actions, and breath weapon are accompanied by vis
       \ her with an opportunity attack during this move, the attacker takes 19 (3d12)\
       \ thunder damage."
     "name": "Chaotic Flow (Costs 2 Actions)"
-  - "desc": "Velomachus magically summons d4 [statue mascots](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/spirit-statue-mascot-scc.md)\
+  - "desc": "Velomachus magically summons 1d4 [statue mascots](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/spirit-statue-mascot-scc.md)\
       \ in unoccupied spaces she can see within 60 feet of herself. The spirit statues\
       \ obey her commands and take their turns immediately after hers. Any creature,\
       \ other than a spirit statue or Velomachus, is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Stone Cursed
+- "Stone Cursed"
 ---
-# [Stone Cursed](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/stone-cursed-mpmm.md)
+# [Stone Cursed](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/stone-cursed-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 233, Mordenkainen's Tome of Foes p. 240*  
 
 Stone cursed are spawned through a foul alchemical ritual performed on a Humanoid that has been turned to stone. The ritual, which requires a mixture of basilisk blood and the ashes from the burned feathers of a cockatrice, awakens a dim echo of the [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified) victim's spirit, animating the statue and turning it into a useful guardian.
@@ -66,7 +67,7 @@ Even though a creature transformed into a stone cursed is long dead, a vague whi
   - "desc": "The stone cursed doesn't require air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d8 + 3) slashing damage. If the target is a creature, it must succeed\
       \ on a DC 12 Constitution saving throw, or it begins to turn to stone and is\
       \ [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\

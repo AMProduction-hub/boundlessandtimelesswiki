@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 aliases:
-- Chapter 4: Shadow of War
+- "Chapter 4: Shadow of War"
 ---
 # Chapter 4: Shadow of War
 *Source: Dragonlance: Shadow of the Dragon Queen, p. 77* 
 
 Vogler is gone, devastated by the Red Dragon Army. After escaping the village by following the Vingaard River, the characters and other survivors seek refuge in the city of Kalaman. They carry with them a warning: war is coming for Kalaman. The city's leaders recruit the characters to help identify and resist the threat of the Red Dragon Army. As the characters travel the lands around Kalaman, they learn more about the Dragon Army's goals and the terrifying shadow behind this war.
 
-![Kalaman's defenders march ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/053-04-001-chapter-splash.webp#center "Kalaman's defenders march forth to confront the Dragon Army")
+![Kalaman's defenders march forth to confront the Dragon Army](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/053-04-001-chapter-splash.webp#center)
 
 ## Running This Chapter
 
@@ -109,8 +110,6 @@ The characters are among the last to arrive from Vogler, likely accompanied by [
 As the survivors of Vogler pull their ships ashore, the reality of their situation sets in, and minor troubles begin confounding the refugees. Roll on the Survivor Camp Hardships table to determine what challenges the survivors need help with. After you've run as many of these encounters as you like, proceed with the "Darrett's Armor" section.
 
 **Survivor Camp Hardships**
-
-`dice: [](05-chapter-4-shadow-of-war.md#^survivor-camp-hardships)`
 
 | dice: d4 | Situation |
 |----------|-----------|
@@ -427,8 +426,6 @@ During the party's travels, roll on the Hinterlands Encounters table to see what
 
 **Hinterlands Encounters**
 
-`dice: [](05-chapter-4-shadow-of-war.md#^hinterlands-encounters)`
-
 | dice: d4 | Encounter |
 |----------|-----------|
 | 1 | Light rain falls for an hour, and distant lightning is visible over the Dargaard Mountains. |
@@ -454,18 +451,16 @@ Characters who move adjacent to a goblin expose themselves to the out-of-control
 
 **Clockwork Chaos**
 
-`dice: [](05-chapter-4-shadow-of-war.md#^clockwork-chaos)`
-
 | dice: d6 | Device Effect |
 |----------|---------------|
 | 1–2 | No devices threaten the character. |
-| 3 | A contraption that looks like a big set of teeth tries to bite the character (+3 to hit, `d6` bludgeoning damage on a hit). |
+| 3 | A contraption that looks like a big set of teeth tries to bite the character (`+3` to hit, `1d6` bludgeoning damage on a hit). |
 | 4 | A bundle of thrashing cords whips around the character, who must succeed on a DC 10 Dexterity saving throw or be [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) until the end of the character's next turn. |
-| 5 | A device fires a dart filled with glowing green fluid at the character (+4 to hit, 1 piercing damage on a hit). On a hit, the fluid is injected with an ominous hiss—but it proves harmless. |
-| 6 | A mechanical chicken fires tin eggs at the character (+4 to hit, `d4` bludgeoning damage on a hit). On a hit, the egg bursts in an oily mess, and the character has disadvantage on attack rolls until the end of the character's next turn. |
+| 5 | A device fires a dart filled with glowing green fluid at the character (`+4` to hit, 1 piercing damage on a hit). On a hit, the fluid is injected with an ominous hiss—but it proves harmless. |
+| 6 | A mechanical chicken fires tin eggs at the character (`+4` to hit, `1d4` bludgeoning damage on a hit). On a hit, the egg bursts in an oily mess, and the character has disadvantage on attack rolls until the end of the character's next turn. |
 ^clockwork-chaos
 
-![The inventor Tatina Rookle...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/058-04-004-tatina-defense.webp#center "The inventor Tatina Rookledust defends her home from Dragon Army goblins")
+![The inventor Tatina Rookledust defends her home from Dragon Army goblins](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/058-04-004-tatina-defense.webp#center)
 
 The goblins flee after half their number are defeated. The hobgoblin tries to make the goblins hold their ground but also flees if he finds himself outnumbered by the characters.
 
@@ -862,8 +857,6 @@ During this encounter, as long as there are still Dragon Army soldiers on the ba
 
 **Steel Springs Battlefield Events**
 
-`dice: [](05-chapter-4-shadow-of-war.md#^steel-springs-battlefield-events)`
-
 | dice: d8 | Event |
 |----------|-------|
 | 1–3 | One of the wounded [Kalaman soldiers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kalaman-soldier-dsotdq.md) collapses. The soldier and other Kalaman soldiers within 10 feet of that soldier don't move this round. |
@@ -989,7 +982,7 @@ When Soth rose as an Undead, [Caradoc](03.PlayerLog&Handouts/Mechanics/CLI/besti
 
 "Who can resist a little drama?"
 
-![Knight Caradoc carries a m...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/064-04-006-caradoc.webp#center "Knight Caradoc carries a message to Kalaman's leaders")
+![Knight Caradoc carries a message to Kalaman's leaders](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/064-04-006-caradoc.webp#center)
 
 #### Caught in the Act
 
@@ -1112,7 +1105,7 @@ If the characters enter a room after all these scenes have played out, skeletal 
 
 Though the full truth of [Lord Soth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lord-soth-dsotdq.md)'s tale remains vague, the characters might learn more when they encounter [Leedara](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/leedara-dsotdq.md) again in chapter 7.
 
-![Cataclysmic flames reveal ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/065-04-007-soth-memory.webp#center "Cataclysmic flames reveal glimpses of Lord Soth's memories")
+![Cataclysmic flames reveal glimpses of Lord Soth's memories](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/065-04-007-soth-memory.webp#center)
 
 ### Raided Catacombs Features
 

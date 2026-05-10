@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Wood Woad
+- "Wood Woad"
 ---
-# [Wood Woad](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/wood-woad-mpmm.md)
+# [Wood Woad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/wood-woad-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 266, Volo's Guide to Monsters p. 198*  
 
 A wood woad is a powerful bipedal Plant invested with the soul of someone who gave up life to become an everlasting guardian.
@@ -58,7 +59,10 @@ Wood woads are drawn to creatures that have close ties to nature and that protec
 "damage_resistances": "bludgeoning, piercing"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Sylvan"
 "cr": "5"
 "traits":
@@ -79,7 +83,7 @@ Wood woads are drawn to creatures that have close ties to nature and that protec
 "actions":
   - "desc": "The wood woad makes two Club attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (4d4 + 4) force damage."
     "name": "Club"
 "source":

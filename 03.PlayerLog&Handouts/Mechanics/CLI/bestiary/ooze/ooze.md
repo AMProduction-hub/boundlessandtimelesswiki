@@ -1,6 +1,8 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
+- json5e-index
 ---
 # Index of Ooze
 
@@ -10,8 +12,8 @@ cssclasses: json5e-note
 - [Elder Black Pudding](./elder-black-pudding-tftyp.md)
 - [Elder Oblex](./elder-oblex-mpmm.md)
 - [Gelatinous Cube](./gelatinous-cube.md)
-- [Gray Ooze (Psychic)](./gray-ooze-psychic.md)
 - [Gray Ooze](./gray-ooze.md)
+- [Gray Ooze (Psychic)](./gray-ooze-psychic.md)
 - [Huge Gray Ooze](./huge-gray-ooze-wdmm.md)
 - [Huge Ochre Jelly](./huge-ochre-jelly-tftyp.md)
 - [Inkling Mascot](./inkling-mascot-scc.md)

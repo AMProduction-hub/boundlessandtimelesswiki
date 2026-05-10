@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/domain/arcana
 - ttrpg-cli/subclass/cleric/arcana
 aliases:
-- Arcana Domain
+- "Arcana Domain"
 ---
 # Arcana Domain
 *[Cleric](./cleric.md): Divine Domain*  
@@ -44,13 +45,13 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Arcana Domain (Level 1)
-
 Magic is an energy that suffuses the multiverse and that fuels both destruction and creation. Gods of the Arcana domain know the secrets and potential of magic intimately. For some of these gods, magical knowledge is a great responsibility that comes with a special understanding of the nature of reality. Other gods of Arcana see magic as pure power, to be used as its wielder sees fit.
 
 The gods of this domain are often associated with knowledge, as learning and arcane power tend to go hand-in-hand. In the Realms, deities of this domain include [Azuth](03.PlayerLog&Handouts/Mechanics/CLI/deities/faerunian-azuth-scag.md) and [Mystra](03.PlayerLog&Handouts/Mechanics/CLI/deities/faerunian-mystra-scag.md), as well as Corellon Larethian of the elven pantheon. In other worlds, this domain includes [Hecate](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-hecate.md), [Math Mathonwy](03.PlayerLog&Handouts/Mechanics/CLI/deities/celtic-math-mathonwy.md), and [Isis](03.PlayerLog&Handouts/Mechanics/CLI/deities/egyptian-isis.md); the triple moon gods of Solinari, Lunitari, and Nuitari of Krynn; and [Boccob](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-boccob.md), [Vecna](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-vecna.md), and [Wee Jas](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-wee-jas.md) of Greyhawk.
+
+## Subclass Features
+
+### Domain Spells (Level 1)
 
 At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.
 
@@ -103,7 +104,7 @@ _Source: Tasha's Cauldron of Everything p. 30_
 
 *8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Potent Spellcasting feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Arcane Mastery (Level 17)
 

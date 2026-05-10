@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/5
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Eliphas Adulare
+- "Eliphas Adulare"
 ---
-# [Eliphas Adulare](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/eliphas-adulare-kftgv.md)
+# [Eliphas Adulare](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/eliphas-adulare-kftgv.md)
 *Source: Keys from the Golden Vault p. 188*  
 
 Eliphas is a gentleman and a tinkerer. For years, he offered his services to the Golden Vault, an organization dedicated to preserving historical relics and keeping powerful items out of evil hands. Eliphas designed the magical music boxes that the Golden Vault uses to communicate with its field operatives.
@@ -26,7 +27,7 @@ Eliphas is a neutral good, human werebear who can adopt the form of a polar bear
 "subtype": "human, shapechanger"
 "alignment": "Neutral Good"
 "ac": !!int "10"
-"ac_class": "11 from natural armor in bear or hybrid form"
+"ac_class": "11 natural armor in bear or hybrid form"
 "hp": !!int "135"
 "hit_dice": "18d8 + 54"
 "modifier": !!int "0"
@@ -43,6 +44,8 @@ Eliphas is a neutral good, human werebear who can adopt the form of a polar bear
     "desc": "+7"
 "damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
 "senses": "passive Perception 17"
 "languages": "Common (can't speak in bear form)"
 "cr": "5"
@@ -59,23 +62,23 @@ Eliphas is a neutral good, human werebear who can adopt the form of a polar bear
   - "desc": "In bear form, Eliphas makes two claw attacks. In humanoid form, it makes\
       \ two greataxe attacks. In hybrid form, it can attack like a bear or a humanoid."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (2d10 + 4) piercing damage. If the target is a humanoid, it must succeed\
       \ on a DC 14 Constitution saving throw or be cursed with werebear lycanthropy."
     "name": "Bite (Bear or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) slashing damage."
     "name": "Claw (Bear or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (1d12 + 4) slashing damage."
     "name": "Greataxe (Humanoid or Hybrid Form Only)"
   - "desc": "Eliphas casts one of the following spells, using Intelligence as the\
-      \ spellcasting ability (save DC 15):\n\nAt will: [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
+      \ spellcasting ability (save DC 15):\n\n**At will:** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n2/day each: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
-      \ [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md)\n\n1/day\
-      \ each: [phantasmal force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md),\
+      \n**2/day each:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md)\n\n**1/day\
+      \ each:** [phantasmal force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md),\
       \ [shatter](03.PlayerLog&Handouts/Mechanics/CLI/spells/shatter.md)"
     "name": "Spellcasting (Humanoid or Hybrid Form Only)"
 "source":

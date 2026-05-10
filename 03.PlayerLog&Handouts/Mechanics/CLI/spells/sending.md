@@ -1,13 +1,15 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/3rd-level
 - ttrpg-cli/spell/optfeature/far-scribe
+- ttrpg-cli/spell/reward/charm-of-sending
 - ttrpg-cli/spell/school/evocation
 - ttrpg-cli/spell/subclass/aberrant-mind
 - ttrpg-cli/spell/subclass/arcane-trickster
@@ -17,7 +19,7 @@ tags:
 - ttrpg-cli/spell/subclass/the-great-old-one
 - ttrpg-cli/spell/subrace/gnome-mark-of-scribing
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Cleric (Peace Domain)
 - Fighter (Eldritch Knight)
@@ -27,7 +29,7 @@ classes:
 - Warlock (The Great Old One)
 - Wizard
 aliases:
-- Sending
+- "Sending"
 ---
 # Sending
 *3rd-level, Evocation*  
@@ -42,6 +44,6 @@ You send a short message of twenty-five words or less to a creature with which y
 
 You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a  chance that the message doesn't arrive.
 
-**Classes**: [Sorcerer (Aberrant Mind)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-aberrant-mind-tce.md "subclass=TCE"); [Cleric (Peace Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-peace-domain-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Great Old One)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-great-old-one.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Peace Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-peace-domain-tce.md "subclass=TCE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer (Aberrant Mind)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-aberrant-mind-tce.md "subclass=TCE"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Warlock (The Great Old One)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-great-old-one.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 274. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Underworld Cerberus
+- "Underworld Cerberus"
 ---
-# [Underworld Cerberus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/underworld-cerberus-mot.md)
+# [Underworld Cerberus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/underworld-cerberus-mot.md)
 *Source: Mythic Odysseys of Theros p. 215*  
 
 Three-headed cerberi dwell deep in the Underworld. Terrifying and cunning, they guard portals between the wards of the Underworld, Erebos's greatest treasures, and noteworthy souls who might attempt to escape the realm of the dead. Three-headed cerberi commonly serve demons, but if left to their own devices, they often herd wily souls into labyrinthine Underworld wildernesses, then hunt them for sport.
@@ -49,7 +50,8 @@ Feared by the living and the dead, cerberi patrol both banks of the Tartyx River
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "truesight 30 ft., passive Perception 19"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 30 ft., passive Perception 19"
 "languages": "understands all languages but can't speak"
 "cr": "6"
 "traits":
@@ -66,8 +68,8 @@ Feared by the living and the dead, cerberi patrol both banks of the Tartyx River
 "actions":
   - "desc": "The cerberus makes three bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
-      \ (2d6 + 4) piercing damage plus 3 (d6) fire damage."
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
+      \ (2d6 + 4) piercing damage plus 3 (1d6) fire damage."
     "name": "Bite"
   - "desc": "The cerberus exhales a 30-foot cone of molten rock. Each creature in\
       \ the cone must make a DC 15 Dexterity saving throw, taking 21 (6d6) fire\

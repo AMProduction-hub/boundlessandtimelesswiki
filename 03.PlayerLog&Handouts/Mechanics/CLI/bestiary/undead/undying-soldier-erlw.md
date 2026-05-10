@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Undying Soldier
+- "Undying Soldier"
 ---
-# [Undying Soldier](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/undying-soldier-erlw.md)
+# [Undying Soldier](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/undying-soldier-erlw.md)
 *Source: Eberron: Rising from the Last War p. 311*  
 
 Undying soldiers make up the army of Aerenal's City of the Dead. They guard the temples of the Undying Court and the mansions of the noble lines of Aerenal, and Aereni ambassadors are often accompanied by undead bodyguards. Undying soldiers wear heirloom armor and wield ornate weaponry.
@@ -74,7 +75,10 @@ An undying doesn't require air, food, drink, or sleep.
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Elvish"
 "cr": "2"
 "traits":
@@ -88,8 +92,8 @@ An undying doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The soldier makes two spear attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 6 (1d6 + 3) piercing damage or 7 (1d8 + 3) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 6 (1d6 + 3) piercing damage or 7 (1d8 + 3) piercing\
       \ damage if used with two hands to make a melee attack, plus 9 (2d8) radiant\
       \ damage if the target is a fiend or undead."
     "name": "Spear"

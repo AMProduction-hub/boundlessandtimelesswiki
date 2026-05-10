@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/kobold
 aliases:
-- Kobold
+- "Kobold"
 ---
 # Kobold
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 25*  

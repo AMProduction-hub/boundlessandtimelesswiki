@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Salida
+- "Salida"
 ---
-# [Salida](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/salida-toa.md)
+# [Salida](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/salida-toa.md)
 *Source: Tomb of Annihilation p. 35*  
 
 ```statblock
@@ -43,14 +44,18 @@ aliases:
     "desc": "+5"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Abyssal, Common, Draconic"
 "cr": "1"
 "traits":
   - "desc": "Salida's spellcasting ability is Charisma (spell save DC 12). Salida\
       \ can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md)\
-      \ (snakes only)\n\n3/day each: [poison spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md),\
+      \n**At will:** [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md)\
+      \ (snakes only)\n\n**3/day each:** [poison spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
     "name": "Innate Spellcasting"
   - "desc": "Salida has advantage on saving throws against spells and other magical\
@@ -59,10 +64,10 @@ aliases:
 "actions":
   - "desc": "Salida makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) slashing damage."
     "name": "Scimitar"
-  - "desc": "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, range 80/320 ft., one target. *Hit:*\
       \ 4 (1d6 + 1) piercing damage plus 7 (2d6) poison damage."
     "name": "Shortbow"
 "source":

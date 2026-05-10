@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/subclass/fighter/echo-knight
 aliases:
-- Echo Knight
+- "Echo Knight"
 ---
 # Echo Knight
 *[Fighter](./fighter.md): Martial Archetype*  
@@ -43,11 +44,9 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Echo Knight (Level 3)
-
 A mysterious and feared frontline warrior of the Kryn Dynasty, the Echo Knight has mastered the art of using dunamis to summon the fading shades of unrealized timelines to aid them in battle. Surrounded by echoes of their own might, they charge into the fray as a cycling swarm of shadows and strikes.
+
+## Subclass Features
 
 ### Manifest Echo (Level 3)
 

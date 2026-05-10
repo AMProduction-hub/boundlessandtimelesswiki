@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mr. Dory
+- "Mr. Dory"
 ---
-# [Mr. Dory](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/mr-dory-gos.md)
+# [Mr. Dory](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/mr-dory-gos.md)
 *Source: Ghosts of Saltmarsh p. 246*  
 
 One of the four councillors who rule the Styes, Mr. Dory hides his cursed nature in plain sight. His rare, liquid-sensitive "skin condition" is actually a form of the same aboleth affliction that creates skum, though Dory's condition is not as severe, and he has managed to retain his free will.
@@ -36,8 +37,8 @@ One of the four councillors who rule the Styes, Mr. Dory hides his cursed nature
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+8"
-  - "wisdom": "+6"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+5"
@@ -46,30 +47,33 @@ One of the four councillors who rule the Styes, Mr. Dory hides his cursed nature
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+9"
 "damage_immunities": "necrotic"
-"senses": "darkvision 60 ft., passive Perception 16"
+"gear":
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 16"
 "languages": "Abyssal, Common, Deep Speech, telepathy 60 ft."
 "cr": "10"
 "traits":
   - "desc": "Mr. Dory's innate spellcasting ability is Charisma (save DC 15, +7\
       \ to hit with spell attacks). Mr. Dory can innately cast the following spells,\
-      \ requiring no material components:\n\nAt will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ requiring no material components:\n\n**At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
-      \ (self only)\n\n2/day each: [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md),\
+      \ (self only)\n\n**2/day each:** [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md),\
       \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md)\n\
-      \n1/day each: [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
+      \n**1/day each:** [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
       \ [etherealness](03.PlayerLog&Handouts/Mechanics/CLI/spells/etherealness.md)"
     "name": "Innate Spellcasting"
   - "desc": "Mr. Dory has advantage on saving throws against spells and other magical\
       \ effects."
     "name": "Magic Resistance"
-  - "desc": "Mr. Dory takes 6 (d12) acid damage at the end of every hour he goes\
+  - "desc": "Mr. Dory takes 6 (1d12) acid damage at the end of every hour he goes\
       \ without exposure to water."
     "name": "Water Dependency"
 "actions":
   - "desc": "Mr. Dory makes three attacks with his rapier."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d8 + 5) piercing damage and 7 (2d6) necrotic damage."
     "name": "Rapier"
   - "desc": "Mr. Dory glares at a creature he can see within 30 feet of him. The target\

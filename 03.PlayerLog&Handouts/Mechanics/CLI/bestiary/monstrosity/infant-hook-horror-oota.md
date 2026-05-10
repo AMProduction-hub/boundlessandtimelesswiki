@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Infant Hook Horror
+- "Infant Hook Horror"
 ---
-# [Infant Hook Horror](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/infant-hook-horror-oota.md)
+# [Infant Hook Horror](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/infant-hook-horror-oota.md)
 *Source: Out of the Abyss p. 34*  
 
 ```statblock
@@ -35,7 +36,9 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 13"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "Hook Horror"
 "cr": "0"
 "traits":

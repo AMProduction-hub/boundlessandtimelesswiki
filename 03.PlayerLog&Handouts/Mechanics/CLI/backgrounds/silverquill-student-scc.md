@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/scc
 aliases:
-- Silverquill Student
+- "Silverquill Student"
 ---
 # Silverquill Student
 *Source: Strixhaven: A Curriculum of Chaos p. 35*  
@@ -47,8 +48,6 @@ A number of both paladins and rogues attend Silverquill College as well, highlig
 With the college's intense standards looming over them, Silverquill students range from cocky and cutthroat to overwhelmed perfectionists. The Silverquill Personality Traits table suggests a variety of traits you might adopt for your character.
 
 **Silverquill Personality Traits**
-
-`dice: [](silverquill-student-scc.md#^silverquill-personality-traits)`
 
 | dice: d6 | Personality Trait |
 |----------|-------------------|

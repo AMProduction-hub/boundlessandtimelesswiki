@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Grandolpha Muzgardt
+- "Grandolpha Muzgardt"
 ---
-# [Grandolpha Muzgardt](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/grandolpha-muzgardt-idrotf.md)
+# [Grandolpha Muzgardt](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/grandolpha-muzgardt-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 176*  
 
 Grandolpha Muzgardt, the grand dame of the Muzgardt duergar clan, has recently arrived at the fortress after being invited here by Xardorok. The Muzgardts are based in Gracklstugh, a duergar city in the Underdark. They mass-produce and distribute a filthy duergar ale made from mushrooms. Xardorok has been eager to take a fourth wife and has had his eye on Grandolpha Muzgardt for many years. He asked Grandolpha to his fortress to give her a gift—a pseudodragon made of chardalyn (a pseudo-pseudodragon, if you will)—and make her an offer she can't refuse. Once he conquers Icewind Dale, he wants the Muzgardts to control the ale trade throughout his sunless surface kingdom.
@@ -39,16 +40,17 @@ Before entering combat, Grandolpha casts [stoneskin](03.PlayerLog&Handouts/Mecha
   - !!int "16"
 "speed": "25 ft."
 "damage_resistances": "poison"
-"senses": "darkvision 120 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "Common, Dwarvish, Undercommon"
 "cr": "2"
 "traits":
   - "desc": "Grandolpha's innate spellcasting ability is Wisdom (spell save DC 13).\
       \ She can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
+      \n**At will:** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
       \ [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md), [poison\
       \ spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md) (see \"\
-      Actions\" below)\n\n3/day each: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      Actions\" below)\n\n**3/day each:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [enlarge/reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md)\
       \ (self only), [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\

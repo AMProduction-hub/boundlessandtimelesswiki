@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Skeletal Alchemist
+- "Skeletal Alchemist"
 ---
-# [Skeletal Alchemist](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/skeletal-alchemist-gos.md)
+# [Skeletal Alchemist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeletal-alchemist-gos.md)
 *Source: Ghosts of Saltmarsh p. 253*  
 
 This undead retains enough of its former self to continue its alchemical work, often on behalf of necromancers or other sinister patrons. It toils in a dark laboratory (such as the one found in The Sinister Secret of Saltmarsh), often falling dormant for long periods of time.
@@ -40,7 +41,8 @@ This undead retains enough of its former self to continue its alchemical work, o
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands all languages it knew in life but can't speak"
 "cr": "1/2"
 "traits":
@@ -50,10 +52,10 @@ This undead retains enough of its former self to continue its alchemical work, o
 "actions":
   - "desc": "The skeletal alchemist makes two Lob Acid attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft. one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft. one target. *Hit:* 4\
       \ (1d6 + 1) slashing damage."
     "name": "Claws"
-  - "desc": "Ranged Weapon Attack: +3 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, range 30/120 ft., one target. *Hit:*\
       \ 5 (1d8 + 1) acid damage."
     "name": "Lob Acid"
 "source":

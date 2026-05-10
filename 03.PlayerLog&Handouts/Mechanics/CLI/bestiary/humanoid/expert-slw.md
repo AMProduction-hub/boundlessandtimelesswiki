@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/slw
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Expert
+- "Expert"
 ---
-# [Expert](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/expert-slw.md)
+# [Expert](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/expert-slw.md)
 *Source: Storm Lord's Wrath*  
 
 ```statblock
@@ -33,7 +34,7 @@ aliases:
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+6"
+  - "dexterity": !!int "6"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+9"
@@ -45,14 +46,18 @@ aliases:
     "desc": "+6"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+9"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 10"
 "languages": "Common, plus one of your choice"
 "traits":
   - "desc": "The expert can take the Help action as a bonus action, and the creature\
-      \ who receives the help gains a d6 bonus to the d20 roll. If that roll is\
-      \ an attack roll, the creature can forgo adding the bonus to it, and then if\
-      \ the attack hits, the creature can add the bonus to the attack's damage roll\
-      \ against one target."
+      \ who receives the help gains a 1d6 bonus to the d20 roll. If that roll\
+      \ is an attack roll, the creature can forgo adding the bonus to it, and then\
+      \ if the attack hits, the creature can add the bonus to the attack's damage\
+      \ roll against one target."
     "name": "Helpful"
   - "desc": "The expert has [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md)\
       \ and a musical instrument."
@@ -61,13 +66,13 @@ aliases:
   - "desc": "The expert can attack twice, instead of once, whenever it takes the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack)\
       \ action on its turn."
     "name": "Extra Attack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Shortsword"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
     "name": "Dagger"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one target. *Hit:*\
       \ 6 (1d6 + 3) piercing damage."
     "name": "Shortbow"
 "source":

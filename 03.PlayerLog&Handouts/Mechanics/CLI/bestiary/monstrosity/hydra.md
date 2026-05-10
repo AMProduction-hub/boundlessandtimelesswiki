@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/8
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hydra
+- "Hydra"
 ---
-# [Hydra](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/hydra.md)
-*Source: Monster Manual p. 190, Princes of the Apocalypse, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Storm Lord's Wrath, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Journeys through the Radiant Citadel, Light of Xaryxis. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Hydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hydra.md)
+*Source: Monster Manual p. 190. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 The hydra is a reptilian horror with a crocodilian body and multiple heads on long, serpentine necks. Although its heads can be severed, the hydra magically regrows them in short order. A typical specimen has five heads. At the dawn of time, Tiamat, the Queen of Evil Dragons, slew a rival dragon god named Lernaea and cast her blood across the multiverse. Each drop that fell upon a world spawned a multi-headed hydra consumed by a hunger as great as the fallen god's hatred. Great champions are known to test their mettle against these fearsome creatures.
 
@@ -46,7 +47,8 @@ Hydras are natural swimmers, dwelling in rivers, along lakeshores, in ocean shal
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 16"
 "languages": ""
 "cr": "8"
 "traits":
@@ -73,23 +75,11 @@ Hydras are natural swimmers, dwelling in rivers, along lakeshores, in ocean shal
 "actions":
   - "desc": "The hydra makes as many bite attacks as it has heads."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 10 (1d10 + 5) piercing damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "PotA"
-  - "TftYP"
-  - "ToA"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "SLW"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
-  - "JttRC"
-  - "LoX"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/hydra.webp"
 ```
 ^statblock

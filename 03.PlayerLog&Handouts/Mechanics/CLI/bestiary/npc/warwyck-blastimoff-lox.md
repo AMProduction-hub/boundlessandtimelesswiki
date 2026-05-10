@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/lox
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Warwyck Blastimoff
+- "Warwyck Blastimoff"
 ---
-# [Warwyck Blastimoff](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/warwyck-blastimoff-lox.md)
+# [Warwyck Blastimoff](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/warwyck-blastimoff-lox.md)
 *Source: Light of Xaryxis p. 39*  
 
 ```statblock
@@ -31,6 +32,9 @@ aliases:
   - !!int "12"
   - !!int "12"
 "speed": "30 ft., swim 30 ft."
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+  - "[musket](03.PlayerLog&Handouts/Mechanics/CLI/items/musket.md)"
 "senses": "passive Perception 11"
 "languages": "Common"
 "cr": "3"
@@ -45,11 +49,11 @@ aliases:
 "actions":
   - "desc": "Warwyck makes two Longsword or Musket attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with\
       \ two hands."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 40/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 40/120 ft., one target. *Hit:*\
       \ 8 (1d12 + 2) piercing damage."
     "name": "Musket"
   - "desc": "Warwyck throws a grenade up to 60 feet, and the grenade explodes in a\

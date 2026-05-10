@@ -1,18 +1,19 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/golgari-agent
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/level/4th-level
 - ttrpg-cli/spell/school/transmutation
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Druid
 aliases:
-- Giant Insect
+- "Giant Insect"
 ---
 # Giant Insect
 *4th-level, Transmutation*  
@@ -31,6 +32,6 @@ A creature remains in its giant size for the duration, until it drops to 0 hit p
 
 The DM might allow you to choose different targets. For example, if you transform a bee, its giant version might have the same statistics as a [giant wasp](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-wasp.md).
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md)
 
 *Source: Player's Handbook p. 245. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

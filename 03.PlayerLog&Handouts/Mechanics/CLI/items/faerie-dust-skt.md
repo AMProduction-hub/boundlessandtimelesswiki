@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/item/rarity/unknown/magic
 - ttrpg-cli/item/wondrous/other
-aliases: 
+aliases:
 - "Faerie Dust"
 ---
 # Faerie Dust
@@ -15,8 +16,6 @@ aliases:
 A pinch of this dust can substitute for the material components of any enchantment spell of 3rd level or lower. If a pinch of faerie dust is sprinkled on a creature, roll percentile dice and consult the Faerie Dust table to determine the effect.
 
 **Faerie Dust**
-
-`dice: [](faerie-dust-skt.md#^faerie-dust)`
 
 | dice: d100 | Magical Effect |
 |------------|----------------|

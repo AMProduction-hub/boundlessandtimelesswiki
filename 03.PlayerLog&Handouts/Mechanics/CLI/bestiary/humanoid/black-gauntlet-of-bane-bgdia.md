@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Black Gauntlet of Bane
+- "Black Gauntlet of Bane"
 ---
-# [Black Gauntlet of Bane](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/black-gauntlet-of-bane-bgdia.md)
+# [Black Gauntlet of Bane](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/black-gauntlet-of-bane-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 235*  
 
 Bane's devoted followers are warriors who seek to rule through martial strength and intimidation, cruel tyrants who use threats and gifts as needed to ensure loyalty. They enslave those too weak to resist them and shower the strong with gifts and promises of power to turn them into loyal vassals.
@@ -48,29 +49,31 @@ Bane's cultists operate according to strict military hierarchies. The lowest ran
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+5"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+7"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
+"gear":
+  - "[mace](03.PlayerLog&Handouts/Mechanics/CLI/items/mace.md)"
 "senses": "passive Perception 15"
 "languages": "Common"
 "cr": "6"
 "traits":
   - "desc": "The black gauntlet is a 5th-level spellcaster. Its spellcasting ability\
       \ is Charisma (spell save DC 15, +7 to hit with spell attacks). It has the\
-      \ following cleric spells prepared:\n\nCantrips (at will): [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ following cleric spells prepared:\n\n**Cantrips (at will):** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md),\
+      \n**1st level (4 slots):** [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md),\
       \ [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md), [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [guiding bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/guiding-bolt.md)\
-      \ (see \"Actions\" below)\n\n2nd level (3 slots): [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
+      \ (see \"Actions\" below)\n\n**2nd level (3 slots):** [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
-      \ [silence](03.PlayerLog&Handouts/Mechanics/CLI/spells/silence.md)\n\n3rd\
-      \ level (2 slots): [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md),\
+      \ [silence](03.PlayerLog&Handouts/Mechanics/CLI/spells/silence.md)\n\n**3rd\
+      \ level (2 slots):** [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md),\
       \ [spirit guardians](03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-guardians.md)"
     "name": "Spellcasting"
   - "desc": "When a hostile creature within 5 feet of the black gauntlet makes an\
@@ -84,14 +87,14 @@ Bane's cultists operate according to strict military hierarchies. The lowest ran
 "actions":
   - "desc": "The black gauntlet makes two attacks with its mace."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) bludgeoning damage plus 13 (3d8) necrotic damage."
     "name": "Mace"
-  - "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +7 to hit, range 120 ft., one creature. *Hit:*\
       \ 14 (4d6) radiant damage, and the next attack roll made against the target\
       \ before the end of the black gauntlet's next turn has advantage. If the black\
       \ gauntlet casts this spell using a spell slot of 2nd level or higher, the damage\
-      \ increases by d6 for each slot level above 1st."
+      \ increases by 1d6 for each slot level above 1st."
     "name": "Guiding Bolt (1st-Level Spell; Requires a Spell Slot)"
 "source":
   - "BGDIA"

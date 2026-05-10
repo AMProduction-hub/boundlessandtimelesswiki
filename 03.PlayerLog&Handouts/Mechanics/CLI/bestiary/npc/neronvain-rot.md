@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/rot
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Neronvain
+- "Neronvain"
 ---
-# [Neronvain](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/neronvain-rot.md)
+# [Neronvain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/neronvain-rot.md)
 *Source: The Rise of Tiamat p. 91, Tyranny of Dragons p. 187*  
 
 ```statblock
@@ -33,8 +34,8 @@ aliases:
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+5"
-  - "wisdom": "+4"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -44,7 +45,10 @@ aliases:
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 15"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Common, Draconic, Elvish, Infernal"
 "cr": "9"
 "traits":
@@ -55,10 +59,10 @@ aliases:
 "actions":
   - "desc": "Neronvain makes two attacks, either with his shortsword or Eldritch Arrow."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage plus 13 (3d8) poison damage."
     "name": "Shortsword"
-  - "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +7 to hit, range 120 ft., one target. *Hit:*\
       \ 11 (2d10) force damage plus 9 (2d8) poison damage."
     "name": "Eldritch Arrow"
   - "desc": "Poison gas fills a 20-foot-radius sphere centered on a point Neronvain\

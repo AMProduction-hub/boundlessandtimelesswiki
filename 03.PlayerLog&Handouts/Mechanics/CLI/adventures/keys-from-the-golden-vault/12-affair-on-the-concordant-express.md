@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 aliases:
-- Affair on the Concordant Express
+- "Affair on the Concordant Express"
 ---
 # Affair on the Concordant Express
 *Source: Keys from the Golden Vault, p. 161* 
@@ -13,7 +14,7 @@ aliases:
 
 Wanted for crimes across the multiverse, an outlaw known as [the Stranger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/the-stranger-kftgv.md) is currently a prisoner aboard the Concordant Express, an interplanar train destined for Mechanus, where the outlaw is set to stand trial. In this heist, the characters must obtain a list of names [the Stranger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/the-stranger-kftgv.md) has committed to memory. The names in question are the true names of several powerful demons, devils, and yugoloths.
 
-![The Concordant Express roc...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/081-11-001-ch11-splash.webp#center "The Concordant Express rockets through the Outlands on its way to Mechanus")
+![The Concordant Express rockets through the Outlands on its way to Mechanus](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/081-11-001-ch11-splash.webp#center)
 
 ## Adventure Background
 
@@ -178,8 +179,6 @@ No random encounters occur on the roof of the Jail Car until after the squad of 
 
 **Guard Patrols**
 
-`dice: [](12-affair-on-the-concordant-express.md#^guard-patrols)`
-
 | dice: d6 | Encounter |
 |----------|-----------|
 | 1–3 | No encounter |
@@ -204,11 +203,9 @@ The train enters a new plane whenever you like. Roll or choose from the options 
 
 **Planar Effects**
 
-`dice: [](12-affair-on-the-concordant-express.md#^planar-effects)`
-
 | dice: d6 | Plane and Effect |
 |----------|------------------|
-| 1 | Acheron. The train flies over a vast battlefield where legions of devils clash with hordes of demons. Whenever one creature aboard the train deals damage to another creature aboard the train, both take 4 (`d8`) psychic damage. |
+| 1 | Acheron. The train flies over a vast battlefield where legions of devils clash with hordes of demons. Whenever one creature aboard the train deals damage to another creature aboard the train, both take 4 (`1d8`) psychic damage. |
 | 2 | Elysium. All creatures aboard the train feel a sense of inner peace. No creature aboard the train can make an attack or cast a spell that deals damage. |
 | 3 | Mount Celestia. Good-aligned creatures aboard the train gain a benefit of a [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md) spell that lasts until the train leaves Mount Celestia. |
 | 4 | The Nine Hells. On one of the blisteringly cold layers of the Nine Hells (either Cania or Stygia), the train passes through a frigid gorge filled with whirlwinds of ice needles. Any creature outside the train takes 5 (`2d4`) cold damage plus 5 (`2d4`) piercing damage at the start of each of its turns. Modrons that normally patrol the outside of the train lock themselves in compartments for safety until the train leaves the plane. |
@@ -261,11 +258,9 @@ The monodrones do their best to calculate accurately, but sometimes they must es
 
 The chalkboard is covered with equations explaining, rather incomprehensibly, why the Great Modron March happens only once every 289 years. To anyone other than a modron, most of the equations are utter nonsense.
 
-A character who studies the equations for at least 10 minutes can make a DC 25 Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)) check at the end of that time. If the check fails, the character takes 3 (`d6`) psychic damage and suffers a mild headache for the next hour. If the check succeeds, the character discovers a profound equation nestled among the others. Like a key, this equation unlocks something in the character's brain, with the effect determined by rolling on the Mysterious Equation table. A character who experiences this revelation gains no further benefit from studying the chalkboard equations. If any of the equations are erased, the modrons in the car turn hostile and attack, and no one can benefit from studying the equations.
+A character who studies the equations for at least 10 minutes can make a DC 25 Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)) check at the end of that time. If the check fails, the character takes 3 (`1d6`) psychic damage and suffers a mild headache for the next hour. If the check succeeds, the character discovers a profound equation nestled among the others. Like a key, this equation unlocks something in the character's brain, with the effect determined by rolling on the Mysterious Equation table. A character who experiences this revelation gains no further benefit from studying the chalkboard equations. If any of the equations are erased, the modrons in the car turn hostile and attack, and no one can benefit from studying the equations.
 
 **Mysterious Equation**
-
-`dice: [](12-affair-on-the-concordant-express.md#^mysterious-equation)`
 
 | dice: d8 | Effect |
 |----------|--------|
@@ -348,7 +343,7 @@ Ignatius tries to enlist the characters in its investigation. If they agree to h
 
 Ignatius has already determined that Quintus was killed while walking to his cabin from one of the Passenger Car's two privies. The aasimar's body lies outside the door to the middle cabin, which Quintus and another passenger shared. Ignatius was using the other privy at the time of Quintus's death and heard the aasimar gasp before hitting the floor. Ignatius quickly reached the scene, but the killer was nowhere in sight.
 
-![Ignatius Inkblot, the grea...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/086-11-004-ignatius-inkblot.webp#center "Ignatius Inkblot, the great mind flayer detective, examines a corpse aboard the Concordant Express")
+![Ignatius Inkblot, the great mind flayer detective, examines a corpse aboard the Concordant Express](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/086-11-004-ignatius-inkblot.webp#center)
 
 #### Murder Suspects
 
@@ -367,7 +362,7 @@ The monodrones never leave the train. Ignatius was already aboard when Meldar bo
 Characters can examine Quintus or cast spells on the corpse. The following information can be learned by doing so:
 
 - **Examining the Corpse.** A character who examines Quintus and succeeds on a DC 11 Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)) or Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)) check determines that the aasimar was killed by three bolts of magical force identical to those created by a [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md) spell. Given where the body fell, the direction Quintus was walking when he died, and where the wounds on the body are located, a character can deduce, with a successful DC 16 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check, that the killer likely didn't come from Meldar's cabin.  
-- **Raising the Dead.** A character who has the [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md) spell prepared can use it to restore Quintus to life. (The devas in areas E3 and E8 can also provide this service, if asked nicely.) Quintus is chaotic neutral and uses the [noble](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md) stat block, although he is unarmored and carries no weapons. Alive, the aasimar is less cooperative than when he was dead, for reasons explained in the "Motive" section below. He offers no possible reasons for why someone would want to kill him.  
+- **Raising the Dead.** A character who has the [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md) spell prepared can use it to restore Quintus to life. (The devas in areas E3and E8 can also provide this service, if asked nicely.) Quintus is chaotic neutral and uses the [noble](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md) stat block, although he is unarmored and carries no weapons. Alive, the aasimar is less cooperative than when he was dead, for reasons explained in the "Motive" section below. He offers no possible reasons for why someone would want to kill him.  
 - **Speaking with the Dead.** If a [speak with dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md) spell is cast on the corpse, the aasimar's spirit answers questions honestly. Quintus did not see his killer, but he knows one reason why every other passenger in this car (besides Ignatius) might want him dead. These reasons are summarized in the Murder Suspects table.  
 
 #### Searching the Cabins
@@ -375,7 +370,7 @@ Characters can examine Quintus or cast spells on the corpse. The following infor
 Characters can search for clues in the passenger cabins and question the modron valet in each one:
 
 - **Cabin A.** This cabin holds Vern's battered suitcase, which contains two [traveler's outfits](03.PlayerLog&Handouts/Mechanics/CLI/items/travelers-clothes.md), three odd-looking compasses, and a set of [tinker's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/tinkers-tools.md). If asked about the compasses, Vern says he builds and repairs them to pass the time on long trips.  
-- **Cabin B.** Ethlynn shared this cabin with the murder victim and knows Quintus was a cartographer. Ethlynn confirms that Quintus left their cabin to use the privy at one end of the train car. Characters who search the cabin find Quintus's satchel, which contains two spare [traveler's outfits](03.PlayerLog&Handouts/Mechanics/CLI/items/travelers-clothes.md), a set of [cartographer's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/cartographers-tools.md), and a [map case](03.PlayerLog&Handouts/Mechanics/CLI/items/map-or-scroll-case.md) containing what look like ancient treasure maps. A similar map, stolen by Ethlynn while Quintus was visiting the privy, is stuffed in her spidersilk handbag. (Ethlynn insists Quintus gave the map to her, which he never did. He did, however, tell her that the map shows the way to a time dragon's lair, which it does not.) A character who spends 1 minute examining any one of Quintus's maps can, with a successful DC 16 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check, cast serious doubt on the map's accuracy.  
+- **Cabin B.** Ethlynn shared this cabin with the murder victim and knows Quintus was a cartographer. Ethlynn confirms that Quintus left their cabin to use the privy at one end of the train car. Characters who search the cabin find Quintus's satchel, which contains two spare [traveler's outfits](03.PlayerLog&Handouts/Mechanics/CLI/items/travelers-clothes.md), a set of [cartographer's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/cartographers-tools.md), and a [map case](03.PlayerLog&Handouts/Mechanics/CLI/items/map-or-scroll-case.md) containing what look like ancient treasure maps. A similar map, stolen by Ethlynn while Quintus was visiting the privy, is stuffed in her spider silk handbag. (Ethlynn insists Quintus gave the map to her, which he never did. He did, however, tell her that the map shows the way to a time dragon's lair, which it does not.) A character who spends 1 minute examining any one of Quintus's maps can, with a successful DC 16 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check, cast serious doubt on the map's accuracy.  
 - **Cabin C.** Meldar and Ignatius share this cabin, which contains nothing incriminating. Its occupants travel light.  
 - **Questioning the Modrons.** Monodrone valets aboard the Concordant Express have built-in language interpreters instead of voice boxes; consequently, they can understand any spoken language but can't speak. Bot and Orb shrug their shoulders if questioned about the murder (of which they know nothing). Higglesworth simply points to itself if questioned about the murder.  
 
@@ -516,7 +511,7 @@ The sapient Engine Car is the source of the deep, booming voice. The car speaks 
 
 Inside the car, two [monodrones](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/monodrone.md) stoke the fire in the furnace by shoveling loot into it from a nearby cart (see "Treasure" below). A [shield guardian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/shield-guardian.md) stands next to the cart, guarding the treasure from thieves. Thanks to its Spell Storing trait, the guardian can cast [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md) (4th-level version) once.
 
-![A monodrone shovels treasu...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/088-11-006-monodrone-engineer.webp#center "A monodrone shovels treasure into the locomotive's engine")
+![A monodrone shovels treasure into the locomotive's engine](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/088-11-006-monodrone-engineer.webp#center)
 
 #### Furnace
 
@@ -566,8 +561,6 @@ The characters might have made a number of planar enemies during this heist. Sub
 - **True Name Terror.** Characters who learn the true names of powerful Fiends are marked for death by those Fiends, which send powerful underlings to slay the characters.  
 
 **Random True Names**
-
-`dice: [](12-affair-on-the-concordant-express.md#^random-true-names)`
 
 | dice: d100 | True Name |
 |------------|-----------|

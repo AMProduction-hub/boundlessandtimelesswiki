@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Undead Bulette
+- "Undead Bulette"
 ---
-# [Undead Bulette](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/undead-bulette-wdmm.md)
+# [Undead Bulette](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/undead-bulette-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 90*  
 
 ```statblock
@@ -39,7 +40,8 @@ aliases:
 "damage_resistances": "necrotic"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 16"
 "languages": ""
 "cr": "5"
 "traits":
@@ -47,7 +49,7 @@ aliases:
       \ feet, with or without a running start."
     "name": "Standing Leap"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 30\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 30\
       \ (4d12 + 4) piercing damage."
     "name": "Bite"
   - "desc": "If the bulette jumps at least 15 feet as part of its movement, it can\

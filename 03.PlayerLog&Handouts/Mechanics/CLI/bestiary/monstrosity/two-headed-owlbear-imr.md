@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Two-Headed Owlbear
+- "Two-Headed Owlbear"
 ---
-# [Two-Headed Owlbear](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/two-headed-owlbear-imr.md)
+# [Two-Headed Owlbear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/two-headed-owlbear-imr.md)
 *Source: Infernal Machine Rebuild p. 90*  
 
 ```statblock
@@ -35,7 +36,8 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
-"senses": "darkvision 60, passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60, passive Perception 13"
 "languages": ""
 "cr": "3"
 "traits":
@@ -53,10 +55,10 @@ aliases:
   - "desc": "The two-headed owlbear makes three attacks: two with its beaks and one\
       \ with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (1d10 + 5) piercing damage."
     "name": "Beak"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (2d8 + 5) slashing damage."
     "name": "Claws"
 "source":

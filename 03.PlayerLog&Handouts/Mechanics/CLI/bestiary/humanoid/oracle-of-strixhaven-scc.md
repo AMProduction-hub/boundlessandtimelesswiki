@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/15
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Oracle of Strixhaven
+- "Oracle of Strixhaven"
 ---
-# [Oracle of Strixhaven](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/oracle-of-strixhaven-scc.md)
+# [Oracle of Strixhaven](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/oracle-of-strixhaven-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 200*  
 
 Somewhere in the lands beyond Strixhaven's borders lives the Oracle: a wise and accomplished mage, tasked by the Founder Dragons to ensure that the magic of Strixhaven is used to help others and not twisted to evil ends. The one who holds the mantle of the Oracle must not only understand the fundamental truths of magic, but also possess impeccable wisdom and unshakable virtue.
@@ -38,10 +39,10 @@ The current Oracle is an elderly human named Jadzi. A graduate of Quandrix Colle
   - !!int "18"
 "speed": "30 ft., fly 15 ft. (hover)"
 "saves":
-  - "constitution": "+8"
-  - "intelligence": "+10"
-  - "wisdom": "+10"
-  - "charisma": "+9"
+  - "constitution": !!int "8"
+  - "intelligence": !!int "10"
+  - "wisdom": !!int "10"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+15"
@@ -65,8 +66,8 @@ The current Oracle is an elderly human named Jadzi. A graduate of Quandrix Colle
   - "desc": "The Oracle makes two Magic Flare attacks. She can also use Paradoxy,\
       \ if available."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +10 to hit, reach 5 ft. or range 60\
-      \ ft., one target. Hit: 24 (3d12 + 5) force damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +10 to hit, reach 5 ft. or range 60\
+      \ ft., one target. *Hit:* 24 (3d12 + 5) force damage."
     "name": "Magic Flare"
   - "desc": "Momentary warps in reality appear at three different points the Oracle\
       \ can see within 120 feet of her. Each creature in a 20-foot-radius sphere centered\
@@ -81,14 +82,18 @@ The current Oracle is an elderly human named Jadzi. A graduate of Quandrix Colle
     "name": "Teleport"
   - "desc": "The Oracle casts one of the following spells, requiring no material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 18):\n\n\
-      At will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md)\n\
-      \n2/day each: [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      **At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md)\n\
+      \n**2/day each:** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [remove\
       \ curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md), [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)\n\
-      \n1/day each: [power word stun](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-stun.md),\
+      \n**1/day each:** [power word stun](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-stun.md),\
       \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md) (as an action),\
       \ [wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the oracle of strixhaven can expend a use to take one of the following actions.\
+  \ The oracle of strixhaven regains all expended uses at the start of each of its\
+  \ turns."
 "legendary_actions":
   - "desc": "The Oracle teleports one creature she can see within 60 feet of herself,\
       \ along with any equipment it is wearing or carrying, to an unoccupied space\

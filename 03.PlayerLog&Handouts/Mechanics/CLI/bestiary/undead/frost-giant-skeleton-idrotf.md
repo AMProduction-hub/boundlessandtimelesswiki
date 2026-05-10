@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Frost Giant Skeleton
+- "Frost Giant Skeleton"
 ---
-# [Frost Giant Skeleton](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/frost-giant-skeleton-idrotf.md)
+# [Frost Giant Skeleton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/frost-giant-skeleton-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 288*  
 
 Necromancers can transform the inanimate bones of long-dead frost giants into malevolent juggernauts that love to harm the living.
@@ -38,7 +39,10 @@ Necromancers can transform the inanimate bones of long-dead frost giants into ma
 "damage_immunities": "cold, poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 9"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "understands Giant but can't speak"
 "cr": "6"
 "traits":
@@ -47,7 +51,7 @@ Necromancers can transform the inanimate bones of long-dead frost giants into ma
 "actions":
   - "desc": "The skeleton makes two greataxe attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
       \ 25 (3d12 + 6) slashing damage."
     "name": "Greataxe"
   - "desc": "The skeleton targets one creature it can see within 60 feet of it. The\

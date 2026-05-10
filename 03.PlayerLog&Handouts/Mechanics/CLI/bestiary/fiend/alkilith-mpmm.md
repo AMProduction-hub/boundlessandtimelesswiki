@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/11
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Alkilith
+- "Alkilith"
 ---
-# [Alkilith](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/alkilith-mpmm.md)
+# [Alkilith](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/alkilith-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 44, Mordenkainen's Tome of Foes p. 130*  
 
 An alkilith is easily mistaken for some kind of foul fungal growth that appears on doorways, windows, and other portals. These dripping infestations conceal the demonic nature of the alkilith, making what should be a dire warning appear strange but otherwise innocuous. Wherever alkiliths take root, they weaken the fabric of reality, creating a portal through which even nastier demons can invade.
@@ -42,8 +43,8 @@ Alkiliths spring from cast-off bits of the hideous, shuddering body of Juiblex. 
   - !!int "7"
 "speed": "40 ft., climb 40 ft."
 "saves":
-  - "dexterity": "+8"
-  - "constitution": "+10"
+  - "dexterity": !!int "8"
+  - "constitution": !!int "10"
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+8"
@@ -53,7 +54,8 @@ Alkiliths spring from cast-off bits of the hideous, shuddering body of Juiblex. 
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "understands Abyssal but can't speak"
 "cr": "11"
 "traits":
@@ -89,7 +91,7 @@ Alkiliths spring from cast-off bits of the hideous, shuddering body of Juiblex. 
 "actions":
   - "desc": "The alkilith makes three Tentacle attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 15 ft., one target. *Hit:*\
       \ 18 (4d6 + 4) acid damage."
     "name": "Tentacle"
 "source":

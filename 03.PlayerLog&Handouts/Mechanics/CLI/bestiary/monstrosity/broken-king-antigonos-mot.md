@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Broken King Antigonos
+- "Broken King Antigonos"
 ---
-# [Broken King Antigonos](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/broken-king-antigonos-mot.md)
+# [Broken King Antigonos](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/broken-king-antigonos-mot.md)
 *Source: Mythic Odysseys of Theros p. 189*  
 
 He is old and decrepit, garbed in ancient finery worn to tatters. A dented crown rests on his brow, and one of his horns ends in a jagged stump. He drags a rusty greataxe in the dirt, and tied to his back is a 30-pound, clay amphora painted with images of warring hoplites—all of whom have had horns crudely painted on them to make them look like minotaurs. The broad-mouthed amphora is large enough to hold roughly 55 gallons of wine.
@@ -39,7 +40,10 @@ He claims that he was a great king who was cursed by Mogis after he defied his w
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
-"senses": "darkvision 60 ft., passive Perception 17"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 17"
 "languages": "Abyssal"
 "cr": "3"
 "traits":
@@ -57,14 +61,14 @@ He claims that he was a great king who was cursed by Mogis after he defied his w
   - "desc": "Antigonos has disadvantage on his attack rolls."
     "name": "Decrepit State"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 17\
       \ (2d12 + 4) slashing damage."
     "name": "Greataxe"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) piercing damage."
     "name": "Gore"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one Medium or smaller\
-      \ creature. Hit: 8 (1d8 + 4) bludgeoning damage. If there is not already\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one Medium or smaller\
+      \ creature. *Hit:* 8 (1d8 + 4) bludgeoning damage. If there is not already\
       \ a creature inside the amphora, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ inside. As an action, the [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ creature can make a DC 14 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics))\

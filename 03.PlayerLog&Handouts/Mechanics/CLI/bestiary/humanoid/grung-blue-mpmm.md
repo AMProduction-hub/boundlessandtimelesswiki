@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-4
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Grung (Blue)
+- "Grung (Blue)"
 ---
-# [Grung (Blue)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/grung-blue-mpmm.md)
+# [Grung (Blue)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/grung-blue-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 149, Volo's Guide to Monsters p. 156*  
 
 ```statblock
@@ -33,7 +34,7 @@ aliases:
   - !!int "10"
 "speed": "25 ft., climb 25 ft."
 "saves":
-  - "dexterity": "+4"
+  - "dexterity": !!int "4"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+2"
@@ -45,6 +46,8 @@ aliases:
     "desc": "+2"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 12"
 "languages": "Grung"
 "cr": "1/4"
@@ -66,8 +69,8 @@ aliases:
       \ only through magic or by immersing itself in water for at least 1 hour."
     "name": "Water Dependency"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage plus 5 (2d4) poison\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage plus 5 (2d4) poison\
       \ damage."
     "name": "Dagger"
 "source":

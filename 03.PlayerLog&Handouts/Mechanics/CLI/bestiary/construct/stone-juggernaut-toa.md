@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/12
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Stone Juggernaut
+- "Stone Juggernaut"
 ---
-# [Stone Juggernaut](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/stone-juggernaut-toa.md)
+# [Stone Juggernaut](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/stone-juggernaut-toa.md)
 *Source: Tomb of Annihilation p. 231*  
 
 A stone juggernaut is a rolling construct imbued with enough awareness to avoid obvious dangers such as open pits and chasms. It trundles across open battlefields or rolls down dungeon corridors, crushing anyone in its path. Every stone juggernaut has a unique shape and appearance. One might resemble an elephant with bejeweled tusks, while another might look like a scowling demon with flaming eyes and obsidian teeth.
@@ -46,7 +47,8 @@ A stone juggernaut is fast, but it lacks maneuverability and can move in only on
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 120 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft., passive Perception 10"
 "languages": ""
 "cr": "12"
 "traits":
@@ -65,7 +67,7 @@ A stone juggernaut is fast, but it lacks maneuverability and can move in only on
   - "desc": "The juggernaut deals double damage to objects and structures."
     "name": "Siege Monster"
 "actions":
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 25 (3d12 + 6) bludgeoning damage. If the target is a Large or smaller creature,\
       \ it must succeed on a DC 17 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Slam"

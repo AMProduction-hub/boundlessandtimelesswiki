@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/slw
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tooth-N-Claw
+- "Tooth-N-Claw"
 ---
-# [Tooth-N-Claw](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/tooth-n-claw-slw.md)
+# [Tooth-N-Claw](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/tooth-n-claw-slw.md)
 *Source: Storm Lord's Wrath*  
 
 ```statblock
@@ -36,7 +37,8 @@ aliases:
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
 "damage_immunities": "cold"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "understands Infernal but can't speak it"
 "cr": "3"
 "traits":
@@ -48,7 +50,7 @@ aliases:
       \ [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage plus 7 (2d6) cold damage."
     "name": "Bite"
   - "desc": "Tooth-N-Claw exhales an icy blast in a 15-foot cone. Each creature in\

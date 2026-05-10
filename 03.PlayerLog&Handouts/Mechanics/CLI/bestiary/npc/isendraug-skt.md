@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/13
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Isendraug
+- "Isendraug"
 ---
-# [Isendraug](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/isendraug-skt.md)
+# [Isendraug](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/isendraug-skt.md)
 *Source: Storm King's Thunder p. 164*  
 
 ```statblock
@@ -33,17 +34,19 @@ aliases:
   - !!int "12"
 "speed": "40 ft., burrow 30 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+5"
-  - "constitution": "+11"
-  - "wisdom": "+6"
-  - "charisma": "+6"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "11"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+11"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "damage_immunities": "cold"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 21"
 "languages": "Common, Draconic"
 "cr": "13"
 "traits":
@@ -57,13 +60,13 @@ aliases:
   - "desc": "The dragon can use its Frightful Presence. It then makes three attacks:\
       \ one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
-      \ 17 (2d10 + 6) piercing damage plus 4 (d8) cold damage."
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
+      \ 17 (2d10 + 6) piercing damage plus 4 (1d8) cold damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 13 (2d6 + 6) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 15 ft., one target. *Hit:*\
       \ 15 (2d8 + 6) bludgeoning damage."
     "name": "Tail"
   - "desc": "Each creature of the dragon's choice that is within 120 feet of the dragon\
@@ -77,6 +80,9 @@ aliases:
       \ area must make a DC 19 Constitution saving throw, taking 54 (12d8) cold\
       \ damage on a failed save, or half as much damage on a successful one."
     "name": "Cold Breath (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Isendraug can expend a use to take one of the following actions. Isendraug\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "The dragon makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ check."

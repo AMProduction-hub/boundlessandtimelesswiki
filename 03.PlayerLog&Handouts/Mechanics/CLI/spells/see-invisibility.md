@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/class/artificer
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/feat/adept-of-the-white-robes
@@ -17,7 +18,7 @@ tags:
 - ttrpg-cli/spell/subrace/half-elf-mark-of-detection
 classes:
 - Artificer
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Twilight Domain)
 - Fighter (Eldritch Knight)
 - Paladin (Oath of the Watchers)
@@ -25,7 +26,7 @@ classes:
 - Sorcerer
 - Wizard
 aliases:
-- See Invisibility
+- "See Invisibility"
 ---
 # See Invisibility
 *2nd-level, Divination*  
@@ -38,6 +39,6 @@ aliases:
 
 For the duration, you see [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.
 
-**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Cleric (Twilight Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-twilight-domain-tce.md "subclass=TCE"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Paladin (Oath of the Watchers)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-watchers-tce.md "subclass=TCE")
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Twilight Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-twilight-domain-tce.md "subclass=TCE"); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Paladin (Oath of the Watchers)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-watchers-tce.md "subclass=TCE"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 274. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

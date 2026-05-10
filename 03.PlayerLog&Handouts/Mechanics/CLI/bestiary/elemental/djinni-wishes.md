@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/11
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Djinni (Wishes)
+- "Djinni (Wishes)"
 ---
-# [Djinni (Wishes)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/djinni-wishes.md)
-*Source: Monster Manual p. 144, Princes of the Apocalypse, Ghosts of Saltmarsh, Tasha's Cauldron of Everything, Candlekeep Mysteries, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Djinni (Wishes)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/djinni-wishes.md)
+*Source: Monster Manual p. 144. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 ```statblock
 "name": "Djinni (Wishes)"
@@ -34,30 +35,33 @@ aliases:
   - !!int "20"
 "speed": "30 ft., fly 90 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+7"
-  - "charisma": "+9"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "9"
 "damage_immunities": "lightning, thunder"
-"senses": "darkvision 120 ft., passive Perception 13"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "Auran"
 "cr": "11"
 "traits":
   - "desc": "The djinni's innate spellcasting ability is Charisma (spell save DC 17,\
       \ +9 to hit with spell attacks). It can innately cast the following spells,\
-      \ requiring no material components:\n\nAt will: [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
+      \ requiring no material components:\n\n**At will:** [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n3/day each: [create food and water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-food-and-water.md)\
+      \n**3/day each:** [create food and water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-food-and-water.md)\
       \ (can create wine instead of water), [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md),\
-      \ [wind walk](03.PlayerLog&Handouts/Mechanics/CLI/spells/wind-walk.md)\n\n1/day\
-      \ each: [conjure elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-elemental.md)\
+      \ [wind walk](03.PlayerLog&Handouts/Mechanics/CLI/spells/wind-walk.md)\n\n**1/day\
+      \ each:** [conjure elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-elemental.md)\
       \ ([air elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/air-elemental.md)\
       \ only), [creation](03.PlayerLog&Handouts/Mechanics/CLI/spells/creation.md),\
       \ [gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/spells/gaseous-form.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md),\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)\n\
-      \n1/year each: [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md)\
+      \n**1/year each:** [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md)\
       \ (see Wishes)"
     "name": "Innate Spellcasting"
   - "desc": "If the djinni dies, its body disintegrates into a warm breeze, leaving\
@@ -80,8 +84,8 @@ aliases:
 "actions":
   - "desc": "The djinni makes three scimitar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
-      \ (2d6 + 5) slashing damage plus 3 (d6) lightning or thunder damage (djinni's\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12\
+      \ (2d6 + 5) slashing damage plus 3 (1d6) lightning or thunder damage (djinni's\
       \ choice)."
     "name": "Scimitar"
   - "desc": "A 5-foot-radius, 30-foot-tall cylinder of swirling air magically forms\
@@ -100,11 +104,6 @@ aliases:
     "name": "Create Whirlwind"
 "source":
   - "MM"
-  - "PotA"
-  - "GoS"
-  - "TCE"
-  - "CM"
-  - "JttRC"
 ```
 ^statblock
 

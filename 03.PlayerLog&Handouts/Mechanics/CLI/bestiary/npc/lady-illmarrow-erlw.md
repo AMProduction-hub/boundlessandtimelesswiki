@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/22
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lady Illmarrow
+- "Lady Illmarrow"
 ---
-# [Lady Illmarrow](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/lady-illmarrow-erlw.md)
+# [Lady Illmarrow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lady-illmarrow-erlw.md)
 *Source: Eberron: Rising from the Last War p. 296*  
 
 Lady Illmarrow is a legend—an ancient lich said to dwell in a castle of bone and ice in the coldest regions of the Lhazaar Principalities. Some stories say that she is served by a legion of undead and that she maintains a court of vampires and ghosts in her palace of ice. Other tales claim that when anyone dies in Lhazaar, Illmarrow chooses whether to take their soul before it passes on to the Keeper and Dolurrh.
@@ -64,9 +65,9 @@ Though she takes great pleasure in fighting the dragons and elves who destroyed 
   - !!int "24"
 "speed": "30 ft., fly 40 ft."
 "saves":
-  - "constitution": "+12"
-  - "intelligence": "+15"
-  - "wisdom": "+12"
+  - "constitution": !!int "12"
+  - "intelligence": !!int "15"
+  - "wisdom": !!int "12"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+15"
@@ -87,40 +88,41 @@ Though she takes great pleasure in fighting the dragons and elves who destroyed 
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "truesight 120 ft., passive Perception 22"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 22"
 "languages": "Common, Draconic, Elvish"
 "cr": "22"
 "traits":
   - "desc": "Illmarrow is a 20th-level spellcaster. Her spellcasting ability is Intelligence\
       \ (spell save DC 23, +15 to hit with spell attacks). Illmarrow has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md)\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md)\
       \ (see \"Actions\" below), [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
-      \n1st level (4 slots): [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
+      \n**1st level (4 slots):** [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)\n\
-      \n2nd level (3 slots): [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md),\
+      \n**2nd level (3 slots):** [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md)\n\
-      \n3rd level (3 slots): [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
+      \n**3rd level (3 slots):** [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md),\
       \ [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)\n\
-      \n4th level (3 slots): [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
+      \n**4th level (3 slots):** [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
       \ [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md), [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\
-      \n5th level (3 slots): [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
+      \n**5th level (3 slots):** [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
       \ [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md),\
       \ [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md),\
-      \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)\n\n6th\
-      \ level (2 slots): [chain lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/chain-lightning.md),\
+      \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)\n\n**6th\
+      \ level (2 slots):** [chain lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/chain-lightning.md),\
       \ [circle of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/circle-of-death.md),\
       \ [create undead](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-undead.md)\n\
-      \n7th level (2 slots): [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
+      \n**7th level (2 slots):** [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
       \ [forcecage](03.PlayerLog&Handouts/Mechanics/CLI/spells/forcecage.md), [prismatic\
       \ spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/prismatic-spray.md)\n\n\
-      8th level (1 slots): [incendiary cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/incendiary-cloud.md),\
-      \ [maze](03.PlayerLog&Handouts/Mechanics/CLI/spells/maze.md)\n\n9th level\
-      \ (1 slots): [power word kill](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-kill.md),\
+      **8th level (1 slots):** [incendiary cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/incendiary-cloud.md),\
+      \ [maze](03.PlayerLog&Handouts/Mechanics/CLI/spells/maze.md)\n\n**9th level\
+      \ (1 slots):** [power word kill](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-kill.md),\
       \ [time stop](03.PlayerLog&Handouts/Mechanics/CLI/spells/time-stop.md)"
     "name": "Spellcasting"
   - "desc": "If Illmarrow fails a saving throw, she can choose to succeed instead."
@@ -129,17 +131,17 @@ Though she takes great pleasure in fighting the dragons and elves who destroyed 
       \ effects."
     "name": "Magic Resistance"
   - "desc": "Illmarrow's body turns to dust when she drops to 0 hit points, and her\
-      \ equipment is left behind. She gains a new body after d10 days, regaining\
+      \ equipment is left behind. She gains a new body after 1d10 days, regaining\
       \ all her hit points and becoming active again. The new body appears within\
       \ two hundred miles of the location at which she was destroyed."
     "name": "Rejuvenation"
 "actions":
-  - "desc": "Ranged Spell Attack: +15 to hit, range 120 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +15 to hit, range 120 ft., one creature. *Hit:*\
       \ 18 (4d8) necrotic damage, and the target can't regain hit points until the\
       \ start of Illmarrow's next turn. If the target is undead, it also has disadvantage\
       \ on attack rolls against Illmarrow until the end of her next turn."
     "name": "Chill Touch (Cantrip)"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one creature. *Hit:*\
       \ 13 (3d6 + 3) slashing damage plus 10 (3d6) cold damage, and the target\
       \ must succeed on a DC 20 Constitution saving throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
@@ -156,6 +158,9 @@ Though she takes great pleasure in fighting the dragons and elves who destroyed 
       \ in the initiative count and is permanently under her command, following her\
       \ verbal orders."
     "name": "Poison Breath (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Lady can expend a use to take one of the following actions. Lady regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Illmarrow casts a cantrip."
     "name": "Cantrip"

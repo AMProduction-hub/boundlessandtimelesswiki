@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kalka-Kylla
+- "Kalka-Kylla"
 ---
-# [Kalka-Kylla](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/kalka-kylla-tftyp.md)
+# [Kalka-Kylla](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kalka-kylla-tftyp.md)
 *Source: Tales from the Yawning Portal p. 238*  
 
 ```statblock
@@ -39,7 +40,8 @@ aliases:
     "desc": "+5"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
-"senses": "blindsight 30 ft., passive Perception 13"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., passive Perception 13"
 "languages": "Olman"
 "cr": "3"
 "traits":
@@ -55,7 +57,7 @@ aliases:
 "actions":
   - "desc": "Kalka-Kylla makes two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) bludgeoning damage, and if the target is a Medium or smaller creature,\
       \ it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\

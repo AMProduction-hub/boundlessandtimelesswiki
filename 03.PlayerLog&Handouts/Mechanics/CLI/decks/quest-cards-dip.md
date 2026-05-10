@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deck
+cssclasses:
+- json5e-deck
 tags:
 - ttrpg-cli/compendium/src/5e/dip
 aliases:
-- Quest Cards
+- "Quest Cards"
 ---
 # Quest Cards
 *Source: Dragon of Icespire Peak p. 3*  

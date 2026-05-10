@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/30
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tarrasque
+- "Tarrasque"
 ---
-# [Tarrasque](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/tarrasque.md)
-*Source: Monster Manual p. 286, Infernal Machine Rebuild, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Light of Xaryxis. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Tarrasque](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/tarrasque.md)
+*Source: Monster Manual p. 286. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 The legendary tarrasque is possibly the most dreaded monster of the Material Plane. It is widely believed that only one of these creatures exists, though no one can predict where and when it will strike.
 
@@ -45,16 +46,17 @@ Legends tell how the tarrasque slumbers in its secret lair beneath the earth, re
   - !!int "11"
 "speed": "40 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+9"
-  - "charisma": "+9"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "9"
 "damage_immunities": "fire; poison; bludgeoning, piercing, slashing from nonmagical\
   \ attacks"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 120 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft., passive Perception 10"
 "languages": ""
 "cr": "30"
 "traits":
@@ -76,18 +78,18 @@ Legends tell how the tarrasque slumbers in its secret lair beneath the earth, re
       \ one with its bite, two with its claws, one with its horns, and one with its\
       \ tail. It can use its Swallow instead of its bite."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +19 to hit, reach 10 ft., one target. *Hit:*\
       \ 36 (4d12 + 10) piercing damage. If the target is a creature, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 20). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and the tarrasque can't bite another target."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +19 to hit, reach 15 ft., one target. *Hit:*\
       \ 28 (4d8 + 10) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +19 to hit, reach 10 ft., one target. *Hit:*\
       \ 32 (4d10 + 10) piercing damage."
     "name": "Horns"
-  - "desc": "Melee Weapon Attack: +19 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +19 to hit, reach 20 ft., one target. *Hit:*\
       \ 24 (4d6 + 10) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 20 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
@@ -115,6 +117,9 @@ Legends tell how the tarrasque slumbers in its secret lair beneath the earth, re
       \ by it and can escape from the corpse by using 30 feet of movement, exiting\
       \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Swallow"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the tarrasque can expend a use to take one of the following actions. The\
+  \ tarrasque regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The tarrasque makes one claw attack or tail attack."
     "name": "Attack"
@@ -124,11 +129,6 @@ Legends tell how the tarrasque slumbers in its secret lair beneath the earth, re
     "name": "Chomp (Costs 2 Actions)"
 "source":
   - "MM"
-  - "IMR"
-  - "MOT"
-  - "IDRotF"
-  - "TCE"
-  - "LoX"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/tarrasque.webp"
 ```
 ^statblock

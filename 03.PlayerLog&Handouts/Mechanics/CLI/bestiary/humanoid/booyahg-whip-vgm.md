@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 - ttrpg-cli/monster/cr/1-4
@@ -9,12 +10,12 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Booyahg Whip
+- "Booyahg Whip"
 ---
-# [Booyahg Whip](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/booyahg-whip-vgm.md)
+# [Booyahg Whip](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/booyahg-whip-vgm.md)
 *Source: Volo's Guide to Monsters p. 42*  
 
-Khurgorbaeyag saw fit to gift this goblin with powers that enable it to dominate others. The goblin has `d3` other goblins that slavishly obey its orders.
+Khurgorbaeyag saw fit to gift this goblin with powers that enable it to dominate others. The goblin has `1d3` other goblins that slavishly obey its orders.
 
 ## Booyahgs
 
@@ -47,22 +48,27 @@ A goblin with access to booyahg becomes a member of the lashers and can often ri
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 9"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "Common, Goblin"
 "cr": "1/4"
 "traits":
-  - "desc": "The goblin can take the Disengage or Hide action as a bonus action on\
-      \ each of its turns."
+  - "desc": "The goblin can take the [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action\
+      \ as a bonus action on each of its turns."
     "name": "Nimble Escape"
   - "desc": "Khurgorbaeyag saw fit to gift this goblin with powers that enable it\
-      \ to dominate others. The goblin has d3 other [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md)\
+      \ to dominate others. The goblin has 1d3 other [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md)\
       \ that slavishly obey its orders."
     "name": "Khurgorbaeyag's Gift"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage."
     "name": "Scimitar"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Shortbow"
 "source":

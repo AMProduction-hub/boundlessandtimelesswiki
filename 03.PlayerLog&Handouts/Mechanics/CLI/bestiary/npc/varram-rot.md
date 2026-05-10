@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/rot
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Varram
+- "Varram"
 ---
-# [Varram](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/varram-rot.md)
+# [Varram](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/varram-rot.md)
 *Source: The Rise of Tiamat p. 9, Tyranny of Dragons p. 8*  
 
 ```statblock
@@ -34,7 +35,7 @@ aliases:
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+6"
@@ -42,7 +43,10 @@ aliases:
     "desc": "+7"
 "damage_resistances": "one of the following: acid, cold, fire, lightning, poison;\
   \ poison"
-"senses": "darkvision 60 ft., passive Perception 11"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common, Draconic, Infernal, Dwarvish"
 "cr": "7"
 "traits":
@@ -71,11 +75,11 @@ aliases:
 "actions":
   - "desc": "Varram attacks twice with its shortsword."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage plus 10 (3d6) damage of the type to which Varram\
       \ has resistance."
     "name": "Shortsword"
-  - "desc": "Ranged Spell Attack: +7 to hit, range 90 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +7 to hit, range 90 ft., one target. *Hit:*\
       \ 27 (6d8) damage of the type to which Varram has damage resistance."
     "name": "Orb of Dragon's Breath (3/Day)"
 "source":

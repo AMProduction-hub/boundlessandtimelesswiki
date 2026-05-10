@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-8
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Xvart
+- "Xvart"
 ---
-# [Xvart](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/xvart-mpmm.md)
+# [Xvart](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/xvart-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 267, Volo's Guide to Monsters p. 200*  
 
 Fleeing his pursuers, Raxivort wandered across the multiverse and spawned xvarts, who not only look like him but also cause any magic that could reveal his location to point to the nearest xvart instead.
@@ -45,7 +46,11 @@ Raxivort spent centuries watching over the treasury of Graz'zt, and in time, Rax
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 30 ft., passive Perception 8"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+  - "[sling](03.PlayerLog&Handouts/Mechanics/CLI/items/sling.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 30 ft., passive Perception 8"
 "languages": "Abyssal"
 "cr": "1/8"
 "traits":
@@ -55,12 +60,12 @@ Raxivort spent centuries watching over the treasury of Graz'zt, and in time, Rax
       \ and [giant rats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-rat.md)."
     "name": "Raxivort's Tongue"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage. If at least one of the xvart's allies is within\
       \ 5 feet of the target, the xvart can push the target 5 feet if the target is\
       \ a Medium or smaller creature."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 4 (1d4 + 2) bludgeoning damage."
     "name": "Sling"
 "bonus_actions":

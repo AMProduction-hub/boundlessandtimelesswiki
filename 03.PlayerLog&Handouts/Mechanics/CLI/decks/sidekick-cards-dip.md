@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deck
+cssclasses:
+- json5e-deck
 tags:
 - ttrpg-cli/compendium/src/5e/dip
 aliases:
-- Sidekick Cards
+- "Sidekick Cards"
 ---
 # Sidekick Cards
 *Source: Dragon of Icespire Peak p. 65*  

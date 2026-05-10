@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/item/age/futuristic
@@ -13,7 +14,7 @@ tags:
 - ttrpg-cli/item/weapon/ranged
 - ttrpg-cli/item/weapon/simple
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Adamantine Weapon"
 - "Adamantine Antimatter Rifle"
 - "Adamantine Automatic Pistol"

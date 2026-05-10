@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Warhorse Skeleton
+- "Warhorse Skeleton"
 ---
-# [Warhorse Skeleton](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/warhorse-skeleton.md)
-*Source: Monster Manual p. 273, Curse of Strahd, Storm King's Thunder, Candlekeep Mysteries, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Warhorse Skeleton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/warhorse-skeleton.md)
+*Source: Monster Manual p. 273. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Skeletons arise when animated by dark magic. They heed the summons of spellcasters who call them from their stony tombs and ancient battlefields, or rise of their own accord in places saturated with death and loss, awakened by stirrings of necromantic energy or the presence of corrupting evil.
 
@@ -62,19 +63,16 @@ A skeleton doesn't require air, food, drink, or sleep.
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": ""
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage."
     "name": "Hooves"
 "source":
   - "MM"
-  - "CoS"
-  - "SKT"
-  - "CM"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/warhorse-skeleton.webp"
 ```
 ^statblock

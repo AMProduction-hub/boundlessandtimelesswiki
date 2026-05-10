@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dc
 aliases:
-- Thalivar's Beacon
+- "Thalivar's Beacon"
 ---
 # Thalivar's Beacon
 *Source: Essentials Kit: Divine Contention* 
@@ -120,14 +121,12 @@ The laboratory is crammed with tables bearing alchemical gear. Bottles of rare i
 
 **Alchemical Mishaps**
 
-`dice: [](08-thalivars-beacon.md#^alchemical-mishaps)`
-
 | dice: d20 | Mishap |
 |-----------|--------|
-| 1-2 | Explosion. All creatures within 10 feet of the character must make a DC 12 Dexterity saving throw, taking 27 (`6d8`) fire damage on a failed save, or half as much damage on a successful one. |
-| 3-5 | Reversed Gravity. Gravity reverses in a 20-foot-radius sphere around the character. Any creatures in this area fall upwards, taking `2d6` bludgeoning damage as they crash headfirst into the ceiling. This effect lasts for `d3` rounds. |
-| 6-9 | Flashbang. All creatures within 10 feet of the character must make a DC 12 Constitution saving throw. On a failed save, they are [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) and [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened) until the end of their next turn. |
-| 10-20 | No effect. |
+| 1–2 | Explosion. All creatures within 10 feet of the character must make a DC 12 Dexterity saving throw, taking 27 (`6d8`) fire damage on a failed save, or half as much damage on a successful one. |
+| 3–5 | Reversed Gravity. Gravity reverses in a 20-foot-radius sphere around the character. Any creatures in this area fall upwards, taking `2d6` bludgeoning damage as they crash headfirst into the ceiling. This effect lasts for `1d3` rounds. |
+| 6–9 | Flashbang. All creatures within 10 feet of the character must make a DC 12 Constitution saving throw. On a failed save, they are [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) and [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened) until the end of their next turn. |
+| 10–20 | No effect. |
 ^alchemical-mishaps
 
 #### B11. Gallio's Study

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/optfeature/dreadful-word
 aliases:
-- Spells for Dreadful Word
+- "Spells for Dreadful Word"
 ---
 # Spells for Dreadful Word
 

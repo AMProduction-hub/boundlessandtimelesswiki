@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Kruphix's Villains
+- "Kruphix's Villains"
 ---
 # Kruphix's Villains
 *Source: Mythic Odysseys of Theros p. 148* 
 
 **Kruphix's Villains**
-
-`dice: [](kruphixs-villains-mot.md#^kruphixs-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

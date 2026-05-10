@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -13,10 +14,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Eagle
+- "Giant Eagle"
 ---
-# [Giant Eagle](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-eagle.md)
-*Source: Monster Manual p. 324, Ghosts of Saltmarsh. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Eagle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-eagle.md)
+*Source: Monster Manual p. 324. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A giant eagle is a noble creature that speaks its own language and understands speech in the Common tongue. A mated pair of giant eagles typically has up to four eggs or young in their nest (treat the young as normal eagles).
 
@@ -50,15 +51,14 @@ A giant eagle is a noble creature that speaks its own language and understands s
 "actions":
   - "desc": "The eagle makes two attacks: one with its beak and one with its talons."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Beak"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage."
     "name": "Talons"
 "source":
   - "MM"
-  - "GoS"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-eagle.webp"
 ```
 ^statblock

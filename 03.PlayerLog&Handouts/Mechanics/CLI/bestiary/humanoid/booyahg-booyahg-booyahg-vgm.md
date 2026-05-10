@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Booyahg Booyahg Booyahg
+- "Booyahg Booyahg Booyahg"
 ---
-# [Booyahg Booyahg Booyahg](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/booyahg-booyahg-booyahg-vgm.md)
+# [Booyahg Booyahg Booyahg](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/booyahg-booyahg-booyahg-vgm.md)
 *Source: Volo's Guide to Monsters p. 43*  
 
 This goblin is a sorcerer with the wild magic origin whose every casting, including cantrips, is accompanied by a wild magic surge. Each time the goblin casts a spell, there is an accompanying surge of wild magic; roll on the [Wild Magic Surge](03.PlayerLog&Handouts/Mechanics/CLI/tables/wild-magic-surge-phb.md) table in the "Player's Handbook" to determine the wild magic effect.
@@ -44,32 +45,35 @@ A goblin with access to booyahg becomes a member of the lashers and can often ri
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+6"
-  - "wisdom": "+4"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 11"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "any four languages, Goblin"
 "cr": "6"
 "traits":
   - "desc": "The goblin is a 9th-level spellcaster. Its spellcasting ability is Intelligence\
       \ (spell save DC 14, +6 to hit with spell attacks). The goblin has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**1st level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [magic\
       \ missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md), [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\
-      \n2nd level (3 slots): [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md),\
+      \n**2nd level (3 slots):** [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\n\
-      3rd level (3 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      **3rd level (3 slots):** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md)\n\
-      \n4th level (3 slots): [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md),\
-      \ [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md)\n\n5th\
-      \ level (1 slots): [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md)"
+      \n**4th level (3 slots):** [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md),\
+      \ [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md)\n\n**5th\
+      \ level (1 slots):** [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md)"
     "name": "Spellcasting"
   - "desc": "Each time the goblin casts a spell (including cantrips), there is an\
       \ accompanying surge of wild magic; roll on the [Wild Magic Surge](03.PlayerLog&Handouts/Mechanics/CLI/tables/wild-magic-surge-phb.md)\
@@ -78,8 +82,8 @@ A goblin with access to booyahg becomes a member of the lashers and can often ri
   - "desc": "The goblin"
     "name": "Nimble Escape"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
 "source":
   - "VGM"

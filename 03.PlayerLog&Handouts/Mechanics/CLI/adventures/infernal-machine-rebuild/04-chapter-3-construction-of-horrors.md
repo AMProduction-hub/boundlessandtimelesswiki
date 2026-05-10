@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 aliases:
-- Chapter 3: Construction of Horrors
+- "Chapter 3: Construction of Horrors"
 ---
 # Chapter 3: Construction of Horrors
 *Source: Infernal Machine Rebuild, p. 13* 
@@ -256,7 +257,7 @@ If the characters are free to speak with [Tarnhem](03.PlayerLog&Handouts/Mechani
 [Tarnhem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/tarnhem-imr.md) uses the [balor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/balor.md) stat block with the following changes:
 
 - While held, [Tarnhem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/tarnhem-imr.md) is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) but can still speak.  
-- Until he recovers his weapons from the chapel, his Longsword and Whip actions are replaced by the following action option: ***Fist of Retribution**.* *Melee Weapon Attack*: +14 to hit, reach 10 ft., one target. *Hit*: 13 (`2d4 + 8`) bludgeoning damage plus 7 (`2d6`) fire damage.  
+- Until he recovers his weapons from the chapel, his Longsword and Whip actions are replaced by the following action option: ***Fist of Retribution**.* *Melee Weapon Attack*: `+14` to hit, reach 10 ft., one target. *Hit*: 13 (`2d4 + 8`) bludgeoning damage plus 7 (`2d6`) fire damage.  
 
 If released, [Tarnhem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/tarnhem-imr.md) upholds any agreement he made to not harm the characters. He instead focuses his wrath on [Moghadam](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/moghadam-imr.md) and Phenex, hunting both down before vanishing into the rift to the Lower Planes in area 16.
 
@@ -295,7 +296,7 @@ The rhythmic chanting magically carried into area 3 grows louder in this area.
 
 Under the command of Phenex (area 14), the [girallon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/girallon-mpmm.md) has been ordered to obey the sculptors as they work, but to not allow them to leave the tomb. The creature carries torches in two hands to provide light for the sculptors. With the other two, it hands out hammers, chisels, and other tools as needed.
 
-The girallon challenges the characters unless they bear one of [Moghadam](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/moghadam-imr.md)'s magical passes. In combat, it uses the implements it holds as weapons. Use the statistics for the girallon's claw attack, but a hammer attack deals bludgeoning damage and a chisel attack deals piercing damage. A torch attack deals bludgeoning damage plus 2 (`d4`) fire damage.
+The girallon challenges the characters unless they bear one of [Moghadam](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/moghadam-imr.md)'s magical passes. In combat, it uses the implements it holds as weapons. Use the statistics for the girallon's claw attack, but a hammer attack deals bludgeoning damage and a chisel attack deals piercing damage. A torch attack deals bludgeoning damage plus 2 (`1d4`) fire damage.
 
 #### Treasure
 
@@ -334,7 +335,7 @@ Five neutral human sculptors (use the [cultist](03.PlayerLog&Handouts/Mechanics/
 
 Eight neutral tiefling muralists are plastering and painting, as well as covering the floor with inlaid tiles. They use the same statistics and respond to questions in the same way as the muralists in area 3.
 
-The [girallon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/girallon-mpmm.md) is under orders to obey the workers but not to allow them to leave the tomb. It challenges the characters unless they bear one of [Moghadam](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/moghadam-imr.md)'s magical passes, using the torches as weapons. Use the statistics for the girallon's claw attack, but a torch attack deals bludgeoning damage plus 2 (`d4`) fire damage.
+The [girallon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/girallon-mpmm.md) is under orders to obey the workers but not to allow them to leave the tomb. It challenges the characters unless they bear one of [Moghadam](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/moghadam-imr.md)'s magical passes, using the torches as weapons. Use the statistics for the girallon's claw attack, but a torch attack deals bludgeoning damage plus 2 (`1d4`) fire damage.
 
 #### Murals
 
@@ -572,5 +573,5 @@ Having a mechanical guide spend 1 charge in this area causes the manikin to appr
 > 
 > The magic of the ritual that creates the skull shrinks down the great rubies of Moloch's eyes to fit the silver skull. The last stage of the ritual involves placing the finished skull atop the manikin in area 18a. The spirit of the archmage Acererak then possesses the manikin and transforms it into an eye of fear and flame. If the characters are present, they can treat with Acererak in this form.
 > 
-> The [eye of fear and flame](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/eye-of-fear-and-flame-mff.md) attacks at once if the characters are known to have undertaken any actions against [Moghadam](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/moghadam-imr.md), the tomb, or its workers. If not, and if Acererak is impressed with their adventuring acumen, the archmage promises to grant a great boon in exchange for some measure of service necessary for the completion of his tomb. The details of the service are left to your determination. The boon can be the equivalent of a [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell, though whether or not Acererak fulfills any promise is left to you to decide.
+> The eye of fear and flame attacks at once if the characters are known to have undertaken any actions against [Moghadam](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/moghadam-imr.md), the tomb, or its workers. If not, and if Acererak is impressed with their adventuring acumen, the archmage promises to grant a great boon in exchange for some measure of service necessary for the completion of his tomb. The details of the service are left to your determination. The boon can be the equivalent of a [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell, though whether or not Acererak fulfills any promise is left to you to decide.
 ^completing-the-skull

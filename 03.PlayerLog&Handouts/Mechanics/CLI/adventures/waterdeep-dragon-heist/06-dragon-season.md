@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 aliases:
-- Dragon Season
+- "Dragon Season"
 ---
 # Dragon Season
 *Source: Waterdeep: Dragon Heist, p. 57* 
@@ -24,7 +25,7 @@ In chapter 3, Lady Gralhund's [nimblewright](03.PlayerLog&Handouts/Mechanics/CLI
 
 ### Finding the Nimblewright
 
-If the characters can't pick up the trail after the [nimblewright](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/nimblewright-wdh.md) escapes with the [Stone of Golorr](03.PlayerLog&Handouts/Mechanics/CLI/items/stone-of-golorr-wdh.md), they might turn to the City Watch, the City Guard, or a friendly faction for help, which comes forth in `d4` days. If it occurs to none of the characters, an NPC suggests that the party visit the House of Inspired Hands to see whether the priests of Gond know a way to find it (see "Nim's Secret"). Thereafter, armed with Nim's nimblewright detector, the characters can sweep the city. But by the time they find the nimblewright, it has already delivered the [Stone of Golorr](03.PlayerLog&Handouts/Mechanics/CLI/items/stone-of-golorr-wdh.md) to its intended destination.
+If the characters can't pick up the trail after the [nimblewright](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/nimblewright-wdh.md) escapes with the [Stone of Golorr](03.PlayerLog&Handouts/Mechanics/CLI/items/stone-of-golorr-wdh.md), they might turn to the City Watch, the City Guard, or a friendly faction for help, which comes forth in `1d4` days. If it occurs to none of the characters, an NPC suggests that the party visit the House of Inspired Hands to see whether the priests of Gond know a way to find it (see "Nim's Secret"). Thereafter, armed with Nim's nimblewright detector, the characters can sweep the city. But by the time they find the nimblewright, it has already delivered the [Stone of Golorr](03.PlayerLog&Handouts/Mechanics/CLI/items/stone-of-golorr-wdh.md) to its intended destination.
 
 #### Caught at Last!
 
@@ -331,8 +332,6 @@ This stone building is a store of one kind or another. If an encounter doesn't s
 
 **Store Goods**
 
-`dice: [](06-dragon-season.md#^store-goods)`
-
 | dice: d20 | Result |
 |-----------|--------|
 | 1 | Art |
@@ -367,7 +366,7 @@ When this encounter begins, either the characters have the [Stone of Golorr](03.
 
 Choose five squares on the map. These squares contain deep puddles of muddy water. Hidden within each puddle is a spring-loaded bear trap. A creature that has a passive Perception score of 13 or higher spots a trap before accidentally stepping in it.
 
-Any creature that steps into a trap's square must make a DC 10 Dexterity saving throw. On a failed save, the creature takes 3 (`d6`) slashing damage as the trap snaps shut around its ankle, and the creature is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) until the trap is removed. As an action, a creature can try to pry open the trap, doing so with a successful DC 12 Strength (Athletics) check.
+Any creature that steps into a trap's square must make a DC 10 Dexterity saving throw. On a failed save, the creature takes 3 (`1d6`) slashing damage as the trap snaps shut around its ankle, and the creature is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) until the trap is removed. As an action, a creature can try to pry open the trap, doing so with a successful DC 12 Strength (Athletics) check.
 
 #### Ambushers
 
@@ -789,8 +788,6 @@ This encounter uses the chase rules in chapter 8 of the "Dungeon Master's Guide"
 
 **Rooftop Chase Complications**
 
-`dice: [](06-dragon-season.md#^rooftop-chase-complications)`
-
 | dice: d20 | result |
 |-----------|--------|
 | 1 | You come to a 10-foot-wide gap between rooftops. You can jump over the gap if your Strength is 10 or higher (each foot you clear costs 1 foot of movement), and you must succeed on a DC 10 Dexterity (Acrobatics) check or fall [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) on the far rooftop. Or you can cross the gap using a 10-foot-long rope line that stretches between the two rooftops |
@@ -892,7 +889,7 @@ A trio of mismatched couches and a stained beige rug are the main features of th
 
 #### P8. Dressing Rooms
 
-This room contains clothes racks, tables lined with makeup, and long wall mirrors. During or immediately before a performance, each dressing room holds `d3` actors ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)).
+This room contains clothes racks, tables lined with makeup, and long wall mirrors. During or immediately before a performance, each dressing room holds `1d3` actors ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)).
 
 ### Theater: Spring
 
@@ -1022,8 +1019,6 @@ A thorough search of the room yields a random treasure, determined by rolling a 
 #### Old Tower Treasure
 
 **Old Tower Treasure Table**
-
-`dice: [](06-dragon-season.md#^old-tower-treasure-table)`
 
 | dice: d4 | Result |
 |----------|--------|
@@ -1258,7 +1253,7 @@ Characters who give up their visible weapons without a fuss aren't searched, but
 
 #### Dock Ward Courthouse
 
-Arrested characters are brought to a courthouse in the Dock Ward and confined to cells (H8) until their trial. Any items taken from them during their arrest are entrusted to the front desk clerk (H1) pending the trial's outcome. A character can take a short rest while incarcerated and use that time to attune to the [Stone of Golorr](03.PlayerLog&Handouts/Mechanics/CLI/items/stone-of-golorr-wdh.md). After `d6` hours, word comes down that the magister is prepared to hear the characters' testimony, whereupon the guards in H8 unlock the characters' cells and escort them to the courtroom (H5), where the magister is waiting.
+Arrested characters are brought to a courthouse in the Dock Ward and confined to cells (H8) until their trial. Any items taken from them during their arrest are entrusted to the front desk clerk (H1) pending the trial's outcome. A character can take a short rest while incarcerated and use that time to attune to the [Stone of Golorr](03.PlayerLog&Handouts/Mechanics/CLI/items/stone-of-golorr-wdh.md). After `1d6` hours, word comes down that the magister is prepared to hear the characters' testimony, whereupon the guards in H8 unlock the characters' cells and escort them to the courtroom (H5), where the magister is waiting.
 
 #### False Captain
 
@@ -1396,8 +1391,6 @@ A plain wooden door opens into a room containing dusty furnishings in storage. T
 
 **Mimic Present**
 
-`dice: [](06-dragon-season.md#^mimic-present)`
-
 | dice: d100 | result |
 |------------|--------|
 | 1-25 | A [Mimic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/mimic.md) is present |
@@ -1430,7 +1423,7 @@ Once a cold storage room and root cellar, this empty chamber is choked with dust
 
 ### Cellar Complex: Spring
 
-The characters have learned that a halfling necromancer named [Losser Mirklav](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/losser-mirklav-wdh.md) took the [Stone of Golorr](03.PlayerLog&Handouts/Mechanics/CLI/items/stone-of-golorr-wdh.md). He lives in a cellar complex under a powdered wig shop in the Trades Ward. The shop, Dandymops, is closed and locked with an iron gate. The lock can be picked by a character who makes a successful DC 15 Dexterity check using thieves' tools, or the gate can be forced open with a successful DC 25 Strength (Athletics) check. Since the shop is in a highly visible location, an attempt to break into it is 75 percent likely to be noticed by someone who alerts the City Watch. Two [veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md) of the City Watch arrive in `d10` minutes to investigate the shop and talk to witnesses.
+The characters have learned that a halfling necromancer named [Losser Mirklav](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/losser-mirklav-wdh.md) took the [Stone of Golorr](03.PlayerLog&Handouts/Mechanics/CLI/items/stone-of-golorr-wdh.md). He lives in a cellar complex under a powdered wig shop in the Trades Ward. The shop, Dandymops, is closed and locked with an iron gate. The lock can be picked by a character who makes a successful DC 15 Dexterity check using thieves' tools, or the gate can be forced open with a successful DC 25 Strength (Athletics) check. Since the shop is in a highly visible location, an attempt to break into it is 75 percent likely to be noticed by someone who alerts the City Watch. Two [veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md) of the City Watch arrive in `1d10` minutes to investigate the shop and talk to witnesses.
 
 [Xanathar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/xanathar-wdh.md)'s [gazer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/gazer-mpmm.md) (see appendix B) doesn't follow characters into the shop. It remains outside and waits for Xanathar Guild forces to arrive. If the characters destroyed the gazer in an earlier encounter, another one arrives with the Xanathar Guild forces.
 
@@ -1568,7 +1561,7 @@ Beyond the door is nothing more than a hole in the floor from which rises a terr
 
 Area **W4a** is directly underneath area **W4b**. The floor of the upper chamber collapses under the weight of the first Small or larger creature to walk across it. A character who has the Stonecunning trait or proficiency with mason's tools can tell that the floor is unsafe to walk on.
 
-Any creature standing on the floor of area W4b when it collapses falls 20 feet, landing in area W4a. Any creature in area W4a when the ceiling falls in must make a DC 11 Dexterity saving throw, taking 4 (`d8`) bludgeoning damage from falling debris on a failed save, or half as much damage on a successful one.
+Any creature standing on the floor of area W4b when it collapses falls 20 feet, landing in area W4a. Any creature in area W4a when the ceiling falls in must make a DC 11 Dexterity saving throw, taking 4 (`1d8`) bludgeoning damage from falling debris on a failed save, or half as much damage on a successful one.
 
 #### W5. Ancient Millstone
 
@@ -1647,8 +1640,6 @@ Ultimately, Neverember used his influence to ruin [Kalain](03.PlayerLog&Handouts
 Displayed in every room except W5 is one of [Kalain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kalain-wdh.md)'s paintings. To determine the subject of any given painting, roll a `d12` and consult the Painting Subjects table. It's possible for a subject to appear more than once. The residence is also crawling with rats. If [Kalain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kalain-wdh.md) is attacked, these vermin form six [swarms of rats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-rats.md) that defend her.
 
 **Kalain's Paintings**
-
-`dice: [](06-dragon-season.md#^kalains-paintings)`
 
 | dice: d12 | result |
 |-----------|--------|
@@ -1741,8 +1732,6 @@ Every key can be found or procured in Waterdeep. If the characters don't already
 - The Cassalanters send two [imps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/imp.md) in raven form, three human [cultists](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cultist.md), and either a human [cult fanatic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cult-fanatic.md) (70 percent chance), or four [spined devils](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/spined-devil.md) (30 percent chance).  
 - [Jarlaxle Baenre](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jarlaxle-baenre-wdh.md) sends [Fel'rekt Lafeen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/felrekt-lafeen-wdh.md) and [Krebbyg Masq'il'yr](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/krebbyg-masqilyr-wdh.md), or two other Bregan D'aerthe [drow gunslingers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-gunslinger-wdh.md) (see appendix B), and six [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md).  
 - [Manshoon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/manshoon-wdh.md) sends four Zhent [martial arts adepts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/martial-arts-adept-mpmm.md) (see appendix B). There's a 50 percent chance that these Zhents are led by one of [Manshoon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/manshoon-wdh.md)'s lieutenants, either Vevette Blackwater or Agorn Fuoco, if they're still alive (see chapter 8, E8).  
-
-`dice: [](06-dragon-season.md#^1-first-key-second-key-third-key)`
 
 | dice: 1d6 | First Key | Second Key | Third Key |
 |-----------|-----------|------------|-----------|
@@ -2048,7 +2037,7 @@ Emissaries of the Harpers, the Lords' Alliance, and the Order of the Gauntlet co
 
 - [Emmek Frewn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/emmek-frewn-wdh.md) (see "Business Rival: [Emmek Frewn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/emmek-frewn-wdh.md)") needs 1,500 gp to pay off a loan with interest. If he doesn't repay the coin in a tenday, [Istrid Horn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/istrid-horn-wdh.md) (see appendix B) sends Zhentarim thugs to threaten, if not hurt, him. Emmek comes to the characters with hat in hand, preying on their generosity while denying any wrongdoing on his part.  
 - [Davil Starsong](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/davil-starsong-wdh.md) (see appendix B) asks the characters for a donation of 5,000 gp to keep his branch of the Zhentarim afloat in Waterdeep. Recent altercations and legal issues have drained the Doom Raiders' coffers. If the characters refuse, the Doom Raiders are driven out of the city, yielding control of the Zhentarim in Waterdeep to [Manshoon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/manshoon-wdh.md) (if he's alive).  
-- [Floon Blagmaar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/floon-blagmaar-wdh.md) (see appendix B) asks the characters to give him 500 gp to cover a hefty gambling debt. If the characters refuse to give Floon the gold, he vanishes without a trace `d10` days later.  
+- [Floon Blagmaar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/floon-blagmaar-wdh.md) (see appendix B) asks the characters to give him 500 gp to cover a hefty gambling debt. If the characters refuse to give Floon the gold, he vanishes without a trace `1d10` days later.  
 - [Volothamp Geddarm](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/volothamp-volo-geddarm-toa.md) (see appendix B) asks the characters for 5,000 gp to fund an expedition that he hopes will inspire a future book, for which he'll give them special mention in said masterwork. If the characters seem hesitant, Volo reminds them that were it not for his starting them off on this adventure, they wouldn't have the gold in the first place.  
 - Jelenn Urmbrusk, a Masked Lord in debt to [Manshoon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/manshoon-wdh.md), requests an interest-free loan of 10,000 gp, which she vows to repay within a year. In exchange, she promises to use her "considerable influence with the Lords of Waterdeep" to help them in the future. If the characters oblige, she makes good on her promise to pay them back and grants them a special favor (see "Marks of Prestige" in chapter 7 of the "Dungeon Master's Guide"). If they refuse, they will have made an enemy of the secret Masked Lord.  
 - Temples, charities, guilds, and down-on-their-luck strangers come knocking from time to time. What they ask for isn't much-a few gold here and there-but it all adds up.  

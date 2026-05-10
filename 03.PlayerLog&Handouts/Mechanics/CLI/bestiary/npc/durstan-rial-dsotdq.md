@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Durstan Rial
+- "Durstan Rial"
 ---
-# [Durstan Rial](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/durstan-rial-dsotdq.md)
+# [Durstan Rial](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/durstan-rial-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 97*  
 
 ```statblock
@@ -34,8 +35,11 @@ aliases:
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+4"
-  - "wisdom": "+2"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "2"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "3"
@@ -45,11 +49,11 @@ aliases:
 "actions":
   - "desc": "Durstan makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit:\
-      \ 5 (d10) piercing damage."
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 100/400 ft., one target. *Hit:*\
+      \ 5 (1d10) piercing damage."
     "name": "Heavy Crossbow"
   - "desc": "For 1 minute, Durstan can utter a special command or warning whenever\
       \ a nonhostile creature that it can see within 30 feet of it makes an attack\

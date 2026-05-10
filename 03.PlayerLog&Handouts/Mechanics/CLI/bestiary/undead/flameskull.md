@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/4
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Flameskull
+- "Flameskull"
 ---
-# [Flameskull](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/flameskull.md)
-*Source: Monster Manual p. 134, Curse of Strahd, Lost Mine of Phandelver, Princes of the Apocalypse, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Candlekeep Mysteries, Journeys through the Radiant Citadel, Dragonlance: Shadow of the Dragon Queen, Hunt for the Thessalhydra. Available in the Basic Rules (2014)*  
+# [Flameskull](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/flameskull.md)
+*Source: Monster Manual p. 134. Available in the Basic Rules (2014)*  
 
 Blazing green flames and mad, echoing laughter follow a disembodied skull as it patrols its demesne. When the undead flameskull discovers trespassers, it blasts the intruders with fiery rays from its eyes and dreadful spells called up from the dark recesses of its memory.
 
@@ -68,19 +69,20 @@ A flameskull doesn't require air, food, drink, or sleep
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common"
 "cr": "4"
 "traits":
   - "desc": "The flameskull is a 5th-level spellcaster. Its spellcasting ability is\
       \ Intelligence (spell save DC 13, +5 to hit with spell attacks). It requires\
       \ no somatic or material components to cast its spells. The flameskull has the\
-      \ following wizard spells prepared:\n\nCantrips (at will): [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\
-      \n1st level (3 slots): [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
-      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n2nd level\
-      \ (2 slots): [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md), [flaming\
+      \ following wizard spells prepared:\n\n**Cantrips (at will):** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\
+      \n**1st level (3 slots):** [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
+      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n**2nd level\
+      \ (2 slots):** [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md), [flaming\
       \ sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/flaming-sphere.md)\n\n\
-      3rd level (1 slots): [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)"
+      **3rd level (1 slots):** [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)"
     "name": "Spellcasting"
   - "desc": "The flameskull sheds either dim light in a 15-foot radius, or bright\
       \ light in a 15-foot radius and dim light for an additional 15 feet. It can\
@@ -90,32 +92,19 @@ A flameskull doesn't require air, food, drink, or sleep
       \ magical effects."
     "name": "Magic Resistance"
   - "desc": "If the flameskull is destroyed, it regains all its hit points in 1 hour\
-      \ unless holy water is sprinkled on its remains or a [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md)\
+      \ unless [holy water](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-water-flask.md)\
+      \ is sprinkled on its remains or a [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md)\
       \ or [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md)\
       \ spell is cast on them."
     "name": "Rejuvenation"
 "actions":
   - "desc": "The flameskull uses Fire Ray twice."
     "name": "Multiattack"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 30 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 30 ft., one target. *Hit:*\
       \ 10 (3d6) fire damage."
     "name": "Fire Ray"
 "source":
   - "MM"
-  - "CoS"
-  - "LMoP"
-  - "PotA"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "SDW"
-  - "BGDIA"
-  - "IDRotF"
-  - "TCE"
-  - "CM"
-  - "JttRC"
-  - "DSotDQ"
-  - "HftT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/flameskull.webp"
 ```
 ^statblock

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Thurstwell Vanthampur
+- "Thurstwell Vanthampur"
 ---
-# [Thurstwell Vanthampur](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/thurstwell-vanthampur-bgdia.md)
+# [Thurstwell Vanthampur](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/thurstwell-vanthampur-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 34*  
 
 Thurstwell is a pale and sullen recluse in his forties. A veritable shut-in, he uses imps to spy on his brothers, Amrik and Mortlock. Thurstwell resents both of them—Amrik for being their mother's favorite, and Mortlock for being a monstrous dolt.
@@ -48,11 +49,11 @@ Thurstwell is a pale and sullen recluse in his forties. A veritable shut-in, he 
 "cr": "1/8"
 "traits":
   - "desc": "Thurstwell is a 2nd-level spellcaster. His spellcasting ability is Wisdom\
-      \ (spell save DC 13). He has the following cleric spells prepared:\n\nCantrips\
-      \ (at will): [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ (spell save DC 13). He has the following cleric spells prepared:\n\n**Cantrips\
+      \ (at will):** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md)\
       \ (see \"Actions\" below), [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (3 slots): [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \n**1st level (3 slots):** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
       \ [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md)"
     "name": "Spellcasting"
@@ -62,7 +63,7 @@ Thurstwell is a pale and sullen recluse in his forties. A veritable shut-in, he 
 "actions":
   - "desc": "Flame-like radiance descends on one creature Thurstwell can see within\
       \ 60 feet of him. The target must succeed on a DC 13 Dexterity saving throw\
-      \ or take 4 (d8) radiant damage, gaining no benefit from cover."
+      \ or take 4 (1d8) radiant damage, gaining no benefit from cover."
     "name": "Sacred Flame (Cantrip)"
 "source":
   - "BGDIA"

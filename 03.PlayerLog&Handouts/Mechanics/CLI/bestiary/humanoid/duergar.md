@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Duergar
+- "Duergar"
 ---
-# [Duergar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/duergar.md)
-*Source: Monster Manual p. 122, Princes of the Apocalypse, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md)
+*Source: Monster Manual p. 122. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 The tyrannical duergar, also known as gray dwarves, dwell in fantastic cities deep in the Underdark. Using ancient dwarven knowledge and myriad slaves, they work tirelessly to expand their subterranean kingdoms.
 
@@ -58,7 +59,11 @@ Asmodeus, Lord of the Nine Hells, has been known to impersonate duergar gods in 
   - !!int "9"
 "speed": "25 ft."
 "damage_resistances": "poison"
-"senses": "darkvision 120 ft., passive Perception 10"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+  - "[war pick](03.PlayerLog&Handouts/Mechanics/CLI/items/war-pick.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "Dwarvish, Undercommon"
 "cr": "1"
 "traits":
@@ -78,11 +83,11 @@ Asmodeus, Lord of the Nine Hells, has been known to impersonate duergar gods in 
       \ lacks the room to become Large, it attains the maximum size possible in the\
       \ space available."
     "name": "Enlarge (Recharges after a Short or Long Rest)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged."
     "name": "War Pick"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing\
       \ damage while enlarged."
     "name": "Javelin"
   - "desc": "The duergar magically turns [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
@@ -93,14 +98,6 @@ Asmodeus, Lord of the Nine Hells, has been known to impersonate duergar gods in 
     "name": "Invisibility (Recharges after a Short or Long Rest)"
 "source":
   - "MM"
-  - "PotA"
-  - "TftYP"
-  - "WDH"
-  - "WDMM"
-  - "BGDIA"
-  - "EGW"
-  - "IDRotF"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/duergar.webp"
 ```
 ^statblock

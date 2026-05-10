@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lady Gondafrey
+- "Lady Gondafrey"
 ---
-# [Lady Gondafrey](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/lady-gondafrey-wdh.md)
+# [Lady Gondafrey](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lady-gondafrey-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 152*  
 
 Lafy Gondafrey is the result of a magical experiment, a gargoyle that has been imbued with the personality of a human knight of Tyr (god of justice). Manshoon is amused by the creature so keeps it alive and locked in a cell.
@@ -40,7 +41,8 @@ Lafy Gondafrey is the result of a magical experiment, a gargoyle that has been i
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common"
 "cr": "2"
 "traits":
@@ -50,10 +52,10 @@ Lafy Gondafrey is the result of a magical experiment, a gargoyle that has been i
 "actions":
   - "desc": "The gargoyle makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage."
     "name": "Claws"
 "source":

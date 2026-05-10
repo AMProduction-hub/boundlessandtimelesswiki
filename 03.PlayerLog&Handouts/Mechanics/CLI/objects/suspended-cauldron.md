@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-object
+cssclasses:
+- json5e-object
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/object/size/large
 - ttrpg-cli/object/type/siege-weapon
 aliases:
-- Suspended Cauldron
+- "Suspended Cauldron"
 ---
 # Suspended Cauldron
 %%-- Embedded content starts on the next line. --%%

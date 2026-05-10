@@ -1,16 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/unknown/magic
 - ttrpg-cli/item/wondrous/other
-aliases: 
+aliases:
 - "Petrified Grung Egg"
 ---
 # Petrified Grung Egg
-*(requires attunement by a spellcaster)*  
+*(Requires attunement by a spellcaster)*  
 
 
 

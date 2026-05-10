@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Animated Stove
+- "Animated Stove"
 ---
-# [Animated Stove](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/animated-stove-wdmm.md)
+# [Animated Stove](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-stove-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 186*  
 
 The stove was given a semblance of life through an [animate objects](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-objects.md) spell made permanent by a [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell.
@@ -33,11 +34,12 @@ The stove was given a semblance of life through an [animate objects](03.PlayerLo
   - !!int "3"
   - !!int "1"
 "speed": "30 ft."
-"senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 6"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft. (blind beyond this radius), passive Perception 6"
 "languages": ""
 "cr": "3"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d8 + 2) bludgeoning damage."
     "name": "Slam"
   - "desc": "The stove belches fire in a 15-foot cone. Each creature in the area must\

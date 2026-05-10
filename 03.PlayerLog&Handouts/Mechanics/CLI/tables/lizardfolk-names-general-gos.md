@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 aliases:
-- Lizardfolk Names – General
+- "Lizardfolk Names – General"
 ---
 # Lizardfolk Names – General
 *Source: Ghosts of Saltmarsh p. 64* 
 
 **Lizardfolk Names – General**
-
-`dice: [](lizardfolk-names-general-gos.md#^lizardfolk-names-general)`
 
 | dice: d20 | Name |
 |-----------|------|

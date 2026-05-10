@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -14,10 +15,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Lizard (Hold Breath and Spider Climb)
+- "Giant Lizard (Hold Breath and Spider Climb)"
 ---
-# [Giant Lizard (Hold Breath and Spider Climb)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-lizard-hold-breath-and-spider-climb.md)
-*Source: Monster Manual p. 326, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Icewind Dale: Rime of the Frostmaiden, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Lizard (Hold Breath and Spider Climb)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-lizard-hold-breath-and-spider-climb.md)
+*Source: Monster Manual p. 326. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Giant Lizard (Hold Breath and Spider Climb)"
@@ -37,7 +38,8 @@ aliases:
   - !!int "10"
   - !!int "5"
 "speed": "30 ft., climb 30 ft., swim 30 ft."
-"senses": "darkvision 30 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 30 ft., passive Perception 10"
 "languages": ""
 "cr": "1/4"
 "traits":
@@ -47,18 +49,11 @@ aliases:
       \ without needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) piercing damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "TftYP"
-  - "ToA"
-  - "WDMM"
-  - "GoS"
-  - "IDRotF"
-  - "JttRC"
-  - "KftGV"
 ```
 ^statblock
 

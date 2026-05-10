@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/deity/theros
 - ttrpg-cli/domain/war
-aliases: 
-- Mogis
+aliases:
+- "Mogis"
 ---
 # Mogis
 *Source: Mythic Odysseys of Theros p. 64* 
@@ -89,8 +90,6 @@ To Mogis, the ideal follower is one who sheds all moral compunctions in the cour
 
 **Mogis's Favor**
 
-`dice: [](theros-mogis-mot.md#^mogiss-favor)`
-
 | dice: d6 | Circumstance |
 |----------|--------------|
 | 1 | You were born under a sanguine moon, the symbol of Mogis's red eye. |
@@ -106,8 +105,6 @@ To Mogis, the ideal follower is one who sheds all moral compunctions in the cour
 Following Mogis is a definitive rejection of ethical codes and adoption of bloodlust and rage. As a follower of Mogis, consider the ideals on the Mogis's Ideals table as alternatives to those suggested for your background.
 
 **Mogis's Ideals**
-
-`dice: [](theros-mogis-mot.md#^mogiss-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

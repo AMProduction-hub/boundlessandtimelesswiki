@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/race/deep-gnome
 aliases:
-- Spells for Deep Gnome
+- "Spells for Deep Gnome"
 ---
 # Spells for Deep Gnome
 
@@ -14,4 +15,4 @@ aliases:
 
 ## 3rd Level
 
-- [Nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md "PHB") at class level 3
+- [Nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md "PHB") at class level 5

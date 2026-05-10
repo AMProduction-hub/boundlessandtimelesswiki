@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Draconomicon
+- "Draconomicon"
 ---
 # Draconomicon
 *Source: Fizban's Treasury of Dragons, p. 75* 
@@ -39,11 +40,11 @@ How do the mindsets of red dragons and gold dragons differ? Where do they prefer
 > 
 > "Green dragon"
 > 
-> "Moonstone dragon "*
+> "Moonstone dragon"*
 > 
 > "Red dragon"
 > 
-> "Sapphire dragon "*
+> "Sapphire dragon"*
 > 
 > "Shadow dragon"
 > 
@@ -56,7 +57,7 @@ How do the mindsets of red dragons and gold dragons differ? Where do they prefer
 > *This dragon is introduced in "chapter 6".
 ^123
 
-![Fizban addresses a council...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/039-05-001-chapter-splash.webp#center "Fizban addresses a council of metallic dragons on a matter of crucial importance, probably unrelated to baked goods")
+![Fizban addresses a council of metallic dragons on a matter of crucial importance, probably unrelated to baked goods](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/039-05-001-chapter-splash.webp#center)
 
 ## Using the Entries
 
@@ -144,7 +145,7 @@ The amethyst dragon lair shown in map 5.1 is set beneath a mountain ridge betwee
 - **Entrances.** Two cave entrances provide access to the lair, one in the rock face just above one tarn and one below the surface of the other tarn. The dragon uses the underwater passage as a secret entrance and emergency exit.  
 - **Main Caves.** The lair is a complex of caves and tunnels; the stone surfaces are smooth and water-worn, and the air is cool and slightly damp.  
 - **Glowing Crystals.** Large clusters of glowing amethyst crystals grow out from the walls and ceiling, casting dim light in a 30-foot radius.  
-- **Chimneys.** Two chimneys connect the main caves to the three chambers above. Each chimney appears to continue up through the ceiling of the upper level and down through the floor of the lower level, but the dragon's magic warps space within the lair. Moving up past the upper level brings a creature to the lower level again, while moving down from the lower level brings a creature to the upper level. A creature or object dropped down one of the chimneys continues falling endlessly unless it or some outside force has the means to slow or stop it. This property of the lair vanishes after `d10` days if the dragon dies.  
+- **Chimneys.** Two chimneys connect the main caves to the three chambers above. Each chimney appears to continue up through the ceiling of the upper level and down through the floor of the lower level, but the dragon's magic warps space within the lair. Moving up past the upper level brings a creature to the lower level again, while moving down from the lower level brings a creature to the upper level. A creature or object dropped down one of the chimneys continues falling endlessly unless it or some outside force has the means to slow or stop it. This property of the lair vanishes after `1d10` days if the dragon dies.  
 - **Upper Caves.** The dragon most often sleeps in the largest upper chamber of the lair. The dragon's hoard is divided between that area and the chamber at the opposite end of the upper level. The magic of the lair sometimes makes it appear as though the dragon were sleeping amid both caches, creating the impression that two dragons dwell here.  
 
 ### Amethyst Dragon Treasures
@@ -282,7 +283,7 @@ In contrast to most chromatic dragons, blue dragons see value in relationships w
 
 ![Connected Creatures; Ancient Blue Dragon Connections](03.PlayerLog&Handouts/Mechanics/CLI/tables/connected-creatures-ancient-blue-dragon-connections-ftd.md)
 
-![Iymrith, &quot;Doom of the Dese...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/045-05-003-iymrith.webp#center "Iymrith, &quot;Doom of the Desert,&quot; flies above her lair")
+![Iymrith, &quot;Doom of the Desert,&quot; flies above her lair](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/045-05-003-iymrith.webp#center)
 
 ### Blue Dragon Lairs
 
@@ -487,7 +488,7 @@ The bronze dragon lair shown on map 5.5 is a set of sea caves that once served a
 
 At your discretion, a legendary ([adult](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-bronze-dragon.md) or [ancient](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-bronze-dragon.md)) bronze dragon can use one or more of the following additional lair actions while in its lair:
 
-- **Ocean's Call.** The dragon conjures a swarm of spectral dolphins. Each creature in the water within 120 feet of the dragon must succeed on a DC 15 Dexterity saving throw or take 5 (`d10`) slashing damage; then the swarm vanishes.  
+- **Ocean's Call.** The dragon conjures a swarm of spectral dolphins. Each creature in the water within 120 feet of the dragon must succeed on a DC 15 Dexterity saving throw or take 5 (`1d10`) slashing damage; then the swarm vanishes.  
 - **Salt Burst.** The dragon chooses a point it can see in the lair. The air in a 20-foot-radius sphere centered on that point bursts with abrasive salt crystals. Each creature in that area must succeed on a DC 15 Dexterity saving throw or take 10 (`3d6`) slashing damage.  
 - **Whelming Water.** The dragon causes a strong current to course through the water in its lair. The dragon chooses any number of creatures it can see that are standing or swimming in water within 120 feet of it. Each chosen creature must succeed on a DC 15 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).  
 
@@ -621,16 +622,16 @@ The Crystal Dragon Adventure Hooks table offers suggestions for stories and adve
 
 ![Crystal Dragon Adventures; Crystal Dragon Adventure Hooks](03.PlayerLog&Handouts/Mechanics/CLI/tables/crystal-dragon-adventures-crystal-dragon-adventure-hooks-ftd.md)
 
-#### Connected Creatures
-
-Crystal dragons are among the most social and hospitable of dragons. They are equal parts mysterious, contemplative, and mischievous, making it difficult to know what to expect of them.
-
 > [!note] Saryndalaghlothtor
 > 
 > The [adult crystal dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-crystal-dragon-ftd.md) Saryndalaghlothtor is known as "Lady Gemcloak" and sometimes "the Axemother," thanks to her association with a dwarf clan dwelling in the northern part of Faerûn. She lives closer to civilization than crystal dragons typically do, which delights her because of the close friendships she has formed, but also annoys her as she is forced to deal with hostile fools who mistake her for an evil white dragon.
 > 
 > Having earned the enmity of the ancient red dragon [Klauth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/klauth-skt.md), Lady Gemcloak is exploring the possibility of establishing close ties between her dwarf allies and a group of [azers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/azer.md) on the Elemental Plane of Fire. In the meantime, she's trying to protect her dwarf allies from the schemes of a hostile mining cartel.
 ^saryndalaghlothtor
+
+#### Connected Creatures
+
+Crystal dragons are among the most social and hospitable of dragons. They are equal parts mysterious, contemplative, and mischievous, making it difficult to know what to expect of them.
 
 ![Connected Creatures; Crystal Dragon Wyrmling Connections](03.PlayerLog&Handouts/Mechanics/CLI/tables/connected-creatures-crystal-dragon-wyrmling-connections-ftd.md)
 
@@ -802,7 +803,7 @@ The region containing a dragon turtle's lair can be transformed by its presence,
 - **Elemental Portals.** Crevasses on the ocean floor within 1 mile of the dragon turtle's lair form two-way portals to the Elemental Plane of Water, allowing creatures of elemental water into the world to dwell nearby.  
 - **Hot Water.** Geothermal vents heat the water within 6 miles of the dragon turtle's lair to 100 degrees Fahrenheit.  
 
-If the dragon turtle dies, these effects fade over the course of `d10` days.
+If the dragon turtle dies, these effects fade over the course of `1d10` days.
 
 > [!note] Aremag
 > 
@@ -953,7 +954,7 @@ The region containing a faerie dragon's lair can be transformed by its presence,
 - **Malleable Time.** Time is fluid within 1 mile of the faerie dragon's lair, flowing somewhere between half and twice its normal speed.  
 - **Mischief Afoot.** Sapient creatures that spend a year within 5 miles of the faerie dragon's lair feel the persistent urge to play pranks on others.  
 
-If the faerie dragon dies, these effects fade over the course of `d10` days.
+If the faerie dragon dies, these effects fade over the course of `1d10` days.
 
 ### Faerie Dragon Treasures
 

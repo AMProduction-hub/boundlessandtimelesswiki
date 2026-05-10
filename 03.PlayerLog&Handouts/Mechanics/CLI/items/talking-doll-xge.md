@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/common
 - ttrpg-cli/item/tier/minor
-aliases: 
+aliases:
 - "Talking Doll"
 ---
 # Talking Doll

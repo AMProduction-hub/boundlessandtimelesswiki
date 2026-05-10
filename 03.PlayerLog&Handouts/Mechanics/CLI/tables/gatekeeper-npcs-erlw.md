@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Gatekeeper NPCs
+- "Gatekeeper NPCs"
 ---
 # Gatekeeper NPCs
 *Source: Eberron: Rising from the Last War p. 202* 
 
 **Gatekeeper NPCs**
-
-`dice: [](gatekeeper-npcs-erlw.md#^gatekeeper-npcs)`
 
 | dice: d4 | NPC |
 |----------|-----|

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Dragon Lairs; Lair Location
+- "Dragon Lairs; Lair Location"
 ---
 # Dragon Lairs; Lair Location
 *Source: Fizban's Treasury of Dragons p. 63* 
 
 **Lair Location**
-
-`dice: [](dragon-lairs-lair-location-ftd.md#^lair-location)`
 
 | dice: d10 | Unusual Feature |
 |-----------|-----------------|

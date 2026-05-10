@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Factions and Societies
+- "Factions and Societies"
 ---
 # Factions and Societies
 *Source: Explorer's Guide to Wildemount, p. 35* 
 
-![Inspired by the light of t...](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/029-02-01.webp#center "Inspired by the light of the Luxon, the Bright Queen and her court chart the destiny of a continent")
+![Inspired by the light of the Luxon, the Bright Queen and her court chart the destiny of a continent](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/029-02-01.webp#center)
 
 > [!quote] A quote from Unknown soldier, Collected Tales of the Marrow War  
 > 
@@ -271,7 +272,7 @@ Seen by many within the dynasty as a talented diviner and voice of reason, Abria
 
 *Neutral, female half-orc*
 
-A scatterbrained scholar whose subtle brilliance has increased the effectiveness of the dynasty warmachines, Professor Waccoh usually oversees a number of academic programs and private research projects at the Marble Tomes Conservatory within the Firmaments of Rosohna. Recently obsessed with the desolate, cursed lands of Blightshore and the mysteries that lie hidden within, Tuss is actively seeking allies and mercenaries to send into the dangerous lands to recover information, relics, and specimens for further study.
+A scatterbrained scholar whose subtle brilliance has increased the effectiveness of the dynasty war machines, Professor Waccoh usually oversees a number of academic programs and private research projects at the Marble Tomes Conservatory within the Firmaments of Rosohna. Recently obsessed with the desolate, cursed lands of Blightshore and the mysteries that lie hidden within, Tuss is actively seeking allies and mercenaries to send into the dangerous lands to recover information, relics, and specimens for further study.
 
 ## Cerberus Assembly
 
@@ -446,7 +447,7 @@ Tough as nails and quick to bite back, Mazin is an honorable tabaxi and dependab
 
 ## The Myriad
 
-Any civilized society will turn the people it has failed into criminals, and the societies of Wildemount are no exception. The continent's largest criminal organization took shape about eighty years ago, when a shipping company in the Dwendalian city of Yrrosa turned to smuggling contraband to make ends meet. This tightknit group of clever smugglers soon began to bargain with their competitors, employing blackmail and offering membership to their organization as an alternative to elimination.
+Any civilized society will turn the people it has failed into criminals, and the societies of Wildemount are no exception. The continent's largest criminal organization took shape about eighty years ago, when a shipping company in the Dwendalian city of Yrrosa turned to smuggling contraband to make ends meet. This tight-knit group of clever smugglers soon began to bargain with their competitors, employing blackmail and offering membership to their organization as an alternative to elimination.
 
 The syndicate grew with alarming speed, infiltrating the criminal underbelly of every major city in Western Wynandir. Masquerading as purveyors of antiquities and foreign textiles, the Myriad focuses on providing their clients with exotic goods, such as illicit substances and magical beasts, or supplying hired muscle to intimidate their clients' rivals. The worst of the Myriad even deal in human merchandise.
 
@@ -506,7 +507,7 @@ A patient and intimidating figure in the underground of Deastok for over forty y
 
 A talented songstress and dancer renowned throughout the Menagerie Coast for her sweet voice and enchanting allure, Chessia is a popular performer in many opulent social circles across Port Damali. Chessia uses her charming persona to deflect suspicion as she weaves her way into the lives of politicians and guild masters to steer them toward Myriad interests.
 
-![A Dwendalian farmer, a tra...](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/035-02-05.webp#center "A Dwendalian farmer, a trader of the Kryn Dynasty, and a fisherman of the Clovis Concord")
+![A Dwendalian farmer, a trader of the Kryn Dynasty, and a fisherman of the Clovis Concord](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/035-02-05.webp#center)
 
 ## Children of Malice
 
@@ -556,7 +557,7 @@ A feared warlord who guides a nomadic band of Lolthite hobgoblin warriors, Jaglo
 
 Vivurk commands the drow houses and the hobgoblin horde that claim the mountainside stronghold of Dumaran. She rules with a bloody, iron fist in the image of her god to impose the same love and fear that characterized the drow societies of old. Ruthless and demanding, Head Matron Vivurk builds, trains, and prepares her forces to one day help Lolth strike down the Kryn Dynasty with delicious brutality.
 
-![Aristocrats and nobles fro...](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/037-02-06.webp#center "Aristocrats and nobles from the Dwendalian Empire, the Kryn Dynasty, and the Clovis Concord")
+![Aristocrats and nobles from the Dwendalian Empire, the Kryn Dynasty, and the Clovis Concord](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/037-02-06.webp#center)
 
 ## Diarchy of Uthodurn
 
@@ -606,7 +607,7 @@ The elder king of the surviving elves of Molaesmyr, Imathan is as candid as he i
 
 Gulrim is praised as the brazen—though perhaps crazy—explorer who convinced Queen Fruunast to allow his team to cross the Frigid Depths. He and his surveyors found the mysterious banks of Eiselcross, established the Syrinlya outpost, and recovered fragments of ancient relics previously lost in the ice and snow. Professor Gulrim now helms the Uthodurnian efforts to expand Syrinlya and learn more about the mysteries hidden among the glacial fields.
 
-![A Dwendalian Crownsguard, ...](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/039-02-07.webp#center "A Dwendalian Crownsguard, Righteous Brand soldier, a Clovis Concord Zhelezo, and a Shore Warden soldier")
+![A Dwendalian Crownsguard, Righteous Brand soldier, a Clovis Concord Zhelezo, and a Shore Warden soldier](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/039-02-07.webp#center)
 
 ## Tribes of Shadycreek Run
 

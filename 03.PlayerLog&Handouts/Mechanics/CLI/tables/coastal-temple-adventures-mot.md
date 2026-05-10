@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Coastal Temple Adventures
+- "Coastal Temple Adventures"
 ---
 # Coastal Temple Adventures
 *Source: Mythic Odysseys of Theros p. 174* 
 
 **Coastal Temple Adventures**
-
-`dice: [](coastal-temple-adventures-mot.md#^coastal-temple-adventures)`
 
 | dice: d12 | Adventure Goal |
 |-----------|----------------|

@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/class/fighter
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Fighter
+- "Fighter"
 ---
 # Fighter
 *Source: Player's Handbook p. 70. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
@@ -126,8 +127,6 @@ Your character could be affiliated with an organization or a cause, and thus mig
 
 **Heraldic Signs**
 
-`dice: [](fighter.md#^heraldic-signs)`
-
 | dice: d6 | Heraldic Signs |
 |----------|----------------|
 | 1 | A rampant golden dragon on a green field, representing valor and a quest for wealth |
@@ -149,8 +148,6 @@ If you decide that your character had an individual instructor, what is that per
 
 **Instructor**
 
-`dice: [](fighter.md#^instructor)`
-
 | dice: d6 | Instructor |
 |----------|------------|
 | 1 | Gladiator. Your instructor was a slave who fought for freedom in the arena, or one who willingly chose the gladiator's life to earn money and fame. |
@@ -170,8 +167,6 @@ Do you have a combat style that mirrors your outlook on life, or is something el
 
 **Style**
 
-`dice: [](fighter.md#^style)`
-
 | dice: d6 | Style |
 |----------|-------|
 | 1 | Elegant. You move with precise grace and total control, never using more energy than you need. |
@@ -188,16 +183,23 @@ Do you have a combat style that mirrors your outlook on life, or is something el
 
 You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.
 
+Options (choose 1):
+
 - [Archery](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/archery.md)  
 - [Defense](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/defense.md)  
 - [Dueling](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/dueling.md)  
 - [Great Weapon Fighting](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/great-weapon-fighting.md)  
 - [Protection](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/protection.md)  
 - [Two-Weapon Fighting](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/two-weapon-fighting.md)  
+- [Blind Fighting](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/blind-fighting-tce.md)  
+- [Interception](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/interception-tce.md)  
+- [Superior Technique](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/superior-technique-tce.md)  
+- [Thrown Weapon Fighting](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/thrown-weapon-fighting-tce.md)  
+- [Unarmed Fighting](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/unarmed-fighting-tce.md)  
 
 ### Second Wind (Level 1)
 
-You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to `d10` + your fighter level.
+You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to `1d10` + your fighter level.
 
 Once you use this feature, you must finish a short or long rest before you can use it again.
 

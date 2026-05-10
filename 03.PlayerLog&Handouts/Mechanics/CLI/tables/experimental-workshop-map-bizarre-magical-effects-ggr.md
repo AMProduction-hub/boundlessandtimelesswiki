@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Experimental Workshop Map; Bizarre Magical Effects
+- "Experimental Workshop Map; Bizarre Magical Effects"
 ---
 # Experimental Workshop Map; Bizarre Magical Effects
 *Source: Guildmasters' Guide to Ravnica p. 144* 
 
 **Bizarre Magical Effects**
-
-`dice: [](experimental-workshop-map-bizarre-magical-effects-ggr.md#^bizarre-magical-effects)`
 
 | dice: d6 | Effect |
 |----------|--------|

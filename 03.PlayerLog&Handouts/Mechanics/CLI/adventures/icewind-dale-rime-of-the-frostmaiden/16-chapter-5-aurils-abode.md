@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Chapter 5: Auril's Abode
+- "Chapter 5: Auril's Abode"
 ---
 # Chapter 5: Auril's Abode
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 197* 
@@ -18,11 +19,11 @@ Ideally, the characters should be 7th level when they visit the island, although
 - [Vellynne Harpell](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vellynne-harpell-idrotf.md), a member of the Arcane Brotherhood, invites the characters to join her on an expedition to the island (see chapter 4 for more information).  
 - The characters come to the island on their own, hoping to put an end to Icewind Dale's everlasting winter.  
 
-![The fortress of Grimskalle...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/159-05-000-intro-splash.webp#center "The fortress of Grimskalle, built by frost giants, now serves as the abode of Auril the Frostmaiden")
+![The fortress of Grimskalle, built by frost giants, now serves as the abode of Auril the Frostmaiden](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/159-05-000-intro-splash.webp#center)
 
 ## Running This Chapter
 
-Be sure to review the " Auril the Frostmaiden" section in appendix C before running this chapter, since Auril is no ordinary villain.
+Be sure to review the "Auril the Frostmaiden" section in appendix C before running this chapter, since Auril is no ordinary villain.
 
 The characters can locate and obtain both [The Codicil of White](03.PlayerLog&Handouts/Mechanics/CLI/items/the-codicil-of-white-idrotf.md) and [Vellynne Harpell](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vellynne-harpell-idrotf.md)'s stolen [professor orb](03.PlayerLog&Handouts/Mechanics/CLI/items/professor-orb-wdmm.md) without confronting the Frostmaiden. But if the characters want to end the Everlasting Rime right here, right now, they can do so by slaying Iskra, the Frostmaiden's roc (without which Auril can't cast her nightly spell that keeps the sun at bay), or by facing Auril in battle and defeating all three of the Frostmaiden's forms sequentially.
 
@@ -60,7 +61,7 @@ The prison of Revel's End has easy access to the Sea of Moving Ice. On the downs
 
 One such captain is Sharlasta Stormsword, a retired pirate (lawful evil human [bandit captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit-captain.md)) who commands the *Ravenous*, a sailing ship with a crew of twenty well-trained scalawags ([bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md)). The ship's port of call is the city of Neverwinter. Despite her checkered past, Captain Stormsword is one of the most reliable privateers working for the Lords' Alliance today, and she rarely turns down a chance to earn a little extra coin on the side. Each dawn, she tosses a barrel of fish and a cask of whiskey into the sea as offerings to Umberlee—a practice that keeps the evil sea god on her side.
 
-When the characters arrive at Revel's End, there's a 10 percent chance that the *Ravenous* is moored at the pier and is in the process of offloading crates of supplies as well as `d4` convicts in shackles. Characters who aren't so lucky must wait `d10` days for the ship to arrive.
+When the characters arrive at Revel's End, there's a 10 percent chance that the *Ravenous* is moored at the pier and is in the process of offloading crates of supplies as well as `1d4` convicts in shackles. Characters who aren't so lucky must wait `1d10` days for the ship to arrive.
 
 The *Ravenous* can travel 50 miles a day. But finding Auril's island while avoiding close encounters with icebergs and ice floes takes five days. Under no circumstances will Captain Stormsword or her crew leave their ship to explore the island.
 
@@ -100,7 +101,7 @@ Characters flying on the backs of griffons can bypass the dock and find somewher
 
 ### Regional Effects
 
-Auril's presence creates the following regional effects, which fade `d10` days after all three of her forms are destroyed:
+Auril's presence creates the following regional effects, which fade `1d10` days after all three of her forms are destroyed:
 
 - The save DC to resist the effects of extreme cold is 15 instead of 10.  
 - Whenever a creature that lacks resistance or immunity to cold damage spends a Hit Die to regain hit points within 1 mile of the island, it regains only a number of hit points equal to its Constitution modifier (minimum of 0). It doesn't get to roll the die.  
@@ -141,8 +142,6 @@ Characters who can withstand the frigid water might want to explore these sunken
 
 **Shipwreck Discoveries**
 
-`dice: [](16-chapter-5-aurils-abode.md#^shipwreck-discoveries)`
-
 | dice: d8 | Discovery |
 |----------|-----------|
 | 1 | A [frost giant skeleton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/frost-giant-skeleton-idrotf.md) (see appendix C) lurks in the ship's hold amid the inanimate skeletons of several other frost giants. |
@@ -151,11 +150,11 @@ Characters who can withstand the frigid water might want to explore these sunken
 | 4 | Five [merrow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/merrow.md) make their lair in the ship, stashed in the hold of which is a rotting sea chest that contains 400 gp, 800 sp, and four pieces of jewelry (25 gp each). |
 | 5 | Three [sea hags](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/sea-hag.md) have turned the wreck into their lair. They have the Shared Spellcasting trait (see the "Hag Covens" sidebar in the "Monster Manual"). They keep their treasure in a rusty, barnacle-covered cauldron that's covered with a lid. The treasure consists of 2,500 sp, 4,000 cp, a 6-inch-tall merman figurine carved out of pale blue coral (250 gp), and a [potion of water breathing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-water-breathing.md). |
 | 6 | An awakened [walrus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/walrus-idrotf.md) (see appendix C) with a [potion of resistance (cold)](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-cold-resistance.md) tied around its neck greets the characters; the walrus has an Intelligence of 10, speaks Common, and allows a character to take the potion vial from around its neck. It then waves goodbye and swims away. |
-| 7 | The ship's hold contains `d6` giant oysters, each of which has a 10 percent chance of containing a [crystal ball](03.PlayerLog&Handouts/Mechanics/CLI/items/crystal-ball.md)-sized white pearl (2,500 gp). |
+| 7 | The ship's hold contains `1d6` giant oysters, each of which has a 10 percent chance of containing a [crystal ball](03.PlayerLog&Handouts/Mechanics/CLI/items/crystal-ball.md)-sized white pearl (2,500 gp). |
 | 8 | A giant-sized sea chest containing 2,500 gp, 5,000 sp, and a [+2 Trident](03.PlayerLog&Handouts/Mechanics/CLI/items/2-weapon.md) lies in the ship's hold. |
 ^shipwreck-discoveries
 
-![Nass Lantomir is dead, but...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/162-05-001-weasel.webp#center "Nass Lantomir is dead, but her weasel familiar yet lives")
+![Nass Lantomir is dead, but her weasel familiar yet lives](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/162-05-001-weasel.webp#center)
 
 #### I3. Nass Lantomir's Ghost
 
@@ -350,7 +349,7 @@ The creatures perched on the ledges are six [ice mephits](03.PlayerLog&Handouts/
 
 ##### Stairs Down
 
-The stairs, which descend 90 feet to area G10, are slippery. The slippery ice is difficult terrain. When a creature moves on these stairs for the first time on a turn, it must succeed on a DC 10 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check or fall [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). If the check fails by 5 or more, the creature also tumbles 10 feet down the stairs and takes 3 (`d6`) bludgeoning damage.
+The stairs, which descend 90 feet to area G10, are slippery. The slippery ice is difficult terrain. When a creature moves on these stairs for the first time on a turn, it must succeed on a DC 10 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check or fall [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). If the check fails by 5 or more, the creature also tumbles 10 feet down the stairs and takes 3 (`1d6`) bludgeoning damage.
 
 #### G7. Throne Room
 
@@ -438,7 +437,7 @@ The floor in this area is as smooth as an ice rink. When a creature moves on the
 
 ##### Stairs Up
 
-From the ceiling to the floor, the stairs that lead up to area G6 are enclosed by thick, 9-foot-high railings of sculpted ice. The stairs, like the floor, are difficult terrain. When a creature moves on these stairs for the first time on a turn, it must succeed on a DC 10 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check or fall [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). If the check fails by 5 or more, the creature also tumbles 10 feet down the stairs and takes 3 (`d6`) bludgeoning damage.
+From the ceiling to the floor, the stairs that lead up to area G6 are enclosed by thick, 9-foot-high railings of sculpted ice. The stairs, like the floor, are difficult terrain. When a creature moves on these stairs for the first time on a turn, it must succeed on a DC 10 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check or fall [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). If the check fails by 5 or more, the creature also tumbles 10 feet down the stairs and takes 3 (`1d6`) bludgeoning damage.
 
 #### G11. Tomb Entrance
 
@@ -469,7 +468,7 @@ The runes on the door, written in the Dwarvish script, read as follows:
 
 The weapons of these two [frost giant skeletons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/frost-giant-skeleton-idrotf.md) deal bludgeoning damage instead of slashing damage. They otherwise use the stat block in appendix C. They attack any creatures they see and pursue fleeing prey into G11 but no farther.
 
-![Frost giant skeletons guar...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/166-05-003-skeletons.webp#center "Frost giant skeletons guard the way to Queen Vassavicken's frozen tomb")
+![Frost giant skeletons guard the way to Queen Vassavicken's frozen tomb](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/166-05-003-skeletons.webp#center)
 
 #### G13. Vassavicken's Tomb
 
@@ -529,7 +528,7 @@ The tests can be taken in any order. Each party member can take a particular tes
 
 #### Tests of the Frostmaiden Scorecard
 
-![Scorecard table with the f...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/167-05-004-scorecard.webp#center "Scorecard table with the following column titles: Party Member | Test of Cruelty | Test of Endurance | Test of Isolation | Test of Preservation")
+![Scorecard table with the following column titles: Party Member | Test of Cruelty | Test of Endurance | Test of Isolation | Test of Preservation](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/167-05-004-scorecard.webp#center)
 
 #### G16. Test of Cruelty
 
@@ -721,7 +720,7 @@ The book on the lectern is [The Codicil of White](03.PlayerLog&Handouts/Mechanic
 
 A character who spends at least 10 minutes poring over [The Codicil of White](03.PlayerLog&Handouts/Mechanics/CLI/items/the-codicil-of-white-idrotf.md) learns that the poem in its pages, "Rime of the Frostmaiden" (see appendix E), is an incantation that can be used to unlock Auril's secrets, including ones buried deep under the glacial ice. This, Vellynne says, is exactly what the characters need to reach the lost city of Ythryn under the Reghed Glacier. Once the characters have the poem or a transcription of it, they don't need the rest of the book.
 
-![Mounted on her roc, the Fr...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/169-05-006-frostmaiden-mounted.webp#center "Mounted on her roc, the Frostmaiden takes to the sky to cast her nightly spell")
+![Mounted on her roc, the Frostmaiden takes to the sky to cast her nightly spell](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/169-05-006-frostmaiden-mounted.webp#center)
 
 #### G23. Auril's Blessing
 

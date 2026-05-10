@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 aliases:
-- Foreword
+- "Foreword"
 ---
 # Foreword
 *Source: Waterdeep: Dragon Heist, p. 2* 
 
-![In Waterdeep, a gold coin ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dragon-heist/img/cover.webp#center "In Waterdeep, a gold coin is called a dragon, and someone has hidden half a million dragons in the City of Splendors. Tyler Jacobson illustrates the villains hunting for the treasure. May the gods protect any adventurer who stands in their way!")
+![In Waterdeep, a gold coin is called a dragon, and someone has hidden half a million dragons in the City of Splendors. Tyler Jacobson illustrates the villains hunting for the treasure. May the gods protect any adventurer who stands in their way!](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dragon-heist/img/cover.webp#center)
 
 A simple question began rattling around in my head over two years ago as I was bidding farewell to Barovia, dragging myself out of the depths of Maelstrom, and planning a yearlong expedition to Chult. Where do we go next? After mulling over several options, we decided it would be refreshing to return to civilization. Waterdeep: Dragon Heist is a treasure hunt with an urban backdrop. We've visited Waterdeep before, but not like this. Clever heroes will respect the city's rules. Those who get on the city's bad side are in for a rough time, as the City of Splendors is home to some of the most powerful figures in the Forgotten Realms.
 

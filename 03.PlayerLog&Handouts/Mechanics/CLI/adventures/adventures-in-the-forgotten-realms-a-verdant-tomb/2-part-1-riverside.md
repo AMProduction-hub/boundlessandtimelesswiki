@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/aitfr-avt
 aliases:
-- Part 1: Riverside
+- "Part 1: Riverside"
 ---
 # Part 1: Riverside
 *Source: Adventures in the Forgotten Realms: A Verdant Tomb, p. 4* 
@@ -56,7 +57,7 @@ Last spring, three [water weirds](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/e
 
 > [!readaloud] 
 > 
-> A stone arch leans in the tall grass here where the slab it on which it once stood has been overwhelmed. The arch frames a small altar and shelf built into a waisthigh alcove in the front of the sepulcher. The top of the altar is a stone bowl for offerings, flanked by two stone settings meant to hold candles or oil for burning.
+> A stone arch leans in the tall grass here where the slab it on which it once stood has been overwhelmed. The arch frames a small altar and shelf built into a waist-high alcove in the front of the sepulcher. The top of the altar is a stone bowl for offerings, flanked by two stone settings meant to hold candles or oil for burning.
 ^011
 
 This ritual shrine was intended as a way to allow visitors to honor the interred even when the sepulcher was sealed. The fact that the shrine has not been used in years has emboldened the will-o'wisps in the surrounding area.

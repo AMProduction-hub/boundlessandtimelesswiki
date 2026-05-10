@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 aliases:
-- Shard of the Accursed
+- "Shard of the Accursed"
 ---
 # Shard of the Accursed
 *Source: Keys from the Golden Vault, p. 133* 
@@ -15,7 +16,7 @@ A mysterious shard made of obsidian places a curse on everyone who bears it. Whe
 
 This adventure isn't a typical heist; rather, it's a reverse heist. Instead of retrieving a valuable item, the characters are tasked with returning one to its proper place.
 
-![An unearthed tomb holds th...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/066-09-001-ch9-splash.webp#center "An unearthed tomb holds the key to saving a nearby town, as adventurers are about to discover")
+![An unearthed tomb holds the key to saving a nearby town, as adventurers are about to discover](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/066-09-001-ch9-splash.webp#center)
 
 ## Adventure Background
 
@@ -40,8 +41,6 @@ Some of this adventure's impact relies on the misunderstood nature of the [shard
 Use the Shard Rumors table to inspire stories the characters might hear about the item's history. Whether a rumor is true or false is left to your judgment.
 
 **Shard Rumors**
-
-`dice: [](10-shard-of-the-accursed.md#^shard-rumors)`
 
 | dice: d4 | Rumor |
 |----------|-------|
@@ -295,7 +294,7 @@ Four Onyx Scar [thugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thu
 
 No guards are stationed behind the eastern arrow slits.
 
-![The statue of a giant brac...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/072-09-005-statue-of-giants-braces.webp#center "The statue of a giant braces the ceiling in Xeluan's Tomb")
+![The statue of a giant braces the ceiling in Xeluan's Tomb](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/072-09-005-statue-of-giants-braces.webp#center)
 
 #### X4: Great Chamber
 
@@ -310,7 +309,7 @@ No guards are stationed behind the eastern arrow slits.
 
 ##### Tremor
 
-The first time the characters bring the [shard of Xeluan](03.PlayerLog&Handouts/Mechanics/CLI/items/shard-of-xeluan-kftgv.md) into this room or onto the mezzanine (area X18), the ground shakes and rubble falls from the ceiling. Each creature in these areas must succeed on a DC 12 Dexterity saving throw or take 3 (`d6`) bludgeoning damage from falling debris.
+The first time the characters bring the [shard of Xeluan](03.PlayerLog&Handouts/Mechanics/CLI/items/shard-of-xeluan-kftgv.md) into this room or onto the mezzanine (area X18), the ground shakes and rubble falls from the ceiling. Each creature in these areas must succeed on a DC 12 Dexterity saving throw or take 3 (`1d6`) bludgeoning damage from falling debris.
 
 ##### Workers
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Axe Beak
+- "Axe Beak"
 ---
-# [Axe Beak](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/axe-beak.md)
-*Source: Monster Manual p. 317, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Axe Beak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/axe-beak.md)
+*Source: Monster Manual p. 317. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 An axe beak is a tall flightless bird with strong legs and a heavy, wedge-shaped beak. It has a nasty disposition and tends to attack any unfamiliar creature that wanders too close.
 
@@ -39,16 +40,11 @@ An axe beak is a tall flightless bird with strong legs and a heavy, wedge-shaped
 "languages": ""
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage."
     "name": "Beak"
 "source":
   - "MM"
-  - "SKT"
-  - "ToA"
-  - "WDH"
-  - "GoS"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/axe-beak.webp"
 ```
 ^statblock

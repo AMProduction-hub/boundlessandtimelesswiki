@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 aliases:
-- The Book of Inner Alchemy
+- "The Book of Inner Alchemy"
 ---
 # The Book of Inner Alchemy
 *Source: Candlekeep Mysteries, p. 159* 

@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-reward
+cssclasses:
+- json5e-reward
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/reward/piety-trait
 aliases:
-- Ephara's Votary
+- "Ephara's Votary"
 ---
 # Ephara's Votary
 *Piety Trait*  

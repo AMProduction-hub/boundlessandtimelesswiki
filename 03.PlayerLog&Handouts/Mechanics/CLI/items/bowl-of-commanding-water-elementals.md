@@ -1,18 +1,19 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/rarity/rare
 - ttrpg-cli/item/tier/major
-aliases: 
+aliases:
 - "Bowl of Commanding Water Elementals"
 ---
 # Bowl of Commanding Water Elementals
 *Wondrous item, major, rare*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/bowl-of-commanding-water-elementals.webp#right)
 
-- **Weight**: 24.0 lbs.
+- **Weight**: 3.0 lbs.
 
 While this bowl is filled with water, you can use an action to speak the bowl's command word and summon a [water elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-elemental.md), as if you had cast the [conjure elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-elemental.md) spell. The bowl can't be used this way again until the next dawn.
 

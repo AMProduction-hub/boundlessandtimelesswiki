@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 aliases:
-- Chapter 2: The Land of Chult
+- "Chapter 2: The Land of Chult"
 ---
 # Chapter 2: The Land of Chult
 *Source: Tomb of Annihilation, p. 37* 
@@ -83,9 +84,9 @@ The following diseases can affect giants and humanoids exploring the jungles of 
 
 #### Blue Mist Fever
 
-A magical mist creeps through the jungles of Chult. Contact with this thin, blue, odorless mist can infect giants and humanoids with blue mist fever. A [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md) spell destroys the mist in a 20-foot square starting at a point chosen by the caster within the spell's range. An encounter with this mist typically covers `d6` such areas (400–2,400 square feet).
+A magical mist creeps through the jungles of Chult. Contact with this thin, blue, odorless mist can infect giants and humanoids with blue mist fever. A [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md) spell destroys the mist in a 20-foot square starting at a point chosen by the caster within the spell's range. An encounter with this mist typically covers `1d6` such areas (400–2,400 square feet).
 
-A giant or humanoid that comes into contact with the mist must succeed on a DC 13 Constitution saving throw or become infected with blue mist fever. An infected creature begins seeing vivid hallucinations of blue monkeys `d6` hours after failing the save, and the hallucinations last until the disease ends on the creature. A creature can repeat the saving throw every 24 hours, ending the effect on itself on a success.
+A giant or humanoid that comes into contact with the mist must succeed on a DC 13 Constitution saving throw or become infected with blue mist fever. An infected creature begins seeing vivid hallucinations of blue monkeys `1d6` hours after failing the save, and the hallucinations last until the disease ends on the creature. A creature can repeat the saving throw every 24 hours, ending the effect on itself on a success.
 
 #### Shivering Sickness
 
@@ -99,7 +100,7 @@ Once symptoms begin, the infected creature regains only half the normal number o
 
 #### Throat Leeches
 
-Minuscule parasites known as throat leeches infect the water in Chult's forests, swamps, and rivers. Any giant or humanoid that swallows tainted water must succeed on a DC 12 Constitution saving throw or be infested with throat leeches. Immediate symptoms include throat inflammation and shortness of breath. After `d6` hours, the infected character gains 1 level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) that can't be removed (except as described below) until the disease is cured. At the end of each long rest, the infected creature must repeat the saving throw. On a failed save, the creature's [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) increases by 1 level; on a successful save, the creature's [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) decreases by 1 level. If a successful saving throw reduces the infected creature's level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) below 1, the creature recovers from the disease.
+Minuscule parasites known as throat leeches infect the water in Chult's forests, swamps, and rivers. Any giant or humanoid that swallows tainted water must succeed on a DC 12 Constitution saving throw or be infested with throat leeches. Immediate symptoms include throat inflammation and shortness of breath. After `1d6` hours, the infected character gains 1 level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) that can't be removed (except as described below) until the disease is cured. At the end of each long rest, the infected creature must repeat the saving throw. On a failed save, the creature's [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) increases by 1 level; on a successful save, the creature's [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) decreases by 1 level. If a successful saving throw reduces the infected creature's level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) below 1, the creature recovers from the disease.
 
 Explorers can avoid contracting throat leeches by drinking only rainwater or water that's been boiled or magically purified.
 
@@ -128,7 +129,7 @@ The Soshenstar and Tath rivers flow out of this marshy upland basin, which is a 
 
 The basin is named after the aldani, a race of lobsterfolk (see appendix D). Many Chultans recall childhood fables about the eerie lobsterfolk that lived in the rivers and lakes of their homeland. No reliable witnesses have reported an encounter with aldani in decades, so most Chultans believe the aldani perished. In fact, the lobsterfolk retreated to the secluded lakes of this basin, where they've kept hidden for a century.
 
-When the sky is clear, the Heart of Ubtao can be seen floating above the marsh from up to 50 miles distant (roll `d4` each day to determine how many hexes away it's visible through the mist and heat haze). See "Heart of Ubtao," for more information on this location.
+When the sky is clear, the Heart of Ubtao can be seen floating above the marsh from up to 50 miles distant (roll `1d4` each day to determine how many hexes away it's visible through the mist and heat haze). See "Heart of Ubtao," for more information on this location.
 
 ### Ataaz Kahakla
 
@@ -170,7 +171,7 @@ The 20-foot gap is too long for most characters to cross with a running jump. A 
 
 #### Hanging Vines
 
-Hundreds of vines hang below the bridge. Characters can cross the gorge under the bridge by moving hand-over-hand from vine to vine and swinging across the gap. This doesn't activate the stone golem at all, but it requires two successful ability checks: a DC 10 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) or Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check to scramble across the vines and swing across the gap without falling, and a DC 10 Wisdom ([Animal Handling](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Animal%20Handling)) to make the passage without setting off a panic in the monkeys that consider the vines their home. If the [Animal Handling](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Animal%20Handling) check fails, the character is attacked by `d4` [baboons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/baboon.md). The animals fight normally, but the character hanging in the vines has disadvantage on every attack roll and ability check while under attack.
+Hundreds of vines hang below the bridge. Characters can cross the gorge under the bridge by moving hand-over-hand from vine to vine and swinging across the gap. This doesn't activate the stone golem at all, but it requires two successful ability checks: a DC 10 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) or Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check to scramble across the vines and swing across the gap without falling, and a DC 10 Wisdom ([Animal Handling](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Animal%20Handling)) to make the passage without setting off a panic in the monkeys that consider the vines their home. If the [Animal Handling](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Animal%20Handling) check fails, the character is attacked by `1d4` [baboons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/baboon.md). The animals fight normally, but the character hanging in the vines has disadvantage on every attack roll and ability check while under attack.
 
 ### Ataaz Yklwazi
 
@@ -197,7 +198,7 @@ Aremag speaks first in Draconic; if no one answers intelligibly, it switches to 
 
 During the negotiation, the dragon turtle slowly circles the ship. At first, characters must continually circle the deck of the ship to maintain face-to-face contact with the creature, but eventually it creates an eddy that causes the sloop to revolve at a rate matching Aremag's motion. It should be obvious to everyone that the dragon turtle could easily sink the vessel.
 
-Aremag demands tribute for safe passage but doesn't specify an amount. Those aboard must throw valuables into a sack, in view of Aremag, until the dragon turtle is satisfied with the offering. Aremag extorts a different amount from every vessel, depending on how rich it suspects the cargo to be and how greedy it feels at the moment. To determine the minimum value in gold pieces Aremag will accept, roll `2d4 × 50` gp. As each fresh offering is displayed and added to the sack, the dragon turtle roars "More!" until the total reaches or exceeds its minimum. If characters act ridiculous about this—adding only a pittance at a time, for example—Aremag impatiently blows a blast of steam breath above the ship and slaps the hull with its tail, causing everyone not below deck to make a successful DC 15 Strength or Dexterity saving throw or tumble overboard. The bay is full of [reef sharks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/reef-shark.md), and anyone who stays in the water more than 3 rounds is attacked by `d4` of them.
+Aremag demands tribute for safe passage but doesn't specify an amount. Those aboard must throw valuables into a sack, in view of Aremag, until the dragon turtle is satisfied with the offering. Aremag extorts a different amount from every vessel, depending on how rich it suspects the cargo to be and how greedy it feels at the moment. To determine the minimum value in gold pieces Aremag will accept, roll `2d4 × 50` gp. As each fresh offering is displayed and added to the sack, the dragon turtle roars "More!" until the total reaches or exceeds its minimum. If characters act ridiculous about this—adding only a pittance at a time, for example—Aremag impatiently blows a blast of steam breath above the ship and slaps the hull with its tail, causing everyone not below deck to make a successful DC 15 Strength or Dexterity saving throw or tumble overboard. The bay is full of [reef sharks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/reef-shark.md), and anyone who stays in the water more than 3 rounds is attacked by `1d4` of them.
 
 Some negotiation is possible. A successful DC 15 Charisma ([Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)) check can persuade Aremag that the passengers have no more to give, provided they've placed at least 50 gp of value into the sack. Only one character can make the check; others can aid, if they contribute a convincingly pitiable plea to the argument. The check is made with disadvantage if the sack contains less than 100 gp in value, or with advantage if the sack contains 150 gp or more. Every time this check is tried and failed, Aremag reacts as described above, as if characters were adding only a few gold pieces at a time.
 
@@ -216,7 +217,7 @@ The overconfident visitors neglected to build defenses around the camp, believin
 
 When characters arrive, the camp is being watched by a party of Batiri goblins consisting of two [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) per player character. Leading the group is a [goblin boss](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin-boss.md) named Yokka. The goblins wear wooden masks and hide in the foliage north of the camp. They believe the shrine is cursed, so they avoid it. However, Yokka had a vision of a treasure inside the shrine that could make him a great figure in his tribe, so he and his followers have spent the last tenday trying to work up the courage to tackle the shrine's traps. The arrival of adventurers is a great boon from Yokka's point of view. If they defeat the shrine's traps, he can simply take its treasure from them as they emerge. If they don't, they might at least weaken the shrine's defenses.
 
-Yokka's band bedevils the party without revealing its presence until the final moment. For example, if no guard is left to watch over the party's boats, the goblins steal them or knock holes in their bottoms. If all the party members enter the shrine, the goblins set up an ambush outside. If all else fails, the goblins use horns and animal calls to draw the attention of nearby undead (`d8` [zombies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md) and `d8` [skeletons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeleton.md)) or aggressive beasts (a hungry [allosaurus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/allosaurus.md) and `1d4 + 1` [axe beaks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/axe-beak.md)).
+Yokka's band bedevils the party without revealing its presence until the final moment. For example, if no guard is left to watch over the party's boats, the goblins steal them or knock holes in their bottoms. If all the party members enter the shrine, the goblins set up an ambush outside. If all else fails, the goblins use horns and animal calls to draw the attention of nearby undead (`1d8` [zombies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md) and `1d8` [skeletons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeleton.md)) or aggressive beasts (a hungry [allosaurus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/allosaurus.md) and `1d4 + 1` [axe beaks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/axe-beak.md)).
 
 > [!gallery]
 > ![Map 2.3: Camp Righteous](03.PlayerLog&Handouts/Mechanics/CLI/adventures/tomb-of-annihilation/img/021-0305.webp#gallery)
@@ -287,7 +288,7 @@ Once the pit opens, a narrow ledge remains around the outside edge. The ledge ca
 
 #### 6B. Blade Trap
 
-The ceiling here is 23 feet high and draped with cobwebs. Each individual that passes through this section of the corridor has a 50 percent chance of triggering scything blades that sweep out from concealed wall niches. Any creature in the 10-foot-square section of hall between the blades must make a DC 13 Dexterity throw, taking 18 (`4d8`) slashing damage on a failed save, or half as much damage on a successful one. Once identified, the trap can be jammed by hammering spikes or metal blades into the niches and succeeding on four separate DC 10 Strength checks (to hammer in the metal solidly enough). Each successful check jams one scythe and reduces the trap's damage by `d8`.
+The ceiling here is 23 feet high and draped with cobwebs. Each individual that passes through this section of the corridor has a 50 percent chance of triggering scything blades that sweep out from concealed wall niches. Any creature in the 10-foot-square section of hall between the blades must make a DC 13 Dexterity throw, taking 18 (`4d8`) slashing damage on a failed save, or half as much damage on a successful one. Once identified, the trap can be jammed by hammering spikes or metal blades into the niches and succeeding on four separate DC 10 Strength checks (to hammer in the metal solidly enough). Each successful check jams one scythe and reduces the trap's damage by `1d8`.
 
 #### 6C. Puzzle Floor
 
@@ -361,7 +362,7 @@ Theoretically, each watchtower is staffed by two [guards](03.PlayerLog&Handouts/
 
 #### 4. Animal Pen
 
-The knights built this pen for swine, but the camp proved too unhealthy for them and they all died. The current livestock consists of four sickly goats.
+The knights built this pen for swine, but the camp proved too unhealthy for them and they all died. The current livestock consists of four sickly [goats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/goat.md).
 
 #### 5. Field Hospital Tents
 
@@ -385,7 +386,7 @@ Anywhere but Chult, these latrines would be excellent. Here, daily rain floods t
 
 ### The Cauldron
 
-Lava pouring into the sea from nearby volcanoes causes immense columns of steam to continually erupt from this bay. This steam combined with billowing clouds of ash and black smoke from the volcanoes give the bay its name. No sea life survives in the bay—the poisoned water is perpetually covered by a layer of floating soot—and vegetation along the coast is all dead and coated in ash.
+Lava pouring into the sea from nearby volcanoes causes immense columns of steam to continually erupt from this bay. This steam combined with billowing clouds of ash and black smoke from the volcanoes give the bay its name. No sea life survives in the bay—the [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) water is perpetually covered by a layer of floating soot—and vegetation along the coast is all dead and coated in ash.
 
 ### Dungrunglung
 
@@ -408,7 +409,7 @@ Characters who offend King Groak are thrown in the prison pit (area 7). There, t
 > 
 > The following grungs have key roles to play in Dungrunglung. For grung statistics, see appendix D.
 > 
-> Groak (gold [grung elite warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/grung-elite-warrior-mpmm.md) wearing a circlet of blasting) is the love-struck king who seeks to woo the goddess Nangnang. Charismatic but unstable, Groak can swing from friendly to homicidal in the span of a few seconds. Because of this, his people dare not even whisper a harsh word about him. Groak wants to be seen as a visionary and a romantic, and he loves to hear stories of the outside world. However, he threatens anyone who dares to question his inflated self-image. Groak tolerates adventurers as long as they entertain him, generally agree with everything he says, and are willing to aid him in his quest to realize his divine destiny to become Nangnang's consort.
+> Groak (gold [grung elite warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/grung-elite-warrior-mpmm.md) wearing a [circlet of blasting](03.PlayerLog&Handouts/Mechanics/CLI/items/circlet-of-blasting.md)) is the love-struck king who seeks to woo the goddess Nangnang. Charismatic but unstable, Groak can swing from friendly to homicidal in the span of a few seconds. Because of this, his people dare not even whisper a harsh word about him. Groak wants to be seen as a visionary and a romantic, and he loves to hear stories of the outside world. However, he threatens anyone who dares to question his inflated self-image. Groak tolerates adventurers as long as they entertain him, generally agree with everything he says, and are willing to aid him in his quest to realize his divine destiny to become Nangnang's consort.
 > 
 > Krr'ook (red [grung wildling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/grung-wildling-mpmm.md)) is a grung priest who fears the king's madness. She whispers favorable signs and omens in the king's ear to keep in his good graces. Secretly, Krr'ook suspects that the Great Ritual to summon Nangnang will fail. Consequently, she fears for her life. She approaches the adventurers to see if they can help her fool the king on the night of the ritual. If Krr'ook senses anything out of kilter, or if the ritual goes awry, she scapegoats the adventurers and delivers them straight into the king's infantile wrath.
 > 
@@ -429,18 +430,16 @@ The maze's passages are open to the sky and magically change configuration every
 
 **Thorn Maze Encounters**
 
-`dice: [](03-chapter-2-the-land-of-chult.md#^thorn-maze-encounters)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–9 | No encounter. |
 | 10–12 | `1d6 + 6` [grungs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/grung-mpmm.md) (green-skinned warriors) on patrol. |
-| 13 | `d3` [assassin vines](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/assassin-vine-toa.md) (see appendix D) blending in with the surrounding walls. |
-| 14 | `d4` [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) lost in the maze. |
+| 13 | `1d3` [assassin vines](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/assassin-vine-toa.md) (see appendix D) blending in with the surrounding walls. |
+| 14 | `1d4` [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) lost in the maze. |
 | 15 | A harmless yahcha beetle (see appendix C). |
 | 16 | The characters hear a throaty croak that sounds at once both lusty and forlorn. Its source cannot be ascertained. |
-| 17 | `d6` [zombies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md) lost in the maze. |
-| 18–19 | A concealed pit 5 feet wide, 10 feet deep, and lined with poisoned wooden stakes. The lead character spots the pit with a successful DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check. The first character to step on a pit falls in, taking 3 (`d6`) bludgeoning damage and landing on `d4` stakes, each of which deals 3 (`d6`) piercing damage and 7 (`2d6`) poison damage. |
+| 17 | `1d6` [zombies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md) lost in the maze. |
+| 18–19 | A concealed pit 5 feet wide, 10 feet deep, and lined with poisoned wooden stakes. The lead character spots the pit with a successful DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check. The first character to step on a pit falls in, taking 3 (`1d6`) bludgeoning damage and landing on `1d4` stakes, each of which deals 3 (`1d6`) piercing damage and 7 (`2d6`) poison damage. |
 | 20 | An interior secret door. It requires a successful DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check to spot. |
 ^thorn-maze-encounters
 
@@ -478,7 +477,7 @@ King Groak wears a [circlet of blasting](03.PlayerLog&Handouts/Mechanics/CLI/ite
 
 #### 5. Grung Hovels
 
-Dotted about the shores of the lake are several squat huts made from swamp moss and reeds plastered together with mud. The huts range from about 15 to 25 feet in diameter, and each has a single, low entrance. Some have small, round windowlike openings, and a few have stout mudchimneys.
+Dotted about the shores of the lake are several squat huts made from swamp moss and reeds plastered together with mud. The huts range from about 15 to 25 feet in diameter, and each has a single, low entrance. Some have small, round window-like openings, and a few have stout mudchimneys.
 
 Each hut is large enough to accommodate six adult [grungs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/grung-mpmm.md) plus `2d6` baby grungs (noncombatants). All the occupants of a given hut belong to the same caste, and thus have the same color skin (except the young, which are all dull green-gray).
 
@@ -731,7 +730,7 @@ In the event of a camp-wide alarm, the bell is rung continuously for at least a 
 
 #### 10G. Stores
 
-Reserves of vital supplies are kept under lock and key in these two chambers. The door to each room is locked, and [Liara Portyr](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/liara-portyr-toa.md) and Gruta Halsdottir carry the only keys. Each door is made heavy wood reinforced with iron bands (AC 17, 20 hit points, immunity to poison and psychic damage), and its lock can be picked with thieves' tools and a successful DC 20 Dexterity check.
+Reserves of vital supplies are kept under lock and key in these two chambers. The door to each room is locked, and [Liara Portyr](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/liara-portyr-toa.md) and Gruta Halsdottir carry the only keys. Each door is made heavy wood reinforced with iron bands (AC 17, 20 hit points, immunity to poison and psychic damage), and its lock can be picked with [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md) and a successful DC 20 Dexterity check.
 
 The types of supplies stored here include mundane items such as paper and ink, locks, clothing, boots, rope, lanterns, lamp oil, and candles.
 
@@ -749,7 +748,7 @@ This ready room was intended to house a squad of soldiers assigned to regular gu
 
 ##### Treasure
 
-A character who searches under the bed in [Liara Portyr](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/liara-portyr-toa.md)'s chamber finds a locked iron strongbox. A character using thieves' tools and succeeding on a DC 18 Dexterity check can pop it open. The box contains 220 gp and a [sending stone](03.PlayerLog&Handouts/Mechanics/CLI/items/sending-stones.md) that Liara uses to communicate with the pirates of Jahaka Anchorage.
+A character who searches under the bed in [Liara Portyr](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/liara-portyr-toa.md)'s chamber finds a locked iron strongbox. A character using [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md) and succeeding on a DC 18 Dexterity check can pop it open. The box contains 220 gp and a [sending stone](03.PlayerLog&Handouts/Mechanics/CLI/items/sending-stones.md) that Liara uses to communicate with the pirates of Jahaka Anchorage.
 
 #### 10J. Guest Quarters
 
@@ -812,7 +811,7 @@ The floor of this entrance slopes up slightly toward the inside of the heart, so
 
 > [!readaloud] 
 > 
-> This cave is musty and dimly lit by daylight filtering down through the hollow, petrified tree trunk 20 feet above. A pool of dirty rainwater occupies the central 20 feet of the floor, between natural pillars formed by the roots of the petrified tree. Three tall bookcases stand against the wall to the right of the cave entrance. A desk and several wooden crates stand against the left-hand wall. Opposite the entrance are two open doorways into smaller chambers and, between them, a large iron cage.
+> This cave is musty and dimly lit by daylight filtering down through the hollow, [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified) tree trunk 20 feet above. A pool of dirty rainwater occupies the central 20 feet of the floor, between natural pillars formed by the roots of the [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified) tree. Three tall bookcases stand against the wall to the right of the cave entrance. A desk and several wooden crates stand against the left-hand wall. Opposite the entrance are two open doorways into smaller chambers and, between them, a large iron cage.
 ^111
 
 [Valindra's](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/valindra-shadowmantle-toa.md) undead patrols sometimes capture luckless explorers and bring them here. Prisoners are kept in the iron cage while Valindra questions them, then disposed of in the swamp. The cage is not in use when characters arrive, unless you choose to place [Artus Cimber](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/artus-cimber-toa.md) and [Dragonbait](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/dragonbait-toa.md) here as prisoners.
@@ -918,14 +917,14 @@ The northwest room is unoccupied. In the northeast room, three [firenewt warrior
 
 > [!readaloud] 
 > 
-> Two suits of dwarven half plate armor stand on either side of an adamantine-banded iron door. These suits of armor were beautiful once, but now they're scarred by weapons, scorched by fire, and smeared with filth. The door has two locks, one above the other.
+> Two suits of dwarven [half plate armor](03.PlayerLog&Handouts/Mechanics/CLI/items/half-plate-armor.md) stand on either side of an adamantine-banded iron door. These suits of armor were beautiful once, but now they're scarred by weapons, scorched by fire, and smeared with filth. The door has two locks, one above the other.
 ^121
 
 The dwarves sealed their treasure vault before leaving Hrakhamar, and it's remained sealed to this day. Despite their best efforts, the firenewts have been unable to force the door or defeat the locks.
 
 ##### Locked Door
 
-The door's upper lock is embedded in an adamantine frame resembling a stylized form of the dwarven rune for "beginnings." The rune can be interpreted correctly by a character who reads Dwarvish. The lower lock was originally embedded in a golden frame in the shape of a stylized dwarven rune for "endings," but the firenewts scraped away the gold and used it to decorate their shrine to Imix (area 7). Scarring on the door hints at what used to be there; it can be interpreted correctly by someone who reads Dwarvish and makes a successful DC 15 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check. Each lock can be picked with thieves' tools and a successful DC 20 Dexterity check.
+The door's upper lock is embedded in an adamantine frame resembling a stylized form of the dwarven rune for "beginnings." The rune can be interpreted correctly by a character who reads Dwarvish. The lower lock was originally embedded in a golden frame in the shape of a stylized dwarven rune for "endings," but the firenewts scraped away the gold and used it to decorate their shrine to Imix (area 7). Scarring on the door hints at what used to be there; it can be interpreted correctly by someone who reads Dwarvish and makes a successful DC 15 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check. Each lock can be picked with [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md) and a successful DC 20 Dexterity check.
 
 The lower lock is trapped. The trap can be spotted with a successful DC 13 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check, but it's impossible to disarm or bypass. The trap is triggered if an attempt to pick the lower lock fails by 5 or more, if the wrong key is used in the lock, or if it's opened by any means before the upper lock. The trap causes the metal gantry between the treasury and the forge (area 4) to retract west, leaving a 40-foot gap across the magma. The bridge can be re-extended only by lifting the lever in the corridor from area 4. The lever is too far away to be manipulated with [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md) by anyone on the treasury side of the magma river.
 
@@ -935,7 +934,7 @@ The keys to the treasury were within the firenewts' grasp. However, they failed 
 
 The solution to opening the door lies in a seemingly empty side chamber near the treasury. Anyone searching this room turns up a curious box tossed into the corner. The box is made of iron and resembles a book, and it opens from both sides, rather like the front and back covers of a book. One side bears the dwarven rune for "beginnings," the other bears the rune for "endings." Opening either side reveals the impression of a key in the iron plate. The original keys for the treasury were stored in this box.
 
-With all the tools of Hrakhamar at their disposal, copies of both keys can be made from these impressions by a character who has proficiency with smith's tools and who makes a successful DC 10 Intelligence check. Sithi Vinecutter has the needed proficiency if none of the characters do. [Musharib](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/musharib-toa.md) (see "Finding a Guide") also has the necessary skill. After three failed checks, the box's impressions are ruined, and the box can no longer be used to mold new keys.
+With all the tools of Hrakhamar at their disposal, copies of both keys can be made from these impressions by a character who has proficiency with [smith's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/smiths-tools.md) and who makes a successful DC 10 Intelligence check. Sithi Vinecutter has the needed proficiency if none of the characters do. [Musharib](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/musharib-toa.md) (see "Finding a Guide") also has the necessary skill. After three failed checks, the box's impressions are ruined, and the box can no longer be used to mold new keys.
 
 ##### Treasure
 
@@ -985,7 +984,7 @@ The dwarves parked their ore carts and flatbed rail carts here when they weren't
 
 The firenewts use the area as stables for twelve [giant striders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/giant-strider-mpmm.md) (see appendix D). The giant striders are tethered, but the tethers are meant only to keep them from crossing the westernmost line of cart tracks and wandering through the tunnels. An angry or alarmed strider can easily break loose, and these vicious creatures become both angry and alarmed when they see humanoids who aren't their firenewt masters.
 
-As soon as a non-firenewt enters area 10, the giant striders begin stamping, growling, and straining at their tethers. Beginning on the following round, `d3` giant striders break loose each round and attack or join in an ongoing battle. They don't attack firenewts, and a firenewt can hop onto a giant strider and ride it as a mount using the standard rules for "mounted combat".
+As soon as a non-firenewt enters area 10, the giant striders begin stamping, growling, and straining at their tethers. Beginning on the following round, `1d3` giant striders break loose each round and attack or join in an ongoing battle. They don't attack firenewts, and a firenewt can hop onto a giant strider and ride it as a mount using the standard rules for "mounted combat".
 
 ### Hvalspyd
 
@@ -999,7 +998,7 @@ The frost giants are out of their element in tropical jungle. They regard it as 
 
 #### Frost Giant Search Parties
 
-[Drufi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/drufi-toa.md)'s search party includes two male [frost giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/frost-giant.md) and a pair of [winter wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/winter-wolf.md). Each of the other four search parties consists of three [frost giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/frost-giant.md) and `d2` [winter wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/winter-wolf.md). The frost giants can't move through the jungle without leaving a trail. If characters encounter giants, they're likely to see evidence hours or days before the actual meeting: trampled brush, broken or uprooted trees, gigantic boot prints, 3-foot-high runic trail markings carved into trees or etched onto boulders, and winter wolf droppings. Chult has many gigantic carnivores, so a successful DC 10 Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check is needed to identify these indicators as foreign to the jungle; if the check succeeds by 5 or more, the source is recognized as frost giants. A Chultan guide has advantage on this check but won't make the leap to frost giants. That idea is just too far-fetched.
+[Drufi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/drufi-toa.md)'s search party includes two male [frost giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/frost-giant.md) and a pair of [winter wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/winter-wolf.md). Each of the other four search parties consists of three [frost giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/frost-giant.md) and `1d2` [winter wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/winter-wolf.md). The frost giants can't move through the jungle without leaving a trail. If characters encounter giants, they're likely to see evidence hours or days before the actual meeting: trampled brush, broken or uprooted trees, gigantic boot prints, 3-foot-high runic trail markings carved into trees or etched onto boulders, and winter wolf droppings. Chult has many gigantic carnivores, so a successful DC 10 Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check is needed to identify these indicators as foreign to the jungle; if the check succeeds by 5 or more, the source is recognized as frost giants. A Chultan guide has advantage on this check but won't make the leap to frost giants. That idea is just too far-fetched.
 
 So far, the giants' searching has roamed from the coast to the River Tiryki, and from the ruins of Port Castigliar to the northeastern mountains. [Drufi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/drufi-toa.md) has seen Fort Beluarian from a distance and Port Nyanzaru from across the mouth of the River Tiryki, but the giants avoid Flaming Fist patrols. For their part, the mercenaries and scouts from the fort have seen many puzzling signs in the jungle to the south, but they haven't yet concluded they're dealing with frost giants. The giants' next step will be to push farther south. At some point (determined by you), they'll return to the *Hvalspyd*, sail south to Refuge Bay, and start the search afresh from there. Obviously, this is a very inefficient way to search an area as large and as dense as Chult, but [Drufi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/drufi-toa.md) has no better idea.
 
@@ -1082,7 +1081,7 @@ Each of the three captains has one of these chambers for his private use. In pra
 
 #### 4. Warehouse
 
-All three captains store their booty in this common warehouse. The double door is sealed with an iron padlock to which only the captains have keys. It can be picked with thieves' tools and a successful DC 20 Dexterity check.
+All three captains store their booty in this common warehouse. The double door is sealed with an iron padlock to which only the captains have keys. It can be picked with [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md) and a successful DC 20 Dexterity check.
 
 > [!readaloud] 
 > 
@@ -1111,7 +1110,7 @@ This structure is built from the hull of a captured ship that was too slow to be
 
 The proprietor is [Bosco Daggerhand](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/bosco-daggerhand-toa.md) (NE male human [thug](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md) who wears a [ring of animal influence](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-animal-influence.md)), so called because he never shakes anyone's hand without his other hand resting threateningly on the dagger in his sash. He keeps a semi-tame [deinonychus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/deinonychus-mpmm.md) (see appendix D) as a guard animal, which he controls with his magic ring. The pirates refer to the raptor as Knuckles—because someone who's foolish enough to let it nip their hand won't have anything else left.
 
-Any time of the day or night, `2d6` pirates ([bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md)) are carousing in Bosco's Bilge. Another `d6` pirates are passed out on the tables or floor.
+Any time of the day or night, `2d6` pirates ([bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md)) are carousing in Bosco's Bilge. Another `1d6` pirates are passed out on the tables or floor.
 
 #### 6B. Kitchen
 
@@ -1119,7 +1118,7 @@ Bosco's customers aren't very interested in food, but the simple fare he offers�
 
 #### 6C. Bosco's Bunk
 
-Bosco's private room contains a hammock, a locked sea chest stuffed with clothes and trinkets, a few musty books, and a pile of reeds for Knuckles to sleep on. Bosco carries the key to the chest, or the lock can be picked with thieves' tools and a successful DC 15 Dexterity check.
+Bosco's private room contains a hammock, a locked sea chest stuffed with clothes and trinkets, a few musty books, and a pile of reeds for Knuckles to sleep on. Bosco carries the key to the chest, or the lock can be picked with [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md) and a successful DC 15 Dexterity check.
 
 ##### Treasure
 
@@ -1165,7 +1164,7 @@ The leader of the community is an incredibly old aarakocra named [Asharra](03.Pl
 
 #### Spellcasting
 
-[Asharra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/asharra-toa.md) is a 5th-level spellcaster who uses Wisdom as her spellcasting ability (spell save DC 13; +5 to hit with spell attacks). She has the following druid spells prepared:
+[Asharra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/asharra-toa.md) is a 5th-level spellcaster who uses Wisdom as her spellcasting ability (spell save DC 13; `+5` to hit with spell attacks). She has the following druid spells prepared:
 
 > [!note] 
 > 
@@ -1353,7 +1352,7 @@ The hag wants two things from the adventurers: for them to destroy the nest of p
 A character transformed by this ritual into the walking dead regains all its hit points and retains its statistics, except as noted here:
 
 - The character is considered an undead, not a humanoid, and is subject to all effects that target undead. The character doesn't need to eat, drink, sleep, or breathe.  
-- The character's hit point maximum is reduced by `d4` at dawn each day, representing the physical decay of the body. No spell or effect can halt or counteract this decay.  
+- The character's hit point maximum is reduced by `1d4` at dawn each day, representing the physical decay of the body. No spell or effect can halt or counteract this decay.  
 - If the character's hit point maximum drops to 0, the gemstone embedded in the character's forehead shatters, and the character becomes a corpse once more.  
 
 A character that is turned into the walking dead and later raised or resurrected loses all memory of being an undead creature, but it doesn't lose any levels or XP gained while it was undead.
@@ -1462,19 +1461,17 @@ A character who spends at least 10 minutes searching a garden terrace for treasu
 
 **Garden Discoveries**
 
-`dice: [](03-chapter-2-the-land-of-chult.md#^garden-discoveries)`
-
 | dice: d20 | Discovery |
 |-----------|-----------|
-| 1 | `d4` [almiraj](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/almiraj-toa.md) (see appendix D) |
+| 1 | `1d4` [almiraj](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/almiraj-toa.md) (see appendix D) |
 | 2–3 | 1 [assassin vine](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/assassin-vine-toa.md) (see appendix D) |
-| 4–5 | 1 [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-cm.md) (see appendix D) hiding in a flower |
-| 6–7 | `d4` [flying monkeys](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/flying-monkey-toa.md) (see appendix D) perched in a tree. The monkeys playfully hurl dancing monkey fruit (see appendix C) at nearby characters. They fly away if attacked. |
-| 8–9 | `d4` [jaculis](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/jaculi-toa.md) (see appendix D) |
+| 4–5 | 1 [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-toa.md) (see appendix D) hiding in a flower |
+| 6–7 | `1d4` [flying monkeys](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/flying-monkey-toa.md) (see appendix D) perched in a tree. The monkeys playfully hurl [dancing monkey fruit](03.PlayerLog&Handouts/Mechanics/CLI/items/dancing-monkey-fruit-toa.md) (see appendix C) at nearby characters. They fly away if attacked. |
+| 8–9 | `1d4` [jaculis](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/jaculi-toa.md) (see appendix D) |
 | 10–11 | Menga bush with `2d6` ounces of leaves (see appendix C) |
-| 12–13 | `d4` ryath roots (see appendix C) |
+| 12–13 | `1d4` ryath roots (see appendix C) |
 | 14–15 | `4d6` sinda berries growing on a bush (see appendix C) |
-| 16–17 | `d4` wildroots (see appendix C) |
+| 16–17 | `1d4` wildroots (see appendix C) |
 | 18–19 | Yahcha beetle (see appendix C) |
 | 20 | The rotting corpse of a human mage who was strangled to death by an assassin vine. A search of the corpse yields a scholar's pack, a pouch containing 15 gp, and a [folding boat](03.PlayerLog&Handouts/Mechanics/CLI/items/folding-boat.md). This discovery can only be made once. If this result comes up again, re-roll on the table. |
 ^garden-discoveries
@@ -1494,7 +1491,7 @@ This dome has been taken over by a [giant spider](03.PlayerLog&Handouts/Mechanic
 
 ##### Eastern Dome
 
-Three [chwingas](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-cm.md) (see appendix D) live in this dome. They emerge from the stone to spy on creatures that pass by. One chwinga is fascinated by tall people and might bestow a *charm of restoration* (see "chapter 7" of the *Dungeon Master's Guide*) on the tallest party member, should it take a shine to the party. The other two chwingas are shy and suspicious of strangers.
+Three [chwingas](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-toa.md) (see appendix D) live in this dome. They emerge from the stone to spy on creatures that pass by. One chwinga is fascinated by tall people and might bestow a [charm of restoration](03.PlayerLog&Handouts/Mechanics/CLI/rewards/charm-of-restoration.md) (see "chapter 7" of the *Dungeon Master's Guide*) on the tallest party member, should it take a shine to the party. The other two chwingas are shy and suspicious of strangers.
 
 #### 4. Ruined Palace
 
@@ -1526,7 +1523,7 @@ Rainwater pouring into the pit through holes in the roof drains via pipes throug
 
 ##### Mezzanine Message
 
-The message scrawled on the inside of the dome can be read only by climbing to the mezzanine, but the decrepit condition of the stairs and balcony makes this venture risky. A character who climbs the steps must make a successful DC 10 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check to move without jarring the flooring; otherwise, the steps collapse and the character takes `d6` bludgeoning damage from the fall. A Small character has advantage on the check. Without the steps, climbing the inward-curving wall requires a climbing kit and a successful DC 15 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check.
+The message scrawled on the inside of the dome can be read only by climbing to the mezzanine, but the decrepit condition of the stairs and balcony makes this venture risky. A character who climbs the steps must make a successful DC 10 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check to move without jarring the flooring; otherwise, the steps collapse and the character takes `1d6` bludgeoning damage from the fall. A Small character has advantage on the check. Without the steps, climbing the inward-curving wall requires a climbing kit and a successful DC 15 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check.
 
 The message, scrawled in Old Omuan, states, "True love, faithful general, safe will you rest in Nangalore eternal. None will disturb you while I live. Such is my vow of penance, and for my sins I cannot die."
 
@@ -1684,7 +1681,7 @@ The ziggurat is encased in magic, which becomes obvious if anyone casts [detect 
 
 The steps from the ground to level 1 of the ziggurat are 50 feet long and rise 30 feet. A tangle of roots, vines, and creepers covers the steps. Characters can climb the first 10 feet as difficult terrain. After 10 feet, they begin getting scratched by thorns. If they continue, they take 1 slashing damage per foot climbed. After 20 feet, that increases to 2 slashing damage per foot. The thorns regrow as quickly as they're slashed, burned, or destroyed, and they can't be parted by magic or by abilities. No damage is incurred for moving down the steps.
 
-After the characters' first attempts to climb the steps, they notice a [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-cm.md) (see appendix D) standing among them. It's about a foot tall, and its mask resembles a triceratops' head. It's also carrying a large orange and purple orchid. After a moment, it charges up the steps; the thorns part before it and close immediately behind it.
+After the characters' first attempts to climb the steps, they notice a [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-toa.md) (see appendix D) standing among them. It's about a foot tall, and its mask resembles a triceratops' head. It's also carrying a large orange and purple orchid. After a moment, it charges up the steps; the thorns part before it and close immediately behind it.
 
 To ascend the steps, characters must find more of the orange and purple orchids. They can be found in the jungle in 30 minutes if anyone in the group has proficiency in the [Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature) skill, or 60 minutes otherwise. Each character climbing the stairs needs his or her own orchid.
 
@@ -1692,7 +1689,7 @@ To ascend the steps, characters must find more of the orange and purple orchids.
 
 The steps from level 1 to level 2 are 33 feet long and rise 20 feet. The stone is crumbling from age and decay. Those who try climbing the steps find that, after the first few, the stone crumbles into gravel beneath them so they can't make any more progress. However much the characters try to climb and demolish the steps, they never seem to get any worse and the gravel never piles up any deeper.
 
-After the characters' first attempts to climb, they notice another [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-cm.md) standing among them at the base of the steps. Its mask resembles a chameleon's head. It's carrying an orange and purple orchid and a red parrot feather, and it races up the steps with ease, literally light as a feather on the fragile stones.
+After the characters' first attempts to climb, they notice another [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-toa.md) standing among them at the base of the steps. Its mask resembles a chameleon's head. It's carrying an orange and purple orchid and a red parrot feather, and it races up the steps with ease, literally light as a feather on the fragile stones.
 
 Characters can find parrot feathers in the jungle or lying around on this level after just a few minutes of searching. They need both the feather and the orchid to climb the steps.
 
@@ -1700,7 +1697,7 @@ Characters can find parrot feathers in the jungle or lying around on this level 
 
 The steps from level 2 to level 3 (the level of the shrine) are 20 feet long and rise 12 feet. The stairs are in excellent condition, but [swarms of poisonous snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-poisonous-snakes.md) slither over them. If snakes are killed, more crawl out through holes in the stone to replace them, so the swarms can never be destroyed or even weakened. No spells or abilities prevent the snakes from attacking someone who climbs the stairs.
 
-After a few moments of examining the stairs, the characters notice a third [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-cm.md) standing among them at the base of the steps. Its mask resembles a mongoose's face, and it carries a red parrot feather and an orange and purple orchid. At the bottom step, the chwinga whacks a snake with its orchid to make it angry, then strokes the snake's flank with the feather to calm it down, then lies down facing the snake, whereupon the reptile crawls through the mouth of the mask and inside the chwinga. The chwinga then slithers up the steps like a snake, untroubled by any of the other poisonous snakes. To climb the steps safely, characters must do the same thing, but this stage isn't automatic. Using the orchid and the feather are easy, but a character must make a successful DC 10 Constitution saving throw after swallowing a snake. Evil-aligned characters have disadvantage on the saving throw. If the save succeeds, the character can slither up the steps safely. If the saving throw fails, the character takes 17 (`5d6`) psychic damage and can try again, but the DC increases to 11. The DC increases by 1 more with each successive failure.
+After a few moments of examining the stairs, the characters notice a third [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-toa.md) standing among them at the base of the steps. Its mask resembles a mongoose's face, and it carries a red parrot feather and an orange and purple orchid. At the bottom step, the chwinga whacks a snake with its orchid to make it angry, then strokes the snake's flank with the feather to calm it down, then lies down facing the snake, whereupon the reptile crawls through the mouth of the mask and inside the chwinga. The chwinga then slithers up the steps like a snake, untroubled by any of the other poisonous snakes. To climb the steps safely, characters must do the same thing, but this stage isn't automatic. Using the orchid and the feather are easy, but a character must make a successful DC 10 Constitution saving throw after swallowing a snake. Evil-aligned characters have disadvantage on the saving throw. If the save succeeds, the character can slither up the steps safely. If the saving throw fails, the character takes 17 (`5d6`) psychic damage and can try again, but the DC increases to 11. The DC increases by 1 more with each successive failure.
 
 #### Saja N'baza's Shrine
 
@@ -1821,7 +1818,7 @@ If the characters befriend the weretiger and inquire about other places in Chult
 
 #### Treasure
 
-The weretiger's cabin contains enough scavenged gear to create a set of cartographer's tools and a set of leatherworker's tools, as well as an herbalism kit. A battered wooden trunk near the weretiger's hammock holds an explorer's pack, a spyglass, a set of Three-Dragon Ante cards (the weretiger doesn't know how to play), a leather pouch containing four assorted gemstones (100 gp each), and two [potions of healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-healing.md).
+The weretiger's cabin contains enough scavenged gear to create a set of [cartographer's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/cartographers-tools.md) and a set of [leatherworker's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/leatherworkers-tools.md), as well as an [herbalism kit](03.PlayerLog&Handouts/Mechanics/CLI/items/herbalism-kit.md). A battered wooden trunk near the weretiger's hammock holds an explorer's pack, a spyglass, a set of Three-Dragon Ante cards (the weretiger doesn't know how to play), a leather pouch containing four assorted gemstones (100 gp each), and two [potions of healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-healing.md).
 
 ### Wreck of the Star Goddess
 
@@ -1864,7 +1861,7 @@ The dwarves left three ore carts in the mine, all in working order or repairable
 
 Carts can be shunted onto the side passages if the tracks are switched using a crowbar (one is stashed near each siding). When characters arrive, the tracks are set to bypass all the sidings and run straight through to the bottom.
 
-Some carts' brakes are in better condition than others. If a brake fails, the cart races out of control round and round the pit until it smashes into the barrier at the bottom of the track. Everyone in the cart when it hits takes `d6` bludgeoning damage per 20 vertical feet the cart descended. Those who bail out before the cart hits takes half damage, based on how far the cart descended before they jumped, but each creature must also succeed on a DC 10 Dexterity saving throw or tumble over the edge of the track and plunge to the bottom of the shaft.
+Some carts' brakes are in better condition than others. If a brake fails, the cart races out of control round and round the pit until it smashes into the barrier at the bottom of the track. Everyone in the cart when it hits takes `1d6` bludgeoning damage per 20 vertical feet the cart descended. Those who bail out before the cart hits takes half damage, based on how far the cart descended before they jumped, but each creature must also succeed on a DC 10 Dexterity saving throw or tumble over the edge of the track and plunge to the bottom of the shaft.
 
 > [!gallery]
 > ![Map 2.14: Wyrmheart Mine](03.PlayerLog&Handouts/Mechanics/CLI/adventures/tomb-of-annihilation/img/046-0321.webp#gallery)
@@ -1963,14 +1960,14 @@ Old crates and barrels have been converted into sleeping hovels for the tribe's 
 
 #### 10. Big Smash
 
-A boulder is precariously balanced on a ledge above the cart track at this point. A rope tied round the boulder passes through an iron ring on the central pillar and through another near the kobolds' chambers. If the kobolds hear an ore cart rumbling down the tracks, four of them race out and prepare to yank this rope, timing it so the boulder smashes down on the cart. They make an attack roll (+4 to hit) against the cart's AC, which depends on its speed. Rolling at top speed (no brakes), the cart has AC 16. If occupants are using the brakes to control its speed, the cart has AC 8. If the cart's occupants engage or release the brake when they see the kobolds pulling the rope, to change the cart's speed, it has AC 12.
+A boulder is precariously balanced on a ledge above the cart track at this point. A rope tied round the boulder passes through an iron ring on the central pillar and through another near the kobolds' chambers. If the kobolds hear an ore cart rumbling down the tracks, four of them race out and prepare to yank this rope, timing it so the boulder smashes down on the cart. They make an attack roll (`+4` to hit) against the cart's AC, which depends on its speed. Rolling at top speed (no brakes), the cart has AC 16. If occupants are using the brakes to control its speed, the cart has AC 8. If the cart's occupants engage or release the brake when they see the kobolds pulling the rope, to change the cart's speed, it has AC 12.
 
-If the boulder hits, every creature in the cart takes 5 (`d10`) bludgeoning damage. Roll a `d6` to determine what happens to the cart and its occupants:
+If the boulder hits, every creature in the cart takes 5 (`1d10`) bludgeoning damage. Roll a `d6` to determine what happens to the cart and its occupants:
 
 > [!note] 
 > 
 > - **1–2**. The cart continues down the track unhindered.  
-> - **3–5**. The cart derails into area 11. Each creature in the cart is thrown out, lands [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), and must succeed on a DC 12 Dexterity saving throw or take 5 (`d10`) bludgeoning damage.  
+> - **3–5**. The cart derails into area 11. Each creature in the cart is thrown out, lands [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), and must succeed on a DC 12 Dexterity saving throw or take 5 (`1d10`) bludgeoning damage.  
 > - **6**. The cart tumbles off the track and falls 125 feet to area 12. A creature in the cart can make a DC 12 Dexterity saving throw to leap out before the cart goes over the edge and falls. On a successful save, the creature lands [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) on the cart track. On a failed save, the creature goes over the edge with the cart and takes damage from the fall, as normal.  
 ^1c4
 
@@ -2020,7 +2017,7 @@ The dragon doesn't hold back when it comes to using her breath weapon; she loves
 
 The dragon's hoard contains 3,300 gp, 15,000 sp, 45,000 cp, a gold-embroidered scabbard (25 gp), a dragon-shaped medal and chain fashioned from gold (50 gp), a copper mug with jade inlay (100 gp), and a [potion of greater healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-greater-healing.md).
 
-Old crates and barrels near the south wall contain `d12` each of dwarf-made breastplates, helmets, shields, warhammers, and battleaxes. One of the dwarf-made battleaxes is actually a [+1 battleaxe](03.PlayerLog&Handouts/Mechanics/CLI/items/1-weapon.md) that floats on water and other liquids, and grants its bearer advantage on Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) checks made to swim. Etched into the haft of the battleaxe are Dethek (Dwarvish) runes that spell the weapon's name: Bob.
+Old crates and barrels near the south wall contain `1d12` each of dwarf-made breastplates, helmets, shields, warhammers, and battleaxes. One of the dwarf-made battleaxes is actually a [+1 battleaxe](03.PlayerLog&Handouts/Mechanics/CLI/items/1-weapon.md) that floats on water and other liquids, and grants its bearer advantage on Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) checks made to swim. Etched into the haft of the battleaxe are Dethek (Dwarvish) runes that spell the weapon's name: Bob.
 
 ### Yellyark
 
@@ -2056,7 +2053,7 @@ The queen wears a bronze and adamantine medallion that has the word "Vorn" etche
 
 #### 4. Wooden Cage
 
-This lashed-together bamboo cage can hold animals or prisoners, as the situation demands. Prisoners are seldom ransomed, since the Batiri have no use for coin. Usually, they're kept here until the goblins are ready to eat them. One of the goblins in area 3 carries the key to the cage's crude padlock. A character with thieves' tools can pick the lock with a successful DC 11 Dexterity check. The check is made with disadvantage if the character is trying to pick the lock from inside the cage.
+This lashed-together bamboo cage can hold animals or prisoners, as the situation demands. Prisoners are seldom ransomed, since the Batiri have no use for coin. Usually, they're kept here until the goblins are ready to eat them. One of the goblins in area 3 carries the key to the cage's crude padlock. A character with [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md) can pick the lock with a successful DC 11 Dexterity check. The check is made with disadvantage if the character is trying to pick the lock from inside the cage.
 
 #### 5. Ant Hills
 

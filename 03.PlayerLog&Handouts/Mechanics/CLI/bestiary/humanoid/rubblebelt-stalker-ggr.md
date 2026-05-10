@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Rubblebelt Stalker
+- "Rubblebelt Stalker"
 ---
-# [Rubblebelt Stalker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/rubblebelt-stalker-ggr.md)
+# [Rubblebelt Stalker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/rubblebelt-stalker-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 239*  
 
 Rubblebelt stalkers are scouts and skirmishers for the Gruul Clans. They excel at moving over challenging terrain, whether they're picking their way through treacherous ruins or clambering across rooftops. They favor ambush tactics and avoid confrontations with stronger forces, relying on their superior mobility to make their escape.
@@ -42,6 +43,8 @@ Rubblebelt stalkers are scouts and skirmishers for the Gruul Clans. They excel a
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 14"
 "languages": "any one language (usually Common)"
 "cr": "1/2"
@@ -49,8 +52,9 @@ Rubblebelt stalkers are scouts and skirmishers for the Gruul Clans. They excel a
   - "desc": "In the first round of a combat, the stalker has advantage on attack rolls\
       \ against any creature that hasn't taken a turn yet."
     "name": "Ambusher"
-  - "desc": "The stalker can take the Disengage or Hide action as a bonus action on\
-      \ each of its turns."
+  - "desc": "The stalker can take the [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action\
+      \ as a bonus action on each of its turns."
     "name": "Nimble Escape"
   - "desc": "The stalker has advantage on Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
       \ checks made to hide in ruins, and its speed is not reduced in difficult terrain\
@@ -61,7 +65,7 @@ Rubblebelt stalkers are scouts and skirmishers for the Gruul Clans. They excel a
 "actions":
   - "desc": "The stalker makes three attacks with its shortsword."
     "name": "Multiattack"
-  - "desc": "Melee Attack Roll: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
+  - "desc": "*Melee Attack Roll:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6\
       \ + 2) piercing damage."
     "name": "Shortsword"
 "source":

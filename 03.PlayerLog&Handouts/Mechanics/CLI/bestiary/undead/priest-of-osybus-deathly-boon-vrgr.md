@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Priest of Osybus (Deathly Boon)
+- "Priest of Osybus (Deathly Boon)"
 ---
-# [Priest of Osybus (Deathly Boon)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/priest-of-osybus-deathly-boon-vrgr.md)
+# [Priest of Osybus (Deathly Boon)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/priest-of-osybus-deathly-boon-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 241*  
 
 ```statblock
@@ -33,11 +34,12 @@ aliases:
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+7"
-  - "wisdom": "+6"
-  - "charisma": "+3"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "3"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "any three languages"
 "cr": "7"
 "traits":
@@ -54,14 +56,14 @@ aliases:
 "actions":
   - "desc": "The priest attacks twice."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) piercing damage, and if the target is a creature, it is [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ until the start of the priest's next turn. If this damage reduces a Medium\
       \ or smaller creature to 0 hit points, the creature dies, and its soul is trapped\
       \ in the priest's body, manifesting as a shadowy Soul Tattoo on the priest.\
       \ The soul is freed if the priest dies."
     "name": "Soul Blade"
-  - "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +7 to hit, range 120 ft., one target. *Hit:*\
       \ 17 (3d8 + 4) necrotic damage, and the target can't regain hit points until\
       \ the start of the priest's next turn."
     "name": "Necrotic Bolt"
@@ -72,7 +74,7 @@ aliases:
     "name": "Circle of Death (Spell; (Recharge 5|m-6))"
   - "desc": "The priest casts one of the following spells, requiring no components\
       \ and using Intelligence as the spellcasting ability (spell save DC 15):\n\n\
-      1/day each: [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
+      **1/day each:** [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [create undead](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-undead.md)"
     "name": "Innate Spellcasting"
 "bonus_actions":

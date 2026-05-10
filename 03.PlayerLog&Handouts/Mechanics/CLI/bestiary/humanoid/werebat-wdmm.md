@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/2
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Werebat
+- "Werebat"
 ---
-# [Werebat](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/werebat-wdmm.md)
+# [Werebat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/werebat-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 317*  
 
 A werebat is a humanoid afflicted with a rare form of lycanthropy that enables it to transform into a giant bat or a bat-humanoid hybrid. (See the *Monster Manual* for more information on *lycanthropy*.) Most werebats are of goblin stock.
@@ -54,7 +55,11 @@ A player character who becomes a werebat gains a Dexterity of 17 if their score 
     "desc": "+5"
 "damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Goblin (can't speak in bat form)"
 "cr": "2"
 "traits":
@@ -70,8 +75,9 @@ A player character who becomes a werebat gains a Dexterity of 17 if their score 
   - "desc": "The werebat has advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ checks that rely on hearing."
     "name": "Keen Hearing"
-  - "desc": "The werebat can take the Disengage or Hide action as a bonus action on\
-      \ each of its turns."
+  - "desc": "The werebat can take the [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action\
+      \ as a bonus action on each of its turns."
     "name": "Nimble Escape (Humanoid Form Only)"
   - "desc": "While in sunlight, the werebat has disadvantage on attack rolls, as well\
       \ as on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
@@ -81,15 +87,15 @@ A player character who becomes a werebat gains a Dexterity of 17 if their score 
   - "desc": "In humanoid form, the werebat makes two scimitar attacks or two shortbow\
       \ attacks. In hybrid form, it can make one bite attack and one scimitar attack."
     "name": "Multiattack (Humanoid or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 6 (1d6 + 3) piercing damage, and the werebat gains temporary hit points\
       \ equal to the damage dealt. If the target is a humanoid, it must succeed on\
       \ a DC 10 Constitution saving throw or be cursed with werebat lycanthropy."
     "name": "Bite (Bat or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Scimitar (Humanoid or Hybrid Form Only)"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 80/320 ft., one target. *Hit:*\
       \ 6 (1d6 + 3) piercing damage."
     "name": "Shortbow (Humanoid or Hybrid Form Only)"
 "source":

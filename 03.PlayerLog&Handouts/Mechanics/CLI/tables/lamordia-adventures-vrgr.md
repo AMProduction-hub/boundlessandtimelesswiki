@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Lamordia Adventures
+- "Lamordia Adventures"
 ---
 # Lamordia Adventures
 *Source: Van Richten's Guide to Ravenloft p. 141* 
 
 **Lamordia Adventures**
-
-`dice: [](lamordia-adventures-vrgr.md#^lamordia-adventures)`
 
 | dice: d10 | Adventure |
 |-----------|-----------|

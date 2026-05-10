@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Andir Valmakos (5th Level)
+- "Andir Valmakos (5th Level)"
 ---
-# [Andir Valmakos (5th Level)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/andir-valmakos-5th-level-dsotdq.md)
+# [Andir Valmakos (5th Level)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/andir-valmakos-5th-level-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 210*  
 
 ```statblock
@@ -34,7 +35,7 @@ aliases:
   - !!int "10"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+3"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -44,27 +45,29 @@ aliases:
     "desc": "+6"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+6"
+"gear":
+  - "[quarterstaff](03.PlayerLog&Handouts/Mechanics/CLI/items/quarterstaff.md)"
 "senses": "passive Perception 10"
 "languages": "Common, Draconic"
 "traits":
   - "desc": "Andir's spellcasting ability is Intelligence (spell save DC 14, +6\
       \ to hit with spell attacks). He has the following wizard spells prepared:\n\
-      \nAt will: [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
+      \n**At will:** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md),\
-      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n1st\
-      \ level (4 slots): [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md),\
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n**1st\
+      \ level (4 slots):** [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md),\
       \ [longstrider](03.PlayerLog&Handouts/Mechanics/CLI/spells/longstrider.md),\
       \ [Tenser's floating disk](03.PlayerLog&Handouts/Mechanics/CLI/spells/tensers-floating-disk.md)\n\
-      \n2nd level (2 slots): [knock](03.PlayerLog&Handouts/Mechanics/CLI/spells/knock.md)"
+      \n**2nd level (2 slots):** [knock](03.PlayerLog&Handouts/Mechanics/CLI/spells/knock.md)"
     "name": "Spellcasting"
   - "desc": "Andir is proficient with simple weapons and light armor."
     "name": "Bonus Proficiencies"
 "actions":
-  - "desc": "Melee  or Ranged Spell Attack: +4 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 7 (1d10 + 2) force damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +4 to hit, reach 5 ft. or range 120\
+      \ ft., one target. *Hit:* 7 (1d10 + 2) force damage."
     "name": "Arcane Burst"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
-      \ (d6) bludgeoning damage, or 4 (d8) bludgeoning damage if used with two\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
+      \ (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two\
       \ hands."
     "name": "Quarterstaff"
 "source":

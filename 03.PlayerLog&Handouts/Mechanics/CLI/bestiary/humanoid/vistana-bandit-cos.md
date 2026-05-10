@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vistana Bandit
+- "Vistana Bandit"
 ---
-# [Vistana Bandit](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/vistana-bandit-cos.md)
+# [Vistana Bandit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/vistana-bandit-cos.md)
 *Source: Curse of Strahd p. 28*  
 
 ```statblock
@@ -33,26 +34,29 @@ aliases:
   - !!int "10"
   - !!int "10"
 "speed": "30 ft."
+"gear":
+  - "[light crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/light-crossbow.md)"
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) slashing damage."
     "name": "Scimitar"
-  - "desc": "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, range 80/320 ft., one target. *Hit:*\
       \ 5 (1d8 + 1) piercing damage."
     "name": "Light Crossbow"
   - "desc": "10\n\n- The target is unable to perform a certain kind of act involving\
       \ fine motor control, such as tying knots, writing, playing an instrument, sewing,\
       \ or casting spells that have somatic components. When this curse ends, the\
-      \ Vistana takes d6 psychic damage.  \n- The target's appearance changes in\
+      \ Vistana takes 1d6 psychic damage.  \n- The target's appearance changes in\
       \ a sinister yet purely cosmetic way. For example, the curse can place a scar\
       \ on the target's face, turn the target's teeth into yellow fangs, or give the\
-      \ target bad breath. When this curse ends, the Vistana takes d6 psychic damage.\
+      \ target bad breath. When this curse ends, the Vistana takes 1d6 psychic damage.\
       \  \n- A nonmagical item in the target's possession (chosen by the DM) disappears\
       \ and can't be found until the curse ends. The lost item can weigh no more than\
-      \ 1 pound. When this curse ends, the Vistana takes d6 psychic damage.  \n\
+      \ 1 pound. When this curse ends, the Vistana takes 1d6 psychic damage.  \n\
       - The target gains vulnerability to a damage type of the Vistana's choice. When\
       \ this curse ends, the Vistana takes 3d6 psychic damage.  \n- The target has\
       \ disadvantage on ability checks and saving throws tied to one ability score\

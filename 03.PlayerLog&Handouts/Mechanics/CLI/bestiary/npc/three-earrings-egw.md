@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Three Earrings
+- "Three Earrings"
 ---
-# [Three Earrings](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/three-earrings-egw.md)
+# [Three Earrings](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/three-earrings-egw.md)
 *Source: Explorer's Guide to Wildemount p. 211*  
 
 This pale, spotted, Tabaxi bandit captain is a low-ranking member of the Revelry pirates. She brought her vessel to the village of Palma Flora because she was informed that a local sahuagin tribe had uncovered an unusual treasure. Three Earrings rightly assumed that they were going to attack the village, and she intended to be there to plunder the ruins after the attack. She didn't anticipate Flora Isle sinking.
@@ -36,15 +37,19 @@ This pale, spotted, Tabaxi bandit captain is a low-ranking member of the Revelry
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "strength": "+4"
-  - "dexterity": "+5"
-  - "wisdom": "+2"
+  - "strength": !!int "4"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+4"
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "any two languages"
 "cr": "2"
 "traits":
@@ -54,11 +59,11 @@ This pale, spotted, Tabaxi bandit captain is a low-ranking member of the Revelry
   - "desc": "The captain makes three melee attacks: two with its scimitar and one\
       \ with its dagger. Or Three Earrings makes two ranged attacks with its daggers."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Scimitar"
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
     "name": "Dagger"
   - "desc": "+4"
     "name": "Claws"

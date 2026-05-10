@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Chapter 3: Sharn, City of Towers
+- "Chapter 3: Sharn, City of Towers"
 ---
 # Chapter 3: Sharn, City of Towers
 *Source: Eberron: Rising from the Last War* 
@@ -25,7 +26,7 @@ All the major themes of Eberron are manifest in the great city of Sharn. It's a 
 
 This chapter details the city for players and DMs alike. The DM can find additional information about the city in "chapter 4".
 
-![An illusory dragon roars a...](03.PlayerLog&Handouts/Mechanics/CLI/books/eberron-rising-from-the-last-war/img/096-3-01.webp#center "An illusory dragon roars as flying ships zoom among the skyscrapers of Sharn at night")
+![An illusory dragon roars as flying ships zoom among the skyscrapers of Sharn at night](03.PlayerLog&Handouts/Mechanics/CLI/books/eberron-rising-from-the-last-war/img/096-3-01.webp#center)
 
 ## The Shape of Sharn
 
@@ -391,13 +392,13 @@ For a speedier journey through the streets, House Orien manages a system of carr
 
 ![Above and Below Sharn: Important Districts](03.PlayerLog&Handouts/Mechanics/CLI/tables/above-and-below-sharn-important-districts-erlw.md)
 
-> [!readaloud] The Sharn Inquisitive—Who owns sharn? Portrait of The ir'Tains and the 60 Families
+> [!readaloud] The Sharn Inquisitive—Who owns Sharn? Portrait of The ir'Tains and the 60 Families
 > 
 > If you've read more than two issues of the *Sharn Inquisitive*, you've seen at least two stories about the ir'Tain family. King Boranel might rule Breland, and the Lord Mayor might be our highest appointed official, but the ir'Tains are the true royalty of our city. What citizen of Sharn doesn't have an opinion about the fate of Lord Dalian ir'Tain, lost at sea a decade ago? Many are sure that he's a prisoner of the sahuagin, which would explain why Lady Celyria has been funding expeditions into the sahuagin realms. Another camp maintains that Lord Dalian staged his death so he could embrace a swashbuckling life as a pirate king. If the truth ever comes out, you can be sure you'll read about it here!
 > 
 > Matriarch Lady Celyria ir'Tain is the queen of high society in Sharn. Her activities and those of the ir'Tain children account for just as much newsprint as their father used to. Dalian's eldest son, Dalas ir'Tain, shocked society last week when he publicly denounced the Brelish monarchy. The dalliances of younger siblings Cyra and Daral sell more issues of the *Inquisitive* whenever such are reported, and the wedding of middle sister Cariana ir'Tain and Mayne Jhaelian of Aerenal will surely be the biggest social event of 998 YK.
 > 
-> The ir'Tain fortune is tied to the City of Towers. Tain gold funded the construction of many of the towers of Sharn, and the family owns vast sections of the city. You've likely heard of the Sixty Families of Sharn, considered the guiding lights of the city. Most assume that these luminaries are ancient and established, their status tied to a royal decree. In fact, when the Tains built their mansion on Skyway, they ordered the architects to design a banquet hall that would seat sixty families and their servants. The original Sixty Families were those that received standing invitations to the first Tain Gala. Though the list has remained generally stable through the years, just last year Celyria expelled the ir'Moros family and gave their place to Saiden Boromar—a surprising advancement for a family that began as Cliffside hooligans.
+> The ir'Tain fortune is tied to the City of Towers. Tain gold funded the construction of many of the towers of Sharn, and the family owns vast sections of the city. You've likely heard of the Sixty Families of Sharn, considered the guiding lights of the city. Most assume that these luminaries are ancient and established, their status tied to a royal decree. In fact, when the ir'Tains built their mansion on Skyway, they ordered the architects to design a banquet hall that would seat sixty families and their servants. The original Sixty Families were those that received standing invitations to the first Tain Gala. Though the list has remained generally stable through the years, just last year Celyria expelled the ir'Moros family and gave their place to Saiden Boromar—a surprising advancement for a family that began as Cliffside hooligans.
 > 
 > Anyone who strives to rise in Sharn society must earn the favor of the Sixty. Similarly, those who seek to explore and adventure in the wake of the Last War can surely find patrons among these elite. And from our desks, we will be watching to see which families will be next to rise and fall.
 ^the-sharn-inquisitivewho-owns-sharn-portrait-of-the-irtains-and-the-60-families
@@ -629,7 +630,7 @@ The Graystone district has deep roots in Karrnathi culture that predate the Last
 
 Tavick's Market is one of Sharn's major market districts; located directly above the Terminus lightning rail station, it's filled with stands selling produce and goods brought in by local farmers.
 
-![House Jorasco's House of H...](03.PlayerLog&Handouts/Mechanics/CLI/books/eberron-rising-from-the-last-war/img/101-3-06.webp#center "House Jorasco's House of Healing in Middle Tavick's Landing")
+![House Jorasco's House of Healing in Middle Tavick's Landing](03.PlayerLog&Handouts/Mechanics/CLI/books/eberron-rising-from-the-last-war/img/101-3-06.webp#center)
 
 ### Lower Tavick's Landing
 
@@ -803,7 +804,7 @@ The law is a force to be reckoned with in Sharn. Even in places where the watch 
 
 The Sharn Watch is responsible for enforcing the laws of the city. The sentinels of the watch patrol the streets of Sharn, to all outward appearances vigilant for signs of unrest. In truth, the Sharn Watch is riddled with corruption, from the commanding officers down to the lowliest patrollers. Dedicated guards who truly want to protect the innocent do exist. But bribery nonetheless runs rampant, and the watch has a way of failing to show up somewhere at the same time that Daask or the Boromar Clan is perpetrating some misdeed. The DM can find more information on the watch in "chapter 4".
 
-![An Artificer, with Two Eld...](03.PlayerLog&Handouts/Mechanics/CLI/books/eberron-rising-from-the-last-war/img/103-3-08.webp#center "An Artificer, with Two Eldritch Cannons, Spies on a Member of the Sharn Watch")
+![An Artificer, with Two Eldritch Cannons, Spies on a Member of the Sharn Watch](03.PlayerLog&Handouts/Mechanics/CLI/books/eberron-rising-from-the-last-war/img/103-3-08.webp#center)
 
 ### The King's Citadel
 
@@ -837,7 +838,7 @@ As veterans and heroes of the Last War, many of the Redcloaks are unfriendly tow
 
 Officers of the watch can levy fines on the spot when they catch culprits, which is the typical way that minor crimes are dealt with. For a serious offense, the perpetrator is taken to a garrison and held until a trial can be arranged. A criminal who is considered to be a serious flight risk will be taken to the most secure facility in Sharn—the King's Citadel headquarters.
 
-Typically, a prisoner's case comes to the attention of a local magistrate within `d4` days. The magistrate reviews the facts of the case and asks the victim to confirm or deny their role in the crime while under the influence of a [zone of truth](03.PlayerLog&Handouts/Mechanics/CLI/spells/zone-of-truth.md) spell. The magistrate will then propose a punishment to the accused; if the offer is refused, the case goes to trial.
+Typically, a prisoner's case comes to the attention of a local magistrate within `1d4` days. The magistrate reviews the facts of the case and asks the victim to confirm or deny their role in the crime while under the influence of a [zone of truth](03.PlayerLog&Handouts/Mechanics/CLI/spells/zone-of-truth.md) spell. The magistrate will then propose a punishment to the accused; if the offer is refused, the case goes to trial.
 
 Punishment for convicted criminals varies, but long-term imprisonment is quite rare. Prisoners who deemed to be too dangerous to be allowed to roam free are more likely to be executed than imprisoned. Typically, a long prison sentence is used only for criminals who can't be allowed to go free, but whose deaths would have negative diplomatic repercussions.
 

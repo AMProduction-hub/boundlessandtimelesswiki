@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/race/dragonborn/chromatic
 aliases:
-- Dragonborn (Chromatic)
+- "Dragonborn (Chromatic)"
 ---
 # Dragonborn (Chromatic)
 *Source: Fizban's Treasury of Dragons p. 10*  
@@ -34,7 +35,7 @@ You have a chromatic dragon ancestor, granting you a special magical affinity. C
 
 ### Breath Weapon
 
-When you take the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes `d10` damage of the type associated with your Chromatic Ancestry. On a successful save, it takes half as much damage. This damage increases by `d10` when you reach 5th level (`2d10`), 11th level (`3d10`), and 17th level (`4d10`).
+When you take the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity saving throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes `1d10` damage of the type associated with your Chromatic Ancestry. On a successful save, it takes half as much damage. This damage increases by `1d10` when you reach 5th level (`2d10`), 11th level (`3d10`), and 17th level (`4d10`).
 
 You can use your Breath Weapon a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
 

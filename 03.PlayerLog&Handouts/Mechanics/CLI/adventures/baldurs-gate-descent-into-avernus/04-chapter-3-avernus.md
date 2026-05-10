@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Chapter 3: Avernus
+- "Chapter 3: Avernus"
 ---
 # Chapter 3: Avernus
 *Source: Baldur's Gate: Descent Into Avernus, p. 74* 
@@ -167,7 +168,7 @@ Avernus's combination of oppressive heat and supernatural malevolence weighs on 
 
 #### Pervasive Evil
 
-Evil pervades the Nine Hells, and visitors to this plane feel its influence. At the end of each long rest taken on this plane, a visitor that isn't evil must make a DC 10 Wisdom saving throw. On a failed save, the creature's alignment changes to lawful evil. The change becomes permanent if the creature doesn't leave the plane within `d4` days. Otherwise, the creature's alignment reverts to normal after one day spent on a plane other than the Nine Hells. Casting the [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md) spell on the creature also restores its original alignment.
+Evil pervades the Nine Hells, and visitors to this plane feel its influence. At the end of each long rest taken on this plane, a visitor that isn't evil must make a DC 10 Wisdom saving throw. On a failed save, the creature's alignment changes to lawful evil. The change becomes permanent if the creature doesn't leave the plane within `1d4` days. Otherwise, the creature's alignment reverts to normal after one day spent on a plane other than the Nine Hells. Casting the [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md) spell on the creature also restores its original alignment.
 
 > [!gallery]
 > ![Map 3.1: Avernus](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/049-edgfn-map-3-1.webp#gallery)
@@ -308,8 +309,8 @@ These two [kenku](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kenku.md
 
 [Chukka](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/chukka-bgdia.md) and [Clonk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/clonk-bgdia.md) lost their weapons and replaced them with the following weapons salvaged from infernal battlefields:
 
-- [Chukka](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/chukka-bgdia.md) wields a silvered pike (+2 to hit) that has a reach of 10 feet and deals 5 (`d10`) piercing damage on a hit.  
-- [Clonk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/clonk-bgdia.md) wields a *hellfire warhammer* (+2 to hit) that deals 4 (`d8`) bludgeoning damage on a hit, or 5 (`d10`) bludgeoning damage when used with two hands. For more information on *hellfire weapons*, see "[Hellfire Weapon](03.PlayerLog&Handouts/Mechanics/CLI/items/hellfire-weapon-bgdia.md)".  
+- [Chukka](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/chukka-bgdia.md) wields a silvered pike (`+2` to hit) that has a reach of 10 feet and deals 5 (`1d10`) piercing damage on a hit.  
+- [Clonk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/clonk-bgdia.md) wields a *hellfire warhammer* (`+2` to hit) that deals 4 (`1d8`) bludgeoning damage on a hit, or 5 (`1d10`) bludgeoning damage when used with two hands. For more information on *hellfire weapons*, see "[Hellfire Weapon](03.PlayerLog&Handouts/Mechanics/CLI/items/hellfire-weapon-bgdia.md)".  
 
 ##### Chukka and Clonk's Goal
 
@@ -361,7 +362,7 @@ He quietly asks the characters to help him find his missing tooth. He points out
 
 ##### Helping Barnabas
 
-Characters can question the redcaps, starting with Grubba, to find out who has the tooth. Each time they question a redcap, there is a 50 percent chance that the redcap gets angry and attacks the characters, backed up by `d4` additional redcaps.
+Characters can question the redcaps, starting with Grubba, to find out who has the tooth. Each time they question a redcap, there is a 50 percent chance that the redcap gets angry and attacks the characters, backed up by `1d4` additional redcaps.
 
 The redcaps believe the tooth is a lucky charm, so they frequently pass it from one to the next to keep Barnabas from finding it. Because of this constant transfer of the tooth, there's little hope of the characters finding it by confronting one redcap at a time. However, a character who quietly observes the redcaps for 10 minutes can attempt a DC 11 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check. On a success, the character sees one redcap passing a bloody pouch to another redcap, who tucks it in a pocket. This pouch contains Barnabas's tooth.
 
@@ -516,7 +517,7 @@ If the characters defeat the Goreguts Gang, they can take possession of the [Dem
 
 [Raggadragga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/raggadragga-bgdia.md) carries three [soul coins](03.PlayerLog&Handouts/Mechanics/CLI/items/soul-coin-bgdia.md) that he uses to fuel the [Demon Grinder](03.PlayerLog&Handouts/Mechanics/CLI/vehicles/demon-grinder-bgdia.md). He also carries a [circlet of blasting](03.PlayerLog&Handouts/Mechanics/CLI/items/circlet-of-blasting.md), which he can don and use to make ranged attacks. The other members of the Goreguts Gang have no treasure.
 
-![The warlords of Avernus co...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/056-aw9op-03-08-full.webp#center "The warlords of Avernus conquer the hellish wastelands in infernal war machines powered by souls")
+![The warlords of Avernus conquer the hellish wastelands in infernal war machines powered by souls](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/056-aw9op-03-08-full.webp#center)
 
 ## Warlords of the Avernian Wastelands
 

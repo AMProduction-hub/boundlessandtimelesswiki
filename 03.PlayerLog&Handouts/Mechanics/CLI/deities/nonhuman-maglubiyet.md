@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/deity/nonhuman
 - ttrpg-cli/domain/order
 - ttrpg-cli/domain/war
-aliases: 
-- Maglubiyet
+aliases:
+- "Maglubiyet"
 ---
 # Maglubiyet
 *Source: Player's Handbook p. 296* 

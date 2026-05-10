@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Sharn Watch Personalities
+- "Sharn Watch Personalities"
 ---
 # Sharn Watch Personalities
 *Source: Eberron: Rising from the Last War p. 257* 
 
 **Sharn Watch Personalities**
-
-`dice: [](sharn-watch-personalities-erlw.md#^sharn-watch-personalities)`
 
 | dice: d10 | Personality |
 |-----------|-------------|

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 aliases:
-- Between Tangled Roots
+- "Between Tangled Roots"
 ---
 # Between Tangled Roots
 *Source: Journeys through the Radiant Citadel, p. 134* 
@@ -58,7 +59,7 @@ Consider the following ways to involve characters in this adventure:
 
 ## Starting the Adventure
 
-![The Storyteller Nimuel rev...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/089-10-001-storyteller-nimuel.webp#center "The Storyteller Nimuel reveals the chaos caused by a rampaging bakunawa")
+![The Storyteller Nimuel reveals the chaos caused by a rampaging bakunawa](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/089-10-001-storyteller-nimuel.webp#center)
 
 The adventure begins as the characters approach Kalapang. As they draw near, they witness a calamity. Read or paraphrase the following text to set the scene:
 
@@ -199,7 +200,7 @@ Paolo is the group's leader, and he travels with four of his cousins: Dolores, R
 
 > [!readaloud] 
 > 
-> **Longbow.** Ranged Weapon Attack: +3 to hit, ranged 150/600 ft., one target. Hit: 5 (`1d8 + 1`) piercing damage.
+> **Longbow.** Ranged Weapon Attack: `+3` to hit, ranged 150/600 ft., one target. Hit: 5 (`1d8 + 1`) piercing damage.
 ^302
 
 #### Paolo Maykapal
@@ -252,8 +253,6 @@ The journey across the Flames Everlasting Skybridge takes 36 hours, with the inc
 
 **Skybridge Sights**
 
-`dice: [](11-between-tangled-roots.md#^skybridge-sights)`
-
 | dice: d4 | Encounter |
 |----------|-----------|
 | 1 | Bonesinger (see below) |
@@ -262,7 +261,7 @@ The journey across the Flames Everlasting Skybridge takes 36 hours, with the inc
 | 4 | A curious and friendly [cloud giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/cloud-giant.md) is surprised to see travelers on the skybridge and asks them at length about recent happenings in the lands below. |
 ^skybridge-sights
 
-![Flames Everlasting Skybrid...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/092-10-004-everlasting-skybridge.webp#center "Flames Everlasting Skybridge stretches over steep hills and seas to the island of Lambakluha")
+![Flames Everlasting Skybridge stretches over steep hills and seas to the island of Lambakluha](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/092-10-004-everlasting-skybridge.webp#center)
 
 #### Bonesinger
 
@@ -270,7 +269,7 @@ As the characters travel the skybridge, they might encounter a lone old woman cr
 
 Ina greets the characters courteously and warns them of the dangers of Lambakluha. The bonesinger has not yet heard of the attack in Kalapang and is horrified if the characters share the news with her. If asked about recent bakunawa activity, Ina says she's heard a bakunawa's call over the skybridge in the night, but she has seen nothing.
 
-After conversing with the characters, Ina returns to her ritual song and invites the characters to join in. Any character can sing with her, but those who do so and succeed on a DC 18 Charisma ([Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance)) check impress the bonesinger. She thanks the first character to impress her by giving them her [necklace of prayer beads](03.PlayerLog&Handouts/Mechanics/CLI/items/necklace-of-prayer-beads.md). The necklace's beads look like tiny fangs and include a bead of [wind walk](03.PlayerLog&Handouts/Mechanics/CLI/spells/wind-walk.md) and `d4` other magic beads.
+After conversing with the characters, Ina returns to her ritual song and invites the characters to join in. Any character can sing with her, but those who do so and succeed on a DC 18 Charisma ([Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance)) check impress the bonesinger. She thanks the first character to impress her by giving them her [necklace of prayer beads](03.PlayerLog&Handouts/Mechanics/CLI/items/necklace-of-prayer-beads.md). The necklace's beads look like tiny fangs and include a bead of [wind walk](03.PlayerLog&Handouts/Mechanics/CLI/spells/wind-walk.md) and `1d4` other magic beads.
 
 #### Sighting Lambakluha
 
@@ -336,8 +335,6 @@ The Weeping Paths is a treacherous quagmire home to malicious spirits. The swamp
 Threats lurk amid the wilds. For every 3 miles the party travels, roll on the Weeping Paths Encounters table.
 
 **Weeping Paths Encounters**
-
-`dice: [](11-between-tangled-roots.md#^weeping-paths-encounters)`
 
 | dice: d10 | Encounter |
 |-----------|-----------|
@@ -529,8 +526,6 @@ Ancient belief states that all life on Dayawlongon is born from the spoken words
 Consider the plots on the Dayawlongon Adventures table when planning adventures in Dayawlongon.
 
 **Dayawlongon Adventures**
-
-`dice: [](11-between-tangled-roots.md#^dayawlongon-adventures)`
 
 | dice: d4 | Adventure |
 |----------|-----------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lungtian
+- "Lungtian"
 ---
-# [Lungtian](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/lungtian-jttrc.md)
+# [Lungtian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lungtian-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 136*  
 
 ```statblock
@@ -37,16 +38,19 @@ aliases:
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Elvish, Sylvan"
 "cr": "1"
 "traits":
   - "desc": "Lungtian's innate spellcasting ability is Charisma (spell save DC 14).\
       \ Lungtian can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md)\n\
-      \n3/day each: [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
-      \ [goodberry](03.PlayerLog&Handouts/Mechanics/CLI/spells/goodberry.md)\n\n1/day\
-      \ each: [barkskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/barkskin.md),\
+      \n**At will:** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md)\n\
+      \n**3/day each:** [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
+      \ [goodberry](03.PlayerLog&Handouts/Mechanics/CLI/spells/goodberry.md)\n\n**1/day\
+      \ each:** [barkskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/barkskin.md),\
       \ [pass without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md),\
       \ [shillelagh](03.PlayerLog&Handouts/Mechanics/CLI/spells/shillelagh.md)"
     "name": "Innate Spellcasting"
@@ -61,8 +65,8 @@ aliases:
       \ 5 feet of the second tree. Both trees must be large or bigger."
     "name": "Tree Stride"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach\
-      \ 5 ft., one target. Hit: 2 (d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning\
+  - "desc": "*Melee Weapon Attack:* +2 to hit (+6 to hit with shillelagh), reach\
+      \ 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning\
       \ damage with shillelagh."
     "name": "Club"
   - "desc": "Lungtian targets one humanoid or beast that she can see within 30 feet\

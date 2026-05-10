@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Red Slaad
+- "Red Slaad"
 ---
-# [Red Slaad](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/red-slaad.md)
-*Source: Monster Manual p. 276, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Icewind Dale: Rime of the Frostmaiden, Dragonlance: Shadow of the Dragon Queen*  
+# [Red Slaad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/red-slaad.md)
+*Source: Monster Manual p. 276*  
 
 When a red slaad claws a humanoid creature, it can inject an egg from a gland under one of its claws. The egg works its way into its host and gestates, eventually forming a slaad tadpole. Such a tadpole then eats its way out of the host's body, feeds on the host's remains, and then seeks any other fresh meat it can find. The tadpole transforms into a fully grown blue slaad-or green slaad if the host had the ability to cast 3rd level spells or higher-within `2d12` hours.
 
@@ -76,7 +77,8 @@ Some slaadi can transform into the humanoid creatures from which they were origi
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+1"
 "damage_resistances": "acid, cold, fire, lightning, thunder"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Slaad, telepathy 60 ft."
 "cr": "5"
 "traits":
@@ -89,10 +91,10 @@ Some slaadi can transform into the humanoid creatures from which they were origi
 "actions":
   - "desc": "The slaad makes three attacks: one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (2d4 + 3) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage. If the target is a humanoid, it must succeed\
       \ on a DC 14 Constitution saving throw or be infected with a disease—a minuscule\
       \ slaad egg.\n\nA humanoid host can carry only one slaad egg to term at a time.\
@@ -107,10 +109,6 @@ Some slaadi can transform into the humanoid creatures from which they were origi
     "name": "Claw"
 "source":
   - "MM"
-  - "WDH"
-  - "GoS"
-  - "IDRotF"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/red-slaad.webp"
 ```
 ^statblock

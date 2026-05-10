@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/3
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Doppelganger
+- "Doppelganger"
 ---
-# [Doppelganger](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/doppelganger.md)
-*Source: Monster Manual p. 82, Lost Mine of Phandelver, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Journeys through the Radiant Citadel, Keys from the Golden Vault, Hunt for the Thessalhydra. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Doppelganger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/doppelganger.md)
+*Source: Monster Manual p. 82. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Doppelgangers are devious shapeshifters that take on the appearance of other humanoids, throwing off pursuit or luring victims to their doom with misdirection and disguise. Few creatures spread fear, suspicion, and deceit better than doppelgangers. Found in every land and culture, they can take on the guise of any individual of any race.
 
@@ -54,7 +55,8 @@ Doppelgangers are too lazy or self-interested to raise their young. They assume 
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+3"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common"
 "cr": "3"
 "traits":
@@ -73,7 +75,7 @@ Doppelgangers are too lazy or self-interested to raise their young. They assume 
 "actions":
   - "desc": "The doppelganger makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) bludgeoning damage."
     "name": "Slam"
   - "desc": "The doppelganger magically reads the surface thoughts of one creature\
@@ -91,20 +93,6 @@ Doppelgangers are too lazy or self-interested to raise their young. They assume 
     "name": "Read Thoughts"
 "source":
   - "MM"
-  - "LMoP"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "ToA"
-  - "WDH"
-  - "WDMM"
-  - "BGDIA"
-  - "IMR"
-  - "EGW"
-  - "IDRotF"
-  - "JttRC"
-  - "KftGV"
-  - "HftT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/doppelganger.webp"
 ```
 ^statblock

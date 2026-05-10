@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Strahd's Animated Armor
+- "Strahd's Animated Armor"
 ---
-# [Strahd's Animated Armor](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/strahds-animated-armor-cos.md)
+# [Strahd's Animated Armor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/strahds-animated-armor-cos.md)
 *Source: Curse of Strahd p. 227*  
 
 The armor that Strahd wore into battle when he was alive lives on today as a headless, animated suit of plate armor. The armor is painted burgundy and adorned with golden angelic motifs.
@@ -52,7 +53,10 @@ The armor understands Common but obeys only the commands of its master.
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 13"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 13"
 "languages": "understands Common but can't speak"
 "cr": "6"
 "traits":
@@ -74,11 +78,11 @@ The armor understands Common but obeys only the commands of its master.
 "actions":
   - "desc": "The armor makes two melee attacks or uses Shocking Bolt twice."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
-      \ (2d6 + 3) slashing damage plus 3 (d6) lightning damage."
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10\
+      \ (2d6 + 3) slashing damage plus 3 (1d6) lightning damage."
     "name": "Greatsword"
-  - "desc": "Ranged Spell Attack: +4 to hit (with advantage on the attack roll\
-      \ if the target is wearing armor made of metal), range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +4 to hit (with advantage on the attack roll\
+      \ if the target is wearing armor made of metal), range 60 ft., one target. *Hit:*\
       \ 10 (3d6) lightning damage."
     "name": "Shocking Bolt"
 "source":

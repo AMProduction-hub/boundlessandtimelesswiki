@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/2
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Fathomer
+- "Fathomer"
 ---
-# [Fathomer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/fathomer-pota.md)
-*Source: Princes of the Apocalypse p. 207, Ghosts of Saltmarsh*  
+# [Fathomer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/fathomer-pota.md)
+*Source: Princes of the Apocalypse p. 207*  
 
 Fathomers are cultists who have sealed a pact with Olhydra, Princess of Evil Water. In addition to their spellcasting abilities, fathomers have the ability to transform their bodies into water, taking serpent-like shapes. In their water serpent forms, fathomers gain many of the resistances elemental creatures possess, as well as the ability to grapple and crush their enemies with their watery bodies.
 
@@ -44,6 +45,8 @@ Fathomers often serve as spies, infiltrators, and assassins for the water cult, 
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 14"
 "languages": "Aquan, Common"
 "cr": "2"
@@ -51,10 +54,10 @@ Fathomers often serve as spies, infiltrators, and assassins for the water cult, 
   - "desc": "The fathomer is a 5th-level spellcaster. Its spellcasting ability is\
       \ Charisma (spell save DC 12, +4 to hit with spell attacks). It has two 3rd-level\
       \ spell slots, which it regains after finishing a short or long rest, and knows\
-      \ the following warlock spells:\n\nCantrips (at will): [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md),\
+      \ the following warlock spells:\n\n**Cantrips (at will):** [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md),\
       \ [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md),\
-      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n1st-3rd\
-      \ level (2 slots): [armor of Agathys](03.PlayerLog&Handouts/Mechanics/CLI/spells/armor-of-agathys.md),\
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n**1st-3rd\
+      \ level (2 slots):** [armor of Agathys](03.PlayerLog&Handouts/Mechanics/CLI/spells/armor-of-agathys.md),\
       \ [expeditious retreat](03.PlayerLog&Handouts/Mechanics/CLI/spells/expeditious-retreat.md),\
       \ [hex](03.PlayerLog&Handouts/Mechanics/CLI/spells/hex.md), [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [Vampiric touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/vampiric-touch.md)"
@@ -82,18 +85,17 @@ Fathomers often serve as spies, infiltrators, and assassins for the water cult, 
       \ at will, without expending material components."
     "name": "Olhydra's Armor (Human Form Only)"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d6 + 2) bludgeoning damage. If the target is Medium or smaller, it is\
       \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 12). Until the grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and the fathomer can't constrict another target."
     "name": "Constrict (Serpent Form Only)"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger (Human Form Only)"
 "source":
   - "PotA"
-  - "GoS"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/fathomer-pota.webp"
 ```
 ^statblock

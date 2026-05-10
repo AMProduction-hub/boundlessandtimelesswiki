@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gorgon
+- "Gorgon"
 ---
-# [Gorgon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/gorgon.md)
-*Source: Monster Manual p. 171, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Light of Xaryxis. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Gorgon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/gorgon.md)
+*Source: Monster Manual p. 171. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Few creatures that encounter a gorgon live to tell about it. Its body is covered in iron plates, and its nostrils fume with green vapor.
 
@@ -49,7 +50,8 @@ When a gorgon spots potential prey, it charges with a hideous clamor of metal on
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
 "condition_immunities": "[petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": ""
 "cr": "5"
 "traits":
@@ -60,10 +62,10 @@ When a gorgon spots potential prey, it charges with a hideous clamor of metal on
       \ the gorgon can make one attack with its hooves against it as a bonus action."
     "name": "Trampling Charge"
 "actions":
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 18\
       \ (2d12 + 5) piercing damage."
     "name": "Gore"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 16\
       \ (2d10 + 5) bludgeoning damage."
     "name": "Hooves"
   - "desc": "The gorgon exhales petrifying gas in a 30-foot cone. Each creature in\
@@ -77,11 +79,6 @@ When a gorgon spots potential prey, it charges with a hideous clamor of metal on
     "name": "Petrifying Breath (Recharge 5-6)"
 "source":
   - "MM"
-  - "TftYP"
-  - "WDMM"
-  - "GoS"
-  - "BGDIA"
-  - "LoX"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/gorgon.webp"
 ```
 ^statblock

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 aliases:
-- Appendix C: New Magic and Special Items
+- "Appendix C: New Magic and Special Items"
 ---
 # Appendix C: New Magic and Special Items
 *Source: Infernal Machine Rebuild, p. 93* 

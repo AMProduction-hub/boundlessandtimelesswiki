@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sunder Shaman
+- "Sunder Shaman"
 ---
-# [Sunder Shaman](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/sunder-shaman-ggr.md)
+# [Sunder Shaman](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/sunder-shaman-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 202*  
 
 Gruul sunder shamans are angry giants that channel their rage into brutal attacks that deal overwhelming damage to foes and structures alike.
@@ -41,15 +42,16 @@ Giants use their tremendous size and strength to advance the cause of no less th
   - !!int "9"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+6"
-  - "constitution": "+9"
-  - "wisdom": "+5"
+  - "dexterity": !!int "6"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+10"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Giant"
 "cr": "10"
 "traits":
@@ -67,10 +69,10 @@ Giants use their tremendous size and strength to advance the cause of no less th
       \ deals an extra 18 (4d8) damage if the giant has taken damage since its last\
       \ turn."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 15 ft., one target. *Hit:*\
       \ 24 (4d8 + 6) bludgeoning damage."
     "name": "Slam"
-  - "desc": "Ranged Weapon Attack: +10 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +10 to hit, range 60/240 ft., one target. *Hit:*\
       \ 28 (4d10 + 6) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 18 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Rock"

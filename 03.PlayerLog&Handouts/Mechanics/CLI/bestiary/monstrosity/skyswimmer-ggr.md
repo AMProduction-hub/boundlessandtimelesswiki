@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/13
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Skyswimmer
+- "Skyswimmer"
 ---
-# [Skyswimmer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/skyswimmer-ggr.md)
+# [Skyswimmer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/skyswimmer-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 220*  
 
 Skyswimmers are enormous, predatory leviathans that feed on drakes, rocs, griffins, and anything else they encounter as they soar through the clouds above Ravnica.
@@ -35,7 +36,7 @@ Skyswimmers are enormous, predatory leviathans that feed on drakes, rocs, griffi
   - !!int "6"
 "speed": "10 ft., fly 60 ft."
 "saves":
-  - "constitution": "+8"
+  - "constitution": !!int "8"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
@@ -49,7 +50,7 @@ Skyswimmers are enormous, predatory leviathans that feed on drakes, rocs, griffi
   - "desc": "The skyswimmer makes three attacks: one with its bite and two with its\
       \ slam."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 22 (3d10 + 6) piercing damage. If the target is a Large or smaller creature,\
       \ it must succeed on a DC 19 Dexterity saving throw or be swallowed by the skyswimmer.\
       \ A swallowed creature is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
@@ -64,7 +65,7 @@ Skyswimmers are enormous, predatory leviathans that feed on drakes, rocs, griffi
       \ by it and can escape from the corpse by using 15 feet of movement, exiting\
       \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 30 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 30 ft., one target. *Hit:*\
       \ 19 (2d12 + 6) bludgeoning damage."
     "name": "Slam"
 "source":

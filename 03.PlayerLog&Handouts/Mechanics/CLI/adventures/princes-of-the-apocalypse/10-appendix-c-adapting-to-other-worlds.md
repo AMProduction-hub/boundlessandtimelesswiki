@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 aliases:
-- Appendix C: Adapting to Other Worlds
+- "Appendix C: Adapting to Other Worlds"
 ---
 # Appendix C: Adapting to Other Worlds
 *Source: Princes of the Apocalypse, p. 243* 

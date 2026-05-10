@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/3
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Siren
+- "Siren"
 ---
-# [Siren](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/siren-tftyp.md)
-*Source: Tales from the Yawning Portal p. 243, Mythic Odysseys of Theros*  
+# [Siren](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/siren-tftyp.md)
+*Source: Tales from the Yawning Portal p. 243*  
 
 Imprisoned inside a mist-filled chamber in the Tomb of Horrors, Siren serves as evidence of Acererak's heartless sense of humor. This mysterious fey creature yearns to be released, but an enchantment laid on her by the demilich prevents her from telling visitors how to accomplish that task. If anyone succeeds in freeing her, she vows to be a lifelong friend.
 
@@ -42,13 +43,16 @@ Imprisoned inside a mist-filled chamber in the Tomb of Horrors, Siren serves as 
     "desc": "+6"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Elvish, Sylvan"
 "cr": "3"
 "traits":
   - "desc": "Siren's innate spellcasting ability is Charisma (spell save DC 13). She\
       \ can innately cast the following spells, requiring no material components:\n\
-      \n1/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \n**1/day each:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md), [greater\
       \ invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md),\
       \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md) (self\
@@ -60,7 +64,7 @@ Imprisoned inside a mist-filled chamber in the Tomb of Horrors, Siren serves as 
       \ effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) piercing damage."
     "name": "Shortsword"
   - "desc": "Siren touches one creature she can see within 5 feet of her. The creature\
@@ -70,7 +74,6 @@ Imprisoned inside a mist-filled chamber in the Tomb of Horrors, Siren serves as 
     "name": "Stupefying Touch"
 "source":
   - "TftYP"
-  - "MOT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/siren-tftyp.webp"
 ```
 ^statblock

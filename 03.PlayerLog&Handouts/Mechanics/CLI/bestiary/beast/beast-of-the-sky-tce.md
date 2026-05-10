@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Beast of the Sky
+- "Beast of the Sky"
 ---
-# [Beast of the Sky](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/beast-of-the-sky-tce.md)
+# [Beast of the Sky](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/beast-of-the-sky-tce.md)
 *Source: Tasha's Cauldron of Everything p. 61*  
 
 ```statblock
@@ -29,7 +30,8 @@ aliases:
   - !!int "14"
   - !!int "11"
 "speed": "10 ft., fly 60 ft."
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "understands the languages you speak"
 "traits":
   - "desc": "The beast doesn't provoke opportunity attacks when it flies out of an\
@@ -39,8 +41,8 @@ aliases:
       \ that the beast makes."
     "name": "Primal Bond"
 "actions":
-  - "desc": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft.,\
-      \ one target. Hit: 1d4 + 3 + PB slashing damage"
+  - "desc": "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft.,\
+      \ one target. *Hit:* 1d4 + 3 + PB slashing damage."
     "name": "Shred"
 "source":
   - "TCE"

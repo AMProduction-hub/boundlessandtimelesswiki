@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Creating Adventures
+- "Creating Adventures"
 ---
 # Creating Adventures
 *Source: Dungeon Master's Guide (2014), p. 71* 
@@ -587,7 +588,7 @@ As with planned encounters, random encounters are more interesting when they hap
 
 #### Probabilities
 
-A random encounter table can be created in a number of ways, ranging from simple (roll `d6` for one of six possible encounters) to complicated (roll percentile dice, modify for time of day, and cross-index the modified number with the dungeon level). The sample encounter table presented here uses a range of 2 to 20 (nineteen entries total), generated using `1d12 + 1d8`. The probability curve ensures that encounters appearing in the middle of the table are more likely to occur than encounters placed at the beginning or end of the table. A roll of 2 or 20 is rare (about a 1 percent chance of either), while each of the rolls from 9 to 13 occurs a little over 8 percent of the time.
+A random encounter table can be created in a number of ways, ranging from simple (roll `1d6` for one of six possible encounters) to complicated (roll percentile dice, modify for time of day, and cross-index the modified number with the dungeon level). The sample encounter table presented here uses a range of 2 to 20 (nineteen entries total), generated using `1d12 + 1d8`. The probability curve ensures that encounters appearing in the middle of the table are more likely to occur than encounters placed at the beginning or end of the table. A roll of 2 or 20 is rare (about a 1 percent chance of either), while each of the rolls from 9 to 13 occurs a little over 8 percent of the time.
 
 The Sylvan Forest Encounters table is an example of a random encounter table that implements the ideas mentioned above. Creature names in bold refer to stat blocks that appear in the *Monster Manual*.
 

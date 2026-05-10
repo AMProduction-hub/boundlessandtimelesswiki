@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Play-by-Play Generator
+- "Play-by-Play Generator"
 ---
-# [Play-by-Play Generator](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/play-by-play-generator-wdmm.md)
+# [Play-by-Play Generator](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/play-by-play-generator-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 205*  
 
 ```statblock
@@ -35,7 +36,10 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "truesight 120 ft., passive Perception 12"
+"gear":
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 12"
 "languages": "Common"
 "cr": "1"
 "traits":
@@ -48,7 +52,7 @@ aliases:
 "actions":
   - "desc": "The generator makes two fist attacks or four dart attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d4 + 1) bludgeoning damage."
     "name": "Fist"
   - "desc": "The generator hurls a magic dart at a target it can see up to 60 feet\

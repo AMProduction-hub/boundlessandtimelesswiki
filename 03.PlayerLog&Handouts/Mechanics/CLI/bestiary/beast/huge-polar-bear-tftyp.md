@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Huge Polar Bear
+- "Huge Polar Bear"
 ---
-# [Huge Polar Bear](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/huge-polar-bear-tftyp.md)
+# [Huge Polar Bear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/huge-polar-bear-tftyp.md)
 *Source: Tales from the Yawning Portal p. 187*  
 
 ```statblock
@@ -45,10 +46,10 @@ aliases:
 "actions":
   - "desc": "The bear makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d8 + 5) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) slashing damage."
     "name": "Claws"
 "source":

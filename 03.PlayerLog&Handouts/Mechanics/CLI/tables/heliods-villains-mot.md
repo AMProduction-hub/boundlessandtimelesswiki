@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Heliod's Villains
+- "Heliod's Villains"
 ---
 # Heliod's Villains
 *Source: Mythic Odysseys of Theros p. 128* 
 
 **Heliod's Villains**
-
-`dice: [](heliods-villains-mot.md#^heliods-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

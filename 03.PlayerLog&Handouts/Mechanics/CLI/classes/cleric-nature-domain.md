@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/domain/nature
 - ttrpg-cli/subclass/cleric/nature
 aliases:
-- Nature Domain
+- "Nature Domain"
 ---
 # Nature Domain
 *[Cleric](./cleric.md): Divine Domain*  
@@ -44,11 +45,11 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Nature Domain (Level 1)
-
 Gods of nature are as varied as the natural world itself, from inscrutable gods of the deep forests (such as Silvanus, [Obad-Hai](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-obad-hai.md), Chislev, Balinor, and [Pan](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-pan.md)) to friendly deities associated with particular springs and groves (such as Eldath). Druids revere nature as a whole and might serve one of these deities, practicing mysterious rites and reciting all-but-forgotten prayers in their own secret tongue. But many of these gods have clerics as well, champions who take a more active role in advancing the interests of a particular nature god. These clerics might hunt the evil monstrosities that despoil the woodlands, bless the harvest of the faithful, or wither the crops of those who anger their gods.
+
+## Subclass Features
+
+### Domain Spells (Level 1)
 
 At each indicated cleric level, you add the listed spells to your spells prepared.
 
@@ -83,14 +84,14 @@ Starting at 6th level, when you or a creature within 30 feet of you takes acid, 
 
 ### Divine Strike (Level 8)
 
-At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `d8` cold, fire, or lightning damage (your choice) to the target. When you reach 14th level, the extra damage increases to `2d8`.
+At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `1d8` cold, fire, or lightning damage (your choice) to the target. When you reach 14th level, the extra damage increases to `2d8`.
 
 ### Blessed Strikes (Level 8)
 _Source: Tasha's Cauldron of Everything p. 30_
 
 *8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Divine Strike feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Master of Nature (Level 17)
 

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Combat
+- "Combat"
 ---
 # Combat
 *Source: Player's Handbook (2014), p. 189* 
@@ -494,7 +495,7 @@ The best way to save a creature with 0 hit points is to heal it. If healing is u
 
 You can use your action to administer first aid to an [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) creature and attempt to stabilize it, which requires a successful DC 10 Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)) check.
 
-A stable creature doesn't make death saving throws, even though it has 0 hit points, but it does remain [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious). The creature stops being stable, and must start making death saving throws again, if it takes any damage. A stable creature that isn't healed regains 1 hit point after `d4` hours.
+A stable creature doesn't make death saving throws, even though it has 0 hit points, but it does remain [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious). The creature stops being stable, and must start making death saving throws again, if it takes any damage. A stable creature that isn't healed regains 1 hit point after `1d4` hours.
 
 ![](03.PlayerLog&Handouts/Mechanics/CLI/books/players-handbook-2014/img/c94.webp#center)
 

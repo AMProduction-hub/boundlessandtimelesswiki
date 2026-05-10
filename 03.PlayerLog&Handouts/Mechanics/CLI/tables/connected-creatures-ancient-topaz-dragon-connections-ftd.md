@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Connected Creatures; Ancient Topaz Dragon Connections
+- "Connected Creatures; Ancient Topaz Dragon Connections"
 ---
 # Connected Creatures; Ancient Topaz Dragon Connections
 *Source: Fizban's Treasury of Dragons p. 149* 
 
 **Ancient Topaz Dragon Connections**
-
-`dice: [](connected-creatures-ancient-topaz-dragon-connections-ftd.md#^ancient-topaz-dragon-connections)`
 
 | dice: d4 | Connected Creatures |
 |----------|---------------------|

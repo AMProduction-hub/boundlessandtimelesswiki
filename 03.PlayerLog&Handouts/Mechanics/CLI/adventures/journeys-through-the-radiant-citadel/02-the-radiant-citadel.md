@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 aliases:
-- The Radiant Citadel
+- "The Radiant Citadel"
 ---
 # The Radiant Citadel
 *Source: Journeys through the Radiant Citadel, p. 6* 
@@ -94,7 +95,7 @@ The Trade Discal is a vital outlet; if something were to happen to it, the impac
 
 ## Concord Jewels
 
-![The Radiant Citadel, Which...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/003-01-002-drifting-citadel.webp#center "The Radiant Citadel, Which drifts through the depths of the Deep Ethereal, is a beacon of possibility and adventure")
+![The Radiant Citadel, Which drifts through the depths of the Deep Ethereal, is a beacon of possibility and adventure](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/003-01-002-drifting-citadel.webp#center)
 
 Beyond the Radiant Citadel drift the Concord Jewels, which connect the city to its founding civilizations. Each Jewel is a building-sized vessel capable of holding hundreds of people and tons of goods. Though the Jewels take a variety of shapes, their interiors are similar. A cylindrical core holds containers for goods, including livestock. Surrounding the core is seating for passengers. The Citadel employs official operators called Clavigers to pilot the Jewels.
 
@@ -173,7 +174,7 @@ Taxes are progressive to help reduce the gap between the most affluent and the p
 
 Several groups hold influence within the Radiant Citadel, guiding and protecting the city's peoples.
 
-![In the Preserve of the Anc...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/005-01-004-amethyst-tiger.webp#center "In the Preserve of the Ancestors, a traveler seeks the wisdom of the Amethyst Tiger, Dawn Incarnate of Yeonido")
+![In the Preserve of the Ancestors, a traveler seeks the wisdom of the Amethyst Tiger, Dawn Incarnate of Yeonido](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/005-01-004-amethyst-tiger.webp#center)
 
 ### Incarnates
 
@@ -191,7 +192,7 @@ Each Incarnate has a unique, amalgamated personality. Most who interact with an 
 
 A spirit knows only what it has observed. A nature spirit that inhabited a small pond might know a great deal about the fisher who visited its banks every week for fifty years, but might not know that person's name or where they lived. An ancestor spirit might know the intimate details of their family and town, but nothing about their neighbor's great-grandchildren. Each spirit is a single window into the civilization; together, an Incarnate's spirits have a wide but not infallible perspective on the history of their people.
 
-![The Amber Scorpion, Dawn I...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/006-01-005-amber-scorpion.webp#center "The Amber Scorpion, Dawn Incarnate of the Sensa Empire")
+![The Amber Scorpion, Dawn Incarnate of the Sensa Empire](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/006-01-005-amber-scorpion.webp#center)
 
 #### Audiences with Incarnates
 
@@ -351,8 +352,6 @@ Consider the plots on the Radiant Citadel Adventures table when planning adventu
 
 **Radiant Citadel Adventures**
 
-`dice: [](02-the-radiant-citadel.md#^radiant-citadel-adventures)`
-
 | dice: d4 | Adventure |
 |----------|-----------|
 | 1 | A revolutionary from San Citlán tries to hire the party in the Court of Whispers to uncover the plot of a corrupt council member in their homeland (see the adventure "The Fiend of Hollow Mine"). |
@@ -363,7 +362,7 @@ Consider the plots on the Radiant Citadel Adventures table when planning adventu
 
 ## Using the Citadel
 
-![Fleeing disaster, a family...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/008-01-007-concord-jewel-base.webp#center "Fleeing disaster, a family discovers the base of a Concord Jewel—a gateway to the Radiant Citadel")
+![Fleeing disaster, a family discovers the base of a Concord Jewel—a gateway to the Radiant Citadel](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/008-01-007-concord-jewel-base.webp#center)
 
 The Radiant Citadel links to a multitude of worlds. While the fifteen lands presented in this book are the best known, you can decide where else the Concord Jewels reach and what connections they create to future adventures.
 

@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Horror Adventures
+- "Horror Adventures"
 ---
 # Horror Adventures
 *Source: Van Richten's Guide to Ravenloft, p. 185* 
 
 Creating your own horror adventures is like crafting any other D&D adventure with one exception: your goal is to horrify your players in the most fun way possible. Frightening adventures benefit from an atmosphere of dread, conceived through a combination of terrifying narratives, dramatic presentation, and game elements encouraging fear. Drawing out the anxiety and anticipation of players requires deliberate consideration, though. The tools and techniques in this chapter provide ways to make sure your game is both spooky and safe in ways right for your specific group. A toolbox of horror-focused rules also provides options for what sort of grim adventures you might create. At the end of this chapter, a horror adventure puts these methods to use and leads characters on their first steps into the Domains of Dread.
 
-![During a séance, a spirit ...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/105-04-001-intro-splash.webp#center "During a séance, a spirit makes itself known to the Keepers of the Feather")
+![During a séance, a spirit makes itself known to the Keepers of the Feather](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/105-04-001-intro-splash.webp#center)
 
 ## Preparing for Horror
 
@@ -321,8 +322,8 @@ A curse's burden is the effect that causes hardship and suffering to the curse's
 - The victim has disadvantage on attack rolls, ability checks, saving throws, or some combination of the three. This can be tied to a single ability score or applied generally.  
 - The victim can't communicate using language, whether through speaking, sign language, writing, telepathy, or any other means.  
 - The victim gains 3 levels of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) that can't be removed while the curse endures.  
-- When the victim finishes a long rest, they must succeed on a DC 15 Constitution saving throw, or their hit point maximum is reduced by `d10`. If this reduces their hit point maximum to 0, the victim dies, and their body crumbles to dust.  
-- When the victim takes damage, they take an extra `d10` necrotic damage. This effect can't happen again until the start of the victim's next turn.  
+- When the victim finishes a long rest, they must succeed on a DC 15 Constitution saving throw, or their hit point maximum is reduced by `1d10`. If this reduces their hit point maximum to 0, the victim dies, and their body crumbles to dust.  
+- When the victim takes damage, they take an extra `1d10` necrotic damage. This effect can't happen again until the start of the victim's next turn.  
 - The victim gains a Dark Gift (see "chapter 1") appropriate to the circumstances surrounding the curse.  
 - The victim gains vulnerability to one damage type.  
 - The victim's Strength, Dexterity, or Constitution score is reduced to 3, and the victim can't be raised from the dead while the curse lasts.  
@@ -349,71 +350,19 @@ Here are some examples of curse resolutions:
 
 Provided here are several example curses and the circumstances surrounding them. Change the details of any of these examples to customize them to your adventures.
 
-### Ancient Seal
+> [!embed-reward]- Ancient Seal
+> ![Ancient Seal](03.PlayerLog&Handouts/Mechanics/CLI/rewards/ancient-seal-vrgr.md)
 
-This curse protects the resting place of a long-dead ruler and punishes any who disturb the ruler's remains or plunder the treasures.
+> [!embed-reward]- Broken Vow
+> ![Broken Vow](03.PlayerLog&Handouts/Mechanics/CLI/rewards/broken-vow-vrgr.md)
 
-#### Pronouncement
+> [!embed-reward]- Final Breath
+> ![Final Breath](03.PlayerLog&Handouts/Mechanics/CLI/rewards/final-breath-vrgr.md)
 
-Carved into the stone of the crypt door are the words "Relentless death follows those who disturb the sovereign's rest."
+> [!embed-reward]- Innocent Blood
+> ![Innocent Blood](03.PlayerLog&Handouts/Mechanics/CLI/rewards/innocent-blood-vrgr.md)
 
-#### Burden
-
-Each character that gains the curse is hunted by a [wraith](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wraith.md) that appears at sunset and vanishes at dawn, pursuing the single-minded goal of slaying the cursed individual. The wraith manifests in an unoccupied space within 30 feet of its victim. Destroying the wraith grants a temporary reprieve; it doesn't reform for 10 days. You can scale this curse for lower- and higher-level characters by choosing another kind of creature.
-
-#### Resolution
-
-The cursed character sets right what they disturbed; stolen treasure must be returned, and if the ruler's body was disturbed, it must be reinterred with proper observances.
-
-### Broken Vow
-
-A character breaks a solemn vow. The consequences stem from the powers that observed the oath's swearing.
-
-#### Pronouncement
-
-Whatever vow the character made, it came with an implied warning that guilt and restlessness would beset anyone who broke the oath.
-
-#### Burden
-
-The character is plagued by restless sleep and recurring nightmares featuring those the character swore to protect. The character gains 3 levels of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) that can't be removed until the curse ends.
-
-#### Resolution
-
-The curse lasts until the character upholds the broken oath. That might require the character to wait until the circumstances arise again or, more questionably, to engineer the circumstances.
-
-### Final Breath
-
-A deity's favored servant lies dying and calls down divine wrath.
-
-#### Pronouncement
-
-The dying creature declares to the killer, "May your mind grow dim in battle until the sun sets forever."
-
-#### Burden
-
-The character has disadvantage on attack rolls brought on by brief, sporadic bouts of confusion.
-
-#### Resolution
-
-To lift the curse, the character must cause a symbolic setting of the sun or an empowering of the night to appease the slain creature's deity. The character might prevent a festival dedicated to a sun god or perform a ritual that shrouds an entire settlement in magical night for 24 hours, thus ending the curse.
-
-### Innocent Blood
-
-The tragic situation came to pass where a character killed an undeserving person, who laid a vengeful curse in punishment.
-
-#### Pronouncement
-
-The dying victim spits final words: "You shall spill innocent blood until laid low by the moon's bite!"
-
-#### Burden
-
-The character is cursed with [loup garou](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/loup-garou-vrgr.md) lycanthropy (see "chapter 5").
-
-#### Resolution
-
-This curse can't be broken until the character is reduced to 0 hit points by a silvered weapon. If the character survives, the curse can be broken as described in the ""Loup Garou Lycanthropy"" section of "chapter 5". Treat the character as a [werewolf](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/werewolf.md) whose loup garou progenitor has been killed.
-
-![In Har'Akir, an ancient cu...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/109-04-005-ancient-curse.webp#center "In Har'Akir, an ancient curse awakens the Children of Ankhtepot")
+![In Har'Akir, an ancient curse awakens the Children of Ankhtepot](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/109-04-005-ancient-curse.webp#center)
 
 ## Fear and Stress
 

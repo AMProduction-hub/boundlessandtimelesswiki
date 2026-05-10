@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Darkon's Destruction
+- "Darkon's Destruction"
 ---
 # Darkon's Destruction
 *Source: Van Richten's Guide to Ravenloft p. 92* 
 
 **Darkon's Destruction**
-
-`dice: [](darkons-destruction-vrgr.md#^darkons-destruction)`
 
 | dice: d4 | Destruction |
 |----------|-------------|

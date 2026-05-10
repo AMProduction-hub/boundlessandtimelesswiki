@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/triton
 aliases:
-- Triton
+- "Triton"
 ---
 # Triton
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 35*  

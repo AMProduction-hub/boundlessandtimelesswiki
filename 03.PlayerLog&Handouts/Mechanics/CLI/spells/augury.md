@@ -1,14 +1,15 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/feat/adept-of-the-white-robes
-- ttrpg-cli/spell/feat/divinely-favored
+- ttrpg-cli/spell/feat/divinely-favored/neutral
 - ttrpg-cli/spell/level/2nd-level
 - ttrpg-cli/spell/ritual
 - ttrpg-cli/spell/school/divination
@@ -19,7 +20,7 @@ tags:
 - ttrpg-cli/spell/subclass/path-of-the-ancestral-guardian
 classes:
 - Barbarian (Path of the Ancestral Guardian)
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Cleric (Knowledge Domain)
 - Druid
@@ -28,7 +29,7 @@ classes:
 - Sorcerer (Divine Soul)
 - Wizard
 aliases:
-- Augury
+- "Augury"
 ---
 # Augury
 *2nd-level, Divination (ritual)*  
@@ -50,6 +51,6 @@ The spell doesn't take into account any possible circumstances that might change
 
 If you cast the spell two or more times before completing your next long rest, there is a cumulative  chance for each casting after the first that you get a random reading. The DM makes this roll in secret.
 
-**Classes**: [Cleric (Knowledge Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-knowledge-domain.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Barbarian (Path of the Ancestral Guardian)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-path-of-the-ancestral-guardian-xge.md "subclass=XGE")
+**Classes**: [Barbarian (Path of the Ancestral Guardian)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-path-of-the-ancestral-guardian-xge.md "subclass=XGE"); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Knowledge Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-knowledge-domain.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 215. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

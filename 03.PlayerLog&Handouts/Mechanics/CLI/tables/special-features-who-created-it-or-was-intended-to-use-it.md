@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Special Features; Who Created It or Was Intended to Use It?
+- "Special Features; Who Created It or Was Intended to Use It?"
 ---
 # Special Features; Who Created It or Was Intended to Use It?
 *Source: Dungeon Master's Guide p. 141* 
 
 **Who Created It or Was Intended to Use It?**
-
-`dice: [](special-features-who-created-it-or-was-intended-to-use-it.md#^who-created-it-or-was-intended-to-use-it)`
 
 | dice: d20 | Creator or Intended User |
 |-----------|--------------------------|

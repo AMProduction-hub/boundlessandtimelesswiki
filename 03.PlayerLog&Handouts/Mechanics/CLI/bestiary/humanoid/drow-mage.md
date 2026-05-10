@@ -1,19 +1,20 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/7
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/size/medium
-- ttrpg-cli/monster/type/humanoid/elf
+- ttrpg-cli/monster/type/humanoid/drow-elf
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Drow Mage
+- "Drow Mage"
 ---
-# [Drow Mage](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/drow-mage.md)
-*Source: Monster Manual p. 129, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Divine Contention, Dragon of Icespire Peak, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries*  
+# [Drow Mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-mage.md)
+*Source: Monster Manual p. 129*  
 
 ## Drow
 
@@ -41,7 +42,7 @@ Drow craft weapons made of adamantine, a dark and supernaturally hard metal. Dro
 
 ### Cutthroat Politics
 
-Drow politics are cutthroat and rife with intrigue. When drow work together, it is typically to destroy a common foe and ensure their own survival, and such alliances are short lived and fraught with peril.
+Drow politics are cutthroat and rife with intrigue. When drow work together, it is typically to destroy a common foe and ensure their own survival, and such alliances are short-lived and fraught with peril.
 
 Drow society is divided into noble houses, each ruled by a matron who seeks to raise the prestige and power of her house above all others. Other high-ranking members of the house are blood relatives, while the middling ranks are flush with drow from weaker families that have sworn fealty to the greater house. Clinging precariously to the bottom rung of a house's social ladder are the house slaves, made up of drow of low birth and the occasional non-drow captive.
 
@@ -73,7 +74,7 @@ Distilled from spider venom and the flora of the Underdark, poison can be found 
 "name": "Drow Mage"
 "size": "Medium"
 "type": "humanoid"
-"subtype": "elf"
+"subtype": "Drow elf"
 "alignment": "Neutral Evil"
 "ac": !!int "12"
 "ac_class": "15 with [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)"
@@ -97,31 +98,32 @@ Distilled from spider venom and the flora of the Underdark, poison can be found 
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 120 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 14"
 "languages": "Elvish, Undercommon"
 "cr": "7"
 "traits":
   - "desc": "The drow is a 10th-level spellcaster. Its spellcasting ability is Intelligence\
       \ (spell save DC 14, +6 to hit with spell attacks). The drow has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
       \ [poison spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
-      \n1st level (4 slots): [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md),\
+      \n**1st level (4 slots):** [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [witch bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/witch-bolt.md)\n\
-      \n2nd level (3 slots): [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
+      \n**2nd level (3 slots):** [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md), [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md)\n\
-      \n3rd level (3 slots): [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md),\
+      \n**3rd level (3 slots):** [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md),\
       \ [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)\n\
-      \n4th level (3 slots): [Evard's black tentacles](03.PlayerLog&Handouts/Mechanics/CLI/spells/evards-black-tentacles.md),\
+      \n**4th level (3 slots):** [Evard's black tentacles](03.PlayerLog&Handouts/Mechanics/CLI/spells/evards-black-tentacles.md),\
       \ [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md)\n\
-      \n5th level (2 slots): [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md)"
+      \n**5th level (2 slots):** [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md)"
     "name": "Spellcasting"
   - "desc": "The drow's spellcasting ability is Charisma (spell save DC 12). It can\
       \ innately cast the following spells, requiring no material components:\n\n\
-      At will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
-      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      **At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
+      \n**1/day each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
       \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md) (self only)"
     "name": "Innate Spellcasting"
@@ -133,9 +135,9 @@ Distilled from spider venom and the flora of the Underdark, poison can be found 
       \ checks that rely on sight."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2\
       \ (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used\
-      \ with two hands, plus 3 (d6) poison damage."
+      \ with two hands, plus 3 (1d6) poison damage."
     "name": "Staff"
   - "desc": "The drow magically summons a [quasit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/quasit.md),\
       \ or attempts to summon a [shadow demon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/shadow-demon.md)\
@@ -146,16 +148,6 @@ Distilled from spider venom and the flora of the Underdark, poison can be found 
     "name": "Summon Demon (1/Day)"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "ToA"
-  - "WDH"
-  - "WDMM"
-  - "DC"
-  - "DIP"
-  - "IDRotF"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/drow-mage.webp"
 ```
 ^statblock

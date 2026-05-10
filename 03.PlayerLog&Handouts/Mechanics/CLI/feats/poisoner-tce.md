@@ -1,14 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/feat
 aliases:
-- Poisoner
+- "Poisoner"
 ---
 # Poisoner
 *Source: Tasha's Cauldron of Everything p. 80*  
+
 You can prepare and deliver deadly poisons, granting you the following benefits:
 
 - When you make a damage roll that deals poison damage, it ignores resistance to poison damage.  

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/3
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Owlbear
+- "Owlbear"
 ---
-# [Owlbear](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/owlbear.md)
-*Source: Monster Manual p. 249, Lost Mine of Phandelver, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Sleeping Dragon's Wake, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Hunt for the Thessalhydra. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Owlbear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/owlbear.md)
+*Source: Monster Manual p. 249. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 An owlbear's screech echoes through dark valleys and benighted forests, piercing the quiet night to announce the death of its prey. Feathers cover the thick, shaggy coat of its bearlike body, and the limpid pupils of its great round eyes stare furiously from its owlish head.
 
@@ -65,7 +66,8 @@ Scholars have long debated the origins of the owlbear. The most common theory is
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": ""
 "cr": "3"
 "traits":
@@ -75,27 +77,14 @@ Scholars have long debated the origins of the owlbear. The most common theory is
 "actions":
   - "desc": "The owlbear makes two attacks: one with its beak and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:*\
       \ 10 (1d10 + 5) piercing damage."
     "name": "Beak"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (2d8 + 5) slashing damage."
     "name": "Claws"
 "source":
   - "MM"
-  - "LMoP"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "SDW"
-  - "IMR"
-  - "EGW"
-  - "IDRotF"
-  - "HftT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/owlbear.webp"
 ```
 ^statblock

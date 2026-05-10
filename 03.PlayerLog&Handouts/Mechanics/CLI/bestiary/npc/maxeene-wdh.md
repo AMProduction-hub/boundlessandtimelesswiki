@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Maxeene
+- "Maxeene"
 ---
-# [Maxeene](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/maxeene-wdh.md)
+# [Maxeene](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/maxeene-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 37*  
 
 Maxeene is a talking horse.
@@ -37,7 +38,7 @@ Maxeene is a talking horse.
 "languages": "Common"
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d4 + 4) bludgeoning damage."
     "name": "Hooves"
 "source":

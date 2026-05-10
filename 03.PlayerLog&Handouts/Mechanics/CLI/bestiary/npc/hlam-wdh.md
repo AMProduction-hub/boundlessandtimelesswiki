@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/16
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hlam
+- "Hlam"
 ---
-# [Hlam](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/hlam-wdh.md)
+# [Hlam](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hlam-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 204*  
 
 This venerable human monk lives in a cave halfway up the side of Mount Waterdeep. Hlam is the grand master of the Order of the Even-Handed, a small monastic group devoted to Tyr. Would-be students periodically visit him to learn the Way of the Sacred Fists, which combines cleric magic and monk training. They usually return to the city confused, bruised, and not inclined to visit again.
@@ -40,8 +41,8 @@ Hlam is immune to disease and doesn't require food or water. Although he ages, h
   - !!int "14"
 "speed": "60 ft."
 "saves":
-  - "strength": "+5"
-  - "dexterity": "+12"
+  - "strength": !!int "5"
+  - "dexterity": !!int "12"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+5"
@@ -52,23 +53,25 @@ Hlam is immune to disease and doesn't require food or water. Although he ages, h
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ disease"
+"gear":
+  - "[dart](03.PlayerLog&Handouts/Mechanics/CLI/items/dart.md)"
 "senses": "passive Perception 15"
 "languages": "all spoken languages"
 "cr": "16"
 "traits":
   - "desc": "Hlam is a 5th-level spellcaster. His spellcasting ability is Wisdom (spell\
       \ save DC 18, +10 to hit with spell attacks) He has the following cleric spells\
-      \ prepared:\n\nCantrips (at will): [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ prepared:\n\n**Cantrips (at will):** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
       \ [spare the dying](03.PlayerLog&Handouts/Mechanics/CLI/spells/spare-the-dying.md)\n\
-      \n1st level (4 slots): [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
+      \n**1st level (4 slots):** [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
       \ [healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/healing-word.md),\
       \ [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md), [shield\
       \ of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield-of-faith.md)\n\
-      \n2nd level (3 slots): [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
+      \n**2nd level (3 slots):** [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
       \ [prayer of healing](03.PlayerLog&Handouts/Mechanics/CLI/spells/prayer-of-healing.md),\
-      \ [silence](03.PlayerLog&Handouts/Mechanics/CLI/spells/silence.md)\n\n3rd\
-      \ level (2 slots): [protection from energy](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-energy.md),\
+      \ [silence](03.PlayerLog&Handouts/Mechanics/CLI/spells/silence.md)\n\n**3rd\
+      \ level (2 slots):** [protection from energy](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-energy.md),\
       \ [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md),\
       \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)"
     "name": "Spellcasting"
@@ -85,7 +88,7 @@ Hlam is immune to disease and doesn't require food or water. Although he ages, h
 "actions":
   - "desc": "Hlam attacks three times using his unarmed strike, darts, or both."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 12 (1d10 + 7) bludgeoning, magic damage. If the target is a creature, Hlam\
       \ can choose one of the following additional effects:\n\nThe target must succeed\
       \ on a DC 18 Strength saving throw or drop one item it is holding (Hlam's choice).\n\
@@ -93,10 +96,10 @@ Hlam is immune to disease and doesn't require food or water. Although he ages, h
       \nThe target must succeed on a DC 18 Constitution saving throw or be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
       \ until the end of Hlam's next turn."
     "name": "Unarmed Strike"
-  - "desc": "Ranged Weapon Attack: +12 to hit, range 20/60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +12 to hit, range 20/60 ft., one target. *Hit:*\
       \ 9 (1d4 + 7) piercing damage."
     "name": "Dart"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one creature. *Hit:*\
       \ The target must make a DC 18 Constitution saving throw. On a failed save,\
       \ the target is reduced to 0 hit points. On a successful save, the target takes\
       \ 55 (10d10) necrotic damage."
@@ -111,6 +114,9 @@ Hlam is immune to disease and doesn't require food or water. Although he ages, h
     "name": "Deflect Missile"
   - "desc": "Hlam reduces the bludgeoning damage he takes from a fall by 100."
     "name": "Slow Fall"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Hlam can expend a use to take one of the following actions. Hlam regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Hlam moves up to his speed without provoking opportunity attacks."
     "name": "Quick Step"

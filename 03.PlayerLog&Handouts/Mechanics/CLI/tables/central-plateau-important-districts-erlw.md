@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Central Plateau: Important Districts
+- "Central Plateau: Important Districts"
 ---
 # Central Plateau: Important Districts
 *Source: Eberron: Rising from the Last War p. 161* 

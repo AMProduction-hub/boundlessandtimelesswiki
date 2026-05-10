@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Domains of Ravenloft
+- "Domains of Ravenloft"
 ---
 # Domains of Ravenloft
 *Source: Van Richten's Guide to Ravenloft, p. 61* 
@@ -13,7 +14,7 @@ In a far-flung corner of the Plane of Shadow drifts a hidden expanse of roiling 
 
 This chapter provides information for the DM and explores the misty truths of the Domains of Dread, along with a sampling of the terrifying domains, dreaded Darklords, and daring wanderers trapped in the Dark Powers' clutches.
 
-![Dr. Viktra Mordenheim, Dar...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/038-03-001-intro-splash.webp#center "Dr. Viktra Mordenheim, Darklord of Lamordia, crafts the perfect body for her newest band of golem-hunting mercenaries")
+![Dr. Viktra Mordenheim, Darklord of Lamordia, crafts the perfect body for her newest band of golem-hunting mercenaries](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/038-03-001-intro-splash.webp#center)
 
 ## Nature of Ravenloft
 
@@ -31,7 +32,7 @@ The Dark Powers also grant Darklords limited ability to manipulate the Mists sur
 
 Most Darklords can keep their domains' borders closed indefinitely and can reopen them at will. For some Darklords, slightly varied effects manifest when they close their domains. Others are limited in their ability to affect their borders. For each domain, specifics appear in the "Closing the Borders" portion of the section on that domain's Darklord.
 
-If a domain's borders are open, the domain is still not easy to escape from. The area within the Mists remains heavily obscured, but the Mists don't cause creatures to gain levels of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). Characters intent on passing through the Mists travel for `d6` hours, then roll on the Wandering the Mists table to determine what happens.
+If a domain's borders are open, the domain is still not easy to escape from. The area within the Mists remains heavily obscured, but the Mists don't cause creatures to gain levels of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). Characters intent on passing through the Mists travel for `1d6` hours, then roll on the Wandering the Mists table to determine what happens.
 
 ![Wandering the Mists](03.PlayerLog&Handouts/Mechanics/CLI/tables/wandering-the-mists-vrgr.md)
 
@@ -45,7 +46,7 @@ The domains detailed in this chapter suggest Mist talismans that can be used to 
 
 ### Magic and Metaphysics
 
-![Eerie vendors such as thos...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/039-03-002-eerie-vendors.webp#center "Eerie vendors such as those at the Carnival's Litwick Market deal in unique Mist talismans")
+![Eerie vendors such as those at the Carnival's Litwick Market deal in unique Mist talismans](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/039-03-002-eerie-vendors.webp#center)
 
 The Dark Powers manipulate the domains and creatures within their grasp in the most fundamental ways, controlling magic, the nature of life and death, and the means of escaping from their nightmare realms.
 
@@ -228,7 +229,7 @@ Once a haven of virtuous wizards, the Amber Temple was long ago corrupted by evi
 
 ### Strahd von Zarovich
 
-![In the halls of Castle Rav...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/042-03-003-count-strahd.webp#center "In the halls of Castle Ravenloft, Count Strahd von Zarovich clings to ancient obsessions")
+![In the halls of Castle Ravenloft, Count Strahd von Zarovich clings to ancient obsessions](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/042-03-003-count-strahd.webp#center)
 
 In life, Count Strahd von Zarovich was a ruthlessly effective conqueror. Over decades of brutal military campaigning, he defeated his rivals and forged a nation. Retiring from war, Strahd settled in the beautiful valley where he'd won his greatest victory. There, in the way of his ancestors, he spilled his blood into the earth, sealing a pact between himself and the land. In honor of his parents, King Barov and Queen Ravenovia, he named the valley Barovia and constructed his fortress-home, Castle Ravenloft.
 
@@ -324,11 +325,11 @@ It's not necessary to have Tatyana's incarnation appear within Barovia. Rather, 
 
 ![Beyond Barovia; Lost Tatyana](03.PlayerLog&Handouts/Mechanics/CLI/tables/beyond-barovia-lost-tatyana-vrgr.md)
 
-![Tatyana might be reborn in...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/043-03-004-tatyana.webp#center "Tatyana might be reborn in any number of guises, such as Ireena Kolyana or Lyssa von Zarovich")
+![Tatyana might be reborn in any number of guises, such as Ireena Kolyana or Lyssa von Zarovich](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/043-03-004-tatyana.webp#center)
 
 ## Bluetspur
 
-![Memories of Bluetspur prov...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/044-03-005-bluetspur.webp#center "Memories of Bluetspur prove as impossible as they are inescapable")
+![Memories of Bluetspur prove as impossible as they are inescapable](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/044-03-005-bluetspur.webp#center)
 
 *Domain of Alien Memories*
 
@@ -539,7 +540,7 @@ Among the most decadent noble holdings is Misericordia, the Boritsi estate. Situ
 
 ### Ivana Boritsi
 
-![Ivana Boritsi welcomes gue...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/047-03-007-ivana-boritsi.webp#center "Ivana Boritsi welcomes guests to the poisonous conservatories of Misericordia")
+![Ivana Boritsi welcomes guests to the poisonous conservatories of Misericordia](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/047-03-007-ivana-boritsi.webp#center)
 
 The firstborn of the fantastically wealthy Boritsi aristocrats, Ivana was clever, poised, and—in her father Klaus's eyes—utterly unfit to lead their family. Unwilling to accept her father's view, Ivana spent her youth eschewing the dalliances of her kin, instead learning every aspect of her family's business in perfumes and medicinal herbs. Her mother, Camille, encouraged her daughter and tried to ensure that Ivana would one day lead the family.
 
@@ -756,7 +757,7 @@ Garish fliers appear before the Carnival's arrival, promising marvels, terrors, 
 
 The Carnival doesn't exist to entertain its visitors. Rather, it's a traveling domain, capable of visiting other domains and lands beyond the Mists. Visibly marked as outsiders by birth, circumstance, intention, or talent, the Carnival's troupers trade their unique performances for coin and whatever else they need to survive. Although these entertainers are well intentioned, sinister forces travel in their wake. The longer the Carnival tarries in one place, the greater the threat to the performers and visitors. So the Carnival travels constantly, lest the troupers endanger the lands they visit.
 
-![Deceitful fey lure the unw...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/050-03-009-deceitful-fey.webp#center "Deceitful fey lure the unwary from the Carnival's midway")
+![Deceitful fey lure the unwary from the Carnival's midway](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/050-03-009-deceitful-fey.webp#center)
 
 ### Noteworthy Features
 
@@ -935,7 +936,7 @@ In the minds of Darkon's people, Castle Avernus was the sanctuary of their aloof
 
 Castle Avernus was destroyed in a torrent of otherworldly flame, an explosion that froze partway through its blast. The castle now hangs in midair, its chambers, laboratories, and crypts suspended in disjointed sections. Magic woven into the fortress's stones attempts to heal the shattered castle, causing new halls and rambling stairs to form between fractured floors. These surreal ruins can't conceal the magical radiance hanging at the castle's core—a vestige of the magical force that destroyed the castle and precipitated the Hour of Ascension. This mysterious force now calls to spirits across Darkon, drawing them in to feed an ongoing magical reaction.
 
-Despite the devastation, Castle Avernus isn't empty. Azalin's treasures and former servants survived, including Ebbasheyth, the Darklord's black shadow dragon advisor; a vast library that records the memories of all who die in Darkon; and the tomb haunted by Irik Zal'honen, Azalin's son.
+Despite the devastation, Castle Avernus isn't empty. Azalin's treasures and former servants survived, including Ebbasheyth, the Darklord's black shadow dragon advisor; a vast library that records the memories of all who die in Darkon; and the tomb haunted by Irik Zal'honan, Azalin's son.
 
 #### Il Aluk
 
@@ -993,7 +994,7 @@ Darcalus Rex is a [necrichor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undea
 
 The members of the Eris family stand proudly as Il Aluk's foremost artisans of the grand craft of lying. Despite its ancient name, the family has long endured crushing debt. Through poise and predatory business dealings, members have clung to their rotted estate, Calasquel. As the fortunes of Il Aluk's elite withered, Talisveri Eris took advantage of her family's duplicitous expertise, peddling empty assurances from the center of a web of credit, gossip, and desperate debtors.
 
-![Castle Avernus, frozen at ...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/055-03-012-castle-avernus.webp#center "Castle Avernus, frozen at the moment of its destruction")
+![Castle Avernus, frozen at the moment of its destruction](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/055-03-012-castle-avernus.webp#center)
 
 Bubbly and fantastically vain, Madame Eris would appear to be a woman of nearly eighty if her attempts at magical age-defiance hadn't resulted in her permanent invisibility. The result of imbibing a flawed magic elixir meant to make her look younger, Eris's invisibility has persisted for decades. She uses avant-garde fashion and gallons of makeup to create the face she presents publicly, as well as presenting numerous alter egos: fictitious family members such as her miserly cousin, Halpernista; her foppish nephew, Oscanor; and her bewilderingly ancient and perpetually furious sister, Lady Tatsaul.
 
@@ -1153,7 +1154,7 @@ Enraged to discover this "duke" was no more a real duke than her father—and wo
 
 Saidra awoke on the foggy grounds of her new estate in Port-a-Lucine, a true duchess, as she had always imagined, but also an undead wraith. When she's dressed in elegant gowns and an elaborate mask, those around her accept the obvious lie that she's a living woman. When she isn't hosting her masquerade balls, she sheds her garb and stalks the city as a murderous spirit known as the Red Death. In either form, her goal is the same: to unmask and destroy pompous fools who pretend to be what they are not, aspire to higher station than they deserve, and fail to maintain the appearance of normalcy.
 
-![Duchess d'Honaire punishes...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/058-03-013-duchess.webp#center "Duchess d'Honaire punishes the unworthy who sneak into the Grand Masquerade")
+![Duchess d'Honaire punishes the unworthy who sneak into the Grand Masquerade](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/058-03-013-duchess.webp#center)
 
 #### Saidra's Powers and Dominion
 
@@ -1391,7 +1392,7 @@ Steely and fierce, Vladeska Drakov views softness as weakness and resents having
 
 "I and all I command will know death before we show weakness in defeat."
 
-![Vladeska Drakov and her Ta...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/061-03-014-vladeska.webp#center "Vladeska Drakov and her Talons struggle to defend Lekar from endless zombie hordes")
+![Vladeska Drakov and her Talons struggle to defend Lekar from endless zombie hordes](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/061-03-014-vladeska.webp#center)
 
 ### Adventures in Falkovnia
 
@@ -1434,7 +1435,7 @@ The streets are packed with poorly armed commoners and cruel Talon soldiers. Any
 
 Run the siege as a series of encounters rather than one extended battle. As terrible events unfold around the characters, it's up to them to determine who and how they'll help.
 
-Begin the siege with zombies approaching Lekar's walls. The characters might pick off distant zombies or enact plans to destroy dozens at a time. The characters' strategies are likely successful, but the horde soon begins overwhelming defenses nearby. Once the characters defeat a few zombies, roll `d6` and consult the Zombie Siege Encounters table. The event rolled unfolds within sight of one of the characters. It's up to the characters to either take action or let the event transpire. When the characters complete an encounter, roll on the table again. If the characters ignore one of these events, the defenders' situation worsens. Add +2 to the next roll on the table.
+Begin the siege with zombies approaching Lekar's walls. The characters might pick off distant zombies or enact plans to destroy dozens at a time. The characters' strategies are likely successful, but the horde soon begins overwhelming defenses nearby. Once the characters defeat a few zombies, roll `1d6` and consult the Zombie Siege Encounters table. The event rolled unfolds within sight of one of the characters. It's up to the characters to either take action or let the event transpire. When the characters complete an encounter, roll on the table again. If the characters ignore one of these events, the defenders' situation worsens. Add +2 to the next roll on the table.
 
 The siege lasts as long as you like. Use frantic rushes between emergencies to describe small horrors and victories while wearing down the characters' resources with brief zombie attacks. If the characters feel completely overwhelmed, Talon [priests](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/priest.md) with [potions of healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-healing.md) might appear, or an officer can enlist characters to deliver orders from General Drakov (likely related to the siege's climax).
 
@@ -1820,7 +1821,7 @@ Excessive experimentation has caused the nature of magic in Hazlan to fray, maki
 
 ### The Eye of Hazlik
 
-![The wizard Eleni's most re...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/068-03-017-wizard-eleni.webp#center "The wizard Eleni's most recent experiment: dominating the worm Gravedrinker")
+![The wizard Eleni's most recent experiment: dominating the worm Gravedrinker](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/068-03-017-wizard-eleni.webp#center)
 
 A stylized eyelike design adorns buildings, art, clothing, and talismans across Hazlan: the Eye of Hazlik. Locals claim the symbol wards off dangerous magic and offers protection from magical creatures. It's also said that spellcasters who wear the symbol are less likely to suffer the domain's wild magic effects. Remarkably, it's not all superstition.
 
@@ -2207,7 +2208,7 @@ Reeva remembers a time when she loved Ramya, before her sister eclipsed her in t
 
 After her murder, Reeva was reborn as an [arcanaloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/arcanaloth.md), a state that horrifies her. When frustrated, she vents her rage by instructing her servants to abduct someone she considers beautiful and then overseeing that beauty's destruction. Reeva is a cunning plotter, strategist, and manipulator. She applies these talents to her magic, entreating fiends for aid and using them to hasten the day when no one will underestimate her again. Many of Arijani's allies don't trust Reeva. Behind her back, they mockingly call her charismatic Arijani's opposite, or "Inajira."
 
-![Arijani and Reeva Vasavada...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/074-03-021-arijani-and-reeva.webp#center "Arijani and Reeva Vasavadan conspire in a courtyard of the Cerulean Citadel")
+![Arijani and Reeva Vasavadan conspire in a courtyard of the Cerulean Citadel](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/074-03-021-arijani-and-reeva.webp#center)
 
 ### Treachery in Kalakeri
 
@@ -2296,7 +2297,7 @@ Those familiar with Kartakass know the following facts:
 - Wolves roam the land freely. Few venture outside during the full moon, fearing werewolves.  
 - A sourceless song whispers through the mystical Wildersung Wood, always fading before it ends. Although no one knows its conclusion, all Kartakans know the beginning: "Sing of the trees, give voice to the breeze, and stave off the bloom of doom. While the wise sing their song, guilty necks stretch long, and..."  
 
-![The crowds at the Crystal ...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/075-03-024-the-crowds.webp#center "The crowds at the Crystal Club in Harmonia have a vicious reputation. Some performers learn why firsthand")
+![The crowds at the Crystal Club in Harmonia have a vicious reputation. Some performers learn why firsthand](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/075-03-024-the-crowds.webp#center)
 
 ### Settlements and Sites
 
@@ -2356,7 +2357,7 @@ Lukas owns this intimate, traditional tavern in Skald. Nightly, either Harkon Lu
 
 ##### Closing the Borders
 
-When Harkon chooses to close Kartakass's borders, a soothing song fills the Mists. The Mists function as detailed in ""The Mists"" at the start of this chapter, but in addition, any creature in the Mists that has its speed reduced to 0 by [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) falls [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) and is teleported out of the Mists. The creature awakes at the Mists' edge back in Kartakass `d6` hours later.
+When Harkon chooses to close Kartakass's borders, a soothing song fills the Mists. The Mists function as detailed in ""The Mists"" at the start of this chapter, but in addition, any creature in the Mists that has its speed reduced to 0 by [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) falls [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) and is teleported out of the Mists. The creature awakes at the Mists' edge back in Kartakass `1d6` hours later.
 
 #### Harkon Lukas's Torment
 
@@ -2490,7 +2491,7 @@ Overgrown with bizarrely warped forests, this jagged mountain range stretches fo
 
 A child prodigy from a minor noble family, the brilliant Viktra Mordenheim became obsessed with the complexities of Humanoid anatomy at an early age. She taught herself medicine as a child, and as a teen earned both a doctorate and an appointment as a preeminent researcher at a local university. Despite her genius, though, the young Dr. Mordenheim lacked empathy, compassion, and moral qualms. She pursued medicine solely to satiate her burning intellectual curiosity, never to aid her patients. She perceived magic as stealing the powers of otherworldly beings and cheating the laws of nature, and sought instead to use her mind to master the world.
 
-![The brain of Baron Rudolph...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/082-03-026-baron-rudolph.webp#center "The brain of Baron Rudolph von Aubrecker constructs a new body")
+![The brain of Baron Rudolph von Aubrecker constructs a new body](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/082-03-026-baron-rudolph.webp#center)
 
 Eventually, Dr. Mordenheim became convinced that she could do more than create life—she could defeat death! She wished to breathe sentience into dead flesh and produce sturdier shells than the bodies of fragile, temporary mortals. She added corpse theft to her repertoire, employing thieves to procure specimens for her tests. This was how she met [Elise](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/elise-vrgr.md), a beautiful but reckless body snatcher who was charmed by the doctor's aloofness and whose spontaneity entranced the methodical surgeon.
 
@@ -2508,7 +2509,7 @@ Dr. Viktra Mordenheim dresses in functional, bloodstained lab wear. Her statisti
 
 Dr. Mordenheim can create any Construct or corporeal Undead by working in her laboratory for a number of uninterrupted days equal to the creature's challenge rating. At the end of the final day, the creature is complete and obeys her will. She uses this ability to create [flesh golems](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/flesh-golem.md) and [homunculi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/homunculus.md), as well as [zombies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md), [death's heads](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/deaths-head-vrgr.md), and [brains in jars](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/brain-in-a-jar-vrgr.md) (see "chapter 5").
 
-- **Reborn Maker.** A side effect of Dr. Mordenheim's experiments is the creation of reborn (see "chapter 1"). It takes her `d4` days and the dead bodies of two Medium or Small Humanoids to create one reborn.  
+- **Reborn Maker.** A side effect of Dr. Mordenheim's experiments is the creation of reborn (see "chapter 1"). It takes her `1d4` days and the dead bodies of two Medium or Small Humanoids to create one reborn.  
 - **Brain Swap.** Dr. Mordenheim can place a creature's brain or head into another body, moving it from a donor to a recipient. The process requires the donor to have a brain and either be [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) or to have been dead for less than 24 hours. In an operation that takes 1 hour, the doctor transfers the donor's brain or head from their body to the [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) or dead corporeal body of a creature without a brain. The donor awakes 1 hour later with control of the recipient's body.  
 
 While controlling the recipient's body, the donor retains their alignment, Intelligence, Wisdom, and Charisma scores. They otherwise use the recipient's body's statistics, but don't gain access to the recipient's knowledge, class features, or proficiencies. Dr. Mordenheim can swap a donor's brain or head back from the recipient's body to their original body through this same process, as long as the original body exists and no more than 1 week has passed. This period can be extended if steps are taken to preserve the original body, such as by keeping it in cold storage or under the effect of a [gentle repose](03.PlayerLog&Handouts/Mechanics/CLI/spells/gentle-repose.md) spell.
@@ -2578,7 +2579,7 @@ Dr. Mordenheim's supposed beloved and greatest achievement, [Elise](03.PlayerLog
 
 The Unbreakable Heart is a nonmagical scientific wonder that replaces a creature's heart. The device installs itself, connecting to a creature's anatomy and stitching itself into place if positioned in a cavity where the creature's heart used to be. A creature with the device inside them is immune to disease, ceases to age, and does not die of old age, though they can still die in other ways. The glowing device sheds light in a 10-foot radius and dim light for an additional 10 feet. While inside a creature, the device causes the creature to shed dim light in a 10-foot radius.
 
-![Within Elise's undying bod...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/083-03-025-dr-mordenheim.webp#center "Within Elise's undying body beats Dr. Mordenheim's greatest creation: the Unbreakable Heart")
+![Within Elise's undying body beats Dr. Mordenheim's greatest creation: the Unbreakable Heart](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/083-03-025-dr-mordenheim.webp#center)
 
 #### Re-created by the Doctor
 
@@ -2770,7 +2771,7 @@ Issues of love and romance are intimately bound to the tragic elements of a ghos
 
 ![Romance; Romantic Elements](03.PlayerLog&Handouts/Mechanics/CLI/tables/romance-romantic-elements-vrgr.md)
 
-![All who die in Mordent bec...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/087-03-028-all-who-die.webp#center "All who die in Mordent become captives to the will of Lord Wilfred Godefroy")
+![All who die in Mordent become captives to the will of Lord Wilfred Godefroy](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/087-03-028-all-who-die.webp#center)
 
 #### Putting the Pieces Together
 
@@ -2945,7 +2946,7 @@ Creatures exposed to the disease must succeed on a DC 10 Constitution saving thr
 
 #### Symptoms
 
-It takes `d2` days for the Gnawing Plague's symptoms to manifest in an infected creature. The infected creature then gains 1 level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion), regains only half the normal number of hit points from spending Hit Dice, and regains no hit points from finishing a long rest.
+It takes `1d2` days for the Gnawing Plague's symptoms to manifest in an infected creature. The infected creature then gains 1 level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion), regains only half the normal number of hit points from spending Hit Dice, and regains no hit points from finishing a long rest.
 
 The plague's symptoms include buboes, fatigue, splotchy rashes, sweats, and shaking, particularly facial tremors. Locals liken these twitches to the sniffing of rats. Sufferers often have scraps of leather placed in their mouths to prevent their teeth from clattering, though they inevitably gnaw through these scraps.
 
@@ -2957,7 +2958,7 @@ At the end of each long rest, an infected creature must make a DC 10 Constitutio
 
 All forms of rats and wererats are immune to the Gnawing Plague.
 
-![Wearing a mask curtails th...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/091-03-030-wearing-a-mask.webp#center "Wearing a mask curtails the plague but not wererats")
+![Wearing a mask curtails the plague but not wererats](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/091-03-030-wearing-a-mask.webp#center)
 
 ### Cycle of the Plague
 
@@ -3142,7 +3143,7 @@ The villagers are curious about strangers, and eventually someone invites the ou
 
 When the characters visit Viktal, roll or choose options from the Sights in Viktal table to set the tone of the village's strangeness.
 
-![A visitor enjoys the hospi...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/095-03-032-a-visitor.webp#center "A visitor enjoys the hospitality of Viktal during the Tithe")
+![A visitor enjoys the hospitality of Viktal during the Tithe](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/095-03-032-a-visitor.webp#center)
 
 ![Welcome to Viktal; Sights in Viktal](03.PlayerLog&Handouts/Mechanics/CLI/tables/welcome-to-viktal-sights-in-viktal-vrgr.md)
 
@@ -3368,7 +3369,7 @@ While exploring the Domains of Dread, should the Mists carry characters to a mys
 
 The disaster known as the Mourning numbers among the greatest tragedies to befall the world of Eberron—a mysterious calamity that killed nearly everyone in the land of Cyre. In the nation's capital of Metrol, some citizens foresaw the coming devastation and sought to escape upon lightning rails, elemental-powered engines capable of pulling trains of passenger carriages. As scared innocents packed Metrol's last lightning rail, known as Cyre 1313, the evacuation was delayed at the demand of a late-arriving VIP. Hundreds were forced from passenger carriages to admit and maintain the secrecy of this last passenger and their retinue. When the lightning rail did finally depart, it was too late. The disaster of the Mourning overtook the train and its hundreds of escapees. But even as it did, the Mists claimed Cyre 1313 and all aboard it. Now, the last lightning rail from Metrol hurtles through the Mists as a traveling domain. Those on board fear the disaster pursuing them, the mysterious passenger seated in the train's foremost carriage, and the necrotic energy now infusing the engine's elemental spirit. Yet none of the passengers realize their endless escape is pointless, as Cyre 1313 carries only the dead.
 
-![Cyre 1313, The Mourning Ra...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/099-03-034-cyre-1313.webp#center "Cyre 1313, The Mourning Rail, thunders through domains, ever trying to escape the disaster that slew its passengers")
+![Cyre 1313, The Mourning Rail, thunders through domains, ever trying to escape the disaster that slew its passengers](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/099-03-034-cyre-1313.webp#center)
 
 ### Forlorn
 
@@ -3432,7 +3433,7 @@ Any who sleep might close their eyes and become forever trapped in the Nightmare
 
 The Nightmare Court's members share one commonality: all are the living nightmares of Caroline Dinwiddy, a potent psychic who repressed memories of her own heartless deeds. These memories torment her sleeping mind, creating the Nightmare Court. Deep within the City of Nod, inside a warped reimagining of the clinic where she once worked, Dinwiddy sleeps without waking, refusing to face the terrors her dreams unleash upon innocents across the multiverse.
 
-![The Ghost Dancer visits ni...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/100-03-035-ghost-dancer.webp#center "The Ghost Dancer visits nightmares upon a sleeping victim")
+![The Ghost Dancer visits nightmares upon a sleeping victim](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/100-03-035-ghost-dancer.webp#center)
 
 ### Niranjan
 
@@ -3617,7 +3618,7 @@ Vistani pass their varied teachings through their families as stories and songs,
 
 With their experience navigating the Mists, many Vistani understand how to employ "Mist talismans" (detailed at the start of this "chapter") to reach specific domains, or possess the "Mist Walker" Dark Gift (see "chapter 1"), allowing them to make their way between domains. Vistani don't enter the Mists lightly, though, knowing that each such passage holds inherent danger. Caravan leaders ensure that every family member is accounted for before moving on, ensuring no one gets lost in the Mists.
 
-![Vistani Wayfarers emerge f...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/103-03-037-vistani-wayfarers.webp#center "Vistani Wayfarers emerge from the Mists into a new land.")
+![Vistani Wayfarers emerge from the Mists into a new land.](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/103-03-037-vistani-wayfarers.webp#center)
 
 #### Vistani Knowledge
 
@@ -3791,7 +3792,7 @@ Use the statistics of an [assassin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary
 
 #### Firan Zal'honan
 
-![Firan Zal'honan's mysterio...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/104-03-038-mysterious-research.webp#center "Firan Zal'honan's mysterious research leads him to discover an accursed amber sarcophagus")
+![Firan Zal'honan's mysterious research leads him to discover an accursed amber sarcophagus](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/104-03-038-mysterious-research.webp#center)
 
 A mask of charm and congeniality conceals one of the most ingenious and utterly ruthless intellects to stalk through the Mists. A wandering scholar, Firan Zal'honan is quick to claim his descent from a noble pedigree. In another life, he claims, he could have ruled as a wizard-king. But his brilliance led him along a stranger path: seeking to escape the Mists into the "true realities" beyond. Firan keeps the basis for his strange theories secret, but his ambitions drive him to travel the domains; visit accursed sites; and investigate inscrutable prophecy cycles, temporal conjunctions, and an unknown figure he calls "the escapee."
 

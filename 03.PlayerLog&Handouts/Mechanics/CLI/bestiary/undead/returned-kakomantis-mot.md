@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Returned Kakomantis
+- "Returned Kakomantis"
 ---
-# [Returned Kakomantis](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/returned-kakomantis-mot.md)
+# [Returned Kakomantis](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/returned-kakomantis-mot.md)
 *Source: Mythic Odysseys of Theros p. 240*  
 
 Although the dead typically recall little of their lives, some have an obsession with magic that survives both death and rebirth as a Returned. These Returned, called kakomanteis, use their magical prowess to control the energy that suffuses the Underworld.
@@ -48,6 +49,8 @@ Returned reenter the world blank and undead. No longer possessing the ability to
 "damage_resistances": "necrotic"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 11"
 "languages": "the languages it knew in life"
 "cr": "4"
@@ -63,10 +66,10 @@ Returned reenter the world blank and undead. No longer possessing the ability to
       \ checks to ascertain the Returned's intentions or sincerity are made with disadvantage."
     "name": "Unreadable Face"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage plus 10 (3d6) poison damage."
     "name": "Shortsword"
-  - "desc": "Ranged Spell Attack: +4 to hit, range 120 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +4 to hit, range 120 ft., one creature. *Hit:*\
       \ 13 (2d8 + 2) necrotic damage, and the target can't regain hit points until\
       \ the start of the Returned's next turn. If the target is missing any of its\
       \ hit points, it instead takes 17 (2d12 + 2) necrotic damage."

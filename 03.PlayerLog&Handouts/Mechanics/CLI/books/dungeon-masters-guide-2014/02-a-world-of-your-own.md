@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- A World of Your Own
+- "A World of Your Own"
 ---
 # A World of Your Own
 *Source: Dungeon Master's Guide (2014), p. 9* 

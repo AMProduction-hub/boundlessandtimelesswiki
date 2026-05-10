@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Clawfoot
+- "Clawfoot"
 ---
-# [Clawfoot](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/clawfoot-erlw.md)
+# [Clawfoot](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/clawfoot-erlw.md)
 *Source: Eberron: Rising from the Last War p. 289*  
 
 Clawfoot dinosaurs are two-legged saurians with sharp teeth and toe claws that resemble deadly sickles. They are imposing creatures, about the size of a tall human, and are fierce enough to take down even larger prey.
@@ -59,10 +60,10 @@ Dinosaurs are widespread on Eberron, particularly in Q'barra, the Talenta Plains
 "actions":
   - "desc": "The clawfoot makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage."
     "name": "Claws"
 "source":

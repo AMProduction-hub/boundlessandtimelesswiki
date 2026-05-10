@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 aliases:
-- Chapter 10: Hold of the Storm Giants
+- "Chapter 10: Hold of the Storm Giants"
 ---
 # Chapter 10: Hold of the Storm Giants
 *Source: Storm King's Thunder, p. 201* 
@@ -48,8 +49,6 @@ Maelstrom lies on the floor of the Trackless Sea, nearly 3,000 feet beneath the 
 > **Giant Clams.** Giant clams appear in several of the stronghold's chambers. As an action, a character can pry open a giant clam with a successful DC 16 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. Using a crowbar, a sword, or a similar tool grants advantage on the check. When a giant clam is opened, roll on the Giant Clam table to determine its contents.
 > 
 > **Giant Clam**
-> 
-> `dice: [](11-chapter-10-hold-of-the-storm-giants.md#^giant-clam)`
 > 
 > | dice: d100 | Treasure |
 > |------------|----------|
@@ -169,7 +168,7 @@ A raised, barnacle-covered portcullis hangs above the entrance of this submerged
 
 #### Treasure
 
-A few treasures lie scattered across the cave floor amid rusty, barnacle-covered swords and other detritus. A thorough search yields 67 gp, a shiny electrum goblet (worth 75 gp), and `d4` magic items. Roll on Magic Item Table G in chapter 7 of the "Dungeon Master's Guide" for the first item, and on Table F for any other items.
+A few treasures lie scattered across the cave floor amid rusty, barnacle-covered swords and other detritus. A thorough search yields 67 gp, a shiny electrum goblet (worth 75 gp), and `1d4` magic items. Roll on Magic Item Table G in chapter 7 of the "Dungeon Master's Guide" for the first item, and on Table F for any other items.
 
 ### 6. Nym's Whale
 
@@ -235,7 +234,7 @@ A staircase topped by a raised portcullis descends into a pair of submerged cham
 
 #### Treasure
 
-This area contains six giant clams and two anemone chests. The clams' contents are determined by the Giant Clam table (see the "Maelstrom: General Features" sidebar). Each anemone chest holds `d4`–1 magic items and `d4` shark-bladder sacks. Each sack contains `1d4 × 100` pp. Roll on Magic Item Table B in chapter 7 of the "Dungeon Master's Guide" for any magic items.
+This area contains six giant clams and two anemone chests. The clams' contents are determined by the Giant Clam table (see the "Maelstrom: General Features" sidebar). Each anemone chest holds `1d4`–1 magic items and `1d4` shark-bladder sacks. Each sack contains `1d4 × 100` pp. Roll on Magic Item Table B in chapter 7 of the "Dungeon Master's Guide" for any magic items.
 
 ### 13. Study
 
@@ -404,7 +403,7 @@ The first crate holds six folded, giant-sized rugs made from strips of soft kelp
 
 The two barrels are full of exquisite wine (worth 2,500 gp each) and weigh 2,500 pounds each.
 
-The sea chest is 12 feet long, 9 feet tall, and 9 feet deep, with a lid shaped like a half-barrel. The large padlock that hangs from its latch is too big to be picked using thieves' tools. A Small character can squeeze inside the locking mechanism and pick the lock with a successful DC 16 Dexterity check. Lifting the heavy lid requires a successful DC 20 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. The chest holds a dozen smaller (human-made) chests that are unlocked and contain booty retrieved from the sea floor. Each small chest has `3d6 × 100` gp in mixed coinage. Lying among the chests are `1d4 + 1` magic items. Roll on Magic Item Table H in chapter 7 of the "Dungeon Master's Guide "for the first two items and on Table F for any other items.
+The sea chest is 12 feet long, 9 feet tall, and 9 feet deep, with a lid shaped like a half-barrel. The large padlock that hangs from its latch is too big to be picked using thieves' tools. A Small character can squeeze inside the locking mechanism and pick the lock with a successful DC 16 Dexterity check. Lifting the heavy lid requires a successful DC 20 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. The chest holds a dozen smaller (human-made) chests that are unlocked and contain booty retrieved from the sea floor. Each small chest has `3d6 × 100` gp in mixed coinage. Lying among the chests are `1d4 + 1` magic items. Roll on Magic Item Table H in chapter 7 of the "Dungeon Master's Guide"for the first two items and on Table F for any other items.
 
 The first anemone chest holds six grapefruit-sized pink pearls (worth 500 gp each). The second anemone chest contains six [potions of giant size](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-giant-size-skt.md) (see appendix B) in purple and green coral vials sized for Small and Medium creatures. Each coral vial is worth 25 gp.
 
@@ -538,7 +537,7 @@ If her life is threatened and she is forced to retreat to her tower, [Mirran](03
 
 One anemone chest contains seven pieces of jewelry sized for a giant, including a whalebone tiara inlaid with mother-of-pearl and precious gemstones (worth 2,500 gp), three pearl necklaces (worth 2,500 gp each), a pair of pearl-studded coral earrings (worth 1,500 gp for the pair), and a platinum necklace adorned with shark's teeth (worth 1,500 gp).
 
-The other anemone chest contains 600 pp and `d4` magic items. Roll on Magic Item Table G in chapter 7 of the "Dungeon Master's Guide" for the first item, and on Table D for any other items.
+The other anemone chest contains 600 pp and `1d4` magic items. Roll on Magic Item Table G in chapter 7 of the "Dungeon Master's Guide" for the first item, and on Table D for any other items.
 
 The first crate contains twenty bolts of fine silk (worth 250 gp each). The second crate holds a wooden chariot with gold wheel-caps (worth 500 gp). In the third crate are thirty 10-pound sacks of saffron (worth 150 gp each). The fourth crate contains a well-packed dining room furniture set consisting of a large table and eight chairs carved from dark wood and inlaid with gold; the set is worth 2,500 gp but is awkward to transport.
 
@@ -556,7 +555,7 @@ The frame of [Nym](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/nym-skt.md)'
 
 ##### Treasure
 
-Characters who search the trunk find 500 pp, four coral bracelets (worth 250 gp each), a black coral torc set with two red pearls (worth 2,500 gp), and `d4` magic items. Roll on Magic Item Table G in chapter 7 of the "Dungeon Master's Guide" for the first item, and on Table B for any others.
+Characters who search the trunk find 500 pp, four coral bracelets (worth 250 gp each), a black coral torc set with two red pearls (worth 2,500 gp), and `1d4` magic items. Roll on Magic Item Table G in chapter 7 of the "Dungeon Master's Guide" for the first item, and on Table B for any others.
 
 ### 32. Serissa's Tower
 
@@ -566,7 +565,7 @@ A wide crystal window offers a breathtaking view of the vortex, the sinkhole, an
 
 ##### Treasure
 
-Characters who inspect the knickknacks on the shelves find `d3` magic items. Roll on Magic Item Table F in chapter 7 of the "Dungeon Master's Guide" for the first item, and on Table B for any other items.
+Characters who inspect the knickknacks on the shelves find `1d3` magic items. Roll on Magic Item Table F in chapter 7 of the "Dungeon Master's Guide" for the first item, and on Table B for any other items.
 
 #### 32B. Bedchamber
 

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
-- Monsters' Desires; Oozes
+- "Monsters' Desires; Oozes"
 ---
 # Monsters' Desires; Oozes
 *Source: Tasha's Cauldron of Everything p. 148* 
 
 **Oozes**
-
-`dice: [](monsters-desires-oozes-tce.md#^oozes)`
 
 | dice: d4 | Desired Offering |
 |----------|------------------|

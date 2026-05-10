@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 aliases:
-- Chapter 4: Castle Ravenloft
+- "Chapter 4: Castle Ravenloft"
 ---
 # Chapter 4: Castle Ravenloft
 *Source: Curse of Strahd, p. 49* 
@@ -36,13 +37,13 @@ In most circumstances, a random encounter occurs on a roll of 18 or higher on a 
 | 6 | `1d4 + 1` [flying swords](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/flying-sword.md) |
 | 7 | Blinsky toy |
 | 8 | [Unseen servant](03.PlayerLog&Handouts/Mechanics/CLI/spells/unseen-servant.md) |
-| 9 | `d4` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/barovian-commoner-cos.md) |
+| 9 | `1d4` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/barovian-commoner-cos.md) |
 | 10 | `2d6` [crawling claws](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/crawling-claw.md) |
-| 11 | `d6` [shadows](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/shadow.md) |
-| 12 | `d6` [swarms of bats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-bats.md) |
+| 11 | `1d6` [shadows](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/shadow.md) |
+| 12 | `1d6` [swarms of bats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-bats.md) |
 | 13 | 1 crawling [Strahd zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/strahd-zombie-cos.md) (see appendix D) |
 | 14 | `1d4 + 1` Vistani [thugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/vistana-thug-cos.md) |
-| 15 | `d4` [wights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wight.md) |
+| 15 | `1d4` [wights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wight.md) |
 | 16 | Trinket |
 | 17 | Giant spider cocoon |
 | 18 | 1 [Barovian witch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/barovian-witch-cos.md) (see appendix D) |
@@ -97,8 +98,6 @@ A Blinsky toy is encountered only if the characters are moving about the castle 
 ^17b
 
 The toy has a slogan stitched or printed on it in tiny letters: "Is No Fun, Is No Blinsky!" Roll a `d6` to determine the specific toy:
-
-`dice: [](06-chapter-4-castle-ravenloft.md#^toy)`
 
 | dice: d6 | Toy |
 |----------|-----|
@@ -174,8 +173,6 @@ A giant spider cocoon is encountered only if the characters are moving about the
 
 A giant spider made this cocoon. Characters who can reach it can cut it open to free whatever is inside. Roll a `d6` to determine the cocoon's contents:
 
-`dice: [](06-chapter-4-castle-ravenloft.md#^cocoons-contents)`
-
 | dice: d6 | Cocoon's Contents |
 |----------|-------------------|
 | 1 | A wooden mannequin wearing a gown. |
@@ -196,8 +193,6 @@ If [Rahadin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rahadin-cos.md) wa
 ^18a
 
 [Rahadin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rahadin-cos.md) directs the characters to a random location in the castle, determined by rolling a `d6`:
-
-`dice: [](06-chapter-4-castle-ravenloft.md#^location)`
 
 | dice: d6 | Location |
 |----------|----------|
@@ -264,15 +259,13 @@ To determine what the character finds, roll on the [Trinkets table](03.PlayerLog
 
 This unseen servant was created by Strahd and is permanent until destroyed (see the [unseen servant](03.PlayerLog&Handouts/Mechanics/CLI/spells/unseen-servant.md) spell in the "Player's Handbook"). Roll a `d6` to determine what the servant is carrying, or choose one of the options below.
 
-`dice: [](06-chapter-4-castle-ravenloft.md#^items)`
-
 | dice: d6 | Items |
 |----------|-------|
 | 1 | A tarnished silver platter with a lid (worth 25 gp). If a character comes within 5 feet of the servant, it lifts the lid, revealing a bunch of moldy scones. The first character to eat a scone gains inspiration. On later occurrences of this encounter, the platter holds a [crawling claw](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/crawling-claw.md) that attacks the nearest character. |
 | 2 | A silver goblet (worth 50 gp) filled to the brim with wine. A character who drinks the wine must make a DC 15 Constitution saving throw, taking 44 (`8d10`) poison damage on a failed save, or half as much damage on a successful one. On future occurrences of this encounter, the wine acts as a [potion of healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-healing.md). |
 | 3 | A gold candelabrum (worth 150 gp) with three branches, each one holding an unlit candle. |
 | 4 | A purple silk handkerchief with white ruffled edges (worth 1 gp). On future occurrences of this encounter, the handkerchief is smeared with fresh blood. |
-| 5 | A crystal dinner bell (worth 25 gp). The unseen servant rings the bell if the characters come within 10 feet of it. The sound attracts `d4` hungry [vampire spawn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampire-spawn.md) (see below), which arrive in `1d4 + 1` rounds. |
+| 5 | A crystal dinner bell (worth 25 gp). The unseen servant rings the bell if the characters come within 10 feet of it. The sound attracts `1d4` hungry [vampire spawn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampire-spawn.md) (see below), which arrive in `1d4 + 1` rounds. |
 | 6 | A wizard's spellbook with a black velvet dust jacket over its stitched leather cover. The book contains all the spells Strahd has prepared (see appendix D). On subsequent occurrences of this encounter, the tome is a nonmagical leather-bound storybook worth 25 gp. |
 ^items
 
@@ -823,15 +816,13 @@ The figure is [Lief Lipsiege](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/l
 
 ![Lief Lipsiege](03.PlayerLog&Handouts/Mechanics/CLI/adventures/curse-of-strahd/img/029-cos04-07.webp#center)
 
-Pulling the rope requires an action. When the rope is pulled, a tremendously loud gong sounds. One or more creatures arrive `d6` rounds later, attacking any characters still in the room. Determine the creatures randomly by rolling a `d4`:
-
-`dice: [](06-chapter-4-castle-ravenloft.md#^creature)`
+Pulling the rope requires an action. When the rope is pulled, a tremendously loud gong sounds. One or more creatures arrive `1d6` rounds later, attacking any characters still in the room. Determine the creatures randomly by rolling a `d4`:
 
 | dice: d4 | Creature |
 |----------|----------|
-| 1 | `d6` [shadows](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/shadow.md) |
-| 2 | `d4` [vampire spawn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampire-spawn.md) |
-| 3 | `d4` [wights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wight.md) |
+| 1 | `1d6` [shadows](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/shadow.md) |
+| 2 | `1d4` [vampire spawn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampire-spawn.md) |
+| 3 | `1d4` [wights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wight.md) |
 | 4 | 1 [wraith](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wraith.md) and `1d4 + 1` [specters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md) |
 ^creature
 
@@ -1005,7 +996,7 @@ This chamber has several exits, including a large set of double doors in the wes
 
 The painting above the fireplace depicts Tatyana, a beautiful young woman with auburn hair. Strahd commissioned the painting over four centuries ago to impress his beloved. The fact that [Ireena Kolyana](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ireena-kolyana-cos.md) looks exactly like Tatyana is proof to Strahd that both women were born with the same soul.
 
-The back wall of the fireplace contains a secret door, which is opened by lifting the poker from its stand. The fire must be extinguished in order for anyone to reach the secret door safely. Otherwise, a creature that enters the fireplace for the first time on a turn or starts its turn there takes 5 (`d10`) fire damage and catches fire. Until someone takes an action to douse the flames on the creature, it takes 5 (`d10`) fire damage at the start of each of its turns. (This fire damage is cumulative with the damage from standing in the fireplace.)
+The back wall of the fireplace contains a secret door, which is opened by lifting the poker from its stand. The fire must be extinguished in order for anyone to reach the secret door safely. Otherwise, a creature that enters the fireplace for the first time on a turn or starts its turn there takes 5 (`1d10`) fire damage and catches fire. Until someone takes an action to douse the flames on the creature, it takes 5 (`1d10`) fire damage at the start of each of its turns. (This fire damage is cumulative with the damage from standing in the fireplace.)
 
 The secret door provides access to area K38.
 
@@ -1016,8 +1007,6 @@ The real treasure here is Strahd's collection of books—over one thousand uniqu
 Roll a `d12` and consult the following table to determine the subject matter of a randomly chosen book.
 
 ![Tatyana](03.PlayerLog&Handouts/Mechanics/CLI/adventures/curse-of-strahd/img/031-cos04-09.webp#center)
-
-`dice: [](06-chapter-4-castle-ravenloft.md#^book)`
 
 | dice: d12 | Book |
 |-----------|------|
@@ -1210,8 +1199,8 @@ Refer to maps 6 through 10 of Castle Ravenloft for areas K47 through K60.
 > ![Player Version](03.PlayerLog&Handouts/Mechanics/CLI/adventures/curse-of-strahd/img/033-009-player.webp#gallery)
 
 > [!gallery]
-> ![Spires and Tower of Ravenl...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/curse-of-strahd/img/map-4-06-spires12.webp#gallery "Spires and Tower of Ravenloft (Battlemap; DM Version)")
-> ![Spires and Tower of Ravenl...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/curse-of-strahd/img/map-4-06-spires12-player.webp#gallery "Spires and Tower of Ravenloft (Battlemap; Player Version)")
+> ![Spires and Tower of Ravenloft (Battlemap; DM Version)](03.PlayerLog&Handouts/Mechanics/CLI/adventures/curse-of-strahd/img/map-4-06-spires12.webp#gallery)
+> ![Spires and Tower of Ravenloft (Battlemap; Player Version)](03.PlayerLog&Handouts/Mechanics/CLI/adventures/curse-of-strahd/img/map-4-06-spires12-player.webp#gallery)
 
 ### K47. Portrait of Strahd
 
@@ -1269,7 +1258,7 @@ On the third finger of his left hand, [Escher](03.PlayerLog&Handouts/Mechanics/C
 > A large bed sits in the center of this room, its four corner posts supporting a black canopy trimmed with gold tassels. Several comfortable divans are placed about the room. There is a banded door in the west wall and a smaller unbanded door in the east wall.
 ^22d
 
-There is no danger in this area during the day. But if the characters try to take a short rest here during the night, the rest is interrupted by the arrival of `d4` [Barovian witches](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/barovian-witch-cos.md) from area K56. They try to subdue the party with [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md) spells. A witch retreats to area K56 if wounded.
+There is no danger in this area during the day. But if the characters try to take a short rest here during the night, the rest is interrupted by the arrival of `1d4` [Barovian witches](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/barovian-witch-cos.md) from area K56. They try to subdue the party with [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md) spells. A witch retreats to area K56 if wounded.
 
 ### K51. Closet
 
@@ -1289,7 +1278,7 @@ The trapdoor can be found after a search of the room and a successful DC 13 Wisd
 > Jutting from the steeply sloping rooftop of the castle, a spindly smokestack, five feet in diameter at the top, rises thirty feet above the roof's peak. Smoke belches from its iron-pronged capstone.
 ^231
 
-The chimney leads down 60 feet to the blazing fireplace in area K37. A creature that starts its turn in the chimney takes 3 (`d6`) fire damage.
+The chimney leads down 60 feet to the blazing fireplace in area K37. A creature that starts its turn in the chimney takes 3 (`1d6`) fire damage.
 
 ### K53. Rooftop
 
@@ -1363,7 +1352,7 @@ Captured witches will trade information in exchange for their lives and freedom,
 
 Each witch carries a [potion of healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-healing.md) that she made herself. There is a 30 percent chance that a potion has "gone bad," in which case it's actually a [potion of poison](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-poison.md).
 
-Not visible from the entrance is a small table behind the cauldron on which sits an opened spellbook, seemingly on the verge of falling apart. The book is evil. Any non-evil creature that touches it or starts its turn with the book in its possession takes 5 (`d10`) psychic damage. The book contains the following spells:
+Not visible from the entrance is a small table behind the cauldron on which sits an opened spellbook, seemingly on the verge of falling apart. The book is evil. Any non-evil creature that touches it or starts its turn with the book in its possession takes 5 (`1d10`) psychic damage. The book contains the following spells:
 
 > [!note] 
 > 
@@ -1423,7 +1412,7 @@ If the characters see [Pidlwick II](03.PlayerLog&Handouts/Mechanics/CLI/bestiary
 
 If the characters show kindness to the clockwork effigy, it accompanies them and tries its best to be helpful and entertaining. It knows its way around the castle and can serve as a silent guide.
 
-If one or more characters are mean toward [Pidlwick II](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/pidlwick-ii-cos.md), its quiet resentment of them grows, and at some point when the group is at the top of a staircase, it pushes one of the offending party members down the stairs. The target must succeed on a DC 10 Dexterity saving throw or tumble to the bottom of the staircase, taking `d6` bludgeoning damage per 10 feet fallen.
+If one or more characters are mean toward [Pidlwick II](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/pidlwick-ii-cos.md), its quiet resentment of them grows, and at some point when the group is at the top of a staircase, it pushes one of the offending party members down the stairs. The target must succeed on a DC 10 Dexterity saving throw or tumble to the bottom of the staircase, taking `1d6` bludgeoning damage per 10 feet fallen.
 
 ### K60. North Tower Peak
 
@@ -1472,7 +1461,7 @@ The courtyard lies 260 feet below, and the roof of the keep is 130 feet below.
 Refer to map 11 of the castle for areas K61 through K72.
 
 > [!gallery]
-> ![Map 11: Larders of Ill Ome...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/curse-of-strahd/img/038-011.webp#gallery "Map 11: Larders of Ill Omen & Map 12: Dungeon and Catacombs")
+> ![Map 11: Larders of Ill Omen & Map 12: Dungeon and Catacombs](03.PlayerLog&Handouts/Mechanics/CLI/adventures/curse-of-strahd/img/038-011.webp#gallery)
 > ![Player Version](03.PlayerLog&Handouts/Mechanics/CLI/adventures/curse-of-strahd/img/038-011-player.webp#gallery)
 
 > [!gallery]
@@ -2463,7 +2452,7 @@ Three [giant wolf spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/gi
 > A skeleton draped in white linen lies atop a marble slab in the center of the crypt, clutching a bell to its sunken chest. Fitted over its skull is a tall chef's hat.
 ^2f3
 
-If the bell is rung inside the crypt, magic fire sweeps through the crypt to scorch Chef Ofenheiss's bones. A creature in the crypt must make a DC 17 Dexterity saving throw, taking 22 (`4d10`) fire damage on a failed save, or half damage on a successful one. Any creature that fails its save catches fire, taking 5 (`d10`) fire damage at the end of each of its turns until it or another creature uses an action to douse the flames.
+If the bell is rung inside the crypt, magic fire sweeps through the crypt to scorch Chef Ofenheiss's bones. A creature in the crypt must make a DC 17 Dexterity saving throw, taking 22 (`4d10`) fire damage on a failed save, or half damage on a successful one. Any creature that fails its save catches fire, taking 5 (`1d10`) fire damage at the end of each of its turns until it or another creature uses an action to douse the flames.
 
 ##### Treasure
 
@@ -2636,7 +2625,7 @@ If your card reading reveals that a treasure is here, it is in a secret compartm
 
 #### Crypt 39
 
-*Beucephalus, the Wonder Horse: May the flowers grow ever brighter where he trods*
+*Beucephalus, the Wonder Horse: May the flowers grow ever brighter where he trod*
 
 The door to this crypt is larger than all the others, 6 feet wide by 8 feet tall. Removing or resetting the slab requires a successful DC 20 Strength check. When the door is opened, read:
 

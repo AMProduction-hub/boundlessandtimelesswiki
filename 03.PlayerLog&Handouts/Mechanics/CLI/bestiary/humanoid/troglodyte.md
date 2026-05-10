@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Troglodyte
+- "Troglodyte"
 ---
-# [Troglodyte](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/troglodyte.md)
-*Source: Monster Manual p. 290, Princes of the Apocalypse, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Hunt for the Thessalhydra*  
+# [Troglodyte](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/troglodyte.md)
+*Source: Monster Manual p. 290*  
 
 The savage, degenerate troglodytes squat in the shallow depths of the Underdark in a constant state of war against their neighbors and one another. They mark the borders of their territories with cracked bones and skulls, or with pictographs painted in blood or dung.
 
@@ -56,7 +57,8 @@ Some troglodytes venerate Laogzed, a demonic, monstrously fat toad-lizard that s
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Troglodyte"
 "cr": "1/4"
 "traits":
@@ -77,19 +79,14 @@ Some troglodytes venerate Laogzed, a demonic, monstrously fat toad-lizard that s
   - "desc": "The troglodyte makes three attacks: one with its bite and two with its\
       \ claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) slashing damage."
     "name": "Claw"
 "source":
   - "MM"
-  - "PotA"
-  - "TftYP"
-  - "WDH"
-  - "WDMM"
-  - "HftT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/troglodyte.webp"
 ```
 ^statblock

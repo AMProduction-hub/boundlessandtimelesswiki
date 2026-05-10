@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kraul Warrior
+- "Kraul Warrior"
 ---
-# [Kraul Warrior](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/kraul-warrior-ggr.md)
+# [Kraul Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kraul-warrior-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 213*  
 
 Kraul society is organized into well-defined roles and castes. The vast majority of the kraul occupy various tiers of soldiery, from commanders and elite troops down to the lowliest infantry.
@@ -39,7 +40,10 @@ The kraul are an ascendant power group within the Golgari Swarm, long content to
   - !!int "11"
   - !!int "8"
 "speed": "30 ft., climb 30 ft."
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Kraul, understands Common but can't speak it"
 "cr": "1/2"
 "traits":
@@ -55,8 +59,8 @@ The kraul are an ascendant power group within the Golgari Swarm, long content to
       \ without needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Spear"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/10
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Autumn Eladrin
+- "Autumn Eladrin"
 ---
-# [Autumn Eladrin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/autumn-eladrin-mpmm.md)
+# [Autumn Eladrin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/autumn-eladrin-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 115, Mordenkainen's Tome of Foes p. 195*  
 
 Eladrin often enter the autumn season when they are overcome by feelings of goodwill. In this aspect, they defuse conflicts and alleviate suffering by using their magic to relieve any ailments that afflict the people who come to them for aid. They tolerate no violence in their presence and move quickly to settle disputes, to ensure that peace continues to reign.
@@ -60,7 +61,11 @@ Whenever one of the eladrin presented here finishes a long rest, they can associ
   - "name": "[Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)"
     "desc": "+7"
 "damage_resistances": "psychic"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Elvish, Sylvan"
 "cr": "10"
 "traits":
@@ -80,19 +85,19 @@ Whenever one of the eladrin presented here finishes a long rest, they can associ
   - "desc": "The eladrin makes two Longsword or Longbow attacks. It can replace one\
       \ attack with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with\
       \ two hands, plus 22 (5d8) psychic damage."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +7 to hit, range 150/600 ft., one target. *Hit:*\
       \ 7 (1d8 + 3) piercing damage plus 22 (5d8) psychic damage."
     "name": "Longbow"
   - "desc": "The eladrin casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 16):\n\
-      \nAt will: [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md)\n\
-      \n2/day each: [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md)\
+      \n**At will:** [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md)\n\
+      \n**2/day each:** [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md)\
       \ (as a 5th-level spell), [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md)\n\
-      \n1/day each: [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md),\
+      \n**1/day each:** [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md),\
       \ [revivify](03.PlayerLog&Handouts/Mechanics/CLI/spells/revivify.md)"
     "name": "Spellcasting"
 "bonus_actions":

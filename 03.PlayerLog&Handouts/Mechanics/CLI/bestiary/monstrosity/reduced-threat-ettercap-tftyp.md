@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reduced-Threat Ettercap
+- "Reduced-Threat Ettercap"
 ---
-# [Reduced-Threat Ettercap](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/reduced-threat-ettercap-tftyp.md)
+# [Reduced-Threat Ettercap](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/reduced-threat-ettercap-tftyp.md)
 *Source: Tales from the Yawning Portal p. 113*  
 
 ```statblock
@@ -39,7 +40,8 @@ aliases:
     "desc": "+2"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+1"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": ""
 "cr": "2"
 "traits":
@@ -59,17 +61,17 @@ aliases:
 "actions":
   - "desc": "The ettercap makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit:\
-      \ 6 (1d8 + 2) piercing damage plus 4 (d8) poison damage. The target must\
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one creature. *Hit:*\
+      \ 6 (1d8 + 2) piercing damage plus 4 (1d8) poison damage. The target must\
       \ succeed on a DC 9 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. The creature can repeat the saving throw at the end of each\
       \ of its turns, ending the effect on itself on a success."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) slashing damage."
     "name": "Claws"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 30/60 ft., one Large or smaller\
-      \ creature. Hit: The creature is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 30/60 ft., one Large or smaller\
+      \ creature. *Hit:* The creature is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ by webbing. As an action, the [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ creature can make a DC 9 Strength check, escaping from the webbing on a success.\
       \ The effect ends if the webbing is destroyed. The webbing has AC 10, 5 hit\

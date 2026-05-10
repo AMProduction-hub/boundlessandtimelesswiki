@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/class/paladin
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Paladin
+- "Paladin"
 ---
 # Paladin
 *Source: Player's Handbook p. 82. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
@@ -130,8 +131,6 @@ If your paladin character has a personal goal, it might be drawn from some life 
 
 **Personal Goal**
 
-`dice: [](paladin.md#^personal-goal)`
-
 | dice: d6 | Personal Goal |
 |----------|---------------|
 | 1 | Peace. You fight so that future generations will not have to. |
@@ -150,8 +149,6 @@ Paladins are mindful of the influence of symbols, and many of them adopt or desi
 Your symbol might be displayed on a banner, a flag, or your clothing for all to see. Or it could be less obvious, such as a trinket or a token that you carry concealed on your person.
 
 **Symbol**
-
-`dice: [](paladin.md#^symbol)`
 
 | dice: d6 | Symbol |
 |----------|--------|
@@ -172,8 +169,6 @@ Your paladin character might have an enemy that dates from the days before you t
 
 **Nemesis**
 
-`dice: [](paladin.md#^nemesis)`
-
 | dice: d6 | Nemesis |
 |----------|---------|
 | 1 | A mighty orc war chief who threatens to overrun and destroy everything you hold sacred |
@@ -192,8 +187,6 @@ Although paladins are dedicated to their oaths, they are mortals, and thus they 
 What is the temptation that your character succumbs to or finds it difficult to resist?
 
 **Temptation**
-
-`dice: [](paladin.md#^temptation)`
 
 | dice: d6 | Temptation |
 |----------|------------|
@@ -225,24 +218,27 @@ This feature has no effect on undead and constructs.
 
 ### Divine Smite (Level 2)
 
-Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is `2d8` for a 1st-level spell slot, plus `d8` for each spell level higher than 1st, to a maximum of `5d8`. The damage increases by `d8` if the target is an undead or a fiend, to a maximum of `6d8`.
+Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is `2d8` for a 1st-level spell slot, plus `1d8` for each spell level higher than 1st, to a maximum of `5d8`. The damage increases by `1d8` if the target is an undead or a fiend, to a maximum of `6d8`.
 
 ### Fighting Style (Level 2)
 
 At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.
 
+Options (choose 1):
+
 - [Defense](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/defense.md)  
 - [Dueling](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/dueling.md)  
 - [Great Weapon Fighting](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/great-weapon-fighting.md)  
 - [Protection](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/protection.md)  
+- [Blessed Warrior](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/blessed-warrior-tce.md)  
+- [Blind Fighting](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/blind-fighting-tce.md)  
+- [Interception](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/interception-tce.md)  
 
 ### Spellcasting (Level 2)
 
 By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does. See "chapter 10" for the general rules of spellcasting and "chapter 11" for the paladin spell list.
 
-#### Preparing and Casting Spells
-
-The Paladin table shows how many spell slots you have to cast your paladin spells. To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+**Preparing and Casting Spells.** The Paladin table shows how many spell slots you have to cast your paladin spells. To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
 You prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier + half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.
 
@@ -250,17 +246,13 @@ For example, if you are a 5th-level paladin, you have four 1st-level and two 2nd
 
 You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
 
-#### Spellcasting Ability
-
-Charisma is your spellcasting ability for your paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one.
+**Spellcasting Ability.** Charisma is your spellcasting ability for your paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one.
 
 <span class='abilityDc'>**Spell save DC**: your proficiency bonus + your Charisma</span>
 
 <span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Charisma</span>
 
-#### Spellcasting Focus
-
-You can use a [holy symbol](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-symbol.md) as a spellcasting focus for your paladin spells.
+**Spellcasting Focus.** You can use a [holy symbol](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-symbol.md) as a spellcasting focus for your paladin spells.
 
 ### Divine Health (Level 3)
 
@@ -272,9 +264,7 @@ When you reach 3rd level, you swear the oath that binds you as a paladin forever
 
 Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature.
 
-#### Oath Spells
-
-Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.
+**Oath Spells.** Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.
 
 If you gain an oath spell that doesn't appear on the paladin spell list, the spell is nonetheless a paladin spell for you.
 
@@ -343,7 +333,7 @@ At 18th level, the range of this aura increases to 30 feet.
 
 ### Improved Divine Smite (Level 11)
 
-By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra `d8` radiant damage.
+By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra `1d8` radiant damage.
 
 ### Ability Score Improvement (Level 12)
 

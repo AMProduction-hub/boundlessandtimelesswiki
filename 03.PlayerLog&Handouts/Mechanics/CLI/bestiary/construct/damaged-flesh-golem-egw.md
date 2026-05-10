@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Damaged Flesh Golem
+- "Damaged Flesh Golem"
 ---
-# [Damaged Flesh Golem](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/damaged-flesh-golem-egw.md)
+# [Damaged Flesh Golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/damaged-flesh-golem-egw.md)
 *Source: Explorer's Guide to Wildemount p. 248*  
 
 ```statblock
@@ -39,7 +40,8 @@ aliases:
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "1"
 "traits":
@@ -69,7 +71,7 @@ aliases:
   - "desc": "The golem's weapon attacks are magical."
     "name": "Magic Weapons"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) bludgeoning damage."
     "name": "Slam"
 "source":

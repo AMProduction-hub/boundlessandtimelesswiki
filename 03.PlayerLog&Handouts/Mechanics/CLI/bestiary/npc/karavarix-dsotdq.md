@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/14
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Karavarix
+- "Karavarix"
 ---
-# [Karavarix](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/karavarix-dsotdq.md)
+# [Karavarix](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/karavarix-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 183*  
 
 ```statblock
@@ -33,8 +34,8 @@ aliases:
   - !!int "10"
 "speed": "40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+7"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
@@ -44,7 +45,9 @@ aliases:
 "damage_immunities": "necrotic, poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 17"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 17"
 "languages": "Common, Draconic"
 "cr": "14"
 "traits":
@@ -55,13 +58,13 @@ aliases:
 "actions":
   - "desc": "Karavarix makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
-      \ 17 (2d10 + 6) piercing damage plus 4 (d8) necrotic damage. If the target\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
+      \ 17 (2d10 + 6) piercing damage plus 4 (1d8) necrotic damage. If the target\
       \ is a Large or smaller creature, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 19). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and Karavarix can't bite a different target."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft. one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft. one target. *Hit:* 10\
       \ (1d8 + 6) slashing damage."
     "name": "Claw"
   - "desc": "Karavarix exhales a wave of ghostly purple flames in a 60-foot cone.\
@@ -74,13 +77,16 @@ aliases:
       \ initiative but immediately after Karavarix's turn. Absent any other command,\
       \ the zombie tries to kill any non-Undead creature it encounters."
     "name": "Cataclysmic Breath (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Karavarix can expend a use to take one of the following actions. Karavarix\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Karavarix makes one Claw attack."
     "name": "Claw"
   - "desc": "Karavarix moves up to half its flying speed without provoking opportunity\
       \ attacks, carrying with it any creatures it is grappling. During this move,\
       \ if it enters the space of a Medium or smaller creature, that creature takes\
-      \ 4 (d8) necrotic damage. A creature can take this damage only once per turn."
+      \ 4 (1d8) necrotic damage. A creature can take this damage only once per turn."
     "name": "Cataclysmic Rush (Costs 2 Actions)"
 "source":
   - "DSotDQ"

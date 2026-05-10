@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/race/half-elf/mark-of-detection
 aliases:
-- Half-Elf (Mark of Detection)
+- "Half-Elf (Mark of Detection)"
 ---
 # Half-Elf (Mark of Detection)
 *Source: Eberron: Rising from the Last War p. 40*  
 
 
-- **Ability Scores**: Wisdom +2; Apply +1 to one of Strength, Dexterity, Constitution, Intelligence, or Charisma.
+- **Ability Scores**: Apply +1 to one of Strength, Dexterity, Constitution, Intelligence, or Charisma.
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Intelligence

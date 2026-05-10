@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/race/tiefling/mammon
 aliases:
-- Tiefling (Mammon)
+- "Tiefling (Mammon)"
 ---
 # Tiefling (Mammon)
 *Source: Mordenkainen's Tome of Foes p. 22*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/tiefling.webp#right)
 
-- **Ability Scores**: Charisma +2; Intelligence +1
+- **Ability Scores**: cha +2 int +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Charisma

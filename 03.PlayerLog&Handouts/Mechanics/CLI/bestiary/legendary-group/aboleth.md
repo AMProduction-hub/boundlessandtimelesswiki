@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/legendary-group
 aliases:
-- Aboleth
+- "Aboleth"
 ---
 # Aboleth
 
-## Lair actions
+## Lair Actions
 _Source: Monster Manual_
 
 When fighting inside its lair, an aboleth can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the aboleth takes a lair action to cause one of the following effects:
@@ -18,7 +19,7 @@ When fighting inside its lair, an aboleth can invoke the ambient magic to take l
 - Pools of water within 90 feet of the aboleth surge outward in a grasping tide. Any creature on the ground within 20 feet of such a pool must succeed on a DC 14 Strength saving throw or be pulled up to 20 feet into the water and knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). The aboleth can't use this lair action again until it has used a different one.  
 - Water in the aboleth's lair magically becomes a conduit for the creature's rage. The aboleth can target any number of creatures it can see in such water within 90 feet of it. A target must succeed on a DC 14 Wisdom saving throw or take 7 (`2d6`) psychic damage. The aboleth can't use this lair action again until it has used a different one.  
 
-## Regional effects
+## Regional Effects
 _Source: Monster Manual_
 
 The region containing an aboleth's lair is warped by the creature's presence, which creates one or more of the following effects:

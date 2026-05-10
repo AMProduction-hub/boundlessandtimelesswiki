@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Lethal Leverage
+- "Lethal Leverage"
 ---
 # Lethal Leverage
 *Source: Van Richten's Guide to Ravenloft p. 82* 
 
 **Lethal Leverage**
-
-`dice: [](lethal-leverage-vrgr.md#^lethal-leverage)`
 
 | dice: d6 | Leverage |
 |----------|----------|

@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/deity/exandria
 - ttrpg-cli/domain/life
 - ttrpg-cli/domain/light
-aliases: 
-- Xalicas
+aliases:
+- "Xalicas"
 ---
 # Xalicas
 *Source: Explorer's Guide to Wildemount p. 33* 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tiefling Acrobat
+- "Tiefling Acrobat"
 ---
-# [Tiefling Acrobat](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/tiefling-acrobat-kftgv.md)
+# [Tiefling Acrobat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tiefling-acrobat-kftgv.md)
 *Source: Keys from the Golden Vault p. 37*  
 
 ```statblock
@@ -37,12 +38,14 @@ aliases:
     "desc": "+4"
   - "name": "[Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance)"
     "desc": "+4"
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "0"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) bludgeoning damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d4) bludgeoning damage."
     "name": "Club"
 "source":
   - "KftGV"

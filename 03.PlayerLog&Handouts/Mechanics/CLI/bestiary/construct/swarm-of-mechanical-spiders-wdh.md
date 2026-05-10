@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Swarm of Mechanical Spiders
+- "Swarm of Mechanical Spiders"
 ---
-# [Swarm of Mechanical Spiders](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/swarm-of-mechanical-spiders-wdh.md)
+# [Swarm of Mechanical Spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/swarm-of-mechanical-spiders-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 143*  
 
 A swarm of tiny constructed spiders which attack anyone messing with Jarlaxle's chest aboard the Scarlet Marpenoth
@@ -43,7 +44,8 @@ A swarm of tiny constructed spiders which attack anyone messing with Jarlaxle's 
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned), [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 10 ft., passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., passive Perception 8"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -62,8 +64,8 @@ A swarm of tiny constructed spiders which attack anyone messing with Jarlaxle's 
   - "desc": "The swarm ignores movement restrictions caused by webbing."
     "name": "Web Walker"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's\
-      \ space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 0 ft., one target in the swarm's\
+      \ space. *Hit:* 10 (4d4) piercing damage, or 5 (2d4) piercing damage if\
       \ the swarm has half of its hit points or fewer."
     "name": "Bites"
 "source":

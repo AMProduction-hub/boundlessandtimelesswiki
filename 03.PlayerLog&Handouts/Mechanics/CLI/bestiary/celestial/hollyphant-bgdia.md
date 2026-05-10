@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hollyphant
+- "Hollyphant"
 ---
-# [Hollyphant](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/hollyphant-bgdia.md)
+# [Hollyphant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/hollyphant-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 237*  
 
 Hollyphants are gentle, stalwart creatures native to the Upper Planes. Good-aligned deities and angels use them as messengers and helpers. Hollyphants treasure friendship and honesty.
@@ -37,9 +38,9 @@ A hollyphant looks like a miniature elephant with luminous gold fur and small, r
   - !!int "16"
 "speed": "20 ft., fly 120 ft."
 "saves":
-  - "dexterity": "+3"
-  - "constitution": "+4"
-  - "charisma": "+6"
+  - "dexterity": !!int "3"
+  - "constitution": !!int "4"
+  - "charisma": !!int "6"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
@@ -49,11 +50,11 @@ A hollyphant looks like a miniature elephant with luminous gold fur and small, r
 "traits":
   - "desc": "The hollyphant's innate spellcasting ability is Wisdom (spell save DC\
       \ 15). It can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md)\n\
-      \n2/day each: [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md),\
+      \n**At will:** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md)\n\
+      \n**2/day each:** [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md),\
       \ [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [protection from evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md)\n\
-      \n1/day each: [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \n**1/day each:** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [heal](03.PlayerLog&Handouts/Mechanics/CLI/spells/heal.md), [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md),\
       \ [shapechange](03.PlayerLog&Handouts/Mechanics/CLI/spells/shapechange.md) (into\
       \ a golden-furred [mammoth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/mammoth.md)\
@@ -74,8 +75,8 @@ A hollyphant looks like a miniature elephant with luminous gold fur and small, r
   - "desc": "The hollyphant's weapon attacks are magical."
     "name": "Magic Weapons"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
-      \ (d6) piercing damage."
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
+      \ (1d6) piercing damage."
     "name": "Tusks"
   - "desc": "The hollyphant blows air through its trunk, creating a trumpet sound\
       \ that can be heard out to a range of 600 feet. The trumpet also creates a 30-foot\

@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/scc
 aliases:
-- Witherbloom Student
+- "Witherbloom Student"
 ---
 # Witherbloom Student
 *Source: Strixhaven: A Curriculum of Chaos p. 36*  
@@ -48,8 +49,6 @@ A number of rangers and barbarians study at Witherbloom as well, and some rogues
 Students of Witherbloom College are equally likely to be found picking herbs for a healing tincture or riding zombified swamp beasts through the bayou. The Witherbloom Personality Traits table suggests a variety of traits you might adopt for your character.
 
 **Witherbloom Personality Traits**
-
-`dice: [](witherbloom-student-scc.md#^witherbloom-personality-traits)`
 
 | dice: d6 | Personality Trait |
 |----------|-------------------|

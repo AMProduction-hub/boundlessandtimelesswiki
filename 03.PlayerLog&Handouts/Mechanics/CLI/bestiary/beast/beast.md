@@ -1,6 +1,8 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
+- json5e-index
 ---
 # Index of Beast
 
@@ -23,9 +25,9 @@ cssclasses: json5e-note
 - [Beast of the Land](./beast-of-the-land-tce.md)
 - [Beast of the Sea](./beast-of-the-sea-tce.md)
 - [Beast of the Sky](./beast-of-the-sky-tce.md)
+- [Bestial Spirit](./bestial-spirit-tce.md)
 - [Bestial Spirit (Air)](./bestial-spirit-air-tce.md)
 - [Bestial Spirit (Land)](./bestial-spirit-land-tce.md)
-- [Bestial Spirit](./bestial-spirit-tce.md)
 - [Bestial Spirit (Water)](./bestial-spirit-water-tce.md)
 - [Black Bear](./black-bear.md)
 - [Blood Hawk](./blood-hawk.md)
@@ -36,6 +38,7 @@ cssclasses: json5e-note
 - [Brown Bear](./brown-bear.md)
 - [Camel](./camel.md)
 - [Cat](./cat.md)
+- [Cat Skeleton](./cat-skeleton-cos.md)
 - [Cave Badger](./cave-badger-oota.md)
 - [Cave Bear](./cave-bear.md)
 - [Chimeric Baboon](./chimeric-baboon-idrotf.md)
@@ -90,13 +93,13 @@ cssclasses: json5e-note
 - [Giant Goat](./giant-goat.md)
 - [Giant Hyena](./giant-hyena.md)
 - [Giant Lightning Eel](./giant-lightning-eel-tftyp.md)
-- [Giant Lizard (Hold Breath and Spider Climb)](./giant-lizard-hold-breath-and-spider-climb.md)
 - [Giant Lizard](./giant-lizard.md)
+- [Giant Lizard (Hold Breath and Spider Climb)](./giant-lizard-hold-breath-and-spider-climb.md)
 - [Giant Octopus](./giant-octopus.md)
 - [Giant Owl](./giant-owl.md)
 - [Giant Poisonous Snake](./giant-poisonous-snake.md)
-- [Giant Rat (Diseased)](./giant-rat-diseased.md)
 - [Giant Rat](./giant-rat.md)
+- [Giant Rat (Diseased)](./giant-rat-diseased.md)
 - [Giant Raven](./giant-raven-skt.md)
 - [Giant Riding Lizard](./giant-riding-lizard-oota.md)
 - [Giant Rocktopus](./giant-rocktopus-oota.md)
@@ -125,8 +128,8 @@ cssclasses: json5e-note
 - [Hulking Crab](./hulking-crab-skt.md)
 - [Hunter Shark](./hunter-shark.md)
 - [Hyena](./hyena.md)
-- [Ice Spider Queen](./ice-spider-queen-skt.md)
 - [Ice Spider](./ice-spider-skt.md)
+- [Ice Spider Queen](./ice-spider-queen-skt.md)
 - [Jackal](./jackal.md)
 - [Jaculi](./jaculi-toa.md)
 - [Killer Whale](./killer-whale.md)
@@ -169,7 +172,6 @@ cssclasses: json5e-note
 - [Sheep](./sheep-skt.md)
 - [Sled Dog](./sled-dog-rot.md)
 - [Snow Leopard](./snow-leopard-tftyp.md)
-- [Space Guppy](./space-guppy-bam.md)
 - [Space Hamster](./space-hamster-wdmm.md)
 - [Sperm Whale](./sperm-whale-idrotf.md)
 - [Spider](./spider.md)
@@ -195,6 +197,7 @@ cssclasses: json5e-note
 - [Velociraptor](./velociraptor-mpmm.md)
 - [Vulture](./vulture.md)
 - [Walrus](./walrus-idrotf.md)
+- [Warhorse](./warhorse.md)
 - [Warhorse (Chain Mail Barding)](./warhorse-chain-mail-barding.md)
 - [Warhorse (Leather Barding)](./warhorse-leather-barding.md)
 - [Warhorse (Plate Barding)](./warhorse-plate-barding.md)
@@ -202,7 +205,6 @@ cssclasses: json5e-note
 - [Warhorse (Scale Mail Barding)](./warhorse-scale-mail-barding.md)
 - [Warhorse (Splint Barding)](./warhorse-splint-barding.md)
 - [Warhorse (Studded Leather Barding)](./warhorse-studded-leather-barding.md)
-- [Warhorse](./warhorse.md)
 - [Weasel](./weasel.md)
 - [Wild Dog](./wild-dog-toa.md)
 - [Wolf](./wolf.md)

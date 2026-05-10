@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hedrun Arnsfirth
+- "Hedrun Arnsfirth"
 ---
-# [Hedrun Arnsfirth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/hedrun-arnsfirth-tftyp.md)
+# [Hedrun Arnsfirth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hedrun-arnsfirth-tftyp.md)
 *Source: Tales from the Yawning Portal p. 160*  
 
 ```statblock
@@ -33,7 +34,7 @@ aliases:
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+3"
@@ -43,16 +44,17 @@ aliases:
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "the languages it knew in life"
 "cr": "3"
 "traits":
   - "desc": "Hedrun's innate spellcasting ability is Charisma (spell save DC 13).\
       \ It can innately cast the following spells, requiring no verbal or material\
-      \ components:\n\nAt will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ components:\n\n**At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)\n\n\
-      1/day each: [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md),\
+      **1/day each:** [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md)"
     "name": "Innate Spellcasting"
@@ -63,10 +65,10 @@ aliases:
 "actions":
   - "desc": "Hedrun attacks twice with Grave Bolt."
     "name": "Multiattack"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 120 ft., one target. *Hit:*\
       \ 7 (1d8 + 3) necrotic damage."
     "name": "Grave Bolt"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 9 (2d6 + 2) necrotic damage. The target must succeed on a DC 13 Constitution\
       \ saving throw or its hit point maximum is reduced by an amount equal to the\
       \ damage taken. This reduction lasts until the target finishes a long rest.\

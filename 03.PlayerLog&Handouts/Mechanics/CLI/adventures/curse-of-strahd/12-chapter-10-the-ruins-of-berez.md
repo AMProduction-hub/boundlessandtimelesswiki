@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 aliases:
-- Chapter 10: The Ruins of Berez
+- "Chapter 10: The Ruins of Berez"
 ---
 # Chapter 10: The Ruins of Berez
 *Source: Curse of Strahd, p. 161* 
@@ -36,7 +37,7 @@ The following boxed text assumes that the characters approach Berez from the nor
 
 The river ranges in depth but is never more than 10 feet deep. Muriel Vinshaw, a wereraven in human form, lurks amid the circle of standing stones (area U6) and is using a lantern to signal the heroes. In the village proper, fog prevents a creature from seeing any other creature or object more than 120 feet away.
 
-A few sections of dirt road have survived, and these places are not difficult terrain. The marsh, however, is difficult terrain. Whenever the characters take a short or long rest in the marsh, even if they barricade themselves in a ruined building, they are accosted by `d4` swarms of hungry flies (use the [swarm of insects (wasps)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-wasps.md) stat block in the "Monster Manual"). The swarms don't trouble characters in areas U3 or U5.
+A few sections of dirt road have survived, and these places are not difficult terrain. The marsh, however, is difficult terrain. Whenever the characters take a short or long rest in the marsh, even if they barricade themselves in a ruined building, they are accosted by `1d4` swarms of hungry flies (use the [swarm of insects (wasps)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-wasps.md) stat block in the "Monster Manual"). The swarms don't trouble characters in areas U3 or U5.
 
 ### Marsh Scarecrows
 

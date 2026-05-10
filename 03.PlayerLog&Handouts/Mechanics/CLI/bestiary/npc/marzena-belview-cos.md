@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Marzena Belview
+- "Marzena Belview"
 ---
-# [Marzena Belview](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/marzena-belview-cos.md)
+# [Marzena Belview](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/marzena-belview-cos.md)
 *Source: Curse of Strahd p. 150*  
 
 ```statblock
@@ -40,6 +41,8 @@ aliases:
     "desc": "+2"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 12"
 "languages": "Common"
 "cr": "1/4"
@@ -55,14 +58,14 @@ aliases:
   - "desc": "Marzena makes two attacks: one with its bite and one with its claw or\
       \ dagger."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d4 + 1) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d4 + 1) slashing damage."
     "name": "Claw"
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 3 (1d4 + 1) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 3 (1d4 + 1) piercing damage."
     "name": "Dagger"
 "source":
   - "CoS"

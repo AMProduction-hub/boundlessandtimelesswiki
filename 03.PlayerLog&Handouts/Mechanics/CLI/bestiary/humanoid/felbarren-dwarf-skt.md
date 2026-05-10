@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Felbarren Dwarf
+- "Felbarren Dwarf"
 ---
-# [Felbarren Dwarf](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/felbarren-dwarf-skt.md)
+# [Felbarren Dwarf](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/felbarren-dwarf-skt.md)
 *Source: Storm King's Thunder p. 79*  
 
 ```statblock
@@ -38,15 +39,18 @@ aliases:
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "any one language (usually Common), Dwarvish"
 "cr": "1/8"
 "traits":
   - "desc": "The felbarren dwarf"
     "name": "Dwarven Resilience"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Spear"
 "source":

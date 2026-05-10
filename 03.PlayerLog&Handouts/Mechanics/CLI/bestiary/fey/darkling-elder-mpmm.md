@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -13,9 +14,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Darkling Elder
+- "Darkling Elder"
 ---
-# [Darkling Elder](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/darkling-elder-mpmm.md)
+# [Darkling Elder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/darkling-elder-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 84, Volo's Guide to Monsters p. 134*  
 
 A wise and respected darkling can undergo a ritual to become an elder. Other elders mark the supplicant with glowing tattoos, channeling away some of the darkling's absorbed light. If the ritual succeeds, the darkling grows into a taller, elf-like form. The darkling perishes if the ritual fails.
@@ -51,7 +52,11 @@ Ancient legends speak of a seelie fey who betrayed the Summer Queen. In the Summ
     "desc": "+6"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 16"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "Elvish, Sylvan"
 "cr": "2"
 "traits":
@@ -66,7 +71,7 @@ Ancient legends speak of a seelie fey who betrayed the Summer Queen. In the Summ
 "actions":
   - "desc": "The darkling elder makes two Scimitar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage plus 7 (2d6) necrotic damage."
     "name": "Scimitar"
   - "desc": "The darkling elder casts [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\

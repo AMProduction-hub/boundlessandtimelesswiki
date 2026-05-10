@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dip
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Don-Jon Raskin
+- "Don-Jon Raskin"
 ---
-# [Don-Jon Raskin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/don-jon-raskin-dip.md)
+# [Don-Jon Raskin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/don-jon-raskin-dip.md)
 *Source: Dragon of Icespire Peak p. 56*  
 
 Adventurers who undertake the Mountain's Toe Quest meet Don-Jon Raskin, a fearless troubleshooter who has experienced more than his fair share of adventures.
@@ -35,13 +36,16 @@ Adventurers who undertake the Mountain's Toe Quest meet Don-Jon Raskin, a fearle
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+2"
-  - "constitution": "+3"
+  - "dexterity": !!int "2"
+  - "constitution": !!int "3"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+4"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+4"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+  - "[sling](03.PlayerLog&Handouts/Mechanics/CLI/items/sling.md)"
 "senses": "passive Perception 10"
 "languages": "Common, Dwarvish"
 "cr": "1/2"
@@ -54,11 +58,11 @@ Adventurers who undertake the Mountain's Toe Quest meet Don-Jon Raskin, a fearle
 "actions":
   - "desc": "Don-Jon makes three melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 2 (d4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +2 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 2 (1d4) piercing damage."
     "name": "Dagger"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 30/120 ft., one target. Hit:\
-      \ 2 (d4) bludgeoning damage."
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 30/120 ft., one target. *Hit:*\
+      \ 2 (1d4) bludgeoning damage."
     "name": "Sling"
 "source":
   - "DIP"

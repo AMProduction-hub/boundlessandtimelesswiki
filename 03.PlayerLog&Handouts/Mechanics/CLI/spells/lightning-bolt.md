@@ -1,29 +1,33 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/3rd-level
+- ttrpg-cli/spell/reward/charm-of-lightning-bolt
+- ttrpg-cli/spell/reward/charm-of-the-storm
+- ttrpg-cli/spell/reward/izzet-charm
 - ttrpg-cli/spell/school/evocation
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/armorer
-- ttrpg-cli/spell/subclass/circle-of-the-land
+- ttrpg-cli/spell/subclass/circle-of-the-land/mountain
 - ttrpg-cli/spell/subclass/eldritch-knight
 - ttrpg-cli/spell/subclass/the-fathomless
 classes:
 - Artificer (Armorer)
-- Bard
-- Druid (Circle of the Land)
+- Bard (Magical Secrets)
+- Druid (Circle of the Land, Mountain)
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
 - Sorcerer
 - Warlock (The Fathomless)
 - Wizard
 aliases:
-- Lightning Bolt
+- "Lightning Bolt"
 ---
 # Lightning Bolt
 *3rd-level, Evocation*  
@@ -38,8 +42,8 @@ A stroke of lightning forming a line 100 feet long and 5 feet wide blasts out fr
 
 The lightning ignites flammable objects in the area that aren't being worn or carried.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage increases by `d6` for each slot level above 3rd.
+**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage increases by `1d6` for each slot level above 3rd.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Artificer (Armorer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-armorer-tce.md "subclass=TCE;class=TCE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Warlock (The Fathomless)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-fathomless-tce.md "subclass=TCE"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
+**Classes**: [Artificer (Armorer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-armorer-tce.md "subclass=TCE;class=TCE"); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid (Circle of the Land, Mountain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock (The Fathomless)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-fathomless-tce.md "subclass=TCE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 255. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

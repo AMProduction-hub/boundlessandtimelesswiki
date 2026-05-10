@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/8
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mind Flayer Arcanist
+- "Mind Flayer Arcanist"
 ---
-# [Mind Flayer Arcanist](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/mind-flayer-arcanist.md)
-*Source: Monster Manual p. 222, Waterdeep: Dungeon of the Mad Mage*  
+# [Mind Flayer Arcanist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/mind-flayer-arcanist.md)
+*Source: Monster Manual p. 222*  
 
 A few mind flayers supplement their psionic power with arcane spells. However, they are regarded as deviants by their illithid peers and usually shunned.
 
@@ -63,9 +64,9 @@ An illithid experiences euphoria as it devours the brain of a humanoid, along wi
   - !!int "17"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+7"
-  - "wisdom": "+6"
-  - "charisma": "+6"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -79,36 +80,37 @@ An illithid experiences euphoria as it devours the brain of a humanoid, along wi
     "desc": "+6"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "Deep Speech, Undercommon, telepathy 120 ft."
 "cr": "8"
 "traits":
   - "desc": "The mind flayer is a 10th-level spellcaster. Its spellcasting ability\
       \ is Intelligence (save DC 15, +7 to hit with spell attacks). The mind flayer\
-      \ has the following wizard spells prepared:\n\nCantrips (at will): [blade\
+      \ has the following wizard spells prepared:\n\n**Cantrips (at will):** [blade\
       \ ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-ward.md), [dancing\
       \ lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md), [mage\
       \ hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [shocking\
-      \ grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\n1st\
-      \ level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\n**1st\
+      \ level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)\n\
-      \n2nd level (3 slots): [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md),\
+      \n**2nd level (3 slots):** [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [ray of enfeeblement](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-enfeeblement.md)\n\
-      \n3rd level (3 slots): [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
+      \n**3rd level (3 slots):** [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
       \ [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md),\
-      \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)\n\n4th\
-      \ level (3 slots): [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
+      \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)\n\n**4th\
+      \ level (3 slots):** [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
       \ [hallucinatory terrain](03.PlayerLog&Handouts/Mechanics/CLI/spells/hallucinatory-terrain.md)\n\
-      \n5th level (2 slots): [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md),\
+      \n**5th level (2 slots):** [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md),\
       \ [wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md)"
     "name": "Spellcasting"
   - "desc": "The mind flayer's innate spellcasting ability is Intelligence (spell\
       \ save DC 15). It can innately cast the following spells, requiring no components:\n\
-      \nAt will: [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
-      \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md)\n\n1/day\
-      \ each: [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
+      \n**At will:** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md)\n\n**1/day\
+      \ each:** [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md) (self\
       \ only)"
     "name": "Innate Spellcasting (Psionics)"
@@ -116,16 +118,16 @@ An illithid experiences euphoria as it devours the brain of a humanoid, along wi
       \ magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:*\
       \ 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it is\
       \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15) and must succeed on a DC 15 Intelligence saving throw or be\
       \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
       \ until this grapple ends."
     "name": "Tentacles"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
       \ humanoid [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-      \ by the mind flayer. Hit: The target takes 55 (10d10) piercing damage.\
+      \ by the mind flayer. *Hit:* The target takes 55 (10d10) piercing damage.\
       \ If this damage reduces the target to 0 hit points, the mind flayer kills the\
       \ target by extracting and devouring its brain."
     "name": "Extract Brain"
@@ -137,7 +139,6 @@ An illithid experiences euphoria as it devours the brain of a humanoid, along wi
     "name": "Mind Blast (Recharge 5-6)"
 "source":
   - "MM"
-  - "WDMM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/mind-flayer-arcanist.webp"
 ```
 ^statblock

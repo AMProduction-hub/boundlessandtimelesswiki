@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/artifact
 - ttrpg-cli/item/weapon/melee
 - ttrpg-cli/item/weapon/simple
-aliases: 
+aliases:
 - "Mace of the Black Crown (Exalted)"
 ---
 # Mace of the Black Crown (Exalted)
@@ -15,7 +16,6 @@ aliases:
 ![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/mace-of-the-black-crown.webp#right)
 
 - **Damage**: 1d6 bludgeoning
-- **Properties**: Vestige of Divergence
 - **Weight**: 4.0 lbs.
 
 This mace has a haft of black iron and a ruby head with a fiendish countenance. Carrying the boon of Asmodeus, it is fit for the most powerful servants of the Nine Hells.
@@ -36,7 +36,7 @@ The mace grants the following benefits in its dormant state:
 
 - You can speak, read, and write Infernal.  
 - You gain a +1 bonus to attack and damage rolls made with this magic weapon.  
-- While holding the mace, you can use a bonus action to speak its Infernal command word, causing flames to erupt from the head. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the mace is ablaze, it deals an extra `d6` fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you are no longer holding the mace.  
+- While holding the mace, you can use a bonus action to speak its Infernal command word, causing flames to erupt from the head. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the mace is ablaze, it deals an extra `1d6` fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you are no longer holding the mace.  
 - While holding the mace, you can use an action to summon an [imp](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/imp.md). Any devil you summon with this mace is friendly to you and your companions for the duration. The imp obeys any verbal commands that you issue to it and returns to the Nine Hells 10 minutes after you summoned it. This property can't be used again until the next dawn.  
 
 > [!note] Betrayer Artifact Properties

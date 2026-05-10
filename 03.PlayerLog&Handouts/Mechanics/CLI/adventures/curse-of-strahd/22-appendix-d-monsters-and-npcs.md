@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 aliases:
-- Appendix D: Monsters and NPCs
+- "Appendix D: Monsters and NPCs"
 ---
 # Appendix D: Monsters and NPCs
 *Source: Curse of Strahd, p. 225* 
@@ -555,8 +556,6 @@ Whenever Strahd appears in a location other than his tomb or the place indicated
 
 **Strahd's Minions**
 
-`dice: [](22-appendix-d-monsters-and-npcs.md#^strahds-minions)`
-
 | dice: d20 | Creatures |
 |-----------|-----------|
 | 1–3 | `1d4 + 2` [dire wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/dire-wolf.md) |
@@ -633,7 +632,7 @@ Were Vladimir to let go of his hatred, his spirit would find peace and could rem
 - His Armor Class is 17 (half plate).  
 - He has 192 hit points.  
 - He speaks Common and Draconic.  
-- Vladimir wields a [greatsword, +2](03.PlayerLog&Handouts/Mechanics/CLI/items/2-weapon.md) with a hilt sculpted to resemble silver dragon wings and a pommel shaped like a silver dragon's head clutching a black opal between its teeth. As an action, he can make two attacks with the sword (+9 to hit). It deals 20 (`4d6 + 6`) slashing damage on a hit. Against Strahd, Vladimir deals an extra 14 (`4d6`) slashing damage with the weapon.  
+- Vladimir wields a [greatsword, +2](03.PlayerLog&Handouts/Mechanics/CLI/items/2-weapon.md) with a hilt sculpted to resemble silver dragon wings and a pommel shaped like a silver dragon's head clutching a black opal between its teeth. As an action, he can make two attacks with the sword (`+9` to hit). It deals 20 (`4d6 + 6`) slashing damage on a hit. Against Strahd, Vladimir deals an extra 14 (`4d6`) slashing damage with the weapon.  
 - Vladimir has a challenge rating of 7 (2,900 XP).  
 
 ![](03.PlayerLog&Handouts/Mechanics/CLI/adventures/curse-of-strahd/img/154-cos19-11.webp#center)

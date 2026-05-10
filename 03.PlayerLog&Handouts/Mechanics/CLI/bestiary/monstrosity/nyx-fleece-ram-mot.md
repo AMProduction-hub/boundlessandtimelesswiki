@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nyx-Fleece Ram
+- "Nyx-Fleece Ram"
 ---
-# [Nyx-Fleece Ram](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/nyx-fleece-ram-mot.md)
+# [Nyx-Fleece Ram](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/nyx-fleece-ram-mot.md)
 *Source: Mythic Odysseys of Theros p. 233*  
 
 Touched by the gods, Nyx-fleece rams grow remarkable magical wool. This makes the beasts valuable to heroes and scoundrels alike, who would use their wool for either protection or profit. Divine servants guard the few herds of Nyx-fleece rams dwelling among Theros's loftiest peaks, assuring they don't fall into unworthy hands.
@@ -50,8 +51,8 @@ Touched by the gods, Nyx-fleece rams grow remarkable magical wool. This makes th
       \ effects that would knock it [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Sure-Footed"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
-      \ (2d4 + 3) bludgeoning damage plus 3 (d6) force damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
+      \ (2d4 + 3) bludgeoning damage plus 3 (1d6) force damage."
     "name": "Ram"
 "source":
   - "MOT"

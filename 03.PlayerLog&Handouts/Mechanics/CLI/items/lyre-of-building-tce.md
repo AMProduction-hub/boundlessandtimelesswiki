@@ -1,16 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/gear/instrument
 - ttrpg-cli/item/rarity/rare
-aliases: 
+aliases:
 - "Lyre of Building"
 ---
 # Lyre of Building
-*Wondrous item, instrument, rare (requires attunement by a bard)*  
+*Wondrous item, instrument ([lyre](03.PlayerLog&Handouts/Mechanics/CLI/items/lyre.md)), rare (requires attunement by a bard)*  
 
 
 - **Weight**: 2.0 lbs.

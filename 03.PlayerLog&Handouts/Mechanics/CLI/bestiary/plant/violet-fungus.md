@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Violet Fungus
+- "Violet Fungus"
 ---
-# [Violet Fungus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/violet-fungus.md)
-*Source: Monster Manual p. 138, Princes of the Apocalypse, Ghosts of Saltmarsh. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Violet Fungus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/violet-fungus.md)
+*Source: Monster Manual p. 138. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 This purplish mushroom uses root-like feelers growing from its base to creep across cavern floors. The four stalks protruding from a violet fungi's central mass are used to lash out at prey, rotting flesh with the slightest touch. Any creature killed by a violet fungus decomposes rapidly. A new violet fungus sprouts from the moldering corpse, growing to full size in `2d6` days.
 
@@ -45,7 +46,8 @@ Not needing sunlight or warmth to grow, fungi thrive in every corner and crevice
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 6"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft. (blind beyond this radius), passive Perception 6"
 "languages": ""
 "cr": "1/4"
 "traits":
@@ -53,15 +55,13 @@ Not needing sunlight or warmth to grow, fungi thrive in every corner and crevice
       \ an ordinary fungus."
     "name": "False Appearance"
 "actions":
-  - "desc": "The fungus makes d4 Rotting Touch attacks."
+  - "desc": "The fungus makes 1d4 Rotting Touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 10 ft., one creature. Hit:\
-      \ 4 (d8) necrotic damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 10 ft., one creature. *Hit:*\
+      \ 4 (1d8) necrotic damage."
     "name": "Rotting Touch"
 "source":
   - "MM"
-  - "PotA"
-  - "GoS"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/violet-fungus.webp"
 ```
 ^statblock

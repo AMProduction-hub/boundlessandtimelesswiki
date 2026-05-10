@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 aliases:
-- Chapter 3: The Village of Barovia
+- "Chapter 3: The Village of Barovia"
 ---
 # Chapter 3: The Village of Barovia
 *Source: Curse of Strahd, p. 41* 
@@ -38,8 +39,6 @@ If the characters explore a residence other than [Mad Mary](03.PlayerLog&Handout
 
 **Occupants of Houses in Barovia**
 
-`dice: [](05-chapter-3-the-village-of-barovia.md#^occupants-of-houses-in-barovia)`
-
 | dice: d20 | Occupants |
 |-----------|-----------|
 | 1–3 | None |
@@ -54,7 +53,7 @@ A house infested with rats looks abandoned. The rats are servants of Strahd and 
 
 #### Barovian Villagers
 
-A house of Barovian villagers is home to `d4` adults (male and female human [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) and `d8`−1 children (male and female noncombatants). Characters who listen at the door hear low, muffled whispers from within. These villagers aren't interested in speaking with strangers and never attack first, always fleeing from danger if possible. At night they cower by candlelight and keep makeshift holy symbols close at hand.
+A house of Barovian villagers is home to `1d4` adults (male and female human [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) and `1d8`−1 children (male and female noncombatants). Characters who listen at the door hear low, muffled whispers from within. These villagers aren't interested in speaking with strangers and never attack first, always fleeing from danger if possible. At night they cower by candlelight and keep makeshift holy symbols close at hand.
 
 #### Strahd Zombies
 

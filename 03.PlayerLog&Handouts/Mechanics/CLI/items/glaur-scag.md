@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/item/gear/instrument
 - ttrpg-cli/item/rarity/none
-aliases: 
+aliases:
 - "Glaur"
 ---
 # Glaur

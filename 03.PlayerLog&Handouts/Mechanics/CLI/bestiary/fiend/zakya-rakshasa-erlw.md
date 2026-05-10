@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Zakya Rakshasa
+- "Zakya Rakshasa"
 ---
-# [Zakya Rakshasa](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/zakya-rakshasa-erlw.md)
+# [Zakya Rakshasa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/zakya-rakshasa-erlw.md)
 *Source: Eberron: Rising from the Last War p. 309*  
 
 Millions of years before the rise of the humanoid races, the rakshasas of Eberron ruled a civilization that spanned Khorvaire. Masters of combat, the rakshasas of Eberron wield their weapons with demonic fury, rushing into battle seeking vengeance against those who bound their fiendish masters.
@@ -46,15 +47,19 @@ Zakya rakshasas are the bloodthirsty foot soldiers of the rakshasa horde. They a
     "desc": "+4"
 "damage_vulnerabilities": "piercing from magic weapons wielded by good creatures"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Common, Infernal"
 "cr": "5"
 "traits":
   - "desc": "The rakshasa's innate spellcasting ability is Charisma (spell save DC\
       \ 11). The rakshasa can innately cast the following spells, requiring no material\
-      \ components:\n\nAt will: [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \ components:\n\n**At will:** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md)\n\
-      \n1/day: [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)"
+      \n**1/day:** [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)"
     "name": "Innate Spellcasting"
   - "desc": "The rakshasa can't be affected or detected by spells of 1st level or\
       \ lower unless it wishes to be. It has advantage on saving throws against all\
@@ -72,12 +77,12 @@ Zakya rakshasas are the bloodthirsty foot soldiers of the rakshasa horde. They a
   - "desc": "The rakshasa makes three melee weapon attacks. Alternatively, it can\
       \ make two ranged attacks with its javelins."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with\
       \ two hands."
     "name": "Longsword"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
     "name": "Javelin"
 "source":
   - "ERLW"

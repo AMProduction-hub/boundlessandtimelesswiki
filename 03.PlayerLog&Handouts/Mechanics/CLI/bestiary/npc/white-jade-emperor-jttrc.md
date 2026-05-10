@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- White Jade Emperor
+- "White Jade Emperor"
 ---
-# [White Jade Emperor](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/white-jade-emperor-jttrc.md)
+# [White Jade Emperor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/white-jade-emperor-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 197*  
 
 ```statblock
@@ -41,14 +42,17 @@ aliases:
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+5"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "any two languages, Dwarvish"
 "cr": "1/8"
 "traits":
   - "desc": "White"
     "name": "Dwarven Resilience"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d8 + 1) piercing damage."
     "name": "Rapier"
 "reactions":

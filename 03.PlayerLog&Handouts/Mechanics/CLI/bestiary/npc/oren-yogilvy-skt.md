@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Oren Yogilvy
+- "Oren Yogilvy"
 ---
-# [Oren Yogilvy](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/oren-yogilvy-skt.md)
+# [Oren Yogilvy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/oren-yogilvy-skt.md)
 *Source: Storm King's Thunder p. 252*  
 
 Oren came to Northfurrow's End looking for easy work and found it. He sings for his supper, drinks like a fish, and wanders the fields at night dreaming up new lyrics to entertain the inn's other guests. Oren likes to stir up trouble from time to time, but he doesn't have a mean bone in his body.
@@ -48,6 +49,8 @@ Flaw:"I have a knack for putting myself in harm's way. Good thing I'm lucky!"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+5"
 "damage_resistances": "poison"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Halfling"
 "traits":
@@ -68,8 +71,8 @@ Flaw:"I have a knack for putting myself in harm's way. Good thing I'm lucky!"
       \ way. Good thing I'm lucky!\""
     "name": "Roleplaying Information"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 3 (1d4 + 1) piercing damage. Duvessa carries only\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 3 (1d4 + 1) piercing damage. Duvessa carries only\
       \ one dagger."
     "name": "Dagger"
 "source":

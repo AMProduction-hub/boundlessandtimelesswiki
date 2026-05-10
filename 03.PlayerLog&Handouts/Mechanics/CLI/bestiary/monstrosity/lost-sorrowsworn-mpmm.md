@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
@@ -16,9 +17,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lost Sorrowsworn
+- "Lost Sorrowsworn"
 ---
-# [Lost Sorrowsworn](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/lost-sorrowsworn-mpmm.md)
+# [Lost Sorrowsworn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/lost-sorrowsworn-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 224, Mordenkainen's Tome of Foes p. 233*  
 
 The Shadowfell turns visitors around until they become marooned in its twisted landscape. Lost sorrowsworn—often referred to as the Lost—are representations of the anxiety and fear people experience when they can't find their way. These sorrowsworn appear desperate and panicked.
@@ -51,16 +52,17 @@ The Shadowfell's pervasive melancholy sometimes gives rise to strange incarnatio
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+6"
 "damage_resistances": "bludgeoning, piercing, slashing while in dim light or darkness"
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": "Common"
 "cr": "7"
 "actions":
   - "desc": "The sorrowsworn makes two Arm Spike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
       \ 14 (2d10 + 3) piercing damage."
     "name": "Arm Spike"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 25\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 25\
       \ (4d10 + 3) piercing damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14) if it is a Medium or smaller creature. Until the grapple ends,\
       \ the target is [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\

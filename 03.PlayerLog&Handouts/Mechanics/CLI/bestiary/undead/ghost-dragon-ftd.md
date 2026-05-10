@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/17
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ghost Dragon
+- "Ghost Dragon"
 ---
-# [Ghost Dragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/ghost-dragon-ftd.md)
+# [Ghost Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghost-dragon-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 203*  
 
 A dragon's attachment to a hoard can be strong enough to bind the dragon's spirit to existence after death. Such a ghost dragon haunts the hoard, often forming an attachment to a single priceless object that becomes the focus of the ghost dragon's Undead existence.
@@ -36,9 +37,9 @@ A ghost dragon is a translucent and incorporeal version of the original dragon. 
   - !!int "19"
 "speed": "40 ft., fly 80 ft. (hover)"
 "saves":
-  - "constitution": "+13"
-  - "wisdom": "+8"
-  - "charisma": "+10"
+  - "constitution": !!int "13"
+  - "wisdom": !!int "8"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+14"
@@ -54,12 +55,14 @@ A ghost dragon is a translucent and incorporeal version of the original dragon. 
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 24"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 24"
 "languages": "Common, Draconic, telepathy 120 ft."
 "cr": "17"
 "traits":
   - "desc": "The ghost dragon can move through other creatures and objects as if they\
-      \ were difficult terrain. It takes 5 (d10) force damage if it ends its turn\
+      \ were difficult terrain. It takes 5 (1d10) force damage if it ends its turn\
       \ inside an object."
     "name": "Incorporeal Movement"
   - "desc": "If the ghost dragon fails a saving throw, it can choose to succeed instead."
@@ -69,11 +72,11 @@ A ghost dragon is a translucent and incorporeal version of the original dragon. 
 "actions":
   - "desc": "The ghost dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 32 (6d8 + 5) cold damage, and the target's speed is halved until the start\
       \ of the dragon's next turn."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 14 (2d8 + 5) necrotic damage."
     "name": "Claw"
   - "desc": "The ghost dragon exhales shadowy mist in a 90-foot cone. Each creature\

@@ -1,19 +1,20 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xge
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
 - ttrpg-cli/spell/level/4th-level
 - ttrpg-cli/spell/school/transmutation
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Druid
 - Ranger
 aliases:
-- Guardian of Nature
+- "Guardian of Nature"
 ---
 # Guardian of Nature
 *4th-level, Transmutation*  
@@ -33,7 +34,7 @@ Bestial fur covers your body, your facial features become feral, and you gain th
 - Your walking speed increases by 10 feet.  
 - You gain [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) with a range of 120 feet.  
 - You make Strength-based attack rolls with advantage.  
-- Your melee weapon attacks deal an extra `d6` force damage on a hit.  
+- Your melee weapon attacks deal an extra `1d6` force damage on a hit.  
 
 ## Great Tree
 
@@ -46,6 +47,6 @@ Your skin appears barky, leaves sprout from your hair, and you gain the followin
 
 ## Summary
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md)
 
 *Source: Xanathar's Guide to Everything p. 157*

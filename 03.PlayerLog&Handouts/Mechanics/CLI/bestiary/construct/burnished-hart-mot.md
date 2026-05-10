@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Burnished Hart
+- "Burnished Hart"
 ---
-# [Burnished Hart](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/burnished-hart-mot.md)
+# [Burnished Hart](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/burnished-hart-mot.md)
 *Source: Mythic Odysseys of Theros p. 211*  
 
 Among the first anvilwroughts to be forged by Purphoros, elegant burnished harts wander the mortal realm in search of new sights to bring back to the god of the forge. On every trip from Mount Velus, where Purphoros has his forge, they seek out the far reaches of the world so they can witness beauty in all its forms, then later reunite with their creator, their minds filled with tales of how life's splendor continues to develop.
@@ -46,7 +47,8 @@ A few extremely rare and valuable anvilwroughts were crafted by the hand of Purp
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 12"
 "languages": "understands one language of its creator but can't speak"
 "cr": "2"
 "traits":
@@ -56,7 +58,7 @@ A few extremely rare and valuable anvilwroughts were crafted by the hand of Purp
       \ 13 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Charge"
   - "desc": "A creature that touches the hart or hits it with a melee attack while\
-      \ within 5 feet of it takes 5 (d10) fire damage."
+      \ within 5 feet of it takes 5 (1d10) fire damage."
     "name": "Heated Body"
   - "desc": "The hart has advantage on Strength and Dexterity saving throws made against\
       \ effects that would knock it [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
@@ -64,11 +66,11 @@ A few extremely rare and valuable anvilwroughts were crafted by the hand of Purp
 "actions":
   - "desc": "The hart makes two attacks: one with its antlers and one with its hooves."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage."
     "name": "Antlers"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d4 + 3) bludgeoning damage plus 2 (d4) fire damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
+      \ (1d4 + 3) bludgeoning damage plus 2 (1d4) fire damage."
     "name": "Hooves"
 "source":
   - "MOT"

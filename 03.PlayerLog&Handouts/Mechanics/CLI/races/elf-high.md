@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/elf/high
 aliases:
-- Elf (High)
+- "Elf (High)"
 ---
 # Elf (High)
 *Source: Player's Handbook p. 23. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/elf.webp#right)
 
-- **Ability Scores**: Intelligence +1
+- **Ability Scores**: int +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Intelligence

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/6
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Chasme
+- "Chasme"
 ---
-# [Chasme](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/chasme.md)
-*Source: Monster Manual p. 57, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Keys from the Golden Vault*  
+# [Chasme](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/chasme.md)
+*Source: Monster Manual p. 57*  
 
 This loathsome demon resembles an unspeakable crossing of humanoid and fly. A chasme shuffles about on four spindly legs that can find purchase on walls and ceilings. A droning sound precedes the approach of a chasme, inflicting foes with a terrible lethargy that leaves them open to attack.
 
@@ -167,13 +168,13 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > 
 > Some demons can have an action option that allows them to summon other demons. Summon Demon (1/Day). The demon chooses what to summon and attempts a magical summoning.
 > 
-> - A balor has a 50 percent chance of summoning `d8` vrocks, `d6` hezrous, `d4` glabrezus, `d3` nalfeshnees, `d2` mariliths, or one goristro.  
+> - A balor has a 50 percent chance of summoning `1d8` vrocks, `1d6` hezrous, `1d4` glabrezus, `1d3` nalfeshnees, `1d2` mariliths, or one goristro.  
 > - A barlgura has a 30 percent chance of summoning one barlgura.  
 > - A chasme has a 30 percent chance of summoning one chasme.  
-> - A glabrezu has a 30 percent chance of summoning `d3` vrocks, `d2` hezrous, or one glabrezu.  
+> - A glabrezu has a 30 percent chance of summoning `1d3` vrocks, `1d2` hezrous, or one glabrezu.  
 > - A hezrou has a 30 percent chance of summoning `2d6` dretches or one hezrou.  
-> - A marilith has a 50 percent chance of summoning `d6` vrocks, `d4` hezrous, `d3` glabrezus, `d2` nalfeshnees, or one marilith.  
-> - A nalfeshnee has a 50 percent chance of summoning `d4` vrocks, `d3` hezrous, `d2` glabrezus, or one nalfeshnee.  
+> - A marilith has a 50 percent chance of summoning `1d6` vrocks, `1d4` hezrous, `1d3` glabrezus, `1d2` nalfeshnees, or one marilith.  
+> - A nalfeshnee has a 50 percent chance of summoning `1d4` vrocks, `1d3` hezrous, `1d2` glabrezus, or one nalfeshnee.  
 > - A vrock has a 30 percent chance of summoning `2d4` dretches or one vrock.  
 > - A yochlol has a 50 percent chance of summoning one yochlol.  
 > 
@@ -205,15 +206,17 @@ Demonologists organize the chaotic distribution of demons into broad categories 
   - !!int "10"
 "speed": "20 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+5"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 10 ft., darkvision 120 ft., passive Perception 15"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 15"
 "languages": "Abyssal, telepathy 120 ft."
 "cr": "6"
 "traits":
@@ -222,9 +225,9 @@ Demonologists organize the chaotic distribution of demons into broad categories 
       \ succeed on a DC 12 Constitution saving throw or fall [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
       \ for 10 minutes. A creature that can't hear the drone automatically succeeds\
       \ on the save. The effect on the creature ends if it takes damage or if another\
-      \ creature takes an action to splash it with holy water. If a creature's saving\
-      \ throw is successful or the effect ends for it, it is immune to the drone for\
-      \ the next 24 hours."
+      \ creature takes an action to splash it with [holy water](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-water-flask.md).\
+      \ If a creature's saving throw is successful or the effect ends for it, it is\
+      \ immune to the drone for the next 24 hours."
     "name": "Drone"
   - "desc": "The chasme has advantage on saving throws against spells and other magical\
       \ effects."
@@ -233,7 +236,7 @@ Demonologists organize the chaotic distribution of demons into broad categories 
       \ without needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 16 (4d6 + 2) piercing damage plus 24 (7d6) necrotic damage, and the target's\
       \ hit point maximum is reduced by an amount equal to the necrotic damage taken.\
       \ If this effect reduces a creature's hit point maximum to 0, the creature dies.\
@@ -242,9 +245,6 @@ Demonologists organize the chaotic distribution of demons into broad categories 
     "name": "Proboscis"
 "source":
   - "MM"
-  - "WDMM"
-  - "BGDIA"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/chasme.webp"
 ```
 ^statblock

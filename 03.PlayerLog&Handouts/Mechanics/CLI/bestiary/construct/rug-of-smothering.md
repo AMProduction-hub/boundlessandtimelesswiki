@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Rug of Smothering
+- "Rug of Smothering"
 ---
-# [Rug of Smothering](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/rug-of-smothering.md)
-*Source: Monster Manual p. 20, Curse of Strahd, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Dragon of Icespire Peak, Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Candlekeep Mysteries, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Rug of Smothering](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/rug-of-smothering.md)
+*Source: Monster Manual p. 20. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Would-be thieves and careless heroes arrive at the doorsteps of an enemy's abode, eyes and ears alert for traps, only to end their quest prematurely as the rugs beneath their feet animate and smother them to death.
 
@@ -52,7 +53,8 @@ An animated object doesn't require air, food, drink, or sleep. The magic that an
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 6"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 6"
 "languages": ""
 "cr": "2"
 "traits":
@@ -71,8 +73,8 @@ An animated object doesn't require air, food, drink, or sleep. The magic that an
       \ rug."
     "name": "False Appearance"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller\
-      \ creature. Hit: The creature is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one Medium or smaller\
+      \ creature. *Hit:* The creature is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
       \ and at risk of suffocating, and the rug can't smother another target. In addition,\
@@ -81,17 +83,6 @@ An animated object doesn't require air, food, drink, or sleep. The magic that an
     "name": "Smother"
 "source":
   - "MM"
-  - "CoS"
-  - "SKT"
-  - "ToA"
-  - "WDH"
-  - "GoS"
-  - "DIP"
-  - "SDW"
-  - "BGDIA"
-  - "EGW"
-  - "CM"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/rug-of-smothering.webp"
 ```
 ^statblock

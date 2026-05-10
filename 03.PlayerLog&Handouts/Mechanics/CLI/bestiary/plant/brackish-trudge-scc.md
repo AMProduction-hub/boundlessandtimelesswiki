@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Brackish Trudge
+- "Brackish Trudge"
 ---
-# [Brackish Trudge](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/brackish-trudge-scc.md)
+# [Brackish Trudge](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/brackish-trudge-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 187*  
 
 Brackish trudges are lumbering masses of sentient fungus and vegetation that thrive in the bayou. They are living examples of the conflicting forces of life and decay existing in a harmonious cycle. Flowers and other plant life grow on their backs, necks, and heads. When these plants die, they decay and become the ideal habitat for fungi. The older a trudge is, the wilder and more varied are the plants and fungi that thrive in the tiny ecosystem on its back.
@@ -40,7 +41,8 @@ While sometimes ill-tempered and territorial, brackish trudges are usually conte
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
 "damage_resistances": "fire"
-"senses": "blindsight 10 ft., passive Perception 14"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., passive Perception 14"
 "languages": ""
 "cr": "3"
 "traits":
@@ -49,8 +51,8 @@ While sometimes ill-tempered and territorial, brackish trudges are usually conte
       \ or from a critical hit. On a success, the trudge drops to 1 hit point instead."
     "name": "Fungal Fortitude"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
-      \ 16 (2d10 + 5) piercing damage plus 3 (d6) poison damage. If the target\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
+      \ 16 (2d10 + 5) piercing damage plus 3 (1d6) poison damage. If the target\
       \ is a creature, it must succeed on a DC 15 Strength saving throw or be knocked\
       \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Tusk"

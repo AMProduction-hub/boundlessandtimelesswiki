@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Fernia, the Sea of Fire; Fernia Manifest Zone Features
+- "Fernia, the Sea of Fire; Fernia Manifest Zone Features"
 ---
 # Fernia, the Sea of Fire; Fernia Manifest Zone Features
 *Source: Eberron: Rising from the Last War p. 229* 
 
 **Fernia Manifest Zone Features**
-
-`dice: [](fernia-the-sea-of-fire-fernia-manifest-zone-features-erlw.md#^fernia-manifest-zone-features)`
 
 | dice: d4 | Feature |
 |----------|---------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/11
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gynosphinx
+- "Gynosphinx"
 ---
-# [Gynosphinx](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/gynosphinx.md)
-*Source: Monster Manual p. 282, Tales from the Yawning Portal, Infernal Machine Rebuild, Mythic Odysseys of Theros, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Gynosphinx](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/gynosphinx.md)
+*Source: Monster Manual p. 282. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 A gynosphinx bears the head of a humanoid female. Many have the regal countenances of worldly queens, but some are marked with wild, leonine features. A gynosphinx's eyes see beyond the present time and place, and penetrate veils of invisibility and magic.
 
@@ -90,27 +91,28 @@ A sphinx presides over an ancient temple, sepulcher, or vault, within which are 
 "damage_immunities": "psychic"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 120 ft., passive Perception 18"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 18"
 "languages": "Common, Sphinx"
 "cr": "11"
 "traits":
   - "desc": "The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence\
       \ (spell save DC 16, +8 to hit with spell attacks). It requires no material\
       \ components to cast its spells. The sphinx has the following wizard spells\
-      \ prepared:\n\nCantrips (at will): [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ prepared:\n\n**Cantrips (at will):** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**1st level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md), [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\
-      \n2nd level (3 slots): [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \n**2nd level (3 slots):** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [locate object](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-object.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\n\
-      3rd level (3 slots): [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      **3rd level (3 slots):** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md),\
-      \ [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\n4th\
-      \ level (3 slots): [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \ [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\n**4th\
+      \ level (3 slots):** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md)\n\
-      \n5th level (1 slots): [legend lore](03.PlayerLog&Handouts/Mechanics/CLI/spells/legend-lore.md)"
+      \n**5th level (1 slots):** [legend lore](03.PlayerLog&Handouts/Mechanics/CLI/spells/legend-lore.md)"
     "name": "Spellcasting"
   - "desc": "The sphinx is immune to any effect that would sense its emotions or read\
       \ its thoughts, as well as any divination spell that it refuses. Wisdom ([Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight))\
@@ -121,28 +123,18 @@ A sphinx presides over an ancient temple, sepulcher, or vault, within which are 
 "actions":
   - "desc": "The sphinx makes two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) slashing damage."
     "name": "Claw"
-"legendary_actions":
-  - "desc": "The sphinx makes one claw attack."
-    "name": "Claw Attack"
-  - "desc": "The sphinx magically teleports, along with any equipment it is wearing\
-      \ or carrying, up to 120 feet to an unoccupied space it can see."
-    "name": "Teleport (Costs 2 Actions)"
-  - "desc": "The sphinx casts a spell from its list of prepared spells, using a spell\
-      \ slot as normal."
-    "name": "Cast a Spell (Costs 3 Actions)"
 "lair_actions":
   - "desc": "On initiative count 20 (losing initiative ties), the sphinx can take\
       \ a lair action to cause one of the following magical effects; the sphinx can't\
-      \ use an effect again until it finishes a short or long rest:"
-    "name": ""
-  - "desc": "- The flow of time is altered such that every creature in the lair must\
-      \ reroll initiative. The sphinx can choose not to reroll.  \n- The effects of\
-      \ time are altered such that every creature in the lair must succeed on a DC\
-      \ 15 Constitution saving throw or become d20 years older or younger (the sphinx's\
-      \ choice), but never any younger than 1 year old. A [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md)\
+      \ use an effect again until it finishes a short or long rest:\n\n- The flow\
+      \ of time is altered such that every creature in the lair must reroll initiative.\
+      \ The sphinx can choose not to reroll.  \n- The effects of time are altered\
+      \ such that every creature in the lair must succeed on a DC 15 Constitution\
+      \ saving throw or become 1d20 years older or younger (the sphinx's choice),\
+      \ but never any younger than 1 year old. A [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md)\
       \ spell can restore a creature's age to normal.  \n- The flow of time within\
       \ the lair is altered such that everything within moves up to 10 years forward\
       \ or backward (sphinx's choice). Only the sphinx is immediately aware of the\
@@ -154,12 +146,20 @@ A sphinx presides over an ancient temple, sepulcher, or vault, within which are 
       \ to its lair as a bonus action on its turn, taking up to seven creatures with\
       \ it.  "
     "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the gynosphinx can expend a use to take one of the following actions. The\
+  \ gynosphinx regains all expended uses at the start of each of its turns."
+"legendary_actions":
+  - "desc": "The sphinx makes one claw attack."
+    "name": "Claw Attack"
+  - "desc": "The sphinx magically teleports, along with any equipment it is wearing\
+      \ or carrying, up to 120 feet to an unoccupied space it can see."
+    "name": "Teleport (Costs 2 Actions)"
+  - "desc": "The sphinx casts a spell from its list of prepared spells, using a spell\
+      \ slot as normal."
+    "name": "Cast a Spell (Costs 3 Actions)"
 "source":
   - "MM"
-  - "TftYP"
-  - "IMR"
-  - "MOT"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/gynosphinx.webp"
 ```
 ^statblock

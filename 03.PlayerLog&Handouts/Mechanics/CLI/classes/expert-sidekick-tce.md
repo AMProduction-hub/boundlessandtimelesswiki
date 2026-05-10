@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/class/expert-sidekick
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
-- Expert Sidekick
+- "Expert Sidekick"
 ---
 # Expert Sidekick
 *Source: Tasha's Cauldron of Everything p. 142*  
@@ -137,7 +138,7 @@ If your DM allows the use of feats, the sidekick may instead take a feat.
 
 *11th-level Expert feature*
 
-When the sidekick takes the [Help](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Help) action, the creature who receives the help also gains a `d6` bonus to the `d20` roll. If that roll is an attack roll, the creature can forgo adding the bonus to it, and then if the attack hits, the creature can add the bonus to the attack's damage roll against one target.
+When the sidekick takes the [Help](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Help) action, the creature who receives the help also gains a `1d6` bonus to the `d20` roll. If that roll is an attack roll, the creature can forgo adding the bonus to it, and then if the attack hits, the creature can add the bonus to the attack's damage roll against one target.
 
 At 20th level, the bonus increases to `2d6`.
 

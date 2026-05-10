@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/attunement/required
@@ -9,7 +10,7 @@ tags:
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Frost Brand"
 - "Frost Brand Double-Bladed Scimitar"
 - "Frost Brand Greatsword"
@@ -20,10 +21,10 @@ aliases:
 ---
 # Frost Brand
 *Major, very rare (requires attunement)*  
-![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/frost-brand.webp#right)
+![Frost Brand (Scimitar)](03.PlayerLog&Handouts/Mechanics/CLI/items/img/frost-brand.webp#right)
 
 
-When you hit with an attack using this magic sword, the target takes an extra `d6` cold damage. In addition, while you hold the sword, you have resistance to fire damage.
+When you hit with an attack using this magic sword, the target takes an extra `1d6` cold damage. In addition, while you hold the sword, you have resistance to fire damage.
 
 In freezing temperatures, the blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
 

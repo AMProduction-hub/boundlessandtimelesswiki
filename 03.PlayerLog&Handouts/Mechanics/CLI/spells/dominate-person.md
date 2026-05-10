@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/azorius-functionary
 - ttrpg-cli/spell/background/rakdos-cultist
 - ttrpg-cli/spell/background/silverquill-student
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/5th-level
@@ -18,7 +19,7 @@ tags:
 - ttrpg-cli/spell/subclass/the-great-old-one
 - ttrpg-cli/spell/subclass/trickery-domain
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Order Domain)
 - Cleric (Trickery Domain)
 - Paladin (Oath of Conquest)
@@ -28,7 +29,7 @@ classes:
 - Warlock (The Great Old One)
 - Wizard
 aliases:
-- Dominate Person
+- "Dominate Person"
 ---
 # Dominate Person
 *5th-level, Enchantment*  
@@ -49,6 +50,6 @@ Each time the target takes damage, it makes a new Wisdom saving throw against th
 
 **At Higher Levels.** When you cast this spell using a 6th-level spell slot, the duration is [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration), up to 10 minutes. When you use a 7th-level spell slot, the duration is [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration), up to 1 hour. When you use a spell slot of 8th level or higher, the duration is [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration), up to 8 hours.
 
-**Classes**: [Paladin (Oath of Conquest)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-conquest-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Archfey)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-archfey.md); [Warlock (The Great Old One)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-great-old-one.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Cleric (Trickery Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-trickery-domain.md); [Cleric (Order Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-order-domain-tce.md "subclass=TCE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Paladin (Oathbreaker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oathbreaker-dmg.md "subclass=DMG")
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Order Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-order-domain-tce.md "subclass=TCE"); [Cleric (Trickery Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-trickery-domain.md); [Paladin (Oath of Conquest)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-conquest-xge.md "subclass=XGE"); [Paladin (Oathbreaker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oathbreaker-dmg.md "subclass=DMG"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock (The Archfey)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-archfey.md); [Warlock (The Great Old One)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-great-old-one.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 235. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

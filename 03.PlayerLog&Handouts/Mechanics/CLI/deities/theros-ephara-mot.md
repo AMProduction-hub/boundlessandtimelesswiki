@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/deity/theros
 - ttrpg-cli/domain/knowledge
 - ttrpg-cli/domain/light
-aliases: 
-- Ephara
+aliases:
+- "Ephara"
 ---
 # Ephara
 *Source: Mythic Odysseys of Theros p. 40* 
@@ -90,8 +91,6 @@ Ephara seeks champions who will defend her cities fiercely, both from external t
 
 **Ephara's Favor**
 
-`dice: [](theros-ephara-mot.md#^epharas-favor)`
-
 | dice: d6 | Circumstance |
 |----------|--------------|
 | 1 | You grew up in a polis like Meletis and never feel safe outside one. |
@@ -107,8 +106,6 @@ Ephara seeks champions who will defend her cities fiercely, both from external t
 Followers of Ephara support their cities, protecting them while helping them thrive. As a follower of Ephara, consider the ideals on the Ephara's Ideals table as alternatives to those suggested for your background.
 
 **Ephara's Ideals**
-
-`dice: [](theros-ephara-mot.md#^epharas-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

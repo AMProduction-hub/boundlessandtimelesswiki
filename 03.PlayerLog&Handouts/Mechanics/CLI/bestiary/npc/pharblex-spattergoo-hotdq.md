@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/hotdq
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Pharblex Spattergoo
+- "Pharblex Spattergoo"
 ---
-# [Pharblex Spattergoo](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/pharblex-spattergoo-hotdq.md)
+# [Pharblex Spattergoo](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/pharblex-spattergoo-hotdq.md)
 *Source: Hoard of the Dragon Queen p. 91, Tyranny of Dragons p. 187*  
 
 ```statblock
@@ -35,8 +36,8 @@ aliases:
   - !!int "7"
 "speed": "20 ft., swim 40 ft."
 "saves":
-  - "strength": "+4"
-  - "constitution": "+6"
+  - "strength": !!int "4"
+  - "constitution": !!int "6"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
@@ -44,22 +45,24 @@ aliases:
     "desc": "+2"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 15"
 "languages": "Common, Bullywug"
 "cr": "3"
 "traits":
   - "desc": "Pharblex is a 6th-level spellcaster that uses Wisdom as his spellcasting\
       \ ability (spell save DC 13, +5 to hit with spell attacks). Pharblex has the\
-      \ following spells prepared from the druid spell list:\n\nCantrips (at will):\
+      \ following spells prepared from the druid spell list:\n\n**Cantrips (at will):**\
       \ [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md), [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [poison spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md)\n\
-      \n1st level (4 slots): [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
+      \n**1st level (4 slots):** [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md), [healing\
       \ word](03.PlayerLog&Handouts/Mechanics/CLI/spells/healing-word.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [barkskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/barkskin.md),\
+      \n**2nd level (3 slots):** [barkskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/barkskin.md),\
       \ [beast sense](03.PlayerLog&Handouts/Mechanics/CLI/spells/beast-sense.md),\
       \ [spike growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/spike-growth.md)\n\
-      \n3rd level (3 slots): [plant growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/plant-growth.md),\
+      \n**3rd level (3 slots):** [plant growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/plant-growth.md),\
       \ [water walk](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-walk.md)"
     "name": "Spellcasting"
   - "desc": "Pharblex can breathe air and water."
@@ -76,11 +79,11 @@ aliases:
 "actions":
   - "desc": "Pharblex attacks twice. Once with his bite and once with his spear."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit. reach 5 ft. or ranged\
-      \ 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit. reach 5 ft. or ranged\
+      \ 20/60 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
     "name": "Spear"
 "source":
   - "HotDQ"

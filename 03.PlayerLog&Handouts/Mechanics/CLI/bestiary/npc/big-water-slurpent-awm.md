@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/awm
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Big Water Slurpent
+- "Big Water Slurpent"
 ---
-# [Big Water Slurpent](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/big-water-slurpent-awm.md)
+# [Big Water Slurpent](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/big-water-slurpent-awm.md)
 *Source: Adventure with Muk p. 29*  
 
 The Big Water Slurpent is a magical creature that has lived within the Big Water for centuries. It was created by a wizard to guard the tower that has long since sunk into the Big Water. Many goblins have seen the slurpent and have run away. Many goblins believe that it likes to eat goblins.
@@ -49,10 +50,11 @@ The Big Water Slurpent is dangerous if goblins go snooping around the Big Water.
       \ or if that water is destroyed."
     "name": "Water Bound"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, one target. Hit: 13 (3d6+3) bludgeoning\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, one target. *Hit:* 13 (3d6+3) bludgeoning\
       \ damage. If the target is Medium or smaller, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13) and pulled 5 feet toward the big water slurpent. Until this\
-      \ grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
+      \ [grapple](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Grapple) ends,\
+      \ the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ the big water slurpent tries to drown it, and the big water slurpent can't\
       \ constrict another target."
     "name": "Constrict"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/4
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Azaka Stormfang
+- "Azaka Stormfang"
 ---
-# [Azaka Stormfang](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/azaka-stormfang-toa.md)
+# [Azaka Stormfang](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/azaka-stormfang-toa.md)
 *Source: Tomb of Annihilation p. 33*  
 
 ```statblock
@@ -40,7 +41,11 @@ aliases:
     "desc": "+4"
 "damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
-"senses": "darkvision 60 ft., passive Perception 15"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Common (can't speak in tiger form)"
 "cr": "4"
 "traits":
@@ -62,17 +67,17 @@ aliases:
   - "desc": "In humanoid form, the Azaka makes two scimitar attacks or two longbow\
       \ attacks. In hybrid form, it can attack like a humanoid or make two claw attacks."
     "name": "Multiattack (Humanoid or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d10 + 3) piercing damage. If the target is a humanoid, it must succeed\
       \ on a DC 13 Constitution saving throw or be cursed with Azaka lycanthropy."
     "name": "Bite (Tiger or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage."
     "name": "Claw (Tiger or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Scimitar (Humanoid or Hybrid Form Only)"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:*\
       \ 6 (1d8 + 2) piercing damage."
     "name": "Longbow (Humanoid or Hybrid Form Only)"
 "source":

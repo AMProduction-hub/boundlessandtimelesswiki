@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Soul Shaker
+- "Soul Shaker"
 ---
-# [Soul Shaker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/soul-shaker-jttrc.md)
+# [Soul Shaker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/soul-shaker-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 47*  
 
 A grasping mass of Humanoid limbs, a soul shaker is an obsessive claimer of corpses and collector of body parts. These nightmarish creatures arise from ghoulish collections of severed limbs exposed to necromantic energies or when numerous crawling claws form a cooperative relationship.
@@ -48,7 +49,8 @@ If defeated, a soul shaker disperses into several skittering, animate limbs. The
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 10"
 "languages": "telepathy 60 ft."
 "cr": "4"
 "traits":
@@ -57,7 +59,7 @@ If defeated, a soul shaker disperses into several skittering, animate limbs. The
       \ ability (spell save DC 12)."
     "name": "Enthralled Lure (1/Day)"
   - "desc": "When the soul shaker is reduced to 0 hit points, it explodes into 7 (1d4\
-      \ + 5) crawling claws. After 6 (d12) days, if at least two of those crawling\
+      \ + 5) crawling claws. After 6 (1d12) days, if at least two of those crawling\
       \ claws are alive, they teleport to the location of the soul shaker's death\
       \ and merge together, whereupon the soul shaker reforms and regains all its\
       \ hit points."
@@ -65,7 +67,7 @@ If defeated, a soul shaker disperses into several skittering, animate limbs. The
   - "desc": "The soul shaker doesn't require air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (2d8 + 5) bludgeoning damage. If the target is a Medium or smaller creature,\
       \ it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15). The soul shaker can have only one creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 aliases:
-- Zikran's Zephyrean Tome
+- "Zikran's Zephyrean Tome"
 ---
 # Zikran's Zephyrean Tome
 *Source: Candlekeep Mysteries, p. 137* 
@@ -310,11 +311,11 @@ Characters who observe the [cloud giant ghost](03.PlayerLog&Handouts/Mechanics/C
 
 ##### Treasure
 
-The wardrobes contain clothes fit for a female cloud giant of noble status. In one of the wardrobes, the characters can find a pair of [boots of the winterlands](03.PlayerLog&Handouts/Mechanics/CLI/items/boots-of-the-winterlands.md). They are giant-sized but shrink to fit whoever attunes to them.
+The wardrobes contain clothes fit for a female cloud giant of noble status. In one of the wardrobes, the characters can find a pair of [Boots of the Winterlands](03.PlayerLog&Handouts/Mechanics/CLI/items/boots-of-the-winterlands.md). They are giant-sized but shrink to fit whoever attunes to them.
 
 #### C7. Zikran's Basement Workshop
 
-The characters can access the basement from the entrance hall (area C2). If they try to do so, one of [Zikran](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zikran-cm.md)'s magical safeguards triggers, releasing two [water elementals](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-elemental.md) and six [ice mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/ice-mephit.md). They appear in unoccupied spaces on the staircase and try to prevent intruders from reaching the basement. If Gazre-Azam is present, he can invoke his rank as a noble genie as soon as the elementals and mephits appear. When he does so, `d6` of the mephits vanish as if affected by a [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md) spell.
+The characters can access the basement from the entrance hall (area C2). If they try to do so, one of [Zikran](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zikran-cm.md)'s magical safeguards triggers, releasing two [water elementals](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-elemental.md) and six [ice mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/ice-mephit.md). They appear in unoccupied spaces on the staircase and try to prevent intruders from reaching the basement. If Gazre-Azam is present, he can invoke his rank as a noble genie as soon as the elementals and mephits appear. When he does so, `1d6` of the mephits vanish as if affected by a [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md) spell.
 
 Once the characters have defeated these creatures, they can enter the basement.
 

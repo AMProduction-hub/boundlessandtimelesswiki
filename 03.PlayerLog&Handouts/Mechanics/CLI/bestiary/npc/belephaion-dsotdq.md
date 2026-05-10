@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Belephaion
+- "Belephaion"
 ---
-# [Belephaion](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/belephaion-dsotdq.md)
+# [Belephaion](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/belephaion-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 157*  
 
 ```statblock
@@ -33,26 +34,28 @@ aliases:
   - !!int "17"
 "speed": "40 ft., burrow 20 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+8"
-  - "wisdom": "+5"
-  - "charisma": "+7"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+9"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "damage_immunities": "lightning"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 19"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 19"
 "languages": "Common, Draconic"
 "cr": "9"
 "actions":
   - "desc": "Belephaion makes three attacks: one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
-      \ 16 (2d10 + 5) piercing damage plus 5 (d10) lightning damage."
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
+      \ 16 (2d10 + 5) piercing damage plus 5 (1d10) lightning damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) slashing damage."
     "name": "Claw"
   - "desc": "Belephaion exhales lightning in a 60-foot line that is 5 feet wide. Each\

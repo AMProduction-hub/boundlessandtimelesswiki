@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Smiler the Defiler
+- "Smiler the Defiler"
 ---
-# [Smiler the Defiler](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/smiler-the-defiler-bgdia.md)
+# [Smiler the Defiler](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/smiler-the-defiler-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 133*  
 
 Smiler has an unnerving smile—hence his name.
@@ -49,17 +50,20 @@ Three of Smiler's rivals—Bitter Breath, Feonor, and Princeps Kovik—joined fo
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+7"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[+1 shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/1-weapon.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Elvish, Sylvan"
 "cr": "7"
 "traits":
   - "desc": "Smiler's innate spellcasting ability is Charisma (spell save DC 15).\
       \ He can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \n**At will:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [Tasha's hideous laughter](03.PlayerLog&Handouts/Mechanics/CLI/spells/tashas-hideous-laughter.md)\n\
-      \n3/day each: [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
+      \n**3/day each:** [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
       \ [enthrall](03.PlayerLog&Handouts/Mechanics/CLI/spells/enthrall.md), [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\
-      \n1/day each: [hallucinatory terrain](03.PlayerLog&Handouts/Mechanics/CLI/spells/hallucinatory-terrain.md),\
+      \n**1/day each:** [hallucinatory terrain](03.PlayerLog&Handouts/Mechanics/CLI/spells/hallucinatory-terrain.md),\
       \ [Otto's irresistible dance](03.PlayerLog&Handouts/Mechanics/CLI/spells/ottos-irresistible-dance.md)"
     "name": "Innate Spellcasting"
   - "desc": "As a bonus action, Smiler can teleport up to 30 feet to an unoccupied\
@@ -75,7 +79,7 @@ Three of Smiler's rivals—Bitter Breath, Feonor, and Princeps Kovik—joined fo
   - "desc": "Smiler makes two weapon attacks. He can cast a spell in place of one\
       \ of these attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d6 + 6) piercing damage."
     "name": "+1 Shortsword"
 "source":

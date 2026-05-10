@@ -1,19 +1,20 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/level/3rd-level
 - ttrpg-cli/spell/school/conjuration
 - ttrpg-cli/spell/subclass/aberrant-mind
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Sorcerer (Aberrant Mind)
 - Warlock
 aliases:
-- Hunger of Hadar
+- "Hunger of Hadar"
 ---
 # Hunger of Hadar
 *3rd-level, Conjuration*  
@@ -28,6 +29,6 @@ You open a gateway to the dark between the stars, a region infested with unknown
 
 The void creates a warp in the fabric of space, and the area is difficult terrain. Any creature that starts its turn in the area takes `2d6` cold damage. Any creature that ends its turn in the area must succeed on a Dexterity saving throw or take `2d6` acid damage as milky, otherworldly tentacles rub against it.
 
-**Classes**: [Sorcerer (Aberrant Mind)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-aberrant-mind-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Aberrant Mind)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-aberrant-mind-tce.md "subclass=TCE"); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md)
 
 *Source: Player's Handbook p. 251*

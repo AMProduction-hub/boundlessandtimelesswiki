@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Farmer
+- "Farmer"
 ---
-# [Farmer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/farmer-jttrc.md)
+# [Farmer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/farmer-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 36*  
 
 ```statblock
@@ -38,6 +39,8 @@ aliases:
     "desc": "+2"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+2"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "1/8"
@@ -46,7 +49,7 @@ aliases:
       \ or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)."
     "name": "Dark Devotion"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d6 + 1) slashing damage."
     "name": "Scimitar"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kobold Commoner
+- "Kobold Commoner"
 ---
-# [Kobold Commoner](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/kobold-commoner-tftyp.md)
+# [Kobold Commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kobold-commoner-tftyp.md)
 *Source: Tales from the Yawning Portal p. 18*  
 
 ```statblock
@@ -32,7 +33,10 @@ aliases:
   - !!int "10"
   - !!int "10"
 "speed": "30 ft."
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "any one language (usually Common), Draconic"
 "cr": "0"
 "traits":
@@ -41,7 +45,7 @@ aliases:
   - "desc": "The kobold commoner"
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 1\
       \ (1d4 - 1) bludgeoning damage."
     "name": "Club"
 "source":

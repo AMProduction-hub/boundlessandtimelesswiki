@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Assault or Invasion; Invading Forces
+- "Assault or Invasion; Invading Forces"
 ---
 # Assault or Invasion; Invading Forces
 *Source: Dungeon Master's Guide p. 29* 
 
 **Invading Forces**
-
-`dice: [](assault-or-invasion-invading-forces.md#^invading-forces)`
 
 | dice: d8 | Invading Forces |
 |----------|-----------------|

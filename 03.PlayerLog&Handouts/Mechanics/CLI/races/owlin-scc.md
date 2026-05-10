@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/race/owlin
 aliases:
-- Owlin
+- "Owlin"
 ---
 # Owlin
 *Source: Strixhaven: A Curriculum of Chaos p. 29*  

@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/race/elf/pallid
 aliases:
-- Elf (Pallid)
+- "Elf (Pallid)"
 ---
 # Elf (Pallid)
 *Source: Explorer's Guide to Wildemount p. 21*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/elf-pallid.webp#right)
 
-- **Ability Scores**: Wisdom +1
+- **Ability Scores**: wis +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Wisdom

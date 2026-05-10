@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 aliases:
-- Chapter 7: Siege of Kalaman
+- "Chapter 7: Siege of Kalaman"
 ---
 # Chapter 7: Siege of Kalaman
 *Source: Dragonlance: Shadow of the Dragon Queen, p. 161* 
 
 The Red Dragon Army has failed to raise the City of Lost Names into the heavens. The characters have deprived the Dragon Army of its city-sized battle platform, but as the smoke clears, a citadel flies free of the ruins, its course set for Kalaman.
 
-![With its flying citadel lo...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/111-07-001-chapter-splash.webp#center "With its flying citadel looming overhead, the Dragon Army prepares to lay siege to the city of Kalaman")
+![With its flying citadel looming overhead, the Dragon Army prepares to lay siege to the city of Kalaman](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/111-07-001-chapter-splash.webp#center)
 
 ## Running This Chapter
 
@@ -132,8 +133,6 @@ This news ushers in an uneasy day of waiting as the city braces for battle. As t
 
 **Dread in the Streets**
 
-`dice: [](08-chapter-7-siege-of-kalaman.md#^dread-in-the-streets)`
-
 | dice: d6 | Event |
 |----------|-------|
 | 1 | A makeshift aid camp has taken over an alley, providing help to refugees recently arrived in the city. |
@@ -217,8 +216,6 @@ If the characters and Darrett have plans for attacking the flying citadel, Vendr
 The people of Kalaman face a long, anxious night waiting for the Dragon Army's attack. Use encounters from the Night Encounters table to reinforce the Dragon Army's menace throughout the night. When you're ready to conclude this section, move on to the "Bakaris Defects" encounter.
 
 **Night Encounters**
-
-`dice: [](08-chapter-7-siege-of-kalaman.md#^night-encounters)`
 
 | dice: d4 | Encounter |
 |----------|-----------|
@@ -320,8 +317,6 @@ This section has no set timeline or specific goals beyond involving characters i
 
 **Defending the Wall**
 
-`dice: [](08-chapter-7-siege-of-kalaman.md#^defending-the-wall)`
-
 | dice: d4 | Encounter |
 |----------|-----------|
 | 1 | Ballista Breakers |
@@ -411,12 +406,10 @@ During this battle, roll on the Hawker's Grove Battlefield Events table each rou
 
 **Hawker's Grove Battlefield Events**
 
-`dice: [](08-chapter-7-siege-of-kalaman.md#^hawkers-grove-battlefield-events)`
-
 | dice: d10 | Event |
 |-----------|-------|
 | 1–3 | A flight of dragonnels strafes the battlefield, the wind from their passage reigniting flames in the burnt ground. Each creature in this area must make a DC 14 Dexterity saving throw, taking 21 (`6d6`) fire damage on a failed save, or half as much damage on a successful one. |
-| 4–6 | A stray ballista bolt fires into the grove. Roll any die. On an even roll, the bolt targets a random player character. On an odd roll, the bolt targets a random red dragon. The attack has +6 to hit and deals 16 (`3d10`) piercing damage on a hit. |
+| 4–6 | A stray ballista bolt fires into the grove. Roll any die. On an even roll, the bolt targets a random player character. On an odd roll, the bolt targets a random red dragon. The attack has `+6` to hit and deals 16 (`3d10`) piercing damage on a hit. |
 | 7–8 | A [sivak draconian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/sivak-draconian-dsotdq.md) (see appendix B) arrives, appearing adjacent to the Fray near a random player character. If there is already a sivak draconian in the battle, no event occurs. |
 | 9–10 | One of the red dragons roars a prayer: "Dragon Queen, grant us your flames!" Each red dragon recharges their Fire Breath action. |
 ^hawkers-grove-battlefield-events
@@ -446,7 +439,7 @@ As the characters near the flying citadel, they must succeed on a DC 14 group De
 
 #### Red Ruin
 
-![The Dragon Army's ace drag...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/116-07-004-red-ruin.webp#center "The Dragon Army's ace dragonnel rider, Red Ruin, soars toward her target")
+![The Dragon Army's ace dragonnel rider, Red Ruin, soars toward her target](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/116-07-004-red-ruin.webp#center)
 
 After the characters avoid or contend with the dragonnels, [Clystran](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/clystran-dsotdq.md) breaks away from the Dragon Army flight path he had been following, rushing the characters toward the base of the flying citadel. Read the following text as the characters approach:
 
@@ -589,8 +582,6 @@ Each crypt contains the remains of someone whose soul was remanded to Chemosh, G
 
 **Crypt Plaques**
 
-`dice: [](08-chapter-7-siege-of-kalaman.md#^crypt-plaques)`
-
 | dice: d10 | Plaque |
 |-----------|--------|
 | 1–2 | Scratches make the plaque unreadable |
@@ -604,8 +595,6 @@ Each crypt contains the remains of someone whose soul was remanded to Chemosh, G
 ^crypt-plaques
 
 **Crypt Contents**
-
-`dice: [](08-chapter-7-siege-of-kalaman.md#^crypt-contents)`
 
 | dice: d10 | Contents |
 |-----------|----------|
@@ -948,7 +937,7 @@ If the soldier [Caradoc](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/carado
 
 #### S23: Mourning Sanctum
 
-![Wersten Kern loyally serve...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/124-07-008-werstern-kern.webp#center "Wersten Kern loyally serves Lord Soth and stands guard over the Mourning Sanctum")
+![Wersten Kern loyally serves Lord Soth and stands guard over the Mourning Sanctum](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/124-07-008-werstern-kern.webp#center)
 
 > [!readaloud] 
 > 
@@ -990,7 +979,7 @@ Two [skeletal knights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skele
 
 A cleric of Sargonnas or a character who succeeds on a DC 12 Intelligence ([Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)) check recognizes the images on the walls represent the god Sargonnas.
 
-![Lord Soth glimpses his pas...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/125-07-009-lord-soth-glimpse.webp#center "Lord Soth glimpses his past betrayals in the Mirror of Reflected Pasts")
+![Lord Soth glimpses his past betrayals in the Mirror of Reflected Pasts](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/125-07-009-lord-soth-glimpse.webp#center)
 
 #### S25: Lord Soth's Throne Room
 
@@ -1094,7 +1083,7 @@ The characters land a quarter mile from Kalaman's west wall. There is little ris
 
 ### Clash of Fallen Flames
 
-![Dragon Highmaster Kansaldi...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/129-07-011-dragon-highmaster-kansaldi.webp#center "Dragon Highmaster Kansaldi Fire-Eyes scours the battlefield astride the red dragon Ignia")
+![Dragon Highmaster Kansaldi Fire-Eyes scours the battlefield astride the red dragon Ignia](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/129-07-011-dragon-highmaster-kansaldi.webp#center)
 
 When the characters start their return to Kalaman, read the following text:
 
@@ -1140,8 +1129,6 @@ The battlefield includes the following features:
 During this encounter, on initiative count 0 each round, roll on the Clash of Fallen Flames Events table. The encounter ends when both Kansaldi and [Ignia](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ignia-dsotdq.md) are defeated.
 
 **Clash of Fallen Flames Events**
-
-`dice: [](08-chapter-7-siege-of-kalaman.md#^clash-of-fallen-flames-events)`
 
 | dice: d8 | Event |
 |----------|-------|

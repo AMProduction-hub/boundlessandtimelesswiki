@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Abyssal Chicken
+- "Abyssal Chicken"
 ---
-# [Abyssal Chicken](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/abyssal-chicken-bgdia.md)
+# [Abyssal Chicken](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/abyssal-chicken-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 97*  
 
 Abyssal chickens are carnivorous, temperamental, tasty bottom-feeders native to the Abyss. They beat their leathery wings to scare predators and to help them run faster, and they taste like fatty chicken.
@@ -41,7 +42,8 @@ With your permission, a character who casts the [find familiar](03.PlayerLog&Han
 "damage_immunities": "poison"
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 9"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft. (blind beyond this radius), passive Perception 9"
 "languages": "understands Abyssal but can't speak"
 "cr": "1/4"
 "traits":
@@ -52,10 +54,10 @@ With your permission, a character who casts the [find familiar](03.PlayerLog&Han
   - "desc": "The abyssal chicken makes two attacks: one with its bite and one with\
       \ its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d4 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage."
     "name": "Claws"
 "source":

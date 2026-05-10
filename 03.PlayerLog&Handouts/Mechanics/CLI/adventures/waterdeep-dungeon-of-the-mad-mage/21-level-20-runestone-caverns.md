@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 20: Runestone Caverns
+- "Level 20: Runestone Caverns"
 ---
 # Level 20: Runestone Caverns
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 253* 
@@ -273,7 +274,7 @@ The tentacles can't be damaged, and [dispel magic](03.PlayerLog&Handouts/Mechani
 > **Giant Snail**. In the northern part of the cave lurks [Haungharassk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/haungharassk-wdmm.md), a magical snail as large as an elephant, with a shell of gleaming gold.
 ^9dd
 
-Halaster placed [Haungharassk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/haungharassk-wdmm.md) here, setting up the trap in area 8c both to confine the creature and to prevent others from killing it. The giant snail is an unaligned Huge beast with AC 6, 52 (`7d12 + 7`) hit points, and walking and climbing speeds of 10 feet. It can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. Its ability scores are as follows: Strength 20, Dexterity 3, Constitution 13, Intelligence 3, Wisdom 10, Charisma 3. It has no attacks and can't speak. A pound of salt thrown onto the snail's skin deals `d6` acid damage to the creature.
+Halaster placed [Haungharassk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/haungharassk-wdmm.md) here, setting up the trap in area 8c both to confine the creature and to prevent others from killing it. The giant snail is an unaligned Huge beast with AC 6, 52 (`7d12 + 7`) hit points, and walking and climbing speeds of 10 feet. It can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. Its ability scores are as follows: Strength 20, Dexterity 3, Constitution 13, Intelligence 3, Wisdom 10, Charisma 3. It has no attacks and can't speak. A pound of salt thrown onto the snail's skin deals `1d6` acid damage to the creature.
 
 The glowing golden hue of [Haungharassk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/haungharassk-wdmm.md)'s shell is augmented by veins of real gold. That gold can be stripped from the shell, but only if the snail is dead (see "Treasure" below). Killing the snail yields no XP.
 
@@ -357,8 +358,6 @@ The statue is a Medium object with AC 17, 30 hit points, and immunity to poison 
 
 **Object Transformation**
 
-`dice: [](21-level-20-runestone-caverns.md#^object-transformation)`
-
 | dice: d100 | New Object |
 |------------|------------|
 | 01–10 | Bag of 20 caltrops (2 lb.) |
@@ -381,15 +380,13 @@ This empty, 10-foot-high cavern has a large question mark carved into the east w
 
 **Oracle Answers**
 
-`dice: [](21-level-20-runestone-caverns.md#^oracle-answers)`
-
 | dice: d100 | Answer |
 |------------|--------|
 | 01–25 | "No more answers today! Come back tomorrow." The oracle then ceases to function for 24 hours. |
 | 26–40 | "You already know the answer." |
 | 41–65 | "Ah, one of life's great mysteries." |
 | 66–80 | "Can you please rephrase the question?" |
-| 81–00 | "Hold, please." This answer is followed by `d10` minutes of instrumental music, during which time the oracle answers no further questions. When the music ends, roll again on this table. |
+| 81–00 | "Hold, please." This answer is followed by `1d10` minutes of instrumental music, during which time the oracle answers no further questions. When the music ends, roll again on this table. |
 ^oracle-answers
 
 ### 12. Old Behir Lair
@@ -498,7 +495,7 @@ While Halaster is linked to the Runestone, its light changes from blue-white to 
 
 The surface of the Runestone is rough and splintered. Every 12 hours, a pebble-sized fragment of the Runestone breaks off and falls to the cavern floor, though the Runestone shows no signs of ever being diminished by shedding these fragments. A broken-off fragment is magical but no longer glows. It comes to rest `1d4 × 10` feet from the base of the stalagmite.
 
-[Ezzat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ezzat-wdmm.md)'s pseudodragon companion, Ipses, gathers up Runestone fragments as it hunts for food around the stalagmite, but a few occasionally escape its notice. A character who examines the cavern floor around the spire with a [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell finds `d4` fragments. Without such magical aid, a character can find one fragment with a 1-hour search and a successful DC 20 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check.
+[Ezzat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ezzat-wdmm.md)'s pseudodragon companion, Ipses, gathers up Runestone fragments as it hunts for food around the stalagmite, but a few occasionally escape its notice. A character who examines the cavern floor around the spire with a [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell finds `1d4` fragments. Without such magical aid, a character can find one fragment with a 1-hour search and a successful DC 20 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check.
 
 Halaster has discovered a process for implanting Runestone fragments in constructs to imbue them with more intelligence and personality. These fragments might also have other magical properties, at your discretion.
 
@@ -565,7 +562,7 @@ The animated staff is a Medium construct with AC 17, 40 hit points, resistance t
 
 The staff is friendly toward [Ezzat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ezzat-wdmm.md) and Ipses (the lich's pseudodragon), and hostile toward all other creatures. It has no concern for its own well-being and fights without mercy. [Ezzat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ezzat-wdmm.md) calls off the staff if its destruction seems likely, or if he has cause to parley with intruders.
 
-The staff can use its action to make a melee weapon attack against a creature within 5 feet of it: +5 to hit; 7 (`2d6`) bludgeoning damage plus 1 cold damage on a hit.
+The staff can use its action to make a melee weapon attack against a creature within 5 feet of it: `+5` to hit; 7 (`2d6`) bludgeoning damage plus 1 cold damage on a hit.
 
 The staff has 10 charges. As an action, it can expend 1 or more of its charges to cast one of the following spells (save DC 12): [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md) (5 charges), [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md) (1 charge), [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md) (4 charges), or [wall of ice](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-ice.md) (4 charges). It regains `1d6 + 4` expended charges daily at dawn. If the staff expends its last charge, roll a `d20`. On a 1, the staff turns to water and is destroyed.
 

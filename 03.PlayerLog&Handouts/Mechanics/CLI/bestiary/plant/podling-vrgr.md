@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Podling
+- "Podling"
 ---
-# [Podling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/podling-vrgr.md)
+# [Podling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/podling-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 227*  
 
 Bodytaker plants either capture unsuspecting victims with their vines or accept captives brought to them by their podling servants. In either case, they drag creatures into their central pod, where potent chemicals render the captive comatose. Over the course of hours, the creature is dissolved and its body repurposed into a podling duplicate.
@@ -19,8 +20,6 @@ Bodytaker plants either capture unsuspecting victims with their vines or accept 
 Podlings are near-perfect mimics of the creatures they replace. Despite having the knowledge of those they mimic, podlings frequently miss the nuances of interactions between sapient beings. These duplicates make excuses about their odd behavior, but those familiar with an individual replaced by a podling can often tell something's amiss. Roll on the Podling Behavior table to see what unusual habits a podling might demonstrate.
 
 **Podling Behavior**
-
-`dice: [](podling-vrgr.md#^podling-behavior)`
 
 | dice: d6 | Behavior |
 |----------|----------|
@@ -51,7 +50,8 @@ Podlings are near-perfect mimics of the creatures they replace. Despite having t
 "speed": "20 ft."
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "blindsight 30 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., passive Perception 10"
 "languages": "Deep Speech, the languages the creature knew in life"
 "cr": "1/2"
 "traits":
@@ -67,7 +67,7 @@ Podlings are near-perfect mimics of the creatures they replace. Despite having t
   - "desc": "The podling doesn't require sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) bludgeoning damage."
     "name": "Slam"
 "source":

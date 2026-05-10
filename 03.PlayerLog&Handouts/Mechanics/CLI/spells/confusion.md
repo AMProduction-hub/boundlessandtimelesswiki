@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/rakdos-cultist
 - ttrpg-cli/spell/background/silverquill-student
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
@@ -16,11 +17,11 @@ tags:
 - ttrpg-cli/spell/subclass/circle-of-spores
 - ttrpg-cli/spell/subclass/eldritch-knight
 - ttrpg-cli/spell/subclass/knowledge-domain
-- ttrpg-cli/spell/subclass/lunar-sorcery
+- ttrpg-cli/spell/subclass/lunar-sorcery/full-moon
 - ttrpg-cli/spell/subclass/oathbreaker
 - ttrpg-cli/spell/subrace/gnome-mark-of-scribing
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Knowledge Domain)
 - Druid
 - Druid (Circle of Spores)
@@ -28,10 +29,10 @@ classes:
 - Paladin (Oathbreaker)
 - Rogue (Arcane Trickster)
 - Sorcerer
-- Sorcerer (Lunar Sorcery)
+- Sorcerer (Lunar Sorcery, Full Moon)
 - Wizard
 aliases:
-- Confusion
+- "Confusion"
 ---
 # Confusion
 *4th-level, Enchantment*  
@@ -48,8 +49,6 @@ An affected target can't take reactions and must roll a `d10` at the start of ea
 
 **Confusion Behavior**
 
-`dice: [](confusion.md#^confusion-behavior)`
-
 | dice: d10 | Behavior |
 |-----------|----------|
 | 1 | The creature uses all its movement to move in a random direction. To determine the direction, roll a `d8` and assign a direction to each die face. The creature doesn't take an action this turn. |
@@ -62,6 +61,6 @@ At the end of each of its turns, an affected target can make a Wisdom saving thr
 
 **At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each slot level above 4th.
 
-**Classes**: [Cleric (Knowledge Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-knowledge-domain.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer (Lunar Sorcery)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-lunar-sorcery-dsotdq.md "subclass=DSotDQ"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid (Circle of Spores)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE"); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Paladin (Oathbreaker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oathbreaker-dmg.md "subclass=DMG")
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Knowledge Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-knowledge-domain.md); [Druid (Circle of Spores)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Paladin (Oathbreaker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oathbreaker-dmg.md "subclass=DMG"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer (Lunar Sorcery, Full Moon)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-lunar-sorcery-dsotdq.md "subclass=DSotDQ"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 224. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

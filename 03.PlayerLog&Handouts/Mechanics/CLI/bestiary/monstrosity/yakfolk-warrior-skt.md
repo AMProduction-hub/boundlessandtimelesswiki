@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/3
@@ -9,14 +10,16 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Yakfolk Warrior
+- "Yakfolk Warrior"
 ---
-# [Yakfolk Warrior](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/yakfolk-warrior-skt.md)
+# [Yakfolk Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yakfolk-warrior-skt.md)
 *Source: Storm King's Thunder p. 244*  
+
+## Yakfolk
 
 Yakfolk, known among themselves as Yikaria ("the Lucky Chosen" in their language), are ogre-sized humanoids. Their heads resemble disgruntled yaks, complete with curved horns and dour expressions. Their hulking bodies are coated with thick fur and hair, and many outsiders can't tell the males and females apart.
 
-## Yakfolk Society
+### Yakfolk Society
 
 Other civilized races treat yakfolk as "bogeymen"-a scary race of evil, ruthless, and powerful savages. They dwell in secluded settlements sheltered from the worst of nature's abuse, including mountain valleys, soaring plateaus, and desert oases. In these seemingly idyllic hideaways, the yakfolk rule over humanoid slaves with iron fists. For all their learning and culture, yakfolk are enormously evil overlords. They care for their hapless subjects only to the extent that a live slave is more useful than a dead one, and keeping one alive is easier than laboring oneself. It's not that yakfolk are lazy-quite the contrary. They simply consider most menial tasks beneath them.
 
@@ -24,13 +27,13 @@ Outsiders that stumble into an enclave of yakfolk are usually surprised and plea
 
 Yakfolk have a drive for learning, particularly when it comes to the secrets of elemental magic and dark knowledge that might serve to corrupt or dominate others. Knowledge that the yakfolk can't gain or use is to be destroyed. Unsentimental by nature, yakfolk parents pack children off to communal creches once they are weaned, never to recognize them again. Yakfolk feel no loyalty to their families-only to their god and race.
 
-## Servants of the Forgotten God
+### Servants of the Forgotten God
 
 Yakfolk function as a malignant theocracy in service to the Forgotten God. The worship of this savage, nameless deity directs their lives. The god takes the form of a male Yikaria, but the deity's face is worn smooth into a featureless mask. The deity is appeased by sacrifice, which the followers carry out by offering slaves in the Manner Elemental-that is, by fire (immolation), earth (live burial), water (drown ing), or air (throwing the victim off a great height). Sacrifices are meant to ensure the benevolence of the deity and to punish disobedient slaves.
 
 The Forgotten God enabled the yakfolk to enslave dao for a time. It is said that the Forgotten God journeyed to the Elemental Plane of Earth and, through guile and deception, defeated the Grand Khan of the dao. The price of that defeat was harsh: the dao were forced to serve the Forgotten God and its minions-and forbidden to attack them-"for a thousand years and a year." The sentence has since expired, and yakfolk can no longer summon dao as they once did, but fear of the Forgotten God has kept the dao from seeking vengeance.
 
-## Skin Crawlers
+### Skin Crawlers
 
 A yakfolk's most frightening weapon is its ability to magically crawl under another creature's skin, control its body, and suppress its mind. The yak-folk use this ability to spy on enemies, rob them, murder their leaders, and kidnap their young.
 
@@ -57,6 +60,9 @@ A yakfolk's most frightening weapon is its ability to magically crawl under anot
     "desc": "+4"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+4"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Yikaria"
 "cr": "3"
@@ -82,10 +88,10 @@ A yakfolk's most frightening weapon is its ability to magically crawl under anot
 "actions":
   - "desc": "The yakfolk makes two attacks, either with its greatsword or its longbow."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 18\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 18\
       \ (4d6 + 4) slashing damage."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 150/600 ft., one target. *Hit:*\
       \ 9 (2d8) piercing damage."
     "name": "Longbow"
 "source":

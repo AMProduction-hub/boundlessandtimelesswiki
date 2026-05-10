@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Building a Party; Common Cause
+- "Building a Party; Common Cause"
 ---
 # Building a Party; Common Cause
 *Source: Guildmasters' Guide to Ravnica p. 11* 
 
 **Common Cause**
-
-`dice: [](building-a-party-common-cause-ggr.md#^common-cause)`
 
 | dice: d8 | Reasons for Cooperating |
 |----------|-------------------------|

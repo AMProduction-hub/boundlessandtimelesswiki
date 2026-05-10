@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Chapter 17: Against the Demon Lords
+- "Chapter 17: Against the Demon Lords"
 ---
 # Chapter 17: Against the Demon Lords
 *Source: Out of the Abyss, p. 215* 
@@ -127,7 +128,7 @@ Numerous other demons also pour through the portals. For a brief moment, all of 
 > 
 > "[Jimjar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jimjar-oota.md)" isn't at all who he appears. He is, in fact, a god or other great power in disguise—or the Chosen of such a power—and has been watching the heroes since their first encounter in Velkynvelve. His reasons for doing this are his own, but when push comes to shove, he can give the heroes some help in overcoming the demon lords.
 > 
-> At an opportune moment, [Jimjar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jimjar-oota.md) shows up (even returning from death if he appeared to perish earlier in the adventure) and gives the characters a vote of encouragement, telling them, "I bet you can do this." Each character gains inspiration and a *blessing of wound closure* (see ""Other Rewards"" in chapter 7 of the *Dungeon Master's Guide*). [Jimjar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jimjar-oota.md) disappears afterward, potentially putting in one last appearance at the end of the adventure to hint as to his true nature before vanishing into the Underdark.
+> At an opportune moment, [Jimjar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jimjar-oota.md) shows up (even returning from death if he appeared to perish earlier in the adventure) and gives the characters a vote of encouragement, telling them, "I bet you can do this." Each character gains inspiration and a [blessing of wound closure](03.PlayerLog&Handouts/Mechanics/CLI/rewards/blessing-of-wound-closure.md) (see ""Other Rewards"" in chapter 7 of the *Dungeon Master's Guide*). [Jimjar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jimjar-oota.md) disappears afterward, potentially putting in one last appearance at the end of the adventure to hint as to his true nature before vanishing into the Underdark.
 > 
 > Who is [Jimjar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jimjar-oota.md) really? That depends on your characters and the campaign, but one of the characters' patron deities is a good possibility. He might also be a gnomish god such as Garl Glittergold or Callarduran Smoothhands, known tricksters and shapeshifters, and foes of demons and their ilk. The more important thing is that he serves as a "lucky charm" for the characters when they need him. This option works particularly well if the adventurers have been kind to the sometimes annoying deep gnome over the course of the campaign, earning his respect and gratitude.
 ^option-jimjars-last-gamble
@@ -141,8 +142,6 @@ Ideally, the adventurers and their allies remain hidden from the battling demons
 Rampaging lesser demons discover one or more of the characters where they wait out the battle, attacking at once. Roll a `d4` to determine the demons involved.
 
 #### Demon Sortie Force
-
-`dice: [](17-chapter-17-against-the-demon-lords.md#^demon-sortie)`
 
 | dice: d4 | Demon Sortie |
 |----------|--------------|
@@ -158,7 +157,7 @@ An [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible
 
 #### Endangered Allies
 
-If any of the player characters' allies are accompanying them, a demon sortie (see above) attacks the NPCs. The characters must decide whether or not to break cover to aid their allies against the demons. If they do, another demon sortie attacks them `d4` rounds later.
+If any of the player characters' allies are accompanying them, a demon sortie (see above) attacks the NPCs. The characters must decide whether or not to break cover to aid their allies against the demons. If they do, another demon sortie attacks them `1d4` rounds later.
 
 > [!note] Option: Playing Out the Battle Option
 > 
@@ -174,8 +173,6 @@ If any of the player characters' allies are accompanying them, a demon sortie (s
 #### Near Miss
 
 The battle between the demon lords shifts dangerously close to the characters. Roll a `d6` and consult the Near Miss table to determine the result.
-
-`dice: [](17-chapter-17-against-the-demon-lords.md#^event)`
 
 | dice: d6 | Event |
 |----------|-------|

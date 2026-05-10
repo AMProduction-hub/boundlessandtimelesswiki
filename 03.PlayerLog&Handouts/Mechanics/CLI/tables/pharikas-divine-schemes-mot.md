@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Pharika's Divine Schemes
+- "Pharika's Divine Schemes"
 ---
 # Pharika's Divine Schemes
 *Source: Mythic Odysseys of Theros p. 161* 
 
 **Pharika's Divine Schemes**
-
-`dice: [](pharikas-divine-schemes-mot.md#^pharikas-divine-schemes)`
 
 | dice: d4 | Scheme |
 |----------|--------|

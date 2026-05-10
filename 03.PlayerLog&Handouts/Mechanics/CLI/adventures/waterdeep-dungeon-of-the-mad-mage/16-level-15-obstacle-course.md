@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 15: Obstacle Course
+- "Level 15: Obstacle Course"
 ---
 # Level 15: Obstacle Course
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 193* 
@@ -123,8 +124,6 @@ This 40-foot-deep hidden pit (see "Covered Pits") is located between the two nor
 
 Halaster has placed a teleport trap (see "Teleport Traps") between the two southern statues. A creature teleported by this trap arrives at a location determined by rolling a `d20` and consulting the following table:
 
-`dice: [](16-level-15-obstacle-course.md#^teleport-destination)`
-
 | dice: d20 | Teleport Destination |
 |-----------|----------------------|
 | 1–12 | The teleport trap in area 10 |
@@ -196,8 +195,6 @@ When an elder rune triggers within 60 feet of the creature that possesses the co
 
 This trap is located in the far west alcove in the south wall (see "Teleport Traps"). A creature teleported by this trap arrives at a location determined by rolling a `d20` and consulting the following table:
 
-`dice: [](16-level-15-obstacle-course.md#^teleport-destination)`
-
 | dice: d20 | Teleport Destination |
 |-----------|----------------------|
 | 1–10 | The teleport trap in area 19 |
@@ -217,7 +214,7 @@ The statue depicts Deep Duerra, the duergar god of conquest and psionics. Recogn
 
 ##### Treasure
 
-A [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell reveals an aura of illusion magic around the mind flayer skull, and an [identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md) spell or similar magic reveals its magical properties. A creature with the skull in its possession is [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) to mind flayers, as is anything the creature is wearing or carrying. The skull crumbles to dust and is destroyed `d10` days after leaving the statue's grasp.
+A [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell reveals an aura of illusion magic around the mind flayer skull, and an [identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md) spell or similar magic reveals its magical properties. A creature with the skull in its possession is [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) to mind flayers, as is anything the creature is wearing or carrying. The skull crumbles to dust and is destroyed `1d10` days after leaving the statue's grasp.
 
 ### 6. Looted Chest
 
@@ -233,8 +230,6 @@ A [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spe
 #### Teleport Trap
 
 In addition to the empty chest, the middle 10-foot square of the room contains a teleport trap (see "Teleport Traps"). A creature teleported by this trap arrives at a location determined by rolling a `d20` and consulting the following table:
-
-`dice: [](16-level-15-obstacle-course.md#^teleport-destination)`
 
 | dice: d20 | Teleport Destination |
 |-----------|----------------------|
@@ -264,15 +259,13 @@ His arrogance aside, [Fidelio](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/
 
 If Netherskull is reduced to 0 hit points by a creature other than [Fidelio](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fidelio-wdmm.md)'s ghost or its host, the paladin of Tyr can't accept that someone other than he dealt the killing blow. The ghost wallows in despair, doomed to haunt the Obstacle Course until another follower of Tyr convinces it to move on with a successful DC 20 Charisma ([Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)) check. A non-follower can attempt the check, but only by posing as a Tyr worshiper and fooling the ghost with a successful DC 10 Charisma ([Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)) check.
 
-If it succeeds in reducing Netherskull to 0 hit points, either as a ghost or when in possession of a host, [Fidelio](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fidelio-wdmm.md)'s ghost is laid to rest. "Victory at last!" says the ghost as it fades away. Afterward, Tyr bestows a *blessing of protection* (see ""Supernatural Gifts"" in chapter 7 of the "Dungeon Master's Guide") on any character who served as [Fidelio](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fidelio-wdmm.md)'s host.
+If it succeeds in reducing Netherskull to 0 hit points, either as a ghost or when in possession of a host, [Fidelio](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fidelio-wdmm.md)'s ghost is laid to rest. "Victory at last!" says the ghost as it fades away. Afterward, Tyr bestows a [blessing of protection](03.PlayerLog&Handouts/Mechanics/CLI/rewards/blessing-of-protection.md) (see ""Supernatural Gifts"" in chapter 7 of the "Dungeon Master's Guide") on any character who served as [Fidelio](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fidelio-wdmm.md)'s host.
 
 For laying [Fidelio](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fidelio-wdmm.md)'s spirit to rest, the characters should receive XP as if they had defeated the ghost in combat.
 
 ### 8. Teleport Trap
 
 This unadorned hallway contains a teleport trap (see "Teleport Traps"). A creature teleported by this trap arrives at a location determined by rolling a `d20` and consulting the following table:
-
-`dice: [](16-level-15-obstacle-course.md#^teleport-destination)`
 
 | dice: d20 | Teleport Destination |
 |-----------|----------------------|
@@ -312,8 +305,6 @@ The rolling statue is designed to fit snugly in the dungeon's 10-foot-wide passa
 
 A teleport trap fills the 10-foot-square space in front of the west exit. A creature teleported by this trap arrives at a location determined by rolling a `d20` and consulting the following table:
 
-`dice: [](16-level-15-obstacle-course.md#^teleport-destination)`
-
 | dice: d20 | Teleport Destination |
 |-----------|----------------------|
 | 1–12 | The teleport trap in area 13a |
@@ -346,8 +337,6 @@ Characters who search Elvilac's remains find a zurkhwood wand (used as an arcane
 
 A teleport trap fills the 10-foot-square space marked on map 15. A creature teleported by this trap arrives at a location determined by rolling a `d20` and consulting the following table:
 
-`dice: [](16-level-15-obstacle-course.md#^teleport-destination)`
-
 | dice: d20 | Teleport Destination |
 |-----------|----------------------|
 | 1–12 | The teleport trap in area 6 |
@@ -377,8 +366,6 @@ Two traps are hidden in these unadorned halls.
 #### 13a. Teleport Trap
 
 A teleport trap (see "Teleport Traps") fills the 10-foot-square space marked on the map. A creature teleported by this trap arrives at a location determined by rolling a `d20` and consulting the following table:
-
-`dice: [](16-level-15-obstacle-course.md#^teleport-destination)`
 
 | dice: d20 | Teleport Destination |
 |-----------|----------------------|
@@ -435,7 +422,7 @@ Lorlynn wears a tattered gray spider silk robe and cowl that, coupled with her g
 
 Each sarcophagus sits atop a 1-foot-tall stone bier and is 7 feet long, 3 feet wide, and 3 feet tall. A character with a Strength score of 15 or higher can push off the lid of a sarcophagus easily. The contents of each sarcophagus are described below:
 
-- The northern sarcophagus has a gaping crack in one of its sides, and four harmless rats have used this crack to creep inside and make a nest among the moldering bones of a sahuagin (placed here by Halaster to confound grave robbers). Lifting the lid or tapping on the sarcophagus causes `d4` rats to emerge in a panic. The detritus in the nest includes two random trinkets, determined by rolling on the [Trinkets](03.PlayerLog&Handouts/Mechanics/CLI/items/trinket.md) table in chapter 5 of the "Player's Handbook".  
+- The northern sarcophagus has a gaping crack in one of its sides, and four harmless rats have used this crack to creep inside and make a nest among the moldering bones of a sahuagin (placed here by Halaster to confound grave robbers). Lifting the lid or tapping on the sarcophagus causes `1d4` rats to emerge in a panic. The detritus in the nest includes two random trinkets, determined by rolling on the [Trinkets](03.PlayerLog&Handouts/Mechanics/CLI/items/trinket.md) table in chapter 5 of the "Player's Handbook".  
 - The middle sarcophagus is full of cobwebs, hidden under which is a right-handed iron gauntlet with six fingers. Characters can use the gauntlet to activate the gate in area 24c.  
 - The southern sarcophagus (Lorlynn's bed) has a secret compartment in the bottom that can be found with a successful DC 20 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check. Its contents are described in "Treasure" below.  
 
@@ -517,8 +504,6 @@ The ropers remain still and hold their pillar-like shapes until the key is distu
 
 A creature teleported by this room's teleport trap arrives at a location determined by rolling a `d20` and consulting the following table:
 
-`dice: [](16-level-15-obstacle-course.md#^teleport-destination)`
-
 | dice: d20 | Teleport Destination |
 |-----------|----------------------|
 | 1–8 | The teleport trap in area 5b |
@@ -544,8 +529,6 @@ These tunnels contain two teleport traps (see "Teleport Traps").
 
 A creature teleported by this trap arrives at a location determined by rolling a `d20` and consulting the following table:
 
-`dice: [](16-level-15-obstacle-course.md#^teleport-destination)`
-
 | dice: d20 | Teleport Destination |
 |-----------|----------------------|
 | 1–10 | The teleport trap in area 26 |
@@ -559,8 +542,6 @@ When a creature is teleported by this trap, a disembodied voice shouts, "Telepor
 #### 22b. East Teleport Trap
 
 A creature teleported by this trap arrives at a location determined by rolling a `d20` and consulting the following table:
-
-`dice: [](16-level-15-obstacle-course.md#^teleport-destination)`
 
 | dice: d20 | Teleport Destination |
 |-----------|----------------------|
@@ -604,8 +585,6 @@ Characters who hold bright light sources in this room or make a lot of noise ale
 ##### Teleport Trap
 
 This trap fills a 10-foot-square section of the passage leading to area 24d. A creature teleported by this trap arrives at a location determined by rolling a `d20` and consulting the following table:
-
-`dice: [](16-level-15-obstacle-course.md#^teleport-destination)`
 
 | dice: d20 | Teleport Destination |
 |-----------|----------------------|
@@ -681,8 +660,6 @@ The statue can't be budged or damaged. A [detect magic](03.PlayerLog&Handouts/Me
 
 This trap fills the 10-foot square directly in front of the statue. A creature teleported by this trap arrives at a location determined by rolling a `d20` and consulting the following table:
 
-`dice: [](16-level-15-obstacle-course.md#^teleport-destination)`
-
 | dice: d20 | Teleport Destination |
 |-----------|----------------------|
 | 1–6 | The teleport trap in area 1 |
@@ -726,7 +703,7 @@ Zorak makes two attacks with his [dwarven thrower](03.PlayerLog&Handouts/Mechani
 
 ##### Dwarven Thrower
 
-*Melee or Ranged Weapon Attack*: +12 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit*: 11 (`1d8 + 7`) bludgeoning damage, or 12 (`1d10 + 7`) bludgeoning damage when used with two hands to make a melee attack. On a ranged attack that hits, the hammer deals an extra `d8` bludgeoning damage (`2d8` if the target is a giant). *Hit or Miss*: If thrown, the weapon flies back to Zorak's hand after the attack.
+*Melee or Ranged Weapon Attack*: `+12` to hit, reach 5 ft. or range 20/60 ft., one target. *Hit*: 11 (`1d8 + 7`) bludgeoning damage, or 12 (`1d10 + 7`) bludgeoning damage when used with two hands to make a melee attack. On a ranged attack that hits, the hammer deals an extra `1d8` bludgeoning damage (`2d8` if the target is a giant). *Hit or Miss*: If thrown, the weapon flies back to Zorak's hand after the attack.
 
 ### 28. Statue of Tharmekhûl
 
@@ -737,8 +714,6 @@ The statue can't be budged or damaged. A [detect magic](03.PlayerLog&Handouts/Me
 #### Teleport Trap
 
 This trap fills the 10-foot square directly in front of the statue. A creature teleported by this trap arrives at a location determined by rolling a `d20` and consulting the following table:
-
-`dice: [](16-level-15-obstacle-course.md#^teleport-destination)`
 
 | dice: d20 | Teleport Destination |
 |-----------|----------------------|
@@ -790,18 +765,18 @@ The challenges that await adventurers in these areas can be directly attributed 
 > **Monsters**. Sitting on the steps of the dais, scribbling madly in a journal with a quill pen, is a wretchedly pale man in a dusty black robe. He is watched over by two [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) [nycaloths](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/nycaloth.md).
 ^7f5
 
-To flatter Netherskull, Halaster assigned a would-be apprentice to chronicle the death tyrant's history in a series of journals. This biographer is a skittish, ill-bred, and unkempt male human in his thirties named [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-wdmm.md) Mereshanter. [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-wdmm.md) is a [mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage.md), with these changes:
+To flatter Netherskull, Halaster assigned a would-be apprentice to chronicle the death tyrant's history in a series of journals. This biographer is a skittish, ill-bred, and unkempt male human in his thirties named [Kavil Mereshanter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-mereshanter-wdmm.md). [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-mereshanter-wdmm.md) is a [mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage.md), with these changes:
 
-- [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-wdmm.md) is neutral evil.  
+- [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-mereshanter-wdmm.md) is neutral evil.  
 - He speaks Dwarvish, Common, Giant, and Undercommon.  
 
-[Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-wdmm.md) was denied admittance to Dweomercore (level 9), and Halaster robbed him of his spellbook. The Mad Mage has promised to return the book once [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-wdmm.md) completes his work. (In fact, Halaster has misplaced the spellbook, though [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-wdmm.md) is unaware of this.)
+[Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-mereshanter-wdmm.md) was denied admittance to Dweomercore (level 9), and Halaster robbed him of his spellbook. The Mad Mage has promised to return the book once [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-mereshanter-wdmm.md) completes his work. (In fact, Halaster has misplaced the spellbook, though [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-mereshanter-wdmm.md) is unaware of this.)
 
-As Netherskull's appointed biographer, [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-wdmm.md) is expected to earn the death tyrant's trust, but Netherskull trusts no wizard, and has been reluctant to grant interviews. [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-wdmm.md) has instead filled one journal after another with his own narrative concoctions and self-pitying asides. The biography is a mostly fictionalized, somewhat sensationalized version of Netherskull's life, death, and undeath. [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-wdmm.md) knows that anyone who reads this drivel won't be fooled, but he's hoping the deluge of words will impress Halaster while simultaneously discouraging close examination of the work.
+As Netherskull's appointed biographer, [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-mereshanter-wdmm.md) is expected to earn the death tyrant's trust, but Netherskull trusts no wizard, and has been reluctant to grant interviews. [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-mereshanter-wdmm.md) has instead filled one journal after another with his own narrative concoctions and self-pitying asides. The biography is a mostly fictionalized, somewhat sensationalized version of Netherskull's life, death, and undeath. [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-mereshanter-wdmm.md) knows that anyone who reads this drivel won't be fooled, but he's hoping the deluge of words will impress Halaster while simultaneously discouraging close examination of the work.
 
-[Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-wdmm.md) won't start a fight, but he sides with the nycaloths if a battle erupts, which is likely since the fiends have orders to slay intruders. If reduced to 33 hit points or fewer, [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-wdmm.md) switches sides and offers information in exchange for his life. He knows one random Undermountain secret, determined by drawing a card from the [Secrets Deck](03.PlayerLog&Handouts/Mechanics/CLI/decks/secrets-deck-wdmm.md) (see appendix C), as well as a secret way into Netherskull's lair (see area 39b). [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-wdmm.md) isn't aware of the secret door that leads to area 30b.
+[Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-mereshanter-wdmm.md) won't start a fight, but he sides with the nycaloths if a battle erupts, which is likely since the fiends have orders to slay intruders. If reduced to 33 hit points or fewer, [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-mereshanter-wdmm.md) switches sides and offers information in exchange for his life. He knows one random Undermountain secret, determined by drawing a card from the [Secrets Deck](03.PlayerLog&Handouts/Mechanics/CLI/decks/secrets-deck-wdmm.md) (see appendix C), as well as a secret way into Netherskull's lair (see area 39b). [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-mereshanter-wdmm.md) isn't aware of the secret door that leads to area 30b.
 
-Characters who spend at least 10 minutes poring over [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-wdmm.md)'s journal can piece together bits of Netherskull's history and, with a successful DC 10 Wisdom ([Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)) check, separate out [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-wdmm.md)'s gibberish to learn the following truths:
+Characters who spend at least 10 minutes poring over [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-mereshanter-wdmm.md)'s journal can piece together bits of Netherskull's history and, with a successful DC 10 Wisdom ([Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)) check, separate out [Kavil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kavil-mereshanter-wdmm.md)'s gibberish to learn the following truths:
 
 - The beholder's true name is unknown. It changed its name to Netherskull after becoming a death tyrant.  
 - Netherskull has slain countless interlopers, none more deserving of death than a pompous human paladin named [Fidelio](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fidelio-wdmm.md), who wept bitter tears before his disintegration.  
@@ -854,8 +829,6 @@ The embers easily slip through the grasp of [mage hand](03.PlayerLog&Handouts/Me
 
 **Magic Embers**
 
-`dice: [](16-level-15-obstacle-course.md#^magic-embers)`
-
 | dice: d6 | Magical Effect |
 |----------|----------------|
 | 1 | The creature that caught the ember gains immunity to fire damage for the next 24 hours. |
@@ -883,8 +856,6 @@ Any magic items teleported away by the [statue of Vergadain](03.PlayerLog&Handou
 #### Teleport Trap
 
 This trap fills the alcove. A creature teleported by this trap arrives at a location determined by rolling a `d20` and consulting the following table:
-
-`dice: [](16-level-15-obstacle-course.md#^teleport-destination)`
 
 | dice: d20 | Teleport Destination |
 |-----------|----------------------|
@@ -933,8 +904,6 @@ The dead dwarf was an adventuring rogue named Xelba Shunlight. She clutches a sh
 
 A creature teleported by this trap arrives at a location determined by rolling a `d20` and consulting the following table:
 
-`dice: [](16-level-15-obstacle-course.md#^teleport-destination)`
-
 | dice: d20 | Teleport Destination |
 |-----------|----------------------|
 | 1–8 | The teleport trap in area 6 |
@@ -949,8 +918,6 @@ These dwarven vaults were looted long ago. The heavy iron vault doors have all b
 #### 36a. Teleport Trap
 
 A creature teleported by this trap arrives at a location determined by rolling a `d20` and consulting the following table:
-
-`dice: [](16-level-15-obstacle-course.md#^teleport-destination)`
 
 | dice: d20 | Teleport Destination |
 |-----------|----------------------|

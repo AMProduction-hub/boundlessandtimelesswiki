@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Trapper
+- "Trapper"
 ---
-# [Trapper](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/trapper-mpmm.md)
+# [Trapper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/trapper-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 245, Volo's Guide to Monsters p. 194*  
 
 A trapper is a manta-like creature that usually lurks in subterranean environments. It can change the color and texture of its tough, outward-facing side to help it blend in with its surroundings, while its soft, inward-facing side clings to the floor, wall, or ceiling in its hunting territory. It remains motionless as it waits for prey to come close. When a target is within its reach, it peels itself away from the surface and wraps around its prey, crushing, smothering, and then digesting it. Only a scattering of bones, metal, treasure, and other indigestible bits is left behind.
@@ -44,7 +45,9 @@ A trapper needs to eat a [halfling](03.PlayerLog&Handouts/Mechanics/CLI/races/ha
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+2"
-"senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 11"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": ""
 "cr": "3"
 "traits":
@@ -61,7 +64,7 @@ A trapper needs to eat a [halfling](03.PlayerLog&Handouts/Mechanics/CLI/races/ha
   - "desc": "One Large or smaller creature within 10 feet of the trapper must succeed\
       \ on a DC 13 Dexterity saving throw or be [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14). Until the grapple ends, the target takes 13 (3d6 + 3) bludgeoning\
-      \ damage plus 3 (d6) acid damage at the start of each of its turns. While\
+      \ damage plus 3 (1d6) acid damage at the start of each of its turns. While\
       \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ in this way, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\

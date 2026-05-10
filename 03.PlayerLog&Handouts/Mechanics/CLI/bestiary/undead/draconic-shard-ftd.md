@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/17
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Draconic Shard
+- "Draconic Shard"
 ---
-# [Draconic Shard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/draconic-shard-ftd.md)
+# [Draconic Shard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/draconic-shard-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 181*  
 
 Gem dragons wield psionic power, and when a powerful gem dragon perishes, the force of the dragon's will and mind sometimes refuses to pass on. This essence lingers in the form of a psychic remnant called a draconic shard.
@@ -39,10 +40,10 @@ A draconic shard is difficult to destroy. Destroying the shard's spectral form o
   - !!int "22"
 "speed": "0 ft., fly 80 ft. (hover)"
 "saves":
-  - "dexterity": "+7"
-  - "intelligence": "+12"
-  - "wisdom": "+10"
-  - "charisma": "+12"
+  - "dexterity": !!int "7"
+  - "intelligence": !!int "12"
+  - "wisdom": !!int "10"
+  - "charisma": !!int "12"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+12"
@@ -63,21 +64,23 @@ A draconic shard is difficult to destroy. Destroying the shard's spectral form o
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 26"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 26"
 "languages": "Common, Draconic, telepathy 120 ft."
 "cr": "17"
 "traits":
   - "desc": "The shard's AC includes its Intelligence modifier."
     "name": "Deflection"
   - "desc": "The shard can move through creatures and objects as if they were difficult\
-      \ terrain. If it ends its turn inside an object, it takes 5 (d10) force damage."
+      \ terrain. If it ends its turn inside an object, it takes 5 (1d10) force damage."
     "name": "Incorporeal Movement"
   - "desc": "If the shard fails a saving throw, it can choose to succeed instead."
     "name": "Legendary Resistance (3/Day)"
   - "desc": "When it drops to 0 hit points, the shard disappears and leaves a Tiny\
       \ cracked gemstone in its space. The gemstone matches the kind of gem dragon\
       \ it was in life and has AC 20, 15 hit points, and immunity to all damage except\
-      \ force. Unless the gemstone is destroyed, after d20 days, the gemstone dissipates\
+      \ force. Unless the gemstone is destroyed, after 1d20 days, the gemstone dissipates\
       \ and the shard re-forms, regaining all its hit points and appearing in the\
       \ place the gemstone once occupied or in the nearest unoccupied space."
     "name": "Rejuvenation"
@@ -86,8 +89,8 @@ A draconic shard is difficult to destroy. Destroying the shard's spectral form o
 "actions":
   - "desc": "The shard makes two Telekinetic Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +12 to hit, reach 10 ft. or range\
-      \ 120 ft., one target. Hit: 15 (2d8 + 6) force damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +12 to hit, reach 10 ft. or range\
+      \ 120 ft., one target. *Hit:* 15 (2d8 + 6) force damage."
     "name": "Telekinetic Rend"
   - "desc": "The shard disappears as it pours its psychic essence into a Medium or\
       \ smaller nonsentient object it can see within 30 feet of it, magically possessing\
@@ -103,7 +106,7 @@ A draconic shard is difficult to destroy. Destroying the shard's spectral form o
       \ verbally or telepathically, cast spells, and use its legendary actions.\n\n\
       If a creature wears or carries the inhabited object, the shard can grant the\
       \ creature the following benefits:\n\nEach of the creature's attacks deals an\
-      \ extra d8 force damage on a hit.\n\nThe creature gains resistance to psychic\
+      \ extra 1d8 force damage on a hit.\n\nThe creature gains resistance to psychic\
       \ damage."
     "name": "Inhabit Object"
   - "desc": "The shard unleashes a pulse of psychic power. Each creature of the shard's\
@@ -115,10 +118,13 @@ A draconic shard is difficult to destroy. Destroying the shard's spectral form o
     "name": "Psychic Crush (Recharge 5-6)"
   - "desc": "The shard casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 20):\n\n\
-      At will: [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      **At will:** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)"
     "name": "Spellcasting (Psionics)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the draconic shard can expend a use to take one of the following actions.\
+  \ The draconic shard regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The shard makes one Telekinetic Rend attack."
     "name": "Rend"
@@ -129,8 +135,8 @@ A draconic shard is difficult to destroy. Destroying the shard's spectral form o
       \ until the end of its next turn. While [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
       \ in this way, the target becomes the shard's puppet, acting and moving in accordance\
       \ with its telepathic commands. While under the shard's control, the target\
-      \ can take only the Attack (shard chooses the target) or Dash action on its\
-      \ turn."
+      \ can take only the Attack (shard chooses the target) or [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash)\
+      \ action on its turn."
     "name": "Commanding Thought (Costs 2 Actions)"
 "source":
   - "FTD"

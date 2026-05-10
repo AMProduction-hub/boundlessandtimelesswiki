@@ -1,18 +1,19 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/13
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/size/medium
-- ttrpg-cli/monster/type/humanoid/elf
+- ttrpg-cli/monster/type/humanoid/drow-elf
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Drow Arachnomancer
+- "Drow Arachnomancer"
 ---
-# [Drow Arachnomancer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/drow-arachnomancer-mpmm.md)
+# [Drow Arachnomancer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-arachnomancer-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 99, Mordenkainen's Tome of Foes p. 182*  
 
 Drow spellcasters who seek to devote themselves wholly to [Lolth](03.PlayerLog&Handouts/Mechanics/CLI/deities/drow-lolth-mtf.md), the Spider Queen, sometimes walk the sinister path of the arachnomancer. By offering up body and soul to Lolth, they gain tremendous power and a supernatural connection to the ancient spiders of the Demonweb Pits, channeling magic from that dread place.
@@ -21,7 +22,7 @@ Drow spellcasters who seek to devote themselves wholly to [Lolth](03.PlayerLog&H
 "name": "Drow Arachnomancer (MPMM)"
 "size": "Medium"
 "type": "humanoid"
-"subtype": "elf"
+"subtype": "Drow elf"
 "alignment": "Typically  Chaotic Evil"
 "ac": !!int "15"
 "ac_class": "[studded leather](03.PlayerLog&Handouts/Mechanics/CLI/items/studded-leather-armor.md)"
@@ -37,9 +38,9 @@ Drow spellcasters who seek to devote themselves wholly to [Lolth](03.PlayerLog&H
   - !!int "16"
 "speed": "30 ft., climb 30 ft."
 "saves":
-  - "constitution": "+7"
-  - "intelligence": "+9"
-  - "charisma": "+8"
+  - "constitution": !!int "7"
+  - "intelligence": !!int "9"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+9"
@@ -50,7 +51,9 @@ Drow spellcasters who seek to devote themselves wholly to [Lolth](03.PlayerLog&H
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+8"
 "damage_resistances": "poison"
-"senses": "blindsight 10 ft., darkvision 120 ft., passive Perception 17"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 17"
 "languages": "Elvish, Undercommon, can speak with spiders"
 "cr": "13"
 "traits":
@@ -70,7 +73,7 @@ Drow spellcasters who seek to devote themselves wholly to [Lolth](03.PlayerLog&H
   - "desc": "The drow makes three attacks, using Bite, Poisonous Touch, Web, or a\
       \ combination of them. One attack can be replaced by a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d8 + 3) piercing damage, and the target must make a DC 15 Constitution\
       \ saving throw, taking 31 (7d8) poison damage on a failed save, or half as\
       \ much damage on a successful one. If the poison damage reduces the target to\
@@ -79,10 +82,10 @@ Drow spellcasters who seek to devote themselves wholly to [Lolth](03.PlayerLog&H
       \ while [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ in this way."
     "name": "Bite (Spider Form Only)"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 35\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 35\
       \ (10d6) poison damage."
     "name": "Poisonous Touch (Humanoid Form Only)"
-  - "desc": "Ranged Weapon Attack: +8 to hit, range 30/60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +8 to hit, range 30/60 ft., one target. *Hit:*\
       \ The target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ by webbing. As an action, the [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ target can make a DC 15 Strength check, bursting the webbing on a success.\
@@ -91,9 +94,9 @@ Drow spellcasters who seek to devote themselves wholly to [Lolth](03.PlayerLog&H
     "name": "Web (Spider Form Only; (Recharge 5-6))"
   - "desc": "The drow casts one of the following spells, requiring no material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 17):\n\n\
-      At will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
-      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n1/day\
-      \ each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      **At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n**1/day\
+      \ each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [etherealness](03.PlayerLog&Handouts/Mechanics/CLI/spells/etherealness.md),\
       \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\

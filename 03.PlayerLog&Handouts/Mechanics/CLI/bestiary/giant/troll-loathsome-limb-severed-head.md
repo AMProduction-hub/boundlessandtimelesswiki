@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -15,10 +16,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Troll (Loathsome Limb; Severed Head)
+- "Troll (Loathsome Limb; Severed Head)"
 ---
-# [Troll (Loathsome Limb; Severed Head)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/troll-loathsome-limb-severed-head.md)
-*Source: Monster Manual p. 291, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Storm Lord's Wrath, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Troll (Loathsome Limb; Severed Head)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/troll-loathsome-limb-severed-head.md)
+*Source: Monster Manual p. 291. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Troll (Loathsome Limb; Severed Head)"
@@ -40,7 +41,8 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Giant"
 "cr": "5"
 "traits":
@@ -53,20 +55,11 @@ aliases:
       \ and doesn't regenerate."
     "name": "Regeneration"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) piercing damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "ToA"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "SLW"
-  - "EGW"
 ```
 ^statblock
 

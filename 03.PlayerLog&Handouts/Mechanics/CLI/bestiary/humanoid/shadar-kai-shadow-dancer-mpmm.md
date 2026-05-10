@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Shadar-kai Shadow Dancer
+- "Shadar-kai Shadow Dancer"
 ---
-# [Shadar-kai Shadow Dancer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/shadar-kai-shadow-dancer-mpmm.md)
+# [Shadar-kai Shadow Dancer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/shadar-kai-shadow-dancer-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 213, Mordenkainen's Tome of Foes p. 225*  
 
 Those who have fought shadow dancers describe the experience as similar to fighting a living darkness. Every dim alcove and darkened nook is a place the lithe and acrobatic shadow dancers can emerge from to ambush their prey. Using this tactic, they attack their enemies from all angles with a flurry of entangling chains that hold fast and corrupt the flesh. When their quarry is helpless, they dispatch it and then loot the corpse for trinkets, particularly anything colorful and lively to gaze at after they return to the gloom of the Shadowfell.
@@ -55,15 +56,16 @@ Shadar-kai encountered outside the Shadowfell are often on quests to find the mo
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+6"
-  - "charisma": "+4"
+  - "dexterity": !!int "6"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "damage_resistances": "necrotic"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common, Elvish"
 "cr": "7"
 "traits":
@@ -74,14 +76,14 @@ Shadar-kai encountered outside the Shadowfell are often on quests to find the mo
   - "desc": "The shadar-kai makes three Spiked Chain attacks.\n\nIt can use Shadow\
       \ Jump after one of these attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
       \ 10 (2d6 + 3) piercing damage. The target must succeed on a DC 14 Dexterity\
       \ saving throw or suffer one of the following effects (choose one or roll a\
-      \ d6):\n\n- 1–2 Decay. The target takes 22 (4d10) necrotic damage. \
-      \ \n- 3–4 Grapple. The target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ d6):\n\n- **1–2 Decay.** The target takes 22 (4d10) necrotic damage. \
+      \ \n- **3–4 Grapple.** The target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14) if it is a Medium or smaller creature. Until the grapple ends,\
       \ the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
-      \ and the shadar-kai can't grapple another target.  \n- 5–6 Topple. The\
+      \ and the shadar-kai can't grapple another target.  \n- **5–6 Topple.** The\
       \ target is knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
       \  "
     "name": "Spiked Chain"

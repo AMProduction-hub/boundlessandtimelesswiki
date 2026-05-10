@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
@@ -12,14 +13,14 @@ tags:
 - ttrpg-cli/spell/subclass/arcana-domain
 - ttrpg-cli/spell/subclass/divine-soul
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Cleric (Arcana Domain)
 - Sorcerer (Divine Soul)
 - Warlock
 - Wizard
 aliases:
-- Create Undead
+- "Create Undead"
 ---
 # Create Undead
 *6th-level, Necromancy*  
@@ -38,6 +39,6 @@ The creature is under your control for 24 hours, after which it stops obeying an
 
 **At Higher Levels.** When you cast this spell using a 7th-level spell slot, you can animate or reassert control over four [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md). When you cast this spell using an 8th-level spell slot, you can animate or reassert control over five [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) or two [ghasts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghast.md) or [wights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wight.md). When you cast this spell using a 9th-level spell slot, you can animate or reassert control over six [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md), three [ghasts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghast.md) or [wights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wight.md), or two [mummies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/mummy.md).
 
-**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 229. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

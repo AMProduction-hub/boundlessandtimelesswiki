@@ -1,24 +1,25 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/1-2
 - ttrpg-cli/monster/size/medium
-- ttrpg-cli/monster/type/humanoid/dusk-elf
+- ttrpg-cli/monster/type/humanoid/elf
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Savid
+- "Savid"
 ---
-# [Savid](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/savid-cos.md)
+# [Savid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/savid-cos.md)
 *Source: Curse of Strahd p. 133*  
 
 ```statblock
 "name": "Savid (CoS)"
 "size": "Medium"
 "type": "humanoid"
-"subtype": "Dusk elf"
+"subtype": "elf"
 "alignment": "Neutral"
 "ac": !!int "13"
 "ac_class": "[leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/leather-armor.md)"
@@ -42,6 +43,9 @@ aliases:
     "desc": "+6"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+5"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 15"
 "languages": "any one language (usually Common)"
 "cr": "1/2"
@@ -52,11 +56,11 @@ aliases:
 "actions":
   - "desc": "Savid makes two melee attacks or two ranged attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, ranged 150/600 ft., one target.\
-      \ Hit: 6 (1d8 + 2) piercing damage."
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, ranged 150/600 ft., one target.\
+      \ *Hit:* 6 (1d8 + 2) piercing damage."
     "name": "Longbow"
 "source":
   - "CoS"

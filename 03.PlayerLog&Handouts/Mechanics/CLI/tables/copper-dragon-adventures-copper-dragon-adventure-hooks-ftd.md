@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Copper Dragon Adventures; Copper Dragon Adventure Hooks
+- "Copper Dragon Adventures; Copper Dragon Adventure Hooks"
 ---
 # Copper Dragon Adventures; Copper Dragon Adventure Hooks
 *Source: Fizban's Treasury of Dragons p. 99* 
 
 **Copper Dragon Adventure Hooks**
-
-`dice: [](copper-dragon-adventures-copper-dragon-adventure-hooks-ftd.md#^copper-dragon-adventure-hooks)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|

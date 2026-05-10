@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Emerald Enclave Scout
+- "Emerald Enclave Scout"
 ---
-# [Emerald Enclave Scout](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/emerald-enclave-scout-oota.md)
+# [Emerald Enclave Scout](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/emerald-enclave-scout-oota.md)
 *Source: Out of the Abyss p. 130*  
 
 ```statblock
@@ -43,7 +44,11 @@ aliases:
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+5"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 15"
+"gear":
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
+  - "[war pick](03.PlayerLog&Handouts/Mechanics/CLI/items/war-pick.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Common, Dwarvish"
 "cr": "1/2"
 "traits":
@@ -55,11 +60,11 @@ aliases:
 "actions":
   - "desc": "The scout makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage."
     "name": "War Pick"
-  - "desc": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit:\
-      \ 5 (d10) piercing damage."
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, range 100/400 ft., one target. *Hit:*\
+      \ 5 (1d10) piercing damage."
     "name": "Heavy Crossbow"
 "source":
   - "OotA"

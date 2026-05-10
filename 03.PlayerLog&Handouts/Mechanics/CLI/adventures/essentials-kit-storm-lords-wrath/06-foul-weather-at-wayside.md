@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/slw
 aliases:
-- Foul Weather at Wayside
+- "Foul Weather at Wayside"
 ---
 # Foul Weather at Wayside
 *Source: Essentials Kit: Storm Lord's Wrath* 
@@ -113,7 +114,7 @@ The creatures clawing at the doors are not monsters at all. The cultists have us
 
 Once characters are within 30 feet of the poor souls, they can attempt a DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check, with disadvantage due to the pouring rain, to realize that these people ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) are staked to the doors by small tridents and trying to pull themselves off. They each only have 1 hit point and are [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).
 
-Unless the tridents can be pulled out with a soft touch, requiring a successful DC 15 Dexterity ([Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand)) or Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)) check, the removal does 4 (`d8`) points of damage, and easily kills the victim.
+Unless the tridents can be pulled out with a soft touch, requiring a successful DC 15 Dexterity ([Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand)) or Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)) check, the removal does 4 (`1d8`) points of damage, and easily kills the victim.
 
 > [!gallery]
 > ![Map 5: Wayside Inn](03.PlayerLog&Handouts/Mechanics/CLI/adventures/essentials-kit-storm-lords-wrath/img/009-ivsrz-map-wayside-inn-final_dm.webp#gallery)

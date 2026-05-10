@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Demon Customization Tables; Unusual Demon Features
+- "Demon Customization Tables; Unusual Demon Features"
 ---
 # Demon Customization Tables; Unusual Demon Features
 *Source: Mordenkainen's Tome of Foes p. 33* 
 
 **Unusual Demon Features**
-
-`dice: [](demon-customization-tables-unusual-demon-features-mtf.md#^unusual-demon-features)`
 
 | dice: d20 | Feature |
 |-----------|---------|

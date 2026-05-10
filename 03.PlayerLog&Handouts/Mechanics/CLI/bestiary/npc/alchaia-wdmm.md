@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Al'chaia
+- "Al'chaia"
 ---
-# [Al'chaia](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/alchaia-wdmm.md)
+# [Al'chaia](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/alchaia-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 218*  
 
 ```statblock
@@ -22,7 +23,7 @@ aliases:
 "alignment": "Lawful Evil"
 "ac": !!int "18"
 "ac_class": "[plate armor](03.PlayerLog&Handouts/Mechanics/CLI/items/plate-armor.md)"
-"hp": !!int "91"
+"hp": !!int "140"
 "hit_dice": "14d8 + 28"
 "modifier": !!int "2"
 "stats":
@@ -34,26 +35,26 @@ aliases:
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+5"
-  - "intelligence": "+5"
-  - "wisdom": "+5"
+  - "constitution": !!int "5"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "5"
 "senses": "passive Perception 12"
 "languages": "Gith"
 "cr": "8"
 "traits":
   - "desc": "Al'chaia's innate spellcasting ability is Intelligence (spell save DC\
       \ 13, +5 to hit with spell attacks). It can innately cast the following spells,\
-      \ requiring no components:\n\nAt will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\
-      \ (the hand is invisible)\n\n3/day each: [jump](03.PlayerLog&Handouts/Mechanics/CLI/spells/jump.md),\
+      \ requiring no components:\n\n**At will:** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\
+      \ (the hand is invisible)\n\n**3/day each:** [jump](03.PlayerLog&Handouts/Mechanics/CLI/spells/jump.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md), [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md)\
       \ (self only), [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\
-      \n1/day each: [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md),\
+      \n**1/day each:** [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md),\
       \ [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)"
     "name": "Innate Spellcasting (Psionics)"
 "actions":
   - "desc": "Al'chaia makes two silver greatsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d6 + 6) slashing damage plus 10 (3d6) psychic damage. This is a magic\
       \ weapon attack. On a critical hit against a target in an astral body (as with\
       \ the [astral projection](03.PlayerLog&Handouts/Mechanics/CLI/spells/astral-projection.md)\

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Halflings and Gnomes
+- "Halflings and Gnomes"
 ---
 # Halflings and Gnomes
 *Source: Mordenkainen's Tome of Foes, p. 99* 
@@ -287,7 +288,7 @@ Of course, not every journey into the world involves risking one's life or claim
 > 
 > Halflings in the world of Greyhawk live in underground burrows or small cottages in the grasslands or hills. They are lightly covered with hair over most of their bodies, especially on the backs of their hands and the tops of their feet, and they rarely wear shoes. The three subraces are the hairfeet, which are the most numerous; the tallfellows, which are the tallest and least athletic of the halflings, somewhat resembling elves; and the stouts, which are more akin to dwarves in temperament and stature than the other two.
 > 
-> On the world of Athas in the Dark Sun setting, halflings are feral creatures, prone to devouring the flesh of humans and elves. Small, furtive and sunbronzed, they live a hard life under their chief, eking out a savage existence by hunting, foraging, and raiding. Outside their tribe, halflings are mistrusting, cynical, and often paranoid, since they think that all other races are as fond of devouring humanoids as they are.
+> On the world of Athas in the Dark Sun setting, halflings are feral creatures, prone to devouring the flesh of humans and elves. Small, furtive and sun-bronzed, they live a hard life under their chief, eking out a savage existence by hunting, foraging, and raiding. Outside their tribe, halflings are mistrusting, cynical, and often paranoid, since they think that all other races are as fond of devouring humanoids as they are.
 ^halflings-of-the-multiverse
 
 ## Halfling Tables
@@ -346,7 +347,7 @@ These inventors are rarely reluctant to try making devices of exceptional power,
 
 > [!note] Celestial Toymakers
 > 
-> A handful of master artificers exist among the rock gnomes who take the magic of their craft to new heights. These legendary gnomes usually reside in Bytopia and on other planes far from the Material Plane, locales where they can access and harness powerful energies. They have unlocked secrets of the multiverse that enable them to fashion mind-boggling creations-their socalled "celestial toys."
+> A handful of master artificers exist among the rock gnomes who take the magic of their craft to new heights. These legendary gnomes usually reside in Bytopia and on other planes far from the Material Plane, locales where they can access and harness powerful energies. They have unlocked secrets of the multiverse that enable them to fashion mind-boggling creations—their so-called "celestial toys."
 > 
 > These master artificers are friendly to those who seek them out. They enjoy showing off their works and take great glee in watching visitors interact with their toys, while they scribble notes on how to refine their creations.
 > 

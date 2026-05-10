@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 aliases:
-- Chapter 15: Werewolf Den
+- "Chapter 15: Werewolf Den"
 ---
 # Chapter 15: Werewolf Den
 *Source: Curse of Strahd, p. 201* 

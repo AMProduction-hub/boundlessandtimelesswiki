@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/deity/nonhuman
 - ttrpg-cli/domain/nature
-aliases: 
-- Rillifane Rallathil
+aliases:
+- "Rillifane Rallathil"
 ---
 # Rillifane Rallathil
 *Source: Player's Handbook p. 296* 

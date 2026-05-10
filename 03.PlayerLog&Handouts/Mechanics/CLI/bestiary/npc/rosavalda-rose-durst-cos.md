@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Rosavalda "Rose" Durst
+- "Rosavalda \"Rose\" Durst"
 ---
-# [Rosavalda "Rose" Durst](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/rosavalda-rose-durst-cos.md)
+# [Rosavalda "Rose" Durst](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rosavalda-rose-durst-cos.md)
 *Source: Curse of Strahd p. 217*  
 
 ```statblock
@@ -42,7 +43,8 @@ aliases:
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common"
 "cr": "3"
 "traits":
@@ -50,10 +52,10 @@ aliases:
       \ Plane, and vice versa."
     "name": "Ethereal Sight"
   - "desc": "Rose can move through other creatures and objects as if they were difficult\
-      \ terrain. It takes 5 (d10) force damage if it ends its turn inside an object."
+      \ terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
     "name": "Incorporeal Movement"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 17\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 17\
       \ (4d6 + 3) necrotic damage."
     "name": "Withering Touch"
   - "desc": "Rose enters the Ethereal Plane from the Material Plane, or vice versa.\

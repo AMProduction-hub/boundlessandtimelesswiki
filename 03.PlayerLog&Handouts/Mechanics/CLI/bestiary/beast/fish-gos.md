@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Fish
+- "Fish"
 ---
-# [Fish](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/fish-gos.md)
+# [Fish](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/fish-gos.md)
 *Source: Ghosts of Saltmarsh p. 224*  
 
 ```statblock
@@ -31,7 +32,8 @@ aliases:
   - !!int "7"
   - !!int "2"
 "speed": "swim 40 ft."
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": ""
 "cr": "0"
 "traits":

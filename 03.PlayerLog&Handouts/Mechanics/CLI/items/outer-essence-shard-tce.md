@@ -1,15 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/gear/spellcasting-focus
 - ttrpg-cli/item/rarity/rare
-aliases: 
+aliases:
 - "Outer Essence Shard"
 ---
 # Outer Essence Shard
-*Wondrous item, rare (requires attunement by a sorcerer)*  
+*Wondrous item, spellcasting focus, rare (requires attunement by a sorcerer)*  
 
 
 - **Weight**: 1.0 lbs.
@@ -19,8 +21,6 @@ This flickering crystal holds the essence of an Outer Plane. As an action, you c
 Roll a `d4` and consult the Outer Essence Shards table to determine the shard's essence and property. When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use that property.
 
 **Outer Essence Shards**
-
-`dice: [](outer-essence-shard-tce.md#^outer-essence-shards)`
 
 | dice: d4 | Property | Shard |
 |----------|----------|-------|

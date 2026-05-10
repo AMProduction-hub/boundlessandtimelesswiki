@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Frontline Medic
+- "Frontline Medic"
 ---
-# [Frontline Medic](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/frontline-medic-ggr.md)
+# [Frontline Medic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/frontline-medic-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 231*  
 
 The soldiers of the Boros Legion depend on skilled healers to keep them on their feet. Frontline medics use a mix of magical healing and mundane medicine to keep their compatriots alive.
@@ -41,23 +42,25 @@ The soldiers of the Boros Legion depend on skilled healers to keep them on their
     "desc": "+5"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 13"
 "languages": "any one language (usually Common)"
 "cr": "1/4"
 "traits":
   - "desc": "The medic is a 3rd-level Boros spellcaster. Its spellcasting ability\
       \ is Wisdom (spell save DC 11). The medic has the following cleric spells prepared:\n\
-      \nCantrips (at will): [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md),\
+      \n**Cantrips (at will):** [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md),\
       \ [resistance](03.PlayerLog&Handouts/Mechanics/CLI/spells/resistance.md), [spare\
       \ the dying](03.PlayerLog&Handouts/Mechanics/CLI/spells/spare-the-dying.md)\n\
-      \n1st level (4 slots): [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
-      \ [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md)\n\n2nd\
-      \ level (2 slots): [aid](03.PlayerLog&Handouts/Mechanics/CLI/spells/aid.md),\
+      \n**1st level (4 slots):** [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
+      \ [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md)\n\n**2nd\
+      \ level (2 slots):** [aid](03.PlayerLog&Handouts/Mechanics/CLI/spells/aid.md),\
       \ [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md)"
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Spear"
 "source":

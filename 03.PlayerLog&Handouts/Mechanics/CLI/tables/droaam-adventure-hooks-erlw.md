@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Droaam Adventure Hooks
+- "Droaam Adventure Hooks"
 ---
 # Droaam Adventure Hooks
 *Source: Eberron: Rising from the Last War p. 201* 
 
 **Droaam Adventure Hooks**
-
-`dice: [](droaam-adventure-hooks-erlw.md#^droaam-adventure-hooks)`
 
 | dice: d6 | Adventure Hook |
 |----------|----------------|

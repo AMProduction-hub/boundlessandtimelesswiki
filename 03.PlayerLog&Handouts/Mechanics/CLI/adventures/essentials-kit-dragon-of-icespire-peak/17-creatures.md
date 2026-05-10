@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dip
 aliases:
-- Creatures
+- "Creatures"
 ---
 # Creatures
 *Source: Essentials Kit: Dragon of Icespire Peak, p. 49* 
@@ -162,7 +163,7 @@ The most common actions that a creature will take in combat are melee and ranged
 
 ##### Hit
 
-Any damage or other effects that occur as a result of an attack hitting a target are described here. As the DM, you can take average damage or roll the damage; for this reason, both the average damage and the die expression are presented. For example, a monster might deal 4 (`d8`) slashing damage with its longsword. That notation means you can have the monster deal 4 damage, or you can roll `d8` to determine the damage.
+Any damage or other effects that occur as a result of an attack hitting a target are described here. As the DM, you can take average damage or roll the damage; for this reason, both the average damage and the die expression are presented. For example, a monster might deal 4 (`1d8`) slashing damage with its longsword. That notation means you can have the monster deal 4 damage, or you can roll `1d8` to determine the damage.
 
 ### Reactions
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/14
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Wurm
+- "Wurm"
 ---
-# [Wurm](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/wurm-ggr.md)
+# [Wurm](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/wurm-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 225*  
 
 Wurms are huge creatures that resemble limbless, wingless dragons. They burrow through the earth and eat virtually anything they come across, and their movement accounts for much of the destruction in the rubblebelt regions of Ravnica. A wurm burrows through loose earth by using deep sonic vibrations to liquefy the earth in front of it and swim through the area. The soil resolidifies and closes behind it. Moving through rock is slower and more difficult, and the wurm leaves a tunnel in its wake. The Gruul Clans appreciate the devastation wurms can create, and the clans sometimes lure them into civilized areas where the destruction can be vast.
@@ -35,9 +36,10 @@ Wurms are huge creatures that resemble limbless, wingless dragons. They burrow t
   - !!int "4"
 "speed": "50 ft., burrow 30 ft."
 "saves":
-  - "constitution": "+11"
-  - "wisdom": "+6"
-"senses": "blindsight 60 ft., tremorsense 60 ft., passive Perception 11"
+  - "constitution": !!int "11"
+  - "wisdom": !!int "6"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 11"
 "languages": ""
 "cr": "14"
 "traits":
@@ -54,7 +56,7 @@ Wurms are huge creatures that resemble limbless, wingless dragons. They burrow t
       \ a 10-foot-diameter tunnel in its wake."
     "name": "Tunneler"
 "actions":
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:*\
       \ 24 (5d6 + 7) piercing damage. If the target is a Medium or smaller creature,\
       \ it must succeed on a DC 20 Dexterity saving throw or be swallowed by the wurm.\
       \ A swallowed creature is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\

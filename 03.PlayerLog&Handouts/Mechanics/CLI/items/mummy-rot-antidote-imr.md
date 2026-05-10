@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/item/rarity/uncommon
 - ttrpg-cli/item/wondrous/potion
-aliases: 
+aliases:
 - "Mummy Rot Antidote"
 ---
 # Mummy Rot Antidote

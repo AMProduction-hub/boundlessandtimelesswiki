@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/16
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Storm Giant Skeleton
+- "Storm Giant Skeleton"
 ---
-# [Storm Giant Skeleton](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/storm-giant-skeleton-cm.md)
+# [Storm Giant Skeleton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/storm-giant-skeleton-cm.md)
 *Source: Candlekeep Mysteries p. 208*  
 
 ```statblock
@@ -33,8 +34,8 @@ aliases:
   - !!int "1"
 "speed": "50 ft."
 "saves":
-  - "strength": "+14"
-  - "constitution": "+7"
+  - "strength": !!int "14"
+  - "constitution": !!int "7"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
@@ -43,16 +44,19 @@ aliases:
 "damage_immunities": "lightning, poison, thunder"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": ""
 "cr": "16"
 "actions":
   - "desc": "The giant makes two attacks with its greatsword or hurls two rocks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:*\
       \ 30 (6d6 + 9) slashing damage plus 18 (4d8) necrotic damage."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +14 to hit, reach 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +14 to hit, reach 60/240 ft., one target. *Hit:*\
       \ 35 (4d12 + 9) bludgeoning damage."
     "name": "Rock"
   - "desc": "The giant hurls a magical lightning bolt at a point it can see within\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Raven
+- "Giant Raven"
 ---
-# [Giant Raven](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-raven-skt.md)
+# [Giant Raven](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-raven-skt.md)
 *Source: Storm King's Thunder p. 66*  
 
 ```statblock
@@ -48,10 +49,10 @@ aliases:
 "actions":
   - "desc": "The raven makes two attacks: one with its beak and one with its talons."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) piercing damage."
     "name": "Beak"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d6 + 2) slashing damage."
     "name": "Talons"
 "source":

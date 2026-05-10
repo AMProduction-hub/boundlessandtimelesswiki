@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sken Zabriss
+- "Sken Zabriss"
 ---
-# [Sken Zabriss](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sken-zabriss-egw.md)
+# [Sken Zabriss](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sken-zabriss-egw.md)
 *Source: Explorer's Guide to Wildemount p. 221*  
 
 ```statblock
@@ -34,6 +35,8 @@ aliases:
   - !!int "10"
   - !!int "12"
 "speed": "30 ft."
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
 "senses": "passive Perception 10"
 "languages": "Common, Draconic, Giant"
 "cr": "1"
@@ -48,7 +51,7 @@ aliases:
       \ required)."
     "name": "Special Equipment"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage when used with\
       \ two hands."
     "name": "Longsword"

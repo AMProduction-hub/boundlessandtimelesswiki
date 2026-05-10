@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Chief Kartha-Kaya
+- "Chief Kartha-Kaya"
 ---
-# [Chief Kartha-Kaya](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/chief-kartha-kaya-skt.md)
+# [Chief Kartha-Kaya](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/chief-kartha-kaya-skt.md)
 *Source: Storm King's Thunder p. 173*  
 
 ```statblock
@@ -37,6 +38,9 @@ aliases:
     "desc": "+4"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+4"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Yikaria"
 "cr": "4"
@@ -64,10 +68,10 @@ aliases:
   - "desc": "Chief Kartha-Kaya makes two attacks, either with his flame tongue greatsword\
       \ or his longbow."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 18\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 18\
       \ (4d6 + 4) slashing damage plus 7 (2d6) fire damage."
     "name": "Flame Tongue Greatsword"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 150/600 ft., one target. *Hit:*\
       \ 9 (2d8) piercing damage."
     "name": "Longbow"
 "source":

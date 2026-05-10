@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Prismari Professor of Expression
+- "Prismari Professor of Expression"
 ---
-# [Prismari Professor of Expression](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/prismari-professor-of-expression-scc.md)
+# [Prismari Professor of Expression](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/prismari-professor-of-expression-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 206*  
 
 Professors of expression embody the flare of Prismari magic. Using continuous motion, fluid grace, and interweaving steps, these teachers channel the elements of wind, flame, and lightning to accompany them. Their magic is fast and beautiful, which becomes swift death in battle, mesmerizing in its energetic flow. Devastating lightning strikes and searing lashes of flame meet the professors' foes head on.
@@ -41,10 +42,10 @@ The scholars of Prismari College believe that art is the truest form of spellcra
   - !!int "19"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+6"
-  - "intelligence": "+5"
-  - "wisdom": "+4"
-  - "charisma": "+7"
+  - "dexterity": !!int "6"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+6"
@@ -63,7 +64,7 @@ The scholars of Prismari College believe that art is the truest form of spellcra
 "actions":
   - "desc": "The professor makes three Cinder Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +7 to hit, reach 15 ft., one target. Hit: 13\
+  - "desc": "*Melee Spell Attack:* +7 to hit, reach 15 ft., one target. *Hit:* 13\
       \ (2d8 + 4) fire damage."
     "name": "Cinder Strike"
   - "desc": "The professor unleashes arcs of magical lightning at up to two creatures\
@@ -73,8 +74,8 @@ The scholars of Prismari College believe that art is the truest form of spellcra
     "name": "Lightning Flourish (Recharge 6)"
   - "desc": "The professor casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 15):\n\
-      \nAt will: [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
-      \n2/day each: [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md),\
+      \n**At will:** [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
+      \n**2/day each:** [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md),\
       \ [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)"
     "name": "Spellcasting"

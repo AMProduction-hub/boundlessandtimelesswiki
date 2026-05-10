@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/rare
 - ttrpg-cli/item/wondrous/ring
-aliases: 
+aliases:
 - "Ring of Temporal Salvation"
 ---
 # Ring of Temporal Salvation

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -16,10 +17,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Swarm of Centipedes
+- "Swarm of Centipedes"
 ---
-# [Swarm of Centipedes](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/swarm-of-centipedes.md)
-*Source: Monster Manual p. 338, Curse of Strahd, Waterdeep: Dungeon of the Mad Mage. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Swarm of Centipedes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-centipedes.md)
+*Source: Monster Manual p. 338. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 > [!note] The Nature of Swarms
 > 
@@ -52,7 +53,8 @@ aliases:
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "blindsight 10 ft., passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., passive Perception 8"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -61,8 +63,8 @@ aliases:
       \ can't regain hit points or gain temporary hit points."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's\
-      \ space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 0 ft., one target in the swarm's\
+      \ space. *Hit:* 10 (4d4) piercing damage, or 5 (2d4) piercing damage if\
       \ the swarm has half of its hit points or fewer.\n\nA creature reduced to 0\
       \ hit points by a swarm of centipedes is stable but [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 hour, even after regaining hit points, and [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
@@ -71,8 +73,6 @@ aliases:
     "name": "Bites"
 "source":
   - "MM"
-  - "CoS"
-  - "WDMM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/swarm-of-centipedes.webp"
 ```
 ^statblock

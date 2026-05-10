@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Artifact Properties; Major Detrimental Properties
+- "Artifact Properties; Major Detrimental Properties"
 ---
 # Artifact Properties; Major Detrimental Properties
 *Source: Dungeon Master's Guide p. 219* 
 
 **Major Detrimental Properties**
-
-`dice: [](artifact-properties-major-detrimental-properties.md#^major-detrimental-properties)`
 
 | dice: d100 | Property |
 |------------|----------|
@@ -24,7 +23,7 @@ aliases:
 | 31-35 | While you are attuned to the artifact, creatures of a particular type other than humanoid (as chosen by the DM) are always hostile toward you. |
 | 36-40 | The artifact dilutes magic potions within 10 feet of it, rendering them nonmagical. |
 | 41-45 | The artifact erases magic scrolls within 10 feet of it, rendering them nonmagical. |
-| 46-50 | Before using one of the artifact's properties as an action, you must use a bonus action to draw blood, either from yourself or from a willing or incapacitated creature within your reach, using a piercing or slashing melee weapon. The subject takes `d4` damage of the appropriate type. |
+| 46-50 | Before using one of the artifact's properties as an action, you must use a bonus action to draw blood, either from yourself or from a willing or incapacitated creature within your reach, using a piercing or slashing melee weapon. The subject takes `1d4` damage of the appropriate type. |
 | 51-60 | When you become attuned to the artifact, you gain a form of "long-term madness" (see chapter 8, "Running the Game"). |
 | 61-65 | You take `4d10` psychic damage when you become attuned to the artifact. |
 | 66-70 | You take `8d10` psychic damage when you become attuned to the artifact. |

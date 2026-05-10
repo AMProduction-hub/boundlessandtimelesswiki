@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/sdw
 aliases:
-- Claugiyliamatar's Lair
+- "Claugiyliamatar's Lair"
 ---
 # Claugiyliamatar's Lair
 *Source: Essentials Kit: Sleeping Dragon's Wake* 
@@ -123,11 +124,9 @@ Delis keeps her poison vials hidden in a 1-foot-deep, 1-foot-diameter hole in th
 
 The remains of ghouls, skeletons, zombies, and some other undead lay scattered across this cavern, torn to pieces by Claugiyliamatar. A creature with a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 17 of higher notices that the surfaces of the chamber are covered with a very fine green dust. This dust is made of tiny, hallucinogenic spores created by moss in the chamber. A [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell reveals that the moss and spores radiate auras of enchantment magic.
 
-Whenever a creature enters this cavern, it must make a DC 15 Constitution saving throw. On a success, the creature is immune to the effect of the spores for 24 hours. On a failed save, the creature is [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for 1 minute. While [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned), the creature is delirious and feels the need to frolic. At the start of its turn, the [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) creature rolls on the Frolic Direction table and moves its full speed in a direction indicated by the roll. The creature moves in a straight line that direction without regard for its own safety, stumbling into hazards and obstacles or over ledges. If a creature runs into a statue, stalagmite, or wall and still has movement left, the creature takes `d6` bludgeoning damage per 10 feet of remaining movement (rounded down). The creature can repeat the saving throw at the end of its turns, ending the effect on a success.
+Whenever a creature enters this cavern, it must make a DC 15 Constitution saving throw. On a success, the creature is immune to the effect of the spores for 24 hours. On a failed save, the creature is [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for 1 minute. While [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned), the creature is delirious and feels the need to frolic. At the start of its turn, the [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) creature rolls on the Frolic Direction table and moves its full speed in a direction indicated by the roll. The creature moves in a straight line that direction without regard for its own safety, stumbling into hazards and obstacles or over ledges. If a creature runs into a statue, stalagmite, or wall and still has movement left, the creature takes `1d6` bludgeoning damage per 10 feet of remaining movement (rounded down). The creature can repeat the saving throw at the end of its turns, ending the effect on a success.
 
 **Frolic Direction**
-
-`dice: [](04-claugiyliamatars-lair.md#^frolic-direction)`
 
 | dice: d8 | Direction |
 |----------|-----------|
@@ -171,7 +170,7 @@ This small ledge overlooks the slime pool with a 10-foot-long, 2-foot-diameter m
 
 #### C8. Slime Pools
 
-These pools bubble with a dark green slime and are 15 feet deep. Swimming through the viscous slime requires a successful DC 12 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. A creature that fails this check is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) by the slime and sinks `1d4 + 1` feet into the pool. At the start of the creature's turns, it sinks another `d4` feet. As long as the creature isn't completely submerged in the slime, it can escape by using its action and succeeding on a Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. The DC is 12 plus the number of feet the creature has sunk into the slime. A creature fully submerged in slime can't breathe (see ""Suffocating"" in chapter 8 of the "Player's Handbook").
+These pools bubble with a dark green slime and are 15 feet deep. Swimming through the viscous slime requires a successful DC 12 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. A creature that fails this check is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) by the slime and sinks `1d4 + 1` feet into the pool. At the start of the creature's turns, it sinks another `1d4` feet. As long as the creature isn't completely submerged in the slime, it can escape by using its action and succeeding on a Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. The DC is 12 plus the number of feet the creature has sunk into the slime. A creature fully submerged in slime can't breathe (see ""Suffocating"" in chapter 8 of the "Player's Handbook").
 
 A creature can pull another creature within its reach out of a slime pool by using its action and succeeding on a Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. The DC is 7 plus the number of feet the target creature has sunk into the slime.
 
@@ -199,7 +198,7 @@ There are four stone islands in the largest slime pool that hold statues depicti
 
 #### C9. Zuri's Hidden Hoard
 
-A 5-foot-square patch of moss in the center of this area hides a spiked pit trap. A creature notices the moss is not actually attached to the ground with a successful DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check. A Medium or smaller creature that steps on the moss falls 10 feet onto the [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) spikes at the pit's bottom, taking 3 (`d6`) bludgeoning damage and 11 (`2d10`) piercing damage, and it must make a DC 13 Constitution saving throw, taking 22 (`4d10`) poison damage on a failed save, or half as much damage on a successful one.
+A 5-foot-square patch of moss in the center of this area hides a spiked pit trap. A creature notices the moss is not actually attached to the ground with a successful DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check. A Medium or smaller creature that steps on the moss falls 10 feet onto the [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) spikes at the pit's bottom, taking 3 (`1d6`) bludgeoning damage and 11 (`2d10`) piercing damage, and it must make a DC 13 Constitution saving throw, taking 22 (`4d10`) poison damage on a failed save, or half as much damage on a successful one.
 
 ##### Treasure
 
@@ -305,8 +304,6 @@ After speaking with Claugiyliamatar in her lair, the characters likely want to f
 The characters run into random undead from the Undead Encounters table. The undead run amuck in the forest on their way to Claugiyliamatar's lair and fight the characters to the death. The undead are loyal to Viantha and do not lead the characters to the deathlock unless magically compelled to do so.
 
 **Undead Encounters**
-
-`dice: [](04-claugiyliamatars-lair.md#^undead-encounters)`
 
 | dice: d4 | Encounter |
 |----------|-----------|

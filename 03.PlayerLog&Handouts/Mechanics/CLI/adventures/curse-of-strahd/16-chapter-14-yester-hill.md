@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 aliases:
-- Chapter 14: Yester Hill
+- "Chapter 14: Yester Hill"
 ---
 # Chapter 14: Yester Hill
 *Source: Curse of Strahd, p. 197* 
@@ -68,7 +69,7 @@ If the characters discern or divine the gem's location with the aid of magic, th
 
 #### Development
 
-If the druids and the berserkers are killed, their numbers are replenished as others return from forays into the Svalich Woods. At the end of each day, at dusk, `d4`−1 druids and `d4`−1 berserkers arrive until there are six of each.
+If the druids and the berserkers are killed, their numbers are replenished as others return from forays into the Svalich Woods. At the end of each day, at dusk, `1d4`−1 druids and `1d4`−1 berserkers arrive until there are six of each.
 
 ### Y4. Gulthias Tree
 
@@ -87,7 +88,7 @@ The skeleton lying at the base of the Gulthias tree is all that remains of a hum
 
 #### Treasure
 
-The dead adventurer's tattered leather armor isn't salvageable, but the axe embedded in the tree is a magic battleaxe. Its handle is carved with leaves and vines, and the weapon weighs half as much as a normal battleaxe. When the axe hits a plant, whether an ordinary plant or a plant creature, the target takes an extra `d8` slashing damage. When a creature of non-good alignment wields the axe, it sprouts thorns whenever its wielder makes an attack with it. These thorns prick the wielder for 1 piercing damage after the attack is made, and this damage is considered magical.
+The dead adventurer's tattered leather armor isn't salvageable, but the axe embedded in the tree is a magic battleaxe. Its handle is carved with leaves and vines, and the weapon weighs half as much as a normal battleaxe. When the axe hits a plant, whether an ordinary plant or a plant creature, the target takes an extra `1d8` slashing damage. When a creature of non-good alignment wields the axe, it sprouts thorns whenever its wielder makes an attack with it. These thorns prick the wielder for 1 piercing damage after the attack is made, and this damage is considered magical.
 
 #### Fortunes of Ravenloft
 

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deck
+cssclasses:
+- json5e-deck
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 aliases:
-- Tarokka Deck
+- "Tarokka Deck"
 ---
 # Tarokka Deck
 *Source: Curse of Strahd p. 243*  

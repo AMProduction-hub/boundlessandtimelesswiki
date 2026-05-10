@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Chapter 7: Escape from the Underdark
+- "Chapter 7: Escape from the Underdark"
 ---
 # Chapter 7: Escape from the Underdark
 *Source: Out of the Abyss, p. 116* 
@@ -61,11 +62,11 @@ When the characters finally reach the surface, it's likely that some of their su
 
 ### Underdark Natives
 
-Knowing that many of their NPC companions have homes in the Underdark can be an important part of the decision-making process that guides the characters through the early chapters of this adventure. The Underdark is a dangerous place, and characters might be reluctant to let their newfound friends fend for themselves. Helping some of them return home makes a good incentive to visit locations in the Underdark. Shuushar, [Topsy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topsy-oota.md), [Turvy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/turvy-oota.md), [Stool](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/stool-oota.md), [Rumpadump](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rumpadump-oota.md), and [Glabbagool](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/glabbagool-oota.md) would rather remain in the Underdark than suffer sunlight.
+Knowing that many of their NPC companions have homes in the Underdark can be an important part of the decision-making process that guides the characters through the early chapters of this adventure. The Underdark is a dangerous place, and characters might be reluctant to let their newfound friends fend for themselves. Helping some of them return home makes a good incentive to visit locations in the Underdark. [Shuushar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/shuushar-the-awakened-oota.md), [Topsy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/topsy-oota.md), [Turvy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/turvy-oota.md), [Stool](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/stool-oota.md), [Rumpadump](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rumpadump-oota.md), and [Glabbagool](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/glabbagool-oota.md) would rather remain in the Underdark than suffer sunlight.
 
 ### Surface Dwellers
 
-Companions such as Eldeth and [Ront](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ront-oota.md), who prefer to live on or near the surface, gladly follow the characters all the way out if they can. Eldeth wishes to return to Gauntlgrym, and her presence there can provide a connection for the characters when they visit the dwarven settlement in chapter 8. If Eldeth didn't survive, she might have charged the characters with returning her body or effects to Gauntlgrym. [Ront](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ront-oota.md) might wish to rejoin his tribe or seek a new home elsewhere, based on how the events in the earlier chapters of the adventure have influenced him. Depending on how he was treated, the orc most likely parts from the characters in peace—out of respect for their battle prowess, if nothing else.
+Companions such as [Eldeth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/eldeth-feldrun-oota.md) and [Ront](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ront-oota.md), who prefer to live on or near the surface, gladly follow the characters all the way out if they can. Eldeth wishes to return to Gauntlgrym, and her presence there can provide a connection for the characters when they visit the dwarven settlement in chapter 8. If Eldeth didn't survive, she might have charged the characters with returning her body or effects to Gauntlgrym. [Ront](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ront-oota.md) might wish to rejoin his tribe or seek a new home elsewhere, based on how the events in the earlier chapters of the adventure have influenced him. Depending on how he was treated, the orc most likely parts from the characters in peace—out of respect for their battle prowess, if nothing else.
 
 ### With Friends Like These...
 
@@ -157,19 +158,17 @@ If you'd rather skip the encounters and jump ahead to chapter 8, assume that the
 
 #### Drow Chase Complications
 
-`dice: [](07-chapter-7-escape-from-the-underdark.md#^complication)`
-
 | dice: d20 | Complication |
 |-----------|--------------|
 | 1 | Uneven ground threatens to slow your progress. Make a DC 10 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check to navigate the area. On a failed check, the ground counts as 10 feet of difficult terrain. |
 | 2 | A fissure, rocky outcropping, or debris threatens to trip you up. Make a DC 10 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check. On a failure, you fall [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). |
 | 3 | You disturb a [swarm of bats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-bats.md) that makes one attack against you before quickly scattering. |
 | 4 | A colony of [piercers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/piercer.md) hangs 20 feet overhead. As you pass, one of them drops and makes an attack against you. |
-| 5 | You have to dodge around stalagmites and columns. Make a DC 10 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check. On a failure, you take `d4` bludgeoning damage from running into an obstacle. |
+| 5 | You have to dodge around stalagmites and columns. Make a DC 10 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check. On a failure, you take `1d4` bludgeoning damage from running into an obstacle. |
 | 6 | A mass of webbing blocks your path. Avoiding it requires a successful DC 12 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check. On a failure, you are caught in the web and [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained). As an action, you can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked (AC 10; hp 5; vulnerability to fire damage; immunity to poison and psychic damage). |
-| 7 | A patch of green slime drops from the ceiling, requiring a successful DC 10 Dexterity saving throw to avoid. On a failure, you are struck and take 5 (`d10`) acid damage. You take 5 (`d10`) acid damage again at the start of each of your turns until the slime is scraped off or destroyed (see ""Dungeon Hazards"" in chapter 5 of the *Dungeon Master's Guide*). |
+| 7 | A patch of green slime drops from the ceiling, requiring a successful DC 10 Dexterity saving throw to avoid. On a failure, you are struck and take 5 (`1d10`) acid damage. You take 5 (`1d10`) acid damage again at the start of each of your turns until the slime is scraped off or destroyed (see ""Dungeon Hazards"" in chapter 5 of the *Dungeon Master's Guide*). |
 | 8 | The floor beneath you is smooth and slick with moisture, requiring a successful DC 10 Dexterity saving throw to navigate. On a failed save, you fall [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). |
-| 9 | The floor beneath you is littered with sharp rocks and debris, and you must succeed on a DC 10 Dexterity saving throw to cross it. On a failure, you take `d4` piercing damage and the ground counts as 10 feet of difficult terrain. |
+| 9 | The floor beneath you is littered with sharp rocks and debris, and you must succeed on a DC 10 Dexterity saving throw to cross it. On a failure, you take `1d4` piercing damage and the ground counts as 10 feet of difficult terrain. |
 | 10 | The chase kicks up a cloud of dust, sand, or spores. You must succeed on a DC 10 Constitution saving throw to pass through the cloud. On a failure, you are [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) until the end of your turn. While [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) in this way, your speed is reduced by half. |
 | 11–20 | No complication. |
 ^complication

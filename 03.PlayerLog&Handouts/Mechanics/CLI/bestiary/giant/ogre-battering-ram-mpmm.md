@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ogre Battering Ram
+- "Ogre Battering Ram"
 ---
-# [Ogre Battering Ram](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/ogre-battering-ram-mpmm.md)
+# [Ogre Battering Ram](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre-battering-ram-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 200, Mordenkainen's Tome of Foes p. 220*  
 
 An ogre battering ram carries an enormous club that's primarily used for bashing doors into kindling but also works well for smashing foes. These ogres are drilled in two simple tasks: rushing forward to shatter enemy fortifications and using their weapons to force an advancing enemy to halt.
@@ -41,7 +42,8 @@ Ogres love to rush headlong into battle, but with enough time and patience, some
   - !!int "7"
   - !!int "7"
 "speed": "40 ft."
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": "Common, Giant"
 "cr": "4"
 "traits":
@@ -50,7 +52,7 @@ Ogres love to rush headlong into battle, but with enough time and patience, some
 "actions":
   - "desc": "The ogre makes two Bash attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (2d10 + 4) bludgeoning damage, and the ogre can push the target 5 feet away\
       \ if the target is Huge or smaller."
     "name": "Bash"

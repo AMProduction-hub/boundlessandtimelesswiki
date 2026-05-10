@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/hotdq
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Captain Othelstan
+- "Captain Othelstan"
 ---
-# [Captain Othelstan](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/captain-othelstan-hotdq.md)
+# [Captain Othelstan](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/captain-othelstan-hotdq.md)
 *Source: Hoard of the Dragon Queen p. 89, Tyranny of Dragons p. 181*  
 
 ```statblock
@@ -35,8 +36,8 @@ aliases:
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "strength": "+7"
-  - "constitution": "+6"
+  - "strength": !!int "7"
+  - "constitution": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+7"
@@ -46,6 +47,9 @@ aliases:
     "desc": "+5"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+4"
+"gear":
+  - "[flail](03.PlayerLog&Handouts/Mechanics/CLI/items/flail.md)"
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 15"
 "languages": "Common, Draconic, Giant"
 "cr": "5"
@@ -60,11 +64,11 @@ aliases:
   - "desc": "Othelstan attacks twice with his flail or spear, or makes two ranged\
       \ attacks with his spears."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) bludgeoning damage."
     "name": "Flail"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or ranged\
-      \ 20/60 ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or ranged\
+      \ 20/60 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
     "name": "Spear"
 "source":
   - "HotDQ"

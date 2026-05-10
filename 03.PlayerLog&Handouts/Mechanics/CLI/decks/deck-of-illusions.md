@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deck
+cssclasses:
+- json5e-deck
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Deck of Illusions
+- "Deck of Illusions"
 ---
 # Deck of Illusions
 *Source: Dungeon Master's Guide p. 161. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
@@ -16,8 +17,6 @@ The magic of the deck functions only if cards are drawn at random (you can use a
 An illusion of one or more creatures forms over the thrown card and remains until dispelled. An illusory creature appears real, of the appropriate size, and behaves as if it were a real creature, except that it can do no harm. While you are within 120 feet of the illusory creature and can see it, you can use an action to move it magically anywhere within 30 feet of its card. Any physical interaction with the illusory creature reveals it to be an illusion, because objects pass through it. Someone who uses an action to visually inspect the creature identifies it as illusory with a successful DC 15 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check. The creature then appears translucent.
 
 The illusion lasts until its card is moved or the illusion is dispelled. When the illusion ends, the image on its card disappears, and that card can't be used again.
-
-`dice: [](deck-of-illusions.md#^1-playing-card-illusion)`
 
 | dice: 1d34 | Playing Card | Illusion |
 |------------|--------------|----------|

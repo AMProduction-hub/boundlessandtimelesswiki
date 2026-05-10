@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Dungeon History
+- "Dungeon History"
 ---
 # Dungeon History
 *Source: Dungeon Master's Guide p. 101* 
 
 **Dungeon History**
-
-`dice: [](dungeon-history.md#^dungeon-history)`
 
 | dice: d20 | Key Event |
 |-----------|-----------|

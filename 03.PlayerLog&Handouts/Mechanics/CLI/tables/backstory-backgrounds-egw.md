@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Backstory; Backgrounds
+- "Backstory; Backgrounds"
 ---
 # Backstory; Backgrounds
 *Source: Explorer's Guide to Wildemount p. 191* 
 
 **Backgrounds**
-
-`dice: [](backstory-backgrounds-egw.md#^backgrounds)`
 
 | dice: d20 | Background | Reference |
 |-----------|------------|-----------|

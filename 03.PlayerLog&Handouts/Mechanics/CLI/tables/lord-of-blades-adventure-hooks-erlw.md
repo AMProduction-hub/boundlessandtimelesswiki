@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Lord of Blades Adventure Hooks
+- "Lord of Blades Adventure Hooks"
 ---
 # Lord of Blades Adventure Hooks
 *Source: Eberron: Rising from the Last War p. 214* 
 
 **Lord of Blades Adventure Hooks**
-
-`dice: [](lord-of-blades-adventure-hooks-erlw.md#^lord-of-blades-adventure-hooks)`
 
 | dice: d6 | Adventure Hook |
 |----------|----------------|

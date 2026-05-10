@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Metallic Warbler
+- "Metallic Warbler"
 ---
-# [Metallic Warbler](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/metallic-warbler-ftd.md)
+# [Metallic Warbler](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/metallic-warbler-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 210*  
 
 Metallic warblers resemble songbirds and serve as clandestine agents of their creators, keeping watch over communities without directly intervening. Their telepathic bond lets them summon their dragon creators in case of dire need.
@@ -39,7 +40,7 @@ A metallic sentinel is a guardian created by a metallic dragon, forged from the 
   - !!int "12"
 "speed": "40 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+4"
+  - "dexterity": !!int "4"
 "damage_immunities": "fire"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
@@ -47,7 +48,8 @@ A metallic sentinel is a guardian created by a metallic dragon, forged from the 
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands Common and Draconic but can't speak"
 "cr": "1/4"
 "traits":
@@ -58,7 +60,7 @@ A metallic sentinel is a guardian created by a metallic dragon, forged from the 
       \ telepathically with each other."
     "name": "Telepathic Bond"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) slashing damage."
     "name": "Claw"
   - "desc": "The warbler releases a calming gas in a 5-foot-radius sphere centered\

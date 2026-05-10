@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 aliases:
-- Prophet's Gambit
+- "Prophet's Gambit"
 ---
 # Prophet's Gambit
-*Source: Curse of Strahd* 
+*Source: Curse of Strahd p. 243* 
 
 > [!note]
 > Game Designed by Sean Goodison, for 3–5 players, using the [Tarokka Deck](03.PlayerLog&Handouts/Mechanics/CLI/decks/tarokka-deck-cos.md).

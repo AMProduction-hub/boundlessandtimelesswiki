@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 aliases:
-- The Curious Tale of Wisteria Vale
+- "The Curious Tale of Wisteria Vale"
 ---
 # The Curious Tale of Wisteria Vale
 *Source: Candlekeep Mysteries, p. 147* 
@@ -105,8 +106,6 @@ Renekor's presence warps the demiplane, causing erratic weather and strange phen
 
 **Wisteria Vale Events**
 
-`dice: [](14-the-curious-tale-of-wisteria-vale.md#^wisteria-vale-events)`
-
 | dice: d8 | Event |
 |----------|-------|
 | 1–2 | None. |
@@ -179,8 +178,6 @@ Inside the manor, the characters might feel as though they're constantly being w
 As the characters explore the manor, they might encounter one or more creatures roaming the halls or moving from one room to another. Whenever you feel the need for a random encounter, roll a `d20` and consult the Manor Encounters table to determine whom or what the characters encounter.
 
 **Manor Encounters**
-
-`dice: [](14-the-curious-tale-of-wisteria-vale.md#^manor-encounters)`
 
 | dice: d20 | Encounter |
 |-----------|-----------|
@@ -380,8 +377,6 @@ The chaotic nature of the connection between the spaces means that a door is lik
 
 **Forest Painting's Chamber**
 
-`dice: [](14-the-curious-tale-of-wisteria-vale.md#^forest-paintings-chamber)`
-
 | dice: d6 | Door's Destination |
 |----------|--------------------|
 | 1–2 | Banquet (behind the painting in area M3) |
@@ -390,8 +385,6 @@ The chaotic nature of the connection between the spaces means that a door is lik
 ^forest-paintings-chamber
 
 **Banquet Painting's Chamber**
-
-`dice: [](14-the-curious-tale-of-wisteria-vale.md#^banquet-paintings-chamber)`
 
 | dice: d6 | Door's Destination |
 |----------|--------------------|
@@ -402,8 +395,6 @@ The chaotic nature of the connection between the spaces means that a door is lik
 
 **Quill's Prison Chamber**
 
-`dice: [](14-the-curious-tale-of-wisteria-vale.md#^quills-prison-chamber)`
-
 | dice: d6 | Door's Destination |
 |----------|--------------------|
 | 1–2 | Forest (behind the painting in area M1) |
@@ -412,8 +403,6 @@ The chaotic nature of the connection between the spaces means that a door is lik
 ^quills-prison-chamber
 
 **Roc Painting's Chamber**
-
-`dice: [](14-the-curious-tale-of-wisteria-vale.md#^roc-paintings-chamber)`
 
 | dice: d6 | Door's Destination |
 |----------|--------------------|

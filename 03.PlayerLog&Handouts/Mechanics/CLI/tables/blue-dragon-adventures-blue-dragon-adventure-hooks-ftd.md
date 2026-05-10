@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Blue Dragon Adventures; Blue Dragon Adventure Hooks
+- "Blue Dragon Adventures; Blue Dragon Adventure Hooks"
 ---
 # Blue Dragon Adventures; Blue Dragon Adventure Hooks
 *Source: Fizban's Treasury of Dragons p. 85* 
 
 **Blue Dragon Adventure Hooks**
-
-`dice: [](blue-dragon-adventures-blue-dragon-adventure-hooks-ftd.md#^blue-dragon-adventure-hooks)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|

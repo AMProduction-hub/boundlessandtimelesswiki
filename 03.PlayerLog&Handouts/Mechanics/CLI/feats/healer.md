@@ -1,14 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/feat
 aliases:
-- Healer
+- "Healer"
 ---
 # Healer
 *Source: Player's Handbook p. 167*  
+
 You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:
 
 - When you use a [healer's kit](03.PlayerLog&Handouts/Mechanics/CLI/items/healers-kit.md) to stabilize a dying creature, that creature also regains 1 hit point.  

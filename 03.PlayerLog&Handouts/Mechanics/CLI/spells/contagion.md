@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/level/5th-level
@@ -13,7 +14,7 @@ tags:
 - ttrpg-cli/spell/subclass/oathbreaker
 - ttrpg-cli/spell/subclass/the-undying
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Druid
 - Druid (Circle of Spores)
@@ -21,7 +22,7 @@ classes:
 - Sorcerer (Divine Soul)
 - Warlock (The Undying)
 aliases:
-- Contagion
+- "Contagion"
 ---
 # Contagion
 *5th-level, Necromancy*  
@@ -64,6 +65,6 @@ The creature begins to bleed uncontrollably. The creature has disadvantage on Co
 
 ## Summary
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid (Circle of Spores)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE"); [Warlock (The Undying)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-undying-scag.md "subclass=SCAG"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin (Oathbreaker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oathbreaker-dmg.md "subclass=DMG")
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Druid (Circle of Spores)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Paladin (Oathbreaker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oathbreaker-dmg.md "subclass=DMG"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Warlock (The Undying)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-undying-scag.md "subclass=SCAG")
 
 *Source: Player's Handbook p. 227. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

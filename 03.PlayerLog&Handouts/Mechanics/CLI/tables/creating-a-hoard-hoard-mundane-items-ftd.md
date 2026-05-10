@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Creating a Hoard; Hoard Mundane Items
+- "Creating a Hoard; Hoard Mundane Items"
 ---
 # Creating a Hoard; Hoard Mundane Items
 *Source: Fizban's Treasury of Dragons p. 72* 
 
 **Hoard Mundane Items**
-
-`dice: [](creating-a-hoard-hoard-mundane-items-ftd.md#^hoard-mundane-items)`
 
 | dice: d100 | Mundane Items |
 |------------|---------------|

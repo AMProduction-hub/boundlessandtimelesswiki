@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/10
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Spring Eladrin
+- "Spring Eladrin"
 ---
-# [Spring Eladrin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/spring-eladrin-mpmm.md)
+# [Spring Eladrin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/spring-eladrin-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 116, Mordenkainen's Tome of Foes p. 196*  
 
 Their hearts filled with joy, spring eladrin cavort through their sylvan realms, their songs and laughter filling the air. These playful eladrin beguile other creatures to fill them with the joy of spring. Their antics can lead other creatures into danger and make mischief for them.
@@ -61,7 +62,11 @@ Whenever one of the eladrin presented here finishes a long rest, they can associ
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+8"
 "damage_resistances": "psychic"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Elvish, Sylvan"
 "cr": "10"
 "traits":
@@ -81,17 +86,17 @@ Whenever one of the eladrin presented here finishes a long rest, they can associ
   - "desc": "The eladrin makes two Longsword or Longbow attacks. It can replace one\
       \ attack with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with\
       \ two hands, plus 22 (5d8) psychic damage."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +7 to hit, range 150/600 ft., one target. *Hit:*\
       \ 7 (1d8 + 3) piercing damage plus 22 (5d8) psychic damage."
     "name": "Longbow"
   - "desc": "The eladrin casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 16):\n\
-      \nAt will: [Tasha's hideous laughter](03.PlayerLog&Handouts/Mechanics/CLI/spells/tashas-hideous-laughter.md)\n\
-      \n1/day each: [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md),\
+      \n**At will:** [Tasha's hideous laughter](03.PlayerLog&Handouts/Mechanics/CLI/spells/tashas-hideous-laughter.md)\n\
+      \n**1/day each:** [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
     "name": "Spellcasting"
 "bonus_actions":

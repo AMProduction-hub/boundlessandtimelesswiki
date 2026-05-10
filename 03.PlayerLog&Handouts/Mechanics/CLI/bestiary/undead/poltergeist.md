@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Poltergeist
+- "Poltergeist"
 ---
-# [Poltergeist](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/poltergeist.md)
-*Source: Monster Manual p. 279, Curse of Strahd, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Keys from the Golden Vault*  
+# [Poltergeist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/poltergeist.md)
+*Source: Monster Manual p. 279*  
 
 A poltergeist is the confused, invisible spirit of an individual with no sense of how he or she died. A poltergeist expresses its rage by hurling creatures and objects using the power of its shattered psyche.
 
@@ -46,12 +47,13 @@ A poltergeist is the confused, invisible spirit of an individual with no sense o
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands all languages it knew in life but can't speak"
 "cr": "2"
 "traits":
   - "desc": "The poltergeist can move through other creatures and objects as if they\
-      \ were difficult terrain. It takes 5 (d10) force damage if it ends its turn\
+      \ were difficult terrain. It takes 5 (1d10) force damage if it ends its turn\
       \ inside an object."
     "name": "Incorporeal Movement"
   - "desc": "While in sunlight, the poltergeist has disadvantage on attack rolls,\
@@ -61,7 +63,7 @@ A poltergeist is the confused, invisible spirit of an individual with no sense o
   - "desc": "The poltergeist is [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)."
     "name": "Invisibility"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 10 (3d6) force damage."
     "name": "Forceful Slam"
   - "desc": "The poltergeist targets a creature or unattended object within 30 feet\
@@ -70,7 +72,7 @@ A poltergeist is the confused, invisible spirit of an individual with no sense o
       \ the poltergeist makes a Charisma check contested by the target's Strength\
       \ check. If the poltergeist wins the contest, the poltergeist hurls the target\
       \ up to 30 feet in any direction, including upward. If the target then comes\
-      \ into contact with a hard surface or heavy object, the target takes d6 damage\
+      \ into contact with a hard surface or heavy object, the target takes 1d6 damage\
       \ per 10 feet moved.\n\nIf the target is an object that isn't being worn or\
       \ carried, the poltergeist hurls it up to 30 feet in any direction. The poltergeist\
       \ can use the object as a ranged weapon, attacking one creature along the object's\
@@ -78,10 +80,6 @@ A poltergeist is the confused, invisible spirit of an individual with no sense o
     "name": "Telekinetic Thrust"
 "source":
   - "MM"
-  - "CoS"
-  - "IDRotF"
-  - "CM"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/poltergeist.webp"
 ```
 ^statblock

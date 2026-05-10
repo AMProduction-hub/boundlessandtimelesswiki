@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Wildemount Gazetteer
+- "Wildemount Gazetteer"
 ---
 # Wildemount Gazetteer
 *Source: Explorer's Guide to Wildemount, p. 59* 
 
-![The beauty and danger of W...](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/044-03-01.webp#center "The beauty and danger of Wildemount are all but lost on a party of adventurers traversing the Brokenveil Bluffs")
+![The beauty and danger of Wildemount are all but lost on a party of adventurers traversing the Brokenveil Bluffs](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/044-03-01.webp#center)
 
 > [!quote] A quote from Taryon Darrington, The Daring Trials and Tribulations of Ser Taryon Darrington  
 > 
@@ -2606,7 +2607,7 @@ Surrounded by four watchtowers and a ten-foot-tall palisade of sharpened logs, P
 
 ##### Palebank Village Adventures
 
-Palebank Village would be a sleepy place without much excitement were it not for the presence of eager explorers and the settlement's importance as a waystation between Uthodurn and the islands of Eiselcross.
+Palebank Village would be a sleepy place without much excitement were it not for the presence of eager explorers and the settlement's importance as a way station between Uthodurn and the islands of Eiselcross.
 
 ###### Troll Night (Mid Level)
 
@@ -2726,7 +2727,7 @@ If the characters agree to help Dratto, a dangerous burglary ensues. They must i
 
 ###### King's Spy (Any Level)
 
-Nella Durlon (lawful neutral, nonbinary, human [spy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md)) lives in Shadycreek Run as a spy for the empire. They gather information about the settlement's defenses to take back to Oliver Schrieber (see ""Dwendalian Empire"" in chapter 2). The characters learn of Nella's job from a faction that hires them to find the spy. Depending on the faction, the characters must either escort Nella safely out of the settlement so they can report to Oliver, or ask that Nella be killed for giving away the settlement's secrets. Either way, finding Nella is no small task. The spy is a master of their craft and blends in with the criminals and ruffians of the Run.
+Nella Durlon (lawful neutral, nonbinary, human [spy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md)) lives in Shadycreek Run as a spy for the empire. They gather information about the settlement's defenses to take back to Oliver Schreiber (see ""Dwendalian Empire"" in chapter 2). The characters learn of Nella's job from a faction that hires them to find the spy. Depending on the faction, the characters must either escort Nella safely out of the settlement so they can report to Oliver, or ask that Nella be killed for giving away the settlement's secrets. Either way, finding Nella is no small task. The spy is a master of their craft and blends in with the criminals and ruffians of the Run.
 
 #### Uraliss
 
@@ -2768,7 +2769,7 @@ Hidden among the icy peaks of the Flotket Alps, the northernmost dwarven strongh
 
 Beyond the iron doors of the city, the wildlands surrounding the underground stronghold are brutally cold and battered by cutting winds. The people of Uthodurn hunt and track in bursts, like sudden flurries of snow, stalking the wild white bison and cliffneck goats that call the Flotket Alps home. The dwarves and elves of Uthodurn have adapted to their environment, becoming skilled hunters and trackers as well as hearty travelers used to persisting through extreme conditions. As the hunter's saying goes, "squeezing water from a stone might be hard, but snaring a rabbit from the Flots is harder." A strong martial force is necessary to combat dangers such as frost giant clans and snow-faring goblinoid bands that hunt throughout the slopes and caverns of the mountain range, and the masters of Uthodurn have trained fierce warriors and spellslingers.
 
-![The fiery volcano Kravaraa...](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/065-03-16.webp#center "The fiery volcano Kravaraad looms over the snow-covered Flotket Alps, home of the Diarchy of Uthodurn")
+![The fiery volcano Kravaraad looms over the snow-covered Flotket Alps, home of the Diarchy of Uthodurn](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/065-03-16.webp#center)
 
 ##### Dual Societies, Dual Skills
 
@@ -2916,7 +2917,7 @@ A large facility in the city developed diseases meant to weaken and kill the god
 
 Frigid woe is a special disease developed by Aeor's mages that cannot be cured by conventional treatment or magic. The only way a creature infected with the disease can be cured is by finding and drinking the manufactured antidote, a milky liquid stored in gold vials found in Eiselcross's ruins. This disease was created to slow down the forces of the gods and get around the healing power of their clerics and angels.
 
-The disease is transmitted by breathing in blue spores that Aeor's mages created long ago. When a creature comes into contact with these spores, it must succeed on a DC 11 Constitution saving throw or become infected with frigid woe. It takes `d4` days for the symptoms to manifest in an infected creature. These symptoms include fatigue, chills, and visible blue veins that appear on the creature's body. The infected creature's speed is reduced by 5 feet as long as it remains infected. Every 10 days after symptoms appear, an infected creature must succeed on a DC 11 Constitution saving throw, or its speed is reduced by another 5 feet. If a creature's speed is reduced to 0 as a result of this disease, the creature dies and its body turns into a statue made of ice.
+The disease is transmitted by breathing in blue spores that Aeor's mages created long ago. When a creature comes into contact with these spores, it must succeed on a DC 11 Constitution saving throw or become infected with frigid woe. It takes `1d4` days for the symptoms to manifest in an infected creature. These symptoms include fatigue, chills, and visible blue veins that appear on the creature's body. The infected creature's speed is reduced by 5 feet as long as it remains infected. Every 10 days after symptoms appear, an infected creature must succeed on a DC 11 Constitution saving throw, or its speed is reduced by another 5 feet. If a creature's speed is reduced to 0 as a result of this disease, the creature dies and its body turns into a statue made of ice.
 
 A creature can drink the antidote as an action, ending all symptoms and effects of the disease instantly.
 
@@ -3052,7 +3053,7 @@ An entire team of explorers was torn apart in the wastes just outside Balenpost.
 
 The Cerberus Assembly learns that King Dwendal's [spies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md) have infiltrated Balenpost. They hire the characters to find and report the spies to Wardlow Akron. The characters might uncover Karta Meck's network of four spies within the camp or find a lead-lined box among Karta's supplies which holds a [sending stone](03.PlayerLog&Handouts/Mechanics/CLI/items/sending-stones.md) paired with another held by Oliver Schreiber (see ""Dwendalian Empire"" in chapter 2). If discovered, the spies attempt to win over the characters, promising an Aeorian item in exchange for helping to discover what secrets are hidden in Horswell's lab.
 
-![White dragons scour the is...](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/068-03-18.webp#center "White dragons scour the islands of Eiselcross for food and treasure")
+![White dragons scour the islands of Eiselcross for food and treasure](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/068-03-18.webp#center)
 
 #### Fortress of the Dead Jarl
 
@@ -3064,7 +3065,7 @@ The Aeorian items within the fortress are enough to tempt most adventurers, but 
 
 ###### They're Free (Mid Level)
 
-When the characters arrive in Balenpost or Syrinlya, a [frost giant zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/frost-giant-zombie-egw.md) (see "chapter 7") attacks the camp. If the characters help defeat the giant, the leader of the camp tells the characters it is the third attack in as many days and asks them to find the source of the zombies. Characters can track the zombies back to the fortress. Each day the characters follow this path, roll any die. On an even result, the characters encounter `d4` frost giant zombies. When they reach the fortress, they find that one of the walls is breached and must repair it to stop the zombies from leaving the castle. This breach could be natural or could be caused by a faction with a score to settle against the attacked outpost.
+When the characters arrive in Balenpost or Syrinlya, a [frost giant zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/frost-giant-zombie-egw.md) (see "chapter 7") attacks the camp. If the characters help defeat the giant, the leader of the camp tells the characters it is the third attack in as many days and asks them to find the source of the zombies. Characters can track the zombies back to the fortress. Each day the characters follow this path, roll any die. On an even result, the characters encounter `1d4` frost giant zombies. When they reach the fortress, they find that one of the walls is breached and must repair it to stop the zombies from leaving the castle. This breach could be natural or could be caused by a faction with a score to settle against the attacked outpost.
 
 #### Mutalos
 
@@ -3150,7 +3151,7 @@ The main reason for many characters to come to Syrinlya is to seek out Aoerian i
 
 ###### The Arcane Tree (Mid Level)
 
-While the characters are in Syrinlya, Morgo Delwur returns from an expedition with a bag of five green seeds from one of Eiselcross's Aeorian ruins. The [werebear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/werebear.md) lost a seed in the snow when showing them off, and a 15-foot-tall, green tree springs up overnight in the middle of the camp. Whenever a creature casts a spell that restores hit points or deals radiant damage to another creature within 90 feet of the tree, the tree uproots itself from the ground and attacks the creature. After killing the spellcasting creature and other threats, the tree replants its roots. Every `d10` days the tree remains rooted, a new tree of the same type grows up from the ground within 30 feet. If the trees become a problem, Professor Gulgrim Shalebrow asks the characters to deal with them.
+While the characters are in Syrinlya, Morgo Delwur returns from an expedition with a bag of five green seeds from one of Eiselcross's Aeorian ruins. The [werebear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/werebear.md) lost a seed in the snow when showing them off, and a 15-foot-tall, green tree springs up overnight in the middle of the camp. Whenever a creature casts a spell that restores hit points or deals radiant damage to another creature within 90 feet of the tree, the tree uproots itself from the ground and attacks the creature. After killing the spellcasting creature and other threats, the tree replants its roots. Every `1d10` days the tree remains rooted, a new tree of the same type grows up from the ground within 30 feet. If the trees become a problem, Professor Gulgrim Shalebrow asks the characters to deal with them.
 
 The [animated tree](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/animated-tree-egw.md) uses the [treant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/treant.md) stat block, with these changes:
 
@@ -3190,7 +3191,7 @@ The wormkin have two goals: grow their numbers and free Quajath from the ice. Wh
 
 ##### Wormkin Template
 
-Humanoids that consume the Undermaw's flesh ten or fewer days after it has been removed from Quajath must make a DC 15 Constitution saving throw or become wormkin `d6` hours later. Wormkin can be identified by the black veins that cover their appendages and neck. Characters who become wormkin might become NPCs at the DM's discretion. A [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md) spell or similar magic removes all the wormkin features from a creature, restoring it to its original state. Wormkin gain the following features:
+Humanoids that consume the Undermaw's flesh ten or fewer days after it has been removed from Quajath must make a DC 15 Constitution saving throw or become wormkin `1d6` hours later. Wormkin can be identified by the black veins that cover their appendages and neck. Characters who become wormkin might become NPCs at the DM's discretion. A [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md) spell or similar magic removes all the wormkin features from a creature, restoring it to its original state. Wormkin gain the following features:
 
 ###### Alignment
 
@@ -3335,7 +3336,7 @@ Blood often runs hot in Asarius, and folk here often come to blows, simply to de
 
 ##### Geography
 
-The majority of this rough, boisterous city is draped across a wide, muddy hill that overlooks the surrounding plains. The hill is surrounded by fifteen-foot-tall walls of purple vermaloc wood, harvested from the eponymous Vermaloc Wildwood. The interior of the city is a tangled mass of wayward, mud-slick streets and a hodgepodge of homes and structures that architecturally mirror the social mixture of dark elf society and the many nomadic lifestyles of the wastefolk. The center of the city is marked by the ominous spire known as the Aurora Hold, home to Den Olios.
+The majority of this rough, boisterous city is draped across a wide, muddy hill that overlooks the surrounding plains. The hill is surrounded by fifteen-foot-tall walls of purple Vermaloc wood, harvested from the eponymous Vermaloc Wildwood. The interior of the city is a tangled mass of wayward, mud-slick streets and a hodgepodge of homes and structures that architecturally mirror the social mixture of dark elf society and the many nomadic lifestyles of the wastefolk. The center of the city is marked by the ominous spire known as the Aurora Hold, home to Den Olios.
 
 The southeast region of Asarius is called the Pits, named for the multitude of breeding pits for war beasts and other beasts of burden. The Pits are responsible for the city's ever-present smell of wet animals and dung, and the area is also home to many poorer citizens seeking work wherever it can be found. The southwest portion of the city is known as the Creets, a rustic tangle of goblinoid neighborhoods and houses of farming folk who till the harsh environment beyond the eastern walls. The entire northern side of the city is simply known as the Northroads. Within this area, the Scowl Square is the center of commerce, and the North Center forms the industrial core of Asarius. An average of four thousand Aurora Watch are stationed outside the western walls of the city, with additional reinforcements during times of looming conflict.
 
@@ -3467,7 +3468,7 @@ The society within the village operates without money, gold, or emphasis on prec
 
 ##### Geography
 
-Nestled within a sunken meadow surrounded by dense trees and hills, this hidden sanctuary is a beautiful pocket of protected nature within the haunted shadows of the Lotusden. Colorful flowers and fungi line the pathways between stacking treehollow homes and hillside domiciles, and vine-wrapped bridges hang between treetops. Sunbeams pierce the canopy of the forest, bringing vibrant warmth during the day, while moonlight calls faint whispers of mischievous fey into the village to mingle with its denizens.
+Nestled within a sunken meadow surrounded by dense trees and hills, this hidden sanctuary is a beautiful pocket of protected nature within the haunted shadows of the Lotusden. Colorful flowers and fungi line the pathways between stacking tree-hollow homes and hillside domiciles, and vine-wrapped bridges hang between treetops. Sunbeams pierce the canopy of the forest, bringing vibrant warmth during the day, while moonlight calls faint whispers of mischievous fey into the village to mingle with its denizens.
 
 ##### Charis Adventures
 
@@ -4055,7 +4056,7 @@ A virtually imperceptible mist of preternatural psychotropic vapor hovers above 
 This crimson precipitation is corrosive to ferrous metal and caustic to creatures.
 
 - Rust rain corrodes nonmagical, ferrous metal objects. If the object isn't being worn or carried, the rain destroys 1 cubic foot of it for every 10 minutes of exposure. An object must be covered to avoid exposure. If the exposed object is nonmagical metal armor, a nonmagical metal weapon, or a nonmagical metal shield being worn or carried, it takes a permanent and cumulative −1 penalty to damage rolls or the AC it offers for every 10 minutes of exposure to rust rain. A weapon that drops to a −5 penalty, armor reduced to an AC of 10, or a shield that drops to a +0 bonus is destroyed.  
-- Any creature that starts it turn in rust rain and isn't covered by an umbrella, a shield, or some other form of rain protection takes `d4` acid damage.  
+- Any creature that starts it turn in rust rain and isn't covered by an umbrella, a shield, or some other form of rain protection takes `1d4` acid damage.  
 
 #### Toxic Fungus Colony
 
@@ -4096,11 +4097,11 @@ Unlike the restorative essences of the Sorrowseep Waters, a draught of liquid fr
 > 
 > The unique environs of the post-Calamity Miskath Strand have produced a number of strange new substances that can be cultivated for both noble and illicit purposes. The regulation of these bizarre drugs proves difficult, however, as their exotic qualities often confound those who would subvert their questionable usage. As such, supply and demand remain steady despite the inevitable hazards of production.
 > 
-> [Black Sap](03.PlayerLog&Handouts/Mechanics/CLI/items/black-sap-egw.md). This tarry substance harvested from the dark boughs of the death's head willow is a powerful intoxicant. It can be smoked as a concentrate or injected directly into the bloodstream. A creature subjected to a dose of black sap cannot be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) for `d6` hours. For each dose of black sap consumed, a creature must succeed on a DC 15 Constitution saving throw or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for `2d4` hours—an effect that is cumulative with multiple doses. Black sap is valued at 300 gp per dose.
+> [Black Sap](03.PlayerLog&Handouts/Mechanics/CLI/items/black-sap-egw.md). This tarry substance harvested from the dark boughs of the death's head willow is a powerful intoxicant. It can be smoked as a concentrate or injected directly into the bloodstream. A creature subjected to a dose of black sap cannot be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) for `1d6` hours. For each dose of black sap consumed, a creature must succeed on a DC 15 Constitution saving throw or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for `2d4` hours—an effect that is cumulative with multiple doses. Black sap is valued at 300 gp per dose.
 > 
-> [Blight Ichor](03.PlayerLog&Handouts/Mechanics/CLI/items/blight-ichor-egw.md). This bitter chartreuse concoction is distilled from a fungus native to the Blightshore badlands. The sickly green liqueur harbors potent psychedelic properties. Provided it is neither a construct nor undead, a creature subjected to a dose of blight ichor gains advantage on Intelligence and Wisdom checks, as well as vulnerability to psychic damage, for 1 hour. For each dose of blight ichor consumed, the creature must succeed on a DC 15 Constitution saving throw or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for `d6` hours and suffer the effects of a [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md) spell for 1 minute. An undead creature subjected to a dose of blight ichor gains advantage on all Dexterity checks and is immune to the [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) condition for 1 hour. Blight ichor is valued at 200 gp per dose.
+> [Blight Ichor](03.PlayerLog&Handouts/Mechanics/CLI/items/blight-ichor-egw.md). This bitter chartreuse concoction is distilled from a fungus native to the Blightshore badlands. The sickly green liqueur harbors potent psychedelic properties. Provided it is neither a construct nor undead, a creature subjected to a dose of blight ichor gains advantage on Intelligence and Wisdom checks, as well as vulnerability to psychic damage, for 1 hour. For each dose of blight ichor consumed, the creature must succeed on a DC 15 Constitution saving throw or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for `1d6` hours and suffer the effects of a [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md) spell for 1 minute. An undead creature subjected to a dose of blight ichor gains advantage on all Dexterity checks and is immune to the [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) condition for 1 hour. Blight ichor is valued at 200 gp per dose.
 > 
-> [Soothsalts](03.PlayerLog&Handouts/Mechanics/CLI/items/soothsalts-egw.md). Soothsalts are derived from a naturally occurring crystalline substance discovered throughout the wilds of the Miskath Strand. The crimson crystals have been mined from cavernous veins like those in the mouth of the Miskath Pit and found within smaller geode formations near sites ravaged by the Calamity. Soothsalts are consumed orally in lozenge-sized doses, and frequent users can be identified by the telltale crimson stain around their mouths. A creature subjected to a dose of soothsalts gains advantage on all Intelligence checks for `d4` hours. For each dose of soothsalts consumed, the creature must succeed on a DC 15 Constitution saving throw or gain one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion)—an effect which is cumulative with multiple doses. Soothsalts are valued at 150 gp per dose.
+> [Soothsalts](03.PlayerLog&Handouts/Mechanics/CLI/items/soothsalts-egw.md). Soothsalts are derived from a naturally occurring crystalline substance discovered throughout the wilds of the Miskath Strand. The crimson crystals have been mined from cavernous veins like those in the mouth of the Miskath Pit and found within smaller geode formations near sites ravaged by the Calamity. Soothsalts are consumed orally in lozenge-sized doses, and frequent users can be identified by the telltale crimson stain around their mouths. A creature subjected to a dose of soothsalts gains advantage on all Intelligence checks for `1d4` hours. For each dose of soothsalts consumed, the creature must succeed on a DC 15 Constitution saving throw or gain one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion)—an effect which is cumulative with multiple doses. Soothsalts are valued at 150 gp per dose.
 ^blightshore-contraband
 
 ### Ebonglass Massif
@@ -4329,7 +4330,7 @@ The future of Strathfell is not without hope, for good-aligned centaurs continue
 
 The southern tip of the peninsula abuts the Mordant Isle, a smaller land mass separated from the mainland by the reef-laden waters of the Venom Strait. On this island, an aberrant enclave of winged serpentkin dwell within the ruins of Sariss, the Jade City, where they have erected foul monuments to the Cloaked Serpent himself. These abhorrent snake folk plot a terrible doom for denizens of the Miskath Strand from their horrid lairs. No warm-blooded creature has ever been to Sariss and survived—or so the story goes.
 
-![Adventurers contend with e...](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/081-03-28.webp#center "Adventurers contend with electric winds in an ember thicket")
+![Adventurers contend with electric winds in an ember thicket](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/081-03-28.webp#center)
 
 ## Distant Lands of Exandria
 

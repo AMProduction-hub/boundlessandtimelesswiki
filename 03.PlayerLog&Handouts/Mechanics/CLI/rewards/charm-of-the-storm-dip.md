@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-reward
+cssclasses:
+- json5e-reward
 tags:
 - ttrpg-cli/compendium/src/5e/dip
 - ttrpg-cli/reward/charm
 aliases:
-- Charm of the Storm
+- "Charm of the Storm"
 ---
 # Charm of the Storm
 

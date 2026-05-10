@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
-- Aristocrat Types
+- "Aristocrat Types"
 ---
 # Aristocrat Types
 *Source: Tasha's Cauldron of Everything p. 89* 
 
 **Aristocrat Types**
-
-`dice: [](aristocrat-types-tce.md#^aristocrat-types)`
 
 | dice: d6 | Aristocrats |
 |----------|-------------|

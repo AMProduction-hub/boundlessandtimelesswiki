@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/race/custom-lineage
 aliases:
-- Custom Lineage
+- "Custom Lineage"
 ---
 # Custom Lineage
 *Source: Tasha's Cauldron of Everything p. 8*  

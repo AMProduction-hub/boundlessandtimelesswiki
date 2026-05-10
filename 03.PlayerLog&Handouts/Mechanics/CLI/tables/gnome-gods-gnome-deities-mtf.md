@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Gnome Gods; Gnome Deities
+- "Gnome Gods; Gnome Deities"
 ---
 # Gnome Gods; Gnome Deities
 *Source: Mordenkainen's Tome of Foes p. 110* 

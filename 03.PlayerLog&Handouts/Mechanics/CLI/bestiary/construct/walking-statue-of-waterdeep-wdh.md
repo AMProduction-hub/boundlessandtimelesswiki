@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/18
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Walking Statue of Waterdeep
+- "Walking Statue of Waterdeep"
 ---
-# [Walking Statue of Waterdeep](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/walking-statue-of-waterdeep-wdh.md)
+# [Walking Statue of Waterdeep](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/walking-statue-of-waterdeep-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 219*  
 
 Scattered throughout Waterdeep are eight enormous statues that can defend the city in times of great peril. Because they are so destructive, the walking statues are used only to fend off armies and seemingly insurmountable foes.
@@ -45,7 +46,7 @@ A walking statue doesn't require air, food, drink, or sleep.
   - !!int "1"
 "speed": "60 ft."
 "saves":
-  - "constitution": "+14"
+  - "constitution": !!int "14"
 "damage_immunities": "cold; fire; poison; psychic; bludgeoning, piercing, slashing\
   \ from nonmagical attacks not made with adamantine weapons"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
@@ -55,7 +56,8 @@ A walking statue doesn't require air, food, drink, or sleep.
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "truesight 120 ft., passive Perception 10"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 10"
 "languages": ""
 "cr": "18"
 "traits":
@@ -74,11 +76,11 @@ A walking statue doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The statue makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 5 ft., one target. *Hit:*\
       \ 29 (3d12 + 10) bludgeoning damage."
     "name": "Slam"
-  - "desc": "Ranged Weapon Attack: +16 to hit, range 200/800 ft., one target.\
-      \ Hit: 43 (6d10 + 10) bludgeoning damage."
+  - "desc": "*Ranged Weapon Attack:* +16 to hit, range 200/800 ft., one target.\
+      \ *Hit:* 43 (6d10 + 10) bludgeoning damage."
     "name": "Hurled Stone"
 "source":
   - "WDH"

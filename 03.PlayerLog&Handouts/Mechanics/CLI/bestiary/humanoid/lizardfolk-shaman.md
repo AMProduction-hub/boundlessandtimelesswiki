@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lizardfolk Shaman
+- "Lizardfolk Shaman"
 ---
-# [Lizardfolk Shaman](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/lizardfolk-shaman.md)
-*Source: Monster Manual p. 205, Princes of the Apocalypse, Tomb of Annihilation, Ghosts of Saltmarsh, Infernal Machine Rebuild, Explorer's Guide to Wildemount*  
+# [Lizardfolk Shaman](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk-shaman.md)
+*Source: Monster Manual p. 205*  
 
 Lizardfolk are primitive reptilian humanoids that lurk in the swamps and jungles of the world. Their hut villages thrive in forbidding grottos, half-sunken ruins, and watery caverns.
 
@@ -85,14 +86,14 @@ Lizardfolk speak Draconic, which they are thought to have learned from dragons i
 "traits":
   - "desc": "The lizardfolk is a 5th-level spellcaster. Its spellcasting ability is\
       \ Wisdom (spell save DC 12, +4 to hit with spell attacks). The lizardfolk\
-      \ has the following druid spells prepared:\n\nCantrips (at will): [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
+      \ has the following druid spells prepared:\n\n**Cantrips (at will):** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
       \ [produce flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md),\
       \ [thorn whip](03.PlayerLog&Handouts/Mechanics/CLI/spells/thorn-whip.md)\n\n\
-      1st level (4 slots): [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
-      \ [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md)\n\n2nd\
-      \ level (3 slots): [heat metal](03.PlayerLog&Handouts/Mechanics/CLI/spells/heat-metal.md),\
+      **1st level (4 slots):** [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
+      \ [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md)\n\n**2nd\
+      \ level (3 slots):** [heat metal](03.PlayerLog&Handouts/Mechanics/CLI/spells/heat-metal.md),\
       \ [spike growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/spike-growth.md)\n\
-      \n3rd level (2 slots): [conjure animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-animals.md)\
+      \n**3rd level (2 slots):** [conjure animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-animals.md)\
       \ (reptiles only), [plant growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/plant-growth.md)"
     "name": "Spellcasting (Lizardfolk Form Only)"
   - "desc": "The lizardfolk can hold its breath for 15 minutes."
@@ -101,7 +102,7 @@ Lizardfolk speak Draconic, which they are thought to have learned from dragons i
   - "desc": "The lizardfolk makes two attacks: one with its bite and one with its\
       \ claws."
     "name": "Multiattack (Lizardfolk Form Only)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage, or 7 (1d10 + 2) piercing damage in [crocodile](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/crocodile.md)\
       \ form. If the lizardfolk is in crocodile form and the target is a Large or\
       \ smaller creature, the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
@@ -109,7 +110,7 @@ Lizardfolk speak Draconic, which they are thought to have learned from dragons i
       \ and the lizardfolk can't bite another target. If the lizardfolk reverts to\
       \ its true form, the grapple ends."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) slashing damage."
     "name": "Claws (Lizardfolk Form Only)"
   - "desc": "The lizardfolk magically polymorphs into a [crocodile](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/crocodile.md),\
@@ -120,11 +121,6 @@ Lizardfolk speak Draconic, which they are thought to have learned from dragons i
     "name": "Change Shape (Recharges after a Short or Long Rest)"
 "source":
   - "MM"
-  - "PotA"
-  - "ToA"
-  - "GoS"
-  - "IMR"
-  - "EGW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/lizardfolk-shaman.webp"
 ```
 ^statblock

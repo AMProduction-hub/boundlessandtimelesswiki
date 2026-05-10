@@ -1,8 +1,9 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 aliases:
-- Item Properties
+- "Item Properties"
 ---
 # Item Properties
 
@@ -79,6 +80,11 @@ This weapon requires two hands to use. This property is relevant only when you a
 ### Versatile
 _Source: Player's Handbook p. 147_
 This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack.
+
+### Vestige of Divergence
+_Source: Explorer's Guide to Wildemount p. 270_
+> [!note]
+> This item is a Vestige of Divergence, see "Vestiges of Divergence" for more information.
 
 ## Improvised Weapons
 

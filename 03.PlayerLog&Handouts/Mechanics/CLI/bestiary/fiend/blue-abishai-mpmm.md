@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/17
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Blue Abishai
+- "Blue Abishai"
 ---
-# [Blue Abishai](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/blue-abishai-mpmm.md)
+# [Blue Abishai](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/blue-abishai-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 39, Mordenkainen's Tome of Foes p. 161*  
 
 Seekers of forgotten lore and lost relics, blue abishais are the most cunning and learned of their kind. Their research into occult subjects gleaned from tomes plundered from across the multiverse enables them to become accomplished spellcasters. They use their magic to devastate Tiamat's enemies.
@@ -47,8 +48,8 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
   - !!int "18"
 "speed": "30 ft., fly 50 ft."
 "saves":
-  - "intelligence": "+12"
-  - "wisdom": "+12"
+  - "intelligence": !!int "12"
+  - "wisdom": !!int "12"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+12"
@@ -56,7 +57,8 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
   \ that aren't silvered"
 "damage_immunities": "fire, lightning, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "Draconic, Infernal, telepathy 120 ft."
 "cr": "17"
 "traits":
@@ -68,17 +70,17 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
 "actions":
   - "desc": "The abishai makes three Bite or Lightning Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d10 + 2) piercing damage plus 14 (4d6) lightning damage."
     "name": "Bite"
-  - "desc": "Ranged Spell Attack: +12 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +12 to hit, range 120 ft., one target. *Hit:*\
       \ 36 (8d8) lightning damage."
     "name": "Lightning Strike"
   - "desc": "The abishai casts one of the following spells, using Intelligence as\
-      \ the spellcasting ability (spell save DC 20):\n\nAt will: [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
+      \ the spellcasting ability (spell save DC 20):\n\n**At will:** [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [minor\
       \ illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\n\
-      2/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      **2/day each:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md),\
       \ [wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md)"

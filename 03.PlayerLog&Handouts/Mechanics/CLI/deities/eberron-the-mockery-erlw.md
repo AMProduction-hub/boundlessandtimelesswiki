@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/deity/eberron
 - ttrpg-cli/domain/trickery
 - ttrpg-cli/domain/war
-aliases: 
-- The Mockery
+aliases:
+- "The Mockery"
 ---
 # The Mockery
 *Source: Eberron: Rising from the Last War p. 141* 

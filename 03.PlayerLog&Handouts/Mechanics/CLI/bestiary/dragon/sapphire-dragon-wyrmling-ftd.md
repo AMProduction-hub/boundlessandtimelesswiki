@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sapphire Dragon Wyrmling
+- "Sapphire Dragon Wyrmling"
 ---
-# [Sapphire Dragon Wyrmling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/sapphire-dragon-wyrmling-ftd.md)
+# [Sapphire Dragon Wyrmling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/sapphire-dragon-wyrmling-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 216*  
 
 The thunderous clash of conflict is part of the very nature of sapphire dragons. Militant and territorial, they defend their lairs fiercely, ambushing intruders and plotting assaults against their rivals. The sonic pulse of their breath weapon sows weakness, leaving the victims unable to fight back.
@@ -38,8 +39,6 @@ Use the Sapphire Dragon Personality Traits and Sapphire Dragon Ideals tables to 
 
 ### Sapphire Dragon Personality Traits
 
-`dice: [](sapphire-dragon-wyrmling-ftd.md#^trait)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | I often fixate on specific historical battles or wars and won't rest until my hoard contains that conflict's most significant artifacts. |
@@ -53,8 +52,6 @@ Use the Sapphire Dragon Personality Traits and Sapphire Dragon Ideals tables to 
 ^trait
 
 ### Sapphire Dragon Ideals
-
-`dice: [](sapphire-dragon-wyrmling-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -71,8 +68,6 @@ Use the Sapphire Dragon Personality Traits and Sapphire Dragon Ideals tables to 
 The Sapphire Dragon Adventure Hooks table offers suggestions for stories and adventures involving sapphire dragons.
 
 ### Sapphire Dragon Adventure Hooks
-
-`dice: [](sapphire-dragon-wyrmling-ftd.md#^adventure-hook)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|
@@ -91,8 +86,6 @@ The Sapphire Dragon Adventure Hooks table offers suggestions for stories and adv
 Sapphire dragons are generally solitary creatures. On the rare occasion that one forms nonhostile relationships with other beings, it is almost always to bolster the defenses of the dragon's lair and hoard.
 
 ### Sapphire Dragon Wyrmling Connections
-
-`dice: [](sapphire-dragon-wyrmling-ftd.md#^connected-creatures)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|
@@ -124,10 +117,10 @@ Sapphire dragons are generally solitary creatures. On the rare occasion that one
   - !!int "14"
 "speed": "30 ft., burrow 15 ft., climb 30 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+5"
-  - "wisdom": "+3"
-  - "charisma": "+4"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "3"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+4"
@@ -139,7 +132,9 @@ Sapphire dragons are generally solitary creatures. On the rare occasion that one
     "desc": "+4"
 "damage_resistances": "lightning, thunder"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 15"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 15"
 "languages": "Draconic, telepathy 120 ft."
 "cr": "3"
 "traits":
@@ -150,8 +145,8 @@ Sapphire dragons are generally solitary creatures. On the rare occasion that one
       \ and can leave a 5-foot-diameter tunnel in its wake."
     "name": "Tunneler"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
-      \ (1d10 + 3) piercing damage plus 3 (d6) thunder damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
+      \ (1d10 + 3) piercing damage plus 3 (1d6) thunder damage."
     "name": "Bite"
   - "desc": "The dragon exhales a pulse of high-pitched, nearly inaudible sound in\
       \ a 15-foot cone. Each creature in that area must make a DC 13 Constitution\
@@ -161,7 +156,7 @@ Sapphire dragons are generally solitary creatures. On the rare occasion that one
       \ as much damage and isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Debilitating Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
-      \ and using Intelligence as the spellcasting ability:\n\n1/day each: [alarm](03.PlayerLog&Handouts/Mechanics/CLI/spells/alarm.md),\
+      \ and using Intelligence as the spellcasting ability:\n\n**1/day each:** [alarm](03.PlayerLog&Handouts/Mechanics/CLI/spells/alarm.md),\
       \ [Tenser's floating disk](03.PlayerLog&Handouts/Mechanics/CLI/spells/tensers-floating-disk.md)"
     "name": "Spellcasting (Psionics)"
 "source":

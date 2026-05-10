@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Engraved Wards; Hidecarved Wards
+- "Engraved Wards; Hidecarved Wards"
 ---
 # Engraved Wards; Hidecarved Wards
 *Source: Fizban's Treasury of Dragons p. 47* 
 
 **Hidecarved Wards**
-
-`dice: [](engraved-wards-hidecarved-wards-ftd.md#^hidecarved-wards)`
 
 | dice: d6 | Ward Effect |
 |----------|-------------|

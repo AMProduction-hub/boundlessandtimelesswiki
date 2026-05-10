@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/8
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Green Slaad
+- "Green Slaad"
 ---
-# [Green Slaad](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/green-slaad.md)
-*Source: Monster Manual p. 277, Waterdeep: Dungeon of the Mad Mage, Icewind Dale: Rime of the Frostmaiden, Dragonlance: Shadow of the Dragon Queen*  
+# [Green Slaad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/green-slaad.md)
+*Source: Monster Manual p. 277*  
 
 Green slaadi are surprisingly intelligent and possess innate spellcasting ability. A green slaad can change its shape to appear as a humanoid. If it was born of a humanoid host, the slaad usually adopts its host's form.
 
@@ -81,17 +82,19 @@ Some slaadi can transform into the humanoid creatures from which they were origi
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
 "damage_resistances": "acid, cold, fire, lightning, thunder"
-"senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 12"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Slaad, telepathy 60 ft."
 "cr": "8"
 "traits":
   - "desc": "The slaad's innate spellcasting ability is Charisma (spell save DC 12).\
       \ The slaad can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
-      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n2/day\
-      \ each: [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md), [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
-      \ (self only)\n\n1/day: [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)"
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n**2/day\
+      \ each:** [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md), [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
+      \ (self only)\n\n**1/day:** [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)"
     "name": "Innate Spellcasting"
   - "desc": "The slaad can use its action to polymorph into a Small or Medium humanoid,\
       \ or back into its true form. Its statistics, other than its size, are the same\
@@ -108,24 +111,21 @@ Some slaadi can transform into the humanoid creatures from which they were origi
   - "desc": "The slaad makes three attacks: one with its bite and two with its claws\
       \ or staff. Alternatively, it uses its Hurl Flame twice."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) piercing damage."
     "name": "Bite (Slaad Form Only)"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) slashing damage."
     "name": "Claw (Slaad Form Only)"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage."
     "name": "Staff"
-  - "desc": "Ranged Spell Attack: +4 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +4 to hit, range 60 ft., one target. *Hit:*\
       \ 10 (3d6) fire damage. The fire ignites flammable objects that aren't being\
       \ worn or carried."
     "name": "Hurl Flame"
 "source":
   - "MM"
-  - "WDMM"
-  - "IDRotF"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/green-slaad.webp"
 ```
 ^statblock

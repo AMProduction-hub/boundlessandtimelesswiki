@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Knight of the Order
+- "Knight of the Order"
 ---
-# [Knight of the Order](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/knight-of-the-order-cos.md)
+# [Knight of the Order](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/knight-of-the-order-cos.md)
 *Source: Curse of Strahd p. 139*  
 
 ```statblock
@@ -33,10 +34,10 @@ aliases:
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "strength": "+7"
-  - "constitution": "+7"
-  - "wisdom": "+6"
-  - "charisma": "+7"
+  - "strength": !!int "7"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "7"
 "damage_resistances": "necrotic, psychic"
 "damage_immunities": "poison"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
@@ -45,7 +46,8 @@ aliases:
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "the languages it knew in life"
 "cr": "5"
 "traits":
@@ -69,12 +71,12 @@ aliases:
 "actions":
   - "desc": "The knight makes two longsword attacks or two fist attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (2d10 + 4) slashing damage. If the target is a creature against which the\
       \ knight has sworn vengeance, the target takes an extra 14 (4d6) slashing\
       \ damage."
     "name": "Longsword"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage. If the target is a creature against which\
       \ the knight has sworn vengeance, the target takes an extra 14 (4d6) bludgeoning\
       \ damage. Instead of dealing damage, the knight can grapple the target (escape\

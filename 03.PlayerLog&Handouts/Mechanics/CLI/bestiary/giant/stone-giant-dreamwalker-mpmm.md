@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/10
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Stone Giant Dreamwalker
+- "Stone Giant Dreamwalker"
 ---
-# [Stone Giant Dreamwalker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/stone-giant-dreamwalker-mpmm.md)
+# [Stone Giant Dreamwalker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/stone-giant-dreamwalker-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 234, Volo's Guide to Monsters p. 150*  
 
 The surface of the world is an alien realm to stone giants: fluctuating, temporary, exposed to gusting wind and sudden rain. It is as wildly changeable as a dream, and that's how they regard it—as a dream. Nothing there is permanent, so nothing there is real. What happens on the surface doesn't matter. Promises and bargains made there needn't be honored. Life and even art hold less value there.
@@ -44,9 +45,9 @@ Dreamwalkers become divorced from reality by isolation, shame, and their unendin
   - !!int "12"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+6"
-  - "constitution": "+9"
-  - "wisdom": "+3"
+  - "dexterity": !!int "6"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+14"
@@ -54,7 +55,10 @@ Dreamwalkers become divorced from reality by isolation, shame, and their unendin
     "desc": "+3"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[greatclub](03.PlayerLog&Handouts/Mechanics/CLI/items/greatclub.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Giant"
 "cr": "10"
 "traits":
@@ -69,10 +73,10 @@ Dreamwalkers become divorced from reality by isolation, shame, and their unendin
 "actions":
   - "desc": "The giant makes two Greatclub or Rock attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 15 ft., one target. *Hit:*\
       \ 24 (4d8 + 6) bludgeoning damage."
     "name": "Greatclub"
-  - "desc": "Ranged Weapon Attack: +10 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +10 to hit, range 60/240 ft., one target. *Hit:*\
       \ 22 (3d10 + 6) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 17 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Rock"

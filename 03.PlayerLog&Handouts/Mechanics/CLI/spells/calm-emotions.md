@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/azorius-functionary
 - ttrpg-cli/spell/background/selesnya-initiate
 - ttrpg-cli/spell/background/silverquill-student
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/feat/adept-of-the-black-robes
 - ttrpg-cli/spell/level/2nd-level
@@ -18,14 +19,14 @@ tags:
 - ttrpg-cli/spell/subrace/halfling-mark-of-hospitality
 - ttrpg-cli/spell/subrace/human-mark-of-handling
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Paladin (Oath of Redemption)
 - Sorcerer (Aberrant Mind)
 - Sorcerer (Divine Soul)
 - Warlock (The Archfey)
 aliases:
-- Calm Emotions
+- "Calm Emotions"
 ---
 # Calm Emotions
 *2nd-level, Enchantment*  
@@ -42,6 +43,6 @@ You can suppress any effect causing a target to be [charmed](03.PlayerLog&Handou
 
 Alternatively, you can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the DM rules otherwise.
 
-**Classes**: [Sorcerer (Aberrant Mind)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-aberrant-mind-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Archfey)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-archfey.md); [Paladin (Oath of Redemption)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-redemption-xge.md "subclass=XGE"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin (Oath of Redemption)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-redemption-xge.md "subclass=XGE"); [Sorcerer (Aberrant Mind)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-aberrant-mind-tce.md "subclass=TCE"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Warlock (The Archfey)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-archfey.md)
 
 *Source: Player's Handbook p. 221. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

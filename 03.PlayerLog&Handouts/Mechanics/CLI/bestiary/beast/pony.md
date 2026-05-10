@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-8
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Pony
+- "Pony"
 ---
-# [Pony](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/pony.md)
-*Source: Monster Manual p. 335, Storm King's Thunder. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Pony](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/pony.md)
+*Source: Monster Manual p. 335. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Pony"
@@ -36,12 +37,11 @@ aliases:
 "languages": ""
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) bludgeoning damage."
     "name": "Hooves"
 "source":
   - "MM"
-  - "SKT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/pony.webp"
 ```
 ^statblock

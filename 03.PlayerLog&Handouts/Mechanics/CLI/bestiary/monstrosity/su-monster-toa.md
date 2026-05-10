@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Su-monster
+- "Su-monster"
 ---
-# [Su-monster](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/su-monster-toa.md)
+# [Su-monster](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/su-monster-toa.md)
 *Source: Tomb of Annihilation p. 232*  
 
 Su-monsters are cunning, wicked primates that inhabit forsaken wilderness areas and caves. Adults stand 5 feet tall and have long prehensile tails. Although they can grasp tools and weapons with their tails or clawed feet, su-monsters prefer to rend prey with their claws. Adult su-monsters can also project blasts of psionic energy that leave enemies [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned) and unable to flee or defend themselves.
@@ -49,10 +50,10 @@ Su-monsters communicate silently by using their prehensile tails to make gesture
   - "desc": "The su-monster makes two attacks: one with its bite and one with its\
       \ claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) slashing damage, or 12 (4d4 + 2) slashing damage if the su-monster\
       \ is hanging by its tail and all four of its limbs are free."
     "name": "Claws"

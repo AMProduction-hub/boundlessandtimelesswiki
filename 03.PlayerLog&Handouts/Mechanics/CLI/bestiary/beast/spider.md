@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Spider
+- "Spider"
 ---
-# [Spider](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/spider.md)
-*Source: Monster Manual p. 337, Princes of the Apocalypse, Waterdeep: Dungeon of the Mad Mage, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Spider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/spider.md)
+*Source: Monster Manual p. 337. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Spider"
@@ -34,7 +35,8 @@ aliases:
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 30 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 30 ft., passive Perception 10"
 "languages": ""
 "cr": "0"
 "traits":
@@ -47,15 +49,12 @@ aliases:
   - "desc": "The spider ignores movement restrictions caused by webbing."
     "name": "Web Walker"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 1 piercing damage, and the target must succeed on a DC 9 Constitution saving\
-      \ throw or take 2 (d4) poison damage."
+      \ throw or take 2 (1d4) poison damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "PotA"
-  - "WDMM"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/spider.webp"
 ```
 ^statblock

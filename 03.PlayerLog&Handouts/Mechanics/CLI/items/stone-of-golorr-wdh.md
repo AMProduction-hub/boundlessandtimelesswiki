@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/artifact
-aliases: 
+aliases:
 - "Stone of Golorr"
 ---
 # Stone of Golorr
@@ -24,7 +25,7 @@ The Stone of Golorr has the following properties, determined by rolling on the t
 
 ## Legend Lore
 
-The Stone of Golorr has 3 charges and regains `d3` expended charges daily at dawn. While holding the stone, you can expend 1 of its charges to cast the [legend lore](03.PlayerLog&Handouts/Mechanics/CLI/spells/legend-lore.md) spell.
+The Stone of Golorr has 3 charges and regains `1d3` expended charges daily at dawn. While holding the stone, you can expend 1 of its charges to cast the [legend lore](03.PlayerLog&Handouts/Mechanics/CLI/spells/legend-lore.md) spell.
 
 By using the stone to cast [legend lore](03.PlayerLog&Handouts/Mechanics/CLI/spells/legend-lore.md), you communicate directly with the [aboleth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/aboleth.md), and it shares its knowledge with you. The aboleth can't lie to you, but the information it provides is often cryptic or vague.
 

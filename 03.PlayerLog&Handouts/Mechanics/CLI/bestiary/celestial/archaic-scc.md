@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/18
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Archaic
+- "Archaic"
 ---
-# [Archaic](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/archaic-scc.md)
+# [Archaic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/archaic-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 184*  
 
 Archaics are towering, multi-armed creatures overflowing with magic. Despite their solitude, archaics carry vast understanding of magic and the world's history, as well as the ability to warp the fabric of the world around them. Sages who seek out archaics for their knowledge receive confusing and often contradictory answers to questions. If a supplicant successfully unwinds the tangle, the answer they seek is revealed.
@@ -37,10 +38,10 @@ In truth, archaics are the reincarnated souls of the oracles of Strixhaven. When
   - !!int "20"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+6"
-  - "intelligence": "+14"
-  - "wisdom": "+13"
-  - "charisma": "+11"
+  - "dexterity": !!int "6"
+  - "intelligence": !!int "14"
+  - "wisdom": !!int "13"
+  - "charisma": !!int "11"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+20"
@@ -59,7 +60,8 @@ In truth, archaics are the reincarnated souls of the oracles of Strixhaven. When
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "truesight 120 ft., passive Perception 23"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 23"
 "languages": "all"
 "cr": "18"
 "traits":
@@ -75,8 +77,8 @@ In truth, archaics are the reincarnated souls of the oracles of Strixhaven. When
   - "desc": "The archaic makes two Force Strike attacks. It can also use Gravity Shift,\
       \ if available."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +14 to hit, reach 15 ft. or range\
-      \ 120 ft., one target. Hit: 19 (2d10 + 8) force damage, and the target is\
+  - "desc": "*Melee  or Ranged Spell Attack:* +14 to hit, reach 15 ft. or range\
+      \ 120 ft., one target. *Hit:* 19 (2d10 + 8) force damage, and the target is\
       \ pulled up to 10 feet toward the archaic or pushed 10 feet away from it, as\
       \ the archaic chooses."
     "name": "Force Strike"
@@ -93,9 +95,9 @@ In truth, archaics are the reincarnated souls of the oracles of Strixhaven. When
     "name": "Teleport"
   - "desc": "The archaic casts one of the following spells, requiring no material\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 22):\n\nAt will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ DC 22):\n\n**At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md), [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)\n\
-      \n1/day each: [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \n**1/day each:** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [forcecage](03.PlayerLog&Handouts/Mechanics/CLI/spells/forcecage.md)"
     "name": "Spellcasting"
 "reactions":
@@ -105,6 +107,9 @@ In truth, archaics are the reincarnated souls of the oracles of Strixhaven. When
       \ hit with spell attacks, spell save DC 22), requiring no material components\
       \ and choosing the spell's targets."
     "name": "Spell Mimicry (1/Day)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the archaic can expend a use to take one of the following actions. The archaic\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The archaic makes one Force Strike attack."
     "name": "Strike"

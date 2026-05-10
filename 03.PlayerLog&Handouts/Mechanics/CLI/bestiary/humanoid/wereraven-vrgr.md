@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Wereraven
+- "Wereraven"
 ---
-# [Wereraven](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/wereraven-vrgr.md)
-*Source: Van Richten's Guide to Ravenloft p. 253, Candlekeep Mysteries, Curse of Strahd p. 242*  
+# [Wereraven](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wereraven-vrgr.md)
+*Source: Van Richten's Guide to Ravenloft p. 253, Curse of Strahd p. 242*  
 
 Wereravens are secretive and extraordinarily cautious lycanthropes that trust one another but are wary of just about everyone else. Although skilled at blending into society, they keep mostly to themselves, respect local laws, and strive to do good whenever possible.
 
@@ -56,6 +57,9 @@ A character cursed with wereraven lycanthropy gains a Dexterity of 15 if his or 
     "desc": "+4"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 16"
 "languages": "Common (can't speak in raven form)"
 "cr": "2"
@@ -79,20 +83,19 @@ A character cursed with wereraven lycanthropy gains a Dexterity of 15 if his or 
   - "desc": "The wereraven makes two weapon attacks, one of which can be with its\
       \ hand crossbow."
     "name": "Multiattack (Human or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 1\
       \ piercing damage in raven form, or 4 (1d4 + 2) piercing damage in hybrid\
       \ form. If the target is humanoid, it must succeed on a DC 10 Constitution saving\
       \ throw or be cursed with wereraven lycanthropy."
     "name": "Beak (Raven or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword (Human or Hybrid Form Only)"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Hand Crossbow (Human or Hybrid Form Only)"
 "source":
   - "VRGR"
-  - "CM"
   - "CoS"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/wereraven-vrgr.webp"
 ```

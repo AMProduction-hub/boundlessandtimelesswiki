@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 aliases:
-- Chapter 8: The Village of Krezk
+- "Chapter 8: The Village of Krezk"
 ---
 # Chapter 8: The Village of Krezk
 *Source: Curse of Strahd, p. 143* 
@@ -90,7 +91,7 @@ The burgomaster's cottage has a wine cellar (currently empty) and lots of space 
 
 ##### Commoner Cottages
 
-A typical cottage is only 200 square feet yet contains `d4` adults (male and female human [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)), `d4`−1 children (male and female human noncombatants), plus the family's pigs, hares, and chickens.
+A typical cottage is only 200 square feet yet contains `1d4` adults (male and female human [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)), `1d4`−1 children (male and female human noncombatants), plus the family's pigs, hares, and chickens.
 
 Every cottage has its own graveyard where family members are interred. All the caskets planted in the past decade are now empty, thanks to [the Abbot](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/the-abbot-cos.md)'s sneaky mongrelfolk gravediggers (see area S6).
 
@@ -249,7 +250,7 @@ The "guards" on the wall are propped-up scarecrows that wear corroded chain shir
 The double doors are heavy but unlocked. They can be pushed open to reveal a foggy courtyard (area S12).
 
 > [!gallery]
-> ![Map 8.3: Abbey of Saint Ma...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/curse-of-strahd/img/090-024.webp#gallery "Map 8.3: Abbey of Saint Markovia - Upper Floor & Cellar")
+> ![Map 8.3: Abbey of Saint Markovia - Upper Floor & Cellar](03.PlayerLog&Handouts/Mechanics/CLI/adventures/curse-of-strahd/img/090-024.webp#gallery)
 > ![Player Version](03.PlayerLog&Handouts/Mechanics/CLI/adventures/curse-of-strahd/img/091-cos803.webp#gallery)
 
 ### S11. Inner Gatehouses

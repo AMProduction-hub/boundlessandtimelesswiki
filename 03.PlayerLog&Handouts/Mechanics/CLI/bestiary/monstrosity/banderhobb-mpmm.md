@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Banderhobb
+- "Banderhobb"
 ---
-# [Banderhobb](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/banderhobb-mpmm.md)
+# [Banderhobb](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/banderhobb-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 56, Volo's Guide to Monsters p. 122*  
 
 A banderhobb is a hybrid of shadow and flesh. Through vile magic, these components take on an enormous and horrific upright shape resembling a bipedal toad. In this form, a banderhobb temporarily serves its creator as a thug, a thief, and a kidnapper that swallows the unwary.
@@ -48,7 +49,8 @@ A banderhobb fulfills its duties until its existence ends. When it expires, usua
     "desc": "+7"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 12"
 "languages": "understands Common and the languages of its creator but can't speak"
 "cr": "5"
 "traits":
@@ -61,13 +63,13 @@ A banderhobb fulfills its duties until its existence ends. When it expires, usua
   - "desc": "The banderhobb makes one Bite attack and one Tongue attack. It can replace\
       \ one attack with a use of Shadow Step."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (3d6 + 5) piercing damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 16) if it is a Large or smaller creature. Until this grapple ends,\
       \ the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and the banderhobb can't use its Bite attack or Tongue attack on another target."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 15 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 15 ft., one creature. *Hit:*\
       \ 10 (3d6) necrotic damage, and the target must make a DC 16 Strength saving\
       \ throw. On a failed save, the target is pulled to a space within 5 feet of\
       \ the banderhobb."
@@ -75,9 +77,9 @@ A banderhobb fulfills its duties until its existence ends. When it expires, usua
   - "desc": "The banderhobb teleports up to 30 feet to an unoccupied space of dim\
       \ light or darkness that it can see."
     "name": "Shadow Step"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one Medium or smaller\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one Medium or smaller\
       \ creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-      \ by the banderhobb. Hit: 15 (3d6 + 5) piercing damage. The creature is\
+      \ by the banderhobb. *Hit:* 15 (3d6 + 5) piercing damage. The creature is\
       \ also swallowed, and the grapple ends. The swallowed creature is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
       \ and [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ it has total cover against attacks and other effects outside the banderhobb,\

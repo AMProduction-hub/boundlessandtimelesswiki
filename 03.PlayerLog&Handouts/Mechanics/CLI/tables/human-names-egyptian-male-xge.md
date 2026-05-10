@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Human Names – Egyptian, Male
+- "Human Names – Egyptian, Male"
 ---
 # Human Names – Egyptian, Male
 *Source: Xanathar's Guide to Everything p. 181* 
 
 **Human Names – Egyptian, Male**
-
-`dice: [](human-names-egyptian-male-xge.md#^human-names-egyptian-male)`
 
 | dice: d100 | Name |
 |------------|------|

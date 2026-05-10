@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lizard
+- "Lizard"
 ---
-# [Lizard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/lizard.md)
-*Source: Monster Manual p. 332, Tomb of Annihilation, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Lizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/lizard.md)
+*Source: Monster Manual p. 332. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Lizard"
@@ -31,18 +32,16 @@ aliases:
   - !!int "8"
   - !!int "3"
 "speed": "20 ft., climb 20 ft."
-"senses": "darkvision 30 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 30 ft., passive Perception 9"
 "languages": ""
 "cr": "0"
 "actions":
-  - "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1\
       \ piercing damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "ToA"
-  - "JttRC"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/lizard.webp"
 ```
 ^statblock

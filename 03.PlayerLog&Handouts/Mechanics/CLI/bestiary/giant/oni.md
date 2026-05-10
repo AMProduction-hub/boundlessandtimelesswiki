@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/7
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Oni
+- "Oni"
 ---
-# [Oni](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/oni.md)
-*Source: Monster Manual p. 239, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Oni](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/oni.md)
+*Source: Monster Manual p. 239. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 In nursery rhymes, oni are fearsome bogeymen that haunt the nightmares of children and adults alike, yet they are very real and always hungry. They find human babies especially delicious. Oni look like demonic ogres with blue or green skin, dark hair, and a pair of short ivory horns protruding from their foreheads. Their eyes are dark with strikingly white pupils, and their teeth and claws are jet black.
 
@@ -64,10 +65,10 @@ Oni are sometimes called ogre mages because of their innate magical ability. Tho
   - !!int "15"
 "speed": "30 ft., fly 30 ft."
 "saves":
-  - "dexterity": "+3"
-  - "constitution": "+6"
-  - "wisdom": "+4"
-  - "charisma": "+5"
+  - "dexterity": !!int "3"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -75,15 +76,18 @@ Oni are sometimes called ogre mages because of their innate magical ability. Tho
     "desc": "+8"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[glaive](03.PlayerLog&Handouts/Mechanics/CLI/items/glaive.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Common, Giant"
 "cr": "7"
 "traits":
   - "desc": "The oni's innate spellcasting ability is Charisma (spell save DC 13).\
       \ The oni can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \n**At will:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\n\
-      \n1/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \n**1/day each:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md),\
       \ [gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/spells/gaseous-form.md),\
       \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)"
@@ -96,10 +100,10 @@ Oni are sometimes called ogre mages because of their innate magical ability. Tho
 "actions":
   - "desc": "The oni makes two attacks, either with its claws or its glaive."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage."
     "name": "Claw (Oni Form Only)"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 15 (2d10 + 4) slashing damage, or 9 (1d10 + 4) slashing damage in Small\
       \ or Medium form."
     "name": "Glaive"
@@ -111,16 +115,6 @@ Oni are sometimes called ogre mages because of their innate magical ability. Tho
     "name": "Change Shape"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "WDMM"
-  - "GoS"
-  - "ERLW"
-  - "EGW"
-  - "TCE"
-  - "JttRC"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/token/oni.webp"
 ```
 ^statblock

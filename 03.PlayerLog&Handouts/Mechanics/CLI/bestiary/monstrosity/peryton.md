@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Peryton
+- "Peryton"
 ---
-# [Peryton](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/peryton.md)
-*Source: Monster Manual p. 251, Princes of the Apocalypse, Tales from the Yawning Portal, Ghosts of Saltmarsh, Icewind Dale: Rime of the Frostmaiden, Journeys through the Radiant Citadel*  
+# [Peryton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/peryton.md)
+*Source: Monster Manual p. 251*  
 
 Although this monstrous carnivore feeds on any creature, it prefers humanoids, especially elves, half-elves, and humans. When it kills a humanoid, a peryton rips out its prey's heart and takes it back to its nest to be devoured.
 
@@ -71,19 +72,14 @@ Established settlements are attractive to perytons as a renewable food source. A
 "actions":
   - "desc": "The peryton makes one gore attack and one talon attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage."
     "name": "Gore"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (2d4 + 3) piercing damage."
     "name": "Talons"
 "source":
   - "MM"
-  - "PotA"
-  - "TftYP"
-  - "GoS"
-  - "IDRotF"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/peryton.webp"
 ```
 ^statblock

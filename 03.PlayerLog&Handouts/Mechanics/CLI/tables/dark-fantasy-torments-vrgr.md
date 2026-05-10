@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Dark Fantasy Torments
+- "Dark Fantasy Torments"
 ---
 # Dark Fantasy Torments
 *Source: Van Richten's Guide to Ravenloft p. 51* 
 
 **Dark Fantasy Torments**
-
-`dice: [](dark-fantasy-torments-vrgr.md#^dark-fantasy-torments)`
 
 | dice: d8 | Torment |
 |----------|---------|

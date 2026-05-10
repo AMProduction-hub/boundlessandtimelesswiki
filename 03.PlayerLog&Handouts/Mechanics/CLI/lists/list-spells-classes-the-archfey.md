@@ -1,22 +1,23 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/the-archfey
 aliases:
-- Spells for The Archfey
+- "Spells for The Archfey"
 ---
 # Spells for The Archfey
 
 ## 1st Level
 
-- [Faerie Fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md "PHB") with access to 3rd-level spells
-- [Sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md "PHB") with access to 3rd-level spells
+- [Faerie Fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md "PHB") with access to 1st-level spells
+- [Sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md "PHB") with access to 1st-level spells
 
 ## 2nd Level
 
-- [Calm Emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md "PHB") with access to 3rd-level spells
-- [Phantasmal Force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md "PHB") with access to 3rd-level spells
+- [Calm Emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md "PHB") with access to 2nd-level spells
+- [Phantasmal Force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md "PHB") with access to 2nd-level spells
 
 ## 3rd Level
 
@@ -25,10 +26,10 @@ aliases:
 
 ## 4th Level
 
-- [Dominate Beast](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-beast.md "PHB") with access to 3rd-level spells
-- [Greater Invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md "PHB") with access to 3rd-level spells
+- [Dominate Beast](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-beast.md "PHB") with access to 4th-level spells
+- [Greater Invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md "PHB") with access to 4th-level spells
 
 ## 5th Level
 
-- [Dominate Person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md "PHB") with access to 3rd-level spells
-- [Seeming](03.PlayerLog&Handouts/Mechanics/CLI/spells/seeming.md "PHB") with access to 3rd-level spells
+- [Dominate Person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md "PHB") with access to 5th-level spells
+- [Seeming](03.PlayerLog&Handouts/Mechanics/CLI/spells/seeming.md "PHB") with access to 5th-level spells

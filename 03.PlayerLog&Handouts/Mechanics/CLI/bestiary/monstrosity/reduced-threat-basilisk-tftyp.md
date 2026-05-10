@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reduced-Threat Basilisk
+- "Reduced-Threat Basilisk"
 ---
-# [Reduced-Threat Basilisk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/reduced-threat-basilisk-tftyp.md)
+# [Reduced-Threat Basilisk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/reduced-threat-basilisk-tftyp.md)
 *Source: Tales from the Yawning Portal p. 113*  
 
 ```statblock
@@ -32,7 +33,8 @@ aliases:
   - !!int "8"
   - !!int "7"
 "speed": "20 ft."
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": ""
 "cr": "3"
 "traits":
@@ -57,7 +59,7 @@ aliases:
       \ itself with its gaze."
     "name": "Petrifying Gaze"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) piercing damage plus 7 (2d6) poison damage."
     "name": "Bite"
 "source":

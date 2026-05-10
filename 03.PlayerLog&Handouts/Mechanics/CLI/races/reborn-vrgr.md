@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/race/reborn
 aliases:
-- Reborn
+- "Reborn"
 ---
 # Reborn
 *Source: Van Richten's Guide to Ravenloft p. 20*  
@@ -52,8 +53,6 @@ Rather than sleeping, reborn regularly sit and dwell on the past, hoping for som
 
 **Lost Memories**
 
-`dice: [](reborn-vrgr.md#^lost-memories)`
-
 | dice: d6 | Memory |
 |----------|--------|
 | 1 | You recall a physically painful moment. What mark or scar on your body does it relate to? |
@@ -69,8 +68,6 @@ Rather than sleeping, reborn regularly sit and dwell on the past, hoping for som
 Reborn might originate from circumstances similar to those of various undead or constructs. The Reborn Origins table provides suggestions for how your character became reborn.
 
 **Reborn Origins**
-
-`dice: [](reborn-vrgr.md#^reborn-origins)`
 
 | dice: d8 | Origins |
 |----------|---------|

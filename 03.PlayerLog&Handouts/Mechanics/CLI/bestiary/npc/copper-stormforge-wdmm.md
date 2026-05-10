@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Copper Stormforge
+- "Copper Stormforge"
 ---
-# [Copper Stormforge](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/copper-stormforge-wdmm.md)
+# [Copper Stormforge](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/copper-stormforge-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 30*  
 
 Scouts are skilled hunters and trackers who offer their services for a fee. Most hunt wild game, but a few work as bounty hunters, serve as guides, or provide military reconnaissance.
@@ -45,7 +46,11 @@ Scouts are skilled hunters and trackers who offer their services for a fee. Most
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+5"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 15"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "any one language (usually Common), Dwarvish"
 "cr": "1/2"
 "traits":
@@ -57,11 +62,11 @@ Scouts are skilled hunters and trackers who offer their services for a fee. Most
 "actions":
   - "desc": "Copper makes two melee attacks or two ranged attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, ranged 150/600 ft., one target.\
-      \ Hit: 6 (1d8 + 2) piercing damage."
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, ranged 150/600 ft., one target.\
+      \ *Hit:* 6 (1d8 + 2) piercing damage."
     "name": "Longbow"
 "source":
   - "WDMM"

@@ -1,19 +1,20 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/20
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/cleric
-- ttrpg-cli/monster/type/humanoid/elf
+- ttrpg-cli/monster/type/humanoid/drow-elf
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Drow Matron Mother
+- "Drow Matron Mother"
 ---
-# [Drow Matron Mother](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/drow-matron-mother-mpmm.md)
+# [Drow Matron Mother](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-matron-mother-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 104, Mordenkainen's Tome of Foes p. 186*  
 
 Among drow followers of [Lolth](03.PlayerLog&Handouts/Mechanics/CLI/deities/drow-lolth-mtf.md), each noble house is led by a matron mother, an influential priestess of Lolth charged with carrying out the god's will while also advancing the interests of the family. Matron mothers embody the scheming and treachery associated with the Queen of Spiders. Each stands at the center of a vast conspiratorial web, with demons, spiders, and conscripted soldiers positioned between them and their enemies. Although matron mothers command great power, that power depends on maintaining the Spider Queen's favor, and the goddess sometimes capriciously takes back what she has given. The stat block here represents a matron mother at the height of her power.
@@ -34,7 +35,7 @@ Any temple of [Lolth](03.PlayerLog&Handouts/Mechanics/CLI/deities/drow-lolth-mtf
 "name": "Drow Matron Mother (MPMM)"
 "size": "Medium"
 "type": "humanoid"
-"subtype": "cleric, elf"
+"subtype": "cleric, Drow elf"
 "alignment": "Typically  Neutral Evil"
 "ac": !!int "17"
 "ac_class": "[half plate](03.PlayerLog&Handouts/Mechanics/CLI/items/half-plate-armor.md)"
@@ -50,9 +51,9 @@ Any temple of [Lolth](03.PlayerLog&Handouts/Mechanics/CLI/deities/drow-lolth-mtf
   - !!int "22"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+9"
-  - "wisdom": "+11"
-  - "charisma": "+12"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "11"
+  - "charisma": !!int "12"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+11"
@@ -65,7 +66,8 @@ Any temple of [Lolth](03.PlayerLog&Handouts/Mechanics/CLI/deities/drow-lolth-mtf
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 21"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 21"
 "languages": "Elvish, Undercommon"
 "cr": "20"
 "traits":
@@ -82,7 +84,7 @@ Any temple of [Lolth](03.PlayerLog&Handouts/Mechanics/CLI/deities/drow-lolth-mtf
   - "desc": "The drow makes two Demon Staff attacks or one Demon Staff attack and\
       \ three Tentacle Rod attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 7 (1d6 + 4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage if used\
       \ with two hands, plus 14 (4d6) psychic damage. The target must succeed on\
       \ a DC 19 Wisdom saving throw or become [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
@@ -90,8 +92,8 @@ Any temple of [Lolth](03.PlayerLog&Handouts/Mechanics/CLI/deities/drow-lolth-mtf
       \ target can repeat the saving throw at the end of each of its turns, ending\
       \ the effect on itself on a success."
     "name": "Demon Staff"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 15 ft., one creature. Hit:\
-      \ 3 (d6) bludgeoning damage. If the target is hit three times by the [rod](03.PlayerLog&Handouts/Mechanics/CLI/items/tentacle-rod.md)\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 15 ft., one creature. *Hit:*\
+      \ 3 (1d6) bludgeoning damage. If the target is hit three times by the [rod](03.PlayerLog&Handouts/Mechanics/CLI/items/tentacle-rod.md)\
       \ on one turn, the target must succeed on a DC 15 Constitution saving throw\
       \ or suffer the following effects for 1 minute: the target's speed is halved,\
       \ it has disadvantage on Dexterity saving throws, and it can't use reactions.\
@@ -105,18 +107,18 @@ Any temple of [Lolth](03.PlayerLog&Handouts/Mechanics/CLI/deities/drow-lolth-mtf
       \ radiant damage on a failed save, or half as much damage on a successful one."
     "name": "Divine Flame (2/Day)"
   - "desc": "The drow casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 20):\n\nAt\
-      \ will: [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 20):\n\n**At\
+      \ will:** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n2/day each: [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \n**2/day each:** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [blade barrier](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-barrier.md),\
       \ [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md),\
-      \ [silence](03.PlayerLog&Handouts/Mechanics/CLI/spells/silence.md)\n\n1/day\
-      \ each: [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
+      \ [silence](03.PlayerLog&Handouts/Mechanics/CLI/spells/silence.md)\n\n**1/day\
+      \ each:** [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
       \ [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md), [detect\
       \ thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
@@ -136,6 +138,29 @@ Any temple of [Lolth](03.PlayerLog&Handouts/Mechanics/CLI/deities/drow-lolth-mtf
       \ It remains for 10 minutes, until it or its summoner dies, or until its summoner\
       \ dismisses it as an action."
     "name": "Summon Servant (1/Day)"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), the drow can take one\
+      \ of the following lair actions when in her lair; she can't take the same lair\
+      \ action two rounds in a row:\n\n- **Perceive Interlopers.** The drow projects\
+      \ her mind throughout her lair, marking any potential threats against her or\
+      \ her retinue. Until initiative count 20 of the next round, hostile creatures\
+      \ within the lair can't become hidden from her and gain no benefit from the\
+      \ [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
+      \ condition against her.  \n- **Spectral Web.** A glistening spectral spider\
+      \ web erupts from a point the drow can see within 120 feet of her. Each creature\
+      \ within 60 feet of that point must succeed a DC 19 Dexterity saving throw or\
+      \ be [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
+      \ for 1 minute. A creature can repeat the saving throw at the end of each of\
+      \ its turns, ending the effect on itself on a success.  \n- **Telekinetic Throw.**\
+      \ The drow targets one creature she can see within 60 feet of her and attempts\
+      \ to expel it from her presence. The target must succeed on a DC 19 Strength\
+      \ saving throw or be flung 2d6 × 10 feet through the air. A creature smashed\
+      \ into a solid object takes 1d6 bludgeoning damage for every 10 feet moved.\
+      \ If released in midair, the creature takes falling damage as normal.  "
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the drow matron mother can expend a use to take one of the following actions.\
+  \ The drow matron mother regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "An allied demon within 30 feet of the drow uses its reaction to make\
       \ one attack against a target of the drow's choice that she can see."
@@ -144,27 +169,6 @@ Any temple of [Lolth](03.PlayerLog&Handouts/Mechanics/CLI/deities/drow-lolth-mtf
     "name": "Demon Staff"
   - "desc": "The drow uses Spellcasting."
     "name": "Cast a Spell (Costs 2 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), the drow can take one\
-      \ of the following lair actions when in her lair; she can't take the same lair\
-      \ action two rounds in a row:"
-    "name": ""
-  - "desc": "- Perceive Interlopers. The drow projects her mind throughout her\
-      \ lair, marking any potential threats against her or her retinue. Until initiative\
-      \ count 20 of the next round, hostile creatures within the lair can't become\
-      \ hidden from her and gain no benefit from the [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
-      \ condition against her.  \n- Spectral Web. A glistening spectral spider\
-      \ web erupts from a point the drow can see within 120 feet of her. Each creature\
-      \ within 60 feet of that point must succeed a DC 19 Dexterity saving throw or\
-      \ be [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
-      \ for 1 minute. A creature can repeat the saving throw at the end of each of\
-      \ its turns, ending the effect on itself on a success.  \n- Telekinetic Throw.\
-      \ The drow targets one creature she can see within 60 feet of her and attempts\
-      \ to expel it from her presence. The target must succeed on a DC 19 Strength\
-      \ saving throw or be flung 2d6 × 10 feet through the air. A creature smashed\
-      \ into a solid object takes d6 bludgeoning damage for every 10 feet moved.\
-      \ If released in midair, the creature takes falling damage as normal.  "
-    "name": ""
 "source":
   - "MPMM"
   - "MTF"

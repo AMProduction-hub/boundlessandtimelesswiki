@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Nylea's Divine Schemes
+- "Nylea's Divine Schemes"
 ---
 # Nylea's Divine Schemes
 *Source: Mythic Odysseys of Theros p. 157* 
 
 **Nylea's Divine Schemes**
-
-`dice: [](nyleas-divine-schemes-mot.md#^nyleas-divine-schemes)`
 
 | dice: d4 | Scheme |
 |----------|--------|

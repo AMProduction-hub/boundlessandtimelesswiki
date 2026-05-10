@@ -1,22 +1,23 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/quandrix-student
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/transmutation
 - ttrpg-cli/spell/subclass/armorer
-- ttrpg-cli/spell/subclass/circle-of-the-land
+- ttrpg-cli/spell/subclass/circle-of-the-land/mountain
 classes:
 - Artificer (Armorer)
-- Bard
-- Druid (Circle of the Land)
+- Bard (Magical Secrets)
+- Druid (Circle of the Land, Mountain)
 - Wizard
 aliases:
-- Passwall
+- "Passwall"
 ---
 # Passwall
 *5th-level, Transmutation*  
@@ -31,6 +32,6 @@ A passage appears at a point of your choice that you can see on a wooden, plaste
 
 When the opening disappears, any creatures or objects still in the passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Artificer (Armorer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-armorer-tce.md "subclass=TCE;class=TCE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md)
+**Classes**: [Artificer (Armorer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-armorer-tce.md "subclass=TCE;class=TCE"); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid (Circle of the Land, Mountain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 264. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

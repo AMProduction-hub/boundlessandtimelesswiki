@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/23
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Acererak
+- "Acererak"
 ---
-# [Acererak](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/acererak-toa.md)
+# [Acererak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/acererak-toa.md)
 *Source: Tomb of Annihilation p. 209*  
 
 Acererak is an archlich who travels between worlds and is known to take sick pleasure in devouring the souls of adventurers, whom he lures into trap-ridden dungeons where they suffer horrible deaths. One such dungeon lies under the lost city of Omu. This dungeon is called the Tomb of the Nine Gods, for Acererak slew nine false gods and sealed them within it. More recently, he built a necromantic device called the Soulmonger, then hid it in the heart of the tomb.
@@ -49,9 +50,9 @@ Acererak is an archlich who travels between worlds and is known to take sick ple
   - !!int "20"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+12"
-  - "intelligence": "+15"
-  - "wisdom": "+12"
+  - "constitution": !!int "12"
+  - "intelligence": !!int "15"
+  - "wisdom": !!int "12"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+22"
@@ -72,37 +73,38 @@ Acererak is an archlich who travels between worlds and is known to take sick ple
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "truesight 120 ft., passive Perception 22"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 22"
 "languages": "Abyssal, Common, Draconic, Dwarvish, Elvish, Giant, Infernal, Primordial,\
   \ Undercommon"
 "cr": "23"
 "traits":
   - "desc": "Acererak is a 20th-level spellcaster. His spellcasting ability is Intelligence\
       \ (spell save DC 23, +15 to hit with spell attacks). Acererak has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md),\
       \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
-      \n1st level: [ray of sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md),\
-      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n2nd level:\
+      \n**1st level:** [ray of sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md),\
+      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n**2nd level:**\
       \ [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md),\
-      \ [knock](03.PlayerLog&Handouts/Mechanics/CLI/spells/knock.md)\n\n3rd level:\
+      \ [knock](03.PlayerLog&Handouts/Mechanics/CLI/spells/knock.md)\n\n**3rd level:**\
       \ [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md)\n\
-      \n4th level (3 slots): [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
+      \n**4th level (3 slots):** [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
       \ [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md), [phantasmal\
       \ killer](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-killer.md)\n\
-      \n5th level (3 slots): [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
+      \n**5th level (3 slots):** [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
       \ [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md),\
       \ [wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md)\n\
-      \n6th level (3 slots): [chain lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/chain-lightning.md),\
+      \n**6th level (3 slots):** [chain lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/chain-lightning.md),\
       \ [circle of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/circle-of-death.md),\
       \ [disintegrate](03.PlayerLog&Handouts/Mechanics/CLI/spells/disintegrate.md)\n\
-      \n7th level (3 slots): [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
+      \n**7th level (3 slots):** [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md),\
-      \ [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)\n\n8th\
-      \ level (2 slots): [maze](03.PlayerLog&Handouts/Mechanics/CLI/spells/maze.md),\
+      \ [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)\n\n**8th\
+      \ level (2 slots):** [maze](03.PlayerLog&Handouts/Mechanics/CLI/spells/maze.md),\
       \ [mind blank](03.PlayerLog&Handouts/Mechanics/CLI/spells/mind-blank.md)\n\n\
-      9th level (2 slots): [power word kill](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-kill.md),\
+      **9th level (2 slots):** [power word kill](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-kill.md),\
       \ [time stop](03.PlayerLog&Handouts/Mechanics/CLI/spells/time-stop.md)"
     "name": "Spellcasting"
   - "desc": "Acererak carries the [Staff of the Forgotten One](03.PlayerLog&Handouts/Mechanics/CLI/items/staff-of-the-forgotten-one-toa.md).\
@@ -113,7 +115,7 @@ Acererak is an archlich who travels between worlds and is known to take sick ple
   - "desc": "If Acererak fails a saving throw, he can choose to succeed instead."
     "name": "Legendary Resistance (3/Day)"
   - "desc": "Acererak's body turns to dust when he drops to 0 hit points, and his\
-      \ equipment is left behind. Acererak gains a new body after d10 days, regaining\
+      \ equipment is left behind. Acererak gains a new body after 1d10 days, regaining\
       \ all his hit points and becoming active again. The new body appears within\
       \ 5 feet of Acererak's phylactery, the location of which is hidden."
     "name": "Rejuvenation"
@@ -121,13 +123,13 @@ Acererak is an archlich who travels between worlds and is known to take sick ple
       \ undead."
     "name": "Turn Resistance"
 "actions":
-  - "desc": "Melee Spell Attack: +15 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +15 to hit, reach 5 ft., one creature. *Hit:*\
       \ 10 (3d6) cold damage, and the target must succeed on a DC 20 Constitution\
       \ saving throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
       \ its turns, ending the effect on itself on a success."
     "name": "Paralyzing Touch"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 7 (1d6 + 4) bludgeoning damage plus 10 (3d6) necrotic damage, or 8 (1d8\
       \ + 4) bludgeoning damage plus 10 (3d6) necrotic damage when used with two\
       \ hands."
@@ -140,6 +142,9 @@ Acererak is an archlich who travels between worlds and is known to take sick ple
       \ [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md),\
       \ or similar magic ends the curse on the target."
     "name": "Invoke Curse"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Acererak can expend a use to take one of the following actions. Acererak\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Acererak casts one of his at-will spells."
     "name": "At-Will Spell"

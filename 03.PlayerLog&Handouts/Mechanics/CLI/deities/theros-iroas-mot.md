@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/deity/theros
 - ttrpg-cli/domain/war
-aliases: 
-- Iroas
+aliases:
+- "Iroas"
 ---
 # Iroas
 *Source: Mythic Odysseys of Theros p. 49* 
@@ -91,8 +92,6 @@ Why did Iroas seek you out as a champion? Perhaps you proved your courage even w
 
 **Iroas's Favor**
 
-`dice: [](theros-iroas-mot.md#^iroass-favor)`
-
 | dice: d6 | Circumstance |
 |----------|--------------|
 | 1 | You were born on the eve of a major battle. |
@@ -108,8 +107,6 @@ Why did Iroas seek you out as a champion? Perhaps you proved your courage even w
 Following Iroas means making a commitment to combat in pursuit of righteous aims, not as a way of applying coercion or domination. It also means dedicating yourself to the pursuit of excellence, for the god of victory desires victorious champions. As a follower of Iroas, consider the ideals on the Iroas's Ideals table as alternatives to those suggested for your background.
 
 **Iroas's Ideals**
-
-`dice: [](theros-iroas-mot.md#^iroass-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

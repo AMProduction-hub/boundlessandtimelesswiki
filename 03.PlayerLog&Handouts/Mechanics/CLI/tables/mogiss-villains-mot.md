@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Mogis's Villains
+- "Mogis's Villains"
 ---
 # Mogis's Villains
 *Source: Mythic Odysseys of Theros p. 152* 
 
 **Mogis's Villains**
-
-`dice: [](mogiss-villains-mot.md#^mogiss-villains)`
 
 | dice: d8 | Villain |
 |----------|---------|

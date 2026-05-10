@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Zala Morphus
+- "Zala Morphus"
 ---
-# [Zala Morphus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/zala-morphus-kftgv.md)
+# [Zala Morphus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zala-morphus-kftgv.md)
 *Source: Keys from the Golden Vault p. 47*  
 
 ```statblock
@@ -41,7 +42,8 @@ aliases:
     "desc": "+2"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "truesight 120 ft., passive Perception 12"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 12"
 "languages": "Common, Deep Speech, Elvish"
 "cr": "2"
 "traits":
@@ -51,7 +53,7 @@ aliases:
 "actions":
   - "desc": "Zala Morphus makes two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Claw"
   - "desc": "Zala Morphus targets one creature it can see within 30 feet of it. The\

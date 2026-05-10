@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Everyone Has Regrets; Regrets
+- "Everyone Has Regrets; Regrets"
 ---
 # Everyone Has Regrets; Regrets
 *Source: Eberron: Rising from the Last War p. 8* 
 
 **Regrets**
-
-`dice: [](everyone-has-regrets-regrets-erlw.md#^regrets)`
 
 | dice: d10 | Regret |
 |-----------|--------|

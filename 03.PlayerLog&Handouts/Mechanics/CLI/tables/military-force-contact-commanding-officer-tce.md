@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
-- Military Force Contact; Commanding Officer
+- "Military Force Contact; Commanding Officer"
 ---
 # Military Force Contact; Commanding Officer
 *Source: Tasha's Cauldron of Everything p. 97* 
 
 **Commanding Officer**
-
-`dice: [](military-force-contact-commanding-officer-tce.md#^commanding-officer)`
 
 | dice: d6 | Officer |
 |----------|---------|

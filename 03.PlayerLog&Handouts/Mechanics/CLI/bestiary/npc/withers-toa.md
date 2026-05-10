@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Withers
+- "Withers"
 ---
-# [Withers](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/withers-toa.md)
+# [Withers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/withers-toa.md)
 *Source: Tomb of Annihilation p. 145*  
 
 Before he was turned into an undead creature, Withers was an Omuan engineer named Gorra. Like all of Omu's citizens, Gorra was enslaved and put to work constructing the tomb. When Acererak sacrificed his workers to their own dungeon, Gorra's traps performed the best.
@@ -44,27 +45,30 @@ Before he was turned into an undead creature, Withers was an Omuan engineer name
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "the languages he knew in life"
 "cr": "4"
 "traits":
   - "desc": "Withers is a 9th-level spellcaster. His spellcasting ability is Intelligence\
       \ (spell save DC 13, +5 to hit with spell attacks). Withers has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [acid splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [acid splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [minor\
       \ illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**1st level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [expeditious retreat](03.PlayerLog&Handouts/Mechanics/CLI/spells/expeditious-retreat.md),\
       \ [feather fall](03.PlayerLog&Handouts/Mechanics/CLI/spells/feather-fall.md),\
       \ [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (4 slots): [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \n**2nd level (4 slots):** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [rope trick](03.PlayerLog&Handouts/Mechanics/CLI/spells/rope-trick.md)\n\n\
-      3rd level (3 slots): [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      **3rd level (3 slots):** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)\n\
-      \n4th level (3 slots): [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
+      \n**4th level (3 slots):** [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
       \ [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)\n\
-      \n5th level (1 slots): [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)"
+      \n**5th level (1 slots):** [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)"
     "name": "Spellcasting"
   - "desc": "Withers carries the [amulet of the black skull](03.PlayerLog&Handouts/Mechanics/CLI/items/amulet-of-the-black-skull-toa.md)."
     "name": "Special Equipment"
@@ -76,7 +80,7 @@ Before he was turned into an undead creature, Withers was an Omuan engineer name
   - "desc": "Withers makes two longsword attacks. He can use his Life Drain in place\
       \ of one longsword attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 5 (1d6 + 2) necrotic damage. The target must succeed on a DC 13 Constitution\
       \ saving throw or its hit point maximum is reduced by an amount equal to the\
       \ damage taken. This reduction lasts until the target finishes a long rest.\
@@ -85,7 +89,7 @@ Before he was turned into an undead creature, Withers was an Omuan engineer name
       \ control, unless the humanoid is restored to life or its body is destroyed.\
       \ Withers can have no more than twelve zombies under its control at one time."
     "name": "Life Drain"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with\
       \ two hands."
     "name": "Longsword"

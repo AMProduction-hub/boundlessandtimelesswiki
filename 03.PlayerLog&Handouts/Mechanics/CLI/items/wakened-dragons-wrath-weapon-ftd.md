@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/item/age/futuristic
@@ -12,7 +13,7 @@ tags:
 - ttrpg-cli/item/weapon/ranged
 - ttrpg-cli/item/weapon/simple
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Wakened Dragon's Wrath Weapon"
 - "Wakened Dragon's Wrath Antimatter Rifle"
 - "Wakened Dragon's Wrath Automatic Rifle"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- The Bagman
+- "The Bagman"
 ---
-# [The Bagman](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/the-bagman-vrgr.md)
+# [The Bagman](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/the-bagman-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 225*  
 
 ## Beware the Bagman
@@ -41,7 +42,8 @@ Any character might know the story of the Bagman. What the Bagman is and how you
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Giant"
 "cr": "5"
 "traits":
@@ -68,10 +70,10 @@ Any character might know the story of the Bagman. What the Bagman is and how you
 "actions":
   - "desc": "The Bagman makes three attacks: one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage."
     "name": "Claw"
 "source":

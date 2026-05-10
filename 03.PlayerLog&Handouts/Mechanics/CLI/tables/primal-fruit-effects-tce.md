@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
-- Primal Fruit Effects
+- "Primal Fruit Effects"
 ---
 # Primal Fruit Effects
 *Source: Tasha's Cauldron of Everything p. 168* 
 
 **Primal Fruit Effects**
-
-`dice: [](primal-fruit-effects-tce.md#^primal-fruit-effects)`
 
 | dice: d8 | Effect |
 |----------|--------|
@@ -21,6 +20,6 @@ aliases:
 | 4 | The creature's skin prickles faintly. For 1 hour, it gains resistance to one damage type (chosen by the DM). |
 | 5 | Euphoric visions of bright light swim through the creature's mind. The creature gains the benefits of the [death ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/death-ward.md) spell for 8 hours and must succeed on a DC 13 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for the duration. |
 | 6 | A faint humming drones in the background of everything the creature hears for 1 hour, during which the creature has advantage on saving throws against spells. |
-| 7 | The creature doesn't require food, drink, or sleep for `d4` days. For the duration, the creature can't be put to sleep by magic, and its dreams intrude upon its waking thoughts, imposing disadvantage on its Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) checks. |
+| 7 | The creature doesn't require food, drink, or sleep for `1d4` days. For the duration, the creature can't be put to sleep by magic, and its dreams intrude upon its waking thoughts, imposing disadvantage on its Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) checks. |
 | 8 | Whispers intrude on the creature's mind for 24 hours. For the duration, the creature can telepathically communicate with any creature it can see within 120 feet of it. If the other creature understands at least one language, it can respond telepathically. |
 ^primal-fruit-effects

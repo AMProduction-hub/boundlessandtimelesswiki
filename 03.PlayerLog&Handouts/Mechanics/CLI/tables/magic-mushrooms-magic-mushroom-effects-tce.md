@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
-- Magic Mushrooms; Magic Mushroom Effects
+- "Magic Mushrooms; Magic Mushroom Effects"
 ---
 # Magic Mushrooms; Magic Mushroom Effects
 *Source: Tasha's Cauldron of Everything p. 166* 
 
 **Magic Mushroom Effects**
-
-`dice: [](magic-mushrooms-magic-mushroom-effects-tce.md#^magic-mushroom-effects)`
 
 | dice: d10 | Effects |
 |-----------|---------|
@@ -19,7 +18,7 @@ aliases:
 | 2 | The creature gains the enlarge or reduce effect (50 percent chance of either) of the [enlarge/reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md) spell for 1 hour. |
 | 3 | The creature regains `5d8 + 20` hit points. |
 | 4 | Vocally, the creature can only cluck and croon like a chicken. The creature can also understand and speak to chickens. This curse lasts for 1 hour unless ended by a [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md) spell or similar magic. |
-| 5 | The creature can understand and speak all languages for `d4` days. |
+| 5 | The creature can understand and speak all languages for `1d4` days. |
 | 6 | The creature gains the benefits of the [telepathy](03.PlayerLog&Handouts/Mechanics/CLI/spells/telepathy.md) spell for the next 24 hours. |
 | 7 | The creature gains the benefits of the [speak with plants](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-plants.md) spell for 8 hours. |
 | 8 | The creature immediately casts the [time stop](03.PlayerLog&Handouts/Mechanics/CLI/spells/time-stop.md) spell, requiring no components. Constitution is the spellcasting ability for this spell. |

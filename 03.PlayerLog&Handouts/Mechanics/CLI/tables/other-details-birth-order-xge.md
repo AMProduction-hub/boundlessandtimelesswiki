@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Other Details; Birth Order
+- "Other Details; Birth Order"
 ---
 # Other Details; Birth Order
 *Source: Xanathar's Guide to Everything p. 62* 
 
 **Birth Order**
-
-`dice: [](other-details-birth-order-xge.md#^birth-order)`
 
 | dice: 2d6 | Birth Order |
 |-----------|-------------|

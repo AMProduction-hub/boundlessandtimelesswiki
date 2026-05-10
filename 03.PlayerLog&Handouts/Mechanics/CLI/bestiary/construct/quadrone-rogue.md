@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Quadrone (Rogue)
+- "Quadrone (Rogue)"
 ---
-# [Quadrone (Rogue)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/quadrone-rogue.md)
-*Source: Monster Manual p. 226, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Keys from the Golden Vault*  
+# [Quadrone (Rogue)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/quadrone-rogue.md)
+*Source: Monster Manual p. 226*  
 
 ```statblock
 "name": "Quadrone (Rogue)"
@@ -35,7 +36,10 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "truesight 120 ft., passive Perception 12"
+"gear":
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 12"
 "languages": "Modron"
 "cr": "1"
 "traits":
@@ -45,16 +49,13 @@ aliases:
 "actions":
   - "desc": "The quadrone makes two fist attacks or four shortbow attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d4 + 1) bludgeoning damage."
     "name": "Fist"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Shortbow"
 "source":
   - "MM"
-  - "ToA"
-  - "WDMM"
-  - "KftGV"
 ```
 ^statblock

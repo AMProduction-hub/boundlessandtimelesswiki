@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Baldur's Gate Soldier
+- "Baldur's Gate Soldier"
 ---
 # Baldur's Gate Soldier
 *Source: Baldur's Gate: Descent Into Avernus p. 204, Player's Handbook p. 140*  
@@ -47,8 +48,6 @@ You've had enough dealings with crooked soldiers that you can spot the behaviors
 
 During your time as a soldier, you had a specific role to play in your unit or army. Roll a d8 or choose from the options in the table below to determine your role:
 
-`dice: [](baldurs-gate-soldier-bgdia.md#^role)`
-
 | dice: d8 | Role |
 |----------|------|
 | 1 | Officer |
@@ -65,8 +64,6 @@ During your time as a soldier, you had a specific role to play in your unit or a
 
 The horrors of war combined with the rigid discipline of military service leave their mark on all soldiers, shaping their ideals, creating strong bonds, and often leaving them scarred and vulnerable to fear, shame, and hatred.
 
-`dice: [](baldurs-gate-soldier-bgdia.md#^personality-trait)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | I'm always polite and respectful. |
@@ -79,8 +76,6 @@ The horrors of war combined with the rigid discipline of military service leave 
 | 8 | I face problems head-on. A simple, direct solution is the best path to success. |
 ^personality-trait
 
-`dice: [](baldurs-gate-soldier-bgdia.md#^ideal)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | Greater Good. Our lot is to lay down our lives in defense of others. (Good) |
@@ -91,8 +86,6 @@ The horrors of war combined with the rigid discipline of military service leave 
 | 6 | Nation. My city, nation, or people are all that matter. (Any) |
 ^ideal
 
-`dice: [](baldurs-gate-soldier-bgdia.md#^bond)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | I would still lay down my life for the people I served with. |
@@ -102,8 +95,6 @@ The horrors of war combined with the rigid discipline of military service leave 
 | 5 | Those who fight beside me are those worth dying for. |
 | 6 | I fight for those who cannot fight for themselves. |
 ^bond
-
-`dice: [](baldurs-gate-soldier-bgdia.md#^flaw)`
 
 | dice: d6 | Flaw |
 |----------|------|

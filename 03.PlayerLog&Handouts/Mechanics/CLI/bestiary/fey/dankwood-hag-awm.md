@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/awm
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dankwood Hag
+- "Dankwood Hag"
 ---
-# [Dankwood Hag](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/dankwood-hag-awm.md)
+# [Dankwood Hag](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/dankwood-hag-awm.md)
 *Source: Adventure with Muk p. 31*  
 
 Dankwood hags are the worst kind of hags in the world. They are creepy and grumpy with long fingers that end in iron claws. They are known to eat small goblins and other warm-blooded creatures, but Dankwood hags are especially fond of sparkleberry tarts.
@@ -38,11 +39,10 @@ Since sparkleberries grow only where dryads have their sacred groves, Dankwood h
 "languages": ""
 "cr": "3"
 "traits":
-  - "desc": "At will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+  - "desc": "The hag's spellcasting ability is Charisma (spell save DC 12). It can\
+      \ innately cast the following spells:\n\n**At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
-      \ [vicious mockery](03.PlayerLog&Handouts/Mechanics/CLI/spells/vicious-mockery.md)\n\
-      \nThe hag's spellcasting ability is Charisma\n\n(spell save DC 12). It can innately\
-      \ cast the following spells:"
+      \ [vicious mockery](03.PlayerLog&Handouts/Mechanics/CLI/spells/vicious-mockery.md)"
     "name": "Innate Spellcasting"
   - "desc": "The hag can breathe air and water."
     "name": "Amphibious"
@@ -62,7 +62,7 @@ Since sparkleberries grow only where dryads have their sacred groves, Dankwood h
       \ she leaves no physical evidence of her passage, and can only be tracked by\
       \ magic."
     "name": "Invisible Passage"
-  - "desc": "Melee Weapon Attack: +6 to hit, one target. Hit: 17 (2d8 + 4)\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, one target. *Hit:* 17 (2d8 + 4)\
       \ slashing damage."
     "name": "Claws"
 "source":

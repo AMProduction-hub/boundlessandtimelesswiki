@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Awakened Zurkhwood
+- "Awakened Zurkhwood"
 ---
-# [Awakened Zurkhwood](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/awakened-zurkhwood-oota.md)
+# [Awakened Zurkhwood](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/awakened-zurkhwood-oota.md)
 *Source: Out of the Abyss p. 230*  
 
 This creature is an ordinary zurkhwood mushroom (see "Fungi of the Underdark" in chapter 2) given sentience and mobility. An awakened zurkhwood can be created by casting the [awaken](03.PlayerLog&Handouts/Mechanics/CLI/spells/awaken.md) spell on a normal zurkhwood mushroom. A myconid sovereign can create one by performing a lengthy ritual.
@@ -42,7 +43,8 @@ An awakened zurkhwood has the same statistics as an awakened tree (see appendix 
 "speed": "20 ft."
 "damage_vulnerabilities": "fire"
 "damage_resistances": "bludgeoning, piercing"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "one language known by its creator"
 "cr": "2"
 "traits":
@@ -53,7 +55,7 @@ An awakened zurkhwood has the same statistics as an awakened tree (see appendix 
       \ speak."
     "name": "Mute"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
       \ 14 (3d6 + 4) bludgeoning damage."
     "name": "Slam"
 "source":

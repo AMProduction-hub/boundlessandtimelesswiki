@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Physical Variations; Scale Color
+- "Physical Variations; Scale Color"
 ---
 # Physical Variations; Scale Color
 *Source: Volo's Guide to Monsters p. 66* 
 
 **Scale Color**
-
-`dice: [](physical-variations-scale-color-vgm.md#^scale-color)`
 
 | dice: d100 | Scale Color |
 |------------|-------------|

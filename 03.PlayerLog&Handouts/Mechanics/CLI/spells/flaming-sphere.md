@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/prismari-student
 - ttrpg-cli/spell/background/rakdos-cultist
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
@@ -19,7 +20,7 @@ tags:
 - ttrpg-cli/spell/subclass/the-celestial
 classes:
 - Artificer (Alchemist)
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Light Domain)
 - Druid
 - Druid (Circle of Wildfire)
@@ -29,7 +30,7 @@ classes:
 - Warlock (The Celestial)
 - Wizard
 aliases:
-- Flaming Sphere
+- "Flaming Sphere"
 ---
 # Flaming Sphere
 *2nd-level, Conjuration*  
@@ -46,8 +47,8 @@ As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere 
 
 When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by `d6` for each slot level above 2nd.
+**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by `1d6` for each slot level above 2nd.
 
-**Classes**: [Artificer (Alchemist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-alchemist-tce.md "subclass=TCE;class=TCE"); [Druid (Circle of Wildfire)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-wildfire-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Celestial)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-celestial-xge.md "subclass=XGE"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Cleric (Light Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-light-domain.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
+**Classes**: [Artificer (Alchemist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-alchemist-tce.md "subclass=TCE;class=TCE"); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Light Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-light-domain.md); [Druid (Circle of Wildfire)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-wildfire-tce.md "subclass=TCE"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock (The Celestial)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-celestial-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 242. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

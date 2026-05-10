@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/rarity/very-rare
 - ttrpg-cli/item/shield/
 - ttrpg-cli/item/tier/major
-aliases: 
+aliases:
 - "+3 Shield"
 ---
 # +3 Shield

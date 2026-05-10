@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Homunculus
+- "Homunculus"
 ---
-# [Homunculus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/homunculus.md)
-*Source: Monster Manual p. 188, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Infernal Machine Rebuild, Mythic Odysseys of Theros, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Homunculus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/homunculus.md)
+*Source: Monster Manual p. 188. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Shaping a mixture of clay, ash, mandrake root, and blood, one can channel rare ritual magic to create a faithful, squirrel-sized companion.
 
@@ -43,7 +44,8 @@ A homunculus knows everything its creator knows, including all the languages the
 "damage_immunities": "poison"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "0"
 "traits":
@@ -52,23 +54,17 @@ A homunculus knows everything its creator knows, including all the languages the
       \ telepathically."
     "name": "Telepathic Bond"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 1 piercing damage, and the target must succeed on a DC 10 Constitution saving\
       \ throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. If the saving throw fails by 5 or more, the target is instead\
       \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-      \ for 5 (d10) minutes and [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
+      \ for 5 (1d10) minutes and [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
       \ while [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ in this way."
     "name": "Bite"
 "source":
   - "MM"
-  - "WDMM"
-  - "BGDIA"
-  - "ERLW"
-  - "IMR"
-  - "MOT"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/homunculus.webp"
 ```
 ^statblock

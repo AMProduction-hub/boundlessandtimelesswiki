@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Living Blade of Disaster
+- "Living Blade of Disaster"
 ---
-# [Living Blade of Disaster](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/living-blade-of-disaster-idrotf.md)
+# [Living Blade of Disaster](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/living-blade-of-disaster-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 299*  
 
 A living blade of disaster is a [blade of disaster](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-of-disaster-tce.md) spell (see appendix D) with a wicked will of its own. It looks like a floating, black planar rift in the shape of a sword. Like a demon, it craves destruction.
@@ -46,7 +47,8 @@ Areas of wild magic and sites that have been ravaged by powerful eldritch forces
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "cr": "8"
 "traits":
@@ -59,7 +61,7 @@ Areas of wild magic and sites that have been ravaged by powerful eldritch forces
   - "desc": "The living spell doesn't require air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 26\
+  - "desc": "*Melee Spell Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 26\
       \ (4d12) force damage, unless the living spell rolled an 18 or higher on the\
       \ d20 for the attack, in which case the attack is a critical hit that deals\
       \ 78 (12d12) force damage instead."

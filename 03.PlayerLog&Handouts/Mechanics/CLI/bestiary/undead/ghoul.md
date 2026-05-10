@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ghoul
+- "Ghoul"
 ---
-# [Ghoul](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/ghoul.md)
-*Source: Monster Manual p. 148, Curse of Strahd, Lost Mine of Phandelver, Princes of the Apocalypse, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Divine Contention, Storm Lord's Wrath, Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Candlekeep Mysteries, Journeys through the Radiant Citadel, Keys from the Golden Vault, Hunt for the Thessalhydra, Dragon of Icespire Peak. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Ghoul](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md)
+*Source: Monster Manual p. 148. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Ghouls roam the night in packs, driven by an insatiable hunger for humanoid flesh.
 
@@ -52,14 +53,15 @@ Orcus sometimes infuses a ghoul with a stronger dose of abyssal energy, making a
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common"
 "cr": "1"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one creature. *Hit:*\
       \ 9 (2d6 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) slashing damage. If the target is a creature other than an elf\
       \ or undead, it must succeed on a DC 10 Constitution saving throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
@@ -67,24 +69,6 @@ Orcus sometimes infuses a ghoul with a stronger dose of abyssal energy, making a
     "name": "Claws"
 "source":
   - "MM"
-  - "CoS"
-  - "LMoP"
-  - "PotA"
-  - "TftYP"
-  - "ToA"
-  - "WDMM"
-  - "GoS"
-  - "DC"
-  - "SLW"
-  - "SDW"
-  - "BGDIA"
-  - "IDRotF"
-  - "TCE"
-  - "CM"
-  - "JttRC"
-  - "KftGV"
-  - "HftT"
-  - "DIP"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/ghoul.webp"
 ```
 ^statblock

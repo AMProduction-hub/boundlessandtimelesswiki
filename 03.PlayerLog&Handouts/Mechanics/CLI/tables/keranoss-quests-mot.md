@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Keranos's Quests
+- "Keranos's Quests"
 ---
 # Keranos's Quests
 *Source: Mythic Odysseys of Theros p. 140* 
 
 **Keranos's Quests**
-
-`dice: [](keranoss-quests-mot.md#^keranoss-quests)`
 
 | dice: d6 | Adventure Goal |
 |----------|----------------|

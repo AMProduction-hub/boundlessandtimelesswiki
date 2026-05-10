@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/deity/gnomish
 - ttrpg-cli/domain/knowledge
 - ttrpg-cli/domain/nature
-aliases: 
-- Callarduran Smoothhands
+aliases:
+- "Callarduran Smoothhands"
 ---
 # Callarduran Smoothhands
 *Source: Sword Coast Adventurer's Guide p. 24* 

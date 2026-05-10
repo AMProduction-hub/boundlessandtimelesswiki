@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/13
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Young Red Shadow Dragon
+- "Young Red Shadow Dragon"
 ---
-# [Young Red Shadow Dragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/young-red-shadow-dragon.md)
+# [Young Red Shadow Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-red-shadow-dragon.md)
 *Source: Monster Manual p. 85*  
 
 Shadow dragons are true dragons that were either born in the Shadowfell or transformed by years spent within its dismal confines. Some shadow dragons embrace the Shadowfell for its bleak landscapes and desolation. Others seek to return to the Material Plane, hungry to spread the darkness and evil of the Plane of Shadow.
@@ -82,10 +83,10 @@ Any damage-dealing breath weapon possessed by the dragon deals necrotic damage i
   - !!int "19"
 "speed": "40 ft., climb 40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+5"
-  - "constitution": "+10"
-  - "wisdom": "+5"
-  - "charisma": "+9"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "10"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+10"
@@ -93,15 +94,17 @@ Any damage-dealing breath weapon possessed by the dragon deals necrotic damage i
     "desc": "+10"
 "damage_resistances": "necrotic"
 "damage_immunities": "fire"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 18"
 "languages": "Common, Draconic"
 "cr": "13"
 "traits":
   - "desc": "While in dim light or darkness, the dragon has resistance to damage that\
       \ isn't force, psychic, or radiant."
     "name": "Living Shadow"
-  - "desc": "While in dim light or darkness, the dragon can take the Hide action as\
-      \ a bonus action."
+  - "desc": "While in dim light or darkness, the dragon can take the [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide)\
+      \ action as a bonus action."
     "name": "Shadow Stealth"
   - "desc": "While in sunlight, the dragon has disadvantage on attack rolls, as well\
       \ as on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
@@ -110,10 +113,10 @@ Any damage-dealing breath weapon possessed by the dragon deals necrotic damage i
 "actions":
   - "desc": "The dragon makes three attacks: one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
-      \ 17 (2d10 + 6) piercing damage plus 3 (d6) necrotic damage."
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
+      \ 17 (2d10 + 6) piercing damage plus 3 (1d6) necrotic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 13 (2d6 + 6) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales shadowy fire in a 30-foot cone. Each creature in that\

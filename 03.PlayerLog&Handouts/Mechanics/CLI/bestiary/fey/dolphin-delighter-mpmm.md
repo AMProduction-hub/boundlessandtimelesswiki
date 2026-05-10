@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dolphin Delighter
+- "Dolphin Delighter"
 ---
-# [Dolphin Delighter](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/dolphin-delighter-mpmm.md)
+# [Dolphin Delighter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/dolphin-delighter-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 97*  
 
 In the Feywild, dolphin delighters brighten the moods of those who travel the seas of the Domains of Delight. Telepathically singing sea chanteys, these dolphins leap and teleport through the luminous waters of Faerie and the Material Plane, and they are faithful allies to any who battle the forces of gloom and brutality under the waves.
@@ -43,14 +44,15 @@ Dolphins are clever, social marine mammals that feed on small fish and squid. An
   - !!int "16"
 "speed": "0 ft., swim 60 ft."
 "saves":
-  - "wisdom": "+3"
-  - "charisma": "+5"
+  - "wisdom": !!int "3"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
   - "name": "[Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance)"
     "desc": "+5"
-"senses": "blindsight 60 ft., passive Perception 13"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., passive Perception 13"
 "languages": "Aquan, telepathy 120 ft."
 "cr": "3"
 "traits":
@@ -59,7 +61,7 @@ Dolphins are clever, social marine mammals that feed on small fish and squid. An
 "actions":
   - "desc": "The dolphin makes two Dazzling Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) bludgeoning damage plus 7 (2d6) psychic damage, and the target\
       \ is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
       \ until the start of the dolphin's next turn."

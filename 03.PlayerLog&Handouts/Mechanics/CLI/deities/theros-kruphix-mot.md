@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/deity/theros
 - ttrpg-cli/domain/knowledge
 - ttrpg-cli/domain/trickery
-aliases: 
-- Kruphix
+aliases:
+- "Kruphix"
 ---
 # Kruphix
 *Source: Mythic Odysseys of Theros p. 61* 
@@ -93,8 +94,6 @@ Kruphix's champions are less his agents than his charges, and he is loath to rel
 
 **Kruphix's Favor**
 
-`dice: [](theros-kruphix-mot.md#^kruphixs-favor)`
-
 | dice: d6 | Circumstance |
 |----------|--------------|
 | 1 | Followers of Kruphix claim you were born under a bizarre omen, but will not explain what it means. |
@@ -110,8 +109,6 @@ Kruphix's champions are less his agents than his charges, and he is loath to rel
 Kruphix doesn't demand adherence to any philosophy, and the reasons to follow him are as numberless as the stars. As a follower of Kruphix, consider the options on the Kruphix's Ideals table as alternatives to those suggested for your background.
 
 **Kruphix's Ideals**
-
-`dice: [](theros-kruphix-mot.md#^kruphixs-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

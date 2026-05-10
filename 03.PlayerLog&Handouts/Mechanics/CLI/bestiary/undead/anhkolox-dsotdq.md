@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Anhkolox
+- "Anhkolox"
 ---
-# [Anhkolox](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/anhkolox-dsotdq.md)
+# [Anhkolox](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/anhkolox-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 192*  
 
 Anhkoloxes are vicious undead creatures created from the bones of bears and other beasts. Their barbed bones grind and crack, often moving in seemingly impossible ways. Anhkoloxes are driven by territorial instinct and a predatory urge to hunt and devour living prey. They run on all fours and rear up onto their hind legs when they corner their quarry. When they strike, they wallop foes about with their claws—they delight in knocking foes into pits full of jagged bones—and their barbed rib cage cracks open like a hunting trap to snap closed around a victim.
@@ -35,7 +36,7 @@ Anhkoloxes are vicious undead creatures created from the bones of bears and othe
   - !!int "2"
 "speed": "50 ft."
 "saves":
-  - "wisdom": "+6"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
@@ -44,7 +45,8 @@ Anhkoloxes are vicious undead creatures created from the bones of bears and othe
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 16"
 "languages": ""
 "cr": "9"
 "traits":
@@ -53,12 +55,12 @@ Anhkoloxes are vicious undead creatures created from the bones of bears and othe
 "actions":
   - "desc": "The anhkolox makes two Claw attacks and one Entrapping Rend attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 17 (2d10 + 6) piercing damage. If the target is a Large or smaller creature,\
       \ it must succeed on a DC 18 Strength saving throw or be pushed up to 20 feet\
       \ in a horizontal direction of the anhkolox's choice."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 23 (5d6 + 6) piercing damage, and if the target is a Large or smaller creature,\
       \ the target must succeed on a DC 18 Strength saving throw or be trapped in\
       \ the anhkolox's rib cage and [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\

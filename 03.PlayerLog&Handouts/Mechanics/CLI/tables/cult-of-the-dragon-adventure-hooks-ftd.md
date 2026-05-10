@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Cult of the Dragon Adventure Hooks
+- "Cult of the Dragon Adventure Hooks"
 ---
 # Cult of the Dragon Adventure Hooks
 *Source: Fizban's Treasury of Dragons p. 45* 
 
 **Cult of the Dragon Adventure Hooks**
-
-`dice: [](cult-of-the-dragon-adventure-hooks-ftd.md#^cult-of-the-dragon-adventure-hooks)`
 
 | dice: d6 | Adventure Hook |
 |----------|----------------|

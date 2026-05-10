@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Dementlieu Adventures
+- "Dementlieu Adventures"
 ---
 # Dementlieu Adventures
 *Source: Van Richten's Guide to Ravenloft p. 97* 
 
 **Dementlieu Adventures**
-
-`dice: [](dementlieu-adventures-vrgr.md#^dementlieu-adventures)`
 
 | dice: d6 | Adventure |
 |----------|-----------|

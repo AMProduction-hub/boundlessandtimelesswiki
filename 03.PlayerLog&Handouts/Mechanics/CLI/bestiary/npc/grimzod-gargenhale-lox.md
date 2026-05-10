@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/lox
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Grimzod Gargenhale
+- "Grimzod Gargenhale"
 ---
-# [Grimzod Gargenhale](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/grimzod-gargenhale-lox.md)
+# [Grimzod Gargenhale](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/grimzod-gargenhale-lox.md)
 *Source: Light of Xaryxis p. 32*  
 
 ```statblock
@@ -33,15 +34,18 @@ aliases:
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+7"
-  - "wisdom": "+4"
-  - "charisma": "+6"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "6"
 "damage_vulnerabilities": "radiant"
 "damage_immunities": "cold, necrotic, poison"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 11"
+"gear":
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": "the languages it knew in life"
 "cr": "6"
 "traits":
@@ -55,12 +59,12 @@ aliases:
   - "desc": "Grimzod doesn't require air or drink."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee  or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 30\
-      \ ft., one creature. Hit: 22 (4d10) necrotic damage. A Humanoid reduced\
+  - "desc": "*Melee  or Ranged Spell Attack:* +6 to hit, reach 5 ft. or range 30\
+      \ ft., one creature. *Hit:* 22 (4d10) necrotic damage. A Humanoid reduced\
       \ to 0 hit points by this attack dies and instantly transforms into a free-willed\
       \ shadow or vampirate (captain's choice) under the DM's control."
     "name": "Energy Drain"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 100/400 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 100/400 ft., one target. *Hit:*\
       \ 19 (3d10 + 3) piercing damage."
     "name": "Heavy Crossbow"
   - "desc": "A ship upon which Grimzod stands, along with all creatures and objects\

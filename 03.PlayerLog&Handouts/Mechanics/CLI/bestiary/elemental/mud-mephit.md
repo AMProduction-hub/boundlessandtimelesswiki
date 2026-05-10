@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mud Mephit
+- "Mud Mephit"
 ---
-# [Mud Mephit](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/mud-mephit.md)
-*Source: Monster Manual p. 216, Princes of the Apocalypse, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Journeys through the Radiant Citadel*  
+# [Mud Mephit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/mud-mephit.md)
+*Source: Monster Manual p. 216*  
 
 ## Mephits
 
@@ -51,7 +52,8 @@ Mud mephits are slow, unctuous creatures of earth and water. They drone their co
     "desc": "+3"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Aquan, Terran"
 "cr": "1/4"
 "traits":
@@ -64,7 +66,7 @@ Mud mephits are slow, unctuous creatures of earth and water. They drone their co
       \ ordinary mound of mud."
     "name": "False Appearance"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d6 + 1) bludgeoning damage."
     "name": "Fists"
   - "desc": "The mephit belches viscid mud onto one creature within 5 feet of it.\
@@ -75,11 +77,6 @@ Mud mephits are slow, unctuous creatures of earth and water. They drone their co
     "name": "Mud Breath (Recharge 6)"
 "source":
   - "MM"
-  - "PotA"
-  - "ToA"
-  - "WDMM"
-  - "GoS"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/mud-mephit.webp"
 ```
 ^statblock

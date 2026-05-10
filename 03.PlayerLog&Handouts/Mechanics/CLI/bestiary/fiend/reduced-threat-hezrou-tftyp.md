@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reduced-Threat Hezrou
+- "Reduced-Threat Hezrou"
 ---
-# [Reduced-Threat Hezrou](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/reduced-threat-hezrou-tftyp.md)
+# [Reduced-Threat Hezrou](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/reduced-threat-hezrou-tftyp.md)
 *Source: Tales from the Yawning Portal p. 113*  
 
 ```statblock
@@ -34,14 +35,15 @@ aliases:
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "strength": "+5"
-  - "constitution": "+6"
-  - "wisdom": "+2"
+  - "strength": !!int "5"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "2"
 "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": "Abyssal, telepathy 120 ft."
 "cr": "8"
 "traits":
@@ -61,10 +63,10 @@ aliases:
 "actions":
   - "desc": "The hezrou makes three attacks: one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (2d10 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage."
     "name": "Claws"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Elder Giant Lizard
+- "Elder Giant Lizard"
 ---
-# [Elder Giant Lizard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/elder-giant-lizard-tftyp.md)
+# [Elder Giant Lizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/elder-giant-lizard-tftyp.md)
 *Source: Tales from the Yawning Portal p. 176*  
 
 ```statblock
@@ -35,7 +36,8 @@ aliases:
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "cr": "5"
 "traits":
@@ -44,13 +46,13 @@ aliases:
 "actions":
   - "desc": "The lizard makes two attacks: one with its bite and one with its tail."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 21\
       \ (3d10 + 5) piercing damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 16). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and the lizard can't bite another target."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target not [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-      \ by the lizard. Hit: 14 (2d8 + 5) bludgeoning damage. If the target is\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target not [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ by the lizard. *Hit:* 14 (2d8 + 5) bludgeoning damage. If the target is\
       \ a creature, it must succeed on a DC 16 Strength saving throw or be knocked\
       \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Tail"

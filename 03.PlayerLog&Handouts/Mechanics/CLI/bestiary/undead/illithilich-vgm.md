@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 - ttrpg-cli/monster/cr/22
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Illithilich
+- "Illithilich"
 ---
-# [Illithilich](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/illithilich-vgm.md)
+# [Illithilich](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/illithilich-vgm.md)
 *Source: Volo's Guide to Monsters p. 172*  
 
 Mind flayers that pursue arcane magic are exiled as deviants, and for them no eternal communion with an elder brain is possible. The road to lichdom offers a way to escape the permanency of death, but that path is long and solitary. Alhoons are mind flayers that use a shortcut.
@@ -76,11 +77,11 @@ The lich's innate spellcasting ability is Intelligence (spell save DC 20). It ca
 
 ### Tentacles
 
-Melee Weapon Attack: +12 to hit, reach 5 ft., one creature. Hit: 21 (`3d10 + 5`) psychic damage. If the target is Large or smaller, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled) (escape DC 15) and must succeed on a DC 20 Intelligence saving throw or be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned) until this grapple ends.
+Melee Weapon Attack: `+12` to hit, reach 5 ft., one creature. Hit: 21 (`3d10 + 5`) psychic damage. If the target is Large or smaller, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled) (escape DC 15) and must succeed on a DC 20 Intelligence saving throw or be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned) until this grapple ends.
 
 ### Extract Brain
 
-Melee Weapon Attack: +12 to hit, reach 5 ft., one [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) humanoid [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled) by the lich. Hit: 55 (`10d10`) piercing damage. If this damage reduces the target to 0 hit points, the lich kills the target by extracting and devouring its brain.
+Melee Weapon Attack: `+12` to hit, reach 5 ft., one [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) humanoid [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled) by the lich. Hit: 55 (`10d10`) piercing damage. If this damage reduces the target to 0 hit points, the lich kills the target by extracting and devouring its brain.
 
 ### Mind Blast (Recharge 5-6)
 
@@ -125,9 +126,9 @@ The lich uses a spell slot to cast a 1st-, 2nd-, or 3rd-level spell that it has 
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+10"
-  - "intelligence": "+12"
-  - "wisdom": "+9"
+  - "constitution": !!int "10"
+  - "intelligence": !!int "12"
+  - "wisdom": !!int "9"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+19"
@@ -144,49 +145,50 @@ The lich uses a spell slot to cast a 1st-, 2nd-, or 3rd-level spell that it has 
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 19"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 19"
 "languages": "Deep Speech, Undercommon, telepathy 120 ft."
 "cr": "22"
 "traits":
   - "desc": "The illithilich is an 18th-level spellcaster. Its spellcasting ability\
       \ is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich\
-      \ has the following wizard spells prepared:\n\nCantrips (at will): [mage\
+      \ has the following wizard spells prepared:\n\n**Cantrips (at will):** [mage\
       \ hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
-      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**1st level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \n**2nd level (3 slots):** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [Melf's acid arrow](03.PlayerLog&Handouts/Mechanics/CLI/spells/melfs-acid-arrow.md),\
       \ [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md)\n\
-      \n3rd level (3 slots): [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
+      \n**3rd level (3 slots):** [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
-      \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)\n\n4th\
-      \ level (3 slots): [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
+      \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)\n\n**4th\
+      \ level (3 slots):** [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
       \ [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md)\n\
-      \n5th level (3 slots): [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
-      \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)\n\n6th\
-      \ level (1 slots): [disintegrate](03.PlayerLog&Handouts/Mechanics/CLI/spells/disintegrate.md),\
+      \n**5th level (3 slots):** [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
+      \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)\n\n**6th\
+      \ level (1 slots):** [disintegrate](03.PlayerLog&Handouts/Mechanics/CLI/spells/disintegrate.md),\
       \ [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md)\n\
-      \n7th level (1 slots): [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
+      \n**7th level (1 slots):** [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)\n\
-      \n8th level (1 slots): [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
+      \n**8th level (1 slots):** [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
       \ [power word stun](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-stun.md)\n\
-      \n9th level (1 slots): [power word kill](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-kill.md)"
+      \n**9th level (1 slots):** [power word kill](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-kill.md)"
     "name": "Spellcasting"
   - "desc": "The illithilich's innate spellcasting ability is Intelligence (spell\
       \ save DC 20). It can innately cast the following spells, requiring no components.\n\
-      \nAt will: [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
-      \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md)\n\n1/day\
-      \ each: [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
+      \n**At will:** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md)\n\n**1/day\
+      \ each:** [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md) (self\
       \ only)"
     "name": "Innate Spellcasting (Psionics)"
   - "desc": "If the illithilich fails a saving throw, it can choose to succeed instead."
     "name": "Legendary Resistance (3/Day)"
-  - "desc": "If it has a phylactery, a destroyed illithilich gains a new body in d10\
+  - "desc": "If it has a phylactery, a destroyed illithilich gains a new body in 1d10\
       \ days, regaining all its hit points and becoming active again. The new body\
       \ appears within 5 feet of the phylactery."
     "name": "Rejuvenation"
@@ -197,21 +199,21 @@ The lich uses a spell slot to cast a 1st-, 2nd-, or 3rd-level spell that it has 
       \ magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +12 to hit, reach 5 ft., one creature. *Hit:*\
       \ 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving\
       \ throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
       \ its turns, ending the effect on itself on a success."
     "name": "Paralyzing Touch"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one creature. *Hit:*\
       \ 21 (3d10 + 5) psychic damage. If the target is Large or smaller, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15) and must succeed on a DC 20 Intelligence saving throw or be\
       \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
       \ until this grapple ends."
     "name": "Tentacles"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
       \ humanoid [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-      \ by the lich. Hit: 55 (10d10) piercing damage. If this damage reduces the\
+      \ by the lich. *Hit:* 55 (10d10) piercing damage. If this damage reduces the\
       \ target to 0 hit points, the lich kills the target by extracting and devouring\
       \ its brain."
     "name": "Extract Brain"
@@ -221,6 +223,28 @@ The lich uses a spell slot to cast a 1st-, 2nd-, or 3rd-level spell that it has 
       \ for 1 minute. A creature can repeat the saving throw at the end of each of\
       \ its turns, ending the effect on itself on a success."
     "name": "Mind Blast (Recharge 5-6)"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), the illithilich can\
+      \ take a lair action to cause one of the following magical effects; the illithilich\
+      \ can't use the same effect two rounds in a row:\n\n- The illithilich rolls\
+      \ a d8 and regains a spell slot of that level or lower. If it has no spent\
+      \ spell slots of that level or lower, nothing happens.  \n- The illithilich\
+      \ targets one creature it can see within 30 feet of it. A crackling cord of\
+      \ negative energy tethers the illithilich to the target. Whenever the illithilich\
+      \ takes damage, the target must make a DC 18 Constitution saving throw. On a\
+      \ failed save, the illithilich takes half the damage (rounded down), and the\
+      \ target takes the remaining damage. This tether lasts until initiative count\
+      \ 20 on the next round or until the illithilich or the target is no longer in\
+      \ the illithilich's lair.  \n- The illithilich calls forth the spirits of creatures\
+      \ that died in its lair. These apparitions materialize and attack one creature\
+      \ that the illithilich can see within 60 feet of it. The target must succeed\
+      \ on a DC 18 Constitution saving throw, taking 52 (15d6) necrotic damage on\
+      \ a failed save, or half as much damage on a success. The apparitions then disappear.\
+      \  "
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the illithilich can expend a use to take one of the following actions. The\
+  \ illithilich regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The illithilich makes one attack with its tentacles."
     "name": "Tentacles"
@@ -232,26 +256,6 @@ The lich uses a spell slot to cast a 1st-, 2nd-, or 3rd-level spell that it has 
       \ spell that it has prepared. Doing so costs 1 legendary action per level of\
       \ the spell."
     "name": "Cast Spell (Costs 1–3 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), the illithilich can\
-      \ take a lair action to cause one of the following magical effects; the illithilich\
-      \ can't use the same effect two rounds in a row:"
-    "name": ""
-  - "desc": "- The illithilich rolls a d8 and regains a spell slot of that level\
-      \ or lower. If it has no spent spell slots of that level or lower, nothing happens.\
-      \  \n- The illithilich targets one creature it can see within 30 feet of it.\
-      \ A crackling cord of negative energy tethers the illithilich to the target.\
-      \ Whenever the illithilich takes damage, the target must make a DC 18 Constitution\
-      \ saving throw. On a failed save, the illithilich takes half the damage (rounded\
-      \ down), and the target takes the remaining damage. This tether lasts until\
-      \ initiative count 20 on the next round or until the illithilich or the target\
-      \ is no longer in the illithilich's lair.  \n- The illithilich calls forth the\
-      \ spirits of creatures that died in its lair. These apparitions materialize\
-      \ and attack one creature that the illithilich can see within 60 feet of it.\
-      \ The target must succeed on a DC 18 Constitution saving throw, taking 52 (15d6)\
-      \ necrotic damage on a failed save, or half as much damage on a success. The\
-      \ apparitions then disappear.  "
-    "name": ""
 "source":
   - "VGM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/illithilich-vgm.webp"

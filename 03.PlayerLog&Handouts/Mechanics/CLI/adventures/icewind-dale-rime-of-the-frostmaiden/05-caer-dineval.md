@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Caer-Dineval
+- "Caer-Dineval"
 ---
 # Caer-Dineval
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 37* 
@@ -77,7 +78,7 @@ Today, the keep is the residence of the town speaker, Crannoc Siever, who recent
 
 *Closed inn*
 
-At the south end of town is Caer-Dineval's inn, a drafty old building with boarded-up windows and a crooked weathervane shaped like a rearing dragon. The place has been out of business for almost a year.
+At the south end of town is Caer-Dineval's inn, a drafty old building with boarded-up windows and a crooked weather vane shaped like a rearing dragon. The place has been out of business for almost a year.
 
 Six [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md) hide inside the ramshackle inn and remain out of sight until Xardorok's chardalyn dragon attacks the town (see chapter 4).
 
@@ -89,7 +90,7 @@ This tavern is situated northwest of the Caer, where it offers a spectacular vie
 
 Roark and some of his patrons know something is amiss in the castle, but they refrain from talking about it. Roark figures that if he steers adventurers toward the castle, they'll figure out what's going on by themselves.
 
-![Caer-Dineval is built on t...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/026-01-013-caer-dineval.webp#center "Caer-Dineval is built on the rocky shore of Lac Dinneshere, with Kelvin's Cairn looming behind it")
+![Caer-Dineval is built on the rocky shore of Lac Dinneshere, with Kelvin's Cairn looming behind it](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/026-01-013-caer-dineval.webp#center)
 
 ## Black Swords
 

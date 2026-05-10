@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/rot
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Paper Whirlwind
+- "Paper Whirlwind"
 ---
-# [Paper Whirlwind](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/paper-whirlwind-rot.md)
+# [Paper Whirlwind](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/paper-whirlwind-rot.md)
 *Source: The Rise of Tiamat p. 72, Tyranny of Dragons p. 158*  
 
 ```statblock
@@ -52,8 +53,8 @@ aliases:
       \ can't regain hit points or gain temporary hit points."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target in the swarm's\
-      \ space. Hit: 7 (2d6) piercing damage, or 3 (d6) piercing damage if the\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target in the swarm's\
+      \ space. *Hit:* 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the\
       \ swarm has half of its hit points or fewer."
     "name": "Beaks"
 "source":

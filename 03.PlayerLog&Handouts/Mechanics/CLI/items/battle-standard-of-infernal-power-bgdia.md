@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/very-rare
-aliases: 
+aliases:
 - "Battle Standard of Infernal Power"
 ---
 # Battle Standard of Infernal Power

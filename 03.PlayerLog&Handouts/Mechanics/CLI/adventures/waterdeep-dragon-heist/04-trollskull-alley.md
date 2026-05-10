@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 aliases:
-- Trollskull Alley
+- "Trollskull Alley"
 ---
 # Trollskull Alley
 *Source: Waterdeep: Dragon Heist, p. 31* 
@@ -86,7 +87,7 @@ The genasi couple sells all metal weapons, armor, and shields listed in chapter 
 
 #### Services
 
-In addition to nonmagical herbal remedies, Fala sells potions of the types listed in the Fala's Potions table. Fala keeps `d6` vials of each potion in locked cabinets behind the shop counter.
+In addition to nonmagical herbal remedies, Fala sells potions of the types listed in the Fala's Potions table. Fala keeps `1d6` vials of each potion in locked cabinets behind the shop counter.
 
 **Fala's Potions**
 
@@ -226,7 +227,7 @@ Vajra offers the characters membership in the Gray Hands, a private security for
 
 | Party Level | Mission Brief | Mission Requirements and Reward |
 |-------------|---------------|---------------------------------|
-| 2nd | "Seek out [Hlam](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hlam-wdh.md), a monk who lives in a cave on the side of Mount Waterdeep. Ask him what he's heard about threats to the city, but try not to annoy him or overstay your welcome." | Those who climb the mountainside to reach the cave must succeed on a DC 12 Constitution saving throw or arrive with `d4` levels of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). Trying to get [Hlam](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hlam-wdh.md) (see appendix B) to share information requires a DC 12 Charisma (Persuasion) check. If the check succeeds, he tells the characters, "Evil's twin hides its face for now. Expect that to change before winter's end." (This is an oblique reference to [Manshoon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/manshoon-wdh.md).) The characters can descend the mountain safely. *Reward*: Each Gray Hand character gains 1 renown. |
+| 2nd | "Seek out [Hlam](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hlam-wdh.md), a monk who lives in a cave on the side of Mount Waterdeep. Ask him what he's heard about threats to the city, but try not to annoy him or overstay your welcome." | Those who climb the mountainside to reach the cave must succeed on a DC 12 Constitution saving throw or arrive with `1d4` levels of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). Trying to get [Hlam](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hlam-wdh.md) (see appendix B) to share information requires a DC 12 Charisma (Persuasion) check. If the check succeeds, he tells the characters, "Evil's twin hides its face for now. Expect that to change before winter's end." (This is an oblique reference to [Manshoon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/manshoon-wdh.md).) The characters can descend the mountain safely. *Reward*: Each Gray Hand character gains 1 renown. |
 | 3rd | "A young bronze dragon has taken up residence in Deepwater Harbor. It startled a few sailors recently but hasn't hurt anyone. Confront the dragon and learn its intentions." | Vajra gives each character a [potion of water breathing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-water-breathing.md) to complete this mission. They find a [young bronze dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-bronze-dragon.md), Zelifarn, swimming around a barnacle-covered shipwreck at the bottom of the deep harbor. The friendly dragon tries to coax as much treasure as it can from the characters. Those who converse with Zelifarn can make a DC 13 Wisdom (Insight) check. A successful check reveals that the dragon poses no danger to Waterdeep. If no one succeeds on the check, the dragon's true intentions can't be gleaned. *Reward*: Each Gray Hand character gains 1 renown. |
 | 4th | "A member of Force Grey has been acting strangely of late. His name is [Meloon Wardragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/meloon-wardragon-wdh.md), and his happy-go-lucky demeanor has soured. He's been hanging around the Yawning Portal more than usual. Observe him for a tenday, then report back to me." | Characters can befriend [Meloon Wardragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/meloon-wardragon-wdh.md) (see appendix B) or watch him from afar. Each day at dawn, Meloon engages in a telepathic contest of wills with his magic axe, [Azuredge](03.PlayerLog&Handouts/Mechanics/CLI/items/azuredge-wdh.md) (see appendix A), before leaving his room at the Yawning Portal. The axe wants a new wielder, but Meloon refuses to part with it. Characters who observe Meloon during this exchange can ascertain what's going on with a successful DC 15 Wisdom (Insight) check. *Reward*: Each Gray Hand character gains 2 renown. If the characters rid Meloon of the [intellect devourer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/intellect-devourer.md) in his skull, Vajra gives the party a [wand of secrets](03.PlayerLog&Handouts/Mechanics/CLI/items/wand-of-secrets.md). |
 | 5th | "[Xanathar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/xanathar-wdh.md) is using intellect devourers to take control of Waterdavians in key positions throughout the city. We must deal with this problem at once. Infiltrate [Xanathar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/xanathar-wdh.md)'s lair and destroy whatever is responsible for creating these creatures." | The characters must slay **Nihiloor** the [mind flayer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/mind-flayer.md) (see appendix B). They can stake out a Xanathar Guild hideout (see chapter 1) and wait for [Nihiloor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/nihiloor-wdh.md) to show up there, or confront the mind flayer in [Xanathar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/xanathar-wdh.md)'s lair (see chapter 5). *Reward*: Each Gray Hand character gains 2 renown. Every character who participated in the raid receives a [potion of resistance](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-resistance.md). In addition, Vajra covers the cost of any [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md) spells needed to bring back dead characters. |

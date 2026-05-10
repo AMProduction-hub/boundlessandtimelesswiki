@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/slw
 aliases:
-- Welcome to Leilon
+- "Welcome to Leilon"
 ---
 # Welcome to Leilon
 *Source: Essentials Kit: Storm Lord's Wrath* 
@@ -39,8 +40,6 @@ The characters might wish to explore key establishments within Leilon. These loc
 This shop is crammed with curiosities dredged from the ruins of Leilon: old fishing rods, swamp idols, mining helmets, and other oddities. A whimsical Illuskan male named Aubrey Silverspun runs the store. Roll a `d20` on Peculiarities table to see what he has on offer when the characters visit.
 
 **Peculiarities**
-
-`dice: [](02-welcome-to-leilon.md#^peculiarities)`
 
 | dice: d20 | Peculiarity | Price |
 |-----------|-------------|-------|

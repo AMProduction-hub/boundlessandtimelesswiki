@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Galvanice Weird
+- "Galvanice Weird"
 ---
-# [Galvanice Weird](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/galvanice-weird-ggr.md)
+# [Galvanice Weird](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/galvanice-weird-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 209*  
 
 Galvanice weirds seem to be the epitome of weird technology. Indeed, they serve willingly, with cheerful stupidity, as guardians and laborers in Izzet workshops. They combine a rigid body of elemental ice with a core of lightning that animates them. If a galvanice weird is destroyed, the ice shatters and lightning crackles outward in a dangerous explosion. Still, most Izzet researchers find that their usefulness outweighs this risk.
@@ -52,7 +53,8 @@ An Izzet weird doesn't require air, food, drink, or sleep.
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "cr": "1"
 "traits":
@@ -62,7 +64,7 @@ An Izzet weird doesn't require air, food, drink, or sleep.
       \ as much damage on a successful one."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) bludgeoning damage plus 5 (2d4) lightning damage. If the target\
       \ is a creature, it must succeed on a DC 13 Constitution saving throw or lose\
       \ the ability to use reactions until the start of the weird's next turn."

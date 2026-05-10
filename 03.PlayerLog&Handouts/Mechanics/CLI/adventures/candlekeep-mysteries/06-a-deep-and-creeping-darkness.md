@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 aliases:
-- A Deep and Creeping Darkness
+- "A Deep and Creeping Darkness"
 ---
 # A Deep and Creeping Darkness
 *Source: Candlekeep Mysteries, p. 48* 

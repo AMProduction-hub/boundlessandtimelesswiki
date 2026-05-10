@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 aliases:
-- Masterpiece Imbroglio
+- "Masterpiece Imbroglio"
 ---
 # Masterpiece Imbroglio
 *Source: Keys from the Golden Vault, p. 87* 
@@ -13,7 +14,7 @@ aliases:
 
 A group of scholars and sages known as the Cognoscenti Esoterica recently purchased a painting of Constantori, a famous courtier rumored to once have been the most beautiful man alive. The portrait supposedly has occult properties, but before the sages could study it, the painting was stolen by the Agile Hand, a thieves' guild. In this adventure, the characters must retrieve the portrait of Constantori from the Agile Hand's guildhouse and return it to Adrisa Carimorte, a member of the Cognoscenti Esoterica.
 
-![Two adventurers hide from ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/043-06-001-ch6-splash.webp#center "Two adventurers hide from a guard outside the guildhouse of the Agile Hand")
+![Two adventurers hide from a guard outside the guildhouse of the Agile Hand](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/043-06-001-ch6-splash.webp#center)
 
 ## Adventure Background
 
@@ -562,7 +563,7 @@ A [bandit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md) stan
 
 If the characters search the desk at night, they find a leather-bound ledger in an unlocked drawer, along with a writing quill and a jar of ink. The ledger provides an account of stolen goods acquired by the Agile Hand, but [Constantori's Portrait](03.PlayerLog&Handouts/Mechanics/CLI/items/constantoris-portrait-kftgv.md) is not among the items listed.
 
-![A stealthy rogue tries to ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/048-06-004-stealthy-rogue.webp#center "A stealthy rogue tries to sneak upstairs without disturbing Guildmaster Dusk and her lover")
+![A stealthy rogue tries to sneak upstairs without disturbing Guildmaster Dusk and her lover](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/048-06-004-stealthy-rogue.webp#center)
 
 #### G25: Shared Bedroom
 
@@ -579,7 +580,7 @@ Two [thugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md) sleep
 > This circular room contains a canopied bed with a leather trunk at the foot of it and a fireplace. Wooden staircases hug the walls—one leading up, the other down. The scent of tobacco hangs in the air.
 ^25c
 
-![Among the clutter on the g...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/049-06-005-desk-clutter.webp#center "Among the clutter on the guildmaster's desk is a diary that might contain a secret or two")
+![Among the clutter on the guildmaster's desk is a diary that might contain a secret or two](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/049-06-005-desk-clutter.webp#center)
 
 Unless she has been lured elsewhere, Guildmaster Dusk (lawful evil, half-elf [assassin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/assassin.md)) is asleep in bed with her lover, a politically influential noble named Dartinal Livereth (lawful evil, human [noble](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md)). Neither is wearing armor, but they keep their weapons within reach.
 

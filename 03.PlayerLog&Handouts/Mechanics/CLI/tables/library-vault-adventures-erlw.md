@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Library Vault Adventures
+- "Library Vault Adventures"
 ---
 # Library Vault Adventures
 *Source: Eberron: Rising from the Last War p. 226* 
 
 **Library Vault Adventures**
-
-`dice: [](library-vault-adventures-erlw.md#^library-vault-adventures)`
 
 | dice: d6 | Adventure Goal |
 |----------|----------------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Trenzia
+- "Trenzia"
 ---
-# [Trenzia](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/trenzia-wdmm.md)
+# [Trenzia](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/trenzia-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 32*  
 
 Blazing green flames and mad, echoing laughter surround an undead flameskull. This disembodied skull blasts foes with fiery rays from its eyes and dreadful spells called up from the dark recesses of its memory.
@@ -45,19 +46,20 @@ Blazing green flames and mad, echoing laughter surround an undead flameskull. Th
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common"
 "cr": "4"
 "traits":
   - "desc": "Trenzia is a 5th-level spellcaster. Her spellcasting ability is Intelligence\
       \ (spell save DC 13, +5 to hit with spell attacks). She requires no somatic\
       \ or material components to cast its spells. Trenzia has the following wizard\
-      \ spells prepared:\n\nCantrips (at will): [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\
-      \n1st level (3 slots): [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
-      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n2nd level\
-      \ (2 slots): [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md), [flaming\
+      \ spells prepared:\n\n**Cantrips (at will):** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\
+      \n**1st level (3 slots):** [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
+      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n**2nd level\
+      \ (2 slots):** [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md), [flaming\
       \ sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/flaming-sphere.md)\n\n\
-      3rd level (1 slots): [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)"
+      **3rd level (1 slots):** [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)"
     "name": "Spellcasting"
   - "desc": "Trenzia sheds either dim light in a 15-foot radius, or bright light in\
       \ a 15-foot radius and dim light for an additional 15 feet. It can switch between\
@@ -67,14 +69,15 @@ Blazing green flames and mad, echoing laughter surround an undead flameskull. Th
       \ effects."
     "name": "Magic Resistance"
   - "desc": "If Trenzia is destroyed, it regains all its hit points in 1 hour unless\
-      \ holy water is sprinkled on its remains or a [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md)\
+      \ [holy water](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-water-flask.md)\
+      \ is sprinkled on its remains or a [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md)\
       \ or [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md)\
       \ spell is cast on them."
     "name": "Rejuvenation"
 "actions":
   - "desc": "Trenzia uses Lightning Ray twice."
     "name": "Multiattack"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 30 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 30 ft., one target. *Hit:*\
       \ 10 (3d6) lightning damage."
     "name": "Fire Ray"
 "source":

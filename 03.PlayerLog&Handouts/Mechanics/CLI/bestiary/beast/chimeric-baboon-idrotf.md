@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Chimeric Baboon
+- "Chimeric Baboon"
 ---
-# [Chimeric Baboon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/chimeric-baboon-idrotf.md)
+# [Chimeric Baboon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/chimeric-baboon-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 246*  
 
 ```statblock
@@ -40,8 +41,8 @@ aliases:
       \ [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1\
-      \ (1d4 - 1) piercing damage, plus an extra 3 (d6) poison damage."
+  - "desc": "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 1\
+      \ (1d4 - 1) piercing damage, plus an extra 3 (1d6) poison damage."
     "name": "Bite"
 "source":
   - "IDRotF"

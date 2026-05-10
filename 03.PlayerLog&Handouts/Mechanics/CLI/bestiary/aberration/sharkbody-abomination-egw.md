@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sharkbody Abomination
+- "Sharkbody Abomination"
 ---
-# [Sharkbody Abomination](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/sharkbody-abomination-egw.md)
+# [Sharkbody Abomination](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/sharkbody-abomination-egw.md)
 *Source: Explorer's Guide to Wildemount p. 215*  
 
 The sahuagin shaman Selachai tapped into Uk'otoa's magic to wreak vengeance on the shark hunters of Palma Flora. The unfortunate hunters who failed to escape were transformed into monstrosities with coarse grayish skin, the head of a shark, and a muscular, humanoid physique. These creatures possess all their previous intelligence and personality, but they respond to the control of their sahuagin masters' Shark Telepathy.
@@ -41,7 +42,8 @@ The curse that transformed it into an abomination can be undone only by a [remov
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "blindsight 30 ft., passive Perception 12"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., passive Perception 12"
 "languages": ""
 "cr": "2"
 "traits":
@@ -54,7 +56,7 @@ The curse that transformed it into an abomination can be undone only by a [remov
       \ at least once every 4 hours to avoid suffocating."
     "name": "Limited Amphibiousness"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) piercing damage."
     "name": "Bite"
 "source":

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/aitfr-thp
 aliases:
-- Part 1: Hidden Chambers
+- "Part 1: Hidden Chambers"
 ---
 # Part 1: Hidden Chambers
 *Source: Adventures in the Forgotten Realms: The Hidden Page, p. 4* 
@@ -203,8 +204,6 @@ Choose what time of day it is when the adventurers arrive or roll on the followi
 
 **Time of Day in the Demiplane**
 
-`dice: [](2-part-1-hidden-chambers.md#^time-of-day-in-the-demiplane)`
-
 | dice: d4 | Time of Day |
 |----------|-------------|
 | 1 | Dawn |
@@ -234,11 +233,9 @@ Alas, Tyreus did not trust nor care to understand the sanctum's keepers. He slew
 
 The surviving three usagt keepers are [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) and in hiding, waiting to see what Morwena does and hoping they do not have to leave the sanctum to utter dissolution and flee to another plane. Once the adventurers arrive, the keepers watch them in hopes that they can work together to save this place.
 
-Each keeper is hiding at one of the four corners of the island. Choose where or roll `d4` for each keeper; more than one might be in the same place. There Noa uses their connection to the demiplane's keystone to call for help as best they can, their cries for help echoing through Sylvene's last terrestrial sanctum and planar key.
+Each keeper is hiding at one of the four corners of the island. Choose where or roll `1d4` for each keeper; more than one might be in the same place. There Noa uses their connection to the demiplane's keystone to call for help as best they can, their cries for help echoing through Sylvene's last terrestrial sanctum and planar key.
 
 **Keeper Locations**
-
-`dice: [](2-part-1-hidden-chambers.md#^keeper-locations)`
 
 | dice: d4 | Result |
 |----------|--------|
@@ -406,7 +403,7 @@ A golden disc, about the size of a platter and made to resemble a stylized sun, 
 
 > [!readaloud] 
 > 
-> Bare stone and wooden rafters make up this low, sixfoot-tall cellar. Dry sand is scattered throughout a room that is almost parched—despite the nearby seashore. Perhaps this windowless cellar was magically made to keep the kegs, barrels, and sacks here from moldering.
+> Bare stone and wooden rafters make up this low, six-foot-tall cellar. Dry sand is scattered throughout a room that is almost parched—despite the nearby seashore. Perhaps this windowless cellar was magically made to keep the kegs, barrels, and sacks here from moldering.
 ^055
 
 The cellar is largely empty, and most of what remains is dried or rotten.

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Naevys Tharesso
+- "Naevys Tharesso"
 ---
-# [Naevys Tharesso](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/naevys-tharesso-kftgv.md)
+# [Naevys Tharesso](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/naevys-tharesso-kftgv.md)
 *Source: Keys from the Golden Vault p. 150*  
 
 ```statblock
@@ -34,8 +35,11 @@ aliases:
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+4"
-  - "wisdom": "+2"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "2"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "3"
@@ -45,7 +49,7 @@ aliases:
 "actions":
   - "desc": "Naevys Tharesso makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with\
       \ two hands. The knight can use a bonus action to speak this magic sword's command\
       \ word, causing flames to erupt from the blade. These flames shed bright light\
@@ -54,8 +58,8 @@ aliases:
       \ last until she uses a bonus action to speak the command word again or until\
       \ she drops or sheathes the sword."
     "name": "Flame Tongue Longsword"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit:\
-      \ 5 (d10) piercing damage."
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 100/400 ft., one target. *Hit:*\
+      \ 5 (1d10) piercing damage."
     "name": "Heavy Crossbow"
   - "desc": "For 1 minute, Naevys Tharesso can utter a special command or warning\
       \ whenever a nonhostile creature that it can see within 30 feet of it makes\

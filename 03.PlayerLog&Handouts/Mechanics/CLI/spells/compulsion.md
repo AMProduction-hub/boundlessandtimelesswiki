@@ -1,22 +1,23 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/azorius-functionary
 - ttrpg-cli/spell/background/silverquill-student
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/level/4th-level
 - ttrpg-cli/spell/optfeature/bewitching-whispers
 - ttrpg-cli/spell/school/enchantment
 - ttrpg-cli/spell/subclass/oath-of-glory
 - ttrpg-cli/spell/subclass/order-domain
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Order Domain)
 - Paladin (Oath of Glory)
 aliases:
-- Compulsion
+- "Compulsion"
 ---
 # Compulsion
 *4th-level, Enchantment*  
@@ -31,6 +32,6 @@ Creatures of your choice that you can see within range and that can hear you mus
 
 A target isn't compelled to move into an obviously deadly hazard, such as a fire or pit, but it will provoke opportunity attacks to move in the designated direction.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Paladin (Oath of Glory)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-glory-tce.md "subclass=TCE"); [Cleric (Order Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-order-domain-tce.md "subclass=TCE")
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Order Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-order-domain-tce.md "subclass=TCE"); [Paladin (Oath of Glory)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-glory-tce.md "subclass=TCE")
 
 *Source: Player's Handbook p. 224. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

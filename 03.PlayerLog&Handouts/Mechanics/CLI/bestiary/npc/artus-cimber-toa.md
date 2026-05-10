@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Artus Cimber
+- "Artus Cimber"
 ---
-# [Artus Cimber](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/artus-cimber-toa.md)
+# [Artus Cimber](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/artus-cimber-toa.md)
 *Source: Tomb of Annihilation p. 212*  
 
 A former member of the Harpers, Artus Cimber is the keeper of the Ring of Winter. He found the ring in the jungles of Chult, where he also met his wife, Alisanda. The ring halts its wearer's natural aging and has allowed Artus to survive well beyond his natural lifespan. The ring also defies magical attempts to divine its location and that of its wearer. On his fingers above the knuckles, Artus has tattooed the names of his dearly departed animal companions-a pair of talking wombats named Byrt and Lugg.
@@ -58,8 +59,8 @@ The first time a situation forces Artus to use the Ring of Winter, he warns the 
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "charisma": "+7"
+  - "dexterity": !!int "5"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+7"
@@ -70,6 +71,9 @@ The first time a situation forces Artus to use the Ring of Winter, he warns the 
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+9"
 "damage_immunities": "While wearing the Ring of Winter: cold"
+"gear":
+  - "[bookmark](03.PlayerLog&Handouts/Mechanics/CLI/items/bookmark-toa.md)"
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
 "senses": "passive Perception 13"
 "languages": "Common, Draconic, Dwarvish, Goblin"
 "cr": "7"
@@ -94,10 +98,10 @@ The first time a situation forces Artus to use the Ring of Winter, he warns the 
 "actions":
   - "desc": "Artus makes three attacks with Bookmark or his longbow."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d4 + 5) piercing damage."
     "name": "Bookmark (+3 Dagger)"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 150/600 ft., one target *Hit:*\
       \ 6 (1d8 + 2) piercing damage."
     "name": "Longbow"
   - "desc": "The Ring of Winter has 12 charges and regains all its expended charges\
@@ -138,7 +142,7 @@ The first time a situation forces Artus to use the Ring of Winter, he warns the 
       \ The ice creature obeys only its creator's commands. The object or creature\
       \ appears in an unoccupied space within 60 feet of Artus. It melts into a pool\
       \ of normal water after 24 hours or when it drops to 0 hit points. In extreme\
-      \ heat, it loses 5 (d10) hit points per minute as it melts. Use the guidelines\
+      \ heat, it loses 5 (1d10) hit points per minute as it melts. Use the guidelines\
       \ in chapter 8 of the Dungeon Master's Guide to determine the hit points of\
       \ an inanimate object if they become necessary.  "
     "name": "Ring of Winter"

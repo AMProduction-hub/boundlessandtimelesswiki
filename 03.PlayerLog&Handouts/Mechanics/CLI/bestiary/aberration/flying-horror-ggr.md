@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Flying Horror
+- "Flying Horror"
 ---
-# [Flying Horror](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/flying-horror-ggr.md)
+# [Flying Horror](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/flying-horror-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 203*  
 
 ## Horrors and Madness
@@ -29,7 +30,7 @@ Whenever a character fails a saving throw against the flying horror's Frightenin
 | 4+ | Indefinite |
 ^madness-severity
 
-## Horrors
+### Horrors
 
 Terrifying evils stalk, fly, and scuttle in the dark corners of Ravnica, from the depths of the undercity to the blackest parts of the night sky. Collectively, these creatures are called horrors-a variety of things that lurk in the dark and embody the deepest fears of Ravnica's people. All are evil creatures with dim reason and preternatural cunning.
 
@@ -37,26 +38,22 @@ At least three guilds have been known to compel horrors into service. For House 
 
 House Dimir uses all three base kinds of horrors. The Cult of Rakdos prefers shadow horrors, and the Golgari Swarm uses skittering horrors.
 
-## Customizing a Horror
+### Customizing a Horror
 
 Horrors share some common body types but vary wildly in other characteristics. A particular horror's form might incorporate elements that resemble fiendish, insectile, or reptilian features. To customize a horror, choose a base creature (flying horror, shadow horror, or skittering horror), then roll once on the Primary Features table and once on the Secondary Features table (or choose an option from each table). Add those features to the base creature.
 
 
 **Primary Features**
 
-`dice: [](flying-horror-ggr.md#^primary-features)`
-
 | dice: d4 | Feature |
 |----------|---------|
 | 1 | Avoidance. If the horror is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. |
 | 2 | Damage Resistances. The horror has resistance to necrotic and psychic damage. |
 | 3 | Innate Spellcasting. The horror's innate spellcasting ability is Charisma (spell save DC 13 for flying horror, DC 16 for shadow horror, and DC 17 for skittering horror). It can innately cast the following spells, requiring no material components: 3/day: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md) 1/day each: [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md) (shadow horror and skittering horror only), [phantasmal killer](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-killer.md) (skittering horror only) |
-| 4 | Psychic Rebuke. When the horror takes damage from a melee attack, it can use its reaction to emit psychic energy within a 5-foot radius. Each creature in that area takes 3 (`d6`) psychic damage (flying horror), 7 (`2d6`) psychic damage (shadow horror), or 10 (`3d6`) psychic damage (skittering horror). |
+| 4 | Psychic Rebuke. When the horror takes damage from a melee attack, it can use its reaction to emit psychic energy within a 5-foot radius. Each creature in that area takes 3 (`1d6`) psychic damage (flying horror), 7 (`2d6`) psychic damage (shadow horror), or 10 (`3d6`) psychic damage (skittering horror). |
 ^primary-features
 
 **Secondary Features**
-
-`dice: [](flying-horror-ggr.md#^secondary-features)`
 
 | dice: d4 | Feature |
 |----------|---------|
@@ -91,7 +88,8 @@ Horrors share some common body types but vary wildly in other characteristics. A
     "desc": "+7"
 "damage_vulnerabilities": "radiant"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 14"
 "languages": ""
 "cr": "3"
 "traits":
@@ -103,7 +101,7 @@ Horrors share some common body types but vary wildly in other characteristics. A
       \ checks that rely on sight."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d6 + 5) slashing damage plus 14 (4d6) psychic damage."
     "name": "Claws"
   - "desc": "The horror screeches. Each creature within 30 feet of it that can hear\

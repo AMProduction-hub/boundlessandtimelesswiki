@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Brontosaurus
+- "Brontosaurus"
 ---
-# [Brontosaurus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/brontosaurus-mpmm.md)
+# [Brontosaurus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/brontosaurus-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 95, Volo's Guide to Monsters p. 139*  
 
 This massive four-legged dinosaur is large enough that most predators leave it alone. Its deadly tail can drive away or kill smaller threats.
@@ -38,17 +39,17 @@ This massive four-legged dinosaur is large enough that most predators leave it a
   - !!int "7"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+6"
+  - "constitution": !!int "6"
 "senses": "passive Perception 10"
 "languages": ""
 "cr": "5"
 "actions":
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 20 ft., one target. *Hit:*\
       \ 27 (5d8 + 5) bludgeoning damage, and the target must succeed on a DC 14\
       \ Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Stomp"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit:\
-      \ 32 (6d8 + 5) bludgeoning damage"
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 20 ft., one target. *Hit:*\
+      \ 32 (6d8 + 5) bludgeoning damage."
     "name": "Tail"
 "source":
   - "MPMM"

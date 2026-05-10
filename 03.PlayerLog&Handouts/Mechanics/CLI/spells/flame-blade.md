@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/level/2nd-level
@@ -11,11 +12,11 @@ tags:
 - ttrpg-cli/spell/subrace/genasi-fire
 - ttrpg-cli/spell/subrace/tiefling-mephistopheles
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Druid
 - Sorcerer
 aliases:
-- Flame Blade
+- "Flame Blade"
 ---
 # Flame Blade
 *2nd-level, Evocation*  
@@ -32,8 +33,8 @@ You can use your action to make a melee spell attack with the fiery blade. On a 
 
 The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage increases by `d6` for every two slot levels above 2nd.
+**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage increases by `1d6` for every two slot levels above 2nd.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md)
 
 *Source: Player's Handbook p. 242. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

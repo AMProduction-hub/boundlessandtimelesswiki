@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/4
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Elephant
+- "Elephant"
 ---
-# [Elephant](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/elephant.md)
-*Source: Monster Manual p. 322, Tomb of Annihilation. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Elephant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/elephant.md)
+*Source: Monster Manual p. 322. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Elephant"
@@ -44,15 +45,14 @@ aliases:
       \ the elephant can make one stomp attack against it as a bonus action."
     "name": "Trampling Charge"
 "actions":
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 19\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 19\
       \ (3d8 + 6) piercing damage."
     "name": "Gore"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
-      \ creature. Hit: 22 (3d10 + 6) bludgeoning damage."
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
+      \ creature. *Hit:* 22 (3d10 + 6) bludgeoning damage."
     "name": "Stomp"
 "source":
   - "MM"
-  - "ToA"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/elephant.webp"
 ```
 ^statblock

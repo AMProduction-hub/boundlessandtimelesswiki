@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/3
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mummy
+- "Mummy"
 ---
-# [Mummy](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/mummy.md)
-*Source: Monster Manual p. 228, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Candlekeep Mysteries, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Mummy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/mummy.md)
+*Source: Monster Manual p. 228. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Raised by dark funerary rituals, a mummy shambles from the shrouded stillness of a time-lost temple or tomb. Having been awoken from its rest, it punishes transgressors with the power of its unholy curse.
 
@@ -71,7 +72,7 @@ A mummy doesn't require air, food, drink, or sleep.
   - !!int "12"
 "speed": "20 ft."
 "saves":
-  - "wisdom": "+2"
+  - "wisdom": !!int "2"
 "damage_vulnerabilities": "fire"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
 "damage_immunities": "necrotic, poison"
@@ -80,14 +81,15 @@ A mummy doesn't require air, food, drink, or sleep.
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "the languages it knew in life"
 "cr": "3"
 "actions":
   - "desc": "The mummy can use its Dreadful Glare and makes one attack with its rotting\
       \ fist."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) bludgeoning damage plus 10 (3d6) necrotic damage. If the target\
       \ is a creature, it must succeed on a DC 12 Constitution saving throw or be\
       \ cursed with mummy rot. The cursed target can't regain hit points, and its\
@@ -107,15 +109,6 @@ A mummy doesn't require air, food, drink, or sleep.
     "name": "Dreadful Glare"
 "source":
   - "MM"
-  - "ToA"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "BGDIA"
-  - "IDRotF"
-  - "TCE"
-  - "CM"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/mummy.webp"
 ```
 ^statblock

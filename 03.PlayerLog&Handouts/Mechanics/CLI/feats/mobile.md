@@ -1,14 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/feat
 aliases:
-- Mobile
+- "Mobile"
 ---
 # Mobile
 *Source: Player's Handbook p. 168*  
+
 You are exceptionally speedy and agile. You gain the following benefits:
 
 - Your speed increases by 10 feet.  

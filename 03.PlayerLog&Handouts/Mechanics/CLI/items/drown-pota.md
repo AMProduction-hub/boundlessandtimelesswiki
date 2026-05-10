@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/legendary
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
-aliases: 
+aliases:
 - "Drown"
 ---
 # Drown
@@ -23,7 +24,7 @@ aliases:
 
 A steel trident decorated with bronze barnacles along the upper part of its haft, Drown has a sea-green jewel just below the tines and a silver shell at the end of its haft. It floats on the surface if dropped onto water, and it floats in place if it is released underwater. The trident is always cool to the touch, and it is immune to any damage due to exposure to water. Drown contains a spark of [Olhydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/olhydra-pota.md), the Princess of Evil Water.
 
-You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with it, the targets take an extra `d8` cold damage.
+You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with it, the targets take an extra `1d8` cold damage.
 
 ## Water Mastery
 

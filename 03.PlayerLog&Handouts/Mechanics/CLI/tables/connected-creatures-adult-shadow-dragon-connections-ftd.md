@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Connected Creatures; Adult Shadow Dragon Connections
+- "Connected Creatures; Adult Shadow Dragon Connections"
 ---
 # Connected Creatures; Adult Shadow Dragon Connections
 *Source: Fizban's Treasury of Dragons p. 143* 
 
 **Adult Shadow Dragon Connections**
-
-`dice: [](connected-creatures-adult-shadow-dragon-connections-ftd.md#^adult-shadow-dragon-connections)`
 
 | dice: d8 | Connected Creatures |
 |----------|---------------------|

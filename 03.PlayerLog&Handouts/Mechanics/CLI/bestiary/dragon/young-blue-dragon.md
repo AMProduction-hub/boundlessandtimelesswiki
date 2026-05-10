@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/9
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Young Blue Dragon
+- "Young Blue Dragon"
 ---
-# [Young Blue Dragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/young-blue-dragon.md)
-*Source: Monster Manual p. 91, Curse of Strahd, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Mythic Odysseys of Theros, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Young Blue Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-blue-dragon.md)
+*Source: Monster Manual p. 91. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Vain and territorial, blue dragons soar through the skies over deserts, preying on caravans and plundering herds and settlements in the verdant lands beyond the desert's reach. These dragons can also be found in dry steppes, searing badlands, and rocky coasts. They guard their territories against all potential competitors, especially brass dragons.
 
@@ -119,26 +120,28 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
   - !!int "17"
 "speed": "40 ft., burrow 20 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+8"
-  - "wisdom": "+5"
-  - "charisma": "+7"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+9"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "damage_immunities": "lightning"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 19"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 19"
 "languages": "Common, Draconic"
 "cr": "9"
 "actions":
   - "desc": "The dragon makes three attacks: one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
-      \ 16 (2d10 + 5) piercing damage plus 5 (d10) lightning damage."
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
+      \ 16 (2d10 + 5) piercing damage plus 5 (1d10) lightning damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales lightning in a 60-foot line that is 5 feet wide. Each\
@@ -148,11 +151,6 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
     "name": "Lightning Breath (Recharge 5-6)"
 "source":
   - "MM"
-  - "CoS"
-  - "WDMM"
-  - "BGDIA"
-  - "MOT"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/young-blue-dragon.webp"
 ```
 ^statblock

@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/deity/theros
 - ttrpg-cli/domain/forge
 - ttrpg-cli/domain/knowledge
-aliases: 
-- Purphoros
+aliases:
+- "Purphoros"
 ---
 # Purphoros
 *Source: Mythic Odysseys of Theros p. 76* 
@@ -99,8 +100,6 @@ Purphoros's mood is highly changeable, and having his favor doesn't always mean 
 
 **Purphoros's Favor**
 
-`dice: [](theros-purphoros-mot.md#^purphoross-favor)`
-
 | dice: d6 | Circumstance |
 |----------|--------------|
 | 1 | Mount Velus erupted at the moment of your birth, signifying Purphoros's blessing of the event. |
@@ -116,8 +115,6 @@ Purphoros's mood is highly changeable, and having his favor doesn't always mean 
 Purphoros encourages freedom and self-expression, so it is only natural that his champions follow him for many different reasons. As a follower of Purphoros, consider the ideals on the Purphoros's Ideals table as alternatives to those suggested for your background.
 
 **Purphoros's Ideals**
-
-`dice: [](theros-purphoros-mot.md#^purphoross-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

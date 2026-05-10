@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Paolo Maykapal
+- "Paolo Maykapal"
 ---
-# [Paolo Maykapal](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/paolo-maykapal-jttrc.md)
+# [Paolo Maykapal](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/paolo-maykapal-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 138*  
 
 ```statblock
@@ -38,6 +39,10 @@ aliases:
     "desc": "+5"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
+"gear":
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 12"
 "languages": "any one language (usually Common)"
 "cr": "3"
@@ -45,15 +50,15 @@ aliases:
   - "desc": "Paolo makes two longsword attacks. If it has a shortsword drawn, it can\
       \ also make a shortsword attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with\
       \ two hands."
     "name": "Longsword"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +3 to hit, ranged 150/600 ft., one target.\
-      \ Hit: 5 (1d8 + 1) piercing damage."
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, ranged 150/600 ft., one target.\
+      \ *Hit:* 5 (1d8 + 1) piercing damage."
     "name": "Longbow"
 "source":
   - "JttRC"

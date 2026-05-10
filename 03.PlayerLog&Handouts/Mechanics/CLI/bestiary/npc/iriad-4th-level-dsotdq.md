@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Iriad (4th Level)
+- "Iriad (4th Level)"
 ---
-# [Iriad (4th Level)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/iriad-4th-level-dsotdq.md)
+# [Iriad (4th Level)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/iriad-4th-level-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 212*  
 
 ```statblock
@@ -34,7 +35,7 @@ aliases:
   - !!int "11"
 "speed": "35 ft."
 "saves":
-  - "dexterity": "+5"
+  - "dexterity": !!int "5"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+5"
@@ -50,7 +51,8 @@ aliases:
     "desc": "+8"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Elvish"
 "traits":
   - "desc": "Iriad is proficient with simple weapons, light armor, [cartographer's\
@@ -65,8 +67,8 @@ aliases:
       \ or [Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)."
     "name": "Expertise"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 6 (1d4 + 4) piercing damage plus 3 (d6) poison\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 6 (1d4 + 4) piercing damage plus 3 (1d6) poison\
       \ damage."
     "name": "Poison Dagger"
 "bonus_actions":

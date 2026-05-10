@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Other Adventure Hooks; Gruul Adventure Hooks
+- "Other Adventure Hooks; Gruul Adventure Hooks"
 ---
 # Other Adventure Hooks; Gruul Adventure Hooks
 *Source: Guildmasters' Guide to Ravnica p. 143* 
 
 **Gruul Adventure Hooks**
-
-`dice: [](other-adventure-hooks-gruul-adventure-hooks-ggr.md#^gruul-adventure-hooks)`
 
 | dice: d6 | Adventure Hook |
 |----------|----------------|

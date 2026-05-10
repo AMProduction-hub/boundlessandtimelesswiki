@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/3
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Basilisk
+- "Basilisk"
 ---
-# [Basilisk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/basilisk.md)
-*Source: Monster Manual p. 24, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Basilisk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/basilisk.md)
+*Source: Monster Manual p. 24. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Travelers sometimes find objects that look like pieces of remarkably lifelike stone carvings of wildlife. Missing parts appear to have been bitten off. Seasoned explorers regard such relics as warnings, knowing that the basilisk that created them is likely to be nearby.
 
@@ -52,7 +53,8 @@ Some alchemists are said to know how to process the basilisk's gullet and the fl
   - !!int "8"
   - !!int "7"
 "speed": "20 ft."
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": ""
 "cr": "3"
 "traits":
@@ -72,16 +74,11 @@ Some alchemists are said to know how to process the basilisk's gullet and the fl
       \ itself with its gaze."
     "name": "Petrifying Gaze"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) piercing damage plus 7 (2d6) poison damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "ToA"
-  - "WDMM"
-  - "BGDIA"
-  - "MOT"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/basilisk.webp"
 ```
 ^statblock

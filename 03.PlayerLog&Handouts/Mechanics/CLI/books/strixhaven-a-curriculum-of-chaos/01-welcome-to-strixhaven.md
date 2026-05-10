@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 aliases:
-- Welcome to Strixhaven
+- "Welcome to Strixhaven"
 ---
 # Welcome to Strixhaven
 *Source: Strixhaven: A Curriculum of Chaos, p. 4* 
@@ -99,4 +100,4 @@ Few know that archaics' existence is linked to a time-warping phenomenon involvi
 
 Stat blocks for [archaics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/archaic-scc.md) appear in "chapter 7", alongside that of the current [Oracle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/oracle-of-strixhaven-scc.md), whose name is Jadzi.
 
-![Strixhaven University, wit...](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/001-00-002-strixhaven-university.webp#center "Strixhaven University, with the (Center) Biblioplex Surrounded by (Top) Silverquill and (Going Clockwise) Quandrix, Witherbloom, Prismari, and Lorehold")
+![Strixhaven University, with the (Center) Biblioplex Surrounded by (Top) Silverquill and (Going Clockwise) Quandrix, Witherbloom, Prismari, and Lorehold](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/001-00-002-strixhaven-university.webp#center)

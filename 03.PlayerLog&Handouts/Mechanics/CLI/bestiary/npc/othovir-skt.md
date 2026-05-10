@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Othovir
+- "Othovir"
 ---
-# [Othovir](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/othovir-skt.md)
+# [Othovir](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/othovir-skt.md)
 *Source: Storm King's Thunder p. 255*  
 
 Othovir is a gifted harness-maker who doesn't talk about his family or where he came from. He cares about his business, his clients, and his good name.
@@ -48,6 +49,8 @@ Flaw:"I get angry when others pry into my private life."
     "desc": "+4"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+5"
+"gear":
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Elvish"
 "traits":
@@ -58,14 +61,14 @@ Flaw:"I get angry when others pry into my private life."
       \ when others pry into my private life.\""
     "name": "Roleplaying Information"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4\
-      \ (d8) piercing damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 4\
+      \ (1d8) piercing damage."
     "name": "Rapier"
   - "desc": "Othovir casts one of the following spells, using Charisma as the spellcasting\
-      \ ability (spell save DC 13; +5 to hit with spell attacks):\n\nAt will:\
-      \ [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md) (d10\
+      \ ability (spell save DC 13; +5 to hit with spell attacks):\n\n**At will:**\
+      \ [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md) (1d10\
       \ fire damage), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1/day each: [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md),\
+      \n**1/day each:** [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md),\
       \ [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md),\
       \ [witch bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/witch-bolt.md)"
     "name": "Spellcasting"

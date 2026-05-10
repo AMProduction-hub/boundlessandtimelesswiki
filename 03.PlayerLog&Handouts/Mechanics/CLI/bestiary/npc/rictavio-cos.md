@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Rictavio
+- "Rictavio"
 ---
-# [Rictavio](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/rictavio-cos.md)
+# [Rictavio](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rictavio-cos.md)
 *Source: Curse of Strahd p. 238*  
 
 Several months ago, a colorfully dressed half-elf bard came to Barovia in a carnival wagon, with a pet monkey on his shoulder. He took over an abandoned tower on Lake Baratok before rolling into the town of Vallaki several months later. Claiming to be a carnival ringmaster in search of new actors, he began regaling locals with tales of distant lands.
@@ -64,8 +65,8 @@ Van Richten works alone. A curse placed on him long ago by a Vistani seer brings
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+4"
-  - "wisdom": "+7"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+9"
@@ -85,22 +86,22 @@ Van Richten works alone. A curse placed on him long ago by a Vistani seer brings
 "traits":
   - "desc": "Rictavio is a 9th-level spellcaster. His spellcasting ability is Wisdom\
       \ (spell save DC 15, +7 to hit with spell attacks). Rictavio has the following\
-      \ cleric spells prepared:\n\nCantrips (at will): [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ cleric spells prepared:\n\n**Cantrips (at will):** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
+      \n**1st level (4 slots):** [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
       \ [protection from evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md),\
-      \ [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md)\n\n2nd\
-      \ level (3 slots): [augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md),\
+      \ [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md)\n\n**2nd\
+      \ level (3 slots):** [augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md),\
       \ [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md),\
       \ [protection from poison](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-poison.md)\n\
-      \n3rd level (3 slots): [magic circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-circle.md),\
+      \n**3rd level (3 slots):** [magic circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-circle.md),\
       \ [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md),\
       \ [speak with dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md)\n\
-      \n4th level (3 slots): [death ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/death-ward.md),\
+      \n**4th level (3 slots):** [death ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/death-ward.md),\
       \ [freedom of movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md)\n\
-      \n5th level (1 slots): [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md)"
+      \n**5th level (1 slots):** [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md)"
     "name": "Spellcasting"
   - "desc": "In addition to his sword cane, Rictavio wears a [hat of disguise](03.PlayerLog&Handouts/Mechanics/CLI/items/hat-of-disguise.md)\
       \ and a [ring of mind shielding](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-mind-shielding.md),\
@@ -113,7 +114,7 @@ Van Richten works alone. A curse placed on him long ago by a Vistani seer brings
 "actions":
   - "desc": "Rictavio makes two attacks with his sword cane."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) bludgeoning damage (wooden cane) or piercing damage (silvered\
       \ sword)."
     "name": "Sword Cane"

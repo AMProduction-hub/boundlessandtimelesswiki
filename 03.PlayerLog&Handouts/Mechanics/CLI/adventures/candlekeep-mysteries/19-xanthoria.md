@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 aliases:
-- Xanthoria
+- "Xanthoria"
 ---
 # Xanthoria
 *Source: Candlekeep Mysteries, p. 213* 
@@ -37,7 +38,7 @@ Xanthoria was a powerful druid who transformed herself into a [lichen lich](03.P
 
 Xanthoria's research into lichdom and her creation of a living phylactery led to the emergence of the plague spreading across the Sword Coast. Any beast or humanoid that comes within 10 feet of a creature infected by the saprophytic plague must succeed on a DC 20 Constitution saving throw or become infected as well. On a successful save, a creature is immune to the plague for 24 hours, and any creature that is immune to disease succeeds on the save automatically.
 
-After a failed save, a creature experiences the first symptoms—body aches, nausea, slurred speech, and uncontrollable drooling—`d4` hours later and gains 1 level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). Every 24 hours thereafter, the creature automatically gains another level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). Any creature killed by the saprophytic plague transforms into a lifeless magenta ooze.
+After a failed save, a creature experiences the first symptoms—body aches, nausea, slurred speech, and uncontrollable drooling—`1d4` hours later and gains 1 level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). Every 24 hours thereafter, the creature automatically gains another level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). Any creature killed by the saprophytic plague transforms into a lifeless magenta ooze.
 
 A creature infected by the saprophytic plague for at least 24 hours behaves like a zombie and seems barely aware of its surroundings, as fungal growths sprout from its head, body, and limbs. It feels an overriding urge to be around groups of uninfected creatures so that it can spread the contagion. This is the time when infected humanoids begin speaking the word "Xanthoria" over and over, with no understanding of what the word means. This behavior is the result of a mycelial network of spores that forms a tenuous connection between Xanthoria and humanoids that become infected by the plague.
 
@@ -108,8 +109,6 @@ The areas that make up the Lykortha Expanse have several common physical feature
 Certain effects within the Lykortha Expanse can afflict characters with a type of madness brought on by the influence of Zuggtmoy. A [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md) spell or more powerful magic rids a character of this madness, which otherwise lasts until cured. The madness gives the character a new flaw that suppresses any contradictory character trait. Roll on the Madness of Zuggtmoy table to determine the flaw.
 
 **Madness of Zuggtmoy**
-
-`dice: [](19-xanthoria.md#^madness-of-zuggtmoy)`
 
 | dice: d100 | Flaw (lasts until cured) |
 |------------|--------------------------|
@@ -207,11 +206,9 @@ If the party is inclined to destroy the mycelium, treat it as a Huge object with
 
 **Mycelium Effects**
 
-`dice: [](19-xanthoria.md#^mycelium-effects)`
-
 | dice: d6 | Effect |
 |----------|--------|
-| 1–2 | The mycelium lashes out and makes the following melee weapon attack against a target of the DM's choice: +10 to hit, reach 60 ft., one creature. Hit: 24 (`6d6 + 3`) acid damage. |
+| 1–2 | The mycelium lashes out and makes the following melee weapon attack against a target of the DM's choice: `+10` to hit, reach 60 ft., one creature. Hit: 24 (`6d6 + 3`) acid damage. |
 | 3–4 | Spores fill a 20-foot-radius sphere centered on a point in the cavern chosen by the DM. Creatures in the area must make a DC 16 Constitution saving throw. A creature takes 55 (`10d10`) poison damage and is [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for 1 hour on a failed save, or takes half as much damage and is not [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) on a successful save. |
 | 5–6 | Psychic energy fills a 20-foot-radius sphere centered on a point in the cavern chosen by the DM. Each creature in the area must succeed on a DC 16 Intelligence saving throw or take 31 (`4d12 + 5`) psychic damage and be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned) for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned) condition on itself on a success. |
 ^mycelium-effects
@@ -353,8 +350,6 @@ This is where Xanthoria disposes of failed experiments or anything else she disl
 
 **Charnel Worm Effects**
 
-`dice: [](19-xanthoria.md#^charnel-worm-effects)`
-
 | dice: d4 | Effect |
 |----------|--------|
 | 1 | The worm smashes a horde of thrashing, animated body parts loose from the walls. Treat the floor of the cave as difficult terrain for Medium and smaller creatures until the worm's next turn. |
@@ -417,7 +412,7 @@ Armed with the information about Xanthoria's phylactery, the characters must con
 
 Convincing Thunderwing to give up her life should be handled through roleplaying rather than ability checks, although you can require the characters to succeed on a DC 15 Charisma ([Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)) group check if the scene proves difficult to roleplay. If Thunderwing is convinced to sacrifice herself, she lets out a deep sigh before flying about and kissing each character on the forehead—even the ones she doesn't like. Finally, she approaches the character with whom she has made the strongest connection, lies down in their open hands, and shivers slightly before expiring. Thunderwing can't be brought back to life by any means.
 
-If the adventurers fail to convince Thunderwing to give up her life, she turns [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) and leaves the cave complex, taking refuge in the surrounding forest. Xanthoria re-forms `d10` days later, appearing next to Thunderwing. The rejuvenated lichen lich then relocates to another lair to resume her research as the plague continues to ravage Faerûn.
+If the adventurers fail to convince Thunderwing to give up her life, she turns [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) and leaves the cave complex, taking refuge in the surrounding forest. Xanthoria re-forms `1d10` days later, appearing next to Thunderwing. The rejuvenated lichen lich then relocates to another lair to resume her research as the plague continues to ravage Faerûn.
 
 If the characters return to Candlekeep, they find Zelyth eager to hear the tale of their harrowing experience. If the characters inform Zelyth that Xanthoria has been destroyed, Zelyth thanks them for putting an end to Xanthoria's madness and granting her the final rest that she deserves.
 

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Temple of Mystery Villains
+- "Temple of Mystery Villains"
 ---
 # Temple of Mystery Villains
 *Source: Mythic Odysseys of Theros p. 150* 
 
 **Temple of Mystery Villains**
-
-`dice: [](temple-of-mystery-villains-mot.md#^temple-of-mystery-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

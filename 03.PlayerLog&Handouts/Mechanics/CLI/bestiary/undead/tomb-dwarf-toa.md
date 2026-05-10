@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tomb Dwarf
+- "Tomb Dwarf"
 ---
-# [Tomb Dwarf](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/tomb-dwarf-toa.md)
+# [Tomb Dwarf](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/tomb-dwarf-toa.md)
 *Source: Tomb of Annihilation p. 135*  
 
 Acererak abducted dwarf miners and transformed them into wights to exploit their expertise at underground construction.
@@ -44,7 +45,11 @@ Acererak abducted dwarf miners and transformed them into wights to exploit their
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[battleaxe](03.PlayerLog&Handouts/Mechanics/CLI/items/battleaxe.md)"
+  - "[light crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/light-crossbow.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "the languages it knew in life"
 "cr": "3"
 "traits":
@@ -56,7 +61,7 @@ Acererak abducted dwarf miners and transformed them into wights to exploit their
   - "desc": "The tomb dwarf makes two longsword attacks or two crossbow attacks. It\
       \ can use its Life Drain in place of one longsword attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 5 (1d6 + 2) necrotic damage. The target must succeed on a DC 13 Constitution\
       \ saving throw or its hit point maximum is reduced by an amount equal to the\
       \ damage taken. This reduction lasts until the target finishes a long rest.\
@@ -66,11 +71,11 @@ Acererak abducted dwarf miners and transformed them into wights to exploit their
       \ The tomb dwarf can have no more than twelve zombies under its control at one\
       \ time."
     "name": "Life Drain"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with\
       \ two hands."
     "name": "Battleaxe"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:*\
       \ 6 (1d8 + 2) piercing damage."
     "name": "Light Crossbow"
 "source":

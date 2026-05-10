@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/4
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- The Pudding King
+- "The Pudding King"
 ---
-# [The Pudding King](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/the-pudding-king-oota.md)
+# [The Pudding King](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/the-pudding-king-oota.md)
 *Source: Out of the Abyss p. 233*  
 
 ```statblock
@@ -35,8 +36,8 @@ aliases:
   - !!int "17"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+6"
-  - "charisma": "+7"
+  - "constitution": !!int "6"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+4"
@@ -48,32 +49,35 @@ aliases:
     "desc": "+2"
 "damage_resistances": "acid, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[war pick](03.PlayerLog&Handouts/Mechanics/CLI/items/war-pick.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Abyssal, Gnomish, Terran, Undercommon"
 "cr": "4"
 "traits":
   - "desc": "The Pudding King is a 9th-level spellcaster. His spellcasting ability\
       \ is Charisma (spell save DC 14, +6 to hit with spell attacks). The Pudding\
-      \ King knows the following sorcerer spells:\n\nCantrips (at will): [acid\
+      \ King knows the following sorcerer spells:\n\n**Cantrips (at will):** [acid\
       \ splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [poison\
       \ spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (4 slots): [false life](03.PlayerLog&Handouts/Mechanics/CLI/spells/false-life.md),\
+      \n**1st level (4 slots):** [false life](03.PlayerLog&Handouts/Mechanics/CLI/spells/false-life.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [ray\
       \ of sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md),\
-      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n2nd level\
-      \ (3 slots): [crown of madness](03.PlayerLog&Handouts/Mechanics/CLI/spells/crown-of-madness.md),\
+      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n**2nd level\
+      \ (3 slots):** [crown of madness](03.PlayerLog&Handouts/Mechanics/CLI/spells/crown-of-madness.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md)\n\n\
-      3rd level (3 slots): [gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/spells/gaseous-form.md),\
+      **3rd level (3 slots):** [gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/spells/gaseous-form.md),\
       \ [stinking cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/stinking-cloud.md)\n\
-      \n4th level (3 slots): [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
-      \ [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md)\n\n5th\
-      \ level (1 slots): [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md)"
+      \n**4th level (3 slots):** [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
+      \ [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md)\n\n**5th\
+      \ level (1 slots):** [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md)"
     "name": "Spellcasting"
   - "desc": "The Pudding King's innate spellcasting ability is Intelligence (spell\
       \ save DC 12). He can innately cast the following spells, requiring no material\
-      \ components:\n\nAt will: [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md)\
-      \ (self only)\n\n1/day each: [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
+      \ components:\n\n**At will:** [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md)\
+      \ (self only)\n\n**1/day each:** [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
       \ [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md), [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md)"
     "name": "Innate Spellcasting"
   - "desc": "The Pudding King has advantage on Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
@@ -86,8 +90,8 @@ aliases:
       \ or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)."
     "name": "Insanity"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
-      \ (d8) piercing damage."
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
+      \ (1d8) piercing damage."
     "name": "War Pick"
   - "desc": "The Pudding King magically transforms into an ooze, or back into his\
       \ true form. He reverts to his true form if he dies. Any equipment he is wearing\

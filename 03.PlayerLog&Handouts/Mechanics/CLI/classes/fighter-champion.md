@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/fighter/champion
 aliases:
-- Champion
+- "Champion"
 ---
 # Champion
 *[Fighter](./fighter.md): Martial Archetype*  
@@ -43,11 +44,9 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Champion (Level 3)
-
 The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.
+
+## Subclass Features
 
 ### Improved Critical (Level 3)
 

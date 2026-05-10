@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Priest of Osybus
+- "Priest of Osybus"
 ---
-# [Priest of Osybus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/priest-of-osybus-vrgr.md)
+# [Priest of Osybus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/priest-of-osybus-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 241*  
 
 Necromancers of deep evil, the priests of Osybus steal the souls of others to fuel the priests' malevolent magic. Using this soul power, each priest can defy death and become an undead creature, potentially cheating the grave over and over.
@@ -34,15 +35,13 @@ When a priest of Osybus drops to 0 hit points, the priest might revive with a be
 
 **Boons of Undeath**
 
-`dice: [](priest-of-osybus-vrgr.md#^boons-of-undeath)`
-
 | dice: d6 | Boon |
 |----------|------|
 | 1 | **Dread.** Eerie whispers can now be heard around the priest. Any non-Undead creature that starts its turn within 30 feet of the priest must succeed on a DC 15 Wisdom saving throw or be frightened of the priest until the start of the creature's next turn. |
 | 2 | **Ectoplasmic.** An otherworldly slime drips off the priest and fades away moments later, leaving a greenish stain. When any creature starts its turn within 10 feet of the priest, the priest can reduce that creature's speed by 10 feet until the start of the creature's next turn, until which the creature is covered by ectoplasm. In addition, as an action, the priest can use the slime to make itself look and feel like any creature that is Medium or Small, while retaining its game statistics. This transformation lasts for 8 hours or until the priest drops to 0 hit points. |
 | 3 | **Vampiric.** When the priest deals necrotic damage to any creature, the priest gains a number of temporary hit points equal to half that necrotic damage. The priest's speed also increases by 10 feet. |
 | 4 | **Blazing.** The priest sloughs off its flesh, and its skeleton crumbles away, leaving only its skull. Its stat block is replaced by that of a flameskull, but it retains its Tattoo of Osybus trait, and all fire damage it deals becomes necrotic damage. The Tattoo of Osybus now appears carved into the skull's forehead. |
-| 5 | **Spectral.** The priest now appears wraithlike, and its challenge rating increases by 1. It gains resistance to all damage but force, radiant, and psychic, and it is vulnerable to radiant damage. It can also move through creatures and objects as if they were difficult terrain, but it takes 5 (`d10`) force damage if it ends its turn inside a creature or an object. |
+| 5 | **Spectral.** The priest now appears wraithlike, and its challenge rating increases by 1. It gains resistance to all damage but force, radiant, and psychic, and it is vulnerable to radiant damage. It can also move through creatures and objects as if they were difficult terrain, but it takes 5 (`1d10`) force damage if it ends its turn inside a creature or an object. |
 | 6 | **Deathly.** The priest's visage becomes bone white, and its challenge rating increases by 1. It can cast [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md) and create undead once per day each, using Intelligence as the spellcasting ability, and it gains the following action: Circle of Death (Spell. Each creature in a 60-foot-radius sphere centered on a point the priest can see within 150 feet of it must make a DC 15 Constitution saving throw, taking 28 (`8d6`) necrotic damage on a failed save, or half as much damage on a successful one. |
 ^boons-of-undeath
 
@@ -65,11 +64,12 @@ When a priest of Osybus drops to 0 hit points, the priest might revive with a be
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+7"
-  - "wisdom": "+6"
-  - "charisma": "+3"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "3"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "any three languages"
 "cr": "6"
 "traits":
@@ -86,14 +86,14 @@ When a priest of Osybus drops to 0 hit points, the priest might revive with a be
 "actions":
   - "desc": "The priest attacks twice."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) piercing damage, and if the target is a creature, it is [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ until the start of the priest's next turn. If this damage reduces a Medium\
       \ or smaller creature to 0 hit points, the creature dies, and its soul is trapped\
       \ in the priest's body, manifesting as a shadowy Soul Tattoo on the priest.\
       \ The soul is freed if the priest dies."
     "name": "Soul Blade"
-  - "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +7 to hit, range 120 ft., one target. *Hit:*\
       \ 17 (3d8 + 4) necrotic damage, and the target can't regain hit points until\
       \ the start of the priest's next turn."
     "name": "Necrotic Bolt"

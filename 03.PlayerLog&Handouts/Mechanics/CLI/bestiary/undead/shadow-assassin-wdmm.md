@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Shadow Assassin
+- "Shadow Assassin"
 ---
-# [Shadow Assassin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/shadow-assassin-wdmm.md)
+# [Shadow Assassin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/shadow-assassin-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 316*  
 
 A shadow assassin looks like an undead shadow (as described in the *Monster Manual*) that wields shortswords also made of shadow. It exists only to slay the living.
@@ -34,8 +35,8 @@ A shadow assassin looks like an undead shadow (as described in the *Monster Manu
   - !!int "14"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+8"
-  - "intelligence": "+5"
+  - "dexterity": !!int "8"
+  - "intelligence": !!int "5"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+9"
@@ -52,15 +53,16 @@ A shadow assassin looks like an undead shadow (as described in the *Monster Manu
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 19"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 19"
 "languages": "understands the languages it knew in life but can't speak"
 "cr": "9"
 "traits":
   - "desc": "The assassin can move through a space as narrow as 1 inch wide without\
       \ squeezing."
     "name": "Amorphous"
-  - "desc": "While in dim light or darkness, the assassin can take the Hide action\
-      \ as a bonus action."
+  - "desc": "While in dim light or darkness, the assassin can take the [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide)\
+      \ action as a bonus action."
     "name": "Shadow Stealth"
   - "desc": "While in sunlight, the assassin has disadvantage on attack rolls, ability\
       \ checks, and saving throws."
@@ -68,13 +70,13 @@ A shadow assassin looks like an undead shadow (as described in the *Monster Manu
 "actions":
   - "desc": "The assassin makes two Shadow Blade attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) piercing damage plus 10 (3d6) necrotic damage. Unless the target\
-      \ is immune to necrotic damage, the target's Strength score is reduced by d4\
+      \ is immune to necrotic damage, the target's Strength score is reduced by 1d4\
       \ each time it is hit by this attack. The target dies if its Strength is reduced\
       \ to 0. The reduction lasts until the target finishes a short or long rest.\
       \ If a non-evil humanoid dies from this attack, a shadow (see the Monster Manual)\
-      \ rises from the corpse d4 hours later."
+      \ rises from the corpse 1d4 hours later."
     "name": "Shadow Blade"
 "source":
   - "WDMM"

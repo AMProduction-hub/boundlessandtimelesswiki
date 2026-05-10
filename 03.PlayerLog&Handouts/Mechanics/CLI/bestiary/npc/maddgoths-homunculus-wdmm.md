@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Maddgoth's Homunculus
+- "Maddgoth's Homunculus"
 ---
-# [Maddgoth's Homunculus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/maddgoths-homunculus-wdmm.md)
+# [Maddgoth's Homunculus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/maddgoths-homunculus-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 96*  
 
 ```statblock
@@ -35,7 +36,8 @@ aliases:
 "damage_immunities": "poison"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Abyssal, Common, Draconic, Gnomish but can't speak"
 "cr": "2"
 "traits":
@@ -44,12 +46,12 @@ aliases:
       \ telepathically."
     "name": "Telepathic Bond"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 2d6 + 2 piercing damage, and the target must succeed on a DC 10 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. If the saving throw fails by 5 or more, the target is instead\
       \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-      \ for 5 (d10) minutes and [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
+      \ for 5 (1d10) minutes and [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
       \ while [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ in this way."
     "name": "Bite"

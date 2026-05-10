@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mortlock Vanthampur
+- "Mortlock Vanthampur"
 ---
-# [Mortlock Vanthampur](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/mortlock-vanthampur-bgdia.md)
+# [Mortlock Vanthampur](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/mortlock-vanthampur-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 26*  
 
 Mortlock is tolerated by his mother, Duke Thalamra Vanthampur, and despised by his older brothers, Thurstwell and Amrik, who view him as a simpleton and an abomination. Half of Mortlock's face was scarred by fire when he was a child, and his disfigurement gives him a fearsome countenance.
@@ -39,6 +40,9 @@ Mortlock is tolerated by his mother, Duke Thalamra Vanthampur, and despised by h
     "desc": "+6"
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+5"
+"gear":
+  - "[greatclub](03.PlayerLog&Handouts/Mechanics/CLI/items/greatclub.md)"
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
 "senses": "passive Perception 11"
 "languages": "Common"
 "cr": "3"
@@ -49,11 +53,11 @@ Mortlock is tolerated by his mother, Duke Thalamra Vanthampur, and despised by h
 "actions":
   - "desc": "Mortlock makes two attacks with his greatclub."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d4 + 4) bludgeoning damage, plus 5 (2d4) bludgeoning damage if Mortlock\
       \ has taken any damage since his last turn."
     "name": "Greatclub"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 100/400 ft., one target. *Hit:*\
       \ 7 (1d10 + 2) piercing damage."
     "name": "Heavy Crossbow"
 "source":

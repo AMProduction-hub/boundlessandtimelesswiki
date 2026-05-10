@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Inquisitor of the Sword
+- "Inquisitor of the Sword"
 ---
-# [Inquisitor of the Sword](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/inquisitor-of-the-sword-vrgr.md)
+# [Inquisitor of the Sword](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/inquisitor-of-the-sword-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 249*  
 
 "Evil lurks everywhere. With our minds, we will unearth it, we will plumb its depths, and we will annihilate it." With those words, the psychically gifted priest Ulmed founded the Ulmist Inquisition, an order of psionic inquisitors that seeks to discover the wickedness hiding in people's souls.
@@ -41,9 +42,9 @@ Today the inquisition rules the city of Malitain, a vast city-state to the north
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+7"
-  - "charisma": "+6"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+5"
@@ -55,7 +56,8 @@ Today the inquisition rules the city of Malitain, a vast city-state to the north
     "desc": "+7"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 30 ft., passive Perception 17"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 30 ft., passive Perception 17"
 "languages": "any two languages, telepathy 120 ft."
 "cr": "8"
 "traits":
@@ -68,17 +70,17 @@ Today the inquisition rules the city of Malitain, a vast city-state to the north
       \ or misses with an attack, the inquisitor can teleport up to 30 feet to an\
       \ unoccupied space it can see."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage, or 9 (1d10 + 4) if used with two hands, plus\
       \ 18 (4d8) force damage."
     "name": "Silver Longsword"
   - "desc": "The inquisitor casts one of the following spells, requiring no components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 15):\n\nAt will:\
+      \ and using Wisdom as the spellcasting ability (spell save DC 15):\n\n**At will:**\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
-      \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)\n\n1/day\
-      \ each: [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
+      \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)\n\n**1/day\
+      \ each:** [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md)"
     "name": "Innate Spellcasting (Psionics)"
 "bonus_actions":

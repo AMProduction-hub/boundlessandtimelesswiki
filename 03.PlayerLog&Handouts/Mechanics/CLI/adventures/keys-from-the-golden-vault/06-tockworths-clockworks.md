@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 aliases:
-- Tockworth's Clockworks
+- "Tockworth's Clockworks"
 ---
 # Tockworth's Clockworks
 *Source: Keys from the Golden Vault, p. 71* 
@@ -15,7 +16,7 @@ The clockwork automatons that guard the svirfneblin town of Little Lockford have
 
 In this adventure, the characters must enter Little Lockford, recover a security key, and use it to activate a fail-safe device that shuts off the automatons.
 
-![The svirfneblin town of Li...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/036-05-001-ch5-splash.webp#center "The svirfneblin town of Little Lockford holds many wonders—and many hidden dangers")
+![The svirfneblin town of Little Lockford holds many wonders—and many hidden dangers](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/036-05-001-ch5-splash.webp#center)
 
 ## Adventure Background
 
@@ -45,8 +46,6 @@ Little Lockford is situated in the Underdark, but the tunnels leading to the set
 If you want to make the journey to Little Lockford more interesting, you can insert a random encounter or two as the characters make their way through dark tunnels. To determine what the characters encounter, roll on the Underdark Encounters table.
 
 **Underdark Encounters**
-
-`dice: [](06-tockworths-clockworks.md#^underdark-encounters)`
 
 | dice: d12 | Encounter |
 |-----------|-----------|
@@ -138,13 +137,11 @@ Little Lockford contains many buildings not described in the adventure. If the c
 
 **Buildings of Little Lockford**
 
-`dice: [](06-tockworths-clockworks.md#^buildings-of-little-lockford)`
-
 | dice: d100 | Building Type |
 |------------|---------------|
 | 01–25 | Residence, squalid (quarters for `4d6` gnomes) |
 | 26–40 | Residence, modest (quarters for `2d6` gnomes) |
-| 41–50 | Residence, wealthy (quarters for `d6` gnomes) |
+| 41–50 | Residence, wealthy (quarters for `1d6` gnomes) |
 | 51–53 | Alchemist's workshop |
 | 54–56 | Bakery |
 | 57–58 | Bathhouse |
@@ -188,7 +185,7 @@ Creatures can safely climb into buckets at one of four loading stations (two in 
 Tockworth created two primary types of automatons to protect Little Lockford:
 
 - **Clockwork Defenders.** Little Lockford has twenty [clockwork defenders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-defender-kftgv.md) (see their description and stat block at the end of the adventure), not including ones that were destroyed during the town's evacuation or the damaged one in area L6.  
-- **Clockwork Observers.** Little Lockford has eight [clockwork observers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-observer-kftgv.md) (see their description and stat block at the end of the adventure). The observers are tasked with monitoring the streets to ensure nothing has penetrated the city's defenses. If an observer detects intruders, it contacts Tockworth telepathically, letting her know where the intruders are. Tockworth then orders the observer to use its next action to emit a piercing shriek, which is loud enough to summon `d4` [clockwork defenders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-defender-kftgv.md) (see their description and stat block at the end of the adventure). These reinforcements arrive 2 rounds later. If the number of clockwork defenders summoned is greater than the number left in Little Lockford, adjust the number of reinforcements accordingly.  
+- **Clockwork Observers.** Little Lockford has eight [clockwork observers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-observer-kftgv.md) (see their description and stat block at the end of the adventure). The observers are tasked with monitoring the streets to ensure nothing has penetrated the city's defenses. If an observer detects intruders, it contacts Tockworth telepathically, letting her know where the intruders are. Tockworth then orders the observer to use its next action to emit a piercing shriek, which is loud enough to summon `1d4` [clockwork defenders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-defender-kftgv.md) (see their description and stat block at the end of the adventure). These reinforcements arrive 2 rounds later. If the number of clockwork defenders summoned is greater than the number left in Little Lockford, adjust the number of reinforcements accordingly.  
 
 Other Constructs under Tockworth's control include two suits of [animated armor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-armor.md) (see area L9a) and a [shield guardian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/shield-guardian.md) that lost its master and its control amulet. The shield guardian stands guard outside Tockworth's workshop (area L9).
 
@@ -199,8 +196,6 @@ Each time one or more visible characters exit a building or enter a new district
 In the Cavemouth district, the monsters encountered have all crawled from the mines. The characters encounter Tockworth's automatons elsewhere.
 
 **Wandering Monsters**
-
-`dice: [](06-tockworths-clockworks.md#^wandering-monsters)`
 
 | dice: d6 | Encounter in Cavemouth | Encounter Elsewhere |
 |----------|------------------------|---------------------|
@@ -347,7 +342,7 @@ Map 5.2 includes an inset map that shows the power station's interior, which you
 
 A power station worker was cornered by a clockwork defender at the north end of the balcony and shoved the automaton off the balcony into the northwest turbine. One of the clockwork defender's hind legs became stuck in the turbine, causing the turbine to malfunction. Characters within 10 feet of the northwest turbine can see the damaged [clockwork defender](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-defender-kftgv.md), which has 24 hit points remaining. This defender is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) and unable to free itself, but it can attack creatures that come within reach of it.
 
-Once the clockwork defender is defeated, a character can use an action to try to dislodge it from the turbine, doing so with a successful DC 17 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) or Dexterity ([Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand)) check. Removing the clockwork defender's mangled leg from the turbine's machinery causes the power station to stop spewing steam, with the steam throughout Turbine Heights dissipating `d10` minutes later.
+Once the clockwork defender is defeated, a character can use an action to try to dislodge it from the turbine, doing so with a successful DC 17 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) or Dexterity ([Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand)) check. Removing the clockwork defender's mangled leg from the turbine's machinery causes the power station to stop spewing steam, with the steam throughout Turbine Heights dissipating `1d10` minutes later.
 
 ##### Control Console
 
@@ -420,7 +415,7 @@ The construct blocking passage into Tockworth's workshop is a [shield guardian](
 
 Map 5.2 includes inset maps that show both floors of Tockworth's workshop, which are described in areas L9a and L9b.
 
-![Animated suits of armor do...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/042-05-005-animated-suits-assembly.webp#center "Animated suits of armor do much of the assembly work in Tockworth's workshop")
+![Animated suits of armor do much of the assembly work in Tockworth's workshop](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/042-05-005-animated-suits-assembly.webp#center)
 
 #### L9a: Workshop, Lower Floor
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/11
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Yagnoloth
+- "Yagnoloth"
 ---
-# [Yagnoloth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/yagnoloth-mpmm.md)
+# [Yagnoloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/yagnoloth-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 268, Mordenkainen's Tome of Foes p. 252*  
 
 Anyone who would contract yugoloths for a task usually ends up dealing with a yagnoloth. Cunning negotiators, these strange Fiends handle the writing of contracts for their fellow yugoloths. Once a yagnoloth is hired, it communicates its employer's desires to the yugoloths it commands.
@@ -41,10 +42,10 @@ A yagnoloth has one arm of human size and one giant-sized arm. During negotiatio
   - !!int "18"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+6"
-  - "intelligence": "+7"
-  - "wisdom": "+6"
-  - "charisma": "+8"
+  - "dexterity": !!int "6"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+8"
@@ -58,7 +59,9 @@ A yagnoloth has one arm of human size and one giant-sized arm. During negotiatio
   \ nonmagical attacks"
 "damage_immunities": "acid, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 16"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 16"
 "languages": "Abyssal, Infernal, telepathy 60 ft."
 "cr": "11"
 "traits":
@@ -70,10 +73,10 @@ A yagnoloth has one arm of human size and one giant-sized arm. During negotiatio
       \ attack, or it makes one Massive Arm attack and uses Battlefield Cunning, if\
       \ available, or Teleport."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 27\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 27\
       \ (6d8) lightning damage."
     "name": "Electrified Touch"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 15 ft., one target. *Hit:*\
       \ 23 (3d12 + 4) force damage. If the target is a creature, it must succeed\
       \ on a DC 16 Constitution saving throw or become [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
       \ until the end of the yagnoloth's next turn."
@@ -94,12 +97,12 @@ A yagnoloth has one arm of human size and one giant-sized arm. During negotiatio
     "name": "Teleport"
   - "desc": "The yagnoloth casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 16):\n\
-      \nAt will: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \n**At will:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
       \ (self only), [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\
-      \n3/day: [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)"
+      \n**3/day:** [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)"
     "name": "Spellcasting"
 "source":
   - "MPMM"

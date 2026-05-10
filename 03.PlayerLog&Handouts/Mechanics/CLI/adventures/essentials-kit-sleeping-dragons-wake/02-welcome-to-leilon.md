@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/sdw
 aliases:
-- Welcome to Leilon
+- "Welcome to Leilon"
 ---
 # Welcome to Leilon
 *Source: Essentials Kit: Sleeping Dragon's Wake* 
@@ -45,8 +46,6 @@ The characters might wish to explore key establishments within Leilon. These loc
 This shop is crammed with curiosities dredged from the ruins of Leilon: old fishing rods, swamp idols, mining helmets, and other oddities. A whimsical Illuskan male named Aubrey Silverspun runs the store. Roll a `d20` on Peculiarities table to see what he has on offer when the characters visit.
 
 **Peculiarities**
-
-`dice: [](02-welcome-to-leilon.md#^peculiarities)`
 
 | dice: d20 | Peculiarity | Price |
 |-----------|-------------|-------|
@@ -106,7 +105,7 @@ The Leilon town square has become a place where local vendors and those passing 
 
 ### Tymora Shrine
 
-A shrine to Tymora, goddess of luck, was recently erected in Leilon. Puck Caribdas, a lithe, rambunctious male elf, runs the temple and sells potions for the prices listed on the Puck's Potions table. Other than [potions of healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-healing.md), Puck only has `d4` vials of each potion. Each tenday, Puck's inventory refreshes, and you can reroll to determine the elf's new potion supply.
+A shrine to Tymora, goddess of luck, was recently erected in Leilon. Puck Caribdas, a lithe, rambunctious male elf, runs the temple and sells potions for the prices listed on the Puck's Potions table. Other than [potions of healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-healing.md), Puck only has `1d4` vials of each potion. Each tenday, Puck's inventory refreshes, and you can reroll to determine the elf's new potion supply.
 
 **Puck's Potions**
 
@@ -124,8 +123,6 @@ A shrine to Tymora, goddess of luck, was recently erected in Leilon. Puck Caribd
 Alion Malwyn, a kind-hearted, nonbinary Illuskan human, runs this newly constructed two-story inn. A bed for the night costs 5 sp, while a meal costs 1 sp. If the characters stay here, Alion shares a tale from another traveler with them. Roll a `d6` and consult the Leilon Tales table to determine which tale Alion knows or pick a tale the characters haven't heard yet.
 
 **Leilon Tales**
-
-`dice: [](02-welcome-to-leilon.md#^leilon-tales)`
 
 | dice: d6 | Tale |
 |----------|------|

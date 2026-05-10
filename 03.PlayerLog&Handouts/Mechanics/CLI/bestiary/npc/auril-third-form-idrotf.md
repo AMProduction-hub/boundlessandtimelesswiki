@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Auril (Third Form)
+- "Auril (Third Form)"
 ---
-# [Auril (Third Form)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/auril-third-form-idrotf.md)
+# [Auril (Third Form)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/auril-third-form-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 278*  
 
 Auril's third form, called Winter's Womb or the Queen of Frozen Tears by her most ardent followers, is a 3-foot-diameter ice diamond containing the god's divine spark. The diamond has facets and a sharp point at the bottom. It hovers in the air, radiating intense cold all around it. When Auril speaks, her voice seems to emanate from the heart of the diamond.
@@ -75,8 +76,8 @@ A stat block is given for each of Auril's three forms. These descriptions do not
   - !!int "28"
 "speed": "0 ft., fly 30 ft. (hover)"
 "saves":
-  - "constitution": "+9"
-  - "wisdom": "+12"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "12"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+13"
@@ -95,8 +96,9 @@ A stat block is given for each of Auril's three forms. These descriptions do not
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "blindsight 120 ft. (blind beyond this radius), truesight 120 ft., passive\
-  \ Perception 26"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft. (blind beyond this radius), [truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 26"
 "languages": "all, telepathy 1,000 ft."
 "cr": "11"
 "traits":
@@ -120,7 +122,7 @@ A stat block is given for each of Auril's three forms. These descriptions do not
 "actions":
   - "desc": "Auril uses Polar Ray twice."
     "name": "Multiattack"
-  - "desc": "Ranged Spell Attack: +13 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +13 to hit, range 120 ft., one target. *Hit:*\
       \ 14 (4d6) cold damage."
     "name": "Polar Ray"
   - "desc": "Auril creates a magical blizzard in a 30-foot-radius sphere centered\
@@ -131,6 +133,9 @@ A stat block is given for each of Auril's three forms. These descriptions do not
       \ is broken (as if [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
       \ on a spell)."
     "name": "Blizzard Veil"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Auril can expend a use to take one of the following actions. Auril regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Auril uses Polar Ray."
     "name": "Polar Ray"

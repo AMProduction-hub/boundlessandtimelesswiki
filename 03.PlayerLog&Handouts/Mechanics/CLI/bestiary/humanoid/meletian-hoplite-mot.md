@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Meletian Hoplite
+- "Meletian Hoplite"
 ---
-# [Meletian Hoplite](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/meletian-hoplite-mot.md)
+# [Meletian Hoplite](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/meletian-hoplite-mot.md)
 *Source: Mythic Odysseys of Theros p. 229*  
 
 Meletian hoplites use a combination of cunning, faith, and magic to defend their coastal home. Most of these skilled soldiers serve in the Reverent Army, the defenders of Meletis, which uses an array of proven strategies and flexible troop formations to gain the advantage over foes. Bolstered by trained griffon and pegasus steeds, they strike foes where they least expect.
@@ -50,8 +51,6 @@ The three Hoplite Unit Names tables present the sorts of titles used by hoplite 
 
 **Setessan Hoplite Unit Names**
 
-`dice: [](meletian-hoplite-mot.md#^setessan-hoplite-unit-names)`
-
 | dice: d8 | Name |
 |----------|------|
 | 1 | Nylea's Arrows |
@@ -84,8 +83,8 @@ The three Hoplite Unit Names tables present the sorts of titles used by hoplite 
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+4"
-  - "intelligence": "+5"
+  - "dexterity": !!int "4"
+  - "intelligence": !!int "5"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -93,19 +92,21 @@ The three Hoplite Unit Names tables present the sorts of titles used by hoplite 
     "desc": "+5"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 13"
 "languages": "Common"
 "cr": "3"
 "traits":
   - "desc": "The hoplite is a 3rd-level spellcaster. Its spellcasting ability is Intelligence\
       \ (spell save DC 13, +5 to hit with spell attacks). It has the following wizard\
-      \ spells prepared:\n\nCantrips (at will): [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ spells prepared:\n\n**Cantrips (at will):** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\
-      \ (see \"Actions\" below)\n\n1st level (4 slots): [color spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/color-spray.md),\
+      \ (see \"Actions\" below)\n\n**1st level (4 slots):** [color spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/color-spray.md),\
       \ [expeditious retreat](03.PlayerLog&Handouts/Mechanics/CLI/spells/expeditious-retreat.md),\
-      \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)\n\n2nd level\
-      \ (2 slots): [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md), [cloud\
+      \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)\n\n**2nd level\
+      \ (2 slots):** [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md), [cloud\
       \ of daggers](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloud-of-daggers.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)"
     "name": "Spellcasting"
@@ -113,17 +114,17 @@ The three Hoplite Unit Names tables present the sorts of titles used by hoplite 
   - "desc": "The hoplite makes three weapon attacks. It can replace one weapon attack\
       \ with ray of frost."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft., one target.\
-      \ Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage if\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft., one target.\
+      \ *Hit:* 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage if\
       \ used with two hands to make a melee attack."
     "name": "Spear"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 5 (1d4 + 3) bludgeoning damage. If the target is a Medium or smaller creature,\
       \ it must succeed on a DC 13 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Shield Bash"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 60 ft., one creature. Hit:\
-      \ 4 (d8) cold damage, and the target's speed is reduced by 10 feet until the\
-      \ start of the hoplite's next turn."
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 60 ft., one creature. *Hit:*\
+      \ 4 (1d8) cold damage, and the target's speed is reduced by 10 feet until\
+      \ the start of the hoplite's next turn."
     "name": "Ray of Frost (Cantrip)"
 "source":
   - "MOT"

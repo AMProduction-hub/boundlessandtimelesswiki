@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Faerie Dragon (Red)
+- "Faerie Dragon (Red)"
 ---
-# [Faerie Dragon (Red)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/faerie-dragon-red.md)
-*Source: Monster Manual p. 133, Candlekeep Mysteries*  
+# [Faerie Dragon (Red)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/faerie-dragon-red.md)
+*Source: Monster Manual p. 133*  
 
 A faerie dragon is a cat-sized dragon with butterfly wings. It wears a sharp-toothed grin and expresses its delight by the twitching of its tail, its merriment fading only if it is attacked.
 
@@ -66,13 +67,14 @@ CR 1 (200 XP) For a red, orange, or yellow faerie dragon; 2 (450 XP) for a green
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Draconic, Sylvan"
 "cr": "1"
 "traits":
   - "desc": "The dragon's innate spellcasting ability is Charisma (spell save DC 13).\
       \ It can innately cast a number of spells, requiring no material components:\n\
-      \n1/day each: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \n**1/day each:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [minor\
       \ illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)"
     "name": "Innate Spellcasting"
@@ -96,7 +98,7 @@ CR 1 (200 XP) For a red, orange, or yellow faerie dragon; 2 (450 XP) for a green
       \ magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:*\
       \ 1 piercing damage."
     "name": "Bite"
   - "desc": "The dragon exhales a puff of euphoria gas at one creature within 5 feet\
@@ -110,7 +112,6 @@ CR 1 (200 XP) For a red, orange, or yellow faerie dragon; 2 (450 XP) for a green
     "name": "Euphoria Breath (Recharge 5-6)"
 "source":
   - "MM"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/faerie-dragon-red.webp"
 ```
 ^statblock

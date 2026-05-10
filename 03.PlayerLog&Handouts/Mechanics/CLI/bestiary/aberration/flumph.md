@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-8
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Flumph
+- "Flumph"
 ---
-# [Flumph](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/flumph.md)
-*Source: Monster Manual p. 135, Waterdeep: Dungeon of the Mad Mage, Light of Xaryxis*  
+# [Flumph](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/flumph.md)
+*Source: Monster Manual p. 135*  
 
 The mysterious flumphs drift through the Underdark, propelled through the air by the jets whose sound gives them their name. A flumph glows faintly, reflecting its moods in its color. Soft pink means it is amused, deep blue is sadness, green expresses curiosity, and crimson is anger.
 
@@ -58,7 +59,8 @@ Flumphs live in complex and organized groups called cloisters, within which each
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+4"
 "damage_vulnerabilities": "psychic"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "understands Undercommon but can't speak, telepathy 60 ft."
 "cr": "1/8"
 "traits":
@@ -76,16 +78,16 @@ Flumphs live in complex and organized groups called cloisters, within which each
       \ its thoughts, as well as all divination spells."
     "name": "Telepathic Shroud"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
-      \ 4 (1d4 + 2) piercing damage plus 2 (d4) acid damage. At the end of each\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
+      \ 4 (1d4 + 2) piercing damage plus 2 (1d4) acid damage. At the end of each\
       \ of its turns, the target must make a DC 10 Constitution saving throw, taking\
-      \ 2 (d4) acid damage on a failure or ending the recurring acid damage on a\
-      \ success. A [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md)\
+      \ 2 (1d4) acid damage on a failure or ending the recurring acid damage on\
+      \ a success. A [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md)\
       \ spell cast on the target also ends the recurring acid damage."
     "name": "Tendrils"
   - "desc": "Each creature in a 15-foot cone originating from the flumph must succeed\
       \ on a DC 10 Dexterity saving throw or be coated in a foul-smelling liquid.\
-      \ A coated creature exudes a horrible stench for d4 hours. The coated creature\
+      \ A coated creature exudes a horrible stench for 1d4 hours. The coated creature\
       \ is [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ as long as the stench lasts, and other creatures are [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ while with in 5 feet of the coated creature. A creature can remove the stench\
@@ -93,8 +95,6 @@ Flumphs live in complex and organized groups called cloisters, within which each
     "name": "Stench Spray (1/Day)"
 "source":
   - "MM"
-  - "WDMM"
-  - "LoX"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/flumph.webp"
 ```
 ^statblock

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/slw
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Spellcaster (Healer)
+- "Spellcaster (Healer)"
 ---
-# [Spellcaster (Healer)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/spellcaster-healer-slw.md)
+# [Spellcaster (Healer)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spellcaster-healer-slw.md)
 *Source: Storm Lord's Wrath*  
 
 ```statblock
@@ -34,7 +35,7 @@ aliases:
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+6"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -42,29 +43,31 @@ aliases:
     "desc": "+5"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+5"
+"gear":
+  - "[quarterstaff](03.PlayerLog&Handouts/Mechanics/CLI/items/quarterstaff.md)"
 "senses": "passive Perception 13"
 "languages": "Common, plus one of your choice"
 "traits":
   - "desc": "The spellcaster's spellcasting ability is Wisdom (spell save DC 14, +6\
       \ to hit with spell attacks). The spellcaster has following cleric spells prepared:\n\
-      \nCantrips (at will): [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \n**Cantrips (at will):** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [resistance](03.PlayerLog&Handouts/Mechanics/CLI/spells/resistance.md),\
       \ [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md)\n\
-      \n1st level (4 slots): [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md),\
+      \n**1st level (4 slots):** [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md),\
       \ [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [shield of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield-of-faith.md)\n\
-      \n2nd level (3 slots): [aid](03.PlayerLog&Handouts/Mechanics/CLI/spells/aid.md),\
+      \n**2nd level (3 slots):** [aid](03.PlayerLog&Handouts/Mechanics/CLI/spells/aid.md),\
       \ [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md)\n\
-      \n3rd level (3 slots): [protection from energy](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-energy.md),\
-      \ [revivify](03.PlayerLog&Handouts/Mechanics/CLI/spells/revivify.md)\n\n4th\
-      \ level (1 slots): [death ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/death-ward.md)"
+      \n**3rd level (3 slots):** [protection from energy](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-energy.md),\
+      \ [revivify](03.PlayerLog&Handouts/Mechanics/CLI/spells/revivify.md)\n\n**4th\
+      \ level (1 slots):** [death ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/death-ward.md)"
     "name": "Spellcasting (Healer)"
   - "desc": "The spellcaster can add its spellcasting ability modifier to the damage\
       \ it deals with any cantrip."
     "name": "Potent Cantrip"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
-      \ (d6) bludgeoning damage, or 4 (d8) bludgeoning damage if used with two\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
+      \ (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two\
       \ hands."
     "name": "Quarterstaff"
 "source":

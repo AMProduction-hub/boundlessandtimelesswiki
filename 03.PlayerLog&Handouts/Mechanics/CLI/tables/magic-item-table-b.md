@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Magic Item Table B
+- "Magic Item Table B"
 ---
 # Magic Item Table B
 *Source: Dungeon Master's Guide p. 144* 
 
 **Magic Item Table B**
-
-`dice: [](magic-item-table-b.md#^magic-item-table-b)`
 
 | dice: d100 | Magic Item |
 |------------|------------|

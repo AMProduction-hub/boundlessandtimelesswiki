@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Avarice
+- "Avarice"
 ---
-# [Avarice](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/avarice-idrotf.md)
+# [Avarice](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/avarice-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 269*  
 
 Avarice is a cruel and vindictive tiefling trained in the arcane tradition of evocation. She likes using her magic to destroy things, and her hunger for magic items knows no bounds. Her supreme confidence means that she never backs down from a challenge, even when the odds are clearly stacked against her. Seeing other wizards as a threat, paranoia rules her life.
@@ -51,34 +52,35 @@ Avarice's spellbook has white leather covers and vellum pages. The tiefling's pe
   - !!int "9"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+6"
-  - "wisdom": "+3"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+6"
 "damage_resistances": "cold, fire"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Draconic, Infernal, Orc, Yeti"
 "cr": "7"
 "traits":
   - "desc": "Avarice is a 10th-level spellcaster. Her spellcasting ability is Intelligence\
       \ (spell save DC 14; +6 to hit with spell attacks). She has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md)\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md)\
       \ (see \"Actions\" below), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md), [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**1st level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [magic\
       \ missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md)\n\n\
-      2nd level (3 slots): [flaming sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/flaming-sphere.md),\
+      **2nd level (3 slots):** [flaming sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/flaming-sphere.md),\
       \ [knock](03.PlayerLog&Handouts/Mechanics/CLI/spells/knock.md), [scorching ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md)\n\
-      \n3rd level (3 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      \n**3rd level (3 slots):** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md)\n\
-      \n4th level (3 slots): [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \n**4th level (3 slots):** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [fire shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-shield.md)\n\
-      \n5th level (2 slots): [Bigby's hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/bigbys-hand.md),\
+      \n**5th level (2 slots):** [Bigby's hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/bigbys-hand.md),\
       \ [Rary's telepathic bond](03.PlayerLog&Handouts/Mechanics/CLI/spells/rarys-telepathic-bond.md)"
     "name": "Spellcasting"
   - "desc": "When Avarice dies, her corpse freezes for 9 days, during which time it\
@@ -88,7 +90,7 @@ Avarice's spellbook has white leather covers and vellum pages. The tiefling's pe
       \ with 10 charges (see \"Actions\" below)."
     "name": "Special Equipment"
 "actions":
-  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 120 ft., one target. *Hit:*\
       \ 11 (2d10) fire damage."
     "name": "Fire Bolt (Cantrip)"
   - "desc": "While holding this staff, Avarice can expend 1 or more of its charges\
@@ -104,7 +106,7 @@ Avarice's spellbook has white leather covers and vellum pages. The tiefling's pe
   - "desc": "When Avarice is damaged by a creature that she can see within 60 feet\
       \ of her, she can banish that creature to a frigid extradimensional prison for\
       \ 1 minute. While there, the creature is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
-      \ and takes 5 (d10) cold damage at the start of each of its turns. At the\
+      \ and takes 5 (1d10) cold damage at the start of each of its turns. At the\
       \ end of each of its turns, the creature can make a DC 14 Charisma saving throw,\
       \ escaping the prison on a success and reappearing in the space it left or in\
       \ the nearest unoccupied space if that space is occupied. A creature that dies\

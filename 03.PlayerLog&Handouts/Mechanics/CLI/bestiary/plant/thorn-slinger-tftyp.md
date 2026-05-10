@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Thorn Slinger
+- "Thorn Slinger"
 ---
-# [Thorn Slinger](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/thorn-slinger-tftyp.md)
+# [Thorn Slinger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/thorn-slinger-tftyp.md)
 *Source: Tales from the Yawning Portal p. 246*  
 
 ```statblock
@@ -34,7 +35,8 @@ aliases:
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 10"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -42,14 +44,14 @@ aliases:
       \ creature adhered to the thorn slinger is also [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ by it (escape DC 11). Ability checks made to escape this grapple have disadvantage.\n\
       \nAt the end of each of the thorn slinger's turns, anything [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-      \ by it takes 3 (d6) acid damage."
+      \ by it takes 3 (1d6) acid damage."
     "name": "Adhesive Blossoms"
   - "desc": "While the thorn slinger remains motionless, it is indistinguishable from\
       \ an inanimate bush."
     "name": "False Appearance"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30\
-      \ ft., one target. Hit: 8 (2d6 + 1) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 30\
+      \ ft., one target. *Hit:* 8 (2d6 + 1) piercing damage."
     "name": "Thorns"
 "source":
   - "TftYP"

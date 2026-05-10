@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Joster Mareet
+- "Joster Mareet"
 ---
-# [Joster Mareet](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/joster-mareet-kftgv.md)
+# [Joster Mareet](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/joster-mareet-kftgv.md)
 *Source: Keys from the Golden Vault p. 107*  
 
 ```statblock
@@ -46,7 +47,8 @@ aliases:
     "desc": "+7"
 "damage_resistances": "cold; fire; lightning; poison; bludgeoning, piercing, slashing\
   \ from nonmagical attacks"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Abyssal, Common, Infernal, telepathy 60 ft."
 "cr": "4"
 "traits":
@@ -61,7 +63,7 @@ aliases:
       \ to its true form if it dies."
     "name": "Shapechanger"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Claw (Fiend Form Only)"
   - "desc": "One humanoid Joster Mareet can see within 30 feet of it must succeed\

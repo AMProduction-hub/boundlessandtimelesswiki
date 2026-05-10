@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Evoker Wizard
+- "Evoker Wizard"
 ---
-# [Evoker Wizard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/evoker-wizard-mpmm.md)
+# [Evoker Wizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/evoker-wizard-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 262, Volo's Guide to Monsters p. 214*  
 
 Evokers harness arcane energy to destroy. Many armies employ evokers to rain destruction down on enemy forces.
@@ -40,8 +41,8 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+7"
-  - "wisdom": "+5"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -53,8 +54,8 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "actions":
   - "desc": "The evoker makes three Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 25 (4d10 + 3) force damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +7 to hit, reach 5 ft. or range 120\
+      \ ft., one target. *Hit:* 25 (4d10 + 3) force damage."
     "name": "Arcane Burst"
   - "desc": "The evoker unleashes a magical explosion of a particular damage type:\
       \ cold, fire, lightning, or thunder. The magic erupts in a 20-foot-radius sphere\
@@ -67,13 +68,13 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
       \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Sculpted Explosion (Recharge 4-6)"
   - "desc": "The evoker casts one of the following spells, using Intelligence as the\
-      \ spellcasting ability (spell save DC 15):\n\nAt will: [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
+      \ spellcasting ability (spell save DC 15):\n\n**At will:** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n2/day each: [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md),\
+      \n**2/day each:** [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md),\
       \ [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)\n\n\
-      1/day each: [wall of ice](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-ice.md)"
+      **1/day each:** [wall of ice](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-ice.md)"
     "name": "Spellcasting"
 "source":
   - "MPMM"

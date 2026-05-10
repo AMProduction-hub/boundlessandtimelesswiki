@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Becoming Lost; Wilderness Navigation
+- "Becoming Lost; Wilderness Navigation"
 ---
 # Becoming Lost; Wilderness Navigation
 *Source: Dungeon Master's Guide p. 111* 

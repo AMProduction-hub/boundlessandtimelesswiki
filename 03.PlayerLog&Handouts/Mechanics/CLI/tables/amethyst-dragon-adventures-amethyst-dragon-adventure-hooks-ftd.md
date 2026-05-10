@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Amethyst Dragon Adventures; Amethyst Dragon Adventure Hooks
+- "Amethyst Dragon Adventures; Amethyst Dragon Adventure Hooks"
 ---
 # Amethyst Dragon Adventures; Amethyst Dragon Adventure Hooks
 *Source: Fizban's Treasury of Dragons p. 76* 
 
 **Amethyst Dragon Adventure Hooks**
-
-`dice: [](amethyst-dragon-adventures-amethyst-dragon-adventure-hooks-ftd.md#^amethyst-dragon-adventure-hooks)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Chapter 12: The Tower of Vengeance
+- "Chapter 12: The Tower of Vengeance"
 ---
 # Chapter 12: The Tower of Vengeance
 *Source: Out of the Abyss, p. 160* 

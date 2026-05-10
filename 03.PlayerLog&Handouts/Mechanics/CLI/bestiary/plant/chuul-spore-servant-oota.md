@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Chuul Spore Servant
+- "Chuul Spore Servant"
 ---
-# [Chuul Spore Servant](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/chuul-spore-servant-oota.md)
+# [Chuul Spore Servant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/chuul-spore-servant-oota.md)
 *Source: Out of the Abyss p. 228*  
 
 ```statblock
@@ -37,13 +38,14 @@ aliases:
   \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft. (blind beyond this radius), passive Perception 8"
 "languages": ""
 "cr": "4"
 "actions":
   - "desc": "The spore servant makes two pincer attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (2d6 + 4) bludgeoning damage. The target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (Escape DC 14) if it is a Large or smaller creature and the spore servant\
       \ doesn't have two other creatures [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)."

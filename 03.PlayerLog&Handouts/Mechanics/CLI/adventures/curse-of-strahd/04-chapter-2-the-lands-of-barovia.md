@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 aliases:
-- Chapter 2: The Lands of Barovia
+- "Chapter 2: The Lands of Barovia"
 ---
 # Chapter 2: The Lands of Barovia
 *Source: Curse of Strahd, p. 23* 
@@ -248,9 +249,9 @@ When the curse ends, the Vistana suffers a harmful psychic backlash. The amount 
 
 The Vistana chooses the curse's effect from the options that follow; other Vistani curses are possible. All such effects deal psychic damage to the Vistani who uttered them when they end:
 
-- The target is unable to perform a certain kind of act involving fine motor control, such as tying knots, writing, playing an instrument, sewing, or casting spells that have somatic components. When this curse ends, the Vistana takes `d6` psychic damage.  
-- The target's appearance changes in a sinister yet purely cosmetic way. For example, the curse can place a scar on the target's face, turn the target's teeth into yellow fangs, or give the target bad breath. When this curse ends, the Vistana it takes `d6` psychic damage.  
-- A nonmagical item in the target's possession (chosen by the DM) disappears and can't be found until the curse ends. The lost item can weigh no more than 1 pound. When this curse ends, the Vistana takes `d6` psychic damage.  
+- The target is unable to perform a certain kind of act involving fine motor control, such as tying knots, writing, playing an instrument, sewing, or casting spells that have somatic components. When this curse ends, the Vistana takes `1d6` psychic damage.  
+- The target's appearance changes in a sinister yet purely cosmetic way. For example, the curse can place a scar on the target's face, turn the target's teeth into yellow fangs, or give the target bad breath. When this curse ends, the Vistana it takes `1d6` psychic damage.  
+- A nonmagical item in the target's possession (chosen by the DM) disappears and can't be found until the curse ends. The lost item can weigh no more than 1 pound. When this curse ends, the Vistana takes `1d6` psychic damage.  
 - The target gains vulnerability to a damage type of the Vistana's choice. When this curse ends, the Vistana takes `3d6` psychic damage.  
 - The target has disadvantage on ability checks and saving throws tied to one ability score of the Vistana's choice. When this curse ends, the Vistana takes `3d6` psychic damage.  
 - The target's attunement to one magic item (chosen by the DM) ends, and the target can't attune to the chosen item until the curse ends. When this curse ends, the Vistana takes `5d6` psychic damage.  
@@ -276,7 +277,7 @@ If an encounter occurs, roll on the daytime or the nighttime encounter table, de
 | d12 + d8 | Encounter |
 |----------|-----------|
 | 2 | `3d6` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/barovian-commoner-cos.md) |
-| 3 | `d6` [scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/barovian-scout-cos.md) |
+| 3 | `1d6` [scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/barovian-scout-cos.md) |
 | 4 | Hunting trap |
 | 5 | Grave |
 | 6 | False trail |
@@ -284,15 +285,15 @@ If an encounter occurs, roll on the daytime or the nighttime encounter table, de
 | 8 | Skeletal rider |
 | 9 | Trinket |
 | 10 | Hidden bundle |
-| 11 | `d4` [swarm of ravens](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-ravens.md) (50%) or 1 [wereraven](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wereraven-vrgr.md) (see appendix D) in raven form (50%) |
-| 12 | `d6` [dire wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/dire-wolf.md) |
+| 11 | `1d4` [swarm of ravens](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-ravens.md) (50%) or 1 [wereraven](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wereraven-vrgr.md) (see appendix D) in raven form (50%) |
+| 12 | `1d6` [dire wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/dire-wolf.md) |
 | 13 | `3d6` [wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wolf.md) |
-| 14 | `d4` [berserkers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md) |
+| 14 | `1d4` [berserkers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md) |
 | 15 | Corpse |
-| 16 | `d6` [werewolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/werewolf.md) in human form |
+| 16 | `1d6` [werewolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/werewolf.md) in human form |
 | 17 | 1 [druid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md) with `2d6` [twig blights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/twig-blight.md) |
 | 18 | `2d4` [needle blights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/needle-blight.md) |
-| 19 | `d6` [scarecrows](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/scarecrow.md) |
+| 19 | `1d6` [scarecrows](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/scarecrow.md) |
 | 20 | 1 [revenant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/revenant.md) |
 ^daytime-random-encounters-in-barovia
 
@@ -307,16 +308,16 @@ If an encounter occurs, roll on the daytime or the nighttime encounter table, de
 | 6 | Corpse |
 | 7 | Hidden bundle |
 | 8 | Skeletal rider |
-| 9 | `d8` [swarm of bats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-bats.md) |
-| 10 | `d6` [dire wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/dire-wolf.md) |
+| 9 | `1d8` [swarm of bats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-bats.md) |
+| 10 | `1d6` [dire wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/dire-wolf.md) |
 | 11 | `3d6` [wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wolf.md) |
-| 12 | `d4` [berserkers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md) |
+| 12 | `1d4` [berserkers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md) |
 | 13 | 1 [druid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md) and `2d6` [twig blights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/twig-blight.md) |
 | 14 | `2d4` [needle blights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/needle-blight.md) |
-| 15 | `d6` [werewolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/werewolf.md) in wolf form |
+| 15 | `1d6` [werewolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/werewolf.md) in wolf form |
 | 16 | `3d6` [zombies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md) |
-| 17 | `d6` [scarecrows](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/scarecrow.md) |
-| 18 | `d8` [Strahd zombies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/strahd-zombie-cos.md) (see appendix D) |
+| 17 | `1d6` [scarecrows](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/scarecrow.md) |
+| 18 | `1d8` [Strahd zombies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/strahd-zombie-cos.md) (see appendix D) |
 | 19 | 1 [will-o'-wisp](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/will-o-wisp.md) |
 | 20 | 1 [revenant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/revenant.md) |
 ^nighttime-random-encounters-in-barovia
@@ -330,7 +331,7 @@ Use the descriptions that follow to help run each random encounter. The table en
 > The sound of snapping twigs draws your attention to several dark shapes in the fog. They carry torches and pitchforks.
 ^0bf
 
-If the characters are moving quietly and not carrying light sources, they can try to hide from these Barovians, who carry pitchforks (+2 to hit) instead of clubs, dealing 3 (`d6`) piercing damage on a hit.
+If the characters are moving quietly and not carrying light sources, they can try to hide from these Barovians, who carry pitchforks (`+2` to hit) instead of clubs, dealing 3 (`1d6`) piercing damage on a hit.
 
 [Barovian commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/barovian-commoner-cos.md) rarely leave their settlements. This group might be a family looking for a safer place to live, or an angry mob searching for the characters or heading toward Castle Ravenloft to confront Strahd.
 
@@ -345,7 +346,7 @@ If at least one character has a passive Wisdom ([Perception](03.PlayerLog&Handou
 
 If more than one scout is present, the others are spread out over a 100-foot-square area.
 
-These [scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md) are Barovian hunters or trappers searching for a missing villager or townsperson. Once they realize the characters aren't out to kill them, they lower their weapons and request help in finding their missing person. If the characters decline, the scouts point them in the direction of the nearest settlement and depart without so much as a farewell. They wield light crossbows (+4 to hit, range 80/320 ft.) instead of longbows, dealing 6 (`1d8 + 2`) piercing damage on a hit.
+These [scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md) are Barovian hunters or trappers searching for a missing villager or townsperson. Once they realize the characters aren't out to kill them, they lower their weapons and request help in finding their missing person. If the characters decline, the scouts point them in the direction of the nearest settlement and depart without so much as a farewell. They wield light crossbows (`+4` to hit, range 80/320 ft.) instead of longbows, dealing 6 (`1d8 + 2`) piercing damage on a hit.
 
 > [!note] Strahd's Spies
 > 
@@ -577,7 +578,7 @@ If one or more characters spot the creature, read:
 > Through the mist, you see a black bird circling overhead. When it feels your eyes upon it, the raven flies away, but it's back before long, keeping its distance.
 ^0eb
 
-The wereraven belongs to a secret order called the Keepers of the Feather. If the characters don't spot it, the wereraven shadows them for `d4` hours. At the end of that time, or anytime sooner if the characters attack it, the creature flies home to report what it has seen.
+The wereraven belongs to a secret order called the Keepers of the Feather. If the characters don't spot it, the wereraven shadows them for `1d4` hours. At the end of that time, or anytime sooner if the characters attack it, the creature flies home to report what it has seen.
 
 If the party has a second random encounter with a wereraven, this one presents itself to the characters as an ally and requests that they travel to the Blue Water Inn in Vallaki to meet "some new friends." It then flies off in the direction of the town.
 
@@ -829,14 +830,12 @@ If the characters decide to see [Madam Eva](03.PlayerLog&Handouts/Mechanics/CLI/
 
 For each Vistani tent or wagon that the characters search, roll once on the following table to determine what treasure is found:
 
-`dice: [](04-chapter-2-the-lands-of-barovia.md#^treasure)`
-
 | dice: d20 | Treasure |
 |-----------|----------|
 | 1–10 | None |
 | 11–13 | Sack of 100 ep (each coin stamped with Strahd's visage in profile) |
 | 14–16 | Pouch containing `4d6` gemstones worth 100 gp each |
-| 17–19 | Sack containing `3d6` pieces of cheap jewelry worth 25 gp total and `d6` pieces of fine jewelry worth 250 gp each |
+| 17–19 | Sack containing `3d6` pieces of cheap jewelry worth 25 gp total and `1d6` pieces of fine jewelry worth 250 gp each |
 | 20 | One magic item (roll once on [Magic Item Table B](03.PlayerLog&Handouts/Mechanics/CLI/tables/magic-item-table-b.md) in the "Dungeon Master's Guide") |
 ^treasure
 
@@ -987,7 +986,7 @@ If the characters rescue the [archmage](03.PlayerLog&Handouts/Mechanics/CLI/best
 
 Mordenkainen is familiar with worlds beyond his own. For example, if the characters come from the Forgotten Realms and mention this fact to Mordenkainen, he asks them if they know his old friend Elminster of Shadowdale.
 
-If Mordenkainen isn't the party's ally as foretold in [Madam Eva](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/madam-eva-cos.md)'s card reading (see chapter 1), he declines to join them if asked. With his wits restored, he sets out to find his missing staff and spellbook, leaving the characters on their own. He doesn't allow them to help him, for he fears they might be tempted to steal either his staff or his spellbook. (Being an adventurer himself, he knows how the lure of powerful magic can bring out the worst in adventurers.) Before he leaves, as a parting gift, the [archmage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/archmage.md) imbues each character with a *charm of heroism* (see ""Supernatural Gifts"" in chapter 7 of the "Dungeon Master's Guide").
+If Mordenkainen isn't the party's ally as foretold in [Madam Eva](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/madam-eva-cos.md)'s card reading (see chapter 1), he declines to join them if asked. With his wits restored, he sets out to find his missing staff and spellbook, leaving the characters on their own. He doesn't allow them to help him, for he fears they might be tempted to steal either his staff or his spellbook. (Being an adventurer himself, he knows how the lure of powerful magic can bring out the worst in adventurers.) Before he leaves, as a parting gift, the [archmage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/archmage.md) imbues each character with a [charm of heroism](03.PlayerLog&Handouts/Mechanics/CLI/rewards/charm-of-heroism.md) (see ""Supernatural Gifts"" in chapter 7 of the "Dungeon Master's Guide").
 
 #### Fortunes of Ravenloft
 

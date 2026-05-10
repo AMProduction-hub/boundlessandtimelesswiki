@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/12
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lohezet
+- "Lohezet"
 ---
-# [Lohezet](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/lohezet-dsotdq.md)
+# [Lohezet](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lohezet-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 205*  
 
 A black-robed member of the Mages of High Sorcery, Lohezet is a scholar obsessed with extinct creatures and fallen empires. He views the Dragon Army as a way to recreate the glories of Ansalon's past. During the Dragon Armies' invasions of Khur and Kendermore, Lohezet's investigations of Istarian ruins revealed the location of the flying city of Onyari. He now travels with the Red Dragon Army, intent on finding the City of Lost Names and restoring it to the skies.
@@ -38,8 +39,8 @@ Lohezet employs the strategies of extinct poisonous predators in battle. His mag
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+5"
-  - "wisdom": "+6"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+9"
@@ -59,8 +60,8 @@ Lohezet employs the strategies of extinct poisonous predators in battle. His mag
   - "desc": "Lohezet makes three Withering Blast attacks and uses Miasma if it's available.\
       \ He can replace one of the attacks with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +9 to hit, reach 5 ft. or range 60\
-      \ ft., one target. Hit: 18 (2d12 + 5) necrotic damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +9 to hit, reach 5 ft. or range 60\
+      \ ft., one target. *Hit:* 18 (2d12 + 5) necrotic damage."
     "name": "Withering Blast"
   - "desc": "Lohezet magically conjures a billowing cloud of purple fog in a 20-foot-radius\
       \ sphere centered on a point within 120 feet of himself. The area within the\
@@ -75,11 +76,11 @@ Lohezet employs the strategies of extinct poisonous predators in battle. His mag
     "name": "Miasma (Recharge 4-6)"
   - "desc": "Lohezet casts one of the following spells, requiring no material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 17):\n\n\
-      At will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      **At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n2/day each: [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
+      \n**2/day each:** [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)\n\n\
-      1/day each: [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md),\
+      **1/day each:** [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md),\
       \ [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md),\
       \ [wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md)"
     "name": "Spellcasting"

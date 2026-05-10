@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Character Options
+- "Character Options"
 ---
 # Character Options
 *Source: Xanathar's Guide to Everything, p. 7* 
@@ -158,8 +159,6 @@ Roll on the appropriate table in this section as soon as you decide your backgro
 
 **Acolyte**
 
-`dice: [](2-character-options.md#^acolyte)`
-
 | dice: d6 | I became an acolyte because... |
 |----------|--------------------------------|
 | 1 | I ran away from home at an early age and found refuge in a temple. |
@@ -171,8 +170,6 @@ Roll on the appropriate table in this section as soon as you decide your backgro
 ^acolyte
 
 **Charlatan**
-
-`dice: [](2-character-options.md#^charlatan)`
 
 | dice: d6 | I became a charlatan because... |
 |----------|---------------------------------|
@@ -186,8 +183,6 @@ Roll on the appropriate table in this section as soon as you decide your backgro
 
 **Criminal**
 
-`dice: [](2-character-options.md#^criminal)`
-
 | dice: d6 | I became a criminal because... |
 |----------|--------------------------------|
 | 1 | I resented authority in my younger days and saw a life of crime as the best way to fight against tyranny and oppression. |
@@ -199,8 +194,6 @@ Roll on the appropriate table in this section as soon as you decide your backgro
 ^criminal
 
 **Entertainer**
-
-`dice: [](2-character-options.md#^entertainer)`
 
 | dice: d6 | I became an entertainer because... |
 |----------|------------------------------------|
@@ -214,8 +207,6 @@ Roll on the appropriate table in this section as soon as you decide your backgro
 
 **Folk Hero**
 
-`dice: [](2-character-options.md#^folk-hero)`
-
 | dice: d6 | I became a folk hero because... |
 |----------|---------------------------------|
 | 1 | I learned what was right and wrong from my family. |
@@ -227,8 +218,6 @@ Roll on the appropriate table in this section as soon as you decide your backgro
 ^folk-hero
 
 **Guild Artisan**
-
-`dice: [](2-character-options.md#^guild-artisan)`
 
 | dice: d6 | I became a guild artisan because... |
 |----------|-------------------------------------|
@@ -242,8 +231,6 @@ Roll on the appropriate table in this section as soon as you decide your backgro
 
 **Hermit**
 
-`dice: [](2-character-options.md#^hermit)`
-
 | dice: d6 | I became a hermit because... |
 |----------|------------------------------|
 | 1 | My enemies ruined my reputation, and I fled to the wilds to avoid further disparagement. |
@@ -255,8 +242,6 @@ Roll on the appropriate table in this section as soon as you decide your backgro
 ^hermit
 
 **Noble**
-
-`dice: [](2-character-options.md#^noble)`
 
 | dice: d6 | I became a noble because... |
 |----------|-----------------------------|
@@ -270,8 +255,6 @@ Roll on the appropriate table in this section as soon as you decide your backgro
 
 **Outlander**
 
-`dice: [](2-character-options.md#^outlander)`
-
 | dice: d6 | I became an outlander because... |
 |----------|----------------------------------|
 | 1 | I spent a lot of time in the wilderness as a youngster, and I came to love that way of life. |
@@ -283,8 +266,6 @@ Roll on the appropriate table in this section as soon as you decide your backgro
 ^outlander
 
 **Sage**
-
-`dice: [](2-character-options.md#^sage)`
 
 | dice: d6 | I became a sage because... |
 |----------|----------------------------|
@@ -298,8 +279,6 @@ Roll on the appropriate table in this section as soon as you decide your backgro
 
 **Sailor**
 
-`dice: [](2-character-options.md#^sailor)`
-
 | dice: d6 | I became a sailor because... |
 |----------|------------------------------|
 | 1 | I was press-ganged by pirates and forced to serve on their ship until I finally escaped. |
@@ -312,8 +291,6 @@ Roll on the appropriate table in this section as soon as you decide your backgro
 
 **Soldier**
 
-`dice: [](2-character-options.md#^soldier)`
-
 | dice: d6 | I became a soldier because... |
 |----------|-------------------------------|
 | 1 | I joined the militia to help protect my community from monsters. |
@@ -325,8 +302,6 @@ Roll on the appropriate table in this section as soon as you decide your backgro
 ^soldier
 
 **Urchin**
-
-`dice: [](2-character-options.md#^urchin)`
 
 | dice: d6 | I became an urchin because... |
 |----------|-------------------------------|
@@ -350,8 +325,6 @@ The class sections earlier in this chapter have further story suggestions, which
 
 **Barbarian**
 
-`dice: [](2-character-options.md#^barbarian)`
-
 | dice: d6 | I became a barbarian because... |
 |----------|---------------------------------|
 | 1 | My devotion to my people lifted me in battle, making me powerful and dangerous. |
@@ -363,8 +336,6 @@ The class sections earlier in this chapter have further story suggestions, which
 ^barbarian
 
 **Bard**
-
-`dice: [](2-character-options.md#^bard)`
 
 | dice: d6 | I became a bard because... |
 |----------|----------------------------|
@@ -378,8 +349,6 @@ The class sections earlier in this chapter have further story suggestions, which
 
 **Cleric**
 
-`dice: [](2-character-options.md#^cleric)`
-
 | dice: d6 | I became a cleric because... |
 |----------|------------------------------|
 | 1 | A supernatural being in service to the gods called me to become a divine agent in the world. |
@@ -391,8 +360,6 @@ The class sections earlier in this chapter have further story suggestions, which
 ^cleric
 
 **Druid**
-
-`dice: [](2-character-options.md#^druid)`
 
 | dice: d6 | I became a druid because... |
 |----------|-----------------------------|
@@ -406,8 +373,6 @@ The class sections earlier in this chapter have further story suggestions, which
 
 **Fighter**
 
-`dice: [](2-character-options.md#^fighter)`
-
 | dice: d6 | I became a fighter because... |
 |----------|-------------------------------|
 | 1 | I wanted to hone my combat skills, and so I joined a war college. |
@@ -419,8 +384,6 @@ The class sections earlier in this chapter have further story suggestions, which
 ^fighter
 
 **Monk**
-
-`dice: [](2-character-options.md#^monk)`
 
 | dice: d6 | I became a monk because... |
 |----------|----------------------------|
@@ -434,8 +397,6 @@ The class sections earlier in this chapter have further story suggestions, which
 
 **Paladin**
 
-`dice: [](2-character-options.md#^paladin)`
-
 | dice: d6 | I became a paladin because... |
 |----------|-------------------------------|
 | 1 | A fantastical being appeared before me and called on me to undertake a holy quest. |
@@ -447,8 +408,6 @@ The class sections earlier in this chapter have further story suggestions, which
 ^paladin
 
 **Ranger**
-
-`dice: [](2-character-options.md#^ranger)`
 
 | dice: d6 | I became a ranger because... |
 |----------|------------------------------|
@@ -462,8 +421,6 @@ The class sections earlier in this chapter have further story suggestions, which
 
 **Rogue**
 
-`dice: [](2-character-options.md#^rogue)`
-
 | dice: d6 | I became a rogue because... |
 |----------|-----------------------------|
 | 1 | I've always been nimble and quick of wit, so I decided to use those talents to help me make my way in the world. |
@@ -475,8 +432,6 @@ The class sections earlier in this chapter have further story suggestions, which
 ^rogue
 
 **Sorcerer**
-
-`dice: [](2-character-options.md#^sorcerer)`
 
 | dice: d6 | I became a sorcerer because... |
 |----------|--------------------------------|
@@ -490,8 +445,6 @@ The class sections earlier in this chapter have further story suggestions, which
 
 **Warlock**
 
-`dice: [](2-character-options.md#^warlock)`
-
 | dice: d6 | I became a warlock because... |
 |----------|-------------------------------|
 | 1 | While wandering around in a forbidden place, I encountered an otherworldly being that offered to enter into a pact with me. |
@@ -503,8 +456,6 @@ The class sections earlier in this chapter have further story suggestions, which
 ^warlock
 
 **Wizard**
-
-`dice: [](2-character-options.md#^wizard)`
 
 | dice: d6 | I became a wizard because... |
 |----------|------------------------------|

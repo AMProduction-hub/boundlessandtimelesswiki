@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 aliases:
-- Appendix D: Special NPCs
+- "Appendix D: Special NPCs"
 ---
 # Appendix D: Special NPCs
 *Source: Storm King's Thunder, p. 247* 

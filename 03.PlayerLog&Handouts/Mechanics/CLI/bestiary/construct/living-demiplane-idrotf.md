@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Living Demiplane
+- "Living Demiplane"
 ---
-# [Living Demiplane](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/living-demiplane-idrotf.md)
+# [Living Demiplane](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/living-demiplane-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 299*  
 
 A living demiplane is a [demiplane](03.PlayerLog&Handouts/Mechanics/CLI/spells/demiplane.md) spell that has become vaguely self-aware. It is a shadowy rectangle, 5 feet wide and 10 feet high, which creeps along flat, solid surfaces and groans softly when it moves.
@@ -48,7 +49,8 @@ Areas of wild magic and sites that have been ravaged by powerful eldritch forces
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned), [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "cr": "0"
 "traits":

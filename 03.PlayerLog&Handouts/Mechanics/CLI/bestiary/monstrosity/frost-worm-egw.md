@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/17
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Frost Worm
+- "Frost Worm"
 ---
-# [Frost Worm](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/frost-worm-egw.md)
+# [Frost Worm](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/frost-worm-egw.md)
 *Source: Explorer's Guide to Wildemount p. 289*  
 
 Frost worms burrow through the snow, dirt, ice, and rock of Wildemount's Biting North. These enormous monstrosities eagerly consume any living creature they can wrap their jaws around.
@@ -37,11 +38,12 @@ A frost worm spends most of its time beneath the frozen ground, conserving energ
   - !!int "5"
 "speed": "40 ft., burrow 30 ft."
 "saves":
-  - "constitution": "+12"
-  - "wisdom": "+3"
+  - "constitution": !!int "12"
+  - "wisdom": !!int "3"
 "damage_vulnerabilities": "fire"
 "damage_immunities": "cold"
-"senses": "blindsight 30 ft., tremorsense 60 ft., passive Perception 7"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., tremorsense 60 ft., passive Perception 7"
 "languages": ""
 "cr": "17"
 "traits":
@@ -59,7 +61,7 @@ A frost worm spends most of its time beneath the frozen ground, conserving energ
 "actions":
   - "desc": "The worm makes two bite attacks, or uses its Trill and makes a bite attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. *Hit:*\
       \ 22 (3d8 + 9) piercing damage plus 10 (3d6) cold damage. If the target\
       \ is a Large or smaller creature, it must succeed on a DC 20 Dexterity saving\
       \ throw or be swallowed by the worm. A swallowed creature is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\

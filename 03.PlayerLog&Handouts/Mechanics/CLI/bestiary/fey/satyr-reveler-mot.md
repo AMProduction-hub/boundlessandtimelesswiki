@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Satyr Reveler
+- "Satyr Reveler"
 ---
-# [Satyr Reveler](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/satyr-reveler-mot.md)
+# [Satyr Reveler](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/satyr-reveler-mot.md)
 *Source: Mythic Odysseys of Theros p. 242*  
 
 Pursuing lives of endless reverie, satyr revelers eagerly participate in celebrations wherever they find them. Their boisterous natures go far toward tempting others to eat, drink, and carouse with them. Faced with stodgier individuals or outright rivals, satyr revelers don't balk at using the magic of their music, dance, or other performances to charm opponents into joining their festivities. In the aftermath, these satyrs' foes are more likely to suffer embarrassment and groggy mornings than any lasting harm.
@@ -42,6 +43,8 @@ While most satyrs are known for their high spirits, love of revels, and gregario
     "desc": "+7"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
+"gear":
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
 "senses": "passive Perception 10"
 "languages": "Common, Sylvan"
 "cr": "1"
@@ -64,10 +67,10 @@ While most satyrs are known for their high spirits, love of revels, and gregario
 "actions":
   - "desc": "The satyr makes two ram attacks or two shortbow attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (2d4 + 1) bludgeoning damage."
     "name": "Ram"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 80/320 ft., one target. *Hit:*\
       \ 6 (1d6 + 3) piercing damage."
     "name": "Shortbow"
 "source":

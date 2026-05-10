@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/3
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Grell
+- "Grell"
 ---
-# [Grell](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/grell.md)
-*Source: Monster Manual p. 172, Princes of the Apocalypse, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Infernal Machine Rebuild, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Keys from the Golden Vault*  
+# [Grell](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/grell.md)
+*Source: Monster Manual p. 172*  
 
 A grell resembles a bulbous floating brain with a wide, sharp beak. Its ten long tentacles are made of hundreds of ring-shaped muscles sheathed in tough fibrous hide. Sharp barbs line the tip each tentacle and inject paralytic venom. The grell can partially retract its barbs into its tentacles to handle or manipulate objects it doesn't want to pierce or tear.
 
@@ -61,14 +62,15 @@ A grell will sometimes allow adventurers to wage war on the other monstrous inha
 "damage_immunities": "lightning"
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 14"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 14"
 "languages": "Grell"
 "cr": "3"
 "actions":
   - "desc": "The grell makes two attacks: one with its tentacles and one with its\
       \ beak."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 10 ft., one creature. *Hit:*\
       \ 7 (1d10 + 2) piercing damage, and the target must succeed on a DC 11 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. The [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
@@ -77,23 +79,15 @@ A grell will sometimes allow adventurers to wage war on the other monstrous inha
       \ the effect on a success.\n\nThe target is also [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15). If the target is Medium or smaller, it is also [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ until this grapple ends. While grappling the target, the grell has advantage\
-      \ on attack rolls against it and can 't use this attack against other targets.\
+      \ on attack rolls against it and can't use this attack against other targets.\
       \ When the grell moves, any Medium or smaller target it is grappling moves with\
       \ it."
     "name": "Tentacles"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) piercing damage."
     "name": "Beak"
 "source":
   - "MM"
-  - "PotA"
-  - "TftYP"
-  - "WDH"
-  - "WDMM"
-  - "IMR"
-  - "IDRotF"
-  - "CM"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/grell.webp"
 ```
 ^statblock

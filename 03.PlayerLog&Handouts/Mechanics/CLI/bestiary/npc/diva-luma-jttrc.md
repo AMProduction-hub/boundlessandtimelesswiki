@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Diva Luma
+- "Diva Luma"
 ---
-# [Diva Luma](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/diva-luma-jttrc.md)
+# [Diva Luma](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/diva-luma-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 71*  
 
 ```statblock
@@ -34,8 +35,8 @@ aliases:
   - !!int "10"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+6"
-  - "intelligence": "+4"
+  - "dexterity": !!int "6"
+  - "intelligence": !!int "4"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+6"
@@ -46,6 +47,9 @@ aliases:
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+9"
 "damage_resistances": "poison"
+"gear":
+  - "[light crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/light-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 13"
 "languages": "Thieves' cant plus any two languages"
 "cr": "8"
@@ -67,7 +71,7 @@ aliases:
 "actions":
   - "desc": "Diva Luma makes two high-heeled shoe attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "High-Heeled Shoe"
 "source":

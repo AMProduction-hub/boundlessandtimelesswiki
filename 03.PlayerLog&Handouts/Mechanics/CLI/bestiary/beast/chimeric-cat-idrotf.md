@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Chimeric Cat
+- "Chimeric Cat"
 ---
-# [Chimeric Cat](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/chimeric-cat-idrotf.md)
+# [Chimeric Cat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/chimeric-cat-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 246*  
 
 The chimeric cat has antennae that grant it blindsight and tremorsense out to a range of 60 feet
@@ -38,7 +39,8 @@ The chimeric cat has antennae that grant it blindsight and tremorsense out to a 
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "blindsight 60 ft., tremorsense 60 ft., passive Perception 13"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 13"
 "languages": ""
 "cr": "0"
 "traits":
@@ -46,7 +48,7 @@ The chimeric cat has antennae that grant it blindsight and tremorsense out to a 
       \ checks that rely on smell."
     "name": "Keen Smell"
 "actions":
-  - "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1\
       \ slashing damage."
     "name": "Claws"
 "source":

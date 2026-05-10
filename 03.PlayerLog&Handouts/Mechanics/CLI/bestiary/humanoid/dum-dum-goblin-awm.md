@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/awm
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dum-Dum Goblin
+- "Dum-Dum Goblin"
 ---
-# [Dum-Dum Goblin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/dum-dum-goblin-awm.md)
+# [Dum-Dum Goblin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/dum-dum-goblin-awm.md)
 *Source: Adventure with Muk p. 32*  
 
 Dum Dum goblins are your average run-of-the-mill goblins that live in the Dankwood. They are led by their chief, Grobble, who loves to eat mushroom pie and send out his gang of goblin thieves to steal stuff. He loves to be flattered and thinks he's the toughest goblin in the Dankwood.
@@ -33,6 +34,9 @@ Dum Dum goblins are your average run-of-the-mill goblins that live in the Dankwo
   - !!int "8"
   - !!int "8"
 "speed": "30 ft."
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
 "senses": "passive Perception 0"
 "languages": ""
 "cr": "1/4"
@@ -45,10 +49,10 @@ Dum Dum goblins are your average run-of-the-mill goblins that live in the Dankwo
   - "desc": "Dum-Dum Goblins will opt to run and hide before fighting! A DC 15 Dexterity\
       \ check must be made before they can be attacked."
     "name": "Catch me if you can!"
-  - "desc": "Melee Weapon Attack: +4 to hit, one target. Hit: 3 (1d6 +2) slashing\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, one target. *Hit:* 3 (1d6 +2) slashing\
       \ damage."
     "name": "Scimitar"
-  - "desc": "Ranged Weapon Attack: +4 to hit, one target. Hit: 6 (1d6 + 2)\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, one target. *Hit:* 6 (1d6 + 2)\
       \ piercing damage."
     "name": "Shortbow"
 "source":

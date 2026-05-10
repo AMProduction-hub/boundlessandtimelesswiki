@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Howling Hatred Priest
+- "Howling Hatred Priest"
 ---
-# [Howling Hatred Priest](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/howling-hatred-priest-pota.md)
+# [Howling Hatred Priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/howling-hatred-priest-pota.md)
 *Source: Princes of the Apocalypse p. 190*  
 
 The most fanatical of the air cultists, the priests push their bodies to physical extremes in order to decrease their density and mass and become as light as leaves. Gaunt and sallow faced, with concave bellies, bulging eyes, and taut skin that enunciates every bone, these living skeletons sustain themselves on nothing more than air and fanatical devotion to the teachings of the cult. The wind serves them at a gesture.
@@ -46,32 +47,35 @@ Most other air cultists hate the priests, though none dares to speak out against
     "desc": "+4"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+4"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
 "senses": "passive Perception 10"
 "languages": "Auran, Common"
 "cr": "2"
 "traits":
   - "desc": "The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma\
       \ (spell save DC 12, +4 to hit with spell attacks). It knows the following\
-      \ sorcerer spells:\n\nCantrips (at will): [blade ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-ward.md),\
+      \ sorcerer spells:\n\n**Cantrips (at will):** [blade ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-ward.md),\
       \ [gust](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-xge.md), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
-      \n1st level (4 slots): [feather fall](03.PlayerLog&Handouts/Mechanics/CLI/spells/feather-fall.md),\
+      \n**1st level (4 slots):** [feather fall](03.PlayerLog&Handouts/Mechanics/CLI/spells/feather-fall.md),\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [witch bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/witch-bolt.md)\n\
-      \n2nd level (3 slots): [dust devil](03.PlayerLog&Handouts/Mechanics/CLI/spells/dust-devil-xge.md),\
+      \n**2nd level (3 slots):** [dust devil](03.PlayerLog&Handouts/Mechanics/CLI/spells/dust-devil-xge.md),\
       \ [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md)\n\
-      \n3rd level (2 slots): [gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/spells/gaseous-form.md)"
+      \n**3rd level (2 slots):** [gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/spells/gaseous-form.md)"
     "name": "Spellcasting"
   - "desc": "The priest can hold its breath for 30 minutes."
     "name": "Hold Breath"
 "actions":
   - "desc": "The priest makes two melee attacks or two ranged attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Scimitar"
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
     "name": "Dagger"
 "source":
   - "PotA"

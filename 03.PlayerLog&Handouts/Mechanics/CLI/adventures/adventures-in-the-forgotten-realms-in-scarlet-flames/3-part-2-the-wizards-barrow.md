@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/aitfr-isf
 aliases:
-- Part 2: The Wizard's Barrow
+- "Part 2: The Wizard's Barrow"
 ---
 # Part 2: The Wizard's Barrow
 *Source: Adventures in the Forgotten Realms: In Scarlet Flames, p. 4* 
@@ -312,9 +313,9 @@ To historians, sages, and collectors in a college or university, the value of th
 
 ### The Burning Library
 
-In this library—littered with stray pages, tables, chairs, and rugs—fire spreads 5 feet in any direction on initiative count 20 (losing initiative ties), as sheets of fiery paper flit about on fire-hot winds. Each 5-foot square that is burning deals 3 (`d6`) fire damage to the library, to a maximum of 42 (`12d6`) fire damage each turn.
+In this library—littered with stray pages, tables, chairs, and rugs—fire spreads 5 feet in any direction on initiative count 20 (losing initiative ties), as sheets of fiery paper flit about on fire-hot winds. Each 5-foot square that is burning deals 3 (`1d6`) fire damage to the library, to a maximum of 42 (`12d6`) fire damage each turn.
 
-A creature that starts its turn in a burning space takes 3 (`d6`) fire damage. A creature without resistance to fire damage has disadvantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) checks to see through the smoke and fire here.
+A creature that starts its turn in a burning space takes 3 (`1d6`) fire damage. A creature without resistance to fire damage has disadvantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) checks to see through the smoke and fire here.
 
 The chamber survives the fire even if it is a charred husk billowing smoke into upper levels and into area 15 and the open air.
 

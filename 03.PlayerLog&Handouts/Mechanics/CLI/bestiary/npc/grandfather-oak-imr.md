@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Grandfather Oak
+- "Grandfather Oak"
 ---
-# [Grandfather Oak](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/grandfather-oak-imr.md)
+# [Grandfather Oak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/grandfather-oak-imr.md)
 *Source: Infernal Machine Rebuild p. 5*  
 
 ```statblock
@@ -46,10 +47,10 @@ aliases:
 "actions":
   - "desc": "Grandfather Oak makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 16 (3d6 + 6) bludgeoning damage."
     "name": "Slam"
-  - "desc": "Ranged Weapon Attack: +10 to hit, range 60/180 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +10 to hit, range 60/180 ft., one target. *Hit:*\
       \ 28 (4d10 + 6) bludgeoning damage."
     "name": "Rock"
   - "desc": "Grandfather Oak magically animates one or two trees it can see within\

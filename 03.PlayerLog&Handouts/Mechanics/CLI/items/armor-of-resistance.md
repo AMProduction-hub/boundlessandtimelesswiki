@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/rare
 - ttrpg-cli/item/tier/major
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Armor of Resistance"
 ---
 # Armor of Resistance
@@ -16,8 +17,6 @@ aliases:
 
 
 You have resistance to one type of damage while you wear this armor. The DM chooses the type or determines it randomly from the options below.
-
-`dice: [](armor-of-resistance.md#^damage-type)`
 
 | dice: d10 | Damage Type |
 |-----------|-------------|

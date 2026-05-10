@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Galvanic Blastseeker
+- "Galvanic Blastseeker"
 ---
-# [Galvanic Blastseeker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/galvanic-blastseeker-ggr.md)
+# [Galvanic Blastseeker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/galvanic-blastseeker-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 243*  
 
 While chemisters focus on inventing new tools, weapons, and other devices for the guild to use, the role of a blastseeker is to put those devices to work. Despite the name, not all such devices produce explosions, but all the most interesting ones (from the Izzet perspective) do.
@@ -35,7 +36,7 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+6"
+  - "dexterity": !!int "6"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+6"
@@ -44,6 +45,8 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
 "damage_resistances": "lightning, thunder"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 13"
 "languages": "Common and Primordial, plus any one language"
 "cr": "5"
@@ -51,10 +54,10 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
   - "desc": "The blastseeker's innate spellcasting ability is Intelligence (spell\
       \ save DC 15, +7 to hit with spell attacks). The blastseeker can innately\
       \ cast the following spells, requiring no components other than its Izzet gear,\
-      \ which doesn't function for others:\n\n3/day each: [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md),\
+      \ which doesn't function for others:\n\n**3/day each:** [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md),\
       \ [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md),\
       \ [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n1/day: [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)"
+      \n**1/day:** [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)"
     "name": "Innate Spellcasting"
   - "desc": "When the blastseeker casts [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)\
       \ or thunderwave, it can roll a die. On an odd number, the blastseeker takes\
@@ -69,8 +72,8 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
       \ opportunity attacks."
     "name": "Gust-Propelled Leap"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 3 (d6) piercing damage, or 4 (d8) piercing damage\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 3 (1d6) piercing damage, or 4 (1d8) piercing damage\
       \ if used with two hands to make a melee attack."
     "name": "Spear"
 "source":

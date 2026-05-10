@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/evocation
@@ -11,12 +12,12 @@ tags:
 - ttrpg-cli/spell/subclass/the-fiend
 - ttrpg-cli/spell/subrace/halfling-mark-of-hospitality
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Sorcerer (Divine Soul)
 - Warlock (The Fiend)
 aliases:
-- Hallow
+- "Hallow"
 ---
 # Hallow
 *5th-level, Evocation*  
@@ -75,6 +76,6 @@ Affected creatures can communicate with any other creature in the area, even if 
 
 ## Summary
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Warlock (The Fiend)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-fiend.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Warlock (The Fiend)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-fiend.md)
 
 *Source: Player's Handbook p. 249. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

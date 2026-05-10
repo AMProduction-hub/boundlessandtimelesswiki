@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kenku
+- "Kenku"
 ---
-# [Kenku](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/kenku.md)
-*Source: Monster Manual p. 194, Princes of the Apocalypse, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Candlekeep Mysteries, Journeys through the Radiant Citadel*  
+# [Kenku](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kenku.md)
+*Source: Monster Manual p. 194*  
 
 Kenku are feathered humanoids that wander the world as vagabonds, driven by greed. They can perfectly imitate any sound they hear.
 
@@ -64,6 +65,9 @@ All kenku pine for the ability to fly, and thus the punishments they mete out to
     "desc": "+2"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
+"gear":
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 12"
 "languages": "understands Auran and Common but speaks only through the use of its\
   \ Mimicry trait"
@@ -78,21 +82,14 @@ All kenku pine for the ability to fly, and thus the punishments they mete out to
       \ check."
     "name": "Mimicry"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 80/320 ft., one target. *Hit:*\
       \ 6 (1d6 + 3) piercing damage."
     "name": "Shortbow"
 "source":
   - "MM"
-  - "PotA"
-  - "WDH"
-  - "WDMM"
-  - "BGDIA"
-  - "ERLW"
-  - "CM"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/kenku.webp"
 ```
 ^statblock

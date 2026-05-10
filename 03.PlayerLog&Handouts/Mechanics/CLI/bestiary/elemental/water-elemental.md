@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Water Elemental
+- "Water Elemental"
 ---
-# [Water Elemental](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/water-elemental.md)
-*Source: Monster Manual p. 125, Princes of the Apocalypse, Storm King's Thunder, Ghosts of Saltmarsh, Dragon of Icespire Peak, Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Mythic Odysseys of Theros, Tasha's Cauldron of Everything, Candlekeep Mysteries, Journeys through the Radiant Citadel, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Water Elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-elemental.md)
+*Source: Monster Manual p. 125. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A water elemental is a cresting wave that rolls across the ground, becoming nearly invisible at it courses through a larger body of water. It engulfs creatures that stand against it, filling their mouths and lungs as easily as it smothers flame.
 
@@ -66,7 +67,8 @@ An elemental doesn't require air, food, drink, or sleep.
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Aquan"
 "cr": "5"
 "traits":
@@ -79,7 +81,7 @@ An elemental doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The elemental makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) bludgeoning damage."
     "name": "Slam"
   - "desc": "Each creature in the elemental's space must make a DC 15 Strength saving\
@@ -96,18 +98,6 @@ An elemental doesn't require air, food, drink, or sleep.
     "name": "Whelm (Recharge 4-6)"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "GoS"
-  - "DIP"
-  - "SLW"
-  - "BGDIA"
-  - "IMR"
-  - "MOT"
-  - "TCE"
-  - "CM"
-  - "JttRC"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/water-elemental.webp"
 ```
 ^statblock

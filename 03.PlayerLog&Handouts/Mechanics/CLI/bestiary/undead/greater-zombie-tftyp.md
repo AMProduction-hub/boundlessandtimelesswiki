@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/5
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Greater Zombie
+- "Greater Zombie"
 ---
-# [Greater Zombie](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/greater-zombie-tftyp.md)
-*Source: Tales from the Yawning Portal p. 237, Divine Contention, Sleeping Dragon's Wake, Infernal Machine Rebuild*  
+# [Greater Zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/greater-zombie-tftyp.md)
+*Source: Tales from the Yawning Portal p. 237*  
 
 Many of those who brave the Tomb of Horrors believe they have reached their ultimate destination when they disturb a skeletal figure inside a secluded crypt. It is, in fact, a greater zombie, a creature magically created from a humanoid corpse to be far more resilient than a typical zombie.
 
@@ -39,7 +40,7 @@ A zombie doesn't require air, food, drink, or sleep.
   - !!int "6"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+1"
+  - "wisdom": !!int "1"
 "damage_resistances": "cold, necrotic"
 "damage_immunities": "poison"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
@@ -47,7 +48,8 @@ A zombie doesn't require air, food, drink, or sleep.
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": "understands the languages it knew in life but can't speak"
 "cr": "5"
 "traits":
@@ -61,14 +63,11 @@ A zombie doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The zombie makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) bludgeoning damage and 7 (2d6) necrotic damage."
     "name": "Empowered Slam"
 "source":
   - "TftYP"
-  - "DC"
-  - "SDW"
-  - "IMR"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/greater-zombie-tftyp.webp"
 ```
 ^statblock

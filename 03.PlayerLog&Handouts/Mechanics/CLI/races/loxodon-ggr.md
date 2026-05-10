@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/race/loxodon
 aliases:
-- Loxodon
+- "Loxodon"
 ---
 # Loxodon
 *Source: Guildmasters' Guide to Ravnica p. 17*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/loxodon.webp#right)
 
-- **Ability Scores**: Constitution +2; Wisdom +1
+- **Ability Scores**: con +2 wis +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 

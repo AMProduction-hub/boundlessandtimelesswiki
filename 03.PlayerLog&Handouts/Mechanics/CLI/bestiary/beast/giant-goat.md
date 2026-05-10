@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Goat
+- "Giant Goat"
 ---
-# [Giant Goat](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-goat.md)
-*Source: Monster Manual p. 326, Storm King's Thunder, Storm Lord's Wrath, Icewind Dale: Rime of the Frostmaiden, Curse of Strahd. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Goat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-goat.md)
+*Source: Monster Manual p. 326. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Giant Goat"
@@ -48,15 +49,11 @@ aliases:
       \ effects that would knock it [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Sure-Footed"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (2d4 + 3) bludgeoning damage."
     "name": "Ram"
 "source":
   - "MM"
-  - "SKT"
-  - "SLW"
-  - "IDRotF"
-  - "CoS"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-goat.webp"
 ```
 ^statblock

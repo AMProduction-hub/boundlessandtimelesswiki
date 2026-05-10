@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Gambling Complications
+- "Gambling Complications"
 ---
 # Gambling Complications
 *Source: Xanathar's Guide to Everything p. 130* 
 
 **Gambling Complications**
-
-`dice: [](gambling-complications-xge.md#^gambling-complications)`
 
 | dice: d6 | Complication |
 |----------|--------------|

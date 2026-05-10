@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/rakdos-cultist
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/feat/aberrant-dragonmark
-- ttrpg-cli/spell/feat/magic-initiate
-- ttrpg-cli/spell/feat/strixhaven-initiate
+- ttrpg-cli/spell/feat/magic-initiate/wizard-spells
+- ttrpg-cli/spell/feat/strixhaven-initiate/witherbloom-3
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/optfeature/sweeping-cinder-strike
 - ttrpg-cli/spell/reward/boon-of-the-fire-soul
@@ -25,7 +26,7 @@ tags:
 - ttrpg-cli/spell/subrace/tiefling-hellfire
 - ttrpg-cli/spell/subrace/tiefling-mephistopheles
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Light Domain)
 - Druid (Circle of Wildfire)
 - Fighter (Eldritch Knight)
@@ -36,7 +37,7 @@ classes:
 - Warlock (The Genie)
 - Wizard
 aliases:
-- Burning Hands
+- "Burning Hands"
 ---
 # Burning Hands
 *1st-level, Evocation*  
@@ -51,8 +52,8 @@ As you hold your hands with thumbs touching and fingers spread, a thin sheet of 
 
 The fire ignites any flammable objects in the area that aren't being worn or carried.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by `d6` for each slot level above 1st.
+**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by `1d6` for each slot level above 1st.
 
-**Classes**: [Druid (Circle of Wildfire)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-wildfire-tce.md "subclass=TCE"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Cleric (Light Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-light-domain.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Monk (Way of the Sun Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-way-of-the-sun-soul-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Warlock (The Fiend)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-fiend.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Light Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-light-domain.md); [Druid (Circle of Wildfire)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-wildfire-tce.md "subclass=TCE"); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Monk (Way of the Sun Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-way-of-the-sun-soul-xge.md "subclass=XGE"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock (The Fiend)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-fiend.md); [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 220. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

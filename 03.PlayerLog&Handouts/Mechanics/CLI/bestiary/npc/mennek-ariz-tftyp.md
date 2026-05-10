@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mennek Ariz
+- "Mennek Ariz"
 ---
-# [Mennek Ariz](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/mennek-ariz-tftyp.md)
+# [Mennek Ariz](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/mennek-ariz-tftyp.md)
 *Source: Tales from the Yawning Portal p. 157*  
 
 ```statblock
@@ -34,37 +35,39 @@ aliases:
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+6"
-  - "wisdom": "+4"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+6"
+"gear":
+  - "[quarterstaff](03.PlayerLog&Handouts/Mechanics/CLI/items/quarterstaff.md)"
 "senses": "passive Perception 11"
 "languages": "any four languages"
 "cr": "5"
 "traits":
   - "desc": "Mennek is a 9th-level spellcaster. Its spellcasting ability is Intelligence\
       \ (spell save DC 14, +6 to hit with spell attacks). Mennek has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md),\
-      \ [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md)\n\n1st\
-      \ level (4 slots): [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \ [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md)\n\n**1st\
+      \ level (4 slots):** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md)*,\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [magic\
       \ missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md)\n\n\
-      2nd level (3 slots): [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
+      **2nd level (3 slots):** [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md)*,\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
-      \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\n\
-      3rd level (3 slots): [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md),\
+      \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)*\n\n\
+      **3rd level (3 slots):** [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md),\
       \ [haste](03.PlayerLog&Handouts/Mechanics/CLI/spells/haste.md), [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\
-      \n4th level (3 slots): [dominate beast](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-beast.md),\
-      \ [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)\n\n5th\
-      \ level (2 slots): [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md)\n\
-      \nEnchantment spell of 1st level or higher"
+      \n**4th level (3 slots):** [dominate beast](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-beast.md)*,\
+      \ [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)\n\n**5th\
+      \ level (2 slots):** [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md)*\n\
+      \n*Enchantment spell of 1st level or higher"
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2\
       \ (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used\
       \ with two hands."
     "name": "Quarterstaff"

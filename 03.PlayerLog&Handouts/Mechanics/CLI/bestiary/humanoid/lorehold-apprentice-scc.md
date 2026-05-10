@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lorehold Apprentice
+- "Lorehold Apprentice"
 ---
-# [Lorehold Apprentice](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/lorehold-apprentice-scc.md)
+# [Lorehold Apprentice](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lorehold-apprentice-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 197*  
 
 Deep in crumbling ruins and piles of dusty scrolls, Lorehold students—first as apprentices and then as pledgemages—study the magic of the past, searching for arcane artifacts and speaking with long-dead adventurers to uncover secrets lost to time.
@@ -41,8 +42,8 @@ The archaeomancers of Lorehold College draw their magical might from the flow of
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+3"
-  - "intelligence": "+4"
+  - "constitution": !!int "3"
+  - "intelligence": !!int "4"
 "skillsaves":
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+6"
@@ -54,7 +55,7 @@ The archaeomancers of Lorehold College draw their magical might from the flow of
 "languages": "Common plus any two languages"
 "cr": "2"
 "actions":
-  - "desc": "Melee Spell Attack: +4 to hit, reach 30 ft., one target. Hit: 7\
+  - "desc": "*Melee Spell Attack:* +4 to hit, reach 30 ft., one target. *Hit:* 7\
       \ (1d10 + 2) bludgeoning damage plus 9 (2d8) thunder damage."
     "name": "Scroll Bash"
   - "desc": "Thundering golden energy erupts around a creature the apprentice can\
@@ -64,8 +65,8 @@ The archaeomancers of Lorehold College draw their magical might from the flow of
     "name": "Reduce to Memory (Recharge 6)"
   - "desc": "The apprentice casts one of the following spells, requiring no material\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 12):\n\nAt will: [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
-      \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md)\n\n1/day each:\
+      \ DC 12):\n\n**At will:** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md)\n\n**1/day each:**\
       \ [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
       \ [locate object](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-object.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)"

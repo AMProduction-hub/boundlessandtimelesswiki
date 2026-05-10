@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/item/rarity/uncommon
 - ttrpg-cli/item/wondrous/wand
-aliases: 
+aliases:
 - "Charred Wand of Magic Missiles"
 ---
 # Charred Wand of Magic Missiles

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Random Traps; Trap Effects
+- "Random Traps; Trap Effects"
 ---
 # Random Traps; Trap Effects
 *Source: Dungeon Master's Guide p. 297* 
 
 **Trap Effects**
-
-`dice: [](random-traps-trap-effects.md#^trap-effects)`
 
 | dice: d100 | Effect |
 |------------|--------|

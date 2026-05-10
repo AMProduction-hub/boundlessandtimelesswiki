@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vampiric Mind Flayer
+- "Vampiric Mind Flayer"
 ---
-# [Vampiric Mind Flayer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/vampiric-mind-flayer-vrgr.md)
+# [Vampiric Mind Flayer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampiric-mind-flayer-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 252*  
 
 When the mind flayers of Bluetspur (see chapter 3) could find no cure for their overlord's affliction, their degenerating elder brain turned to radical methods to stave off dementia and death. The results were vampiric mind flayers, feral atrocities spawned from mind flayer tadpoles infected with vampirism. These specialized but flawed terrors serve a single purpose: to drain the cerebral fluids from sapient minds. After doing so, they return to the Elder Brain of Bluetspur, which liquefies them into its pool and releases their stolen essences amid a hormone brine. This grotesque balm stalls the elder brain's degeneration but is far from a cure.
@@ -37,10 +38,10 @@ Vampiric mind flayers are physically and mentally unstable beings. Ghoulish crea
   - !!int "18"
 "speed": "30 ft., climb 30 ft."
 "saves":
-  - "dexterity": "+7"
-  - "intelligence": "+0"
-  - "wisdom": "+5"
-  - "charisma": "+7"
+  - "dexterity": !!int "7"
+  - "intelligence": !!int "0"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
@@ -50,7 +51,8 @@ Vampiric mind flayers are physically and mentally unstable beings. Ghoulish crea
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 15"
 "languages": "telepathy 120 ft. but can only project emotions"
 "cr": "5"
 "traits":
@@ -67,10 +69,10 @@ Vampiric mind flayers are physically and mentally unstable beings. Ghoulish crea
   - "desc": "The mind flayer makes two Claw attacks or one Claw attack and one Tentacles\
       \ attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage plus 10 (3d6) necrotic damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:*\
       \ 7 (1d6 + 4) piercing damage, and if the target is a creature, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15)."
     "name": "Tentacles"

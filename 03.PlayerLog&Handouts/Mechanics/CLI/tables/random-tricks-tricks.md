@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Random Tricks; Tricks
+- "Random Tricks; Tricks"
 ---
 # Random Tricks; Tricks
 *Source: Dungeon Master's Guide p. 297* 
 
 **Tricks**
-
-`dice: [](random-tricks-tricks.md#^tricks)`
 
 | dice: d100 | Trick Effect |
 |------------|--------------|

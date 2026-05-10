@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Servitor Thrull
+- "Servitor Thrull"
 ---
-# [Servitor Thrull](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/servitor-thrull-ggr.md)
+# [Servitor Thrull](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/servitor-thrull-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 221*  
 
 The most wretched of thrulls are the servitors, small and slender, that serve as playthings for their Orzhov masters. They run trivial errands, transport small items, caper and dance, and keep their masters' expensive robes from trailing on the dirty street. They are utterly loyal, lacking any concept of thinking for themselves.
@@ -44,11 +45,12 @@ A thrull doesn't require air, food, drink, or sleep.
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": "understands Common but can't speak"
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d8 + 1) slashing damage."
     "name": "Claws"
 "reactions":

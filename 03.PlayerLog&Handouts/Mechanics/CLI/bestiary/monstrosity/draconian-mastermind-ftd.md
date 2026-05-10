@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Draconian Mastermind
+- "Draconian Mastermind"
 ---
-# [Draconian Mastermind](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/draconian-mastermind-ftd.md)
+# [Draconian Mastermind](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/draconian-mastermind-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 180*  
 
 The rarest and most powerful of the draconians are the masterminds—spellcasters and strategists who most often serve as military commanders or as advisors to those who created them. They emerge from gold, red, or amethyst dragon eggs, wingless but possessed of an arsenal of eldritch power. Like their dragon progenitors, masterminds have a breath weapon—a billowing cloud of poisonous gas. They also have formidable claws and teeth they use to rend foes in close combat.
@@ -45,14 +46,15 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
   - !!int "17"
 "speed": "35 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+3"
-  - "charisma": "+6"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "3"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)"
-"senses": "truesight 60 ft., passive Perception 13"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Draconic"
 "cr": "6"
 "traits":
@@ -67,10 +69,10 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
 "actions":
   - "desc": "The draconian makes three Rend or Energy Ray attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage."
     "name": "Rend"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 60 ft., one target. *Hit:*\
       \ 8 (1d10 + 3) force damage."
     "name": "Energy Ray"
   - "desc": "The draconian exhales a 15-foot cone of noxious gas. Each creature in\
@@ -82,9 +84,9 @@ When draconians die, they do not go quietly. Instead, their lifeless bodies unle
     "name": "Noxious Breath (Recharge 5-6)"
   - "desc": "The draconian casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 14):\n\
-      \nAt will: [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
-      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n2/day\
-      \ each: [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
+      \n**At will:** [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n**2/day\
+      \ each:** [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)"
     "name": "Spellcasting"

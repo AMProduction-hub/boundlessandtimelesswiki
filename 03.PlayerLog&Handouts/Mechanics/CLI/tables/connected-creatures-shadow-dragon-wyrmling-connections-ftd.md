@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Connected Creatures; Shadow Dragon Wyrmling Connections
+- "Connected Creatures; Shadow Dragon Wyrmling Connections"
 ---
 # Connected Creatures; Shadow Dragon Wyrmling Connections
 *Source: Fizban's Treasury of Dragons p. 143* 
 
 **Shadow Dragon Wyrmling Connections**
-
-`dice: [](connected-creatures-shadow-dragon-wyrmling-connections-ftd.md#^shadow-dragon-wyrmling-connections)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|

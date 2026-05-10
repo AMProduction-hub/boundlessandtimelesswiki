@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nahual
+- "Nahual"
 ---
-# [Nahual](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/nahual-tftyp.md)
+# [Nahual](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/nahual-tftyp.md)
 *Source: Tales from the Yawning Portal p. 91*  
 
 ```statblock
@@ -38,7 +39,8 @@ aliases:
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+3"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common"
 "cr": "3"
 "traits":
@@ -57,7 +59,7 @@ aliases:
 "actions":
   - "desc": "The doppelganger makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) bludgeoning damage."
     "name": "Slam"
   - "desc": "The doppelganger magically reads the surface thoughts of one creature\

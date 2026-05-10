@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/12
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Yuan-ti Anathema
+- "Yuan-ti Anathema"
 ---
-# [Yuan-ti Anathema](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/yuan-ti-anathema-mpmm.md)
+# [Yuan-ti Anathema](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-anathema-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 272, Volo's Guide to Monsters p. 202*  
 
 As part of their quest for godhood, a yuan-ti abomination might perform a ritual that, if successful, transforms them into an even greater form: a yuan-ti anathema. This ritual demands the sacrifice of hundreds of snakes and requires the abomination to bathe in the blood of their enemies. The transformation is quick but painful.
@@ -49,7 +50,9 @@ Anathemas don't age, allowing them to pursue their goals until the end of days. 
 "damage_resistances": "acid, fire, lightning"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 21"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 21"
 "languages": "Abyssal, Common, Draconic"
 "cr": "12"
 "traits":
@@ -75,14 +78,14 @@ Anathemas don't age, allowing them to pursue their goals until the end of days. 
 "actions":
   - "desc": "The anathema makes two Claw attacks and one Flurry of Bites attack."
     "name": "Multiattack (Anathema Form Only)"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:*\
       \ 13 (2d6 + 6) slashing damage."
     "name": "Claw (Anathema Form Only)"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one creature. *Hit:*\
       \ 27 (6d6 + 6) piercing damage plus 14 (4d6) poison damage."
     "name": "Flurry of Bites (Anathema Form Only)"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 15 ft., one Large or smaller\
-      \ creature. Hit: 16 (3d6 + 6) bludgeoning damage plus 7 (2d6) acid damage,\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 15 ft., one Large or smaller\
+      \ creature. *Hit:* 16 (3d6 + 6) bludgeoning damage plus 7 (2d6) acid damage,\
       \ and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 16). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and it takes 16 (3d6 + 6) bludgeoning damage plus 7 (2d6) acid damage\
@@ -91,8 +94,8 @@ Anathemas don't age, allowing them to pursue their goals until the end of days. 
     "name": "Constrict (Snake Form Only)"
   - "desc": "The anathema casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 17):\n\
-      \nAt will: [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md)\
-      \ (snakes only)\n\n3/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \n**At will:** [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md)\
+      \ (snakes only)\n\n**3/day each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md), [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md),\
       \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md), [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
     "name": "Spellcasting (Anathema Form Only)"

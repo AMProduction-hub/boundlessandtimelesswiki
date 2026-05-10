@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Green Dragon Adventures; Green Dragon Adventure Hooks
+- "Green Dragon Adventures; Green Dragon Adventure Hooks"
 ---
 # Green Dragon Adventures; Green Dragon Adventure Hooks
 *Source: Fizban's Treasury of Dragons p. 126* 
 
 **Green Dragon Adventure Hooks**
-
-`dice: [](green-dragon-adventures-green-dragon-adventure-hooks-ftd.md#^green-dragon-adventure-hooks)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|

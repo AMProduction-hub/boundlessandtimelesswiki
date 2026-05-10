@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/class/bard
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Bard
+- "Bard"
 ---
 # Bard
 *Source: Player's Handbook p. 51. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
@@ -133,8 +134,6 @@ If your character is just starting out, your ultimate defining work is likely in
 
 **Defining Work**
 
-`dice: [](bard.md#^defining-work)`
-
 | dice: d6 | Defining Work |
 |----------|---------------|
 | 1 | "The Three Flambinis," a ribald song concerning mistaken identities and unfettered desire |
@@ -154,8 +153,6 @@ You might have an "off the rack" instrument, perhaps because it's all you can af
 
 **Instrument**
 
-`dice: [](bard.md#^instrument)`
-
 | dice: d6 | Instrument |
 |----------|------------|
 | 1 | A masterfully crafted halfling fiddle |
@@ -174,8 +171,6 @@ Almost every bard has suffered at least one bad experience in front of an audien
 The ways that a performance can go wrong are as varied as the fish in the sea. No matter what sort of disaster might occur, however, a bard has the courage and the confidence to rebound from it—either pressing on with the show (if possible) or promising to come back tomorrow with a new performance that's guaranteed to please.
 
 **Embarrassment**
-
-`dice: [](bard.md#^embarrassment)`
 
 | dice: d6 | Embarrassment |
 |----------|---------------|
@@ -227,39 +222,27 @@ Your Bardic Inspiration die changes when you reach certain levels in this class.
 
 You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations. See "chapter 10" for the general rules of spellcasting and "chapter 11" for the bard spell list.
 
-#### Cantrips
+**Cantrips.** You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, learning a 3rd cantrip at 4th level and a 4th at 10th level.
 
-You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, learning a 3rd cantrip at 4th level and a 4th at 10th level.
-
-#### Spell Slots
-
-The Bard table shows how many spell slots you have to cast your bard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+**Spell Slots.** The Bard table shows how many spell slots you have to cast your bard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
 For example, if you know the 1st-level spell [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md) and have a 1st-level and a 2nd-level spell slot available, you can cast [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md) using either slot.
 
-#### Spells Known of 1st Level and Higher
-
-You know four 1st-level spells of your choice from the bard spell list.
+**Spells Known of 1st Level and Higher.** You know four 1st-level spells of your choice from the bard spell list.
 
 You learn an additional bard spell of your choice at each level except 12th, 16th, 19th, and 20th. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.
 
 Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots.
 
-#### Spellcasting Ability
-
-Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.
+**Spellcasting Ability.** Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.
 
 <span class='abilityDc'>**Spell save DC**: your proficiency bonus + your Charisma</span>
 
 <span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Charisma</span>
 
-#### Ritual Casting
+**Ritual Casting.** You can cast any bard spell you know as a ritual if that spell has the ritual tag.
 
-You can cast any bard spell you know as a ritual if that spell has the ritual tag.
-
-#### Spellcasting Focus
-
-You can use a [musical instrument](03.PlayerLog&Handouts/Mechanics/CLI/items/musical-instrument.md) as a spellcasting focus for your bard spells.
+**Spellcasting Focus.** You can use a [musical instrument](03.PlayerLog&Handouts/Mechanics/CLI/items/musical-instrument.md) as a spellcasting focus for your bard spells.
 
 ### Jack of All Trades (Level 2)
 
@@ -267,9 +250,9 @@ Starting at 2nd level, you can add half your proficiency bonus, rounded down, to
 
 ### Song of Rest (d6) (Level 2)
 
-Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points by spending Hit Dice at the end of the short rest, each of those creatures regains an extra `d6` hit points.
+Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points by spending Hit Dice at the end of the short rest, each of those creatures regains an extra `1d6` hit points.
 
-The extra hit points increase when you reach certain levels in this class: to `d8` at 9th level, to `d10` at 13th level, and to `d12` at 17th level.
+The extra hit points increase when you reach certain levels in this class: to `1d8` at 9th level, to `1d10` at 13th level, and to `1d12` at 17th level.
 
 ### Magical Inspiration (Level 2)
 _Source: Tasha's Cauldron of Everything p. 27_
@@ -328,7 +311,7 @@ If your DM allows the use of feats, you may instead take a feat.
 
 ### Song of Rest (d8) (Level 9)
 
-At 9th level, the extra hit points gained from Song of Rest increases to `d8`.
+At 9th level, the extra hit points gained from Song of Rest increases to `1d8`.
 
 ### Bardic Inspiration (d10) (Level 10)
 
@@ -354,7 +337,7 @@ If your DM allows the use of feats, you may instead take a feat.
 
 ### Song of Rest (d10) (Level 13)
 
-At 13th level, the extra hit points gained from Song of Rest increases to `d10`.
+At 13th level, the extra hit points gained from Song of Rest increases to `1d10`.
 
 ### Magical Secrets (Level 14)
 
@@ -378,7 +361,7 @@ If your DM allows the use of feats, you may instead take a feat.
 
 ### Song of Rest (d12) (Level 17)
 
-At 17th level, the extra hit points gained from Song of Rest increases to `d12`.
+At 17th level, the extra hit points gained from Song of Rest increases to `1d12`.
 
 ### Magical Secrets (Level 18)
 

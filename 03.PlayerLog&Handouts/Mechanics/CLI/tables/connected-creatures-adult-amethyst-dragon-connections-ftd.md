@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Connected Creatures; Adult Amethyst Dragon Connections
+- "Connected Creatures; Adult Amethyst Dragon Connections"
 ---
 # Connected Creatures; Adult Amethyst Dragon Connections
 *Source: Fizban's Treasury of Dragons p. 77* 
 
 **Adult Amethyst Dragon Connections**
-
-`dice: [](connected-creatures-adult-amethyst-dragon-connections-ftd.md#^adult-amethyst-dragon-connections)`
 
 | dice: d8 | Connected Creatures |
 |----------|---------------------|

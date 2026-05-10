@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Crime Complications
+- "Crime Complications"
 ---
 # Crime Complications
 *Source: Xanathar's Guide to Everything p. 130* 
 
 **Crime Complications**
-
-`dice: [](crime-complications-xge.md#^crime-complications)`
 
 | dice: d8 | Complication |
 |----------|--------------|

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 aliases:
-- The Stygian Gambit
+- "The Stygian Gambit"
 ---
 # The Stygian Gambit
 *Source: Keys from the Golden Vault, p. 27* 
@@ -13,7 +14,7 @@ aliases:
 
 At the Afterlife Casino, a three-dragon ante tournament called the Grand Minauros Invitational awards one winner with a sizable purse and a golden erinyes statuette. A former gambler with a score to settle hires the characters to steal the statuette as well as gold from the casino's vault before the tournament ends and the winner is declared. The characters must case the casino, steal what they came for, and escape.
 
-![The Afterlife Casino, wher...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/012-02-001-ch2-splash.webp#center "The Afterlife Casino, where fortunes are won and lost, is built inside a massive cavern")
+![The Afterlife Casino, where fortunes are won and lost, is built inside a massive cavern](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/012-02-001-ch2-splash.webp#center)
 
 ## Adventure Background
 
@@ -201,7 +202,7 @@ The casino's perimeter walls are made of rough, naturally carved stone. Interior
 
 > [!note] Cheating
 > 
-> A patron who is caught cheating is escorted by `d3` security guards (use the [thug](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md) stat block) to the holding cells (area A17). The cheater is released the next dawn, escorted by security to a boat, advised never to return, and sent upriver.
+> A patron who is caught cheating is escorted by `1d3` security guards (use the [thug](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md) stat block) to the holding cells (area A17). The cheater is released the next dawn, escorted by security to a boat, advised never to return, and sent upriver.
 ^cheating
 
 ### Games of Chance
@@ -246,7 +247,7 @@ To determine the result of a pull, have the player roll `5d6` (the dice represen
 | Five of a kind | 10-to-1 |
 ^copper-slots-payouts
 
-![Adventurers kill time play...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/015-02-004-three-dragon-ante.webp#center "Adventurers kill time playing three-dragon ante while scoping out the Afterlife Casino")
+![Adventurers kill time playing three-dragon ante while scoping out the Afterlife Casino](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/015-02-004-three-dragon-ante.webp#center)
 
 ### Quentin Togglepocket
 
@@ -273,8 +274,6 @@ You decide where Quentin is at any given time. If he's not chatting with patrons
 The Afterlife Casino is bustling with patrons from all parts of the world. Roll or pick randomly from the Casino Patrons table when you need a patron.
 
 **Casino Patrons**
-
-`dice: [](03-the-stygian-gambit.md#^casino-patrons)`
 
 | dice: d6 | Patron |
 |----------|--------|

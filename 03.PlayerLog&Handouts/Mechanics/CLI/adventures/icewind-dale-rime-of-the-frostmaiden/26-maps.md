@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Maps
+- "Maps"
 ---
 # Maps
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 319* 

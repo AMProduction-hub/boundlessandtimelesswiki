@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sahuagin Deep Diver
+- "Sahuagin Deep Diver"
 ---
-# [Sahuagin Deep Diver](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/sahuagin-deep-diver-gos.md)
+# [Sahuagin Deep Diver](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-deep-diver-gos.md)
 *Source: Ghosts of Saltmarsh p. 250*  
 
 These mighty sahuagin, found in The Final Enemy, are transformed by the divine magic of Sekolah to enable them to better explore the darkest depths of the ocean. Out of the water, they cling to shadows and serve as hunters and assassins. A long, scaly lure that can be illuminated extends from a deep diver's forehead.
@@ -36,14 +37,17 @@ These mighty sahuagin, found in The Final Enemy, are transformed by the divine m
   - !!int "9"
 "speed": "30 ft., swim 40 ft."
 "saves":
-  - "constitution": "+4"
-  - "wisdom": "+3"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 120 ft., passive Perception 15"
+"gear":
+  - "[glaive](03.PlayerLog&Handouts/Mechanics/CLI/items/glaive.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 15"
 "languages": "Sahuagin"
 "cr": "4"
 "traits":
@@ -67,13 +71,13 @@ These mighty sahuagin, found in The Final Enemy, are transformed by the divine m
   - "desc": "The deep diver makes two attacks with its glaive, or one attack with\
       \ its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:*\
       \ 13 (2d10 + 2) slashing damage."
     "name": "Glaive"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d10 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage."
     "name": "Claws"
   - "desc": "The deep diver pulses magical light from its lure. Any creature within\

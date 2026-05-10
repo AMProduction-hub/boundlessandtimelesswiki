@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/attunement/required
@@ -10,7 +11,7 @@ tags:
 - ttrpg-cli/item/weapon/melee
 - ttrpg-cli/item/weapon/simple
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Berserker Axe"
 - "Berserker Battleaxe"
 - "Berserker Greataxe"
@@ -18,7 +19,7 @@ aliases:
 ---
 # Berserker Axe
 *Cursed item, major, rare (requires attunement)*  
-![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/berserker-axe.webp#right)
+![Berserker axe (Battleaxe)](03.PlayerLog&Handouts/Mechanics/CLI/items/img/berserker-axe.webp#right)
 
 - **Properties**: [Cursed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Cursed%20Items)
 

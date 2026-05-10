@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Deformed Duergar
+- "Deformed Duergar"
 ---
-# [Deformed Duergar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/deformed-duergar-wdmm.md)
+# [Deformed Duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/deformed-duergar-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 180*  
 
 This creature used to be two separate duergar, a male named Blork and a female named Muatha. Arcturia fused them together into a single creature by using magic that only a [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell can undo. Both skulls merged into one bulbous head that has three ears, three eyes, two noses, and two mouths. It has a third arm on the right side of its body, and its left leg splits into two at the knee, giving it three feet. The transformation drove the poor creature insane, and it regards all other creatures as threats that must be destroyed.
@@ -37,7 +38,11 @@ This creature used to be two separate duergar, a male named Blork and a female n
   - !!int "9"
 "speed": "25 ft."
 "damage_resistances": "poison"
-"senses": "darkvision 120 ft., passive Perception 10"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+  - "[war pick](03.PlayerLog&Handouts/Mechanics/CLI/items/war-pick.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "Dwarvish, Undercommon"
 "cr": "1"
 "traits":
@@ -48,7 +53,7 @@ This creature used to be two separate duergar, a male named Blork and a female n
       \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
       \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned),\
       \ and knocked [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)."
-    "name": "Merged Heads"
+    "name": "Two Heads"
   - "desc": "The duergar has advantage on saving throws against poison, spells, and\
       \ illusions, as well as to resist being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
       \ or [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)."
@@ -65,11 +70,11 @@ This creature used to be two separate duergar, a male named Blork and a female n
       \ lacks the room to become Large, it attains the maximum size possible in the\
       \ space available."
     "name": "Enlarge (Recharges after a Short or Long Rest)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged."
     "name": "War Pick"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing\
       \ damage while enlarged."
     "name": "Javelin"
   - "desc": "The duergar magically turns [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\

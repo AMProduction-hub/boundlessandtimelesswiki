@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 aliases:
-- Chapter 1: Into the Mists
+- "Chapter 1: Into the Mists"
 ---
 # Chapter 1: Into the Mists
 *Source: Curse of Strahd, p. 9* 

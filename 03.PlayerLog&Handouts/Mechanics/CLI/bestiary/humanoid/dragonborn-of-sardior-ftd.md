@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragonborn of Sardior
+- "Dragonborn of Sardior"
 ---
-# [Dragonborn of Sardior](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/dragonborn-of-sardior-ftd.md)
+# [Dragonborn of Sardior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/dragonborn-of-sardior-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 185*  
 
 Sardior is said to have died in the destruction of the First World. But many believe that Sardior's divine essence survives within every gem dragon. This philosophy is central to the teachings of Sardior's dragonborn champions, who wield psionic power in the service of their mysterious cause. Many of these champions are associated with the Inheritors of the First World (see chapter 3).
@@ -41,10 +42,10 @@ The connection between dragonborn and their draconic ancestors manifests in a va
   - !!int "12"
 "speed": "30 ft., fly 30 ft. (hover)"
 "saves":
-  - "constitution": "+6"
-  - "intelligence": "+7"
-  - "wisdom": "+5"
-  - "charisma": "+4"
+  - "constitution": !!int "6"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -66,8 +67,8 @@ The connection between dragonborn and their draconic ancestors manifests in a va
 "actions":
   - "desc": "The dragonborn makes three Mind Blade attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 6 (1d4 + 4) piercing damage plus 10 (3d6) psychic\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 6 (1d4 + 4) piercing damage plus 10 (3d6) psychic\
       \ damage."
     "name": "Mind Blade"
   - "desc": "The dragonborn exhales a wave of intense heat in a 30-foot cone. Each\
@@ -81,7 +82,7 @@ The connection between dragonborn and their draconic ancestors manifests in a va
     "name": "Heat Breath (Recharge 6)"
   - "desc": "The dragonborn casts one of the following spells, requiring no spell\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 15, +7 to hit with spell attacks):\n\n1/day each: [Bigby's hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/bigbys-hand.md),\
+      \ DC 15, +7 to hit with spell attacks):\n\n**1/day each:** [Bigby's hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/bigbys-hand.md),\
       \ [hypnotic pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md),\
       \ [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)"
     "name": "Spellcasting (Psionics)"

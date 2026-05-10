@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Rat
+- "Rat"
 ---
-# [Rat](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/rat.md)
-*Source: Monster Manual p. 335, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Rat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/rat.md)
+*Source: Monster Manual p. 335. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Rat"
@@ -33,7 +34,8 @@ aliases:
   - !!int "10"
   - !!int "4"
 "speed": "20 ft."
-"senses": "darkvision 30 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 30 ft., passive Perception 10"
 "languages": ""
 "cr": "0"
 "traits":
@@ -41,18 +43,11 @@ aliases:
       \ checks that rely on smell."
     "name": "Keen Smell"
 "actions":
-  - "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1\
       \ piercing damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "TftYP"
-  - "ToA"
-  - "WDH"
-  - "GoS"
-  - "BGDIA"
-  - "EGW"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/rat.webp"
 ```
 ^statblock

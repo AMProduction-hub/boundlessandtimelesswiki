@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 aliases:
-- A Book of Books
+- "A Book of Books"
 ---
 # A Book of Books
 *Source: Candlekeep Mysteries, p. 4* 
@@ -13,7 +14,7 @@ aliases:
 
 If you're not running a Forgotten Realms campaign, you can adapt the adventures in this book for other settings, substituting any large library similar to Candlekeep. Examples from other published D&D settings include the following:
 
-- On the world of Exandria, the Soltryce Academy in Rexxentrum (a large city on the continent of Wildemount) or the Cobalt Reserve in Westruun (a small city on the continent of Tal'dorei)  
+- On the world of Exandria, the Soltryce Academy in Rexxentrum (a large city on the continent of Wildemount) or the Cobalt Reserve in Westruun (a small city on the continent of Tal'Dorei)  
 - On the world of Eberron, the Library of Korranberg in the nation of Zilargo, the University of Wynarn's library in the nation of Aundair, or Morgrave University's library in the city of Sharn  
 - On the world of Oerth, the Great Library in the Free City of Greyhawk  
 

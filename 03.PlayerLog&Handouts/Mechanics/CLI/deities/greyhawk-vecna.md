@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/deity/greyhawk
 - ttrpg-cli/domain/arcana
 - ttrpg-cli/domain/knowledge
-aliases: 
-- Vecna
+aliases:
+- "Vecna"
 ---
 # Vecna
 *Source: Player's Handbook p. 295, Sword Coast Adventurer's Guide p. 125* 

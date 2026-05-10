@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- War Priest
+- "War Priest"
 ---
-# [War Priest](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/war-priest-mpmm.md)
+# [War Priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/war-priest-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 254, Volo's Guide to Monsters p. 218*  
 
 War priests worship deities of war, protection, and strategy. They plan tactics, lead soldiers into battle, confront enemy spellcasters, and tend to casualties. A war priest might command an army or serve as the right hand of a [warlord](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/warlord-mpmm.md) (appears in "this book") on the battlefield.
@@ -21,8 +22,6 @@ War priests worship deities of war, protection, and strategy. They plan tactics,
 War priests typically adorn themselves with a symbol of their faith. You can roll on the War Priest Holy Symbols table below, or choose one that fits your campaign.
 
 **War Priest Holy Symbols**
-
-`dice: [](war-priest-mpmm.md#^war-priest-holy-symbols)`
 
 | dice: d8 | Holy Symbol |
 |----------|-------------|
@@ -56,21 +55,23 @@ War priests typically adorn themselves with a symbol of their faith. You can rol
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+6"
-  - "wisdom": "+7"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+5"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+4"
+"gear":
+  - "[maul](03.PlayerLog&Handouts/Mechanics/CLI/items/maul.md)"
 "senses": "passive Perception 13"
 "languages": "any two languages"
 "cr": "9"
 "actions":
   - "desc": "The war priest makes two Maul attacks, and it uses Holy Fire."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10\
-      \ (2d6 + 3) bludgeoning damage  plus Hit: 10 (3d6) radiant damage."
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10\
+      \ (2d6 + 3) bludgeoning damage  plus *Hit:* 10 (3d6) radiant damage."
     "name": "Maul"
   - "desc": "The war priest targets one creature it can see within 60 feet of it.\
       \ The target must make a DC 15 Wisdom saving throw. On a failed save, the target\
@@ -79,10 +80,10 @@ War priests typically adorn themselves with a symbol of their faith. You can rol
       \ takes half as much damage and isn't [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)."
     "name": "Holy Fire"
   - "desc": "The war priest casts one of the following spells, using Wisdom as the\
-      \ spellcasting ability (spell save DC 15):\n\nAt will: [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
+      \ spellcasting ability (spell save DC 15):\n\n**At will:** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [spare the dying](03.PlayerLog&Handouts/Mechanics/CLI/spells/spare-the-dying.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1/day each: [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \n**1/day each:** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md), [dispel\
       \ magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md), [flame\
       \ strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md), [guardian\

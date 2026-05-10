@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/artificer/armorer
 aliases:
-- Armorer
+- "Armorer"
 ---
 # Armorer
 *[Artificer](./artificer-tce.md): Artificer Specialist*  
@@ -43,11 +44,9 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Armorer (Level 3)
-
 An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer's magic, unleash potent attacks, and generate a formidable defense. The artificer bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities.
+
+## Subclass Features
 
 ### Tools of the Trade (Level 3)
 
@@ -95,25 +94,21 @@ Each model includes a special weapon. When you attack with that weapon, you can 
 
 You can change the armor's model whenever you finish a short or long rest, provided you have [smith's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/smiths-tools.md) in hand.
 
-#### Guardian
-
-You design your armor to be in the front line of conflict. It has the following features:
+**Guardian.** You design your armor to be in the front line of conflict. It has the following features:
 
 - **Thunder Gauntlets**  
 
-    Each of the armor's gauntlets counts as a simple melee weapon while you aren't holding anything in it, and it deals `d8` thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.  
+    Each of the armor's gauntlets counts as a simple melee weapon while you aren't holding anything in it, and it deals `1d8` thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.  
 
 - **Defensive Field**  
 
     As a bonus action, you can gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.  
 
-#### Infiltrator
-
-You customize your armor for subtle undertakings. It has the following features:
+**Infiltrator.** You customize your armor for subtle undertakings. It has the following features:
 
 - **Lightning Launcher**  
 
-    A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals `d6` lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra `d6` lightning damage to that target.  
+    A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals `1d6` lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra `1d6` lightning damage to that target.  
 
 - **Powered Steps**  
 
@@ -149,4 +144,4 @@ You can use this reaction a number of times equal to your proficiency bonus, and
 
 ### Infiltrator (Level 15)
 
-Any creature that takes lightning damage from your Lightning Launcher glimmers with magical light until the start of your next turn. The glimmering creature sheds dim light in a 5-foot radius, and it has disadvantage on attack rolls against you, as the light jolts it if it attacks you. In addition, the next attack roll against it has advantage, and if that attack hits, the target takes an extra `d6` lightning damage.
+Any creature that takes lightning damage from your Lightning Launcher glimmers with magical light until the start of your next turn. The glimmering creature sheds dim light in a 5-foot radius, and it has disadvantage on attack rolls against you, as the light jolts it if it attacks you. In addition, the next attack roll against it has advantage, and if that attack hits, the target takes an extra `1d6` lightning damage.

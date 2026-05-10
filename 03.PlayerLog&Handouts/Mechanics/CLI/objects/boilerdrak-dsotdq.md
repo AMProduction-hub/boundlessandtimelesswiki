@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-object
+cssclasses:
+- json5e-object
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/object/size/large
 - ttrpg-cli/object/type/siege-weapon
 aliases:
-- Boilerdrak
+- "Boilerdrak"
 ---
 # Boilerdrak
 %%-- Embedded content starts on the next line. --%%

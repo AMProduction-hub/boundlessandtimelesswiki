@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/artifact
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
-aliases: 
+aliases:
 - "Sword of Zariel"
 ---
 # Sword of Zariel
@@ -35,8 +36,6 @@ The sword allows you to attune to it immediately, without having to take a short
 
     **Personality Traits**  
 
-    `dice: [](sword-of-zariel-bgdia.md#^personality-traits)`  
-
     | dice: d8 | Personality Trait |  
     |----------|-------------------|  
     | 1 | I treat all beings, even enemies, with respect. |  
@@ -51,8 +50,6 @@ The sword allows you to attune to it immediately, without having to take a short
 
     **Ideals**  
 
-    `dice: [](sword-of-zariel-bgdia.md#^ideals)`  
-
     | dice: d6 | Ideal |  
     |----------|-------|  
     | 1 | Charity. I always help those in need. (Good) |  
@@ -65,8 +62,6 @@ The sword allows you to attune to it immediately, without having to take a short
 
     **Bonds**  
 
-    `dice: [](sword-of-zariel-bgdia.md#^bonds)`  
-
     | dice: d6 | Bond |  
     |----------|------|  
     | 1 | I have a favorite religious hymn that I constantly hum. |  
@@ -78,8 +73,6 @@ The sword allows you to attune to it immediately, without having to take a short
     ^bonds  
 
     **Flaws**  
-
-    `dice: [](sword-of-zariel-bgdia.md#^flaws)`  
 
     | dice: d6 | Flaw |  
     |----------|------|  

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Animated Halberd
+- "Animated Halberd"
 ---
-# [Animated Halberd](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/animated-halberd-cos.md)
+# [Animated Halberd](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-halberd-cos.md)
 *Source: Curse of Strahd p. 59*  
 
 ```statblock
@@ -33,7 +34,7 @@ aliases:
   - !!int "1"
 "speed": "0 ft., fly 50 ft. (hover)"
 "saves":
-  - "dexterity": "+4"
+  - "dexterity": !!int "4"
 "damage_immunities": "poison, psychic"
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
@@ -41,7 +42,10 @@ aliases:
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 7"
+"gear":
+  - "[halberd](03.PlayerLog&Handouts/Mechanics/CLI/items/halberd.md)"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 7"
 "languages": ""
 "cr": "1/4"
 "traits":
@@ -56,7 +60,7 @@ aliases:
       \ from a normal sword."
     "name": "False Appearance"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d10 + 1) slashing damage."
     "name": "Halberd"
 "source":

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 18: Vanrakdoom
+- "Level 18: Vanrakdoom"
 ---
 # Level 18: Vanrakdoom
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 231* 
@@ -50,7 +51,7 @@ Keresta is a [vampire](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampi
 
 #### Spellcasting
 
-Keresta is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). She has the following cleric spells prepared:
+Keresta is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 15, `+7` to hit with spell attacks). She has the following cleric spells prepared:
 
 - Cantrips (at will): [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md), [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md), [resistance](03.PlayerLog&Handouts/Mechanics/CLI/spells/resistance.md), [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)  
 - 1st level (4 slots): [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md), [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md), [inflict wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/inflict-wounds.md), [ray of sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md)  
@@ -70,7 +71,7 @@ If Keresta is destroyed, the fog disperses, and the rats and bats gradually die 
 
 ### Umbraxakar
 
-The shadow dragon [Umbraxakar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/umbraxakar-wdmm.md) used to be a lawful good bronze dragon named [Glyster](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/glyster-wdmm.md). Fond of assuming human form, [Glyster](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/glyster-wdmm.md) was Vanrak Moonstar's friend and companion, remaining by the noble's side even after Vanrak's fall from grace. [Glyster](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/glyster-wdmm.md) tried to turn Vanrak away from the worship of Shar, to no avail, and the dragon sank into despair. In this forlorn state, he allowed Shar's priests to transform him into a shadow dragon to better serve Vanrak in the battles to come. Thereafter, [Glyster](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/glyster-wdmm.md) became known as [Umbraxakar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/umbraxakar-wdmm.md) ("shadowborn" in Draconic).
+The shadow dragon [Umbraxakar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/umbraxakar-wdmm.md) used to be a lawful good bronze dragon named [Glyster](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/glyster-wdmm.md). Fond of assuming human form, [Glyster](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/glyster-wdmm.md) was Vanrak Moonstar's friend and companion, remaining by the noble's side even after Vanrak's fall from grace. [Glyster](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/glyster-wdmm.md) tried to turn Vanrak away from the worship of Shar, to no avail, and the dragon sank into despair. In this forlorn state, he allowed Shar's priests to transform him into a shadow dragon to better serve Vanrak in the battles to come. Thereafter, [Glyster](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/glyster-wdmm.md) became known as [Umbraxakar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/umbraxakar-wdmm.md) ("Shadowborn" in Draconic).
 
 The death knight and the shadow dragon fought side by side for many years, expanding their domain and then defending it against adventurers and other invaders. By this time, [Umbraxakar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/umbraxakar-wdmm.md) had stopped caring about anything except his friendship with Vanrak. The friendship finally ended when Vanrak destroyed himself with a [sun blade](03.PlayerLog&Handouts/Mechanics/CLI/items/sun-blade.md), leaving [Umbraxakar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/umbraxakar-wdmm.md) and the remnants of Shar's wicked cult to fend for themselves.
 
@@ -371,7 +372,7 @@ Fog swirls around the pile of shattered stone near the south wall that was once 
 
 ##### Treasure
 
-Buried under the rubble is Vanrak Moonstar's ancient [mithral armor](03.PlayerLog&Handouts/Mechanics/CLI/items/mithral-armor.md) (chain shirt), which has the additional property of granting its wearer [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) out to a range of 60 feet. If a character dons this armor in Vanrakdoom, two [shadow assassins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/shadow-assassin-wdmm.md) (see appendix A) materialize nearby and attack the character.
+Buried under the rubble is Vanrak Moonstar's ancient [mithral armor (chain shirt)](03.PlayerLog&Handouts/Mechanics/CLI/items/mithral-armor.md), which has the additional property of granting its wearer [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) out to a range of 60 feet. If a character dons this armor in Vanrakdoom, two [shadow assassins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/shadow-assassin-wdmm.md) (see appendix A) materialize nearby and attack the character.
 
 ### 16. Arch Gate to Level 15
 

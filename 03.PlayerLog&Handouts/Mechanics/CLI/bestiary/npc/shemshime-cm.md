@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Shemshime
+- "Shemshime"
 ---
-# [Shemshime](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/shemshime-cm.md)
+# [Shemshime](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/shemshime-cm.md)
 *Source: Candlekeep Mysteries p. 69*  
 
 ```statblock
@@ -32,8 +33,8 @@ aliases:
   - !!int "16"
 "speed": "0 ft., fly 40 ft. (hover)"
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+4"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
@@ -49,7 +50,8 @@ aliases:
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 120 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 14"
 "languages": "telepathy 60 ft."
 "cr": "4"
 "traits":
@@ -58,11 +60,11 @@ aliases:
       \ by an object weighing at least 1,000 pounds."
     "name": "Crushing End"
   - "desc": "Shemshime can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
       \ an object."
     "name": "Incorporeal Movement"
 "actions":
-  - "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one target. Hit: 17\
+  - "desc": "*Melee Spell Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 17\
       \ (4d6 + 3) psychic damage."
     "name": "Maddening Touch"
   - "desc": "Shemshime chooses up to two creatures it can see within 60 feet of it.\

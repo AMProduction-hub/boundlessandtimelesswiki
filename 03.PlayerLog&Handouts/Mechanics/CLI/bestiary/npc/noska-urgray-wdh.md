@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Noska Ur'gray
+- "Noska Ur'gray"
 ---
-# [Noska Ur'gray](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/noska-urgray-wdh.md)
+# [Noska Ur'gray](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/noska-urgray-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 213*  
 
 Noska is a ruthless enforcer in the Xanathar Guild. A green slime in Undermountain dissolved his left hand and forearm, and the lost appendage has been replaced with a heavy crossbow that attaches to the stump.
@@ -39,7 +40,11 @@ Noska is a ruthless enforcer in the Xanathar Guild. A green slime in Undermounta
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+2"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
+  - "[mace](03.PlayerLog&Handouts/Mechanics/CLI/items/mace.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Dwarvish"
 "cr": "1/2"
 "traits":
@@ -55,11 +60,11 @@ Noska is a ruthless enforcer in the Xanathar Guild. A green slime in Undermounta
 "actions":
   - "desc": "Noska makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 5 (1d6 + 2) bludgeoning damage."
     "name": "Mace"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit:\
-      \ 5 (d10) piercing damage."
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 100/400 ft., one target. *Hit:*\
+      \ 5 (1d10) piercing damage."
     "name": "Heavy Crossbow"
 "source":
   - "WDH"

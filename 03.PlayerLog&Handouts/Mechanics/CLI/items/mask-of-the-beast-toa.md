@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/item/rarity/uncommon
-aliases: 
+aliases:
 - "Mask of the Beast"
 ---
 # Mask of the Beast

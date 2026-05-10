@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/domain/peace
 - ttrpg-cli/subclass/cleric/peace
 aliases:
-- Peace Domain
+- "Peace Domain"
 ---
 # Peace Domain
 *[Cleric](./cleric.md): Divine Domain*  
@@ -44,10 +45,6 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Peace Domain (Level 1)
-
 The balm of peace thrives at the heart of healthy communities, between friendly nations, and in the souls of the kindhearted. The gods of peace inspire people of all sorts to resolve conflict and to stand up against those forces that try to prevent peace from flourishing. See the Peace Deities table for a list of some of the gods associated with this domain.
 
 Clerics of the Peace Domain preside over the signing of treaties, and they are often asked to arbitrate in disputes. These clerics' blessings draw people together and help them shoulder one another's burdens, and the clerics' magic aids those who are driven to fight for the way of peace.
@@ -66,8 +63,9 @@ Clerics of the Peace Domain preside over the signing of treaties, and they are o
 | [Rao](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-rao.md) | Greyhawk |
 ^peace-deities
 
-#### Domain Spells
-_Source: Tasha's Cauldron of Everything_
+## Subclass Features
+
+### Domain Spells (Level 1)
 
 *1st-level Peace Domain feature*
 
@@ -120,7 +118,7 @@ You add your Wisdom modifier to the damage you deal with any cleric cantrip.
 
 *8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Potent Spellcasting feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Expansive Bond (Level 17)
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- White Maw
+- "White Maw"
 ---
-# [White Maw](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/white-maw-tftyp.md)
+# [White Maw](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/white-maw-tftyp.md)
 *Source: Tales from the Yawning Portal p. 248*  
 
 ```statblock
@@ -39,7 +40,8 @@ aliases:
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 10"
 "languages": "telepathy 50 ft."
 "cr": "10"
 "traits":
@@ -58,7 +60,7 @@ aliases:
       \ a pseudopod attack if White Maw isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Killer Response"
 "actions":
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 22 (4d8 + 4) bludgeoning damage plus 9 (2d8) acid damage. If the target\
       \ is wearing nonmagical metal armor, its armor is partly corroded and takes\
       \ a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed\

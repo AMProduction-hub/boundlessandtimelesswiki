@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Yalah Gralhund
+- "Yalah Gralhund"
 ---
-# [Yalah Gralhund](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/yalah-gralhund-wdh.md)
+# [Yalah Gralhund](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yalah-gralhund-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 220*  
 
 The lady of House Gralhund is no fool. She has a keen mind and the wisdom to discern friend from foe. She also has a husband who worships her (see "Orond Gralhund"), and a house that has the resources of the Black Network at its disposal.
@@ -25,7 +26,7 @@ Yalah shares the services of a half-orc bodyguard with her husband, although Hra
 "size": "Medium"
 "type": "humanoid"
 "subtype": "Tethyrian human"
-"alignment": "Lawful Evil"
+"alignment": "Any alignment"
 "ac": !!int "15"
 "ac_class": "[breastplate](03.PlayerLog&Handouts/Mechanics/CLI/items/breastplate.md)"
 "hp": !!int "9"
@@ -35,22 +36,24 @@ Yalah shares the services of a half-orc bodyguard with her husband, although Hra
   - !!int "11"
   - !!int "12"
   - !!int "11"
-  - !!int "12"
   - !!int "16"
+  - !!int "14"
   - !!int "16"
 "speed": "30 ft."
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+5"
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
-    "desc": "+5"
+    "desc": "+4"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+5"
-"senses": "passive Perception 13"
+"gear":
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
+"senses": "passive Perception 12"
 "languages": "Common, Infernal"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d8 + 1) piercing damage."
     "name": "Rapier"
 "reactions":

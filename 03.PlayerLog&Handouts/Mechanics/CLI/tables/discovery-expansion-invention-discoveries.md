@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Discovery, Expansion, Invention; Discoveries
+- "Discovery, Expansion, Invention; Discoveries"
 ---
 # Discovery, Expansion, Invention; Discoveries
 *Source: Dungeon Master's Guide p. 31* 
 
 **Discoveries**
-
-`dice: [](discovery-expansion-invention-discoveries.md#^discoveries)`
 
 | dice: d10 | Discovery |
 |-----------|-----------|

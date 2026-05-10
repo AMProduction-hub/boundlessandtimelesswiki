@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Tepest Adventures
+- "Tepest Adventures"
 ---
 # Tepest Adventures
 *Source: Van Richten's Guide to Ravenloft p. 159* 
 
 **Tepest Adventures**
-
-`dice: [](tepest-adventures-vrgr.md#^tepest-adventures)`
 
 | dice: d10 | Adventure |
 |-----------|-----------|

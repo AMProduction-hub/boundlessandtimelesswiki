@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/12
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bakunawa
+- "Bakunawa"
 ---
-# [Bakunawa](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/bakunawa-jttrc.md)
+# [Bakunawa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/bakunawa-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 147*  
 
 Worshiped as draconic avatars of storm and tide, bakunawa soar over the archipelagos they call home. Iridescent scales crackling with lightning cover a bakunawa's fearsome serpentine body, and the sharp movements of its mighty wings echo with thunderous winds. Known for their mercilessness in battle, bakunawa swallow whole any who challenge them.
@@ -35,11 +36,13 @@ Worshiped as draconic avatars of storm and tide, bakunawa soar over the archipel
   - !!int "16"
 "speed": "20 ft., fly 60 ft., swim 60 ft."
 "saves":
-  - "dexterity": "+5"
-  - "constitution": "+6"
-  - "wisdom": "+7"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "7"
 "damage_resistances": "lightning, thunder"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 21"
 "languages": "Celestial, Common, Draconic"
 "cr": "12"
 "traits":
@@ -50,7 +53,7 @@ Worshiped as draconic avatars of storm and tide, bakunawa soar over the archipel
 "actions":
   - "desc": "The bakunawa makes one Bite attack and one Storm Slam attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
       \ 12 (2d6 + 5) piercing damage plus 7 (2d6) lightning damage. If the target\
       \ is a Large or smaller creature, it must succeed on a DC 17 Strength saving\
       \ throw or be swallowed by the bakunawa. A swallowed creature is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
@@ -67,10 +70,13 @@ Worshiped as draconic avatars of storm and tide, bakunawa soar over the archipel
       \ by it and can escape from the corpse by using 15 feet of movement, exiting\
       \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
-      \ 9 (1d8 + 5) bludgeoning damage plus 5 (d10) thunder damage, and the target\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
+      \ 9 (1d8 + 5) bludgeoning damage plus 5 (1d10) thunder damage, and the target\
       \ is pushed up to 10 feet in a horizontal direction away from the bakunawa."
     "name": "Storm Slam"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the bakunawa can expend a use to take one of the following actions. The\
+  \ bakunawa regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The bakunawa flies or swims up to half its speed. This movement doesn't\
       \ provoke opportunity attacks."

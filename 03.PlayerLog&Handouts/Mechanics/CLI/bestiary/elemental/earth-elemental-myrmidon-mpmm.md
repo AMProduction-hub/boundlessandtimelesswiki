@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Earth Elemental Myrmidon
+- "Earth Elemental Myrmidon"
 ---
-# [Earth Elemental Myrmidon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/earth-elemental-myrmidon-mpmm.md)
+# [Earth Elemental Myrmidon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/earth-elemental-myrmidon-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 122, Mordenkainen's Tome of Foes p. 202*  
 
 ## Elemental Myrmidons
@@ -42,13 +43,16 @@ Elemental myrmidons are Elementals conjured and bound by magic into ritually cre
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[maul](03.PlayerLog&Handouts/Mechanics/CLI/items/maul.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Terran, one language of its creator's choice"
 "cr": "7"
 "actions":
   - "desc": "The myrmidon makes two Maul attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) force damage."
     "name": "Maul"
   - "desc": "The myrmidon makes one Maul attack. On a hit, the target takes an extra\

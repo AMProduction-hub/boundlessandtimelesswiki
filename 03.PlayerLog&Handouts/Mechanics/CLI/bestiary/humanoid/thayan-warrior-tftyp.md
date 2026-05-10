@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Thayan Warrior
+- "Thayan Warrior"
 ---
-# [Thayan Warrior](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/thayan-warrior-tftyp.md)
+# [Thayan Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thayan-warrior-tftyp.md)
 *Source: Tales from the Yawning Portal p. 246*  
 
 ```statblock
@@ -37,6 +38,9 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Thayan"
 "cr": "2"
@@ -52,12 +56,12 @@ aliases:
 "actions":
   - "desc": "The warrior makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with\
       \ two hands."
     "name": "Longsword"
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 6 (1d6 + 3) piercing damage."
     "name": "Javelin"
 "source":
   - "TftYP"

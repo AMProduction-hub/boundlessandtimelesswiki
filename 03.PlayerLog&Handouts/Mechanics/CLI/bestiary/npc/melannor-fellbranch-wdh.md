@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Melannor Fellbranch
+- "Melannor Fellbranch"
 ---
-# [Melannor Fellbranch](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/melannor-fellbranch-wdh.md)
+# [Melannor Fellbranch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/melannor-fellbranch-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 36*  
 
 Melannor Fellbranch, the friendly but humorless groundskeeper of Phaulkonmere, a compound located one block south of Kolat Towers, is the characters' main contact in the Emerald Enclave
@@ -42,27 +43,30 @@ Melannor Fellbranch, the friendly but humorless groundskeeper of Phaulkonmere, a
     "desc": "+3"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[quarterstaff](03.PlayerLog&Handouts/Mechanics/CLI/items/quarterstaff.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Common, Elvish"
 "cr": "2"
 "traits":
   - "desc": "Melannor is a 4th-level spellcaster. His spellcasting ability is Wisdom.\
-      \ He has the following druid spells prepared:\n\nCantrips (at will): [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
+      \ He has the following druid spells prepared:\n\n**Cantrips (at will):** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
       \ [produce flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md),\
       \ [shillelagh](03.PlayerLog&Handouts/Mechanics/CLI/spells/shillelagh.md)\n\n\
-      1st level (4 slots): [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
+      **1st level (4 slots):** [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
       \ [longstrider](03.PlayerLog&Handouts/Mechanics/CLI/spells/longstrider.md),\
       \ [speak with animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md),\
       \ [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [animal messenger](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-messenger.md),\
+      \n**2nd level (3 slots):** [animal messenger](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-messenger.md),\
       \ [barkskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/barkskin.md)"
     "name": "Spellcasting"
   - "desc": "Melannor has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
       \ and magic can't put him to sleep."
     "name": "Fey Ancestry"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit or Melee Weapon Attack +4 to hit\
-      \ with shillelagh, reach 5 ft., one target. Hit: 3 (d6) bludgeoning damage,\
+  - "desc": "*Melee Weapon Attack:* +2 to hit or Melee Weapon Attack +4 to hit\
+      \ with shillelagh, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage,\
       \ or 6 (1d8 + 2) bludgeoning damage with shillelagh or if wielded with two\
       \ hands."
     "name": "Quarterstaff"

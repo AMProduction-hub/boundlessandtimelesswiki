@@ -1,15 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/gear/spellcasting-focus
 - ttrpg-cli/item/rarity/uncommon
-aliases: 
+aliases:
 - "Mizzium Apparatus"
 ---
 # Mizzium Apparatus
-*Wondrous item, uncommon (requires attunement by a sorcerer, warlock, or wizard)*  
+*Wondrous item, spellcasting focus, uncommon (requires attunement by a sorcerer, warlock, or wizard)*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/mizzium-apparatus.webp#right)
 
 - **Weight**: 8.0 lbs.
@@ -26,8 +28,6 @@ If you try to cast a cantrip you don't know, the DC for the Intelligence ([Arcan
 
 **1st-Level Spells**
 
-`dice: [](mizzium-apparatus-ggr.md#^1st-level-spells)`
-
 | dice: d6 | spell |
 |----------|-------|
 | 1 | [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md) |
@@ -39,8 +39,6 @@ If you try to cast a cantrip you don't know, the DC for the Intelligence ([Arcan
 ^1st-level-spells
 
 **2nd-Level Spells**
-
-`dice: [](mizzium-apparatus-ggr.md#^2nd-level-spells)`
 
 | dice: d6 | spell |
 |----------|-------|
@@ -54,8 +52,6 @@ If you try to cast a cantrip you don't know, the DC for the Intelligence ([Arcan
 
 **3rd-Level Spells**
 
-`dice: [](mizzium-apparatus-ggr.md#^3rd-level-spells)`
-
 | dice: d6 | spell |
 |----------|-------|
 | 1 | [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md) |
@@ -68,8 +64,6 @@ If you try to cast a cantrip you don't know, the DC for the Intelligence ([Arcan
 
 **4th-Level Spells**
 
-`dice: [](mizzium-apparatus-ggr.md#^4th-level-spells)`
-
 | dice: d4 | spell |
 |----------|-------|
 | 1 | [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md) |
@@ -79,8 +73,6 @@ If you try to cast a cantrip you don't know, the DC for the Intelligence ([Arcan
 ^4th-level-spells
 
 **5th-Level Spells**
-
-`dice: [](mizzium-apparatus-ggr.md#^5th-level-spells)`
 
 | dice: d4 | spell |
 |----------|-------|

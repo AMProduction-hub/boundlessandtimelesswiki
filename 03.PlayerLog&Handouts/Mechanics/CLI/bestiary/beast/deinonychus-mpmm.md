@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Deinonychus
+- "Deinonychus"
 ---
-# [Deinonychus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/deinonychus-mpmm.md)
+# [Deinonychus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/deinonychus-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 95, Volo's Guide to Monsters p. 139*  
 
 This larger cousin of the velociraptor kills by gripping its target with its claws and feeding.
@@ -54,10 +55,10 @@ This larger cousin of the velociraptor kills by gripping its target with its cla
 "actions":
   - "desc": "The deinonychus makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage."
     "name": "Claw"
 "source":

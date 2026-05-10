@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Bryn Shander
+- "Bryn Shander"
 ---
 # Bryn Shander
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 32* 
@@ -134,7 +135,7 @@ Three frostbitten shield dwarves approach the characters at the Northlook or in 
 
 The three dwarves work in a mine located in the valley at the base of Kelvin's Cairn. This mine is owned and operated by Clan Battlehammer, and it provides most of the iron for the smithies in Ten-Towns.
 
-The dwarves wear cold weather clothing. Only their eyes are visible. Treat them as [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) who speak Common and Dwarvish; being dwarves, they have [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) out to a range of 60 feet and resistance to poison damage. They carry ice picks (`d4` piercing damage) instead of clubs. Each dwarf is briefly described below:
+The dwarves wear cold weather clothing. Only their eyes are visible. Treat them as [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) who speak Common and Dwarvish; being dwarves, they have [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) out to a range of 60 feet and resistance to poison damage. They carry ice picks (`1d4` piercing damage) instead of clubs. Each dwarf is briefly described below:
 
 - Hruna speaks for the group in a voice made raspy by years of smoking. She has lost her right ear and two fingers to frostbite.  
 - Korux stares in silence and doesn't talk much. He has lost three fingers, two toes, and his nose to frostbite.  
@@ -212,9 +213,9 @@ A character who succeeds on a DC 12 Wisdom ([Animal Handling](03.PlayerLog&Hando
 
 ##### Treasure
 
-Izobai carries two [potions of animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-animal-friendship.md) and a sealskin pouch containing 13 sp, 25 cp, and a bone whistle (1 sp). The other goblins each carry `d6` cp in sealskin pouches.
+Izobai carries two [potions of animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-animal-friendship.md) and a sealskin pouch containing 13 sp, 25 cp, and a bone whistle (1 sp). The other goblins each carry `1d6` cp in sealskin pouches.
 
-![Two surly polar bears pull...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/022-01-011-polar-bears.webp#center "Two surly polar bears pull a goblin wagon across the snowy tundra")
+![Two surly polar bears pull a goblin wagon across the snowy tundra](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/022-01-011-polar-bears.webp#center)
 
 ### Concluding the Quest
 

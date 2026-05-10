@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Oceanus
+- "Oceanus"
 ---
-# [Oceanus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/oceanus-gos.md)
+# [Oceanus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/oceanus-gos.md)
 *Source: Ghosts of Saltmarsh p. 246*  
 
 Before being captured, this sea elf had been tasked with investigating the Sea Ghost's movements in The Sinister Secret of Saltmarsh. Oceanus is a smart and resourceful elf who is more than willing to join adventurers who have brave hearts and good intentions.
@@ -36,13 +37,17 @@ Before being captured, this sea elf had been tasked with investigating the Sea G
   - !!int "10"
 "speed": "30 ft., swim 30 ft."
 "saves":
-  - "constitution": "+5"
+  - "constitution": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+4"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[light crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/light-crossbow.md)"
+  - "[trident](03.PlayerLog&Handouts/Mechanics/CLI/items/trident.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Aquan, Elvish"
 "cr": "1/2"
 "traits":
@@ -52,11 +57,11 @@ Before being captured, this sea elf had been tasked with investigating the Sea G
       \ any beast that has an innate swimming speed."
     "name": "Friend of the Sea"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Trident"
-  - "desc": "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, range 80/320 ft., one target. *Hit:*\
       \ 5 (1d8 + 1) piercing damage."
     "name": "Light Crossbow"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant White Moray Eel
+- "Giant White Moray Eel"
 ---
-# [Giant White Moray Eel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-white-moray-eel-gos.md)
+# [Giant White Moray Eel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-white-moray-eel-gos.md)
 *Source: Ghosts of Saltmarsh p. 216*  
 
 ```statblock
@@ -36,14 +37,15 @@ aliases:
     "desc": "+2"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "blindsight 10 ft., passive Perception 12"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., passive Perception 12"
 "languages": ""
 "cr": "2"
 "traits":
   - "desc": "The eel can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one creature. *Hit:*\
       \ 11 (2d6 + 4) piercing damage."
     "name": "Bite"
 "source":

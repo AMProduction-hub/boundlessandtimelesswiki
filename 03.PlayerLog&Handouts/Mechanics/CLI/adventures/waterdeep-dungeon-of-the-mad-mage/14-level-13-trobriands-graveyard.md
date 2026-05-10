@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 13: Trobriand's Graveyard
+- "Level 13: Trobriand's Graveyard"
 ---
 # Level 13: Trobriand's Graveyard
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 171* 
@@ -39,7 +40,7 @@ The worm makes two attacks: one with its grinding jaws and one with its stinger.
 
 #### Grinding Jaws
 
-*Melee Weapon Attack*: +9 to hit, reach 10 ft., one target. *Hit*: 22 (`3d8 + 9`) slashing damage.
+*Melee Weapon Attack*: `+9` to hit, reach 10 ft., one target. *Hit*: 22 (`3d8 + 9`) slashing damage.
 
 ### Zox Clammersham
 
@@ -133,16 +134,14 @@ A rare wondrous item, this twelve-sided metal die is 12 inches across and bears 
 
 The dodecahedron can be hurled up to 60 feet as an action. A random magical effect occurs when the die comes to rest after rolling across the ground for at least 10 feet. If an effect requires a target and no eligible target is within range, nothing happens. Spells cast by the dodecahedron require no components. Roll a `d12` and consult the following table to determine the effect:
 
-`dice: [](14-level-13-trobriands-graveyard.md#^effect)`
-
 | dice: d12 | Effect |
 |-----------|--------|
 | 1–2 | The dodecahedron explodes and is destroyed. Each creature within 20 feet of the exploding die must make a DC 13 Dexterity saving throw, taking 40 (`9d8`) force damage on a failed save, or half as much damage on a successful one. |
 | 3–4 | The dodecahedron casts [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md) on itself. The effect lasts until a creature touches the die. |
-| 5–6 | The dodecahedron casts [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md) (+5 to hit), targeting a random creature within 60 feet of it that doesn't have total cover against the attack. |
-| 7–8 | The dodecahedron casts [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md) (+5 to hit) on the next creature that touches it. |
+| 5–6 | The dodecahedron casts [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md) (`+5` to hit), targeting a random creature within 60 feet of it that doesn't have total cover against the attack. |
+| 7–8 | The dodecahedron casts [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md) (`+5` to hit) on the next creature that touches it. |
 | 9–10 | The dodecahedron casts [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md) on itself. The effect has a duration of 10 minutes. |
-| 11–12 | The next creature to touch the dodecahedron gains `d10` temporary hit points that last for 1 hour. |
+| 11–12 | The next creature to touch the dodecahedron gains `1d10` temporary hit points that last for 1 hour. |
 ^effect
 
 ##### Orb of Gonging
@@ -190,7 +189,7 @@ The turret shoots a magical lightning bolt at one creature within 60 feet of [Sh
 
 ##### Stomp
 
-*Melee Weapon Attack*: +8 to hit, reach 10 ft., one creature. *Hit*: 22 (`3d10 + 6`) bludgeoning damage.
+*Melee Weapon Attack*: `+8` to hit, reach 10 ft., one creature. *Hit*: 22 (`3d10 + 6`) bludgeoning damage.
 
 #### Countermeasures
 
@@ -364,7 +363,7 @@ Runes carved on the inside walls of the forge channel magical energy from the El
 
 The azers were brought here from the Elemental Plane of Fire by [Trobriand](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/trobriand-wdmm.md) to sculpt metal into desired shapes. Posing as [Trobriand](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/trobriand-wdmm.md)'s apprentice, Zox orders the azers to craft parts for the Simulacrux (see area 2a) and his other pet projects. The azers understand the purpose of the Simulacrux (to replicate scaladar) but are under the false impression that Zox is building it at [Trobriand](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/trobriand-wdmm.md)'s behest, not for his own ends. The azers are frustrated by Zox because the gnome is scatterbrained and has them working on multiple projects at once. They strongly dislike the hobgoblins, who rob them of metal.
 
-A character can convince an azer to undertake a new project with a successful DC 19 Charisma ([Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)) check. The azer works for free and can craft a functional metal weapon or a metal shield in `d6` days, or a functional suit of metal armor in `3d6` days.
+A character can convince an azer to undertake a new project with a successful DC 19 Charisma ([Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)) check. The azer works for free and can craft a functional metal weapon or a metal shield in `1d6` days, or a functional suit of metal armor in `3d6` days.
 
 The azers are nonthreatening. If the lava children attack the party, the azers don't join the fight, preferring to observe from the periphery.
 
@@ -420,11 +419,11 @@ A flame cannon is a bulky mechanical contraption that hurls casks of alchemist's
 
 ##### Flame Cannon
 
-*Ranged Weapon Attack*: +4 to hit, range 60/240 ft., one target. *Hit*: 3 (`d6`) bludgeoning damage plus 17 (`5d6`) fire damage, and the target catches fire. While on fire, the target takes `d6` fire damage at the start of each of its turns. A creature can end this damage by immersing itself in water or by using an action to make a successful DC 10 Dexterity check to extinguish the flames.
+*Ranged Weapon Attack*: `+4` to hit, range 60/240 ft., one target. *Hit*: 3 (`1d6`) bludgeoning damage plus 17 (`5d6`) fire damage, and the target catches fire. While on fire, the target takes `1d6` fire damage at the start of each of its turns. A creature can end this damage by immersing itself in water or by using an action to make a successful DC 10 Dexterity check to extinguish the flames.
 
 The stone enclosure has a hinged gate made of sturdy wooden poles lashed together with rope and held shut with a simple latch. The hobgoblins like to starve the rust monsters for a few days, then set them loose on this level. The rust monsters can't escape from the pen on their own, but they are drawn to the scent of metal. The hobgoblins use the wooden tower shield and 10-foot poles to wrangle the rust monsters outside their pen and keep the beasts away from their metal armor.
 
-Twelve giant fire beetle glands illuminate the rust monster pen. Each gland is the size of a small loaf of bread and glows for `d3` days before going dark.
+Twelve giant fire beetle glands illuminate the rust monster pen. Each gland is the size of a small loaf of bread and glows for `1d3` days before going dark.
 
 ### 12. Paradise Lost
 
@@ -436,7 +435,7 @@ These 40-foot-high caverns once housed a thriving fungus forest and a colony of 
 > 
 > **Burned Remains**. Blackened and smoldering zurkhwood stalks, their caps destroyed by fire, stand amid the charred remains of what once were neatly tended fungus gardens.
 > 
-> **Corpses**. Lying amid the razed mushrooms are the charred corpses of `d4` giant fire beetles, `d6` myconid sprouts, and `d8` myconid adults. The glands have been torn out of the fire beetles' bodies.
+> **Corpses**. Lying amid the razed mushrooms are the charred corpses of `1d4` giant fire beetles, `1d6` myconid sprouts, and `1d8` myconid adults. The glands have been torn out of the fire beetles' bodies.
 ^6f6
 
 A character who inspects the corpses and succeeds on a DC 15 Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)) check can determine that the beetles and myconids were killed by slashing weapons and arrows, then burned.

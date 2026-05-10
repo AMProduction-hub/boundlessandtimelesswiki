@@ -1,22 +1,23 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/background/boros-legionnaire
 aliases:
-- Spells for Boros Legionnaire
+- "Spells for Boros Legionnaire"
 ---
 # Spells for Boros Legionnaire
 
 ## Cantrip
 
-- [Fire Bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md "PHB") with access to 2nd-level spells
-- [Sacred Flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md "PHB") with access to 2nd-level spells
+- [Fire Bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md "PHB") as cantrip
+- [Sacred Flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md "PHB") as cantrip
 
 ## 1st Level
 
-- [Guiding Bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/guiding-bolt.md "PHB") with access to 2nd-level spells
-- [Heroism](03.PlayerLog&Handouts/Mechanics/CLI/spells/heroism.md "PHB") with access to 2nd-level spells
+- [Guiding Bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/guiding-bolt.md "PHB") with access to 1st-level spells
+- [Heroism](03.PlayerLog&Handouts/Mechanics/CLI/spells/heroism.md "PHB") with access to 1st-level spells
 
 ## 2nd Level
 
@@ -25,14 +26,14 @@ aliases:
 
 ## 3rd Level
 
-- [Beacon of Hope](03.PlayerLog&Handouts/Mechanics/CLI/spells/beacon-of-hope.md "PHB") with access to 2nd-level spells
-- [Blinding Smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/blinding-smite.md "PHB") with access to 2nd-level spells
+- [Beacon of Hope](03.PlayerLog&Handouts/Mechanics/CLI/spells/beacon-of-hope.md "PHB") with access to 3rd-level spells
+- [Blinding Smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/blinding-smite.md "PHB") with access to 3rd-level spells
 
 ## 4th Level
 
-- [Death Ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/death-ward.md "PHB") with access to 2nd-level spells
-- [Wall of Fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md "PHB") with access to 2nd-level spells
+- [Death Ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/death-ward.md "PHB") with access to 4th-level spells
+- [Wall of Fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md "PHB") with access to 4th-level spells
 
 ## 5th Level
 
-- [Flame Strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md "PHB") with access to 2nd-level spells
+- [Flame Strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md "PHB") with access to 5th-level spells

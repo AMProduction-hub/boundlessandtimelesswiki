@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/21
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Astral Dreadnought
+- "Astral Dreadnought"
 ---
-# [Astral Dreadnought](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/astral-dreadnought-mpmm.md)
+# [Astral Dreadnought](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/astral-dreadnought-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 51, Mordenkainen's Tome of Foes p. 117*  
 
 Enormous and terrifying, astral dreadnoughts haunt the silvery void of the Astral Plane, causing planar travelers to shudder at the very thought of them. Dreadnoughts have been gliding through the astral mists since the dawn of the multiverse, trying to devour all other creatures they encounter.
@@ -38,8 +39,8 @@ Covered from head to tail in layers of thick, spiked plates, a dreadnought has t
   - !!int "18"
 "speed": "15 ft., fly 80 ft. (hover)"
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+9"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "9"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+9"
@@ -51,7 +52,8 @@ Covered from head to tail in layers of thick, spiked plates, a dreadnought has t
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 120 ft., passive Perception 19"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 19"
 "languages": ""
 "cr": "21"
 "traits":
@@ -87,16 +89,19 @@ Covered from head to tail in layers of thick, spiked plates, a dreadnought has t
 "actions":
   - "desc": "The dreadnought makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:*\
       \ 36 (5d10 + 9) force damage. If the target is a Huge or smaller creature\
       \ and this damage reduces it to 0 hit points or it is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated),\
       \ the dreadnought swallows it. The swallowed target, along with everything it\
       \ is wearing and carrying, appears in an unoccupied space on the floor of the\
       \ Demiplanar Donjon."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 20 ft., one target. *Hit:*\
       \ 19 (3d6 + 9) force damage."
     "name": "Claw"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the astral dreadnought can expend a use to take one of the following actions.\
+  \ The astral dreadnought regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The dreadnought makes one Claw attack."
     "name": "Claw"

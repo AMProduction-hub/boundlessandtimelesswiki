@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Supplemental Tables; Relationship
+- "Supplemental Tables; Relationship"
 ---
 # Supplemental Tables; Relationship
 *Source: Xanathar's Guide to Everything p. 72* 
 
 **Relationship**
-
-`dice: [](supplemental-tables-relationship-xge.md#^relationship)`
 
 | dice: 3d4 | Attitude |
 |-----------|----------|

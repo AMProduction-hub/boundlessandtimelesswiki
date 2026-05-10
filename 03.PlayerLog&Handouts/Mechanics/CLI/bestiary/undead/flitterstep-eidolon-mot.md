@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Flitterstep Eidolon
+- "Flitterstep Eidolon"
 ---
-# [Flitterstep Eidolon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/flitterstep-eidolon-mot.md)
+# [Flitterstep Eidolon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/flitterstep-eidolon-mot.md)
 *Source: Mythic Odysseys of Theros p. 222*  
 
 When a mortal soul traumatically sacrifices its identity in order to escape the Underworld as a Returned, its identity manifests as a spirit-like eidolon. While eidolons possess many of the skills and details related to their past lives, they're disconnected from those experiences, choosing to wander the world or brood in haunts they're drawn to in death. They care nothing for morbid reunions with their lost bodies or Returned remnants.
@@ -63,7 +64,7 @@ Of the various types of eidolons, flitterstep eidolons are the most common and w
       \ use this trait if it's [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Evasion"
   - "desc": "The eidolon can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
       \ an object."
     "name": "Incorporeal Movement"
   - "desc": "The eidolon has advantage on saving throws against any effect that turns\
@@ -73,8 +74,8 @@ Of the various types of eidolons, flitterstep eidolons are the most common and w
   - "desc": "The eidolon makes two melee attacks. Immediately before or after one\
       \ of its attacks, it can use Flitterstep if it is available."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d4 + 4) piercing damage plus 3 (d6) psychic damage."
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
+      \ (1d4 + 4) piercing damage plus 3 (1d6) psychic damage."
     "name": "Flickering Dagger"
   - "desc": "The eidolon magically teleports to an unoccupied space it can see within\
       \ 30 feet of it. If it makes an attack immediately after teleporting, it has\

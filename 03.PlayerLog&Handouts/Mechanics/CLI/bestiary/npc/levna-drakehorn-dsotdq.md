@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Levna Drakehorn
+- "Levna Drakehorn"
 ---
-# [Levna Drakehorn](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/levna-drakehorn-dsotdq.md)
+# [Levna Drakehorn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/levna-drakehorn-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 213*  
 
 Though a recent inductee into the Order of the Rose, [Levna](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/levna-drakehorn-dsotdq.md) is a confident, experienced Solamnic knight. She is brave, decisive, and deadly with her two-handed sword. After a chance encounter with agents of the Blue Dragon Army, Levna was left with a distinctive, branching scar. She claims it came from the breath of a blue dragon, but few of her fellow Knights of Solamnia believe her.
@@ -36,7 +37,7 @@ Though a recent inductee into the Order of the Rose, [Levna](03.PlayerLog&Handou
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+4"
+  - "constitution": !!int "4"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+4"
@@ -44,6 +45,8 @@ Though a recent inductee into the Order of the Rose, [Levna](03.PlayerLog&Handou
     "desc": "+4"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
 "senses": "passive Perception 12"
 "languages": "Common"
 "traits":
@@ -54,7 +57,7 @@ Though a recent inductee into the Order of the Rose, [Levna](03.PlayerLog&Handou
       \ one of her allies is within 5 feet of the creature and the ally isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d6 + 2) slashing damage."
     "name": "Greatsword"
 "reactions":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ougalop
+- "Ougalop"
 ---
-# [Ougalop](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/ougalop-oota.md)
+# [Ougalop](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ougalop-oota.md)
 *Source: Out of the Abyss p. 142*  
 
 ```statblock
@@ -36,7 +37,11 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
-"senses": "darkvision 120 ft., passive Perception 14"
+"gear":
+  - "[net](03.PlayerLog&Handouts/Mechanics/CLI/items/net.md)"
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 14"
 "languages": "Undercommon"
 "cr": "1/4"
 "traits":
@@ -54,15 +59,15 @@ aliases:
       \ checks that rely on sight."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d4 + 1) piercing damage."
     "name": "Bite"
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Spear"
-  - "desc": "Ranged Weapon Attack: +3 to hit, range 5/15 ft., one Large or smaller\
-      \ creature. Hit: The target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, range 5/15 ft., one Large or smaller\
+      \ creature. *Hit:* The target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
       \ A creature can use its action to make a DC 10 Strength check to free itself\
       \ or another creature in a net, ending the effect on a success. Dealing 5 slashing\
       \ damage to the net (AC 10) frees the target without harming it and destroys\

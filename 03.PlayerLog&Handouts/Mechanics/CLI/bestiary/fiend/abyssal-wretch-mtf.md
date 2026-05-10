@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/monster/cr/1-4
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Abyssal Wretch
+- "Abyssal Wretch"
 ---
-# [Abyssal Wretch](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/abyssal-wretch-mtf.md)
-*Source: Mordenkainen's Tome of Foes p. 136, Baldur's Gate: Descent Into Avernus*  
+# [Abyssal Wretch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/abyssal-wretch-mtf.md)
+*Source: Mordenkainen's Tome of Foes p. 136*  
 
 ```statblock
 "name": "Abyssal Wretch (MTF)"
@@ -37,16 +38,16 @@ aliases:
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 9"
 "languages": "understands Abyssal but can't speak"
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d8 + 1) slashing damage."
     "name": "Bite"
 "source":
   - "MTF"
-  - "BGDIA"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/abyssal-wretch-mtf.webp"
 ```
 ^statblock

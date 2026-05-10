@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 aliases:
-- Wages of Vice
+- "Wages of Vice"
 ---
 # Wages of Vice
 *Source: Journeys through the Radiant Citadel, p. 66* 
@@ -58,7 +59,7 @@ Consider the following ways to involve characters in this adventure:
 
 ## Starting the Adventure
 
-![Prince of Vice, Azra Nir, ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/041-05-001-march-of-vice-festivities.webp#center "Prince of Vice, Azra Nir, leads Zinda's annual March of Vice festivities—unaware he's just one target of a killer")
+![Prince of Vice, Azra Nir, leads Zinda's annual March of Vice festivities—unaware he's just one target of a killer](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/041-05-001-march-of-vice-festivities.webp#center)
 
 The adventure begins with the characters traveling through the rain forest near Zinda, following a caravan of merchants. Read the following description to set the scene:
 
@@ -161,8 +162,6 @@ Seeking Zenia at the Thornapple gives the characters their first opportunity to 
 
 **Zinda Rumors**
 
-`dice: [](06-wages-of-vice.md#^zinda-rumors)`
-
 | dice: d6 | Rumor |
 |----------|-------|
 | 1 | A witch is keen to collect coven members from the heirs and families of the Kings of Coin. (False) |
@@ -196,7 +195,7 @@ Moments after Kala pushes past the characters, read the following text:
 
 The characters see the herbalist who works the stall coughing as he attacks a man on the ground. Characters who have a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 14 or higher also notice a dissipating pink cloud around the figures.
 
-Seeing this, the horrified crowd stampedes. Each character in the market must succeed on a DC 14 Dexterity saving throw or take 3 (`d6`) bludgeoning damage from the crush.
+Seeing this, the horrified crowd stampedes. Each character in the market must succeed on a DC 14 Dexterity saving throw or take 3 (`1d6`) bludgeoning damage from the crush.
 
 ##### Poisoned Merchant
 
@@ -294,7 +293,7 @@ While the characters talk with Zenia, they hear raucous voices at the door.
 > A moment later, the [diva](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/diva-jttrc.md)'s expression changes. [Diva Luma](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/diva-luma-jttrc.md) grins cruelly, slips off her heeled shoes, and leaps toward Zenia.
 ^189
 
-![Divas attack the crowd at ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/045-05-005-divas-attack.webp#center "Divas attack the crowd at the Thornapple during their March of Vice performance")
+![Divas attack the crowd at the Thornapple during their March of Vice performance](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/045-05-005-divas-attack.webp#center)
 
 Kala has been lurking near the Thornapple, looking for opportunities to strike at Zenia. She found her opportunity with [Diva Luma](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/diva-luma-jttrc.md), tainting the [diva](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/diva-jttrc.md)'s glitter—a feature of the [diva](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/diva-jttrc.md)'s performances—with rage-inducing [biza's breath](03.PlayerLog&Handouts/Mechanics/CLI/items/bizas-breath-jttrc.md).
 
@@ -487,8 +486,6 @@ The festival called the March of Vice shares similar supernatural origins. Tales
 Consider the plots on the Zinda Adventures table when planning adventures in the city.
 
 **Zinda Adventures**
-
-`dice: [](06-wages-of-vice.md#^zinda-adventures)`
 
 | dice: d6 | Adventure |
 |----------|-----------|

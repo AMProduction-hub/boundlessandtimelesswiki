@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Chapter 4: Sword of Zariel
+- "Chapter 4: Sword of Zariel"
 ---
 # Chapter 4: Sword of Zariel
 *Source: Baldur's Gate: Descent Into Avernus, p. 134* 
@@ -521,7 +522,7 @@ This event overlaps with the end of the previous one. Read the following boxed t
 
 Event 7 begins after three rounds of combat with the demon lord or when Yeenoghu is reduced to 100 hit points or fewer.
 
-![Left to right: Charge of Z...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/099-ivhcv-04-04.webp#center "Left to right: Charge of Zariel and the Hellriders, the war on Avernus, and Zariel's surrender to Asmodeus")
+![Left to right: Charge of Zariel and the Hellriders, the war on Avernus, and Zariel's surrender to Asmodeus](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/099-ivhcv-04-04.webp#center)
 
 #### Event 7. Zariel's Arrival
 
@@ -542,7 +543,7 @@ Zariel lets each character answer her question in turn. She thanks them for thei
 
 Once Zariel bestows her supernatural charms, [Lulu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lulu-bgdia.md)'s Idyllglen memory ends. A flash of light brings all the characters (including dead ones) back to the Bleeding Citadel so that one of them might finally claim the [Sword of Zariel](03.PlayerLog&Handouts/Mechanics/CLI/items/sword-of-zariel-bgdia.md).
 
-![Left to right: Haruman eme...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/100-rkst9-04-05.webp#center "Left to right: Haruman emerging from the Styx, Olanthius transformed into a death knight, and both by Zariel's side")
+![Left to right: Haruman emerging from the Styx, Olanthius transformed into a death knight, and both by Zariel's side](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/100-rkst9-04-05.webp#center)
 
 ## Claiming the Sword
 

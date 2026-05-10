@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Sharn Watch Adventure Hooks
+- "Sharn Watch Adventure Hooks"
 ---
 # Sharn Watch Adventure Hooks
 *Source: Eberron: Rising from the Last War p. 259* 
 
 **Sharn Watch Adventure Hooks**
-
-`dice: [](sharn-watch-adventure-hooks-erlw.md#^sharn-watch-adventure-hooks)`
 
 | dice: d4 | Adventure Hook |
 |----------|----------------|

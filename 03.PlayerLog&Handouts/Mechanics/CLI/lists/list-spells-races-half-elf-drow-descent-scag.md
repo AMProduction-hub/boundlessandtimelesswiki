@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subrace/half-elf-drow-descent
 aliases:
-- Spells for Half-Elf (Drow Descent)
+- "Spells for Half-Elf (Drow Descent)"
 ---
 # Spells for Half-Elf (Drow Descent)
 
@@ -14,8 +15,8 @@ aliases:
 
 ## 1st Level
 
-- [Faerie Fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md "PHB") as cantrip
+- [Faerie Fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md "PHB") at class level 3
 
 ## 2nd Level
 
-- [Darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md "PHB") as cantrip
+- [Darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md "PHB") at class level 5

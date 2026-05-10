@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-hazard
+cssclasses:
+- json5e-hazard
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/hazard/smpl
 aliases:
-- Net Trap
+- "Net Trap"
 ---
 # Net Trap
 *Generic Hazard*  

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Middle Dura; Bazaar Merchants
+- "Middle Dura; Bazaar Merchants"
 ---
 # Middle Dura; Bazaar Merchants
 *Source: Eberron: Rising from the Last War p. 167* 
 
 **Bazaar Merchants**
-
-`dice: [](middle-dura-bazaar-merchants-erlw.md#^bazaar-merchants)`
 
 | dice: d10 | Merchant |
 |-----------|----------|

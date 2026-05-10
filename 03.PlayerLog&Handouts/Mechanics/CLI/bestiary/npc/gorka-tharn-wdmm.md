@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/15
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gorka Tharn
+- "Gorka Tharn"
 ---
-# [Gorka Tharn](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/gorka-tharn-wdmm.md)
+# [Gorka Tharn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gorka-tharn-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 257*  
 
 ```statblock
@@ -33,10 +34,10 @@ aliases:
   - !!int "16"
 "speed": "20 ft."
 "saves":
-  - "constitution": "+8"
-  - "intelligence": "+5"
-  - "wisdom": "+9"
-  - "charisma": "+8"
+  - "constitution": !!int "8"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+5"
@@ -50,27 +51,28 @@ aliases:
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Dwarvish, Undercommon"
 "cr": "15"
 "traits":
   - "desc": "The mummy lord is a 10th-level spellcaster. Its spellcasting ability\
       \ is Wisdom (spell save DC 17, +9 to hit with spell attacks). The mummy lord\
-      \ has the following cleric spells prepared:\n\nCantrips (at will): [sacred\
+      \ has the following cleric spells prepared:\n\n**Cantrips (at will):** [sacred\
       \ flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md), [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \n**1st level (4 slots):** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [guiding bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/guiding-bolt.md),\
       \ [shield of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield-of-faith.md)\n\
-      \n2nd level (3 slots): [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
+      \n**2nd level (3 slots):** [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [silence](03.PlayerLog&Handouts/Mechanics/CLI/spells/silence.md), [spiritual\
       \ weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md)\n\n\
-      3rd level (3 slots): [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
+      **3rd level (3 slots):** [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md)\n\
-      \n4th level (3 slots): [stone shape](03.PlayerLog&Handouts/Mechanics/CLI/spells/stone-shape.md),\
+      \n**4th level (3 slots):** [stone shape](03.PlayerLog&Handouts/Mechanics/CLI/spells/stone-shape.md),\
       \ [guardian of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/guardian-of-faith.md)\n\
-      \n5th level (2 slots): [contagion](03.PlayerLog&Handouts/Mechanics/CLI/spells/contagion.md),\
+      \n**5th level (2 slots):** [contagion](03.PlayerLog&Handouts/Mechanics/CLI/spells/contagion.md),\
       \ [insect plague](03.PlayerLog&Handouts/Mechanics/CLI/spells/insect-plague.md)\n\
-      \n6th level (1 slots): [harm](03.PlayerLog&Handouts/Mechanics/CLI/spells/harm.md)"
+      \n**6th level (1 slots):** [harm](03.PlayerLog&Handouts/Mechanics/CLI/spells/harm.md)"
     "name": "Spellcasting"
   - "desc": "The mummy lord has advantage on saving throws against spells and other\
       \ magical effects."
@@ -83,7 +85,7 @@ aliases:
   - "desc": "The mummy can use its Dreadful Glare and makes one attack with its rotting\
       \ fist."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (3d6 + 4) bludgeoning damage plus 21 (6d6) necrotic damage. If the target\
       \ is a creature, it must succeed on a DC 16 Constitution saving throw or be\
       \ cursed with mummy rot. The cursed target can't regain hit points, and its\
@@ -122,6 +124,9 @@ aliases:
       \ mummy lord from rejuvenating. The heart is a Tiny object with AC 5, 25 hit\
       \ points, and immunity to all damage except fire."
     "name": "Invisibility (Recharges after a Short or Long Rest)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Gorka can expend a use to take one of the following actions. Gorka regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "The mummy lord makes one attack with its rotting fist or uses its Dreadful\
       \ Glare."

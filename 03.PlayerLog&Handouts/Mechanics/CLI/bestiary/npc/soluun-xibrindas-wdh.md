@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Soluun Xibrindas
+- "Soluun Xibrindas"
 ---
-# [Soluun Xibrindas](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/soluun-xibrindas-wdh.md)
+# [Soluun Xibrindas](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/soluun-xibrindas-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 202*  
 
 Soluun is a sadistic, fanatical bully who is fiercely loyal to Bregan D'aerthe, and to Jarlaxle in particular. His younger brother, Nar'l, has infiltrated the Xanathar Guild. Soluun considers Nar'l a weakling who turned to arcane magic by way of compensation, and he has never had much faith in his brother or his abilities.
@@ -39,21 +40,24 @@ Soluun has a burning hatred of surface elves and half-elves, having been taught 
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+6"
-  - "constitution": "+4"
-  - "wisdom": "+3"
+  - "dexterity": !!int "6"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+8"
-"senses": "darkvision 120 ft., passive Perception 13"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "Elvish, Undercommon"
 "cr": "4"
 "traits":
   - "desc": "Soluun's spellcasting ability is Charisma. It can innately cast the following\
-      \ spells, requiring no material components:\n\nAt will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
-      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ spells, requiring no material components:\n\n**At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
+      \n**1/day each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
       \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md) (self only)"
     "name": "Innate Spellcasting"
@@ -78,10 +82,10 @@ Soluun has a burning hatred of surface elves and half-elves, having been taught 
 "actions":
   - "desc": "Soluun makes two scimitar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) slashing damage."
     "name": "Scimitar"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 30/90 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 30/90 ft., one target. *Hit:*\
       \ 9 (1d10 + 4) piercing damage plus 11 (2d10) poison damage."
     "name": "Poisonous Pistol"
 "source":

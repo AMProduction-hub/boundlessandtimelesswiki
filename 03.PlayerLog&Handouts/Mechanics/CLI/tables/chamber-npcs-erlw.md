@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Chamber NPCs
+- "Chamber NPCs"
 ---
 # Chamber NPCs
 *Source: Eberron: Rising from the Last War p. 195* 
 
 **Chamber NPCs**
-
-`dice: [](chamber-npcs-erlw.md#^chamber-npcs)`
 
 | dice: d6 | NPC |
 |----------|-----|

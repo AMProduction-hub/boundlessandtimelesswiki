@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/12
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Wyllow
+- "Wyllow"
 ---
-# [Wyllow](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/wyllow-wdmm.md)
+# [Wyllow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/wyllow-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 70*  
 
 Wyllow is a moon elf druid with eyes as green as emeralds. Butterflies nest in her tangled black hair, and small critters gather around her feet.
@@ -37,8 +38,8 @@ Wyllow is a moon elf druid with eyes as green as emeralds. Butterflies nest in h
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+9"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "9"
 "skillsaves":
   - "name": "[Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)"
     "desc": "+9"
@@ -46,46 +47,49 @@ Wyllow is a moon elf druid with eyes as green as emeralds. Butterflies nest in h
     "desc": "+5"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+9"
-"senses": "darkvision 60 ft., passive Perception 19"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 19"
 "languages": "Common, Druidic, Elvish"
 "cr": "12"
 "traits":
   - "desc": "Wyllow is an 18th-level spellcaster. Its spellcasting ability is Wisdom\
       \ (spell save DC 17, +9 to hit with spell attacks). It has the following druid\
-      \ spells prepared:\n\nCantrips (at will): [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
+      \ spells prepared:\n\n**Cantrips (at will):** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
       \ [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md), [poison\
       \ spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md), [produce\
-      \ flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md)\n\n1st\
-      \ level (4 slots): [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
+      \ flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md)\n\n**1st\
+      \ level (4 slots):** [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md), [faerie\
       \ fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md), [speak with\
       \ animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md)\n\
-      \n2nd level (3 slots): [animal messenger](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-messenger.md),\
+      \n**2nd level (3 slots):** [animal messenger](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-messenger.md),\
       \ [beast sense](03.PlayerLog&Handouts/Mechanics/CLI/spells/beast-sense.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md)\n\
-      \n3rd level (3 slots): [conjure animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-animals.md),\
+      \n**3rd level (3 slots):** [conjure animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-animals.md),\
       \ [meld into stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/meld-into-stone.md),\
       \ [water breathing](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-breathing.md)\n\
-      \n4th level (3 slots): [dominate beast](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-beast.md),\
+      \n**4th level (3 slots):** [dominate beast](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-beast.md),\
       \ [locate creature](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-creature.md),\
       \ [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md), [wall\
-      \ of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)\n\n5th\
-      \ level (3 slots): [commune with nature](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune-with-nature.md),\
+      \ of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)\n\n**5th\
+      \ level (3 slots):** [commune with nature](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune-with-nature.md),\
       \ [mass cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-cure-wounds.md),\
       \ [tree stride](03.PlayerLog&Handouts/Mechanics/CLI/spells/tree-stride.md)\n\
-      \n6th level (1 slots): [heal](03.PlayerLog&Handouts/Mechanics/CLI/spells/heal.md),\
+      \n**6th level (1 slots):** [heal](03.PlayerLog&Handouts/Mechanics/CLI/spells/heal.md),\
       \ [heroes' feast](03.PlayerLog&Handouts/Mechanics/CLI/spells/heroes-feast.md),\
-      \ [sunbeam](03.PlayerLog&Handouts/Mechanics/CLI/spells/sunbeam.md)\n\n7th\
-      \ level (1 slots): [fire storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-storm.md)\n\
-      \n8th level (1 slots): [animal shapes](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-shapes.md)\n\
-      \n9th level (1 slots): [foresight](03.PlayerLog&Handouts/Mechanics/CLI/spells/foresight.md)"
+      \ [sunbeam](03.PlayerLog&Handouts/Mechanics/CLI/spells/sunbeam.md)\n\n**7th\
+      \ level (1 slots):** [fire storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-storm.md)\n\
+      \n**8th level (1 slots):** [animal shapes](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-shapes.md)\n\
+      \n**9th level (1 slots):** [foresight](03.PlayerLog&Handouts/Mechanics/CLI/spells/foresight.md)"
     "name": "Spellcasting"
   - "desc": "Wyllow"
     "name": "Fey Ancestry"
   - "desc": "Wyllow"
     "name": "Mask of the Wild"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage."
     "name": "Scimitar"
   - "desc": "Wyllow magically polymorphs into a beast or elemental with a challenge\

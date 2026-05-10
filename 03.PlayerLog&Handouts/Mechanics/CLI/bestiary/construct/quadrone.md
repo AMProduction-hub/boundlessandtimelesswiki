@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Quadrone
+- "Quadrone"
 ---
-# [Quadrone](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/quadrone.md)
-*Source: Monster Manual p. 226, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Keys from the Golden Vault*  
+# [Quadrone](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/quadrone.md)
+*Source: Monster Manual p. 226*  
 
 Astute combatants, quadrones serve as artillery and field officers in the regiments of modron armies.
 
@@ -69,7 +70,10 @@ When the gears of Mechanus complete seventeen cycles once every 289 years, Primu
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "truesight 120 ft., passive Perception 12"
+"gear":
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 12"
 "languages": "Modron"
 "cr": "1"
 "traits":
@@ -82,17 +86,14 @@ When the gears of Mechanus complete seventeen cycles once every 289 years, Primu
 "actions":
   - "desc": "The quadrone makes two fist attacks or four shortbow attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d4 + 1) bludgeoning damage."
     "name": "Fist"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Shortbow"
 "source":
   - "MM"
-  - "ToA"
-  - "WDMM"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/quadrone.webp"
 ```
 ^statblock

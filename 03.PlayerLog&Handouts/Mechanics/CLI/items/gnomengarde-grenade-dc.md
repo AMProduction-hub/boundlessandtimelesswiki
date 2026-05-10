@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dc
 - ttrpg-cli/item/rarity/varies
-aliases: 
+aliases:
 - "Gnomengarde Grenade"
 ---
 # Gnomengarde Grenade

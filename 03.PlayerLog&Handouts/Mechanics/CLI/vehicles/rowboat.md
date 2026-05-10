@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-vehicle
+cssclasses:
+- json5e-vehicle
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/vehicle/size/large
 - ttrpg-cli/vehicle/terrain/sea
 - ttrpg-cli/vehicle/type/ship
 aliases:
-- Rowboat
+- "Rowboat"
 ---
 # Rowboat
 %%-- Embedded content starts on the next line. --%%

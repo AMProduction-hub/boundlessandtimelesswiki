@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gray Ooze
+- "Gray Ooze"
 ---
-# [Gray Ooze](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\ooze/gray-ooze.md)
-*Source: Monster Manual p. 243, Curse of Strahd, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Gray Ooze](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/gray-ooze.md)
+*Source: Monster Manual p. 243. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 A gray ooze is stone turned to liquid by chaos. When it moves, it slithers like a liquid snake, rising to strike.
 
@@ -69,7 +70,8 @@ An ooze doesn't require sleep.
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 8"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -85,7 +87,7 @@ An ooze doesn't require sleep.
       \ pool or wet rock."
     "name": "False Appearance"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) bludgeoning damage plus 7 (2d6) acid damage, and if the target\
       \ is wearing nonmagical metal armor, its armor is partly corroded and takes\
       \ a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed\
@@ -93,11 +95,6 @@ An ooze doesn't require sleep.
     "name": "Pseudopod"
 "source":
   - "MM"
-  - "CoS"
-  - "TftYP"
-  - "WDH"
-  - "GoS"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/token/gray-ooze.webp"
 ```
 ^statblock

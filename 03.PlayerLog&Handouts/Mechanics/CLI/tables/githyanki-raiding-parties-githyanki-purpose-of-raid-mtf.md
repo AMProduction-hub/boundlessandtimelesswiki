@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Githyanki Raiding Parties; Githyanki Purpose of Raid
+- "Githyanki Raiding Parties; Githyanki Purpose of Raid"
 ---
 # Githyanki Raiding Parties; Githyanki Purpose of Raid
 *Source: Mordenkainen's Tome of Foes p. 98* 
 
 **Githyanki Purpose of Raid**
-
-`dice: [](githyanki-raiding-parties-githyanki-purpose-of-raid-mtf.md#^githyanki-purpose-of-raid)`
 
 | dice: d6 | Purpose |
 |----------|---------|

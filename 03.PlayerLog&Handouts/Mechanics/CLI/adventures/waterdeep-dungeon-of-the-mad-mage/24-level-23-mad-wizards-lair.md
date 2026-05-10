@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 23: Mad Wizard's Lair
+- "Level 23: Mad Wizard's Lair"
 ---
 # Level 23: Mad Wizard's Lair
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 289* 
@@ -199,7 +200,7 @@ Hanging on the west wall of this otherwise empty 15-foot-high room is a steel sh
 
 A [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell reveals an aura of abjuration magic around the otherwise ordinary shield, inside which is trapped a [deva](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/deva.md) named Aryx. While trapped in the shield, Aryx can't communicate with anyone. Any ability that detects the presence of celestials, such as a paladin's Divine Sense class feature, reveals the presence of such a creature bound within the shield. If a [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md) spell is cast on the shield, or if the shield comes within 10 feet of a fiend, the deva is released, appearing within 5 feet of the shield or in the nearest unoccupied space. Once freed, the deva uses its [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md) spell to determine if there are any evil creatures in its presence. If so, Aryx attacks them, targeting fiends above all others.
 
-Aryx was sent by Tyr, the god of justice, to talk some sense into [Fazrian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fazrian-wdmm.md), the fallen planetar on level 21. Before Aryx could approach [Fazrian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fazrian-wdmm.md), however, Halaster trapped the deva in the shield. Aryx must complete its mission before it can return to Tyr's heavenly realm. If the characters claim to have killed [Fazrian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fazrian-wdmm.md) or helped the planetar achieve atonement, the deva uses a [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md) spell to verify as much. If the characters speak the truth, Aryx shows its gratitude by granting each party member a *blessing of health* (see ""Supernatural Gifts"" in chapter 7 of the "Dungeon Master's Guide"). If the characters have not yet dealt with the fallen planetar on level 21, Aryx offers to fight alongside the party until such time as it can leave this level and complete its mission, provided the characters aren't predominantly evil. If the characters help Aryx defeat [Fazrian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fazrian-wdmm.md) later on, the deva shows its gratitude by bestowing upon them the *blessing of health*.
+Aryx was sent by Tyr, the god of justice, to talk some sense into [Fazrian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fazrian-wdmm.md), the fallen planetar on level 21. Before Aryx could approach [Fazrian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fazrian-wdmm.md), however, Halaster trapped the deva in the shield. Aryx must complete its mission before it can return to Tyr's heavenly realm. If the characters claim to have killed [Fazrian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fazrian-wdmm.md) or helped the planetar achieve atonement, the deva uses a [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md) spell to verify as much. If the characters speak the truth, Aryx shows its gratitude by granting each party member a [blessing of health](03.PlayerLog&Handouts/Mechanics/CLI/rewards/blessing-of-health.md) (see ""Supernatural Gifts"" in chapter 7 of the "Dungeon Master's Guide"). If the characters have not yet dealt with the fallen planetar on level 21, Aryx offers to fight alongside the party until such time as it can leave this level and complete its mission, provided the characters aren't predominantly evil. If the characters help Aryx defeat [Fazrian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fazrian-wdmm.md) later on, the deva shows its gratitude by bestowing upon them the [blessing of health](03.PlayerLog&Handouts/Mechanics/CLI/rewards/blessing-of-health.md).
 
 ### 10. Arcane Display
 
@@ -303,7 +304,7 @@ While his spirit is bound within the golem, [Trobriand](03.PlayerLog&Handouts/Me
 
 ##### Spellcasting
 
-[Trobriand](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/trobriand-wdmm.md) is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). He has the following wizard spells prepared:
+[Trobriand](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/trobriand-wdmm.md) is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 20, `+12` to hit with spell attacks). He has the following wizard spells prepared:
 
 - Cantrips (at will): [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)  
 - 1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md), [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md), [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)  
@@ -415,7 +416,7 @@ The yellow sapphires carried by the animal-headed guards fit into the pillars in
 
 ### 18. Animated Hallway
 
-This 250-foot-long, downward-sloping hallway has been set into permanent animated motion by Halaster's magic. It twists and undulates continuously, making it tricky to negotiate. Any creature that enters the corridor or starts its turn there must succeed on a DC 15 Dexterity saving throw or take 5 (`d10`) bludgeoning damage as it is knocked about. If the creature is standing, walking, or running on the floor, the ceiling, or a wall when it fails this saving throw, it tumbles 20 feet down the tunnel before landing [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). A flying creature has advantage on the saving throw and doesn't tumble or fall [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) if it fails the save.
+This 250-foot-long, downward-sloping hallway has been set into permanent animated motion by Halaster's magic. It twists and undulates continuously, making it tricky to negotiate. Any creature that enters the corridor or starts its turn there must succeed on a DC 15 Dexterity saving throw or take 5 (`1d10`) bludgeoning damage as it is knocked about. If the creature is standing, walking, or running on the floor, the ceiling, or a wall when it fails this saving throw, it tumbles 20 feet down the tunnel before landing [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). A flying creature has advantage on the saving throw and doesn't tumble or fall [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) if it fails the save.
 
 ### 19. Double Door Roulette
 
@@ -744,7 +745,7 @@ Hidden behind the stacks of books are any magic items the characters sacrificed 
 
 Most of the books piled around the throne are worthless, rambling texts on the nature of magic and the multiverse. Among them are nine leather-bound spellbooks bearing Halaster's personal rune. Collectively, these spellbooks contain every spell on the wizard's spell list in the "Player's Handbook". Individually, each book holds the spells of a specific level, 1st through 9th. Add spells from other sources you see fit.
 
-Hidden in the cut-out pages of a leather-bound novel titled *Longsaddle Sunset* is a revolver loaded with six bullets (see ""Firearms"" in chapter 9 of the "Dungeon Master's Guide").
+Hidden in the cut-out pages of a leather-bound novel titled *Longsaddle Sunset* is a [revolver](03.PlayerLog&Handouts/Mechanics/CLI/items/revolver.md) loaded with six [bullets](03.PlayerLog&Handouts/Mechanics/CLI/items/modern-bullet.md) (see ""Firearms"" in chapter 9 of the "Dungeon Master's Guide").
 
 The iron chest behind the throne has an [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md) spell cast on it that Halaster alone can ignore. A [knock](03.PlayerLog&Handouts/Mechanics/CLI/spells/knock.md) spell or similar magic opens the chest, as does a successful DC 25 Dexterity check made by a character using thieves' tools. The chest contains a gold-plated herald's trumpet (250 gp); a coral beer stein painted with scenes of underwater life (500 gp); a cloak made of giant eagle feathers (750 gp); a delicate, multicolored, blown-glass lily trimmed with gold (1,250 gp); and a rolled-up painting of the Battle of Emridy Meadows, a conflict that transpired on a distant world called Oerth (2,500 gp).
 
@@ -755,7 +756,7 @@ This room contains one of Halaster's magical creations: a 20-foot-diameter flyin
 The saucer is a Huge object with AC 19, 200 hit points, a flying speed of 60 feet, the ability to hover, and immunity to poison and psychic damage. It is not airtight. Provided it has 50 or more hit points remaining, the saucer can be repaired as follows:
 
 - Each casting of the [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md) cantrip restores 1 hit point to the damaged saucer.  
-- A character who has tinker's tools, proficiency in the [Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana) skill, and 10 gp worth of replacement parts can spend 1 hour making repairs; at the end of the hour, the saucer regains `d4` hit points.  
+- A character who has tinker's tools, proficiency in the [Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana) skill, and 10 gp worth of replacement parts can spend 1 hour making repairs; at the end of the hour, the saucer regains `1d4` hit points.  
 
 A [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell reveals an aura of transmutation magic around the saucer. A [knock](03.PlayerLog&Handouts/Mechanics/CLI/spells/knock.md) spell or similar magic opens the dome, as does a successful DC 15 Dexterity check made by a character using thieves' tools.
 
@@ -794,7 +795,7 @@ If a creature uses a finger or a staff to trace Halaster's rune on the surface o
 
 If Halaster is killed, the demiplane around his tower (areas 22 through 36) collapses 5 minutes later without warning. As the tower is torn asunder, its contents are blasted into the far corners of the Astral Plane. Characters who are holding onto one another or are tethered together end up in the same place on the Astral Plane until they find a means of escape or until a githyanki-crewed astral warship stumbles upon them. See "chapter 2" of the "Dungeon Master's Guide" for more information on the Astral Plane and its perils.
 
-Halaster's death also deactivates all gates in Undermountain. These gates reactivate when the Mad Mage re-forms `d10` days later in a random dungeon location.
+Halaster's death also deactivates all gates in Undermountain. These gates reactivate when the Mad Mage re-forms `1d10` days later in a random dungeon location.
 
 During Halaster's absence, Jhesiyra (see "Jhesiyra Kestellharp") tries to seize control of Undermountain. Does she succeed? That's up to you. If she is successful, Jhesiyra takes her place as the new master of the dungeon, and Halaster does not return. Whether Jhesiyra remains disembodied or assumes a corporeal form when she usurps Halaster's control over Undermountain is also for you to decide, but one thing she won't do is reactivate Halaster's gates. She doesn't trust them and would prefer to create her own gates in due time. If [Arcturia](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/arcturia-wdmm.md) and [Trobriand](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/trobriand-wdmm.md) are still around, Jhesiyra plots to destroy them before they turn against her, and she might even draft adventurers to help her.
 

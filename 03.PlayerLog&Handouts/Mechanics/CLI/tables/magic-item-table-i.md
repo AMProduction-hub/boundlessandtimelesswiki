@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Magic Item Table I
+- "Magic Item Table I"
 ---
 # Magic Item Table I
 *Source: Dungeon Master's Guide p. 144* 
 
 **Magic Item Table I**
-
-`dice: [](magic-item-table-i.md#^magic-item-table-i)`
 
 | dice: d100 | Magic Item |
 |------------|------------|
@@ -43,7 +42,7 @@ aliases:
 | 70-71 | [+2 splint armor](03.PlayerLog&Handouts/Mechanics/CLI/items/2-armor.md) |
 | 72-73 | [+2 studded leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/2-armor.md) |
 | 74-75 | [Well of many worlds](03.PlayerLog&Handouts/Mechanics/CLI/items/well-of-many-worlds.md) |
-| 76 | `dice: [](magic-item-table-i.md#^magic-armor)` |
+| 76 | Magic armor |
 | 77 | [Apparatus of Kwalish](03.PlayerLog&Handouts/Mechanics/CLI/items/apparatus-of-kwalish.md) |
 | 78 | [Armor of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/items/armor-of-invulnerability.md) |
 | 79 | [Belt of storm giant strength](03.PlayerLog&Handouts/Mechanics/CLI/items/belt-of-storm-giant-strength.md) |
@@ -71,8 +70,6 @@ aliases:
 ^magic-item-table-i
 
 **Magic armor**
-
-`dice: [](magic-item-table-i.md#^magic-armor)`
 
 | dice: 1d12 |  |
 |------------|--|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/10
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Githzerai Enlightened
+- "Githzerai Enlightened"
 ---
-# [Githzerai Enlightened](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/githzerai-enlightened-mpmm.md)
+# [Githzerai Enlightened](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githzerai-enlightened-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 143, Mordenkainen's Tome of Foes p. 208*  
 
 Some spiritual githzerai spend long hours in meditation to transcend the limits of their forms and to apprehend the nature of reality. Zerths who complete the next tier of their training become known as the enlightened.
@@ -43,10 +44,10 @@ Githzerai are otherworldly folk with psionic powers who share an ancestral link 
   - !!int "13"
 "speed": "40 ft."
 "saves":
-  - "strength": "+6"
-  - "dexterity": "+8"
-  - "intelligence": "+7"
-  - "wisdom": "+8"
+  - "strength": !!int "6"
+  - "dexterity": !!int "8"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "8"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -64,10 +65,10 @@ Githzerai are otherworldly folk with psionic powers who share an ancestral link 
 "actions":
   - "desc": "The githzerai makes three Unarmed Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) bludgeoning damage plus 18 (4d8) psychic damage."
     "name": "Unarmed Strike"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:*\
       \ 13 (2d8 + 4) bludgeoning damage plus 52 (8d12) psychic damage. The target\
       \ must succeed on a DC 16 Wisdom saving throw or move 1 round forward in time.\
       \ A target moved forward in time vanishes for the duration. When the effect\
@@ -75,10 +76,10 @@ Githzerai are otherworldly folk with psionic powers who share an ancestral link 
       \ nearest to that space if it's occupied."
     "name": "Temporal Strike (Recharge 6)"
   - "desc": "The githzerai casts one of the following spells, requiring no spell components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 16):\n\nAt will:\
+      \ and using Wisdom as the spellcasting ability (spell save DC 16):\n\n**At will:**\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md) (the\
-      \ hand is invisible)\n\n3/day: [see invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/see-invisibility.md)\n\
-      \n1/day each: [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md),\
+      \ hand is invisible)\n\n**3/day:** [see invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/see-invisibility.md)\n\
+      \n**1/day each:** [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md),\
       \ [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)"
     "name": "Spellcasting (Psionics)"
 "reactions":

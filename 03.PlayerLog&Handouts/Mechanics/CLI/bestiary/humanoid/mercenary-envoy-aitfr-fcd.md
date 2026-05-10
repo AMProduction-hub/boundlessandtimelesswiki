@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/aitfr-fcd
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mercenary Envoy
+- "Mercenary Envoy"
 ---
-# [Mercenary Envoy](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/mercenary-envoy-aitfr-fcd.md)
+# [Mercenary Envoy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mercenary-envoy-aitfr-fcd.md)
 *Source: Adventures in the Forgotten Realms: From Cyan Depths p. 10*  
 
 These mercenaries stand for the Banner of Blades and the Iron Lions at Tyreus's fortress, but they might not be representative of those armies. These are rank-and-file warriors capable of demonstrating coordinated attacks and formations. They are neither the most capable lieutenants nor the rough-and-tumble masses of these small armies.
@@ -37,13 +38,16 @@ For the purposes of their Inspired Courage feature, the mercenaries of both comp
   - !!int "9"
 "speed": "30 ft."
 "saves":
-  - "strength": "+4"
-  - "constitution": "+4"
+  - "strength": !!int "4"
+  - "constitution": !!int "4"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+4"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
+"gear":
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
 "senses": "passive Perception 13"
 "languages": "Common"
 "cr": "1"
@@ -61,11 +65,11 @@ For the purposes of their Inspired Courage feature, the mercenaries of both comp
 "actions":
   - "desc": "The mercenary makes two longsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range\n\n100/400 ft., one target.\
-      \ Hit: 7 (1d10 + 2) piercing damage."
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range\n\n100/400 ft., one target.\
+      \ *Hit:* 7 (1d10 + 2) piercing damage."
     "name": "Heavy Crossbow"
 "source":
   - "AitFR-FCD"

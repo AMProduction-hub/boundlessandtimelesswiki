@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/age/futuristic
@@ -13,7 +14,7 @@ tags:
 - ttrpg-cli/item/weapon/ranged
 - ttrpg-cli/item/weapon/simple
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Vicious Weapon"
 - "Vicious Antimatter Rifle"
 - "Vicious Automatic Pistol"
@@ -69,7 +70,7 @@ aliases:
 ---
 # Vicious Weapon
 *Major, rare*  
-![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/vicious-weapon.webp#right)
+![Vicious Weapon (Rapier)](03.PlayerLog&Handouts/Mechanics/CLI/items/img/vicious-weapon.webp#right)
 
 
 When you roll a 20 with this magic weapon, the target takes an extra 7 damage of the weapon's type.

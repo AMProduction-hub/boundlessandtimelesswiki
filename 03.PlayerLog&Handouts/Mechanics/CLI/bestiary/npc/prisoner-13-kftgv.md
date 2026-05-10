@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/5
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Prisoner 13
+- "Prisoner 13"
 ---
-# [Prisoner 13](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/prisoner-13-kftgv.md)
+# [Prisoner 13](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/prisoner-13-kftgv.md)
 *Source: Keys from the Golden Vault p. 68*  
 
 Prisoner 13 is a dwarf named Korda Glintstone. Prior to her incarceration years ago, Korda was an ally and agent of Clan Axebreaker, a moderately influential dwarf clan in a stronghold called Gauntlgrym. Korda built a network of informants and agents, ostensibly all to the benefit of Clan Axebreaker. With each success, she paid tattooists to inscribe a memorial of her triumph onto her skin. Using ancient rituals, Korda infused many of these artful etchings with the magic of Gauntlgrym's forges, granting her wondrous gifts.
@@ -57,8 +58,8 @@ A character who succeeds on a DC 15 Intelligence (Arcana) check determines that 
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+7"
-  - "wisdom": "+5"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+5"
@@ -73,7 +74,8 @@ A character who succeeds on a DC 15 Intelligence (Arcana) check determines that 
 "damage_resistances": "poison"
 "damage_immunities": "psychic"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Common, Dwarvish, Elvish, Thieves' cant, Undercommon"
 "cr": "5"
 "traits":
@@ -96,8 +98,8 @@ A character who succeeds on a DC 15 Intelligence (Arcana) check determines that 
 "actions":
   - "desc": "Prisoner 13 makes two Tattooed Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 60\
-      \ ft., one target. Hit: 12 (2d8 + 3) force damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 60\
+      \ ft., one target. *Hit:* 12 (2d8 + 3) force damage."
     "name": "Tattooed Strike"
   - "desc": "Prisoner 13 magically unleashes flame from the tattoo across her back,\
       \ filling a 20-foot-radius sphere centered on her. Each other creature in that\

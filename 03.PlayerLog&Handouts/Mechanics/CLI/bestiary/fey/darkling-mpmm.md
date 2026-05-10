@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-2
@@ -13,9 +14,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Darkling
+- "Darkling"
 ---
-# [Darkling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/darkling-mpmm.md)
+# [Darkling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/darkling-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 84, Volo's Guide to Monsters p. 134*  
 
 The Summer Queen's curse causes a darkling's body to absorb light, which wizens the creature, much like the effect of rapid aging. For this reason, darklings cover their entire bodies with clothing when exposure to light is a risk. The light darklings absorb over the course of their lives explodes outward when they die, incinerating the creatures and much of their possessions.
@@ -51,7 +52,11 @@ Ancient legends speak of a seelie fey who betrayed the Summer Queen. In the Summ
     "desc": "+5"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 15"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 15"
 "languages": "Elvish, Sylvan"
 "cr": "1/2"
 "traits":
@@ -66,8 +71,8 @@ Ancient legends speak of a seelie fey who betrayed the Summer Queen. In the Summ
       \ checks that rely on sight."
     "name": "Light Sensitivity"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 7 (2d6) necrotic\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d4 + 3) piercing damage plus 7 (2d6) necrotic\
       \ damage."
     "name": "Dagger"
 "source":

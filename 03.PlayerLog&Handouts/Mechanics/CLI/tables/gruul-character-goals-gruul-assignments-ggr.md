@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Gruul Character Goals; Gruul Assignments
+- "Gruul Character Goals; Gruul Assignments"
 ---
 # Gruul Character Goals; Gruul Assignments
 *Source: Guildmasters' Guide to Ravnica p. 143* 
 
 **Gruul Assignments**
-
-`dice: [](gruul-character-goals-gruul-assignments-ggr.md#^gruul-assignments)`
 
 | dice: d6 | Assignment |
 |----------|------------|

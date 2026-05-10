@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Clockwork Observer
+- "Clockwork Observer"
 ---
-# [Clockwork Observer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/clockwork-observer-kftgv.md)
+# [Clockwork Observer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-observer-kftgv.md)
 *Source: Keys from the Golden Vault p. 85*  
 
 A clockwork observer serves as an aerial spy for its creator. It looks like a mechanical, grapefruit-sized orb suspended under softly humming propeller blades. Embedded in the orb are keenly perceptive crystal eyes that enable the observer to see in multiple directions at once. When it perceives something troubling, the observer sounds the alarm by emitting a shriek that can be heard within a range of 300 feet. The observer can also telepathically relay what it has discovered to its creator, provided the two are within 1 mile of each other.
@@ -44,7 +45,8 @@ A clockwork observer serves as an aerial spy for its creator. It looks like a me
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 16"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "0"
 "traits":

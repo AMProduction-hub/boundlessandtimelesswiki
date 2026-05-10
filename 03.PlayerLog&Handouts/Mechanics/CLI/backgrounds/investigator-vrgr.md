@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Investigator
+- "Investigator"
 ---
 # Investigator
 *Source: Van Richten's Guide to Ravenloft p. 35*  
@@ -27,8 +28,6 @@ Your first case influenced the types of mysteries you're interested in. Why was 
 
 **First Case**
 
-`dice: [](investigator-vrgr.md#^first-case)`
-
 | dice: d8 | Case |
 |----------|------|
 | 1 | A friend was wrongfully accused of murder. You tracked down the actual killer, proving your friend's innocence and starting your career as a detective. |
@@ -46,8 +45,6 @@ Your first case influenced the types of mysteries you're interested in. Why was 
 Characters in a horror-focused campaign might have distinct motivations and characteristics. Use the following tables to supplement your background's suggested characteristics or to inspire those of your own design.
 
 **Horror Character Personality Traits**
-
-`dice: [](investigator-vrgr.md#^horror-character-personality-traits)`
 
 | dice: d12 | Personality Trait |
 |-----------|-------------------|
@@ -67,8 +64,6 @@ Characters in a horror-focused campaign might have distinct motivations and char
 
 **Horror Character Ideals**
 
-`dice: [](investigator-vrgr.md#^horror-character-ideals)`
-
 | dice: d12 | Ideal |
 |-----------|-------|
 | 1 | Adrenaline. I've experienced such strangeness that now I feel alive only in extreme situations. |
@@ -87,8 +82,6 @@ Characters in a horror-focused campaign might have distinct motivations and char
 
 **Horror Character Bonds**
 
-`dice: [](investigator-vrgr.md#^horror-character-bonds)`
-
 | dice: d12 | Bond |
 |-----------|------|
 | 1 | I desperately need to get back to someone or someplace, but I lost them in the Mists. |
@@ -106,8 +99,6 @@ Characters in a horror-focused campaign might have distinct motivations and char
 ^horror-character-bonds
 
 **Horror Character Flaws**
-
-`dice: [](investigator-vrgr.md#^horror-character-flaws)`
 
 | dice: d12 | Flaw |
 |-----------|------|

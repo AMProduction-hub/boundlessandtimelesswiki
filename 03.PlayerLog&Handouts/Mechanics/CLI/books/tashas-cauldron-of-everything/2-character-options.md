@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
-- Character Options
+- "Character Options"
 ---
 # Character Options
 *Source: Tasha's Cauldron of Everything, p. 7* 
@@ -19,7 +20,7 @@ Here are the options featured in this chapter:
 - Class features and subclasses for every class in the "Player's Handbook"  
 - "Feats" for anyone who uses that optional rule  
 
-![The wizard Tasha studies m...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/001-01-001.webp#center "The wizard Tasha studies magic outside the hut of her adoptive mother, Baba Yaga")
+![The wizard Tasha studies magic outside the hut of her adoptive mother, Baba Yaga](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/001-01-001.webp#center)
 
 ## Customizing Your Origin
 
@@ -74,9 +75,9 @@ Artificers in the City of Sigil share discoveries from throughout the multiverse
 - [Battle Smith](03.PlayerLog&Handouts/Mechanics/CLI/classes/artificer-battle-smith-tce.md)  
 
 > [!gallery]
-> ![The gnome artificer Vi and...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/003-01-004-artificer-vi.webp#gallery "The gnome artificer Vi and her cockatrice-like Eldritch Cannon battle foes atop a lightning train.")
+> ![The gnome artificer Vi and her cockatrice-like Eldritch Cannon battle foes atop a lightning train.](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/003-01-004-artificer-vi.webp#gallery)
 > ![Dwarf Alchemist with Homunculus Servant](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/004-01-005-artificer.webp#gallery)
-> ![Armorers, a Drow Infiltrat...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/005-01-006.webp#gallery "Armorers, a Drow Infiltrator and a Tiefling Guardian")
+> ![Armorers, a Drow Infiltrator and a Tiefling Guardian](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/005-01-006.webp#gallery)
 > ![Human Artillerist with Eldritch Cannon](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/006-01-007.webp#gallery)
 > ![Gnome Battle Smith with Steel Defender](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/007-01-008.webp#gallery)
 > ![Homunculus Servants](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/008-01-009.webp#gallery)
@@ -142,7 +143,7 @@ At 3rd level, a bard gains the Bard College feature, which offers you the choice
 - [College of Eloquence](03.PlayerLog&Handouts/Mechanics/CLI/classes/bard-college-of-eloquence-tce.md)  
 
 > [!gallery]
-> ![A dragonborn bard of the C...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/013-01-016.webp#gallery "A dragonborn bard of the College of Creation animates a statue to dance.")
+> ![A dragonborn bard of the College of Creation animates a statue to dance.](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/013-01-016.webp#gallery)
 > ![Drow Bard of Eloquence](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/014-01-017.webp#gallery)
 
 ## Cleric
@@ -225,7 +226,7 @@ At 2nd level, a druid gains the Druid Circle feature, which offers you the choic
 
 > [!gallery]
 > ![Druid with Wild Companion](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/021-01-026.webp#gallery)
-> ![A gnome druid of spores pi...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/022-01-027.webp#gallery "A gnome druid of spores picks mushrooms with his bullywug zombie companion.")
+> ![A gnome druid of spores picks mushrooms with his bullywug zombie companion.](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/022-01-027.webp#gallery)
 > ![Tiefling Druid of Stars](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/023-01-028.webp#gallery)
 > ![Dwarf Druid of Wildfire](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/024-01-029.webp#gallery)
 
@@ -405,7 +406,7 @@ At 3rd level, a monk gains the Monastic Tradition feature, which offers you the 
 - [Way of the Astral Self](03.PlayerLog&Handouts/Mechanics/CLI/classes/monk-way-of-the-astral-self-tce.md)  
 
 > [!gallery]
-> ![An orc monk of the Four El...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/031-01-038.webp#gallery "An orc monk of the Four Elements unleashes a ki-fueled attack.")
+> ![An orc monk of the Four Elements unleashes a ki-fueled attack.](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/031-01-038.webp#gallery)
 > ![Wood Elf Monk of Mercy](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/032-01-039.webp#gallery)
 > ![Dragonborn Monk of the Astral Self](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/033-01-040.webp#gallery)
 
@@ -595,7 +596,7 @@ You gain class features in the "Player's Handbook" when you reach certain levels
 The spells in the following list expand the warlock spell list in the "Player's Handbook". The list is organized by spell level, not character level. Each spell is in the "Player's Handbook", unless it has an asterisk (a spell in chapter 3). "Xanathar's Guide to Everything" also offers more spells.
 
 - Cantrip (0 level): [Booming blade](03.PlayerLog&Handouts/Mechanics/CLI/spells/booming-blade-tce.md),* [Green-flame blade](03.PlayerLog&Handouts/Mechanics/CLI/spells/green-flame-blade-tce.md),* [Lightning lure](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-lure-tce.md),* [Mind sliver](03.PlayerLog&Handouts/Mechanics/CLI/spells/mind-sliver-tce.md),* [Sword burst](03.PlayerLog&Handouts/Mechanics/CLI/spells/sword-burst-tce.md)*  
-- 3rd level: [Intellect fortress](03.PlayerLog&Handouts/Mechanics/CLI/spells/intellect-fortress-tce.md),* [Spirit shroud](03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-shroud-tce.md),* [Summon fey](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-fey-tce.md),* [Summon shadowspawn](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-shadowspawn-tce.md),* [Summon undead](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-undead-tce.md)*  
+- 3rd level: [Intellect fortress](03.PlayerLog&Handouts/Mechanics/CLI/spells/intellect-fortress-tce.md),* [Spirit shroud](03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-shroud-tce.md),* [Summon fey](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-fey-tce.md),* [Summon Shadowspawn](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-shadowspawn-tce.md),* [Summon undead](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-undead-tce.md)*  
 - 4th level: [Summon aberration](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-aberration-tce.md)*  
 - 5th level: [Mislead](03.PlayerLog&Handouts/Mechanics/CLI/spells/mislead.md), [Planar binding](03.PlayerLog&Handouts/Mechanics/CLI/spells/planar-binding.md), [Teleportation circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleportation-circle.md)  
 - 6th level: [Summon fiend](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-fiend-tce.md),* [Tasha's otherworldly guise](03.PlayerLog&Handouts/Mechanics/CLI/spells/tashas-otherworldly-guise-tce.md)*  
@@ -633,9 +634,9 @@ At 1st level, a warlock gains the Otherworldly Patron feature, which offers you 
 - [The Genie](03.PlayerLog&Handouts/Mechanics/CLI/classes/warlock-the-genie-tce.md)  
 
 > [!gallery]
-> ![A tiefling warlock calls o...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/051-01-063.webp#gallery "A tiefling warlock calls on the power of his talisman.")
+> ![A tiefling warlock calls on the power of his talisman.](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/051-01-063.webp#gallery)
 > ![Human Warlock of the Fathomless](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/052-01-064.webp#gallery)
-> ![A warlock uses a genie's v...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/053-01-065.webp#gallery "A warlock uses a genie's vessel to battle a cyclops.")
+> ![A warlock uses a genie's vessel to battle a cyclops.](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/053-01-065.webp#gallery)
 
 ## Wizard
 
@@ -654,7 +655,7 @@ The spells in the following list expand the wizard spell list in the "Player's H
 - Cantrip (0 level): [Booming blade](03.PlayerLog&Handouts/Mechanics/CLI/spells/booming-blade-tce.md),* (evoc.) [Green-flame blade](03.PlayerLog&Handouts/Mechanics/CLI/spells/green-flame-blade-tce.md),* (evoc.) [Lightning lure](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-lure-tce.md),* (evoc.) [Mind sliver](03.PlayerLog&Handouts/Mechanics/CLI/spells/mind-sliver-tce.md),* (ench.) [Sword burst](03.PlayerLog&Handouts/Mechanics/CLI/spells/sword-burst-tce.md)* (conj.)  
 - 1st level: [Tasha's caustic brew](03.PlayerLog&Handouts/Mechanics/CLI/spells/tashas-caustic-brew-tce.md)* (evoc.)  
 - 2nd level: [Augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md), (divin., ritual) [Enhance ability](03.PlayerLog&Handouts/Mechanics/CLI/spells/enhance-ability.md), (trans.) [Tasha's mind whip](03.PlayerLog&Handouts/Mechanics/CLI/spells/tashas-mind-whip-tce.md)* (ench.)  
-- 3rd level: [Intellect fortress](03.PlayerLog&Handouts/Mechanics/CLI/spells/intellect-fortress-tce.md),* (abjur.) [Speak with dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md), (necro.) [Spirit shroud](03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-shroud-tce.md),* (necro.) [Summon fey](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-fey-tce.md),* (conj.) [Summon shadowspawn](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-shadowspawn-tce.md),* (conj.) [Summon undead](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-undead-tce.md)* (conj.)  
+- 3rd level: [Intellect fortress](03.PlayerLog&Handouts/Mechanics/CLI/spells/intellect-fortress-tce.md),* (abjur.) [Speak with dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md), (necro.) [Spirit shroud](03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-shroud-tce.md),* (necro.) [Summon fey](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-fey-tce.md),* (conj.) [Summon Shadowspawn](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-shadowspawn-tce.md),* (conj.) [Summon undead](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-undead-tce.md)* (conj.)  
 - 4th level: [Divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md), (divin., ritual) [Summon aberration](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-aberration-tce.md),* (conj.) [Summon construct](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-construct-tce.md),* (conj.) [Summon elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-elemental-tce.md)* (conj.)  
 - 6th level: [Summon fiend](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-fiend-tce.md),* (conj.) [Tasha's otherworldly guise](03.PlayerLog&Handouts/Mechanics/CLI/spells/tashas-otherworldly-guise-tce.md)* (trans.)  
 - 7th level: [Dream of the blue veil](03.PlayerLog&Handouts/Mechanics/CLI/spells/dream-of-the-blue-veil-tce.md)* (conj.)  
@@ -695,4 +696,4 @@ New feats are presented here in alphabetical order for groups that use them.
 
 > [!gallery]
 > ![Eldritch Adept](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/057-01-070.webp#gallery)
-> ![Astride a unicorn, a telep...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/058-01-071.webp#gallery "Astride a unicorn, a telepathic bard inspires her wizard companion.")
+> ![Astride a unicorn, a telepathic bard inspires her wizard companion.](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/058-01-071.webp#gallery)

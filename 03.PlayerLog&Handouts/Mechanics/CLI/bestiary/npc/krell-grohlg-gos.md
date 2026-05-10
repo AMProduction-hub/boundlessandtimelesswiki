@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Krell Grohlg
+- "Krell Grohlg"
 ---
-# [Krell Grohlg](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/krell-grohlg-gos.md)
+# [Krell Grohlg](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/krell-grohlg-gos.md)
 *Source: Ghosts of Saltmarsh p. 92*  
 
 ```statblock
@@ -40,27 +41,30 @@ aliases:
     "desc": "+3"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[quarterstaff](03.PlayerLog&Handouts/Mechanics/CLI/items/quarterstaff.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Common, Orc"
 "cr": "2"
 "traits":
   - "desc": "Krell is a 4th-level spellcaster. Its spellcasting ability is Wisdom\
       \ (spell save DC 12, +4 to hit with spell attacks). It has the following druid\
-      \ spells prepared:\n\nCantrips (at will): [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
+      \ spells prepared:\n\n**Cantrips (at will):** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
       \ [produce flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md),\
       \ [shillelagh](03.PlayerLog&Handouts/Mechanics/CLI/spells/shillelagh.md)\n\n\
-      1st level (4 slots): [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
+      **1st level (4 slots):** [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
       \ [longstrider](03.PlayerLog&Handouts/Mechanics/CLI/spells/longstrider.md),\
       \ [speak with animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md),\
       \ [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [flaming sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/flaming-sphere.md),\
+      \n**2nd level (3 slots):** [flaming sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/flaming-sphere.md),\
       \ [barkskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/barkskin.md)"
     "name": "Spellcasting"
   - "desc": "Krell"
     "name": "Relentless Endurance"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit (+4 to hit with shillelagh), reach\
-      \ 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage, 8 (1d8 + 4)\
+  - "desc": "*Melee Weapon Attack:* +6 to hit (+4 to hit with shillelagh), reach\
+      \ 5 ft., one target. *Hit:* 7 (1d6 + 4) bludgeoning damage, 8 (1d8 + 4)\
       \ bludgeoning damage if wielded with two hands, or 6 (1d8 + 2) bludgeoning\
       \ damage with [shillelagh](03.PlayerLog&Handouts/Mechanics/CLI/spells/shillelagh.md)."
     "name": "Quarterstaff"

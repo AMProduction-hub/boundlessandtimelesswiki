@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Inkling Mascot
+- "Inkling Mascot"
 ---
-# [Inkling Mascot](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\ooze/inkling-mascot-scc.md)
+# [Inkling Mascot](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/inkling-mascot-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 195*  
 
 Squelching slightly as they wriggle through the air, inklings serve as the mascots for Silverquill College. These living blobs of shadowy ink are often summoned by professors who require assistance in their writing workshops—the inklings provide endless ink—or by lonely students hoping for company as they study. However, inklings can just as readily support mages in combat, disrupting opponents' sight.
@@ -41,7 +42,8 @@ Squelching slightly as they wriggle through the air, inklings serve as the masco
   \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 60 ft., passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., passive Perception 8"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "1/4"
 "traits":
@@ -49,7 +51,7 @@ Squelching slightly as they wriggle through the air, inklings serve as the masco
       \ squeezing."
     "name": "Amorphous"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) psychic damage."
     "name": "Blot"
   - "desc": "The inkling sprays viscous ink at one creature within 15 feet of itself.\
@@ -57,7 +59,8 @@ Squelching slightly as they wriggle through the air, inklings serve as the masco
       \ until the end of the inkling's next turn."
     "name": "Ink Spray (1/Day)"
 "bonus_actions":
-  - "desc": "While in dim light or darkness, the inkling takes the Hide action."
+  - "desc": "While in dim light or darkness, the inkling takes the [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide)\
+      \ action."
     "name": "Shadow Stealth"
 "source":
   - "SCC"

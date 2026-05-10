@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 aliases:
-- Chapter 5: Temple of the Elder Elemental Eye
+- "Chapter 5: Temple of the Elder Elemental Eye"
 ---
 # Chapter 5: Temple of the Elder Elemental Eye
 *Source: Princes of the Apocalypse, p. 112* 
@@ -48,7 +49,7 @@ Use this event only if the fire node is still active. The characters find themse
 > The smell of smoke drifts on the air. Upwind, plumes of smoke billow up from the hillsides. Grass is catching fire at a furious rate, and the fire is moving quickly your way. Big creatures made of flame race over the ground, while small shapes flit in the smoke.
 ^450
 
-The adventurers detect the fire when it is 500 feet away. It covers a front of about 200 feet. At the start of each round, the fire advances `2d6 × 10` feet. Smoke renders the fire's area, and 100 feet ahead of it, lightly obscured. A creature that enters the fire for the first time on a turn or starts its turn there takes `d10` fire damage. If the creature isn't immune to fire and needs to breathe, it must also succeed on a DC 10 Constitution saving throw or be [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) from smoke inhalation until the start of its next turn.
+The adventurers detect the fire when it is 500 feet away. It covers a front of about 200 feet. At the start of each round, the fire advances `2d6 × 10` feet. Smoke renders the fire's area, and 100 feet ahead of it, lightly obscured. A creature that enters the fire for the first time on a turn or starts its turn there takes `1d10` fire damage. If the creature isn't immune to fire and needs to breathe, it must also succeed on a DC 10 Constitution saving throw or be [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) from smoke inhalation until the start of its next turn.
 
 ### Tortured Earth
 
@@ -192,7 +193,7 @@ The glow of weird, phosphorescent lichen—a side effect of the strange magical 
 
 ### Areas of the Fane
 
-### F1. Worm's Stair
+#### F1. Worm's Stair
 
 > [!readaloud] 
 > 
@@ -201,11 +202,11 @@ The glow of weird, phosphorescent lichen—a side effect of the strange magical 
 
 The vertical tunnel leads to area A20 of the Temple of Howling Hatred, almost 150 feet above. The stairs end after 50 feet, requiring an easy climb up the ribs.
 
-#### Treasure
+##### Treasure
 
 The odd backpacks are five [balloon packs](03.PlayerLog&Handouts/Mechanics/CLI/items/balloon-pack-pota.md) (see chapter 7) left here by the cultists.
 
-### F2. Howling Pit
+#### F2. Howling Pit
 
 > [!readaloud] 
 > 
@@ -214,7 +215,7 @@ The odd backpacks are five [balloon packs](03.PlayerLog&Handouts/Mechanics/CLI/i
 
 After 80 feet, the pit tapers into a tunnel (area N1 of the Howling Caves, described later in this chapter). Chaotic gusts blow up and down the shaft, too weak to pose an actual hazard. Climbing the rough pit walls requires successful DC 10 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) checks.
 
-### F3. Wind Prison
+#### F3. Wind Prison
 
 > [!readaloud] 
 > 
@@ -223,11 +224,11 @@ After 80 feet, the pit tapers into a tunnel (area N1 of the Howling Caves, descr
 
 If the orb is disturbed, all creatures within 10 feet of it must succeed on a DC 20 Strength saving throw or be swept up into a whirlwind, suspended 20 feet in the air. The orb vanishes as the whirlwind forms.
 
-Those suspended in the whirlwind are [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) and battered by windblown debris. At the start of each of its turns, a creature [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) by the whirlwind takes `d10` bludgeoning damage. A creature in the whirlwind can use its action to attempt a DC 20 Strength check. If successful, the creature ends the [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) condition on it, falls 20 feet to the floor, and escapes the whirlwind. A creature outside the whirlwind can attempt a similar check to pull another creature from the whirlwind, assuming it has the ability to reach a target 20 feet in the air. The whirlwind lasts 1 minute and then collapses, releasing creatures caught within it.
+Those suspended in the whirlwind are [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) and battered by windblown debris. At the start of each of its turns, a creature [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) by the whirlwind takes `1d10` bludgeoning damage. A creature in the whirlwind can use its action to attempt a DC 20 Strength check. If successful, the creature ends the [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) condition on it, falls 20 feet to the floor, and escapes the whirlwind. A creature outside the whirlwind can attempt a similar check to pull another creature from the whirlwind, assuming it has the ability to reach a target 20 feet in the air. The whirlwind lasts 1 minute and then collapses, releasing creatures caught within it.
 
 While the whirlwind rages, four [flying swords](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/flying-sword.md) animate from the debris scattered around the cave. The flying swords attack creatures outside the whirlwind.
 
-### F4. Harpy Nest
+#### F4. Harpy Nest
 
 Characters spot the light in this chamber before entering it.
 
@@ -242,15 +243,15 @@ Three [harpies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/harpy.m
 
 Those who are affected by the harpies' song are compelled to climb. The nests are 80 feet above the floor. The first 40 feet of the climb require a DC 10 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) checks, but after that, the DC is 15.
 
-#### Corpses
+##### Corpses
 
 The bodies on the floor include a water cultist (the figure with the crab-shell shield and broken sword), two lizardfolk, an ogre, and a male halfling in the robes of a cleric of Sune, and a female half-elf fighter in battered plate armor.
 
-#### Treasure
+##### Treasure
 
 The harpies have collected loot in their nests, including 560 sp, 220 gp, a gold bracelet (50 gp), a silver ewer (10 gp), a pair of silver earrings shaped like skulls (each worth 10 gp), and a [potion of superior healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-superior-healing.md).
 
-### F5. Rust Monster Pit
+#### F5. Rust Monster Pit
 
 > [!readaloud] 
 > 
@@ -261,17 +262,17 @@ The harpies have collected loot in their nests, including 560 sp, 220 gp, a gold
 
 The mist is natural, caused by the humid air in area F6 being drawn westward by the draft in area F3 across cool stone in this cavern. The mist conceals a pit at the north end of the cave.
 
-#### Pit
+##### Pit
 
 A character searching the floor notices the pit with a successful DC 10 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check.
 
 A character unaware of the pit falls into it. The pit is 10 feet deep and contains a [rust monster](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/rust-monster.md) that wandered into this cave after being driven out of area F9. The rust monster is heavily obscured by the mist and makes a surprise attack against a creature that falls into the pit, gaining advantage on its attack roll if its target is [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).
 
-#### Prisoners
+##### Prisoners
 
 Three captives are chained to the walls. Two are fire cultists, while the third is a riverboat crewman captured a few days ago by Crushing Wave river bandits. The manacles are secured by cotter pins that are easy to remove, but the captives can't reach them. Manacles can also be broken with a successful DC 20 Strength check.
 
-### F6. Swift Stream
+#### F6. Swift Stream
 
 > [!readaloud] 
 > 
@@ -282,11 +283,11 @@ This cavern is the center of the Crushing Wave cult's presence in the fane. Two 
 
 The stream is 4 feet deep, cold, and swift. Any creature without a swimming speed that moves into the stream for the first time on a turn or starts its turn there must succeed on a DC 10 Strength saving throw or be swept 40 feet downstream. Swimming against the current requires a successful DC 10 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check.
 
-#### Stairs
+##### Stairs
 
 The stairs lead up to area C28 in the Temple of the Crushing Wave (chapter 4).
 
-### F7. Blackmaw Throne
+#### F7. Blackmaw Throne
 
 > [!readaloud] 
 > 
@@ -297,19 +298,19 @@ A [lizard king](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizard-kin
 
 Armed with morningstars, shields, and javelins, the Blackmaws are vile savages that torture, kill, and eat their enemies.
 
-#### Roleplaying Drexa
+##### Roleplaying Drexa
 
 Although the lizardfolk here are evil and bellicose, Drexa believes he should be one of the leaders of the Crushing Wave. He resents that such a position wasn't given to him. Those who look likely to overthrow [Gar Shatterkeel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gar-shatterkeel-pota.md), or who have proof they have done so, might be able to convince Drexa to help them. Drexa has seen failed coups before, and he sides with the characters only if he's sure to wind up on top.
 
-#### Narrow Tunnel
+##### Narrow Tunnel
 
 The tunnel leading east is 10 feet high and only 2 feet wide. Medium characters must squeeze to move through it.
 
-#### Treasure
+##### Treasure
 
 Drexa has amassed a small amount of treasure from the Blackmaws' participation in various raids on the surface. He regards the tribe's treasure as his own. Two wooden chests contain 2,300 cp, 1,250 sp, and 290 gp. In addition, Drexa wears a heavy gold chain worth 200 gp.
 
-### F8. The Plunge
+#### F8. The Plunge
 
 The waterfall here can be heard from quite a distance.
 
@@ -324,7 +325,7 @@ The stairs that hug the edge of the pit, though slippery, provide a much safer r
 
 ![](03.PlayerLog&Handouts/Mechanics/CLI/adventures/princes-of-the-apocalypse/img/056-poa05-03.webp#center)
 
-### F9. Fungal Swamp
+#### F9. Fungal Swamp
 
 > [!readaloud] 
 > 
@@ -335,11 +336,11 @@ The influences of elemental earth and elemental water meet in this cavern, produ
 
 A [grell](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/grell.md) lurks in the upper reaches of the chamber, watching for lone travelers or stragglers it might be able to pick off. The creature quietly drifts down and attacks the rearmost member of a party that is otherwise occupied.
 
-#### Shelf Path
+##### Shelf Path
 
 Because dangerous fungi often lurk near the footpaths, denizens of the fane who pass through this chamber have found another way around. The shelf fungi adhering to the walls are surprisingly sturdy and offer a 3-foot-wide path that circles the eastern side of the chamber. Any character with a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 15 or higher spots the shelf path, and exploration reveals it automatically.
 
-### F10. Foebreaker's Crypt
+#### F10. Foebreaker's Crypt
 
 > [!readaloud] 
 > 
@@ -350,7 +351,7 @@ This crypt marks the resting place of a dwarven hero of ancient Tyar-Besil who f
 
 The crypt contains Hendrel's bones, interred here as a warning to Besilmer's enemies. His tomb is also the center of a [hallow](03.PlayerLog&Handouts/Mechanics/CLI/spells/hallow.md) spell, which extends to the doors of the room. Any good-aligned humanoid who heeds the tomb's carving receives the effect of a 5th-level [aid](03.PlayerLog&Handouts/Mechanics/CLI/spells/aid.md) spell. A creature can benefit from this effect only once per day.
 
-### F11. Foot of the Obelisk
+#### F11. Foot of the Obelisk
 
 > [!readaloud] 
 > 
@@ -359,7 +360,7 @@ The crypt contains Hendrel's bones, interred here as a warning to Besilmer's ene
 
 The stairs ascend to area B17 in the Temple of Black Earth (see chapter 4).
 
-### F12. Abandoned Mine
+#### F12. Abandoned Mine
 
 > [!readaloud] 
 > 
@@ -370,11 +371,11 @@ The dwarves of Tyar-Besil began to carve mining tunnels here, but they gave up w
 
 Four [specters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md) lurk in the shallow tunnel to the north. These are the spirits of grimlocks that died here long ago and became infused with the evil that permeates the fane. They attack any living creature that enters this chamber. The cultists avoid the area.
 
-#### Treasure
+##### Treasure
 
 If any character is currently under the blessing of Hendrel Foebreaker (area F10), the shining apparition of a stern dwarf warrior in golden mail appears when the last specter is defeated. With a slight smile of gratitude, the spirit silently points at a heap of rubble at the end of the northern tunnel, then fades away. Beneath the debris lies Hendrel's magic hammer, a [dwarven thrower](03.PlayerLog&Handouts/Mechanics/CLI/items/dwarven-thrower.md). The weapon can't be found until Hendrel's spirit manifests.
 
-### F13. Hall of Black Crystal
+#### F13. Hall of Black Crystal
 
 > [!readaloud] 
 > 
@@ -383,17 +384,17 @@ If any character is currently under the blessing of Hendrel Foebreaker (area F10
 
 The eastern passage descends to area G1 of the Black Geode (described later in this chapter). To protect their sanctum, earth cultists stationed two [hill giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/hill-giant.md) here. Each giant wears ring mail (AC 14).
 
-#### Roleplaying the Giants
+##### Roleplaying the Giants
 
 The giants, Karg and Maul, pass the time playing a game akin to Tic-Tac-Toe, using rocks of different colors. Maul is frustrated because he has been losing to Karg. When the party arrives, he calls out, "I wanna play dese li'l guys! Hey, puny-bones! Wanna play?"
 
 If a character accepts the challenge, resolve the outcome of each game with an Intelligence contest. The giants usually bet 10 gp per game. Losing infuriates Maul; if the characters fail to calm him, he attacks, which prompts Karg to attack as well. The giants also attack if no character accepts the challenge or if they characters speak ill of their game.
 
-#### Treasure
+##### Treasure
 
 Karg and Maul carry large satchels. Between them, they have 160 gp, 22 pp, three red spinels (100 gp each), a fine amethyst (150 gp), and a mummified human head.
 
-### F14. Zegdar's Lair
+#### F14. Zegdar's Lair
 
 > [!readaloud] 
 > 
@@ -409,15 +410,15 @@ The **minotaur **is [Zegdar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ze
 
 [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md) has directed Wyx, a simpering [nothic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/nothic.md), to act as [Zegdar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zegdar-pota.md)'s adviser. Wyx flatters [Zegdar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zegdar-pota.md) so that he does his job and doesn't become a problem. The rest of the Emberhorns hate Wyx, but [Zegdar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zegdar-pota.md) sees the nothic as proof of his importance.
 
-#### Trophies
+##### Trophies
 
 The Emberhorn minotaurs take trophies by hewing the hands from their smaller defeated foes. To dedicate the victory to [Imix](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/imix-pota.md), the minotaurs roast the hands in coals.
 
-#### Treasure
+##### Treasure
 
 [Zegdar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zegdar-pota.md)'s iron coffer contains 130 sp, 220 gp, and ten flawed hematite gemstones worth 5 gp each.
 
-### F15. Fiery Throat
+#### F15. Fiery Throat
 
 > [!readaloud] 
 > 
@@ -430,7 +431,7 @@ The floating disk is made to move by uttering the proper command word loudly eno
 
 Speaking either command word or striking the gong calls the disk to this level. Any such noise alerts the creatures in areas F14, F16, and F17 that someone is here.
 
-### F16. Emberhorn Den
+#### F16. Emberhorn Den
 
 > [!readaloud] 
 > 
@@ -441,11 +442,11 @@ This room houses three Emberhorn [minotaurs](03.PlayerLog&Handouts/Mechanics/CLI
 
 The ogre was a minion of the earth cult killed by the Emberhorns a couple months ago. As is their custom, the minotaurs roasted the body and hung the remains as a trophy.
 
-#### Reinforcements
+##### Reinforcements
 
 Any loud noise in here causes the minotaurs in area F17 to investigate. One goes to warn [Zegdar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zegdar-pota.md) in area F14, and the other joins battle as soon as possible.
 
-### F17. Ancient Conjury
+#### F17. Ancient Conjury
 
 > [!readaloud] 
 > 
@@ -458,11 +459,11 @@ Two [minotaurs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/minotau
 
 Long before dwarves established their stronghold in the caves above the fane, these caverns belonged to drow who were drawn here by the area's elemental energies. This chamber was a conjuring room where drow summoned demons using the circles etched in the floor. Any character who makes a successful DC 15 Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)) check recognizes the nature of the circles, and that they are ancient and damaged to the point of uselessness.
 
-#### Reinforcements
+##### Reinforcements
 
 Any loud noise in here causes the minotaurs in area F16 to investigate. One goes to warn [Zegdar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zegdar-pota.md) in area F14, and the other two join battle as soon as possible.
 
-### F18. Drow Tomb
+#### F18. Drow Tomb
 
 > [!readaloud] 
 > 
@@ -471,15 +472,15 @@ Any loud noise in here causes the minotaurs in area F16 to investigate. One goes
 
 In the center of the sarcophagus lid is a symbol that combines those of the four elemental cults—the symbol of the Elder Elemental Eye (see chapter 1). The cultists believe the coffin is holy and left it undisturbed. A character who succeeds on a DC 15 Intelligence check can identify the sarcophagus as an example of drow artistry. The sarcophagus contains only dust and bones.
 
-#### Trap
+##### Trap
 
 A [glyph of warding](03.PlayerLog&Handouts/Mechanics/CLI/spells/glyph-of-warding.md) protects the sarcophagus. A character can find the glyph with a successful DC 18 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check. Triggered by any attempt to open the coffin, the glyph casts [Mordenkainen's sword](03.PlayerLog&Handouts/Mechanics/CLI/spells/mordenkainens-sword.md) (melee spell attack +10). The sword attacks any creature within 30 feet of the sarcophagus, starting with the triggering creature. It disappears after 1 minute.
 
-#### Flaming Water
+##### Flaming Water
 
 The flame burning on the water is fed by natural oil seeping into a tainted pool that is 5 feet deep. The water is undrinkable.
 
-### F19. That Which Lurks
+#### F19. That Which Lurks
 
 > [!readaloud] 
 > 
@@ -490,7 +491,7 @@ Drow carved this chamber and raised this idol to honor Ghaunadaur, a dark god as
 
 The "crystal" is worthless glass. Any creature that removes or destroys the stone must succeed on a DC 15 Wisdom saving throw or be subjected to Ghaunadaur's curse. The curse is like a [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md) spell, except it turns the offender into an [ochre jelly](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/ochre-jelly.md) that lacks the Split reaction. A [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md) or [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md) spell ends this effect.
 
-### F20. Hall of Battle
+#### F20. Hall of Battle
 
 > [!readaloud] 
 > 
@@ -501,11 +502,11 @@ This chamber has been a battleground for the elemental cults as they seek to con
 
 When intruders appear, the myrmidon levels its flail at them and asks in a cold voice, "Whom do you serve?" The myrmidon decides whether the adventurers are friends or foes, based on their response to its question and the gear they wear. If the characters look like air cultists and reply that they serve elemental air or the Elder Elemental Eye, the myrmidon might be satisfied. If not, the myrmidon attacks.
 
-#### Treasure
+##### Treasure
 
 The various human corpses in this hall include air cultists, earth cultists, and a pair of fire cultists. No coinage or other valuables remain, but the characters can scrounge up cloaks, surcoats, or robes sufficient to create five air cultist disguises, four earth cultist disguises, and one fire cultist disguise.
 
-### F21. Temple of the Elder Elemental Eye
+#### F21. Temple of the Elder Elemental Eye
 
 > [!readaloud] 
 > 
@@ -514,15 +515,15 @@ The various human corpses in this hall include air cultists, earth cultists, and
 
 This chamber is the Temple of the Elder Elemental Eye, the dark force that lies behind Elemental Evil. The ziggurat dates back to ancient times when drow renegades venerated the Eye, long before the days of Besilmer. The elemental prophets come here to seek visions and boons from the Eye, although it is a fickle and uncommunicative power that rarely responds in any recognizable way.
 
-#### Altar
+##### Altar
 
 Any non-evil creature that touches the altar or makes a melee weapon attack against it must succeed on a DC 15 Constitution saving throw or take 22 (`4d10`) psychic damage. The altar has AC 15, 150 hit points, and immunity to acid, cold, fire, lightning, poison, psychic, and thunder damage, as well as bludgeoning, piercing, and slashing damage from nonmagical weapons. As long as the altar remains intact, servants of Elemental Evil (including members of the hour elemental cults) can't be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) while in this room.
 
-#### Flaming Water
+##### Flaming Water
 
 The flames burning on the pools are fed by oil seeps beneath the water. The water is tainted and undrinkable.
 
-#### Cult Forces
+##### Cult Forces
 
 One of the four elemental prophets is here when the adventurers first arrive. Accompanying the prophet is a handful of subordinates. Choose from the following options, discounting any prophet who has been defeated:
 
@@ -535,7 +536,7 @@ The prophet knows who the characters are. He or she is also aware of any other p
 
 If it seems in keeping with the prophet's personality (see chapter 7), he or she attempts to recruit the characters, saying, "You have shown you are resourceful and have great courage. We can use you. Swear allegiance to me, and I shall show you power such as you have never dreamed of."
 
-##### Sacrifice
+###### Sacrifice
 
 If the characters accept the prophet's offer, he or she demands a test of good faith. The prophet and entourage move to a tactically safe position. Then, to prove their sincerity, the new converts must offer the sacrifice. The villains have a [commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) named Darreth, abducted from Womford weeks ago, as a sacrifice. Darreth is already bound, gagged, and lying at the foot of the altar.
 
@@ -543,7 +544,7 @@ Darreth doesn't know the layout of the fane, but he has met each prophet except 
 
 If he is set free, Darreth is brave enough to accompany the characters if they so wish, and also desperate enough to make the trip back to Womford alone if the characters give him directions back to the surface.
 
-#### Treasure
+##### Treasure
 
 Each elemental prophet carries an elemental weapon (see chapter 7).
 
@@ -579,7 +580,7 @@ Wind continuously moves through the Howling Caves, in whispers or howls.
 
 ### Areas of the Caves
 
-### N1. Entrance
+#### N1. Entrance
 
 > [!readaloud] 
 > 
@@ -588,7 +589,7 @@ Wind continuously moves through the Howling Caves, in whispers or howls.
 
 The north end of the tunnel forms the bottom of a widening shaft that leads up to area F2 in the Fane of the Eye. The rough walls can be climbed safely.
 
-### N2. Deadly Pool
+#### N2. Deadly Pool
 
 > [!readaloud] 
 > 
@@ -606,11 +607,11 @@ When the temperature shifts, read the following:
 
 The shift to extreme heat, as described in "chapter 5" of the *Dungeon Master's Guide*, takes only a moment. When the heat begins, the ice cracks at the start of that round and is unable to hold any weight end of the round 3 rounds later. The lake is 12 feet deep and turns to boiling water. A creature that enters the water for the first time on its turn or starts its turn there takes 7 (`2d6`) fire damage. In addition, steam renders the cave lightly obscured.
 
-#### Floating Corpses
+##### Floating Corpses
 
 The bodies are the boiled remains of svirfneblin that lived in area N5.
 
-### N3. Oubliette
+#### N3. Oubliette
 
 > [!readaloud] 
 > 
@@ -621,7 +622,7 @@ The shaft leads to area A18 in the Temple of Howling Hatred. An [air elemental](
 
 The corpses are sacrifices to [Yan-C-Bin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yan-c-bin-pota.md), hurled down the shaft by air cultists. The symbol of elemental air is cut into each victim's forehead. The characters can find an intact head and see the symbol in gory relief.
 
-### N4. Storm Chasm
+#### N4. Storm Chasm
 
 > [!readaloud] 
 > 
@@ -632,8 +633,6 @@ The chasm is 50 feet deep, and the lower 40 feet of it is heavily obscured by fo
 
 The chasm fills with wind, thunder, or lightning at random times. If one or more creatures are in the chasm, have them roll initiative. On initiative count 10, roll a `d20` and consult the following table to determine what effect, if any, occurs in the chasm:
 
-`dice: [](05-chapter-5-temple-of-the-elder-elemental-eye.md#^effect)`
-
 | dice: d20 | Effect |
 |-----------|--------|
 | 1–10 | None |
@@ -642,19 +641,19 @@ The chasm fills with wind, thunder, or lightning at random times. If one or more
 | 19–20 | Lightning |
 ^effect
 
-#### Wind
+##### Wind
 
 A strong wind fills the chasm for 1 minute. The wind extinguishes open flames in or above the chasm and imposes disadvantage on Strength and Dexterity checks made by creatures in the chasm.
 
-#### Thunder
+##### Thunder
 
 Thunder momentarily fills the chasm. Each creature in the chasm must make a DC 15 Constitution saving throw. On a failure, it takes 10 (`3d6`) thunder damage and is [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened) for 1 minute. On a success, the creature takes half damage and isn't [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened).
 
-#### Lightning
+##### Lightning
 
 Lightning momentarily fills the chasm. Each creature in the chasm must make a DC 15 Dexterity saving throw, taking 28 (`8d6`) lightning damage on a failure, or half as much damage on a success.
 
-### N5. Svirfneblin Settlement
+#### N5. Svirfneblin Settlement
 
 If the nycaloth is in area N7, the characters hear a horrid, rasping song coming from the eastern passage.
 
@@ -665,7 +664,7 @@ If the nycaloth is in area N7, the characters hear a horrid, rasping song coming
 
 This svirfneblin settlement was the test site for [Aerisi Kalinoth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/aerisi-kalinoth-pota.md)'s first [devastation orb](03.PlayerLog&Handouts/Mechanics/CLI/items/devastation-orb-pota.md). Four [specters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md) of deep gnomes who perished here wander the ruins. The power of the air node imbued them with elemental energy, so their attacks deal lightning damage instead of necrotic. They attack any creature that enters the cavern.
 
-### N6. Breathless Cave
+#### N6. Breathless Cave
 
 > [!readaloud] 
 > 
@@ -674,11 +673,11 @@ This svirfneblin settlement was the test site for [Aerisi Kalinoth](03.PlayerLog
 
 The fissures magically pull the air from the cave and the lungs of any creature that comes within 30 feet of the back of the cave. Such a creature must succeed on a DC 15 Constitution saving throw or be unable to breathe. The creature can't breathe normally again unless it succeeds on the saving throw, made again at the end of each minute. A [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md) spell also ends the effect, as does [bottled breath](03.PlayerLog&Handouts/Mechanics/CLI/items/bottled-breath-pota.md) (see chapter 7).
 
-#### Treasure
+##### Treasure
 
 The drow wears a suit of [elven chain](03.PlayerLog&Handouts/Mechanics/CLI/items/elven-chain.md) and carries a pair of fine daggers decorated with rubies (1,000 gp each), as well as a scroll of [primordial ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/primordial-ward-xge.md) (see appendix B). See area N7 for more information on this drow.
 
-### N7. The Floating Ones
+#### N7. The Floating Ones
 
 If the nycaloth is alive here, the characters hear a horrid, rasping song coming from the area before they see it.
 
@@ -689,7 +688,7 @@ If the nycaloth is alive here, the characters hear a horrid, rasping song coming
 
 This gruesome display is the work of a [nycaloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/nycaloth.md) that takes sadistic delight in torturing captives. It guards the outer reaches of the Howling Caves against intruders.
 
-#### Prisoners
+##### Prisoners
 
 The prisoners here are in poor condition. Each one is incoherent and has 1 hit point remaining. Healing brings a captive back to his or her senses.
 
@@ -699,11 +698,11 @@ Feathergale knights captured the [aarakocra](03.PlayerLog&Handouts/Mechanics/CLI
 
 The [drow mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-mage.md), Balix, is a historian and companion to the dead scout in area N5. They came to see the Fane of the Eye and to find out if surfacers were here, and they walked into a cult ambush. He wants nothing to do with the cults, the surface world, or anything other than returning to the nearest drow community. He uses his innate [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md) spell to retreat as soon as possible.
 
-#### Treasure
+##### Treasure
 
 Among the debris is a spider silk pouch with 23 pp and a [necklace of prayer beads](03.PlayerLog&Handouts/Mechanics/CLI/items/necklace-of-prayer-beads.md). The necklace holds one *bead of blessing*, one *bead of curing*, one *bead of summons*, and one *bead of wind walking*.
 
-### N8. Wind Chorus
+#### N8. Wind Chorus
 
 > [!readaloud] 
 > 
@@ -712,15 +711,15 @@ Among the debris is a spider silk pouch with 23 pp and a [necklace of prayer bea
 
 Occasionally, while here, one or more characters hear whispered lies or hateful howls, as many times as you wish.
 
-#### Whispered Lies
+##### Whispered Lies
 
 Choose an NPC friend or ally who was or is important to the affected characters. Those characters hear the NPC's voice on the wind, but the voice taunts and whispers of failures, flaws, and negative traits.
 
-#### Hateful Howls
+##### Hateful Howls
 
 Choose an NPC adversary who was or is important to the affected characters. The voice of the adversary swears vengeance, makes threats, and foretells doom.
 
-### N9. Mushroom Forest
+#### N9. Mushroom Forest
 
 > [!readaloud] 
 > 
@@ -733,7 +732,7 @@ Eating any other toadstool forces the eater to make a DC 15 Constitution saving 
 
 The sloping passage to the south leads to area N12.
 
-### N10. Stalagmite Garden
+#### N10. Stalagmite Garden
 
 > [!readaloud] 
 > 
@@ -742,7 +741,7 @@ The sloping passage to the south leads to area N12.
 
 Supernatural air has weathered the stalagmites such that they form weird images as one moves through the cavern. The characters might see a line of figures struggling to walk against the wind, faces of the dead, or anything else you wish to depict or convey in your campaign.
 
-### N11. Hero's Tomb
+#### N11. Hero's Tomb
 
 > [!readaloud] 
 > 
@@ -753,11 +752,11 @@ The natural column rises 20 feet and is slick with water and fungus, so it requi
 
 Beneath the mold, a Dwarvish inscription on the casket reads, "Here rests Godwyd the Wyrmbane, dragonslayer and peacekeeper." The casket contains dust, bones, a cloven skull and helm, and a battered breastplate. A gleaming shortsword is clutched in the skeleton's hands (see "Treasure" below).
 
-#### Treasure
+##### Treasure
 
 Godwyd's shortsword is a [dragon slayer](03.PlayerLog&Handouts/Mechanics/CLI/items/dragon-slayer.md). Removing the blade causes a low moan to rise from the casket, but nothing else happens.
 
-### N12. Glowing Mere
+#### N12. Glowing Mere
 
 > [!readaloud] 
 > 
@@ -766,7 +765,7 @@ Godwyd's shortsword is a [dragon slayer](03.PlayerLog&Handouts/Mechanics/CLI/ite
 
 The mere is 15 feet deep at its deepest point. The water here is clear and clean.
 
-### N13a–N13b. Whispering Caverns
+#### N13a–N13b. Whispering Caverns
 
 > [!readaloud] 
 > 
@@ -775,7 +774,7 @@ The mere is 15 feet deep at its deepest point. The water here is clear and clean
 
 These caves are empty.
 
-### N14. Air Node's Doorstep
+#### N14. Air Node's Doorstep
 
 Wind blowing from area N15 intensifies as it passes through this area, extinguishing torches and other open flames.
 
@@ -786,7 +785,7 @@ Wind blowing from area N15 intensifies as it passes through this area, extinguis
 
 The chasm is 100 feet deep. The strong wind makes walking on the narrow ledges treacherous. Any creature doing so must succeed on a DC 10 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check. A creature that fails this check falls from the ledge into the chasm. Normally, the chasm would be easy to climb, but the wind makes it so the climb requires successful DC 10 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) checks. A creature that fails such a check falls from the chasm wall.
 
-### N15. Windhuggers
+#### N15. Windhuggers
 
 > [!readaloud] 
 > 
@@ -795,7 +794,7 @@ The chasm is 100 feet deep. The strong wind makes walking on the narrow ledges t
 
 A [Howling Hatred priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/howling-hatred-priest-pota.md) and eight [Howling Hatred initiates](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/howling-hatred-initiate-pota.md) (see chapter 7 for both) are here, but they are too swept up in their "windhugging" to fret about intruders. They attack only if the characters disturb them. This wind here is loud enough that sounds of combat in this cave can't be heard elsewhere.
 
-### N16. Tortured Cavern
+#### N16. Tortured Cavern
 
 > [!readaloud] 
 > 
@@ -804,7 +803,7 @@ A [Howling Hatred priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/
 
 As the characters explore this area, a [black pudding](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/black-pudding.md) pours out of a narrow crack in the wall behind them, cutting off their escape. It fights until slain.
 
-### N17. Sacrifices
+#### N17. Sacrifices
 
 Characters hear the wind and spot the green light here before arriving.
 
@@ -815,15 +814,15 @@ Characters hear the wind and spot the green light here before arriving.
 
 Prisoners are kept here until they can be sacrificed to [Yan-C-Bin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yan-c-bin-pota.md) in area N19. Two [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) [barlguras](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/barlgura.md) guard the prisoners. The demons lurk among the columns in the upper reaches of the cave, dropping down to attack intruders who dare free the prisoners. If they spot the characters, the two women warn characters of the "[invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) demons" that guard them.
 
-#### Light
+##### Light
 
 Two braziers light this area with [continual flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/continual-flame.md) spells.
 
-#### Prisoners
+##### Prisoners
 
 Two humans are kept here, the symbol of air cut into each one's forehead. One is Nerise Gladham, a farmer (an unarmed [commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) with 2 hit points remaining). The other is Deseyna Norvael, a high-ranking Waterdhavian diplomat (an unarmed [noble](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md) with 4 hit points remaining) who was part of the Mirabar delegation. Both prisoners want only to escape this area and return to civilization.
 
-### N18. Royal Guard
+#### N18. Royal Guard
 
 The wind is so strong in this chamber and the tunnel leading to area N19 that each creature starting its turn in the area must succeed on a DC 10 Strength saving throw or be pushed 10 feet toward area N17. Flying creatures have disadvantage on the save. From this point on, a creature must spend 2 feet of movement for every 1 foot it moves when moving closer to area N19. Flying creatures spend 5 feet of movement instead of 2.
 
@@ -838,7 +837,7 @@ The characters spot the green light ([continual flame](03.PlayerLog&Handouts/Mec
 
 Four emaciated [Howling Hatred priests](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/howling-hatred-priest-pota.md) (see chapter 7)—Aerisi's most devout cultists—guard this area. Periods of sustaining themselves upon only air have warped their bodies. Their eyes bulge from cavernous sockets, and skin stretches across jutting bone. Because of their devotion, they are immune to the wind's effects.
 
-### N19. Air Portal
+#### N19. Air Portal
 
 Characters hear thunder and see flashes of light as they approach this area.
 
@@ -855,17 +854,17 @@ If the characters defeated Aerisi, two [air elemental myrmidons](03.PlayerLog&Ha
 
 If Aerisi is here but isn't the only prophet still alive, use the "Encounter with Aerisi" section. Use the "Encounter with [Yan-C-Bin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yan-c-bin-pota.md)" section if Aerisi is the only remaining prophet. In either encounter, the air elemental myrmidons aren't present.
 
-#### Encounter with Aerisi
+##### Encounter with Aerisi
 
 [Aerisi Kalinoth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/aerisi-kalinoth-pota.md) (see chapter 7) stands next to the air portal, protected by an [air elemental myrmidon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/air-elemental-myrmidon-mpmm.md). While attempting to call [Yan-C-Bin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yan-c-bin-pota.md) into the world, she tries to stay out of the characters' reach while casting her destructive spells. The myrmidons focus on thwarting and killing ranged attackers and spellcasters.
 
 Aerisi refuses to flee at this point, and trying to do so through the air portal with [Windvane](03.PlayerLog&Handouts/Mechanics/CLI/items/windvane-pota.md) would be disastrous. When the characters defeat her, she vanishes in a scream of wind, but [Windvane](03.PlayerLog&Handouts/Mechanics/CLI/items/windvane-pota.md) remains, as does the portal.
 
-#### Encounter with Yan-C-Bin
+##### Encounter with Yan-C-Bin
 
 When the characters arrive, [Aerisi Kalinoth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/aerisi-kalinoth-pota.md) is alone. She holds [Windvane](03.PlayerLog&Handouts/Mechanics/CLI/items/windvane-pota.md) aloft and cries, "With this key, I call forth my lord and master!" The moon elf then bows as [Yan-C-Bin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yan-c-bin-pota.md) (see chapter 7) flies through the portal. The Prince of Evil Air appears as a gaunt, dark-gray man with white hair and glowing eyes. In this form [Yan-C-Bin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yan-c-bin-pota.md) smiles, and his eyes flash with lightning. As Aerisi gloats, [Yan-C-Bin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yan-c-bin-pota.md) focuses on destroying the characters.
 
-#### The Air Portal
+##### The Air Portal
 
 The thundercloud surrounds a silvery window, which is a portal to the Plane of Air that leads directly to the steps of [Yan-C-Bin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yan-c-bin-pota.md)'s [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) castle. This portal is 30 feet from the floor.
 
@@ -873,7 +872,7 @@ Those who pass through the portal arrive on the steps of [Yan-C-Bin](03.PlayerLo
 
 Characters can close the portal only by hurling [Windvane](03.PlayerLog&Handouts/Mechanics/CLI/items/windvane-pota.md) into it, destroying the weapon in the process. If the portal closes while [Yan-C-Bin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yan-c-bin-pota.md) remains in the world, he is forced back to the Elemental Plane of Air.
 
-#### Treasure
+##### Treasure
 
 Aerisi has decked herself in royal finery. She wears a platinum torc (worth 1,600 gp), gold and sapphire rings (four, each worth 1,000 gp), and a diadem (6,400 gp) from Evereska. She carries [Windvane](03.PlayerLog&Handouts/Mechanics/CLI/items/windvane-pota.md) (see chapter 7).
 
@@ -923,15 +922,13 @@ Whenever a character responds to this telepathic contact, a link is established.
 
 Check for a random encounter every 10 minutes. Roll a `d20` and consult the following table to determine what, if anything, the characters encounter:
 
-`dice: [](05-chapter-5-temple-of-the-elder-elemental-eye.md#^encounter)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1 | 1 [giant octopus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-octopus.md) (see area P11) |
-| 2–3 | `d4` [ice mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/ice-mephit.md) (see area P14) |
+| 2–3 | `1d4` [ice mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/ice-mephit.md) (see area P14) |
 | 4 | 1 [water weird](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-weird.md) (see area P16) |
 | 5 | 1 [Dark Tide knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/dark-tide-knight-pota.md) mounted on a [water weird](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-weird.md) (see area P16) |
-| 6 | `d4` [swarms of quippers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-quippers.md) |
+| 6 | `1d4` [swarms of quippers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-quippers.md) |
 | 7–20 | None |
 ^encounter
 
@@ -945,7 +942,7 @@ Within the Plunging Torrents, any creature that has the symbol of water scratche
 
 ### Areas of the Torrents
 
-### P1. Waterfall Basin
+#### P1. Waterfall Basin
 
 The waterfall here can be heard from quite a distance.
 
@@ -958,19 +955,19 @@ A character who has a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechani
 
 The stairs descend 5 feet beneath the lake surface, ending at a rough underwater ledge 15 feet above the submerged cavern floor. The stairs ascend to area F8 in the Fane of the Eye.
 
-#### Iron Post
+##### Iron Post
 
 The iron post is a recent addition to the cavern, planted haphazardly into the rock of the staircase. When the characters arrive in the chamber for the first time, a punt is moored here.
 
 The punt is a long, flat-bottomed boat equipped with a pole for navigation through the water node. This punt can accommodate up to seven Medium creatures. As part of its movement, a creature can use the pole to propel the punt 10 feet. The punt has AC 8 and 50 hit points. If it goes over a waterfall, it loses 25 hit points and capsizes.
 
-#### Watery Globe
+##### Watery Globe
 
 The 7-foot globe of water floats 1 foot above water level and is stationary until a creature touches it, whereupon it envelops the creature and carries it to area P20 via the northeast tunnel (passing though areas P12, P14, and P16). The globe has a flying speed of 10 feet, and a creature contained within gains the benefit of a [water breathing](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-breathing.md) spell for as long as it remains in the globe. Any time during the trip, the creature inside the globe can swim out of it as an action. The globe carries only the one creature and bursts upon reaching its destination. A globe is immune to damage, though [dust of dryness](03.PlayerLog&Handouts/Mechanics/CLI/items/dust-of-dryness.md) destroys it.
 
 When the globe is destroyed or leaves this cave, another one rises up out of the water to take its place.
 
-### P2. Plunging Passage
+#### P2. Plunging Passage
 
 > [!readaloud] 
 > 
@@ -981,7 +978,7 @@ The current pulls to the south of the island toward the waterfall leading to are
 
 The waterway to the north flows westward down the passageway, unaffected by the current.
 
-### P3. Nets
+#### P3. Nets
 
 > [!readaloud] 
 > 
@@ -990,11 +987,11 @@ The waterway to the north flows westward down the passageway, unaffected by the 
 
 Seven [giant crabs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-crab.md) dwell in this cavern. Three are in plain sight on the rocky ledge to the northwest. Two crabs cling underwater to each span of net. Characters observing the water must roll a successful DC 14 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check to spot the submerged crabs, which climb their nets to attack any creatures that pass within reach. Once combat starts, all the crabs attack.
 
-#### Nets
+##### Nets
 
 Each net draped across the cavern has AC 8 and 20 hit points. They extend 5 feet above the water. Because the nets are wet, each has resistance to fire damage. Once a net drops to 0 hit points, the net sinks into the water and provides no impediment.
 
-#### Underwater Passage
+##### Underwater Passage
 
 If the characters explore beneath the water, read the following:
 
@@ -1005,7 +1002,7 @@ If the characters explore beneath the water, read the following:
 
 The double doors push open to reveal an underwater passage to area P4.
 
-### P4. Temple Entrance
+#### P4. Temple Entrance
 
 The walls of this cavern are covered with slime and can't be climbed without gear, and the water here is fouled and unfit to drink.
 
@@ -1020,11 +1017,11 @@ At the southwestern end of the plaza, a set of curving stairs climbs above the w
 
 Four [kuo-toa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kuo-toa.md) worship at the altar, while a [kuo-toa monitor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kuo-toa-monitor.md) guards the northeast doors. The kuo-toa try to capture victims for their aboleth god (see area P6).
 
-#### Reinforcements
+##### Reinforcements
 
 If a battle occurs here, the creatures from area P7 investigate and join the fray.
 
-### P5. Shrine of Yngukulub
+#### P5. Shrine of Yngukulub
 
 > [!readaloud] 
 > 
@@ -1044,16 +1041,16 @@ Replace the kuo-toa archpriest's Scepter action with the following action:
 
 > [!note] 
 > 
-> **Trident of Fish Command.** *Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit*: 5 (`1d6 + 2`) piercing damage, or 6 (`1d8 + 2`) piercing damage if used with two hands to make a melee attack.
+> **Trident of Fish Command.** *Melee  or Ranged Weapon Attack:* `+4` to hit, reach 5 ft. or range 20/60 ft., one target. *Hit*: 5 (`1d6 + 2`) piercing damage, or 6 (`1d8 + 2`) piercing damage if used with two hands to make a melee attack.
 ^521
 
 The walls of this cavern are covered with slime and can't be climbed without gear, and the water here is foul and unfit to drink.
 
-#### Reinforcements
+##### Reinforcements
 
 If the aboleth is in area P6, it crawls up to the landing and joins the battle.
 
-### P6. Yngukulub the Devourer
+#### P6. Yngukulub the Devourer
 
 An [aboleth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/aboleth.md) named Yngukulub the Devourer has allied itself with [Gar Shatterkeel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gar-shatterkeel-pota.md) and the Cult of the Crushing Wave. Deranged kuo-toa bring the aboleth sacrifices, and when they lack a proper sacrifice, they willingly feed themselves to their hungry god.
 
@@ -1068,17 +1065,17 @@ If [Gar Shatterkeel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gar-shatte
 
 If it is here, the aboleth reaches out telepathically to the characters, promising to fulfill their desires in exchange for servitude. Characters who refuse are pulled down into the briny depths and devoured. The aboleth is heavily obscured by the dark, slimy water while completely submerged. It has no trouble pursuing prey that plunges over the waterfall to the east.
 
-#### Reinforcements
+##### Reinforcements
 
 The kuo-toa in area P5 come to the aboleth's defense if they aren't already dead.
 
-#### Treasure
+##### Treasure
 
 The triple eyes of the aboleths depicted on the columns are actually emeralds, sapphires, and blue-green opals. The six gemstones are worth 1,000 gp apiece.
 
 Lying on the floor of the aboleth's cave are 180 pp, 1,700 ep, and a [tentacle rod](03.PlayerLog&Handouts/Mechanics/CLI/items/tentacle-rod.md).
 
-### P7. Quipper Pit
+#### P7. Quipper Pit
 
 > [!readaloud] 
 > 
@@ -1089,7 +1086,7 @@ The pit is 10 feet wide and 40 feet down to the water. The water at the bottom o
 
 Four [kuo-toa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kuo-toa.md) and a [kuo-toa whip](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kuo-toa-whip.md) have filled the pit with a [swarm of quippers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-quippers.md). They ritually feed creatures to the quippers at times when they and the aboleth are sated. Their ritual is nonsense: gasping, muttering, and croaking with no basis in any known language. The kuo-toa attempt to push characters to the pit.
 
-### P8. Sloping Cave
+#### P8. Sloping Cave
 
 > [!readaloud] 
 > 
@@ -1100,11 +1097,11 @@ A [roper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/roper.md) and
 
 The roper attacks first. As it snares prey with its tendrils, it pulls its prey under the nearby piercers, which then drop from the ceiling. The piercers have advantage on attack rolls made against creatures [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled) by the roper.
 
-#### Treasure
+##### Treasure
 
 Beneath the water are 230 ep and 563 gp.
 
-### P9. Crushing Wave Outpost
+#### P9. Crushing Wave Outpost
 
 > [!readaloud] 
 > 
@@ -1117,7 +1114,7 @@ Two [Crushing Wave reavers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoi
 
 Unless they are drawn to area P20 to protect the aboleth, two [chuuls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/chuul.md) lurk behind the plateaus. They step out of hiding and attack interlopers as soon as the Crushing Wave reavers start hurling javelins. If a chuul paralyzes a foe, it allows the current to take the helpless creature over the falls and into area P20.
 
-### P10. Trial by Water
+#### P10. Trial by Water
 
 > [!readaloud] 
 > 
@@ -1130,7 +1127,7 @@ Eight [Crushing Wave reavers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/human
 
 [Gar Shatterkeel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gar-shatterkeel-pota.md) locked weak and disobedient cultists inside the cage in a ritual meant to strengthen them. The cultists attack if the characters free them, using bare hands until they can seize weapons. They surrender if reduced to half their number.
 
-### P11. Hunter's Den
+#### P11. Hunter's Den
 
 > [!readaloud] 
 > 
@@ -1141,11 +1138,11 @@ This cave is the lair of a [giant octopus](03.PlayerLog&Handouts/Mechanics/CLI/b
 
 Submerged tunnels connect this cave to areas P12 and P18. Characters swimming underwater spot them automatically.
 
-#### Secret Passage
+##### Secret Passage
 
 A one-way secret door blocks access to a submerged tunnel that ends at another similar door. A successful DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check is sufficient to find either door, but they open only from the other side.
 
-### P12. Feeding Cave
+#### P12. Feeding Cave
 
 > [!readaloud] 
 > 
@@ -1154,23 +1151,23 @@ A one-way secret door blocks access to a submerged tunnel that ends at another s
 
 [Gar Shatterkeel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gar-shatterkeel-pota.md) uses this cave to dispose of those who oppose or displease him.
 
-#### Underwater Gate
+##### Underwater Gate
 
 A submerged tunnel leads to area P13. This tunnel is blocked by a sturdy and locked iron gate. Four short iron chains ending in manacles are anchored to the iron bars of the gate. Using thieves' tools, a character can pick the lock with a successful DC 15 Dexterity check. The gate can also be wrenched open with a successful DC 25 Strength check.
 
-#### Drum
+##### Drum
 
 A drum stands amid the stalagmites on the island. The cult uses the drum to alert the ghouls in area P13 when fresh meat awaits them.
 
-#### Floating Corpse
+##### Floating Corpse
 
 The corpse belongs to a Crushing Wave initiate who got too close to the underwater gate while inspecting its manacles and was [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed) and clawed to death by the ghast in area P13. A search of the corpse reveals a ring with two keys—one that unlocks the gate, and another that unlocks the gate's manacles.
 
-#### Southern Area
+##### Southern Area
 
 While exploring the southern part of this area, characters can hear the cackling of the mephits in area P14 above the roar of the falls. The temperature begins to drop the closer one moves toward area P14.
 
-### P13. The Hungry
+#### P13. The Hungry
 
 > [!readaloud] 
 > 
@@ -1179,7 +1176,7 @@ While exploring the southern part of this area, characters can hear the cackling
 
 Seven [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) and a [ghast](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghast.md) gnaw on the bones in this cave. When a creature enters their lair, the ghouls dive in to devour it and escape confinement.
 
-### P14. Eye of Anguish
+#### P14. Eye of Anguish
 
 > [!readaloud] 
 > 
@@ -1188,15 +1185,15 @@ Seven [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) and
 
 A [one-eyed shiver](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/one-eyed-shiver-pota.md) (see chapter 7) and seven [ice mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/ice-mephit.md) inhabit this cave. The one-eyed shiver, called the Eye of Anguish by the other cultists, oversees the torture of prisoners. The ice mephits assist him.
 
-#### Frozen Prisoners
+##### Frozen Prisoners
 
 The humans stuck on the cave wall are surfacers who learned too much about the Cult of the Crushing Wave or who stood in its way. A few could be adventurers who failed to stop the cult. Decide who these prisoners are, if any of them are alive, and what role you want them to play.
 
-#### Development
+##### Development
 
 If the battle here is extremely loud, the cultists in area P16 know to prepare for danger.
 
-### P15. Reflection Chamber
+#### P15. Reflection Chamber
 
 > [!readaloud] 
 > 
@@ -1209,15 +1206,15 @@ The water here radiates divination magic under the scrutiny of a [detect magic](
 
 A submerged passage leads to area P14. Characters swimming underwater spot it automatically.
 
-#### Secret Passageway
+##### Secret Passageway
 
 An underwater, one-way secret door swivels to allow access to a submerged tunnel leading northwest. Finding the door requires a successful DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check. A similar secret door at the end of the tunnel opens into area P11 and can be spotted without an ability check.
 
-#### Treasure
+##### Treasure
 
 Encrusted with sapphires and pearls, the narwhal horn is worth 10,000 gp. A creature holding the narwhal horn in this cave feels it tug toward the reflective water.
 
-### P16. Hut of the Dark Tide
+#### P16. Hut of the Dark Tide
 
 The waterfall at the southern end of this cave is audible from the northern approach.
 
@@ -1230,7 +1227,7 @@ Two [water weirds](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-
 
 The hut contains two hammocks made from fishing nets, as well as the knights' weapons, clothing, and belongings. None of these belongings are valuable.
 
-### P17. Elemental Guardian
+#### P17. Elemental Guardian
 
 > [!readaloud] 
 > 
@@ -1239,7 +1236,7 @@ The hut contains two hammocks made from fishing nets, as well as the knights' we
 
 The ceiling is 30 feet above the eater's surface. A [water elemental myrmidon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-elemental-myrmidon-mpmm.md) (see chapter 7) lurks under the water but rises to attack trespassers not dressed as water cultists.
 
-### P18. Wrecks
+#### P18. Wrecks
 
 > [!readaloud] 
 > 
@@ -1252,7 +1249,7 @@ The rain renders the entire area lightly obscured, and strong currents on either
 
 A [hydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hydra.md) nests among the wrecks, and it attacks any intruder that isn't [Gar Shatterkeel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gar-shatterkeel-pota.md).
 
-#### Wrecked Ships
+##### Wrecked Ships
 
 [Olhydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/olhydra-pota.md) channeled the power of the water node to deliver these vessels to [Gar Shatterkeel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gar-shatterkeel-pota.md) as a demonstration of her power. One of the wrecks is the Tethyrian merchant galley that once conscripted a young [Gar Shatterkeel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gar-shatterkeel-pota.md) into brutal indenture. The other is the same Calishite pirate vessel that attacked the Tethyrian merchant galley, an event that caused Gar to be cast adrift and lose his arm to a shark.
 
@@ -1260,17 +1257,17 @@ The wrecks form solid ground, but in most places they are difficult terrain, sli
 
 The ships lean on their sides. At your option, the ships might have multiple levels of vertical terrain, hanging sails, and tilting masts, which the characters can climb or use as walkways.
 
-#### Treasure
+##### Treasure
 
 The Calishite pirate ship carries a chest laden with treasure. Characters searching the wreck find the chest, which contains a [+1 scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/1-weapon.md), an [alchemy jug](03.PlayerLog&Handouts/Mechanics/CLI/items/alchemy-jug.md), 1,200 gp, a diamond worth 5,000 gp, and two small rubies worth 1,000 gp each.
 
 The hold of the Tethyrian merchant vessel is gutted, its supplies long gone. One of the skeletons aboard wears a suit of fine scale mail decorated with shell motifs. This scale mail is [mariner's armor](03.PlayerLog&Handouts/Mechanics/CLI/items/mariners-armor.md).
 
-### P19a–P19b. Vortexes
+#### P19a–P19b. Vortexes
 
 Strong currents channel water from area P18 to these caves. In the center of each cave is a swirling vortex. Any creature drawn down into the vortex is teleported to a random body of water within the Plunging Torrents. Roll a `d20`; the number rolled determines of the location where the creature appears. For example, on a roll of 7, the creature teleports to the quipper pit in area P7.
 
-### P20. Water Portal
+#### P20. Water Portal
 
 > [!readaloud] 
 > 
@@ -1283,31 +1280,31 @@ The cave floor gradually rises toward the island, such that the water is 20 feet
 
 If the characters previously defeated [Gar Shatterkeel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gar-shatterkeel-pota.md), use the "Encounter with the Aboleth" section. If Gar has retreated to the node and the characters have defeated two other elemental prophets, use the "Encounter with [Gar Shatterkeel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gar-shatterkeel-pota.md)" section. If Gar is the sole remaining prophet, use the "Encounter with [Olhydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/olhydra-pota.md)" section.
 
-#### Water Globes
+##### Water Globes
 
 When the characters first arrive, three 7-foot-diameter globes of water drift about this cavern. Each globe of water floats 1 foot above water level and is stationary until a creature touches it, whereupon it envelops the creature and carries it to area P1 via the north tunnel (passing though areas P18, P17, and P2). The globe has a flying speed of 10 feet, and a creature contained within gains the benefit of a [water breathing](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-breathing.md) spell for as long as it remains in the globe. Any time during the trip, the creature inside the globe can swim out of it as an action. The globe carries only the one creature and bursts upon reaching its destination. A globe is immune to damage, though [dust of dryness](03.PlayerLog&Handouts/Mechanics/CLI/items/dust-of-dryness.md) destroys it.
 
 If a globe is destroyed or leaves this cave, another one emerges from the water portal to take its place.
 
-#### Encounter with the Aboleth
+##### Encounter with the Aboleth
 
 The [aboleth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/aboleth.md) from area P6 and the two [chuuls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/chuul.md) from area P9 guard the portal. The creatures are submerged in the southwest corner of the cave when the characters first arrive. The aboleth hopes to kill or enslave the characters, seize [Drown](03.PlayerLog&Handouts/Mechanics/CLI/items/drown-pota.md), and replace [Gar Shatterkeel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gar-shatterkeel-pota.md) as [Olhydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/olhydra-pota.md)'s prophet.
 
-#### Encounter with Gar Shatterkeel
+##### Encounter with Gar Shatterkeel
 
 [Gar Shatterkeel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gar-shatterkeel-pota.md) (see chapter 7) stands on the island before the water portal, beginning his ritual to call forth [Olhydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/olhydra-pota.md). He is guarded by a [water elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-elemental.md) and three [crocodiles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/crocodile.md) that circle the island, attacking any creatures that approach.
 
 Gar makes a final stand here. He can't retreat to the Plane of Water with [Drown](03.PlayerLog&Handouts/Mechanics/CLI/items/drown-pota.md), and he refuses to abandon his grim mission. When the characters defeat him, he turns to inky water and courses away. [Drown](03.PlayerLog&Handouts/Mechanics/CLI/items/drown-pota.md) remains where he fell.
 
-#### Encounter with Olhydra
+##### Encounter with Olhydra
 
 [Gar Shatterkeel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gar-shatterkeel-pota.md) stands on the island, unguarded. He holds his trident aloft and cries, "With this key I call forth my mistress!" A dark flow emerges from the portal, forming an immense water elemental with pearly, malignant eyes. This is [Olhydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/olhydra-pota.md), Princess of Evil Water (see chapter 7). [Olhydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/olhydra-pota.md) focuses on remaining in the world to work evil, especially keeping [Drown](03.PlayerLog&Handouts/Mechanics/CLI/items/drown-pota.md) away from the characters.
 
-##### Rising Water
+###### Rising Water
 
 When [Olhydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/olhydra-pota.md) appears, the water in the lake rises 2 feet at the end of each round. Since the waterfalls in the cavern are 40 feet high, the lake rises to the level of areas P9, P16, and P18 after 20 rounds. Once the water reaches the tops of the waterfalls, the water stops at 60 feet deep.
 
-#### The Water Portal
+##### The Water Portal
 
 The water portal is a 13-foot-diameter globe of water that floats above the island.
 
@@ -1339,13 +1336,11 @@ Most areas are dimly lit by crystal formations that give off a soft, violet glow
 
 Check for random encounters once every 30 minutes. Roll a `d20` and consult the following table to determine what, if anything, the characters encounter:
 
-`dice: [](05-chapter-5-temple-of-the-elder-elemental-eye.md#^encounter)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1 | 1 [burrowshark](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/burrowshark-pota.md) riding a [bulette](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/bulette.md) (see area G13) |
 | 2 | 1 [stonemelder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/stonemelder-pota.md) and `1d3 + 1` [Black Earth guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/black-earth-guard-pota.md) (see area G12) |
-| 3 | `d2` [earth elementals](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/earth-elemental.md) |
+| 3 | `1d2` [earth elementals](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/earth-elemental.md) |
 | 4 | 1 [umber hulk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/umber-hulk.md) (bursts out of a nearby wall) |
 | 5 | Bleeding earth |
 | 6 | Ceiling collapse |
@@ -1373,7 +1368,7 @@ A tremor causes a fissure `1d6 × 10` feet deep to open in the floor beneath one
 
 ##### Flowstone Growth
 
-Stalactites within 30 feet of the party begin to drip like melting wax. By the time the change ceases, each stalactite has grown `d4` feet longer. If a stalactite touches the opposite surface, it becomes a natural column.
+Stalactites within 30 feet of the party begin to drip like melting wax. By the time the change ceases, each stalactite has grown `1d4` feet longer. If a stalactite touches the opposite surface, it becomes a natural column.
 
 > [!gallery]
 > ![Map 5.4: The Black Geode](03.PlayerLog&Handouts/Mechanics/CLI/adventures/princes-of-the-apocalypse/img/064-05-04.webp#gallery)
@@ -1381,7 +1376,7 @@ Stalactites within 30 feet of the party begin to drip like melting wax. By the t
 
 ### Areas of the Geode
 
-### G1. Hall of the Guardians
+#### G1. Hall of the Guardians
 
 This cave lies at the end of a twisting, declining tunnel that began in area F13 of the Fane of the Eye.
 
@@ -1394,7 +1389,7 @@ Two [Black Earth guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/b
 
 If combat erupts here, two [earth elementals](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/earth-elemental.md) burst up from the middle of the floor and join the battle. These elementals have veins of glowing purple crystal; each sheds bright light in a 15-foot radius and dim light for another 15 feet beyond that.
 
-### G2. Keltar and Gorx
+#### G2. Keltar and Gorx
 
 > [!readaloud] 
 > 
@@ -1403,7 +1398,7 @@ If combat erupts here, two [earth elementals](03.PlayerLog&Handouts/Mechanics/CL
 
 A [stonemelder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/stonemelder-pota.md) (see chapter 7) named Keltar keeps vigil with a [xorn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/xorn.md) he discovered hiding in area G17. If the characters attack either, both retaliate in kind. The xorn flees once it has fewer than 20 hit points, but Keltar fights to the death.
 
-#### Roleplaying Keltar
+##### Roleplaying Keltar
 
 Keltar believes the xorn, called Gorx, is an emissary from [Ogrémoch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ogremoch-pota.md) sent to test the cult's worth. In fact, the creature wandered through the earth portal out of curiosity. Since Keltar was eager to please Gorx, it has done nothing to dissuade him.
 
@@ -1415,11 +1410,11 @@ The xorn can smell the party's wealth, and so it demands a tribute of 500 gp in 
 
 If the characters refuse to pay, the xorn attacks the character carrying the most treasure. Meanwhile, Keltar flees to area G6.
 
-#### Treasure
+##### Treasure
 
 The xorn's stomach still contains some undigested offerings: 9 gp, three egg-sized chunks of rough moonstone worth 25 gp each, three carnelians worth 50 gp each, and a cracked amethyst worth 100 gp. Keltar carries two more carnelians and hides a folded scroll of [investiture of stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/investiture-of-stone-xge.md) (see appendix B) in a pocket.
 
-### G3. Roper Den
+#### G3. Roper Den
 
 > [!readaloud] 
 > 
@@ -1428,11 +1423,11 @@ The xorn's stomach still contains some undigested offerings: 9 gp, three egg-siz
 
 A [roper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/roper.md) hangs from the ceiling above the debris. It ate several cultists before the others started avoiding the area. Eager for more humanoid flesh, the roper attempts to subdue as many of the adventurers as it can. It closes its eye and retracts it tendrils when reduced to 20 hit points, hoping the characters leave it alone.
 
-#### Treasure
+##### Treasure
 
 Scattered amid the broken weapons and armor are 65 gp, a brass statuette of an imp with onyx eyes worth 180 gp, and a [ring of swimming](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-swimming.md).
 
-### G4. Bewildering Crystals
+#### G4. Bewildering Crystals
 
 > [!readaloud] 
 > 
@@ -1443,15 +1438,15 @@ Any creature entering the cave for the first time on a turn or starting its turn
 
 A thunderous noise emanates from the northeast tunnel, which is only 5 feet high and slopes gently upward to area G6. The tunnel ends at a wall of falling mud (see area G6). Any creature passing under the mud takes 10 (`3d6`) bludgeoning damage.
 
-#### Corpse
+##### Corpse
 
 The corpse belongs to a Black Earth guard killed by one of his fellow cultists. The guard carries nothing of value.
 
-#### Secret Passage
+##### Secret Passage
 
 The "secret" entrance to area G5 is a tunnel cloaked by a 6th-level [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md) spell to look like a solid stone wall. Discovering its nature from a distance requires a DC 19 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check, although direct interaction immediately reveals the illusion.
 
-### G5. Underdark Entrance
+#### G5. Underdark Entrance
 
 > [!readaloud] 
 > 
@@ -1460,7 +1455,7 @@ The "secret" entrance to area G5 is a tunnel cloaked by a 6th-level [major image
 
 This tunnel runs for miles, eventually branching off into the caves of the Underdark.
 
-### G6. Mudflow Falls
+#### G6. Mudflow Falls
 
 > [!readaloud] 
 > 
@@ -1473,15 +1468,15 @@ A creature can use an action to pull itself or another creature within its reach
 
 Every 1 foot of movement through the mud costs 2 feet of speed, 5 feet if the creature is trying to move against the flow.
 
-#### Hidden Tunnel
+##### Hidden Tunnel
 
 A 5-foot-high tunnel hidden behind the mud descends to area G4. A creature must pass through the mud to reach the tunnel, taking 10 (`3d6`) bludgeoning damage from the falling mud.
 
-#### Ledge
+##### Ledge
 
 The western portion of the cave is 10 feet higher than the eastern portion, and the ledge can be scaled with a successful DC 10 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. The stone staircase leading up to the ledge is on the north side of the Mudflow.
 
-### G7. Empty Cave
+#### G7. Empty Cave
 
 > [!readaloud] 
 > 
@@ -1490,7 +1485,7 @@ The western portion of the cave is 10 feet higher than the eastern portion, and 
 
 This area is perfect for random encounters.
 
-### G8. Cavern of the Lost Crown
+#### G8. Cavern of the Lost Crown
 
 As the party approaches this area for the first time, read the following text:
 
@@ -1508,7 +1503,7 @@ Once the party can see the cave, read the following:
 
 The crowned helmet is an ancient dwarven relic (see "Treasure" below) that radiates strong magic when scrutinized with a [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell. As soon as someone tries to take it, the [ghost](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghost.md) of a duergar treasure hunter named Reulek appears and uses his Horrifying Visage, screaming, "Thieves! Learn from my folly! Even in death, the dwarves of Besilmer guard their fabled treasure!" As the ghost intones these words, four [specters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md) of dead drow killed here long ago in a cave collapse materialize and attack the living.
 
-#### Roleplaying Reulek
+##### Roleplaying Reulek
 
 Earth cultists found the crowned helmet in the Temple of Black Earth but failed to realize its significance. Reulek later stole it and was sneaking toward area G5 when he fell prey to the specters in this cave.
 
@@ -1520,11 +1515,11 @@ If the party refuses to help, or if at any point Reulek gets the sense that they
 
 Reulek was the partner of an oni named Obratu (see "Vale of Dancing Waters" in chapter 6). The characters might recognize his name from the note they find if they defeat Obratu. Reulek shrugs if the characters mention Obratu, saying, "It was a partnership of convenience."
 
-#### Treasure
+##### Treasure
 
 The golden-spiked helm is the [Lost Crown of Besilmer](03.PlayerLog&Handouts/Mechanics/CLI/items/lost-crown-of-besilmer-pota.md) (see chapter 7).
 
-### G9. Narrow Stone Bridge
+#### G9. Narrow Stone Bridge
 
 The following boxed text assumes that the characters arrive here via the tunnel to the north or south:
 
@@ -1539,11 +1534,11 @@ Two [galeb duhrs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/galeb-d
 
 The clacking noises are made by the hook horrors in the surrounding cavern.
 
-#### Reinforcements
+##### Reinforcements
 
 Combat on the bridge attracts the hook horrors in area G10, which gather under the bridge and attack any creature that falls.
 
-### G10. Clickety Clack
+#### G10. Clickety Clack
 
 > [!readaloud] 
 > 
@@ -1554,15 +1549,15 @@ The cavern ceiling is 80 feet high, and the bridge (area G9) is 40 feet above th
 
 Eight [hook horrors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hook-horror.md) hide in crevices along the walls, communicating with one another using a series of indecipherable clicks and clacks. The hook horrors attack any creature that tries to cross their territory or falls from the bridge.
 
-#### Secret Way
+##### Secret Way
 
 Hidden at the back of one hook horror's crevice is a narrow passage leading 20 feet up to area G7. The opening to this tunnel requires a successful DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check to spot, although a character who explores the crevice by entering it finds the hidden tunnel without an ability check.
 
-#### Treasure
+##### Treasure
 
 Characters who search through the shattered bones of the hook horrors' previous victims find 17 sp, four pieces of blue quartz (10 gp each), a silver hand mirror inlaid with lapis lazuli (270 gp), and a *pearl of power*.
 
-### G11. Elemental Mud Pool
+#### G11. Elemental Mud Pool
 
 > [!readaloud] 
 > 
@@ -1575,11 +1570,11 @@ An [earth elemental myrmidon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/eleme
 
 See area G6 for rules about moving through the river of mud. A creature that ends its turn in the swirling pool must succeed on a DC 15 Strength saving throw or be sucked down into the Elemental Plane of Earth and lost. A creature tethered by a rope can be pulled 10 feet toward the edge of the pool with a successful DC 15 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check.
 
-#### Development
+##### Development
 
 If the characters observe the cave unnoticed for a few minutes, they see the myrmidon lean over the pool and pluck a fledgling [mud mephit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/mud-mephit.md) from the muck. The pool has a noncumulative five percent chance of spawning a new mud mephit each hour.
 
-### G12. Hall of Meditation
+#### G12. Hall of Meditation
 
 If the characters approach this area quietly and without bright light sources, they can surprise the earth cultists within.
 
@@ -1592,7 +1587,7 @@ At any given time, the cave contains two [Black Earth guards](03.PlayerLog&Hando
 
 Several barrels and crates stand at the north end of the cavern. They contain water and rations.
 
-### G13. Bulette Kennels
+#### G13. Bulette Kennels
 
 > [!readaloud] 
 > 
@@ -1603,7 +1598,7 @@ There is a fifty percent chance that a [burrowshark](03.PlayerLog&Handouts/Mecha
 
 The enclosures to the north and south are kennels enclosed by 10-foot-high walls. The south kennels are empty. The northern kennels contain three young bulettes (use [rhinoceros](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/rhinoceros.md) statistics, but they bite instead of gore). These bulettes are sleeping if Rorgrin isn't present. A character can sneak past the sleeping bulettes by succeeding on a DC 11 Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)) check. The bulettes awaken on a failed check or if one or more of them is attacked. If Rorgrin is in area G14, the roused bulettes hiss at strangers, alerting Rorgrin to their presence.
 
-### G14. Rorgrin's Cave
+#### G14. Rorgrin's Cave
 
 > [!readaloud] 
 > 
@@ -1612,11 +1607,11 @@ The enclosures to the north and south are kennels enclosed by 10-foot-high walls
 
 If the party didn't encounter Rorgrin in area G13, they find the [burrowshark](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/burrowshark-pota.md) here with his trained [bulette](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/bulette.md) mount. Half the time, the pair is asleep.
 
-#### Treasure
+##### Treasure
 
 Stashed under his leather saddle "pillow," Rorgrin keeps a small leather bag containing 91 gp, two garnets (worth 100 gp each), and a [potion of thunder resistance](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-thunder-resistance.md).
 
-### G15. Arcane Foundry
+#### G15. Arcane Foundry
 
 > [!readaloud] 
 > 
@@ -1627,21 +1622,21 @@ The slabs are worktables covered with tools used for chiseling and carving stone
 
 Two [stonemelders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/stonemelder-pota.md) (see chapter 7) work here, along with a dwarf master smith [Rhundorth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rhundorth-pota.md)—one of the delegates from Mirabar (see below). If [Miraj Vizann](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/miraj-vizann-pota.md) (see chapter 7) survives, he is here in place of one stonemelder. Three [nothics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/nothic.md) watch from the shadows, ready to provide arcane insight during the forging process. The nothics are unwilling servants and flee toward area G16 if given the opportunity.
 
-[Rhundorth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rhundorth-pota.md) has the statistics of a [guard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) but is unarmed and unarmored (AC 11). His Strength is 18, and he speaks Common and Dwarvish. If given a choice of weapons, he prefers a warhammer (+6 to hit, `1d8 + 4` bludgeoning damage, or `1d10 + 4` bludgeoning damage while using two hands). He is lawful good.
+[Rhundorth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rhundorth-pota.md) has the statistics of a [guard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) but is unarmed and unarmored (AC 11). His Strength is 18, and he speaks Common and Dwarvish. If given a choice of weapons, he prefers a warhammer (`+6` to hit, `1d8 + 4` bludgeoning damage, or `1d10 + 4` bludgeoning damage while using two hands). He is lawful good.
 
-#### Roleplaying Rhundorth
+##### Roleplaying Rhundorth
 
 [Rhundorth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rhundorth-pota.md) was conscripted to toil here, helping the earth cult craft armor and weapons in exchange for a promise that other delegates in the earth cult's custody wouldn't be harmed. He knows the sage Bruldenthar was left in the mines of the Sacred Stone Monastery, and Lady Deseyna was captured by air cult raiders. He also reports that the moon elf Teresiel was handed over to the fire cult a couple of tendays ago.
 
-#### Mud Pool
+##### Mud Pool
 
 A creature that enters the well of boiling mud for the first time on a turn or starts its turn there takes 10 (`3d6`) fire damage. The mud is 5 feet deep and heated by a volcanic vent beneath the cave.
 
-#### Treasure
+##### Treasure
 
 Characters searching the worktables find several crystal staffs, stone morningstars, and pieces of rock armor, as well as a [+1 breastplate](03.PlayerLog&Handouts/Mechanics/CLI/items/1-armor.md) crafted from polished crystal. It bears the symbol of earth, and it heightens its wearer's urges to act in a selfish, greedy, or wicked way.
 
-### G16. Cathedral of Stone
+#### G16. Cathedral of Stone
 
 > [!readaloud] 
 > 
@@ -1650,7 +1645,7 @@ Characters searching the worktables find several crystal staffs, stone morningst
 
 If the nothics in area G15 retreat to this cave, they cower at the western end of the room.
 
-### G17. Earth Portal
+#### G17. Earth Portal
 
 > [!readaloud] 
 > 
@@ -1661,7 +1656,7 @@ If the nothics in area G15 retreat to this cave, they cower at the western end o
 
 If [Marlos Urnrayle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/marlos-urnrayle-pota.md) has been defeated elsewhere, this cavern is guarded by two [earth elemental myrmidons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/earth-elemental-myrmidon-mpmm.md) (see chapter 7) that stand before the monolith in plain view. If Marlos has retreated to this cavern and the characters have defeated two other prophets, use the "Encounter with Marlos Urnrayle" section. Use the "Encounter with Ogrémoch" section if Marlos is the last remaining prophet.
 
-#### Encounter with Marlos Urnrayle
+##### Encounter with Marlos Urnrayle
 
 [Marlos Urnrayle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/marlos-urnrayle-pota.md) (see chapter 7) stands before the earth portal, attempting to summon [Ogrémoch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ogremoch-pota.md). The characters find him with his back turned and the hood of his rich cloak pulled up, so he looks like a finely dressed cult priest. Two [Black Earth guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/black-earth-guard-pota.md) (see chapter 7) attend him, and four [gargoyles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/gargoyle.md) cling to the four nearest columns. Marlos continues incantations until he becomes aware of the characters. Then, he pulls back his hood and attacks.
 
@@ -1669,11 +1664,11 @@ Marlos taunts the characters, challenging those who avert their eyes to behold h
 
 The prophet stands his ground here. He can't flee through the earth portal with [Ironfang](03.PlayerLog&Handouts/Mechanics/CLI/items/ironfang-pota.md), and his pride doesn't allow him to relinquish his power in the node. When the characters defeat him, he turns to mud and melts away. [Ironfang](03.PlayerLog&Handouts/Mechanics/CLI/items/ironfang-pota.md) and the portal remain.
 
-#### Encounter with Ogrémoch
+##### Encounter with Ogrémoch
 
 [Marlos Urnrayle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/marlos-urnrayle-pota.md) appears much as he does in the previous section. When the characters arrive, he holds [Ironfang](03.PlayerLog&Handouts/Mechanics/CLI/items/ironfang-pota.md) aloft and intones, "With this key, I call forth the Mountain of Doom, the great and terrible [Ogrémoch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ogremoch-pota.md)!" He steps back as the earth portal liquifies and the colossal form of [Ogrémoch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ogremoch-pota.md) emerges (see chapter 7). [Ogrémoch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ogremoch-pota.md) focuses on destroying the characters with little concern for the consequences to Marlos. The elemental prince's aim is to remain in the world and consolidate power here before sowing chaos.
 
-#### The Earth Portal
+##### The Earth Portal
 
 The monolith is a portal leading to the Elemental Plane of Earth. Part of the monolith is in a liquid state at any given time, and any creature that touches the liquid stone is pulled into the Plane of Earth, near [Ogrémoch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ogremoch-pota.md)'s dwelling place. The Prince of Evil Earth can attack intruders on his home plane but can't pursue them through the portal into the world until the proper ritual is complete.
 
@@ -1725,13 +1720,11 @@ The map indicates three zones of heat intensity. The low intensity zone is uncom
 
 For every 30 minutes the characters spend inside the Weeping Colossus, roll a `d20` and consult the following table. Explanations of some of the encounters appear after the table. In the medium intensity zone, roll a `d20` and a `d4`, subtracting the `d4` from the `d20` roll. Use a `d6` instead of a `d4` in the high intensity zone.
 
-`dice: [](05-chapter-5-temple-of-the-elder-elemental-eye.md#^encounter)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–2 | 1 [fire elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-elemental.md) |
-| 3 | `d8` [magmin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/magmin.md) |
-| 4 | `d3` [salamanders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/salamander.md) (see area W7) |
+| 3 | `1d8` [magmin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/magmin.md) |
+| 4 | `1d3` [salamanders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/salamander.md) (see area W7) |
 | 5 | Crust break |
 | 6 | Flame gout |
 | 7 | Lava rain |
@@ -1754,7 +1747,7 @@ At the start of a round, lava droplets form on the ceiling and fall in a 20-foot
 
 ##### Smoke Cloud
 
-A cloud of smoke kicks up, filling an area 40 feet in diameter and causing that area to become lightly obscured. The smoke dissipates in `d4` minutes unless a wind disperses it.
+A cloud of smoke kicks up, filling an area 40 feet in diameter and causing that area to become lightly obscured. The smoke dissipates in `1d4` minutes unless a wind disperses it.
 
 ##### Sulfur Cloud
 
@@ -1762,7 +1755,7 @@ A discharge of noxious fumes erupts from a nearby vent. The effects are identica
 
 ### Areas of the Colossus
 
-### W1. Volcanic Shaft
+#### W1. Volcanic Shaft
 
 This shaft descends from area E14 in the Temple of Eternal Flame, past area F15 in the Fane of the Eye. A magical disk allows easy movement among the levels.
 
@@ -1773,19 +1766,19 @@ This shaft descends from area E14 in the Temple of Eternal Flame, past area F15 
 
 One [flamewrath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/flamewrath-pota.md) watches from the tunnel labeled "a," while one [Eternal Flame priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/eternal-flame-priest-pota.md) is positioned at the tunnel labeled "b." A [razerblast](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/razerblast-pota.md) stands watch in the middle passage. (See chapter 7 for the cultists' statistics.) The guards attack intruders who fail to use the pass phrase, "Hail the heart of fire!"
 
-#### Brass Plate
+##### Brass Plate
 
-A small brass plate is embedded in the north wall of the middle passage, near where the razerblast stands watch. It has an indentation in the shape of a human hand. When pressed, the plate causes basalt pillars to rise from the lava, creating stepping stones between the floating disk and the middle passage. The pillars are hot when they first rise. A creature that comes into contact with a hot pillar for the first time on a turn or starts its turn there takes 3 (`d6`) fire damage. After 1 minute, the pillars cool.
+A small brass plate is embedded in the north wall of the middle passage, near where the razerblast stands watch. It has an indentation in the shape of a human hand. When pressed, the plate causes basalt pillars to rise from the lava, creating stepping stones between the floating disk and the middle passage. The pillars are hot when they first rise. A creature that comes into contact with a hot pillar for the first time on a turn or starts its turn there takes 3 (`1d6`) fire damage. After 1 minute, the pillars cool.
 
-#### Lava Passage
+##### Lava Passage
 
 The northeastern lava flow is only 4 feet lower than the ceiling of the passage through which it flows.
 
-#### Development
+##### Development
 
 The razerblast in area W2 takes the place of any guards slain here.
 
-### W2. Sentry Chamber
+#### W2. Sentry Chamber
 
 > [!readaloud] 
 > 
@@ -1794,15 +1787,15 @@ The razerblast in area W2 takes the place of any guards slain here.
 
 One [razerblast](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/razerblast-pota.md) (see chapter 7) and one [fire giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/fire-giant.md) lounge here, off duty from keeping watch over area W1. When the characters first enter this chamber, the fire giant is dozing on the upper shelf. The razerblast sits near the jet of flame, treating it like a campfire.
 
-#### Hidden Exit
+##### Hidden Exit
 
 The passageway toward area W5 is hidden behind the basalt pillar and positioned high up along the wall. A character with a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 15 or higher notices it. Otherwise, the characters have to look in the right place. Crude holds are cut into the pillar and the wall, so they can be climbed like a ladder to the passage.
 
-#### Treasure
+##### Treasure
 
 The giant has a satchel made of chain mail. Inside are 600 gp, thirteen bloodstones worth 50 gp, and a [potion of invisibility](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-invisibility.md).
 
-### W3. Causeway
+#### W3. Causeway
 
 > [!readaloud] 
 > 
@@ -1813,30 +1806,30 @@ The giant has a satchel made of chain mail. Inside are 600 gp, thirteen bloodsto
 
 [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md) sacrifices prisoners here by forcing them to cross the causeway to the eastern ledge, then ringing the gong to alert the molten roper in area W4.
 
-#### Causeway
+##### Causeway
 
 The causeway is 3 to 5 feet wide and has no railing. Its surface is rough and uneven. If the characters go out on the causeway, see area W4.
 
-#### Gong
+##### Gong
 
 The gong creates a loud, reverberating tone that can be easily heard within 100 feet. If the characters strike the gong, see area W4.
 
-#### Lava Passages
+##### Lava Passages
 
 The southern lava flow is only 4 feet lower than the ceiling of the passage through which it flows. To the north, the gap between lava and ceiling is only a few inches.
 
-### W4. Pool of Lava
+#### W4. Pool of Lava
 
 > [!readaloud] 
 > 
 > The causeway hugs the east wall, narrowing as it travels north until it finally peters out. The magma hisses and roils, and flames dance on its surface.
 ^5cb
 
-A [roper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/molten-magma-roper-pota.md) made of molten magma lurks in the middle of the lava pool, peeking up occasionally or rising to the sound of the gong. It has immunity to fire damage and vulnerability to cold damage, and its bite attack deals fire damage instead of piercing damage. A hit from the roper's tendril deals 4 (`d8`) fire damage, and a creature takes the same damage each time it ends its turn [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled) by the roper.
+A [roper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/molten-magma-roper-pota.md) made of molten magma lurks in the middle of the lava pool, peeking up occasionally or rising to the sound of the gong. It has immunity to fire damage and vulnerability to cold damage, and its bite attack deals fire damage instead of piercing damage. A hit from the roper's tendril deals 4 (`1d8`) fire damage, and a creature takes the same damage each time it ends its turn [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled) by the roper.
 
 When the roper uses its Reel action, it pulls creatures it is grappling into the lava. Because of the lava, the roper has a challenge rating of 11 (7,200 XP).
 
-### W5. Chamber of Skulls
+#### W5. Chamber of Skulls
 
 This chamber sits at the high point of this part of the fire node. Both passages leading into it (from area W2 and area W7) rise toward it at a thirty-degree angle. A bizarre play of multicolored flickering light is visible before the characters enter.
 
@@ -1847,19 +1840,19 @@ This chamber sits at the high point of this part of the fire node. Both passages
 
 Because of the convex floor, characters standing at an entryway can't see the other exits.
 
-#### Flaming Skulls
+##### Flaming Skulls
 
 Most of the skulls are ordinary skulls with [continual flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/continual-flame.md) spells cast on them. However, four of the skulls are actually [flameskulls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/flameskull.md). They attack if the prisoners in area W6 try to escape. Otherwise, they remain motionless.
 
-#### Fumes
+##### Fumes
 
 Due to the height of the room relative to the rest of the node, toxic fumes collect here. Whenever a creature starts its turn inside the room, it must make a DC 15 Constitution saving throw, taking 10 (`3d6`) poison damage on a failed save, or half as much damage on a successful one. Holding one's breath doesn't negate the effects.
 
-#### Hidden Levers
+##### Hidden Levers
 
 Levers are hidden in secret niches behind skulls at the points marked "c" and "d" on the map. Finding a lever requires a successful DC 15 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check. Pulling either lever opens a small vent in the center of the ceiling, and natural air currents draw the fumes out of the chamber in a few moments. Characters to notice the steady airflow. The vent closes again 1 minute after a lever is pulled, and the chamber refills with fumes after 5 minutes.
 
-#### Shaft
+##### Shaft
 
 An alcove in the north wall contains an 8-foot-diameter shaft that leads 30 feet down to area W6. Read the following if the characters look into the shaft:
 
@@ -1870,7 +1863,7 @@ An alcove in the north wall contains an 8-foot-diameter shaft that leads 30 feet
 
 Characters can descend the shaft using the chain ladder without needing to make an ability check.
 
-### W6. Prison
+#### W6. Prison
 
 This room is 30 feet below area W5 and accessible via a vertical shaft. Once a character reaches the bottom of the shaft, read the following:
 
@@ -1883,7 +1876,7 @@ The ceiling here is 20 feet high. The fire is a ring-shaped [wall of fire](03.Pl
 
 [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md) can control this wall, lowering it (or parts of it) to deposit or extract prisoners and then raising it again. The wall radiates no heat inside the ring, so the prisoners are unharmed while they remain there.
 
-#### Prisoners
+##### Prisoners
 
 Four prisoners are here and awaiting their fate as sacrifices. The prisoners include two Waterdhavian caravan merchants named Kharloss and Jarlee (use the [noble](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md) statistics), a [Crushing Wave reaver](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/crushing-wave-reaver-pota.md) named Dirana, and a moon elf [druid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md) named Teresiel. They have been stripped of their armor and weapons, which the cultists tossed into the lava.
 
@@ -1891,15 +1884,15 @@ Kharloss and Jarlee are willing to pay up to 500 gp for an escort to any town in
 
 Dirana is willing to trade information. She can sketch a basic map of the Temple of the Crushing Wave and the Plunging Torrents. She hasn't been to either place in several tendays and doesn't know who or what inhabits most of the chambers.
 
-Teresiel is a member of the Emerald Enclave. She managed to conceal on her person a tiny leather packet that holds nine yellow seeds. Under the scrutiny of a detect magic spell, each seed radiates an aura of conjuration magic. Plating a seed in fertile earth causes it grow into an [awakened tree](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/awakened-tree.md) after `d6` rounds. The awakened tree understands one language known to its creator and follows its creator's commands to the best of its ability. Teresiel doesn't relinquish with the seeds willingly and is determined to deliver them to the abbey at Goldenfields. She asks the characters to help her complete the delivery.
+Teresiel is a member of the Emerald Enclave. She managed to conceal on her person a tiny leather packet that holds nine yellow seeds. Under the scrutiny of a detect magic spell, each seed radiates an aura of conjuration magic. Plating a seed in fertile earth causes it grow into an [awakened tree](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/awakened-tree.md) after `1d6` rounds. The awakened tree understands one language known to its creator and follows its creator's commands to the best of its ability. Teresiel doesn't relinquish with the seeds willingly and is determined to deliver them to the abbey at Goldenfields. She asks the characters to help her complete the delivery.
 
-#### Development
+##### Development
 
 If the characters leave any prisoners here, [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md) sacrifices the remaining captives to the magma roper (area W4) within a day. If the prison is empty, the ring of fire is a low flame near the floor.
 
 Characters captured within the node are stripped of their gear and brought here. If they fail to escape within 24 hours, [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md) comes with the cultists in area W8, takes the prisoners to area W4, and feeds them to the magma roper
 
-### W7. Breeding Chamber
+#### W7. Breeding Chamber
 
 > [!readaloud] 
 > 
@@ -1908,15 +1901,15 @@ Characters captured within the node are stripped of their gear and brought here.
 
 Four [salamanders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/salamander.md) and eight [fire snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-snake.md) swim in the lava, which they use as a breeding pool. The salamanders lob their spears at anyone other than [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md) and her guards who crosses the room, while the fire snakes have no way to attack creatures on the catwalks. If seriously wounded, the salamanders and fire snakes dive below the lava and remain out of sight.
 
-#### Catwalk
+##### Catwalk
 
 The catwalk has no rail and shakes as people move across it, but it's sturdy.
 
-#### Treasure
+##### Treasure
 
 Inside the column is a rock that has the symbol of fire carved into it. A character with a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 15 or higher notices it. Under the rock is a small brass box—one of [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md)'s emergency stashes—containing two [potions of greater healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-greater-healing.md) and a [potion of gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-gaseous-form.md).
 
-### W8. Fire Shrine
+#### W8. Fire Shrine
 
 > [!readaloud] 
 > 
@@ -1929,11 +1922,11 @@ If the efreeti from the Temple of Eternal Flame (see chapter 4) has withdrawn to
 
 This room serves as a place of reflection and worship. Two [Eternal Flame priests](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/eternal-flame-priest-pota.md) and one [razerblast](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/razerblast-pota.md) (see chapter 7 for both) are praying to [Imix](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/imix-pota.md) when the characters first arrive. Unless the characters are disguised as fire cultists, they are attacked on sight. The efreeti, if present, also joins the battle.
 
-#### Treasure
+##### Treasure
 
 Seven tapestries worth 50 gp each adorn the walls.
 
-### W9. Efreeti Lair
+#### W9. Efreeti Lair
 
 The [efreeti](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/efreeti.md) from area E13 in the Temple of Eternal Flame (see chapter 4) lives here.
 
@@ -1944,11 +1937,11 @@ The [efreeti](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/efreeti.md)
 
 The furnishings here are made of materials immune to fire. The food on the table is edible and delicious.
 
-#### Treasure
+##### Treasure
 
 The chest contains 750 gp, a [potion of speed](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-speed.md), and a tin tube containing a [scroll](03.PlayerLog&Handouts/Mechanics/CLI/items/spell-scroll.md) of [immolation](03.PlayerLog&Handouts/Mechanics/CLI/spells/immolation-xge.md) (see appendix B).
 
-### W10. Vanifer's Chamber
+#### W10. Vanifer's Chamber
 
 > [!readaloud] 
 > 
@@ -1957,11 +1950,11 @@ The chest contains 750 gp, a [potion of speed](03.PlayerLog&Handouts/Mechanics/C
 
 [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md) relaxes here and brings guests along when it suits her.
 
-#### Treasure
+##### Treasure
 
 An [elixir of health](03.PlayerLog&Handouts/Mechanics/CLI/items/elixir-of-health.md) is inside the pocket of a robe hanging in the armoire. Six paintings by a noted Calishite artist named Talik al'Hamud adorn the walls; the heat has ruined them, but they are still worth 25 gp apiece.
 
-### W11. Flowing Lava
+#### W11. Flowing Lava
 
 > [!readaloud] 
 > 
@@ -1970,17 +1963,17 @@ An [elixir of health](03.PlayerLog&Handouts/Mechanics/CLI/items/elixir-of-health
 
 A [young red dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-red-dragon.md), Halinaxus, sits upon the point of rock, contemplating whether he can abide serving the fire prophet. [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md) and Halinaxus have a truce as they negotiate the terms of Halinaxus's assistance.
 
-#### Roleplaying Halinaxus
+##### Roleplaying Halinaxus
 
 The dragon is intrigued by the potential power of the cult. He considers how he might someday take over. Halinaxus also loves the prizes [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md) has hinted at giving him, so he is willing to bide his time and watch events unfold.
 
 Halinaxus has an unobscured view of the fire portal (area W12) and the causeway leading up to it. If he spots one or more party members not dressed like fire cultists, he alights from his perch and lands on the causeway to cut off their escape. He then demands that the characters plead or pay for their lives. The dragon is supremely arrogant and doesn't suffer any disrespect from puny humanoids. If flattered and bribed to his satisfaction, he scoops up his newly won treasures and returns to his perch.
 
-#### Treasure
+##### Treasure
 
 Halinaxus has accumulated a loose pile of loot. On his perch are 160 pp, eleven red garnets (100 gp each), a [potion of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-invulnerability.md), and a [wand of fear](03.PlayerLog&Handouts/Mechanics/CLI/items/wand-of-fear.md).
 
-### W12. Fire Portal
+#### W12. Fire Portal
 
 > [!readaloud] 
 > 
@@ -1991,7 +1984,7 @@ Halinaxus has accumulated a loose pile of loot. On his perch are 160 pp, eleven 
 
 If [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md) has been defeated, Halinaxus (see area W11) guards the fire portal and fights to the death to protect it. A [fire elemental myrmidon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-elemental-myrmidon-mpmm.md) (see chapter 7) stands before the altar in plain view, rushing forward to attack anyone other than [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md) who approaches the portal. If [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md) has retreated to this cavern and the characters have defeated two other prophets, use the "Encounter with Vanifer" section. Use the "Encounter with Imix" section if [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md) is the last remaining prophet. In either case, the myrmidon isn't present.
 
-#### Encounter with Vanifer
+##### Encounter with Vanifer
 
 [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md) (see chapter 7) stands before the obsidian altar, watched over by Halinaxus (see area W11). Incinerath, a [fire elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-elemental.md) with 150 hit points, protects [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md). The elemental considers itself an avatar of [Imix](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/imix-pota.md). [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md) prefers to let Halinaxus and Incinerath fight while she casts spells from behind a [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md).
 
@@ -1999,11 +1992,11 @@ If [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md) h
 
 If [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md) is defeated, she turns to smoke with a mournful scream and dissipates. [Tinderstrike](03.PlayerLog&Handouts/Mechanics/CLI/items/tinderstrike-pota.md) falls to the ground, and the portal remains.
 
-#### Encounter with Imix
+##### Encounter with Imix
 
 This encounter features the same antagonists as described in the "Encounter with Vanifer," above. When the characters arrive, [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md) holds [Tinderstrike](03.PlayerLog&Handouts/Mechanics/CLI/items/tinderstrike-pota.md) aloft and cries, "With this key, I call forth my master, the Eternal Flame!" The fire portal flares, and a gout of flame strikes Incinerath. With a howl of glee, the elemental transforms into [Imix](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/imix-pota.md) (see chapter 7). The Prince of Evil Elemental Fire then focuses on destroying the characters with little concern for the consequences to [Vanifer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vanifer-pota.md). [Imix](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/imix-pota.md) wants to annihilate the characters, but he also knows he must keep the fire portal open. He summons fire elementals to aid him.
 
-#### The Fire Portal
+##### The Fire Portal
 
 The fire portal is the giant ball of flame floating just above the head of the weeping colossus, 80 feet from the ground. It leads to the Elemental Plane of Fire, where [Imix](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/imix-pota.md) dwells. [Imix](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/imix-pota.md) attacks any enemy who comes through the portal. However, he can't pursue them into the world until the proper ritual is complete.
 

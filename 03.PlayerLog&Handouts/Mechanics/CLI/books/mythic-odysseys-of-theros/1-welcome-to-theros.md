@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Welcome to Theros
+- "Welcome to Theros"
 ---
 # Welcome to Theros
 *Source: Mythic Odysseys of Theros, p. 5* 
 
-![Cover: The invulnerable he...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/196-07-01.webp#center "Cover: The invulnerable hero, Haktos the Unscarred, leaps into battle with a Nyxborn hydra, taking part in the most recent telling of a myth repeated through the ages.")
+![Cover: The invulnerable hero, Haktos the Unscarred, leaps into battle with a Nyxborn hydra, taking part in the most recent telling of a myth repeated through the ages.](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/196-07-01.webp#center)
 
-![Alternate Cover: While the...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/197-07-02.webp#center "Alternate Cover: While the gods look on, the immortal struggle between Haktos and the hydra plays out in the stars of Nyx.")
+![Alternate Cover: While the gods look on, the immortal struggle between Haktos and the hydra plays out in the stars of Nyx.](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/197-07-02.webp#center)
 
 > [!readaloud] 
 > 
@@ -58,7 +59,7 @@ This book is your guide to Theros, its gods, its peoples and their cities (or po
 
 Finally, "chapter 6" presents numerous inhabitants of Theros. An exploration of familiar beasts from the "Monster Manual" and other sources—creatures with their roots in Greek mythology—details their place and unique characteristics in the lands of Theros. Several of Theros's most notorious creatures, foes as legendary as the world's most renowned heroes, are also presented as mythic monsters, terrors designed to test even the gods' mightiest champions.
 
-![The General, and The Protector ](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/001-00-02-a.webp#center)
+![The General, and The Protector](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/001-00-02-a.webp#center)
 
 ## Dreams of Divinity
 
@@ -132,7 +133,7 @@ The uncounted centuries since the fall of the archons have been marked by the ex
 
 The epic tale of the Akroan War is only nominally a history of the long siege of Akros, precipitated by the queen of Olantin abandoning her husband and going to live with the Akroan king. With the war as a backdrop, a nameless poet spins tales of gods and heroes, victories and tragedies. The death of the triton queen Korinna, and the resulting birth of the Dakra Isles from Thassa's falling tears, is a tale told incidentally, by way of comparison to the grief of the Olantian king. The tale of Phenax escaping from the Underworld is told to explain the origin of a phalanx of the Returned that comes to fight alongside the Olantian forces. And when the sphinx oracle Medomai appears and foretells the fall of Olantin, the poet tells of Medomai's earlier prophecy of the destruction of Alephne—a tragedy that could have been averted had anyone believed the sphinx's dire warning.
 
-The saga of Callaphe the Mariner, told in *The Callapheia*, is a more coherent narrative focused on a single hero and her exploits. Known as the greatest mariner who ever lived, Callaphe was a human trickster from Meletis who sailed a ship called *The* *Monsoon*. She was the first mortal to decipher the secret patterns of the winds (provoking Thassa's ire), and she sailed over the edge of the world and into Nyx to claim her place among the stars. The tales of her adventures are a mythic tour of the Dakra Isles and the coastlands of Theros, describing a panoply of creatures, nations, and marvelous phenomena—some of which still exist as described in its verses, though others are lost to history or myth.
+The saga of Callaphe the Mariner, told in *The Callapheia*, is a more coherent narrative focused on a single hero and her exploits. Known as the greatest mariner who ever lived, Callaphe was a human trickster from Meletis who sailed a ship called *The Monsoon*. She was the first mortal to decipher the secret patterns of the winds (provoking Thassa's ire), and she sailed over the edge of the world and into Nyx to claim her place among the stars. The tales of her adventures are a mythic tour of the Dakra Isles and the coastlands of Theros, describing a panoply of creatures, nations, and marvelous phenomena—some of which still exist as described in its verses, though others are lost to history or myth.
 
 *The Theriad* is a different sort of epic, closely associated with the worship of Heliod. At a glance, it appears to be about a champion of Heliod who is never named but simply called "the Champion." A closer read, though, reveals that the tales take place over the span of centuries and the identity of the Champion changes from tale to tale. In fact, *The Theriad* is a compilation of tales describing the exploits of many different champions of the sun god. It is widely believed that some tales are actually prophecies of champions yet to come.
 

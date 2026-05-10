@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/aitfr-isf
 aliases:
-- In Scarlet Flames
+- "In Scarlet Flames"
 ---
 # In Scarlet Flames
 *Source: Adventures in the Forgotten Realms: In Scarlet Flames, p. 2* 

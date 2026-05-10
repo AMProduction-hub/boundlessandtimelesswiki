@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/legendary
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
-aliases: 
+aliases:
 - "Ruinblade"
 ---
 # Ruinblade
@@ -22,7 +23,7 @@ Ruinblade is a unique weapon possessed by [Moghadam](03.PlayerLog&Handouts/Mecha
 
 A small jade version of the green devil face of the Tomb of Horrors is fashioned into the hilt of the weapon, with the blade extending from its open mouth. The blade always appears ruined and rusting, and causes its surroundings to appear reflected in the blade as if in a state of decay.
 
-You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit an undead creature with it, the attack deals an extra `d8` force damage.
+You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit an undead creature with it, the attack deals an extra `1d8` force damage.
 
 In addition, the weapon has the following properties:
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Jade Tigress
+- "Jade Tigress"
 ---
-# [Jade Tigress](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/jade-tigress-cm.md)
+# [Jade Tigress](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jade-tigress-cm.md)
 *Source: Candlekeep Mysteries p. 166*  
 
 Jade Tigress is a powerfully built woman whose body has been honed by intense physical training. She is rugged in appearance, with jet-black hair, hazel eyes, and a long, thin scar running across her right cheek. She matches the description of one of the thieves who infiltrated Candlekeep.
@@ -36,8 +37,8 @@ Jade Tigress is a powerfully built woman whose body has been honed by intense ph
   - !!int "11"
 "speed": "40 ft."
 "saves":
-  - "strength": "+7"
-  - "constitution": "+5"
+  - "strength": !!int "7"
+  - "constitution": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+7"
@@ -60,12 +61,12 @@ Jade Tigress is a powerfully built woman whose body has been honed by intense ph
 "actions":
   - "desc": "Jade Tigress makes three attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) force damage, and if the target is a creature, it must succeed\
       \ on a DC 15 Constitution saving throw or be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
       \ until the end of Jade Tigress's next turn."
     "name": "Force Strike"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 20/60 ft., one target. *Hit:*\
       \ 4 (1d4 + 2) piercing damage plus 7 (3d4) poison damage, and the target\
       \ must succeed on a DC 15 Constitution saving throw or gain 1 level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion)."
     "name": "Poisoned Dart"
@@ -73,7 +74,8 @@ Jade Tigress is a powerfully built woman whose body has been honed by intense ph
       \ end on her."
     "name": "Heal Self (Recharges after a Long Rest)"
 "bonus_actions":
-  - "desc": "Jade Tigress takes the Disengage or Hide action."
+  - "desc": "Jade Tigress takes the [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action."
     "name": "Nimble Escape"
 "reactions":
   - "desc": "In response to being hit by a ranged weapon attack, Jade Tigress deflects\

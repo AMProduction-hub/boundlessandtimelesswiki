@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/12
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Aeorian Nullifier
+- "Aeorian Nullifier"
 ---
-# [Aeorian Nullifier](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/aeorian-nullifier-egw.md)
+# [Aeorian Nullifier](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/aeorian-nullifier-egw.md)
 *Source: Explorer's Guide to Wildemount p. 283*  
 
 Nullifiers are the bane of all magic users, with their physical forms and innate powers shaped specifically to resist and cancel magical effects. Against other foes, a nullifier is no less fearsome for the grotesque mouths filled with razor-sharp teeth that cover its torso—and which set up a cacophony of gnashing that can drive other creatures mad.
@@ -57,34 +58,35 @@ Aeorian hunters don't require food or drink.
   - !!int "18"
 "speed": "40 ft."
 "saves":
-  - "wisdom": "+6"
-  - "charisma": "+8"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+6"
 "damage_immunities": "necrotic, radiant"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "understands Draconic but can't speak"
 "cr": "12"
 "traits":
   - "desc": "The nullifier's innate spellcasting ability is Charisma (spell save DC\
       \ 16). It can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md)\
+      \n**At will:** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md)\
       \ (see \"Reactions\" below), [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [see invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/see-invisibility.md)\n\
-      \n1/day: [antimagic field](03.PlayerLog&Handouts/Mechanics/CLI/spells/antimagic-field.md)"
+      \n**1/day:** [antimagic field](03.PlayerLog&Handouts/Mechanics/CLI/spells/antimagic-field.md)"
     "name": "Innate Spellcasting"
   - "desc": "The nullifier's mouths gnash incoherently while it can see any enemies.\
       \ Each creature that starts its turn within 20 feet of the nullifier and can\
       \ hear it must make a DC 16 Wisdom saving throw. Unless the save succeeds, the\
       \ creature rolls a d8 to determine what it does during the current turn:\n\
-      \n- 1-4. The creature is [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
-      \ until the end of the turn.  \n- 5-6. The creature is [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \n- **1-4.** The creature is [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
+      \ until the end of the turn.  \n- **5-6.** The creature is [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
       \ until the end of the turn and uses its movement to get as far as possible\
-      \ from the nullifier.  \n- 7-8. The creature doesn't move, and it uses its\
+      \ from the nullifier.  \n- **7-8.** The creature doesn't move, and it uses its\
       \ action to make one melee attack against a random creature (other than itself)\
       \ if one is within reach. It otherwise does nothing  "
     "name": "Horrid Gnashing"
@@ -95,10 +97,10 @@ Aeorian hunters don't require food or drink.
   - "desc": "The nullifier makes three attacks: one with its bites and two with its\
       \ claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:*\
       \ 17 (2d12 + 4) piercing damage plus 11 (2d10) force damage."
     "name": "Bites"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (2d6 + 4) slashing damage plus 11 (2d10) force damage, and the target\
       \ is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 16) if it's a creature. The nullifier has two claws, each of which\

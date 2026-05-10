@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Construct Spirit (Stone)
+- "Construct Spirit (Stone)"
 ---
-# [Construct Spirit (Stone)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/construct-spirit-stone-tce.md)
+# [Construct Spirit (Stone)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/construct-spirit-stone-tce.md)
 *Source: Tasha's Cauldron of Everything p. 111*  
 
 ```statblock
@@ -37,7 +38,8 @@ aliases:
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands the languages you speak"
 "traits":
   - "desc": "When a creature the construct can see starts its turn within 10 feet\
@@ -49,8 +51,8 @@ aliases:
   - "desc": "The construct makes a number of attacks equal to half this spell's level\
       \ (rounded down)."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft.,\
-      \ one target. Hit: 1d8 + 4 + the spell's level bludgeoning damage."
+  - "desc": "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft.,\
+      \ one target. *Hit:* 1d8 + 4 + the spell's level bludgeoning damage."
     "name": "Slam"
 "source":
   - "TCE"

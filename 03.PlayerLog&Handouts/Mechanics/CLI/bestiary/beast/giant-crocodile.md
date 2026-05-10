@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Crocodile
+- "Giant Crocodile"
 ---
-# [Giant Crocodile](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-crocodile.md)
-*Source: Monster Manual p. 324, Princes of the Apocalypse, Tomb of Annihilation, Dragon of Icespire Peak, Storm Lord's Wrath, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Crocodile](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-crocodile.md)
+*Source: Monster Manual p. 324. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Giant Crocodile"
@@ -45,23 +46,18 @@ aliases:
 "actions":
   - "desc": "The crocodile makes two attacks: one with its bite and one with its tail."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 21\
       \ (3d10 + 5) piercing damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 16). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and the crocodile can't bite another target."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target not [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-      \ by the crocodile. Hit: 14 (2d8 + 5) bludgeoning damage. If the target\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target not [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ by the crocodile. *Hit:* 14 (2d8 + 5) bludgeoning damage. If the target\
       \ is a creature, it must succeed on a DC 16 Strength saving throw or be knocked\
       \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
 "source":
   - "MM"
-  - "PotA"
-  - "ToA"
-  - "DIP"
-  - "SLW"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-crocodile.webp"
 ```
 ^statblock

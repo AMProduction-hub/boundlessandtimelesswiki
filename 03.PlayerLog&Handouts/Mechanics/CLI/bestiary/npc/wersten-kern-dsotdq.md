@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/14
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Wersten Kern
+- "Wersten Kern"
 ---
-# [Wersten Kern](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/wersten-kern-dsotdq.md)
+# [Wersten Kern](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/wersten-kern-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 209*  
 
 Wersten Kern is Lord Soth's standard bearer and champion. As with many of Soth's knights, she died alongside her liege during the Cataclysm and was cursed with undeath. In battle, she wields a wicked pike that flies Soth's black rose standard, and her cries can stop mighty warriors' hearts. Wersten staunchly follows Soth's commands, and she will serve him until she faces a second doom.
@@ -35,13 +36,14 @@ Wersten Kern is Lord Soth's standard bearer and champion. As with many of Soth's
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+9"
-  - "wisdom": "+7"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "7"
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Infernal, Solamnic"
 "cr": "14"
 "traits":
@@ -55,7 +57,7 @@ Wersten Kern is Lord Soth's standard bearer and champion. As with many of Soth's
   - "desc": "Wersten makes three Banner Pike attacks and uses Terrifying Litany if\
       \ it's available."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 10 (1d10 + 5) piercing damage plus 13 (3d8) necrotic damage. If the target\
       \ is a Humanoid, it must succeed on a DC 16 Charisma saving throw or be cursed.\
       \ The curse lasts until it is lifted by remove curse or similar magic. Black,\
@@ -74,8 +76,8 @@ Wersten Kern is Lord Soth's standard bearer and champion. As with many of Soth's
       \ creature can repeat the saving throw, ending the effect on itself on a success."
     "name": "Terrifying Litany (Recharge 5-6)"
   - "desc": "Wersten casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 16):\n\n1/day\
-      \ each: [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 16):\n\n**1/day\
+      \ each:** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [wall of stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-stone.md)"
     "name": "Spellcasting"
 "source":

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Thelanis, the Faerie Court; Thelanis Manifest Zone Features
+- "Thelanis, the Faerie Court; Thelanis Manifest Zone Features"
 ---
 # Thelanis, the Faerie Court; Thelanis Manifest Zone Features
 *Source: Eberron: Rising from the Last War p. 232* 
 
 **Thelanis Manifest Zone Features**
-
-`dice: [](thelanis-the-faerie-court-thelanis-manifest-zone-features-erlw.md#^thelanis-manifest-zone-features)`
 
 | dice: d4 | Feature |
 |----------|---------|

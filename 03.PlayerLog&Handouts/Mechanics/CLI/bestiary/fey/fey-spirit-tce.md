@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Fey Spirit
+- "Fey Spirit"
 ---
-# [Fey Spirit](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/fey-spirit-tce.md)
+# [Fey Spirit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/fey-spirit-tce.md)
 *Source: Tasha's Cauldron of Everything p. 112*  
 
 ```statblock
@@ -30,25 +31,28 @@ aliases:
   - !!int "16"
 "speed": "40 ft."
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Sylvan, understands the languages you speak"
 "actions":
   - "desc": "The fey makes a number of attacks equal to half this spell's level (rounded\
       \ down)."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft.,\
-      \ one target. Hit: 1d6 + 3 + the spell's level piercing damage + 1d6 force\
+  - "desc": "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft.,\
+      \ one target. *Hit:* 1d6 + 3 + the spell's level piercing damage + 1d6 force\
       \ damage."
     "name": "Shortsword"
 "bonus_actions":
   - "desc": "The fey magically teleports up to 30 feet to an unoccupied space it can\
       \ see. Then one of the following effects occurs, based on the fey's chosen mood:\n\
-      \n- Fuming. The fey has advantage on the next attack roll it makes before\
-      \ the end of this turn.  \n- Mirthful. The fey can force one creature it\
+      \n- **Fuming.** The fey has advantage on the next attack roll it makes before\
+      \ the end of this turn.  \n- **Mirthful.** The fey can force one creature it\
       \ can see within 10 feet of it to make a Wisdom saving throw against your spell\
       \ save DC. Unless the save succeeds, the target is [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
       \ by you and the fey for 1 minute or until the target takes any damage.  \n\
-      - Tricksy. The fey can fill a 5-foot cube within 5 feet of it with magical\
+      - **Tricksy.** The fey can fill a 5-foot cube within 5 feet of it with magical\
       \ darkness, which lasts until the end of its next turn.  "
     "name": "Fey Step"
 "source":

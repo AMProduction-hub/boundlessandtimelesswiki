@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Dungeon Master's Workshop
+- "Dungeon Master's Workshop"
 ---
 # Dungeon Master's Workshop
 *Source: Dungeon Master's Guide (2014), p. 263* 
@@ -184,7 +185,7 @@ As an action, a character can use a healing surge and spend up to half his or he
 
 A character who uses a healing surge can't do so again until he or she finishes a short or long rest. Under this optional rule, a character regains all spent Hit Dice at the end of a long rest. With a short rest, a character regains Hit Dice equal to his or her level divided by four (minimum of one dice).
 
-For a more superheroic feel, you can let a character use a healing surge as a bonus action, rather than as an action.
+For a more super-heroic feel, you can let a character use a healing surge as a bonus action, rather than as an action.
 
 #### Slow Natural Healing
 
@@ -250,7 +251,7 @@ Setting fire to a container full of gunpowder can cause it to explode, dealing f
 
 As an action, a creature can light a stick of dynamite and throw it at a point up to 60 feet away. Each creature within 5 feet of that point must make a DC 12 Dexterity saving throw, taking `3d6` bludgeoning damage on a failed save, or half as much damage on a successful one.
 
-A character can bind sticks of dynamite together so they explode at the same time. Each additional stick increases the damage by `d6` (to a maximum of `10d6`) and the burst radius by 5 feet (to a maximum of 20 feet).
+A character can bind sticks of dynamite together so they explode at the same time. Each additional stick increases the damage by `1d6` (to a maximum of `10d6`) and the burst radius by 5 feet (to a maximum of 20 feet).
 
 Dynamite can be rigged with a longer fuse to explode after a set amount of time, usually 1 to 6 rounds. Roll initiative for the dynamite. After the set number of rounds goes by, the dynamite explodes on that initiative.
 
@@ -281,8 +282,8 @@ A character who has seen an item used or has operated a similar item has advanta
 | Renaissance Item | Cost | Damage | Weight | Properties |
 |------------------|------|--------|--------|------------|
 | *Martial Ranged Weapons* |  |  |  |  |
-| &emsp;Pistol | 250 gp | `d10` piercing | 3 lb. | Ammunition (range 30/90), loading |
-| &emsp;Musket | 500 gp | `d12` piercing | 10 lb. | Ammunition (range 40/120), loading, two-handed |
+| &emsp;Pistol | 250 gp | `1d10` piercing | 3 lb. | Ammunition (range 30/90), loading |
+| &emsp;Musket | 500 gp | `1d12` piercing | 10 lb. | Ammunition (range 40/120), loading, two-handed |
 | *Ammunition* |  |  |  |  |
 | &emsp;Bullets (10) | 3 gp | — | 2 lb. | — |
 ^firearms
@@ -674,9 +675,9 @@ Some monsters use natural weapons, such as claws or tail spikes. Others wield ma
 
 If a monster has natural weapons, you decide how much damage it deals with those attacks, as well as the type of damage. See the Monster Manual for examples.
 
-If a monster wields a manufactured weapon, it deals damage appropriate to the weapon. For example, a greataxe in the hands of a Medium monster deals `d12` slashing damage plus the monster's Strength modifier, as is normal for that weapon.
+If a monster wields a manufactured weapon, it deals damage appropriate to the weapon. For example, a greataxe in the hands of a Medium monster deals `1d12` slashing damage plus the monster's Strength modifier, as is normal for that weapon.
 
-Big monsters typically wield oversized weapons that deal extra dice of damage on a hit. Double the weapon dice if the creature is Large, triple the weapon dice if it's Huge, and quadruple the weapon dice if it's Gargantuan. For example, a Huge giant wielding an appropriately sized greataxe deals `3d12` slashing damage (plus its Strength bonus), instead of the normal `d12`.
+Big monsters typically wield oversized weapons that deal extra dice of damage on a hit. Double the weapon dice if the creature is Large, triple the weapon dice if it's Huge, and quadruple the weapon dice if it's Gargantuan. For example, a Huge giant wielding an appropriately sized greataxe deals `3d12` slashing damage (plus its Strength bonus), instead of the normal `1d12`.
 
 A creature has disadvantage on attack rolls with a weapon that is sized for a larger attacker. You can rule that a weapon sized for an attacker two or more sizes larger is too big for the creature to use at all.
 
@@ -830,7 +831,7 @@ When creating a new spell, use existing spells as guidelines. Here are some thin
 
 For any spell that deals damage, use the Spell Damage table to determine approximately how much damage is appropriate given the spell's level. The table assumes the spell deals half damage on a successful saving throw or a missed attack. If your spell doesn't deal damage on a successful save, you can increase the damage by 25 percent.
 
-You can use different damage dice than the ones in the table, provided that the average result is about the same. Doing so can add a little variety to the spell. For example, you could change a cantrip's damage from `d10` (average 5.5) to `2d4` (average 5), reducing the maximum damage and making an average result more likely.
+You can use different damage dice than the ones in the table, provided that the average result is about the same. Doing so can add a little variety to the spell. For example, you could change a cantrip's damage from `1d10` (average 5.5) to `2d4` (average 5), reducing the maximum damage and making an average result more likely.
 
 ![Spell Damage](03.PlayerLog&Handouts/Mechanics/CLI/tables/spell-damage.md)
 

@@ -1,21 +1,22 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xge
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/enchantment
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Sorcerer
 - Warlock
 - Wizard
 aliases:
-- Synaptic Static
+- "Synaptic Static"
 ---
 # Synaptic Static
 *5th-level, Enchantment*  
@@ -30,6 +31,6 @@ You choose a point within range and cause psychic energy to explode there. Each 
 
 After a failed save, a target has muddled thoughts for 1 minute. During that time, it rolls a `d6` and subtracts the number rolled from all its attack rolls and ability checks, as well as its Constitution saving throws to maintain [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration). The target can make an Intelligence saving throw at the end of each of its turns, ending the effect on itself on a success.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Xanathar's Guide to Everything p. 167*

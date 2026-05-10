@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/15
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Strahd von Zarovich
+- "Strahd von Zarovich"
 ---
-# [Strahd von Zarovich](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/strahd-von-zarovich-cos.md)
+# [Strahd von Zarovich](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/strahd-von-zarovich-cos.md)
 *Source: Curse of Strahd p. 240*  
 
 With his mind sharp and his heart dark, Strahd von Zarovich is a formidable foe. Courage and lives beyond measure have been lost to him. Reread chapter 1, "Into the Mists," to understand his personality and goals.
@@ -32,9 +33,7 @@ When you run an encounter with Strahd, keep the following facts in mind:
 
 Whenever Strahd appears in a location other than his tomb or the place indicated by the card reading, roll a `d20` and consult the Strahd's Minions table to determine what creatures he brings with him, if any.
 
-## Strahd's Minions
-
-`dice: [](strahd-von-zarovich-cos.md#^creatures)`
+### Strahd's Minions
 
 | dice: d20 | Creatures |
 |-----------|-----------|
@@ -79,9 +78,9 @@ The ability of the Heart of Sorrow to absorb damage is suppressed if it or Strah
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+9"
-  - "wisdom": "+7"
-  - "charisma": "+9"
+  - "dexterity": !!int "9"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+15"
@@ -92,26 +91,27 @@ The ability of the Heart of Sorrow to absorb damage is suppressed if it or Strah
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+14"
 "damage_resistances": "necrotic; bludgeoning, piercing, slashing from nonmagical attacks"
-"senses": "darkvision 120 ft., passive Perception 22"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 22"
 "languages": "Abyssal, Common, Draconic, Elvish, Giant, Infernal"
 "cr": "15"
 "traits":
   - "desc": "Strahd is a 9th-level spellcaster. His spellcasting ability is Intelligence\
       \ (spell save DC 18, +10 to hit with spell attacks). He has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
-      \n1st level (4 slots): [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
+      \n**1st level (4 slots):** [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
       \ [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md), [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)\n\
-      \n2nd level (3 slots): [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \n**2nd level (3 slots):** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md),\
       \ [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md)\n\
-      \n3rd level (3 slots): [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
+      \n**3rd level (3 slots):** [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md)\n\
-      \n4th level (3 slots): [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
+      \n**4th level (3 slots):** [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
       \ [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md),\
-      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\n5th\
-      \ level (1 slots): [animate objects](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-objects.md),\
+      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\n**5th\
+      \ level (1 slots):** [animate objects](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-objects.md),\
       \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)"
     "name": "Spellcasting"
   - "desc": "If Strahd isn't in running water or sunlight, he can use his action to\
@@ -141,35 +141,35 @@ The ability of the Heart of Sorrow to absorb damage is suppressed if it or Strah
     "name": "Misty Escape"
   - "desc": "Strahd regains 20 hit points at the start of his turn if he has at least\
       \ 1 hit point and isn't in running water or sunlight. If he takes radiant damage\
-      \ or damage from holy water, this trait doesn't function at the start of his\
-      \ next turn."
+      \ or damage from [holy water](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-water-flask.md),\
+      \ this trait doesn't function at the start of his next turn."
     "name": "Regeneration"
   - "desc": "Strahd can climb difficult surfaces, including upside down on ceilings,\
       \ without having to make an ability check."
     "name": "Spider Climb"
-  - "desc": "Strahd has the following flaws:\n\n- Forbiddance. He can't enter\
-      \ a residence without an invitation from one of the occupants.  \n- Harmed\
-      \ by Running Water. He takes 20 acid damage if he ends his turn in running\
-      \ water.  \n- Stake to the Heart. If a piercing weapon made of wood is driven\
+  - "desc": "Strahd has the following flaws:\n\n- **Forbiddance.** He can't enter\
+      \ a residence without an invitation from one of the occupants.  \n- **Harmed\
+      \ by Running Water.** He takes 20 acid damage if he ends his turn in running\
+      \ water.  \n- **Stake to the Heart.** If a piercing weapon made of wood is driven\
       \ into his heart while he is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
       \ in his coffin, he is [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
-      \ until the stake is removed.  \n- Sunlight Hypersensitivity. While in sunlight,\
+      \ until the stake is removed.  \n- **Sunlight Hypersensitivity.** While in sunlight,\
       \ Strahd takes 20 radiant damage at the start of his turn, and he has disadvantage\
       \ on attack rolls and ability checks  "
     "name": "Vampire Weaknesses"
 "actions":
   - "desc": "Strahd makes two attacks, only one of which can be a bite attack."
     "name": "Multiattack (Vampire Form Only)"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage, plus 14 (4d6) necrotic damage. If the target\
       \ is a creature, Strahd can grapple it (escape DC 18) instead of dealing the\
       \ slashing damage."
     "name": "Unarmed Strike (Vampire or Wolf Form Only)"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one willing creature,\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one willing creature,\
       \ or a creature that is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ by Strahd, [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated),\
       \ or [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
-      \ Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) necrotic damage. The\
+      \ *Hit:* 7 (1d6 + 4) piercing damage plus 10 (3d6) necrotic damage. The\
       \ target's hit point maximum is reduced by an amount equal to the necrotic damage\
       \ taken, and Strahd regains hit points equal to that amount. The reduction lasts\
       \ until the target finishes a long rest. The target dies if its hit point maximum\
@@ -192,34 +192,24 @@ The ability of the Heart of Sorrow to absorb damage is suppressed if it or Strah
   - "desc": "Strahd magically calls 2d4 [swarms of bats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-bats.md)\
       \ or [swarms of rats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-rats.md),\
       \ provided that the sun isn't up. While outdoors, Strahd can call 3d6 [wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wolf.md)\
-      \ instead. The called creatures arrive in d4 rounds, acting as allies of Strahd\
-      \ and obeying his spoken commands. The beasts remain for 1 hour, until Strahd\
-      \ dies, or until he dismisses them as a bonus action."
+      \ instead. The called creatures arrive in 1d4 rounds, acting as allies of\
+      \ Strahd and obeying his spoken commands. The beasts remain for 1 hour, until\
+      \ Strahd dies, or until he dismisses them as a bonus action."
     "name": "Children of the Night (1/Day)"
-"legendary_actions":
-  - "desc": "Strahd moves up to his speed without provoking opportunity attacks."
-    "name": "Move"
-  - "desc": "Strahd makes one unarmed strike."
-    "name": "Unarmed Strike"
-  - "desc": "Strahd makes one bite attack."
-    "name": "Bite (Costs 2 Actions)"
 "lair_actions":
   - "desc": "While Strahd is in Castle Ravenloft, he can take lair actions as long\
-      \ as he isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
-    "name": ""
-  - "desc": "On initiative count 20 (losing initiative ties), Strahd can take one\
-      \ of the following lair action options, or forgo using any of them in that round:"
-    "name": ""
-  - "desc": "- Until initiative count 20 of the next round, Strahd can pass through\
-      \ solid walls, doors, ceilings, and floors as if they weren't there.  \n- Strahd\
-      \ targets any number of doors and windows that he can see, causing each one\
-      \ to either open or close as he wishes. Closed doors can be magically locked\
-      \ (needing a successful DC 20 Strength check to force open) until Strahd chooses\
-      \ to end the effect, or until Strahd uses this lair action again.  \n- Strahd\
-      \ summons the angry spirit of one who has died in the castle. The apparition\
-      \ appears next to a hostile creature that Strahd can see, makes an attack against\
-      \ that creature, and then disappears. The apparition has the statistics of a\
-      \ [specter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md).\
+      \ as he isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).\n\
+      \nOn initiative count 20 (losing initiative ties), Strahd can take one of the\
+      \ following lair action options, or forgo using any of them in that round:\n\
+      \n- Until initiative count 20 of the next round, Strahd can pass through solid\
+      \ walls, doors, ceilings, and floors as if they weren't there.  \n- Strahd targets\
+      \ any number of doors and windows that he can see, causing each one to either\
+      \ open or close as he wishes. Closed doors can be magically locked (needing\
+      \ a successful DC 20 Strength check to force open) until Strahd chooses to end\
+      \ the effect, or until Strahd uses this lair action again.  \n- Strahd summons\
+      \ the angry spirit of one who has died in the castle. The apparition appears\
+      \ next to a hostile creature that Strahd can see, makes an attack against that\
+      \ creature, and then disappears. The apparition has the statistics of a [specter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md).\
       \  \n- Strahd targets one Medium or smaller creature that casts a shadow. The\
       \ target's shadow must be visible to Strahd and within 30 feet of him. If the\
       \ target fails a DC 17 Charisma saving throw, its shadow detaches from it and\
@@ -229,6 +219,16 @@ The ability of the Heart of Sorrow to absorb damage is suppressed if it or Strah
       \ spell cast on the target restores its natural shadow, but only if its undead\
       \ shadow has been destroyed.  "
     "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Strahd can expend a use to take one of the following actions. Strahd regains\
+  \ all expended uses at the start of each of their turns."
+"legendary_actions":
+  - "desc": "Strahd moves up to his speed without provoking opportunity attacks."
+    "name": "Move"
+  - "desc": "Strahd makes one unarmed strike."
+    "name": "Unarmed Strike"
+  - "desc": "Strahd makes one bite attack."
+    "name": "Bite (Costs 2 Actions)"
 "source":
   - "CoS"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/strahd-von-zarovich-cos.webp"

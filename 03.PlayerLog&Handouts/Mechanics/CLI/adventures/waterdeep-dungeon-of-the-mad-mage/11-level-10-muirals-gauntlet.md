@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 10: Muiral's Gauntlet
+- "Level 10: Muiral's Gauntlet"
 ---
 # Level 10: Muiral's Gauntlet
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 135* 
@@ -27,8 +28,6 @@ With no hope of repelling the drow on his own and no help coming from Halaster, 
 
 To determine where the characters first encounter [Muiral](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/muiral-wdmm.md), roll a `d20` and consult the following table:
 
-`dice: [](11-level-10-muirals-gauntlet.md#^muirals-location)`
-
 | dice: d20 | Muiral's Location |
 |-----------|-------------------|
 | 1–5 | Area 3b |
@@ -45,8 +44,6 @@ House Auvryndar uses [Muiral](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/m
 Vlonwelv controls areas 13 through 30. The adventurers might have already encountered several of her children: her son, Ranaghax, and her daughters, T'rissa, Sylkress, and Pellanonia, on level 3, and her daughter, Melith, on level 4. The priestess is a diplomat through and through. Although incensed by the presence of adventurers in her fortress, she treats them cordially at first, offering them food, drink, shelter, and safe passage. In return, she demands that they hunt down and slay [Muiral](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/muiral-wdmm.md), who has become an unwelcome distraction. Vlonwelv kills them if they refuse.
 
 The drow priestess is never encountered without her adopted drow daughter, [Zress Orlezziir](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zress-orlezziir-wdmm.md), and a yochlol advisor disguised as a female drow named Chalizana. To determine where the characters first meet Vlonwelv and her retinue, roll a `d20` and consult the following table:
-
-`dice: [](11-level-10-muirals-gauntlet.md#^vlonwelvs-location)`
 
 | dice: d20 | Vlonwelv's Location |
 |-----------|---------------------|
@@ -269,7 +266,7 @@ The gear on the table can be assembled into one burglar's pack and one explorer'
 
 Casting [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) reveals an aura of abjuration magic around the chest, which is actually a [chest of preserving](03.PlayerLog&Handouts/Mechanics/CLI/items/chest-of-preserving-wdmm.md). This common wondrous item has the following magical property: food and other perishable items do not age or decay while inside it. The chest is 2½ feet long, 1½ feet wide, and 1 foot tall with a half-barrel lid. It weighs 25 pounds. [Muiral](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/muiral-wdmm.md) carries the key that unlocks this chest. The lock can be picked with thieves' tools and a successful DC 15 Dexterity check. Smashing the lock or any other part of the chest renders it nonmagical.
 
-The chest has compartments that contain five flasks of alchemist's fire, plus the following material components (for the indicated spells): a vial of blood, a strip of flesh, and a pinch of bone dust ([animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md)); a clay pot of grave dirt, a clay pot of brackish water, and three 150 gp black onyx gemstones ([create undead](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-undead.md)); a sliver of wychwood ([dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)); a pouch of lime, a flask of water, and a pouch of earth ([flesh to stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/flesh-to-stone.md)); a patch of wolf fur and a glass rod ([lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)); a caterpillar cocoon ([polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)); pouches of talc and powdered silver (*see [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)*); a vial of bitumen and a live spider ([spider climb](03.PlayerLog&Handouts/Mechanics/CLI/spells/spider-climb.md)); and a pouch of gemstone powder (*wall of force*).
+The chest has compartments that contain five [flasks of alchemist's fire](03.PlayerLog&Handouts/Mechanics/CLI/items/alchemists-fire-flask.md), plus the following material components (for the indicated spells): a vial of blood, a strip of flesh, and a pinch of bone dust ([animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md)); a clay pot of grave dirt, a clay pot of brackish water, and three 150 gp black onyx gemstones ([create undead](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-undead.md)); a sliver of wychwood ([dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)); a pouch of lime, a flask of water, and a pouch of earth ([flesh to stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/flesh-to-stone.md)); a patch of wolf fur and a glass rod ([lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)); a caterpillar cocoon ([polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)); pouches of talc and powdered silver (*see [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)*); a vial of bitumen and a live spider ([spider climb](03.PlayerLog&Handouts/Mechanics/CLI/spells/spider-climb.md)); and a pouch of gemstone powder (*wall of force*).
 
 ### 6. Teleportation Statues
 
@@ -365,7 +362,7 @@ Characters who bring light sources into this room notice that the shadows create
 
 The statue represents Vhaeraun, drow god of thieves. A character who succeeds on a DC 15 Intelligence ([Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)) check recalls that Vhaeraun is worshiped primarily by male drow. The statue can't be transformed, damaged, or knocked off its base.
 
-When a creature moves within reach of the statue, the statue animates and attacks the creature with its shortsword, striking unerringly and dealing 3 (`d6`) damage. After wounding a creature with its sword, the statue reverts to its inanimate state until triggered again.
+When a creature moves within reach of the statue, the statue animates and attacks the creature with its shortsword, striking unerringly and dealing 3 (`1d6`) damage. After wounding a creature with its sword, the statue reverts to its inanimate state until triggered again.
 
 ##### Locked Double Door
 
@@ -425,14 +422,14 @@ If any creature disturbs the bones in the alcove, or if [Muiral](03.PlayerLog&Ha
 
 > [!note] 
 > 
-> **Statue**. Hanging upside down on the roof of the south alcove is a giant statue of Lolth in her monstrous half-drow, half-spider form.
+> **Statue**. Hanging upside down on the roof of the south alcove is a giant [statue of Lolth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-statue-of-lolth-wdmm.md) in her monstrous half-drow, half-spider form.
 > 
 > **Railings**. The 3-foot-high iron railings that enclose the balcony are sturdy and shaped to look like webs.
 > 
 > **Decor**. Hanging on the walls between six sets of double doors are steel shields that bear web-like and spider-like designs.
 ^58e
 
-The statue of Lolth animates and attacks the nearest creature if it takes damage or if any of the double doors on the balcony are opened by a creature that isn't a drow. The statue can't leave area 11. If the statue has no targets on its turn, it returns to its alcove and becomes inanimate until triggered again. It also returns to its alcove if the command word, "sleep," is spoken in Abyssal.
+The [statue of Lolth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-statue-of-lolth-wdmm.md) animates and attacks the nearest creature if it takes damage or if any of the double doors on the balcony are opened by a creature that isn't a drow. The statue can't leave area 11. If the statue has no targets on its turn, it returns to its alcove and becomes inanimate until triggered again. It also returns to its alcove if the command word, "sleep," is spoken in Abyssal.
 
 The statue is a [stone golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/stone-golem.md) with a challenge rating of 11 (7,200 XP) and these changes:
 
@@ -503,7 +500,7 @@ This room is like area 11c but contains no treasure.
 
 The giants' [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) allows them to see almost the entire length of the hall, and they hurl rocks (chunks of toppled pillars) at any intruders they can see. If the rocks don't get the job done, the giants smash foes with wrought iron chandeliers that they wield like morningstars.
 
-The mutated drow use the [cloud giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/cloud-giant.md) statistics, with these changes:
+The [mutated drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/mutated-drow-wdmm.md) use the [cloud giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/cloud-giant.md) statistics, with these changes:
 
 - They are neutral evil.  
 - They have the following racial traits: They speak Elvish and Undercommon. They have [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) out to a range of 120 feet. They have advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and magic can't put them to sleep. While in sunlight, they have disadvantage on attack rolls, as well as on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) checks that rely on sight.  
@@ -678,18 +675,18 @@ A character who examines a curtain and succeeds on a DC 19 Wisdom ([Perception](
 
 ##### Xarann A'Daragon
 
-Xarann, a spy for House Freth, is posing as a House Auvryndar assassin. He came here to pray to Vhaeraun before setting out on two missions: the rescue of Tazirahc Oussar (see area 19) and the assassination of Vlonwelv Auvryndar.
+[Xarann](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/xarann-adaragon-wdmm.md), a spy for House Freth, is posing as a House Auvryndar assassin. He came here to pray to Vhaeraun before setting out on two missions: the rescue of Tazirahc Oussar (see area 19) and the assassination of Vlonwelv Auvryndar.
 
 Xarann is initially friendly toward the characters. In exchange for their help killing the guards in area 18b and rescuing Tazirahc in area 19, Xarann will show them the way to level 11. If they agree to help kill Vlonwelv, Xarann will show them where the drow priestess keeps her treasure (area 27b) and lead them through back tunnels (area 24b) to get there. Once Xarann's missions are complete, he tries to eliminate the characters, choosing a moment when they appear weakest to betray them. Sornnozz (see area 13) and Tazirahc are loyal to Xarann and follow his lead.
 
-Xarann is a drow [assassin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/assassin.md), with these changes:
+[Xarann](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/xarann-adaragon-wdmm.md) is a drow [assassin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/assassin.md), with these changes:
 
 - Xarann is neutral evil.  
 - He has these racial traits: He speaks Elvish and Undercommon. He has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and magic can't put him to sleep. He has [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) out to a range of 120 feet. He can innately cast [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md) at-will, and [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md), [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md), and [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md) (self only) each once per day. His spellcasting ability is Charisma (spell save DC 11). While in sunlight, he has disadvantage on attack rolls, as well as on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) checks that rely on sight.  
 
 ##### Treasure
 
-Xarann wears a *piwafwi*, a drow-made [cloak of elvenkind](03.PlayerLog&Handouts/Mechanics/CLI/items/cloak-of-elvenkind.md). It loses its magic if exposed to sunlight for 1 hour without interruption. Pinned to this cloak is an obsidian scarab engraved with the insignia of House Auvryndar. Xarann has a similar scarab, this one engraved with the symbol of House Freth, tucked in his belt. Each scarab is worth 25 gp.
+Xarann wears a [piwafwi](03.PlayerLog&Handouts/Mechanics/CLI/items/piwafwi-cloak-of-elvenkind-oota.md), a drow-made [cloak of elvenkind](03.PlayerLog&Handouts/Mechanics/CLI/items/cloak-of-elvenkind.md). It loses its magic if exposed to sunlight for 1 hour without interruption. Pinned to this cloak is an obsidian scarab engraved with the insignia of House Auvryndar. Xarann has a similar scarab, this one engraved with the symbol of House Freth, tucked in his belt. Each scarab is worth 25 gp.
 
 #### 17e. Temple of Eilistraee
 
@@ -953,7 +950,7 @@ Drow in the service of House Auvryndar come here to equip themselves for battle 
 
 #### 28a. Hospital
 
-This chamber contains two dozen wooden cots in rows. Resting in six of them are wounded [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) (three females and three males), each with `d12` hit points remaining. They are still clad in armor, and they keep their weapons within arm's reach.
+This chamber contains two dozen wooden cots in rows. Resting in six of them are wounded [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) (three females and three males), each with `1d12` hit points remaining. They are still clad in armor, and they keep their weapons within arm's reach.
 
 Tending to the injured are three junior priestesses of Lolth named Nyleene Auvryndar (Vlonwelv's grand-niece), Ereldra Abbath, and Llezorna Do'ett. These three are drow [priests](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/priest.md), with these changes:
 
@@ -995,7 +992,7 @@ This room is deathly cold and contains the following:
 
 The wraith is all that remains of an evil adventurer who was disintegrated by Halaster in this room long ago. It speaks Common and Undercommon but doesn't have much to say to the living.
 
-The wraith killed the three drow (two females and one male) and turned their spirits into specters. Each drow corpse wears a chain shirt, clutches a shortsword, and packs a hand crossbow with `d20` bolts.
+The wraith killed the three drow (two females and one male) and turned their spirits into specters. Each drow corpse wears a chain shirt, clutches a shortsword, and packs a hand crossbow with `1d20` bolts.
 
 ##### Painting Trap
 

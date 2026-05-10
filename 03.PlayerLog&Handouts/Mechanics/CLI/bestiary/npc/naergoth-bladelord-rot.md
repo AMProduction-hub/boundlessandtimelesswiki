@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/rot
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Naergoth Bladelord
+- "Naergoth Bladelord"
 ---
-# [Naergoth Bladelord](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/naergoth-bladelord-rot.md)
+# [Naergoth Bladelord](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/naergoth-bladelord-rot.md)
 *Source: The Rise of Tiamat p. 90, Tyranny of Dragons p. 186*  
 
 ```statblock
@@ -33,8 +34,8 @@ aliases:
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+6"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
@@ -45,7 +46,11 @@ aliases:
 "damage_immunities": "poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 16"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 16"
 "languages": "Common, Draconic"
 "cr": "11"
 "traits":
@@ -57,17 +62,17 @@ aliases:
   - "desc": "Naergoth makes three attacks, either with his longsword or longbow. He\
       \ can use Life Drain in place of one longsword attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 20\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 20\
       \ (5d6 + 3) necrotic damage. The target must succeed on a DC 15 Constitution\
       \ saving throw or its hit point maximum is reduced by an amount equal to the\
       \ damage taken. This reduction lasts until the target finishes a long rest.\
       \ The target dies if this effect reduces its hit point maximum to 0."
     "name": "Life Drain"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d8 + 5) slashing damage, or 10 (1d10 + 5) if used with two hands, plus\
       \ 10 (3d6) necrotic damage."
     "name": "Longsword"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 150/600 ft., one target. *Hit:*\
       \ 5 (1d8 + 1) piercing damage plus 10 (3d6) necrotic damage."
     "name": "Longbow"
 "source":

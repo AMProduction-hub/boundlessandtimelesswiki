@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dracohydra
+- "Dracohydra"
 ---
-# [Dracohydra](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/dracohydra-ftd.md)
+# [Dracohydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/dracohydra-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 176*  
 
 The dracohydra is the result of arcane experimentation dedicated to recreating Tiamat's power. Amalgamating the magic of chromatic dragons with the blood of a hydra resulted in a many-headed draconic monster with wings and multiple snakelike tails. The dracohydra's breath weapon is a multicolored mass of energy that contains the essence of a chromatic dragon's elemental power.
@@ -41,7 +42,8 @@ A dracohydra can sometimes be found in the service of the spellcaster who create
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+9"
-"senses": "darkvision 60 ft., passive Perception 19"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 19"
 "languages": "understands Draconic but can't speak"
 "cr": "11"
 "traits":
@@ -66,7 +68,7 @@ A dracohydra can sometimes be found in the service of the spellcaster who create
 "actions":
   - "desc": "The dracohydra makes as many Bite attacks as it has heads."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
       \ 10 (1d10 + 5) damage of a type chosen by the dracohydra: acid, cold, fire,\
       \ lightning, or poison."
     "name": "Bite"

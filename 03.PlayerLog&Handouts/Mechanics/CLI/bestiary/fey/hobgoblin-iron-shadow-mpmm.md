@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hobgoblin Iron Shadow
+- "Hobgoblin Iron Shadow"
 ---
-# [Hobgoblin Iron Shadow](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/hobgoblin-iron-shadow-mpmm.md)
+# [Hobgoblin Iron Shadow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/hobgoblin-iron-shadow-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 154, Volo's Guide to Monsters p. 162*  
 
 Iron shadows are hobgoblin martial artists who serve fey and mortal courts as secret police, scouts, and assassins. They spy to ferret out treachery, rebellion, and betrayal and deal with it ruthlessly. Iron shadows possess agility and stamina matched only by their ironclad commitment to the will of their masters. They wield a deadly combination of unarmed fighting techniques and shadow magic to deceive and defeat their foes. While on secret missions, they wear masks crafted to resemble monsters, both to conceal their identities and to strike fear into their foes.
@@ -47,7 +48,10 @@ An iron shadow is usually recruited from the ranks of the Feywild's hobgoblin ar
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[dart](03.PlayerLog&Handouts/Mechanics/CLI/items/dart.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Goblin"
 "cr": "2"
 "traits":
@@ -59,10 +63,10 @@ An iron shadow is usually recruited from the ranks of the Feywild's hobgoblin ar
       \ or a Dart attack. It can also use\n\nShadow Jaunt once, either before or after\
       \ one of the attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) bludgeoning damage."
     "name": "Unarmed Strike"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 20/60 ft., one target. *Hit:*\
       \ 5 (1d4 + 3) piercing damage."
     "name": "Dart"
   - "desc": "The hobgoblin teleports, along with any equipment it is wearing or carrying,\
@@ -70,9 +74,9 @@ An iron shadow is usually recruited from the ranks of the Feywild's hobgoblin ar
       \ and its destination must be in dim light or darkness."
     "name": "Shadow Jaunt"
   - "desc": "The hobgoblin casts one of the following spells, using Intelligence as\
-      \ the spellcasting ability (spell save DC 12):\n\nAt will: [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
+      \ the spellcasting ability (spell save DC 12):\n\n**At will:** [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \n**1/day each:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [silent image](03.PlayerLog&Handouts/Mechanics/CLI/spells/silent-image.md)"
     "name": "Spellcasting"

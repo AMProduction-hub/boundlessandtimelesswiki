@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Stegosaurus
+- "Stegosaurus"
 ---
-# [Stegosaurus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/stegosaurus-mpmm.md)
+# [Stegosaurus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/stegosaurus-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 96, Volo's Guide to Monsters p. 140*  
 
 This heavily built dinosaur has rows of plates on its back and a flexible, spiked tail held high to strike predators. It tends to travel in herds of mixed ages.
@@ -41,7 +42,7 @@ This heavily built dinosaur has rows of plates on its back and a flexible, spike
 "languages": ""
 "cr": "4"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 26 (6d6 + 5) piercing damage."
     "name": "Tail"
 "source":

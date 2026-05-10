@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Yuan-ti Broodguard
+- "Yuan-ti Broodguard"
 ---
-# [Yuan-ti Broodguard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/yuan-ti-broodguard-mpmm.md)
+# [Yuan-ti Broodguard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-broodguard-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 273, Volo's Guide to Monsters p. 203*  
 
 > [!quote] A quote from Mordenkainen  
@@ -46,9 +47,9 @@ Most broodguards are made from human captives forced to consume a magical brew t
   - !!int "4"
 "speed": "30 ft."
 "saves":
-  - "strength": "+4"
-  - "dexterity": "+4"
-  - "wisdom": "+2"
+  - "strength": !!int "4"
+  - "dexterity": !!int "4"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
@@ -56,7 +57,8 @@ Most broodguards are made from human captives forced to consume a magical brew t
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Abyssal, Common, Draconic"
 "cr": "2"
 "traits":
@@ -67,10 +69,10 @@ Most broodguards are made from human captives forced to consume a magical brew t
 "actions":
   - "desc": "The broodguard makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage."
     "name": "Claw"
 "source":

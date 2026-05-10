@@ -1,32 +1,33 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/oath-of-the-ancients
 aliases:
-- Spells for Oath of the Ancients
+- "Spells for Oath of the Ancients"
 ---
 # Spells for Oath of the Ancients
 
 ## 1st Level
 
-- [Ensnaring Strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/ensnaring-strike.md "PHB") at class level 17
-- [Speak with Animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md "PHB") at class level 17
+- [Ensnaring Strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/ensnaring-strike.md "PHB") at class level 3
+- [Speak with Animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md "PHB") at class level 3
 
 ## 2nd Level
 
-- [Misty Step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md "PHB") at class level 17
-- [Moonbeam](03.PlayerLog&Handouts/Mechanics/CLI/spells/moonbeam.md "PHB") at class level 17
+- [Misty Step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md "PHB") at class level 5
+- [Moonbeam](03.PlayerLog&Handouts/Mechanics/CLI/spells/moonbeam.md "PHB") at class level 5
 
 ## 3rd Level
 
-- [Plant Growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/plant-growth.md "PHB") at class level 17
-- [Protection from Energy](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-energy.md "PHB") at class level 17
+- [Plant Growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/plant-growth.md "PHB") at class level 9
+- [Protection from Energy](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-energy.md "PHB") at class level 9
 
 ## 4th Level
 
-- [Ice Storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md "PHB") at class level 17
-- [Stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md "PHB") at class level 17
+- [Ice Storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md "PHB") at class level 13
+- [Stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md "PHB") at class level 13
 
 ## 5th Level
 

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 aliases:
-- Chapter 11: Caught in the Tentacles
+- "Chapter 11: Caught in the Tentacles"
 ---
 # Chapter 11: Caught in the Tentacles
 *Source: Storm King's Thunder, p. 215* 
@@ -129,7 +130,7 @@ Captain Storn and six of his deckhands are stationed here from dusk until dawn, 
 
 ### 12. Crew Cabins
 
-Each of these cabins contains four hammocks for sleeping. During the day, while the ship is docked, `d4` deckhands can be found sleeping in each cabin. (Any deckhands not present are on the bridge, moving about the ship, or on the dock.)
+Each of these cabins contains four hammocks for sleeping. During the day, while the ship is docked, `1d4` deckhands can be found sleeping in each cabin. (Any deckhands not present are on the bridge, moving about the ship, or on the dock.)
 
 ### 13. Lord Drylund's Cabin
 
@@ -185,7 +186,7 @@ Unless the characters have the ability to cast the teleport spell or similarly p
 | Sailing ship | 2 | 48 |
 ^conveyance-miles-per-hour-miles-per-day
 
-To create a more realistic journey, you can use the Weather table in chapter 5 of the "Dungeon Master's Guide" to determine the prevailing weather on a given day. If the results indicate strong wind and heavy rain, these weather conditions combine to create a storm that lasts for `d6` hours. Once the storm has abated, the party's navigator must succeed on a DC 15 Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check to regain his or her bearings. Otherwise, the party is lost for 1 day, after which the check can be attempted again.
+To create a more realistic journey, you can use the Weather table in chapter 5 of the "Dungeon Master's Guide" to determine the prevailing weather on a given day. If the results indicate strong wind and heavy rain, these weather conditions combine to create a storm that lasts for `1d6` hours. Once the storm has abated, the party's navigator must succeed on a DC 15 Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check to regain his or her bearings. Otherwise, the party is lost for 1 day, after which the check can be attempted again.
 
 #### Airship
 

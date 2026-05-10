@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Fist of Bane
+- "Fist of Bane"
 ---
-# [Fist of Bane](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/fist-of-bane-bgdia.md)
+# [Fist of Bane](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/fist-of-bane-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 232*  
 
 Bane's devoted followers are warriors who seek to rule through martial strength and intimidation, cruel tyrants who use threats and gifts as needed to ensure loyalty. They enslave those too weak to resist them and shower the strong with gifts and promises of power to turn them into loyal vassals.
@@ -49,6 +50,9 @@ Bane's cultists operate according to strict military hierarchies. The lowest ran
   - !!int "11"
 "speed": "30 ft."
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[mace](03.PlayerLog&Handouts/Mechanics/CLI/items/mace.md)"
 "senses": "passive Perception 11"
 "languages": "Common"
 "cr": "1/2"
@@ -57,11 +61,11 @@ Bane's cultists operate according to strict military hierarchies. The lowest ran
       \ made during combat."
     "name": "Tactical Discipline"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) bludgeoning damage."
     "name": "Mace"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 150/600 ft., one target. Hit:\
-      \ 4 (d8) piercing damage."
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 150/600 ft., one target. *Hit:*\
+      \ 4 (1d8) piercing damage."
     "name": "Longbow"
 "source":
   - "BGDIA"

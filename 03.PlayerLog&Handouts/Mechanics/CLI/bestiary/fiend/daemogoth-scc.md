@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Daemogoth
+- "Daemogoth"
 ---
-# [Daemogoth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/daemogoth-scc.md)
+# [Daemogoth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/daemogoth-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 189*  
 
 Slipping through the darkest corners of the world, daemogoths are powerful fiendish creatures that feed on misery and other negative emotions. Some sages refer to daemogoths as tear lickers, owing to the fiends' tendency to lurk near battlefields and other sites of great tragedy to consume the anguish saturating the area.
@@ -39,9 +40,9 @@ Daemogoths are alien-looking in the extreme. Their eyes are insectile or smooth 
   - !!int "18"
 "speed": "40 ft., climb 40 ft."
 "saves":
-  - "intelligence": "+9"
-  - "wisdom": "+6"
-  - "charisma": "+8"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+13"
@@ -53,7 +54,8 @@ Daemogoths are alien-looking in the extreme. Their eyes are insectile or smooth 
     "desc": "+6"
 "damage_immunities": "psychic"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 120 ft., passive Perception 16"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 16"
 "languages": "Abyssal, Infernal, telepathy 120 ft."
 "cr": "10"
 "traits":
@@ -73,8 +75,8 @@ Daemogoths are alien-looking in the extreme. Their eyes are insectile or smooth 
   - "desc": "The daemogoth makes three Agonizing Burst attacks. It can use Terrify,\
       \ if available, in place of one of the attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +9 to hit, reach 10 ft. or range 120\
-      \ ft., one target. Hit: 11 (2d10) force damage. If the target is a creature,\
+  - "desc": "*Melee  or Ranged Spell Attack:* +9 to hit, reach 10 ft. or range 120\
+      \ ft., one target. *Hit:* 11 (2d10) force damage. If the target is a creature,\
       \ the daemogoth regains 5 hit points."
     "name": "Agonizing Burst"
   - "desc": "The daemogoth targets one creature it can see within 120 feet of itself.\

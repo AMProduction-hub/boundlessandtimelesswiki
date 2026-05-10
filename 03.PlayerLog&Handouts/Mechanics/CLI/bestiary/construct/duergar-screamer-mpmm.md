@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Duergar Screamer
+- "Duergar Screamer"
 ---
-# [Duergar Screamer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/duergar-screamer-mpmm.md)
+# [Duergar Screamer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/duergar-screamer-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 111, Mordenkainen's Tome of Foes p. 190*  
 
 A duergar screamer uses sonic energy to grind rock into dust and to hurl invaders to the ground.
@@ -50,13 +51,14 @@ These machines are deployed to assist with construction projects and war. Some d
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 7"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 7"
 "languages": "understands Dwarvish but can't speak"
 "cr": "3"
 "actions":
   - "desc": "The screamer makes one Drill attack, and it uses Sonic Scream."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (1d12 + 4) piercing damage."
     "name": "Drill"
   - "desc": "The screamer emits destructive energy in a 15-foot cube. Each creature\

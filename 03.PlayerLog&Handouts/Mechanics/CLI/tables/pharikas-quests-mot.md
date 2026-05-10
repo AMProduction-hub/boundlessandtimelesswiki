@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Pharika's Quests
+- "Pharika's Quests"
 ---
 # Pharika's Quests
 *Source: Mythic Odysseys of Theros p. 160* 
 
 **Pharika's Quests**
-
-`dice: [](pharikas-quests-mot.md#^pharikas-quests)`
 
 | dice: d6 | Adventure Goal |
 |----------|----------------|

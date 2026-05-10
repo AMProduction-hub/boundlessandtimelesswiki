@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Life Events
+- "Life Events"
 ---
 # Life Events
 *Source: Xanathar's Guide to Everything p. 69* 
 
 **Life Events**
-
-`dice: [](life-events-xge.md#^life-events)`
 
 | dice: d100 | Event |
 |------------|-------|

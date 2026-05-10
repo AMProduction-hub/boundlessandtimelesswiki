@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dip
 aliases:
-- Running the Adventure
+- "Running the Adventure"
 ---
 # Running the Adventure
 *Source: Essentials Kit: Dragon of Icespire Peak, p. 2* 
@@ -325,8 +326,6 @@ Sister Garaele is a member of the Harpers, a scattered network of adventurers an
 
 **Phandalin Tales**
 
-`dice: [](01-running-the-adventure.md#^phandalin-tales)`
-
 | dice: d6 | Tale |
 |----------|------|
 | 1 | "Once again, the orcs have come down from the mountains to prey on the lowlands! If Neverwinter doesn't send help soon, the orcs will overrun Phandalin and destroy everything we've worked so hard to rebuild." |
@@ -419,8 +418,6 @@ When the dragon visits a location that is not its lair, it surveys the location 
 If Cryovain loses more than 10 hit points in battle, the dragon disengages from combat and retreats to its lair at Icespire Hold, remaining there until it finishes a long rest and regains all its hit points. Only at Icespire Hold does the dragon fight to the death.
 
 **Dragon's Location**
-
-`dice: [](01-running-the-adventure.md#^dragons-location)`
 
 | dice: d20 | Location |
 |-----------|----------|

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Copper Dragon Treasures; Copper Dragon Art Objects
+- "Copper Dragon Treasures; Copper Dragon Art Objects"
 ---
 # Copper Dragon Treasures; Copper Dragon Art Objects
 *Source: Fizban's Treasury of Dragons p. 102* 
 
 **Copper Dragon Art Objects**
-
-`dice: [](copper-dragon-treasures-copper-dragon-art-objects-ftd.md#^copper-dragon-art-objects)`
 
 | dice: d8 | Object |
 |----------|--------|

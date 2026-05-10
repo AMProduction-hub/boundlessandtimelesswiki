@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kraken Priest
+- "Kraken Priest"
 ---
-# [Kraken Priest](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/kraken-priest-mpmm.md)
+# [Kraken Priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/kraken-priest-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 167, Volo's Guide to Monsters p. 215*  
 
 A kraken can seem godlike to folk who have faced its fury. Those who mistake its might for divine power and those who seek to appease the monster through veneration are sometimes rewarded with power, to serve thereafter as kraken priests.
@@ -50,10 +51,10 @@ Every kraken priest undergoes a change in appearance that reflects the kraken's 
 "actions":
   - "desc": "The priest makes two Thunderous Touch or Thunderbolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one target. Hit: 27\
+  - "desc": "*Melee Spell Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 27\
       \ (5d10) thunder damage."
     "name": "Thunderous Touch"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 60 ft., one target. *Hit:*\
       \ 11 (2d10) lightning damage plus 11 (2d10) thunder damage, and the target\
       \ is knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Thunderbolt"
@@ -66,14 +67,14 @@ Every kraken priest undergoes a change in appearance that reflects the kraken's 
       \ the effect on itself on a success."
     "name": "Voice of the Kraken (Recharges after a Short or Long Rest)"
   - "desc": "The priest casts one of the following spells, requiring no material components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 13):\n\nAt will:\
+      \ and using Wisdom as the spellcasting ability (spell save DC 13):\n\n**At will:**\
       \ [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md), [create\
       \ or destroy water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-or-destroy-water.md)\n\
-      \n3/day each: [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md),\
+      \n**3/day each:** [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md),\
       \ [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md), [water\
       \ breathing](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-breathing.md),\
       \ [water walk](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-walk.md)\n\n\
-      1/day: [Evard's black tentacles](03.PlayerLog&Handouts/Mechanics/CLI/spells/evards-black-tentacles.md)"
+      **1/day:** [Evard's black tentacles](03.PlayerLog&Handouts/Mechanics/CLI/spells/evards-black-tentacles.md)"
     "name": "Spellcasting"
 "source":
   - "MPMM"

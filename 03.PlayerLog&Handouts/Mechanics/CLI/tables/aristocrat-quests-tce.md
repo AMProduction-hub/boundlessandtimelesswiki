@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
-- Aristocrat Quests
+- "Aristocrat Quests"
 ---
 # Aristocrat Quests
 *Source: Tasha's Cauldron of Everything p. 90* 
 
 **Aristocrat Quests**
-
-`dice: [](aristocrat-quests-tce.md#^aristocrat-quests)`
 
 | dice: d6 | Quest |
 |----------|-------|

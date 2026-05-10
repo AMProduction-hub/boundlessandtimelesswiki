@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Competition for a Hoard; Hoard Magic
+- "Competition for a Hoard; Hoard Magic"
 ---
 # Competition for a Hoard; Hoard Magic
 *Source: Fizban's Treasury of Dragons p. 69* 
 
 **Hoard Magic**
-
-`dice: [](competition-for-a-hoard-hoard-magic-ftd.md#^hoard-magic)`
 
 | dice: d6 | Magical Motivation |
 |----------|--------------------|

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Creating a Copper Dragon; Copper Dragon Spellcasting
+- "Creating a Copper Dragon; Copper Dragon Spellcasting"
 ---
 # Creating a Copper Dragon; Copper Dragon Spellcasting
 *Source: Fizban's Treasury of Dragons p. 99* 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Star Spawn Hulk
+- "Star Spawn Hulk"
 ---
-# [Star Spawn Hulk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/star-spawn-hulk-mpmm.md)
+# [Star Spawn Hulk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/star-spawn-hulk-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 227, Mordenkainen's Tome of Foes p. 234*  
 
 The hulk is one of the largest of the known star spawn, with glistening, translucent skin. Pale and seemingly lidless eyes glare balefully from a face distorted by too many teeth and too little nose. Hulks are seldom encountered without a commanding star spawn seer (also in this book) nearby. A hulk appears to have little will of its own and is driven to protect its master.
@@ -59,15 +60,16 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
   - !!int "9"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+3"
-  - "wisdom": "+5"
+  - "dexterity": !!int "3"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Deep Speech"
 "cr": "10"
 "traits":
@@ -81,7 +83,7 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
       \ Constitution saving throw or be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
       \ until the end of the target's next turn."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
       \ 14 (2d8 + 5) bludgeoning damage."
     "name": "Slam"
   - "desc": "The hulk makes a separate Slam attack against each creature within 10\

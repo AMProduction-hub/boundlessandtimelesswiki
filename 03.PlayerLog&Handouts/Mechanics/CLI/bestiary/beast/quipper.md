@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Quipper
+- "Quipper"
 ---
-# [Quipper](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/quipper.md)
-*Source: Monster Manual p. 335, Princes of the Apocalypse, Tomb of Annihilation, Ghosts of Saltmarsh, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Quipper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/quipper.md)
+*Source: Monster Manual p. 335. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A quipper is a carnivorous fish with sharp teeth.
 
@@ -36,7 +37,8 @@ Quippers can adapt to any aquatic environment, including cold subterranean lakes
   - !!int "7"
   - !!int "2"
 "speed": "swim 40 ft."
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": ""
 "cr": "0"
 "traits":
@@ -46,16 +48,11 @@ Quippers can adapt to any aquatic environment, including cold subterranean lakes
   - "desc": "The quipper can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1\
       \ piercing damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "PotA"
-  - "ToA"
-  - "GoS"
-  - "MOT"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/quipper.webp"
 ```
 ^statblock

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Allowak Yeti
+- "Allowak Yeti"
 ---
-# [Allowak Yeti](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/allowak-yeti-egw.md)
+# [Allowak Yeti](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/allowak-yeti-egw.md)
 *Source: Explorer's Guide to Wildemount p. 126*  
 
 ```statblock
@@ -38,7 +39,8 @@ aliases:
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
 "damage_immunities": "cold"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Yeti"
 "cr": "3"
 "traits":
@@ -54,8 +56,8 @@ aliases:
 "actions":
   - "desc": "The yeti can use its Chilling Gaze and makes two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d6 + 4) slashing damage plus 3 (d6) cold damage."
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
+      \ (1d6 + 4) slashing damage plus 3 (1d6) cold damage."
     "name": "Claw"
   - "desc": "The yeti targets one creature it can see within 30 feet of it. If the\
       \ target can see the yeti, the target must succeed on a DC 13 Constitution saving\

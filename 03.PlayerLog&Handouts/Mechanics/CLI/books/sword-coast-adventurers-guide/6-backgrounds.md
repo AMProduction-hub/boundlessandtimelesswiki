@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 aliases:
-- Backgrounds
+- "Backgrounds"
 ---
 # Backgrounds
 *Source: Sword Coast Adventurer's Guide, p. 145* 

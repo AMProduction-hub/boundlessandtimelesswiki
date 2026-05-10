@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/7
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Young Copper Dragon
+- "Young Copper Dragon"
 ---
-# [Young Copper Dragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/young-copper-dragon.md)
-*Source: Monster Manual p. 112, Storm King's Thunder. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Young Copper Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-copper-dragon.md)
+*Source: Monster Manual p. 112. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Copper dragons are incorrigible pranksters, joke tellers, and riddlers that live in hills and rocky uplands. Despite their gregarious and even-tempered natures, they possess a covetous, miserly streak, and can become dangerous when their hoards are threatened.
 
@@ -100,10 +101,10 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
   - !!int "15"
 "speed": "40 ft., climb 40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+6"
-  - "wisdom": "+4"
-  - "charisma": "+5"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+5"
@@ -112,23 +113,25 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "damage_immunities": "acid"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 17"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 17"
 "languages": "Common, Draconic"
 "cr": "7"
 "actions":
   - "desc": "The dragon makes three attacks: one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 15 (2d10 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage."
     "name": "Claw"
-  - "desc": "The dragon uses one of the following breath weapons.\n\n- Acid Breath.\
+  - "desc": "The dragon uses one of the following breath weapons.\n\n- **Acid Breath.**\
       \ The dragon exhales acid in a 40-foot line that is 5 feet wide. Each creature\
       \ in that line must make a DC 14 Dexterity saving throw, taking 40 (9d8) acid\
       \ damage on a failed save, or half as much damage on a successful one.  \n-\
-      \ Slowing Breath. The dragon exhales gas in a 30-foot cone. Each creature\
+      \ **Slowing Breath.** The dragon exhales gas in a 30-foot cone. Each creature\
       \ in that area must succeed on a DC 14 Constitution saving throw. On a failed\
       \ save, the creature can't use reactions, its speed is halved, and it can't\
       \ make more than one attack on its turn. In addition, the creature can use either\
@@ -138,7 +141,6 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
     "name": "Breath Weapons (Recharge 5-6)"
 "source":
   - "MM"
-  - "SKT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/young-copper-dragon.webp"
 ```
 ^statblock

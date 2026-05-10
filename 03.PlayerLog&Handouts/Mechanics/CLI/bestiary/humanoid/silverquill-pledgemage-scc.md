@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Silverquill Pledgemage
+- "Silverquill Pledgemage"
 ---
-# [Silverquill Pledgemage](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/silverquill-pledgemage-scc.md)
+# [Silverquill Pledgemage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/silverquill-pledgemage-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 214*  
 
 Stylish and driven, the students of Silverquill College—first as apprentices and then as pledgemages—cut imposing figures on campus. Dressed in smartly trimmed black-and-white uniforms, these budding mages practice bolstering speeches and wield inky blades.
@@ -41,9 +42,9 @@ The scholars of Silverquill College study the power of magic shaped through spok
   - !!int "17"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+2"
-  - "charisma": "+5"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "2"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+5"
@@ -55,15 +56,15 @@ The scholars of Silverquill College study the power of magic shaped through spok
 "languages": "Common plus any two languages"
 "cr": "4"
 "actions":
-  - "desc": "Melee  or Ranged Spell Attack: +5 to hit, reach 5 ft. or range 60\
-      \ ft., one target. Hit: 5 (1d8 + 3) piercing damage plus 10 (3d6) psychic\
+  - "desc": "*Melee  or Ranged Spell Attack:* +5 to hit, reach 5 ft. or range 60\
+      \ ft., one target. *Hit:* 5 (1d8 + 3) piercing damage plus 10 (3d6) psychic\
       \ damage."
     "name": "Ink Blade"
   - "desc": "The pledgemage casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 13):\n\
-      \nAt will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
-      \ [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md)\n\n1/day\
-      \ each: [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \n**At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md)\n\n**1/day\
+      \ each:** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md), [mage\
       \ armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)"
     "name": "Spellcasting"

@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xge
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/ranger
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/school/transmutation
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Ranger
 aliases:
-- Zephyr Strike
+- "Zephyr Strike"
 ---
 # Zephyr Strike
 *1st-level, Transmutation*  
@@ -24,8 +25,8 @@ aliases:
 
 You move like the wind. Until the spell ends, your movement doesn't provoke opportunity attacks.
 
-Once before the spell ends, you can give yourself advantage on one weapon attack roll on your turn. That attack deals an extra `d8` force damage on a hit. Whether you hit or miss, your walking speed increases by 30 feet until the end of that turn.
+Once before the spell ends, you can give yourself advantage on one weapon attack roll on your turn. That attack deals an extra `1d8` force damage on a hit. Whether you hit or miss, your walking speed increases by 30 feet until the end of that turn.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md)
 
 *Source: Xanathar's Guide to Everything p. 171*

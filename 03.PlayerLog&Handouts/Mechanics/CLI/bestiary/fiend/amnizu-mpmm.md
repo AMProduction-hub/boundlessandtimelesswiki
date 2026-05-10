@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/18
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Amnizu
+- "Amnizu"
 ---
-# [Amnizu](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/amnizu-mpmm.md)
+# [Amnizu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/amnizu-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 46, Mordenkainen's Tome of Foes p. 164*  
 
 Amnizus lead infernal legions into battle and command guardians at the gateways to the Hells. Amnizus are arrogant, bullying, and ruthless, but they're also highly intelligent tacticians and unfailingly loyal—qualities the hellish archdukes value.
@@ -38,10 +39,10 @@ Some amnizus perform the critical task of watching over the River Styx from fort
   - !!int "18"
 "speed": "30 ft., fly 40 ft."
 "saves":
-  - "dexterity": "+7"
-  - "constitution": "+9"
-  - "wisdom": "+7"
-  - "charisma": "+10"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
@@ -50,7 +51,8 @@ Some amnizus perform the critical task of watching over the River Styx from fort
 "damage_immunities": "fire, poison"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 17"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 17"
 "languages": "Common, Infernal, telepathy 1,000 ft."
 "cr": "18"
 "traits":
@@ -63,7 +65,7 @@ Some amnizus perform the critical task of watching over the River Styx from fort
   - "desc": "The amnizu uses Blinding Rot or Forgetfulness, if available. It also\
       \ makes two Taskmaster Whip attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 9 (1d8 + 5) slashing damage plus 16 (3d10) force damage."
     "name": "Taskmaster Whip"
   - "desc": "The amnizu targets one or two creatures that it can see within 60 feet\
@@ -82,9 +84,9 @@ Some amnizus perform the critical task of watching over the River Styx from fort
     "name": "Forgetfulness (Recharge 6)"
   - "desc": "The amnizu casts one of the following spells, requiring no material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 19):\n\n\
-      At will: [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md)\n\
-      \n3/day: [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md)\n\
-      \n1/day: [feeblemind](03.PlayerLog&Handouts/Mechanics/CLI/spells/feeblemind.md)"
+      **At will:** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md)\n\
+      \n**3/day:** [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md)\n\
+      \n**1/day:** [feeblemind](03.PlayerLog&Handouts/Mechanics/CLI/spells/feeblemind.md)"
     "name": "Spellcasting"
 "reactions":
   - "desc": "When a creature within 60 feet of the amnizu makes an attack roll against\

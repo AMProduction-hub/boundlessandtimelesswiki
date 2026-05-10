@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Crab
+- "Crab"
 ---
-# [Crab](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/crab.md)
-*Source: Monster Manual p. 320, Tomb of Annihilation, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Crab](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/crab.md)
+*Source: Monster Manual p. 320. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Crab"
@@ -36,21 +37,19 @@ aliases:
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+2"
-"senses": "blindsight 30 ft., passive Perception 9"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., passive Perception 9"
 "languages": ""
 "cr": "0"
 "traits":
   - "desc": "The crab can breathe air and water."
     "name": "Amphibious"
 "actions":
-  - "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1\
       \ bludgeoning damage."
     "name": "Claw"
 "source":
   - "MM"
-  - "ToA"
-  - "GoS"
-  - "BGDIA"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/crab.webp"
 ```
 ^statblock

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Leonin Iconoclast
+- "Leonin Iconoclast"
 ---
-# [Leonin Iconoclast](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/leonin-iconoclast-mot.md)
+# [Leonin Iconoclast](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/leonin-iconoclast-mot.md)
 *Source: Mythic Odysseys of Theros p. 232*  
 
 While leonin don't deny the existence of the gods, most denounce them, believing the deities are more likely to spread doom than peace and bounty. Some leonin, known as iconoclasts, devote themselves to thwarting the gods by hunting down their followers and all things born of Nyx that impede on Oreskos and the safety of the leonin prides.
@@ -40,8 +41,8 @@ Most leonin hunters are tribal warriors, but those who hunt the servants of the 
   - !!int "10"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+7"
-  - "wisdom": "+6"
+  - "dexterity": !!int "7"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+4"
@@ -53,13 +54,16 @@ Most leonin hunters are tribal warriors, but those who hunt the servants of the 
     "desc": "+7"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[dart](03.PlayerLog&Handouts/Mechanics/CLI/items/dart.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Leonin"
 "cr": "5"
 "traits":
   - "desc": "The leonin's spellcasting ability is Wisdom (spell save DC 14). It can\
       \ innately cast the following spells, requiring no material components:\n\n\
-      1/day each: [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      **1/day each:** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md)"
     "name": "Innate Spellcasting"
   - "desc": "If the leonin is subjected to an effect that allows it to make a Dexterity\
@@ -73,10 +77,10 @@ Most leonin hunters are tribal warriors, but those who hunt the servants of the 
 "actions":
   - "desc": "The leonin makes three weapon attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage plus 7 (2d6) force damage."
     "name": "Claws"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 20/60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +7 to hit, range 20/60 ft., one target. *Hit:*\
       \ 6 (1d4 + 4) piercing damage."
     "name": "Dart"
 "source":

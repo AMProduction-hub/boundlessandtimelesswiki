@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sephek Kaltro
+- "Sephek Kaltro"
 ---
-# [Sephek Kaltro](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sephek-kaltro-idrotf.md)
+# [Sephek Kaltro](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sephek-kaltro-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 23*  
 
 Sephek Kaltro is a well-built man in his thirties. He has an olive complexion, dark hair pulled back in a ponytail, and no facial or body hair. He is dressed in a stylish vest with matching pants and boots, similar in style to those worn by mariners of the southern Sword Coast, but wears no armor or cold weather clothing and doesn't appear to be armed. His most striking feature is his eyes, which are as blue as a frozen lake.
@@ -57,12 +58,12 @@ Sephek Kaltro is a well-built man in his thirties. He has an olive complexion, d
 "actions":
   - "desc": "Sephek attacks twice with a weapon."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if Sephek uses\
       \ the weapon with two hands, plus 5 (2d4) cold damage."
     "name": "Ice Longsword"
-  - "desc": "Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft.,\
-      \ one target. Hit: 5 (1d4 + 3) piercing damage plus 5 (2d4) cold damage."
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft.,\
+      \ one target. *Hit:* 5 (1d4 + 3) piercing damage plus 5 (2d4) cold damage."
     "name": "Ice Dagger"
 "source":
   - "IDRotF"

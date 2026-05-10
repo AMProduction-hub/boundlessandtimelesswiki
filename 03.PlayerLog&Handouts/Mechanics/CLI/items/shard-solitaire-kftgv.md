@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/legendary
-aliases: 
+aliases:
 - "Shard Solitaire"
 ---
 # Shard Solitaire
@@ -23,7 +24,7 @@ When you use this property, you can tap into the unstable power of the stone's e
 
 ## Spellcasting
 
-The stone has 6 charges and regains `d6` expended charges daily at dawn. The Shard Solitaire Types table lists the spells common to all shard solitaires, as well as the spells specific to each kind of stone. As an action, you can cast one of the stone's spells by expending the requisite number of charges, requiring no material components (save DC 16).
+The stone has 6 charges and regains `1d6` expended charges daily at dawn. The Shard Solitaire Types table lists the spells common to all shard solitaires, as well as the spells specific to each kind of stone. As an action, you can cast one of the stone's spells by expending the requisite number of charges, requiring no material components (save DC 16).
 
 | Shard Solitaire | Spells |
 |-----------------|--------|

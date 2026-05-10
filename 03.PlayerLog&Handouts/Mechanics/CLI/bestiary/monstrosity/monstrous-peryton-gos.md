@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Monstrous Peryton
+- "Monstrous Peryton"
 ---
-# [Monstrous Peryton](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/monstrous-peryton-gos.md)
+# [Monstrous Peryton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/monstrous-peryton-gos.md)
 *Source: Ghosts of Saltmarsh p. 245*  
 
 The terror of the coast and the recent scourge of Firewatch Island in Tammeraut's Fate, this large peryton preys on ships and coastal communities alike. It has built numerous nests to mark its territory.
@@ -35,13 +36,14 @@ The terror of the coast and the recent scourge of Firewatch Island in Tammeraut'
   - !!int "10"
 "speed": "20 ft., fly 60 ft."
 "saves":
-  - "strength": "+8"
-  - "dexterity": "+6"
-  - "wisdom": "+6"
+  - "strength": !!int "8"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 16"
 "languages": "understands Common and Elvish but can't speak"
 "cr": "11"
 "traits":
@@ -56,10 +58,10 @@ The terror of the coast and the recent scourge of Firewatch Island in Tammeraut'
 "actions":
   - "desc": "The peryton makes two attacks: one with its gore and one with its talons."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) piercing damage."
     "name": "Gore"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 16\
       \ (2d10 + 5) slashing damage."
     "name": "Talons"
   - "desc": "The peryton chooses up to three creatures within 60 feet of it that it\
@@ -71,6 +73,9 @@ The terror of the coast and the recent scourge of Firewatch Island in Tammeraut'
       \ succeeds on this saving throw is immune to this peryton's Warp Shadow for\
       \ 24 hours."
     "name": "Warp Shadow"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the monstrous peryton can expend a use to take one of the following actions.\
+  \ The monstrous peryton regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The peryton makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ check."

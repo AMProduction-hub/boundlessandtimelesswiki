@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/deity/halfling
 - ttrpg-cli/domain/war
-aliases: 
-- Arvoreen
+aliases:
+- "Arvoreen"
 ---
 # Arvoreen
 *Source: Mordenkainen's Tome of Foes p. 103* 

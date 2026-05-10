@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/9
@@ -9,16 +10,16 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Drowned Master
+- "Drowned Master"
 ---
-# [Drowned Master](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/drowned-master-gos.md)
+# [Drowned Master](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/drowned-master-gos.md)
 *Source: Ghosts of Saltmarsh p. 235*  
 
 This waterlogged undead, bound to the Pit of Hatred in Tammeraut's Fate, hovers menacingly over the bones of its victims. Its torso, arms, and head retain their former shapes, but its legs have split into shadowy tentacles. The drowned master is tethered to a source of powerful magic that prevents it from traveling far. It commands other drowned ones, compelling them to serve as agents in its dark plots.
 
 ## Bluerot
 
-This disease targets humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures. The disease's boils manifest in `d4` hours, causing the victim's Constitution and Charisma scores to decrease by `d4` each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.
+This disease targets humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures. The disease's boils manifest in `1d4` hours, causing the victim's Constitution and Charisma scores to decrease by `1d4` each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.
 
 At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (`4d8`) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.
 
@@ -41,14 +42,17 @@ At the end of each long rest, an infected creature makes a DC 12 Constitution sa
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+7"
-  - "wisdom": "+6"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+10"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 20"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 20"
 "languages": "understands the languages it knew in life but can't speak"
 "cr": "9"
 "traits":
@@ -57,8 +61,8 @@ At the end of each long rest, an infected creature makes a DC 12 Constitution sa
       \ and without limitation."
     "name": "Bound Together"
   - "desc": "At the start of each of the drowned master's turns, each creature within\
-      \ 5 feet of it takes 5 (d10) cold damage. A creature that touches the drowned\
-      \ master or hits it with a melee attack while within 5 feet of it takes 5 (d10)\
+      \ 5 feet of it takes 5 (1d10) cold damage. A creature that touches the drowned\
+      \ master or hits it with a melee attack while within 5 feet of it takes 5 (1d10)\
       \ cold damage."
     "name": "Cold Aura"
   - "desc": "If damage reduces the drowned master to 0 hit points, it must make a\
@@ -70,12 +74,12 @@ At the end of each long rest, an infected creature makes a DC 12 Constitution sa
   - "desc": "The drowned master makes two attacks: one with its greatsword and one\
       \ with its Life-Draining Tentacle."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage plus 14 (4d6) cold damage, and the target must\
       \ succeed on a DC 12 Constitution saving throw or contract [bluerot](03.PlayerLog&Handouts/Mechanics/CLI/rules/diseases.md#Bluerot)\
       \ (see the \"Bluerot\" in notes)."
     "name": "Greatsword"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 15 ft., one target. *Hit:*\
       \ 10 (2d6 + 3) necrotic damage. The target must succeed on a DC 15 Constitution\
       \ saving throw or have its hit point maximum reduced by an amount equal to the\
       \ damage taken. The target dies if this effect reduces its hit point maximum\

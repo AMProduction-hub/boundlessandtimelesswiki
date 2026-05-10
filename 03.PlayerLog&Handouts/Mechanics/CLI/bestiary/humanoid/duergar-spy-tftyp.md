@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Duergar Spy
+- "Duergar Spy"
 ---
-# [Duergar Spy](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/duergar-spy-tftyp.md)
+# [Duergar Spy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar-spy-tftyp.md)
 *Source: Tales from the Yawning Portal p. 234*  
 
 The tyrannical duergar, also known as gray dwarves, dwell in fantastic cities deep in the Underdark. Using ancient dwarven knowledge and myriad slaves, they work tirelessly to expand their subterranean kingdoms.
@@ -71,12 +72,17 @@ Asmodeus, Lord of the Nine Hells, has been known to impersonate duergar gods in 
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
 "damage_resistances": "poison"
-"senses": "darkvision 120 ft., passive Perception 14"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 14"
 "languages": "Dwarvish, Undercommon"
 "cr": "2"
 "traits":
-  - "desc": "On each of its turns, the spy can use a bonus action to take the Dash,\
-      \ Disengage, or Hide action."
+  - "desc": "On each of its turns, the spy can use a bonus action to take the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash),\
+      \ [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage),\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action."
     "name": "Cunning Action"
   - "desc": "The spy has advantage on saving throws against poison, spells, and illusions,\
       \ as well as to resist being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
@@ -101,10 +107,10 @@ Asmodeus, Lord of the Nine Hells, has been known to impersonate duergar gods in 
       \ the room to become Large, it attains the maximum size possible in the space\
       \ available."
     "name": "Enlarge (Recharges after a Short or Long Rest)"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage, or 10 (2d6 + 3) piercing damage while enlarged."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 30/120 ft., one target. *Hit:*\
       \ 6 (1d6 + 3) piercing damage."
     "name": "Hand Crossbow"
   - "desc": "The spy magically turns [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\

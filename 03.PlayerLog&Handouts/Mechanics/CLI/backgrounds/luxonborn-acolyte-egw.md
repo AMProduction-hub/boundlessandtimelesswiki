@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Luxonborn (Acolyte)
+- "Luxonborn (Acolyte)"
 ---
 # Luxonborn (Acolyte)
 *Source: Explorer's Guide to Wildemount p. 203*  
@@ -27,8 +28,6 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 
 Acolytes are shaped by their experience in temples or other religious communities. Their study of the history and tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.
 
-`dice: [](luxonborn-acolyte-egw.md#^personality-trait)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | I idolize a particular hero of my faith, and constantly refer to that person's deeds and example. |
@@ -41,8 +40,6 @@ Acolytes are shaped by their experience in temples or other religious communitie
 | 8 | I've spent so long in the temple that I have little practical experience dealing with people in the outside world. |
 ^personality-trait
 
-`dice: [](luxonborn-acolyte-egw.md#^ideal)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful) |
@@ -53,8 +50,6 @@ Acolytes are shaped by their experience in temples or other religious communitie
 | 6 | Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings. (Any) |
 ^ideal
 
-`dice: [](luxonborn-acolyte-egw.md#^bond)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | I would die to recover an ancient relic of my faith that was lost long ago. |
@@ -64,8 +59,6 @@ Acolytes are shaped by their experience in temples or other religious communitie
 | 5 | I will do anything to protect the temple where I served. |
 | 6 | I seek to preserve a sacred text that my enemies consider heretical and seek to destroy. |
 ^bond
-
-`dice: [](luxonborn-acolyte-egw.md#^flaw)`
 
 | dice: d6 | Flaw |
 |----------|------|

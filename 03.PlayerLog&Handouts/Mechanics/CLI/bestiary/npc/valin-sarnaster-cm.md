@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/16
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Valin Sarnaster
+- "Valin Sarnaster"
 ---
-# [Valin Sarnaster](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/valin-sarnaster-cm.md)
+# [Valin Sarnaster](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/valin-sarnaster-cm.md)
 *Source: Candlekeep Mysteries p. 182*  
 
 Valin Sarnaster has been thoroughly corrupted by visions of a future in which she sees herself as the immortal heir of Savras's realm.*The Canopic Being*came into her possession years ago, and an obsession with the dark rituals therein set the oracle on her present course.
@@ -43,10 +44,10 @@ Valin can use her lair actions in any area of the tomb.
   - !!int "16"
 "speed": "20 ft."
 "saves":
-  - "constitution": "+8"
-  - "intelligence": "+5"
-  - "wisdom": "+9"
-  - "charisma": "+8"
+  - "constitution": !!int "8"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+5"
@@ -60,27 +61,28 @@ Valin can use her lair actions in any area of the tomb.
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "The languages it knew in life"
 "cr": "16"
 "traits":
   - "desc": "Valin Sarnaster is a 10th-level spellcaster. Her spellcasting ability\
       \ is Wisdom (spell save DC 17, +9 to hit with spell attacks). Valin has the\
-      \ following cleric spells prepared:\n\nCantrips (at will): [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
+      \ following cleric spells prepared:\n\n**Cantrips (at will):** [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \n**1st level (4 slots):** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [guiding bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/guiding-bolt.md),\
       \ [shield of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield-of-faith.md)\n\
-      \n2nd level (3 slots): [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
+      \n**2nd level (3 slots):** [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [silence](03.PlayerLog&Handouts/Mechanics/CLI/spells/silence.md), [spiritual\
       \ weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md)\n\n\
-      3rd level (3 slots): [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
+      **3rd level (3 slots):** [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md)\n\
-      \n4th level (3 slots): [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md),\
+      \n**4th level (3 slots):** [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md),\
       \ [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md)\n\
-      \n5th level (2 slots): [contagion](03.PlayerLog&Handouts/Mechanics/CLI/spells/contagion.md),\
-      \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)\n\n6th\
-      \ level (1 slots): [harm](03.PlayerLog&Handouts/Mechanics/CLI/spells/harm.md)"
+      \n**5th level (2 slots):** [contagion](03.PlayerLog&Handouts/Mechanics/CLI/spells/contagion.md),\
+      \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)\n\n**6th\
+      \ level (1 slots):** [harm](03.PlayerLog&Handouts/Mechanics/CLI/spells/harm.md)"
     "name": "Spellcasting"
   - "desc": "Valin has advantage on saving throws against spells and other magical\
       \ effects."
@@ -92,7 +94,7 @@ Valin can use her lair actions in any area of the tomb.
   - "desc": "Valin can use her Dreadful Glare and makes one attack with her rotting\
       \ fist."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (3d6 + 4) bludgeoning damage plus 21 (6d6) necrotic damage. If the target\
       \ is a creature, it must succeed on a DC 16 Constitution saving throw or be\
       \ cursed with mummy rot. The cursed target can't regain hit points, and its\
@@ -109,6 +111,38 @@ Valin can use her lair actions in any area of the tomb.
       \ for the same duration. A target that succeeds on the saving throw is immune\
       \ to the Dreadful Glare of all mummies and mummy lords for the next 24 hours."
     "name": "Dreadful Glare"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), Valin takes a lair action\
+      \ to cause one of the following effects; Valin can't use the same effect two\
+      \ rounds in a row.\n\n- Each undead creature in the lair can pinpoint the location\
+      \ of each living creature within 120 feet of it until initiative count 20 on\
+      \ the next round.  \n- Each undead in the lair has advantage on saving throws\
+      \ against effects that turn undead until initiative count 20 on the next round.\
+      \  \n- Until initiative count 20 on the next round, any non-undead creature\
+      \ that tries to cast a spell of 4th level or lower in Valin's lair is wracked\
+      \ with pain. The creature can choose another action, but if it tries to cast\
+      \ the spell, it must make a DC 16 Constitution saving throw. On a failed save,\
+      \ it takes 1d6 necrotic damage per level of the spell, and the spell has no\
+      \ effect and is wasted.  "
+    "name": ""
+"regional_effects":
+  - "desc": "Valin's tomb is warped in any of the following ways by the creature's\
+      \ dark presence:\n\n- Food instantly molders and water instantly evaporates\
+      \ when brought into the lair. Other nonmagical drinks are spoiled—wine turning\
+      \ to vinegar, for instance.  \n- [Divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md)\
+      \ spells cast within the lair by creatures other than Valin have a 25 percent\
+      \ chance to provide misleading results, as determined by the DM. If a [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md)\
+      \ spell already has a chance to fail or become unreliable when cast multiple\
+      \ times, that chance increases by 25 percent.  \n- A creature that takes treasure\
+      \ from the lair is cursed until the treasure is returned. The cursed target\
+      \ has disadvantage on all saving throws. The curse lasts until removed by a\
+      \ [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md)\
+      \ spell or other magic.  \n\nIf Valin is destroyed, these regional effects end\
+      \ immediately."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Valin can expend a use to take one of the following actions. Valin regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Valin makes one attack with her rotting fist or uses her Dreadful Glare."
     "name": "Attack"
@@ -134,40 +168,6 @@ Valin can use her lair actions in any area of the tomb.
       \ or [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned).\
       \ Equipment worn or carried by Valin remain in her possession."
     "name": "Whirlwind of Sand (Costs 2 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), Valin takes a lair action\
-      \ to cause one of the following effects; Valin can't use the same effect two\
-      \ rounds in a row."
-    "name": ""
-  - "desc": "- Each undead creature in the lair can pinpoint the location of each\
-      \ living creature within 120 feet of it until initiative count 20 on the next\
-      \ round.  \n- Each undead in the lair has advantage on saving throws against\
-      \ effects that turn undead until initiative count 20 on the next round.  \n\
-      - Until initiative count 20 on the next round, any non-undead creature that\
-      \ tries to cast a spell of 4th level or lower in Valin's lair is wracked with\
-      \ pain. The creature can choose another action, but if it tries to cast the\
-      \ spell, it must make a DC 16 Constitution saving throw. On a failed save, it\
-      \ takes d6 necrotic damage per level of the spell, and the spell has no effect\
-      \ and is wasted.  "
-    "name": ""
-"regional_effects":
-  - "desc": "Valin's tomb is warped in any of the following ways by the creature's\
-      \ dark presence:"
-    "name": ""
-  - "desc": "- Food instantly molders and water instantly evaporates when brought\
-      \ into the lair. Other nonmagical drinks are spoiled—wine turning to vinegar,\
-      \ for instance.  \n- [Divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md)\
-      \ spells cast within the lair by creatures other than Valin have a 25 percent\
-      \ chance to provide misleading results, as determined by the DM. If a [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md)\
-      \ spell already has a chance to fail or become unreliable when cast multiple\
-      \ times, that chance increases by 25 percent.  \n- A creature that takes treasure\
-      \ from the lair is cursed until the treasure is returned. The cursed target\
-      \ has disadvantage on all saving throws. The curse lasts until removed by a\
-      \ [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md)\
-      \ spell or other magic.  "
-    "name": ""
-  - "desc": "If Valin is destroyed, these regional effects end immediately."
-    "name": ""
 "source":
   - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/valin-sarnaster-cm.webp"

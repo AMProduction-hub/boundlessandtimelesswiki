@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-object
+cssclasses:
+- json5e-object
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/object/size/gargantuan
 - ttrpg-cli/object/type/unknown
 aliases:
-- Gulthias Tree
+- "Gulthias Tree"
 ---
 # Gulthias Tree
 %%-- Embedded content starts on the next line. --%%
@@ -18,7 +19,7 @@ Two magical fruits (evocation school) ripen on the tree each year. Each fruit re
 
 Up to a week before the summer solstice, a ruby red fruit grows. Someone other than a construct who eats a quarter or more of it regains 70 hit points. In addition, any [blindness](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [deafness](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened), and diseases affecting the eater end.
 
-Up to a week before the winter solstice, a sickly white fruit grows. Someone who eats a quarter or more of it takes 70 necrotic damage. Each fruit has `d4` seeds that, if planted, grow leafless woody shrubs that animate as twig blights after one year.
+Up to a week before the winter solstice, a sickly white fruit grows. Someone who eats a quarter or more of it takes 70 necrotic damage. Each fruit has `1d4` seeds that, if planted, grow leafless woody shrubs that animate as twig blights after one year.
 
 ## Tree Thralls
 

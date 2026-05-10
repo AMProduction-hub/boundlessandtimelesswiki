@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Orond Gralhund
+- "Orond Gralhund"
 ---
-# [Orond Gralhund](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/orond-gralhund-wdh.md)
+# [Orond Gralhund](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/orond-gralhund-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 213*  
 
 The Gralhunds are nobles who trade in arms and mercenaries, and whose family motto is "We see both sides." Orond is the patriarch, but he's not a quick-thinking or cultured sort-and deep down, he knows it. He leaves most of the plotting and socializing to his wife, Yalah, to whom he is devoted.
@@ -31,7 +32,7 @@ Orond relies on Yalah to manage the Zhentarim. He spends his days watching merce
 "size": "Medium"
 "type": "humanoid"
 "subtype": "Tethyrian human"
-"alignment": "Lawful Evil"
+"alignment": "Neutral Evil"
 "ac": !!int "15"
 "ac_class": "[breastplate](03.PlayerLog&Handouts/Mechanics/CLI/items/breastplate.md)"
 "hp": !!int "9"
@@ -52,11 +53,13 @@ Orond relies on Yalah to manage the Zhentarim. He spends his days watching merce
     "desc": "+4"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+5"
+"gear":
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
 "senses": "passive Perception 12"
 "languages": "Common"
 "cr": "1/8"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d8 + 1) piercing damage."
     "name": "Rapier"
 "reactions":

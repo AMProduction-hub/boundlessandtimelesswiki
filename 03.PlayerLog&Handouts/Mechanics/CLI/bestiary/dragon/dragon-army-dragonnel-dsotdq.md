@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragon Army Dragonnel
+- "Dragon Army Dragonnel"
 ---
-# [Dragon Army Dragonnel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/dragon-army-dragonnel-dsotdq.md)
+# [Dragon Army Dragonnel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/dragon-army-dragonnel-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 201*  
 
 Dragonnels from the volcanic mountains surrounding Sanction are closely related to red dragons, resembling them in scale coloration and general shape. They are cruel and selfish creatures trained by the Dragon Armies to serve as mounts for trusted officers. While they lack a red dragon's destructive breath, these dragonnels are inured to fire, and their vicious teeth and claws flare with embers.
@@ -42,7 +43,9 @@ Dragonnels are distantly related to chromatic and metallic dragons and resemble 
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
 "damage_resistances": "fire"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 13"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "understands Common and Draconic but can't speak"
 "cr": "3"
 "traits":
@@ -52,8 +55,8 @@ Dragonnels are distantly related to chromatic and metallic dragons and resemble 
 "actions":
   - "desc": "The dragonnel makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
-      \ (2d6 + 3) slashing damage plus 3 (d6) fire damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
+      \ (2d6 + 3) slashing damage plus 3 (1d6) fire damage."
     "name": "Rend"
 "source":
   - "DSotDQ"

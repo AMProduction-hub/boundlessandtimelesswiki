@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/awm
 - ttrpg-cli/monster/cr/5
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hangry Otyugh
+- "Hangry Otyugh"
 ---
-# [Hangry Otyugh](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/hangry-otyugh-awm.md)
+# [Hangry Otyugh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/hangry-otyugh-awm.md)
 *Source: Adventure with Muk p. 33*  
 
 Otyughs are really stinky and ugly monsters that dine on offal, garbage, and dung. They are generally grumpy and aggressive. Most people don't like otyughs at all.
@@ -50,16 +51,16 @@ This otyugh can be dealt with in a few ways:
 "actions":
   - "desc": "The otyugh makes three attacks:"
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d8 + 3) piercing damage. Target must make a DC 15 Constitution save, or\
-      \ take d (d10) poison damage until cured."
+      \ take 6 (1d10) poison damage until cured."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
-      \ 7 (1d8 + 3) bludgeoning damage ,Target must make a DC 19 Constitution save,\
-      \ or take 42 (12d6) poison damage"
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
+      \ 7 (1d8 + 3) bludgeoning damage. Target must make a DC 19 Constitution save,\
+      \ or take 42 (12d6) poison damage."
     "name": "Tentacle"
   - "desc": "Target must make a DC 14 Constitution save, or be [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)."
-    "name": "Slam"
+    "name": "Slam!"
 "source":
   - "AWM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/hangry-otyugh-awm.webp"

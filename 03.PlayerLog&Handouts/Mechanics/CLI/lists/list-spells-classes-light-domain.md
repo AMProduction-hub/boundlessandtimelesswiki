@@ -1,38 +1,39 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/light-domain
 aliases:
-- Spells for Light Domain
+- "Spells for Light Domain"
 ---
 # Spells for Light Domain
 
 ## Cantrip
 
-- [Light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md "PHB") 
+- [Light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md "PHB") as cantrip
 
 ## 1st Level
 
-- [Burning Hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md "PHB") 
-- [Faerie Fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md "PHB") 
+- [Burning Hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md "PHB")
+- [Faerie Fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md "PHB")
 
 ## 2nd Level
 
-- [Flaming Sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/flaming-sphere.md "PHB") 
-- [Scorching Ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md "PHB") 
+- [Flaming Sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/flaming-sphere.md "PHB") at class level 3
+- [Scorching Ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md "PHB") at class level 3
 
 ## 3rd Level
 
-- [Daylight](03.PlayerLog&Handouts/Mechanics/CLI/spells/daylight.md "PHB") 
-- [Fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md "PHB") 
+- [Daylight](03.PlayerLog&Handouts/Mechanics/CLI/spells/daylight.md "PHB") at class level 5
+- [Fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md "PHB") at class level 5
 
 ## 4th Level
 
-- [Guardian of Faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/guardian-of-faith.md "PHB") 
-- [Wall of Fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md "PHB") 
+- [Guardian of Faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/guardian-of-faith.md "PHB") at class level 7
+- [Wall of Fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md "PHB") at class level 7
 
 ## 5th Level
 
-- [Flame Strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md "PHB") 
-- [Scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md "PHB")
+- [Flame Strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md "PHB") at class level 9
+- [Scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md "PHB") at class level 9

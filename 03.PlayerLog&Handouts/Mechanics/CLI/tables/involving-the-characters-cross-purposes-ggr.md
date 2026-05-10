@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Involving the Characters; Cross Purposes
+- "Involving the Characters; Cross Purposes"
 ---
 # Involving the Characters; Cross Purposes
 *Source: Guildmasters' Guide to Ravnica p. 126* 
 
 **Cross Purposes**
-
-`dice: [](involving-the-characters-cross-purposes-ggr.md#^cross-purposes)`
 
 | dice: d10 | The Villain's Activities... |
 |-----------|-----------------------------|

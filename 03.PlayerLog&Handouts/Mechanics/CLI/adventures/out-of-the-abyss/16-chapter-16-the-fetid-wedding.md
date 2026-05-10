@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Chapter 16: The Fetid Wedding
+- "Chapter 16: The Fetid Wedding"
 ---
 # Chapter 16: The Fetid Wedding
 *Source: Out of the Abyss, p. 208* 
@@ -75,8 +76,6 @@ Once the characters enter Araumycos's territory, use the Araumycos Encounters ta
 
 #### Creature Encounters
 
-`dice: [](16-chapter-16-the-fetid-wedding.md#^encounter)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1 | [Death tyrant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/death-tyrant.md) |
@@ -89,8 +88,6 @@ Once the characters enter Araumycos's territory, use the Araumycos Encounters ta
 ^encounter
 
 #### Araumycos Encounters
-
-`dice: [](16-chapter-16-the-fetid-wedding.md#^encounter)`
 
 | dice: d20 | Encounter |
 |-----------|-----------|
@@ -107,20 +104,18 @@ Characters within 1 mile of the [death tyrant's](03.PlayerLog&Handouts/Mechanics
 
 ##### Treasure
 
-If the characters defeat the death tyrant, they can plunder its hoard: `4d6 × 1,000` gp, `5d6 × 100` pp, `3d6` 500 gp gems, and `d6` magic items (determine each one by rolling on Magic Item Table C in "chapter 7" of the *Dungeon Master's Guide*).
+If the characters defeat the death tyrant, they can plunder its hoard: `4d6 × 1,000` gp, `5d6 × 100` pp, `3d6` 500 gp gems, and `1d6` magic items (determine each one by rolling on Magic Item Table C in "chapter 7" of the *Dungeon Master's Guide*).
 
 #### Demons
 
 One or more demons encounter the party and attack. Roll a `d12` and consult the Demons table to determine what the characters meet.
 
-`dice: [](16-chapter-16-the-fetid-wedding.md#^demons)`
-
 | dice: d12 | Demons |
 |-----------|--------|
 | 1–2 | `2d4` [barlguras](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/barlgura.md) |
 | 3–4 | `2d4` [chasmes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/chasme.md) |
-| 5–6 | `d4` [hezrous](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hezrou.md) |
-| 7–8 | `d100` [manes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/manes.md) |
+| 5–6 | `1d4` [hezrous](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hezrou.md) |
+| 7–8 | `1d100` [manes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/manes.md) |
 | 9–10 | 1 [nalfeshnee](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/nalfeshnee.md) |
 | 11–12 | `2d4` [vrocks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/vrock.md) |
 ^demons
@@ -133,12 +128,10 @@ The party happens upon a cave overgrown with fungi. Roll a `d6` and consult the 
 
 If this encounter takes place in Araumycos's domain, an overabundance of fungi cover all of the other cave exits, requiring the characters to hack or blast their way through (or find a route around).
 
-`dice: [](16-chapter-16-the-fetid-wedding.md#^fungi)`
-
 | dice: d6 | Fungi |
 |----------|-------|
-| 1 | `d6` [gas spores](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/gas-spore.md) |
-| 2 | `d6` [violet fungi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/violet-fungus.md) |
+| 1 | `1d6` [gas spores](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/gas-spore.md) |
+| 2 | `1d6` [violet fungi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/violet-fungus.md) |
 | 3–4 | `3d6` edible fungi (choose from the varieties in "Fungi of the Underdark" in chapter 2) |
 | 5–6 | `3d6` exotic fungi (choose from the varieties in "Fungi of the Underdark" in chapter 2) |
 ^fungi
@@ -157,18 +150,16 @@ One party member (determined randomly) steps on a pit of soft mold hidden beneat
 
 #### Myconid Parade
 
-The characters stumble upon `d4` [myconid adults](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/myconid-adult.md), `2d6` [myconid sprouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/myconid-sprout.md), and one or more spore servants. Roll a `d8` and consult the Spore Servants table to determine what kind of spore servants are present.
+The characters stumble upon `1d4` [myconid adults](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/myconid-adult.md), `2d6` [myconid sprouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/myconid-sprout.md), and one or more spore servants. Roll a `d8` and consult the Spore Servants table to determine what kind of spore servants are present.
 
 #### Spore Servants
 
-`dice: [](16-chapter-16-the-fetid-wedding.md#^spore-servants)`
-
 | dice: d8 | Spore Servants |
 |----------|----------------|
-| 1–2 | `d6` [chuul spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/chuul-spore-servant-oota.md) (see appendix C) |
-| 3–4 | `d6` [drow spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/drow-spore-servant-oota.md) `d6` [duergar spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/duergar-spore-servant-oota.md) (see appendix C for both) |
-| 5–6 | `d6` [drow spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/drow-spore-servant-oota.md) (see appendix C) and `d6` [quaggoth spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/quaggoth-spore-servant.md) |
-| 7–8 | `d6` [hook horror spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/hook-horror-spore-servant-oota.md) (see appendix C) |
+| 1–2 | `1d6` [chuul spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/chuul-spore-servant-oota.md) (see appendix C) |
+| 3–4 | `1d6` [drow spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/drow-spore-servant-oota.md) `1d6` [duergar spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/duergar-spore-servant-oota.md) (see appendix C for both) |
+| 5–6 | `1d6` [drow spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/drow-spore-servant-oota.md) (see appendix C) and `1d6` [quaggoth spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/quaggoth-spore-servant.md) |
+| 7–8 | `1d6` [hook horror spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/hook-horror-spore-servant-oota.md) (see appendix C) |
 ^spore-servants
 
 Subjects of Zuggtmoy, the myconids and their spore servants caper and dance madly to music only they can hear. The myconids insist that all other creatures they meet join them, releasing a cloud of spores if anyone refuses to do so. They can release this cloud once, and any creature within 30 feet of one or more of the myconids when the cloud is released must succeed on a DC 11 Constitution saving throw or become [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed). While [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) in this way, a creature can do nothing other than dance and use its movement to follow the myconid parade. The creature can repeat the saving throw at the end of each hour, ending the effect on itself on a success. Casting [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md), [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md), [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md), or similar magic on a creature also ends the effect on it.
@@ -179,11 +170,9 @@ The myconids and their spore servants attack only if they're attacked or prevent
 
 The characters encounter one or more oozes. Roll a `d4` and consult the Oozes table to determine what kinds of oozes the characters encounter.
 
-`dice: [](16-chapter-16-the-fetid-wedding.md#^oozes)`
-
 | dice: d4 | Oozes |
 |----------|-------|
-| 1 | 1 [black pudding](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/black-pudding.md) and `d6` [gray oozes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/gray-ooze.md) |
+| 1 | 1 [black pudding](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/black-pudding.md) and `1d6` [gray oozes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/gray-ooze.md) |
 | 2 | 1 [ochre jellies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/ochre-jelly.md) |
 | 3 | `3d6` [black puddings](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/black-pudding.md) |
 | 4 | `2d4` [gelatinous cubes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/gelatinous-cube.md) |
@@ -193,7 +182,7 @@ If the encounter occurs en route to Araumycos, the oozes are slithering toward t
 
 #### Two-Headed Trolls
 
-Warped by Demogorgon's presence in the Underdark, these trolls have each grown a second head. As part of its Multiattack routine, a two-headed troll can make a Bite attack as a bonus action on its turn. The party encounters `1d4 + 1` of these hungry creatures, which otherwise have the statistics of a normal troll.
+Warped by Demogorgon's presence in the Underdark, these trolls have each grown a second head. As part of its Multiattack routine, a [two-headed troll](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/two-headed-troll-oota.md) can make a Bite attack as a bonus action on its turn. The party encounters `1d4 + 1` of these hungry creatures, which otherwise have the statistics of a normal troll.
 
 ## Enter the Groom
 
@@ -353,7 +342,7 @@ In addition to possible victory over one or two demon lords, the adventurers rec
 
 ### Treasure
 
-In addition to (or instead of) providing information to the adventurers, the last connection to the surviving Araumycos can bestow a *charm of heroism* to all the player characters (see ""Other Rewards"" in chapter 7 of the *Dungeon Master's Guide*).
+In addition to (or instead of) providing information to the adventurers, the last connection to the surviving Araumycos can bestow a [charm of heroism](03.PlayerLog&Handouts/Mechanics/CLI/rewards/charm-of-heroism.md) to all the player characters (see ""Other Rewards"" in chapter 7 of the *Dungeon Master's Guide*).
 
 Additionally, the thirteen timmask mushrooms on the list of required components that Vizeran needs to create his *dark heart* talisman (see chapter 12) can be found in the aftermath of the failed wedding ceremony, sprouting in locations touched by Zuggtmoy or Juiblex.
 

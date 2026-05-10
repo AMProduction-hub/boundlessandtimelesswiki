@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/4
@@ -13,10 +14,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gnoll Fang of Yeenoghu
+- "Gnoll Fang of Yeenoghu"
 ---
-# [Gnoll Fang of Yeenoghu](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/gnoll-fang-of-yeenoghu.md)
-*Source: Monster Manual p. 163, Baldur's Gate: Descent Into Avernus, Icewind Dale: Rime of the Frostmaiden*  
+# [Gnoll Fang of Yeenoghu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/gnoll-fang-of-yeenoghu.md)
+*Source: Monster Manual p. 163*  
 
 Gnolls celebrate their victories by performing demonic rituals and making blood offerings to Yeenoghu.
 
@@ -60,10 +61,11 @@ No goodness or compassion resides in the heart of a gnoll. Like a demon, it lack
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+4"
-  - "wisdom": "+2"
-  - "charisma": "+3"
-"senses": "darkvision 60 ft., passive Perception 10"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "2"
+  - "charisma": !!int "3"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Abyssal, Gnoll"
 "cr": "4"
 "traits":
@@ -74,17 +76,15 @@ No goodness or compassion resides in the heart of a gnoll. Like a demon, it lack
 "actions":
   - "desc": "The gnoll makes three attacks: one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 6 (1d6 + 3) piercing damage, and the target must succeed on a DC 12 Constitution\
       \ saving throw or take 7 (2d6) poison damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage."
     "name": "Claw"
 "source":
   - "MM"
-  - "BGDIA"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/gnoll-fang-of-yeenoghu.webp"
 ```
 ^statblock

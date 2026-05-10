@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/human/variant
 aliases:
-- Human (Variant)
+- "Human (Variant)"
 ---
 # Human (Variant)
 *Source: Player's Handbook p. 31. Available in the Basic Rules (2014)*  

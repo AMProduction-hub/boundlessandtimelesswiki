@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Otyugh
+- "Otyugh"
 ---
-# [Otyugh](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/otyugh.md)
-*Source: Monster Manual p. 248, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Infernal Machine Rebuild, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Otyugh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/otyugh.md)
+*Source: Monster Manual p. 248. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 An otyugh is a grotesque, bulbous creature borne along on three sturdy legs, its eyes and nose set along a vine-like stalk that snakes from the top of its bloated body. Two rubbery tentacles end in spiky, leaf-like appendages that the otyugh uses to shovel food into its gaping maw.
 
@@ -50,8 +51,9 @@ Sentient subterranean beings can coexist with otyughs, employing them as garbage
   - !!int "6"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+7"
-"senses": "darkvision 120 ft., passive Perception 11"
+  - "constitution": !!int "7"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": "Otyugh"
 "cr": "5"
 "traits":
@@ -62,17 +64,17 @@ Sentient subterranean beings can coexist with otyughs, employing them as garbage
 "actions":
   - "desc": "The otyugh makes three attacks: one with its bite and two with its tentacles."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d8 + 3) piercing damage. If the target is a creature, it must succeed\
       \ on a DC 15 Constitution saving throw against disease or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ until the disease is cured. Every 24 hours that elapse, the target must repeat\
-      \ the saving throw, reducing its hit point maximum by 5 (d10) on a failure.\
+      \ the saving throw, reducing its hit point maximum by 5 (1d10) on a failure.\
       \ The disease is cured on a success. The target dies if the disease reduces\
       \ its hit point maximum to 0. This reduction to the target's hit point maximum\
       \ lasts until the disease is cured."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
-      \ 7 (1d8 + 3) bludgeoning damage plus 4 (d8) piercing damage. If the target\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
+      \ 7 (1d8 + 3) bludgeoning damage plus 4 (1d8) piercing damage. If the target\
       \ is Medium or smaller, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13) and [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ until the grapple ends. The otyugh has two tentacles, each of which can grapple\
@@ -87,12 +89,6 @@ Sentient subterranean beings can coexist with otyughs, employing them as garbage
     "name": "Tentacle Slam"
 "source":
   - "MM"
-  - "SKT"
-  - "TftYP"
-  - "ToA"
-  - "WDMM"
-  - "IMR"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/otyugh.webp"
 ```
 ^statblock

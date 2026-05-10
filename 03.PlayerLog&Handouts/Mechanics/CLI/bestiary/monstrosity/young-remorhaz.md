@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Young Remorhaz
+- "Young Remorhaz"
 ---
-# [Young Remorhaz](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/young-remorhaz.md)
-*Source: Monster Manual p. 258, Storm King's Thunder, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden*  
+# [Young Remorhaz](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/young-remorhaz.md)
+*Source: Monster Manual p. 258*  
 
 From beneath the snow and ice bursts a remorhaz in a cloud of steam, its body pulsing with internal fire. Wing like fins flare from the back of the creature's head, and its wide mouth brims with jagged teeth.
 
@@ -44,7 +45,8 @@ Frost giant hunters scour the icy wastes for remorhaz nests and eggs. The giants
   - !!int "4"
 "speed": "30 ft., burrow 30 ft."
 "damage_immunities": "cold, fire"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 10"
 "languages": ""
 "cr": "5"
 "traits":
@@ -52,14 +54,11 @@ Frost giant hunters scour the icy wastes for remorhaz nests and eggs. The giants
       \ within 5 feet of it takes 7 (2d6) fire damage."
     "name": "Heated Body"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 20\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 20\
       \ (3d10 + 4) piercing damage plus 7 (2d6) fire damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "SKT"
-  - "EGW"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/young-remorhaz.webp"
 ```
 ^statblock

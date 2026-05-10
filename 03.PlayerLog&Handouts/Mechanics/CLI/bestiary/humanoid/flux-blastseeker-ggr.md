@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Flux Blastseeker
+- "Flux Blastseeker"
 ---
-# [Flux Blastseeker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/flux-blastseeker-ggr.md)
+# [Flux Blastseeker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/flux-blastseeker-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 242*  
 
 While chemisters focus on inventing new tools, weapons, and other devices for the guild to use, the role of a blastseeker is to put those devices to work. Despite the name, not all such devices produce explosions, but all the most interesting ones (from the Izzet perspective) do.
@@ -36,13 +37,15 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "intelligence": "+8"
+  - "dexterity": !!int "5"
+  - "intelligence": !!int "8"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+8"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
+"gear":
+  - "[quarterstaff](03.PlayerLog&Handouts/Mechanics/CLI/items/quarterstaff.md)"
 "senses": "passive Perception 12"
 "languages": "Common plus any one language"
 "cr": "5"
@@ -50,9 +53,9 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
   - "desc": "The blastseeker's innate spellcasting ability is Intelligence (spell\
       \ save DC 16, +8 to hit with spell attacks). The blastseeker can innately\
       \ cast the following spells, requiring no components other than its Izzet gear,\
-      \ which doesn't function for others:\n\n3/day each: [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)\
+      \ which doesn't function for others:\n\n**3/day each:** [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)\
       \ (self only), [scorching ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md)\n\
-      \n1/day each: [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \n**1/day each:** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md),\
       \ [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md)"
@@ -64,8 +67,8 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
       \ Constitution saving throw or take 11 (2d10) thunder damage."
     "name": "Fluxbending Overcast (Recharge 5-6)"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
-      \ (d6) bludgeoning damage, or 4 (d8) bludgeoning damage if used with two\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
+      \ (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two\
       \ hands."
     "name": "Quarterstaff"
 "source":

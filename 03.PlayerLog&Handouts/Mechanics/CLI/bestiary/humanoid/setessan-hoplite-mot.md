@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Setessan Hoplite
+- "Setessan Hoplite"
 ---
-# [Setessan Hoplite](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/setessan-hoplite-mot.md)
+# [Setessan Hoplite](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/setessan-hoplite-mot.md)
 *Source: Mythic Odysseys of Theros p. 229*  
 
 Most Setessan hoplites begin their training as hunters, making them skilled in traversing the woods and adept at both guerrilla tactics and archery. Their strategies often emulate the favored servants of Nylea—especially wild beasts like wolves and lynxes. Typically a few soldiers harry an enemy while the rest capitalize on their foe's distraction.
@@ -50,8 +51,6 @@ The three Hoplite Unit Names tables present the sorts of titles used by hoplite 
 
 **Setessan Hoplite Unit Names**
 
-`dice: [](setessan-hoplite-mot.md#^setessan-hoplite-unit-names)`
-
 | dice: d8 | Name |
 |----------|------|
 | 1 | Nylea's Arrows |
@@ -84,8 +83,8 @@ The three Hoplite Unit Names tables present the sorts of titles used by hoplite 
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+5"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+5"
@@ -93,6 +92,9 @@ The three Hoplite Unit Names tables present the sorts of titles used by hoplite 
     "desc": "+5"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+5"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
 "senses": "passive Perception 15"
 "languages": "Common"
 "cr": "4"
@@ -104,10 +106,10 @@ The three Hoplite Unit Names tables present the sorts of titles used by hoplite 
 "actions":
   - "desc": "The hoplite makes two scimitar attacks or two longbow attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage plus 10 (3d6) poison damage."
     "name": "Scimitar"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 150/600 ft., one target. *Hit:*\
       \ 7 (1d8 + 3) piercing damage plus 10 (3d6) poison damage."
     "name": "Longbow"
 "source":

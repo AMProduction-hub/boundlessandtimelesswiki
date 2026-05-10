@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/halfling/stout
 aliases:
-- Halfling (Stout)
+- "Halfling (Stout)"
 ---
 # Halfling (Stout)
 *Source: Player's Handbook p. 28. Available in the Basic Rules (2014)*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/halfling.webp#right)
 
-- **Ability Scores**: Constitution +1
+- **Ability Scores**: con +1
 - **Size**: Small
 - **Speed**: 25 ft.
 

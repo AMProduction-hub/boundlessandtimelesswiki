@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Shalvus Martholio
+- "Shalvus Martholio"
 ---
-# [Shalvus Martholio](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/shalvus-martholio-skt.md)
+# [Shalvus Martholio](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/shalvus-martholio-skt.md)
 *Source: Storm King's Thunder p. 250*  
 
 Nalaskur Thaelond of Bargewright Inn has entrusted the shepherd Shalvus with an important assignment: to figure out the best way by which Goldenfields can be brought under the Black Network's control. Shalvus believes that success will ensure his swift rise through the Zhentarim ranks.
@@ -54,6 +55,9 @@ Flaw:"I can't resist taking risks to feed my ambitions."
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[quarterstaff](03.PlayerLog&Handouts/Mechanics/CLI/items/quarterstaff.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Elvish"
 "traits":
@@ -71,11 +75,11 @@ Flaw:"I can't resist taking risks to feed my ambitions."
       \ to feed my ambitions.\""
     "name": "Roleplaying Information"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3\
-      \ (d6) bludgeoning damage, or 4 (d8) bludgeoning damage if used with both\
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 3\
+      \ (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with both\
       \ hands."
     "name": "Quarterstaff"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 30/120 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage. Shalvus carries ten crossbow bolts."
     "name": "Hand Crossbow"
 "source":

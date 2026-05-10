@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Levna Drakehorn (11th Level)
+- "Levna Drakehorn (11th Level)"
 ---
-# [Levna Drakehorn (11th Level)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/levna-drakehorn-11th-level-dsotdq.md)
+# [Levna Drakehorn (11th Level)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/levna-drakehorn-11th-level-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 213*  
 
 ```statblock
@@ -35,7 +36,7 @@ aliases:
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+6"
+  - "constitution": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+8"
@@ -43,6 +44,8 @@ aliases:
     "desc": "+6"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
 "senses": "passive Perception 14"
 "languages": "Common"
 "traits":
@@ -53,7 +56,7 @@ aliases:
       \ one of her allies is within 5 feet of the creature and the ally isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
   - "desc": "Levna can use a bonus action on her turn to regain hit points equal to\
-      \ d10 + her level. Once she uses this feature, she can't use it again until\
+      \ 1d10 + her level. Once she uses this feature, she can't use it again until\
       \ she finishes a short or long rest."
     "name": "Second Wind"
   - "desc": "Levna's attack rolls now score a critical hit on a roll of 19 or 20 on\
@@ -71,7 +74,7 @@ aliases:
       \ a long rest."
     "name": "Indomitable"
 "actions":
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage."
     "name": "Greatsword"
 "reactions":

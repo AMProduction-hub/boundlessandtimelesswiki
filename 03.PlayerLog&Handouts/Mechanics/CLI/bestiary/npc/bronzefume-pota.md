@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/13
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bronzefume
+- "Bronzefume"
 ---
-# [Bronzefume](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/bronzefume-pota.md)
+# [Bronzefume](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/bronzefume-pota.md)
 *Source: Princes of the Apocalypse p. 92*  
 
 ```statblock
@@ -33,11 +34,12 @@ aliases:
   - !!int "12"
 "speed": "20 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+6"
-  - "constitution": "+11"
-  - "wisdom": "+7"
+  - "dexterity": !!int "6"
+  - "constitution": !!int "11"
+  - "wisdom": !!int "7"
 "damage_resistances": "fire"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": "Aquan, Draconic"
 "cr": "13"
 "traits":
@@ -47,13 +49,13 @@ aliases:
   - "desc": "The dragon turtle makes three attacks: one with its bite and two with\
       \ its claws. It can make one tail attack in place of its two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:*\
       \ 26 (3d12 + 7) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:*\
       \ 16 (2d8 + 7) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:*\
       \ 26 (3d12 + 7) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 20 Strength saving throw or be pushed up to 10 feet away from the\
       \ dragon turtle and knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."

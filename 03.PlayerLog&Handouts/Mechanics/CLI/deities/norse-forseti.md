@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/deity/norse
 - ttrpg-cli/domain/light
 - ttrpg-cli/domain/order
-aliases: 
-- Forseti
+aliases:
+- "Forseti"
 ---
 # Forseti
 *Source: Player's Handbook p. 299* 

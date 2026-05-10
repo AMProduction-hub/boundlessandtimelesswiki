@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Ephara's Monsters
+- "Ephara's Monsters"
 ---
 # Ephara's Monsters
 *Source: Mythic Odysseys of Theros p. 120* 

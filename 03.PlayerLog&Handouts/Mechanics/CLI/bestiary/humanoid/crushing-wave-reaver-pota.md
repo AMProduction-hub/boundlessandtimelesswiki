@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Crushing Wave Reaver
+- "Crushing Wave Reaver"
 ---
-# [Crushing Wave Reaver](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/crushing-wave-reaver-pota.md)
+# [Crushing Wave Reaver](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/crushing-wave-reaver-pota.md)
 *Source: Princes of the Apocalypse p. 205*  
 
 The foot soldiers of the Crushing Wave cult are vicious sea reavers. Many of them were pirates before they fell in with the cult, and they remain eager for blood and plunder. Crushing Wave reavers appreciate the value of stealth and surprise, and look for chances to launch sudden attacks from positions of concealment whenever possible. The soldiers of the Crushing Wave cult are highly loyal to the cult priests, but they rarely fight to the death if an avenue of retreat is open to them.
@@ -42,17 +43,19 @@ Reavers carry shields made of giant crab shells, and the blades of their swords 
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
 "senses": "passive Perception 10"
 "languages": "Common"
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with\
       \ two hands. Against a target is wearing no armor, the reaver deals an extra\
       \ die of damage with this sword."
     "name": "Sharktoothed Longsword"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
     "name": "Javelin"
 "source":
   - "PotA"

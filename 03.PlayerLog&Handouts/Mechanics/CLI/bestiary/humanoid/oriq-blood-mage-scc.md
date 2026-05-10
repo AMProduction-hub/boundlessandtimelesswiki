@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Oriq Blood Mage
+- "Oriq Blood Mage"
 ---
-# [Oriq Blood Mage](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/oriq-blood-mage-scc.md)
+# [Oriq Blood Mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/oriq-blood-mage-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 201*  
 
 Oriq blood mages create deadly weapons formed of their own blood. They can also sense the life energy within nearby creatures, making the blood mages almost impossible to ambush.
@@ -42,10 +43,10 @@ The Oriq work in secret, infiltrating Strixhaven to search for the magic their m
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+8"
-  - "intelligence": "+9"
-  - "wisdom": "+5"
-  - "charisma": "+5"
+  - "constitution": !!int "8"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+9"
@@ -75,7 +76,7 @@ The Oriq work in secret, infiltrating Strixhaven to search for the magic their m
 "actions":
   - "desc": "The blood mage makes two Blood Lash attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +9 to hit, reach 10 ft., one target. Hit: 21\
+  - "desc": "*Melee Spell Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 21\
       \ (3d10 + 5) necrotic damage. If the target is a creature, it can't regain\
       \ hit points until the start of the blood mage's next turn."
     "name": "Blood Lash"

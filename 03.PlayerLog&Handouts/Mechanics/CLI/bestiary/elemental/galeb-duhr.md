@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/6
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Galeb Duhr
+- "Galeb Duhr"
 ---
-# [Galeb Duhr](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/galeb-duhr.md)
-*Source: Monster Manual p. 139, Princes of the Apocalypse, Waterdeep: Dungeon of the Mad Mage, Tasha's Cauldron of Everything, Keys from the Golden Vault*  
+# [Galeb Duhr](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/galeb-duhr.md)
+*Source: Monster Manual p. 139*  
 
 The galeb duhr is a boulder-like creature with stumpy appendages that act as arms and legs. It has the ability to animate the rocks and boulders around it, and is thus usually encountered in rocky terrain.
 
@@ -54,7 +55,8 @@ A galeb duhr can become one with the earth around it, allowing it to imbue nearb
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 11"
 "languages": "Terran"
 "cr": "6"
 "traits":
@@ -67,7 +69,7 @@ A galeb duhr can become one with the earth around it, allowing it to imbue nearb
       \ on a DC 16 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Rolling Charge"
 "actions":
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) bludgeoning damage."
     "name": "Slam"
   - "desc": "The galeb duhr magically animates up to two boulders it can see within\
@@ -81,10 +83,6 @@ A galeb duhr can become one with the earth around it, allowing it to imbue nearb
     "name": "Animate Boulders (1/Day)"
 "source":
   - "MM"
-  - "PotA"
-  - "WDMM"
-  - "TCE"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/galeb-duhr.webp"
 ```
 ^statblock

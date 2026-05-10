@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Dwarf Names – Male
+- "Dwarf Names – Male"
 ---
 # Dwarf Names – Male
 *Source: Xanathar's Guide to Everything p. 176* 
 
 **Dwarf Names – Male**
-
-`dice: [](dwarf-names-male-xge.md#^dwarf-names-male)`
 
 | dice: d100 | Name |
 |------------|------|

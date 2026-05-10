@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/7
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ras Nsi
+- "Ras Nsi"
 ---
-# [Ras Nsi](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/ras-nsi-toa.md)
+# [Ras Nsi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ras-nsi-toa.md)
 *Source: Tomb of Annihilation p. 230*  
 
 The word "ras" is a noble title akin to "duke." Ras Nsi was once a Chultan paladin, a Chosen of Ubtao and sworn protector of the city of Mezro. He betrayed his oaths and was banished from the city. Becoming a vengeful warlord, Ras Nsi attempted to conquer Mezro with an undead army but was defeated. Rather than seek redemption, he sought revenge and was stripped of his god-given powers. The undead horde, no longer under his control, spread throughout the jungles of Chult.
@@ -59,8 +60,8 @@ Ras Nsi has died and been brought back from the dead more than once. Consequentl
   - !!int "21"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+6"
-  - "wisdom": "+7"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+8"
@@ -72,35 +73,38 @@ Ras Nsi has died and been brought back from the dead more than once. Consequentl
     "desc": "+6"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[flame tongue longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/flame-tongue.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Abyssal, Common, Draconic"
 "cr": "7"
 "traits":
   - "desc": "Ras Nsi is an 11th-level spellcaster. His spellcasting ability is Intelligence\
       \ (spell save DC 15, +7 to hit with spell attacks).\n\nRas Nsi has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md),\
       \ [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md), [mage\
       \ hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md),\
       \ [poison spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md)\n\
-      \n1st level (4 slots): [expeditious retreat](03.PlayerLog&Handouts/Mechanics/CLI/spells/expeditious-retreat.md),\
+      \n**1st level (4 slots):** [expeditious retreat](03.PlayerLog&Handouts/Mechanics/CLI/spells/expeditious-retreat.md),\
       \ [false life](03.PlayerLog&Handouts/Mechanics/CLI/spells/false-life.md), [magic\
       \ missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md), [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\
-      \n2nd level (3 slots): [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
+      \n**2nd level (3 slots):** [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md)\n\n\
-      3rd level (3 slots): [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
+      **3rd level (3 slots):** [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
-      \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)\n\n4th\
-      \ level (3 slots): [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
-      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\n5th\
-      \ level (2 slots): [contact other plane](03.PlayerLog&Handouts/Mechanics/CLI/spells/contact-other-plane.md),\
-      \ [geas](03.PlayerLog&Handouts/Mechanics/CLI/spells/geas.md)\n\n6th level\
-      \ (1 slots): [create undead](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-undead.md)"
+      \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)\n\n**4th\
+      \ level (3 slots):** [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
+      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\n**5th\
+      \ level (2 slots):** [contact other plane](03.PlayerLog&Handouts/Mechanics/CLI/spells/contact-other-plane.md),\
+      \ [geas](03.PlayerLog&Handouts/Mechanics/CLI/spells/geas.md)\n\n**6th level\
+      \ (1 slots):** [create undead](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-undead.md)"
     "name": "Spellcasting"
   - "desc": "Ras Nsi's innate spellcasting ability is Charisma (spell save DC 16).\
       \ He can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md)\
-      \ (snakes only)\n\n3/day: [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
+      \n**At will:** [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md)\
+      \ (snakes only)\n\n**3/day:** [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
     "name": "Innate Spellcasting"
   - "desc": "Ras Nsi wears [bracers of defense](03.PlayerLog&Handouts/Mechanics/CLI/items/bracers-of-defense.md),\
       \ wields a [flame tongue longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/flame-tongue.md),\
@@ -118,15 +122,15 @@ Ras Nsi has died and been brought back from the dead more than once. Consequentl
 "actions":
   - "desc": "Ras Nsi makes three melee attacks, but can use Constrict only once."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
     "name": "Bite (Snake Form Only)"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:*\
       \ 10 (2d6 + 3) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and Ras Nsi can't constrict another target."
     "name": "Constrict"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage when used with\
       \ two hands, plus 7 (2d6) fire damage."
     "name": "Flame Tongue Longsword (Yuan-ti Form Only)"

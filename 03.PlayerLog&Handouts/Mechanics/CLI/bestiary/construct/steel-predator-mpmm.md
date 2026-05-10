@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/16
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Steel Predator
+- "Steel Predator"
 ---
-# [Steel Predator](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/steel-predator-mpmm.md)
+# [Steel Predator](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/steel-predator-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 232, Mordenkainen's Tome of Foes p. 239*  
 
 A steel predator is a merciless machine with one purpose: to locate and kill its target regardless of distance and obstacles.
@@ -60,7 +61,9 @@ If all goes according to plan, a steel predator slays its target and then volunt
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 17"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 17"
 "languages": "understands Modron and the language of its owner but can't speak"
 "cr": "16"
 "traits":
@@ -72,10 +75,10 @@ If all goes according to plan, a steel predator slays its target and then volunt
 "actions":
   - "desc": "The steel predator makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 18 (2d10 + 7) lightning damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 16 (2d8 + 7) force damage."
     "name": "Claw"
   - "desc": "The steel predator emits a roar in a 60-foot cone. Each creature in that\
@@ -87,7 +90,7 @@ If all goes according to plan, a steel predator slays its target and then volunt
       \ half as much damage and isn't [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)."
     "name": "Stunning Roar (Recharge 5-6)"
   - "desc": "The steel predator casts one of the following spells, requiring no spell\
-      \ components and using Wisdom as the spellcasting ability:\n\n3/day each:\
+      \ components and using Wisdom as the spellcasting ability:\n\n**3/day each:**\
       \ [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md)\
       \ (self only), [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)\
       \ (self only)"

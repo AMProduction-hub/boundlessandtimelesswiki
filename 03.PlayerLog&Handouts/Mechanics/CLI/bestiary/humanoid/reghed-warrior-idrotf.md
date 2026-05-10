@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reghed Warrior
+- "Reghed Warrior"
 ---
-# [Reghed Warrior](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/reghed-warrior-idrotf.md)
+# [Reghed Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/reghed-warrior-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 152*  
 
 Tribal warriors live beyond civilization, most often subsisting on fishing and hunting. Each tribe acts in accordance with the wishes of its chief, who is the greatest or oldest warrior of the tribe or a tribe member blessed by the gods.
@@ -38,6 +39,8 @@ Tribal warriors live beyond civilization, most often subsisting on fishing and h
 "skillsaves":
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+4"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 10"
 "languages": "Common"
 "cr": "1/8"
@@ -47,8 +50,8 @@ Tribal warriors live beyond civilization, most often subsisting on fishing and h
       \ ally isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Spear"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Leucrotta
+- "Leucrotta"
 ---
-# [Leucrotta](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/leucrotta-mpmm.md)
+# [Leucrotta](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/leucrotta-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 170, Volo's Guide to Monsters p. 169*  
 
 A leucrotta is what you would get if you took the head of a giant badger, the legs of a deer, and the body of a large hyena, then put them together and reanimated them with demon ichor without bothering to cover up the stink of death.
@@ -49,7 +50,8 @@ A leucrotta's stench would normally warn away prey long before the creature coul
     "desc": "+2"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Abyssal, Gnoll"
 "cr": "3"
 "traits":
@@ -67,11 +69,11 @@ A leucrotta's stench would normally warn away prey long before the creature coul
 "actions":
   - "desc": "The leucrotta makes one Bite attack and one Hooves attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) piercing damage. If the leucrotta scores a critical hit, it rolls\
       \ the damage dice three times, instead of twice."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage."
     "name": "Hooves"
 "bonus_actions":

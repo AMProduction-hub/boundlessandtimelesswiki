@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Deities of Dragonlance: Neutral
+- "Deities of Dragonlance: Neutral"
 ---
 # Deities of Dragonlance: Neutral
 *Source: Player's Handbook p. 293* 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/19
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kalaraq Quori
+- "Kalaraq Quori"
 ---
-# [Kalaraq Quori](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/kalaraq-quori-erlw.md)
+# [Kalaraq Quori](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/kalaraq-quori-erlw.md)
 *Source: Eberron: Rising from the Last War p. 306*  
 
 The most powerful quori are the kalaraqs, also known as eyebinders—entities formed of pure shadow that is outlined by a nimbus of energy. A host of disembodied eyes whirl around a kalaraq, each reflecting a consciousness the creature has consumed.
@@ -39,9 +40,9 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
   - !!int "25"
 "speed": "30 ft., fly 60 ft. (hover)"
 "saves":
-  - "intelligence": "+12"
-  - "wisdom": "+13"
-  - "charisma": "+13"
+  - "intelligence": !!int "12"
+  - "wisdom": !!int "13"
+  - "charisma": !!int "13"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+13"
@@ -58,14 +59,15 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "truesight 120 ft., passive Perception 23"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 23"
 "languages": "all, telepathy 120 ft."
 "cr": "19"
 "traits":
   - "desc": "The quori's spellcasting ability is Charisma (spell save DC 21, +13\
       \ to hit with spell attacks). It can innately cast the following spells, requiring\
-      \ no components:\n\nAt will: [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md)\n\
-      \n3/day each: [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
+      \ no components:\n\n**At will:** [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md)\n\
+      \n**3/day each:** [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
       \ [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md), [dream](03.PlayerLog&Handouts/Mechanics/CLI/spells/dream.md),\
       \ [eyebite](03.PlayerLog&Handouts/Mechanics/CLI/spells/eyebite.md)"
     "name": "Innate Spellcasting (Psionics)"
@@ -73,7 +75,7 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
       \ while it isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "All-Around Vision"
   - "desc": "The quori can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
       \ an object."
     "name": "Incorporeal Movement"
   - "desc": "The quori has advantage on saving throws against spells and other magical\
@@ -83,10 +85,10 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
   - "desc": "The quori makes two Soul Binding attacks. Alternatively, it can make\
       \ four attacks with Arcane Blast."
     "name": "Multiattack"
-  - "desc": "Ranged Spell Attack: +13 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +13 to hit, range 120 ft., one target. *Hit:*\
       \ 12 (1d10 + 7) force damage."
     "name": "Arcane Blast"
-  - "desc": "Melee Spell Attack: +13 to hit, reach 5 ft., one target. Hit: 29\
+  - "desc": "*Melee Spell Attack:* +13 to hit, reach 5 ft., one target. *Hit:* 29\
       \ (4d10 + 7) necrotic damage. A creature reduced to 0 hit points from this\
       \ attack dies and has its soul imprisoned in one of the quori's eyes. The target\
       \ can't be revived by any means short of a [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md)\

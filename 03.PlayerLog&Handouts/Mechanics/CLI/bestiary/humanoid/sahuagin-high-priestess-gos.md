@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/5
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sahuagin High Priestess
+- "Sahuagin High Priestess"
 ---
-# [Sahuagin High Priestess](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/sahuagin-high-priestess-gos.md)
-*Source: Ghosts of Saltmarsh p. 251, Sleeping Dragon's Wake*  
+# [Sahuagin High Priestess](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-high-priestess-gos.md)
+*Source: Ghosts of Saltmarsh p. 251*  
 
 A sahuagin high priestess is the most devout and ferocious of all Sekolah's worshipers. Armed with a staff studded with jagged shark's teeth, she can be seen leading dark rituals in The Final Enemy.
 
@@ -36,30 +37,31 @@ A sahuagin high priestess is the most devout and ferocious of all Sekolah's wors
   - !!int "10"
 "speed": "30 ft., swim 40 ft."
 "saves":
-  - "wisdom": "+6"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+6"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "Sahuagin"
 "cr": "5"
 "traits":
   - "desc": "The high priestess is a 7th-level spellcaster. Her spellcasting ability\
       \ is Wisdom (spell save DC 14, +6 to hit with spell attacks). She has the\
-      \ following cleric spells prepared:\n\nCantrips (at will): [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ following cleric spells prepared:\n\n**Cantrips (at will):** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md), [resistance](03.PlayerLog&Handouts/Mechanics/CLI/spells/resistance.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md),\
+      \n**1st level (4 slots):** [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [guiding bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/guiding-bolt.md)\n\
-      \n2nd level (3 slots): [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
+      \n**2nd level (3 slots):** [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md)\
-      \ (trident)\n\n3rd level (3 slots): [bestow curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/bestow-curse.md),\
+      \ (trident)\n\n**3rd level (3 slots):** [bestow curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/bestow-curse.md),\
       \ [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md), [mass healing\
       \ word](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-healing-word.md), [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\
-      \n4th level (1 slots): [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md)"
+      \n**4th level (1 slots):** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md)"
     "name": "Spellcasting"
   - "desc": "The high priestess has advantage on melee attack rolls against any creature\
       \ that doesn't have all its hit points."
@@ -74,18 +76,17 @@ A sahuagin high priestess is the most devout and ferocious of all Sekolah's wors
   - "desc": "The high priestess makes two attacks with her toothsome staff, or one\
       \ attack with her bite and one with her claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d8 + 2) piercing damage."
     "name": "Toothsome Staff"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) slashing damage."
     "name": "Claws"
 "source":
   - "GoS"
-  - "SDW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/sahuagin-high-priestess-gos.webp"
 ```
 ^statblock

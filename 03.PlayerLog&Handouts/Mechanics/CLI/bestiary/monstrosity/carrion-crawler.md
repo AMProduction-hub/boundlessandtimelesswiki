@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Carrion Crawler
+- "Carrion Crawler"
 ---
-# [Carrion Crawler](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/carrion-crawler.md)
-*Source: Monster Manual p. 37, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Icewind Dale: Rime of the Frostmaiden*  
+# [Carrion Crawler](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/carrion-crawler.md)
+*Source: Monster Manual p. 37*  
 
 Carrion crawlers scour putrid flesh from carcasses and gobble the slimy bones that remain. They aggressively attack any creature that trespasses on their territory or disturbs their feasting.
 
@@ -46,7 +47,8 @@ Whether in subterranean darkness or while hunting at night, light signals a pote
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": ""
 "cr": "2"
 "traits":
@@ -60,25 +62,18 @@ Whether in subterranean darkness or while hunting at night, light signals a pote
   - "desc": "The carrion crawler makes two attacks: one with its tentacles and one\
       \ with its bite."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one creature. *Hit:*\
       \ 4 (1d4 + 2) poison damage, and the target must succeed on a DC 13 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. Until this poison ends, the target is [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed).\
       \ The target can repeat the saving throw at the end of each of its turns, ending\
       \ the poison on itself on a success."
     "name": "Tentacles"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) piercing damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "TftYP"
-  - "ToA"
-  - "WDH"
-  - "WDMM"
-  - "DIP"
-  - "BGDIA"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/carrion-crawler.webp"
 ```
 ^statblock

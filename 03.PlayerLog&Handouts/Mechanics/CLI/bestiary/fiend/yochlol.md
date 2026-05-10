@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/10
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Yochlol
+- "Yochlol"
 ---
-# [Yochlol](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/yochlol.md)
-*Source: Monster Manual p. 65, Waterdeep: Dungeon of the Mad Mage, Explorer's Guide to Wildemount*  
+# [Yochlol](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/yochlol.md)
+*Source: Monster Manual p. 65*  
 
 The yochlols are the Handmaidens of Lolth-extensions of the Spider Queen's will dedicated to acting as her spies, taskmasters, and agents of villainy. They attend their goddess in the Demonweb Pits, but Lolth sometimes dispatches yochlols to the Material Plane to guard her temples and to aid her most devout priestesses. Yochlols don't form outside Lolth's realm of the Demonweb, and they serve no demon lords except their queen.
 
@@ -168,13 +169,13 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > 
 > Some demons can have an action option that allows them to summon other demons. Summon Demon (1/Day). The demon chooses what to summon and attempts a magical summoning.
 > 
-> - A balor has a 50 percent chance of summoning `d8` vrocks, `d6` hezrous, `d4` glabrezus, `d3` nalfeshnees, `d2` mariliths, or one goristro.  
+> - A balor has a 50 percent chance of summoning `1d8` vrocks, `1d6` hezrous, `1d4` glabrezus, `1d3` nalfeshnees, `1d2` mariliths, or one goristro.  
 > - A barlgura has a 30 percent chance of summoning one barlgura.  
 > - A chasme has a 30 percent chance of summoning one chasme.  
-> - A glabrezu has a 30 percent chance of summoning `d3` vrocks, `d2` hezrous, or one glabrezu.  
+> - A glabrezu has a 30 percent chance of summoning `1d3` vrocks, `1d2` hezrous, or one glabrezu.  
 > - A hezrou has a 30 percent chance of summoning `2d6` dretches or one hezrou.  
-> - A marilith has a 50 percent chance of summoning `d6` vrocks, `d4` hezrous, `d3` glabrezus, `d2` nalfeshnees, or one marilith.  
-> - A nalfeshnee has a 50 percent chance of summoning `d4` vrocks, `d3` hezrous, `d2` glabrezus, or one nalfeshnee.  
+> - A marilith has a 50 percent chance of summoning `1d6` vrocks, `1d4` hezrous, `1d3` glabrezus, `1d2` nalfeshnees, or one marilith.  
+> - A nalfeshnee has a 50 percent chance of summoning `1d4` vrocks, `1d3` hezrous, `1d2` glabrezus, or one nalfeshnee.  
 > - A vrock has a 30 percent chance of summoning `2d4` dretches or one vrock.  
 > - A yochlol has a 50 percent chance of summoning one yochlol.  
 > 
@@ -206,10 +207,10 @@ Demonologists organize the chaotic distribution of demons into broad categories 
   - !!int "15"
 "speed": "30 ft., climb 30 ft."
 "saves":
-  - "dexterity": "+6"
-  - "intelligence": "+5"
-  - "wisdom": "+6"
-  - "charisma": "+6"
+  - "dexterity": !!int "6"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+10"
@@ -219,14 +220,15 @@ Demonologists organize the chaotic distribution of demons into broad categories 
   \ nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 12"
 "languages": "Abyssal, Elvish, Undercommon"
 "cr": "10"
 "traits":
   - "desc": "The yochlol's spellcasting ability is Charisma (spell save DC 14). The\
       \ yochlol can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
-      \ [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md)\n\n1/day: [dominate\
+      \n**At will:** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \ [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md)\n\n**1/day:** [dominate\
       \ person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md)"
     "name": "Innate Spellcasting"
   - "desc": "The yochlol can use its action to polymorph into a form that resembles\
@@ -245,8 +247,8 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 "actions":
   - "desc": "The yochlol makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft. (10 feet in demon form),\
-      \ one target. Hit: 5 (1d6 + 2) bludgeoning (piercing in spider form) damage\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft. (10 feet in demon form),\
+      \ one target. *Hit:* 5 (1d6 + 2) bludgeoning (piercing in spider form) damage\
       \ plus 21 (6d6) poison damage."
     "name": "Slam (Bite in Spider Form)"
   - "desc": "The yochlol transforms into toxic mist or reverts to its true form. Any\
@@ -263,8 +265,6 @@ Demonologists organize the chaotic distribution of demons into broad categories 
     "name": "Mist Form"
 "source":
   - "MM"
-  - "WDMM"
-  - "EGW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/yochlol.webp"
 ```
 ^statblock

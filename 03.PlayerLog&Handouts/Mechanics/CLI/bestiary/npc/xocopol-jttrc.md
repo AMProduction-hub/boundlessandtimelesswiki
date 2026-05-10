@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Xocopol
+- "Xocopol"
 ---
-# [Xocopol](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/xocopol-jttrc.md)
+# [Xocopol](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/xocopol-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 112*  
 
 ```statblock
@@ -33,25 +34,27 @@ aliases:
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+3"
-  - "constitution": "+10"
-  - "charisma": "+5"
+  - "dexterity": !!int "3"
+  - "constitution": !!int "10"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+11"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
 "damage_immunities": "fire"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
 "senses": "passive Perception 16"
 "languages": "Giant"
 "cr": "9"
 "actions":
   - "desc": "The giant makes two greathammer attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 28 (6d6 + 7) bludgeoning damage."
     "name": "Greathammer"
-  - "desc": "Ranged Weapon Attack: +11 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +11 to hit, range 60/240 ft., one target. *Hit:*\
       \ 29 (4d10 + 7) bludgeoning damage."
     "name": "Rock"
 "source":

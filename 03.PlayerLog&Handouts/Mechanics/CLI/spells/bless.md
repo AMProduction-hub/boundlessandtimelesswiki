@@ -1,27 +1,28 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/paladin
-- ttrpg-cli/spell/feat/divinely-favored
+- ttrpg-cli/spell/feat/divinely-favored/good
 - ttrpg-cli/spell/feat/fey-touched
-- ttrpg-cli/spell/feat/magic-initiate
-- ttrpg-cli/spell/feat/strixhaven-initiate
+- ttrpg-cli/spell/feat/magic-initiate/cleric-spells
+- ttrpg-cli/spell/feat/strixhaven-initiate/silverquill-3
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/school/enchantment
-- ttrpg-cli/spell/subclass/divine-soul
+- ttrpg-cli/spell/subclass/divine-soul/law
 - ttrpg-cli/spell/subclass/life-domain
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Cleric (Life Domain)
 - Paladin
-- Sorcerer (Divine Soul)
+- Sorcerer (Divine Soul, Law)
 aliases:
-- Bless
+- "Bless"
 ---
 # Bless
 *1st-level, Enchantment*  
@@ -36,6 +37,6 @@ You bless up to three creatures of your choice within range. Whenever a target m
 
 **At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric (Life Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-life-domain.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Life Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-life-domain.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md); [Sorcerer (Divine Soul, Law)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE")
 
 *Source: Player's Handbook p. 219. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

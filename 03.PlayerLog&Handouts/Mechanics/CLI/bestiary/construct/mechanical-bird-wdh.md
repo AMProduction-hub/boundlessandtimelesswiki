@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/unknown
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mechanical Bird
+- "Mechanical Bird"
 ---
-# [Mechanical Bird](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/mechanical-bird-wdh.md)
+# [Mechanical Bird](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/mechanical-bird-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 46*  
 
 ```statblock
@@ -36,8 +37,8 @@ aliases:
 "languages": ""
 "cr": "Unknown"
 "actions":
-  - "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d3) piercing damage, and the bird is destroyed by the impact."
+  - "desc": "*Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d3) piercing damage, and the bird is destroyed by the impact."
     "name": "Slam"
 "source":
   - "WDH"

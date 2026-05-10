@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Torogar Steelfist
+- "Torogar Steelfist"
 ---
-# [Torogar Steelfist](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/torogar-steelfist-bgdia.md)
+# [Torogar Steelfist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/torogar-steelfist-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 112*  
 
 ```statblock
@@ -33,14 +34,17 @@ aliases:
   - !!int "16"
 "speed": "40 ft."
 "saves":
-  - "strength": "+11"
-  - "constitution": "+9"
-"senses": "darkvision 60 ft., passive Perception 9"
+  - "strength": !!int "11"
+  - "constitution": !!int "9"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "Abyssal, Common"
 "cr": "11"
 "traits":
-  - "desc": "Immediately after using the Dash action, Torogar can make one melee attack\
-      \ with his horns."
+  - "desc": "Immediately after using the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash)\
+      \ action, Torogar can make one melee attack with his horns."
     "name": "Goring Rush"
   - "desc": "Torogar can perfectly recall any path he has traveled."
     "name": "Labyrinthine Recall"
@@ -60,11 +64,11 @@ aliases:
   - "desc": "Torogar makes three attacks: two with his scimitars and one with his\
       \ horns."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 14 (2d6 + 7) slashing damage, or 17 (2d6 + 10) slashing damage while raging,\
-      \ plus 3 (d6) fire damage from the gauntlets of flaming fury."
+      \ plus 3 (1d6) fire damage from the gauntlets of flaming fury."
     "name": "Scimitar"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 16 (2d8 + 7) piercing damage, or 19 (2d8 + 10) piercing damage while raging."
     "name": "Horns"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/23
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Aurelia
+- "Aurelia"
 ---
-# [Aurelia](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/aurelia-ggr.md)
+# [Aurelia](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/aurelia-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 230*  
 
 The angel Aurelia leads the Boros Legion. During the years of her leadership, she has shown a strong appreciation for the ordinary citizens who are often caught in the middle of interguild violence.
@@ -44,9 +45,9 @@ Aurelia doesn't require food, drink, or sleep.
   - !!int "30"
 "speed": "50 ft., fly 150 ft."
 "saves":
-  - "dexterity": "+14"
-  - "constitution": "+14"
-  - "charisma": "+17"
+  - "dexterity": !!int "14"
+  - "constitution": !!int "14"
+  - "charisma": !!int "17"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+14"
@@ -60,7 +61,10 @@ Aurelia doesn't require food, drink, or sleep.
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 24"
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 24"
 "languages": "all"
 "cr": "23"
 "traits":
@@ -72,7 +76,7 @@ Aurelia doesn't require food, drink, or sleep.
 "actions":
   - "desc": "Aurelia makes three longsword attacks and uses Leadership."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 5 ft., one target. *Hit:*\
       \ 12 (1d8 + 8) slashing damage, or 13 (1d10 + 8) slashing damage when used\
       \ with two hands, plus 27 (6d8) radiant damage."
     "name": "Longsword"
@@ -80,7 +84,7 @@ Aurelia doesn't require food, drink, or sleep.
       \ 30 feet of her. If the creature can hear her, it can add a d10 to one attack\
       \ roll or saving throw it makes before the start of Aurelia's next turn."
     "name": "Leadership"
-  - "desc": "Ranged Spell Attack: +17 to hit, range 60 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +17 to hit, range 60 ft., one creature. *Hit:*\
       \ 54 (12d8) radiant damage, and Aurelia can choose another creature she can\
       \ see within 10 feet of the target. The second creature regains 27 (6d8) hit\
       \ points."
@@ -93,6 +97,9 @@ Aurelia doesn't require food, drink, or sleep.
       \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), or\
       \ both, she can use her reaction to be neither moved nor knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Unyielding"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Aurelia can expend a use to take one of the following actions. Aurelia regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Aurelia chooses up to three creatures she can see within 30 feet of her.\
       \ If a chosen creature can see or hear Aurelia, it can immediately use its reaction\

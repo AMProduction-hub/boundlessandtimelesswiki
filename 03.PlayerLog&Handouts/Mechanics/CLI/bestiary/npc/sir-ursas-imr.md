@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sir Ursas
+- "Sir Ursas"
 ---
-# [Sir Ursas](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sir-ursas-imr.md)
+# [Sir Ursas](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sir-ursas-imr.md)
 *Source: Infernal Machine Rebuild p. 56*  
 
 > [!note] Out on Loan
@@ -40,15 +41,17 @@ aliases:
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "strength": "+7"
-  - "dexterity": "+5"
-  - "constitution": "+6"
+  - "strength": !!int "7"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+10"
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+5"
 "damage_resistances": "fire"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 11"
 "languages": "Common, Infernal"
 "cr": "5"
@@ -64,14 +67,14 @@ aliases:
 "actions":
   - "desc": "Sir Ursas makes three melee attacks or two ranged attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage."
     "name": "Claw"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. and range\
-      \ 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. and range\
+      \ 20/60 ft., one target. *Hit:* 11 (2d6 + 4) piercing damage, or 13 (2d8\
       \ + 4) piercing damage if used with two hands to make a melee attack."
     "name": "Spear"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d4 + 4) bludgeoning damage, and if the target is a Medium or smaller creature,\
       \ it must succeed on a DC 15 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Shield Bash"

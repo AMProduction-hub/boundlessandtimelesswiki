@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Gothic Horror Torments
+- "Gothic Horror Torments"
 ---
 # Gothic Horror Torments
 *Source: Van Richten's Guide to Ravenloft p. 56* 
 
 **Gothic Horror Torments**
-
-`dice: [](gothic-horror-torments-vrgr.md#^gothic-horror-torments)`
 
 | dice: d8 | Torment |
 |----------|---------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bone Whelk
+- "Bone Whelk"
 ---
-# [Bone Whelk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/bone-whelk-bgdia.md)
+# [Bone Whelk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/bone-whelk-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 119*  
 
 Bone whelks are large mollusks that excrete an adhesive to attach skulls, bones, and other detritus to their bodies for protection.
@@ -34,7 +35,8 @@ Bone whelks are large mollusks that excrete an adhesive to attach skulls, bones,
   - !!int "9"
   - !!int "3"
 "speed": "15 ft., climb 15 ft."
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": ""
 "cr": "1/4"
 "traits":
@@ -51,8 +53,8 @@ Bone whelks are large mollusks that excrete an adhesive to attach skulls, bones,
       \ ceilings, without needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit:\
-      \ 4 (d8) piercing damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one creature. *Hit:*\
+      \ 4 (1d8) piercing damage."
     "name": "Bite"
 "source":
   - "BGDIA"

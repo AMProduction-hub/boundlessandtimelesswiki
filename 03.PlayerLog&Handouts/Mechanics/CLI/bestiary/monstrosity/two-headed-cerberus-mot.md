@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Two-Headed Cerberus
+- "Two-Headed Cerberus"
 ---
-# [Two-Headed Cerberus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/two-headed-cerberus-mot.md)
+# [Two-Headed Cerberus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/two-headed-cerberus-mot.md)
 *Source: Mythic Odysseys of Theros p. 215*  
 
 Thought to be a lesser breed of cerberi that have interbred with mortal wolves, two-headed cerberi typically roam the mortal side of the Tartyx River. There they generally ignore—or only modestly menace—the souls of the dead. Such isn't the case for mortals, though, and they eagerly set upon those who tread too close to the Underworld's borders.
@@ -46,7 +47,8 @@ Feared by the living and the dead, cerberi patrol both banks of the Tartyx River
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": ""
 "cr": "2"
 "traits":
@@ -63,8 +65,8 @@ Feared by the living and the dead, cerberi patrol both banks of the Tartyx River
 "actions":
   - "desc": "The cerberus makes two bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d6 + 2) piercing damage plus 2 (d4) fire damage."
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
+      \ (1d6 + 2) piercing damage plus 2 (1d4) fire damage."
     "name": "Bite"
   - "desc": "The cerberus exhales a 15-foot cone of molten rock. Each creature in\
       \ the cone must make a DC 12 Dexterity saving throw, taking 10 (3d6) fire\

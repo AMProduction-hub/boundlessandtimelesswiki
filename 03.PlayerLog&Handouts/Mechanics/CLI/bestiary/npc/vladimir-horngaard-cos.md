@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vladimir Horngaard
+- "Vladimir Horngaard"
 ---
-# [Vladimir Horngaard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/vladimir-horngaard-cos.md)
+# [Vladimir Horngaard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vladimir-horngaard-cos.md)
 *Source: Curse of Strahd p. 241*  
 
 Vladimir Horngaard joined the Order of the Silver Dragon at a young age and quickly earned the friendship of its founder, the silver dragon Argynvost. When he became a knight of the order, he traveled to distant lands to wage war against the forces of evil. The dragon stayed home and, in the guise of a human noble named Lord Argynvost, brought new initiates into the order.
@@ -40,7 +41,7 @@ Vladimir Horngaard has the statistics of a revenant with the following modificat
 - His Armor Class is 17 (half plate).  
 - He has 192 hit points.  
 - He speaks Common and Draconic.  
-- Vladimir wields a +2 greatsword with a hilt sculpted to resemble silver dragon wings and a pommel shaped like a silver dragon's head clutching a black opal between its teeth. As an action, he can make two attacks with the sword (+9 to hit). It deals 20 (`4d6 + 6`) slashing damage on a hit. Against Strahd, Vladimir deals an extra 14 (`4d6`) slashing damage with the weapon.  
+- Vladimir wields a +2 greatsword with a hilt sculpted to resemble silver dragon wings and a pommel shaped like a silver dragon's head clutching a black opal between its teeth. As an action, he can make two attacks with the sword (`+9` to hit). It deals 20 (`4d6 + 6`) slashing damage on a hit. Against Strahd, Vladimir deals an extra 14 (`4d6`) slashing damage with the weapon.  
 - Vladimir has a challenge rating of 7 (2,900 XP).  
 
 ## Vladimir Horngaard's Traits
@@ -92,10 +93,10 @@ A revenant doesn't require air, food, drink, or sleep.
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "strength": "+7"
-  - "constitution": "+7"
-  - "wisdom": "+6"
-  - "charisma": "+7"
+  - "strength": !!int "7"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "7"
 "damage_resistances": "necrotic, psychic"
 "damage_immunities": "poison"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
@@ -104,7 +105,10 @@ A revenant doesn't require air, food, drink, or sleep.
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[+2 greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/2-weapon.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Draconic"
 "cr": "7"
 "traits":
@@ -131,12 +135,12 @@ A revenant doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "Vladimir makes two fist attacks or two attacks with his +2 Greatsword."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage. Strahd, the target of Vladimir's sworn vengeance,\
       \ takes an extra 14 (4d6) bludgeoning damage. Instead of dealing damage, Vladimir\
       \ can grapple the target (escape DC 14) provided the target is Large or smaller."
     "name": "Fist"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 20\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 20\
       \ (4d6 + 6) slashing damage. Against Strahd, Vladimir deals an extra 14 (4d6)\
       \ slashing damage with this weapon."
     "name": "Greatsword +2"

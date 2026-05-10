@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vellynne Harpell
+- "Vellynne Harpell"
 ---
-# [Vellynne Harpell](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/vellynne-harpell-idrotf.md)
+# [Vellynne Harpell](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vellynne-harpell-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 273*  
 
 Vellynne Harpell is a member of the prestigious Harpell family, based in the town of Longsaddle. Cold and dispassionate, she took to magic only a decade ago in her late forties and is skilled in the arcane tradition of necromancy. She has a lifelong struggle—a nervous disorder that manifests as trembling. It can affect her balance and her stride, but she has learned to cast her spells unimpeded by it.
@@ -54,8 +55,8 @@ Vellynne's spellbook has black leather covers around pages of ragged parchment, 
   - !!int "13"
 "speed": "20 ft."
 "saves":
-  - "intelligence": "+6"
-  - "wisdom": "+4"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -67,21 +68,21 @@ Vellynne's spellbook has black leather covers around pages of ragged parchment, 
 "traits":
   - "desc": "Vellynne is an 8th-level spellcaster. Her spellcasting ability is Intelligence\
       \ (spell save DC 14, +6 to hit with spell attacks). She has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md)\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md)\
       \ (see \"Actions\" below), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (4 slots): [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
+      \n**1st level (4 slots):** [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [ray of sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md),\
       \ [Tasha's hideous laughter](03.PlayerLog&Handouts/Mechanics/CLI/spells/tashas-hideous-laughter.md)\n\
-      \n2nd level (3 slots): [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkvision.md),\
+      \n**2nd level (3 slots):** [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkvision.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [ray of enfeeblement](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-enfeeblement.md)\n\
-      \n3rd level (3 slots): [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
+      \n**3rd level (3 slots):** [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [Leomund's tiny hut](03.PlayerLog&Handouts/Mechanics/CLI/spells/leomunds-tiny-hut.md),\
       \ [vampiric touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/vampiric-touch.md)\
-      \ (see \"Actions\" below)\n\n4th level (2 slots): [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md),\
+      \ (see \"Actions\" below)\n\n**4th level (2 slots):** [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md),\
       \ [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md)"
     "name": "Spellcasting"
   - "desc": "Vellynne wears [bracers of defense](03.PlayerLog&Handouts/Mechanics/CLI/items/bracers-of-defense.md)\
@@ -89,13 +90,13 @@ Vellynne's spellbook has black leather covers around pages of ragged parchment, 
       \ (see \"Actions\" below)."
     "name": "Special Equipment"
 "actions":
-  - "desc": "Melee Spell Attack: +6 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +6 to hit, reach 5 ft., one creature. *Hit:*\
       \ 10 (3d6) necrotic damage, and Vellynne regains hit points equal to half\
       \ the necrotic damage dealt. If Vellynne casts this spell using a spell slot\
-      \ of 4th level or higher, the necrotic damage increases by d6 for each slot\
+      \ of 4th level or higher, the necrotic damage increases by 1d6 for each slot\
       \ level above 3rd."
     "name": "Vampiric Touch (3rd-Level Spell; Requires a Spell Slot)"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 120 ft., one creature. *Hit:*\
       \ 9 (2d8) necrotic damage, and the target can't regain hit points until the\
       \ start of Vellynne's next turn."
     "name": "Chill Touch (Cantrip)"

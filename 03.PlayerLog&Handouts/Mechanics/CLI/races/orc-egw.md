@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/race/orc
 aliases:
-- Orc
+- "Orc"
 ---
 # Orc
 *Source: Explorer's Guide to Wildemount p. 178*  
 
 
-- **Ability Scores**: Strength +2; Constitution +1
+- **Ability Scores**: str +2 con +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 

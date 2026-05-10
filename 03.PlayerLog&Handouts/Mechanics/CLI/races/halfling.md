@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/halfling
 aliases:
-- Halfling
+- "Halfling"
 ---
 # Halfling
 *Source: Player's Handbook p. 26. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/halfling.webp#right)
 
-- **Ability Scores**: Dexterity +2
+- **Ability Scores**: dex +2
 - **Size**: Small
 - **Speed**: 25 ft.
 

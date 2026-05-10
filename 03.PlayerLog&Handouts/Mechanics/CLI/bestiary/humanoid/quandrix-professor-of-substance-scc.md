@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Quandrix Professor of Substance
+- "Quandrix Professor of Substance"
 ---
-# [Quandrix Professor of Substance](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/quandrix-professor-of-substance-scc.md)
+# [Quandrix Professor of Substance](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/quandrix-professor-of-substance-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 209*  
 
 Professors of substance specialize in the concrete side of Quandrix philosophy, manipulating physical dimensions and properties of growth. Their magic alters and replaces the equations that describe the natural world, including creatures, space, and substance. Through these manipulations, the professors change their size and the physical form of others, manipulate nature into rapid growth, travel instantaneously, and even fold space into deadly edges.
@@ -41,10 +42,10 @@ The scholars of Quandrix College focus on the mathematical principles that gover
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+5"
-  - "intelligence": "+7"
-  - "wisdom": "+5"
-  - "charisma": "+4"
+  - "constitution": !!int "5"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+10"
@@ -61,17 +62,17 @@ The scholars of Quandrix College focus on the mathematical principles that gover
 "actions":
   - "desc": "The professor makes two Spatial Blade attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +7 to hit (the target can't benefit\
+  - "desc": "*Melee  or Ranged Spell Attack:* +7 to hit (the target can't benefit\
       \ from cover less than total cover), reach 5 ft. or range 120 ft., one target.\
-      \ Hit: 13 (2d8 + 4) force damage, or 22 (4d8 + 4) force damage if the\
+      \ *Hit:* 13 (2d8 + 4) force damage, or 22 (4d8 + 4) force damage if the\
       \ professor is Large or larger, and the professor can push the target horizontally\
       \ up to 10 feet away."
     "name": "Spatial Blade"
   - "desc": "The professor casts one of the following spells, requiring no material\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 15):\n\nAt will: [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ DC 15):\n\n**At will:** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md)\
-      \ (as an action)\n\n1/day each: [creation](03.PlayerLog&Handouts/Mechanics/CLI/spells/creation.md)\
+      \ (as an action)\n\n**1/day each:** [creation](03.PlayerLog&Handouts/Mechanics/CLI/spells/creation.md)\
       \ (as an action), [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [plant\
       \ growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/plant-growth.md), [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)"

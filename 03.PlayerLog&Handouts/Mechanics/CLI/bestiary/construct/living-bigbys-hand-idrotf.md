@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Living Bigby's Hand
+- "Living Bigby's Hand"
 ---
-# [Living Bigby's Hand](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/living-bigbys-hand-idrotf.md)
+# [Living Bigby's Hand](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/living-bigbys-hand-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 298*  
 
 A living Bigby's hand is a Large, hovering hand of shimmering, translucent force. It often serves as a guardian, attacking creatures that cross its path while remaining loyal to its caster.
@@ -37,8 +38,8 @@ Areas of wild magic and sites that have been ravaged by powerful eldritch forces
   - !!int "1"
 "speed": "0 ft., fly 60 ft. (hover)"
 "saves":
-  - "dexterity": "+2"
-  - "wisdom": "+2"
+  - "dexterity": !!int "2"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
@@ -53,7 +54,8 @@ Areas of wild magic and sites that have been ravaged by powerful eldritch forces
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": ""
 "cr": "4"
 "traits":
@@ -63,7 +65,7 @@ Areas of wild magic and sites that have been ravaged by powerful eldritch forces
   - "desc": "The living spell doesn't require air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Spell Attack: +10 to hit, reach 5 ft., one target. Hit: 26\
+  - "desc": "*Melee Spell Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 26\
       \ (4d8 + 8) force damage. If the target is a Large or smaller creature, the\
       \ living spell can move it up to 5 feet and move with it, without provoking\
       \ opportunity attacks."

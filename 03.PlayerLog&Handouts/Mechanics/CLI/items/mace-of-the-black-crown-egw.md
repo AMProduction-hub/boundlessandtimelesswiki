@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/artifact
 - ttrpg-cli/item/weapon/melee
 - ttrpg-cli/item/weapon/simple
-aliases: 
+aliases:
 - "Mace of the Black Crown"
 ---
 # Mace of the Black Crown
@@ -15,7 +16,6 @@ aliases:
 ![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/mace-of-the-black-crown.webp#right)
 
 - **Damage**: 1d6 bludgeoning
-- **Properties**: Vestige of Divergence
 - **Weight**: 4.0 lbs.
 
 This mace has a haft of black iron and a ruby head with a fiendish countenance. Carrying the boon of Asmodeus, it is fit for the most powerful servants of the Nine Hells.

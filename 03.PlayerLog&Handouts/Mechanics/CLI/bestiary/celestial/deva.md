@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/10
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Deva
+- "Deva"
 ---
-# [Deva](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/deva.md)
-*Source: Monster Manual p. 16, Waterdeep: Dungeon of the Mad Mage, Curse of Strahd, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Deva](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/deva.md)
+*Source: Monster Manual p. 16. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 An angel is a celestial agent sent forth into the planes to further its god's agenda for weal or woe. Its sublime beauty and presence can drive awestruck onlookers to their knees. Yet angels are destroyers too, and their appearance portends doom as often as it signals hope.
 
@@ -57,8 +58,8 @@ Legend tells of angels that take mortal form for years, lending aid, hope, and c
   - !!int "20"
 "speed": "30 ft., fly 90 ft."
 "saves":
-  - "wisdom": "+9"
-  - "charisma": "+9"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+9"
@@ -68,14 +69,17 @@ Legend tells of angels that take mortal form for years, lending aid, hope, and c
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 19"
+"gear":
+  - "[mace](03.PlayerLog&Handouts/Mechanics/CLI/items/mace.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 19"
 "languages": "all, telepathy 120 ft."
 "cr": "10"
 "traits":
   - "desc": "The deva's spellcasting ability is Charisma (spell save DC 17). The deva\
       \ can innately cast the following spells, requiring only verbal components:\n\
-      \nAt will: [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md)\n\
-      \n1/day each: [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md),\
+      \n**At will:** [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md)\n\
+      \n**1/day each:** [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md),\
       \ [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md)"
     "name": "Innate Spellcasting"
   - "desc": "The deva's weapon attacks are magical. When the deva hits with any weapon,\
@@ -87,7 +91,7 @@ Legend tells of angels that take mortal form for years, lending aid, hope, and c
 "actions":
   - "desc": "The deva makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) bludgeoning damage plus 18 (4d8) radiant damage."
     "name": "Mace"
   - "desc": "The deva touches another creature. The target magically regains 20 (4d8\
@@ -105,10 +109,6 @@ Legend tells of angels that take mortal form for years, lending aid, hope, and c
     "name": "Change Shape"
 "source":
   - "MM"
-  - "WDMM"
-  - "CoS"
-  - "JttRC"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/token/deva.webp"
 ```
 ^statblock

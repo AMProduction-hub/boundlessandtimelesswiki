@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tixie's Shield Guardian
+- "Tixie's Shield Guardian"
 ---
-# [Tixie's Shield Guardian](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/tixies-shield-guardian-kftgv.md)
+# [Tixie's Shield Guardian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/tixies-shield-guardian-kftgv.md)
 *Source: Keys from the Golden Vault p. 80*  
 
 ```statblock
@@ -38,7 +39,9 @@ aliases:
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands commands given in any language but can't speak"
 "cr": "7"
 "traits":
@@ -55,7 +58,7 @@ aliases:
 "actions":
   - "desc": "The guardian makes two fist attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage."
     "name": "Fist"
 "reactions":

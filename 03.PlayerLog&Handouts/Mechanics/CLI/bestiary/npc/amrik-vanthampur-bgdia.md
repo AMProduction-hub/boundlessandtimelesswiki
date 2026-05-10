@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Amrik Vanthampur
+- "Amrik Vanthampur"
 ---
-# [Amrik Vanthampur](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/amrik-vanthampur-bgdia.md)
+# [Amrik Vanthampur](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/amrik-vanthampur-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 30*  
 
 Second son of Duke Thalamra Vanthampur of Baldur's Gate. Amrik loves to exchange pleasantries over drinks before conducting business. He has trained Laraelra's staff to recognize a variety of innocuous hand gestures that signal them to deliver drinks to the table. If he wants poison added to his clients' drinks, he has a secret sign for that. Hidden behind the bar is a small bottle containing four doses of torpor (see "Poisons" in chapter 8 of the Dungeon Master's Guide), which the kenku bartender can use to spike drinks when Amrik gives the signal.
@@ -45,6 +46,8 @@ Second son of Duke Thalamra Vanthampur of Baldur's Gate. Amrik loves to exchange
     "desc": "+6"
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+6"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Infernal"
 "cr": "3"
@@ -55,8 +58,8 @@ Second son of Duke Thalamra Vanthampur of Baldur's Gate. Amrik loves to exchange
 "actions":
   - "desc": "Amrik makes three dagger attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 6 (1d4 + 4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 6 (1d4 + 4) piercing damage."
     "name": "Dagger"
   - "desc": "Amrik hurls a smoke bomb up to 20 feet away. The bomb explodes on impact,\
       \ creating a cloud of black smoke that fills a 10-foot-radius sphere. The area\

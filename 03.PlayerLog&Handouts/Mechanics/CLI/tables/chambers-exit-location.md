@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Chambers; Exit Location
+- "Chambers; Exit Location"
 ---
 # Chambers; Exit Location
 *Source: Dungeon Master's Guide p. 291* 
 
 **Exit Location**
-
-`dice: [](chambers-exit-location.md#^exit-location)`
 
 | dice: d20 | Location |
 |-----------|----------|

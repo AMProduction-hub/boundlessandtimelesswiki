@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Welcome to the Far North
+- "Welcome to the Far North"
 ---
 # Welcome to the Far North
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 5* 
@@ -19,7 +20,7 @@ Not all creatures are discouraged by what has transpired north of the Spine of t
 
 Despite Auril's blizzards and other deterrents, visitors still come and go. Among the recent arrivals are four wizards of the Arcane Brotherhood, a powerful society of spellcasters based in Luskan. They've come chasing rumors of a lost city buried under the Reghed Glacier—a fragment of the long-gone Empire of Netheril, whose wizards wielded magic that terrified the gods. Netherese magic has a way of attracting power-hungry wizards, as members of the Arcane Brotherhood often are. The cities of Netheril floated among the clouds, making them almost impervious to assault for centuries. Then, nearly two thousand years ago, this floating city crashed during the fall of the empire, and no one has found or explored it since. It is, arguably, Icewind Dale's greatest secret—a necropolis of Netherese wizards and the magic they left behind. What survived the crash is anyone's guess, but we're about to find out!
 
-![Two young children from Lo...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/000-00-000-intro-splash.webp#center "Two young children from Lonelywood go ice fishing on Maer Dualdon")
+![Two young children from Lonelywood go ice fishing on Maer Dualdon](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/000-00-000-intro-splash.webp#center)
 
 ## About This Book
 
@@ -77,7 +78,7 @@ In chapter 1, the adventurers undertake quests that lead them from one Ten-Towns
 
 In chapter 2, rumors spur the adventurers to leave the cold comfort of Ten-Towns and explore the fringes of Icewind Dale, where dangers dwell.
 
-![Fragments of chardalyn—the...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/001-00-001.webp#center "Fragments of chardalyn—the remains of an evil artifact—are scattered throughout Icewind Dale.")
+![Fragments of chardalyn—the remains of an evil artifact—are scattered throughout Icewind Dale.](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/001-00-001.webp#center)
 
 ## Running the Adventure
 
@@ -206,7 +207,7 @@ See the [avalanche](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/avalanche-
 
 See the [blizzard](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/blizzard-idrotf.md) entry.
 
-![The yeti of Icewind Dale l...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/004-00-004-yeti-splash.webp#center "The yeti of Icewind Dale like to stalk their prey in raging blizzards")
+![The yeti of Icewind Dale like to stalk their prey in raging blizzards](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/004-00-004-yeti-splash.webp#center)
 
 #### Extreme Cold
 
@@ -431,7 +432,7 @@ More information about Queen [Bjornhild Solvigsdottir](03.PlayerLog&Handouts/Mec
 
 Allow the player to flesh out the details of the character's life prior to being reincarnated, and try to imagine how that back story might tie into some part of the adventure. Some of the races listed in the [reincarnate](03.PlayerLog&Handouts/Mechanics/CLI/spells/reincarnate.md) spell's table go by different names in the Realms, as noted in the Forgotten Realms Races table. If the player wants to randomly determine the character's cause of death, let them roll on the How I Died table.
 
-![Harboring a secret for too...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/005-00-005-red-slaad-surprise.webp#center "Harboring a secret for too long can be detrimental to one's health")
+![Harboring a secret for too long can be detrimental to one's health](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/005-00-005-red-slaad-surprise.webp#center)
 
 **Forgotten Realms Races**
 
@@ -445,8 +446,6 @@ Allow the player to flesh out the details of the character's life prior to being
 ^forgotten-realms-races
 
 **How I Died**
-
-`dice: [](01-welcome-to-the-far-north.md#^how-i-died)`
 
 | dice: d20 | How I Died |
 |-----------|------------|

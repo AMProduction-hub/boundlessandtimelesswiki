@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Character Creation
+- "Character Creation"
 ---
 # Character Creation
 *Source: Van Richten's Guide to Ravenloft, p. 13* 
@@ -37,7 +38,7 @@ Choose a fateful cast to your origins with optional features for any background.
 
 Learn what [creepy curio](03.PlayerLog&Handouts/Mechanics/CLI/items/horror-trinket-vrgr.md) inspires or haunts your adventures.
 
-![Monster hunters Gennifer a...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/008-01-001-chapter-one-intro.webp#center "Monster hunters Gennifer and Laurie Weathermay- Foxgrove corner the werewolf Natalia Vhorishkova")
+![Monster hunters Gennifer and Laurie Weathermay- Foxgrove corner the werewolf Natalia Vhorishkova](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/008-01-001-chapter-one-intro.webp#center)
 
 ## Haunted Heroes
 
@@ -80,7 +81,7 @@ This book assumes you're playing a character who pits themself against fearful f
 
 Playing horror adventures is similar to telling ghost stories around a fire. You and the game's other players are allies in creating a fun, safe, moody atmosphere for your game. Contribute to this by keeping the following elements in mind:
 
-![Despite a vampire's bite, ...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/009-01-002-orc-hero.webp#center "Despite a vampire's bite, an orc hero faces his fears")
+![Despite a vampire's bite, an orc hero faces his fears](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/009-01-002-orc-hero.webp#center)
 
 - **Focus on the Game.** Atmosphere requires attention. You're not embracing or contributing to the adventure's moody atmosphere when you're focused on something else.  
 - **Limit Comedy.** Be aware that comedy breaks tension. Nothing dispels an ominous atmosphere like jokes, be they in character or otherwise.  
@@ -145,7 +146,7 @@ The Kargat, this shattered domain's secret police, supposedly know the secret of
 
 At night, the starving city of I'Cath is overrun by vampiric [jiangshi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/jiangshi-vrgr.md) (described in "chapter 5"). You were left with a cold hunger after an encounter with one of these unquiet ancestors.
 
-![The dhampir Savra Sunstar ...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/011-01-004-savra-sunstar.webp#center "The dhampir Savra Sunstar confronts her father, the vampire Jander Sunstar")
+![The dhampir Savra Sunstar confronts her father, the vampire Jander Sunstar](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/011-01-004-savra-sunstar.webp#center)
 
 ## Hexblood
 
@@ -167,7 +168,7 @@ Whimsical witches make their homes in the forests of Kartakass. They eagerly gra
 
 Many of the children in the town of Viktal are hexbloods who exhibit their supernatural natures from a young age. Each youngster is considered a gift from the town's patron deity, who is known as Mother.
 
-![Hexbloods infused with the...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/013-01-006-hexblood-cauldron.webp#center "Hexbloods infused with the magic of sea, green, and annis hags share a moment around the cauldron.")
+![Hexbloods infused with the magic of sea, green, and annis hags share a moment around the cauldron.](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/013-01-006-hexblood-cauldron.webp#center)
 
 ## Reborn
 
@@ -189,7 +190,7 @@ You awoke amid the bizarre experiments of an amoral scientist. They consider you
 
 You emerged from the mysterious device known as the Apparatus, your body a lifeless shell and your past a mystery.
 
-![Wary and confused, a rebor...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/015-01-008-apparatus-of-mordent.webp#center "Wary and confused, a reborn emerges after the infamous Apparatus of Mordent malfunctions.")
+![Wary and confused, a reborn emerges after the infamous Apparatus of Mordent malfunctions.](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/015-01-008-apparatus-of-mordent.webp#center)
 
 ## Dark Gifts
 
@@ -199,7 +200,7 @@ A character can select a Dark Gift from the ""Dark Gifts Descriptions"" section.
 
 Dark Gifts are intended for starting characters, but characters who don't choose one might be presented with opportunities to gain a Dark Gift as their stories—and desperate circumstances—unfold.
 
-![Sinister forces lurk in th...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/016-01-009-sinister-forces.webp#center "Sinister forces lurk in the shadows, enticing the unwary with Dark Gifts.")
+![Sinister forces lurk in the shadows, enticing the unwary with Dark Gifts.](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/016-01-009-sinister-forces.webp#center)
 
 ### Dark Bargains
 
@@ -232,7 +233,7 @@ This section presents a selection of Dark Gifts in alphabetical order.
 
 At 3rd level, a bard chooses a Bard College. At 1st level, a warlock chooses an Otherworldly Patron. This section offers the [College of Spirits](03.PlayerLog&Handouts/Mechanics/CLI/classes/bard-college-of-spirits-vrgr.md) for the bard and [The Undead](03.PlayerLog&Handouts/Mechanics/CLI/classes/warlock-the-undead-vrgr.md) Otherworldly Patron for the warlock, expanding their options for those choices.
 
-![A human bard of spirits ev...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/018-01-011-bard-of-spirits.webp#center "A human bard of spirits evokes a tale inspired by the Avenger tarokka card.")
+![A human bard of spirits evokes a tale inspired by the Avenger tarokka card.](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/018-01-011-bard-of-spirits.webp#center)
 
 ![Wood Elf Warlock of the Undead](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/019-01-012-wood-elf-warlock-of-the-undead.webp#center)
 
@@ -257,7 +258,7 @@ This section presents optional features for any background. You may replace the 
 > If you're interested in exploring this, the Inheritor background feature provides a token that might be passed on from a previous character. Perhaps it's a signature tool, a journal, or a dormant (or misplaced) magic item. Work with your DM to detail this inheritance and how it can factor into future adventures.
 ^generational-background-features
 
-![A knight of the Circle tak...](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/020-01-013-a-knight-of-the-circle.webp#center "A knight of the Circle takes up her ancestors' sacred charge to challenge the dark.")
+![A knight of the Circle takes up her ancestors' sacred charge to challenge the dark.](03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img/020-01-013-a-knight-of-the-circle.webp#center)
 
 ### Horror Characteristics
 

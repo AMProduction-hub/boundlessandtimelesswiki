@@ -1,27 +1,28 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/twilight-domain
 aliases:
-- Spells for Twilight Domain
+- "Spells for Twilight Domain"
 ---
 # Spells for Twilight Domain
 
 ## 1st Level
 
-- [Faerie Fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md "PHB") at class level 7
-- [Sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md "PHB") at class level 7
+- [Faerie Fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md "PHB")
+- [Sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md "PHB")
 
 ## 2nd Level
 
-- [Moonbeam](03.PlayerLog&Handouts/Mechanics/CLI/spells/moonbeam.md "PHB") at class level 7
-- [See Invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/see-invisibility.md "PHB") at class level 7
+- [Moonbeam](03.PlayerLog&Handouts/Mechanics/CLI/spells/moonbeam.md "PHB") at class level 3
+- [See Invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/see-invisibility.md "PHB") at class level 3
 
 ## 3rd Level
 
-- [Aura of Vitality](03.PlayerLog&Handouts/Mechanics/CLI/spells/aura-of-vitality.md "PHB") at class level 7
-- [Leomund's Tiny Hut](03.PlayerLog&Handouts/Mechanics/CLI/spells/leomunds-tiny-hut.md "PHB") at class level 7
+- [Aura of Vitality](03.PlayerLog&Handouts/Mechanics/CLI/spells/aura-of-vitality.md "PHB") at class level 5
+- [Leomund's Tiny Hut](03.PlayerLog&Handouts/Mechanics/CLI/spells/leomunds-tiny-hut.md "PHB") at class level 5
 
 ## 4th Level
 
@@ -30,5 +31,5 @@ aliases:
 
 ## 5th Level
 
-- [Circle of Power](03.PlayerLog&Handouts/Mechanics/CLI/spells/circle-of-power.md "PHB") at class level 7
-- [Mislead](03.PlayerLog&Handouts/Mechanics/CLI/spells/mislead.md "PHB") at class level 7
+- [Circle of Power](03.PlayerLog&Handouts/Mechanics/CLI/spells/circle-of-power.md "PHB") at class level 9
+- [Mislead](03.PlayerLog&Handouts/Mechanics/CLI/spells/mislead.md "PHB") at class level 9

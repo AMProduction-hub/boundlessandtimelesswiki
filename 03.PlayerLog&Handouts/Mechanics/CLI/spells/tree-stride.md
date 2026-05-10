@@ -1,25 +1,26 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/conjuration
-- ttrpg-cli/spell/subclass/circle-of-the-land
+- ttrpg-cli/spell/subclass/circle-of-the-land/forest
 - ttrpg-cli/spell/subclass/nature-domain
 - ttrpg-cli/spell/subclass/oath-of-the-ancients
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Nature Domain)
 - Druid
-- Druid (Circle of the Land)
+- Druid (Circle of the Land, Forest)
 - Paladin (Oath of the Ancients)
 - Ranger
 aliases:
-- Tree Stride
+- "Tree Stride"
 ---
 # Tree Stride
 *5th-level, Conjuration*  
@@ -34,6 +35,6 @@ You gain the ability to enter a tree and move from inside it to inside another t
 
 You can use this transportation ability once per round for the duration. You must end each turn outside a tree.
 
-**Classes**: [Paladin (Oath of the Ancients)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-ancients.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md); [Druid (Circle of the Land, Forest)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Paladin (Oath of the Ancients)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-ancients.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md)
 
 *Source: Player's Handbook p. 283. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

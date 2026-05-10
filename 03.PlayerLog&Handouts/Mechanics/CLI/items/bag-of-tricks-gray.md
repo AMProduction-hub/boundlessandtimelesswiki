@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/rarity/uncommon
 - ttrpg-cli/item/tier/major
-aliases: 
+aliases:
 - "Bag of Tricks, Gray"
 ---
 # Bag of Tricks, Gray
@@ -21,8 +22,6 @@ You can use an action to pull the fuzzy object from the bag and throw it up to 2
 The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature.
 
 Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.
-
-`dice: [](bag-of-tricks-gray.md#^creature)`
 
 | dice: d8 | Creature |
 |----------|----------|

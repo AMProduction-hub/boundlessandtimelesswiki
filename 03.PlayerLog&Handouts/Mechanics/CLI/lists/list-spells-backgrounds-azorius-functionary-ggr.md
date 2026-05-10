@@ -1,22 +1,23 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/background/azorius-functionary
 aliases:
-- Spells for Azorius Functionary
+- "Spells for Azorius Functionary"
 ---
 # Spells for Azorius Functionary
 
 ## Cantrip
 
-- [Friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md "PHB") with access to 2nd-level spells
-- [Message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md "PHB") with access to 2nd-level spells
+- [Friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md "PHB") as cantrip
+- [Message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md "PHB") as cantrip
 
 ## 1st Level
 
-- [Command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md "PHB") with access to 2nd-level spells
-- [Ensnaring Strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/ensnaring-strike.md "PHB") with access to 2nd-level spells
+- [Command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md "PHB") with access to 1st-level spells
+- [Ensnaring Strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/ensnaring-strike.md "PHB") with access to 1st-level spells
 
 ## 2nd Level
 
@@ -26,14 +27,14 @@ aliases:
 
 ## 3rd Level
 
-- [Clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md "PHB") with access to 2nd-level spells
-- [Counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md "PHB") with access to 2nd-level spells
+- [Clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md "PHB") with access to 3rd-level spells
+- [Counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md "PHB") with access to 3rd-level spells
 
 ## 4th Level
 
-- [Compulsion](03.PlayerLog&Handouts/Mechanics/CLI/spells/compulsion.md "PHB") with access to 2nd-level spells
-- [Divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md "PHB") with access to 2nd-level spells
+- [Compulsion](03.PlayerLog&Handouts/Mechanics/CLI/spells/compulsion.md "PHB") with access to 4th-level spells
+- [Divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md "PHB") with access to 4th-level spells
 
 ## 5th Level
 
-- [Dominate Person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md "PHB") with access to 2nd-level spells
+- [Dominate Person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md "PHB") with access to 5th-level spells

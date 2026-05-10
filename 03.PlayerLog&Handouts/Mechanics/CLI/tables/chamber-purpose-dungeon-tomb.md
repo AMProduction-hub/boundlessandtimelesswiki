@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Chamber Purpose; Dungeon: Tomb
+- "Chamber Purpose; Dungeon: Tomb"
 ---
 # Chamber Purpose; Dungeon: Tomb
 *Source: Dungeon Master's Guide p. 292* 
 
 **Dungeon: Tomb**
-
-`dice: [](chamber-purpose-dungeon-tomb.md#^dungeon-tomb)`
 
 | dice: d20 | Purpose |
 |-----------|---------|

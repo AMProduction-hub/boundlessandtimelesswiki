@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- House Tarkanan Villains
+- "House Tarkanan Villains"
 ---
 # House Tarkanan Villains
 *Source: Eberron: Rising from the Last War p. 253* 
 
 **House Tarkanan Villains**
-
-`dice: [](house-tarkanan-villains-erlw.md#^house-tarkanan-villains)`
 
 | dice: d4 | Villain |
 |----------|---------|

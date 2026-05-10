@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Aurum NPCs
+- "Aurum NPCs"
 ---
 # Aurum NPCs
 *Source: Eberron: Rising from the Last War p. 187* 
 
 **Aurum NPCs**
-
-`dice: [](aurum-npcs-erlw.md#^aurum-npcs)`
 
 | dice: d4 | NPC |
 |----------|-----|

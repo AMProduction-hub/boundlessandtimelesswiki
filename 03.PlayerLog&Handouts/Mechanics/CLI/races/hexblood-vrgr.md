@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/race/hexblood
 aliases:
-- Hexblood
+- "Hexblood"
 ---
 # Hexblood
 *Source: Van Richten's Guide to Ravenloft p. 18*  
@@ -72,8 +73,6 @@ One way hags create more of their kind is through the creation of hexbloods. Eve
 A bargain with a hag or other eerie forces transformed your character into a magical being. Roll on or choose an option from the Hexblood Origins table to determine how your character gained their lineage.
 
 **Hexblood Origins**
-
-`dice: [](hexblood-vrgr.md#^hexblood-origins)`
 
 | dice: d6 | Origin |
 |----------|--------|

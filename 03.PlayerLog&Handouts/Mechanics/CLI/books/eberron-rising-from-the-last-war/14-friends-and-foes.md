@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Friends and Foes
+- "Friends and Foes"
 ---
 # Friends and Foes
 *Source: Eberron: Rising from the Last War, p. 283* 
@@ -15,7 +16,7 @@ The chapter's monsters appear first in a bestiary. They're followed by a collect
 
 Remember that few intelligent creatures in Eberron are inherently evil. Even dragons, which on other worlds are associated with certain alignments, choose their own paths. The adventure ideas and encounter tables in chapter 4 offer abundant examples of monsters behaving in ways that aren't traditionally monstrous.
 
-![Aboard a lightning train, ...](03.PlayerLog&Handouts/Mechanics/CLI/books/eberron-rising-from-the-last-war/img/152-6-01.webp#center "Aboard a lightning train, a heroic monk, aided by her magical arm, strikes at a member of the villainous Emerald Claw.")
+![Aboard a lightning train, a heroic monk, aided by her magical arm, strikes at a member of the villainous Emerald Claw.](03.PlayerLog&Handouts/Mechanics/CLI/books/eberron-rising-from-the-last-war/img/152-6-01.webp#center)
 
 - [Belashyrra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/belashyrra-erlw.md)  
 - [Bone Knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bone-knight-erlw.md)  

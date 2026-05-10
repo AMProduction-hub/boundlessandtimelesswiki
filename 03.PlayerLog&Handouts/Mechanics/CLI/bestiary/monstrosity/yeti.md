@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/3
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Yeti
+- "Yeti"
 ---
-# [Yeti](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/yeti.md)
-*Source: Monster Manual p. 305, Storm King's Thunder, Tales from the Yawning Portal, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Light of Xaryxis. Available in the Basic Rules (2014)*  
+# [Yeti](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yeti.md)
+*Source: Monster Manual p. 305. Available in the Basic Rules (2014)*  
 
 A yeti's windborne howl sounds out across remote mountains, striking fear into the hearts of the scattered miners and herders that dwell there. These hulking creatures stalk alpine peaks in a ceaseless hunt for food. Their snow-white fur lets them move like ghosts against the frozen landscape. A yeti's icy simian eyes can freeze its prey in place.
 
@@ -66,7 +67,8 @@ An abominable yeti is larger than a normal yeti, standing three times as tall as
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
 "damage_immunities": "cold"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Yeti"
 "cr": "3"
 "traits":
@@ -82,8 +84,8 @@ An abominable yeti is larger than a normal yeti, standing three times as tall as
 "actions":
   - "desc": "The yeti can use its Chilling Gaze and makes two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d6 + 4) slashing damage plus 3 (d6) cold damage."
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
+      \ (1d6 + 4) slashing damage plus 3 (1d6) cold damage."
     "name": "Claw"
   - "desc": "The yeti targets one creature it can see within 30 feet of it. If the\
       \ target can see the yeti, the target must succeed on a DC 13 Constitution saving\
@@ -96,11 +98,6 @@ An abominable yeti is larger than a normal yeti, standing three times as tall as
     "name": "Chilling Gaze"
 "source":
   - "MM"
-  - "SKT"
-  - "TftYP"
-  - "EGW"
-  - "IDRotF"
-  - "LoX"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/yeti.webp"
 ```
 ^statblock

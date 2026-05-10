@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Jackalwere
+- "Jackalwere"
 ---
-# [Jackalwere](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/jackalwere.md)
-*Source: Monster Manual p. 193, Princes of the Apocalypse, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Candlekeep Mysteries, Journeys through the Radiant Citadel*  
+# [Jackalwere](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/jackalwere.md)
+*Source: Monster Manual p. 193*  
 
 Ordinary jackals tainted by demonic power, jackalweres haunt roads and trails, waylaying and murdering those they meet.
 
@@ -59,6 +60,8 @@ A jackalwere might also use its gaze to incapacitate a deadly enemy long enough 
     "desc": "+4"
 "damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
 "senses": "passive Perception 12"
 "languages": "Common (can't speak in jackal form)"
 "cr": "1/2"
@@ -77,10 +80,10 @@ A jackalwere might also use its gaze to incapacitate a deadly enemy long enough 
       \ the ally isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage."
     "name": "Bite (Jackal or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage."
     "name": "Scimitar (Human or Hybrid Form Only)"
   - "desc": "The jackalwere gazes at one creature it can see within 30 feet of it.\
@@ -93,11 +96,6 @@ A jackalwere might also use its gaze to incapacitate a deadly enemy long enough 
     "name": "Sleep Gaze"
 "source":
   - "MM"
-  - "PotA"
-  - "GoS"
-  - "BGDIA"
-  - "CM"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/jackalwere.webp"
 ```
 ^statblock

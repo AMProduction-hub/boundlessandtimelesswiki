@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Ephara's Divine Schemes
+- "Ephara's Divine Schemes"
 ---
 # Ephara's Divine Schemes
 *Source: Mythic Odysseys of Theros p. 121* 
 
 **Ephara's Divine Schemes**
-
-`dice: [](epharas-divine-schemes-mot.md#^epharas-divine-schemes)`
 
 | dice: d4 | Scheme |
 |----------|--------|

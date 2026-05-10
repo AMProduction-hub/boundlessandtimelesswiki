@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Appendix B: Infernal War Machines
+- "Appendix B: Infernal War Machines"
 ---
 # Appendix B: Infernal War Machines
 *Source: Baldur's Gate: Descent Into Avernus, p. 216* 
@@ -123,8 +124,6 @@ If a mishap has a repair DC, the mishap can be ended by making repairs to the ve
 
 **Mishaps**
 
-`dice: [](12-appendix-b-infernal-war-machines.md#^mishaps)`
-
 | dice: d20 | Mishap | Repair DC |
 |-----------|--------|-----------|
 | 1 | **Engine Flare**. Fire erupts from the engine and engulfs the vehicle. Any creature that starts its turn on or inside the vehicle takes 10 (`3d6`) fire damage until this mishap ends. | 15 (Dex) |
@@ -168,19 +167,19 @@ If the infernal war machine has taken damage but has at least 1 hit point, a cre
 
 ### Crashing
 
-When an infernal war machine crashes into something that could reasonably damage it, such as an iron wall or another vehicle of its size or bigger, the infernal war machine comes to a sudden stop and takes `d6` bludgeoning damage for every 10 feet it moved since its last turn (maximum `20d6`). Whatever the vehicle struck takes the same amount of damage. If this damage is less than the infernal war machine's damage threshold, the vehicle takes no damage from the crash.
+When an infernal war machine crashes into something that could reasonably damage it, such as an iron wall or another vehicle of its size or bigger, the infernal war machine comes to a sudden stop and takes `1d6` bludgeoning damage for every 10 feet it moved since its last turn (maximum `20d6`). Whatever the vehicle struck takes the same amount of damage. If this damage is less than the infernal war machine's damage threshold, the vehicle takes no damage from the crash.
 
-Regardless of whether or not the infernal war machine takes damage, each creature on or inside the vehicle when it crashes must make a DC 15 Strength saving throw, taking `d6` bludgeoning damage for every 10 feet the vehicle moved since its last turn (maximum `20d6`), or half as much damage on a successful save.
+Regardless of whether or not the infernal war machine takes damage, each creature on or inside the vehicle when it crashes must make a DC 15 Strength saving throw, taking `1d6` bludgeoning damage for every 10 feet the vehicle moved since its last turn (maximum `20d6`), or half as much damage on a successful save.
 
 #### Crashing into Creatures
 
-An infernal war machine can crash into a creature by entering its space. The creature can use its reaction to attempt to get out of the vehicle's way, doing so and taking no damage with a successful DC 10 Dexterity saving throw. If the saving throw fails, the vehicle slams into the creature and deals `d6` bludgeoning damage to the creature for every 10 feet the vehicle moved since its last turn (maximum `20d6`).
+An infernal war machine can crash into a creature by entering its space. The creature can use its reaction to attempt to get out of the vehicle's way, doing so and taking no damage with a successful DC 10 Dexterity saving throw. If the saving throw fails, the vehicle slams into the creature and deals `1d6` bludgeoning damage to the creature for every 10 feet the vehicle moved since its last turn (maximum `20d6`).
 
-An infernal war machine that is at least two size categories bigger than the creature it crashed into can continue moving through that creature's space if the infernal war machine has any movement left. Otherwise, the vehicle comes to a sudden stop, and each creature on or inside the infernal war machine when it crashes must make a DC 15 Strength saving throw, taking `d6` bludgeoning damage for every 10 feet the vehicle moved since its last turn (maximum `20d6`), or half as much damage on a successful save.
+An infernal war machine that is at least two size categories bigger than the creature it crashed into can continue moving through that creature's space if the infernal war machine has any movement left. Otherwise, the vehicle comes to a sudden stop, and each creature on or inside the infernal war machine when it crashes must make a DC 15 Strength saving throw, taking `1d6` bludgeoning damage for every 10 feet the vehicle moved since its last turn (maximum `20d6`), or half as much damage on a successful save.
 
 ### Falling
 
-When an infernal war machine goes over a cliff or otherwise falls, the vehicle and all creatures on or inside it take damage from the fall as normal (`d6` bludgeoning damage per 10 feet fallen, maximum `20d6`) and land [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).
+When an infernal war machine goes over a cliff or otherwise falls, the vehicle and all creatures on or inside it take damage from the fall as normal (`1d6` bludgeoning damage per 10 feet fallen, maximum `20d6`) and land [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).
 
 ## Fiendish Variations
 
@@ -217,8 +216,6 @@ Using the guidelines in "chapter 8" of the "Dungeon Master's Guide" and the Aver
 When a chase complication forces the vehicle to make an ability check, or the driver to make an ability check using the vehicle's ability, a mishap occurs if the check fails by 5 or more (see "Mishaps").
 
 ### Avernus Chase Complications
-
-`dice: [](12-appendix-b-infernal-war-machines.md#^complication)`
 
 | dice: d20 | Complication |
 |-----------|--------------|

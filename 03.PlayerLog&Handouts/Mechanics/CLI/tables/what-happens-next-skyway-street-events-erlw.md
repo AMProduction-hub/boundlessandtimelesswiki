@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- What Happens Next?; Skyway Street Events
+- "What Happens Next?; Skyway Street Events"
 ---
 # What Happens Next?; Skyway Street Events
 *Source: Eberron: Rising from the Last War p. 240* 
 
 **Skyway Street Events**
-
-`dice: [](what-happens-next-skyway-street-events-erlw.md#^skyway-street-events)`
 
 | dice: d12 | Event |
 |-----------|-------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Living Cloudkill
+- "Living Cloudkill"
 ---
-# [Living Cloudkill](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/living-cloudkill-erlw.md)
+# [Living Cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/living-cloudkill-erlw.md)
 *Source: Eberron: Rising from the Last War p. 299*  
 
 ## Constructed Nature
@@ -72,7 +73,8 @@ For example, if you turn [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/f
   \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "cr": "7"
 "traits":
@@ -85,7 +87,7 @@ For example, if you turn [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/f
 "actions":
   - "desc": "The living spell makes two Magical Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +8 to hit, reach 10 ft., one target. Hit: 22\
+  - "desc": "*Melee Spell Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 22\
       \ (5d6 + 5) poison damage."
     "name": "Magical Strike"
   - "desc": "The living spell creates a 40-foot-diameter sphere of fog within 60 feet\

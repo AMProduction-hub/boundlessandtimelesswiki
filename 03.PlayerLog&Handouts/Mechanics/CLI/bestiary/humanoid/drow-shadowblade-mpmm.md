@@ -1,18 +1,19 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/11
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/size/medium
-- ttrpg-cli/monster/type/humanoid/elf
+- ttrpg-cli/monster/type/humanoid/drow-elf
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Drow Shadowblade
+- "Drow Shadowblade"
 ---
-# [Drow Shadowblade](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/drow-shadowblade-mpmm.md)
+# [Drow Shadowblade](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-shadowblade-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 105, Mordenkainen's Tome of Foes p. 187*  
 
 Drow shadowblades steal down the dim passages of the Underdark, bound on errands of mayhem. They protect enclaves and Underdark cities from enemies and track down thieves who make off with prized treasures. In the city of Menzoberranzan in the Forgotten Realms, noble houses often employ shadowblades to eliminate rivals from other houses. In communities free of Lolth's sway, they serve as spies tasked with foiling the plots of that demon lord's cult. In any role they take on, they move undetected until the moment they attack—and then they are the last thing their victims see.
@@ -23,7 +24,7 @@ A shadowblade gains their powers over shadow via a ritual in which they kill a s
 "name": "Drow Shadowblade (MPMM)"
 "size": "Medium"
 "type": "humanoid"
-"subtype": "elf"
+"subtype": "Drow elf"
 "alignment": "Any alignment"
 "ac": !!int "17"
 "ac_class": "[studded leather](03.PlayerLog&Handouts/Mechanics/CLI/items/studded-leather-armor.md)"
@@ -39,15 +40,18 @@ A shadowblade gains their powers over shadow via a ritual in which they kill a s
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+9"
-  - "constitution": "+7"
-  - "wisdom": "+6"
+  - "dexterity": !!int "9"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+9"
-"senses": "darkvision 120 ft., passive Perception 16"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "Elvish, Undercommon"
 "cr": "11"
 "traits":
@@ -65,10 +69,10 @@ A shadowblade gains their powers over shadow via a ritual in which they kill a s
       \ replaced by a Hand Crossbow attack. The drow can also use Spellcasting to\
       \ cast darkness."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 30/60\
-      \ ft., one target. Hit: 27 (7d6 + 5) necrotic damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +9 to hit, reach 5 ft. or range 30/60\
+      \ ft., one target. *Hit:* 27 (7d6 + 5) necrotic damage."
     "name": "Shadow Sword"
-  - "desc": "Ranged Weapon Attack: +9 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +9 to hit, range 30/120 ft., one target. *Hit:*\
       \ 8 (1d6 + 5) piercing damage, and the target must succeed on a DC 13 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 hour. If the saving throw fails by 5 or more, the target is also [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
@@ -77,10 +81,10 @@ A shadowblade gains their powers over shadow via a ritual in which they kill a s
       \ creature takes an action to shake it."
     "name": "Hand Crossbow"
   - "desc": "The drow casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 13):\n\nAt\
-      \ will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
-      \ [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md)\n\n1/day\
-      \ each: [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 13):\n\n**At\
+      \ will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md)\n\n**1/day\
+      \ each:** [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
       \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md) (self only)"
     "name": "Spellcasting"
 "bonus_actions":

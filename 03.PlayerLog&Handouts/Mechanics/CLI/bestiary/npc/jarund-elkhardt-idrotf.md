@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Jarund Elkhardt
+- "Jarund Elkhardt"
 ---
-# [Jarund Elkhardt](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/jarund-elkhardt-idrotf.md)
+# [Jarund Elkhardt](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jarund-elkhardt-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 305*  
 
 The Elk King is Jarund Elkhardt, a terse yet thoughtful giant of a man who is nearly fifty years old—ancient by tribal standards. He has led the Elk Tribe for over half his life, and age has made him cautious. He has seen other kings and queens rise and fall, has made war with friends and peace with his enemies, and has led warriors he knew as babes to their deaths in battle. The strain of his long years of rule is etched on his weather-worn face.
@@ -41,8 +42,8 @@ Auril's unyielding winter concerns Jarund deeply, and he often turns to his sham
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+5"
-  - "wisdom": "+5"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+7"
@@ -50,6 +51,9 @@ Auril's unyielding winter concerns Jarund deeply, and he often turns to his sham
     "desc": "+7"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+5"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+  - "[warhammer](03.PlayerLog&Handouts/Mechanics/CLI/items/warhammer.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Dwarvish"
 "cr": "5"
@@ -60,18 +64,18 @@ Auril's unyielding winter concerns Jarund deeply, and he often turns to his sham
 "actions":
   - "desc": "Jarund makes three melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) bludgeoning damage, or 15 (2d10 + 4) bludgeoning damage when\
       \ used with two hands."
     "name": "Warhammer"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:*\
       \ 11 (2d6 + 4) bludgeoning damage, and Jarund pushes the target 5 feet away\
       \ from him if it's Large or smaller. Jarund then enters the space vacated by\
       \ the target. If the target is pushed to within 5 feet of a creature friendly\
       \ to Jarund, that creature can make an attack against the target as a reaction."
     "name": "Shield"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 11 (2d6 + 4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 11 (2d6 + 4) piercing damage."
     "name": "Javelin"
 "source":
   - "IDRotF"

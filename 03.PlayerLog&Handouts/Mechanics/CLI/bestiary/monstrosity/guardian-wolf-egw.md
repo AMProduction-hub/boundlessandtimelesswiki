@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Guardian Wolf
+- "Guardian Wolf"
 ---
-# [Guardian Wolf](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/guardian-wolf-egw.md)
+# [Guardian Wolf](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/guardian-wolf-egw.md)
 *Source: Explorer's Guide to Wildemount p. 272*  
 
 ```statblock
@@ -51,11 +52,11 @@ aliases:
 "actions":
   - "desc": "The wolf makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (1d10 + 6) piercing damage. If the target is a creature, it must succeed\
       \ on a DC 16 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 15\
       \ (2d8 + 6) piercing damage."
     "name": "Claws"
 "source":

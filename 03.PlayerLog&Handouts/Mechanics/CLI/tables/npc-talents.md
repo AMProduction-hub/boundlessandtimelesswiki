@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- NPC Talents
+- "NPC Talents"
 ---
 # NPC Talents
 *Source: Dungeon Master's Guide p. 90* 
 
 **NPC Talents**
-
-`dice: [](npc-talents.md#^npc-talents)`
 
 | dice: d20 | Talent |
 |-----------|--------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/monster/cr/12
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Moghadam
+- "Moghadam"
 ---
-# [Moghadam](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/moghadam-imr.md)
+# [Moghadam](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/moghadam-imr.md)
 *Source: Infernal Machine Rebuild p. 55*  
 
 ```statblock
@@ -34,9 +35,9 @@ aliases:
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+5"
-  - "intelligence": "+8"
-  - "wisdom": "+7"
+  - "constitution": !!int "5"
+  - "intelligence": !!int "8"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+8"
@@ -44,28 +45,30 @@ aliases:
     "desc": "+7"
   - "name": "[Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)"
     "desc": "+7"
+"gear":
+  - "[ruinblade](03.PlayerLog&Handouts/Mechanics/CLI/items/ruinblade-imr.md)"
 "senses": "passive Perception 13"
 "languages": "Abyssal, Common, Dwarvish, Infernal, Undercommon"
 "cr": "12"
 "traits":
   - "desc": "Moghadam is an 18th-level spellcaster. His spellcasting ability is Intelligence\
       \ (spell save DC 16, +8 to hit with spell attacks). He has the following artificer\
-      \ spells prepared:\n\nCantrips (at will): [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ spells prepared:\n\n**Cantrips (at will):** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md),\
       \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
-      \n1st level (4 slots): [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
+      \n**1st level (4 slots):** [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
       \ [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [grease](03.PlayerLog&Handouts/Mechanics/CLI/spells/grease.md), [identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md)\n\
-      \n2nd level (3 slots): [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \n**2nd level (3 slots):** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [heat metal](03.PlayerLog&Handouts/Mechanics/CLI/spells/heat-metal.md)\n\n\
-      3rd level (3 slots): [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      **3rd level (3 slots):** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [flame arrows](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-arrows-xge.md),\
       \ [hypnotic pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md)\n\
-      \n4th level (3 slots): [fabricate](03.PlayerLog&Handouts/Mechanics/CLI/spells/fabricate.md),\
+      \n**4th level (3 slots):** [fabricate](03.PlayerLog&Handouts/Mechanics/CLI/spells/fabricate.md),\
       \ [stone shape](03.PlayerLog&Handouts/Mechanics/CLI/spells/stone-shape.md),\
-      \ [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)\n\n5th\
-      \ level (1 slots): [creation](03.PlayerLog&Handouts/Mechanics/CLI/spells/creation.md)"
+      \ [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)\n\n**5th\
+      \ level (1 slots):** [creation](03.PlayerLog&Handouts/Mechanics/CLI/spells/creation.md)"
     "name": "Spellcasting"
   - "desc": "Moghadam wields [Ruinblade](03.PlayerLog&Handouts/Mechanics/CLI/items/ruinblade-imr.md)\
       \ (see appendix C)."
@@ -79,7 +82,7 @@ aliases:
       \ mind."
     "name": "Infoportation (1/Day)"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d6 + 2) slashing damage."
     "name": "Ruinblade"
   - "desc": "While wielding [Ruinblade](03.PlayerLog&Handouts/Mechanics/CLI/items/ruinblade-imr.md),\

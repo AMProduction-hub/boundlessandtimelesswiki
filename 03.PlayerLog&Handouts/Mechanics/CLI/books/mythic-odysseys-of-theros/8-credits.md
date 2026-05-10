@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Credits
+- "Credits"
 ---
 # Credits
 *Source: Mythic Odysseys of Theros* 
@@ -41,5 +42,14 @@ aliases:
 - Many thanks to the hundreds of playtesters whose efforts made this a better book. We couldn't have created this without you!  
 
 > [!gallery]
-> ![On the Cover: The invulner...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/credits2.webp#gallery "On the Cover: The invulnerable hero, Haktos the Unscarred, leaps into battle with a Nyxborn hydra, taking part in the most recent telling of a myth repeated through the ages. Jason Rainville brings this legend to life.")
-> ![On the Alt-Cover: While th...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/credits3.webp#gallery "On the Alt-Cover: While the gods look on, the immortal struggle between Haktos and the hydra plays out in the stars of Nyx, a glimpse of eternity captured by Kevin Tong.")
+> ![On the Cover: The invulnerable hero, Haktos the Unscarred, leaps into battle with a Nyxborn hydra, taking part in the most recent telling of a myth repeated through the ages. Jason Rainville brings this legend to life.](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/credits2.webp#gallery)
+> ![On the Alt-Cover: While the gods look on, the immortal struggle between Haktos and the hydra plays out in the stars of Nyx, a glimpse of eternity captured by Kevin Tong.](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/credits3.webp#gallery)
+
+> [!quote] A quote from > [!note]
+> The Callapheia  
+> 
+> > [!note]
+> Disclaimer:
+> 
+> > [!note]
+> Truly, what mortal's poor striving can weather the scheming of heaven? Heliod reaches for rulership; Purphoros never accepts him. Kruphix but watches, and mortals are left to the whims of the fates, or Torn in the claws of the furies; only a hero denies them.

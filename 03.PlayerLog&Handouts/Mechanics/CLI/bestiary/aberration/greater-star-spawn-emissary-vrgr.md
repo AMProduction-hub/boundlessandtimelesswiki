@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/21
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Greater Star Spawn Emissary
+- "Greater Star Spawn Emissary"
 ---
-# [Greater Star Spawn Emissary](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/greater-star-spawn-emissary-vrgr.md)
+# [Greater Star Spawn Emissary](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/greater-star-spawn-emissary-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 245*  
 
 An emissary's greater form sheds all pretense of being part of a plane's reality and openly mocks it. A destructive titan, this form rises in a 25-foot-tall pillar of violent flesh amalgamating the meat and voices of every form the emissary has ever mimicked. Manifestations of alien hunger erupt from this horror in waves of ravenous organs and mind-breaking psychic assaults.
@@ -45,10 +46,10 @@ After finishing a long rest, a greater star spawn emissary regains its lesser fo
   - !!int "25"
 "speed": "40 ft., fly 40 ft. (hover)"
 "saves":
-  - "constitution": "+15"
-  - "intelligence": "+15"
-  - "wisdom": "+13"
-  - "charisma": "+14"
+  - "constitution": !!int "15"
+  - "intelligence": !!int "15"
+  - "wisdom": !!int "13"
+  - "charisma": !!int "14"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+22"
@@ -57,7 +58,8 @@ After finishing a long rest, a greater star spawn emissary regains its lesser fo
 "damage_resistances": "acid, force, necrotic, psychic"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 120 ft., passive Perception 23"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 23"
 "languages": "all, telepathy 1,000 ft."
 "cr": "21"
 "traits":
@@ -68,10 +70,10 @@ After finishing a long rest, a greater star spawn emissary regains its lesser fo
 "actions":
   - "desc": "The emissary makes three attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 15 ft., one target. *Hit:*\
       \ 20 (2d10 + 7) piercing damage plus 13 (3d8) acid damage."
     "name": "Lashing Maw"
-  - "desc": "Ranged Spell Attack: +15 to hit, range 120 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +15 to hit, range 120 ft., one creature. *Hit:*\
       \ 27 (3d12 + 8) psychic damage."
     "name": "Psychic Orb"
   - "desc": "The emissary expels bile that splashes all creatures in a 30-foot-radius\
@@ -85,6 +87,10 @@ After finishing a long rest, a greater star spawn emissary regains its lesser fo
       \ a +7 bonus to their attack and damage rolls, and fighting until they are destroyed.\
       \ They disappear when the emissary dies."
     "name": "Unearthly Bile (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the greater star spawn emissary can expend a use to take one of the following\
+  \ actions. The greater star spawn emissary regains all expended uses at the start\
+  \ of each of its turns."
 "legendary_actions":
   - "desc": "The emissary teleports up to 30 feet to an unoccupied space it can see\
       \ and makes one attack."

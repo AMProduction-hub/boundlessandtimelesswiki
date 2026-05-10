@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 aliases:
-- Afterword
+- "Afterword"
 ---
 # Afterword
 *Source: Princes of the Apocalypse, p. 251* 

@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/item/gear/ammunition
 - ttrpg-cli/item/rarity/none
-aliases: 
+aliases:
 - "Sling Bullets (20)"
 ---
 # Sling Bullets (20)

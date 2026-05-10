@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Chapter 2: Elturel Has Fallen
+- "Chapter 2: Elturel Has Fallen"
 ---
 # Chapter 2: Elturel Has Fallen
 *Source: Baldur's Gate: Descent Into Avernus, p. 52* 
@@ -104,8 +105,6 @@ Whenever the party moves from one named location to another, roll a `d20`. A rol
 If an encounter is indicated, roll on the Encounters in Elturel table or choose an encounter you like. Each encounter can occur only once. If you roll an encounter that has already occurred, reroll on the table or select a different encounter. These encounters are described in the sections that follow the table.
 
 **Encounters in Elturel**
-
-`dice: [](03-chapter-2-elturel-has-fallen.md#^encounters-in-elturel)`
 
 | dice: d10 | Encounter |
 |-----------|-----------|
@@ -212,7 +211,7 @@ As the characters pass a building, they hear a pounding coming from the front do
 
 If the characters deal with the zombies and search the building, they discover that it was a school. Five casks each holding three gallons of fresh water are stored in the basement.
 
-![Anchored by the chains of ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/030-qtzty-02-02-large.webp#center "Anchored by the chains of Avernus, the city of Elturel is doomed to drown in the River Styx unless someone finds a way to save it.")
+![Anchored by the chains of Avernus, the city of Elturel is doomed to drown in the River Styx unless someone finds a way to save it.](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/030-qtzty-02-02-large.webp#center)
 
 ### Torm's Bridges
 
@@ -385,7 +384,7 @@ This private chapel is similar to those of area H4. The devils currently rampagi
 The altar can be restored and its profane effect ended in the following ways:
 
 - A character who kneels before the altar, prays to Torm for 1 minute, and succeeds on a DC 15 Intelligence ([Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)) check at the end of the prayer causes Torm's power to wash over the altar and wipe clean the blood and other desecrating elements.  
-- Splashing at least three flasks of holy water on the altar destroys the desecrating elements and purifies the altar.  
+- Splashing at least three [flasks of holy water](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-water-flask.md) on the altar destroys the desecrating elements and purifies the altar.  
 
 > [!gallery]
 > ![Map 2.3: High Hall Cathedral, Choir Level](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/034-rkhyf-map-2-3.webp#gallery)
@@ -420,7 +419,7 @@ The doors leading out onto this balcony are locked from the inside. The balcony 
 
 #### H10. Recessed Mausoleums
 
-These areas are the final resting places of esteemed priests, warriors, and other dedicated servants of Elturel. For each of these areas the characters enter, roll a `d6`. On a 1, the characters discover `d4` [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) in hiding (if the devils haven't found them) or a number of mangled bodies (if the devils did).
+These areas are the final resting places of esteemed priests, warriors, and other dedicated servants of Elturel. For each of these areas the characters enter, roll a `d6`. On a 1, the characters discover `1d4` [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) in hiding (if the devils haven't found them) or a number of mangled bodies (if the devils did).
 
 As the DM, you determine the fates of these commoners. If the characters are dawdling because the players don't appreciate the gravity of the threat to the survivors in the cathedral, coming upon deceased commoners can help underline that threat. Having the players understand that these deaths might have been prevented if they had acted more quickly is a good way to inspire the characters to act with a little more urgency.
 
@@ -486,7 +485,7 @@ Pherria took the *Tome of the Creed Resolute* from the cathedral to safeguard it
 
 ##### Holy Water Fonts
 
-The two wide fonts here contain water that has been blessed by priests, enough to fill fifty flasks with holy water.
+The two wide fonts here contain water that has been blessed by priests, enough to fill fifty [flasks with holy water](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-water-flask.md).
 
 A successful DC 15 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check notices odd details in the stonework around one of the fonts, which covers a secret tunnel (area H17).
 
@@ -537,7 +536,7 @@ When Elturel was drawn to Avernus, the link between the chamber and Torm was cor
 
 ### Exploring the Cemetery
 
-The section describes locations in the city's cemetery—both the chapel and the areas around it (areas G1 through G6), and a subterranean ossuary level beneath the chapel (areas G7 through G12). The descriptions of the areas in this section are keyed to map 2.5  and map 2.6.
+The section describes locations in the city's cemetery—both the chapel and the areas around it (areas G1 through G6), and a subterranean ossuary level beneath the chapel (areas G7 through G12). The descriptions of the areas in this section are keyed to map 2.5 and map 2.6.
 
 Several graves have been dug up, leaving pits in the earth that are 6 feet deep, 2 feet wide, and 7 feet long. A number of stone mausoleums stand vacant, their doors hanging open. The interior of a mausoleum is dimly lit when its door is open and shrouded in darkness when the door is closed.
 
@@ -567,7 +566,7 @@ Read the following as the characters approach this area:
 
 With a successful DC 10 Intelligence ([History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)) check, a character can remember the name of one of the heroes represented by the carved pillars, with another name remembered for each point by which the check total exceeds 10. The names of the heroes are Agnithar, Zokel of Torm, Bertra Zomes, Yevina Druen, Ca'sar, Xivik Looren, Dopp Hoosser, Whrenk the Bloody, Laveil deNue, and VanLancer Eagletalon.
 
-A successful DC 10 Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana) or [Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)) check made to study the carved pillars reveals that a pillar can be empowered with radiant energy if the name of the hero it represents is spoken aloud as an action. Any undead creature that moves within 5 feet of an empowered statue for the first time on a turn or starts its turn there takes 5 (`d10`) radiant damage.
+A successful DC 10 Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana) or [Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)) check made to study the carved pillars reveals that a pillar can be empowered with radiant energy if the name of the hero it represents is spoken aloud as an action. Any undead creature that moves within 5 feet of an empowered statue for the first time on a turn or starts its turn there takes 5 (`1d10`) radiant damage.
 
 Each pillar is hollow and houses an incorporeal undead creature: four [shadows](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/shadow.md) and four [specters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md) in total. Seven of the undead emerge from the pillars to attack any character who attempts to enter the chapel. The specter closest to the priest quarters (area G5) instead attempts to move to that area and warn Gideon of the intruders. If warned, Gideon quickly moves to area G4 and prepares to defend the chapel, while the specter returns to join the fray.
 
@@ -645,7 +644,7 @@ See area G4 for information on roleplaying Gideon if the characters first encoun
 
 The book is a testament written by Gideon in the months leading up to Elturel's fall. It pontificates about the evil of demons, instructing the reader to be ever vigilant against their incursions, and expounding that the demonic threat must be defeated at all costs. It praises the devils that stoically stand against the unending demonic tide, while chastising Helm, Torm, Tyr, Lathander, and their angelic servitors for not doing the same. Gideon has nothing but praise for Zariel's efforts to end the demonic threat. Any character who spends 10 minutes poring over the tome can conclude, with a successful DC 10 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check, that it's the work of a madman.
 
-Any character who continues to read the book beyond that basic level of understanding must succeed on a DC 15 Wisdom saving throw. On a failed check, the character is cursed with a particularly intense hatred of demons. A creature cursed in this way takes 5 (`d10`) psychic damage if it can see any demon within 60 feet of it and ends its turn not having attempted to attack a demon. This curse can be removed with a [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md) spell or similar magic. At the end of each long rest, a cursed creature can make a DC 15 Wisdom saving throw, ending the effect on itself on a success.
+Any character who continues to read the book beyond that basic level of understanding must succeed on a DC 15 Wisdom saving throw. On a failed check, the character is cursed with a particularly intense hatred of demons. A creature cursed in this way takes 5 (`1d10`) psychic damage if it can see any demon within 60 feet of it and ends its turn not having attempted to attack a demon. This curse can be removed with a [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md) spell or similar magic. At the end of each long rest, a cursed creature can make a DC 15 Wisdom saving throw, ending the effect on itself on a success.
 
 #### G6. Undead Pit
 
@@ -662,15 +661,13 @@ Gideon creates his undead servants in this 30-foot-deep pit, which was formed wh
 
 The mist is formed by necromantic energy emitted from the corrupted Companion. A successful DC 10 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check made to study the mist reveals that it pulsates in sync with the crackling energy of the corrupted Companion.
 
-Any creature that enters the mist for the first time on a turn or starts its turn there takes 5 (`d10`) necrotic damage. Climbing the sides of the pit without equipment requires a successful DC 10 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check.
+Any creature that enters the mist for the first time on a turn or starts its turn there takes 5 (`1d10`) necrotic damage. Climbing the sides of the pit without equipment requires a successful DC 10 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check.
 
 Whenever Gideon directs his minions to toss a dead body into the pit, an undead creature crawls forth one hour later. Newly created undead patiently wander the cemetery grounds until Gideon gives them orders.
 
 One undead creature appears during the time the characters investigate the pit, and more can appear if they leave this area, then return again while Gideon is still at large. Use the Undead Creation table to determine what kind of undead creature is created.
 
 **Undead Creation**
-
-`dice: [](03-chapter-2-elturel-has-fallen.md#^undead-creation)`
 
 | dice: d20 | Undead |
 |-----------|--------|

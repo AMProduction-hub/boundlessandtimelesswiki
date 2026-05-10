@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/very-rare
 - ttrpg-cli/item/tier/major
-aliases: 
+aliases:
 - "Candle of Invocation"
 ---
 # Candle of Invocation
@@ -15,8 +16,6 @@ aliases:
 
 
 This slender taper is dedicated to a deity and shares that deity's alignment. The candle's alignment can be detected with the [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md) spell. The DM chooses the god and associated alignment or determines the alignment randomly.
-
-`dice: [](candle-of-invocation.md#^alignment)`
 
 | dice: d20 | Alignment |
 |-----------|-----------|

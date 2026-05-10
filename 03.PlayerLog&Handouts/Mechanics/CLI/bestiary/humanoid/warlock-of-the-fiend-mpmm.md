@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
@@ -13,9 +14,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Warlock of the Fiend
+- "Warlock of the Fiend"
 ---
-# [Warlock of the Fiend](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/warlock-of-the-fiend-mpmm.md)
+# [Warlock of the Fiend](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/warlock-of-the-fiend-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 255, Volo's Guide to Monsters p. 219*  
 
 Warlocks of the Fiend gain their powers through magical pacts forged with archfiends of the Lower Planes. These warlocks often keep [imps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/imp.md) or [quasits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/quasit.md) as companions, and they tend toward philosophical extremes: consorting with fiendish cults or dedicating their lives to destroying such cults.
@@ -43,8 +44,8 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+4"
-  - "charisma": "+7"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+4"
@@ -54,7 +55,10 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
     "desc": "+7"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 11"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "any two languages (usually Abyssal or Infernal)"
 "cr": "7"
 "traits":
@@ -65,7 +69,7 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
 "actions":
   - "desc": "The warlock makes three Scimitar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage plus 14 (4d6) fire damage."
     "name": "Scimitar"
   - "desc": "Green flame explodes in a 10-foot-radius sphere centered on a point within\
@@ -74,12 +78,12 @@ Warlocks gain arcane might through magical pacts with mysterious entities. While
       \ on a failed save, or half as much damage on a successful one."
     "name": "Hellfire"
   - "desc": "The warlock casts one of the following spells, using Charisma as the\
-      \ spellcasting ability (spell save DC 15): \n\nAt will: [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
+      \ spellcasting ability (spell save DC 15): \n\n**At will:** [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md) (self\
       \ only), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1/day each: [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \n**1/day each:** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
     "name": "Spellcasting"

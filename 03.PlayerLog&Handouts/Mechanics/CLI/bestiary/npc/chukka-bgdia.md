@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Chukka
+- "Chukka"
 ---
-# [Chukka](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/chukka-bgdia.md)
+# [Chukka](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/chukka-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 83*  
 
 ```statblock
@@ -39,6 +40,8 @@ aliases:
     "desc": "+2"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
+"gear":
+  - "[silvered pike](03.PlayerLog&Handouts/Mechanics/CLI/items/silvered-weapon.md)"
 "senses": "passive Perception 12"
 "languages": "understands Auran and Common but speaks only through the use of its\
   \ Mimicry trait"
@@ -53,8 +56,8 @@ aliases:
       \ check."
     "name": "Mimicry"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5\
-      \ (d10) piercing damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 5\
+      \ (1d10) piercing damage."
     "name": "Silvered Pike"
 "source":
   - "BGDIA"

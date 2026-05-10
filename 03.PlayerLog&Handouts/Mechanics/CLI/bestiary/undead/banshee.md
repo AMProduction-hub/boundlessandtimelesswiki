@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/4
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Banshee
+- "Banshee"
 ---
-# [Banshee](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/banshee.md)
-*Source: Monster Manual p. 23, Curse of Strahd, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything, Journeys through the Radiant Citadel. Available in the Basic Rules (2014)*  
+# [Banshee](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/banshee.md)
+*Source: Monster Manual p. 23. Available in the Basic Rules (2014)*  
 
 When night falls, unlucky travelers hear the faint cries of the forlorn dead. This woeful spirit is a banshee, a spiteful creature formed from the spirit of a female elf. Banshees appear as luminous, wispy forms that vaguely recall their mortal features. A banshee's face is wreathed in a wild tangle of hair, its body clad in wispy rags that flutter and stream around it.
 
@@ -52,8 +53,8 @@ A banshee doesn't require air, food, drink, or sleep.
   - !!int "17"
 "speed": "0 ft., fly 40 ft. (hover)"
 "saves":
-  - "wisdom": "+2"
-  - "charisma": "+5"
+  - "wisdom": !!int "2"
+  - "charisma": !!int "5"
 "damage_resistances": "acid; fire; lightning; thunder; bludgeoning, piercing, slashing\
   \ from nonmagical attacks"
 "damage_immunities": "cold, necrotic, poison"
@@ -65,7 +66,8 @@ A banshee doesn't require air, food, drink, or sleep.
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Elvish"
 "cr": "4"
 "traits":
@@ -74,11 +76,11 @@ A banshee doesn't require air, food, drink, or sleep.
       \ they're in but not their exact locations."
     "name": "Detect Life"
   - "desc": "The banshee can move through other creatures and objects as if they were\
-      \ difficult terrain. She takes 5 (d10) force damage if she ends her turn inside\
-      \ an object."
+      \ difficult terrain. She takes 5 (1d10) force damage if she ends her turn\
+      \ inside an object."
     "name": "Incorporeal Movement"
 "actions":
-  - "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Spell Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (3d6 + 2) necrotic damage."
     "name": "Corrupting Touch"
   - "desc": "Each non-undead creature within 60 feet of the banshee that can see her\
@@ -97,14 +99,6 @@ A banshee doesn't require air, food, drink, or sleep.
     "name": "Wail (1/Day)"
 "source":
   - "MM"
-  - "CoS"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "BGDIA"
-  - "EGW"
-  - "TCE"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/banshee.webp"
 ```
 ^statblock

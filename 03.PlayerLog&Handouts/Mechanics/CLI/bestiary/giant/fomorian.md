@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/8
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Fomorian
+- "Fomorian"
 ---
-# [Fomorian](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/fomorian.md)
-*Source: Monster Manual p. 136, Waterdeep: Dungeon of the Mad Mage, Candlekeep Mysteries, Journeys through the Radiant Citadel*  
+# [Fomorian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/fomorian.md)
+*Source: Monster Manual p. 136*  
 
 The most hideous and wicked of all giantkind are the godless fomorians, whose deformed bodies reflect their vile demeanors. Some have facial features randomly distributed around their misshapen, warty heads. Others have limbs of grossly different sizes and shapes, or emit terrible howls each time they draw breath through misshapen mouths. Their wretched appearance rarely evokes sympathy, however, for the fomorians brought their doom upon themselves with the evil that rules their hearts and minds.
 
@@ -58,14 +59,17 @@ Fomorians can pass their curse onto others using a power called the evil eye-a l
     "desc": "+8"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
-"senses": "darkvision 120 ft., passive Perception 18"
+"gear":
+  - "[greatclub](03.PlayerLog&Handouts/Mechanics/CLI/items/greatclub.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 18"
 "languages": "Giant, Undercommon"
 "cr": "8"
 "actions":
   - "desc": "The fomorian attacks twice with its greatclub or makes one greatclub\
       \ attack and uses Evil Eye once."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 15 ft., one target. *Hit:*\
       \ 19 (3d8 + 6) bludgeoning damage."
     "name": "Greatclub"
   - "desc": "The fomorian magically forces a creature it can see within 60 feet of\
@@ -81,9 +85,6 @@ Fomorians can pass their curse onto others using a power called the evil eye-a l
     "name": "Curse of the Evil Eye (Recharges after a Short or Long Rest)"
 "source":
   - "MM"
-  - "WDMM"
-  - "CM"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/token/fomorian.webp"
 ```
 ^statblock

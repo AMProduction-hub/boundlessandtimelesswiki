@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
-- ttrpg-cli/spell/feat/divinely-favored
-- ttrpg-cli/spell/feat/magic-initiate
-- ttrpg-cli/spell/feat/strixhaven-initiate
+- ttrpg-cli/spell/feat/divinely-favored/neutral
+- ttrpg-cli/spell/feat/magic-initiate/cleric-spells
+- ttrpg-cli/spell/feat/strixhaven-initiate/lorehold-2
 - ttrpg-cli/spell/level/cantrip
 - ttrpg-cli/spell/optfeature/blessed-warrior
 - ttrpg-cli/spell/optfeature/pact-of-the-tome
@@ -23,12 +24,12 @@ tags:
 - ttrpg-cli/spell/subrace/tiefling-infernal-legacy
 - ttrpg-cli/spell/subrace/tiefling-zariel
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Ranger (Drakewarden)
 - Sorcerer (Divine Soul)
 aliases:
-- Thaumaturgy
+- "Thaumaturgy"
 ---
 # Thaumaturgy
 *cantrip, Transmutation*  
@@ -50,6 +51,6 @@ You manifest a minor wonder, a sign of supernatural power, within range. You cre
 
 If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.
 
-**Classes**: [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Ranger (Drakewarden)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-drakewarden-ftd.md "subclass=FTD"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Ranger (Drakewarden)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-drakewarden-ftd.md "subclass=FTD"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE")
 
 *Source: Player's Handbook p. 282. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

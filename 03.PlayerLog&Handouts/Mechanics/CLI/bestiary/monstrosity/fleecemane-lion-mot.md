@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Fleecemane Lion
+- "Fleecemane Lion"
 ---
-# [Fleecemane Lion](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/fleecemane-lion-mot.md)
+# [Fleecemane Lion](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/fleecemane-lion-mot.md)
 *Source: Mythic Odysseys of Theros p. 223*  
 
 Twice the size of normal lions and with resplendent manes of silvery or golden hair, fleecemane lions prowl and protect sites imbued with the power of Nyx. While the specifics of these massive lions' connection to Nyx is unclear, many myths tell of the deadly predators stalking mortals and spreading fear until they're ultimately defeated by a brave hunter. As a result, overcoming a fleecemane lion is widely considered an early step on the road to becoming a true hero.
@@ -35,8 +36,8 @@ Twice the size of normal lions and with resplendent manes of silvery or golden h
   - !!int "10"
 "speed": "50 ft."
 "saves":
-  - "strength": "+6"
-  - "constitution": "+4"
+  - "strength": !!int "6"
+  - "constitution": !!int "4"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
@@ -65,12 +66,15 @@ Twice the size of normal lions and with resplendent manes of silvery or golden h
 "actions":
   - "desc": "The lion makes two attacks: one with its bite and one with its claw."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) slashing damage."
     "name": "Claw"
+"legendary_description": "Legendary Action Uses: 2. Immediately after another creature's\
+  \ turn, the fleecemane lion can expend a use to take one of the following actions.\
+  \ The fleecemane lion regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The lion makes one claw attack."
     "name": "Claw"

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Appendix A: Modifying Backgrounds
+- "Appendix A: Modifying Backgrounds"
 ---
 # Appendix A: Modifying Backgrounds
 *Source: Out of the Abyss, p. 221* 
@@ -28,8 +29,6 @@ You are no casual visitor to the Underdark, but instead have spent considerable 
 ## Substitute Bonds
 
 This table provides alternative bonds that characters can have instead of the bonds from their backgrounds.
-
-`dice: [](18-appendix-a-modifying-backgrounds.md#^bond)`
 
 | dice: d10 | Bond |
 |-----------|------|

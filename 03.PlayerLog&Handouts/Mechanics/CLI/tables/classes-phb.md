@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Classes
+- "Classes"
 ---
 # Classes
 *Source: Player's Handbook p. 45. Available in the Basic Rules (2014)* 

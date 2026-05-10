@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Dragon Magic
+- "Dragon Magic"
 ---
 # Dragon Magic
 *Source: Fizban's Treasury of Dragons, p. 19* 
@@ -19,7 +20,7 @@ The magic woven through the fabric of the Material Plane is concentrated in drag
 
 ""Draconic Gifts"" introduces magical gifts that characters might gain in connection with a dragon's death or other unusual circumstances.
 
-![In any form, Bahamut delig...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/008-02-001-chapter-splash.webp#center "In any form, Bahamut delights in the &quot;Aha!&quot; moments of teaching young students")
+![In any form, Bahamut delights in the &quot;Aha!&quot; moments of teaching young students](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/008-02-001-chapter-splash.webp#center)
 
 ## Spells
 
@@ -83,7 +84,7 @@ Hoard items often manifest strange qualities beyond their intended function, reg
 
 ### Hoard Item Descriptions
 
-![A magic weapon recovered f...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/011-02-004-a-magic-weapon.webp#center "A magic weapon recovered from a dragon's hoard carries some of the dragon's magic")
+![A magic weapon recovered from a dragon's hoard carries some of the dragon's magic](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/011-02-004-a-magic-weapon.webp#center)
 
 Hoard items are presented here in alphabetical order. A hoard item's rarity changes depending on its current state, as shown in each item description.
 

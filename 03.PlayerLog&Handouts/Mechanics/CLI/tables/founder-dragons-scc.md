@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 aliases:
-- Founder Dragons
+- "Founder Dragons"
 ---
 # Founder Dragons
 *Source: Strixhaven: A Curriculum of Chaos p. 6* 

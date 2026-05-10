@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Human Names – Spanish, Male
+- "Human Names – Spanish, Male"
 ---
 # Human Names – Spanish, Male
 *Source: Xanathar's Guide to Everything p. 181* 
 
 **Human Names – Spanish, Male**
-
-`dice: [](human-names-spanish-male-xge.md#^human-names-spanish-male)`
 
 | dice: d100 | Name |
 |------------|------|

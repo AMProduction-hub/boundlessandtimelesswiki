@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Space Hamster
+- "Space Hamster"
 ---
-# [Space Hamster](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/space-hamster-wdmm.md)
+# [Space Hamster](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/space-hamster-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 251*  
 
 ```statblock
@@ -31,7 +32,8 @@ aliases:
   - !!int "10"
   - !!int "4"
 "speed": "20 ft."
-"senses": "darkvision 30 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 30 ft., passive Perception 10"
 "languages": ""
 "cr": "0"
 "traits":

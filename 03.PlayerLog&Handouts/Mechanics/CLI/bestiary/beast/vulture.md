@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vulture
+- "Vulture"
 ---
-# [Vulture](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/vulture.md)
-*Source: Monster Manual p. 339, Tomb of Annihilation, Baldur's Gate: Descent Into Avernus, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Vulture](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/vulture.md)
+*Source: Monster Manual p. 339. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Vulture"
@@ -49,14 +50,11 @@ aliases:
       \ ally isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) piercing damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d4) piercing damage."
     "name": "Beak"
 "source":
   - "MM"
-  - "ToA"
-  - "BGDIA"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/vulture.webp"
 ```
 ^statblock

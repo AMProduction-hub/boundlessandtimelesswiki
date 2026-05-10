@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/12
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sire of Insanity
+- "Sire of Insanity"
 ---
-# [Sire of Insanity](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/sire-of-insanity-ggr.md)
+# [Sire of Insanity](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/sire-of-insanity-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 197*  
 
 Rakdos nightclubs, where visitors can indulge any dark desire and revel in sadistic spectacle, are the favored haunts of the demons known as sires of insanity. Lurking in an underground vault beneath a Rakdos operation, a sire of insanity feasts on the violence, torment, and depravity unfolding above. Occasionally, cultists bring would-be recruits to the demon's presence, and—true to its name—the sire of insanity breaks the new cultist's mind.
@@ -52,10 +53,10 @@ Many of the demons of Ravnica are monstrous, winged creatures of human-like form
   - !!int "22"
 "speed": "40 ft."
 "saves":
-  - "constitution": "+8"
-  - "intelligence": "+6"
-  - "wisdom": "+8"
-  - "charisma": "+10"
+  - "constitution": !!int "8"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "8"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+10"
@@ -65,17 +66,18 @@ Many of the demons of Ravnica are monstrous, winged creatures of human-like form
   \ nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 14"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 14"
 "languages": "Abyssal, Common, telepathy 120 ft."
 "cr": "12"
 "traits":
   - "desc": "The sire's innate spellcasting ability is Charisma (spell save DC 18,\
       \ +10 to hit with spell attacks). The sire can innately cast the following\
-      \ spells, requiring no material components:\n\nAt will: [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
+      \ spells, requiring no material components:\n\n**At will:** [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
       \ [crown of madness](03.PlayerLog&Handouts/Mechanics/CLI/spells/crown-of-madness.md),\
       \ [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\n\
-      1/day each: [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
+      **1/day each:** [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
       \ [mass suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-suggestion.md)"
     "name": "Innate Spellcasting"
   - "desc": "Any creature that starts its turn within 30 feet of the sire must make\
@@ -91,10 +93,10 @@ Many of the demons of Ravnica are monstrous, winged creatures of human-like form
 "actions":
   - "desc": "The sire makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one creature. *Hit:*\
       \ 25 (3d12 + 6) piercing damage plus 16 (3d10) psychic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:*\
       \ 10 (1d8 + 6) slashing damage plus 9 (2d8) psychic damage."
     "name": "Claws"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/9
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Abominable Yeti
+- "Abominable Yeti"
 ---
-# [Abominable Yeti](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/abominable-yeti.md)
-*Source: Monster Manual p. 306, Storm King's Thunder, Waterdeep: Dungeon of the Mad Mage, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries*  
+# [Abominable Yeti](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/abominable-yeti.md)
+*Source: Monster Manual p. 306*  
 
 A yeti's windborne howl sounds out across remote mountains, striking fear into the hearts of the scattered miners and herders that dwell there. These hulking creatures stalk alpine peaks in a ceaseless hunt for food. Their snow-white fur lets them move like ghosts against the frozen landscape. A yeti's icy simian eyes can freeze its prey in place.
 
@@ -66,7 +67,8 @@ An abominable yeti is larger than a normal yeti, standing three times as tall as
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "damage_immunities": "cold"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Yeti"
 "cr": "9"
 "traits":
@@ -82,7 +84,7 @@ An abominable yeti is larger than a normal yeti, standing three times as tall as
 "actions":
   - "desc": "The yeti can use its Chilling Gaze and makes two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 14 (2d6 + 7) slashing damage plus 7 (2d6) cold damage."
     "name": "Claw"
   - "desc": "The yeti targets one creature it can see within 30 feet of it. If the\
@@ -99,11 +101,6 @@ An abominable yeti is larger than a normal yeti, standing three times as tall as
     "name": "Cold Breath (Recharge 6)"
 "source":
   - "MM"
-  - "SKT"
-  - "WDMM"
-  - "EGW"
-  - "IDRotF"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/abominable-yeti.webp"
 ```
 ^statblock

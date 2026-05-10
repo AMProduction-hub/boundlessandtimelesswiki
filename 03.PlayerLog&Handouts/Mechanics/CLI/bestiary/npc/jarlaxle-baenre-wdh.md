@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/15
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Jarlaxle Baenre
+- "Jarlaxle Baenre"
 ---
-# [Jarlaxle Baenre](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/jarlaxle-baenre-wdh.md)
+# [Jarlaxle Baenre](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jarlaxle-baenre-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 206*  
 
 Jarlaxle is a flamboyant, swashbuckling drow iconoclast. He leads a renegade drow faction called Bregan D'aerthe, made up of disenfranchised male drow, most of them culled from destroyed or disgraced houses. Gifted with a sharp mind, a sense of humor, puissant skill with a blade, and a wealth of useful magic items, Jarlaxle infiltrated the city of Luskan, brought a kind of order to its lawlessness, and declared himself its secret lord.
@@ -45,8 +46,8 @@ Jarlaxle's loyalties are to himself first and foremost, and to Bregan D'aerthe s
   - !!int "19"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+11"
-  - "wisdom": "+8"
+  - "dexterity": !!int "11"
+  - "wisdom": !!int "8"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+11"
@@ -60,14 +61,17 @@ Jarlaxle's loyalties are to himself first and foremost, and to Bregan D'aerthe s
     "desc": "+11"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+16"
-"senses": "darkvision 120 ft., passive Perception 18"
+"gear":
+  - "[+3 rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/3-weapon.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 18"
 "languages": "Abyssal, Common, Draconic, Dwarvish, Elvish, Undercommon"
 "cr": "15"
 "traits":
   - "desc": "Jarlaxle's innate spellcasting ability is Charisma (spell save DC 17,\
       \ +9 to hit with spell attacks) He can innately cast the following spells,\
-      \ requiring no material components:\n\nAt will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
-      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ requiring no material components:\n\n**At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
+      \n**1/day each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
       \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md) (self only)"
     "name": "Innate Spellcasting"
@@ -111,12 +115,15 @@ Jarlaxle's loyalties are to himself first and foremost, and to Bregan D'aerthe s
   - "desc": "Jarlaxle makes three attacks with his +3 rapier or two attacks with daggers\
       \ created by his bracer of flying daggers."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 5 ft., one target. *Hit:*\
       \ 13 (1d8 + 9) piercing damage."
     "name": "+3 Rapier"
-  - "desc": "Ranged Weapon Attack: +11 to hit, range 20/60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +11 to hit, range 20/60 ft., one target. *Hit:*\
       \ 8 (1d4 + 6) piercing damage."
     "name": "Flying Dagger"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Jarlaxle can expend a use to take one of the following actions. Jarlaxle\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Jarlaxle moves up to his speed without provoking opportunity attacks."
     "name": "Quick Step"

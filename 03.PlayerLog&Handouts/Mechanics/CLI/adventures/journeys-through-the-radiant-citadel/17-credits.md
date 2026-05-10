@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 aliases:
-- Credits
+- "Credits"
 ---
 # Credits
 *Source: Journeys through the Radiant Citadel* 
@@ -51,5 +52,8 @@ aliases:
 ![](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/credits.webp#center)
 
 > [!gallery]
-> ![On the Cover: A mischievou...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/credits2.webp#gallery "On the Cover: A mischievous wynling soars above the Dyn Singh Night Market, avoiding people from countless lands and illusory shop signage, in this cover by Evyn Fong.")
-> ![On the Alt-Cover: The aura...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/credits3.webp#gallery "On the Alt-Cover: The aura of the Radiant Citadel illuminates the ancestral shapes of the Dawn Incarnates, gemstone manifestations of stories and spirits, in this cover by Sija Hong.")
+> ![On the Cover: A mischievous wynling soars above the Dyn Singh Night Market, avoiding people from countless lands and illusory shop signage, in this cover by Evyn Fong.](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/credits2.webp#gallery)
+> ![On the Alt-Cover: The aura of the Radiant Citadel illuminates the ancestral shapes of the Dawn Incarnates, gemstone manifestations of stories and spirits, in this cover by Sija Hong.](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/credits3.webp#gallery)
+
+> [!note]
+> Disclaimer: There is no guarantee that the light of the Radiant Citadel will be visible to the naked eye on your plane of existence, but know that it is there, whether seen or not.

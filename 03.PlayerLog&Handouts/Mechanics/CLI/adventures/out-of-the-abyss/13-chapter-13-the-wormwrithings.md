@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Chapter 13: The Wormwrithings
+- "Chapter 13: The Wormwrithings"
 ---
 # Chapter 13: The Wormwrithings
 *Source: Out of the Abyss, p. 166* 
@@ -19,7 +20,7 @@ The nearest purple worm nesting area mapped out for the characters by [Vizeran D
 
 *Faerzress* permeates only the fringes of the Wormwrithings. While the party explores this region of the Underdark, spellcasters won't have to deal with the effects described under "Faerzress" in chapter 2.
 
-The tunnels created by the purple worms are tubular and roughly 10 feet in diameter. A typical stretch of tunnel is `d6` miles long before it intersects with another tunnel or a naturally formed cavern.
+The tunnels created by the purple worms are tubular and roughly 10 feet in diameter. A typical stretch of tunnel is `1d6` miles long before it intersects with another tunnel or a naturally formed cavern.
 
 ### Random Encounters
 
@@ -29,20 +30,18 @@ When an encounter occurs, roll a `d6` to determine how the area is illuminated. 
 
 #### Wormwrithings Encounters
 
-`dice: [](13-chapter-13-the-wormwrithings.md#^encounter)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–10 | No encounter |
 | 11 | 1 [drider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/drider.md) |
 | 12 | [Drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) hunting party |
 | 13 | `3d6` dwarf [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) |
-| 14 | `d6` [ettins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ettin.md) |
+| 14 | `1d6` [ettins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ettin.md) |
 | 15 | `3d6` [flumphs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/flumph.md) |
 | 16 | [Grick](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/grick.md) nest |
 | 17 | 1 [purple worm](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/purple-worm.md) |
 | 18 | `2d6` [troglodytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/troglodyte.md) |
-| 19 | `d4` [trolls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/troll.md) |
+| 19 | `1d4` [trolls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/troll.md) |
 | 20 | 1 [umber hulk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/umber-hulk.md) |
 ^encounter
 
@@ -52,7 +51,7 @@ This creature clings to the ceiling and prefers to make ranged attacks against t
 
 #### Drow Hunting Party
 
-A [drow mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-mage.md) of House Melarn leads a group of `d6` [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) and `2d6` [bugbear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bugbear.md) slaves through the tunnels in search of a purple worm nursery, where they hope to find a purple worm egg as a gift for their matron mother. If the characters have an egg clearly in their possession, the drow party tries to take it. Otherwise, the drow mage is happy to let the characters and their expeditionary force pass by unchallenged.
+A [drow mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-mage.md) of House Melarn leads a group of `1d6` [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) and `2d6` [bugbear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bugbear.md) slaves through the tunnels in search of a purple worm nursery, where they hope to find a purple worm egg as a gift for their matron mother. If the characters have an egg clearly in their possession, the drow party tries to take it. Otherwise, the drow mage is happy to let the characters and their expeditionary force pass by unchallenged.
 
 #### Dwarf Commoners
 
@@ -60,7 +59,7 @@ There is a 75 percent chance that these [shield dwarves](03.PlayerLog&Handouts/M
 
 ##### Treasure
 
-Each dwarf carries `d10` pounds of food, `d4` gallons of water (stored in canteens), and `d6` gems worth 10 gp each.
+Each dwarf carries `1d10` pounds of food, `1d4` gallons of water (stored in canteens), and `1d6` gems worth 10 gp each.
 
 #### Ettins
 
@@ -84,12 +83,10 @@ Roll a `d6` and consult the [Purple Worm](03.PlayerLog&Handouts/Mechanics/CLI/be
 
 #### Purple Worm Direction
 
-`dice: [](13-chapter-13-the-wormwrithings.md#^direction)`
-
 | dice: d6 | Direction |
 |----------|-----------|
-| 1–2 | The purple worm comes from behind the party, heading in the same direction and filling the entire tunnel. The party must either stay ahead of the worm or turn and fight it. If they stay ahead of the worm, the tunnel branches after `d6` miles. |
-| 3–4 | The purple worm is moving along the tunnel in the opposite direction as the party and appears in front of them. The party must either reverse course or fight the worm. If they reverse course, the tunnel branches after `d6` miles. |
+| 1–2 | The purple worm comes from behind the party, heading in the same direction and filling the entire tunnel. The party must either stay ahead of the worm or turn and fight it. If they stay ahead of the worm, the tunnel branches after `1d6` miles. |
+| 3–4 | The purple worm is moving along the tunnel in the opposite direction as the party and appears in front of them. The party must either reverse course or fight the worm. If they reverse course, the tunnel branches after `1d6` miles. |
 | 5–6 | The purple worm is burrowing through the solid rock on a path that intersects with the party's tunnel. The worm erupts from the tunnel wall behind the party, then continues on its way, leaving a new tunnel in its wake. The worm's passage triggers a rockfall in the party's tunnel, and each party member must succeed on a DC 13 Dexterity saving throw or take 10 (`3d6`) bludgeoning damage from falling debris. |
 ^direction
 
@@ -165,7 +162,7 @@ Five [troglodytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/troglod
 
 > [!note] 
 > 
-> **Javelin.** *Melee or Ranged Weapon Attack*: +4 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit*: 3 (`d6`) piercing damage.
+> **Javelin.** *Melee or Ranged Weapon Attack*: `+4` to hit, reach 5 ft. or range 30/120 ft., one target. *Hit*: 3 (`1d6`) piercing damage.
 ^446
 
 H'hoort, a [troglodyte](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/troglodyte.md) and Chieftain S'slaar's mate, is lashed between two stalagmites here. Another [troglodyte](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/troglodyte.md) stands guard next to her. Releasing H'hoort won't earn the adventurers a respite from the opportunistic troglodytes, but if the characters hold her captive, both sides are reluctant to attack them.
@@ -178,7 +175,7 @@ The troglodyte chieftain has arrayed his forces along the narrow strip of high g
 
 > [!note] 
 > 
-> **+2 Longsword.** *Ranged Weapon Attack*: +6 to hit, reach 5 ft., one target. *Hit*: 8 (`1d8 + 4`) slashing damage, or 9 (`1d10 + 4`) slashing damage if used with two hands.
+> **+2 Longsword.** *Ranged Weapon Attack*: `+6` to hit, reach 5 ft., one target. *Hit*: 8 (`1d8 + 4`) slashing damage, or 9 (`1d10 + 4`) slashing damage if used with two hands.
 ^449
 
 S'slaar is accompanied by five [troglodytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/troglodyte.md) with 20 hit points each and three ordinary [troglodytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/troglodyte.md).
@@ -197,13 +194,13 @@ Rubble is piled up along the south wall of the cavern, concealing a hidden passa
 
 #### Treasure
 
-Within the cave, four zurkhwood boxes hold a 50-foot length of spider-silk rope, four flasks of oil, twenty pounds of rancid food, a pile of moldy blankets, six maces and sixteen javelins (all battered but usable), four casks of unspoiled wine worth 10 gp each, and a locked tribute chest. It takes a successful DC 15 Dexterity check using thieves' tools to open the chest, which contains 180 gp (minted in Menzoberranzan and Gracklstugh), three gems each worth 50 gp each, a [potion of gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-gaseous-form.md), and a [+1 dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/1-weapon.md) with silvery, weblike filigree worked into the hilt. The dagger is of drow manufacture (see the "Drowcraft Items" sidebar in appendix B). The crude litters that the troglodytes use to bear these goods are propped up against the cave wall.
+Within the cave, four zurkhwood boxes hold a 50-foot length of spider silk rope, four flasks of oil, twenty pounds of rancid food, a pile of moldy blankets, six maces and sixteen javelins (all battered but usable), four casks of unspoiled wine worth 10 gp each, and a locked tribute chest. It takes a successful DC 15 Dexterity check using thieves' tools to open the chest, which contains 180 gp (minted in Menzoberranzan and Gracklstugh), three gems each worth 50 gp each, a [potion of gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-gaseous-form.md), and a [+1 dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/1-weapon.md) with silvery, weblike filigree worked into the hilt. The dagger is of drow manufacture (see the "Drowcraft Items" sidebar in appendix B). The crude litters that the troglodytes use to bear these goods are propped up against the cave wall.
 
 ### 6. Steam Vent
 
 A thick jet of hot steam spews forth from a crack in the floor near the east wall of this cavern. Growing around the steam vent is a patch of fire lichen (see "Fungi of the Underdark" in chapter 2).
 
-Anyone with a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 13 or higher notices a vein of precious gems embedded in the rock wall behind the steam vent. Anyone actively searching the cavern spots the gem deposit automatically. The gems can't be reached without entering a 10-foot-by-10-foot-by-10-foot cloud of hot steam. Any creature that enters the area or starts its turn there takes `d8` fire damage. The litters in area 5 or a similar object can be used to block the steam emerging from the vent for 1 round before weakening and falling apart.
+Anyone with a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 13 or higher notices a vein of precious gems embedded in the rock wall behind the steam vent. Anyone actively searching the cavern spots the gem deposit automatically. The gems can't be reached without entering a 10-foot-by-10-foot-by-10-foot cloud of hot steam. Any creature that enters the area or starts its turn there takes `1d8` fire damage. The litters in area 5 or a similar object can be used to block the steam emerging from the vent for 1 round before weakening and falling apart.
 
 #### Treasure
 
@@ -211,7 +208,7 @@ For each round spent digging at the wall, a character has a 10 percent chance of
 
 ### 7. Troglodyte Outpost
 
-H'slaat stationed four [troglodytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/troglodyte.md) here to watch for any of S'Slaar's forces that might try to make their way into attack position through the outer caverns. These guards are always on alert. One of them carries a horn that it sounds in the event of an attack. If the horn is blown, eight of the troglodytes in area 2 come through area 5 and into this cave to investigate and shore up the defenses.
+H'slaat stationed four [troglodytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/troglodyte.md) here to watch for any of S'slaar's forces that might try to make their way into attack position through the outer caverns. These guards are always on alert. One of them carries a horn that it sounds in the event of an attack. If the horn is blown, eight of the troglodytes in area 2 come through area 5 and into this cave to investigate and shore up the defenses.
 
 ### 8. Roper Lair
 
@@ -241,7 +238,7 @@ The underground stream passes through this cave, traveling west to east. The adv
 
 The adventurers feel the heat emanating from this area as they approach. Thick cracks, some as wide as 2 feet, crisscross the cavern floor, opening up to a pool of molten rock 25 feet beneath the cavern. The dull orange glow of the lava below bathes this area in dim light.
 
-At the end of every minute the adventurers spend here, roll a `d6`. On a roll of 1, `d4` [magma mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/magma-mephit.md) emerge from a crack in the floor and attack. No more than twelve mephits appear in a given 24-hour period.
+At the end of every minute the adventurers spend here, roll a `d6`. On a roll of 1, `1d4` [magma mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/magma-mephit.md) emerge from a crack in the floor and attack. No more than twelve mephits appear in a given 24-hour period.
 
 ### 13. Empty Cave
 
@@ -296,7 +293,7 @@ Hanne also has the following Spellcasting feature:
 
 > [!note] 
 > 
-> **Spellcasting.** Hanne is a 1st-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). She has the following wizard spells prepared:
+> **Spellcasting.** Hanne is a 1st-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 13, `+5` to hit with spell attacks). She has the following wizard spells prepared:
 > 
 > Cantrips (at will): [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md), [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)
 > 
@@ -332,7 +329,7 @@ Any characters dropped into this dark cave have time to recover, while character
 
 ### 2. Fungus Cave
 
-A variety of fungi blankets this dark, 15-foot-high cavern. Every 10 minutes spent foraging here yields `d3` pounds of edible fungi per forager (to a maximum of 30 pounds).
+A variety of fungi blankets this dark, 15-foot-high cavern. Every 10 minutes spent foraging here yields `1d3` pounds of edible fungi per forager (to a maximum of 30 pounds).
 
 The passage to area 3 is a steep slope leading 10 feet upward, and covered in small rocks and gravel. Moving up the slope requires a successful DC 12 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check. On a failed check, a character slips and tumbles down to the bottom of the slope, taking no damage. If someone at the top of the slope lowers a rope to help other characters climb, no check is necessary.
 
@@ -375,7 +372,7 @@ Any noise in one of these chambers (including a normal speaking voice or metal s
 
 #### Development
 
-If the adventurers set off a humming in one of these echo chambers, a distant rumbling can be heard and felt as a purple worm burrows toward the egg chamber, arriving there in `d4` minutes (see area 8 for details).
+If the adventurers set off a humming in one of these echo chambers, a distant rumbling can be heard and felt as a purple worm burrows toward the egg chamber, arriving there in `1d4` minutes (see area 8 for details).
 
 ### 6. Caretaker's Quarters
 
@@ -414,8 +411,6 @@ For every five minutes the adventurers spend in this room, check for a random en
 
 #### Egg Chamber Encounters
 
-`dice: [](13-chapter-13-the-wormwrithings.md#^encounter)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–15 | No encounter |
@@ -435,7 +430,7 @@ This cave is thick with stalactites and stalagmites, and home to thousands of ba
 
 Whenever a purple worm enters the area 8 (whether as a random encounter or in response to an alarm from area 5, or as noted in the "Worm Nursery: General Features" sidebar), a [swarm of bats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-bats.md) flies out of the cave 1 minute before the worm appears. Roll a `d6` to determine which way the bats go. On a roll of 1–3, the bats take the shortest route to the tunnel in area 7 and exit through that tunnel. On a roll of 4–6, the bats take the shortest route to the tunnel in area 14 and exit through that tunnel.
 
-The swarm doesn't attack unless threatened, but any creature that occupies an area the swarm passes through is buffeted by scores of bats, taking `d4` bludgeoning damage.
+The swarm doesn't attack unless threatened, but any creature that occupies an area the swarm passes through is buffeted by scores of bats, taking `1d4` bludgeoning damage.
 
 #### Development
 
@@ -445,7 +440,7 @@ When the purple worm that caused the bats to swarm exits the nursery, the bats r
 
 The floor of this dark, 60-foot-high cavern is covered in a thick layer of viscous purple worm saliva. Consequently, the floor is difficult terrain. As they enter, adventurers notice dozens of glinting objects in the goo beneath their feet. Further inspection reveals the sparkling objects are precious gems.
 
-For every minute the adventurers spend in this cave, there is a 25 percent chance they attract the attention of `d4` [giant spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-spider.md) from area 11. The spiders scuttle along the walls and ceiling, avoiding the gooey floor.
+For every minute the adventurers spend in this cave, there is a 25 percent chance they attract the attention of `1d4` [giant spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-spider.md) from area 11. The spiders scuttle along the walls and ceiling, avoiding the gooey floor.
 
 #### Treasure
 
@@ -453,7 +448,7 @@ If the adventurers take 10 minutes to search through the goo, they can retrieve 
 
 ### 11. Spider Nest
 
-Giant spiders enjoy a symbiotic relationship with purple worms and are frequently found lairing in purple worm nurseries. The multitude of predators that seek out the worms' eggs provide the spiders with easy prey, while the presence of the spiders provides additional protection for thehatchery.
+Giant spiders enjoy a symbiotic relationship with purple worms and are frequently found lairing in purple worm nurseries. The multitude of predators that seek out the worms' eggs provide the spiders with easy prey, while the presence of the spiders provides additional protection for the hatchery.
 
 The eastern half of this cavern floor is covered in webs stretching up to the ceiling. See ""Dungeon Hazards"" in chapter 5 of the *Dungeon Master's Guide* for rules about webs. Eight [giant spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-spider.md) lurk in the nest, minus any killed elsewhere in the nursery.
 

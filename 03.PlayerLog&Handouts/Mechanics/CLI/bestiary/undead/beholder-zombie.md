@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Beholder Zombie
+- "Beholder Zombie"
 ---
-# [Beholder Zombie](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/beholder-zombie.md)
-*Source: Monster Manual p. 316, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage*  
+# [Beholder Zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/beholder-zombie.md)
+*Source: Monster Manual p. 316*  
 
 From somewhere in the darkness, a gurgling moan is heard. A form lurches into view, dragging one foot as it raises bloated arms and broken hands. The zombie advances, driven to kill anyone too slow to escape its grasp.
 
@@ -63,11 +64,12 @@ A zombie doesn't require air, food, drink, or sleep.
   - !!int "5"
 "speed": "0 ft., fly 20 ft. (hover)"
 "saves":
-  - "wisdom": "+2"
+  - "wisdom": !!int "2"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "understands Deep Speech and Undercommon but can't speak"
 "cr": "5"
 "traits":
@@ -76,20 +78,20 @@ A zombie doesn't require air, food, drink, or sleep.
       \ or from a critical hit. On a success, the zombie drops to 1 hit point instead."
     "name": "Undead Fortitude"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (4d6) piercing damage."
     "name": "Bite"
   - "desc": "The zombie uses a random magical eye ray, choosing a target that it can\
-      \ see within 60 feet of it.\n\n- 1. Paralyzing Ray. The targeted creature\
+      \ see within 60 feet of it.\n\n- **1. Paralyzing Ray.** The targeted creature\
       \ must succeed on a DC 14 Constitution saving throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
-      \ its turns, ending the effect on itself on a success.  \n- 2. Fear Ray.\
+      \ its turns, ending the effect on itself on a success.  \n- **2. Fear Ray.**\
       \ The targeted creature must succeed on a DC 14 Wisdom saving throw or be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
-      \ its turns, ending the effect on itself on a success.  \n- 3. Enervation\
-      \ Ray. The targeted creature must make a DC 14 Constitution saving throw,\
+      \ its turns, ending the effect on itself on a success.  \n- **3. Enervation\
+      \ Ray.** The targeted creature must make a DC 14 Constitution saving throw,\
       \ taking 36 (8d8) necrotic damage on a failed save, or half as much damage\
-      \ on a successful one.  \n- 4. Disintegration Ray. If the target is a creature,\
+      \ on a successful one.  \n- **4. Disintegration Ray.** If the target is a creature,\
       \ it must succeed on a DC 14 Dexterity saving throw or take 45 (10d8) force\
       \ damage. If this damage reduces the creature to 0 hit points, its body becomes\
       \ a pile of fine gray dust.  \n\n    If the target is a Large or smaller nonmagical\
@@ -99,8 +101,6 @@ A zombie doesn't require air, food, drink, or sleep.
     "name": "Eye Ray"
 "source":
   - "MM"
-  - "WDH"
-  - "WDMM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/beholder-zombie.webp"
 ```
 ^statblock

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 aliases:
-- Credits
+- "Credits"
 ---
 # Credits
 *Source: Princes of the Apocalypse* 
@@ -29,4 +30,7 @@ aliases:
         - **Brand and Marketing.** Nathan Stewart, Liz Schuh, Chris Lindsay, Shelly Mazzanoble, Hilary Ross, John Feil, Laura Tommervik, Kim Lundstrom, Trevor Kidd    
         - **Playtesters.** Teos Abadía, Robert Alaniz, Rory Alexander, Jay Anderson, Paul Baalham, Stacy Bermes, Joseph Bloch, Carlo Bosticco, Ken Breese, Tim Eagon, Pierce Gaithe, Richard Green, T. E. Hendrix, Sterling Hershey, Paul Hughes Matthew Jording, Yan Lacharité, Shane Leahy, Ryan Leary, Jonathan Longstaff, Jon Machnicz, Farrell Madden, Matt Maranda, Paul Melamed, Shawn Merwin, Lou Michelli, Rob Mickunas, Mike Mihalas, John Proudfoot, Rob Quillen II, Karl Resch, Sam Sherry, Sam E Simpson Jr, Pieter Sleijpen    
 
-![On the Cover: Aerisi Kalin...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/princes-of-the-apocalypse/img/credits.webp#center "On the Cover: Aerisi Kalinoth, the air prophet, unleashes the Cult of the Howling Hatred on the Dessarin Valley. A defiant Harper wizard named Zelraun Roaringhorn stands against her in this tempestuous scene illustrated by Raymond Swanland.")
+![On the Cover: Aerisi Kalinoth, the air prophet, unleashes the Cult of the Howling Hatred on the Dessarin Valley. A defiant Harper wizard named Zelraun Roaringhorn stands against her in this tempestuous scene illustrated by Raymond Swanland.](03.PlayerLog&Handouts/Mechanics/CLI/adventures/princes-of-the-apocalypse/img/credits.webp#center)
+
+> [!note]
+> Disclaimer: Wizards of the Coast urges adventurers to remember that not all rock creatures are earth elementals. A talking rock that controls boulders is a galeb duhr. A talking rock wearing jewelry is a dao. A silent rock that's resistant to non-adamantine weapons is a stone golem. A rock with wings is a gargoyle. A rock without a K is a giant bird. A rock that sits there and does nothing could be just a rock or a balor disguised by an illusion. In all cases, proceed with caution.

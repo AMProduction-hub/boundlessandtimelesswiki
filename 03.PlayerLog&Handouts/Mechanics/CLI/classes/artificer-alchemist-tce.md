@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/artificer/alchemist
 aliases:
-- Alchemist
+- "Alchemist"
 ---
 # Alchemist
 *[Artificer](./artificer-tce.md): Artificer Specialist*  
@@ -43,11 +44,9 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Alchemist (Level 3)
-
 An Alchemist is an expert at combining reagents to produce mystical effects. Alchemists use their creations to give life and to leech it away. Alchemy is the oldest of artificer traditions, and its versatility has long been valued during times of war and peace.
+
+## Subclass Features
 
 ### Tool Proficiency (Level 3)
 
@@ -79,8 +78,6 @@ When you reach certain levels in this class, you can make more elixirs at the en
 You can create additional *experimental elixirs* by expending a spell slot of 1st level or higher for each one. When you do so, you use your action to create the elixir in an empty flask you touch, and you choose the elixir's effect from the Experimental Elixir table.
 
 **Experimental Elixir**
-
-`dice: [](artificer-alchemist-tce.md#^experimental-elixir)`
 
 | dice: d6 | Effect |
 |----------|--------|

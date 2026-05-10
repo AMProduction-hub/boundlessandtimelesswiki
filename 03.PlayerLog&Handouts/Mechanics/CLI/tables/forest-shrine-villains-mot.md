@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Forest Shrine Villains
+- "Forest Shrine Villains"
 ---
 # Forest Shrine Villains
 *Source: Mythic Odysseys of Theros p. 158* 
 
 **Forest Shrine Villains**
-
-`dice: [](forest-shrine-villains-mot.md#^forest-shrine-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

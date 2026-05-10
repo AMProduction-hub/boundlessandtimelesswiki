@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Termalaine
+- "Termalaine"
 ---
 # Termalaine
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 93* 
@@ -191,8 +192,6 @@ Any character who examines the tracks and succeeds on a DC 13 Wisdom ([Survival]
 If a character using a miner's pick spends an hour chipping away at the walls, roll percentile dice and consult the Mining Discoveries table to determine what, if anything, the character unearths. The tourmalines found in the mine are translucent gemstones that come in different colors, including pale green, blue, pink, red, brown, and black.
 
 **Mining Discoveries**
-
-`dice: [](12-termalaine.md#^mining-discoveries)`
 
 | dice: d100 | Discovery |
 |------------|-----------|

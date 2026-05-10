@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Magic Items Awarded by Rarity - Minor
+- "Magic Items Awarded by Rarity - Minor"
 ---
 # Magic Items Awarded by Rarity - Minor
 *Source: Xanathar's Guide to Everything p. 135* 

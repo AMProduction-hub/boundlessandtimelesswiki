@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Roleplaying a Yuan-ti; Yuan-ti Personality Traits
+- "Roleplaying a Yuan-ti; Yuan-ti Personality Traits"
 ---
 # Roleplaying a Yuan-ti; Yuan-ti Personality Traits
 *Source: Volo's Guide to Monsters p. 98* 
 
 **Yuan-ti Personality Traits**
-
-`dice: [](roleplaying-a-yuan-ti-yuan-ti-personality-traits-vgm.md#^yuan-ti-personality-traits)`
 
 | dice: d8 | Personality Trait |
 |----------|-------------------|

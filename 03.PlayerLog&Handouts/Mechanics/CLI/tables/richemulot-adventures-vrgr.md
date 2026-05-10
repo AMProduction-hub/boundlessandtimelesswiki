@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Richemulot Adventures
+- "Richemulot Adventures"
 ---
 # Richemulot Adventures
 *Source: Van Richten's Guide to Ravenloft p. 153* 
 
 **Richemulot Adventures**
-
-`dice: [](richemulot-adventures-vrgr.md#^richemulot-adventures)`
 
 | dice: d6 | Adventure |
 |----------|-----------|

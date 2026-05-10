@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Deep Ethereal; Ethereal Curtains
+- "Deep Ethereal; Ethereal Curtains"
 ---
 # Deep Ethereal; Ethereal Curtains
 *Source: Dungeon Master's Guide p. 48* 
 
 **Ethereal Curtains**
-
-`dice: [](deep-ethereal-ethereal-curtains.md#^ethereal-curtains)`
 
 | dice: d8 | Plane | Color of Curtain |
 |----------|-------|------------------|

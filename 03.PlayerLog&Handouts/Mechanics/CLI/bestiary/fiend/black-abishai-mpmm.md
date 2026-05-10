@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Black Abishai
+- "Black Abishai"
 ---
-# [Black Abishai](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/black-abishai-mpmm.md)
+# [Black Abishai](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/black-abishai-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 38, Mordenkainen's Tome of Foes p. 160*  
 
 Expert assassins and infiltrators, black abishais can weave shadows to mask their presence, allowing them to reach a location where they can deliver a fatal strike to their targets.
@@ -45,8 +46,8 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
   - !!int "11"
 "speed": "30 ft., fly 40 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+6"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
@@ -56,7 +57,10 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
   \ that aren't silvered"
 "damage_immunities": "acid, fire, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 16"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "Draconic, Infernal, telepathy 120 ft."
 "cr": "7"
 "traits":
@@ -68,10 +72,10 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
 "actions":
   - "desc": "The abishai makes one Bite attack and two Scimitar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d10 + 3) piercing damage plus 9 (2d8) acid damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) force damage."
     "name": "Scimitar"
   - "desc": "The abishai casts [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md)\

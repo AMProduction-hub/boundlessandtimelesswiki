@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Healing Pools Villains
+- "Healing Pools Villains"
 ---
 # Healing Pools Villains
 *Source: Mythic Odysseys of Theros p. 162* 
 
 **Healing Pools Villains**
-
-`dice: [](healing-pools-villains-mot.md#^healing-pools-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

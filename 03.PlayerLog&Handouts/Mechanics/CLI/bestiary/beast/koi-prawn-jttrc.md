@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Koi Prawn
+- "Koi Prawn"
 ---
-# [Koi Prawn](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/koi-prawn-jttrc.md)
+# [Koi Prawn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/koi-prawn-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 26*  
 
 ```statblock
@@ -44,7 +45,7 @@ aliases:
   - "desc": "The prawn can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) bludgeoning damage."
     "name": "Ram"
 "source":

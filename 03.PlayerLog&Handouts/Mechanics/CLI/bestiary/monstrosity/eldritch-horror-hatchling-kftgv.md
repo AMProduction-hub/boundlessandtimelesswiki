@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Eldritch Horror Hatchling
+- "Eldritch Horror Hatchling"
 ---
-# [Eldritch Horror Hatchling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/eldritch-horror-hatchling-kftgv.md)
+# [Eldritch Horror Hatchling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/eldritch-horror-hatchling-kftgv.md)
 *Source: Keys from the Golden Vault p. 24*  
 
 ```statblock
@@ -32,12 +33,13 @@ aliases:
   - !!int "13"
   - !!int "6"
 "speed": "30 ft., burrow 10 ft."
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 11"
 "languages": ""
 "cr": "2"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
-      \ (2d6 + 3) slashing damage plus 3 (d6) poison damage. If the target is\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
+      \ (2d6 + 3) slashing damage plus 3 (1d6) poison damage. If the target is\
       \ a Large or smaller creature, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13). Until this grapple ends, the eldritch horror hatchling can\
       \ bite only the [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\

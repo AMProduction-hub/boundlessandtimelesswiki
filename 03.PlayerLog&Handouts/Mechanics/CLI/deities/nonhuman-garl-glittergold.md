@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/deity/nonhuman
 - ttrpg-cli/domain/trickery
-aliases: 
-- Garl Glittergold
+aliases:
+- "Garl Glittergold"
 ---
 # Garl Glittergold
 *Source: Player's Handbook p. 296* 

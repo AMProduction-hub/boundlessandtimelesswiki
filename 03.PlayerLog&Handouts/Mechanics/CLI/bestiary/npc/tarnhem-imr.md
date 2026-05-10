@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/monster/cr/19
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tarnhem
+- "Tarnhem"
 ---
-# [Tarnhem](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/tarnhem-imr.md)
+# [Tarnhem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/tarnhem-imr.md)
 *Source: Infernal Machine Rebuild p. 19*  
 
 ```statblock
@@ -34,15 +35,19 @@ aliases:
   - !!int "22"
 "speed": "40 ft., fly 80 ft."
 "saves":
-  - "strength": "+14"
-  - "constitution": "+12"
-  - "wisdom": "+9"
-  - "charisma": "+12"
+  - "strength": !!int "14"
+  - "constitution": !!int "12"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "12"
 "damage_resistances": "cold; lightning; bludgeoning, piercing, slashing from nonmagical\
   \ attacks"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 13"
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+  - "[whip](03.PlayerLog&Handouts/Mechanics/CLI/items/whip.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 13"
 "languages": "Abyssal, telepathy 120 ft."
 "cr": "19"
 "traits":
@@ -63,16 +68,16 @@ aliases:
   - "desc": "Tarnhem's weapon attacks are magical."
     "name": "Magic Weapons"
 "actions":
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:*\
       \ 13 (2d4 + 8) bludgeoning damage plus 7 (2d6) fire damage."
     "name": "Fist of Retribution"
   - "desc": "Tarnhem makes two attacks: one with its longsword and one with its whip."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:*\
       \ 21 (3d8 + 8) slashing damage plus 13 (3d8) lightning damage. If Tarnhem\
       \ scores a critical hit, it rolls damage dice three times, instead of twice."
     "name": "Longsword"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 30 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 30 ft., one target. *Hit:*\
       \ 15 (2d6 + 8) slashing damage plus 10 (3d6) fire damage, and the target\
       \ must succeed on a DC 20 Strength saving throw or be pulled up to 25 feet toward\
       \ Tarnhem."

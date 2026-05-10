@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/14
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mahadi the Rakshasa
+- "Mahadi the Rakshasa"
 ---
-# [Mahadi the Rakshasa](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/mahadi-the-rakshasa-bgdia.md)
+# [Mahadi the Rakshasa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/mahadi-the-rakshasa-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 127*  
 
 Mahadi appears as a wealthy merchant lord. Though extremely powerful, Mahadi doesn't believe in taking unnecessary risks, particularly in the Nine Hells where he can be permanently slain. Mahadi acts as the eyes and ears of Asmodeus in Avernus. As a deal broker and moderator, he's privy to all manner of dealings that might otherwise escape the attention of his patron.
@@ -43,8 +44,8 @@ Of course, guests leaving Infernal Rapture are expected to pay their bills in fu
   - !!int "20"
 "speed": "40 ft."
 "saves":
-  - "wisdom": "+9"
-  - "charisma": "+10"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -56,17 +57,18 @@ Of course, guests leaving Infernal Rapture are expected to pay their bills in fu
     "desc": "+9"
 "damage_vulnerabilities": "piercing from magic weapons wielded by good creatures"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
-"senses": "darkvision 120 ft., passive Perception 19"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 19"
 "languages": "all (can read only), Common, Infernal"
 "cr": "14"
 "traits":
   - "desc": "Mahadi's innate spellcasting ability is Charisma (spell save DC 18, +9\
       \ to hit with spell attacks). He can innately cast the following spells, requiring\
-      \ no material components:\n\nAt will: [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \ no material components:\n\n**At will:** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [minor\
       \ illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\n\
-      3/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      **3/day each:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [hellish rebuke](03.PlayerLog&Handouts/Mechanics/CLI/spells/hellish-rebuke.md),\
@@ -74,7 +76,7 @@ Of course, guests leaving Infernal Rapture are expected to pay their bills in fu
       \ [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md),\
       \ [speak with dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\n\
-      1/day each: [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      **1/day each:** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [demiplane](03.PlayerLog&Handouts/Mechanics/CLI/spells/demiplane.md), [dominate\
       \ person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md), [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md),\
       \ [forcecage](03.PlayerLog&Handouts/Mechanics/CLI/spells/forcecage.md), [geas](03.PlayerLog&Handouts/Mechanics/CLI/spells/geas.md),\
@@ -90,7 +92,7 @@ Of course, guests leaving Infernal Rapture are expected to pay their bills in fu
 "actions":
   - "desc": "Mahadi makes four claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d6 + 2) slashing damage, and the target is cursed if it's a creature.\
       \ The curse takes effect whenever the target takes a short or long rest, filling\
       \ the target's thoughts with horrible images and dreams. The cursed target gains\

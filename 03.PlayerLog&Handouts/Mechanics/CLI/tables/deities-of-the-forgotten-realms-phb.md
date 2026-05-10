@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Deities of the Forgotten Realms
+- "Deities of the Forgotten Realms"
 ---
 # Deities of the Forgotten Realms
 *Source: Player's Handbook p. 293. Available in the Basic Rules (2014)* 

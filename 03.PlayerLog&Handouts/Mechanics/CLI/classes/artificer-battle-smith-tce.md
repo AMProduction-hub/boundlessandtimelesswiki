@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/artificer/battle-smith
 aliases:
-- Battle Smith
+- "Battle Smith"
 ---
 # Battle Smith
 *[Artificer](./artificer-tce.md): Artificer Specialist*  
@@ -43,13 +44,11 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Battle Smith (Level 3)
-
 Armies require protection, and someone has to put things back together if defenses fail. A combination of protector and medic, a Battle Smith is an expert at defending others and repairing both material and personnel. To aid in their work, Battle Smiths are usually accompanied by a steel defender, a protective companion of their own creation. Many soldiers tell stories of nearly dying before being saved by a Battle Smith and a steel defender.
 
 Battle Smiths played a key role in House Cannith's work on battle constructs and the original warforged, and after the Last War, these artificers led efforts to aid those who were injured in the war's horrific battles.
+
+## Subclass Features
 
 ### Tool Proficiency (Level 3)
 
@@ -106,4 +105,4 @@ At 15th level, your Arcane Jolt and steel defender become more powerful:
 
 - The extra damage and the healing of your Arcane Jolt both increase to `4d6`.  
 - Your steel defender gains a +2 bonus to Armor Class.  
-- Whenever your steel defender uses its Deflect Attack, the attacker takes force damage equal to `d4` + your Intelligence modifier.
+- Whenever your steel defender uses its Deflect Attack, the attacker takes force damage equal to `1d4` + your Intelligence modifier.

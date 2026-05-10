@@ -1,16 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/gear/instrument
 - ttrpg-cli/item/rarity/rare
-aliases: 
+aliases:
 - "+2 Rhythm-Maker's Drum"
 ---
 # +2 Rhythm-Maker's Drum
-*Wondrous item, instrument, rare (requires attunement by a bard)*  
+*Wondrous item, instrument ([drum](03.PlayerLog&Handouts/Mechanics/CLI/items/drum.md)), rare (requires attunement by a bard)*  
 
 
 - **Weight**: 3.0 lbs.

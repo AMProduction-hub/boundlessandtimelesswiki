@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragon Army Officer
+- "Dragon Army Officer"
 ---
-# [Dragon Army Officer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/dragon-army-officer-dsotdq.md)
+# [Dragon Army Officer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/dragon-army-officer-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 200*  
 
 The Dragon Armies gather fanatical followers to their ranks. Recruits are indoctrinated to revere the Dragon Queen and view dragons as her favored servants. Troops in the Dragon Army wield weapons blessed by Takhisis to strike with the power of the dragons they fight alongside.
@@ -40,13 +41,16 @@ The weapons of Dragon Army troops are blessed with an infusion of dragon breath.
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+4"
-  - "wisdom": "+4"
+  - "dexterity": !!int "4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+5"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
+"gear":
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
+  - "[lance](03.PlayerLog&Handouts/Mechanics/CLI/items/lance.md)"
 "senses": "passive Perception 14"
 "languages": "Common, Draconic"
 "cr": "3"
@@ -58,11 +62,11 @@ The weapons of Dragon Army troops are blessed with an infusion of dragon breath.
   - "desc": "The officer makes two Vicious Lance attacks and uses Assault Orders if\
       \ it's available."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
-      \ 8 (1d10 + 3) piercing damage plus 2 (d4) fire damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
+      \ 8 (1d10 + 3) piercing damage plus 2 (1d4) fire damage."
     "name": "Vicious Lance"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit:\
-      \ 7 (1d10 + 2) piercing damage plus 5 (d10) fire damage."
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 100/400 ft., one target. *Hit:*\
+      \ 7 (1d10 + 2) piercing damage plus 5 (1d10) fire damage."
     "name": "Heavy Crossbow"
   - "desc": "The officer shouts orders and targets up to two other creatures within\
       \ 60 feet of itself. If a target has the Draconic Devotion trait and can hear\

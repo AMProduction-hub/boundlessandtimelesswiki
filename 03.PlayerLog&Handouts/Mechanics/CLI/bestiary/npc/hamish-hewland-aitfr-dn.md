@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/aitfr-dn
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hamish Hewland
+- "Hamish Hewland"
 ---
-# [Hamish Hewland](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/hamish-hewland-aitfr-dn.md)
+# [Hamish Hewland](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hamish-hewland-aitfr-dn.md)
 *Source: Adventures in the Forgotten Realms: Deepest Night p. 11*  
 
 A gentle giant with a ferocious laugh, Hamish hails from the city of Waterdeep. He was never one for the wilderness in his younger days, but he wanted adventure. He joined his friends, Sylvene and Artura, on their journey into the wilds of the Sword Coast, all those years ago, and was part of their adventuring party with a human from Secomber named Waltarn Everlake. That Hamish would be willing to risk his life to protect his friends was never in doubt.
@@ -52,8 +53,8 @@ Hamish has brown skin, great posture, and wears his long hair in three tidy brai
   - !!int "10"
 "speed": "40 ft."
 "saves":
-  - "strength": "+9"
-  - "wisdom": "+5"
+  - "strength": !!int "9"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+9"
@@ -69,10 +70,10 @@ Hamish has brown skin, great posture, and wears his long hair in three tidy brai
 "actions":
   - "desc": "Hamish makes two attacks with his axe or throws two rocks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 17\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 17\
       \ (2d10 + 6) slashing damage."
     "name": "Axe"
-  - "desc": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +9 to hit, range 60/240 ft., one target. *Hit:*\
       \ 17 (2d10 + 6) bludgeoning damage."
     "name": "Rock"
 "reactions":

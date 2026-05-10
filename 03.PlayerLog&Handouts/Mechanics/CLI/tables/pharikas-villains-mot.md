@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Pharika's Villains
+- "Pharika's Villains"
 ---
 # Pharika's Villains
 *Source: Mythic Odysseys of Theros p. 160* 
 
 **Pharika's Villains**
-
-`dice: [](pharikas-villains-mot.md#^pharikas-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

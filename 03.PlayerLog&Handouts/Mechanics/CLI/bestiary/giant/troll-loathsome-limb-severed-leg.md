@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -15,10 +16,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Troll (Loathsome Limb; Severed Leg)
+- "Troll (Loathsome Limb; Severed Leg)"
 ---
-# [Troll (Loathsome Limb; Severed Leg)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/troll-loathsome-limb-severed-leg.md)
-*Source: Monster Manual p. 291, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Storm Lord's Wrath, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Troll (Loathsome Limb; Severed Leg)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/troll-loathsome-limb-severed-leg.md)
+*Source: Monster Manual p. 291. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Troll (Loathsome Limb; Severed Leg)"
@@ -48,15 +49,6 @@ aliases:
     "name": "Regeneration"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "ToA"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "SLW"
-  - "EGW"
 ```
 ^statblock
 

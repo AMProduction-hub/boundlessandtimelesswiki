@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Creating a Multiverse
+- "Creating a Multiverse"
 ---
 # Creating a Multiverse
 *Source: Dungeon Master's Guide (2014), p. 43* 
@@ -142,7 +143,7 @@ Finally, most portals don't stand open all the time, but open only in particular
 
 - **Time.** The portal functions only at particular times: during a full moon on the Material Plane, or every ten days, or when the stars are in a particular position. Once it opens, such a portal remains open for a limited time, such as for three days following the full moon, or for an hour, or for `1d4 + 1` rounds.  
 - **Situation.** The portal functions only if a particular condition is met. A situation-keyed portal opens on a clear night, or when it rains, or when a certain spell is cast in its vicinity.  
-- **Random.** A random portal functions for a random period, then shuts down for a similarly random duration. Typically, such a portal allows `1d6 + 6` travelers to pass through, then shuts down for `d6` days.  
+- **Random.** A random portal functions for a random period, then shuts down for a similarly random duration. Typically, such a portal allows `1d6 + 6` travelers to pass through, then shuts down for `1d6` days.  
 - **Command Word.** The portal functions only if a particular command word is spoken. Sometimes the word must be spoken as a character passes through the portal (which is otherwise a mundane doorway, window, or similar opening). Other portals open when the command word is spoken and remain open for a short time.  
 - **Key.** The portal functions if the traveler is holding a particular object; the item acts much like a key to a door. This key item can be a common object or a particular key created for that portal. The city of Sigil above the Outlands is known as the City of Doors because it features an overwhelming number of such item-keyed portals.  
 
@@ -244,13 +245,13 @@ Traveling through the Deep Ethereal to journey from one plane to another is unli
 
 ### Ether Cyclones
 
-An ether cyclone is a serpentine column that spins through the plane. The cyclone appears abruptly, distorting and uprooting ethereal forms in its path and carrying the debris for leagues. Travelers with a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 15 or more receive `d4` rounds of warning: a deep hum in the ethereal matter.
+An ether cyclone is a serpentine column that spins through the plane. The cyclone appears abruptly, distorting and uprooting ethereal forms in its path and carrying the debris for leagues. Travelers with a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 15 or more receive `1d4` rounds of warning: a deep hum in the ethereal matter.
 
 Travelers who can't reach a curtain or portal leading elsewhere suffer the cyclone's effect. Roll a `d20` and consult the Ether Cyclone table to determine the effect on all creatures in the vicinity.
 
 ![Ether Cyclones](03.PlayerLog&Handouts/Mechanics/CLI/tables/ether-cyclones.md)
 
-The most common effect of an ether cyclone is to extend the duration of a journey. Each character in a group traveling together must make a DC 15 Charisma saving throw. If at least half the group succeeds, travel is delayed by `d10` hours. Otherwise, the journey's travel time is doubled. Less often, a group is blown into the Border Ethereal of a random plane. Rarely, the cyclone tears a hole in the fabric of the plane and hurls the party into the Astral Plane.
+The most common effect of an ether cyclone is to extend the duration of a journey. Each character in a group traveling together must make a DC 15 Charisma saving throw. If at least half the group succeeds, travel is delayed by `1d10` hours. Otherwise, the journey's travel time is doubled. Less often, a group is blown into the Border Ethereal of a random plane. Rarely, the cyclone tears a hole in the fabric of the plane and hurls the party into the Astral Plane.
 
 ### Ethereal Plane Encounters
 
@@ -522,7 +523,7 @@ The two layers of the Twin Paradises of Bytopia are similar yet opposite: one is
 
 #### Optional Rule: Pervasive Goodwill
 
-At the end of each long rest taken on this plane, a visitor that is neither lawful good nor neutral good must make a DC 10 Wisdom saving throw. On a failed save, the creature's alignment changes to lawful good or neutral good (whichever is closer to the creature's current alignment). The change becomes permanent if the creature doesn't leave the plane within `d4` days. Otherwise, the creature's alignment reverts to normal after one day spent on a plane other than Bytopia. Casting the *dispel evil and good* spell on the creature also restores its original alignment.
+At the end of each long rest taken on this plane, a visitor that is neither lawful good nor neutral good must make a DC 10 Wisdom saving throw. On a failed save, the creature's alignment changes to lawful good or neutral good (whichever is closer to the creature's current alignment). The change becomes permanent if the creature doesn't leave the plane within `1d4` days. Otherwise, the creature's alignment reverts to normal after one day spent on a plane other than Bytopia. Casting the *dispel evil and good* spell on the creature also restores its original alignment.
 
 ### Elysium
 
@@ -670,7 +671,7 @@ The Nine Hells of Baator inflame the imaginations of travelers, the greed of tre
 
 #### Optional Rule: Pervasive Evil
 
-Evil pervades the Nine Hells, and visitors to this plane feel its influence. At the end of each long rest taken on this plane, a visitor that isn't evil must make a DC 10 Wisdom saving throw. On a failed save, the creature's alignment changes to lawful evil. The change becomes permanent if the creature doesn't leave the plane within `d4` days. Otherwise, the creature's alignment reverts to normal after one day spent on a plane other than the Nine Hells. Casting the dispel evil and good spell on the creature also restores its original alignment.
+Evil pervades the Nine Hells, and visitors to this plane feel its influence. At the end of each long rest taken on this plane, a visitor that isn't evil must make a DC 10 Wisdom saving throw. On a failed save, the creature's alignment changes to lawful evil. The change becomes permanent if the creature doesn't leave the plane within `1d4` days. Otherwise, the creature's alignment reverts to normal after one day spent on a plane other than the Nine Hells. Casting the dispel evil and good spell on the creature also restores its original alignment.
 
 #### The Nine Layers
 

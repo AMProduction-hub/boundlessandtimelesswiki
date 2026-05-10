@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/reward/athreoss-devotee
 aliases:
-- Spells for Athreos's Devotee
+- "Spells for Athreos's Devotee"
 ---
 # Spells for Athreos's Devotee
 

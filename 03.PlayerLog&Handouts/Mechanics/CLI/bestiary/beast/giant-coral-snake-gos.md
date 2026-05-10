@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Coral Snake
+- "Giant Coral Snake"
 ---
-# [Giant Coral Snake](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-coral-snake-gos.md)
+# [Giant Coral Snake](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-coral-snake-gos.md)
 *Source: Ghosts of Saltmarsh p. 236*  
 
 Comfortable on land or in water, these brilliantly colored snakes are renowned for their potent and hallucinogenic venom. They are most often found in coastal caves. In the abandoned chambers of the hermitage in Tammeraut's Fate, these giant serpents feed on any creature that crosses their path.
@@ -36,11 +37,12 @@ Comfortable on land or in water, these brilliantly colored snakes are renowned f
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "blindsight 10 ft., passive Perception 12"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., passive Perception 12"
 "languages": ""
 "cr": "4"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (2d4 + 3) piercing damage, and the target must succeed on a DC 12 Constitution\
       \ saving throw or be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
       \ until the end of its next turn. On a failed save, the target begins to hallucinate\

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 aliases:
-- Fire and Darkness
+- "Fire and Darkness"
 ---
 # Fire and Darkness
 *Source: Keys from the Golden Vault, p. 195* 
@@ -15,7 +16,7 @@ For centuries, a powerful efreeti named Vrakir sent his armies against numerous 
 
 In this heist, the heroes must infiltrate Brimstone Hold, the prison-fortress where Vrakir has locked away the [Book of Vile Darkness](03.PlayerLog&Handouts/Mechanics/CLI/items/book-of-vile-darkness-variant-kftgv.md), and escape with the efreeti's prize. The characters' contact is an arcanaloth named Nebukath, the hold's duplicitous administrator, who secretly covets the book and plans to betray the heroes as soon as the group recovers it.
 
-![An efreeti's fortress hold...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/098-13-001-ch13-splash.webp#center "An efreeti's fortress holds the Book of Vile Darkness. Good luck storming this castle")
+![An efreeti's fortress holds the Book of Vile Darkness. Good luck storming this castle](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/098-13-001-ch13-splash.webp#center)
 
 ## Adventure Background
 

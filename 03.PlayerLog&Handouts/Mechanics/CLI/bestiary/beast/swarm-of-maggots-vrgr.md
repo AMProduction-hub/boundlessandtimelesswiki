@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/2
@@ -9,16 +10,14 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Swarm of Maggots
+- "Swarm of Maggots"
 ---
-# [Swarm of Maggots](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/swarm-of-maggots-vrgr.md)
+# [Swarm of Maggots](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-maggots-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 247*  
 
 Base creatures are among the first to respond to sinister forces at work in a land. As nefarious powers grip an area, populations of maggots, scarabs, and similar scavenging insects explode and become aggressive predators. Roll on the Swarm Behavior table to see how such swarms might manifest.
 
 **Swarm Behavior**
-
-`dice: [](swarm-of-maggots-vrgr.md#^swarm-behavior)`
 
 | dice: d4 | Behavior |
 |----------|----------|
@@ -53,7 +52,8 @@ Base creatures are among the first to respond to sinister forces at work in a la
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "blindsight 10 ft., passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., passive Perception 8"
 "languages": ""
 "cr": "2"
 "traits":
@@ -62,15 +62,15 @@ Base creatures are among the first to respond to sinister forces at work in a la
       \ can't regain hit points or gain temporary hit points."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's\
-      \ space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 0 ft., one target in the swarm's\
+      \ space. *Hit:* 10 (4d4) piercing damage, or 5 (2d4) piercing damage if\
       \ the swarm has half of its hit points or fewer. A creature damaged by the swarm\
       \ must succeed on a DC 12 Constitution saving throw or contract a disease.\n\
       \nEach time the diseased creature finishes a long rest, roll a d6 to determine\
-      \ the disease's effect:\n\n- 1-2. The creature is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
-      \ until it finishes a long rest.  \n- 3-4. The creature's hit point maximum\
+      \ the disease's effect:\n\n- **1-2.** The creature is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
+      \ until it finishes a long rest.  \n- **3-4.** The creature's hit point maximum\
       \ decreases by 5 (2d4), and the reduction can't be removed until the disease\
-      \ ends. The creature dies if its hit point maximum drops to 0.  \n- 5-6.\
+      \ ends. The creature dies if its hit point maximum drops to 0.  \n- **5-6.**\
       \ The creature has disadvantage on ability checks and attack rolls until it\
       \ finishes its next long rest.  \n\n    The disease lasts until it's removed\
       \ by magic or until the creature rolls the same random effect for the disease\

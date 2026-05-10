@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -14,10 +15,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Toad
+- "Giant Toad"
 ---
-# [Giant Toad](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-toad.md)
-*Source: Monster Manual p. 329, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Toad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-toad.md)
+*Source: Monster Manual p. 329. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Giant Toad"
@@ -36,7 +37,8 @@ aliases:
   - !!int "10"
   - !!int "3"
 "speed": "20 ft., swim 40 ft."
-"senses": "darkvision 30 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 30 ft., passive Perception 10"
 "languages": ""
 "cr": "1"
 "traits":
@@ -46,8 +48,8 @@ aliases:
       \ with or without a running start."
     "name": "Standing Leap"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d10 + 2) piercing damage plus 5 (d10) poison damage, and the target\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
+      \ (1d10 + 2) piercing damage plus 5 (1d10) poison damage, and the target\
       \ is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and the toad can't bite another target."
@@ -64,11 +66,6 @@ aliases:
     "name": "Swallow"
 "source":
   - "MM"
-  - "WDMM"
-  - "GoS"
-  - "EGW"
-  - "TCE"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-toad.webp"
 ```
 ^statblock

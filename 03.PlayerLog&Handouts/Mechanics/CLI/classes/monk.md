@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/class/monk
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Monk
+- "Monk"
 ---
 # Monk
 *Source: Player's Handbook p. 76. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
@@ -132,8 +133,6 @@ What sort of place was your monastery, and where is it located? Did attending it
 
 **Monastery**
 
-`dice: [](monk.md#^monastery)`
-
 | dice: d6 | Monastery |
 |----------|-----------|
 | 1 | Your monastery is carved out of a mountainside, where it looms over a treacherous pass. |
@@ -153,8 +152,6 @@ If your character's monastery had a special icon, you might wear a crude image o
 
 **Icon**
 
-`dice: [](monk.md#^icon)`
-
 | dice: d6 | Icon |
 |----------|------|
 | 1 | Monkey. Quick reflexes and the ability to travel through the treetops are two of the reasons why your order admires the monkey. |
@@ -171,8 +168,6 @@ _Source: Xanathar's Guide to Everything_
 During your studies, you were likely under the tutelage of a master who imparted to you the precepts of the order. Your master was the one most responsible for shaping your understanding of the martial arts and your attitude toward the world. What sort of person was your master, and how did your relationship with your master affect you?
 
 **Master**
-
-`dice: [](monk.md#^master)`
 
 | dice: d6 | Master |
 |----------|--------|
@@ -247,7 +242,7 @@ At 9th level, you gain the ability to move along vertical surfaces and across li
 
 ### Deflect Missiles (Level 3)
 
-Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by `d10` + your Dexterity modifier + your monk level.
+Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by `1d10` + your Dexterity modifier + your monk level.
 
 If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack (range 20/60 feet) with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack.
 

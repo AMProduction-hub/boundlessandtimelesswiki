@@ -1,15 +1,20 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/egw
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/level/8th-level
 - ttrpg-cli/spell/school/evocation
+- ttrpg-cli/spell/subclass/chronurgy-magic
+- ttrpg-cli/spell/subclass/graviturgy-magic
 classes:
-- Bard
+- Bard (Magical Secrets)
+- Wizard (Chronurgy Magic)
+- Wizard (Graviturgy Magic)
 aliases:
-- Dark Star
+- "Dark Star"
 ---
 # Dark Star
 *8th-level, Evocation*  
@@ -22,10 +27,10 @@ aliases:
 
 This spell creates a sphere centered on a point you choose within range. The sphere can have a radius of up to 40 feet. The area within this sphere is filled with magical darkness and crushing gravitational force.
 
-For the duration, the spell's area is difficult terrain. A creature with darkvision can't see through the magical darkness, and nonmagical light can't illuminate it. No sound can be created within or pass through the area. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened) while entirely inside it. Casting a spell that includes a verbal component is impossible there.
+For the duration, the spell's area is difficult terrain. A creature with [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) can't see through the magical darkness, and nonmagical light can't illuminate it. No sound can be created within or pass through the area. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened) while entirely inside it. Casting a spell that includes a verbal component is impossible there.
 
 Any creature that enters the spell's area for the first time on a turn or starts its turn there must make a Constitution saving throw. The creature takes `8d10` force damage on a failed save, or half as much damage on a successful one. A creature reduced to 0 hit points by this damage is disintegrated. A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Wizard (Chronurgy Magic)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-chronurgy-magic-egw.md "subclass=EGW"); [Wizard (Graviturgy Magic)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-graviturgy-magic-egw.md "subclass=EGW")
 
 *Source: Explorer's Guide to Wildemount p. 186*

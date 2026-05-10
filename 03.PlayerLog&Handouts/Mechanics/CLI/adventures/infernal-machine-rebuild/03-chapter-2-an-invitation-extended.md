@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 aliases:
-- Chapter 2: An Invitation Extended
+- "Chapter 2: An Invitation Extended"
 ---
 # Chapter 2: An Invitation Extended
 *Source: Infernal Machine Rebuild, p. 9* 
@@ -30,8 +31,6 @@ The two agents reside in or close to the characters' current city or home base. 
 The two agents remain engaged in a constant war of espionage against one another. Even their couriers (both neutral human [spies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md)) compete to deliver their respective invitations first. Roll on the Courier Conflict table to determine the outcome of the couriers' mission.
 
 **Courier Conflict**
-
-`dice: [](03-chapter-2-an-invitation-extended.md#^courier-conflict)`
 
 | dice: d100 | Result |
 |------------|--------|
@@ -141,7 +140,7 @@ Each mechanical guide is programmed to teleport through space and time to the ad
 
 Each guide is an unaligned Medium construct with AC 20, 50 hit points, and a speed of 20 feet. It has no attacks, and has a +0 modifier for all its ability scores.
 
-Each guide has 6 charges, and regains `d6` expended charges daily at dawn. Teleporting itself and the party to either adventure locale or back to its home manor costs a guide 1 charge. A guide can also be commanded to spend 1 or more charges to manipulate time in the local area at either adventure location. See "Manipulating Time" below for more information.
+Each guide has 6 charges, and regains `1d6` expended charges daily at dawn. Teleporting itself and the party to either adventure locale or back to its home manor costs a guide 1 charge. A guide can also be commanded to spend 1 or more charges to manipulate time in the local area at either adventure location. See "Manipulating Time" below for more information.
 
 All damage dealt to a guide can be restored during a long rest with a successful DC 14 Dexterity check using thieves' tools or tinker's tools. A damaged guide can also be restored to full hit points by the use of a [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md) spell or similar magic. If reduced to 0 hit points, the guide is destroyed and no longer functions—possibly stranding the characters in the distant past. Chapter 3 and chapter 4 each offer appropriate suggestions for how the characters might repair or replace a destroyed guide.
 

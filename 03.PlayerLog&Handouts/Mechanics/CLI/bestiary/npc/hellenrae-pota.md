@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hellenrae
+- "Hellenrae"
 ---
-# [Hellenrae](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/hellenrae-pota.md)
+# [Hellenrae](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hellenrae-pota.md)
 *Source: Princes of the Apocalypse p. 198*  
 
 The chief lieutenant of Marlos Urnrayle, Hellenrae lost her sight as a child. A bitter, angry orphan, she was taken in by a monastic order and trained to use her other senses to compensate. However, she took the monks' philosophy of self-denial and emptiness of mind to extremes, seeking to fill herself with the dark power she sensed sleeping in the earth and rock around her.
@@ -48,7 +49,8 @@ Hellenrae is a dour, unsmiling woman who habitually wears drab robes and a golde
 "damage_immunities": "poison"
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 15"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 15"
 "languages": "Common, Terran"
 "cr": "5"
 "traits":
@@ -69,7 +71,7 @@ Hellenrae is a dour, unsmiling woman who habitually wears drab robes and a golde
 "actions":
   - "desc": "Hellenrae makes three melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d10 + 4) bludgeoning damage."
     "name": "Unarmed Strike"
 "reactions":

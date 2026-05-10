@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Thurl Merosska
+- "Thurl Merosska"
 ---
-# [Thurl Merosska](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/thurl-merosska-pota.md)
+# [Thurl Merosska](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/thurl-merosska-pota.md)
 *Source: Princes of the Apocalypse p. 192*  
 
 Thurl Merosska is the leader of the Feathergale Knights. Once a griffon rider of Waterdeep, Thurl retired after a storm nearly claimed his life. Obsessed with his near-death experience, Thurl learned of Yan-C-Bin and swore an oath to serve the elemental prince in exchange for power.
@@ -48,30 +49,33 @@ When Aerisi Kalinoth arose as the chosen prophet of air, Thurl reluctantly pledg
     "desc": "+4"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+4"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+  - "[lance](03.PlayerLog&Handouts/Mechanics/CLI/items/lance.md)"
 "senses": "passive Perception 10"
 "languages": "Auran, Common"
 "cr": "3"
 "traits":
   - "desc": "Thurl is a 5th-level spellcaster. His spellcasting ability is Charisma\
       \ (spell save DC 12, +4 to hit with spell attacks). Thurl knows the following\
-      \ sorcerer spells:\n\nCantrips (at will): [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md),\
+      \ sorcerer spells:\n\n**Cantrips (at will):** [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md),\
       \ [gust](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-xge.md), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md), [ray of\
-      \ frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\n1st\
-      \ level (4 slots): [expeditious retreat](03.PlayerLog&Handouts/Mechanics/CLI/spells/expeditious-retreat.md),\
+      \ frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\n**1st\
+      \ level (4 slots):** [expeditious retreat](03.PlayerLog&Handouts/Mechanics/CLI/spells/expeditious-retreat.md),\
       \ [feather fall](03.PlayerLog&Handouts/Mechanics/CLI/spells/feather-fall.md),\
-      \ [jump](03.PlayerLog&Handouts/Mechanics/CLI/spells/jump.md)\n\n2nd level\
-      \ (3 slots): [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md),\
+      \ [jump](03.PlayerLog&Handouts/Mechanics/CLI/spells/jump.md)\n\n**2nd level\
+      \ (3 slots):** [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md)\n\n\
-      3rd level (2 slots): [haste](03.PlayerLog&Handouts/Mechanics/CLI/spells/haste.md)"
+      **3rd level (2 slots):** [haste](03.PlayerLog&Handouts/Mechanics/CLI/spells/haste.md)"
     "name": "Spellcasting"
 "actions":
   - "desc": "Thurl makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage."
     "name": "Greatsword"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
       \ 9 (1d12 + 3) piercing damage."
     "name": "Lance"
 "reactions":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kusa Xungoon
+- "Kusa Xungoon"
 ---
-# [Kusa Xungoon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/kusa-xungoon-jttrc.md)
+# [Kusa Xungoon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kusa-xungoon-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 20*  
 
 ```statblock
@@ -40,7 +41,10 @@ aliases:
     "desc": "+4"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "any two languages, Draconic"
 "cr": "1/8"
 "traits":
@@ -49,7 +53,7 @@ aliases:
   - "desc": "Kusa"
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d8 + 1) piercing damage."
     "name": "Rapier"
 "reactions":

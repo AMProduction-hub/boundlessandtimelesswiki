@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/4
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Chuul
+- "Chuul"
 ---
-# [Chuul](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/chuul.md)
-*Source: Monster Manual p. 40, Princes of the Apocalypse, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Chuul](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/chuul.md)
+*Source: Monster Manual p. 40. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Survivors of the ancient aboleth empire, chuuls are crustaceans the aboleths modified and endowed with sentience. They follow the ingrained directives of their creators, as they have done since the dawn of time.
 
@@ -56,7 +57,8 @@ Although the aboleths' ancient empire fell long ago, the psychic bonds between t
     "desc": "+4"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "understands Deep Speech but can't speak"
 "cr": "4"
 "traits":
@@ -70,7 +72,7 @@ Although the aboleths' ancient empire fell long ago, the psychic bonds between t
   - "desc": "The chuul makes two pincer attacks. If the chuul is grappling a creature,\
       \ the chuul can also use its tentacles once."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (2d6 + 4) bludgeoning damage. The target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14) if it is a Large or smaller creature and the chuul doesn't\
       \ have two other creatures [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)."
@@ -83,9 +85,6 @@ Although the aboleths' ancient empire fell long ago, the psychic bonds between t
     "name": "Tentacles"
 "source":
   - "MM"
-  - "PotA"
-  - "WDMM"
-  - "GoS"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/chuul.webp"
 ```
 ^statblock

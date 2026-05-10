@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 aliases:
-- Heart of Ashes
+- "Heart of Ashes"
 ---
 # Heart of Ashes
 *Source: Keys from the Golden Vault, p. 149* 
@@ -13,7 +14,7 @@ aliases:
 
 Ghalasine is under a terrible curse. An evil spellcaster has enacted a ritual to siphon life from the city's people and reduce the city itself to ash. Powering the ritual is the heart of Ghalasine's vanquished leader, [King Jhaeros](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/king-jhaeros-kftgv.md) Astolko. In this adventure, the characters must infiltrate Castle Cinis and recover the king's heart to end the ritual, thereby saving Ghalasine.
 
-![The city of Ghalasine lies...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/074-10-001-ch10-splash.webp#center "The city of Ghalasine lies in ruins, but it's not too late to undo the damage and set things right")
+![The city of Ghalasine lies in ruins, but it's not too late to undo the damage and set things right](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/074-10-001-ch10-splash.webp#center)
 
 ## Adventure Background
 
@@ -118,7 +119,7 @@ The characters can count a total of ten guards, all of whom are [ashen veterans]
 
 Characters who spend a few minutes studying the guards' movements gain advantage on Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)) checks made to approach the castle unseen.
 
-If the guards at the entrance or the guards on patrol spot the characters, one of them blows a horn to summon the other guards, who arrive `d4` rounds later.
+If the guards at the entrance or the guards on patrol spot the characters, one of them blows a horn to summon the other guards, who arrive `1d4` rounds later.
 
 ### Castle Features
 
@@ -372,7 +373,7 @@ When the characters enter the tower, read or paraphrase the following:
 
 The soul of any character killed by Charmayne becomes trapped in the void that hovers over Castle Cinis (see "The Void" later in the adventure).
 
-![A daring adventurer leaps ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/079-10-004-dnd-platforming.webp#center "A daring adventurer leaps to a floating tower that has detached from Castle Cinis")
+![A daring adventurer leaps to a floating tower that has detached from Castle Cinis](03.PlayerLog&Handouts/Mechanics/CLI/adventures/keys-from-the-golden-vault/img/079-10-004-dnd-platforming.webp#center)
 
 #### S15: King's Armory
 

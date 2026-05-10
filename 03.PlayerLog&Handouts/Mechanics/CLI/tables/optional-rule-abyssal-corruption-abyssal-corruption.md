@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Optional Rule: Abyssal Corruption; Abyssal Corruption
+- "Optional Rule: Abyssal Corruption; Abyssal Corruption"
 ---
 # Optional Rule: Abyssal Corruption; Abyssal Corruption
 *Source: Dungeon Master's Guide p. 62* 
 
 **Abyssal Corruption**
-
-`dice: [](optional-rule-abyssal-corruption-abyssal-corruption.md#^abyssal-corruption)`
 
 | dice: d10 | Result |
 |-----------|--------|

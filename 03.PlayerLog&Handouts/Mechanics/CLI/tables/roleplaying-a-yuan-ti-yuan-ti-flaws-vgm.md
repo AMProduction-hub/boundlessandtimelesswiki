@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Roleplaying a Yuan-ti; Yuan-ti Flaws
+- "Roleplaying a Yuan-ti; Yuan-ti Flaws"
 ---
 # Roleplaying a Yuan-ti; Yuan-ti Flaws
 *Source: Volo's Guide to Monsters p. 98* 
 
 **Yuan-ti Flaws**
-
-`dice: [](roleplaying-a-yuan-ti-yuan-ti-flaws-vgm.md#^yuan-ti-flaws)`
 
 | dice: d6 | Flaw |
 |----------|------|

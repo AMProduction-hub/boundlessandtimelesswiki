@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/deity/theros
 - ttrpg-cli/domain/knowledge
 - ttrpg-cli/domain/tempest
-aliases: 
-- Keranos
+aliases:
+- "Keranos"
 ---
 # Keranos
 *Source: Mythic Odysseys of Theros p. 55* 
@@ -92,8 +93,6 @@ The god of storms is inscrutable at the best of times; thus, it can be difficult
 
 **Keranos's Favor**
 
-`dice: [](theros-keranos-mot.md#^keranoss-favor)`
-
 | dice: d6 | Circumstance |
 |----------|--------------|
 | 1 | You were born amid a great storm that destroyed most of your village. |
@@ -109,8 +108,6 @@ The god of storms is inscrutable at the best of times; thus, it can be difficult
 Just as the storm is unpredictable and often dangerous, so is service to the lord of storms. Keranos's devotees hatch their grand designs always with an eye on the darkening sky. As a follower of Keranos, consider the ideals on the Keranos's Ideals table as alternatives to those suggested for your background.
 
 **Keranos's Ideals**
-
-`dice: [](theros-keranos-mot.md#^keranoss-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

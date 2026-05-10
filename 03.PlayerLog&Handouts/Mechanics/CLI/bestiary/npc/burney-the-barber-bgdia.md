@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/21
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Burney the Barber
+- "Burney the Barber"
 ---
-# [Burney the Barber](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/burney-the-barber-bgdia.md)
+# [Burney the Barber](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/burney-the-barber-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 129*  
 
 ```statblock
@@ -33,10 +34,10 @@ aliases:
   - !!int "19"
 "speed": "40 ft., climb 40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+8"
-  - "constitution": "+14"
-  - "wisdom": "+10"
-  - "charisma": "+11"
+  - "dexterity": !!int "8"
+  - "constitution": !!int "14"
+  - "wisdom": !!int "10"
+  - "charisma": !!int "11"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+11"
@@ -45,7 +46,9 @@ aliases:
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+8"
 "damage_immunities": "acid"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 27"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 27"
 "languages": "Common, Draconic"
 "cr": "21"
 "traits":
@@ -75,13 +78,13 @@ aliases:
   - "desc": "Burney can use its Frightful Presence. It then makes three attacks: one\
       \ with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 15 ft., one target. *Hit:*\
       \ 19 (2d10 + 8) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. *Hit:*\
       \ 15 (2d6 + 8) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 20 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) bludgeoning damage."
     "name": "Tail"
   - "desc": "Each creature of Burney's choice that is within 120 feet of Burney and\
@@ -91,11 +94,11 @@ aliases:
       \ throw is successful or the effect ends for it, the creature is immune to Burney's\
       \ Frightful Presence for the next 24 hours."
     "name": "Frightful Presence"
-  - "desc": "Burney uses one of the following breath weapons.\n\n- Acid Breath.\
+  - "desc": "Burney uses one of the following breath weapons.\n\n- **Acid Breath.**\
       \ Burney exhales acid in a 90-foot line that is 10 feet wide. Each creature\
       \ in that line must make a DC 22 Dexterity saving throw, taking 63 (14d8)\
       \ acid damage on a failed save, or half as much damage on a successful one.\
-      \  \n- Slowing Breath. Burney exhales gas in a 90-foot cone. Each creature\
+      \  \n- **Slowing Breath.** Burney exhales gas in a 90-foot cone. Each creature\
       \ in that area must succeed on a DC 22 Constitution saving throw. On a failed\
       \ save, the creature can't use reactions, its speed is halved, and it can't\
       \ make more than one attack on its turn. In addition, the creature can use either\
@@ -113,6 +116,9 @@ aliases:
       \ by those of the new form, except any class features or legendary actions of\
       \ that form."
     "name": "Change Shape"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Burney can expend a use to take one of the following actions. Burney regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Burney makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ check."

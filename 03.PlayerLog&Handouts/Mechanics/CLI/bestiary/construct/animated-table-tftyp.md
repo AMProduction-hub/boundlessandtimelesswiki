@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Animated Table
+- "Animated Table"
 ---
-# [Animated Table](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/animated-table-tftyp.md)
+# [Animated Table](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-table-tftyp.md)
 *Source: Tales from the Yawning Portal p. 230*  
 
 ## Arundil's Animated Objects
@@ -50,7 +51,8 @@ An animated table doesn't require air, food, drink, or sleep.
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 6"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 6"
 "languages": ""
 "cr": "2"
 "traits":
@@ -70,7 +72,7 @@ An animated table doesn't require air, food, drink, or sleep.
       \ Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Charge"
 "actions":
-  - "desc": "Melee Weapon Attack: +6, reach 5 ft., one target. Hit: 13 (2d8\
+  - "desc": "*Melee Weapon Attack:* +6, reach 5 ft., one target. *Hit:* 13 (2d8\
       \ + 4) bludgeoning damage."
     "name": "Ram"
 "source":

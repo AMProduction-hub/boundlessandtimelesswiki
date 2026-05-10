@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Plesiosaurus
+- "Plesiosaurus"
 ---
-# [Plesiosaurus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/plesiosaurus.md)
-*Source: Monster Manual p. 80, Tomb of Annihilation, Ghosts of Saltmarsh, Icewind Dale: Rime of the Frostmaiden, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Plesiosaurus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/plesiosaurus.md)
+*Source: Monster Manual p. 80. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A plesiosaurus is a marine dinosaur whose compact body is driven by powerful flippers. Predatory and aggressive, it attacks any creature it encounters. Its flexible neck accounts for a third of its total length, letting it twist in any direction to deliver a powerful bite.
 
@@ -54,15 +55,11 @@ Dinosaurs come in many sizes and shapes. Larger varieties often have drab colora
   - "desc": "The plesiosaurus can hold its breath for 1 hour."
     "name": "Hold Breath"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
       \ 14 (3d6 + 4) piercing damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "ToA"
-  - "GoS"
-  - "IDRotF"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/plesiosaurus.webp"
 ```
 ^statblock

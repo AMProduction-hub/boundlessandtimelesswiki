@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-object
+cssclasses:
+- json5e-object
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/object/size/huge
 - ttrpg-cli/object/type/siege-weapon
 aliases:
-- Trebuchet
+- "Trebuchet"
 ---
 # Trebuchet
 %%-- Embedded content starts on the next line. --%%

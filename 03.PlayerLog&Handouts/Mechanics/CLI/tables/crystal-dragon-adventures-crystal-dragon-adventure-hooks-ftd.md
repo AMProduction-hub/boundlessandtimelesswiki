@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Crystal Dragon Adventures; Crystal Dragon Adventure Hooks
+- "Crystal Dragon Adventures; Crystal Dragon Adventure Hooks"
 ---
 # Crystal Dragon Adventures; Crystal Dragon Adventure Hooks
 *Source: Fizban's Treasury of Dragons p. 103* 
 
 **Crystal Dragon Adventure Hooks**
-
-`dice: [](crystal-dragon-adventures-crystal-dragon-adventure-hooks-ftd.md#^crystal-dragon-adventure-hooks)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|

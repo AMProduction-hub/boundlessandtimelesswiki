@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/11
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Cloud Giant Smiling One
+- "Cloud Giant Smiling One"
 ---
-# [Cloud Giant Smiling One](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/cloud-giant-smiling-one-mpmm.md)
+# [Cloud Giant Smiling One](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/cloud-giant-smiling-one-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 81, Volo's Guide to Monsters p. 146*  
 
 Smiling ones are cloud giants who honor and emulate the craftiness and deceit of the deity Memnor above all else. They are tricksters supreme who use sleight of hand, deception, misdirection, and magic in their pursuit of wealth. They also possess a flair for unpredictability and a wicked sense of humor. Smiling ones overstep all bounds of decorum with their behavior, doing and saying things that even other knavish folk consider beneath their dignity.
@@ -38,9 +39,9 @@ Smiling ones take their name from the strange two-faced masks they wear. The smi
   - !!int "17"
 "speed": "40 ft., fly 40 ft. (hover)"
 "saves":
-  - "constitution": "+10"
-  - "intelligence": "+6"
-  - "charisma": "+7"
+  - "constitution": !!int "10"
+  - "intelligence": !!int "6"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+11"
@@ -61,10 +62,10 @@ Smiling ones take their name from the strange two-faced masks they wear. The smi
 "actions":
   - "desc": "The giant makes two Slam attacks or two Telekinetic Strike attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
-      \ 21 (3d8 + 8) bludgeoning damage plus 5 (d10) psychic damage."
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:*\
+      \ 21 (3d8 + 8) bludgeoning damage plus 5 (1d10) psychic damage."
     "name": "Slam"
-  - "desc": "Ranged Spell Attack: +7 to hit, range 240 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +7 to hit, range 240 ft., one target. *Hit:*\
       \ 25 (4d10 + 3) force damage."
     "name": "Telekinetic Strike"
   - "desc": "The giant magically transforms to look and feel like a Beast or a Humanoid\
@@ -73,14 +74,14 @@ Smiling ones take their name from the strange two-faced masks they wear. The smi
       \ don't change. It reverts to its true form if it dies."
     "name": "Change Shape"
   - "desc": "The giant casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 15):\n\nAt\
-      \ will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 15):\n\n**At\
+      \ will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
-      \n3/day each: [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \n**3/day each:** [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [silent image](03.PlayerLog&Handouts/Mechanics/CLI/spells/silent-image.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md), [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\
-      \n1/day each: [gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/spells/gaseous-form.md),\
+      \n**1/day each:** [gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/spells/gaseous-form.md),\
       \ [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md)"
     "name": "Spellcasting"
 "bonus_actions":

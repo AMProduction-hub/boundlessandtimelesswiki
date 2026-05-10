@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/17
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dezmyr Shadowdusk
+- "Dezmyr Shadowdusk"
 ---
-# [Dezmyr Shadowdusk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/dezmyr-shadowdusk-wdmm.md)
+# [Dezmyr Shadowdusk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/dezmyr-shadowdusk-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 287*  
 
 ```statblock
@@ -34,35 +35,34 @@ aliases:
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+9"
-  - "charisma": "+10"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "10"
 "damage_immunities": "necrotic, poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 13"
-"languages": "Abyssal, Common"
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
+"languages": "Abyssal, Common, Deep Speech"
 "cr": "17"
 "traits":
   - "desc": "Dezmyr is a 19th-level spellcaster. Her spellcasting ability is Charisma\
       \ (spell save DC 18, +10 to hit with spell attacks). She has the following\
-      \ paladin spells prepared:\n\n1st level (4 slots): [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \ paladin spells prepared:\n\n**1st level (4 slots):** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [compelled duel](03.PlayerLog&Handouts/Mechanics/CLI/spells/compelled-duel.md),\
       \ [searing smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/searing-smite.md)\n\
-      \n2nd level (3 slots): [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
+      \n**2nd level (3 slots):** [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [magic weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-weapon.md)\n\
-      \n3rd level (3 slots): [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \n**3rd level (3 slots):** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [elemental weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/elemental-weapon.md)\n\
-      \n4th level (3 slots): [locate creature](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-creature.md),\
+      \n**4th level (3 slots):** [locate creature](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-creature.md),\
       \ [staggering smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/staggering-smite.md)\n\
-      \n5th level (2 slots): [destructive wave](03.PlayerLog&Handouts/Mechanics/CLI/spells/destructive-wave.md)\
+      \n**5th level (2 slots):** [destructive wave](03.PlayerLog&Handouts/Mechanics/CLI/spells/destructive-wave.md)\
       \ (necrotic)"
     "name": "Spellcasting"
-  - "desc": "As a bonus action on her turn, Dezmyr can warp reality, undoing damage\
-      \ dealt to herself or another creature that she can see within 20 feet of her.\
-      \ The beneficiary of this warped reality instantly regains 10 hit points."
-    "name": "Warp Reality"
   - "desc": "Dezmyr has advantage on saving throws against spells and other magical\
       \ effects."
     "name": "Magic Resistance"
@@ -73,7 +73,7 @@ aliases:
 "actions":
   - "desc": "Dezmyr makes three longsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) slashing damage if used\
       \ with two hands, plus 18 (4d8) necrotic damage."
     "name": "Longsword"
@@ -83,6 +83,11 @@ aliases:
       \ corners. A creature takes 35 (10d6) fire damage and 35 (10d6) necrotic\
       \ damage on a failed save, or half as much damage on a successful one."
     "name": "Hellfire Orb (1/Day)"
+"bonus_actions":
+  - "desc": "As a bonus action on her turn, Dezmyr can warp reality, undoing damage\
+      \ dealt to herself or another creature that she can see within 20 feet of her.\
+      \ The beneficiary of this warped reality instantly regains 10 hit points."
+    "name": "Warp Reality"
 "reactions":
   - "desc": "Dezmyr adds 6 to its AC against one melee attack that would hit it. To\
       \ do so, Dezmyr must see the attacker and be wielding a melee weapon."

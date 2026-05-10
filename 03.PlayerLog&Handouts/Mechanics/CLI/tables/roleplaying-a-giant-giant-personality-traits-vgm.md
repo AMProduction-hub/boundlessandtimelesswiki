@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Roleplaying a Giant; Giant Personality Traits
+- "Roleplaying a Giant; Giant Personality Traits"
 ---
 # Roleplaying a Giant; Giant Personality Traits
 *Source: Volo's Guide to Monsters p. 23* 
 
 **Giant Personality Traits**
-
-`dice: [](roleplaying-a-giant-giant-personality-traits-vgm.md#^giant-personality-traits)`
 
 | dice: d8 | Personality Trait |
 |----------|-------------------|

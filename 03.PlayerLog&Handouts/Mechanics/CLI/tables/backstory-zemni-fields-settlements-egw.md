@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Backstory; Zemni Fields Settlements
+- "Backstory; Zemni Fields Settlements"
 ---
 # Backstory; Zemni Fields Settlements
 *Source: Explorer's Guide to Wildemount p. 191* 
 
 **Zemni Fields Settlements**
-
-`dice: [](backstory-zemni-fields-settlements-egw.md#^zemni-fields-settlements)`
 
 | dice: d100 | Settlement Name | Type |
 |------------|-----------------|------|

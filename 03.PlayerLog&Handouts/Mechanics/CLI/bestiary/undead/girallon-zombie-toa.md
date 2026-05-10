@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/3
@@ -9,24 +10,12 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Girallon Zombie
+- "Girallon Zombie"
 ---
-# [Girallon Zombie](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/girallon-zombie-toa.md)
+# [Girallon Zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/girallon-zombie-toa.md)
 *Source: Tomb of Annihilation p. 240*  
 
-Several new zombie variants are presented below. For more information on zombies, see the Monster Manual.
-
-## Ankylosaurus Zombie
-
-This creature is slow and barely aware of its surroundings.
-
-## Girallon Zombie
-
 Girallons are four-armed apes with white fur. Girallon zombies are slower than their non-undead counterparts but no less fierce. The necromantic energy empowering them fuels their murderous hearts and their hunger for living flesh.
-
-## Tyrannosaurus Zombie
-
-A tyrannosaurus zombie has a gullet full of smaller zombies, which it can disgorge. These zombies aren't under the tyrannosaurus zombie's control.
 
 ```statblock
 "name": "Girallon Zombie (ToA)"
@@ -48,7 +37,8 @@ A tyrannosaurus zombie has a gullet full of smaller zombies, which it can disgor
 "speed": "30 ft., climb 30 ft."
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": ""
 "cr": "3"
 "traits":
@@ -62,10 +52,10 @@ A tyrannosaurus zombie has a gullet full of smaller zombies, which it can disgor
 "actions":
   - "desc": "The zombie makes five attacks: one with its bite and four with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d4 + 4) slashing damage."
     "name": "Claw"
 "source":

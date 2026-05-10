@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Winged Bull
+- "Winged Bull"
 ---
-# [Winged Bull](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/winged-bull-mot.md)
+# [Winged Bull](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/winged-bull-mot.md)
 *Source: Mythic Odysseys of Theros p. 214*  
 
 Archons always ride into battle on fearsome winged mounts. Some legends suggest that the mount is actually a physical manifestation of the archon's will, allowing the pair to act with a single mind. The two most common archon mounts are winged bulls and winged lions.
@@ -42,7 +43,7 @@ Archons always ride into battle on fearsome winged mounts. Some legends suggest 
       \ (3d12) piercing damage."
     "name": "Charge"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 18\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 18\
       \ (2d12 + 5) piercing damage."
     "name": "Gore"
 "source":

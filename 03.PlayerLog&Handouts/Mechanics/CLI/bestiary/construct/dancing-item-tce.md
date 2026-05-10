@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dancing Item
+- "Dancing Item"
 ---
-# [Dancing Item](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/dancing-item-tce.md)
+# [Dancing Item](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/dancing-item-tce.md)
 *Source: Tasha's Cauldron of Everything p. 29*  
 
 ```statblock
@@ -35,7 +36,8 @@ aliases:
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands the languages you speak"
 "traits":
   - "desc": "The item is immune to any spell or effect that would alter its form."
@@ -45,8 +47,8 @@ aliases:
       \ by 10 feet until the end of the turn, provided the item isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Irrepressible Dance"
 "actions":
-  - "desc": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft.,\
-      \ one target you can see. Hit: 1d10 + PB force damage."
+  - "desc": "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft.,\
+      \ one target you can see. *Hit:* 1d10 + PB force damage."
     "name": "Force-Empowered Slam"
 "source":
   - "TCE"

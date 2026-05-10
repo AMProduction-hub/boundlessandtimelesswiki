@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/23
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Iymrith
+- "Iymrith"
 ---
-# [Iymrith](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/iymrith-skt.md)
+# [Iymrith](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/iymrith-skt.md)
 *Source: Storm King's Thunder p. 241*  
 
 Vain and territorial, blue dragons soar through the skies over deserts, preying on caravans and plundering herds and settlements in the verdant lands beyond the desert's reach. These dragons can also be found in dry steppes, searing badlands, and rocky coasts. They guard their territories against all potential competitors, especially brass dragons.
@@ -123,17 +124,19 @@ Tiamat's most hated enemy is Bahamut the Platinum Dragon, with whom she shares c
   - !!int "21"
 "speed": "40 ft., burrow 40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+7"
-  - "constitution": "+15"
-  - "wisdom": "+10"
-  - "charisma": "+12"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "15"
+  - "wisdom": !!int "10"
+  - "charisma": !!int "12"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+17"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
 "damage_immunities": "lightning"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 27"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 27"
 "languages": "Common, Draconic, Giant, Terran"
 "cr": "23"
 "traits":
@@ -143,13 +146,13 @@ Tiamat's most hated enemy is Bahamut the Platinum Dragon, with whom she shares c
   - "desc": "Iymrith can use her Frightful Presence. She then makes three attacks:\
       \ one with her bite and two with her claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 15 ft., one target. *Hit:*\
       \ 20 (2d10 + 9) piercing damage plus 11 (2d10) lightning damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:*\
       \ 16 (2d6 + 9) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 20 ft., one target. *Hit:*\
       \ 18 (2d8 + 9) bludgeoning damage."
     "name": "Tail"
   - "desc": "Each creature of Iymrith's choice that is within 120 feet of Iymrith\
@@ -173,8 +176,8 @@ Tiamat's most hated enemy is Bahamut the Platinum Dragon, with whom she shares c
       \ action. Her statistics are otherwise replaced by those of the new form."
     "name": "Change Shape"
   - "desc": "Iymrith casts one of the following spells, requiring no spell components\
-      \ and using Charisma as the spellcasting ability (spell save DC 20):\n\n1/day\
-      \ each: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 20):\n\n**1/day\
+      \ each:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md), [stone\
       \ shape](03.PlayerLog&Handouts/Mechanics/CLI/spells/stone-shape.md), [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)\n\
@@ -183,25 +186,13 @@ Tiamat's most hated enemy is Bahamut the Platinum Dragon, with whom she shares c
       \ instead of altering the stone as described in the spell's description. This\
       \ transformation is permanent and can't be reversed or dispelled."
     "name": "Spellcasting"
-"legendary_actions":
-  - "desc": "Iymrith makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-      \ check."
-    "name": "Detect"
-  - "desc": "Iymrith makes a tail attack."
-    "name": "Tail Attack"
-  - "desc": "Iymrith beats her wings. Each creature within 15 feet of Iymrith must\
-      \ succeed on a DC 24 Dexterity saving throw or take 16 (2d6 + 9) bludgeoning\
-      \ damage and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
-      \ Iymrith can then fly up to half her flying speed."
-    "name": "Wing Attack (Costs 2 Actions)"
 "lair_actions":
   - "desc": "On initiative count 20 (losing initiative ties), the dragon takes a lair\
       \ action to cause one of the following effects; the dragon can't use the same\
-      \ effect two rounds in a row:"
-    "name": ""
-  - "desc": "- Part of the ceiling collapses above one creature that the dragon can\
-      \ see within 120 feet of it. The creature must succeed on a DC 15 Dexterity\
-      \ saving throw or take 10 (3d6) bludgeoning damage and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
+      \ effect two rounds in a row:\n\n- Part of the ceiling collapses above one creature\
+      \ that the dragon can see within 120 feet of it. The creature must succeed on\
+      \ a DC 15 Dexterity saving throw or take 10 (3d6) bludgeoning damage and be\
+      \ knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
       \ and buried. The buried target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ and unable to breathe or stand up. A creature can take an action to make a\
       \ DC 10 Strength check, ending the buried state on a success.  \n- A cloud of\
@@ -213,15 +204,14 @@ Tiamat's most hated enemy is Bahamut the Platinum Dragon, with whom she shares c
       \ forming a 5-foot-wide line between two of the lair's solid surfaces that the\
       \ dragon can see. They must be within 120 feet of the dragon and 120 feet of\
       \ each other. Each creature in that line must succeed on a DC 15 Dexterity saving\
-      \ throw or take 10 (3d6) lightning damage.  "
-    "name": ""
-  - "desc": "At your discretion, a legendary ([adult](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-blue-dragon.md)\
+      \ throw or take 10 (3d6) lightning damage.  \n\n**Additional Lair Actions.**\
+      \ At your discretion, a legendary ([adult](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-blue-dragon.md)\
       \ or [ancient](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-blue-dragon.md))\
       \ blue dragon can use one or both of the following additional lair actions while\
-      \ in its lair:\n\n- Misleading Mirage. Until initiative count 20 on the\
+      \ in its lair:\n\n- **Misleading Mirage.** Until initiative count 20 on the\
       \ next round, at each intersection or branching passage in the lair, a creature\
       \ other than the dragon has a 50 percent chance of going in a different direction\
-      \ from the direction it intends.  \n- Sudden Sinkhole. The dragon chooses\
+      \ from the direction it intends.  \n- **Sudden Sinkhole.** The dragon chooses\
       \ a point on the ground that it can see within 120 feet of it. A 5-foot-radius,\
       \ 20-foot-deep pit forms centered on that point. A creature on the ground above\
       \ where the pit formed must make a DC 15 Dexterity saving throw. On a failed\
@@ -229,35 +219,44 @@ Tiamat's most hated enemy is Bahamut the Platinum Dragon, with whom she shares c
       \ damage and landing [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
       \ On a successful save, a creature moves to the nearest unoccupied space instead\
       \ of falling in the pit.  "
-    "name": "Additional Lair Actions"
+    "name": ""
 "regional_effects":
   - "desc": "The region containing a legendary blue dragon's lair is warped by the\
-      \ dragon's magic, which creates one or more of the following effects:"
-    "name": ""
-  - "desc": "- Thunderstorms rage within 6 miles of the lair.  \n- Dust devils scour\
-      \ the land within 6 miles of the lair. A dust devil has the statistics of an\
-      \ air elemental, but it can't fly, has a speed of 50 feet, and has an Intelligence\
-      \ and Charisma of 1 (-5).  \n- Hidden sinkholes form in and around the dragon's\
-      \ lair. A sinkhole can be spotted from a safe distance with a successful DC\
-      \ 20 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ dragon's magic, which creates one or more of the following effects:\n\n- Thunderstorms\
+      \ rage within 6 miles of the lair.  \n- Dust devils scour the land within 6\
+      \ miles of the lair. A dust devil has the statistics of an air elemental, but\
+      \ it can't fly, has a speed of 50 feet, and has an Intelligence and Charisma\
+      \ of 1 (-5).  \n- Hidden sinkholes form in and around the dragon's lair. A sinkhole\
+      \ can be spotted from a safe distance with a successful DC 20 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ check. Otherwise, the first creature to step on the thin crust covering the\
       \ sinkhole must succeed on a DC 15 Dexterity saving throw or fall 1d6 × 10\
-      \ feet into the sinkhole.  "
-    "name": ""
-  - "desc": "If the dragon dies, the dust devils disappear immediately, and the thunderstorms\
-      \ abate within d10 days. Any sinkholes remain where they are."
-    "name": ""
-  - "desc": "Any of these effects might appear in the area around a blue dragon's\
-      \ lair, in addition to or instead of the effects described in the Monster Manual:\n\
-      \n- Blue Luster. Creatures that spend a year within 1 mile of the dragon's\
-      \ lair find blue objects fascinating and feel compelled to acquire them at every\
-      \ opportunity.  \n- Mirage Terrain. The area immediately surrounding the\
-      \ lair appears to be a lush oasis. A creature carefully examining the illusion\
-      \ can attempt a DC 15 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation))\
+      \ feet into the sinkhole.  \n\nIf the dragon dies, the dust devils disappear\
+      \ immediately, and the thunderstorms abate within 1d10 days. Any sinkholes\
+      \ remain where they are.\n\n**Additional Regional Effects.** Any of these effects\
+      \ might appear in the area around a blue dragon's lair, in addition to or instead\
+      \ of the effects described in the *Monster Manual*:\n\n- **Blue Luster.** Creatures\
+      \ that spend a year within 1 mile of the dragon's lair find blue objects fascinating\
+      \ and feel compelled to acquire them at every opportunity.  \n- **Mirage Terrain.**\
+      \ The area immediately surrounding the lair appears to be a lush oasis. A creature\
+      \ carefully examining the illusion can attempt a DC 15 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation))\
       \ check to disbelieve it. A creature who disbelieves the illusion sees it as\
-      \ a vague image superimposed on the underlying terrain.  \n- Sandstorm.\
+      \ a vague image superimposed on the underlying terrain.  \n- **Sandstorm.**\
       \ A sandstorm blows constantly within 1 mile of the dragon's lair.  "
-    "name": "Additional Regional Effects"
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Iymrith can expend a use to take one of the following actions. Iymrith regains\
+  \ all expended uses at the start of each of their turns."
+"legendary_actions":
+  - "desc": "Iymrith makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ check."
+    "name": "Detect"
+  - "desc": "Iymrith makes a tail attack."
+    "name": "Tail Attack"
+  - "desc": "Iymrith beats her wings. Each creature within 15 feet of Iymrith must\
+      \ succeed on a DC 24 Dexterity saving throw or take 16 (2d6 + 9) bludgeoning\
+      \ damage and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
+      \ Iymrith can then fly up to half her flying speed."
+    "name": "Wing Attack (Costs 2 Actions)"
 "source":
   - "SKT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/iymrith-skt.webp"

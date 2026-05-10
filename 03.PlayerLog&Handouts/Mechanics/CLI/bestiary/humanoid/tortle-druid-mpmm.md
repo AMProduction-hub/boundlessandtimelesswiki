@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tortle Druid
+- "Tortle Druid"
 ---
-# [Tortle Druid](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/tortle-druid-mpmm.md)
+# [Tortle Druid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tortle-druid-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 244, Mordenkainen's Tome of Foes p. 242*  
 
 Many tortles view the world as a place of wonder. They live for the chance to hear a soft wind blowing through trees, to watch a frog croaking on a lily pad, or to stand in a crowded marketplace. A tortle druid savors such things more than most, channeling the natural magic of the world around them.
@@ -58,10 +59,10 @@ Most tortles like to see how other folk live. A tortle can spend decades away fr
   - "desc": "The tortle makes four Claw attacks or two [Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature)'s\
       \ Wrath attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) slashing damage."
     "name": "Claw"
-  - "desc": "Ranged Spell Attack: +4 to hit, range 90 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +4 to hit, range 90 ft., one target. *Hit:*\
       \ 9 (2d6 + 2) damage of a type chosen by the tortle: cold, fire, lightning,\
       \ or thunder."
     "name": "Nature's Wrath"
@@ -73,9 +74,9 @@ Most tortles like to see how other folk live. A tortle can spend decades away fr
       \ action to emerge."
     "name": "Shell Defense"
   - "desc": "The tortle casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability (spell save DC 12):\n\nAt will: [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
-      \ [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md)\n\n2/day\
-      \ each: [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
+      \ ability (spell save DC 12):\n\n**At will:** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
+      \ [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md)\n\n**2/day\
+      \ each:** [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [speak with animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md),\
       \ [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)"

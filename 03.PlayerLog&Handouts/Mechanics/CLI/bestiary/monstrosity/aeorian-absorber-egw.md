@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Aeorian Absorber
+- "Aeorian Absorber"
 ---
-# [Aeorian Absorber](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/aeorian-absorber-egw.md)
+# [Aeorian Absorber](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/aeorian-absorber-egw.md)
 *Source: Explorer's Guide to Wildemount p. 283*  
 
 Resembling some sort of canine or feline quadruped at a distance, the absorber's monstrous nature becomes quickly apparent as it closes in. Named for its ability to draw magical energy into its body, the absorber can release that energy in devastating blasts through its tail, whose eye is constantly on the lookout for prey.
@@ -57,8 +58,8 @@ Aeorian hunters don't require food or drink.
   - !!int "8"
 "speed": "40 ft."
 "saves":
-  - "wisdom": "+6"
-  - "charisma": "+3"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "3"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
@@ -67,7 +68,8 @@ Aeorian hunters don't require food or drink.
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+6"
 "damage_immunities": "necrotic, radiant"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "understands Draconic but can't speak"
 "cr": "10"
 "traits":
@@ -84,13 +86,13 @@ Aeorian hunters don't require food or drink.
   - "desc": "The absorber makes three attacks: one with its bite or Mind Bolt and\
       \ two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit:\
-      \ 10 (1d10 + 5) piercing damage plus 5 (d10) force damage."
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one creature. *Hit:*\
+      \ 10 (1d10 + 5) piercing damage plus 5 (1d10) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8\
-      \ (1d6 + 5) slashing damage plus 3 (d6) force damage."
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 8\
+      \ (1d6 + 5) slashing damage plus 3 (1d6) force damage."
     "name": "Claws"
-  - "desc": "Ranged Spell Attack: +8 to hit, range 120 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +8 to hit, range 120 ft., one creature. *Hit:*\
       \ 22 (4d10) psychic damage."
     "name": "Mind Bolt"
 "reactions":

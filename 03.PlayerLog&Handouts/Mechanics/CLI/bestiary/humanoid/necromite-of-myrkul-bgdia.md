@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Necromite of Myrkul
+- "Necromite of Myrkul"
 ---
-# [Necromite of Myrkul](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/necromite-of-myrkul-bgdia.md)
+# [Necromite of Myrkul](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/necromite-of-myrkul-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 234*  
 
 Those who follow Myrkul are either wizards or those who seek to master the necromantic arts.
@@ -51,10 +52,10 @@ A follower of Myrkul wields a flail that has a skull replacing the normal flail'
 "languages": "Abyssal, Common, Infernal"
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4\
-      \ (d8) bludgeoning damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 4\
+      \ (1d8) bludgeoning damage."
     "name": "Skull Flail"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 90 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 90 ft., one target. *Hit:*\
       \ 8 (2d4 + 3) necrotic damage."
     "name": "Claws of the Grave"
 "source":

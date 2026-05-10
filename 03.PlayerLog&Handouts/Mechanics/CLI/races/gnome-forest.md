@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/gnome/forest
 aliases:
-- Gnome (Forest)
+- "Gnome (Forest)"
 ---
 # Gnome (Forest)
 *Source: Player's Handbook p. 37*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/gnome.webp#right)
 
-- **Ability Scores**: Dexterity +1
+- **Ability Scores**: dex +1
 - **Size**: Small
 - **Speed**: 25 ft.
 - **Spellcasting**: Intelligence

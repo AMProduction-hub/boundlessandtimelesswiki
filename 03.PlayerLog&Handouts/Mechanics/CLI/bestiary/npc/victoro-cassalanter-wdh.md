@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Victoro Cassalanter
+- "Victoro Cassalanter"
 ---
-# [Victoro Cassalanter](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/victoro-cassalanter-wdh.md)
+# [Victoro Cassalanter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/victoro-cassalanter-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 218*  
 
 The lord of House Cassalanter is a devilishly handsome half-elf who likes coin and power. He and his wife gained both by cutting a deal with Asmodeus-which involved trading away the souls of their three children.
@@ -43,8 +44,8 @@ Victoro is well schooled, suave, slow to anger, and blessed with good health, lo
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+6"
-  - "wisdom": "+7"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+7"
@@ -56,44 +57,47 @@ Victoro is well schooled, suave, slow to anger, and blessed with good health, lo
     "desc": "+7"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Draconic, Elvish, Infernal"
 "cr": "10"
 "traits":
   - "desc": "Victoro is a 15th-level spellcaster. His spellcasting ability is Wisdom\
       \ (spell save DC 15, +7 to hit with spell attacks). Victoro has the following\
-      \ cleric spells prepared:\n\nCantrips (at will): [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ cleric spells prepared:\n\n**Cantrips (at will):** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md),\
       \ [spare the dying](03.PlayerLog&Handouts/Mechanics/CLI/spells/spare-the-dying.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \n**1st level (4 slots):** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md), [detect\
       \ magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md), [disguise\
       \ self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md), [protection\
       \ from evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md),\
-      \ [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md)\n\n2nd\
-      \ level (3 slots): [augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md),\
+      \ [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md)\n\n**2nd\
+      \ level (3 slots):** [augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md),\
       \ [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md),\
       \ [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md),\
       \ [pass without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md),\
       \ [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md)\n\
-      \n3rd level (3 slots): [blink](03.PlayerLog&Handouts/Mechanics/CLI/spells/blink.md),\
+      \n**3rd level (3 slots):** [blink](03.PlayerLog&Handouts/Mechanics/CLI/spells/blink.md),\
       \ [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [magic circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-circle.md),\
       \ [protection from energy](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-energy.md)\n\
-      \n4th level (3 slots): [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \n**4th level (3 slots):** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md), [freedom\
       \ of movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md),\
-      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\n5th\
-      \ level (2 slots): [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md),\
+      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\n**5th\
+      \ level (2 slots):** [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md),\
       \ [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md),\
       \ [modify memory](03.PlayerLog&Handouts/Mechanics/CLI/spells/modify-memory.md),\
       \ [insect plague](03.PlayerLog&Handouts/Mechanics/CLI/spells/insect-plague.md)\n\
-      \n6th level (1 slots): [heal](03.PlayerLog&Handouts/Mechanics/CLI/spells/heal.md)\n\
-      \n7th level (1 slots): [divine word](03.PlayerLog&Handouts/Mechanics/CLI/spells/divine-word.md)\n\
-      \n8th level (1 slots): [earthquake](03.PlayerLog&Handouts/Mechanics/CLI/spells/earthquake.md)"
+      \n**6th level (1 slots):** [heal](03.PlayerLog&Handouts/Mechanics/CLI/spells/heal.md)\n\
+      \n**7th level (1 slots):** [divine word](03.PlayerLog&Handouts/Mechanics/CLI/spells/divine-word.md)\n\
+      \n**8th level (1 slots):** [earthquake](03.PlayerLog&Handouts/Mechanics/CLI/spells/earthquake.md)"
     "name": "Spellcasting"
   - "desc": "Victoro wears a [ring of protection](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-protection.md)\
       \ and [glamoured studded leather](03.PlayerLog&Handouts/Mechanics/CLI/items/glamoured-studded-leather.md)\
@@ -115,7 +119,7 @@ Victoro is well schooled, suave, slow to anger, and blessed with good health, lo
 "actions":
   - "desc": "Victoro makes two attacks with his rapier."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d8 + 1) piercing damage."
     "name": "Rapier"
   - "desc": "Victoro becomes [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\

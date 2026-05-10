@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -16,10 +17,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Orc Eye of Gruumsh
+- "Orc Eye of Gruumsh"
 ---
-# [Orc Eye of Gruumsh](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/orc-eye-of-gruumsh.md)
-*Source: Monster Manual p. 247, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden*  
+# [Orc Eye of Gruumsh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc-eye-of-gruumsh.md)
+*Source: Monster Manual p. 247*  
 
 Orcs are savage raiders and pillagers with stooped postures, low foreheads, and piggish faces with prominent lower canines that resemble tusks.
 
@@ -82,38 +83,36 @@ If the orc plucks out one of its eyes, Gruumsh might grant the orc spellcasting 
     "desc": "+3"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+1"
-"senses": "darkvision 60 ft., passive Perception 11"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common, Orc"
 "cr": "2"
 "traits":
   - "desc": "The orc is a 3rd-level spellcaster. Its spellcasting ability is Wisdom\
       \ (spell save DC 11, +3 to hit with spell attacks). The orc has the following\
-      \ cleric spells prepared:\n\nCantrips (at will): [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ cleric spells prepared:\n\n**Cantrips (at will):** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [resistance](03.PlayerLog&Handouts/Mechanics/CLI/spells/resistance.md), [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md),\
-      \ [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md)\n\n2nd\
-      \ level (2 slots): [augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md),\
+      \n**1st level (4 slots):** [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md),\
+      \ [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md)\n\n**2nd\
+      \ level (2 slots):** [augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md),\
       \ [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md)\
       \ (spear)"
     "name": "Spellcasting"
   - "desc": "As a bonus action, the orc can move up to its speed toward a hostile\
       \ creature that it can see."
     "name": "Aggressive"
-  - "desc": "The orc deals an extra 4 (d8) damage when it hits with a weapon attack\
+  - "desc": "The orc deals an extra 4 (1d8) damage when it hits with a weapon attack\
       \ (included in the attacks)."
     "name": "Gruumsh's Fury"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 11 (1d6 + 3 plus d8) piercing damage, or 12 (2d8\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 11 (1d6 + 3 plus 1d8) piercing damage, or 12 (2d8\
       \ + 3) piercing damage if used with two hands to make a melee attack."
     "name": "Spear"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "EGW"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/orc-eye-of-gruumsh.webp"
 ```
 ^statblock

@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/elf/wood
 aliases:
-- Elf (Wood)
+- "Elf (Wood)"
 ---
 # Elf (Wood)
 *Source: Player's Handbook p. 24. Available in the Basic Rules (2014)*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/elf.webp#right)
 
-- **Ability Scores**: Wisdom +1
+- **Ability Scores**: wis +1
 - **Size**: Medium
 - **Speed**: 35 ft.
 

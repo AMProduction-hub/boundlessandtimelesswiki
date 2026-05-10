@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/attunement/required
@@ -9,7 +10,7 @@ tags:
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Sword of Life Stealing"
 - "Double-Bladed Scimitar of Life Stealing"
 - "Greatsword of Life Stealing"
@@ -20,7 +21,7 @@ aliases:
 ---
 # Sword of Life Stealing
 *Major, rare (requires attunement)*  
-![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/sword-of-life-stealing.webp#right)
+![Sword of Life Stealing (Longsword)](03.PlayerLog&Handouts/Mechanics/CLI/items/img/sword-of-life-stealing.webp#right)
 
 
 When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra 10 necrotic damage if it isn't a construct or an undead. You also gain 10 temporary hit points.

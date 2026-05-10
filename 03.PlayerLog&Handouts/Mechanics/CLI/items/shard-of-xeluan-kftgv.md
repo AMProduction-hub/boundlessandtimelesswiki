@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/rare
-aliases: 
+aliases:
 - "Shard of Xeluan"
 ---
 # Shard of Xeluan
@@ -29,8 +30,6 @@ Your Strength score increases by 4 while the shard is on your person. The shard 
 Attuning to this item extends its curse to you. You remain cursed until you are targeted by a [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md) spell or similar magic, or until the shard is reattached to Xeluan's [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified) heart.
 
 The shard's curse causes misfortune to befall you. When you roll a 1 on an attack roll, an ability check, or a saving throw, roll on the Shard Misfortunes table to determine the misfortune. For as long as this misfortune lasts, no other shard misfortunes befall you.
-
-`dice: [](shard-of-xeluan-kftgv.md#^misfortune)`
 
 | dice: d6 | Misfortune |
 |----------|------------|

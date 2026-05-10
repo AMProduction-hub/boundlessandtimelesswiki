@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Baldur's Gate Gazetteer
+- "Baldur's Gate Gazetteer"
 ---
 # Baldur's Gate Gazetteer
 *Source: Baldur's Gate: Descent Into Avernus, p. 158* 
 
 ![](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/107-7ot5i-06-01.webp#center)
 
-Even the most hardened adventurers watch their steps in Baldur's Gate, where lives hold prices in copper and greed proves deadlier than dragon fire. Baldur's Gate has a reputation for being a rough place, where crime and opportunity walk hand in hand, and where anything can be bought, sold, or seized at swordpoint. If something can be given a price, it's for sale somewhere in Baldur's Gate. Drugs and poisons sit on shelves alongside tinctures and remedies. Trade goods from Chult, mechanical wonders from Neverwinter, tomes of magic from Calimshan, and the most believable counterfeits of each can all be found in the city's stalls.
+Even the most hardened adventurers watch their steps in Baldur's Gate, where lives hold prices in copper and greed proves deadlier than dragon fire. Baldur's Gate has a reputation for being a rough place, where crime and opportunity walk hand in hand, and where anything can be bought, sold, or seized at sword-point. If something can be given a price, it's for sale somewhere in Baldur's Gate. Drugs and poisons sit on shelves alongside tinctures and remedies. Trade goods from Chult, mechanical wonders from Neverwinter, tomes of magic from Calimshan, and the most believable counterfeits of each can all be found in the city's stalls.
 
 The Flaming Fist, a mercenary company paid for by the city, protects residents without the barest hint of civil delicacy. The Watch, the guardian force of the wealthy Upper City, exists only to serve the patriars—the city's detached upper class. Meanwhile, crime flourishes under the control of the Guild, which oversees almost every organized criminal act, from dockside gambling rings to blackmail at patriar garden parties. Either under the Guild's auspices or in defiance of them, those who cut purses or throats make a decent living in the city, their talents traded as briskly—and often just as openly—as those of any other professional.
 
@@ -185,8 +186,6 @@ If someone calls the Flaming Fist or the Watch, reference the Guard Arrival Time
 
 **Gate Interactions**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^gate-interactions)`
-
 | dice: d8 | Interaction |
 |----------|-------------|
 | 1 | The guards thoroughly search packs and vehicles, questioning everything and everyone. |
@@ -201,13 +200,11 @@ If someone calls the Flaming Fist or the Watch, reference the Guard Arrival Time
 
 **Flaming Fist Reactions**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^flaming-fist-reactions)`
-
 | dice: d8 | Reaction |
 |----------|----------|
 | 1 | The guards demand that everyone drop to the ground, bludgeoning those who don't comply immediately. After searching everyone for money, contraband, or other valuable items, they confiscate whatever they find before letting everyone go. |
 | 2 | Exasperated, the guards just want everyone to disperse immediately. |
-| 3 | The guards already have `d6` [thugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md) with them from a prior arrest and don't want to deal with another problem. |
+| 3 | The guards already have `1d6` [thugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md) with them from a prior arrest and don't want to deal with another problem. |
 | 4 | The guards make arrests, but are called away mid process and let everyone go. |
 | 5 | The guards merely walk by, as they're already escorting a patriar ([noble](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md)). |
 | 6 | The guards start a bribe bidding war to decide who gets arrested and who goes free. |
@@ -216,8 +213,6 @@ If someone calls the Flaming Fist or the Watch, reference the Guard Arrival Time
 ^flaming-fist-reactions
 
 **Watch Reactions**
-
-`dice: [](10-baldurs-gate-gazetteer.md#^watch-reactions)`
 
 | dice: d8 | Reaction |
 |----------|----------|
@@ -437,7 +432,7 @@ Smugglers, too, pay homage to Umberlee. A great deal of illegal trade passes thr
 
 Umberlee's adherents work out of the Water Queen's House, a magnificent structure on the city docks. They provide blessings to sailors and identify relics dredged up from the deep. When Umberlee is offended by the removal of an item from the sea, she expresses her displeasure to the clergy by sending them omens, urging the priests to advise the finder to return the plundered item to the depths at once—or else.
 
-![Murderous servants of the ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/111-2brwh-06-04-2k.webp#center "Murderous servants of the Dead Three corner their prey near the statue of Minsc and Boo.")
+![Murderous servants of the Dead Three corner their prey near the statue of Minsc and Boo.](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/111-2brwh-06-04-2k.webp#center)
 
 ## Dangers in Baldur's Gate
 
@@ -568,8 +563,6 @@ The patriars' unabashed snobbery fosters deep resentment among denizens of the L
 
 **Upper City Random Encounters**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^upper-city-random-encounters)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–6 | No encounter |
@@ -579,8 +572,6 @@ The patriars' unabashed snobbery fosters deep resentment among denizens of the L
 ^upper-city-random-encounters
 
 **Table A: Upper City Harmless Interactions**
-
-`dice: [](10-baldurs-gate-gazetteer.md#^table-a-upper-city-harmless-interactions)`
 
 | dice: d12 | Interaction |
 |-----------|-------------|
@@ -600,36 +591,32 @@ The patriars' unabashed snobbery fosters deep resentment among denizens of the L
 
 **Table B: Upper City Denizens**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^table-b-upper-city-denizens)`
-
 | dice: d10 | Denizens |
 |-----------|----------|
 | 1 | `2d4` Watch [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) who demand to see strangers' passage tokens |
-| 2 | `d4` [acolytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/acolyte.md) of Gond or Tymora |
+| 2 | `1d4` [acolytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/acolyte.md) of Gond or Tymora |
 | 3 | `2d6` patriar servants ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) on errands |
 | 4 | 1 patriar (human [noble](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md)) and 6 personal bodyguards ([veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md)) |
 | 5 | `1d4 + 1` entitled young patriars (human [nobles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md)), each with one personal bodyguard ([thug](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md)) |
-| 6 | `d6` visiting dignitaries ([nobles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md)) and `2d4` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) |
-| 7 | `d4` High Hall messengers ([scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md)) |
+| 6 | `1d6` visiting dignitaries ([nobles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md)) and `2d4` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) |
+| 7 | `1d4` High Hall messengers ([scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md)) |
 | 8 | `2d4` entertainers ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) |
 | 9 | 1 Flaming Fist officer ([knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/knight.md)) and `2d4` Flaming Fist soldiers ([veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md)) |
-| 10 | `d4` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) who shouldn't be in the Upper City |
+| 10 | `1d4` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) who shouldn't be in the Upper City |
 ^table-b-upper-city-denizens
 
 **Table C: Upper City Threats**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^table-c-upper-city-threats)`
-
 | dice: d10 | Threat |
 |-----------|--------|
-| 1 | `d4` [imps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/imp.md) disguised as ravens |
+| 1 | `1d4` [imps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/imp.md) disguised as ravens |
 | 2 | 1 [gargoyle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/gargoyle.md) in the service of the Guild |
-| 3 | `d6` [giant centipedes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-centipede.md) from the sewers |
-| 4 | `d4` suits of [animated armor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-armor.md) that escaped from the High House of Wonders |
+| 3 | `1d6` [giant centipedes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-centipede.md) from the sewers |
+| 4 | `1d4` suits of [animated armor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-armor.md) that escaped from the High House of Wonders |
 | 5 | 1 [ochre jelly](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/ochre-jelly.md) in a sewer grate |
 | 6 | Dead Three abduction squad (see the "More Dead Three Encounters" sidebar) |
 | 7 | Dead Three murder squad (see the "More Dead Three Encounters" sidebar) |
-| 8 | `d4` [doppelgangers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/doppelganger.md) |
+| 8 | `1d4` [doppelgangers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/doppelganger.md) |
 | 9 | 1 serial killer ([assassin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/assassin.md)) wanted by the Watch |
 | 10 | `2d4` [kenku](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kenku.md) muggers in league with the Guild |
 ^table-c-upper-city-threats
@@ -875,8 +862,6 @@ Unless there's active conflict between two crews, most members are content to wo
 
 **Lower City Random Encounters**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^lower-city-random-encounters)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–6 | No encounter |
@@ -886,8 +871,6 @@ Unless there's active conflict between two crews, most members are content to wo
 ^lower-city-random-encounters
 
 **Table D: Lower City Harmless Interactions**
-
-`dice: [](10-baldurs-gate-gazetteer.md#^table-d-lower-city-harmless-interactions)`
 
 | dice: d12 | Interaction |
 |-----------|-------------|
@@ -907,38 +890,34 @@ Unless there's active conflict between two crews, most members are content to wo
 
 **Table E: Lower City Denizens**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^table-e-lower-city-denizens)`
-
 | dice: d10 | Denizens |
 |-----------|----------|
 | 1 | `2d6` gang members or pirates (both [thugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md)) |
 | 2 | `1d4 + 1` crass merchants ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) |
-| 3 | `d6` [kenku](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kenku.md) minding their own business |
+| 3 | `1d6` [kenku](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kenku.md) minding their own business |
 | 4 | `3d6` angry crew members ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) protesting the Flaming Fist's brutality |
 | 5 | `2d4` Flaming Fist soldiers ([veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md)) on patrol |
-| 6 | `d4` Guild pickpockets ([spies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md)) |
-| 7 | `d8` beggars ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) |
+| 6 | `1d4` Guild pickpockets ([spies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md)) |
+| 7 | `1d8` beggars ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) |
 | 8 | 1 Baldur's Mouth reporter ([commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) |
-| 9 | `d4` patriars ([nobles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md)) and `3d6` bodyguards ([thugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md)) |
+| 9 | `1d4` patriars ([nobles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md)) and `3d6` bodyguards ([thugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md)) |
 | 10 | 1 Guild kingpin ([bandit captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit-captain.md)) and `2d6` operatives ([bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md)) |
 ^table-e-lower-city-denizens
 
 **Table F: Lower City Threats**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^table-f-lower-city-threats)`
-
 | dice: d10 | Threat |
 |-----------|--------|
-| 1 | `d4` [swarms of rats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-rats.md) |
-| 2 | `d4` [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) [imps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/imp.md) |
+| 1 | `1d4` [swarms of rats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-rats.md) |
+| 2 | `1d4` [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) [imps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/imp.md) |
 | 3 | Dead Three abduction squad (see the "More Dead Three Encounters" sidebar) |
 | 4 | Dead Three murder squad (see the "More Dead Three Encounters" sidebar) |
 | 5 | Press gang of `1d4 + 1` [half-ogres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/half-ogre-ogrillon.md) |
-| 6 | `d6` Guild operatives ([spies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md)) |
+| 6 | `1d6` Guild operatives ([spies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md)) |
 | 7 | `2d4` street brawlers ([thugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md)) |
-| 8 | `d6` Flaming Fist mercenaries ([veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md)) who don't like the look of adventurers |
+| 8 | `1d6` Flaming Fist mercenaries ([veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md)) who don't like the look of adventurers |
 | 9 | 1 [ghost](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghost.md) from Harborside Hospital |
-| 10 | `d4` [mimics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/mimic.md) posing as cargo |
+| 10 | `1d4` [mimics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/mimic.md) posing as cargo |
 ^table-f-lower-city-threats
 
 ### Lower City Gazetteer
@@ -1003,7 +982,7 @@ While [smokepowder](03.PlayerLog&Handouts/Mechanics/CLI/items/smokepowder-wdh.md
 
 At the moment, however, Avery is visibly troubled. Recently, someone managed to break into the upper workshop while he was sleeping and steal four kegs of [smokepowder](03.PlayerLog&Handouts/Mechanics/CLI/items/smokepowder-wdh.md). In their place, he found a drawing of a phoenix. Avery is terrified of what the thieves might do with the powder—he's all too aware that someone with that much [smokepowder](03.PlayerLog&Handouts/Mechanics/CLI/items/smokepowder-wdh.md) could blow up a portion of the High Hall, Wyrm's Rock, or any number of other fortifications. Yet as horrifying as he finds those possibilities, he seems more concerned about himself: [smokepowder](03.PlayerLog&Handouts/Mechanics/CLI/items/smokepowder-wdh.md) security is his responsibility, and he can't tell the city government about the theft without getting punished for negligence. Yet if he keeps quiet and the thieves use the powder, he'll obviously be implicated. The only solution is to hire someone discreet and trustworthy to track down and recover the missing kegs of [smokepowder](03.PlayerLog&Handouts/Mechanics/CLI/items/smokepowder-wdh.md) before it's too late.
 
-If [smokepowder](03.PlayerLog&Handouts/Mechanics/CLI/items/smokepowder-wdh.md) is set on fire, dropped, or otherwise handled roughly, it explodes and deals fire damage to each creature or object within 20 feet of it: `d6` for a handful, `9d6` for a keg. A successful DC 12 Dexterity saving throw halves the damage. Casting [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md) on [smokepowder](03.PlayerLog&Handouts/Mechanics/CLI/items/smokepowder-wdh.md) renders it permanently inert.
+If [smokepowder](03.PlayerLog&Handouts/Mechanics/CLI/items/smokepowder-wdh.md) is set on fire, dropped, or otherwise handled roughly, it explodes and deals fire damage to each creature or object within 20 feet of it: `1d6` for a handful, `9d6` for a keg. A successful DC 12 Dexterity saving throw halves the damage. Casting [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md) on [smokepowder](03.PlayerLog&Handouts/Mechanics/CLI/items/smokepowder-wdh.md) renders it permanently inert.
 
 #### Garmult's House of Mastery
 
@@ -1155,8 +1134,6 @@ Dreams both flourish and die in the Outer City, which many say holds the best an
 
 **Outer City Random Encounters**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^outer-city-random-encounters)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–6 | No encounter |
@@ -1166,8 +1143,6 @@ Dreams both flourish and die in the Outer City, which many say holds the best an
 ^outer-city-random-encounters
 
 **Table G: Outer City Harmless Interactions**
-
-`dice: [](10-baldurs-gate-gazetteer.md#^table-g-outer-city-harmless-interactions)`
 
 | dice: d12 | Interaction |
 |-----------|-------------|
@@ -1187,17 +1162,15 @@ Dreams both flourish and die in the Outer City, which many say holds the best an
 
 **Table H: Outer City Denizens**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^table-h-outer-city-denizens)`
-
 | dice: d10 | Interaction |
 |-----------|-------------|
 | 1 | `2d4` Calishite [thugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md) and `2d4` Tethyrian [thugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md) curse at each other, ready to brawl |
-| 2 | `d6` gnome [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) from the Whitkeep Hostel throw tomatoes at passersby who flaunt their wealth |
-| 3 | `d4` [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md) joyride on [riding horses](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/riding-horse.md) stolen from a corral |
+| 2 | `1d6` gnome [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) from the Whitkeep Hostel throw tomatoes at passersby who flaunt their wealth |
+| 3 | `1d4` [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md) joyride on [riding horses](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/riding-horse.md) stolen from a corral |
 | 4 | `2d4` Flaming Fist [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md), off-duty or headed elsewhere, ignore obvious crimes |
-| 5 | `d4` patriars (human [nobles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md)) and `2d8` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) |
-| 6 | `d4` barkers ([spies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md)) pass out handbills for the Oasis Theater |
-| 7 | `d4` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) herding `2d8` [goats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/goat.md) and one [peacock](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/peacock-bgdia.md) (use the [vulture](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/vulture.md) stat block) |
+| 5 | `1d4` patriars (human [nobles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md)) and `2d8` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) |
+| 6 | `1d4` barkers ([spies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md)) pass out handbills for the Oasis Theater |
+| 7 | `1d4` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) herding `2d8` [goats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/goat.md) and one [peacock](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/peacock-bgdia.md) (use the [vulture](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/vulture.md) stat block) |
 | 8 | `2d6` beggars ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) |
 | 9 | 1 Flaming Fist officer ([knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/knight.md)) and `2d4` Flaming Fist soldiers ([veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md)) heading to or from Wyrm's Rock |
 | 10 | `2d6` members of the Crossers or Gravemakers crew ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) on street patrol |
@@ -1205,19 +1178,17 @@ Dreams both flourish and die in the Outer City, which many say holds the best an
 
 **Table I: Outer City Threats**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^table-i-outer-city-threats)`
-
 | dice: d10 | Threat |
 |-----------|--------|
 | 1 | `2d4` [giant rats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-rat.md) |
-| 2 | 1 [bandit captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit-captain.md) and `d6` [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md) demand a "street use" tax |
-| 3 | `d6` Guild pickpockets ([spies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md)) |
-| 4 | `d4` [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) picking at corpses left in the street |
+| 2 | 1 [bandit captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit-captain.md) and `1d6` [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md) demand a "street use" tax |
+| 3 | `1d6` Guild pickpockets ([spies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md)) |
+| 4 | `1d4` [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) picking at corpses left in the street |
 | 5 | `2d6` [skeletons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeleton.md) escaped from the Cliffside Cemetery |
 | 6 | A flying, double-bladed axe terrorizing passersby (the illusion-wrapped [stirge](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/stirge.md) from Danthelon's Dancing Axe) |
 | 7 | 1 [cockatrice](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/cockatrice.md) that escaped from the Garynmor Menagerie |
-| 8 | `d6` [stirges](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/stirge.md) |
-| 9 | `d4` [jackalweres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/jackalwere.md) that live in Little Calimshan |
+| 8 | `1d6` [stirges](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/stirge.md) |
+| 9 | `1d4` [jackalweres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/jackalwere.md) that live in Little Calimshan |
 | 10 | Dead Three abduction squad (see the "More Dead Three Encounters" sidebar) |
 ^table-i-outer-city-threats
 
@@ -1325,8 +1296,6 @@ Use the following tables to determine who or what the characters might encounter
 
 **Encounters on the Roads**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^encounters-on-the-roads)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–4 | No encounter |
@@ -1336,27 +1305,23 @@ Use the following tables to determine who or what the characters might encounter
 
 **Table J: Travelers around Baldur's Gate**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^table-j-travelers-around-baldurs-gate)`
-
 | dice: d12 | Travelers |
 |-----------|-----------|
 | 1 | `3d4` local farmers or ranchers ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) |
-| 2 | `d4` foreign merchants ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) and `3d6` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) traveling in a caravan |
-| 3 | `d6` scholars ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) |
+| 2 | `1d4` foreign merchants ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) and `3d6` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) traveling in a caravan |
+| 3 | `1d6` scholars ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) |
 | 4 | `3d6` migrants or refugees ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) |
 | 5 | `2d4` Flaming Fist soldiers ([veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md)) |
-| 6 | Family of `d4` patriars ([nobles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md)) in a coach pulled by two [draft horses](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/draft-horse.md), with `2d6` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) on [riding horses](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/riding-horse.md) providing escort |
+| 6 | Family of `1d4` patriars ([nobles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md)) in a coach pulled by two [draft horses](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/draft-horse.md), with `2d6` [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) on [riding horses](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/riding-horse.md) providing escort |
 | 7 | `2d4` mercenaries for hire ([thugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md)) |
-| 8 | `d6` religious pilgrims ([acolytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/acolyte.md)) |
-| 9 | `d6` Guild agents ([bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md)) |
+| 8 | `1d6` religious pilgrims ([acolytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/acolyte.md)) |
+| 9 | `1d6` Guild agents ([bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md)) |
 | 10 | 1 [archmage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/archmage.md) accompanied by a [shield guardian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/shield-guardian.md) |
-| 11 | `d6` entertainers ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) |
+| 11 | `1d6` entertainers ([commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)) |
 | 12 | 1 [gladiator](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gladiator.md) leading an ox, which is hauling a prison wagon that contains a [medusa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/medusa.md) wearing a burlap hood over her head and shackles on her wrists |
 ^table-j-travelers-around-baldurs-gate
 
 **Table K: Travelers' Agenda**
-
-`dice: [](10-baldurs-gate-gazetteer.md#^table-k-travelers-agenda)`
 
 | dice: d10 | Heading to Baldur's Gate to... |
 |-----------|--------------------------------|
@@ -1374,19 +1339,17 @@ Use the following tables to determine who or what the characters might encounter
 
 **Table L: Monsters around Baldur's Gate**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^table-l-monsters-around-baldurs-gate)`
-
 | dice: d12 | Encounter |
 |-----------|-----------|
-| 1 | `d6` [werewolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/werewolf.md) disguised as human beggars or a pack of wolves |
+| 1 | `1d6` [werewolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/werewolf.md) disguised as human beggars or a pack of wolves |
 | 2 | `2d4` [stirges](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/stirge.md) |
-| 3 | `d4` [ettercaps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/ettercap.md) and `d4` [giant spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-spider.md) |
+| 3 | `1d4` [ettercaps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/ettercap.md) and `1d4` [giant spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-spider.md) |
 | 4 | `3d6` [kobolds](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kobold.md) |
 | 5 | 1 [goblin boss](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin-boss.md) and `3d6` [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) |
-| 6 | 1 [dryad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/dryad.md) and `d4` [sprites](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/sprite.md) lurking in a tree |
-| 7 | `d4` [ankhegs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/ankheg.md) that burrow up from the ground |
+| 6 | 1 [dryad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/dryad.md) and `1d4` [sprites](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/sprite.md) lurking in a tree |
+| 7 | `1d4` [ankhegs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/ankheg.md) that burrow up from the ground |
 | 8 | 1 [basilisk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/basilisk.md) |
-| 9 | `d4` [jackalweres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/jackalwere.md) disguised as human beggars, entertainers, or merchants |
+| 9 | `1d4` [jackalweres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/jackalwere.md) disguised as human beggars, entertainers, or merchants |
 | 10 | 1 [hobgoblin captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hobgoblin-captain.md) and `3d6` [hobgoblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hobgoblin.md) |
 | 11 | 1 [gnoll pack lord](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gnoll-pack-lord.md) and `3d6` [gnolls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gnoll.md) |
 | 12 | 1 [wyvern](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/wyvern.md) |
@@ -1425,8 +1388,6 @@ At least one NPC in Baldur's Gate knows the party's dark secret. Use the "Who Kn
 
 **Who Knows?**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^who-knows)`
-
 | dice: d8 | NPC |
 |----------|-----|
 | 1 | Captain Zodge (see "Meeting Captain Zodge") |
@@ -1449,8 +1410,6 @@ Opportunities to subvert minds and deeds exist throughout Baldur's Gate. When an
 
 **Conspiracy Details**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^conspiracy-details)`
-
 | dice: d4 | Conspiracy Details |
 |----------|--------------------|
 | 1 | Working amid the High Hall's records, you came to realize just how little separated commoners from patriars. Slowly you worked to upend the old families' control over the city—but then someone noticed. |
@@ -1464,8 +1423,6 @@ Opportunities to subvert minds and deeds exist throughout Baldur's Gate. When an
 Each character plays a role in the conspiracy, determined by rolling on the Conspiracy: Character Roles table or choosing an appropriate entry.
 
 **Conspiracy: Character Roles**
-
-`dice: [](10-baldurs-gate-gazetteer.md#^conspiracy-character-roles)`
 
 | dice: d6 | Character's Role |
 |----------|------------------|
@@ -1482,8 +1439,6 @@ Each character plays a role in the conspiracy, determined by rolling on the Cons
 Determine the challenge currently facing the characters by rolling on the Conspiracy Consequences table below or by having the players devise other grim consequences of their conspiracy.
 
 **Conspiracy Consequences**
-
-`dice: [](10-baldurs-gate-gazetteer.md#^conspiracy-consequences)`
 
 | dice: d6 | Conspiracy Consequences |
 |----------|-------------------------|
@@ -1505,8 +1460,6 @@ Did they kill for justice or just for the thrill? Define the particulars of the 
 
 **Murder Details**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^murder-details)`
-
 | dice: d6 | Murder Details |
 |----------|----------------|
 | 1 | She knew, which meant tomorrow every pastry-loving patriar in Baldur's Gate would too. The Upper City's most notorious gossip, Ellyn Harbreeze of Harbreeze Bakery, had to be dealt with. Who knew a bakery could be so dangerous? |
@@ -1525,8 +1478,6 @@ Each character plays a role in the murder, determined by rolling on the Murder: 
 
 **Murder: Character Roles**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^murder-character-roles)`
-
 | dice: d4 | Character's Role |
 |----------|------------------|
 | 1 | **Murderer**. Via a blade, a shove, or deliberate inaction, you took a life. |
@@ -1540,8 +1491,6 @@ Each character plays a role in the murder, determined by rolling on the Murder: 
 People are talking. Members of the Watch, the Flaming Fist, the Guild, or others are asking questions. If they find out what the characters did, their trial will be short and their deaths will be just. Determine the fallout of the characters' murderous deeds by rolling on the Murder Consequences table, or allow the players to create their own ominous stakes.
 
 **Murder Consequences**
-
-`dice: [](10-baldurs-gate-gazetteer.md#^murder-consequences)`
 
 | dice: d6 | Murder Consequences |
 |----------|---------------------|
@@ -1563,8 +1512,6 @@ Define the particulars of the party's theft, either by having the players craft 
 
 **Theft Details**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^theft-details)`
-
 | dice: d6 | Theft Details |
 |----------|---------------|
 | 1 | You did it for the prestige as much as the money. It took months to plan and even longer to get everyone into place. The High Hall is locked down tight every evening. Its crypts less so. Now a priceless treasure of the city, the spyglass of Balduran himself, is yours. |
@@ -1581,8 +1528,6 @@ Each character plays a role in the theft, determined by rolling on the Theft: Ch
 
 **Theft: Character Roles**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^theft-character-roles)`
-
 | dice: d6 | Character's Role |
 |----------|------------------|
 | 1 | **Breaker**. Force is your specialty, whether your breaking through a wall or breaking bones. |
@@ -1598,8 +1543,6 @@ Each character plays a role in the theft, determined by rolling on the Theft: Ch
 Determine how the characters' heist turned out by rolling on the Theft Consequences or having the players determine the consequences of their dubious enterprise.
 
 **Theft Consequences**
-
-`dice: [](10-baldurs-gate-gazetteer.md#^theft-consequences)`
 
 | dice: d6 | Theft Consequences |
 |----------|--------------------|
@@ -1621,8 +1564,6 @@ Define the particulars of the failed coup, either by having the players craft th
 
 **Failed Coup Details**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^failed-coup-details)`
-
 | dice: d4 | Failed Coup Details |
 |----------|---------------------|
 | 1 | Your patriar parents seemed like relics. Their days of leading the family and its business holdings were long past. With the help of their partners, you sought to seize your family's holdings, but you underestimated the cunning that comes with age. |
@@ -1639,8 +1580,6 @@ Each character plays a role in the failed coup, determined by rolling on the Fai
 
 **Failed Coup: Character Roles**
 
-`dice: [](10-baldurs-gate-gazetteer.md#^failed-coup-character-roles)`
-
 | dice: d6 | Character's Role |
 |----------|------------------|
 | 1 | **Facilitator**. You wouldn't benefit directly from the new power structure, but you'd benefit enough. |
@@ -1656,8 +1595,6 @@ Each character plays a role in the failed coup, determined by rolling on the Fai
 Those opposed to the attempted coup didn't take the characters' treachery lightly. Determine how the coup's intended target turned the tables on the characters by rolling on the Failed Coup Consequences table or crafting some worse situation.
 
 **Failed Coup Consequences**
-
-`dice: [](10-baldurs-gate-gazetteer.md#^failed-coup-consequences)`
 
 | dice: d6 | Failed Coup Consequences |
 |----------|--------------------------|

@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 - ttrpg-cli/deity/orc
 - ttrpg-cli/domain/tempest
 - ttrpg-cli/domain/war
-aliases: 
-- Gruumsh
+aliases:
+- "Gruumsh"
 ---
 # Gruumsh
 *Source: Volo's Guide to Monsters p. 82* 

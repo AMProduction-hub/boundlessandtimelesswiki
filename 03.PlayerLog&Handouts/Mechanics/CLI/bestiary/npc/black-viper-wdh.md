@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Black Viper
+- "Black Viper"
 ---
-# [Black Viper](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/black-viper-wdh.md)
+# [Black Viper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/black-viper-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 196*  
 
 The Black Viper was a notorious burglar, pickpocket, mugger, and assassin who died a century ago, after a long and nefarious career. Esvele Rosznar, a brash young noble, has recently adopted the Black Viper's persona to lead a secret life of crime. Like many other nobles, Esvele gossips about the Black Viper's exploits to lend credence to the villain's mystique.
@@ -42,8 +43,8 @@ One of the things Esvele has learned is to embrace the legend of the Black Viper
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+7"
-  - "intelligence": "+3"
+  - "dexterity": !!int "7"
+  - "intelligence": !!int "3"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+7"
@@ -55,12 +56,16 @@ One of the things Esvele has learned is to embrace the legend of the Black Viper
     "desc": "+7"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
 "senses": "passive Perception 13"
 "languages": "Common, Thieves' cant"
 "cr": "5"
 "traits":
   - "desc": "On each of her turns, the Black Viper can use a bonus action to take\
-      \ the Dash, Disengage, or Hide action."
+      \ the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash), [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage),\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action."
     "name": "Cunning Action"
   - "desc": "If the Black Viper is subjected to an effect that allows her to make\
       \ a Dexterity saving throw to take only half damage, she instead takes no damage\
@@ -75,10 +80,10 @@ One of the things Esvele has learned is to embrace the legend of the Black Viper
 "actions":
   - "desc": "The Black Viper makes three attacks with her rapier."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 4) piercing damage."
     "name": "Rapier"
-  - "desc": "Ranged Weapon Attack: +7 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +7 to hit, range 30/120 ft., one target. *Hit:*\
       \ 7 (1d6 + 4) piercing damage."
     "name": "Hand Crossbow"
 "reactions":

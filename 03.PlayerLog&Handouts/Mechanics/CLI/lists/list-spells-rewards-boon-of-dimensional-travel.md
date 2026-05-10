@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/reward/boon-of-dimensional-travel
 aliases:
-- Spells for Boon of Dimensional Travel
+- "Spells for Boon of Dimensional Travel"
 ---
 # Spells for Boon of Dimensional Travel
 

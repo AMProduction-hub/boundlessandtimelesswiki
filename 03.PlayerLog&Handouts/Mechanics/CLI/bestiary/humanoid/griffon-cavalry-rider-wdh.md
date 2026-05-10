@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Griffon Cavalry Rider
+- "Griffon Cavalry Rider"
 ---
-# [Griffon Cavalry Rider](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/griffon-cavalry-rider-wdh.md)
+# [Griffon Cavalry Rider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/griffon-cavalry-rider-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 197*  
 
 The City Guard is Waterdeep's army, charged with protecting the city's walls and gates, government buildings, harbor, and officials. The City Guard also patrols the roads to Amphail, Goldenfields, and Daggerford.
@@ -52,17 +53,20 @@ The Griffon Cavalry is a special branch of the City Guard whose members are vete
     "desc": "+4"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+  - "[lance](03.PlayerLog&Handouts/Mechanics/CLI/items/lance.md)"
 "senses": "passive Perception 13"
 "languages": "any one language (usually Common)"
 "cr": "2"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit (with disadvantage against a target\
-      \ within 5 ft.), reach 10 ft., one target. Hit: 8 (1d12 + 2) piercing damage,\
+  - "desc": "*Melee Weapon Attack:* +4 to hit (with disadvantage against a target\
+      \ within 5 ft.), reach 10 ft., one target. *Hit:* 8 (1d12 + 2) piercing damage,\
       \ or 11 (1d12 + 5) piercing damage while mounted."
     "name": "Lance"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage. Or Ranged Weapon Attack: +4 to hit, range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
   - "desc": "The rider wears a magic ring with which it can cast the [feather fall](03.PlayerLog&Handouts/Mechanics/CLI/spells/feather-fall.md)\
       \ spell on itself once as a reaction to falling. After the spell is cast, the\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Stonecloak
+- "Stonecloak"
 ---
-# [Stonecloak](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/stonecloak-wdmm.md)
+# [Stonecloak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/stonecloak-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 253*  
 
 Stone golems are magical constructs cut and chiseled from stone to appear as tall, impressive statues. Like other golems, they are nearly impervious to spells and ordinary weapons.
@@ -44,7 +45,8 @@ Halaster created stone golems in his own likeness and used fragments of the Rune
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "understands Abyssal, Celestial, Common, Draconic, Dwarvish, Elvish,\
   \ Infernal, and Undercommon but can't speak"
 "cr": "10"
@@ -60,7 +62,7 @@ Halaster created stone golems in his own likeness and used fragments of the Rune
 "actions":
   - "desc": "The stonecloak makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 19 (3d8 + 6) bludgeoning damage."
     "name": "Slam"
   - "desc": "The stonecloak targets one or more creatures it can see within 10 feet\

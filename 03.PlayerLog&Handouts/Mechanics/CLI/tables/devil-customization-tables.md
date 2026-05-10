@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Devil Customization Tables
+- "Devil Customization Tables"
 ---
 # Devil Customization Tables
 *Source: Mordenkainen's Tome of Foes p. 23* 
 
 **Devil Honorifics**
-
-`dice: [](devil-customization-tables.md#^devil-honorifics)`
 
 | dice: d20 | Title |
 |-----------|-------|
@@ -39,8 +38,6 @@ aliases:
 
 **Devil Personality Traits**
 
-`dice: [](devil-customization-tables.md#^devil-personality-traits)`
-
 | dice: d6 | Trait |
 |----------|-------|
 | 1 | I always have a scheme to make a profit. |
@@ -52,8 +49,6 @@ aliases:
 ^devil-personality-traits
 
 **Devil Ideals**
-
-`dice: [](devil-customization-tables.md#^devil-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -67,8 +62,6 @@ aliases:
 
 **Devil Bonds**
 
-`dice: [](devil-customization-tables.md#^devil-bonds)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | I and my comrades fought well in the Blood War, and our service demands respect. |
@@ -80,8 +73,6 @@ aliases:
 ^devil-bonds
 
 **Devil Flaws**
-
-`dice: [](devil-customization-tables.md#^devil-flaws)`
 
 | dice: d6 | Flaw |
 |----------|------|

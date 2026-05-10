@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Fiendish Cults; Cult Resources
+- "Fiendish Cults; Cult Resources"
 ---
 # Fiendish Cults; Cult Resources
 *Source: Mordenkainen's Tome of Foes p. 34* 
 
 **Cult Resources**
-
-`dice: [](fiendish-cults-cult-resources-mtf.md#^cult-resources)`
 
 | dice: d6 | Resource |
 |----------|----------|

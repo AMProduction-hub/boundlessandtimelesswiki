@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 aliases:
-- War Comes to Krynn
+- "War Comes to Krynn"
 ---
 # War Comes to Krynn
 *Source: Dragonlance: Shadow of the Dragon Queen, p. 4* 
@@ -48,7 +49,7 @@ Beyond these chapters, appendices support the adventure with equipment, magic it
 
 ## History of Krynn
 
-![Scholars and soldiers acro...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/001-00-002-scholars.webp#center "Scholars and soldiers across Solamnia spread warnings of sinister forces rising beyond their nation's borders")
+![Scholars and soldiers across Solamnia spread warnings of sinister forces rising beyond their nation's borders](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/001-00-002-scholars.webp#center)
 
 While every world's history is vast and fractured, with missing pieces and forgotten perspectives, Krynn's tale has been shattered by the global catastrophe called the Cataclysm. The world of Krynn was forged and destroyed, yet—broken and scarred—it continued on. Most of its people, seeking merely to survive in their slowly healing lands, care little for eons past. But the sages who piece together fragments of the past focus on three periods: before the Cataclysm, the Cataclysm itself, and the dire age since.
 
@@ -181,7 +182,7 @@ In Neraka, zealots and black-robed mages devise magical plans to empower Dragon 
 
 While Krynn holds many lands and cultures, the War of the Lance and adventures surrounding that conflict unfold on the continent of Ansalon. Here are a few details regarding everyday life there.
 
-![Travelers approach the tow...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/005-00-005-gateway-splash.webp#center "Travelers approach the town of Gateway, a community sheltered amid the roots of a toppled Vallenwood tree")
+![Travelers approach the town of Gateway, a community sheltered amid the roots of a toppled Vallenwood tree](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/005-00-005-gateway-splash.webp#center)
 
 ### Languages
 
@@ -271,15 +272,13 @@ Since the Cataclysm, the harsh realities of daily survival leave little room for
 
 ### Rumors of War
 
-![Takhisis the Dragon Queen ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/006-00-006-tiamat-splash.webp#center "Takhisis the Dragon Queen turns her attention from eastern Ansalon toward the city of Kalaman")
+![Takhisis the Dragon Queen turns her attention from eastern Ansalon toward the city of Kalaman](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/006-00-006-tiamat-splash.webp#center)
 
 Factual reports of war in eastern Ansalon and the Dragon Queen's return are slow to spread. Many of Ansalon's communities are isolated, and the Dragon Armies work to suppress information of their conquests. As a result, most people in Solamnia and west of the mountainous Taman Busuk region aren't aware of the Dragon Armies' threat beyond vague rumors.
 
 Roll or choose a result from the Wartime Rumors table whenever characters hear a rumor regarding the Dragon Armies or strange happenings in eastern Ansalon. Each rumor notes how truthful it is, but even inaccurate rumors hold a grain of truth. At the start of the adventure, characters have each heard one of these rumors.
 
 **Wartime Rumors**
-
-`dice: [](01-war-comes-to-krynn.md#^wartime-rumors)`
 
 | dice: d10 | Rumor |
 |-----------|-------|

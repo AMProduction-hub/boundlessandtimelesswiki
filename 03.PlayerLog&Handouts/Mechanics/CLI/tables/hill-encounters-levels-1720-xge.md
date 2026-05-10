@@ -1,25 +1,24 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Hill Encounters (Levels 17—20)
+- "Hill Encounters (Levels 17—20)"
 ---
 # Hill Encounters (Levels 17—20)
 *Source: Xanathar's Guide to Everything p. 101* 
 
 **Hill Encounters (Levels 17—20)**
 
-`dice: [](hill-encounters-levels-1720-xge.md#^hill-encounters-levels-1720)`
-
 | dice: d100 | Encounter |
 |------------|-----------|
-| 01 | `d2` [rocs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/roc.md) |
+| 01 | `1d2` [rocs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/roc.md) |
 | 02-05 | 1 [young red dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-red-dragon.md) |
 | 06-10 | `2d6` [ettins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ettin.md) |
-| 11-15 | `d4` [bulettes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/bulette.md) |
-| 16-20 | `d10` [revenants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/revenant.md) |
+| 11-15 | `1d4` [bulettes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/bulette.md) |
+| 16-20 | `1d10` [revenants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/revenant.md) |
 | 21-25 | The white outline of an enormous horse carved into the side of a high hill |
 | 26-30 | `1d6 + 1` [gorgons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/gorgon.md) |
 | 31-35 | `2d4 + 1` [trolls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/troll.md) |
@@ -36,5 +35,5 @@ aliases:
 | 86-90 | 1 [adult red dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-red-dragon.md) |
 | 91-96 | 1 [ancient copper dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-copper-dragon.md) |
 | 97-99 | 1 [ancient red dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-red-dragon.md) |
-| 00 | `d2` [adult red dragons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-red-dragon.md) with `d3` [young red dragons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-red-dragon.md) |
+| 00 | `1d2` [adult red dragons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-red-dragon.md) with `1d3` [young red dragons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-red-dragon.md) |
 ^hill-encounters-levels-1720

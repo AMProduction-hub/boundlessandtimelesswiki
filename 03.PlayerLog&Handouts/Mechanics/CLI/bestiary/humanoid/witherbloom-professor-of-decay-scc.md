@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Witherbloom Professor of Decay
+- "Witherbloom Professor of Decay"
 ---
-# [Witherbloom Professor of Decay](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/witherbloom-professor-of-decay-scc.md)
+# [Witherbloom Professor of Decay](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/witherbloom-professor-of-decay-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 223*  
 
 Professors of decay wield magic that drains and twists the essence of the professors' subjects. The professors use the gathered essence to feed their magic, snuffing the life and decaying the bodies of the living, entreating and commanding the dead and Undead, and twisting curses around their foes. In battle, they steal the essence of their enemies to heal their own wounds and create spears of sickly green life-draining energy.
@@ -42,10 +43,10 @@ Witherbloom College studies the magic inherent in the natural cycle of life and 
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+6"
-  - "intelligence": "+6"
-  - "wisdom": "+7"
-  - "charisma": "+4"
+  - "constitution": !!int "6"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -67,8 +68,8 @@ Witherbloom College studies the magic inherent in the natural cycle of life and 
   - "desc": "The professor makes two Mortality Spear attacks. It can replace one of\
       \ the attacks with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 17 (3d8 + 4) necrotic damage, and the target can't\
+  - "desc": "*Melee  or Ranged Spell Attack:* +7 to hit, reach 5 ft. or range 120\
+      \ ft., one target. *Hit:* 17 (3d8 + 4) necrotic damage, and the target can't\
       \ regain hit points until the start of the professor's next turn."
     "name": "Mortality Spear"
   - "desc": "The professor creates a life-draining vortex in a 30-foot-radius sphere\
@@ -82,9 +83,9 @@ Witherbloom College studies the magic inherent in the natural cycle of life and 
     "name": "Essence Pulse (Recharge 5-6)"
   - "desc": "The professor casts one of the following spells, requiring no material\
       \ components and using Wisdom as the spellcasting ability (spell save DC 15):\n\
-      \nAt will: [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
+      \n**At will:** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
       \ [spare the dying](03.PlayerLog&Handouts/Mechanics/CLI/spells/spare-the-dying.md)\n\
-      \n1/day each: [antilife shell](03.PlayerLog&Handouts/Mechanics/CLI/spells/antilife-shell.md),\
+      \n**1/day each:** [antilife shell](03.PlayerLog&Handouts/Mechanics/CLI/spells/antilife-shell.md),\
       \ [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md), [feign death](03.PlayerLog&Handouts/Mechanics/CLI/spells/feign-death.md),\
       \ [speak with dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md)"
     "name": "Spellcasting"

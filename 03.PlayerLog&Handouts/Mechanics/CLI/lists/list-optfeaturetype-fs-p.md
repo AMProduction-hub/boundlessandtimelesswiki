@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Fighting Style, Paladin
+- "Fighting Style, Paladin"
 ---
 # Fighting Style, Paladin
 *Source: Player's Handbook, Tasha's Cauldron of Everything, Xanathar's Guide to Everything p. 15. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>* 

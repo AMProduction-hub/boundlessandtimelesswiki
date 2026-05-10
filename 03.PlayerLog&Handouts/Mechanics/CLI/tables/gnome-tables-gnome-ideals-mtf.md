@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Gnome Tables; Gnome Ideals
+- "Gnome Tables; Gnome Ideals"
 ---
 # Gnome Tables; Gnome Ideals
 *Source: Mordenkainen's Tome of Foes p. 114* 
 
 **Gnome Ideals**
-
-`dice: [](gnome-tables-gnome-ideals-mtf.md#^gnome-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

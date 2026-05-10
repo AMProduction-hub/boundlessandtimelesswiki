@@ -1,15 +1,20 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/egw
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/school/transmutation
+- ttrpg-cli/spell/subclass/chronurgy-magic
+- ttrpg-cli/spell/subclass/graviturgy-magic
 classes:
-- Bard
+- Bard (Magical Secrets)
+- Wizard (Chronurgy Magic)
+- Wizard (Graviturgy Magic)
 aliases:
-- Magnify Gravity
+- "Magnify Gravity"
 ---
 # Magnify Gravity
 *1st-level, Transmutation*  
@@ -24,8 +29,8 @@ The gravity in a 10-foot-radius sphere centered on a point you can see within ra
 
 Until the start of your next turn, any object that isn't being worn or carried in the sphere requires a successful Strength check against your spell save DC to pick up or move.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by `d8` for each slot level above 1st.
+**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by `1d8` for each slot level above 1st.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Wizard (Chronurgy Magic)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-chronurgy-magic-egw.md "subclass=EGW"); [Wizard (Graviturgy Magic)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-graviturgy-magic-egw.md "subclass=EGW")
 
 *Source: Explorer's Guide to Wildemount p. 188*

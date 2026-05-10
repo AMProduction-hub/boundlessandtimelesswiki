@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Deepking Horgar Steelshadow V
+- "Deepking Horgar Steelshadow V"
 ---
-# [Deepking Horgar Steelshadow V](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/deepking-horgar-steelshadow-v-oota.md)
+# [Deepking Horgar Steelshadow V](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/deepking-horgar-steelshadow-v-oota.md)
 *Source: Out of the Abyss p. 82*  
 
 Deepking Horgar V ascended to the throne in 1372 DR. He is a ruthless and canny ruler who engages in secret meetings with all the city's councils and clans to keep their members guessing what he's up to, hands out favors out of the blue, and lets it be known that he'll use any trick to maintain his hold on power. This includes hiring assassins through third parties to take care of potential troublemakers. This strategy keeps all the city's factions at each other's throats and out of Horgar's way.
@@ -38,8 +39,12 @@ Like many other duergar in the city, Horgar Steelshadow V has been touched by th
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+4"
-  - "wisdom": "+2"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "2"
+"gear":
+  - "[+2 warhammer](03.PlayerLog&Handouts/Mechanics/CLI/items/2-weapon.md)"
+  - "[gauntlets of ogre power](03.PlayerLog&Handouts/Mechanics/CLI/items/gauntlets-of-ogre-power.md)"
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
 "senses": "passive Perception 10"
 "languages": "Draconic, Giant, Dwarvish"
 "cr": "3"
@@ -73,13 +78,13 @@ Like many other duergar in the city, Horgar Steelshadow V has been touched by th
     "name": "Invisibility (Recharges after a Short or Long Rest)"
   - "desc": "Horgar makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (1d8 + 6) bludgeoning damage, or 11 (1d10 + 6) bludgeoning damage if used\
       \ with two hands. While Horgar is enlarged, the damage increases to 15 (2d8\
       \ + 6) or 17 (2d10 + 6) bludgeoning damage, respectively."
     "name": "+2 Warhammer"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit:\
-      \ 5 (d10) piercing damage."
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 100/400 ft., one target. *Hit:*\
+      \ 5 (1d10) piercing damage."
     "name": "Heavy Crossbow"
   - "desc": "For 1 minute, Horgar can utter a special command or warning whenever\
       \ a nonhostile creature that he can see within 30 feet of Horgar makes an attack\

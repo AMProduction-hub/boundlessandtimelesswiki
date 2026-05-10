@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-reward
+cssclasses:
+- json5e-reward
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/reward/blessing
 aliases:
-- Blessing of Valhalla
+- "Blessing of Valhalla"
 ---
 # Blessing of Valhalla
 

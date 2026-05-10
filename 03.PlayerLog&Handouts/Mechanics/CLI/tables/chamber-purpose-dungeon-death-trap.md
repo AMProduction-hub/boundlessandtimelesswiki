@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Chamber Purpose; Dungeon: Death Trap
+- "Chamber Purpose; Dungeon: Death Trap"
 ---
 # Chamber Purpose; Dungeon: Death Trap
 *Source: Dungeon Master's Guide p. 292* 
 
 **Dungeon: Death Trap**
-
-`dice: [](chamber-purpose-dungeon-death-trap.md#^dungeon-death-trap)`
 
 | dice: d20 | Purpose |
 |-----------|---------|

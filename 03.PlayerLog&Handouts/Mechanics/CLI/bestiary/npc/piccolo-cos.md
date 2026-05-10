@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Piccolo
+- "Piccolo"
 ---
-# [Piccolo](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/piccolo-cos.md)
+# [Piccolo](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/piccolo-cos.md)
 *Source: Curse of Strahd p. 118*  
 
 ```statblock
@@ -40,7 +41,7 @@ aliases:
       \ [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 1\
       \ (1d4 - 1) piercing damage."
     "name": "Bite"
 "source":

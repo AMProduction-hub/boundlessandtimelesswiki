@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kender Skirmisher
+- "Kender Skirmisher"
 ---
-# [Kender Skirmisher](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/kender-skirmisher-dsotdq.md)
+# [Kender Skirmisher](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kender-skirmisher-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 204*  
 
 Kender skirmishers are fearless fighters who use stealth and wiliness to defend their friends and homes. They excel at disrupting their enemies by sabotaging crucial equipment or by taunting opponents into making rash decisions. They wield the signature kender weapon: the hoopak, a combination spear and sling staff.
@@ -19,8 +20,6 @@ Kender skirmishers are fearless fighters who use stealth and wiliness to defend 
 ## Kender Taunts
 
 Roll on or choose an entry from the Kender Taunts table to determine how a kender skirmisher infuriates an opponent in battle.
-
-`dice: [](kender-skirmisher-dsotdq.md#^taunt)`
 
 | dice: d4 | Taunt |
 |----------|-------|
@@ -56,12 +55,14 @@ Roll on or choose an entry from the Kender Taunts table to determine how a kende
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
+"gear":
+  - "[hoopak](03.PlayerLog&Handouts/Mechanics/CLI/items/hoopak-dsotdq.md)"
 "senses": "passive Perception 13"
 "languages": "Common, Kenderspeak"
 "cr": "1/4"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 40/160\
-      \ ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 5 (1d4 + 3) bludgeoning\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 40/160\
+      \ ft., one target. *Hit:* 6 (1d6 + 3) piercing damage, or 5 (1d4 + 3) bludgeoning\
       \ damage if the kender used the hoopak's sling to make a ranged attack."
     "name": "Hoopak"
   - "desc": "The kender launches a barrage of insults at a creature it can see within\
@@ -70,7 +71,8 @@ Roll on or choose an entry from the Kender Taunts table to determine how a kende
       \ the end of its next turn."
     "name": "Taunt"
 "bonus_actions":
-  - "desc": "The kender takes the Disengage or Hide action."
+  - "desc": "The kender takes the [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action."
     "name": "Elusive"
 "source":
   - "DSotDQ"

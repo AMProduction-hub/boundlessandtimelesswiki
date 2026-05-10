@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Grutha
+- "Grutha"
 ---
-# [Grutha](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/grutha-tftyp.md)
+# [Grutha](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/grutha-tftyp.md)
 *Source: Tales from the Yawning Portal p. 170*  
 
 ```statblock
@@ -35,16 +36,18 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
+"gear":
+  - "[greatclub](03.PlayerLog&Handouts/Mechanics/CLI/items/greatclub.md)"
 "senses": "passive Perception 12"
 "languages": "Giant"
 "cr": "5"
 "actions":
   - "desc": "Grutha makes two greatclub attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 18 (3d8 + 5) bludgeoning damage."
     "name": "Greatclub"
-  - "desc": "Ranged Weapon Attack: +8 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +8 to hit, range 60/240 ft., one target. *Hit:*\
       \ 21 (3d10 + 5) bludgeoning damage."
     "name": "Rock"
 "source":

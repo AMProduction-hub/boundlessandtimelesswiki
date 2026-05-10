@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Therzt
+- "Therzt"
 ---
-# [Therzt](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/therzt-tftyp.md)
+# [Therzt](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/therzt-tftyp.md)
 *Source: Tales from the Yawning Portal p. 158*  
 
 ```statblock
@@ -32,12 +33,15 @@ aliases:
   - !!int "10"
   - !!int "10"
 "speed": "30 ft."
-"senses": "darkvision 120 ft., passive Perception 10"
-"languages": "any one language (usually Common), Elvish"
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
+"languages": "any one language (usually Common), Elvish, Undercommon"
 "cr": "0"
 "traits":
-  - "desc": "Therzt\n\nAt will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
-      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+  - "desc": "Therzt\n\n**At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
+      \n**1/day each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
       \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md)"
     "name": "Innate Spellcasting"
   - "desc": "Therzt"
@@ -45,8 +49,8 @@ aliases:
   - "desc": "Therzt"
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) bludgeoning damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d4) bludgeoning damage."
     "name": "Club"
 "source":
   - "TftYP"

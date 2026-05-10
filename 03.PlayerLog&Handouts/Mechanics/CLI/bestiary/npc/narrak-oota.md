@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Narrak
+- "Narrak"
 ---
-# [Narrak](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/narrak-oota.md)
+# [Narrak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/narrak-oota.md)
 *Source: Out of the Abyss p. 232*  
 
 ```statblock
@@ -38,17 +39,20 @@ aliases:
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 120 ft., passive Perception 7"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 7"
 "languages": "Dwarvish, Undercommon"
 "cr": "2"
 "traits":
   - "desc": "Narrak is a 5th-level spellcaster. His spellcasting ability is Charisma\
       \ (Save DC 13, +5 to hit with spell attacks) Narrak has two 2nd-level spell\
       \ slots, which he regains after finishing a short or long rest, and knows the\
-      \ following warlock spells:\n\nCantrips (at will): [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md),\
+      \ following warlock spells:\n\n**Cantrips (at will):** [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md),\
       \ [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md), [poison\
-      \ spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md)\n\n1st-2nd\
-      \ level (2 slots): [armor of Agathys](03.PlayerLog&Handouts/Mechanics/CLI/spells/armor-of-agathys.md),\
+      \ spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md)\n\n**1st-2nd\
+      \ level (2 slots):** [armor of Agathys](03.PlayerLog&Handouts/Mechanics/CLI/spells/armor-of-agathys.md),\
       \ [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [hex](03.PlayerLog&Handouts/Mechanics/CLI/spells/hex.md), [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [ray of enfeeblement](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-enfeeblement.md),\
@@ -68,7 +72,7 @@ aliases:
   - "desc": "Narrak casts [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)\
       \ on himself"
     "name": "Armor of Shadows (Recharges after a Short or Long Rest)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
   - "desc": "While he is in a dim light or darkness, Narrak can become [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible).\

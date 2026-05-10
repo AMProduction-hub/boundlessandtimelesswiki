@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Klothys's Villains
+- "Klothys's Villains"
 ---
 # Klothys's Villains
 *Source: Mythic Odysseys of Theros p. 144* 
 
 **Klothys's Villains**
-
-`dice: [](klothyss-villains-mot.md#^klothyss-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

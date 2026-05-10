@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/6
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Githzerai Zerth
+- "Githzerai Zerth"
 ---
-# [Githzerai Zerth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/githzerai-zerth.md)
-*Source: Monster Manual p. 161, Waterdeep: Dungeon of the Mad Mage*  
+# [Githzerai Zerth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githzerai-zerth.md)
+*Source: Monster Manual p. 161*  
 
 Focused philosophers and austere ascetics, the githzerai pursue lives of rigid order. Lean and muscular, they wear unadorned clothing free of ornamentation, keeping their own counsel and trusting few creatures outside of their own kind. Having turned their backs on their warlike githyanki kin, the githzerai maintain a strict monastic lifestyle, dwelling on islands of order in the vast sea of chaos that is the plane of Limbo.
 
@@ -80,10 +81,10 @@ Whether these tall, gaunt creatures were peaceful or savage, cultured or primiti
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "strength": "+4"
-  - "dexterity": "+7"
-  - "intelligence": "+6"
-  - "wisdom": "+6"
+  - "strength": !!int "4"
+  - "dexterity": !!int "7"
+  - "intelligence": !!int "6"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -96,12 +97,12 @@ Whether these tall, gaunt creatures were peaceful or savage, cultured or primiti
 "cr": "6"
 "traits":
   - "desc": "The githzerai's innate spellcasting ability is Wisdom. It can innately\
-      \ cast the following spells, requiring no components:\n\nAt will: [mage\
+      \ cast the following spells, requiring no components:\n\n**At will:** [mage\
       \ hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md) (the hand is\
-      \ invisible)\n\n3/day each: [feather fall](03.PlayerLog&Handouts/Mechanics/CLI/spells/feather-fall.md),\
+      \ invisible)\n\n**3/day each:** [feather fall](03.PlayerLog&Handouts/Mechanics/CLI/spells/feather-fall.md),\
       \ [jump](03.PlayerLog&Handouts/Mechanics/CLI/spells/jump.md), [see invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/see-invisibility.md),\
-      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n1/day\
-      \ each: [phantasmal killer](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-killer.md),\
+      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n**1/day\
+      \ each:** [phantasmal killer](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-killer.md),\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)"
     "name": "Innate Spellcasting (Psionics)"
   - "desc": "While the githzerai is wearing no armor and wielding no shield, its AC\
@@ -110,13 +111,12 @@ Whether these tall, gaunt creatures were peaceful or savage, cultured or primiti
 "actions":
   - "desc": "The githzerai makes two unarmed strikes."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage plus 13 (3d8) psychic damage. This is a magic\
       \ weapon attack."
     "name": "Unarmed Strike"
 "source":
   - "MM"
-  - "WDMM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/githzerai-zerth.webp"
 ```
 ^statblock

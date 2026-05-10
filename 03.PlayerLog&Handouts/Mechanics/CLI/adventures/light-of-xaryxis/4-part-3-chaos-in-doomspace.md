@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/lox
 aliases:
-- Part 3: Chaos in Doomspace
+- "Part 3: Chaos in Doomspace"
 ---
 # Part 3: Chaos in Doomspace
 *Source: Light of Xaryxis, p. 36* 
@@ -24,7 +25,7 @@ To have any hope against [Prince Xeleth](03.PlayerLog&Handouts/Mechanics/CLI/bes
 
 ### Princess Xedalli
 
-Xedalli, a chaotic neutral [astral elf aristocrat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/astral-elf-aristocrat-bam.md) (see "Boo's Astral Menagerie"), wears a [ring of shooting stars](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-shooting-stars.md) and is initially friendly toward the characters. She shares the following information with the characters if she learns about the attack on their world:
+Xedalli, a chaotic neutral astral elf aristocrat (see "Boo's Astral Menagerie"), wears a [ring of shooting stars](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-shooting-stars.md) and is initially friendly toward the characters. She shares the following information with the characters if she learns about the attack on their world:
 
 > [!readaloud] 
 > 
@@ -67,7 +68,7 @@ If the characters ask Krux why he's sulking, he reveals the source of his shame.
 
 #### Raising Krux's Spirits
 
-Characters can persuade the giff to "buck up" with a successful DC 13 Charisma ([Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)) check. Those who motivate the commodore with a rousing speech or a healthy dose of tough love have advantage on this check. On a successful check, Krux regains his resolve and stands ready once more to tackle the Xaryxian Empire. On a failed check, the giff sulks in his cabin; when he emerges `d8` hours later, he is pickled in equal measures of ale and shame.
+Characters can persuade the giff to "buck up" with a successful DC 13 Charisma ([Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)) check. Those who motivate the commodore with a rousing speech or a healthy dose of tough love have advantage on this check. On a successful check, Krux regains his resolve and stands ready once more to tackle the Xaryxian Empire. On a failed check, the giff sulks in his cabin; when he emerges `1d8` hours later, he is pickled in equal measures of ale and shame.
 
 #### What Krux Knows
 
@@ -156,7 +157,7 @@ Krux is eager for the characters to meet Warwyck, so he insists they accompany h
 > Pellets of radiant light fly through the air, narrowly missing you as several starfish-like plant creatures creep out of the jungle and advance threateningly.
 ^0c4
 
-[Warwyck Blastimoff](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/warwyck-blastimoff-lox.md), a lawful good [giff shipmate](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/giff-shipmate-bam.md), is out of ammunition and in a hurry. The creatures pursuing him are six [aartuk weedlings](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/aartuk-weedling-bam.md) and an [aartuk starhorror](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/aartuk-starhorror-bam.md) (see "Boo's Astral Menagerie" for their stat blocks). The aartuks are hostile and 30 feet away from the characters at the start of this encounter. The priest tries to snare Warwyck with its tongue while the warriors pepper the characters with radiant pellets or engage them in melee.
+[Warwyck Blastimoff](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/warwyck-blastimoff-lox.md), a lawful good giff shipmate, is out of ammunition and in a hurry. The creatures pursuing him are six aartuk weedlings and an aartuk starhorror (see "Boo's Astral Menagerie" for their stat blocks). The aartuks are hostile and 30 feet away from the characters at the start of this encounter. The priest tries to snare Warwyck with its tongue while the warriors pepper the characters with radiant pellets or engage them in melee.
 
 Once the aartuks are defeated, Warwyck lets out a long sigh of relief, salutes [Commodore Krux](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/commodore-krux-lox.md), and asks, "Permission to come aboard, sir?"
 
@@ -219,7 +220,7 @@ Fyreen is a volcanic world despoiled by dragons. The planet's remaining resource
 
 Temperatures on Fyreen plunged dramatically after the sun collapsed, but the planet generates enough heat on its own to keep it from freezing.
 
-When the sun collapsed, [dohwars](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/dohwar-bam.md) and [mercanes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/mercane-bam.md) (both described in "Boo's Astral Menagerie") evacuated thousands of creatures from Fyreen. Many of these creatures were deposited on the nine moons of En (which provide temporary solace at best) or borne safely to other Wildspace systems. Millions more creatures were left to be swallowed up by the Eye of Doom.
+When the sun collapsed, dohwars and mercanes (both described in "Boo's Astral Menagerie") evacuated thousands of creatures from Fyreen. Many of these creatures were deposited on the nine moons of En (which provide temporary solace at best) or borne safely to other Wildspace systems. Millions more creatures were left to be swallowed up by the Eye of Doom.
 
 Crios, the smaller of Fyreen's two moons, still orbits the planet. But the same thing that is happening to Valt will happen to Crios in about a month.
 
@@ -237,7 +238,7 @@ This large moon is home to rampaging [tarrasques](03.PlayerLog&Handouts/Mechanic
 
 ##### G'vek
 
-This moon is dotted with sheer mountains that have become home to families of aarakocra evacuated from Fyreen. [B'rohgs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/brohg-bam.md) (see "Boo's Astral Menagerie"), [death dogs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/death-dog.md), [gorgons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/gorgon.md), [hydras](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hydra.md), and other monsters stalk the foothills.
+This moon is dotted with sheer mountains that have become home to families of aarakocra evacuated from Fyreen. B'rohgs (see "Boo's Astral Menagerie"), [death dogs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/death-dog.md), [gorgons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/gorgon.md), [hydras](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hydra.md), and other monsters stalk the foothills.
 
 ##### Inivar
 
@@ -253,7 +254,7 @@ Shalar is an ice moon with a ring of ice crystals circling its equator. Humans e
 
 ##### Thrydd
 
-Deep canyons crisscross the surface of this giant ball of ice. The canyons are heated by thermal vents and inhabited by [braxats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/braxat-bam.md),* [gaj](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/gaj-bam.md),* [megapedes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/megapede-bam.md),* [remorhazes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/remorhaz.md), "ssurran",* and [thri-kreen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thri-kreen.md). (Creatures marked with an asterisk are described in "Boo's Astral Menagerie".)
+Deep canyons crisscross the surface of this giant ball of ice. The canyons are heated by thermal vents and inhabited by braxats,* gaj,* megapedes,* [remorhazes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/remorhaz.md), "ssurran",* and [thri-kreen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thri-kreen.md). (Creatures marked with an asterisk are described in "Boo's Astral Menagerie".)
 
 ##### Vocath
 
@@ -261,11 +262,11 @@ This moon, composed entirely of toxic green gas, is featured in chapters 8 and 9
 
 ##### Yisheen
 
-This small, barren moon is covered with black frost and belongs to Yisheen, a miserly [adult lunar dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-lunar-dragon-bam.md) (see "Boo's Astral Menagerie") that abides no solicitors.
+This small, barren moon is covered with black frost and belongs to Yisheen, a miserly adult lunar dragon (see "Boo's Astral Menagerie") that abides no solicitors.
 
 ##### Yort
 
-This cold, swampy moon is strewn with the petrified skeletons of [kindori](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/kindori-bam.md) (see "Boo's Astral Menagerie"). Humanoid evacuees from Fyreen have taken to building shelters among the bones.
+This cold, swampy moon is strewn with the petrified skeletons of kindori (see "Boo's Astral Menagerie"). Humanoid evacuees from Fyreen have taken to building shelters among the bones.
 
 #### Shattered Sphere
 
@@ -329,10 +330,10 @@ The following ships, each of which is equipped with a spelljamming helm, are doc
 ![Vocath](03.PlayerLog&Handouts/Mechanics/CLI/adventures/light-of-xaryxis/img/034-11-005-vocath.webp#center)
 
 - **Dock 1.** The Skyrra, a shrike ship, has a crew of eleven [aarakocra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/aarakocra.md) and one [aarakocra spelljammer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/aarakocra-spelljammer-lox.md) (use the [mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage.md) stat block, but give this aarakocra a flying speed of 50 feet).  
-- **Dock 2.** The Remora, a lamprey ship, has a crew of twelve [aartuk weedlings](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/aartuk-weedling-bam.md), three [aartuk starhorrors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/aartuk-starhorror-bam.md), and one [aartuk elder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/aartuk-elder-bam.md) (see "Boo's Astral Menagerie" for their stat blocks).  
-- **Dock 4.** The Tarrasque, a space galleon, has a crew of hadozees (four [hadozee explorers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hadozee-explorer-bam.md), fifteen hadozee warriors, and one hadozee [druid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md)).  
-- **Dock 5.** The Gadabout, a wasp ship with a torn-off leg, has a crew of two [ssurran defilers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/ssurran-defiler-bam.md) and three [ssurran poisoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/ssurran-poisoner-bam.md) (see "Boo's Astral Menagerie" for their stat blocks). Its cargo hold has been turned into a ssurran egg nursery.  
-- **Dock 6.** The Vrusk, a scorpion ship, has a crew of eight [thri-kreen hunters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/thri-kreen-hunter-bam.md), three [thri-kreen gladiators](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/thri-kreen-gladiator-bam.md), and one [thri-kreen mystic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/thri-kreen-mystic-bam.md), who serves as the spelljammer (see "Boo's Astral Menagerie" for their stat blocks).  
+- **Dock 2.** The Remora, a lamprey ship, has a crew of twelve aartuk weedlings, three aartuk starhorrors, and one aartuk elder (see "Boo's Astral Menagerie" for their stat blocks).  
+- **Dock 4.** The Tarrasque, a space galleon, has a crew of hadozees (four hadozee explorers, fifteen hadozee warriors, and one hadozee [druid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md)).  
+- **Dock 5.** The Gadabout, a wasp ship with a torn-off leg, has a crew of two ssurran defilers and three ssurran poisoners (see "Boo's Astral Menagerie" for their stat blocks). Its cargo hold has been turned into a ssurran egg nursery.  
+- **Dock 6.** The Vrusk, a scorpion ship, has a crew of eight thri-kreen hunters, three thri-kreen gladiators, and one thri-kreen mystic, who serves as the spelljammer (see "Boo's Astral Menagerie" for their stat blocks).  
 - **Dock 8.** [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md)'s yacht, a damselfly ship called the Devil's Deal, is moored at the end of this dock. For more information about this ship and its crew, see area 6 later in this chapter.  
 
 Docks 3 and 7 are clear of ships. If the characters are traveling aboard the *Second Wind* and Krux is in command, he chooses to berth the vessel at dock 3. If the characters are traveling aboard the *Last Breath* and Gargenhale is in command, he chooses to berth the vessel at dock 7.
@@ -353,7 +354,7 @@ Several magical effects are present on [Vocath](03.PlayerLog&Handouts/Mechanics/
 
 #### Where's Vocath?
 
-When the characters first arrive at [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md)'s base, the [mercane](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/mercane-bam.md) (see "Boo's Astral Menagerie") is in his audience chamber (area 4), being attended by his personal bodyguards: Y'thraka, a jovial, lawful neutral [githyanki knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githyanki-knight.md) with an eye patch, and Sergeant Burt Fluke, a foul-mouthed, chaotic neutral [giff shock trooper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/giff-shock-trooper-bam.md) (see "Boo's Astral Menagerie"). These two accompany [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md) wherever he goes.
+When the characters first arrive at [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md)'s base, the mercane (see "Boo's Astral Menagerie") is in his audience chamber (area 4), being attended by his personal bodyguards: Y'thraka, a jovial, lawful neutral [githyanki knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githyanki-knight.md) with an eye patch, and Sergeant Burt Fluke, a foul-mouthed, chaotic neutral giff shock trooper (see "Boo's Astral Menagerie"). These two accompany [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md) wherever he goes.
 
 When [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md) decides to stage a gladiatorial contest, he notifies the base's other guards so they can herd spectators onto the arena balcony (area 1). [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md) and his bodyguards then relocate to the mercane's private viewing box overlooking the arena, from where [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md) presides over the spectacle.
 
@@ -381,11 +382,11 @@ Twenty feet higher than the main balcony, 50 feet above the arena floor, is a pr
 
 ##### Treasure
 
-Mounted to the underside of [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md)'s private box, visible to creatures on the arena floor, is a [mirror of life trapping](03.PlayerLog&Handouts/Mechanics/CLI/items/mirror-of-life-trapping.md) whose command words are known only to [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md). The mercane has trapped the following creatures inside the mirror and releases some of them during the "Arena Battles" event later in this chapter: one [braxat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/braxat-bam.md),* two [b'rohgs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/brohg-bam.md),* two [hook horrors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hook-horror.md), one [megapede](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/megapede-bam.md),* one [brown scavver](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/brown-scavver-bam.md),* one [gray scavver](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/gray-scavver-bam.md),* three [space clowns](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/space-clown-bam.md),* and one [space guppy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/space-guppy-bam.md).* (Creatures marked with an asterisk are described in "Boo's Astral Menagerie".) Creatures released in this manner materialize in unoccupied spaces on the arena floor as close to the mirror as possible. If the mirror is shattered, all creatures trapped inside it are released at once.
+Mounted to the underside of [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md)'s private box, visible to creatures on the arena floor, is a [mirror of life trapping](03.PlayerLog&Handouts/Mechanics/CLI/items/mirror-of-life-trapping.md) whose command words are known only to [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md). The mercane has trapped the following creatures inside the mirror and releases some of them during the "Arena Battles" event later in this chapter: one braxat,* two b'rohgs,* two [hook horrors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hook-horror.md), one megapede,* one brown scavver,* one gray scavver,* three space clowns,* and one space guppy.* (Creatures marked with an asterisk are described in "Boo's Astral Menagerie".) Creatures released in this manner materialize in unoccupied spaces on the arena floor as close to the mirror as possible. If the mirror is shattered, all creatures trapped inside it are released at once.
 
 #### 2: Armory
 
-Two walls of force (see "Magical Effects" above) seal off this chamber, where three [giff shipmates](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/giff-shipmate-bam.md) (see "Boo's Astral Menagerie") and three [githyanki warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githyanki-warrior.md) stand guard. Racks and shelves holding armor and weaponry are mounted to the walls behind them (see "Treasure" below).
+Two walls of force (see "Magical Effects" above) seal off this chamber, where three giff shipmates (see "Boo's Astral Menagerie") and three [githyanki warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githyanki-warrior.md) stand guard. Racks and shelves holding armor and weaponry are mounted to the walls behind them (see "Treasure" below).
 
 ##### Treasure
 
@@ -393,7 +394,7 @@ The weapon racks and shelves hold ten [longswords](03.PlayerLog&Handouts/Mechani
 
 #### 3: Vestibule
 
-Stone ramps from the docks ascend to this vestibule, where walls of force (see "Magical Effects" above) block access to areas 2 and 4. Two [giff shipmates](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/giff-shipmate-bam.md) (see "Boo's Astral Menagerie") and two [githyanki warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githyanki-warrior.md) guard the vestibule.
+Stone ramps from the docks ascend to this vestibule, where walls of force (see "Magical Effects" above) block access to areas 2 and 4. Two giff shipmates (see "Boo's Astral Menagerie") and two [githyanki warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githyanki-warrior.md) guard the vestibule.
 
 Visitors seeking an audience with [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md) are expected to wait here until the mercane allows them into his audience chamber (area 4).
 
@@ -431,11 +432,11 @@ While in this room, [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vo
 
 #### 6: Private Dock
 
-A private dock juts out from [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md)'s tower 80 feet above the public docks. The base of the pier is a wide platform anchored to the tower. An unlocked stone door leading to area 5 is guarded by two [giff shipmates](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/giff-shipmate-bam.md) (see "Boo's Astral Menagerie"), who stand between two 40-foot-tall stone statues of [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md).
+A private dock juts out from [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md)'s tower 80 feet above the public docks. The base of the pier is a wide platform anchored to the tower. An unlocked stone door leading to area 5 is guarded by two giff shipmates (see "Boo's Astral Menagerie"), who stand between two 40-foot-tall stone statues of [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md).
 
 ##### Devil's Deal
 
-[Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md)'s damselfly ship, the Devil's Deal, is berthed at the end of the dock. The ship's crew consists of [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md)'s two personal guards (see "Where's Vocath?" above), five [githyanki buccaneers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githyanki-buccaneer-bam.md), and a [githyanki xenomancer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githyanki-xenomancer-bam.md) who pilots the ship when [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md) doesn't want to (see "Boo's Astral Menagerie" for the githyanki stat blocks). [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md) has turned the ship's cargo hold into his personal bedchamber.
+[Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md)'s damselfly ship, the Devil's Deal, is berthed at the end of the dock. The ship's crew consists of [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md)'s two personal guards (see "Where's Vocath?" above), five githyanki buccaneers, and a githyanki xenomancer who pilots the ship when [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md) doesn't want to (see "Boo's Astral Menagerie" for the githyanki stat blocks). [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md) has turned the ship's cargo hold into his personal bedchamber.
 
 ##### Treasure
 
@@ -477,13 +478,13 @@ The characters roll initiative at the start of each match, and they have no time
 
 #### Match 1: Thrasher and Gnasher
 
-Two [b'rohgs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/brohg-bam.md) (see "Boo's Astral Menagerie") appear on the arena floor. They stand fifteen feet tall, have burnt-orange skin, and look somewhat befuddled as the crowd screams excitedly.
+Two b'rohgs (see "Boo's Astral Menagerie") appear on the arena floor. They stand fifteen feet tall, have burnt-orange skin, and look somewhat befuddled as the crowd screams excitedly.
 
 The b'rohgs have disadvantage on their initiative rolls as they adjust to the sudden uproar and their new surroundings. The rocks scattered around the arena floor are big enough for the b'rohgs to use as ranged weapons.
 
 #### Match 2: Brutus the Braxat
 
-Brutus, a [braxat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/braxat-bam.md), is joined by a [brown scavver](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/brown-scavver-bam.md) and a [gray scavver](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/gray-scavver-bam.md) (see "Boo's Astral Menagerie" for their stat blocks). They fight as allies.
+Brutus, a braxat, is joined by a brown scavver and a gray scavver (see "Boo's Astral Menagerie" for their stat blocks). They fight as allies.
 
 #### Match 3: Queen Gorma
 
@@ -494,9 +495,9 @@ Brutus, a [braxat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/braxat-bam
 > Out of nowhere, a three-foot-long, wide-eyed space guppy appears before you, wagging its tail in a friendly manner.
 ^0fd
 
-The characters have a moment to assess their foe—a [space guppy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/space-guppy-bam.md) (see "Boo's Astral Menagerie")—before [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md) realizes, to his dismay, that he has released the wrong creature. Realizing his mistake, [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md) throws his arms into the air and says, "Forgive me. Let's try this again."
+The characters have a moment to assess their foe—a space guppy (see "Boo's Astral Menagerie")—before [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md) realizes, to his dismay, that he has released the wrong creature. Realizing his mistake, [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md) throws his arms into the air and says, "Forgive me. Let's try this again."
 
-Queen Gorma, a one-hundred-foot-long [megapede](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/megapede-bam.md) (see "Boo's Astral Menagerie") appears, snaps up the guppy, and swallows it whole. Meanwhile, the crowd shouts, "Gorma! Gorma! Gorma!" The megapede isn't a picky eater and targets foes indiscriminately.
+Queen Gorma, a one-hundred-foot-long megapede (see "Boo's Astral Menagerie") appears, snaps up the guppy, and swallows it whole. Meanwhile, the crowd shouts, "Gorma! Gorma! Gorma!" The megapede isn't a picky eater and targets foes indiscriminately.
 
 ### Xeleth's Big Entrance
 
@@ -524,17 +525,17 @@ If Xeleth gains custody of Xedalli or claims the ring as proof of her death, his
 
 ### The Xaryxian Threat
 
-[Prince Xeleth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/prince-xeleth-lox.md) is a chaotic evil [astral elf aristocrat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/astral-elf-aristocrat-bam.md) (see "Boo's Astral Menagerie") who wears a [ring of shooting stars](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-shooting-stars.md). After learning of his sister's escape from custody, Xeleth used the power of the Astral Font (see chapter 11) to cast [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md). This spell enabled him to determine the whereabouts of his sister's [ring of shooting stars](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-shooting-stars.md).
+[Prince Xeleth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/prince-xeleth-lox.md) is a chaotic evil astral elf aristocrat (see "Boo's Astral Menagerie") who wears a [ring of shooting stars](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-shooting-stars.md). After learning of his sister's escape from custody, Xeleth used the power of the Astral Font (see chapter 11) to cast [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md). This spell enabled him to determine the whereabouts of his sister's [ring of shooting stars](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-shooting-stars.md).
 
 ![Prince Xeleth](03.PlayerLog&Handouts/Mechanics/CLI/adventures/light-of-xaryxis/img/038-11-007-prince-xeteth.webp#center)
 
-The [young solar dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-solar-dragon-bam.md) (see "Boo's Astral Menagerie") that appeared at the end of the previous session was summoned by Xeleth using Summon Solar Dragon. The figure riding the dragon, however, is not Xeleth himself but an illusion of him, created by Xeleth's [mislead](03.PlayerLog&Handouts/Mechanics/CLI/spells/mislead.md) spell. As long as he maintains concentration on the spell, Xeleth can interact with anyone present through this illusion. If the characters attack the illusory Xeleth or the dragon, the dragon retaliates.
+The young solar dragon (see "Boo's Astral Menagerie") that appeared at the end of the previous session was summoned by Xeleth using Summon Solar Dragon. The figure riding the dragon, however, is not Xeleth himself but an illusion of him, created by Xeleth's [mislead](03.PlayerLog&Handouts/Mechanics/CLI/spells/mislead.md) spell. As long as he maintains concentration on the spell, Xeleth can interact with anyone present through this illusion. If the characters attack the illusory Xeleth or the dragon, the dragon retaliates.
 
 #### Star Moth Fleet
 
 The real Xeleth is safely aboard the *Xaryxia*, one of twelve star moths surrounding [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md)'s base. The star moths form a ring around the base while staying 250 feet away from it. Their weapons open fire on any ship that tries to leave the base. (See chapter 2 of the "Astral Adventurer's Guide" for information about star moths and their weaponry.)
 
-If the characters decide to attack Xeleth's fleet, use nonplayer characters such as [Commodore Krux](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/commodore-krux-lox.md), [Warwyck Blastimoff](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/warwyck-blastimoff-lox.md), [Princess Xedalli](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/princess-xedalli-lox.md), and [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md) to make it clear that doing so would be tantamount to suicide. Each star moth is crewed by an [astral elf honor guard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/astral-elf-honor-guard-bam.md), who serves as the captain; an [astral elf star priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/astral-elf-star-priest-bam.md), who serves as the ship's spelljammer; and eleven [astral elf warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/astral-elf-warrior-bam.md). The fleet is under the command of an [astral elf commander](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/astral-elf-commander-bam.md) named Vael, who also serves as Xeleth's bodyguard aboard the *Xaryxia*. (See "Boo's Astral Menagerie" for the "astral elves' stat blocks".)
+If the characters decide to attack Xeleth's fleet, use nonplayer characters such as [Commodore Krux](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/commodore-krux-lox.md), [Warwyck Blastimoff](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/warwyck-blastimoff-lox.md), [Princess Xedalli](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/princess-xedalli-lox.md), and [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md) to make it clear that doing so would be tantamount to suicide. Each star moth is crewed by an astral elf honor guard, who serves as the captain; an astral elf star priest, who serves as the ship's spelljammer; and eleven astral elf warriors. The fleet is under the command of an astral elf commander named Vael, who also serves as Xeleth's bodyguard aboard the *Xaryxia*. (See "Boo's Astral Menagerie" for the "astral elves' stat blocks".)
 
 #### Vocath's Reaction
 
@@ -567,7 +568,7 @@ After giving up her ring, Xedalli moves back into the space occupied by her illu
 
 After parting with her ring, Xedalli surrenders to her brother. If Xeleth's solar dragon is still around, it bears her safely to the *Xaryxia*, where she is taken into custody. If the characters defeated Xeleth's dragon, Xedalli travels to her brother's ship on the back of another solar dragon she summons for herself. After his sister is aboard the *Xaryxia*, Xeleth orders his fleet back to Xaryxispace. As long as Xedalli is his prisoner, Xeleth doesn't care about what happens to her ring.
 
-If he thinks Xedalli is dead, Xeleth assumes the characters have her ring and demands that it be tossed into his dragon's mouth (so that the dragon can safely transport it back to Xeleth's ship). If his dragon is defeated before it can deliver the ring, Xeleth orders Commander Vael to teleport to [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md)'s base with eight [astral elf warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/astral-elf-warrior-bam.md), obtain the ring at any cost, and teleport back to the Xaryxia. [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md), if he's alive, helps the astral elves retrieve the ring. He hopes they'll leave in peace afterward, which they do.
+If he thinks Xedalli is dead, Xeleth assumes the characters have her ring and demands that it be tossed into his dragon's mouth (so that the dragon can safely transport it back to Xeleth's ship). If his dragon is defeated before it can deliver the ring, Xeleth orders Commander Vael to teleport to [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md)'s base with eight astral elf warriors, obtain the ring at any cost, and teleport back to the Xaryxia. [Vocath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vocath-lox.md), if he's alive, helps the astral elves retrieve the ring. He hopes they'll leave in peace afterward, which they do.
 
 #### Xeleth Denied
 
@@ -589,11 +590,11 @@ To forge a coalition, the characters must redirect the factions' animosity towar
 
 | Representative | Faction |
 |----------------|---------|
-| Dakaer (neutral, hadozee [hadozee explorer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hadozee-explorer-bam.md)*) | Hadozee |
+| Dakaer (neutral, hadozee hadozee explorer*) | Hadozee |
 | Rika (neutral good [aarakocra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/aarakocra.md)) | Aarakocra |
-| T'kitka (chaotic neutral [thri-kreen mystic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/thri-kreen-mystic-bam.md)*) | Thri-kreen |
-| Vortshu (chaotic neutral [aartuk elder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/aartuk-elder-bam.md)*) | Aartuk |
-| Zoth'ess (neutral [ssurran defiler](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/ssurran-defiler-bam.md)*) | Ssurran |
+| T'kitka (chaotic neutral thri-kreen mystic*) | Thri-kreen |
+| Vortshu (chaotic neutral aartuk elder*) | Aartuk |
+| Zoth'ess (neutral ssurran defiler*) | Ssurran |
 ^faction-representatives
 
 *See "Boo's Astral Menagerie" for statistics.
@@ -614,7 +615,7 @@ On a successful check, the faction joins the coalition. On a failed check, the r
 > 
 > The following is an example of the "Forming a Coalition" rules in play.
 > 
-> A character approaches Vortshu, the [aartuk elder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/aartuk-elder-bam.md) (who is indifferent toward them), and tries to convince Vortshu that war against the Xaryxian Empire would give the aartuks new worlds to conquer. It's a sound approach, given aartuks' devotion to gods of war. But the character gets a failure on their DC 15 Charisma ([Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)) check, so Vortshu refuses to join the coalition, perhaps making the argument that the thri-kreen are a greater threat to the aartuks than the Xaryxian Empire. Further attempts to sway Vortshu fail automatically until the characters convince another faction representative to join their coalition. Having previously won over the aarakocra, the characters now set their sights on T'kitka, the thri-kreen representative.
+> A character approaches Vortshu, the aartuk elder (who is indifferent toward them), and tries to convince Vortshu that war against the Xaryxian Empire would give the aartuks new worlds to conquer. It's a sound approach, given aartuks' devotion to gods of war. But the character gets a failure on their DC 15 Charisma ([Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)) check, so Vortshu refuses to join the coalition, perhaps making the argument that the thri-kreen are a greater threat to the aartuks than the Xaryxian Empire. Further attempts to sway Vortshu fail automatically until the characters convince another faction representative to join their coalition. Having previously won over the aarakocra, the characters now set their sights on T'kitka, the thri-kreen representative.
 > 
 > Like Vortshu, T'kitka is indifferent toward the characters. To improve T'kitka's attitude, the characters give her the spelljamming helm they took from the *Dark Star* in chapter 2. This fabulous gift is enough to improve T'kitka's attitude to friendly. A character then succeeds on the DC 10 Charisma ([Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)) check, convincing T'kitka to join their coalition. With the thri-kreen now on board, the characters can make another attempt to convince Vortshu to join the coalition.
 ^vortshu-and-tkitka-at-vocath

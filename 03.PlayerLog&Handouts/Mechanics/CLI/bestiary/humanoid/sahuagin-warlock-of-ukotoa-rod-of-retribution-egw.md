@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sahuagin Warlock of Uk'otoa (Rod of Retribution)
+- "Sahuagin Warlock of Uk'otoa (Rod of Retribution)"
 ---
-# [Sahuagin Warlock of Uk'otoa (Rod of Retribution)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/sahuagin-warlock-of-ukotoa-rod-of-retribution-egw.md)
+# [Sahuagin Warlock of Uk'otoa (Rod of Retribution)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-warlock-of-ukotoa-rod-of-retribution-egw.md)
 *Source: Explorer's Guide to Wildemount p. 297*  
 
 ```statblock
@@ -38,15 +39,16 @@ aliases:
     "desc": "+1"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+5"
-"senses": "darkvision 120 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 9"
 "languages": "Common, Sahuagin"
 "cr": "3"
 "traits":
   - "desc": "The warlock's innate spellcasting ability is Charisma (spell save DC\
       \ 13, +5 to hit with spell attacks). It can innately cast the following spells,\
-      \ requiring no material components:\n\nAt will: [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md)\
+      \ requiring no material components:\n\n**At will:** [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md)\
       \ (see \"Actions\" below), [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
-      \n1/day each: [armor of Agathys](03.PlayerLog&Handouts/Mechanics/CLI/spells/armor-of-agathys.md),\
+      \n**1/day each:** [armor of Agathys](03.PlayerLog&Handouts/Mechanics/CLI/spells/armor-of-agathys.md),\
       \ [arms of Hadar](03.PlayerLog&Handouts/Mechanics/CLI/spells/arms-of-hadar.md),\
       \ [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [crown of madness](03.PlayerLog&Handouts/Mechanics/CLI/spells/crown-of-madness.md),\
@@ -68,17 +70,17 @@ aliases:
   - "desc": "The warlock makes two attacks: one with its bite and one with its Sword\
       \ of Fathoms."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d4 + 2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d10 + 2) slashing damage, and if the target is a creature, it must succeed\
       \ on a DC 13 Constitution saving throw or begin choking. The choking creature\
       \ is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
       \ until the end of its next turn, when the effect ends on it."
     "name": "Sword of Fathoms"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 120 ft., one creature. Hit:\
-      \ 5 (d10) force damage."
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 120 ft., one creature. *Hit:*\
+      \ 5 (1d10) force damage."
     "name": "Eldritch Blast (Cantrip)"
 "reactions":
   - "desc": "When a creature the warlock can see within 60 feet of it damages the\

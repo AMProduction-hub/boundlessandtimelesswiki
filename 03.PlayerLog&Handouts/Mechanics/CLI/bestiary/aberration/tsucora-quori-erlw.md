@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tsucora Quori
+- "Tsucora Quori"
 ---
-# [Tsucora Quori](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/tsucora-quori-erlw.md)
+# [Tsucora Quori](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/tsucora-quori-erlw.md)
 *Source: Eberron: Rising from the Last War p. 307*  
 
 Tsucora quori are nightmarish creatures. Their headless torsos are covered with eyes and twitching limbs, including two massive arms that end in powerful pincers, and a serpentine tail tipped with a vicious stinger. They are cruel and calculating, enjoying the power they wield over others as they concoct elaborate schemes to advance their own positions and discredit their rivals.
@@ -45,8 +46,8 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
   - !!int "16"
 "speed": "40 ft."
 "saves":
-  - "wisdom": "+5"
-  - "charisma": "+6"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+5"
@@ -55,28 +56,29 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
 "damage_resistances": "psychic"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Common, Quori"
 "cr": "7"
 "traits":
   - "desc": "The quori's spellcasting ability is Charisma (spell save DC 14). It can\
-      \ innately cast the following spells, requiring no components:\n\nAt will:\
+      \ innately cast the following spells, requiring no components:\n\n**At will:**\
       \ [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md)\n\
-      \n1/day: [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md)"
+      \n**1/day:** [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md)"
     "name": "Innate Spellcasting (Psionics)"
 "actions":
   - "desc": "The quori makes three attacks: one pincer attack, one attack with its\
       \ claws, and one stinger attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d10 + 3) bludgeoning damage. The target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14) if it is a Large or smaller creature. The quori has two pincers,\
       \ each of which can grapple one target."
     "name": "Pincer"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (4d4 + 3) slashing damage."
     "name": "Claws"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one creature. *Hit:*\
       \ 8 (1d10 + 3) piercing damage plus 10 (3d6) psychic damage, and the target\
       \ must succeed on a DC 14 Wisdom saving throw or be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
       \ of the quori for 1 minute. The target can repeat the saving throw at the end\

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Ideals
+- "Ideals"
 ---
 # Ideals
 *Source: Dungeon Master's Guide p. 90* 
 
 **Good Ideals**
-
-`dice: [](ideals.md#^good-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -25,8 +24,6 @@ aliases:
 
 **Evil Ideals**
 
-`dice: [](ideals.md#^evil-ideals)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | Domination |
@@ -38,8 +35,6 @@ aliases:
 ^evil-ideals
 
 **Lawful Ideals**
-
-`dice: [](ideals.md#^lawful-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -53,8 +48,6 @@ aliases:
 
 **Chaotic Ideals**
 
-`dice: [](ideals.md#^chaotic-ideals)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | Change |
@@ -67,8 +60,6 @@ aliases:
 
 **Neutral Ideals**
 
-`dice: [](ideals.md#^neutral-ideals)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | Balance |
@@ -80,8 +71,6 @@ aliases:
 ^neutral-ideals
 
 **Other Ideals**
-
-`dice: [](ideals.md#^other-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

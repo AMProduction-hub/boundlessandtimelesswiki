@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Chardalyn Berserker
+- "Chardalyn Berserker"
 ---
-# [Chardalyn Berserker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/chardalyn-berserker-idrotf.md)
+# [Chardalyn Berserker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/chardalyn-berserker-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 280*  
 
 Chardalyn berserkers are Reghed nomads who wield weapons made of chardalyn, specifically ones suffused with demonic magic (see the sidebar on Chardalyn). This exposure has transformed them into fiends. They shed their heavier protective clothing and embrace the frigid cold, allowing frostbite to ravage the exposed parts of their bodies, with only their faith in the Frostmaiden keeping them alive.
@@ -64,13 +65,13 @@ Prolonged contact with the demonic magic imprinted on the chardalyn has afflicte
 "actions":
   - "desc": "The berserker attacks three times with a melee weapon."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) bludgeoning damage, and the target must succeed on a DC 13 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ until the end of its next turn."
     "name": "Chardalyn Flail"
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 6 (1d6 + 3) piercing damage, and the target must\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 6 (1d6 + 3) piercing damage, and the target must\
       \ succeed on a DC 13 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ until the end of its next turn."
     "name": "Chardalyn Javelin"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Abhorrent Overlord
+- "Abhorrent Overlord"
 ---
-# [Abhorrent Overlord](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/abhorrent-overlord-mot.md)
+# [Abhorrent Overlord](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/abhorrent-overlord-mot.md)
 *Source: Mythic Odysseys of Theros p. 219*  
 
 Abhorrent overlords are gaunt, bipedal creatures whose gray, leathery skin is in stark contrast to the gleaming jewelry made of Underworld gold that they adorn themselves with. Their appetite for pain and death is eclipsed only by their greed; these fiends delight in searching out treasure and slaughtering all who stand in their way.
@@ -35,8 +36,8 @@ Abhorrent overlords are gaunt, bipedal creatures whose gray, leathery skin is in
   - !!int "16"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "constitution": "+7"
-  - "charisma": "+7"
+  - "constitution": !!int "7"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+7"
@@ -47,13 +48,14 @@ Abhorrent overlords are gaunt, bipedal creatures whose gray, leathery skin is in
 "damage_resistances": "cold, necrotic"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 12"
 "languages": "Abyssal, Common, Infernal"
 "cr": "9"
 "traits":
   - "desc": "The abhorrent overlord's spellcasting ability is Charisma (spell save\
       \ DC 15). It can innately cast the following spells, requiring no material components:\n\
-      \n1/day each: [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
+      \n**1/day each:** [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
       \ [crown of madness](03.PlayerLog&Handouts/Mechanics/CLI/spells/crown-of-madness.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
     "name": "Innate Spellcasting"
@@ -69,7 +71,7 @@ Abhorrent overlords are gaunt, bipedal creatures whose gray, leathery skin is in
 "actions":
   - "desc": "The abhorrent overlord makes two attacks with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (2d8 + 5) slashing damage plus 14 (4d6) necrotic damage. The abhorrent\
       \ overlord regains hit points equal to half the amount of necrotic damage dealt\
       \ if the target is a creature."

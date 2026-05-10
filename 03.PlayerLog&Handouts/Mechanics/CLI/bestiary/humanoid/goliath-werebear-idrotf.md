@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/8
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Goliath Werebear
+- "Goliath Werebear"
 ---
-# [Goliath Werebear](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/goliath-werebear-idrotf.md)
+# [Goliath Werebear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goliath-werebear-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 293*  
 
 Goliath legends speak of a creature that prowls the far reaches of Icewind Dale, known as Oyaminartok the Winter Walker. She can take the form of either a polar bear or a hulking, bipedal shape obscured by wind and blowing snow. Elders invoke her name to keep young goliaths from wandering too far from home before they're ready. Adult goliaths sometimes encounter this legendary individual in their travels to the far-flung corners of the dale. If they flee like cowards, Oyaminartok laughs and lets them go to wander in obscurity. If they challenge Oyaminartok to a fight, the Winter Walker smiles and tests their mettle. Those who impress her with their fighting skills are bitten and become goliath werebears themselves—goliaths who carry Oyaminartok's curse of lycanthropy. Contrary to myth, Oyaminartok is not a monster but a force of good in the region, and she passes her curse only to goliaths whose hearts are pure.
@@ -26,7 +27,7 @@ Oyaminartok and others of her kind try to help creatures they come across, for t
 "subtype": "goliath, shapechanger"
 "alignment": "Neutral Good"
 "ac": !!int "10"
-"ac_class": "12 from natural armor in bear or hybrid form"
+"ac_class": "12 natural armor in bear or hybrid form"
 "hp": !!int "161"
 "hit_dice": "19d8 + 76"
 "modifier": !!int "0"
@@ -49,6 +50,8 @@ Oyaminartok and others of her kind try to help creatures they come across, for t
 "damage_resistances": "cold"
 "damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
 "senses": "passive Perception 18"
 "languages": "Common, Giant (can't speak in bear form)"
 "cr": "8"
@@ -70,15 +73,15 @@ Oyaminartok and others of her kind try to help creatures they come across, for t
 "actions":
   - "desc": "The werebear makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:*\
       \ 16 (2d10 + 5) piercing damage. If the target is a humanoid, it must succeed\
       \ on a DC 15 Constitution saving throw or be cursed with werebear lycanthropy,\
       \ as described in the Monster Manual."
     "name": "Bite (Bear or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (2d8 + 5) slashing damage."
     "name": "Claw (Bear or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (1d12 + 5) slashing damage."
     "name": "Greataxe (Humanoid or Hybrid Form Only)"
 "reactions":

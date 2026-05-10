@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/item/rarity/rare
-aliases: 
+aliases:
 - "Professor Skant"
 ---
 # Professor Skant

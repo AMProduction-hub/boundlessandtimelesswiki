@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- What Happens Next?; Lower Sharn Street Events
+- "What Happens Next?; Lower Sharn Street Events"
 ---
 # What Happens Next?; Lower Sharn Street Events
 *Source: Eberron: Rising from the Last War p. 240* 
 
 **Lower Sharn Street Events**
-
-`dice: [](what-happens-next-lower-sharn-street-events-erlw.md#^lower-sharn-street-events)`
 
 | dice: d100 | Event |
 |------------|-------|

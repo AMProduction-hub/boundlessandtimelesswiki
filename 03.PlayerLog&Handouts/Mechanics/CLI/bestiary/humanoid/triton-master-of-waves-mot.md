@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Triton Master of Waves
+- "Triton Master of Waves"
 ---
-# [Triton Master of Waves](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/triton-master-of-waves-mot.md)
+# [Triton Master of Waves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/triton-master-of-waves-mot.md)
 *Source: Mythic Odysseys of Theros p. 245*  
 
 Triton masters of waves sculpt storms and change the tides, bending the sea to their will. Drawing forth living currents and the icy cold of the deep, these mages make the ocean their ally, using it to defend their people or enact Thassa's wishes. While dire threats from the land might bring them to coastal shallows, most masters of waves keep to the ocean's depths.
@@ -40,9 +41,9 @@ Clever, far-ranging people of the sea, tritons live rich lives unknown to most l
   - !!int "19"
 "speed": "30 ft., swim 30 ft."
 "saves":
-  - "dexterity": "+3"
-  - "intelligence": "+3"
-  - "charisma": "+7"
+  - "dexterity": !!int "3"
+  - "intelligence": !!int "3"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+6"
@@ -51,21 +52,22 @@ Clever, far-ranging people of the sea, tritons live rich lives unknown to most l
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+4"
 "damage_resistances": "cold, fire"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common, Primordial"
 "cr": "8"
 "traits":
   - "desc": "The triton's spellcasting ability is Charisma (spell save DC 15, +7\
       \ to hit with spell attacks). It can innately cast the following spells, requiring\
-      \ no material components:\n\nAt will: [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\
-      \ (see \"Actions\" below)\n\n2/day: [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md)\n\
-      \n1/day each: [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md),\
+      \ no material components:\n\n**At will:** [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\
+      \ (see \"Actions\" below)\n\n**2/day:** [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md)\n\
+      \n**1/day each:** [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md),\
       \ [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md),\
       \ [wind wall](03.PlayerLog&Handouts/Mechanics/CLI/spells/wind-wall.md)"
     "name": "Innate Spellcasting"
   - "desc": "The triton can breathe air and water."
     "name": "Amphibious"
-  - "desc": "As a bonus action, the triton magically summons d4 [water weirds](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-weird.md).\
+  - "desc": "As a bonus action, the triton magically summons 1d4 [water weirds](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-weird.md).\
       \ The summoned weirds appear in unoccupied spaces in water within 60 feet of\
       \ the triton. The water weirds act immediately after the triton on the same\
       \ initiative count and fight until they're destroyed. They disappear if the\
@@ -74,10 +76,10 @@ Clever, far-ranging people of the sea, tritons live rich lives unknown to most l
 "actions":
   - "desc": "The triton makes two attacks using Wave Touch and casts [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +7 to hit, reach 5 ft., one target. Hit: 22\
+  - "desc": "*Melee Spell Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 22\
       \ (4d10) cold damage."
     "name": "Wave Touch"
-  - "desc": "Ranged Spell Attack: +7 to hit, range 60 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +7 to hit, range 60 ft., one creature. *Hit:*\
       \ 13 (3d8) cold damage, and the target's speed is reduced by 10 feet until\
       \ the start of the triton's next turn."
     "name": "Ray of Frost (Cantrip)"

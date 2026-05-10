@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Noori
+- "Noori"
 ---
-# [Noori](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/noori-skt.md)
+# [Noori](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/noori-skt.md)
 *Source: Storm King's Thunder p. 127*  
 
 ```statblock
@@ -38,6 +39,8 @@ aliases:
     "desc": "+3"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+2"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
 "senses": "passive Perception 10"
 "languages": "Bothii, Common"
 "cr": "2"
@@ -47,7 +50,7 @@ aliases:
       \ until the start of its next turn."
     "name": "Reckless"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d12 + 3) slashing damage."
     "name": "Greataxe"
 "source":

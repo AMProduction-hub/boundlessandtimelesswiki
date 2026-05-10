@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/item/age/futuristic
@@ -11,7 +12,7 @@ tags:
 - ttrpg-cli/item/rarity/common
 - ttrpg-cli/item/tier/minor
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Walloping Ammunition"
 - "Walloping Arrow"
 - "Walloping Blowgun Needle"

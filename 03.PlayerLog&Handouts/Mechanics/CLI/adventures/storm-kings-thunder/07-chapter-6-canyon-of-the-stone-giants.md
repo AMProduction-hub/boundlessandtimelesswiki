@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 aliases:
-- Chapter 6: Canyon of the Stone Giants
+- "Chapter 6: Canyon of the Stone Giants"
 ---
 # Chapter 6: Canyon of the Stone Giants
 *Source: Storm King's Thunder, p. 145* 
@@ -118,18 +119,16 @@ The Deadstone Cleft Roster table summarizes the locations of the canyon's inhabi
 
 #### Deadstone Cleft Reinforcements
 
-`dice: [](07-chapter-6-canyon-of-the-stone-giants.md#^creature-s)`
-
 | dice: d100 | Creature(s) |
 |------------|-------------|
 | 01–50 | None |
-| 51–60 | 1 [stone giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/stone-giant.md) carrying `d4` captured shield dwarf [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) (prospectors) in a net |
+| 51–60 | 1 [stone giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/stone-giant.md) carrying `1d4` captured shield dwarf [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) (prospectors) in a net |
 | 61–65 | 1 [stone giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/stone-giant.md) and its animal companion, which is either a cave bear ([polar bear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/polar-bear.md)) or a [giant goat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-goat.md) |
 | 66–70 | 1 [stone giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/stone-giant.md) shepherding `2d6` [mountain goats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/goat.md) |
 | 71–75 | `2d6` Blue Bear [tribal warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md) returning from an unsuccessful hunt |
 | 76–80 | `2d6` Blue Bear [tribal warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md) returning from a successful hunt with a dead elk or mountain lion |
-| 81–85 | `d4` Blue Bear [berserkers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md) returning from a raid carrying the severed heads of `2d6` humans or `2d6` shield dwarves |
-| 86–90 | `d4` Blue Bear [scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md) and 1 [Uthgardt shaman](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/uthgardt-shaman-skt.md) (see appendix C) bearing news from other Blue Bear clans |
+| 81–85 | `1d4` Blue Bear [berserkers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md) returning from a raid carrying the severed heads of `2d6` humans or `2d6` shield dwarves |
+| 86–90 | `1d4` Blue Bear [scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md) and 1 [Uthgardt shaman](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/uthgardt-shaman-skt.md) (see appendix C) bearing news from other Blue Bear clans |
 | 91–95 | 1 [stone giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/stone-giant.md) carrying a sack of nonmagical, human-sized weapons and armor collected from a distant battlefield |
 | 96–00 | `1d4 + 1` [stone giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/stone-giant.md), each carrying a handful of `2d6 + 10` gemstones (worth 100 gp each) |
 ^creature-s
@@ -156,7 +155,7 @@ The stone giants refer to the [roc](03.PlayerLog&Handouts/Mechanics/CLI/bestiary
 
 #### Treasure
 
-The roc's nest is 30 feet across and consists of felled trees, wagon wreckage, crushed bales of hay, and the occasional bent shield or rusty helm. Characters who search the roc's nest find a scratched-up wooden chest containing 4,500 sp as well as `d3` magic items. Roll on Magic Item Table H in chapter 7 of the "Dungeon Master's Guide" for the first item, and on Table B for any other items.
+The roc's nest is 30 feet across and consists of felled trees, wagon wreckage, crushed bales of hay, and the occasional bent shield or rusty helm. Characters who search the roc's nest find a scratched-up wooden chest containing 4,500 sp as well as `1d3` magic items. Roll on Magic Item Table H in chapter 7 of the "Dungeon Master's Guide" for the first item, and on Table B for any other items.
 
 ![](03.PlayerLog&Handouts/Mechanics/CLI/adventures/storm-kings-thunder/img/070-skt06-02.webp#center)
 
@@ -206,7 +205,7 @@ The floor in the middle of the southwest chamber is illusory and conceals a circ
 
 #### Treasure
 
-Lying on the floor of the northeast chamber are four giant-sized sacks. Each sack contains `3d10 × 100` cp, `2d10 × 100` sp, and `1d10 × 100` gp, plus `d3` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
+Lying on the floor of the northeast chamber are four giant-sized sacks. Each sack contains `3d10 × 100` cp, `2d10 × 100` sp, and `1d10 × 100` gp, plus `1d3` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.
 
 On the floor of the east chamber is an old rowboat big enough to hold six Small or Medium characters and their gear. The stone giants use it as a storage container. It contains five more sacks of treasure, their contents determined as above. In addition, one randomly determined sack in the rowboat also contains a magic item, determined by rolling on Magic Item Table G in chapter 7 of the "Dungeon Master's Guide".
 

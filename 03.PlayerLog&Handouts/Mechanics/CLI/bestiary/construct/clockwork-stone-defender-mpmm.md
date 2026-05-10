@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -13,9 +14,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Clockwork Stone Defender
+- "Clockwork Stone Defender"
 ---
-# [Clockwork Stone Defender](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/clockwork-stone-defender-mpmm.md)
+# [Clockwork Stone Defender](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-stone-defender-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 80, Mordenkainen's Tome of Foes p. 126*  
 
 The thick plates of stone riveted onto a stone [defender](03.PlayerLog&Handouts/Mechanics/CLI/items/defender.md) give it substantial protection. Its chief role is as a bodyguard.
@@ -29,8 +30,6 @@ Gnomes' tinkering with magic and mechanical devices has produced many failed Con
 Gnome artisans prefer unique clockworks over perfectly functioning ones that copy too much from other creations. A clockwork can be customized by adding one of the following enhancements and one potential malfunction to its stat block. You can select randomly or choose a pair of modifications that fit the temperament of the clockwork's builder.
 
 **Clockwork Enhancements**
-
-`dice: [](clockwork-stone-defender-mpmm.md#^clockwork-enhancements)`
 
 | dice: d10 | Enhancement |
 |-----------|-------------|
@@ -47,8 +46,6 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 ^clockwork-enhancements
 
 **Clockwork Malfunctions**
-
-`dice: [](clockwork-stone-defender-mpmm.md#^clockwork-malfunctions)`
 
 | dice: d8 | Malfunction |
 |----------|-------------|
@@ -87,7 +84,8 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands one language of its creator but can't speak"
 "cr": "4"
 "traits":
@@ -97,7 +95,7 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
   - "desc": "The clockwork doesn't require air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage, and if the target is Large or smaller, it\
       \ is knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Slam"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sword Wraith Warrior
+- "Sword Wraith Warrior"
 ---
-# [Sword Wraith Warrior](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/sword-wraith-warrior-mpmm.md)
+# [Sword Wraith Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/sword-wraith-warrior-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 239, Mordenkainen's Tome of Foes p. 241*  
 
 Sword wraith warriors are most often found on ancient battlefields where soldiers were hemmed in and slaughtered without quarter.
@@ -47,18 +48,22 @@ When glory-obsessed warriors die in battle without honor, they might haunt the s
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 9"
+"gear":
+  - "[battleaxe](03.PlayerLog&Handouts/Mechanics/CLI/items/battleaxe.md)"
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "the languages it knew in life"
 "cr": "3"
 "traits":
   - "desc": "The warrior doesn't require air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with\
       \ two hands."
     "name": "Battleaxe"
-  - "desc": "Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, range 150/600 ft., one target. *Hit:*\
       \ 5 (1d8 + 1) piercing damage."
     "name": "Longbow"
 "bonus_actions":

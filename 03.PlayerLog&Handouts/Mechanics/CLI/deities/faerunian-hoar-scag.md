@@ -1,14 +1,15 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/war
-aliases: 
-- Hoar
-- The Doombringer
-- Poet of Justice
+aliases:
+- "Hoar"
+- "The Doombringer"
+- "Poet of Justice"
 ---
 # Hoar
 *Source: Sword Coast Adventurer's Guide p. 21* 

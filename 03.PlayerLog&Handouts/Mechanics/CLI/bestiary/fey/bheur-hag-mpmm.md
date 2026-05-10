@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bheur Hag
+- "Bheur Hag"
 ---
-# [Bheur Hag](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/bheur-hag-mpmm.md)
+# [Bheur Hag](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/bheur-hag-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 62, Volo's Guide to Monsters p. 160*  
 
 Bheur hags live in wintry lands, favoring snowy mountains. These hags become more active during winter, using their ice and weather magic to make life miserable for nearby settlements.
@@ -42,7 +43,7 @@ In combat, a bheur hag also strives to inspire horror. When near a recently slai
   - !!int "16"
 "speed": "30 ft., fly 50 ft. (hover, Graystaff magic)"
 "saves":
-  - "wisdom": "+4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature)"
     "desc": "+4"
@@ -53,7 +54,8 @@ In combat, a bheur hag also strives to inspire horror. When near a recently slai
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+4"
 "damage_immunities": "cold"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Auran, Common, Giant"
 "cr": "7"
 "traits":
@@ -73,10 +75,10 @@ In combat, a bheur hag also strives to inspire horror. When near a recently slai
 "actions":
   - "desc": "The hag makes two Slam or Frost Shard attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d8 + 1) bludgeoning damage plus 18 (4d8) cold damage."
     "name": "Slam"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 60 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 60 ft., one target. *Hit:*\
       \ 30 (6d8 + 3) cold damage, and the target's speed is reduced by 10 feet until\
       \ the start of the hag's next turn."
     "name": "Frost Shard"
@@ -94,8 +96,8 @@ In combat, a bheur hag also strives to inspire horror. When near a recently slai
     "name": "Horrific Feast"
   - "desc": "While holding or riding the graystaff, the hag casts one of the following\
       \ spells, requiring no material components and using Charisma as the spellcasting\
-      \ ability (spell save DC 14):\n\nAt will: [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md)\n\
-      \n1/day each: [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md),\
+      \ ability (spell save DC 14):\n\n**At will:** [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md)\n\
+      \n**1/day each:** [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md),\
       \ [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md), [wall\
       \ of ice](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-ice.md)"
     "name": "Spellcasting"

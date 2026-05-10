@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1-4
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Apprentice Wizard
+- "Apprentice Wizard"
 ---
-# [Apprentice Wizard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/apprentice-wizard-mpmm.md)
+# [Apprentice Wizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/apprentice-wizard-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 259, Volo's Guide to Monsters p. 209*  
 
 Apprentices are novice arcane spellcasters who serve more experienced wizards or attend school. They perform menial work like cooking or cleaning in exchange for education in the ways of magic.
@@ -48,13 +49,13 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "languages": "any one language (usually Common)"
 "cr": "1/4"
 "actions":
-  - "desc": "Melee  or Ranged Spell Attack: +4 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 7 (1d10 + 2) force damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +4 to hit, reach 5 ft. or range 120\
+      \ ft., one target. *Hit:* 7 (1d10 + 2) force damage."
     "name": "Arcane Burst"
   - "desc": "The apprentice casts one of the following spells, using Intelligence\
-      \ as the spellcasting ability (spell save DC 12)\n\nAt will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ as the spellcasting ability (spell save DC 12)\n\n**At will:** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1/day each: [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md),\
+      \n**1/day each:** [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)"
     "name": "Spellcasting"

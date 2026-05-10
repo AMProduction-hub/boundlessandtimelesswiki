@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Derro Savant
+- "Derro Savant"
 ---
-# [Derro Savant](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/derro-savant-mpmm.md)
+# [Derro Savant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/derro-savant-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 92, Mordenkainen's Tome of Foes p. 159*  
 
 > [!quote] A quote from Mordenkainen  
@@ -51,7 +52,10 @@ Derro tell their own stories of flight and survival in the Underdark, in which m
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 120 ft., passive Perception 7"
+"gear":
+  - "[quarterstaff](03.PlayerLog&Handouts/Mechanics/CLI/items/quarterstaff.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 7"
 "languages": "Dwarvish, Undercommon"
 "cr": "3"
 "traits":
@@ -63,7 +67,7 @@ Derro tell their own stories of flight and survival in the Underdark, in which m
       \ checks that rely on sight."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2\
+  - "desc": "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 2\
       \ (1d6 - 1) bludgeoning damage."
     "name": "Quarterstaff"
   - "desc": "The derro launches a brilliant beam of magical energy in a 5-foot-wide\
@@ -72,9 +76,9 @@ Derro tell their own stories of flight and survival in the Underdark, in which m
       \ much damage on a successful one."
     "name": "Chromatic Beam"
   - "desc": "The derro casts one of the following spells, using Charisma as the spellcasting\
-      \ ability (spell save DC 12):\n\nAt will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ ability (spell save DC 12):\n\n**At will:** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1/day each: [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \n**1/day each:** [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md), [spider climb](03.PlayerLog&Handouts/Mechanics/CLI/spells/spider-climb.md)"
     "name": "Spellcasting"
 "source":

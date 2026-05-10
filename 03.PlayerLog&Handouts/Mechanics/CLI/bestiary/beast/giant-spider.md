@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -14,10 +15,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Spider
+- "Giant Spider"
 ---
-# [Giant Spider](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-spider.md)
-*Source: Monster Manual p. 328, Curse of Strahd, Lost Mine of Phandelver, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Tasha's Cauldron of Everything, Dragonlance: Shadow of the Dragon Queen, Hunt for the Thessalhydra. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Spider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-spider.md)
+*Source: Monster Manual p. 328. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 To snare its prey, a giant spider spins elaborate webs or shoots sticky strands of webbing from its abdomen. Giant spiders are most commonly found underground, making their lairs on ceilings or in dark, web-filled crevices. Such lairs are often festooned with web cocoons holding past victims.
 
@@ -42,7 +43,9 @@ To snare its prey, a giant spider spins elaborate webs or shoots sticky strands 
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
-"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "cr": "1"
 "traits":
@@ -55,7 +58,7 @@ To snare its prey, a giant spider spins elaborate webs or shoots sticky strands 
   - "desc": "The spider ignores movement restrictions caused by webbing."
     "name": "Web Walker"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 7 (1d8 + 3) piercing damage, and the target must make a DC 11 Constitution\
       \ saving throw, taking 9 (2d8) poison damage on a failed save, or half as\
       \ much damage on a successful one. If the poison damage reduces the target to\
@@ -64,7 +67,7 @@ To snare its prey, a giant spider spins elaborate webs or shoots sticky strands 
       \ while [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ in this way."
     "name": "Bite"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 30/60 ft., one creature. *Hit:*\
       \ The target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ by webbing. As an action, the [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ target can make a DC 12 Strength check, bursting the webbing on a success.\
@@ -73,22 +76,6 @@ To snare its prey, a giant spider spins elaborate webs or shoots sticky strands 
     "name": "Web (Recharge 5-6)"
 "source":
   - "MM"
-  - "CoS"
-  - "LMoP"
-  - "SKT"
-  - "TftYP"
-  - "ToA"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "BGDIA"
-  - "ERLW"
-  - "EGW"
-  - "MOT"
-  - "TCE"
-  - "DSotDQ"
-  - "HftT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-spider.webp"
 ```
 ^statblock

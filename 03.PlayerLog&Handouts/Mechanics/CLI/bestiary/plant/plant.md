@@ -1,12 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
+- json5e-index
 ---
 # Index of Plant
 
-- [Aartuk Elder](./aartuk-elder-bam.md)
-- [Aartuk Starhorror](./aartuk-starhorror-bam.md)
-- [Aartuk Weedling](./aartuk-weedling-bam.md)
 - [Animated Tree](./animated-tree-egw.md)
 - [Assassin Vine](./assassin-vine-toa.md)
 - [Astral Blight](./astral-blight-lox.md)
@@ -42,8 +41,8 @@ cssclasses: json5e-note
 - [Tri-flower Frond](./tri-flower-frond-toa.md)
 - [Tribal Warrior Spore Servant](./tribal-warrior-spore-servant-idrotf.md)
 - [Twig Blight](./twig-blight.md)
-- [Vegepygmy Chief](./vegepygmy-chief-mpmm.md)
 - [Vegepygmy](./vegepygmy-mpmm.md)
+- [Vegepygmy Chief](./vegepygmy-chief-mpmm.md)
 - [Vine Blight](./vine-blight.md)
 - [Violet Fungus](./violet-fungus.md)
 - [Wood Woad](./wood-woad-mpmm.md)

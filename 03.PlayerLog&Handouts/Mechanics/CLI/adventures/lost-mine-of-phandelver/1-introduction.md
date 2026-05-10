@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/lmop
 aliases:
-- Introduction
+- "Introduction"
 ---
 # Introduction
 *Source: Lost Mine of Phandelver, p. 2* 

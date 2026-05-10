@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/12
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Arclight Phoenix
+- "Arclight Phoenix"
 ---
-# [Arclight Phoenix](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/arclight-phoenix-ggr.md)
+# [Arclight Phoenix](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/arclight-phoenix-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 193*  
 
 An arclight phoenix is variously said to be a byproduct of a lightning strike on an aviary, a mishap in an effort to create a translocation device, or a successful attempt to create an elemental creature in the form of a majestic bird.
@@ -40,7 +41,7 @@ An arclight phoenix doesn't require air, food, drink, or sleep.
   - !!int "7"
 "speed": "0 ft., fly 120 ft."
 "saves":
-  - "dexterity": "+10"
+  - "dexterity": !!int "10"
 "damage_resistances": "thunder; bludgeoning, piercing, slashing from nonmagical attacks"
 "damage_immunities": "lightning, poison"
 "condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
@@ -50,7 +51,8 @@ An arclight phoenix doesn't require air, food, drink, or sleep.
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": ""
 "cr": "12"
 "traits":
@@ -81,7 +83,7 @@ An arclight phoenix doesn't require air, food, drink, or sleep.
       \ space."
     "name": "Crackling Death"
 "actions":
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 27 (6d8) lightning damage, and lightning jumps from the target to one creature\
       \ of the phoenix's choice that it can see within 30 feet of the target. That\
       \ second creature must succeed on a DC 18 Dexterity saving throw or take 27\

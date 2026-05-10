@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Stage Two: Outbreak; Stage Two Encounters
+- "Stage Two: Outbreak; Stage Two Encounters"
 ---
 # Stage Two: Outbreak; Stage Two Encounters
 *Source: Van Richten's Guide to Ravenloft p. 154* 
 
 **Stage Two Encounters**
-
-`dice: [](stage-two-outbreak-stage-two-encounters-vrgr.md#^stage-two-encounters)`
 
 | dice: d6 | Encounter |
 |----------|-----------|

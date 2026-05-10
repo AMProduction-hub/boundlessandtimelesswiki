@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Glabbagool
+- "Glabbagool"
 ---
-# [Glabbagool](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/glabbagool-oota.md)
+# [Glabbagool](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/glabbagool-oota.md)
 *Source: Out of the Abyss p. 35*  
 
 Juiblex's arrival in the Underdark has granted Glabbagool sentience and awareness. The ooze is genuinely curious about other creatures and wants to learn more about the world. It defends itself if attacked, but doesn't otherwise try to harm the characters, instead asking who they are, where they come from, and why they have come to the temple.
@@ -38,7 +39,8 @@ Juiblex's arrival in the Underdark has granted Glabbagool sentience and awarenes
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 8"
 "languages": "telepathy 60 ft."
 "cr": "2"
 "traits":
@@ -58,7 +60,7 @@ Juiblex's arrival in the Underdark has granted Glabbagool sentience and awarenes
       \ by Glabbagool."
     "name": "Transparent"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 10 (3d6) acid damage."
     "name": "Pseudopod"
   - "desc": "Glabbagool moves up to its speed. While doing so, it can enter Large\

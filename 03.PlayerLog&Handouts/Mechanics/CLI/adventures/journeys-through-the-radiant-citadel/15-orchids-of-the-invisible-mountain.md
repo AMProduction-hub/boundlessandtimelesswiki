@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 aliases:
-- Orchids of the Invisible Mountain
+- "Orchids of the Invisible Mountain"
 ---
 # Orchids of the Invisible Mountain
 *Source: Journeys through the Radiant Citadel, p. 202* 
@@ -64,8 +65,6 @@ Strange dreams are common in Atagua, the result of psychic energies from the Fey
 
 **Dreams in Atagua**
 
-`dice: [](15-orchids-of-the-invisible-mountain.md#^dreams-in-atagua)`
-
 | dice: d10 | Dream |
 |-----------|-------|
 | 1–4 | No dream |
@@ -79,7 +78,7 @@ Strange dreams are common in Atagua, the result of psychic energies from the Fey
 
 ### Unreality
 
-![The Grassroads span the va...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/134-14-001-grassroads.webp#center "The Grassroads span the vast savannas and forests of Atagua, a boon to both travelers and predators")
+![The Grassroads span the vast savannas and forests of Atagua, a boon to both travelers and predators](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/134-14-001-grassroads.webp#center)
 
 Atagua is influenced by dreams from the Feywild and nightmares from the Far Realm. Throughout the adventure, highlight how the Feywild has influenced the land, with vegetation and animals demonstrating friendly or capricious behavior, the sun rising amid a psychedelic dawn, or characters experiencing random instances of good luck. Meanwhile, Far Realm energies manifest as eyes staring from the dark, insidious insects, or misshapen silhouettes looming in the distance. The land's fraying planar boundaries might also allow glimpses into other planes or ghostly appearances of strange figures. Let Atagua's place between the real and surreal inspire your descriptions.
 
@@ -202,12 +201,10 @@ The Grassroads is a network of cleverly constructed wood-and-reed bridges standi
 
 **Lean-To Items**
 
-`dice: [](15-orchids-of-the-invisible-mountain.md#^lean-to-items)`
-
 | dice: d10 | Item |
 |-----------|------|
 | 1–4 | Nothing |
-| 5 | `d4` cones of panela |
+| 5 | `1d4` cones of panela |
 | 6 | A guitar with one broken string |
 | 7 | A pouch of coffee or cacao beans |
 | 8 | A fine straw hat and a lightly used pair of sandals |
@@ -241,7 +238,7 @@ The termite mounds here are natural and aren't dangerous; the giant anteaters (u
 
 Characters who can communicate with the anteaters find them to be lazy, well-fed beasts. If asked about the tall termite mound, the anteaters explain that they live in that mound but the eating's better among the smaller mounds. The anteaters don't explain further and might doze off if characters persistently ask boring, non-food-related questions.
 
-![The mysterious Ghost Orchi...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/136-14-003-ghost-orchid-tepui.webp#center "The mysterious Ghost Orchid Tepui is a familiar sight in the dreams of Atagua's people")
+![The mysterious Ghost Orchid Tepui is a familiar sight in the dreams of Atagua's people](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/136-14-003-ghost-orchid-tepui.webp#center)
 
 #### The Giant Mound
 
@@ -599,7 +596,7 @@ At sunset, the ritual for travel through the [Hammock of Worlds](03.PlayerLog&Ha
 
 At the height of the ritual, Melecio uses the hammock to open a portal to the Far Realm. When the characters are ready, they can pass through the portal, arriving inside the Drought Elder (area D1).
 
-![The desiccated husk of the...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/142-14-005-dessicated-husk.webp#center "The desiccated husk of the Drought Elder endlessly drifts through a lifeless void in the Far Realm")
+![The desiccated husk of the Drought Elder endlessly drifts through a lifeless void in the Far Realm](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/142-14-005-dessicated-husk.webp#center)
 
 ## The Drought Elder
 
@@ -611,7 +608,7 @@ Areas within the Drought Elder have the following features:
 
 #### Carapace Exterior
 
-Characters can access the exterior of the Drought Elder's carapace from areas D3 and D5. It can be climbed by any creature that succeeds on a DC 16 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. However, traveling outside the carapace beyond area D3 or `D5` attracts the attention of `d3` [whistlers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/whistler-jttrc.md) every minute. These whistlers are hostile.
+Characters can access the exterior of the Drought Elder's carapace from areas D3 and D5. It can be climbed by any creature that succeeds on a DC 16 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. However, traveling outside the carapace beyond area D3 or `D5` attracts the attention of `1d3` [whistlers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/whistler-jttrc.md) every minute. These whistlers are hostile.
 
 - **Ceiling.** The ceilings within the Drought Elder are 20 feet high.  
 - **Darkness.** The interior of the Drought Elder is not illuminated; its occupants rely on [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) to see. Area descriptions assume that the characters have a light source or some other means of seeing in the dark.  
@@ -709,7 +706,7 @@ Creatures that can fly can easily reach and recover the fist-sized crystal. Alte
 
 ##### Sleeping Stone Shard
 
-The fragment of the Sleeping Stone is weightless and contains a portion of the dreams of Chimagua. The first creature to touch the crystal must succeed on a DC 20 Wisdom saving throw or fall [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) for `d4` minutes as the creature's mind is overwhelmed by visions. An [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) creature begins drifting away from the Drought Elder. Once the stone has been touched, though, the psychic energy stored within is expelled, and the stone can be touched safely.
+The fragment of the Sleeping Stone is weightless and contains a portion of the dreams of Chimagua. The first creature to touch the crystal must succeed on a DC 20 Wisdom saving throw or fall [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) for `1d4` minutes as the creature's mind is overwhelmed by visions. An [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) creature begins drifting away from the Drought Elder. Once the stone has been touched, though, the psychic energy stored within is expelled, and the stone can be touched safely.
 
 #### Escaping the Drought Elder
 
@@ -731,7 +728,7 @@ For nearly two hundred years, the people of Atagua have thrived, peacefully trad
 
 Those familiar with Atagua know the following details:
 
-- **Hallmarks.** This land is known for the chocolate and sugar produced there and for the elevated walkways that traverse its forests and tropical savannas. Folk there experience vivid dreams, often of an invisible, flat-topped mountain .  
+- **Hallmarks.** This land is known for the chocolate and sugar produced there and for the elevated walkways that traverse its forests and tropical savannas. Folk there experience vivid dreams, often of an invisible, flat-topped mountain.  
 - **People of Atagua.** Ataguans are predominantly humans with tan to dark-brown complexions, along with smaller numbers of dark-skinned forest gnomes and tieflings, the latter of whom typically bear three horns. Nomadic clans of thri-kreen with iridescent carapaces also wander the Llanos; they're rarely encountered in towns and cities.  
 - **Languages.** Quirapu is the language of Atagua, a melded derivative of the original languages of the Flood People who first settled these lands and the colonizers who came after them. All folk of Atagua also speak Common.  
 
@@ -810,8 +807,6 @@ When the fighting ended and Atagua was free once more, the nightmares ended. The
 Consider the plots on the Atagua Adventures table when planning adventures there.
 
 **Atagua Adventures**
-
-`dice: [](15-orchids-of-the-invisible-mountain.md#^atagua-adventures)`
 
 | dice: d4 | Adventure |
 |----------|-----------|

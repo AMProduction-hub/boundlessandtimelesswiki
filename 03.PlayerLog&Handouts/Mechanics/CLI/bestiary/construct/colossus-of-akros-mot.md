@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/23
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Colossus of Akros
+- "Colossus of Akros"
 ---
-# [Colossus of Akros](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/colossus-of-akros-mot.md)
+# [Colossus of Akros](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/colossus-of-akros-mot.md)
 *Source: Mythic Odysseys of Theros p. 218*  
 
 An enormous golem of bronze and iron overlooks the path leading to the polis of Akros. Though it is rarely called on to defend the polis, the sight of its towering form is enough to ease the minds of the populace. In truly desperate times, priests of Purphoros work their magic to call the colossus to life, whereupon the earth rumbles as it steps down from its twin plinths to place itself before the threat.
@@ -35,8 +36,8 @@ An enormous golem of bronze and iron overlooks the path leading to the polis of 
   - !!int "1"
 "speed": "60 ft."
 "saves":
-  - "strength": "+16"
-  - "constitution": "+14"
+  - "strength": !!int "16"
+  - "constitution": !!int "14"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+16"
@@ -51,7 +52,10 @@ An enormous golem of bronze and iron overlooks the path leading to the polis of 
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned), [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 120 ft., passive Perception 17"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 17"
 "languages": "understands Common and Celestial but can't speak"
 "cr": "23"
 "traits":
@@ -73,13 +77,13 @@ An enormous golem of bronze and iron overlooks the path leading to the polis of 
 "actions":
   - "desc": "The colossus of Akros makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +16 to hit, reach 15 ft., or range\
-      \ 200/600 ft., one target. Hit: 23 (4d6 + 9) piercing damage, or 27 (4d8\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +16 to hit, reach 15 ft., or range\
+      \ 200/600 ft., one target. *Hit:* 23 (4d6 + 9) piercing damage, or 27 (4d8\
       \ + 9) piercing damage if used with two hands to make a melee attack. If the\
       \ colossus makes a ranged attack with this spear, the spear magically returns\
       \ to its hand after the attack."
     "name": "Spear"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 15 ft., one target. *Hit:*\
       \ 36 (6d8 + 9) slashing damage."
     "name": "Sword"
   - "desc": "Magical flames issue from the colossus toward up to three creatures the\

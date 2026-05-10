@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/25
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bel
+- "Bel"
 ---
-# [Bel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/bel-bgdia.md)
+# [Bel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/bel-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 115*  
 
 From his bastion, Zariel's second-in-command and the former lord of Avernus oversees the forges that furnish weapons and armor for the Blood War. Though Asmodeus has instructed Zariel to accept Bel as her advisor, Bel and Zariel loathe each other and invent distractions to keep them apart.
@@ -38,9 +39,9 @@ Bel outwardly plays the role of Zariel's loyal vassal. However, Bel rankles at Z
   - !!int "26"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+10"
-  - "constitution": "+16"
-  - "wisdom": "+12"
+  - "dexterity": !!int "10"
+  - "constitution": !!int "16"
+  - "wisdom": !!int "12"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+15"
@@ -54,21 +55,24 @@ Bel outwardly plays the role of Zariel's loyal vassal. However, Bel rankles at Z
   \ that aren't silvered"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 14"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 14"
 "languages": "Common, Infernal, telepathy 120 ft."
 "cr": "25"
 "traits":
   - "desc": "Bel's spellcasting ability is Charisma (spell save DC 23). Bel can innately\
-      \ cast the following spells, requiring no material components:\n\nAt will:\
+      \ cast the following spells, requiring no material components:\n\n**At will:**\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
-      \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)\n\n3/day\
-      \ each: [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)\n\n**3/day\
+      \ each:** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md),\
       \ [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md),\
       \ [mislead](03.PlayerLog&Handouts/Mechanics/CLI/spells/mislead.md), [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md),\
       \ [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md), [wall\
-      \ of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)\n\n1/day\
-      \ each: [imprisonment](03.PlayerLog&Handouts/Mechanics/CLI/spells/imprisonment.md),\
+      \ of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)\n\n**1/day\
+      \ each:** [imprisonment](03.PlayerLog&Handouts/Mechanics/CLI/spells/imprisonment.md),\
       \ [meteor swarm](03.PlayerLog&Handouts/Mechanics/CLI/spells/meteor-swarm.md)"
     "name": "Innate Spellcasting"
   - "desc": "Any creature hostile to Bel that starts its turn within 20 feet of him\
@@ -86,15 +90,18 @@ Bel outwardly plays the role of Zariel's loyal vassal. However, Bel rankles at Z
 "actions":
   - "desc": "Bel makes three attacks: two with his greatsword and one with his tail."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:*\
       \ 23 (4d6 + 9) slashing damage plus 21 (6d6) fire damage. If the target\
       \ is a flammable object that is not being held or worn, it catches fire."
     "name": "Greatsword"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:*\
       \ 25 (3d10 + 9) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 23 Constitution saving throw or be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
       \ until the end of its next turn."
     "name": "Tail"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Bel can expend a use to take one of the following actions. Bel regains all\
+  \ expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Bel casts [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)."
     "name": "Fireball"

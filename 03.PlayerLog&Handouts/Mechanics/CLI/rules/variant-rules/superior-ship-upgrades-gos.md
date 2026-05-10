@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 aliases:
-- Superior Ship Upgrades
+- "Superior Ship Upgrades"
 ---
 # Superior Ship Upgrades
 *Source: Ghosts of Saltmarsh p. 196* 
 
 Some vessels possess extraordinary abilities, whether due to magic or superior artisanship. The upgrades below can replace a ship's existing components or provide a new element to augment a ship's abilities.
 
-Adding an upgrade costs 15,000 gp and requires `d4` weeks of work. During that time, the ship must remain in port. If the ship leaves, the work must start over, but you don't need to pay the gold piece cost a second time.
+Adding an upgrade costs 15,000 gp and requires `1d4` weeks of work. During that time, the ship must remain in port. If the ship leaves, the work must start over, but you don't need to pay the gold piece cost a second time.
 
 ## Hull Upgrades
 

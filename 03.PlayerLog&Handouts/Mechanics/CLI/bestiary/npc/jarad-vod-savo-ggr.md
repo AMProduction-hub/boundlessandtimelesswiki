@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/22
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Jarad Vod Savo
+- "Jarad Vod Savo"
 ---
-# [Jarad Vod Savo](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/jarad-vod-savo-ggr.md)
+# [Jarad Vod Savo](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jarad-vod-savo-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 235*  
 
 The Golgari guildmaster is a Devkarin necromancer and lich named Jarad Vod Savo. In life, Jarad was an archer and accomplished hunter, as well as the brother of the previous guildmaster, the ambitious Savra. Jarad mastered the ways of necromancy so he could rise as a lich after he sacrificed himself to save his son from the demon Rakdos.
@@ -41,9 +42,9 @@ Jarad doesn't require air, food, drink, or sleep.
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+10"
-  - "intelligence": "+12"
-  - "wisdom": "+10"
+  - "constitution": !!int "10"
+  - "intelligence": !!int "12"
+  - "wisdom": !!int "10"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+12"
@@ -58,34 +59,35 @@ Jarad doesn't require air, food, drink, or sleep.
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 20"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 20"
 "languages": "Common, Elvish, Kraul"
 "cr": "22"
 "traits":
   - "desc": "Jarad is a 14th-level Golgari spellcaster. His spellcasting ability is\
       \ Intelligence (spell save DC 20, +12 to hit with spell attacks). Jarad has\
-      \ the following wizard spells prepared:\n\nCantrips (at will): [acid splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md),\
+      \ the following wizard spells prepared:\n\n**Cantrips (at will):** [acid splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md),\
       \ [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [poison\
       \ spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (4 slots): [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
+      \n**1st level (4 slots):** [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
       \ [ray of sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md),\
-      \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)\n\n2nd level\
-      \ (3 slots): [Melf's acid arrow](03.PlayerLog&Handouts/Mechanics/CLI/spells/melfs-acid-arrow.md),\
+      \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)\n\n**2nd level\
+      \ (3 slots):** [Melf's acid arrow](03.PlayerLog&Handouts/Mechanics/CLI/spells/melfs-acid-arrow.md),\
       \ [ray of enfeeblement](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-enfeeblement.md),\
       \ [spider climb](03.PlayerLog&Handouts/Mechanics/CLI/spells/spider-climb.md),\
-      \ [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md)\n\n3rd level (3\
-      \ slots): [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
+      \ [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md)\n\n**3rd level (3\
+      \ slots):** [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [plant growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/plant-growth.md),\
       \ [vampiric touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/vampiric-touch.md)\n\
-      \n4th level (3 slots): [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
+      \n**4th level (3 slots):** [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
       \ [giant insect](03.PlayerLog&Handouts/Mechanics/CLI/spells/giant-insect.md),\
       \ [grasping vine](03.PlayerLog&Handouts/Mechanics/CLI/spells/grasping-vine.md)\n\
-      \n5th level (2 slots): [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
+      \n**5th level (2 slots):** [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
       \ [insect plague](03.PlayerLog&Handouts/Mechanics/CLI/spells/insect-plague.md)\n\
-      \n6th level (1 slots): [circle of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/circle-of-death.md),\
+      \n**6th level (1 slots):** [circle of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/circle-of-death.md),\
       \ [create undead](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-undead.md)\n\
-      \n7th level (1 slots): [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
+      \n**7th level (1 slots):** [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
       \ [forcecage](03.PlayerLog&Handouts/Mechanics/CLI/spells/forcecage.md)"
     "name": "Spellcasting"
   - "desc": "If Jarad fails a saving throw, he can choose to succeed instead."
@@ -112,16 +114,19 @@ Jarad doesn't require air, food, drink, or sleep.
       \ Staff of Svogthir. He can cast a spell with a casting time of 1 action in\
       \ place of one of these attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +12 to hit, reach 5 ft., one creature. *Hit:*\
       \ 28 (8d6) poison damage, and the target must succeed on a DC 20 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
       \ its turns, ending the effect on itself on a success."
     "name": "Noxious Touch"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 12 (2d6 + 5) bludgeoning damage plus 13 (3d8) poison damage and 13 (3d8)\
       \ necrotic damage."
     "name": "Staff of Svogthir"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Jarad can expend a use to take one of the following actions. Jarad regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Jarad casts one of his cantrips."
     "name": "Cantrip"

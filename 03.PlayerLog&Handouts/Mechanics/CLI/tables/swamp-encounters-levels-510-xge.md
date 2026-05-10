@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Swamp Encounters (Levels 5—10)
+- "Swamp Encounters (Levels 5—10)"
 ---
 # Swamp Encounters (Levels 5—10)
 *Source: Xanathar's Guide to Everything p. 105* 
 
 **Swamp Encounters (Levels 5—10)**
-
-`dice: [](swamp-encounters-levels-510-xge.md#^swamp-encounters-levels-510)`
 
 | dice: d100 | Encounter |
 |------------|-----------|
@@ -21,7 +20,7 @@ aliases:
 | 06-07 | `1d10 + 1` [bullywugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bullywug.md) with `1d8 + 1` [giant frogs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-frog.md) |
 | 08-09 | 1 [druid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md) |
 | 10 | `1d8 + 1` [swarms of insects](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-insects.md) |
-| 11-13 | `d12` [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) |
+| 11-13 | `1d12` [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) |
 | 14-16 | `2d8` [scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md) |
 | 17-19 | `2d10` [orcs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc.md) |
 | 20-22 | `2d4` [giant spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-spider.md) |
@@ -35,21 +34,21 @@ aliases:
 | 42-44 | `1d4 + 1` [will-o'-wisps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/will-o-wisp.md) |
 | 45-47 | `2d6` [crocodiles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/crocodile.md) |
 | 48-50 | `1d4 + 1` [giant constrictor snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-constrictor-snake.md) |
-| 51-54 | 1 [lizardfolk shaman](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk-shaman.md) with `d3` [swarms of poisonous snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-poisonous-snakes.md) and `1d8 + 2` [lizardfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk.md) |
+| 51-54 | 1 [lizardfolk shaman](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk-shaman.md) with `1d3` [swarms of poisonous snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-poisonous-snakes.md) and `1d8 + 2` [lizardfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk.md) |
 | 55-58 | `1d8 + 1` [ogres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md) |
 | 59-62 | `2d4` [ghasts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghast.md) |
 | 63-65 | An altar partially sunk into the mud, devoted to a god that is part human and part frog |
 | 66-69 | 1 [giant crocodile](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-crocodile.md) |
 | 70-73 | 1 [shambling mound](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/shambling-mound.md) |
-| 74-77 | 1 [orc Eye of Gruumsh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc-eye-of-gruumsh.md) with `d3` [ogres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md) and `2d10 + 5` [orcs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc.md) |
-| 78-80 | A torrential rain that lasts `d6` minutes and puts out all unprotected flames within 1 mile |
+| 74-77 | 1 [orc Eye of Gruumsh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc-eye-of-gruumsh.md) with `1d3` [ogres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md) and `2d10 + 5` [orcs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc.md) |
+| 78-80 | A torrential rain that lasts `1d6` minutes and puts out all unprotected flames within 1 mile |
 | 81-82 | 1 [young black dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-black-dragon.md) |
-| 83-84 | `d4` [green hags](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/green-hag.md) with `1d6 + 1` [ogres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md) |
+| 83-84 | `1d4` [green hags](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/green-hag.md) with `1d6 + 1` [ogres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md) |
 | 85-86 | 1 [yuan-ti abomination](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-abomination.md) |
 | 87-88 | `1d4 + 1` [wights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wight.md) |
 | 89-90 | `1d6 + 1` yuan-ti malisons: [type 1](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-1.md), [type 2](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-2.md), [type 3](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-3.md) |
 | 91-93 | `1d4 + 1` [trolls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/troll.md) |
-| 94-96 | `d10` [revenants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/revenant.md) |
+| 94-96 | `1d10` [revenants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/revenant.md) |
 | 97-99 | `1d8 + 1` [water elementals](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-elemental.md) |
-| 00 | `d3` [hydras](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hydra.md) |
+| 00 | `1d3` [hydras](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hydra.md) |
 ^swamp-encounters-levels-510

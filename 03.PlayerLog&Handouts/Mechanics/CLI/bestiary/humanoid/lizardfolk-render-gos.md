@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/3
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lizardfolk Render
+- "Lizardfolk Render"
 ---
-# [Lizardfolk Render](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/lizardfolk-render-gos.md)
-*Source: Ghosts of Saltmarsh p. 241, Storm Lord's Wrath, Infernal Machine Rebuild*  
+# [Lizardfolk Render](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk-render-gos.md)
+*Source: Ghosts of Saltmarsh p. 241*  
 
 Filled with the primal magic of Semuanya, the lizardfolk render undergoes terrifying changes during a dayslong ritual performed by a shaman. As seen in Danger at Dunwater, the render's claws grow long and hard as steel, its frame enlarges, and its temperament becomes even more ferocious.
 
@@ -54,10 +55,10 @@ Filled with the primal magic of Semuanya, the lizardfolk render undergoes terrif
 "actions":
   - "desc": "The render makes two attacks: one with its claws and one with its bite."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
       \ 12 (2d8 + 3) slashing damage."
     "name": "Claws"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d10 + 3) piercing damage."
     "name": "Bite"
   - "desc": "The render makes a claw attack against each creature of its choice within\
@@ -66,8 +67,6 @@ Filled with the primal magic of Semuanya, the lizardfolk render undergoes terrif
     "name": "Rend the Field (Recharge 5-6)"
 "source":
   - "GoS"
-  - "SLW"
-  - "IMR"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/lizardfolk-render-gos.webp"
 ```
 ^statblock

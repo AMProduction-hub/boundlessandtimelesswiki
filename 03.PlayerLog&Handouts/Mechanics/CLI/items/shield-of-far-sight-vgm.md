@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 - ttrpg-cli/item/rarity/rare
 - ttrpg-cli/item/shield/
-aliases: 
+aliases:
 - "Shield of Far Sight"
 ---
 # Shield of Far Sight

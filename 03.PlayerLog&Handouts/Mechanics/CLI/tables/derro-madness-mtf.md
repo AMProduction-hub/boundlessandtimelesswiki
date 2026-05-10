@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Derro Madness
+- "Derro Madness"
 ---
 # Derro Madness
 *Source: Mordenkainen's Tome of Foes p. 159* 
 
 **Derro Madness**
-
-`dice: [](derro-madness-mtf.md#^derro-madness)`
 
 | dice: d20 | Oddity |
 |-----------|--------|

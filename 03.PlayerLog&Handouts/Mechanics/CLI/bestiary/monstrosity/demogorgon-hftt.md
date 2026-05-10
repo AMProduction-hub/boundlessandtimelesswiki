@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/hftt
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Demogorgon
+- "Demogorgon"
 ---
-# [Demogorgon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/demogorgon-hftt.md)
+# [Demogorgon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/demogorgon-hftt.md)
 *Source: Hunt for the Thessalhydra p. 36*  
 
 A predator of the Upside Down, the demogorgon hunts the dimension looking for unfortunate creatures that find their way there. The size and shape of an adult humanoid, the demogorgon's mouth encompasses its face and unfolds like a blossoming flower
@@ -39,7 +40,8 @@ A predator of the Upside Down, the demogorgon hunts the dimension looking for un
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "blindsight 60 ft., passive Perception 13"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., passive Perception 13"
 "languages": ""
 "cr": "4"
 "traits":
@@ -58,10 +60,10 @@ A predator of the Upside Down, the demogorgon hunts the dimension looking for un
   - "desc": "The demogorgon makes three attacks: one with its bite and two with its\
       \ claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d8 + 3) slashing damage."
     "name": "Claw"
 "source":

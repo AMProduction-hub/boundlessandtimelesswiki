@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Egg Hunter Adult
+- "Egg Hunter Adult"
 ---
-# [Egg Hunter Adult](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/egg-hunter-adult-ftd.md)
+# [Egg Hunter Adult](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/egg-hunter-adult-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 193*  
 
 The salamander-like adult of the species can inflate its bulbous tail so that it takes on the shape and texture of a dragon egg. It uses this mimicry to establish itself in a nest tended by a dragon or other creatures. If an egg hunter is discovered, it releases spores that make other creatures lethargic, allowing it to scurry to safety. If things turn dire, the egg hunter's physical form can magically harden, reducing the harm it suffers from even a dragon's wrath.
@@ -39,8 +40,8 @@ Egg hunters are parasites that seek out dragon eggs and feed on the contents. Th
   - !!int "5"
 "speed": "40 ft., climb 40 ft."
 "saves":
-  - "dexterity": "+8"
-  - "wisdom": "+4"
+  - "dexterity": !!int "8"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
@@ -48,7 +49,8 @@ Egg hunters are parasites that seek out dragon eggs and feed on the contents. Th
     "desc": "+11"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 14"
 "languages": ""
 "cr": "5"
 "traits":
@@ -64,7 +66,7 @@ Egg hunters are parasites that seek out dragon eggs and feed on the contents. Th
   - "desc": "The egg hunter makes two Barbed Proboscis attacks, and it can use Torpor\
       \ Spores if it's available."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d6 + 5) piercing damage plus 9 (2d8) necrotic damage, and the egg hunter\
       \ regains hit points equal to the necrotic damage dealt."
     "name": "Barbed Proboscis"

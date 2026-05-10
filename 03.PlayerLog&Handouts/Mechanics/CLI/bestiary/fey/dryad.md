@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dryad
+- "Dryad"
 ---
-# [Dryad](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/dryad.md)
-*Source: Monster Manual p. 121, Storm King's Thunder, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Dryad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/dryad.md)
+*Source: Monster Manual p. 121. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Travelers entering a forest might catch a glimpse of a feminine form flitting through the trees. Warm laughter hangs on the air, drawing those who hear it deeper into the emerald shadows.
 
@@ -56,16 +57,19 @@ Dryads can speak with plants and animals. They can teleport from one tree to ano
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Elvish, Sylvan"
 "cr": "1"
 "traits":
   - "desc": "The dryad's innate spellcasting ability is Charisma (spell save DC 14).\
       \ The dryad can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md)\n\
-      \n3/day each: [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
-      \ [goodberry](03.PlayerLog&Handouts/Mechanics/CLI/spells/goodberry.md)\n\n1/day\
-      \ each: [barkskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/barkskin.md),\
+      \n**At will:** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md)\n\
+      \n**3/day each:** [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
+      \ [goodberry](03.PlayerLog&Handouts/Mechanics/CLI/spells/goodberry.md)\n\n**1/day\
+      \ each:** [barkskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/barkskin.md),\
       \ [pass without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md),\
       \ [shillelagh](03.PlayerLog&Handouts/Mechanics/CLI/spells/shillelagh.md)"
     "name": "Innate Spellcasting"
@@ -81,8 +85,8 @@ Dryads can speak with plants and animals. They can teleport from one tree to ano
       \ 5 feet of the second tree. Both trees must be large or bigger."
     "name": "Tree Stride"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach\
-      \ 5 ft., one target. Hit: 2 (d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning\
+  - "desc": "*Melee Weapon Attack:* +2 to hit (+6 to hit with shillelagh), reach\
+      \ 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning\
       \ damage with shillelagh."
     "name": "Club"
   - "desc": "The dryad targets one humanoid or beast that she can see within 30 feet\
@@ -103,15 +107,6 @@ Dryads can speak with plants and animals. They can teleport from one tree to ano
     "name": "Fey Charm"
 "source":
   - "MM"
-  - "SKT"
-  - "GoS"
-  - "BGDIA"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
-  - "CM"
-  - "JttRC"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/token/dryad.webp"
 ```
 ^statblock

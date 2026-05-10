@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/9
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Murgaxor
+- "Murgaxor"
 ---
-# [Murgaxor](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/murgaxor-scc.md)
+# [Murgaxor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/murgaxor-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 180*  
 
 After giving the characters their quest, Professor Lang hands them a file with information the faculty members have collected about Murgaxor from university records. Tell the players the following to give them context about this evil spellcaster:
@@ -43,10 +44,10 @@ After giving the characters their quest, Professor Lang hands them a file with i
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+8"
-  - "intelligence": "+9"
-  - "wisdom": "+5"
-  - "charisma": "+5"
+  - "constitution": !!int "8"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+9"
@@ -76,7 +77,7 @@ After giving the characters their quest, Professor Lang hands them a file with i
 "actions":
   - "desc": "Murgaxor makes two Blood Lash attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +9 to hit, reach 10 ft., one target. Hit: 21\
+  - "desc": "*Melee Spell Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 21\
       \ (3d10 + 5) necrotic damage. If the target is a creature, it can't regain\
       \ hit points until the start of Murgaxor's next turn."
     "name": "Blood Lash"
@@ -92,25 +93,23 @@ After giving the characters their quest, Professor Lang hands them a file with i
 "lair_actions":
   - "desc": "On initiative count 20 (losing initiative ties), Murgaxor can take one\
       \ of the following lair actions; after he does so, he can't use that action\
-      \ again until he finishes a long rest:"
-    "name": ""
-  - "desc": "- Clay Behemoth. A [clay golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clay-golem.md)\
+      \ again until he finishes a long rest:\n\n- **Clay Behemoth.** A [clay golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clay-golem.md)\
       \ erupts from the floor in an unoccupied space within 15 feet of the ritual\
       \ circle. The golem obeys Murgaxor's commands, takes its turns on initiative\
       \ count 10 (losing initiative ties), fights until destroyed, and reverts to\
-      \ a mound of inanimate clay after 1 hour.  \n- Earthen Fist. A medium fist\
+      \ a mound of inanimate clay after 1 hour.  \n- **Earthen Fist.** A medium fist\
       \ of packed earth rises from the floor in an unoccupied space that Murgaxor\
       \ can see within 30 feet of him. The fist attacks when one creature of his choice\
       \ is within 4 feet of the fist. The fist has a +11 bonus to hit, and on a hit,\
       \ the target takes 13 (3d8) bludgeoning damage and is grappled (escape DC\
       \ 15). The fist disappears if the attack roll misses or if the grapple ends.\
       \ When the fist disappears, this lair action recharges, allowing Murgaxor to\
-      \ use it again.  \n- Necrotic Burst. Tendrils of necrotic energy erupt from\
+      \ use it again.  \n- **Necrotic Burst.** Tendrils of necrotic energy erupt from\
       \ the ritual circle and lash out at any number of creatures Murgaxor can see\
       \ within 15 feet of the circle. Each target must succeed on a DC 15 Dexterity\
-      \ saving throw, or it takes 5 (d10) necrotic damage and can't regain hit points\
-      \ until the start of its next turn.  \n- Summon Mephits. Murgaxor summons\
-      \ four [mud mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/mud-mephit.md)\
+      \ saving throw, or it takes 5 (1d10) necrotic damage and can't regain hit\
+      \ points until the start of its next turn.  \n- **Summon Mephits.** Murgaxor\
+      \ summons four [mud mephits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/mud-mephit.md)\
       \ that appear in unoccupied spaces within 15 feet of the ritual circle. The\
       \ mephits obey Murgaxor's commands, take their turns on initiative count 15\
       \ (losing initiative ties), and fight until destroyed.  "

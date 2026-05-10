@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Berbalang
+- "Berbalang"
 ---
-# [Berbalang](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/berbalang-mpmm.md)
+# [Berbalang](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/berbalang-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 61, Mordenkainen's Tome of Foes p. 120*  
 
 Berbalangs creep across the [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified) remains of dead gods adrift on the Astral Plane. Obsessed with gathering secrets, both from the gods they inhabit and from the bones of dead creatures, they call forth the spirits of the dead and force them to divulge what they learned in life.
@@ -42,8 +43,8 @@ The knowledge that berbalangs accumulate makes them great sources of information
   - !!int "10"
 "speed": "30 ft., fly 40 ft."
 "saves":
-  - "dexterity": "+5"
-  - "intelligence": "+5"
+  - "dexterity": !!int "5"
+  - "intelligence": !!int "5"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -55,22 +56,23 @@ The knowledge that berbalangs accumulate makes them great sources of information
     "desc": "+2"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+5"
-"senses": "truesight 120 ft., passive Perception 12"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 12"
 "languages": "all"
 "cr": "2"
 "actions":
   - "desc": "The berbalang makes one Bite attack and one\n\nClaw attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
-      \ (1d10 + 3) piercing damage plus 4 (d8) psychic damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
+      \ (1d10 + 3) piercing damage plus 4 (1d8) psychic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (2d4 + 3) slashing damage."
     "name": "Claw"
   - "desc": "The berbalang casts one of the following spells, requiring no material\
-      \ components and using Intelligence as the spellcasting ability:\n\nAt will:\
+      \ components and using Intelligence as the spellcasting ability:\n\n**At will:**\
       \ [speak with dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md)\n\
-      \n1/day: [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)\
+      \n**1/day:** [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)\
       \ (self only)"
     "name": "Spellcasting"
 "bonus_actions":

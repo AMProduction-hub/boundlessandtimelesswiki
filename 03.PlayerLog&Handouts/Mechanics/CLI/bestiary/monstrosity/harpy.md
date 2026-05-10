@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -13,10 +14,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Harpy
+- "Harpy"
 ---
-# [Harpy](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/harpy.md)
-*Source: Monster Manual p. 181, Princes of the Apocalypse, Storm King's Thunder, Ghosts of Saltmarsh, Dragon of Icespire Peak, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Harpy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/harpy.md)
+*Source: Monster Manual p. 181. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Taking glee in suffering and death, the sadistic harpy is always on the hunt for prey. Its sweet song has lured countless adventurers to their deaths, drawing them in close for the harpy to kill and then consume.
 
@@ -61,16 +62,18 @@ Harpies take shiny baubles, valuable objects, and other trophies from their vict
   - !!int "10"
   - !!int "13"
 "speed": "20 ft., fly 40 ft."
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
 "senses": "passive Perception 10"
 "languages": "Common"
 "cr": "1"
 "actions":
   - "desc": "The harpy makes two attacks: one with its claws and one with its club."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (2d4 + 1) slashing damage."
     "name": "Claws"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d4 + 1) bludgeoning damage."
     "name": "Club"
   - "desc": "The harpy sings a magical melody. Every humanoid and giant within 300\
@@ -93,14 +96,6 @@ Harpies take shiny baubles, valuable objects, and other trophies from their vict
     "name": "Luring Song"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "GoS"
-  - "DIP"
-  - "ERLW"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/harpy.webp"
 ```
 ^statblock

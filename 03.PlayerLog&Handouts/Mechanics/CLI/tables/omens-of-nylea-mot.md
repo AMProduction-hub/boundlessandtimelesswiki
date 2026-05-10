@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Omens of Nylea
+- "Omens of Nylea"
 ---
 # Omens of Nylea
 *Source: Mythic Odysseys of Theros p. 111* 
 
 **Omens of Nylea**
-
-`dice: [](omens-of-nylea-mot.md#^omens-of-nylea)`
 
 | dice: d8 | dice: d100 | Omen of Nylea |
 |----------|------------|---------------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/4
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Liara Portyr
+- "Liara Portyr"
 ---
-# [Liara Portyr](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/liara-portyr-toa.md)
-*Source: Tomb of Annihilation p. 227, Baldur's Gate: Descent Into Avernus*  
+# [Liara Portyr](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/liara-portyr-toa.md)
+*Source: Tomb of Annihilation p. 227*  
 
 As the commander of Fort Beluarian, Liara spends most of her time worrying about the security of her stronghold while cutting deals with pirates. In general, she has no problem with adventurers and will do her utmost to help them deal with the myriad threats lurking in the jungle.
 
@@ -53,8 +54,8 @@ Liara comes from an influential family in Baldur's Gate and has held her post fo
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+4"
-  - "wisdom": "+4"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+5"
@@ -64,6 +65,9 @@ Liara comes from an influential family in Baldur's Gate and has held her post fo
     "desc": "+4"
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+5"
+"gear":
+  - "[battleaxe](03.PlayerLog&Handouts/Mechanics/CLI/items/battleaxe.md)"
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Draconic, Dwarvish"
 "cr": "4"
@@ -77,16 +81,15 @@ Liara comes from an influential family in Baldur's Gate and has held her post fo
 "actions":
   - "desc": "Liara makes three melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage when used with\
       \ two hands."
     "name": "Battleaxe"
-  - "desc": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +3 to hit, range 100/400 ft., one target. *Hit:*\
       \ 6 (1d10 + 1) piercing damage."
     "name": "Heavy Crossbow"
 "source":
   - "ToA"
-  - "BGDIA"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/liara-portyr-toa.webp"
 ```
 ^statblock

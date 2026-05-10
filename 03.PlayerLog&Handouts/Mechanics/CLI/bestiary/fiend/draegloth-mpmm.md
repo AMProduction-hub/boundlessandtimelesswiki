@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Draegloth
+- "Draegloth"
 ---
-# [Draegloth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/draegloth-mpmm.md)
+# [Draegloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/draegloth-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 98, Volo's Guide to Monsters p. 141*  
 
 A draegloth is a demon created by an elf priest of Lolth in an unholy, dangerous ritual in which it is infused with the fey essence of the creator and the fiendish essence of a [glabrezu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/glabrezu.md). This ritual rarely succeeds, but Lolth's faithful consider it worth the risk, as the resulting creature is gifted with innate magic and physical might. The draegloth usually serves its creator, lending its thirst for destruction to the creator's plans to triumph over rivals.
@@ -50,7 +51,8 @@ Although draegloths plays an important part in the plans of Lolth's cult, a drae
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "Abyssal, Elvish, Undercommon"
 "cr": "7"
 "traits":
@@ -60,17 +62,17 @@ Although draegloths plays an important part in the plans of Lolth's cult, a drae
 "actions":
   - "desc": "The draegloth makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:*\
       \ 16 (2d10 + 5) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 16 (2d10 + 5) slashing damage."
     "name": "Claw"
   - "desc": "The draegloth casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 11):\n\
-      \nAt will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
-      \ [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md)\n\n1/day\
-      \ each: [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
+      \n**At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md)\n\n**1/day\
+      \ each:** [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
       \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md)"
     "name": "Spellcasting"
 "source":

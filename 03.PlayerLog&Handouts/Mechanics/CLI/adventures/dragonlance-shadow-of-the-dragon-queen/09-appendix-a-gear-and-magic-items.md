@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 aliases:
-- Appendix A: Gear and Magic Items
+- "Appendix A: Gear and Magic Items"
 ---
 # Appendix A: Gear and Magic Items
 *Source: Dragonlance: Shadow of the Dragon Queen, p. 188* 

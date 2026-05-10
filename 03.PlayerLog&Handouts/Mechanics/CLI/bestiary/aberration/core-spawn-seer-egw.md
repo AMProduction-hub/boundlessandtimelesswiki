@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/13
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Core Spawn Seer
+- "Core Spawn Seer"
 ---
-# [Core Spawn Seer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/core-spawn-seer-egw.md)
+# [Core Spawn Seer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/core-spawn-seer-egw.md)
 *Source: Explorer's Guide to Wildemount p. 286*  
 
 Core spawn seers are humanoid arcanists corrupted by the eldritch power of the Elder Evils through blasphemous rites or accursed encounters. Ravaged by otherworldly radiation and disease, their bodies are covered in horrible protrusions of fluorescent crystals, which emit a psychedelic glow from beneath the tattered folds of their robes.
@@ -43,17 +44,18 @@ The aberrant creatures known as core spawn are a subterranean breed of heralds, 
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+6"
-  - "intelligence": "+11"
-  - "wisdom": "+9"
-  - "charisma": "+8"
+  - "dexterity": !!int "6"
+  - "intelligence": !!int "11"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+9"
 "damage_immunities": "psychic"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "blindsight 60 ft., tremorsense 60 ft., passive Perception 19"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 19"
 "languages": "Common, Deep Speech, telepathy 120 ft., Undercommon"
 "cr": "13"
 "traits":
@@ -67,7 +69,7 @@ The aberrant creatures known as core spawn are a subterranean breed of heralds, 
   - "desc": "The seer uses Fission Staff twice, Psychedelic Orb twice, or each one\
       \ once."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:*\
       \ 9 (1d6 + 6) bludgeoning damage plus 18 (4d8) radiant damage, and the target\
       \ is knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Fission Staff"
@@ -81,7 +83,7 @@ The aberrant creatures known as core spawn are a subterranean breed of heralds, 
 "reactions":
   - "desc": "When the seer is hit by an attack, it takes only half of the triggering\
       \ damage. The first time the seer hits with a melee attack on its next turn,\
-      \ the target takes an extra d6 radiant damage."
+      \ the target takes an extra 1d6 radiant damage."
     "name": "Fuse Damage"
 "source":
   - "EGW"

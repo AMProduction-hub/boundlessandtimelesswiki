@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Deep Dragon Wyrmling
+- "Deep Dragon Wyrmling"
 ---
-# [Deep Dragon Wyrmling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/deep-dragon-wyrmling-ftd.md)
+# [Deep Dragon Wyrmling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/deep-dragon-wyrmling-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 175*  
 
 Making their lairs in the depths of the Underdark, deep dragons are nightmarish cousins of chromatic dragons. The warped magical energy of their subterranean realm gives them the ability to exhale magical spores that instill fear and scar the mind.
@@ -26,8 +27,6 @@ Use the Deep Dragon Personality Traits and Deep Dragon Ideals tables to inspire 
 
 ### Deep Dragon Personality Traits
 
-`dice: [](deep-dragon-wyrmling-ftd.md#^trait)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | I will not risk injury at the hands of weaker creatures—especially while I can turn them against one another and have them fight in my stead. |
@@ -41,8 +40,6 @@ Use the Deep Dragon Personality Traits and Deep Dragon Ideals tables to inspire 
 ^trait
 
 ### Deep Dragon Ideals
-
-`dice: [](deep-dragon-wyrmling-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -59,8 +56,6 @@ Use the Deep Dragon Personality Traits and Deep Dragon Ideals tables to inspire 
 The Deep Dragon Adventure Hooks table offers suggestions for stories and adventures involving deep dragons.
 
 ### Deep Dragon Adventure Hooks
-
-`dice: [](deep-dragon-wyrmling-ftd.md#^adventure-hook)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|
@@ -79,8 +74,6 @@ The Deep Dragon Adventure Hooks table offers suggestions for stories and adventu
 Deep dragons appreciate the company of other dragons. Although they view most other species as inferior to dragonkind, having worth only as servants or tools, the rare individuals who impress them can sometimes earn respect as partners—albeit junior ones.
 
 ### Deep Dragon Wyrmling Connections
-
-`dice: [](deep-dragon-wyrmling-ftd.md#^connected-creatures)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|
@@ -111,10 +104,10 @@ Deep dragons appreciate the company of other dragons. Although they view most ot
   - !!int "13"
 "speed": "30 ft., burrow 15 ft., fly 60 ft., swim 30 ft."
 "saves":
-  - "dexterity": "+2"
-  - "constitution": "+3"
-  - "wisdom": "+3"
-  - "charisma": "+3"
+  - "dexterity": !!int "2"
+  - "constitution": !!int "3"
+  - "wisdom": !!int "3"
+  - "charisma": !!int "3"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
@@ -126,16 +119,18 @@ Deep dragons appreciate the company of other dragons. Although they view most ot
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 10 ft., darkvision 90 ft., passive Perception 13"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 90 ft., passive Perception 13"
 "languages": "Draconic"
 "cr": "1"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d10 + 2) piercing damage."
     "name": "Bite"
   - "desc": "The dragon exhales a cloud of spores in a 15-foot cone. Each creature\
       \ in that area must make a DC 11 Wisdom saving throw. On a failed save, the\
-      \ creature takes 5 (d10) psychic damage, and it is [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ creature takes 5 (1d10) psychic damage, and it is [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
       \ of the dragon for 1 minute. On a successful save, the creature takes half\
       \ as much damage with no additional effects. A [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
       \ creature can repeat the saving throw at the end of each of its turns, ending\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ludmilla Vilisevic
+- "Ludmilla Vilisevic"
 ---
-# [Ludmilla Vilisevic](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/ludmilla-vilisevic-cos.md)
+# [Ludmilla Vilisevic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ludmilla-vilisevic-cos.md)
 *Source: Curse of Strahd p. 93*  
 
 ```statblock
@@ -33,49 +34,50 @@ aliases:
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+3"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "damage_resistances": "necrotic; bludgeoning, piercing, slashing from nonmagical attacks"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "the languages it knew in life"
 "cr": "5"
 "traits":
   - "desc": "Ludmilla regains 10 hit points at the start of its turn if it has at\
       \ least 1 hit point and isn't in sunlight or running water. If Ludmilla takes\
-      \ radiant damage or damage from holy water, this trait doesn't function at the\
-      \ start of Ludmilla's next turn."
+      \ radiant damage or damage from [holy water](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-water-flask.md),\
+      \ this trait doesn't function at the start of Ludmilla's next turn."
     "name": "Regeneration"
   - "desc": "Ludmilla can climb difficult surfaces, including upside down on ceilings,\
       \ without needing to make an ability check."
     "name": "Spider Climb"
-  - "desc": "Ludmilla has the following flaws:\n\n- Forbiddance. Ludmilla can't\
-      \ enter a residence without an invitation from one of the occupants.  \n- Harmed\
-      \ by Running Water. Ludmilla takes 20 acid damage when it ends its turn in\
-      \ running water.  \n- Stake to the Heart. Ludmilla is destroyed if a piercing\
+  - "desc": "Ludmilla has the following flaws:\n\n- **Forbiddance.** Ludmilla can't\
+      \ enter a residence without an invitation from one of the occupants.  \n- **Harmed\
+      \ by Running Water.** Ludmilla takes 20 acid damage when it ends its turn in\
+      \ running water.  \n- **Stake to the Heart.** Ludmilla is destroyed if a piercing\
       \ weapon made of wood is driven into its heart while it is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
-      \ in its resting place.  \n- Sunlight Hypersensitivity. Ludmilla takes 20\
+      \ in its resting place.  \n- **Sunlight Hypersensitivity.** Ludmilla takes 20\
       \ radiant damage when it starts its turn in sunlight. While in sunlight, it\
       \ has disadvantage on attack rolls and ability checks  "
     "name": "Vampire Weaknesses"
 "actions":
   - "desc": "Ludmilla makes two attacks, only one of which can be a bite attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one willing creature,\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one willing creature,\
       \ or a creature that is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ by Ludmilla, [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated),\
       \ or [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
-      \ Hit: 6 (1d6 + 3) piercing damage plus 7 (2d6) necrotic damage. The target's\
+      \ *Hit:* 6 (1d6 + 3) piercing damage plus 7 (2d6) necrotic damage. The target's\
       \ hit point maximum is reduced by an amount equal to the necrotic damage taken,\
       \ and Ludmilla regains hit points equal to that amount. The reduction lasts\
       \ until the target finishes a long rest. The target dies if this effect reduces\
       \ its hit point maximum to 0."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:*\
       \ 8 (2d4 + 3) slashing damage. Instead of dealing damage, Ludmilla can grapple\
       \ the target (escape DC 13)."
     "name": "Claws"

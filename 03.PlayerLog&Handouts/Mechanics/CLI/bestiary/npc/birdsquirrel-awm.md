@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/awm
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Birdsquirrel
+- "Birdsquirrel"
 ---
-# [Birdsquirrel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/birdsquirrel-awm.md)
+# [Birdsquirrel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/birdsquirrel-awm.md)
 *Source: Adventure with Muk p. 30*  
 
 Birdsquirrel is a plucky, little critter who loves Muk with all its heart. Some say that Birdsquirrel was created by Doonwaggle the wizard, and that it is the only birdsquirrel in the Dankwood (and maybe the whole world) but who knows?
@@ -43,10 +44,10 @@ Birdsquirrel is a plucky, little critter who loves Muk with all its heart. Some 
 "actions":
   - "desc": "Birdsquirrel makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6+2) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4+2) slashing damage."
     "name": "Claws"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/19
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bael
+- "Bael"
 ---
-# [Bael](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/bael-mpmm.md)
+# [Bael](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/bael-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 54, Mordenkainen's Tome of Foes p. 170*  
 
 With the Blood War between devils and demons raging for eons and no end in sight, opportunities abound for ambitious archdevils to win fame, glory, and power in the ongoing struggle. Duke Bael, one of Mammon's most important vassals, has won fame and acclaim for his victories. Charged with leading sixty-six companies of [barbed devils](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/barbed-devil.md), Bael has proven to be a tactical genius, earning esteem for himself and his master as a result of victory after victory over the abyssal host. Mammon relies on Bael to safeguard his holdings because of Bael's battle acumen. During a time when so many other archdevils have lost their positions, Mammon has never been ousted, which is a testament to Bael's skill on the battlefield.
@@ -44,10 +45,10 @@ Despite his lack of interest in affairs outside battle, or perhaps because of it
   - !!int "24"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+9"
-  - "constitution": "+11"
-  - "intelligence": "+11"
-  - "charisma": "+13"
+  - "dexterity": !!int "9"
+  - "constitution": !!int "11"
+  - "intelligence": !!int "11"
+  - "charisma": !!int "13"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+13"
@@ -62,7 +63,8 @@ Despite his lack of interest in affairs outside battle, or perhaps because of it
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 23"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 23"
 "languages": "all, telepathy 120 ft."
 "cr": "19"
 "traits":
@@ -83,7 +85,7 @@ Despite his lack of interest in affairs outside battle, or perhaps because of it
 "actions":
   - "desc": "Bael makes two Hellish Morningstar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 20 ft., one target. *Hit:*\
       \ 16 (2d8 + 7) force damage plus 9 (2d8) necrotic damage."
     "name": "Hellish Morningstar"
   - "desc": "Each of Bael's allies within 60 feet of him can't be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
@@ -94,17 +96,20 @@ Despite his lack of interest in affairs outside battle, or perhaps because of it
       \ to 120 feet to an unoccupied space he can see."
     "name": "Teleport"
   - "desc": "Bael casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 21):\n\nAt\
-      \ will: [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md)\
+      \ and using Charisma as the spellcasting ability (spell save DC 21):\n\n**At\
+      \ will:** [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md)\
       \ (can become Medium), [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md)\n\
-      \n3/day each: [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \n**3/day each:** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md),\
       \ [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)\n\
-      \n1/day: [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md)"
+      \n**1/day:** [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Bael can expend a use to take one of the following actions. Bael regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Bael uses Spellcasting or Teleport."
     "name": "Fiendish Magic"

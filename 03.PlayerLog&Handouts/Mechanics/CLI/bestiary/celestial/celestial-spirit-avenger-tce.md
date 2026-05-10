@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Celestial Spirit (Avenger)
+- "Celestial Spirit (Avenger)"
 ---
-# [Celestial Spirit (Avenger)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/celestial-spirit-avenger-tce.md)
+# [Celestial Spirit (Avenger)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/celestial-spirit-avenger-tce.md)
 *Source: Tasha's Cauldron of Everything p. 110*  
 
 ```statblock
@@ -32,14 +33,15 @@ aliases:
 "damage_resistances": "radiant"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Celestial, understands the languages you speak"
 "actions":
   - "desc": "The celestial makes a number of attacks equal to half this spell's level\
       \ (rounded down)."
     "name": "Multiattack"
-  - "desc": "Ranged Weapon Attack: your spell attack modifier to hit, range 150/600\
-      \ ft., one target. Hit: 2d6 + 2 + the spell's level radiant damage."
+  - "desc": "*Ranged Weapon Attack:* your spell attack modifier to hit, range 150/600\
+      \ ft., one target. *Hit:* 2d6 + 2 + the spell's level radiant damage."
     "name": "Radiant Bow"
   - "desc": "The celestial touches another creature. The target magically regains\
       \ hit points equal to 2d8 + the spell's level."

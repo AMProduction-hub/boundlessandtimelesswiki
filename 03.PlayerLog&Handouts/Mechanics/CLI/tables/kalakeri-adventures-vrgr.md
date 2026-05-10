@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Kalakeri Adventures
+- "Kalakeri Adventures"
 ---
 # Kalakeri Adventures
 *Source: Van Richten's Guide to Ravenloft p. 128* 
 
 **Kalakeri Adventures**
-
-`dice: [](kalakeri-adventures-vrgr.md#^kalakeri-adventures)`
 
 | dice: d10 | Adventure |
 |-----------|-----------|

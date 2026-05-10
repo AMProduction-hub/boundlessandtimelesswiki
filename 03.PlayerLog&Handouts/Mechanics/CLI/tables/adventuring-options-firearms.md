@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Adventuring Options; Firearms
+- "Adventuring Options; Firearms"
 ---
 # Adventuring Options; Firearms
 *Source: Dungeon Master's Guide p. 266* 
@@ -14,8 +15,8 @@ aliases:
 | Renaissance Item | Cost | Damage | Weight | Properties |
 |------------------|------|--------|--------|------------|
 | *Martial Ranged Weapons* |  |  |  |  |
-| &emsp;Pistol | 250 gp | `d10` piercing | 3 lb. | Ammunition (range 30/90), loading |
-| &emsp;Musket | 500 gp | `d12` piercing | 10 lb. | Ammunition (range 40/120), loading, two-handed |
+| &emsp;Pistol | 250 gp | `1d10` piercing | 3 lb. | Ammunition (range 30/90), loading |
+| &emsp;Musket | 500 gp | `1d12` piercing | 10 lb. | Ammunition (range 40/120), loading, two-handed |
 | *Ammunition* |  |  |  |  |
 | &emsp;Bullets (10) | 3 gp | — | 2 lb. | — |
 ^firearms

@@ -1,22 +1,25 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/
-- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/construct
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Iron Spider
+- "Iron Spider"
 ---
-# [Iron Spider](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/iron-spider-wdmm.md)
+# [Iron Spider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/iron-spider-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 165*  
+
+The iron spider exists solely to produce web cables. It has no attacks and no instinct for self-preservation.
 
 ```statblock
 "name": "Iron Spider (WDMM)"
-"size": "Medium"
+"size": "Large"
 "type": "construct"
 "alignment": "Unaligned"
 "ac": !!int "19"
@@ -31,8 +34,20 @@ aliases:
   - !!int "1"
 "speed": "30 ft., climb 30 ft."
 "damage_immunities": "poison, psychic"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 6"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 6"
 "languages": ""
+"traits":
+  - "desc": "The iron spider can climb difficult surfaces, including upside down on\
+      \ ceilings, without needing to make an ability check."
+    "name": "Spider Climb"
+  - "desc": "The iron spider is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
+      \ while in the area of an [antimagic field](03.PlayerLog&Handouts/Mechanics/CLI/spells/antimagic-field.md).\
+      \ If targeted by [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \ the iron spider must succeed on a Constitution saving throw against the caster's\
+      \ spell save DC or fall [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
+      \ for 1 minute."
+    "name": "Antimagic Susceptibility"
 "actions":
   - "desc": "The iron spider shoots out a 6-inch-thick web cable up to 50 feet long,\
       \ attaching the far end of the cable to a solid surface up to 50 feet away from\

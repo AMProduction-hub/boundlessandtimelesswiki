@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sharwyn Hucrele
+- "Sharwyn Hucrele"
 ---
-# [Sharwyn Hucrele](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sharwyn-hucrele-tftyp.md)
+# [Sharwyn Hucrele](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sharwyn-hucrele-tftyp.md)
 *Source: Tales from the Yawning Portal p. 242*  
 
 ```statblock
@@ -40,16 +41,18 @@ aliases:
     "desc": "+4"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+1"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Draconic, Goblin"
 "cr": "1/2"
 "traits":
   - "desc": "Sharwyn is a 1st-level spellcaster. Her spellcasting ability is Intelligence\
       \ (spell save DC 13, +5 to hit with spell attacks). She has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
-      \n1st level (2 slots): [color spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/color-spray.md),\
+      \n**1st level (2 slots):** [color spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/color-spray.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)"
     "name": "Spellcasting"
@@ -62,7 +65,7 @@ aliases:
   - "desc": "If the Gulthias Tree dies, Sharwyn dies 24 hours later."
     "name": "Tree Thrall"
 "actions":
-  - "desc": "Melee Weapon Attack: +4, reach 5 ft., one target. Hit: 4 (1d4\
+  - "desc": "*Melee Weapon Attack:* +4, reach 5 ft., one target. *Hit:* 4 (1d4\
       \ + 2) piercing damage."
     "name": "Dagger"
 "source":

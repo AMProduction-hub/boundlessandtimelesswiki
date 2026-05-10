@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Other Adventure Hooks; Rakdos Adventure Hooks
+- "Other Adventure Hooks; Rakdos Adventure Hooks"
 ---
 # Other Adventure Hooks; Rakdos Adventure Hooks
 *Source: Guildmasters' Guide to Ravnica p. 153* 
 
 **Rakdos Adventure Hooks**
-
-`dice: [](other-adventure-hooks-rakdos-adventure-hooks-ggr.md#^rakdos-adventure-hooks)`
 
 | dice: d6 | Adventure Hook |
 |----------|----------------|

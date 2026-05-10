@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-object
+cssclasses:
+- json5e-object
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/object/size/varies
 - ttrpg-cli/object/type/generic
 aliases:
-- Generic Object
+- "Generic Object"
 ---
 # Generic Object
 %%-- Embedded content starts on the next line. --%%

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Cloud Giant Ghost
+- "Cloud Giant Ghost"
 ---
-# [Cloud Giant Ghost](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/cloud-giant-ghost-cm.md)
+# [Cloud Giant Ghost](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/cloud-giant-ghost-cm.md)
 *Source: Candlekeep Mysteries p. 146*  
 
 ```statblock
@@ -33,8 +34,8 @@ aliases:
   - !!int "17"
 "speed": "0 ft., fly 40 ft. (hover)"
 "saves":
-  - "wisdom": "+7"
-  - "charisma": "+7"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
@@ -48,7 +49,8 @@ aliases:
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 120 ft., passive Perception 17"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 17"
 "languages": "Common, Giant"
 "cr": "9"
 "traits":
@@ -56,7 +58,7 @@ aliases:
       \ Material Plane, and vice versa."
     "name": "Ethereal Sight"
   - "desc": "The ghost can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
       \ an object."
     "name": "Incorporeal Movement"
   - "desc": "The ghost regains 10 hit points at the start of its turn. If the ghost\
@@ -67,7 +69,7 @@ aliases:
 "actions":
   - "desc": "The ghost makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:*\
       \ 21 (3d8 + 8) force damage."
     "name": "Spectral Weapon"
   - "desc": "The ghost enters the Ethereal Plane from the Material Plane, or vice\
@@ -82,9 +84,9 @@ aliases:
       \ a failed save, or half as much damage on a successful one."
     "name": "Wind Howl (Recharge 6)"
   - "desc": "The ghost casts one of the following spells, using Charisma as the spellcasting\
-      \ ability and requiring no material components:\n\nAt will: [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md)\n\
-      \n3/day: [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)\n\
-      \n1/day: [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md)"
+      \ ability and requiring no material components:\n\n**At will:** [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md)\n\
+      \n**3/day:** [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)\n\
+      \n**1/day:** [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md)"
     "name": "Spellcasting"
 "source":
   - "CM"

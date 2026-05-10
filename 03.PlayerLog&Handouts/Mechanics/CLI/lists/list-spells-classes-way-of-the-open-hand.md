@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/way-of-the-open-hand
 aliases:
-- Spells for Way of the Open Hand
+- "Spells for Way of the Open Hand"
 ---
 # Spells for Way of the Open Hand
 

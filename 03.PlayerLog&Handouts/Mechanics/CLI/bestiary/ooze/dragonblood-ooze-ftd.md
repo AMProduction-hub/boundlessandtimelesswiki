@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragonblood Ooze
+- "Dragonblood Ooze"
 ---
-# [Dragonblood Ooze](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\ooze/dragonblood-ooze-ftd.md)
+# [Dragonblood Ooze](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/dragonblood-ooze-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 182*  
 
 Magic-minded artisans have long incorporated parts of dragons' bodies into magic items, crafting dragon hide into armor and forging weapons from claws and teeth. Alchemists have found beneficial uses for dragon blood, but ill-advised experiments have also given rise to dragonblood oozes.
@@ -48,7 +49,8 @@ The congealed blood of a dragon given mobility and hunger, the ooze tries to sha
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 14"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft. (blind beyond this radius), passive Perception 14"
 "languages": "understands Draconic and the languages of its creator but can't speak"
 "cr": "5"
 "traits":
@@ -61,7 +63,7 @@ The congealed blood of a dragon given mobility and hunger, the ooze tries to sha
   - "desc": "The ooze makes two Pseudopod attacks. The ooze can replace one Pseudopod\
       \ attack with its Slime Breath, if available."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 9 (1d10 + 4) bludgeoning damage plus 14 (4d6) acid damage. If the target\
       \ is a Large or smaller creature, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15). Until this grapple ends, the target takes 7 (2d6) acid damage\

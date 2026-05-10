@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Fear and Stress
+- "Fear and Stress"
 ---
 # Fear and Stress
 *Source: Van Richten's Guide to Ravenloft p. 195* 
@@ -18,8 +19,6 @@ Aside from supernatural sources of dread and monsters who strike terror in their
 A character never has more than three Seeds of Fear; if you gain a new seed and already have three, choose which of your old fears is replaced by the new one.
 
 **Seeds of Fear**
-
-`dice: [](fear-and-stress-vrgr.md#^seeds-of-fear)`
 
 | dice: d12 | Seed |
 |-----------|------|

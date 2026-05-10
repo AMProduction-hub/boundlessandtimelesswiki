@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dip
 aliases:
-- Woodland Manse
+- "Woodland Manse"
 ---
 # Woodland Manse
 *Source: Essentials Kit: Dragon of Icespire Peak, p. 44* 
@@ -33,7 +34,7 @@ Characters who come here from Falcon's Hunting Lodge arrive from the west. Those
 > 
 > **Doors.** Normal doors are made of wood, and are so rotted as to be soft and easily breakable (no ability check required). Secret doors are made of stone and blend in with the surrounding walls. A secret door can be found by a character who searches the surrounding wall and succeeds on a DC 10 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check.
 > 
-> **Ivy.** The ivy enveloping the manse is poisonous and makes the walls difficult to climb. Scaling a wall requires a successful DC 15 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. A creature that comes into contact with ivy must succeed on a DC 12 Constitution saving throw or take 2 (`d4`) poison damage.
+> **Ivy.** The ivy enveloping the manse is poisonous and makes the walls difficult to climb. Scaling a wall requires a successful DC 15 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. A creature that comes into contact with ivy must succeed on a DC 12 Constitution saving throw or take 2 (`1d4`) poison damage.
 > 
 > **Light.** Most locations on the ground floor are dark, as the ivy blocks out the natural light except in areas that are open to the sky (such as the courtyard) or that have openings through which sunlight or moonlight can enter. Rooms and halls on the upper level are dimly lit by natural light that filters through holes in the roof.
 > 
@@ -63,7 +64,7 @@ Nine boars graze in the pumpkin patches—one per patch. Of these, six are actua
 
 ##### Pumpkins
 
-A [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell reveals a dim aura of transmutation magic around each pumpkin. As an action, a character can carve open a pumpkin to reveal six servings of seeds within. Any creature that eats a serving of pumpkin seeds as an action regains 1 hit point. If a creature eats more than five servings of pumpkin seeds in 1 hour, it must succeed on a DC 12 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for `d4` hours.
+A [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell reveals a dim aura of transmutation magic around each pumpkin. As an action, a character can carve open a pumpkin to reveal six servings of seeds within. Any creature that eats a serving of pumpkin seeds as an action regains 1 hit point. If a creature eats more than five servings of pumpkin seeds in 1 hour, it must succeed on a DC 12 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for `1d4` hours.
 
 #### W2. Portico and Balcony
 
@@ -82,7 +83,7 @@ This undecorated hall features a creaky and moldy wooden staircase.
 
 ##### Trapped Stairs
 
-The staircase climbs 10 feet to area W14. Its upper half has been weakened to the extent that it collapses under 50 pounds or more of weight. A creature on the collapsing stairs must make a DC 15 Dexterity saving throw to avoid falling onto a bed of wooden spikes planted underneath the staircase. On a failed save, the creature lands on `d6` wooden spikes, each one dealing `d6` piercing damage.
+The staircase climbs 10 feet to area W14. Its upper half has been weakened to the extent that it collapses under 50 pounds or more of weight. A creature on the collapsing stairs must make a DC 15 Dexterity saving throw to avoid falling onto a bed of wooden spikes planted underneath the staircase. On a failed save, the creature lands on `1d6` wooden spikes, each one dealing `1d6` piercing damage.
 
 #### W4. Parlor
 
@@ -132,7 +133,7 @@ Hidden in the shaft are a number of [vine blights](03.PlayerLog&Handouts/Mechani
 
 The Gulthias tree is a Huge plant with blood for sap. It has AC 15, 250 hit points, vulnerability to fire damage, and no actions, reactions, or defenses. Like an ordinary tree, it's immobile. Unless it's completely uprooted, however, it regrows from its roots even if it's reduced to 0 hit points, regaining 1 hit point every 24 hours.
 
-On any night when the moon is blood red, the Gulthias tree can spawn `2d6` [twig blights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/twig-blight.md), `d6` [needle blights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/needle-blight.md), or `d4` [vine blights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/vine-blight.md). These blights split from the tree and crawl out of the well, ready to do Grannoc's bidding.
+On any night when the moon is blood red, the Gulthias tree can spawn `2d6` [twig blights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/twig-blight.md), `1d6` [needle blights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/needle-blight.md), or `1d4` [vine blights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/vine-blight.md). These blights split from the tree and crawl out of the well, ready to do Grannoc's bidding.
 
 ##### Sounding the Alarm
 
@@ -243,7 +244,7 @@ This room has a conical roof and an open window to the north, through which ivy 
 
 #### W16. Slanted Rooftop
 
-Sections of this wood-shingled roof have collapsed into area W7, leaving gaping holes. The westernmost 15-foot-square section of roof collapses if 50 pounds or more of weight is placed on it. Any creature standing on this section of the roof when it collapses must succeed on a DC 10 Dexterity saving throw or fall into area W7 below, taking 3 (`d6`) bludgeoning damage on impact.
+Sections of this wood-shingled roof have collapsed into area W7, leaving gaping holes. The westernmost 15-foot-square section of roof collapses if 50 pounds or more of weight is placed on it. Any creature standing on this section of the roof when it collapses must succeed on a DC 10 Dexterity saving throw or fall into area W7 below, taking 3 (`1d6`) bludgeoning damage on impact.
 
 #### W17. Upper Arcade
 

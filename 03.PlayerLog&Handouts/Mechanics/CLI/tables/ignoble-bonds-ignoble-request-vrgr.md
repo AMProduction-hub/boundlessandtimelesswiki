@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Ignoble Bonds; Ignoble Request
+- "Ignoble Bonds; Ignoble Request"
 ---
 # Ignoble Bonds; Ignoble Request
 *Source: Van Richten's Guide to Ravenloft p. 82* 
 
 **Ignoble Request**
-
-`dice: [](ignoble-bonds-ignoble-request-vrgr.md#^ignoble-request)`
 
 | dice: d6 | Request |
 |----------|---------|

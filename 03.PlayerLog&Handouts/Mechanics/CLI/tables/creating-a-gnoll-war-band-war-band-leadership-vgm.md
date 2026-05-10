@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Creating a Gnoll War Band; War Band Leadership
+- "Creating a Gnoll War Band; War Band Leadership"
 ---
 # Creating a Gnoll War Band; War Band Leadership
 *Source: Volo's Guide to Monsters p. 39* 
 
 **War Band Leadership**
-
-`dice: [](creating-a-gnoll-war-band-war-band-leadership-vgm.md#^war-band-leadership)`
 
 | dice: d6 | Leader | Number Appearing Modifier |
 |----------|--------|---------------------------|

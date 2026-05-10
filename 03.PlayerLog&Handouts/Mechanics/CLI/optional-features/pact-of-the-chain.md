@@ -1,14 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/optional-feature/pb
 aliases:
-- Pact of the Chain
+- "Pact of the Chain"
 ---
 # Pact of the Chain
 *Source: Player's Handbook p. 107. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+
 You learn the [find familiar](03.PlayerLog&Handouts/Mechanics/CLI/spells/find-familiar.md) spell and can cast it as a ritual. The spell doesn't count against your number of spells known.
 
 When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: [imp](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/imp.md), [pseudodragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/pseudodragon.md), [quasit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/quasit.md), or [sprite](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/sprite.md).

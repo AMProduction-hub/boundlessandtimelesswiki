@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ashen Warhorse
+- "Ashen Warhorse"
 ---
-# [Ashen Warhorse](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/ashen-warhorse-kftgv.md)
+# [Ashen Warhorse](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/ashen-warhorse-kftgv.md)
 *Source: Keys from the Golden Vault p. 158*  
 
 ```statblock
@@ -46,7 +47,7 @@ aliases:
       \ and any equipment it was wearing or carrying falls to the ground."
     "name": "Ashen Creature"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage."
     "name": "Hooves"
 "source":

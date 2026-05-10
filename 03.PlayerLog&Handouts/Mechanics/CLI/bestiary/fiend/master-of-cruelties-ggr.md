@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Master of Cruelties
+- "Master of Cruelties"
 ---
-# [Master of Cruelties](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/master-of-cruelties-ggr.md)
+# [Master of Cruelties](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/master-of-cruelties-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 196*  
 
 When a master of cruelties steps up as ringleader of a Rakdos show, the audience can be assured of a performance they will remember for the rest of their lives—however brief that might be.
@@ -24,7 +25,7 @@ Just as angels are incarnations of the ideals of justice, demons embody depraved
 
 Demons are agents of destruction that work their acts of terror in plain sight under the auspices of the Cult of Rakdos. They exhibit their cruelty in dramatic performances that leave the audience members blood-soaked but ecstatic. They incite mob riots that raze entire city blocks. The only thing demons fear is Rakdos himself, who doesn't tolerate rivals and hates to be upstaged.
 
-### Demonic "Devils."
+### Demonic "Devils"
 
 The creatures called "devils" in Ravnica are minor demons akin to [quasits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/quasit.md). While the larger demons embody evil qualities such as blood lust and torment, these lesser demons reflect the whimsical and chaotic side of Rakdos and his cult. Their mischievous antics cause disorder and destruction out of proportion to the demons' small size.
 
@@ -52,10 +53,10 @@ Many of the demons of Ravnica are monstrous, winged creatures of human-like form
   - !!int "21"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+7"
-  - "intelligence": "+8"
-  - "wisdom": "+7"
-  - "charisma": "+9"
+  - "constitution": !!int "7"
+  - "intelligence": !!int "8"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+9"
@@ -69,15 +70,18 @@ Many of the demons of Ravnica are monstrous, winged creatures of human-like form
   \ nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 13"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 13"
 "languages": "Abyssal, Common, telepathy 120 ft."
 "cr": "9"
 "traits":
   - "desc": "The master's innate spellcasting ability is Charisma (spell save DC 17).\
       \ The master can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md)\
+      \n**At will:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md)\
       \ (as a 3rd-level spell), [crown of madness](03.PlayerLog&Handouts/Mechanics/CLI/spells/crown-of-madness.md)\n\
-      \n1/day: [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md)"
+      \n**1/day:** [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md)"
     "name": "Innate Spellcasting"
   - "desc": "When any other creature starts its turn within 30 feet of the master,\
       \ that creature must succeed on a DC 17 Wisdom saving throw, or it must immediately\
@@ -95,8 +99,8 @@ Many of the demons of Ravnica are monstrous, winged creatures of human-like form
 "actions":
   - "desc": "The master makes two melee attacks with its spear."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4)\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +8 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4)\
       \ piercing damage if used with two hands to make a melee attack, plus 13 (3d8)\
       \ psychic damage."
     "name": "Spear"

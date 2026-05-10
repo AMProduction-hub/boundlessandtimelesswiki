@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Appendix C: Magic Items
+- "Appendix C: Magic Items"
 ---
 # Appendix C: Magic Items
 *Source: Baldur's Gate: Descent Into Avernus, p. 223* 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/rarity/rare
@@ -8,7 +9,7 @@ tags:
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Dragon Slayer"
 - "Dragon Slayer Double-Bladed Scimitar"
 - "Dragon Slayer Greatsword"
@@ -19,7 +20,7 @@ aliases:
 ---
 # Dragon Slayer
 *Major, rare*  
-![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/dragon-slayer.webp#right)
+![Dragon Slayer (Greatsword)](03.PlayerLog&Handouts/Mechanics/CLI/items/img/dragon-slayer.webp#right)
 
 
 You gain a +1 bonus to attack and damage rolls made with this magic weapon.

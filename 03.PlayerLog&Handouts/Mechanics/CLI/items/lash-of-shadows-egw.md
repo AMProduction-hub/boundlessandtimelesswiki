@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/artifact
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
-aliases: 
+aliases:
 - "Lash of Shadows"
 ---
 # Lash of Shadows
@@ -15,7 +16,7 @@ aliases:
 ![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/lash-of-shadows.webp#right)
 
 - **Damage**: 1d4 slashing
-- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Reach](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reach), Vestige of Divergence
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Reach](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reach)
 - **Weight**: 3.0 lbs.
 
 This snakeskin whip is touched by the power of Zehir and ends in five animated serpent heads.

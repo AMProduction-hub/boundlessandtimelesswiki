@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/4
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Red Dragon Wyrmling
+- "Red Dragon Wyrmling"
 ---
-# [Red Dragon Wyrmling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/red-dragon-wyrmling.md)
-*Source: Monster Manual p. 98, Curse of Strahd, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Red Dragon Wyrmling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/red-dragon-wyrmling.md)
+*Source: Monster Manual p. 98. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 The most covetous of the true dragons, red dragons tirelessly seek to increase their treasure hoards. They are exceptionally vain, even for dragons, and their conceit is reflected in their proud bearing and their disdain for other creatures. The odor of sulfur and pumice surrounds a red dragon, whose swept-back horns and spinal frill define its silhouette. Its beaked snout vents smoke at all times, and its eyes dance with flame when it is angry. Its wings are the longest of any chromatic dragon, and have a blue-black tint along the trailing edge that resembles metal burned blue by fire.
 
@@ -111,22 +112,24 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
   - !!int "15"
 "speed": "30 ft., climb 30 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+2"
-  - "constitution": "+5"
-  - "wisdom": "+2"
-  - "charisma": "+4"
+  - "dexterity": !!int "2"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "2"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+2"
 "damage_immunities": "fire"
-"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Draconic"
 "cr": "4"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
-      \ (1d10 + 4) piercing damage plus 3 (d6) fire damage."
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9\
+      \ (1d10 + 4) piercing damage plus 3 (1d6) fire damage."
     "name": "Bite"
   - "desc": "The dragon exhales fire in a 15-foot cone. Each creature in that area\
       \ must make a DC 13 Dexterity saving throw, taking 24 (7d6) fire damage on\
@@ -134,10 +137,6 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
     "name": "Fire Breath (Recharge 5-6)"
 "source":
   - "MM"
-  - "CoS"
-  - "WDMM"
-  - "BGDIA"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/red-dragon-wyrmling.webp"
 ```
 ^statblock

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Leedara
+- "Leedara"
 ---
-# [Leedara](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/leedara-dsotdq.md)
+# [Leedara](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/leedara-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 58*  
 
 Leedara died during the Cataclysm over three hundred years ago. Once an elven priest, Leedara witnessed her companion and fellow priest, Isolde, drawn into the grim fate of the wicked Knight of Solamnia, Lord Loren Soth. When Soth failed his gods-given quest to prevent the Cataclysm, he became cursed to exist forever as a death knight. As part of his curse, Leedara and several of her companions returned as deathless spirits devoted to ensuring Soth never finds peace.
@@ -45,7 +46,8 @@ Leedara died during the Cataclysm over three hundred years ago. Once an elven pr
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Any languages she knew in life"
 "cr": "4"
 "traits":
@@ -53,11 +55,11 @@ Leedara died during the Cataclysm over three hundred years ago. Once an elven pr
       \ Plane, and vice versa."
     "name": "Ethereal Sight"
   - "desc": "Leedara can move through other creatures and objects as if they were\
-      \ difficult terrain. She takes 5 (d10) force damage if she ends her turn inside\
-      \ an object."
+      \ difficult terrain. She takes 5 (1d10) force damage if she ends her turn\
+      \ inside an object."
     "name": "Incorporeal Movement"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 17\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 17\
       \ (4d6 + 3) necrotic damage."
     "name": "Withering Touch"
   - "desc": "Leedara enters the Ethereal Plane from the Material Plane, or vice versa.\

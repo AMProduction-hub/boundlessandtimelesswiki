@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/rare
 - ttrpg-cli/item/shield/
 - ttrpg-cli/item/tier/major
-aliases: 
+aliases:
 - "Shield of Missile Attraction"
 ---
 # Shield of Missile Attraction

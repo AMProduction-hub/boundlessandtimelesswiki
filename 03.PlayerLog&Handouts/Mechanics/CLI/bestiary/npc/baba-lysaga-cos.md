@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/11
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Baba Lysaga
+- "Baba Lysaga"
 ---
-# [Baba Lysaga](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/baba-lysaga-cos.md)
+# [Baba Lysaga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/baba-lysaga-cos.md)
 *Source: Curse of Strahd p. 228*  
 
 Two women gave life to Strahd von Zarovich. The first was Queen Ravenovia van Roeyen, Strahd's biological mother. The second was the queen's midwife, a devout follower of Mother Night named Baba Lysaga. Although it was the former who raised Strahd and enabled him to follow in his father's footsteps, it was the latter who sensed a potential for greatness and darkness in Strahd surpassing that of any other mortal. Lysaga believed then, as she believes now, that she is Strahd's true mother.
@@ -73,41 +74,43 @@ The goddess Mother Night has bestowed magical gifts on Baba Lysaga as rewards fo
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+7"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+13"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+13"
+"gear":
+  - "[quarterstaff](03.PlayerLog&Handouts/Mechanics/CLI/items/quarterstaff.md)"
 "senses": "passive Perception 13"
 "languages": "Abyssal, Common, Draconic, Dwarvish, Giant"
 "cr": "11"
 "traits":
   - "desc": "Baba Lysaga is a 16th-level spellcaster. Her spellcasting ability is\
       \ Intelligence (spell save DC 17, +9 to hit with spell attacks). Baba Lysaga\
-      \ has the following wizard spells prepared:\n\nCantrips (at will): [acid\
+      \ has the following wizard spells prepared:\n\n**Cantrips (at will):** [acid\
       \ splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md), [fire\
       \ bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**1st level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
       \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md), [witch bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/witch-bolt.md)\n\
-      \n2nd level (3 slots): [crown of madness](03.PlayerLog&Handouts/Mechanics/CLI/spells/crown-of-madness.md),\
+      \n**2nd level (3 slots):** [crown of madness](03.PlayerLog&Handouts/Mechanics/CLI/spells/crown-of-madness.md),\
       \ [enlarge/reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md)\n\n\
-      3rd level (3 slots): [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      **3rd level (3 slots):** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [lightning\
-      \ bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)\n\n4th\
-      \ level (3 slots): [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
+      \ bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)\n\n**4th\
+      \ level (3 slots):** [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
       \ [Evard's black tentacles](03.PlayerLog&Handouts/Mechanics/CLI/spells/evards-black-tentacles.md),\
-      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\n5th\
-      \ level (2 slots): [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
+      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\n**5th\
+      \ level (2 slots):** [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
       \ [geas](03.PlayerLog&Handouts/Mechanics/CLI/spells/geas.md), [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)\n\
-      \n6th level (1 slots): [programmed illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/programmed-illusion.md),\
+      \n**6th level (1 slots):** [programmed illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/programmed-illusion.md),\
       \ [true seeing](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-seeing.md)\n\
-      \n7th level (1 slots): [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
+      \n**7th level (1 slots):** [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
       \ [mirage arcane](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirage-arcane.md)\n\
-      \n8th level (1 slots): [power word stun](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-stun.md)"
+      \n**8th level (1 slots):** [power word stun](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-stun.md)"
     "name": "Spellcasting"
   - "desc": "Baba Lysaga can use an action to polymorph into a [swarm of insects](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-insects.md)\
       \ (flies), or back into her true form. While in swarm form, she has a walking\
@@ -121,11 +124,11 @@ The goddess Mother Night has bestowed magical gifts on Baba Lysaga as rewards fo
 "actions":
   - "desc": "Baba Lysaga makes three attacks with her quarterstaff."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage if wielded\
       \ with two hands."
     "name": "Quarterstaff"
-  - "desc": "Baba Lysaga summons d4 swarms of insects. A summoned swarm appears\
+  - "desc": "Baba Lysaga summons 1d4 swarms of insects. A summoned swarm appears\
       \ in an unoccupied space within 60 feet of Baba Lysaga and acts as her ally.\
       \ It remains until it dies or until Baba Lysaga dismisses it as an action."
     "name": "Summon Swarms of Insects (Recharges after a Short or Long Rest)"

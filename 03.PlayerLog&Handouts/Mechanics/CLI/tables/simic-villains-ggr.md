@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Simic Villains
+- "Simic Villains"
 ---
 # Simic Villains
 *Source: Guildmasters' Guide to Ravnica p. 158* 
 
 **Simic Villains**
-
-`dice: [](simic-villains-ggr.md#^simic-villains)`
 
 | dice: d8 | Villain |
 |----------|---------|

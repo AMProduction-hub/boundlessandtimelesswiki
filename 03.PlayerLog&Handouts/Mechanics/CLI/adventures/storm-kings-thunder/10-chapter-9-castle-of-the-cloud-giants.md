@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 aliases:
-- Chapter 9: Castle of the Cloud Giants
+- "Chapter 9: Castle of the Cloud Giants"
 ---
 # Chapter 9: Castle of the Cloud Giants
 *Source: Storm King's Thunder, p. 187* 
@@ -191,7 +192,7 @@ Five [cloud giants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/cloud-gia
 
 #### Treasure
 
-The large chest near the door is unlocked and contains ten fat sacks, no two exactly alike in appearance but each one containing loot belonging to a particular cloud giant. Each sack holds `3d6 × 100` sp, `2d6 × 100` gp, and `d4` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction. If the characters seize all this treasure, don't bother rolling to determine the exact contents of each sack; instead, assume that the entire hoard consists of 10,000 sp, 7,000 gp, and twenty items selected from the table.
+The large chest near the door is unlocked and contains ten fat sacks, no two exactly alike in appearance but each one containing loot belonging to a particular cloud giant. Each sack holds `3d6 × 100` sp, `2d6 × 100` gp, and `1d4` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction. If the characters seize all this treasure, don't bother rolling to determine the exact contents of each sack; instead, assume that the entire hoard consists of 10,000 sp, 7,000 gp, and twenty items selected from the table.
 
 ### 6. Aft Battery
 
@@ -229,7 +230,7 @@ Sansuri carries a large ring of keys that unlock the dragon's bonds. She uses a 
 
 > [!note] 
 > 
-> **Spellcasting.** Sansuri casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 15; +7 to hit with spell attacks):
+> **Spellcasting.** Sansuri casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 15; `+7` to hit with spell attacks):
 > 
 > At will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md), [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)
 > 
@@ -435,7 +436,7 @@ The door to Lyn Armaal's dome-shaped greenhouse has a delicate mithral frame set
 
 > [!note] 
 > 
-> **Spellcasting.** Thullen is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 15; +7 to hit with spell attacks). He has the following druid spells prepared:
+> **Spellcasting.** Thullen is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 15; `+7` to hit with spell attacks). He has the following druid spells prepared:
 > 
 > Cantrips (at will): [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md), [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md), [produce flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md)
 > 

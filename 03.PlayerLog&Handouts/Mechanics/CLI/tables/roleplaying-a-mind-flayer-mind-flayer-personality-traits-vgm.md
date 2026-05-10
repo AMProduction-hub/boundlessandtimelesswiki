@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Roleplaying a Mind Flayer; Mind Flayer Personality Traits
+- "Roleplaying a Mind Flayer; Mind Flayer Personality Traits"
 ---
 # Roleplaying a Mind Flayer; Mind Flayer Personality Traits
 *Source: Volo's Guide to Monsters p. 74* 
 
 **Mind Flayer Personality Traits**
-
-`dice: [](roleplaying-a-mind-flayer-mind-flayer-personality-traits-vgm.md#^mind-flayer-personality-traits)`
 
 | dice: d8 | Personality Trait |
 |----------|-------------------|

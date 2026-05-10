@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Indentured Spirit
+- "Indentured Spirit"
 ---
-# [Indentured Spirit](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/indentured-spirit-ggr.md)
+# [Indentured Spirit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/indentured-spirit-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 206*  
 
 Those who die with unpaid debts to the Orzhov Syndicate don't get a reprieve. Instead, their spirits serve the syndicate until they have worked off their obligation. Sometimes that means existing as an indentured spirit for years or even millennia.
@@ -51,11 +52,11 @@ An indentured spirit is an incorporeal being draped in ghostly black robes and a
 "cr": "1"
 "traits":
   - "desc": "The spirit can move through other creatures and objects as if they were\
-      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
       \ an object."
     "name": "Incorporeal Movement"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (3d6) necrotic damage."
     "name": "Withering Touch"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Blind Artist
+- "Blind Artist"
 ---
-# [Blind Artist](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/blind-artist-toa.md)
+# [Blind Artist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/blind-artist-toa.md)
 *Source: Tomb of Annihilation p. 164*  
 
 ```statblock
@@ -32,11 +33,12 @@ aliases:
   - !!int "5"
 "speed": "20 ft."
 "saves":
-  - "wisdom": "+0"
+  - "wisdom": !!int "0"
 "damage_immunities": "poison"
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft. (blind beyond this radius), passive Perception 8"
 "languages": "understands all languages it spoke in life but can't speak"
 "cr": "0"
 "traits":

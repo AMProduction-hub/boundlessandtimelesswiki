@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Deep Dragon Treasures; Deep Dragon Art Objects
+- "Deep Dragon Treasures; Deep Dragon Art Objects"
 ---
 # Deep Dragon Treasures; Deep Dragon Art Objects
 *Source: Fizban's Treasury of Dragons p. 109* 
 
 **Deep Dragon Art Objects**
-
-`dice: [](deep-dragon-treasures-deep-dragon-art-objects-ftd.md#^deep-dragon-art-objects)`
 
 | dice: d12 | Object |
 |-----------|--------|

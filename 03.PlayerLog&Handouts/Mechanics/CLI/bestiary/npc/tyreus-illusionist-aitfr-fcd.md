@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/aitfr-fcd
 - ttrpg-cli/monster/cr/13
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tyreus, Illusionist
+- "Tyreus, Illusionist"
 ---
-# [Tyreus, Illusionist](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/tyreus-illusionist-aitfr-fcd.md)
+# [Tyreus, Illusionist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/tyreus-illusionist-aitfr-fcd.md)
 *Source: Adventures in the Forgotten Realms: From Cyan Depths p. 11*  
 
 When he was young, living in the vast, internecine planar city of Ravnica, Tyreus's parents, Tyberio and Ayraea, forbade him from pursuing any study of magic or wizardry. They didn't want Tyreus embroiled in a life of danger and skullduggery—as was common in Ravnica. But Tyreus came to understand that at least part of his father's motive for forbidding magic was Tyberio's own rebellion against his adventurous parents. When he learned that his grandmother had once been a powerful mage, Tyreus wanted to follow in her footsteps.
@@ -67,8 +68,8 @@ It may be too late for Tyreus. He has devoted himself to his own grandeur now an
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+10"
-  - "wisdom": "+7"
+  - "intelligence": !!int "10"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+12"
@@ -80,35 +81,37 @@ It may be too late for Tyreus. He has devoted himself to his own grandeur now an
     "desc": "+7"
 "damage_resistances": "damage from spells; nonmagical bludgeoning, piercing, slashing\
   \ (from stoneskin)"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 17"
 "languages": "Common, Deep Speech, Draconic, Primordial, Sylvan"
 "cr": "13"
 "traits":
   - "desc": "Tyreus is a 16th-level spellcaster. His spellcasting ability is Intelligence\
       \ (spell save DC 18, +10 to hit with spell attacks). He has the following\
-      \ wizard spells prepared.\n\nCantrips (at will): [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
+      \ wizard spells prepared.\n\n**Cantrips (at will):** [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
       \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
-      \n1st level (4 slots): [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md),\
+      \n**1st level (4 slots):** [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
-      \ [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md),\
-      \ [phantasmal force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md)\n\
-      \n3rd level (3 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      \n**2nd level (3 slots):** [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)*,\
+      \ [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md)*,\
+      \ [phantasmal force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md)*\n\
+      \n**3rd level (3 slots):** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md),\
-      \ [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md)\n\
-      \n4th level (3 slots): [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
-      \ [hallucinatory terrain](03.PlayerLog&Handouts/Mechanics/CLI/spells/hallucinatory-terrain.md),\
-      \ [phantasmal killer](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-killer.md),\
-      \ [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)\n\n5th\
-      \ level (2 slots): [conjure elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-elemental.md),\
-      \ [mislead](03.PlayerLog&Handouts/Mechanics/CLI/spells/mislead.md), [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)\n\
-      \n6th level (1 slots): [disintegrate](03.PlayerLog&Handouts/Mechanics/CLI/spells/disintegrate.md)\n\
-      \n7th level (1 slots): [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)\n\
-      \n8th level (1 slots): [maze](03.PlayerLog&Handouts/Mechanics/CLI/spells/maze.md)\n\
-      \n(Illusion spell of 1st level or higher)"
+      \ [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md)*\n\
+      \n**4th level (3 slots):** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \ [hallucinatory terrain](03.PlayerLog&Handouts/Mechanics/CLI/spells/hallucinatory-terrain.md)*,\
+      \ [phantasmal killer](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-killer.md)*,\
+      \ [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)\n\n**5th\
+      \ level (2 slots):** [conjure elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-elemental.md),\
+      \ [mislead](03.PlayerLog&Handouts/Mechanics/CLI/spells/mislead.md)*, [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)\n\
+      \n**6th level (1 slots):** [disintegrate](03.PlayerLog&Handouts/Mechanics/CLI/spells/disintegrate.md)\n\
+      \n**7th level (1 slots):** [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)\n\
+      \n**8th level (1 slots):** [maze](03.PlayerLog&Handouts/Mechanics/CLI/spells/maze.md)\n\
+      \n*(Illusion spell of 1st level or higher)"
     "name": "Spellcasting"
   - "desc": "If Tyreus fails a saving throw, he can choose to succeed instead."
     "name": "Legendary Resistance (3/Day)"
@@ -126,14 +129,17 @@ It may be too late for Tyreus. He has devoted himself to his own grandeur now an
     "name": "Displacement (Recharges after Tyreus Casts an Illusion Spell of 1st Level\
       \ or Higher)"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +8 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
     "name": "Dagger"
   - "desc": "When Tyreus casts an illusion spell that has a duration of 1 minute or\
       \ longer, he can use his action to change the nature of that illusion (using\
       \ the spell's normal parameters for the illusion), provided that he can see\
       \ the illusion."
     "name": "Modify Illusion"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Tyreus can expend a use to take one of the following actions. Tyreus regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Tyreus makes an Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation))\
       \ or Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\

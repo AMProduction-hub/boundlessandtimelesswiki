@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Drow Cultist
+- "Drow Cultist"
 ---
-# [Drow Cultist](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/drow-cultist-oota.md)
+# [Drow Cultist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-cultist-oota.md)
 *Source: Out of the Abyss p. 196*  
 
 ```statblock
@@ -19,7 +20,7 @@ aliases:
 "size": "Medium"
 "type": "humanoid"
 "subtype": "any race"
-"alignment": "Any Non-Good alignment"
+"alignment": "Neutral Evil"
 "ac": !!int "12"
 "ac_class": "[leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/leather-armor.md)"
 "hp": !!int "9"
@@ -38,13 +39,17 @@ aliases:
     "desc": "+2"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+2"
-"senses": "darkvision 120 ft., passive Perception 10"
-"languages": "any one language (usually Common), Elvish"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
+"languages": "any one language (usually Common), Elvish, Undercommon"
 "cr": "1/8"
 "traits":
-  - "desc": "The drow cultist\n\nAt will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
-      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
-      \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md)"
+  - "desc": "The drow cultist\n\n**At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
+      \n**1/day each:** [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
+      \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md) (self only)"
     "name": "Innate Spellcasting"
   - "desc": "The cultist has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
       \ or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)."
@@ -54,7 +59,7 @@ aliases:
   - "desc": "the drow cultist"
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d6 + 1) slashing damage."
     "name": "Scimitar"
 "source":

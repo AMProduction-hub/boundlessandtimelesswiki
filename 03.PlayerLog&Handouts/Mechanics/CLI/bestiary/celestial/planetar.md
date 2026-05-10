@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/16
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Planetar
+- "Planetar"
 ---
-# [Planetar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/planetar.md)
-*Source: Monster Manual p. 17, Baldur's Gate: Descent Into Avernus, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Planetar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/planetar.md)
+*Source: Monster Manual p. 17. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 An angel is a celestial agent sent forth into the planes to further its god's agenda for weal or woe. Its sublime beauty and presence can drive awestruck onlookers to their knees. Yet angels are destroyers too, and their appearance portends doom as often as it signals hope.
 
@@ -57,9 +58,9 @@ Planetars are muscular and hairless and have opalescent green skin and white-fea
   - !!int "25"
 "speed": "40 ft., fly 120 ft."
 "saves":
-  - "constitution": "+12"
-  - "wisdom": "+11"
-  - "charisma": "+12"
+  - "constitution": !!int "12"
+  - "wisdom": !!int "11"
+  - "charisma": !!int "12"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+11"
@@ -67,19 +68,22 @@ Planetars are muscular and hairless and have opalescent green skin and white-fea
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 120 ft., passive Perception 21"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 21"
 "languages": "all, telepathy 120 ft."
 "cr": "16"
 "traits":
   - "desc": "The planetar's spellcasting ability is Charisma (spell save DC 20). The\
       \ planetar can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
+      \n**At will:** [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
-      \ (self only)\n\n3/day each: [blade barrier](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-barrier.md),\
+      \ (self only)\n\n**3/day each:** [blade barrier](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-barrier.md),\
       \ [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md),\
       \ [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md),\
       \ [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md)\n\n\
-      1/day each: [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md),\
+      **1/day each:** [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md),\
       \ [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md),\
       \ [insect plague](03.PlayerLog&Handouts/Mechanics/CLI/spells/insect-plague.md)"
     "name": "Innate Spellcasting"
@@ -95,7 +99,7 @@ Planetars are muscular and hairless and have opalescent green skin and white-fea
 "actions":
   - "desc": "The planetar makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:*\
       \ 21 (4d6 + 7) slashing damage plus 22 (5d8) radiant damage."
     "name": "Greatsword"
   - "desc": "The planetar touches another creature. The target magically regains 30\
@@ -104,8 +108,6 @@ Planetars are muscular and hairless and have opalescent green skin and white-fea
     "name": "Healing Touch (4/Day)"
 "source":
   - "MM"
-  - "BGDIA"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/token/planetar.webp"
 ```
 ^statblock

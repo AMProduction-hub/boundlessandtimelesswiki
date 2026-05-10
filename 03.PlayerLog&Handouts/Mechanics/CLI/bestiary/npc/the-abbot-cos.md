@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- The Abbot
+- "The Abbot"
 ---
-# [The Abbot](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/the-abbot-cos.md)
+# [The Abbot](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/the-abbot-cos.md)
 *Source: Curse of Strahd p. 151*  
 
 ```statblock
@@ -33,8 +34,8 @@ aliases:
   - !!int "20"
 "speed": "30 ft., fly 90 ft."
 "saves":
-  - "wisdom": "+9"
-  - "charisma": "+9"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+9"
@@ -44,14 +45,17 @@ aliases:
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 19"
+"gear":
+  - "[mace](03.PlayerLog&Handouts/Mechanics/CLI/items/mace.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 19"
 "languages": "all, telepathy 120 ft."
 "cr": "10"
 "traits":
   - "desc": "The Abbot's spellcasting ability is Charisma (spell save DC 17). The\
       \ Abbot can innately cast the following spells, requiring only verbal components:\n\
-      \nAt will: [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md)\n\
-      \n1/day each: [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md),\
+      \n**At will:** [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md)\n\
+      \n**1/day each:** [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md),\
       \ [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md)"
     "name": "Innate Spellcasting"
   - "desc": "The Abbot's weapon attacks are magical. When The Abbot hits with any\
@@ -63,7 +67,7 @@ aliases:
 "actions":
   - "desc": "The Abbot makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) bludgeoning damage plus 18 (4d8) radiant damage."
     "name": "Mace"
   - "desc": "The Abbot touches another creature. The target magically regains 20 (4d8\

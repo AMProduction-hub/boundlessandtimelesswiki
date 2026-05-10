@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Majesto
+- "Majesto"
 ---
-# [Majesto](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/majesto-cos.md)
+# [Majesto](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/majesto-cos.md)
 *Source: Curse of Strahd p. 115*  
 
 ```statblock
@@ -45,7 +46,8 @@ aliases:
   \ not made with silvered weapons"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": "Infernal, Common"
 "cr": "1"
 "traits":
@@ -61,7 +63,7 @@ aliases:
       \ effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) piercing damage, and the target must make a DC 11 Constitution\
       \ saving throw, taking 10 (3d6) poison damage on a failed save, or half as\
       \ much damage on a successful one."

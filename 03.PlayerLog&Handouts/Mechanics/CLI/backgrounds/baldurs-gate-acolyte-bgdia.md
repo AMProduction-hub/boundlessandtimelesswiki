@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Baldur's Gate Acolyte
+- "Baldur's Gate Acolyte"
 ---
 # Baldur's Gate Acolyte
 *Source: Baldur's Gate: Descent Into Avernus p. 202, Player's Handbook p. 127*  
@@ -34,8 +35,6 @@ You're tightly connected with the religious community of Baldur's Gate. You know
 
 Acolytes are shaped by their experience in temples or other religious communities. Their study of the history and tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.
 
-`dice: [](baldurs-gate-acolyte-bgdia.md#^personality-trait)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | I idolize a particular hero of my faith, and constantly refer to that person's deeds and example. |
@@ -48,8 +47,6 @@ Acolytes are shaped by their experience in temples or other religious communitie
 | 8 | I've spent so long in the temple that I have little practical experience dealing with people in the outside world. |
 ^personality-trait
 
-`dice: [](baldurs-gate-acolyte-bgdia.md#^ideal)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful) |
@@ -60,8 +57,6 @@ Acolytes are shaped by their experience in temples or other religious communitie
 | 6 | Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings. (Any) |
 ^ideal
 
-`dice: [](baldurs-gate-acolyte-bgdia.md#^bond)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | I would die to recover an ancient relic of my faith that was lost long ago. |
@@ -71,8 +66,6 @@ Acolytes are shaped by their experience in temples or other religious communitie
 | 5 | I will do anything to protect the temple where I served. |
 | 6 | I seek to preserve a sacred text that my enemies consider heretical and seek to destroy. |
 ^bond
-
-`dice: [](baldurs-gate-acolyte-bgdia.md#^flaw)`
 
 | dice: d6 | Flaw |
 |----------|------|

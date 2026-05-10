@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Graveyard Temple Villains
+- "Graveyard Temple Villains"
 ---
 # Graveyard Temple Villains
 *Source: Mythic Odysseys of Theros p. 126* 
 
 **Graveyard Temple Villains**
-
-`dice: [](graveyard-temple-villains-mot.md#^graveyard-temple-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

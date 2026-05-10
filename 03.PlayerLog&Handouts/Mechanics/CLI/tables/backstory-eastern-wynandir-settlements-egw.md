@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Backstory; Eastern Wynandir Settlements
+- "Backstory; Eastern Wynandir Settlements"
 ---
 # Backstory; Eastern Wynandir Settlements
 *Source: Explorer's Guide to Wildemount p. 191* 
 
 **Eastern Wynandir Settlements**
-
-`dice: [](backstory-eastern-wynandir-settlements-egw.md#^eastern-wynandir-settlements)`
 
 | dice: d100 | Settlement Name | Type |
 |------------|-----------------|------|

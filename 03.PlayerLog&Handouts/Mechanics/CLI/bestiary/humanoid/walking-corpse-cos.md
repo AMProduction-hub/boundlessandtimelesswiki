@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Walking Corpse
+- "Walking Corpse"
 ---
-# [Walking Corpse](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/walking-corpse-cos.md)
+# [Walking Corpse](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/walking-corpse-cos.md)
 *Source: Curse of Strahd p. 165*  
 
 ```statblock
@@ -34,6 +35,8 @@ aliases:
 "speed": "20 ft."
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "0"
@@ -43,8 +46,8 @@ aliases:
       \ The snakes are hungry and fight until slain."
     "name": "Violent Death"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) bludgeoning damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d4) bludgeoning damage."
     "name": "Club"
 "source":
   - "CoS"

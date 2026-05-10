@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bat
+- "Bat"
 ---
-# [Bat](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/bat.md)
-*Source: Monster Manual p. 318, Curse of Strahd, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Bat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/bat.md)
+*Source: Monster Manual p. 318. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Bat"
@@ -31,7 +32,8 @@ aliases:
   - !!int "12"
   - !!int "4"
 "speed": "5 ft., fly 30 ft."
-"senses": "blindsight 60 ft., passive Perception 11"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., passive Perception 11"
 "languages": ""
 "cr": "0"
 "traits":
@@ -41,15 +43,11 @@ aliases:
       \ checks that rely on hearing."
     "name": "Keen Hearing"
 "actions":
-  - "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +0 to hit, reach 5 ft., one creature. *Hit:*\
       \ 1 piercing damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "CoS"
-  - "ToA"
-  - "WDMM"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/bat.webp"
 ```
 ^statblock

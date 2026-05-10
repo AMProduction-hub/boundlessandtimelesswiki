@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/8
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Huge Giant Crab
+- "Huge Giant Crab"
 ---
-# [Huge Giant Crab](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/huge-giant-crab-tftyp.md)
-*Source: Tales from the Yawning Portal p. 103, Storm Lord's Wrath*  
+# [Huge Giant Crab](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/huge-giant-crab-tftyp.md)
+*Source: Tales from the Yawning Portal p. 103*  
 
 ```statblock
 "name": "Huge Giant Crab (TftYP)"
@@ -38,7 +39,8 @@ aliases:
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)"
-"senses": "blindsight 30 ft., passive Perception 9"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., passive Perception 9"
 "languages": ""
 "cr": "8"
 "traits":
@@ -52,13 +54,12 @@ aliases:
   - "desc": "The crab can breathe air and water."
     "name": "Amphibious"
 "actions":
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
       \ 27 (4d10 + 5) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
       \ escape DC 14. The crab has two claws, each of which can grapple only one target."
     "name": "Claw"
 "source":
   - "TftYP"
-  - "SLW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/huge-giant-crab-tftyp.webp"
 ```
 ^statblock

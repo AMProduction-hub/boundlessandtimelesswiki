@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Air Elemental Myrmidon
+- "Air Elemental Myrmidon"
 ---
-# [Air Elemental Myrmidon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/air-elemental-myrmidon-mpmm.md)
+# [Air Elemental Myrmidon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/air-elemental-myrmidon-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 122, Mordenkainen's Tome of Foes p. 202*  
 
 ## Elemental Myrmidons
@@ -43,13 +44,16 @@ Elemental myrmidons are Elementals conjured and bound by magic into ritually cre
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[flail](03.PlayerLog&Handouts/Mechanics/CLI/items/flail.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Auran, one language of its creator's choice"
 "cr": "7"
 "actions":
   - "desc": "The myrmidon makes three Flail attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) force damage."
     "name": "Flail"
   - "desc": "The myrmidon makes one Flail attack. On a hit, the target takes an extra\

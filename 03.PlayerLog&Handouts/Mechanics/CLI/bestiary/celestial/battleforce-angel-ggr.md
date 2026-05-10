@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Battleforce Angel
+- "Battleforce Angel"
 ---
-# [Battleforce Angel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/battleforce-angel-ggr.md)
+# [Battleforce Angel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/battleforce-angel-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 189*  
 
 Battleforce angels are the radiant hosts that soar into combat, bathed in the light of Boros zeal. They lead companies of mortal soldiers from above or fly ahead of roc-mounted skyknights. They don't shy away from the blood, pain, and confusion of combat; rather, they immerse themselves in the shifting tides of battle. Only by wading into the battle can they fulfill their responsibility to carry out the commands of the warleaders by adapting their tactics to the shifting situation on the ground.
@@ -45,8 +46,8 @@ The wisest, most visionary angels are responsible for forming and implementing t
   - !!int "18"
 "speed": "30 ft., fly 90 ft."
 "saves":
-  - "wisdom": "+6"
-  - "charisma": "+7"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)"
     "desc": "+3"
@@ -56,7 +57,11 @@ The wisest, most visionary angels are responsible for forming and implementing t
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., truesight 120 ft., passive Perception 16"
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., [truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 16"
 "languages": "all"
 "cr": "5"
 "traits":
@@ -69,10 +74,11 @@ The wisest, most visionary angels are responsible for forming and implementing t
 "actions":
   - "desc": "The angel makes two melee attacks. It also uses Battlefield Inspiration."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with\
       \ two hands, plus 18 (4d8) radiant damage. If the target is within 5 feet\
-      \ of any of the angel's allies, the target takes an extra 2 (d4) radiant damage."
+      \ of any of the angel's allies, the target takes an extra 2 (1d4) radiant\
+      \ damage."
     "name": "Longsword"
   - "desc": "The angel chooses up to three creatures it can see within 30 feet of\
       \ it. Until the end of the angel's next turn, each target can add a d4 to\

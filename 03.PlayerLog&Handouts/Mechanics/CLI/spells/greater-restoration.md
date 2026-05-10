@@ -1,15 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/witherbloom-student
 - ttrpg-cli/spell/class/artificer
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
 - ttrpg-cli/spell/level/5th-level
+- ttrpg-cli/spell/reward/charm-of-restoration
 - ttrpg-cli/spell/school/abjuration
 - ttrpg-cli/spell/subclass/clockwork-soul
 - ttrpg-cli/spell/subclass/divine-soul
@@ -18,7 +20,7 @@ tags:
 - ttrpg-cli/spell/subrace/halfling-mark-of-healing
 classes:
 - Artificer
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Cleric (Peace Domain)
 - Druid
@@ -27,7 +29,7 @@ classes:
 - Sorcerer (Divine Soul)
 - Warlock (The Celestial)
 aliases:
-- Greater Restoration
+- "Greater Restoration"
 ---
 # Greater Restoration
 *5th-level, Abjuration*  
@@ -45,6 +47,6 @@ You imbue a creature you touch with positive energy to undo a debilitating effec
 - Any reduction to one of the target's ability scores  
 - One effect reducing the target's hit point maximum  
 
-**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Sorcerer (Clockwork Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-clockwork-soul-tce.md "subclass=TCE"); [Cleric (Peace Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-peace-domain-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Celestial)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-celestial-xge.md "subclass=XGE"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Peace Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-peace-domain-tce.md "subclass=TCE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Sorcerer (Clockwork Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-clockwork-soul-tce.md "subclass=TCE"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Warlock (The Celestial)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-celestial-xge.md "subclass=XGE")
 
 *Source: Player's Handbook p. 246. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

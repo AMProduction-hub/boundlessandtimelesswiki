@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/item/rarity/unknown/magic
-aliases: 
+aliases:
 - "Orcus Figurine"
 ---
 # Orcus Figurine

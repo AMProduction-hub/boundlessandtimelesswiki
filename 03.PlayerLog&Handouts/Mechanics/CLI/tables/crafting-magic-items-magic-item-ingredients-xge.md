@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Crafting Magic Items; Magic Item Ingredients
+- "Crafting Magic Items; Magic Item Ingredients"
 ---
 # Crafting Magic Items; Magic Item Ingredients
 *Source: Xanathar's Guide to Everything p. 128* 

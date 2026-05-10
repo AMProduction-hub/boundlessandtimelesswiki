@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/deity/theros
 - ttrpg-cli/domain/light
-aliases: 
-- Heliod
+aliases:
+- "Heliod"
 ---
 # Heliod
 *Source: Mythic Odysseys of Theros p. 46* 
@@ -99,8 +100,6 @@ Heliod can be a fickle god, but once you have devoted yourself to him as a champ
 
 **Heliod's Favor**
 
-`dice: [](theros-heliod-mot.md#^heliods-favor)`
-
 | dice: d6 | Circumstance |
 |----------|--------------|
 | 1 | You were born at noon on the summer solstice—perhaps even in the midst of Heliod's great feast. |
@@ -116,8 +115,6 @@ Heliod can be a fickle god, but once you have devoted yourself to him as a champ
 Following Heliod means devoting yourself to the cause of law and justice. In fact, champions of Heliod are sometimes more constant in their pursuit of those ideals than the god himself, who can be emotional and short-tempered. As a follower of Heliod, consider the ideals on the Heliod's Ideals table as alternatives to those suggested for your background.
 
 **Heliod's Ideals**
-
-`dice: [](theros-heliod-mot.md#^heliods-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
-- Monsters' Desires; Plants
+- "Monsters' Desires; Plants"
 ---
 # Monsters' Desires; Plants
 *Source: Tasha's Cauldron of Everything p. 148* 
 
 **Plants**
-
-`dice: [](monsters-desires-plants-tce.md#^plants)`
 
 | dice: d4 | Desired Offering |
 |----------|------------------|

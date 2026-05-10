@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 aliases:
-- Random Ships
+- "Random Ships"
 ---
 # Random Ships
 *Source: Ghosts of Saltmarsh p. 208* 
@@ -16,8 +17,6 @@ The characters aren't the only sailors traveling the high seas. Each new vessel 
 The type of ship the characters meet determines the vessel's statistics, along with how many creatures and how much cargo it can carry.
 
 **Ship Type**
-
-`dice: [](random-ships-gos.md#^ship-type)`
 
 | dice: d100 | Ship |
 |------------|------|
@@ -34,8 +33,6 @@ The type of ship the characters meet determines the vessel's statistics, along w
 Every ship has a name, which you can create yourself or randomly generate using the Ship Names table. Roll on the table—once for an adjective and once for a noun—to create a ship name.
 
 **Ship Names**
-
-`dice: [](random-ships-gos.md#^ship-names)`
 
 | dice: d20 | Adjective | Noun |
 |-----------|-----------|------|
@@ -71,8 +68,6 @@ Should you need to quickly generate the name of a member of a ship's crew, the f
 
 **Crew Member Name**
 
-`dice: [](random-ships-gos.md#^crew-member-name)`
-
 | dice: d20 | First Half | Second Half |
 |-----------|------------|-------------|
 | 1 | Salty | Beard |
@@ -102,8 +97,6 @@ Should you need to quickly generate the name of a member of a ship's crew, the f
 Every ship has a reason for its voyages, which can be rolled or chosen on the Ship Purpose table. Each purpose is described after the table.
 
 **Ship Purpose**
-
-`dice: [](random-ships-gos.md#^ship-purpose)`
 
 | dice: d100 | Purpose |
 |------------|---------|
@@ -138,7 +131,7 @@ Most crew members and officers on commercial fishing ships are [commoners](03.Pl
 
 Military vessels carry soldiers to war and are equipped for battle on the sea. These vessels hunt pirates, defend and invade territory, carry important government cargo, escort officials, transport prisoners, and do anything else their commanders require.
 
-Most crew members on military ships are [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) or [scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md). Officers are [veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md). Many military ships carry extra [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) as passengers for invasion, boarding, and operating siege weapons. A military ship may also carry `d4` [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md) or [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) as prisoners.
+Most crew members on military ships are [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) or [scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md). Officers are [veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md). Many military ships carry extra [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) as passengers for invasion, boarding, and operating siege weapons. A military ship may also carry `1d4` [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md) or [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) as prisoners.
 
 ### Piracy
 
@@ -162,7 +155,7 @@ A ghost ship has the same statistics as a normal ship of its ship type with the 
 
 - The ship has resistance to the following damage types: acid, fire, lightning, and thunder, as well as bludgeoning, piercing, and slashing from nonmagical attacks.  
 - The ship is immune to cold, necrotic, poison, and psychic damage.  
-- The ship can move through other creatures and objects as if they were difficult terrain. It takes 5 (`d10`) force damage if it ends its turn inside an object.  
+- The ship can move through other creatures and objects as if they were difficult terrain. It takes 5 (`1d10`) force damage if it ends its turn inside an object.  
 
 Crew members and officers on good and neutral ghost ships are [ghosts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghost.md). On evil ghost ships, the crew members are 90 percent [skeletons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeleton.md) and [zombies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md) (even mix of each), 10 percent are [specters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md), and the officers are [wraiths](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wraith.md).
 
@@ -174,8 +167,6 @@ First, roll or choose an attitude on the Ship Attitude table, then roll on the a
 
 **Ship Attitude**
 
-`dice: [](random-ships-gos.md#^ship-attitude)`
-
 | dice: d6 | Attitude |
 |----------|----------|
 | 1–2 | Friendly |
@@ -184,8 +175,6 @@ First, roll or choose an attitude on the Ship Attitude table, then roll on the a
 ^ship-attitude
 
 **Friendly Ship**
-
-`dice: [](random-ships-gos.md#^friendly-ship)`
 
 | dice: d100 | Race |
 |------------|------|
@@ -200,8 +189,6 @@ First, roll or choose an attitude on the Ship Attitude table, then roll on the a
 
 **Neutral Ship**
 
-`dice: [](random-ships-gos.md#^neutral-ship)`
-
 | dice: d100 | Race |
 |------------|------|
 | 01–05 | Dragonborn |
@@ -214,8 +201,6 @@ First, roll or choose an attitude on the Ship Attitude table, then roll on the a
 ^neutral-ship
 
 **Hostile Ship**
-
-`dice: [](random-ships-gos.md#^hostile-ship)`
 
 | dice: d100 | Race |
 |------------|------|
@@ -233,8 +218,6 @@ First, roll or choose an attitude on the Ship Attitude table, then roll on the a
 Each ship has a disposition that determines events happening aboard the ship when the characters encounter it. Choose or roll for a ship's disposition on the Ship Disposition table. Each disposition is described after the table. If you roll no special disposition, the ship is under no unusual stress and reacts based on its attitude.
 
 **Ship Disposition**
-
-`dice: [](random-ships-gos.md#^ship-disposition)`
 
 | dice: d10 | Disposition |
 |-----------|-------------|
@@ -257,8 +240,6 @@ Ghost ships can't be diseased; if you get this result for a ghost ship, ignore i
 A ship experiencing an emergency is suffering some sort of crisis. The crew and passengers beg or demand the characters' help in getting out of the situation. Choose or roll for an emergency on the Ship Emergency table to determine the vessel's crisis.
 
 **Ship Emergency**
-
-`dice: [](random-ships-gos.md#^ship-emergency)`
 
 | dice: d4 | Emergency |
 |----------|-----------|

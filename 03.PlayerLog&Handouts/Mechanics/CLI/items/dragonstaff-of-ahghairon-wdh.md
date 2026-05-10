@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/legendary
 - ttrpg-cli/item/weapon/simple
-aliases: 
+aliases:
 - "Dragonstaff of Ahghairon"
 ---
 # Dragonstaff of Ahghairon
@@ -23,6 +24,6 @@ While holding the dragonstaff of Ahghairon, you have advantage on saving throws 
 
 A creature of the dragon type that you touch with the staff can move through the city of Waterdeep, ignoring Ahghairon's dragonward (see "Ahghairon's Dragonward," in the Introduction). This effect lasts until the creature is touched again by the staff or until a time you proclaim when you confer the benefit.
 
-The staff has 10 charges. While holding it, you can expend 1 charge as an action to cast the [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md) spell. If you target a dragon with this casting, the dragon has disadvantage on its saving throw. The staff regains `d10` charges daily at dawn.
+The staff has 10 charges. While holding it, you can expend 1 charge as an action to cast the [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md) spell. If you target a dragon with this casting, the dragon has disadvantage on its saving throw. The staff regains `1d10` charges daily at dawn.
 
 *Source: Waterdeep: Dragon Heist p. 191*

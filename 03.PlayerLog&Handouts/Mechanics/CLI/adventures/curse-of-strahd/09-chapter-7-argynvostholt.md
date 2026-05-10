@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 aliases:
-- Chapter 7: Argynvostholt
+- "Chapter 7: Argynvostholt"
 ---
 # Chapter 7: Argynvostholt
 *Source: Curse of Strahd, p. 129* 
@@ -48,8 +49,6 @@ The spirit of the dragon Argynvost isn't at rest, either. It can sense that the 
 > 
 > If the body of a revenant is destroyed before its vengeance is fulfilled, its spirit seeks out a new corpse or skeleton to animate. To determine where the revenant's new body rises, roll a `d20` and consult the following table.
 ^revenants-of-barovia
-
-`dice: [](09-chapter-7-argynvostholt.md#^corpse-location)`
 
 | dice: d20 | Corpse Location |
 |-----------|-----------------|
@@ -440,7 +439,7 @@ When one or more characters approach within 10 feet of the fireplace, add:
 The smoky dragonet has the statistics of a [smoke mephit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/smoke-mephit.md) but fights only in self-defense. If left alone, it flies out of the room at a speed of 30 feet, up the spiral staircase (area Q17), through the curtain at area Q30, over the rubble in area Q33, and into area Q36. Once there, it lands on the back of Vladimir's throne and disappears.
 
 > [!gallery]
-> ![Map 7.2: Argynvostholt (Ar...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/curse-of-strahd/img/079-021.webp#gallery "Map 7.2: Argynvostholt (Area Q) - Rooftop and Beacon")
+> ![Map 7.2: Argynvostholt (Area Q) - Rooftop and Beacon](03.PlayerLog&Handouts/Mechanics/CLI/adventures/curse-of-strahd/img/079-021.webp#gallery)
 > ![Player Version](03.PlayerLog&Handouts/Mechanics/CLI/adventures/curse-of-strahd/img/080-cos702.webp#gallery)
 
 ### Q27. Knights' Quarters
@@ -778,7 +777,7 @@ These turret rooftops are 80 feet above ground level. The spiral stairs descend 
 > 
 > **Multiattack.** The phantom warrior makes two attacks with its spectral longsword or spectral longbow.
 > 
-> **Spectral Longbow.** *Ranged Weapon Attack:* +2 to hit, range 150/600 ft., one target. Hit: 4 (`d8`) force damage.
+> **Spectral Longbow.** *Ranged Weapon Attack:* `+2` to hit, range 150/600 ft., one target. Hit: 4 (`1d8`) force damage.
 ^4ae
 
 ### Q53. Beacon of Argynvostholt

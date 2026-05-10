@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Sharn Watch Races
+- "Sharn Watch Races"
 ---
 # Sharn Watch Races
 *Source: Eberron: Rising from the Last War p. 257* 
 
 **Sharn Watch Races**
-
-`dice: [](sharn-watch-races-erlw.md#^sharn-watch-races)`
 
 | dice: d20 | Race |
 |-----------|------|

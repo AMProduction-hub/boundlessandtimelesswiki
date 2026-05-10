@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/very-rare
 - ttrpg-cli/item/tier/major
 - ttrpg-cli/item/wondrous/ring
-aliases: 
+aliases:
 - "Ring of Shooting Stars"
 ---
 # Ring of Shooting Stars
@@ -17,7 +18,7 @@ aliases:
 
 While wearing this ring in dim light or darkness, you can cast [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md) and [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md) from the ring at will. Casting either spell from the ring requires an action.
 
-The ring has 6 charges for the following other properties. The ring regains `d6` expended charges daily at dawn.
+The ring has 6 charges for the following other properties. The ring regains `1d6` expended charges daily at dawn.
 
 ## Faerie Fire
 

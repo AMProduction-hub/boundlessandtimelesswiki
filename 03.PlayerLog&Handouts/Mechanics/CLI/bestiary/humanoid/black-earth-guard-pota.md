@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Black Earth Guard
+- "Black Earth Guard"
 ---
-# [Black Earth Guard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/black-earth-guard-pota.md)
+# [Black Earth Guard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/black-earth-guard-pota.md)
 *Source: Princes of the Apocalypse p. 195*  
 
 Black Earth guards are the warriors of the earth cult. They are brutal, heavily armored thugs devoted to Ogrémoch. That devotion has granted them an uncanny ability to hold their ground against the buffeting assaults. It has also earned them the right to wear special plate armor of elemental stone, which breaks down when the guard is slain.
@@ -42,13 +43,15 @@ These guards are fanatically loyal to the Black Earth priests and the leaders of
     "desc": "+1"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
+"gear":
+  - "[morningstar](03.PlayerLog&Handouts/Mechanics/CLI/items/morningstar.md)"
 "senses": "passive Perception 12"
 "languages": "Common"
 "cr": "2"
 "actions":
   - "desc": "The guard makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage."
     "name": "Morningstar"
 "reactions":

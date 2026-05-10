@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Sapphire Dragon Treasures; Sapphire Dragon Art Objects
+- "Sapphire Dragon Treasures; Sapphire Dragon Art Objects"
 ---
 # Sapphire Dragon Treasures; Sapphire Dragon Art Objects
 *Source: Fizban's Treasury of Dragons p. 140* 
 
 **Sapphire Dragon Art Objects**
-
-`dice: [](sapphire-dragon-treasures-sapphire-dragon-art-objects-ftd.md#^sapphire-dragon-art-objects)`
 
 | dice: d6 | Object |
 |----------|--------|

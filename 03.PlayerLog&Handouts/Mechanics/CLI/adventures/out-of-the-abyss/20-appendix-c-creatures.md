@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Appendix C: Creatures
+- "Appendix C: Creatures"
 ---
 # Appendix C: Creatures
 *Source: Out of the Abyss, p. 224* 

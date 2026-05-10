@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Iriad
+- "Iriad"
 ---
-# [Iriad](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/iriad-dsotdq.md)
+# [Iriad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/iriad-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 212*  
 
 [Iriad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/iriad-dsotdq.md) is a Kagonesti elf from the lush woodlands of Southern Ergoth, where she learned to move undetected across the terrain. When Silvanesti elves began arriving at Southern Ergoth as refugees, she decided to lend her skills in the fight against the Dragon Armies before they can invade her homeland. She is a talented spy and scout who isn't afraid to bring her blades to bear if the situation demands it.
@@ -36,7 +37,7 @@ aliases:
   - !!int "11"
 "speed": "35 ft."
 "saves":
-  - "dexterity": "+4"
+  - "dexterity": !!int "4"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+5"
@@ -52,7 +53,8 @@ aliases:
     "desc": "+5"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+3"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Elvish"
 "traits":
   - "desc": "Iriad is proficient with simple weapons, light armor, [cartographer's\
@@ -63,8 +65,8 @@ aliases:
       \ condition on herself, and magic can't put her to sleep."
     "name": "Fey Ancestry"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 3 (d6) poison\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d4 + 3) piercing damage plus 3 (1d6) poison\
       \ damage."
     "name": "Poison Dagger"
 "bonus_actions":

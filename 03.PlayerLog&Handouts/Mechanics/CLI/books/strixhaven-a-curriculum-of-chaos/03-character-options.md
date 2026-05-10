@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 aliases:
-- Character Options
+- "Character Options"
 ---
 # Character Options
 *Source: Strixhaven: A Curriculum of Chaos, p. 29* 
@@ -23,7 +24,7 @@ The campus of Strixhaven draws a student body from across the world—or many wo
 
 ""Magic Items"" collects magic items that Strixhaven students might acquire on their adventures.
 
-![A group of Strixhaven stud...](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/021-02-001-chapter-splash.webp#center "A group of Strixhaven students—each from a different college—descend into the depths below an ancient ruin")
+![A group of Strixhaven students—each from a different college—descend into the depths below an ancient ruin](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/021-02-001-chapter-splash.webp#center)
 
 ## Race Option
 

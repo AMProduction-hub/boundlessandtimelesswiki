@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/lox
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hastain
+- "Hastain"
 ---
-# [Hastain](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/hastain-lox.md)
+# [Hastain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hastain-lox.md)
 *Source: Light of Xaryxis p. 25*  
 
 ```statblock
@@ -33,10 +34,10 @@ aliases:
   - !!int "24"
 "speed": "30 ft., swim 30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "constitution": "+4"
-  - "wisdom": "+6"
-  - "charisma": "+10"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -46,6 +47,8 @@ aliases:
     "desc": "+10"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+10"
+"gear":
+  - "[trident](03.PlayerLog&Handouts/Mechanics/CLI/items/trident.md)"
 "senses": "passive Perception 13"
 "languages": "Celestial, Common, Deep Speech, Draconic"
 "cr": "8"
@@ -59,12 +62,12 @@ aliases:
 "actions":
   - "desc": "Hastain makes two Trident attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing\
-      \ damage if used with two hands to make a melee attack, plus 3 (d6) force\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing\
+      \ damage if used with two hands to make a melee attack, plus 3 (1d6) force\
       \ damage if Hastain is wearing its talarith."
     "name": "Trident"
-  - "desc": "Ranged Spell Attack: +10 to hit, range 90 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +10 to hit, range 90 ft., one target. *Hit:*\
       \ 22 (5d8) damage of a type chosen by Hastain from the following list: cold,\
       \ fire, lightning, or radiant."
     "name": "Chromatic Bolt"
@@ -75,12 +78,12 @@ aliases:
       \ to 0 hit points."
     "name": "Summon Duplicate (Recharges after a Short or Long Rest)"
   - "desc": "Hastain casts one of the following spells, requiring no spell components\
-      \ and using Charisma as the spellcasting ability (spell save DC 18):\n\nAt\
-      \ will: [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mage\
+      \ and using Charisma as the spellcasting ability (spell save DC 18):\n\n**At\
+      \ will:** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mage\
       \ hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n2/day each: [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
+      \n**2/day each:** [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [phantasmal force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md)\n\
-      \n1/day each: [mass suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-suggestion.md),\
+      \n**1/day each:** [mass suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-suggestion.md),\
       \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)"
     "name": "Spellcasting (Psionics)"
 "source":

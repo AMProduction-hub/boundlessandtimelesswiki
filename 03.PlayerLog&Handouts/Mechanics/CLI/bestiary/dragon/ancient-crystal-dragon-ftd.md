@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/19
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ancient Crystal Dragon
+- "Ancient Crystal Dragon"
 ---
-# [Ancient Crystal Dragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/ancient-crystal-dragon-ftd.md)
+# [Ancient Crystal Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-crystal-dragon-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 170*  
 
 Shimmering with radiant energy and brimming with life, crystal dragons enjoy an innate psionic connection to the Positive Plane that suffuses their bodies as well as their personalities with light. Though they prefer to live in desolate, frigid regions, many of them are among the friendliest of dragonkind, nurturing and optimistic.
@@ -58,10 +59,10 @@ The challenge rating of a legendary crystal dragon increases by 1 when it's enco
   - !!int "21"
 "speed": "40 ft., burrow 40 ft., climb 40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+7"
-  - "constitution": "+14"
-  - "wisdom": "+9"
-  - "charisma": "+11"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "14"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "11"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+15"
@@ -70,7 +71,9 @@ The challenge rating of a legendary crystal dragon increases by 1 when it's enco
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+9"
 "damage_resistances": "cold, radiant"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 25"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 25"
 "languages": "Common, Draconic, telepathy 120 ft."
 "cr": "19"
 "traits":
@@ -79,10 +82,10 @@ The challenge rating of a legendary crystal dragon increases by 1 when it's enco
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:*\
       \ 18 (2d10 + 7) piercing damage plus 9 (2d8) radiant damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:*\
       \ 14 (2d6 + 7) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales a burst of brilliant radiance in a 90-foot cone. Each\
@@ -93,9 +96,9 @@ The challenge rating of a legendary crystal dragon increases by 1 when it's enco
     "name": "Scintillating Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 19):\n\n\
-      At will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
-      \ [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md)\n\n1/day\
-      \ each: [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      **At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md)\n\n**1/day\
+      \ each:** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md), [greater\
       \ restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md),\
       \ [hypnotic pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md),\
@@ -110,28 +113,17 @@ The challenge rating of a legendary crystal dragon increases by 1 when it's enco
   - "desc": "The dragon magically teleports to an unoccupied space it can see within\
       \ 60 feet of it."
     "name": "Psychic Step"
-"legendary_actions":
-  - "desc": "The dragon makes one Claw attack."
-    "name": "Claw"
-  - "desc": "The dragon uses Psychic Step or Spellcasting."
-    "name": "Psionics (Costs 2 Actions)"
-  - "desc": "The dragon releases a searing beam of starlight at a creature that it\
-      \ can see within 60 feet of it. The target must succeed on a DC 19 Dexterity\
-      \ saving throw or take 38 (11d6) radiant damage."
-    "name": "Starlight Strike (Costs 3 Actions)"
 "lair_actions":
   - "desc": "On initiative count 20 (losing initiative ties), the dragon can take\
       \ one of the following lair actions; the dragon can't take the same lair action\
-      \ two rounds in a row:"
-    "name": ""
-  - "desc": "- Beguiling Whisper. The dragon telepathically whispers to one creature\
-      \ within range of the dragon's telepathy. The creature must succeed on a DC\
-      \ 15 Wisdom saving throw or be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ two rounds in a row:\n\n- **Beguiling Whisper.** The dragon telepathically\
+      \ whispers to one creature within range of the dragon's telepathy. The creature\
+      \ must succeed on a DC 15 Wisdom saving throw or be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
       \ by the dragon until initiative count 20 on the next round. A creature [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
       \ in this way obeys to the best of its ability any command the dragon issues\
-      \ that isn't directly harmful to the creature.  \n- Ice Passage. The dragon\
+      \ that isn't directly harmful to the creature.  \n- **Ice Passage.** The dragon\
       \ can open a passage through a wall of ice or snow that is up to 5 feet thick,\
-      \ creating an opening up to 30 feet wide and high.  \n- Starlight's Gleam.\
+      \ creating an opening up to 30 feet wide and high.  \n- **Starlight's Gleam.**\
       \ The dragon chooses a point it can see in the lair. Gleaming starlight radiates\
       \ from that point to fill a 10-foot-radius sphere with dim light. Each creature\
       \ other than the dragon in that area when the light appears must succeed on\
@@ -144,28 +136,37 @@ The challenge rating of a legendary crystal dragon increases by 1 when it's enco
     "name": ""
 "regional_effects":
   - "desc": "The region surrounding a legendary crystal dragon's lair is altered by\
-      \ the dragon's magic, creating one or more of the following effects:"
-    "name": ""
-  - "desc": "- Clear Skies. The skies above a crystal dragon's lair remain clear\
-      \ and free of precipitation unless magically altered. Winds blow lightly, posing\
-      \ little threat to those approaching the lair, and visibility is the best possible\
-      \ for the time of day.  \n- Crystal Profusion. Plentiful quartz crystals\
+      \ the dragon's magic, creating one or more of the following effects:\n\n- **Clear\
+      \ Skies.** The skies above a crystal dragon's lair remain clear and free of\
+      \ precipitation unless magically altered. Winds blow lightly, posing little\
+      \ threat to those approaching the lair, and visibility is the best possible\
+      \ for the time of day.  \n- **Crystal Profusion.** Plentiful quartz crystals\
       \ form in natural stone within 6 miles of the lair, particularly in places where\
-      \ natural light can shine on the crystals.  \n- Icy Sight. Ice and quartz\
+      \ natural light can shine on the crystals.  \n- **Icy Sight.** Ice and quartz\
       \ within 6 miles of the lair become conduits for the dragon's psionic presence.\
       \ As an action, the dragon can cast the [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md)\
       \ spell, requiring no spell components and targeting any ice or quartz crystals\
-      \ in that region.  \n- Positive Energy. Any creature that finishes a long\
+      \ in that region.  \n- **Positive Energy.** Any creature that finishes a long\
       \ rest within 6 miles of the lair regains two additional spent Hit Dice.  \n\
-      - Thriving Wildlife. Animal populations flourish within 6 miles of the lair.\
+      - **Thriving Wildlife.** Animal populations flourish within 6 miles of the lair.\
       \ Ability checks made to forage for food by hunting, fishing, or trapping in\
-      \ that area are made with advantage.  "
+      \ that area are made with advantage.  \n\nIf the dragon dies, the animal population\
+      \ near the lair returns to normal levels over the course of 1d10 days. The\
+      \ increased Hit Die recovery ends immediately. The existing abundance of quartz\
+      \ crystals remains, but new crystals form at a normal rate."
     "name": ""
-  - "desc": "If the dragon dies, the animal population near the lair returns to normal\
-      \ levels over the course of d10 days. The increased Hit Die recovery ends\
-      \ immediately. The existing abundance of quartz crystals remains, but new crystals\
-      \ form at a normal rate."
-    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the dragon can expend a use to take one of the following actions. The dragon\
+  \ regains all expended uses at the start of each of its turns."
+"legendary_actions":
+  - "desc": "The dragon makes one Claw attack."
+    "name": "Claw"
+  - "desc": "The dragon uses Psychic Step or Spellcasting."
+    "name": "Psionics (Costs 2 Actions)"
+  - "desc": "The dragon releases a searing beam of starlight at a creature that it\
+      \ can see within 60 feet of it. The target must succeed on a DC 19 Dexterity\
+      \ saving throw or take 38 (11d6) radiant damage."
+    "name": "Starlight Strike (Costs 3 Actions)"
 "source":
   - "FTD"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/ancient-crystal-dragon-ftd.webp"

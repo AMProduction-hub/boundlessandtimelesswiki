@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/rarity/varies
 - ttrpg-cli/item/wondrous/scroll
-aliases: 
+aliases:
 - "Spell Scroll"
 ---
 # Spell Scroll

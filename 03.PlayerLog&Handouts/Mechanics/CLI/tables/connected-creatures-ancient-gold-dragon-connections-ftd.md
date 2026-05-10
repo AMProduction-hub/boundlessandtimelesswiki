@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Connected Creatures; Ancient Gold Dragon Connections
+- "Connected Creatures; Ancient Gold Dragon Connections"
 ---
 # Connected Creatures; Ancient Gold Dragon Connections
 *Source: Fizban's Treasury of Dragons p. 122* 
 
 **Ancient Gold Dragon Connections**
-
-`dice: [](connected-creatures-ancient-gold-dragon-connections-ftd.md#^ancient-gold-dragon-connections)`
 
 | dice: d4 | Connected Creatures |
 |----------|---------------------|

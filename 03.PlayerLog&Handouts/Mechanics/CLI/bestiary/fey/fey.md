@@ -1,6 +1,8 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
+- json5e-index
 ---
 # Index of Fey
 
@@ -12,19 +14,17 @@ cssclasses: json5e-note
 - [Boggle](./boggle-mpmm.md)
 - [Conclave Dryad](./conclave-dryad-ggr.md)
 - [Dankwood Hag](./dankwood-hag-awm.md)
-- [Darkling Elder](./darkling-elder-mpmm.md)
 - [Darkling](./darkling-mpmm.md)
-- [Dohwar](./dohwar-bam.md)
+- [Darkling Elder](./darkling-elder-mpmm.md)
 - [Dolphin Delighter](./dolphin-delighter-mpmm.md)
 - [Dryad](./dryad.md)
 - [Dusk Hag](./dusk-hag-erlw.md)
+- [Fey Spirit](./fey-spirit-tce.md)
 - [Fey Spirit (Fuming)](./fey-spirit-fuming-tce.md)
 - [Fey Spirit (Mirthful)](./fey-spirit-mirthful-tce.md)
-- [Fey Spirit](./fey-spirit-tce.md)
 - [Fey Spirit (Tricksy)](./fey-spirit-tricksy-tce.md)
-- [Green Hag (Coven)](./green-hag-coven.md)
 - [Green Hag](./green-hag.md)
-- [Hag of the Fetid Gaze](./hag-of-the-fetid-gaze-cm.md)
+- [Green Hag (Coven)](./green-hag-coven.md)
 - [Hobgoblin Devastator](./hobgoblin-devastator-mpmm.md)
 - [Hobgoblin Iron Shadow](./hobgoblin-iron-shadow-mpmm.md)
 - [Korred](./korred-mpmm.md)
@@ -40,12 +40,12 @@ cssclasses: json5e-note
 - [Redcap](./redcap-mpmm.md)
 - [Reflection](./reflection-tce.md)
 - [Riverine](./riverine-jttrc.md)
+- [Satyr](./satyr.md)
 - [Satyr Reveler](./satyr-reveler-mot.md)
 - [Satyr Thornbearer](./satyr-thornbearer-mot.md)
-- [Satyr](./satyr.md)
 - [Sea Fury](./sea-fury-egw.md)
-- [Sea Hag (Coven)](./sea-hag-coven.md)
 - [Sea Hag](./sea-hag.md)
+- [Sea Hag (Coven)](./sea-hag-coven.md)
 - [Spring Eladrin](./spring-eladrin-mpmm.md)
 - [Sprite](./sprite.md)
 - [Summer Eladrin](./summer-eladrin-mpmm.md)

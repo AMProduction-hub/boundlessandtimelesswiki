@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Dark Fantasy Adventure Sites
+- "Dark Fantasy Adventure Sites"
 ---
 # Dark Fantasy Adventure Sites
 *Source: Van Richten's Guide to Ravenloft p. 51* 
 
 **Dark Fantasy Adventure Sites**
-
-`dice: [](dark-fantasy-adventure-sites-vrgr.md#^dark-fantasy-adventure-sites)`
 
 | dice: d8 | Adventure Site |
 |----------|----------------|

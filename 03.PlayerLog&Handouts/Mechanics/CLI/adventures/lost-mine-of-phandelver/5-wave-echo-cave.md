@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/lmop
 aliases:
-- Wave Echo Cave
+- "Wave Echo Cave"
 ---
 # Wave Echo Cave
 *Source: Lost Mine of Phandelver, p. 42* 
@@ -36,11 +37,11 @@ If the characters spend a long time in a given area, you can check for wandering
 | Roll | Result |
 |------|--------|
 | 1-3 | [Stirges](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/stirge.md) (`2d4`) |
-| 4-5 | [Ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) (`d4`) |
-| 6 | [Gricks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/grick.md) (`d4`) |
-| 7-8 | [Bugbears](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bugbear.md) (`d4`) |
-| 9 | [Skeletons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeleton.md) (`d6`) |
-| 10 | [Zombies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md) (`d6`) |
+| 4-5 | [Ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) (`1d4`) |
+| 6 | [Gricks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/grick.md) (`1d4`) |
+| 7-8 | [Bugbears](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bugbear.md) (`1d4`) |
+| 9 | [Skeletons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeleton.md) (`1d6`) |
+| 10 | [Zombies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md) (`1d6`) |
 | 11-12 | [Ochre Jelly](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/ochre-jelly.md) (1) |
 ^wandering-monsters
 
@@ -103,7 +104,7 @@ The dwarves' supplies are potentially useful, but not particularly valuable.
 
 ### Open Pit
 
-Climbing up or down the wall of the pit without a rope requires a successful DC 15 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. A character who fails the check by 5 or more falls and takes `d6` bludgeoning damage per 10 feet fallen, landing [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) at the bottom. The tunnel at the bottom of the pit leads northwest toward 2 and east toward 3.
+Climbing up or down the wall of the pit without a rope requires a successful DC 15 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. A character who fails the check by 5 or more falls and takes `1d6` bludgeoning damage per 10 feet fallen, landing [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) at the bottom. The tunnel at the bottom of the pit leads northwest toward 2 and east toward 3.
 
 ### Treasure
 
@@ -211,7 +212,7 @@ Seven [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) lur
 
 They notice any light or noise elsewhere in the cave and quickly bound down to attack. The undead are hungry and fight until destroyed.
 
-The escarpments are 10 feet high and require a successful DC 12 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check to climb. A creature that falls or is knocked from the top of a ledge takes `d6` bludgeoning damage and lands [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).
+The escarpments are 10 feet high and require a successful DC 12 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check to climb. A creature that falls or is knocked from the top of a ledge takes `1d6` bludgeoning damage and lands [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).
 
 ## 10. Dark Pool
 
@@ -340,7 +341,7 @@ With a successful DC 15 Charisma ([Deception](03.PlayerLog&Handouts/Mechanics/CL
 
 ### Brazier of Green Flame
 
-A successful DC 15 Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)) check identifies the brazier as the source of the magic that suffuses the surrounding caverns. This magic has waned over the years, to the extent that it can no longer be harnessed to permanently enchant magic items. However, any nonmagical weapon or armor bathed in the green flame for at least 1 minute becomes a [+1 weapon](03.PlayerLog&Handouts/Mechanics/CLI/items/1-weapon.md) or [+1 armor](03.PlayerLog&Handouts/Mechanics/CLI/items/1-armor.md), respectively, for `d12` hours. The brazier cannot be removed from the Forge of Spells.
+A successful DC 15 Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)) check identifies the brazier as the source of the magic that suffuses the surrounding caverns. This magic has waned over the years, to the extent that it can no longer be harnessed to permanently enchant magic items. However, any nonmagical weapon or armor bathed in the green flame for at least 1 minute becomes a [+1 weapon](03.PlayerLog&Handouts/Mechanics/CLI/items/1-weapon.md) or [+1 armor](03.PlayerLog&Handouts/Mechanics/CLI/items/1-armor.md), respectively, for `1d12` hours. The brazier cannot be removed from the Forge of Spells.
 
 ### Northern Room
 
@@ -385,7 +386,7 @@ Three [bugbears](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bugbear.m
 
 ### Rift
 
-The rift is 20 feet deep. Climbing up or down without using a rope requires a successful DC 10 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. A creature that fails the check by 5 or more falls and takes `d6` bludgeoning damage per 10 feet fallen, landing [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) at the bottom.
+The rift is 20 feet deep. Climbing up or down without using a rope requires a successful DC 10 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. A creature that fails the check by 5 or more falls and takes `1d6` bludgeoning damage per 10 feet fallen, landing [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) at the bottom.
 
 ### Developments
 

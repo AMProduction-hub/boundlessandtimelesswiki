@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Keeping the Action Going; New Development
+- "Keeping the Action Going; New Development"
 ---
 # Keeping the Action Going; New Development
 *Source: Eberron: Rising from the Last War p. 186* 
 
 **New Development**
-
-`dice: [](keeping-the-action-going-new-development-erlw.md#^new-development)`
 
 | dice: d8 | Event |
 |----------|-------|

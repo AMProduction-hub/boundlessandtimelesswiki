@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- People on the Street—Precinct Three
+- "People on the Street—Precinct Three"
 ---
 # People on the Street—Precinct Three
 *Source: Guildmasters' Guide to Ravnica p. 111* 
 
 **People on the Street—Precinct Three**
-
-`dice: [](people-on-the-streetprecinct-three-ggr.md#^people-on-the-streetprecinct-three)`
 
 | dice: d12 | Description |
 |-----------|-------------|

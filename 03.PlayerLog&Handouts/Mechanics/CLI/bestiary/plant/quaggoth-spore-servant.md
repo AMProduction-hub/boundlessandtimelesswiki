@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Quaggoth Spore Servant
+- "Quaggoth Spore Servant"
 ---
-# [Quaggoth Spore Servant](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/quaggoth-spore-servant.md)
-*Source: Monster Manual p. 230, Waterdeep: Dungeon of the Mad Mage, Icewind Dale: Rime of the Frostmaiden*  
+# [Quaggoth Spore Servant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/quaggoth-spore-servant.md)
+*Source: Monster Manual p. 230*  
 
 A spore servant is any Large or smaller creature brought back to life by the animating spores of a myconid sovereign. A creature that was never flesh and blood to begin with (such as a construct, elemental, ooze, plant, or undead) can't be turned into a spore servant.
 
@@ -55,7 +56,7 @@ The servant loses all known languages, but it responds to orders given to it by 
 
 ## Attacks
 
-If the servant has no other means of dealing damage, it can use its fists or limbs to make unarmed strikes. On a hit, an unarmed strike deals bludgeoning damage equal to `d4` + the servant's Strength modifier, or, if the servant is Large, `2d4` + its Strength modifier.
+If the servant has no other means of dealing damage, it can use its fists or limbs to make unarmed strikes. On a hit, an unarmed strike deals bludgeoning damage equal to `1d4` + the servant's Strength modifier, or, if the servant is Large, `2d4` + its Strength modifier.
 
 ```statblock
 "name": "Quaggoth Spore Servant"
@@ -80,19 +81,18 @@ If the servant has no other means of dealing damage, it can use its fists or lim
   \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft. (blind beyond this radius), passive Perception 8"
 "languages": ""
 "cr": "1"
 "actions":
   - "desc": "The spore servant makes two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Claw"
 "source":
   - "MM"
-  - "WDMM"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/quaggoth-spore-servant.webp"
 ```
 ^statblock

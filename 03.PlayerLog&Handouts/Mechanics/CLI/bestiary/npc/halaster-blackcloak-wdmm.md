@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/23
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Halaster Blackcloak
+- "Halaster Blackcloak"
 ---
-# [Halaster Blackcloak](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/halaster-blackcloak-wdmm.md)
+# [Halaster Blackcloak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/halaster-blackcloak-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 310*  
 
 As the master of Undermountain, Halaster can alter the entire dungeon to some extent. His lair actions and regional effects don't extend beyond Undermountain.
@@ -44,8 +45,8 @@ Halaster's true form is that of a tall, gaunt, male human, but he uses magic to 
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+14"
-  - "wisdom": "+11"
+  - "intelligence": !!int "14"
+  - "wisdom": !!int "11"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+21"
@@ -55,7 +56,8 @@ Halaster's true form is that of a tall, gaunt, male human, but he uses magic to 
     "desc": "+11"
 "damage_resistances": "fire; lightning (granted by the blast scepter, see \"Special\
   \ Equipment\" below)"
-"senses": "darkvision 120 ft., passive Perception 21"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 21"
 "languages": "Abyssal, Celestial, Common, Draconic, Dwarvish, Elvish, Infernal, Undercommon"
 "cr": "23"
 "traits":
@@ -66,31 +68,31 @@ Halaster's true form is that of a tall, gaunt, male human, but he uses magic to 
       \ and [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)\
       \ once each without expending a spell slot, but can't do so again until he finishes\
       \ a short or long rest. Halaster has the following wizard spells prepared:\n\
-      \nCantrips (at will): [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \n**Cantrips (at will):** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (4 slots): [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md),\
+      \n**1st level (4 slots):** [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [silent image](03.PlayerLog&Handouts/Mechanics/CLI/spells/silent-image.md)\n\
-      \n2nd level (3 slots): [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md),\
+      \n**2nd level (3 slots):** [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md),\
       \ [cloud of daggers](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloud-of-daggers.md),\
       \ [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkvision.md), [knock](03.PlayerLog&Handouts/Mechanics/CLI/spells/knock.md)\n\
-      \n3rd level (3 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      \n**3rd level (3 slots):** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
-      \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)\n\n4th\
-      \ level (3 slots): [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
+      \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)\n\n**4th\
+      \ level (3 slots):** [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
       \ [hallucinatory terrain](03.PlayerLog&Handouts/Mechanics/CLI/spells/hallucinatory-terrain.md),\
-      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\n5th\
-      \ level (3 slots): [Bigby's hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/bigbys-hand.md),\
+      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\n**5th\
+      \ level (3 slots):** [Bigby's hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/bigbys-hand.md),\
       \ [geas](03.PlayerLog&Handouts/Mechanics/CLI/spells/geas.md), [wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md)\n\
-      \n6th level (2 slots): [chain lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/chain-lightning.md),\
+      \n**6th level (2 slots):** [chain lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/chain-lightning.md),\
       \ [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md),\
       \ [programmed illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/programmed-illusion.md)\n\
-      \n7th level (2 slots): [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
+      \n**7th level (2 slots):** [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
       \ [symbol](03.PlayerLog&Handouts/Mechanics/CLI/spells/symbol.md), [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)\n\
-      \n8th level (1 slots): [maze](03.PlayerLog&Handouts/Mechanics/CLI/spells/maze.md),\
+      \n**8th level (1 slots):** [maze](03.PlayerLog&Handouts/Mechanics/CLI/spells/maze.md),\
       \ [mind blank](03.PlayerLog&Handouts/Mechanics/CLI/spells/mind-blank.md)\n\n\
-      9th level (1 slots): [meteor swarm](03.PlayerLog&Handouts/Mechanics/CLI/spells/meteor-swarm.md),\
+      **9th level (1 slots):** [meteor swarm](03.PlayerLog&Handouts/Mechanics/CLI/spells/meteor-swarm.md),\
       \ [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md)"
     "name": "Spellcasting"
   - "desc": "Halaster wears a [robe of eyes](03.PlayerLog&Handouts/Mechanics/CLI/items/robe-of-eyes.md)\
@@ -112,7 +114,7 @@ Halaster's true form is that of a tall, gaunt, male human, but he uses magic to 
     "name": "Arcane Recovery (1/Day)"
   - "desc": "If Halaster fails a saving throw, he can choose to succeed instead."
     "name": "Legendary Resistance (3/Day)"
-  - "desc": "If Halaster dies in Undermountain, he revives after d10 days, with\
+  - "desc": "If Halaster dies in Undermountain, he revives after 1d10 days, with\
       \ all his hit points and any missing body parts restored. His new body appears\
       \ in a random safe location in Undermountain."
     "name": "Rejuvenation"
@@ -123,29 +125,20 @@ Halaster's true form is that of a tall, gaunt, male human, but he uses magic to 
       \ takes 5d8 thunder damage and is pushed 10 feet away. On a successful save,\
       \ the creature takes half as much damage and isn't pushed"
     "name": "Blast Scepter"
-"legendary_actions":
-  - "desc": "Halaster casts a spell of 3rd level or lower."
-    "name": "Cast Spell"
-  - "desc": "Halaster expends a spell slot of 4th level or lower and gains 5 temporary\
-      \ hit points per level of the slot."
-    "name": "Spell Ward (Costs 2 Actions)"
 "lair_actions":
   - "desc": "On initiative count 20 (losing initiative ties), Halaster takes a lair\
-      \ action to cause one of the following effects:"
-    "name": ""
-  - "desc": "- Halaster targets a volume of unoccupied space or solid stone no larger\
-      \ than four 10-foot cubes within 30 feet of him, turning the open space to solid,\
-      \ worked stone or vice versa.  \n- Halaster causes one door or archway within\
-      \ 30 feet of him to disappear and be replaced by a blank wall, or he restores\
-      \ a door or an archway previously removed in this way.  \n- Halaster deactivates\
-      \ or reactivates one of Undermountain's magic gates. The gate must be within\
-      \ 120 feet of him.  "
+      \ action to cause one of the following effects:\n\n- Halaster targets a volume\
+      \ of unoccupied space or solid stone no larger than four 10-foot cubes within\
+      \ 30 feet of him, turning the open space to solid, worked stone or vice versa.\
+      \  \n- Halaster causes one door or archway within 30 feet of him to disappear\
+      \ and be replaced by a blank wall, or he restores a door or an archway previously\
+      \ removed in this way.  \n- Halaster deactivates or reactivates one of Undermountain's\
+      \ magic gates. The gate must be within 120 feet of him.  "
     "name": ""
 "regional_effects":
   - "desc": "When Halaster is in Undermountain, the following effects can occur in\
-      \ any location within the dungeon or in any extraplanar extension of the dungeon:"
-    "name": ""
-  - "desc": "- A magical scrying sensor appears, taking the form of a ghostly, 1-foot-diameter\
+      \ any location within the dungeon or in any extraplanar extension of the dungeon:\n\
+      \n- A magical scrying sensor appears, taking the form of a ghostly, 1-foot-diameter\
       \ humanoid eye surrounded by motes of light. The sensor is stationary, though\
       \ Halaster can reorient the eye to face in any direction. Halaster can see through\
       \ the eye as though he was in its space. The eye can't be harmed or dispelled,\
@@ -162,6 +155,15 @@ Halaster's true form is that of a tall, gaunt, male human, but he uses magic to 
       \ in any way. It can't be dispelled but is suppressed within an [antimagic field](03.PlayerLog&Handouts/Mechanics/CLI/spells/antimagic-field.md).\
       \  "
     "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Halaster can expend a use to take one of the following actions. Halaster\
+  \ regains all expended uses at the start of each of their turns."
+"legendary_actions":
+  - "desc": "Halaster casts a spell of 3rd level or lower."
+    "name": "Cast Spell"
+  - "desc": "Halaster expends a spell slot of 4th level or lower and gains 5 temporary\
+      \ hit points per level of the slot."
+    "name": "Spell Ward (Costs 2 Actions)"
 "source":
   - "WDMM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/halaster-blackcloak-wdmm.webp"

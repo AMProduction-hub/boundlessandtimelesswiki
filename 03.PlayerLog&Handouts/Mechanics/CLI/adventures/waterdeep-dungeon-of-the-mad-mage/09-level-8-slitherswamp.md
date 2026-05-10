@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 8: Slitherswamp
+- "Level 8: Slitherswamp"
 ---
 # Level 8: Slitherswamp
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 109* 
@@ -60,7 +61,7 @@ The sloping tunnel from level 7 ends 20 feet above the marshy ground of area 2.
 > **Rope Ladder**. The crumbling remains of a ramp lie below the precipice. A slimy rope ladder has been anchored with spikes to its western edge.
 ^457
 
-The rope ladder has been smeared with carrion crawler mucus. Any creature climbing down the ladder must succeed on a DC 13 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for 1 minute. A creature [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) in this way is also [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed) and falls from the rope ladder into the muck of area 2 below, taking 3 (`d6`) bludgeoning damage. The creature can repeat the saving throw at the end of each of its turns, ending the mucus's effect on itself on a success.
+The rope ladder has been smeared with carrion crawler mucus. Any creature climbing down the ladder must succeed on a DC 13 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for 1 minute. A creature [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) in this way is also [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed) and falls from the rope ladder into the muck of area 2 below, taking 3 (`1d6`) bludgeoning damage. The creature can repeat the saving throw at the end of each of its turns, ending the mucus's effect on itself on a success.
 
 ### 2. Bullywug Sentries
 
@@ -176,7 +177,7 @@ A yuan-ti pureblood priest named Yoastal was slain by the Ssethian Scourges and 
 
 Yoastal can be both friend and foe to an adventuring party. The ghost claims to have once been a cleric of Mask, cursed to remain in Slitherswamp until the nagas are destroyed. She provides characters with the layout of the level in exchange for promises to free her. But her information is always slanted toward leading the characters into situations that might further escalate the war between the Ssethian Scourges and the Blacktongues.
 
-If Yoastal is destroyed while any of the nagas live, she re-forms in this ruined building in `d4` days.
+If Yoastal is destroyed while any of the nagas live, she re-forms in this ruined building in `1d4` days.
 
 #### Black Statue
 
@@ -352,7 +353,7 @@ These 10-foot-high side caverns feature a standing gate that grants access to le
 
 #### 18a. Trapped Approach
 
-An old yuan-ti trap meant to prevent approach to the gate still functions in this area. A pressure plate under the water and mud extends the full width of the cavern entrance. A character searching the cavern for traps who succeeds on a DC 20 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check spots the pressure plate. The trap triggers whenever a weight of 50 pounds or more is placed on the pressure plate. Darts fire from holes in the walls against the creature that triggered the trap, making a ranged weapon attack (+7 to hit) that deals 10 (`4d4`) piercing damage. The trap resets each round.
+An old yuan-ti trap meant to prevent approach to the gate still functions in this area. A pressure plate under the water and mud extends the full width of the cavern entrance. A character searching the cavern for traps who succeeds on a DC 20 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check spots the pressure plate. The trap triggers whenever a weight of 50 pounds or more is placed on the pressure plate. Darts fire from holes in the walls against the creature that triggered the trap, making a ranged weapon attack (`+7` to hit) that deals 10 (`4d4`) piercing damage. The trap resets each round.
 
 A search of the walls and a successful DC 20 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check is sufficient to spot small holes in the serpent carvings. The characters can spend 1 minute to plug the holes, which prevents the trap from attacking. The pressure plate can be disabled with a successful DC 15 Dexterity check using thieves' tools.
 
@@ -504,4 +505,4 @@ If they are threatened, the bullywugs order the giant toad to attack and call fo
 
 If the characters help Kuketh destroy or reclaim its control gem, the death slaad abandons the bullywugs. If [Torbit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/torbit-wdmm.md) is alive, he becomes the ruler of the Blacktongue tribe after Kuketh departs or is killed. It's only a matter of time, however, before the Ssethian Scourges seize him, make him one of their thralls, and take control of the bullywug tribe. If all the Blacktongue bullywugs are defeated, the temple becomes a safe place for the characters to rest (assuming the yuan-ti abominations in area 19d haven't taken over the place).
 
-Killing the Ssethian Scourges frees Yoastal from her curse and allows the Blacktongues to overrun the nagas' caves. Karstis and the mages of Dweomercore might be there already, though, wanting to hold those caverns. Such gains are short-lived, because the spirit nagas' Rejuvenation trait ensures their return in `d6` days.
+Killing the Ssethian Scourges frees Yoastal from her curse and allows the Blacktongues to overrun the nagas' caves. Karstis and the mages of Dweomercore might be there already, though, wanting to hold those caverns. Such gains are short-lived, because the spirit nagas' Rejuvenation trait ensures their return in `1d6` days.

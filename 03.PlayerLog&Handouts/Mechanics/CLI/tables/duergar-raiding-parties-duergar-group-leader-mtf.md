@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 aliases:
-- Duergar Raiding Parties; Duergar Group Leader
+- "Duergar Raiding Parties; Duergar Group Leader"
 ---
 # Duergar Raiding Parties; Duergar Group Leader
 *Source: Mordenkainen's Tome of Foes p. 83* 
 
 **Duergar Group Leader**
-
-`dice: [](duergar-raiding-parties-duergar-group-leader-mtf.md#^duergar-group-leader)`
 
 | dice: d6 | Leader |
 |----------|--------|

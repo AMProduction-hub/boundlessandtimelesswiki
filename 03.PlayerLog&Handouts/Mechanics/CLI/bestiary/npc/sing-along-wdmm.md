@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sing-Along
+- "Sing-Along"
 ---
-# [Sing-Along](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sing-along-wdmm.md)
+# [Sing-Along](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sing-along-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 148*  
 
 ```statblock
@@ -35,6 +36,9 @@ aliases:
 "skillsaves":
   - "name": "[Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance)"
     "desc": "+4"
+"damage_resistances": "poison"
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
 "senses": "passive Perception 10"
 "languages": "Common, Halfling"
 "cr": "0"
@@ -43,9 +47,11 @@ aliases:
     "name": "Halfling Nimbleness"
   - "desc": "Sing-Along"
     "name": "Brave"
+  - "desc": "Sing-Along"
+    "name": "Stout Resilience"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) bludgeoning damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d4) bludgeoning damage."
     "name": "Club"
 "source":
   - "WDMM"

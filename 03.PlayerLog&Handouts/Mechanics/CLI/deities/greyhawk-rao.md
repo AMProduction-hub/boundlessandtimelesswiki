@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/deity/greyhawk
 - ttrpg-cli/domain/knowledge
 - ttrpg-cli/domain/peace
-aliases: 
-- Rao
+aliases:
+- "Rao"
 ---
 # Rao
 *Source: Player's Handbook p. 295, Tasha's Cauldron of Everything p. 33* 

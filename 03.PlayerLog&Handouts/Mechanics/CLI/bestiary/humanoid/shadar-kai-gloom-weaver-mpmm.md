@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Shadar-kai Gloom Weaver
+- "Shadar-kai Gloom Weaver"
 ---
-# [Shadar-kai Gloom Weaver](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/shadar-kai-gloom-weaver-mpmm.md)
+# [Shadar-kai Gloom Weaver](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/shadar-kai-gloom-weaver-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 213, Mordenkainen's Tome of Foes p. 224*  
 
 Although they're formidable warriors, gloom weavers are often content to hide in the shadows, watching as their very presence affects their victims. Their bleak energy weighs down the heart, causing those nearby to feel the approach of death. If detected, gloom weavers use their shadow magic to reduce enemies to ghastly corpses.
@@ -53,12 +54,13 @@ Shadar-kai encountered outside the Shadowfell are often on quests to find the mo
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+8"
-  - "constitution": "+6"
+  - "dexterity": !!int "8"
+  - "constitution": !!int "6"
 "damage_immunities": "necrotic"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common, Elvish"
 "cr": "9"
 "traits":
@@ -72,18 +74,18 @@ Shadar-kai encountered outside the Shadowfell are often on quests to find the mo
   - "desc": "The shadar-kai makes three Shadow Spear attacks. It can replace one attack\
       \ with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 30/120,\
-      \ one target. Hit: 7 (1d6 + 4) piercing damage plus 26 (4d12) necrotic\
-      \ damage. Hit or Miss: The spear magically returns to the shadar-kai's hand\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +8 to hit, reach 5 ft. or range 30/120,\
+      \ one target. *Hit:* 7 (1d6 + 4) piercing damage plus 26 (4d12) necrotic\
+      \ damage. *Hit or Miss:* The spear magically returns to the shadar-kai's hand\
       \ immediately after a ranged attack."
     "name": "Shadow Spear"
   - "desc": "The shadar-kai casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 16):\n\
-      \nAt will: [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md),\
+      \n**At will:** [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [minor\
       \ illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [speak with dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md)\n\
-      \n1/day each: [arcane gate](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-gate.md),\
+      \n**1/day each:** [arcane gate](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-gate.md),\
       \ [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md), [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
       \ [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md), [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md),\
       \ [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md),\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragonborn of Bahamut
+- "Dragonborn of Bahamut"
 ---
-# [Dragonborn of Bahamut](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/dragonborn-of-bahamut-ftd.md)
+# [Dragonborn of Bahamut](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/dragonborn-of-bahamut-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 184*  
 
 Often called platinum knights, dragonborn champions of Bahamut might belong to an order that exists to protect the world from evil—and especially from evil dragons. A champion of Bahamut has a distinctive pair of platinum wings and a breath weapon suffused with radiant energy.
@@ -40,10 +41,10 @@ The connection between dragonborn and their draconic ancestors manifests in a va
   - !!int "17"
 "speed": "30 ft., fly 30 ft."
 "saves":
-  - "constitution": "+7"
-  - "intelligence": "+4"
-  - "wisdom": "+5"
-  - "charisma": "+6"
+  - "constitution": !!int "7"
+  - "intelligence": !!int "4"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+7"
@@ -52,6 +53,8 @@ The connection between dragonborn and their draconic ancestors manifests in a va
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+6"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
 "senses": "passive Perception 15"
 "languages": "Common, Draconic"
 "cr": "8"
@@ -61,7 +64,7 @@ The connection between dragonborn and their draconic ancestors manifests in a va
 "actions":
   - "desc": "The dragonborn makes three Longsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with\
       \ two hands, plus 13 (3d8) radiant damage. The dragonborn can cause the sword\
       \ to flare with bright light, and the target must succeed on a DC 14 Constitution\

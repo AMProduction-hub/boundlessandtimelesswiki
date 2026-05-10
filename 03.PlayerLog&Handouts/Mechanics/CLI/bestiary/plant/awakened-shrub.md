@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Awakened Shrub
+- "Awakened Shrub"
 ---
-# [Awakened Shrub](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/awakened-shrub.md)
-*Source: Monster Manual p. 317, Storm King's Thunder, Waterdeep: Dungeon of the Mad Mage, Infernal Machine Rebuild, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Awakened Shrub](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/awakened-shrub.md)
+*Source: Monster Manual p. 317. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 An awakened shrub is an ordinary shrub given sentience and mobility by the [awaken](03.PlayerLog&Handouts/Mechanics/CLI/spells/awaken.md) spell or similar magic.
 
@@ -44,16 +45,11 @@ An awakened shrub is an ordinary shrub given sentience and mobility by the [awak
       \ shrub."
     "name": "False Appearance"
 "actions":
-  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 1\
       \ (1d4 - 1) slashing damage."
     "name": "Rake"
 "source":
   - "MM"
-  - "SKT"
-  - "WDMM"
-  - "IMR"
-  - "MOT"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/awakened-shrub.webp"
 ```
 ^statblock

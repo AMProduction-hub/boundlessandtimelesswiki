@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dc
 aliases:
-- Introduction
+- "Introduction"
 ---
 # Introduction
 *Source: Essentials Kit: Divine Contention* 
@@ -133,7 +134,7 @@ The "Adventure Background" section describes the events leading up to the advent
 
 The ruined town of Leilon was once a fortified settlement on the High Road midway between the cities of Neverwinter and Waterdeep. The Lord Protector of Neverwinter, Dagult Neverember, hired a group of his citizens to rebuild the town, a construction project that has recently completed. They hope to create a fortified waypoint for travelers and merchants that can ward off the threats of the surrounding wilderness.
 
-Two forces of evil are on the rise nearby, eager to control the region around Leilon and eventually the Sword Coast for themselves. The first is a cult of Talos, god of storms, led by their champion Fheralai Stormsworm. The cult's headquarters are inside a death knight dreadnaught, an undead galleon, which prowls the coast looking for trade ships to plunder.
+Two forces of evil are on the rise nearby, eager to control the region around Leilon and eventually the Sword Coast for themselves. The first is a cult of Talos, god of storms, led by their champion Fheralai Stormsworn. The cult's headquarters are inside a death knight dreadnaught, an undead galleon, which prowls the coast looking for trade ships to plunder.
 
 Ularan Mortus, a priest of Myrkul, god of death, and his followers are raising an army of undead to lay siege to the city of Neverwinter. The spirit of the dead black dragon Chardansearavitriol, known also as [Ebondeath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ebondeath-dc.md), has recently allied with Ularan Mortus to steal a mythical artifact called the [ruinstone](03.PlayerLog&Handouts/Mechanics/CLI/items/ruinstone-dc.md) from a tower inside Leilon.
 

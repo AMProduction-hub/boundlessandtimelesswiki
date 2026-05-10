@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Four-Armed Statue
+- "Four-Armed Statue"
 ---
-# [Four-Armed Statue](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/four-armed-statue-oota.md)
+# [Four-Armed Statue](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/four-armed-statue-oota.md)
 *Source: Out of the Abyss p. 206*  
 
 ```statblock
@@ -40,7 +41,8 @@ aliases:
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "10"
 "traits":
@@ -54,7 +56,7 @@ aliases:
 "actions":
   - "desc": "The statue makes four sword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 10 (1d8 + 6) slashing damage."
     "name": "Sword"
   - "desc": "The statue targets one or more creatures it can see within 10 feet of\

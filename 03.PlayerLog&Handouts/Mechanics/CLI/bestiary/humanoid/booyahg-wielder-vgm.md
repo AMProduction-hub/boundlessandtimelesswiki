@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Booyahg Wielder
+- "Booyahg Wielder"
 ---
-# [Booyahg Wielder](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/booyahg-wielder-vgm.md)
+# [Booyahg Wielder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/booyahg-wielder-vgm.md)
 *Source: Volo's Guide to Monsters p. 42*  
 
 This goblin found a magic item (a [necklace of fireballs](03.PlayerLog&Handouts/Mechanics/CLI/items/necklace-of-fireballs.md), a [circlet of blasting](03.PlayerLog&Handouts/Mechanics/CLI/items/circlet-of-blasting.md), or the like) and learned how to use it.
@@ -47,22 +48,27 @@ A goblin with access to booyahg becomes a member of the lashers and can often ri
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 9"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "Common, Goblin"
 "cr": "1/4"
 "traits":
-  - "desc": "The goblin can take the Disengage or Hide action as a bonus action on\
-      \ each of its turns."
+  - "desc": "The goblin can take the [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action\
+      \ as a bonus action on each of its turns."
     "name": "Nimble Escape"
   - "desc": "The goblin found a magic item (a [necklace of fireballs](03.PlayerLog&Handouts/Mechanics/CLI/items/necklace-of-fireballs.md),\
       \ a [circlet of blasting](03.PlayerLog&Handouts/Mechanics/CLI/items/circlet-of-blasting.md),\
       \ or the like) and learned how to use it."
     "name": "Special Equipment"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage."
     "name": "Scimitar"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Shortbow"
 "source":

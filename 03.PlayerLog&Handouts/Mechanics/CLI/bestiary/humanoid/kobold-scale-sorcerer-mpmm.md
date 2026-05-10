@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
@@ -14,9 +15,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kobold Scale Sorcerer
+- "Kobold Scale Sorcerer"
 ---
-# [Kobold Scale Sorcerer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/kobold-scale-sorcerer-mpmm.md)
+# [Kobold Scale Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kobold-scale-sorcerer-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 165, Volo's Guide to Monsters p. 167*  
 
 Kobold scale sorcerers have an innate talent for arcane magic, making them highly valuable members of their communities. These sorcerers typically fill the role of advisor, and when threatened, a scale sorcerer lashes out with colorful magic.
@@ -46,7 +47,10 @@ A scale sorcerer who resides in or near a dragon's lair may serve as that dragon
     "desc": "+2"
   - "name": "[Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)"
     "desc": "+1"
-"senses": "darkvision 60 ft., passive Perception 9"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "Common, Draconic"
 "cr": "1"
 "traits":
@@ -62,18 +66,18 @@ A scale sorcerer who resides in or near a dragon's lair may serve as that dragon
   - "desc": "The kobold makes two Dagger or Chromatic Bolt attacks. It can replace\
       \ one attack with a use of Spellcasting."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
-  - "desc": "Ranged Spell Attack: +4 to hit, range 60 feet, one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +4 to hit, range 60 feet, one target. *Hit:*\
       \ 9 (2d6 + 2) of a type of the kobold's choice: acid, cold, fire, lightning,\
       \ poison, or thunder."
     "name": "Chromatic Bolt"
   - "desc": "The kobold casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 12):\n\nAt\
-      \ will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 12):\n\n**At\
+      \ will:** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n2/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \n**2/day each:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md), [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md)"
     "name": "Spellcasting"
 "source":

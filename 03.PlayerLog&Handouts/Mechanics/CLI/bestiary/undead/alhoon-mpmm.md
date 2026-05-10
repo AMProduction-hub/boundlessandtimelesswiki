@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/10
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Alhoon
+- "Alhoon"
 ---
-# [Alhoon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/alhoon-mpmm.md)
+# [Alhoon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/alhoon-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 43, Volo's Guide to Monsters p. 172*  
 
 > [!quote] A quote from Mordenkainen  
@@ -62,10 +63,10 @@ Destroying a periapt of mind trapping consigns those trapped within it to oblivi
   - !!int "17"
 "speed": "30 ft., fly 15 ft. (hover)"
 "saves":
-  - "constitution": "+7"
-  - "intelligence": "+8"
-  - "wisdom": "+7"
-  - "charisma": "+7"
+  - "constitution": !!int "7"
+  - "intelligence": !!int "8"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+8"
@@ -86,7 +87,8 @@ Destroying a periapt of mind trapping consigns those trapped within it to oblivi
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 17"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 17"
 "languages": "Deep Speech, Undercommon, telepathy 120 ft."
 "cr": "10"
 "traits":
@@ -99,10 +101,10 @@ Destroying a periapt of mind trapping consigns those trapped within it to oblivi
 "actions":
   - "desc": "The alhoon makes two Chilling Grasp or Arcane Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +8 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Spell Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (4d6) cold damage, and the alhoon regains 14 hit points."
     "name": "Chilling Grasp"
-  - "desc": "Ranged Spell Attack: +8 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +8 to hit, range 120 ft., one target. *Hit:*\
       \ 28 (8d6) force damage."
     "name": "Arcane Bolt"
   - "desc": "The alhoon magically emits psychic energy in a 60-foot cone. Each creature\
@@ -113,12 +115,12 @@ Destroying a periapt of mind trapping consigns those trapped within it to oblivi
     "name": "Mind Blast (Recharge 5-6)"
   - "desc": "The alhoon casts one of the following spells, requiring no material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 16):\n\n\
-      At will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      **At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1/day each: [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
+      \n**1/day each:** [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
       \ [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [modify memory](03.PlayerLog&Handouts/Mechanics/CLI/spells/modify-memory.md),\

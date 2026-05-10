@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Other Adventure Hooks; Selesnya Adventure Hooks
+- "Other Adventure Hooks; Selesnya Adventure Hooks"
 ---
 # Other Adventure Hooks; Selesnya Adventure Hooks
 *Source: Guildmasters' Guide to Ravnica p. 156* 
 
 **Selesnya Adventure Hooks**
-
-`dice: [](other-adventure-hooks-selesnya-adventure-hooks-ggr.md#^selesnya-adventure-hooks)`
 
 | dice: d6 | Adventure Hook |
 |----------|----------------|

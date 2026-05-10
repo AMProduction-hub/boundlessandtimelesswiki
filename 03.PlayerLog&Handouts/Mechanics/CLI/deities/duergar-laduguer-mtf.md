@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/deity/duergar
 - ttrpg-cli/domain/death
 - ttrpg-cli/domain/forge
-aliases: 
-- Laduguer
+aliases:
+- "Laduguer"
 ---
 # Laduguer
 *Source: Mordenkainen's Tome of Foes p. 79* 

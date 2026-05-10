@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hashalaq Quori
+- "Hashalaq Quori"
 ---
-# [Hashalaq Quori](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/hashalaq-quori-erlw.md)
+# [Hashalaq Quori](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/hashalaq-quori-erlw.md)
 *Source: Eberron: Rising from the Last War p. 305*  
 
 Hashalaq quori are loremasters and judges, and are commonly known as dreamstealers. In their natural form, hashalaqs are composed of hundreds of translucent tendrils. They can compress and configure these tendrils to form a wide range of simple shapes. A point of blue light suspended within its tendrils serves as the hashalaq's sensory organ, which can be moved around to suit the creature's current shape.
@@ -45,8 +46,8 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
   - !!int "18"
 "speed": "40 ft."
 "saves":
-  - "wisdom": "+7"
-  - "charisma": "+8"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "8"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+12"
@@ -59,23 +60,24 @@ Dal Quor is the plane of dreams and is currently dominated by a dark power known
 "damage_resistances": "psychic"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Quori"
 "cr": "9"
 "traits":
   - "desc": "The quori's spellcasting ability is Intelligence (spell save DC 16).\
-      \ It can innately cast the following spells, requiring no components:\n\nAt\
-      \ will: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md)\n\
-      \n3/day each: [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \ It can innately cast the following spells, requiring no components:\n\n**At\
+      \ will:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md)\n\
+      \n**3/day each:** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\n\
-      1/day: [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md),\
+      **1/day:** [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md),\
       \ [dream](03.PlayerLog&Handouts/Mechanics/CLI/spells/dream.md)"
     "name": "Innate Spellcasting (Psionics)"
 "actions":
   - "desc": "The quori uses its Mind Thrust twice."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +8 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Spell Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d10 + 4) force damage. If the target is a creature, it must succeed on\
       \ a DC 16 Wisdom saving throw or fall [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
       \ in a fit of laughter."

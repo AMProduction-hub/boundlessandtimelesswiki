@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Corrupted Avatar of Lurue
+- "Corrupted Avatar of Lurue"
 ---
-# [Corrupted Avatar of Lurue](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/corrupted-avatar-of-lurue-cm.md)
+# [Corrupted Avatar of Lurue](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/corrupted-avatar-of-lurue-cm.md)
 *Source: Candlekeep Mysteries p. 123*  
 
 In normal circumstances, the avatar of Lurue is a breathtaking sight; her silver, stardust-like mane, her shimmering hooves, and her perfectly formed spiral horn elicit awe from even the most hardened souls. As powerful and striking as she is in her true form, she's just as wicked in her alternative state. With necrotic energy twisting and dancing at the tip of her black horn, this corrupted avatar of Lurue is instead a nightmare come to life.
@@ -37,23 +38,24 @@ While tainted by the influence of Malar, the avatar of Lurue carries out the Bea
   - !!int "16"
 "speed": "50 ft., fly 50 ft. (hover)"
 "saves":
-  - "intelligence": "+3"
-  - "wisdom": "+6"
-  - "charisma": "+6"
+  - "intelligence": !!int "3"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "6"
 "damage_immunities": "poison"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Celestial, Elvish, Sylvan, telepathy 60 ft."
 "cr": "8"
 "actions":
   - "desc": "The avatar makes two attacks: one with its hooves and one with its horn."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 32\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 32\
       \ (8d6 + 4) necrotic damage."
     "name": "Hooves"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 32\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 32\
       \ (8d6 + 4) necrotic damage. If the target is a humanoid, it must succeed\
       \ on a DC 13 Wisdom saving throw or be transformed into a wolf under the avatar's\
       \ control. This transformation lasts for 1 hour, or until the target drops to\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Myconid Sovereign
+- "Myconid Sovereign"
 ---
-# [Myconid Sovereign](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/myconid-sovereign.md)
-*Source: Monster Manual p. 232, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Infernal Machine Rebuild, Icewind Dale: Rime of the Frostmaiden, Keys from the Golden Vault*  
+# [Myconid Sovereign](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/myconid-sovereign.md)
+*Source: Monster Manual p. 232*  
 
 Myconids are intelligent, ambulatory fungi that live in the Underdark, seek enlightenment, and deplore violence. If approached peacefully, myconids gladly provide shelter or allow safe passage through their colonies.
 
@@ -45,7 +46,8 @@ Like other fungi, myconids reproduce by mundane sporing. They carefully control 
   - !!int "15"
   - !!int "10"
 "speed": "30 ft."
-"senses": "darkvision 120 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 12"
 "languages": ""
 "cr": "2"
 "traits":
@@ -60,7 +62,7 @@ Like other fungi, myconids reproduce by mundane sporing. They carefully control 
   - "desc": "The myconid uses either its Hallucination Spores or its Pacifying Spores,\
       \ then makes a fist attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (3d4 + 1) bludgeoning damage plus 7 (3d4) poison damage."
     "name": "Fist"
   - "desc": "The myconid targets one corpse of a humanoid or a Large or smaller beast\
@@ -88,11 +90,6 @@ Like other fungi, myconids reproduce by mundane sporing. They carefully control 
     "name": "Rapport Spores"
 "source":
   - "MM"
-  - "WDMM"
-  - "GoS"
-  - "IMR"
-  - "IDRotF"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/myconid-sovereign.webp"
 ```
 ^statblock

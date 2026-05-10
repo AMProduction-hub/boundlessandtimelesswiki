@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Cataclysmic Disasters
+- "Cataclysmic Disasters"
 ---
 # Cataclysmic Disasters
 *Source: Dungeon Master's Guide p. 28* 
 
 **Cataclysmic Disasters**
-
-`dice: [](cataclysmic-disasters.md#^cataclysmic-disasters)`
 
 | dice: d10 | Cataclysmic Disaster |
 |-----------|----------------------|

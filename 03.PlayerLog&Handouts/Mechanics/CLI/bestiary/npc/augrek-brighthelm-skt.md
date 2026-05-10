@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Augrek Brighthelm
+- "Augrek Brighthelm"
 ---
-# [Augrek Brighthelm](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/augrek-brighthelm-skt.md)
+# [Augrek Brighthelm](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/augrek-brighthelm-skt.md)
 *Source: Storm King's Thunder p. 247*  
 
 Sheriff's deputy Augrek guards the southwest gate of Bryn Shander and welcomes visitors to town. She has a good heart.
@@ -48,7 +49,11 @@ Flaw:"I'm head over heels in love with Sheriff Southwell. One day I hope to marr
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
+  - "[warhammer](03.PlayerLog&Handouts/Mechanics/CLI/items/warhammer.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Dwarvish"
 "traits":
   - "desc": "Augrek has advantage on saving throws against poison."
@@ -60,12 +65,12 @@ Flaw:"I'm head over heels in love with Sheriff Southwell. One day I hope to marr
       \ Sheriff Southwell. One day I hope to marry him.\""
     "name": "Roleplaying Information"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) bludgeoning damage, or 7 (1d10 + 2) bludgeoning damage if used\
       \ with two hands."
     "name": "Warhammer"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit:\
-      \ 5 (d10) piercing damage. Augrek carries ten crossbow bolts."
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 100/400 ft., one target. *Hit:*\
+      \ 5 (1d10) piercing damage. Augrek carries ten crossbow bolts."
     "name": "Heavy Crossbow"
 "source":
   - "SKT"

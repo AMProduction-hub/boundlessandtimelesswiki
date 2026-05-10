@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tressym
+- "Tressym"
 ---
-# [Tressym](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/tressym-bgdia.md)
+# [Tressym](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/tressym-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 241*  
 
 ```statblock
@@ -38,7 +39,8 @@ aliases:
     "desc": "+4"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "understands Common but can't speak"
 "cr": "0"
 "traits":
@@ -55,7 +57,7 @@ aliases:
       \ spell can choose to conjure a tressym instead of a normal cat."
     "name": "Familiar"
 "actions":
-  - "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1\
       \ slashing damage."
     "name": "Claws"
 "source":

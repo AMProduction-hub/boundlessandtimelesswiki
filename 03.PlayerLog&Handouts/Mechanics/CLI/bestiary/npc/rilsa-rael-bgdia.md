@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Rilsa Rael
+- "Rilsa Rael"
 ---
-# [Rilsa Rael](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/rilsa-rael-bgdia.md)
+# [Rilsa Rael](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rilsa-rael-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 199*  
 
 The Guild kingpin of Little Calimshan. Among Little Calimshan's most notorious locations is the Calim Jewel Emporium, widely regarded as the best jeweler in the city—and the best place to fence stolen gems, as it's also the local Guild headquarters. In addition to hosting regular public forums in her shop, Rael tacitly oversees the Garden of Whispers, a maze of wood-and-paper screens where people from across the city can buy and sell secrets with Guild agents and each other, speaking through the barriers so as to maintain anonymity.
@@ -36,8 +37,8 @@ The Guild kingpin of Little Calimshan. Among Little Calimshan's most notorious l
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+2"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+6"
@@ -51,12 +52,16 @@ The Guild kingpin of Little Calimshan. Among Little Calimshan's most notorious l
     "desc": "+6"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Thieves' cant"
 "cr": "3"
 "traits":
   - "desc": "On each of her turns in combat, Rilsa can use a bonus action to take\
-      \ the Dash, Disengage, or Hide action."
+      \ the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash), [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage),\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action."
     "name": "Cunning Action"
   - "desc": "If Rilsa damages a creature with a weapon attack, she gains advantage\
       \ on attack rolls against that target until the end of her next turn."
@@ -68,11 +73,11 @@ The Guild kingpin of Little Calimshan. Among Little Calimshan's most notorious l
 "actions":
   - "desc": "Rilsa makes three weapon attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) piercing damage."
     "name": "Shortsword"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 6 (1d4 + 4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 6 (1d4 + 4) piercing damage."
     "name": "Dagger"
 "source":
   - "BGDIA"

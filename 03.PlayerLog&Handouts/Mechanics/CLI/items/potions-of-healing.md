@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/rarity/varies
 - ttrpg-cli/item/wondrous/potion
-aliases: 
+aliases:
 - "Potions of Healing"
 ---
 # Potions of Healing

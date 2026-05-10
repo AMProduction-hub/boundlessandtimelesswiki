@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/reward/purphoross-devotee
 aliases:
-- Spells for Purphoros's Devotee
+- "Spells for Purphoros's Devotee"
 ---
 # Spells for Purphoros's Devotee
 
@@ -14,4 +15,4 @@ aliases:
 
 ## 1st Level
 
-- [Shield of Faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield-of-faith.md "PHB") as cantrip
+- [Shield of Faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield-of-faith.md "PHB")

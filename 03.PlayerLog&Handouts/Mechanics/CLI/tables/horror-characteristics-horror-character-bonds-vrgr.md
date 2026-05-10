@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Horror Characteristics; Horror Character Bonds
+- "Horror Characteristics; Horror Character Bonds"
 ---
 # Horror Characteristics; Horror Character Bonds
 *Source: Van Richten's Guide to Ravenloft p. 32* 
 
 **Horror Character Bonds**
-
-`dice: [](horror-characteristics-horror-character-bonds-vrgr.md#^horror-character-bonds)`
 
 | dice: d12 | Bond |
 |-----------|------|

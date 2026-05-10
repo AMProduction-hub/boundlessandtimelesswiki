@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/monster/legendary-group
 aliases:
-- Thessalkraken
+- "Thessalkraken"
 ---
 # Thessalkraken
 
-## Lair actions
+## Lair Actions
 _Source: Infernal Machine Rebuild_
 
 On initiative count 20 (losing initiative ties), the thessalkraken takes a lair action to cause one of the following magical effects:

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/lox
 aliases:
-- Credits
+- "Credits"
 ---
 # Credits
 *Source: Light of Xaryxis* 
@@ -51,5 +52,8 @@ aliases:
 ![](03.PlayerLog&Handouts/Mechanics/CLI/adventures/light-of-xaryxis/img/credits.webp#center)
 
 > [!gallery]
-> ![On the Cover: Prince Xelet...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/light-of-xaryxis/img/credits1.webp#gallery "On the Cover: Prince Xeleth, who is determined to become the next leader of the Xaryxian Empire, poses with his solar dragon in Ekaterina Burmak's stunning cover illustration.")
-> ![On the Alt-Cover: Princess...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/light-of-xaryxis/img/credits2.webp#gallery "On the Alt-Cover: Princess Xedalli, illustrated beautifully by Hydro74, aims to keep her evil brother from inheriting their father's throne. The symbol of the Xaryxian Empire graces the back cover.")
+> ![On the Cover: Prince Xeleth, who is determined to become the next leader of the Xaryxian Empire, poses with his solar dragon in Ekaterina Burmak's stunning cover illustration.](03.PlayerLog&Handouts/Mechanics/CLI/adventures/light-of-xaryxis/img/credits1.webp#gallery)
+> ![On the Alt-Cover: Princess Xedalli, illustrated beautifully by Hydro74, aims to keep her evil brother from inheriting their father's throne. The symbol of the Xaryxian Empire graces the back cover.](03.PlayerLog&Handouts/Mechanics/CLI/adventures/light-of-xaryxis/img/credits2.webp#gallery)
+
+> [!note]
+> Disclaimer: This adventure wreaks havoc with your beautifully imagined, homebrewed campaign world. We hope that your players will care enough about your world to save it, but if not, may we present the Rock of Bral as an alternative? Just remember to leave your vendettas at the docks.

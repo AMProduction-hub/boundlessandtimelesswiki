@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/item/gear/
 - ttrpg-cli/item/rarity/none
-aliases: 
+aliases:
 - "Icewind Dale Trinket"
 ---
 # Icewind Dale Trinket
@@ -14,8 +15,6 @@ aliases:
 
 
 **Icewind Dale Trinkets**
-
-`dice: [](icewind-dale-trinket-idrotf.md#^icewind-dale-trinkets)`
 
 | dice: d100 | Trinket |
 |------------|---------|

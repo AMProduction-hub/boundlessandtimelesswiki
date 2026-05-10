@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/scc
 aliases:
-- Prismari Student
+- "Prismari Student"
 ---
 # Prismari Student
 *Source: Strixhaven: A Curriculum of Chaos p. 32*  
-![An advanced Prismari stude...](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/img/prismari-student.webp#right "An advanced Prismari student artfully harnesses fire")
+![An advanced Prismari student artfully harnesses fire](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/img/prismari-student.webp#right)
 
 - **Skill Proficiencies.** [Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics), [Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance)  
 - **Tool Proficiencies.** One type of musical instrument or artisan's tools  
@@ -48,8 +49,6 @@ Beyond the ranks of traditional spellcasters, Prismari students also include mon
 Though the curriculum of Prismari College attracts many outgoing and driven artists, the school has no shortage of shy scholars and lackadaisical blowhards among its ranks. The Prismari Personality Traits table suggests a variety of traits you might adopt for your character.
 
 **Prismari Personality Traits**
-
-`dice: [](prismari-student-scc.md#^prismari-personality-traits)`
 
 | dice: d6 | Personality Trait |
 |----------|-------------------|

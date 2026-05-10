@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Death's Head of Bhaal
+- "Death's Head of Bhaal"
 ---
-# [Death's Head of Bhaal](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/deaths-head-of-bhaal-bgdia.md)
+# [Death's Head of Bhaal](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/deaths-head-of-bhaal-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 233*  
 
 Bhaal's cultists emulate their deity, carrying out gruesome murders to spread fear and horror. They are charming and disarming when they wish, but in combat their true, bloodthirsty nature comes to the fore.
@@ -55,7 +56,10 @@ Low-ranking cultists of Bhaal are called night blades, whom Bhaal blesses with [
     "desc": "+6"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+11"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Common"
 "cr": "5"
 "traits":
@@ -69,8 +73,8 @@ Low-ranking cultists of Bhaal are called night blades, whom Bhaal blesses with [
 "actions":
   - "desc": "The death's head uses Stunning Gaze and makes two dagger attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 7 (1d4 + 5) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 7 (1d4 + 5) piercing damage."
     "name": "Dagger"
   - "desc": "The death's head targets one creature it can see within 30 feet of it.\
       \ The target must succeed on a DC 14 Wisdom saving throw or be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\

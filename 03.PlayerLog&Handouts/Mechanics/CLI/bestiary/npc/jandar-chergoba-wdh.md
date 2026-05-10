@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Jandar Chergoba
+- "Jandar Chergoba"
 ---
-# [Jandar Chergoba](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/jandar-chergoba-wdh.md)
+# [Jandar Chergoba](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jandar-chergoba-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 116*  
 
 As the head chef of Cassalanter Villa, Jandar determines each day's menu and oversees all activity in the kitchen.
@@ -43,22 +44,25 @@ As the head chef of Cassalanter Villa, Jandar determines each day's menu and ove
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+2"
 "damage_resistances": "fire"
-"senses": "darkvision 60 ft., passive Perception 11"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common, Infernal"
 "cr": "2"
 "traits":
   - "desc": "Jandar is a 4th-level spellcaster. His spellcasting ability is Wisdom.\
-      \ Jandar has the following cleric spells prepared:\n\nCantrips (at will):\
+      \ Jandar has the following cleric spells prepared:\n\n**Cantrips (at will):**\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \n**1st level (4 slots):** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [inflict wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/inflict-wounds.md),\
       \ [shield of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield-of-faith.md)\n\
-      \n2nd level (3 slots): [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
+      \n**2nd level (3 slots):** [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md)"
     "name": "Spellcasting"
   - "desc": "Jandar's spellcasting ability is Charisma. He can innately cast the following\
-      \ spells, requiring no material components:\n\nAt will: [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)"
+      \ spells, requiring no material components:\n\n**At will:** [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)"
     "name": "Innate Spellcasting"
   - "desc": "Jandar has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
       \ or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)."
@@ -66,9 +70,9 @@ As the head chef of Cassalanter Villa, Jandar determines each day's menu and ove
 "actions":
   - "desc": "Jandar makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d4 + 2) piercing damage. Or Ranged Weapon Attack: +4 to hit, range\
-      \ 20/60 ft., one creature. Hit: 4 (1d4 + 2) piercing damage."
+      \ 20/60 ft., one creature. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
 "source":
   - "WDH"

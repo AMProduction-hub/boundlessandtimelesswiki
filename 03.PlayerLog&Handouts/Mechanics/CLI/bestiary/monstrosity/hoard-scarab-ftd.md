@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hoard Scarab
+- "Hoard Scarab"
 ---
-# [Hoard Scarab](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/hoard-scarab-ftd.md)
+# [Hoard Scarab](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hoard-scarab-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 205*  
 
 Hoard scarabs are beetle-like creatures that, through some feat of natural adaptation or alchemical ingenuity, blend in perfectly among piles of gold coins. They feed on tiny mites that infest a dragon's scales and lair, and their painful bite can be a strong deterrent to would-be treasure thieves.
@@ -36,7 +37,8 @@ Hoard scarabs also produce a glittering metallic dust from their wings that coat
   - !!int "8"
   - !!int "6"
 "speed": "20 ft., burrow 20 ft., fly 20 ft."
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 9"
 "languages": ""
 "cr": "1/8"
 "traits":
@@ -46,7 +48,7 @@ Hoard scarabs also produce a glittering metallic dust from their wings that coat
       \ check to discern that the scarab is animate."
     "name": "False Appearance"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) piercing damage. If the target is a creature, it has disadvantage\
       \ on attack rolls until the start of its next turn."
     "name": "Bite"

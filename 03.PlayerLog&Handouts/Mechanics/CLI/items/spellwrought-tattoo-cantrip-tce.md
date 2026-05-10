@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/rarity/common
 - ttrpg-cli/item/wondrous/tattoo
-aliases: 
+aliases:
 - "Spellwrought Tattoo (Cantrip)"
 ---
 # Spellwrought Tattoo (Cantrip)

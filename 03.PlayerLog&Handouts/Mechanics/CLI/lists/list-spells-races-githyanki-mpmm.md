@@ -1,16 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/race/githyanki
 aliases:
-- Spells for Githyanki
+- "Spells for Githyanki"
 ---
 # Spells for Githyanki
 
 ## Cantrip
 
-- [Mage Hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md "PHB") at class level 3
+- [Mage Hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md "PHB") as cantrip
 
 ## 1st Level
 
@@ -18,4 +19,4 @@ aliases:
 
 ## 2nd Level
 
-- [Misty Step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md "PHB") at class level 3
+- [Misty Step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md "PHB") at class level 5

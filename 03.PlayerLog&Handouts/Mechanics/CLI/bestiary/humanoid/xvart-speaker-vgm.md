@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 - ttrpg-cli/monster/cr/1-8
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Xvart Speaker
+- "Xvart Speaker"
 ---
-# [Xvart Speaker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/xvart-speaker-vgm.md)
+# [Xvart Speaker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/xvart-speaker-vgm.md)
 *Source: Volo's Guide to Monsters p. 200*  
 
 Xvarts are cruel, cowardly humanoids spawned by a cowardly, renegade demigod. They have blue skin, vivid orange eyes, and receding hairlines, mirroring their creator's appearance. They stand about 3 feet tall.
@@ -41,7 +42,7 @@ Although the initial rush of enemies against him has subsided, Raxivort knows th
 
 ## Greedy Thugs
 
-Xvarts have all of their creator's flaws and few redeeming qualities. They lack the physical equipment to reproduce, as well as the inclination to do so. They are greedy, conniving, and obsessed with the acquisition of valuables-the more ornate or bizarre, the better. They know they are flawed, and this minor amount of self-awareness only magnifies their other deficiencies . They hate almost any creature they perceive as better than they are, which includes almost anyone, but they lack the courage or wherewithal to act on their hatred most of the time. Their fear has led them to dwell either in gloomy places on the far fringes of civilized lands or in areas neglected or forgotten by mightier creatures. In other words, xvarts usually live in places where normal vermin might flourish.
+Xvarts have all of their creator's flaws and few redeeming qualities. They lack the physical equipment to reproduce, as well as the inclination to do so. They are greedy, conniving, and obsessed with the acquisition of valuables-the more ornate or bizarre, the better. They know they are flawed, and this minor amount of self-awareness only magnifies their other deficiencies. They hate almost any creature they perceive as better than they are, which includes almost anyone, but they lack the courage or wherewithal to act on their hatred most of the time. Their fear has led them to dwell either in gloomy places on the far fringes of civilized lands or in areas neglected or forgotten by mightier creatures. In other words, xvarts usually live in places where normal vermin might flourish.
 
 Despite their muddled nature, all xvarts have an unshakable devotion to Raxivort. The desire to please Raxivort weighs heavily on all their decisions. When things aren't going well for them, xvarts naturally assume that Raxivort is angry. To appease their troubled lord, they stage kidnappings. They fashion nets to capture their enemies, which are dragged back to the lair and sacrificed on a makeshift altar. Raxivort can hear their supplications, but he's too afraid to come out of hiding most of the time. Occasionally, he does appear before a tribe of worshipers as a 9-foot-tall xvart carrying an empty sack. In every such instance, Raxivort takes all of the treasure that the tribe has accumulated, stuffs it in his sack, and disappears, leaving nothing behind as compensation.
 
@@ -79,12 +80,16 @@ Raxivort's warlocks are respected and feared in xvart society, but they have lit
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 30 ft., passive Perception 8"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+  - "[sling](03.PlayerLog&Handouts/Mechanics/CLI/items/sling.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 30 ft., passive Perception 8"
 "languages": "Abyssal and one additional language (usually Common or Goblin)"
 "cr": "1/8"
 "traits":
-  - "desc": "The xvart can take the Disengage action as a bonus action on each of\
-      \ its turns."
+  - "desc": "The xvart can take the [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
+      \ action as a bonus action on each of its turns."
     "name": "Low Cunning"
   - "desc": "The xvart has advantage on Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics))\
       \ checks to shove a creature if at least one of the xvart's allies is within\
@@ -94,10 +99,10 @@ Raxivort's warlocks are respected and feared in xvart society, but they have lit
       \ bats and giant rats."
     "name": "Raxivort's Tongue"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 4 (1d4 + 2) bludgeoning damage."
     "name": "Sling"
 "source":

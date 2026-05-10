@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -13,10 +14,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Cat
+- "Cat"
 ---
-# [Cat](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/cat.md)
-*Source: Monster Manual p. 320, Curse of Strahd, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Infernal Machine Rebuild, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Candlekeep Mysteries, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Cat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/cat.md)
+*Source: Monster Manual p. 320. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Cat"
@@ -48,20 +49,11 @@ aliases:
       \ checks that rely on smell."
     "name": "Keen Smell"
 "actions":
-  - "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1\
       \ slashing damage."
     "name": "Claws"
 "source":
   - "MM"
-  - "CoS"
-  - "SKT"
-  - "ToA"
-  - "WDH"
-  - "IMR"
-  - "IDRotF"
-  - "TCE"
-  - "CM"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/cat.webp"
 ```
 ^statblock

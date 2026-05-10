@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/deity/gnome
 - ttrpg-cli/domain/forge
 - ttrpg-cli/domain/knowledge
-aliases: 
-- Flandal Steelskin
+aliases:
+- "Flandal Steelskin"
 ---
 # Flandal Steelskin
 *Source: Mordenkainen's Tome of Foes p. 111* 

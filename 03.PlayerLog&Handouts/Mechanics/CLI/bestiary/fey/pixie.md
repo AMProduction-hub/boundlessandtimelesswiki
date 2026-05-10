@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Pixie
+- "Pixie"
 ---
-# [Pixie](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/pixie.md)
-*Source: Monster Manual p. 253, Ghosts of Saltmarsh, Eberron: Rising from the Last War, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Keys from the Golden Vault*  
+# [Pixie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/pixie.md)
+*Source: Monster Manual p. 253*  
 
 Standing barely a foot tall, pixies resemble diminutive elves with gossamer wings like those of dragonflies or butterflies, bright as the clear dawn and as luminous as the full moonrise.
 
@@ -72,8 +73,8 @@ Unlike their fey cousins, the sprites, pixies abhor weapons and would sooner fle
 "traits":
   - "desc": "The pixie's innate spellcasting ability is Charisma (spell save DC 12).\
       \ It can innately cast the following spells, requiring only its pixie dust as\
-      \ a component:\n\nAt will: [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md)\n\
-      \n1/day each: [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
+      \ a component:\n\n**At will:** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md)\n\
+      \n**1/day each:** [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
       \ [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
@@ -94,11 +95,6 @@ Unlike their fey cousins, the sprites, pixies abhor weapons and would sooner fle
     "name": "Superior Invisibility"
 "source":
   - "MM"
-  - "GoS"
-  - "ERLW"
-  - "IMR"
-  - "EGW"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/token/pixie.webp"
 ```
 ^statblock

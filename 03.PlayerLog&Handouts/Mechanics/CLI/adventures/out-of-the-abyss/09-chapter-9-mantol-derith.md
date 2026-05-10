@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Chapter 9: Mantol-Derith
+- "Chapter 9: Mantol-Derith"
 ---
 # Chapter 9: Mantol-Derith
 *Source: Out of the Abyss, p. 132* 
@@ -77,18 +78,18 @@ The following NPCs have key roles in this chapter of the adventure.
 
 |    |    |
 |----|----|
-| **Sladis Vadir** | High elf druid of the Emerald Enclave |
-| **Rystia Zav** | Human spy for the Harpers |
-| **Peebles** | Svirfneblin spy working for [Xazax the Eyemonger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/xazax-the-eyemonger-oota.md) |
-| **Zilchyn Q'Leptin** | Drow mage and kleptomaniac |
-| **Yantha Coaxrock** | Svirfneblin mage and leader of the Stoneheart Enclave |
+| [Sladis Vadir](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sladis-vadir-oota.md) | High elf druid of the Emerald Enclave |
+| [Rystia Zav](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rystia-zav-oota.md) | Human spy for the Harpers |
+| [Peebles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/peebles-oota.md) | Svirfneblin spy working for [Xazax the Eyemonger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/xazax-the-eyemonger-oota.md) |
+| [Zilchyn Q'Leptin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zilchyn-qleptin-oota.md) | Drow mage and kleptomaniac |
+| [Yantha Coaxrock](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yantha-coaxrock-oota.md) | Svirfneblin mage and leader of the Stoneheart Enclave |
 | **Flink Thunderbonk** | Yantha's svirfneblin apprentice |
 | **Gabble Dripskillet** | Svirfneblin chief negotiator |
 | **Ghuldur Flagonfist** | Duergar and chief negotiator from Gracklstugh |
 | **Sirak Mazelor** | Drow and chief negotiator from Menzoberranzan |
-| **Kinyel Druu'giir** | Drow assassin |
-| **Ghazrim DuLoc** | The characters' contact and chief negotiator of the Zhentarim |
-| **Lorthuun** | Maimed beholder |
+| [Kinyel Druu'giir](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kinyel-druugiir-oota.md) | Drow assassin |
+| [Ghazrim DuLoc](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ghazrim-duloc-oota.md) | The characters' contact and chief negotiator of the Zhentarim |
+| [Lorthuun](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lorthuun-oota.md) | Maimed beholder |
 
 ### Keyed Encounters
 
@@ -265,7 +266,7 @@ The drow sleep in cots arranged in neat rows, while the merchants store their va
 
 #### Treasure
 
-Each storage building contains `2d6` crystal vials of exotic perfume worth 100 gp each, `3d6` crystal bottles of distilled beverages worth 25 gp each, `d4` magic items (determined by rolling on Magic Item Table A in "chapter 7" of the *Dungeon Master's Guide*), and `2d6` vials of carrion crawler mucus (see ""Poisons"" in chapter 8 of the *Dungeon Master's Guide*). Characters also find `1d10 × 10` pounds of food and `1d10 × 5` gallons of water stored in each building.
+Each storage building contains `2d6` crystal vials of exotic perfume worth 100 gp each, `3d6` crystal bottles of distilled beverages worth 25 gp each, `1d4` magic items (determined by rolling on Magic Item Table A in "chapter 7" of the *Dungeon Master's Guide*), and `2d6` vials of carrion crawler mucus (see ""Poisons"" in chapter 8 of the *Dungeon Master's Guide*). Characters also find `1d10 × 10` pounds of food and `1d10 × 5` gallons of water stored in each building.
 
 ## 5. Duergar Enclave
 
@@ -291,7 +292,7 @@ A 20-foot-high stone building stands in the northeast corner of the warehouse. I
 
 #### Yantha Coaxrock
 
-Yantha is the leader of the Stoneheart Enclave based in Blingdenstone (see chapter 6). She is bound with rope and spinning an elaborate lie about how the drow must've [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) her and taken Krimgol's gem. She has an Intelligence of 16 (+3) and the following additional feature:
+[Yantha](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yantha-coaxrock-oota.md) is the leader of the Stoneheart Enclave based in Blingdenstone (see chapter 6). She is bound with rope and spinning an elaborate lie about how the drow must've [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) her and taken Krimgol's gem. She has an Intelligence of 16 (+3) and the following additional feature:
 
 > [!note] 
 > 
@@ -317,12 +318,12 @@ The storage building contains `1d10 × 10` pounds of food, `1d10 × 5` gallons o
 - `2d6` morningstars  
 - `2d6` war picks  
 - `2d6` warhammers  
-- `d6` suits of half-plate  
-- `d6` suits of chainmail  
-- `d6` suits of splint mail  
-- `d6` suits of plate mail  
+- `1d6` suits of half-plate  
+- `1d6` suits of chainmail  
+- `1d6` suits of splint mail  
+- `1d6` suits of plate mail  
 
-An iron safe stands in a corner of the storage building. The safe weighs 1,000 pounds, is locked, and contains `d4` magic items (determined by rolling on Magic Item Table B in "chapter 7" of the *Dungeon Master's Guide*). Ghuldur knows the combination to unlock the safe, which otherwise requires a [knock](03.PlayerLog&Handouts/Mechanics/CLI/spells/knock.md) spell or similar magic to open.
+An iron safe stands in a corner of the storage building. The safe weighs 1,000 pounds, is locked, and contains `1d4` magic items (determined by rolling on Magic Item Table B in "chapter 7" of the *Dungeon Master's Guide*). Ghuldur knows the combination to unlock the safe, which otherwise requires a [knock](03.PlayerLog&Handouts/Mechanics/CLI/spells/knock.md) spell or similar magic to open.
 
 Yantha's gem-studded robe is worth 750 gp.
 
@@ -348,7 +349,7 @@ Set into the northeast wall is a set of stone double doors that the svirfneblin 
 
 #### Treasure
 
-Each dead svirfneblin carries a pouch that contains `d4` 50 gp gems.
+Each dead svirfneblin carries a pouch that contains `1d4` 50 gp gems.
 
 In addition to species of edible fungi, the svirfneblin grove contains the following exotic fungi (as described in the "Fungi of the Underdark" section of chapter 2):
 
@@ -371,7 +372,7 @@ Gabble doesn't know what provoked the duergar into attacking her enclave, but sh
 
 Stored throughout the warehouse are sixty 10-pound sacks of salt worth 5 gp each, thirty sacks of precious minerals worth 25 gp each, twenty-four quartz gemstones worth 50 gp each, a dozen amethysts worth 100 gp each, and six peridots worth 500 gp each.
 
-Half way up the southeast wall is a hidden compartment. Finding it requires a successful DC 19 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check. The compartment contains `d4` magic items (determined by rolling on Magic Item Table C in "chapter 7" of the *Dungeon Master's Guide*).
+Half way up the southeast wall is a hidden compartment. Finding it requires a successful DC 19 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check. The compartment contains `1d4` magic items (determined by rolling on Magic Item Table C in "chapter 7" of the *Dungeon Master's Guide*).
 
 Gabble keeps a crystal coffer in her niche. The coffer is worth 100 gp, and it contains a black sapphire pendant on a silver chain worth 5,000 gp. She offers the pendant as a reward to the party for saving her enclave.
 
@@ -385,7 +386,7 @@ Zhentarim traders cut down most of the fungi grove outside the entrance of their
 
 Perched on a ledge overlooking the pavilion is a [gargoyle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/gargoyle.md) touched by the madness of Fraz-Urb'luu's gem. Characters with a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 13 or higher spot the creature. It's waiting for [Kinyel Druu'giir](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kinyel-druugiir-oota.md), its "true love," to emerge from the pavilion.
 
-Inside the pavilion are four drow: Sirak Mazelor (a female [drow mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-mage.md) and the chief negotiator of the drow enclave), two female [drow elite warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-elite-warrior.md), and a female drow [assassin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/assassin.md) posing as another elite warrior. The assassin, [Kinyel Druu'giir](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kinyel-druugiir-oota.md), has Fraz-Urb'luu's gem on her person. She also has the Fey Ancestry, Innate Spellcasting, and Sunlight Sensitivity features of a drow elite warrior. These drow await the arrival of the Zhentarim's chief negotiator, [Ghazrim DuLoc](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ghazrim-duloc-oota.md). A table covered with food and wine stands in the middle of the pavilion, although the drow refuse to partake.
+Inside the pavilion are four drow: Sirak Mazelor (a female [drow mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-mage.md) and the chief negotiator of the drow enclave), two female [drow elite warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-elite-warrior.md), and a female [drow assassin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-assassin-oota.md) posing as another elite warrior. The assassin, [Kinyel Druu'giir](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kinyel-druugiir-oota.md), has Fraz-Urb'luu's gem on her person. She also has the Fey Ancestry, Innate Spellcasting, and Sunlight Sensitivity features of a drow elite warrior. These drow await the arrival of the Zhentarim's chief negotiator, [Ghazrim DuLoc](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ghazrim-duloc-oota.md). A table covered with food and wine stands in the middle of the pavilion, although the drow refuse to partake.
 
 ![](03.PlayerLog&Handouts/Mechanics/CLI/adventures/out-of-the-abyss/img/078-ooa09-08.webp#center)
 
@@ -426,9 +427,9 @@ The contents of the twelve storage sheds are described below:
 > [!note] 
 > 
 > - **Shed 1** contains the Zhents' supplies, consisting of `2d10 × 10` pounds of food in the form of dried meats, plucked chickens, fresh fruit and vegetables, and loaves of baked bread. There are also six casks of wine worth 50 gp each.  
-> - **Shed 2** holds `d10` backpacks, `2d10` bedrolls, `2d10` blankets, `2d6` climber's kits, and `2d6` healer's kits.  
+> - **Shed 2** holds `1d10` backpacks, `2d10` bedrolls, `2d10` blankets, `2d6` climber's kits, and `2d6` healer's kits.  
 > - **Shed 3** contains `3d6` hooded lanterns, `3d6` flasks of oil, `3d6` 50-foot coils of hempen rope, `3d6` grappling hooks, and `3d6` tinderboxes.  
-> - **Shed 4** holds five crates, each one containing `d20` days of rations.  
+> - **Shed 4** holds five crates, each one containing `1d20` days of rations.  
 > - **Shed 5** contains `2d10` empty glass bottles, `2d6` scroll cases, `2d10` copper tankards, `2d10` iron pots, `2d10` empty sacks, and `2d10` empty waterskins.  
 > - **Shed 6** holds `2d10` empty wooden chests with iron fittings and `2d10` locks with keys.  
 > - **Shed 7** contains `2d6` jars of ink, `3d12` blank pieces of parchment, `3d6` boxes of candles (12 candles per box), and `2d6` ink pens.  
@@ -451,7 +452,7 @@ If the characters deduce that Kinyel's gem is responsible for the havoc in Manto
 
 > [!note] Beholder Eyestalks
 > 
-> If [Lorthuun](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lorthuun-oota.md) is killed, `d4` of its eyestalks survive intact. Should [Peebles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/peebles-oota.md) the svirfneblin happen upon the beholder's remains, he uses a flint knife to remove the intact eyestalks, then tucks them in his bag for safe delivery to Xazaz the Eyemonger (see "Follow-Up Encounters").
+> If [Lorthuun](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lorthuun-oota.md) is killed, `1d4` of its eyestalks survive intact. Should [Peebles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/peebles-oota.md) the svirfneblin happen upon the beholder's remains, he uses a flint knife to remove the intact eyestalks, then tucks them in his bag for safe delivery to Xazaz the Eyemonger (see "Follow-Up Encounters").
 ^beholder-eyestalks
 
 ### Follow-Up Encounters

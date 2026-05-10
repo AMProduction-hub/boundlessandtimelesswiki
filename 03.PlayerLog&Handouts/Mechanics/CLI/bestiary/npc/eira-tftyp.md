@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Eira
+- "Eira"
 ---
-# [Eira](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/eira-tftyp.md)
+# [Eira](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/eira-tftyp.md)
 *Source: Tales from the Yawning Portal p. 159*  
 
 ```statblock
@@ -40,20 +41,23 @@ aliases:
     "desc": "+3"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[quarterstaff](03.PlayerLog&Handouts/Mechanics/CLI/items/quarterstaff.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Druidic plus any two languages, Elvish"
 "cr": "2"
 "traits":
   - "desc": "Eira is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell\
       \ save DC 12, +4 to hit with spell attacks). It has the following druid spells\
-      \ prepared:\n\nCantrips (at will): [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
+      \ prepared:\n\n**Cantrips (at will):** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
       \ [produce flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md),\
       \ [shillelagh](03.PlayerLog&Handouts/Mechanics/CLI/spells/shillelagh.md)\n\n\
-      1st level (4 slots): [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
+      **1st level (4 slots):** [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
       \ [longstrider](03.PlayerLog&Handouts/Mechanics/CLI/spells/longstrider.md),\
       \ [speak with animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md),\
       \ [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [animal messenger](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-messenger.md),\
+      \n**2nd level (3 slots):** [animal messenger](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-messenger.md),\
       \ [barkskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/barkskin.md)"
     "name": "Spellcasting"
   - "desc": "Eira"
@@ -61,8 +65,8 @@ aliases:
   - "desc": "Eira"
     "name": "Mask of the Wild"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach\
-      \ 5 ft., one target. Hit: 3 (d6) bludgeoning damage, 4 (d8) bludgeoning\
+  - "desc": "*Melee Weapon Attack:* +2 to hit (+4 to hit with shillelagh), reach\
+      \ 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning\
       \ damage if wielded with two hands, or 6 (1d8 + 2) bludgeoning damage with\
       \ [shillelagh](03.PlayerLog&Handouts/Mechanics/CLI/spells/shillelagh.md)."
     "name": "Quarterstaff"

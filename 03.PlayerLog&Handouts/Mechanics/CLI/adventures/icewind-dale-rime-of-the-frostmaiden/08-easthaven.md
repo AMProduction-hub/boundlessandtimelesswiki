@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Easthaven
+- "Easthaven"
 ---
 # Easthaven
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 59* 
@@ -81,7 +82,7 @@ Use the following boxed text to describe the ferry to the players:
 
 When the lake isn't frozen, this keelboat transports people and cargo to the towns of Caer-Dineval and Caer-Konig for a modest fee. But the boat and much of Easthaven's harbor is trapped in ice, and Speaker Waylen has declared that ferry service must cease until the ice thaws—which, given Auril's temperament, seems unlikely to happen soon. The ferry's tiefling owner and operator, Scython, spends his idle time at the Wet Trout (described below). In Scython's absence, the ferry has become a base of operations for a [duergar mind master](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar-mind-master-mpmm.md) (see appendix C) named Durth Sunblight. He and three other [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md) named Klaska, Ossyl, and Zublorr are using the ferry's aft cabin as a lair, but only Durth is present when the characters first arrive at the ferry. The other duergar are searching Easthaven for chardalyn.
 
-The duergar are cautious enough to turn [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) while moving through town and on the docks, but not smart enough to cover the tracks they make in the snow. Characters who search for tracks on the snow-covered dock and succeed on a DC 10 Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check can discern `d4` distinct sets of dwarven boot prints leading to and from the ferry. These tracks were made within the past 24 hours.
+The duergar are cautious enough to turn [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) while moving through town and on the docks, but not smart enough to cover the tracks they make in the snow. Characters who search for tracks on the snow-covered dock and succeed on a DC 10 Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check can discern `1d4` distinct sets of dwarven boot prints leading to and from the ferry. These tracks were made within the past 24 hours.
 
 ![Durth Sunblight](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/048-01-023-durth.webp#center)
 
@@ -144,7 +145,7 @@ Here's what the White Lady knows about the recent happenings around Lac Dinneshe
 
 The White Lady doesn't remember the details of her own death or the fate of her lost love. Once her spirit departs, the frost on the windows dissipates.
 
-![Rinaldo the halfling leads...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/049-01-024-rinaldo.webp#center "Rinaldo the halfling leads a seance to contact the spirit of the White Lady of Lac Dinneshere")
+![Rinaldo the halfling leads a seance to contact the spirit of the White Lady of Lac Dinneshere](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/049-01-024-rinaldo.webp#center)
 
 ## Toil and Trouble
 
@@ -154,7 +155,7 @@ The captain of Easthaven's militia, Imdra Arlaggath, takes notice of the charact
 
 Characters who explore the cave complex find the bodies of the fishers, as well as Maud's [cauldron of plenty](03.PlayerLog&Handouts/Mechanics/CLI/items/cauldron-of-plenty-idrotf.md) (see appendix D). The cauldron is a stunning discovery and a welcome one for the people of Ten-Towns, if the characters choose to part with it. If news of the cauldron spreads, the characters will quickly find themselves the center of attention as various towns strive to obtain it. With no end to winter in sight, the cauldron might be the last thing standing between one town's survival and another's extinction.
 
-![Easthaven residents bask i...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/050-01-025-easthaven.webp#center "Easthaven residents bask in the warmth of an evil wizard being burned at the stake")
+![Easthaven residents bask in the warmth of an evil wizard being burned at the stake](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/050-01-025-easthaven.webp#center)
 
 ### Public Execution
 
@@ -288,7 +289,7 @@ Sitting among the bones in the middle of the cave is a [frost giant skeleton](03
 
 This creature killed the fishers from Easthaven, and Maud is the only one who can control it. The skeleton tries to kill anyone else who enters this cave and pursues fleeing prey as far as it can without leaving the cave complex.
 
-![Maud Chiselbone uses her m...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/053-01-026-maud.webp#center "Maud Chiselbone uses her magic cauldron to whip up a tasty human stew")
+![Maud Chiselbone uses her magic cauldron to whip up a tasty human stew](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/053-01-026-maud.webp#center)
 
 #### U10. Cauldron of Plenty
 
@@ -339,7 +340,7 @@ Any character who barters with Danneth and succeeds on a DC 12 Charisma ([Persua
 
 News of the cauldron reaches Speaker Naerth Maxildanarr of Targos within a day, thanks to a Zhentarim [spy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md) named Prudence Tarkwold, who works as a clerk in Easthaven's Town Hall and owns a small cottage nearby (where she keeps a [flying snake](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/flying-snake.md) that serves her as a messenger). After Prudence notifies him of the cauldron, Naerth sets into motion a plan to steal it. He dispatches three human [thugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md) in cold weather clothing to meet with Prudence at the Town Hall as night falls. These thugs bring with them a domesticated [axe beak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/axe-beak.md), which they tie to a wooden post outside the Town Hall's north entrance.
 
-Barring the characters' intervention, the Zhents corner Speaker Waylen in his office (area T3) and use him as a hostage to force the guards watching the cauldron to drop their weapons and surrender without a fight. After locking Speaker Waylen and the guards in the jail (area T18), the Zhents remove the cauldron from the Town Hall, lash it to the axe beak with rope, and toss the keys to the jail cells into a snowbank. The axe beak is strong enough to drag the cauldron through the snow behind it as the Zhents lead it back to Targos. The Zhents don't stop until the cauldron is delivered to Speaker Naerth Maxildanarr at the Luskan Arms (see "the Luskan Arms"). Any tracks they make in the snow are obliterated after `d4` hours by blowing wind. Although they are lawful evil, the Zhents have strict orders not to kill anyone. Enemies they reduce to 0 hit points are knocked [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) rather than slain.
+Barring the characters' intervention, the Zhents corner Speaker Waylen in his office (area T3) and use him as a hostage to force the guards watching the cauldron to drop their weapons and surrender without a fight. After locking Speaker Waylen and the guards in the jail (area T18), the Zhents remove the cauldron from the Town Hall, lash it to the axe beak with rope, and toss the keys to the jail cells into a snowbank. The axe beak is strong enough to drag the cauldron through the snow behind it as the Zhents lead it back to Targos. The Zhents don't stop until the cauldron is delivered to Speaker Naerth Maxildanarr at the Luskan Arms (see "the Luskan Arms"). Any tracks they make in the snow are obliterated after `1d4` hours by blowing wind. Although they are lawful evil, the Zhents have strict orders not to kill anyone. Enemies they reduce to 0 hit points are knocked [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) rather than slain.
 
 #### Development
 
@@ -355,7 +356,7 @@ The duergar hiding aboard the Easthaven ferry attack the Town Hall in the dead o
 
 If he's still alive, Durth Sunblight, a [duergar mind master](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar-mind-master-mpmm.md) (see appendix C), leads three [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md) named Klaska, Ossyl, and Zublorr to the Town Hall under the cover of night, making their way inside through the north entrance. Barring the characters' intervention, the duergar use their weapons to shatter the chardalyn figurehead in area T6. The guards in area T17 interrupt the duergar but are no match for them. After killing the guards with their war picks, the duergar finish breaking apart the figurehead.
 
-Each duergar carries one sack that can hold up to five 20-pound fragments of chardalyn. After filling their sacks, the duergar exit the Town Hall and travel to their hidden fortress in the mountains (described in chapter 3). Any tracks left by the duergar are obliterated after `d4` hours by blowing wind.
+Each duergar carries one sack that can hold up to five 20-pound fragments of chardalyn. After filling their sacks, the duergar exit the Town Hall and travel to their hidden fortress in the mountains (described in chapter 3). Any tracks left by the duergar are obliterated after `1d4` hours by blowing wind.
 
 If too much time has passed to track the duergar, the characters have no way to know where they went—just as well, given the perils of the duergar fortress. A search of the Easthaven ferry yields no clues, as the duergar took all their belongings (including Durth's map) with them.
 
@@ -443,7 +444,7 @@ The White Lady rarely manifests on land, and her ghost can be seen only by those
 
 If the ghost is reduced to 0 hit points, it fades away with a scream as the White Lady's spirit is forced back to the lake, where it remains thereafter.
 
-![Bound to a demonic figureh...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/057-01-028.webp#center "Bound to a demonic figurehead is a haunting figure, but not all is what it seems")
+![Bound to a demonic figurehead is a haunting figure, but not all is what it seems](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/057-01-028.webp#center)
 
 #### T7. Chair Storage
 

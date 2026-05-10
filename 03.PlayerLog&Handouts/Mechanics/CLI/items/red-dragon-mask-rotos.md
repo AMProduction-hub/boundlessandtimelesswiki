@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/rotos
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/legendary
-aliases: 
+aliases:
 - "Red Dragon Mask"
 ---
 # Red Dragon Mask
@@ -41,6 +42,6 @@ You can speak and understand Draconic. You also have advantage on any Charisma c
 
 ## Dragon Fire
 
-If you deal fire damage to a creature or flammable object, it starts burning. At the start of each of its turns, a creature burning in this way takes `d6` fire damage. A creature that can reach the burning target can use an action to extinguish the fire.
+If you deal fire damage to a creature or flammable object, it starts burning. At the start of each of its turns, a creature burning in this way takes `1d6` fire damage. A creature that can reach the burning target can use an action to extinguish the fire.
 
 *Source: The Rise of Tiamat Online Supplement p. 4*

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Gods of Theros
+- "Gods of Theros"
 ---
 # Gods of Theros
 *Source: Mythic Odysseys of Theros, p. 33* 
@@ -13,7 +14,7 @@ aliases:
 > 
 > A bird shrieked as it took flight from a branch above her. Through the gaps in the rustling canopy, she could see the god-forms shift in and out of focus. The night sky was known as Nyx, the realm of the gods. Every night, the heavens displayed fleeting visions of gods and celestial creatures. Some lingered for just seconds. But sometimes the pantheon enacted entire scenes for mortal eyes to witness. Lidia rarely took time to step outside her home and watch the heavens, but now there was no place else to rest her eyes. Tonight the god-forms were vivid, and her heart beat faster as she watched their battle unfold.
 
-![Responding to a single sai...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/022-02-01.webp#center "Responding to a single sailor's slight, vengeful Keranos, god of storms, sends lightning to strike a Meletian galley on the Siren Sea ")
+![Responding to a single sailor's slight, vengeful Keranos, god of storms, sends lightning to strike a Meletian galley on the Siren Sea](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/022-02-01.webp#center)
 
 A pantheon of fifteen gods guides religious life on Theros. From the sun and agriculture to death and passage into the Underworld, the gods oversee the forces of nature and the most important aspects of mortal life. These gods are quite real to the people of Theros, who see them moving across the sky at night and sometimes encounter them face to face. Thus, most people perform rituals and devotions that honor various gods, hoping to win their favor and stave off their wrath. They tell and retell the stories of the gods' deeds—even as they watch those stories continue to play out in the vastness of the night sky.
 

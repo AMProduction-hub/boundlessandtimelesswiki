@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Character Races
+- "Character Races"
 ---
 # Character Races
 *Source: Volo's Guide to Monsters, p. 103* 

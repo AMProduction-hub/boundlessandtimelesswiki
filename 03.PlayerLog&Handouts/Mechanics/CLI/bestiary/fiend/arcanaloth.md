@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/12
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Arcanaloth
+- "Arcanaloth"
 ---
-# [Arcanaloth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/arcanaloth.md)
-*Source: Monster Manual p. 313, Curse of Strahd, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Keys from the Golden Vault*  
+# [Arcanaloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/arcanaloth.md)
+*Source: Monster Manual p. 313*  
 
 Arcanaloths are sly, jackal-headed beings with humanoid bodies, but they can employ magic to take any humanoid form. They do so to gain the trust of creatures with whom they negotiate, replacing jackal snarls with winsome smiles. Regardless of its chosen form, an arcanaloth appears well groomed, clothing itself in fine robes. Highly intelligent spellcasters who hunger for knowledge and power, arcanaloths command units of lesser yugoloths and maintain the contracts, records, and accounts of their kind.
 
@@ -58,8 +59,8 @@ Whatever the case, no fiend finds the General unless the General desires it. His
 > 
 > - An arcanaloth has a 40 percent chance of summoning one arcanaloth.  
 > - A mezzoloth has a 30 percent chance of summoning one mezzoloth.  
-> - A nycaloth has a 50 percent chance of summoning `d4` mezzoloths or one nycaloth.  
-> - An ultroloth has a 50 percent chance of summoning `d6` mezzoloths, `d4` nycaloths, or one ultroloth.  
+> - A nycaloth has a 50 percent chance of summoning `1d4` mezzoloths or one nycaloth.  
+> - An ultroloth has a 50 percent chance of summoning `1d6` mezzoloths, `1d4` nycaloths, or one ultroloth.  
 > 
 > A summoned yugoloth appears in an unoccupied space within 60 feet of its summoner, does as it pleases (unless its summoner is an ultroloth, in which case it acts as an ally of its summoner), and can't summon other yugoloths. The summoned yugoloth remains for l minute, until it or its summoner dies, or until its summoner takes a bonus action to dismiss it
 ^variant-yugoloth-summoning
@@ -89,10 +90,10 @@ Whatever the case, no fiend finds the General unless the General desires it. His
   - !!int "17"
 "speed": "30 ft., fly 30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "intelligence": "+9"
-  - "wisdom": "+7"
-  - "charisma": "+7"
+  - "dexterity": !!int "5"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+13"
@@ -107,36 +108,37 @@ Whatever the case, no fiend finds the General unless the General desires it. His
 "damage_immunities": "acid, poison"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 17"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 17"
 "languages": "all, telepathy 120 ft."
 "cr": "12"
 "traits":
   - "desc": "The arcanaloth is a 16th-level spellcaster. Its spellcasting ability\
       \ is Intelligence (spell save DC 17, +9 to hit with spell attacks). The arcanaloth\
-      \ has the following wizard spells prepared:\n\nCantrips (at will): [fire\
+      \ has the following wizard spells prepared:\n\n**Cantrips (at will):** [fire\
       \ bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**1st level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md), [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md),\
       \ [Tenser's floating disk](03.PlayerLog&Handouts/Mechanics/CLI/spells/tensers-floating-disk.md)\n\
-      \n2nd level (3 slots): [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \n**2nd level (3 slots):** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md),\
       \ [phantasmal force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\n\
-      3rd level (3 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      **3rd level (3 slots):** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md), [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)\n\
-      \n4th level (3 slots): [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \n**4th level (3 slots):** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md)\n\
-      \n5th level (2 slots): [contact other plane](03.PlayerLog&Handouts/Mechanics/CLI/spells/contact-other-plane.md),\
+      \n**5th level (2 slots):** [contact other plane](03.PlayerLog&Handouts/Mechanics/CLI/spells/contact-other-plane.md),\
       \ [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md)\n\
-      \n6th level (1 slots): [chain lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/chain-lightning.md)\n\
-      \n7th level (1 slots): [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md)\n\
-      \n8th level (1 slots): [mind blank](03.PlayerLog&Handouts/Mechanics/CLI/spells/mind-blank.md)"
+      \n**6th level (1 slots):** [chain lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/chain-lightning.md)\n\
+      \n**7th level (1 slots):** [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md)\n\
+      \n**8th level (1 slots):** [mind blank](03.PlayerLog&Handouts/Mechanics/CLI/spells/mind-blank.md)"
     "name": "Spellcasting"
   - "desc": "The arcanaloth's innate spellcasting ability is Charisma (spell save\
       \ DC 15). The arcanaloth can innately cast the following spells, requiring no\
-      \ material components:\n\nAt will: [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
+      \ material components:\n\n**At will:** [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
       \ [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md), [heat\
       \ metal](03.PlayerLog&Handouts/Mechanics/CLI/spells/heat-metal.md), [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
       \ (self only), [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md)"
@@ -147,7 +149,7 @@ Whatever the case, no fiend finds the General unless the General desires it. His
   - "desc": "The arcanaloth's weapon attacks are magical."
     "name": "Magic Weapons"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (2d4 + 3) slashing damage. The target must make a DC 14 Constitution saving\
       \ throw, taking 10 (3d6) poison damage on a failed save, or half as much damage\
       \ on a successful one."
@@ -157,13 +159,6 @@ Whatever the case, no fiend finds the General unless the General desires it. His
     "name": "Teleport"
 "source":
   - "MM"
-  - "CoS"
-  - "ToA"
-  - "WDMM"
-  - "BGDIA"
-  - "IDRotF"
-  - "TCE"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/arcanaloth.webp"
 ```
 ^statblock

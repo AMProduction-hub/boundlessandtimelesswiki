@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/race/goblin
 aliases:
-- Goblin
+- "Goblin"
 ---
 # Goblin
 *Source: Dungeon Master's Guide p. 282*  
 
 
-- **Ability Scores**: Strength -2; Dexterity +2
+- **Ability Scores**: str -2 dex +2
 - **Size**: Small
 - **Speed**: 30 ft.
 

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/sdw
 aliases:
-- Leilon Point
+- "Leilon Point"
 ---
 # Leilon Point
 *Source: Essentials Kit: Sleeping Dragon's Wake* 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Darz Helgar
+- "Darz Helgar"
 ---
-# [Darz Helgar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/darz-helgar-skt.md)
+# [Darz Helgar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/darz-helgar-skt.md)
 *Source: Storm King's Thunder p. 253*  
 
 In his youth, Darz was a member of the Xanathar Thieves' Guild in Waterdeep. After serving ten years in prison for his crimes, he cut all ties to the city and moved north to be a campground caretaker.
@@ -47,6 +48,9 @@ Flaw:"I have no regrets. I do whatever it takes to survive."
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+  - "[sling](03.PlayerLog&Handouts/Mechanics/CLI/items/sling.md)"
 "senses": "passive Perception 10"
 "languages": "Common"
 "traits":
@@ -63,10 +67,10 @@ Flaw:"I have no regrets. I do whatever it takes to survive."
       \ I do whatever it takes to survive.\""
     "name": "Roleplaying Information"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 4 (1d4 + 2) piercing damage. Darz carries twenty sling stones."
     "name": "Sling"
 "source":

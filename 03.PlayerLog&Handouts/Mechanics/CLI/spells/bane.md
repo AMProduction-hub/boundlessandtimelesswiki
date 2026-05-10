@@ -1,30 +1,31 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
-- ttrpg-cli/spell/feat/divinely-favored
+- ttrpg-cli/spell/feat/divinely-favored/good
 - ttrpg-cli/spell/feat/fey-touched
-- ttrpg-cli/spell/feat/magic-initiate
-- ttrpg-cli/spell/feat/strixhaven-initiate
+- ttrpg-cli/spell/feat/magic-initiate/cleric-spells
+- ttrpg-cli/spell/feat/strixhaven-initiate/silverquill-3
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/optfeature/thief-of-five-fates
 - ttrpg-cli/spell/school/enchantment
-- ttrpg-cli/spell/subclass/divine-soul
+- ttrpg-cli/spell/subclass/divine-soul/chaos
 - ttrpg-cli/spell/subclass/grave-domain
 - ttrpg-cli/spell/subclass/oath-of-vengeance
 - ttrpg-cli/spell/subclass/the-undead
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Cleric (Grave Domain)
 - Paladin (Oath of Vengeance)
-- Sorcerer (Divine Soul)
+- Sorcerer (Divine Soul, Chaos)
 - Warlock (The Undead)
 aliases:
-- Bane
+- "Bane"
 ---
 # Bane
 *1st-level, Enchantment*  
@@ -39,6 +40,6 @@ Up to three creatures of your choice that you can see within range must make Cha
 
 **At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.
 
-**Classes**: [Warlock (The Undead)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-undead-vrgr.md "subclass=VRGR"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Paladin (Oath of Vengeance)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-vengeance.md); [Cleric (Grave Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-grave-domain-xge.md "subclass=XGE"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Grave Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-grave-domain-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin (Oath of Vengeance)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-vengeance.md); [Sorcerer (Divine Soul, Chaos)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Warlock (The Undead)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-undead-vrgr.md "subclass=VRGR")
 
 *Source: Player's Handbook p. 216. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

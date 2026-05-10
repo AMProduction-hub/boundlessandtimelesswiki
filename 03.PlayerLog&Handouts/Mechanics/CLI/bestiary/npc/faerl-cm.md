@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Faerl
+- "Faerl"
 ---
-# [Faerl](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/faerl-cm.md)
+# [Faerl](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/faerl-cm.md)
 *Source: Candlekeep Mysteries p. 104*  
 
 Faerl, a neutral evil wood elf, is proud and cruel. He believes that he must be in control at all times. He dresses in pompous finery and an oversized red hat. He speaks precisely, but in a volume so low that it forces people to pay close attention to him.
@@ -42,6 +43,8 @@ Faerl, a neutral evil wood elf, is proud and cruel. He believes that he must be 
     "desc": "+4"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+5"
+"gear":
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Elvish"
 "cr": "1/8"
@@ -50,7 +53,7 @@ Faerl, a neutral evil wood elf, is proud and cruel. He believes that he must be 
       \ and magic can't put him to sleep."
     "name": "Fey Ancestry"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d8 + 1) piercing damage."
     "name": "Rapier"
 "reactions":

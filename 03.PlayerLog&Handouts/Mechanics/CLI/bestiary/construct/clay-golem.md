@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/9
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Clay Golem
+- "Clay Golem"
 ---
-# [Clay Golem](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/clay-golem.md)
-*Source: Monster Manual p. 168, Curse of Strahd, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Clay Golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clay-golem.md)
+*Source: Monster Manual p. 168. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Sculpted from clay, this bulky golem stands head and shoulders taller than most human-sized creatures. It is human shaped, but its proportions are off.
 
@@ -76,7 +77,8 @@ A golem doesn't require air, food, drink, or sleep.
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 9"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "9"
 "traits":
@@ -100,7 +102,7 @@ A golem doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The golem makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 16\
       \ (2d10 + 5) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 15 Constitution saving throw or have its hit point maximum reduced\
       \ by an amount equal to the damage taken. The target dies if this attack reduces\
@@ -114,12 +116,6 @@ A golem doesn't require air, food, drink, or sleep.
     "name": "Haste (Recharge 5-6)"
 "source":
   - "MM"
-  - "CoS"
-  - "TftYP"
-  - "ToA"
-  - "WDMM"
-  - "DSotDQ"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/clay-golem.webp"
 ```
 ^statblock

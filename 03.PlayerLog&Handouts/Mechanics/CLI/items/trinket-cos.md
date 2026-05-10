@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/item/gear/
 - ttrpg-cli/item/rarity/none
-aliases: 
+aliases:
 - "Trinket"
 ---
 # Trinket
@@ -16,8 +17,6 @@ aliases:
 When you make your character, you can roll once on the Trinkets table to gain a trinket, a simple item lightly touched by mystery. The DM might also use this table. It can help stock a room in a dungeon or fill a creatures pockets.
 
 **Curse of Strahd. Character Options, Gothic Trinket Table**
-
-`dice: [](trinket-cos.md#^curse-of-strahd-character-options-gothic-trinket-table)`
 
 | dice: d100 | Trinket |
 |------------|---------|
@@ -41,7 +40,7 @@ When you make your character, you can roll once on the Trinkets table to gain a 
 | 35-36 | A necklace formed of the interlinked holy symbols of a dozen deities |
 | 37-38 | A hangman's noose that feels heavier than it should |
 | 39-40 | A birdcage into which small birds fly but once inside never eat or leave |
-| 41-42 | A lepidopterist's box filled dead moths with skulllike patterns on their wings |
+| 41-42 | A lepidopterist's box filled dead moths with skull-like patterns on their wings |
 | 43-44 | A jar of pickled ghouls' tongues |
 | 45-46 | The wooden hand of a notorious pirate |
 | 47-48 | An urn with the ashes of a dead relative |

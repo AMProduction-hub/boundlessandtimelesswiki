@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- NPC Low Abilities
+- "NPC Low Abilities"
 ---
 # NPC Low Abilities
 *Source: Dungeon Master's Guide p. 88* 
 
 **NPC Low Abilities**
-
-`dice: [](npc-low-abilities.md#^npc-low-abilities)`
 
 | dice: d6 | Low Ability |
 |----------|-------------|

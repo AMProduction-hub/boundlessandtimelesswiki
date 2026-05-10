@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hellwasp Grub
+- "Hellwasp Grub"
 ---
-# [Hellwasp Grub](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/hellwasp-grub-bgdia.md)
+# [Hellwasp Grub](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/hellwasp-grub-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 95*  
 
 ```statblock
@@ -32,11 +33,12 @@ aliases:
   - !!int "7"
   - !!int "3"
 "speed": "30 ft., climb 30 ft."
-"senses": "blindsight 30 ft., passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., passive Perception 8"
 "languages": ""
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution\
       \ saving throw or take 10 (3d6) poison damage. If the poison damage reduces\
       \ the target to 0 hit points, the target is stable but [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\

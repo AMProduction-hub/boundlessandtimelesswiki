@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/0
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Shrieker
+- "Shrieker"
 ---
-# [Shrieker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/shrieker.md)
-*Source: Monster Manual p. 138, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Shrieker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/shrieker.md)
+*Source: Monster Manual p. 138. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 A shrieker is a human-sized mushroom that emits a piercing screech to drive off creatures that disturb it. Other creatures use the fungi as an alarm to signal the approach of prey, and various intelligent races of the Underdark cultivate shriekers on the outskirts of their communities to discourage trespassers.
 
@@ -45,7 +46,8 @@ Not needing sunlight or warmth to grow, fungi thrive in every corner and crevice
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 6"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft. (blind beyond this radius), passive Perception 6"
 "languages": ""
 "cr": "0"
 "traits":
@@ -55,13 +57,11 @@ Not needing sunlight or warmth to grow, fungi thrive in every corner and crevice
 "reactions":
   - "desc": "When bright light or a creature is within 30 feet of the shrieker, it\
       \ emits a shriek audible within 300 feet of it. The shrieker continues to shriek\
-      \ until the disturbance moves out of range and for d4 of the shrieker's turns\
+      \ until the disturbance moves out of range and for 1d4 of the shrieker's turns\
       \ afterward."
     "name": "Shriek"
 "source":
   - "MM"
-  - "WDMM"
-  - "GoS"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/shrieker.webp"
 ```
 ^statblock

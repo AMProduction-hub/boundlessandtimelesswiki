@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Treasures
+- "Treasures"
 ---
 # Treasures
 *Source: Eberron: Rising from the Last War, p. 275* 
 
 Magic plays a vital role in the day-to-day life of Khorvaire. Common magic items are widespread, and the crystals known as dragonshards serve as the fuel of the magical economy and are used in items that amplify the powers of dragonmarks.
 
-![Khyber dragonshards glimme...](03.PlayerLog&Handouts/Mechanics/CLI/books/eberron-rising-from-the-last-war/img/148-5-01.webp#center "Khyber dragonshards glimmer as a dolgaunt and dolgrims try to pry open a Gatekeeper seal")
+![Khyber dragonshards glimmer as a dolgaunt and dolgrims try to pry open a Gatekeeper seal](03.PlayerLog&Handouts/Mechanics/CLI/books/eberron-rising-from-the-last-war/img/148-5-01.webp#center)
 
 ## Dragonshards
 

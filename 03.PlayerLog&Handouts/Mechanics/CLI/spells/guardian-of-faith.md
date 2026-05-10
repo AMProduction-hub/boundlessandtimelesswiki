@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/level/4th-level
 - ttrpg-cli/spell/school/conjuration
@@ -15,7 +16,7 @@ tags:
 - ttrpg-cli/spell/subclass/the-celestial
 - ttrpg-cli/spell/subrace/human-mark-of-sentinel
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Cleric (Life Domain)
 - Cleric (Light Domain)
@@ -24,7 +25,7 @@ classes:
 - Sorcerer (Divine Soul)
 - Warlock (The Celestial)
 aliases:
-- Guardian of Faith
+- "Guardian of Faith"
 ---
 # Guardian of Faith
 *4th-level, Conjuration*  
@@ -39,6 +40,6 @@ A Large spectral guardian appears and hovers for the duration in an unoccupied s
 
 Any creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn must succeed on a Dexterity saving throw. The creature takes 20 radiant damage on a failed save, or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Paladin (Oath of Devotion)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-devotion.md); [Paladin (Oath of the Crown)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-crown-scag.md "subclass=SCAG"); [Warlock (The Celestial)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-celestial-xge.md "subclass=XGE"); [Cleric (Light Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-light-domain.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric (Life Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-life-domain.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Life Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-life-domain.md); [Cleric (Light Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-light-domain.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin (Oath of Devotion)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-devotion.md); [Paladin (Oath of the Crown)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-crown-scag.md "subclass=SCAG"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Warlock (The Celestial)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-celestial-xge.md "subclass=XGE")
 
 *Source: Player's Handbook p. 246. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

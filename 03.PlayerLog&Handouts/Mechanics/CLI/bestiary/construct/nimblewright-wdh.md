@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nimblewright
+- "Nimblewright"
 ---
-# [Nimblewright](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/nimblewright-wdh.md)
+# [Nimblewright](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/nimblewright-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 212*  
 
 A nimblewright is a magical construct created to serve as a guard or assassin. Composed predominantly of lightweight wood and powered by magic, it can pass for humanoid while wearing clothing. Some nimblewrights wear plain clothing, while others are clad in flashier attire. A nimblewright is emotionless, its face frozen in whatever expression was given to it by its creator.
@@ -43,7 +44,7 @@ A nimblewright doesn't require air, food, drink, or sleep. Damage it takes can b
   - !!int "6"
 "speed": "60 ft."
 "saves":
-  - "dexterity": "+6"
+  - "dexterity": !!int "6"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+8"
@@ -54,7 +55,11 @@ A nimblewright doesn't require air, food, drink, or sleep. Damage it takes can b
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "understands one language known to its creator but can't speak"
 "cr": "4"
 "traits":
@@ -74,12 +79,12 @@ A nimblewright doesn't require air, food, drink, or sleep. Damage it takes can b
   - "desc": "The nimblewright makes three attacks: two with its rapier and one with\
       \ its dagger."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) piercing damage."
     "name": "Rapier"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d4 + 4) piercing damage. Or Ranged Weapon Attack: +6 to hit, range 20/60\
-      \ ft., one target. Hit: 6 (1d4 + 4) piercing damage."
+      \ ft., one target. *Hit:* 6 (1d4 + 4) piercing damage."
     "name": "Dagger"
 "reactions":
   - "desc": "The nimblewright adds 2 to its AC against one melee attack that would\

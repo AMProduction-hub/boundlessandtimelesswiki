@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Appendix B: Magic Items
+- "Appendix B: Magic Items"
 ---
 # Appendix B: Magic Items
 *Source: Out of the Abyss, p. 222* 

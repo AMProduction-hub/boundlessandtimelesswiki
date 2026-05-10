@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/13
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Atropal
+- "Atropal"
 ---
-# [Atropal](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/atropal-toa.md)
+# [Atropal](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/atropal-toa.md)
 *Source: Tomb of Annihilation p. 214*  
 
 An atropal is a ghastly, unfinished creation of an evil god, cast adrift and abandoned long ago. Since an atropal was never truly alive, it can't be raised from the dead or resurrected by any means. Even divine intervention can't breathe true life into this hateful, miserable horror.
@@ -47,8 +48,8 @@ An atropal doesn't require air, food, drink, or sleep.
   - !!int "24"
 "speed": "0 ft., fly 50 ft. (hover)"
 "saves":
-  - "constitution": "+11"
-  - "wisdom": "+9"
+  - "constitution": !!int "11"
+  - "wisdom": !!int "9"
 "damage_vulnerabilities": "radiant"
 "damage_immunities": "cold; necrotic; bludgeoning, piercing, slashing from nonmagical\
   \ attacks"
@@ -56,7 +57,9 @@ An atropal doesn't require air, food, drink, or sleep.
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., truesight 120 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., [truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 14"
 "languages": "understands Celestial but utters only obscene nonsense"
 "cr": "13"
 "traits":
@@ -73,10 +76,10 @@ An atropal doesn't require air, food, drink, or sleep.
       \ on saving throws against any effect that turns undead."
     "name": "Turn Resistance Aura"
 "actions":
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (3d6) necrotic damage."
     "name": "Touch"
-  - "desc": "Ranged Spell Attack: +12 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +12 to hit, range 120 ft., one target. *Hit:*\
       \ 21 (6d6) cold damage."
     "name": "Ray of Cold"
   - "desc": "The atropal targets one creature it can see within 120 feet of it. The\
@@ -91,6 +94,9 @@ An atropal doesn't require air, food, drink, or sleep.
       \ creature. The Wraith vanishes when it drops to 0 hit points or when its summoner\
       \ dies."
     "name": "Summon Wraith (Recharge 6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the atropal can expend a use to take one of the following actions. The atropal\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The atropal makes a touch attack."
     "name": "Touch"

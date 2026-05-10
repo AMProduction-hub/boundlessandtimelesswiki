@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Carrionette
+- "Carrionette"
 ---
-# [Carrionette](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/carrionette-vrgr.md)
+# [Carrionette](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/carrionette-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 231*  
 
 Carrionettes arise from innocent intentions. Heartfelt wishes breathe life into a beloved toy and, for a time, a creator might feel blessed by their new companion. But carrionettes aren't content to live as toys and seek to escape the confines of their diminutive bodies.
@@ -54,11 +55,11 @@ Carrionettes might appear as any type of toy or piece of art. While marionettes 
   - "desc": "The carrionette doesn't require air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
-      \ 1 piercing damage plus 3 (d6) necrotic damage, and the target must succeed\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
+      \ 1 piercing damage plus 3 (1d6) necrotic damage, and the target must succeed\
       \ on a DC 12 Charisma saving throw or become cursed for 1 minute. While cursed\
       \ in this way, the target's speed is reduced by 10 feet, and it must roll a\
-      \ d4 and subtract the number rolled from each ability check or attack roll\
+      \ 1d4 and subtract the number rolled from each ability check or attack roll\
       \ it makes."
     "name": "Silver Needle"
   - "desc": "The carrionette targets a creature it can see within 15 feet of it that\

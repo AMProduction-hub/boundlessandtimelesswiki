@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/13
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vajra Safahr
+- "Vajra Safahr"
 ---
-# [Vajra Safahr](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/vajra-safahr-wdh.md)
+# [Vajra Safahr](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vajra-safahr-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 217*  
 
 Vajra is a capable wizard in her mid-thirties, the youngest person ever to hold the position of Blackstaff. As the High Wizard of Waterdeep, she is charged with using all the magic and resources at her disposal to defend the city against threats. She was handpicked for the job by Khelben Arunsun, and wields the Blackstaff from which Khelben derived his name and the title of the office. Vajra isn't the city's most powerful wizard, but she can hold her own. Despite her many gifts, she still questions her ability to meet the demands of her role, and she rarely makes a decision without first soliciting the advice of the Blackstaff, which contains Khelben Arunsun's spirit as well as the spirits of all the other Blackstaffs who preceded her. She also gets intelligence from many other sources, both through her own network of spies and from Harper agents.
@@ -40,12 +41,12 @@ Several of the older and more seasoned wizards in Waterdeep consider Vajra an up
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "strength": "+2"
-  - "dexterity": "+4"
-  - "constitution": "+3"
-  - "intelligence": "+12"
-  - "wisdom": "+7"
-  - "charisma": "+5"
+  - "strength": !!int "2"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "3"
+  - "intelligence": !!int "12"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+10"
@@ -57,28 +58,28 @@ Several of the older and more seasoned wizards in Waterdeep consider Vajra an up
 "traits":
   - "desc": "Vajra is an 18th-level spellcaster. Her spellcasting ability is Intelligence\
       \ (spell save DC 18, +12 to hit with spell attacks). She has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**1st level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md), [mage\
       \ armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \n**2nd level (3 slots):** [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md), [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md)\n\
-      \n3rd level (3 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      \n**3rd level (3 slots):** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)\n\
-      \n4th level (3 slots): [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \n**4th level (3 slots):** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [fire shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-shield.md),\
-      \ [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)\n\n5th\
-      \ level (3 slots): [Bigby's hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/bigbys-hand.md),\
+      \ [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)\n\n**5th\
+      \ level (3 slots):** [Bigby's hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/bigbys-hand.md),\
       \ [geas](03.PlayerLog&Handouts/Mechanics/CLI/spells/geas.md), [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)\n\
-      \n6th level (1 slots): [chain lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/chain-lightning.md),\
+      \n**6th level (1 slots):** [chain lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/chain-lightning.md),\
       \ [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md)\n\
-      \n7th level (1 slots): [forcecage](03.PlayerLog&Handouts/Mechanics/CLI/spells/forcecage.md),\
+      \n**7th level (1 slots):** [forcecage](03.PlayerLog&Handouts/Mechanics/CLI/spells/forcecage.md),\
       \ [prismatic spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/prismatic-spray.md)\n\
-      \n8th level (1 slots): [antimagic field](03.PlayerLog&Handouts/Mechanics/CLI/spells/antimagic-field.md),\
+      \n**8th level (1 slots):** [antimagic field](03.PlayerLog&Handouts/Mechanics/CLI/spells/antimagic-field.md),\
       \ [power word stun](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-stun.md)\n\
-      \n9th level (1 slots): [imprisonment](03.PlayerLog&Handouts/Mechanics/CLI/spells/imprisonment.md)"
+      \n**9th level (1 slots):** [imprisonment](03.PlayerLog&Handouts/Mechanics/CLI/spells/imprisonment.md)"
     "name": "Spellcasting"
   - "desc": "Vajra wields the [Blackstaff](03.PlayerLog&Handouts/Mechanics/CLI/items/blackstaff-wdh.md),\
       \ accounted for in her statistics. Roll 2d10 to determine how many charges\
@@ -102,10 +103,10 @@ Several of the older and more seasoned wizards in Waterdeep consider Vajra an up
       \ (5 charges)."
     "name": "Staff Spells"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) bludgeoning, magic damage, or 6 (1d8 + 2) bludgeoning, magic\
       \ damage when used with two hands. Vajra can expend 1 of the staff's charges\
-      \ to deal an extra 3 (d6) force damage on a hit."
+      \ to deal an extra 3 (1d6) force damage on a hit."
     "name": "Blackstaff"
 "source":
   - "WDH"

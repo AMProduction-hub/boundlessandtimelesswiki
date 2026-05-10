@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/item/armor/heavy
@@ -8,7 +9,7 @@ tags:
 - ttrpg-cli/item/rarity/common
 - ttrpg-cli/item/tier/minor
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Armor of Gleaming"
 - "Breastplate of Gleaming"
 - "Chain Mail of Gleaming"

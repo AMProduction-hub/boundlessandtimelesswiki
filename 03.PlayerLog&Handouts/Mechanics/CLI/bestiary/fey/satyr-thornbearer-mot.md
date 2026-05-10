@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Satyr Thornbearer
+- "Satyr Thornbearer"
 ---
-# [Satyr Thornbearer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/satyr-thornbearer-mot.md)
+# [Satyr Thornbearer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/satyr-thornbearer-mot.md)
 *Source: Mythic Odysseys of Theros p. 243*  
 
 Not all satyrs live lives of pure whimsy. When forced to defend their friends and homes, satyr thornbearers are quick to take up their bows and strike against danger. Particularly amid the dense trees of the Skola Vale, these satyr skirmishers cooperate in loose teams, using guerrilla tactics to harass foes then melt back into the forest. The blessings of Nylea aid the satyrs in protecting their home, and a single arrow from a thornbearer's bow might rain down like a volley from a whole army.
@@ -43,6 +44,8 @@ While most satyrs are known for their high spirits, love of revels, and gregario
     "desc": "+6"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
+"gear":
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
 "senses": "passive Perception 15"
 "languages": "Common, Sylvan"
 "cr": "2"
@@ -55,10 +58,10 @@ While most satyrs are known for their high spirits, love of revels, and gregario
 "actions":
   - "desc": "The satyr makes three ram attacks or three shortbow attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (2d4 + 1) bludgeoning damage."
     "name": "Ram"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one target. *Hit:*\
       \ 7 (1d6 + 4) piercing damage."
     "name": "Shortbow"
   - "desc": "The satyr fires an arrow that magically transforms into a flurry of missiles\

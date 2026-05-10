@@ -1,9 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
+- json5e-index
 ---
 # Index of Objects
 
+- [Animated Ghaunadaur Statue](./animated-ghaunadaur-statue-wdmm.md)
 - [Ballista](./ballista.md)
 - [Boilerdrak](./boilerdrak-dsotdq.md)
 - [Cannon](./cannon.md)

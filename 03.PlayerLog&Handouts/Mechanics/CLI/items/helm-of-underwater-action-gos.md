@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/uncommon
-aliases: 
+aliases:
 - "Helm of Underwater Action"
 ---
 # Helm of Underwater Action

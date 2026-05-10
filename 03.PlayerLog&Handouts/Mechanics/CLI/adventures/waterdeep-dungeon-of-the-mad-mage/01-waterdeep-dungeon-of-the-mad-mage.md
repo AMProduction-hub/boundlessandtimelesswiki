@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Waterdeep: Dungeon of the Mad Mage
+- "Waterdeep: Dungeon of the Mad Mage"
 ---
 # Waterdeep: Dungeon of the Mad Mage
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 1* 
 
-![Adventurers are drawn to U...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dungeon-of-the-mad-mage/img/cover.webp#center "Adventurers are drawn to Undermountain like moths to a flame. Cynthia Sheppard illustrates a host of villains vying for control of the dungeon's depths. Heroes, watch your step!")
+![Adventurers are drawn to Undermountain like moths to a flame. Cynthia Sheppard illustrates a host of villains vying for control of the dungeon's depths. Heroes, watch your step!](03.PlayerLog&Handouts/Mechanics/CLI/adventures/waterdeep-dungeon-of-the-mad-mage/img/cover.webp#center)
 
 ## Undermountain Overview
 
@@ -100,7 +101,7 @@ More than one thousand years ago, the wizard [Halaster Blackcloak](03.PlayerLog&
 
 With the Seven guarding his back, Halaster tapped into his immense power to summon beings from other planes of existence to help him build a wizard's tower to dwarf all other wizard's towers. But as the seasons wore on, the Seven saw less and less of their enigmatic master. Halaster continued to use fell creatures from distant planes for tunneling and other construction beneath his tower, and the wizard kept the nature of most of his underground dealings a secret from the Seven. Eventually, Halaster's exploration broke into the Underhalls, a complex of tunnels and rooms built by the dwarves around a mithral mine beneath Mount Waterdeep. The architects of the Underhalls, the Melairkyn clan, had long ago been killed or dispersed, and warring duergar and drow had settled in the ruins. Halaster began a crusade against both the drow and the duergar, participating in wild hunts with extraplanar allies through the tunnels. The stubborn duergar dug in until the mithral was largely mined out; then they abandoned the Underhalls, leaving the drow to fight Halaster and his minions alone. The Mad Mage rounded up the remaining dark elves, trapping some of their souls for use in his dark magic, while twisting the bodies and enslaving the minds of others. Once he had wrung the drow of their usefulness, [Halaster Blackcloak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/halaster-blackcloak-wdmm.md) tunneled on, ever downward, indulging his inexplicable compulsion for delving deeper and deeper into the mountain.
 
-Using his underground complex as a base of operations, Halaster traveled to other planes and distant lands, collecting strange and dangerous creatures to live as prisoners, servants, or guardians in Undermountain. Populating and defending the dungeon became an obsession. Over time, the mage's preoccupation with Undermountain electrified his eccentricities and infused him with an air of unconcealable madness.
+Using his underground complex as a base of operations, Halaster traveled to other planes and distant lands, collecting strange and dangerous creatures to live as prisoners, servants, or guardians in Undermountain. Populating and defending the dungeon became an obsession. Over time, the mage's preoccupation with Undermountain electrified his eccentricities and infused him with an air of inconcealable madness.
 
 Halaster's apprentices came and went. Some left only to return—inexplicably drawn down into Undermountain's depths. Others remained by his side. As they began dedicating more attention to their private obsessions, madness settled into their souls as well.
 

@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/warlock/celestial
 aliases:
-- The Celestial
+- "The Celestial"
 ---
 # The Celestial
 *[Warlock](./warlock.md): Otherworldly Patron*  
@@ -43,16 +44,13 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### The Celestial (Level 1)
-
 Your patron is a powerful being of the Upper Planes. You have bound yourself to an ancient empyrean, solar, ki-rin, unicorn, or other entity that resides in the planes of everlasting bliss. Your pact with that being allows you to experience the barest touch of the holy light that illuminates the multiverse.
 
 Being connected to such power can cause changes in your behavior and beliefs. You might find yourself driven to annihilate the undead, to defeat fiends, and to protect the innocent. At times, your heart might also be filled with a longing for the celestial realm of your patron, and a desire to wander that paradise for the rest of your days. But you know that your mission is among mortals for now, and that your pact binds you to bring light to the dark places of the world.
 
-#### Expanded Spell List
-_Source: Xanathar's Guide to Everything_
+## Subclass Features
+
+### Expanded Spell List (Level 1)
 
 The Celestial lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
 

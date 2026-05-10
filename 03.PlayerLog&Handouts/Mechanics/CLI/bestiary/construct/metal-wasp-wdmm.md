@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Metal Wasp
+- "Metal Wasp"
 ---
-# [Metal Wasp](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/metal-wasp-wdmm.md)
+# [Metal Wasp](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/metal-wasp-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 174*  
 
 ```statblock
@@ -21,7 +22,7 @@ aliases:
 "alignment": "Unaligned"
 "ac": !!int "16"
 "ac_class": "natural armor"
-"hp": !!int "13"
+"hp": !!int "24"
 "hit_dice": "3d8"
 "modifier": !!int "2"
 "stats":
@@ -38,11 +39,12 @@ aliases:
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution\
       \ saving throw, taking 10 (3d6) poison damage on a failed save, or half as\
       \ much damage on a successful one. If the poison damage reduces the target to\

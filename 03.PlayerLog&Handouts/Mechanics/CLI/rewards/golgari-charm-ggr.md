@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-reward
+cssclasses:
+- json5e-reward
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/reward/charm
 aliases:
-- Golgari Charm
+- "Golgari Charm"
 ---
 # Golgari Charm
 *Charm*  

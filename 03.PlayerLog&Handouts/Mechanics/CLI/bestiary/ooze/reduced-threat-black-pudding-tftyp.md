@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reduced-Threat Black Pudding
+- "Reduced-Threat Black Pudding"
 ---
-# [Reduced-Threat Black Pudding](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\ooze/reduced-threat-black-pudding-tftyp.md)
+# [Reduced-Threat Black Pudding](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/reduced-threat-black-pudding-tftyp.md)
 *Source: Tales from the Yawning Portal p. 113*  
 
 ```statblock
@@ -37,7 +38,8 @@ aliases:
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 8"
 "languages": ""
 "cr": "4"
 "traits":
@@ -50,7 +52,7 @@ aliases:
       \ squeezing."
     "name": "Amorphous"
   - "desc": "A creature that touches the pudding or hits it with a melee attack while\
-      \ within 5 feet of it takes 4 (d8) acid damage. Any nonmagical weapon made\
+      \ within 5 feet of it takes 4 (1d8) acid damage. Any nonmagical weapon made\
       \ of metal or wood that hits the pudding corrodes. After dealing damage, the\
       \ weapon takes a permanent and cumulative −1 penalty to damage rolls. If its\
       \ penalty drops to −5, the weapon is destroyed. Nonmagical ammunition made of\
@@ -61,7 +63,7 @@ aliases:
       \ without needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) bludgeoning damage plus 18 (4d8) acid damage. In addition, nonmagical\
       \ armor worn by the target is partly dissolved and takes a permanent and cumulative\
       \ −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces\

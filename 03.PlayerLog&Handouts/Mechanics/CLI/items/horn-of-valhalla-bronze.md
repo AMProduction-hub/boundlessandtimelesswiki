@@ -1,15 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
+- ttrpg-cli/item/gear/instrument
 - ttrpg-cli/item/rarity/very-rare
 - ttrpg-cli/item/tier/major
-aliases: 
+aliases:
 - "Horn of Valhalla, Bronze"
 ---
 # Horn of Valhalla, Bronze
-*Wondrous item, major, very rare*  
+*Wondrous item, instrument ([horn](03.PlayerLog&Handouts/Mechanics/CLI/items/horn.md)), major, very rare*  
 
 
 - **Weight**: 2.0 lbs.

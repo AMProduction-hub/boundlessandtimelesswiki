@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Aurumvorax
+- "Aurumvorax"
 ---
-# [Aurumvorax](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/aurumvorax-jttrc.md)
+# [Aurumvorax](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/aurumvorax-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 105*  
 
 Early in life, aurumvoraxes cooperate with siblings and their den leader parents, digging tunnels in search of metal and other burrowing prey. As they grow to adulthood, aurumvoraxes hunt on their own, carving out territories they viciously defend.
@@ -41,15 +42,16 @@ Alone or in small groups, aurumvoraxes dig deep in search of precious metals. Su
   - !!int "6"
 "speed": "30 ft., burrow 20 ft."
 "saves":
-  - "strength": "+4"
-  - "constitution": "+3"
+  - "strength": !!int "4"
+  - "constitution": !!int "3"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
 "condition_immunities": "[petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": ""
 "cr": "2"
 "traits":
@@ -59,11 +61,11 @@ Alone or in small groups, aurumvoraxes dig deep in search of precious metals. Su
 "actions":
   - "desc": "The aurumvorax makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) piercing damage. If the target is a creature wearing armor of\
       \ any type, the aurumvorax regains 4 (1d6 + 1) hit points."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage. If the target is a Medium or smaller creature,\
       \ it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 12). Until this grapple ends, the aurumvorax can't use its Claw\

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 aliases:
-- Chapter 2: Rumblings
+- "Chapter 2: Rumblings"
 ---
 # Chapter 2: Rumblings
 *Source: Storm King's Thunder, p. 37* 
@@ -169,7 +170,7 @@ If the players try to keep the special NPCs out of the fight, you can endanger t
 
 #### Treasure
 
-Drufi's ivory horn is worth 750 gp intact. The frost giant also has fifteen 100 gp gemstones set into her helm that can be pried loose. Each other frost giant carries a sack that holds `d6` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction, as well as `d4` art objects worth 25 gp each (roll on the appropriate Art Objects table in chapter 7 of the "Dungeon Master's Guide"). The winter wolves have no treasure.
+Drufi's ivory horn is worth 750 gp intact. The frost giant also has fifteen 100 gp gemstones set into her helm that can be pried loose. Each other frost giant carries a sack that holds `1d6` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction, as well as `1d4` art objects worth 25 gp each (roll on the appropriate Art Objects table in chapter 7 of the "Dungeon Master's Guide"). The winter wolves have no treasure.
 
 #### Development
 
@@ -223,7 +224,7 @@ The *Moon Maiden* is anchored in the bay and can be reached by rowboat. Eight cr
 
 ##### Treasure
 
-Captain Thunderhale keeps a wooden treasure chest in his ship's hold. It's locked and rigged with a poison needle trap (see the ""Sample Traps"" section in chapter 5 of the *Dungeon Master's Guide*). Thunderhale wears the key to the chest on a string around his neck. The chest contains 1,100 cp, 800 sp, 120 gp, nine 50 gp gemstones, and `d4` magic items. Determine one magic item by rolling on Magic Item Table B in chapter 7 of the "Dungeon Master's Guide", and any other magic items by rolling on Magic Item Table A.
+Captain Thunderhale keeps a wooden treasure chest in his ship's hold. It's locked and rigged with a poison needle trap (see the ""Sample Traps"" section in chapter 5 of the *Dungeon Master's Guide*). Thunderhale wears the key to the chest on a string around his neck. The chest contains 1,100 cp, 800 sp, 120 gp, nine 50 gp gemstones, and `1d4` magic items. Determine one magic item by rolling on Magic Item Table B in chapter 7 of the "Dungeon Master's Guide", and any other magic items by rolling on Magic Item Table A.
 
 #### Markham Southwell's Quest
 
@@ -465,14 +466,14 @@ If forced into melee combat, an unarmed hill giant can use its action to make tw
 
 > [!note] 
 > 
-> **Unarmed Attack.** *Melee Weapon Attack*: +8 to hit, reach 10 ft., one target. *Hit*: 12 (`3d4 + 5`) bludgeoning damage.
+> **Unarmed Attack.** *Melee Weapon Attack*: `+8` to hit, reach 10 ft., one target. *Hit*: 12 (`3d4 + 5`) bludgeoning damage.
 ^0ee
 
 After the characters deal with the threats inside the walls, townsfolk emerge from their longhouses and begin to scour the fields for stray threats. Characters who join the search find trails that lead back to the wall. By this time, the sky to the east has lightened enough to reveal the presence of giants, ogres, and goblins outside the wall. The invaders close to within 120 feet of the wall and begin hurling rocks and goblins.
 
 #### Goblin Huckers
 
-The six ogres that remain outside Goldenfields wear hobgoblin inventions called goblin huckers. Each of these contraptions is essentially a portable trebuchet strapped to a leather harness. The contraption rests on an ogre's back and shoulders, and despite its cumbersome appearance, it doesn't inhibit the wearer's mobility or fighting ability. It takes 10 minutes for someone else to attach or remove the elaborate harness, or `d6` hours if an ogre attempts to do so unassisted. The contraption is built for ogres specifically. A dwarf or similarly built humanoid that is magically transformed to Large size can don or doff a goblin hucker in 10 minutes.
+The six ogres that remain outside Goldenfields wear hobgoblin inventions called goblin huckers. Each of these contraptions is essentially a portable trebuchet strapped to a leather harness. The contraption rests on an ogre's back and shoulders, and despite its cumbersome appearance, it doesn't inhibit the wearer's mobility or fighting ability. It takes 10 minutes for someone else to attach or remove the elaborate harness, or `1d6` hours if an ogre attempts to do so unassisted. The contraption is built for ogres specifically. A dwarf or similarly built humanoid that is magically transformed to Large size can don or doff a goblin hucker in 10 minutes.
 
 The sling of the trebuchet is big enough to hurl a rock, a flaming cask of pitch, or a similarly sized projectile—but the contraption was designed to fling goblins. A goblin used as a projectile typically wears a spiked helmet, so that it deals piercing damage to the target on impact. The thirty goblins outside Goldenfields are equipped with helmets. A goblin rarely survives the experience of being hurled through the air in this fashion. The goblins here stand ready to be flung at enemies on the wall, while the ogres position themselves 300 feet away from their targets.
 
@@ -480,12 +481,12 @@ The wearer of a goblin hucker launches its payload in a high arc, so it can hit 
 
 > [!note] 
 > 
-> **Goblin Projectile.** *Ranged Weapon Attack*: +3 to hit, range 150/600 ft. (can't hit targets within 30 feet of the hucker), one target. *Hit*: 5 (`2d4`) bludgeoning damage, or 10 (`4d4`) piercing damage if the projectile is wearing a spiked helmet. *Hit or Miss*: The goblin projectile takes `d6` bludgeoning damage per 10 feet it travels through the air (maximum `20d6`).
+> **Goblin Projectile.** *Ranged Weapon Attack*: `+3` to hit, range 150/600 ft. (can't hit targets within 30 feet of the hucker), one target. *Hit*: 5 (`2d4`) bludgeoning damage, or 10 (`4d4`) piercing damage if the projectile is wearing a spiked helmet. *Hit or Miss*: The goblin projectile takes `1d6` bludgeoning damage per 10 feet it travels through the air (maximum `20d6`).
 ^0f1
 
 #### Treasure
 
-Each hill giant carries a sack that holds `d4` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction, and `d4`−1 art objects worth 250 gp each (roll on the appropriate Art Objects table in chapter 7 of the "Dungeon Master's Guide"). Each bugbear carries a pouch that holds `d6` gemstones (worth 10 gp each), and each goblin carries `d6` cp in a pouch as well as various worthless belongings (necklaces made of woven dwarf beards and strung with halfling ears, bowls made from human skulls, and the like). The ogres have no treasure.
+Each hill giant carries a sack that holds `1d4` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction, and `1d4`−1 art objects worth 250 gp each (roll on the appropriate Art Objects table in chapter 7 of the "Dungeon Master's Guide"). Each bugbear carries a pouch that holds `1d6` gemstones (worth 10 gp each), and each goblin carries `1d6` cp in a pouch as well as various worthless belongings (necklaces made of woven dwarf beards and strung with halfling ears, bowls made from human skulls, and the like). The ogres have no treasure.
 
 #### Development
 
@@ -610,11 +611,11 @@ The following locations are identified on map 2.3. Outlying ranches and farmstea
 
 #### C. Cottage
 
-Each of these plain stone cottages is home to `d4` adult [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) and `d4`−1 children (noncombatants) of various ethnicities.
+Each of these plain stone cottages is home to `1d4` adult [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) and `1d4`−1 children (noncombatants) of various ethnicities.
 
 #### F. Farm
 
-Each of these plots of land contains a modest stone farmhouse, a wooden outhouse, and a tilled garden or pasture. The farm is occupied by `d6` adult [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) and `d6`−1 children (noncombatants) of various ethnicities.
+Each of these plots of land contains a modest stone farmhouse, a wooden outhouse, and a tilled garden or pasture. The farm is occupied by `1d6` adult [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) and `1d6`−1 children (noncombatants) of various ethnicities.
 
 #### T1. Market Square and Tower
 
@@ -696,7 +697,7 @@ This old inn is boarded up and empty. Vandals have carved lewd phrases into the 
 
 This chilly, creaking, decrepit wooden rooming house is run by Tolmara Hysstryn (CN female Illuskan human [commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)), a deranged middle-aged woman. Visitors unable to secure rooms at Everwyvern House or Northshield House might be forced to bunk here, but they rarely stay longer than a night because they quickly discover that Tolmara isn't shy about spying on them through keyholes and listening at doors while chuckling to herself.
 
-Locked in the Six Windows' attic are the bones of Tolmara's dead husband, Mirak, of whom she rarely speaks. Tolmara hides the key to the attic door in her brassiere. The lock can be picked with thieves' tools and a DC 10 Dexterity check. If Mirak's bones are touched, his [skeleton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeleton.md) animates for `d4` rounds, after which it clatters to the floor. The effect repeats if the bones are touched again, unless the skeleton is reduced to 0 hit points or the bones are destroyed, in which case they can't animate. The skeleton is unarmed and deals 1 bludgeoning damage on a hit.
+Locked in the Six Windows' attic are the bones of Tolmara's dead husband, Mirak, of whom she rarely speaks. Tolmara hides the key to the attic door in her brassiere. The lock can be picked with thieves' tools and a DC 10 Dexterity check. If Mirak's bones are touched, his [skeleton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeleton.md) animates for `1d4` rounds, after which it clatters to the floor. The effect repeats if the bones are touched again, unless the skeleton is reduced to 0 hit points or the bones are destroyed, in which case they can't animate. The skeleton is unarmed and deals 1 bludgeoning damage on a hit.
 
 Any character who casts a [speak with dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md) spell on Mirak's skull and asks Mirak's spirit how he died learns that Tolmara drugged him and sealed him in a barrel with a poisonous snake, which killed him with its bite. Mirak has no clue why Tolmara killed him, and Tolmara is too addled to remember the incident or the circumstances leading up to it. Casting a [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md) spell on Tolmara restores her sanity, whereupon she confesses to murdering her husband for being unfaithful.
 
@@ -706,7 +707,7 @@ If the characters report Tolmara's crime to [Darathra Shendrel](03.PlayerLog&Han
 
 Built on a ridge that overlooks the rest of town, Boar's Rest is the stone mansion of a rich, retired adventurer named Hyuth Kolstaag (NE male Damaran human [mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage.md)). Ever since Kolstaag had the place built and moved in five years ago, his unbridled arrogance and sense of self-importance have won him no friends in Triboar. Moreover, he has been targeted by so many enemies and rivals that other townsfolk consider him a magnet for disaster. He lives surrounded by trophies of his past adventures, and rarely emerges from his estate. He never condescends to protect the town or use his wealth to aid the less fortunate.
 
-A few weeks ago, a trio of assassins slipped into town one night and tried to slay the mage in his sleep. The rest of Triboar was awakened by peals of thunder and blasts of lightning coming from Kolstaag's estate, and though the assassins survived, they were forced to steal horses from the Cart and Coin (area T8) and murder a stablehand to make good their escape. Kolstaag never offered to reimburse the Widdens family for their loss and never admitted any responsibility for the event.
+A few weeks ago, a trio of assassins slipped into town one night and tried to slay the mage in his sleep. The rest of Triboar was awakened by peals of thunder and blasts of lightning coming from Kolstaag's estate, and though the assassins survived, they were forced to steal horses from the Cart and Coin (area T8) and murder a stable hand to make good their escape. Kolstaag never offered to reimburse the Widdens family for their loss and never admitted any responsibility for the event.
 
 Since the latest attack on his person, Kolstaag has enlisted four [gargoyles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/gargoyle.md) to perch on the corners of his rooftop and serve as living sentries. To alleviate their boredom, the malevolent gargoyles swoop down on townsfolk from time to time and terrify them for the sake of amusement, which has led to some tense meetings between the lord protector and the wizard of Boar's Rest, who doesn't see the harm.
 
@@ -825,7 +826,7 @@ Any character who inspects the broken adamantine ring can, with a successful DC 
 
 #### Treasure
 
-Ildmane carries no treasure other than a [rod of the Vonindod](03.PlayerLog&Handouts/Mechanics/CLI/items/rod-of-the-vonindod-skt.md) (see appendix B). Okssort carries a sack holding `d6` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction, and a ruby pendant (worth 750 gp). The magmins and the orcs have no treasure. Each orog carries a pouch that holds `d20` gp in mixed coinage.
+Ildmane carries no treasure other than a [rod of the Vonindod](03.PlayerLog&Handouts/Mechanics/CLI/items/rod-of-the-vonindod-skt.md) (see appendix B). Okssort carries a sack holding `1d6` mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction, and a ruby pendant (worth 750 gp). The magmins and the orcs have no treasure. Each orog carries a pouch that holds `1d20` gp in mixed coinage.
 
 #### Development
 
@@ -887,7 +888,7 @@ In the aftermath of the battle, [Urgala](03.PlayerLog&Handouts/Mechanics/CLI/bes
 
 If the characters journey to Zymorven Hall, they find Lord Harthos Zymorven, but he is sad to report that his son Harthal has stolen the [giant slayer](03.PlayerLog&Handouts/Mechanics/CLI/items/giant-slayer.md). Harthal committed this act after Lord Zymorven disowned him for marrying a common thief from Yartar (whose name he doesn't recall). What Harthal did with the sword, Lord Zymorven can only imagine.
 
-The characters can travel to Yartar and search for Harthal there. After a few polite inquiries, it becomes apparent that the local thieves' guild, the Hand of Yartar, might be their best hope of finding Harthal. A character can bribe a tavern server at the Wink and Kiss (5 gp is sufficient) to learn the identity and whereabouts of a known Hand of Yartar member. They're as common as rats. If the characters obtained a letter of recommendation from Tamalin Zoar (see the "Calling Horns" section in chapter 3), they can show it to the Hand of Yartar member, who promises to have the information they need in a few hours. Otherwise, the thief demands a 500 gp payment up front. When the thief returns `d6` hours later, she tells the characters that Harthal was arrested and imprisoned for murdering a man, and the greatsword found its way into the hands of a corrupt watch captain named Tholzar Brenner (LE male Damaran human [knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/knight.md)).
+The characters can travel to Yartar and search for Harthal there. After a few polite inquiries, it becomes apparent that the local thieves' guild, the Hand of Yartar, might be their best hope of finding Harthal. A character can bribe a tavern server at the Wink and Kiss (5 gp is sufficient) to learn the identity and whereabouts of a known Hand of Yartar member. They're as common as rats. If the characters obtained a letter of recommendation from Tamalin Zoar (see the "Calling Horns" section in chapter 3), they can show it to the Hand of Yartar member, who promises to have the information they need in a few hours. Otherwise, the thief demands a 500 gp payment up front. When the thief returns `1d6` hours later, she tells the characters that Harthal was arrested and imprisoned for murdering a man, and the greatsword found its way into the hands of a corrupt watch captain named Tholzar Brenner (LE male Damaran human [knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/knight.md)).
 
 The characters can try to relieve Brenner of the weapon by force. The man has many enemies, so he usually travels with eight [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) (LE male and female humans of various ethnicities). He refuses to relinquish the weapon willingly. Under normal circumstances, the death or disappearance of a watch member would trigger an investigation, but in Captain Brenner's case, Waterbaron Nestra Ruthiol is happy to be rid of him and doesn't order one.
 

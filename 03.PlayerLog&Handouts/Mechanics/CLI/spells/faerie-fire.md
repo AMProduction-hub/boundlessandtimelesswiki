@@ -1,17 +1,19 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/class/artificer
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/feat/artificer-initiate
-- ttrpg-cli/spell/feat/divinely-favored
-- ttrpg-cli/spell/feat/magic-initiate
-- ttrpg-cli/spell/feat/strixhaven-initiate
+- ttrpg-cli/spell/feat/divinely-favored/neutral
+- ttrpg-cli/spell/feat/magic-initiate/druid-spells
+- ttrpg-cli/spell/feat/strixhaven-initiate/witherbloom-3
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/race/fairy
+- ttrpg-cli/spell/reward/charm-of-purplemancy
 - ttrpg-cli/spell/school/evocation
 - ttrpg-cli/spell/subclass/light-domain
 - ttrpg-cli/spell/subclass/swarmkeeper
@@ -23,14 +25,14 @@ tags:
 - ttrpg-cli/spell/subrace/human-mark-of-finding
 classes:
 - Artificer
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Light Domain)
 - Cleric (Twilight Domain)
 - Druid
 - Ranger (Swarmkeeper)
 - Warlock (The Archfey)
 aliases:
-- Faerie Fire
+- "Faerie Fire"
 ---
 # Faerie Fire
 *1st-level, Evocation*  
@@ -45,6 +47,6 @@ Each object in a 20-foot cube within range is outlined in blue, green, or violet
 
 Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible).
 
-**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Cleric (Light Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-light-domain.md); [Cleric (Twilight Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-twilight-domain-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Archfey)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-archfey.md); [Ranger (Swarmkeeper)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-swarmkeeper-tce.md "subclass=TCE"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Light Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-light-domain.md); [Cleric (Twilight Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-twilight-domain-tce.md "subclass=TCE"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger (Swarmkeeper)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-swarmkeeper-tce.md "subclass=TCE"); [Warlock (The Archfey)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-archfey.md)
 
 *Source: Player's Handbook p. 239. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

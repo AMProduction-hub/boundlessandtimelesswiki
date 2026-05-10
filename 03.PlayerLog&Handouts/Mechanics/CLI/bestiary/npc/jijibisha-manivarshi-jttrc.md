@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/13
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Jijibisha Manivarshi
+- "Jijibisha Manivarshi"
 ---
-# [Jijibisha Manivarshi](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/jijibisha-manivarshi-jttrc.md)
+# [Jijibisha Manivarshi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jijibisha-manivarshi-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 128*  
 
 Jijibisha Manivarshi, a vicious soul from the land's past, lurks in the nearby forest. Long ago she made a deal with wicked otherworldly forces that gave her longevity and fiendish powers, a bargain that ultimately resulted in the ruin of Manivarsha.
@@ -50,13 +51,16 @@ Despite her fiendish powers, she looks like an ancient, withered human.
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 17"
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 17"
 "languages": "Abyssal, Infernal, telepathy 120 ft."
 "cr": "13"
 "traits":
   - "desc": "Jijibisha's innate spellcasting ability is Charisma (spell save DC 17).\
       \ Jijibisha can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
+      \n**At will:** [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
       \ [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
       \ [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md), [detect\
       \ magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md), [detect\
@@ -64,9 +68,9 @@ Despite her fiendish powers, she looks like an ancient, withered human.
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
       \ (self only), [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\
-      \n3/day each: [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
+      \n**3/day each:** [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md), [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)\n\
-      \n1/day each: [fire storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-storm.md),\
+      \n**1/day each:** [fire storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-storm.md),\
       \ [mass suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-suggestion.md)"
     "name": "Innate Spellcasting"
   - "desc": "Jijibisha has advantage on saving throws against spells and other magical\
@@ -77,7 +81,7 @@ Despite her fiendish powers, she looks like an ancient, withered human.
 "actions":
   - "desc": "Jijibisha can use its Hypnotic Gaze and makes three melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with\
       \ two hands."
     "name": "Longsword"

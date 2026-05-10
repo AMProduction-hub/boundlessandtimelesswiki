@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Husk Zombie
+- "Husk Zombie"
 ---
-# [Husk Zombie](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/husk-zombie-egw.md)
+# [Husk Zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/husk-zombie-egw.md)
 *Source: Explorer's Guide to Wildemount p. 293*  
 
 The wastes of Eastern Wynandir retain many curses and corruptions from the time of the Calamity, the worst of which pervert the sanctity of death. One such curse manifests as a terrible roving fog that draws the corpses of the fallen to rise as husk zombies—resilient undead of frightening speed and bloodlust. As well, some of the more heinous fiends that walk these scarred lands feed on the life force of the living, leaving these terrible undead in their wake.
@@ -34,11 +35,12 @@ The wastes of Eastern Wynandir retain many curses and corruptions from the time 
   - !!int "5"
 "speed": "35 ft."
 "saves":
-  - "constitution": "+5"
-  - "wisdom": "+0"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "0"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 8"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": "understands the languages it knew in life but can't speak"
 "cr": "1"
 "traits":
@@ -53,7 +55,7 @@ The wastes of Eastern Wynandir retain many curses and corruptions from the time 
   - "desc": "The zombie makes two claw attacks. For each of these attacks that reduces\
       \ a creature to 0 hit points, the zombie can make an additional claw attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Claw"
 "source":

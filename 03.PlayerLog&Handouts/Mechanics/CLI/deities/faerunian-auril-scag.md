@@ -1,16 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/nature
 - ttrpg-cli/domain/tempest
-aliases: 
-- Auril
-- The Frostmaiden
-- Lady Frostkiss
-- Icedawn
+aliases:
+- "Auril"
+- "The Frostmaiden"
+- "Lady Frostkiss"
+- "Icedawn"
 ---
 # Auril
 *Source: Sword Coast Adventurer's Guide p. 21* 

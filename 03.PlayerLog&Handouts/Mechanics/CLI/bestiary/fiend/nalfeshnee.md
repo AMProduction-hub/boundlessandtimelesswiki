@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/13
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nalfeshnee
+- "Nalfeshnee"
 ---
-# [Nalfeshnee](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/nalfeshnee.md)
-*Source: Monster Manual p. 62, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Nalfeshnee](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/nalfeshnee.md)
+*Source: Monster Manual p. 62. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 The nalfeshnee is one of the most grotesque demons-a corpulent mockery of ape and boar standing twice the height of a human, with feathered wings that seem too small for its bloated body. These brutish features conceal a remarkable intelligence and cunning.
 
@@ -167,13 +168,13 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > 
 > Some demons can have an action option that allows them to summon other demons. Summon Demon (1/Day). The demon chooses what to summon and attempts a magical summoning.
 > 
-> - A balor has a 50 percent chance of summoning `d8` vrocks, `d6` hezrous, `d4` glabrezus, `d3` nalfeshnees, `d2` mariliths, or one goristro.  
+> - A balor has a 50 percent chance of summoning `1d8` vrocks, `1d6` hezrous, `1d4` glabrezus, `1d3` nalfeshnees, `1d2` mariliths, or one goristro.  
 > - A barlgura has a 30 percent chance of summoning one barlgura.  
 > - A chasme has a 30 percent chance of summoning one chasme.  
-> - A glabrezu has a 30 percent chance of summoning `d3` vrocks, `d2` hezrous, or one glabrezu.  
+> - A glabrezu has a 30 percent chance of summoning `1d3` vrocks, `1d2` hezrous, or one glabrezu.  
 > - A hezrou has a 30 percent chance of summoning `2d6` dretches or one hezrou.  
-> - A marilith has a 50 percent chance of summoning `d6` vrocks, `d4` hezrous, `d3` glabrezus, `d2` nalfeshnees, or one marilith.  
-> - A nalfeshnee has a 50 percent chance of summoning `d4` vrocks, `d3` hezrous, `d2` glabrezus, or one nalfeshnee.  
+> - A marilith has a 50 percent chance of summoning `1d6` vrocks, `1d4` hezrous, `1d3` glabrezus, `1d2` nalfeshnees, or one marilith.  
+> - A nalfeshnee has a 50 percent chance of summoning `1d4` vrocks, `1d3` hezrous, `1d2` glabrezus, or one nalfeshnee.  
 > - A vrock has a 30 percent chance of summoning `2d4` dretches or one vrock.  
 > - A yochlol has a 50 percent chance of summoning one yochlol.  
 > 
@@ -205,15 +206,16 @@ Demonologists organize the chaotic distribution of demons into broad categories 
   - !!int "15"
 "speed": "20 ft., fly 30 ft."
 "saves":
-  - "constitution": "+11"
-  - "intelligence": "+9"
-  - "wisdom": "+6"
-  - "charisma": "+7"
+  - "constitution": !!int "11"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "7"
 "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 11"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 11"
 "languages": "Abyssal, telepathy 120 ft."
 "cr": "13"
 "traits":
@@ -224,10 +226,10 @@ Demonologists organize the chaotic distribution of demons into broad categories 
   - "desc": "The nalfeshnee uses Horror Nimbus if it can. It then makes three attacks:\
       \ one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 32 (5d10 + 5) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:*\
       \ 15 (3d6 + 5) slashing damage."
     "name": "Claw"
   - "desc": "The nalfeshnee magically emits scintillating, multicolored light. Each\
@@ -243,11 +245,6 @@ Demonologists organize the chaotic distribution of demons into broad categories 
     "name": "Teleport"
 "source":
   - "MM"
-  - "TftYP"
-  - "ToA"
-  - "WDMM"
-  - "BGDIA"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/nalfeshnee.webp"
 ```
 ^statblock

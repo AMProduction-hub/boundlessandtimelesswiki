@@ -1,14 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/feat
 aliases:
-- Shield Master
+- "Shield Master"
 ---
 # Shield Master
 *Source: Player's Handbook p. 170*  
+
 You use shields not just for protection but also for offense. You gain the following benefits while you are wielding a [shield](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md):
 
 - If you take the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on your turn, you can use a bonus action to try to [shove](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Shove) a creature within 5 feet of you with your shield.  

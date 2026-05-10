@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/ranger/horizon-walker
 aliases:
-- Horizon Walker
+- "Horizon Walker"
 ---
 # Horizon Walker
 *[Ranger](./ranger.md): Ranger Archetype*  
@@ -47,11 +48,9 @@ aliases:
 > 
 > You can't walk to the horizon, because it keeps on getting farther away. Boom! Did I just blow your mind? I did, didn't I?
 
-## Class Features
-
-### Horizon Walker (Level 3)
-
 Horizon Walkers guard the world against threats that originate from other planes or that seek to ravage the mortal realm with otherworldly magic. They seek out planar portals and keep watch over them, venturing to the Inner Planes and the Outer Planes as needed to pursue their foes. These rangers are also friends to any forces in the multiverse—especially benevolent dragons, fey, and elementals—that work to preserve life and the order of the planes.
+
+## Subclass Features
 
 ### Horizon Walker Magic (Level 3)
 
@@ -80,7 +79,7 @@ See the "Planar Travel" section in chapter 2 of the Dungeon Master's Guide for e
 
 At 3rd level, you learn to draw on the energy of the multiverse to augment your attacks.
 
-As a bonus action, choose one creature you can see within 30 feet of you. The next time you hit that creature on this turn with a weapon attack, all damage dealt by the attack becomes force damage, and the creature takes an extra `d8` force damage from the attack. When you reach 11th level in this class, the extra damage increases to `2d8`.
+As a bonus action, choose one creature you can see within 30 feet of you. The next time you hit that creature on this turn with a weapon attack, all damage dealt by the attack becomes force damage, and the creature takes an extra `1d8` force damage from the attack. When you reach 11th level in this class, the extra damage increases to `2d8`.
 
 ### Ethereal Step (Level 7)
 

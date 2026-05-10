@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reef Shark
+- "Reef Shark"
 ---
-# [Reef Shark](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/reef-shark.md)
-*Source: Monster Manual p. 336, Tomb of Annihilation, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Reef Shark](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/reef-shark.md)
+*Source: Monster Manual p. 336. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Smaller than giant sharks and hunter sharks, reef sharks inhabit shallow waters and coral reefs, gathering in small packs to hunt. A full-grown specimen measures 6 to 10 feet long.
 
@@ -38,7 +39,8 @@ Smaller than giant sharks and hunter sharks, reef sharks inhabit shallow waters 
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "blindsight 30 ft., passive Perception 12"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., passive Perception 12"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -49,15 +51,11 @@ Smaller than giant sharks and hunter sharks, reef sharks inhabit shallow waters 
   - "desc": "The shark can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) piercing damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "ToA"
-  - "GoS"
-  - "EGW"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/reef-shark.webp"
 ```
 ^statblock

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Omens of Klothys
+- "Omens of Klothys"
 ---
 # Omens of Klothys
 *Source: Mythic Odysseys of Theros p. 111* 
 
 **Omens of Klothys**
-
-`dice: [](omens-of-klothys-mot.md#^omens-of-klothys)`
 
 | dice: d6 | dice: d100 | Omen of Klothys |
 |----------|------------|-----------------|

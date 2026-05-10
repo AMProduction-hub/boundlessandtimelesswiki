@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/scag
 aliases:
-- Uthgardt Tribe Member
+- "Uthgardt Tribe Member"
 ---
 # Uthgardt Tribe Member
 *Source: Sword Coast Adventurer's Guide p. 153*  

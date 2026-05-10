@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sahuagin Hatchling Swarm
+- "Sahuagin Hatchling Swarm"
 ---
-# [Sahuagin Hatchling Swarm](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/sahuagin-hatchling-swarm-gos.md)
+# [Sahuagin Hatchling Swarm](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/sahuagin-hatchling-swarm-gos.md)
 *Source: Ghosts of Saltmarsh p. 250*  
 
 Roiling through the waters in The Final Enemy, these swarms of sahuagin hatchlings are dangerous to any creatures they encounter. Other sahuagin avoid the swarms, while the individual members devour one another until only the strongest hatchlings are left alive to grow to maturity.
@@ -41,7 +42,8 @@ Roiling through the waters in The Final Enemy, these swarms of sahuagin hatchlin
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": ""
 "cr": "3"
 "traits":
@@ -59,8 +61,8 @@ Roiling through the waters in The Final Enemy, these swarms of sahuagin hatchlin
   - "desc": "The swarm can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 0 ft., one creature in the\
-      \ swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 0 ft., one creature in the\
+      \ swarm's space. *Hit:* 14 (4d6) piercing damage, or 7 (2d6) piercing damage\
       \ if the swarm has half of its hit points or fewer."
     "name": "Bites"
 "source":

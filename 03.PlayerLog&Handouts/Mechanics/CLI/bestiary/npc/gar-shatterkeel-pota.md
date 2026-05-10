@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gar Shatterkeel
+- "Gar Shatterkeel"
 ---
-# [Gar Shatterkeel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/gar-shatterkeel-pota.md)
+# [Gar Shatterkeel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/gar-shatterkeel-pota.md)
 *Source: Princes of the Apocalypse p. 208*  
 
 Gar Shatterkeel is the water prophet of Elemental Evil and the dour leader of the Crushing Wave cult. He is embittered by a life of suffering at the hands of others. Pirates killed his family when he was young, he was forced into servitude aboard a merchant ship, and then another band of pirates left him to die at sea, where he lost his arm to a shark. Gar sees the elemental power of water as the only thing of value in his life and has gathered others who feel as he does.
@@ -47,27 +48,29 @@ When it becomes clear that the Temple of the Crushing Wave is no longer secure, 
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+8"
 "damage_resistances": "cold"
+"gear":
+  - "[drown](03.PlayerLog&Handouts/Mechanics/CLI/items/drown-pota.md)"
 "senses": "passive Perception 14"
 "languages": "Aquan, Common"
 "cr": "9"
 "traits":
   - "desc": "Gar is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell\
       \ save DC 16, +8 to hit with spell attacks). He has the following druid spells\
-      \ prepared:\n\nCantrips (at will): [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md),\
+      \ prepared:\n\n**Cantrips (at will):** [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md),\
       \ [resistance](03.PlayerLog&Handouts/Mechanics/CLI/spells/resistance.md), [shape\
       \ water](03.PlayerLog&Handouts/Mechanics/CLI/spells/shape-water-xge.md)\n\n\
-      1st level (4 slots): [create or destroy water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-or-destroy-water.md),\
+      **1st level (4 slots):** [create or destroy water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-or-destroy-water.md),\
       \ [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkvision.md),\
+      \n**2nd level (3 slots):** [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkvision.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [protection from poison](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-poison.md)\n\
-      \n3rd level (3 slots): [call lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/call-lightning.md),\
+      \n**3rd level (3 slots):** [call lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/call-lightning.md),\
       \ [sleet storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleet-storm.md),\
       \ [tidal wave](03.PlayerLog&Handouts/Mechanics/CLI/spells/tidal-wave-xge.md)\n\
-      \n4th level (3 slots): [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md),\
-      \ [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md)\n\n5th\
-      \ level (1 slots): [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)"
+      \n**4th level (3 slots):** [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md),\
+      \ [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md)\n\n**5th\
+      \ level (1 slots):** [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)"
     "name": "Spellcasting"
   - "desc": "Gar can breathe air and water."
     "name": "Amphibious"
@@ -82,13 +85,14 @@ When it becomes clear that the Temple of the Crushing Wave is no longer secure, 
 "actions":
   - "desc": "Gar makes two melee attacks, one with his claw and one with [Drown](03.PlayerLog&Handouts/Mechanics/CLI/items/drown-pota.md)."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d6 + 2) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13). Until the grapple ends, Gar can't attack other creatures with\
       \ his claw."
     "name": "Claw"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 4 (d8) cold damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 6 (1d6 + 3) piercing damage plus 4 (1d8) cold\
+      \ damage."
     "name": "Drown"
 "lair_actions":
   - "desc": "If Gar is in the water node while [Olhydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/olhydra-pota.md)\
@@ -100,9 +104,8 @@ When it becomes clear that the Temple of the Crushing Wave is no longer secure, 
       \ while [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
       \ on a spell cast as a lair action. His favorite use of this capability is casting\
       \ [inflict wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/inflict-wounds.md)\
-      \ or [call lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/call-lightning.md)."
-    "name": ""
-  - "desc": "If Gar casts [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md)\
+      \ or [call lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/call-lightning.md).\n\
+      \nIf Gar casts [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md)\
       \ using this lair action, he regains the maximum number of hit points from the\
       \ spell (28)."
     "name": ""

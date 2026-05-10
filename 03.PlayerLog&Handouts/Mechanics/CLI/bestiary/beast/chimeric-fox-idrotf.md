@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Chimeric Fox
+- "Chimeric Fox"
 ---
-# [Chimeric Fox](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/chimeric-fox-idrotf.md)
+# [Chimeric Fox](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/chimeric-fox-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 246*  
 
 The white arctic foxes of Icewind Dale live in burrows and are acclimated to cold weather. They prowl the outskirts of Ten-Towns and nearby forests for food, hunting hares or stealing fish. These timid creatures avoid contact with humanoids, but they are sometimes used as mounts by chwingas.
@@ -38,7 +39,8 @@ The white arctic foxes of Icewind Dale live in burrows and are acclimated to col
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": ""
 "cr": "0"
 "traits":
@@ -49,7 +51,7 @@ The white arctic foxes of Icewind Dale live in burrows and are acclimated to col
       \ checks that rely on hearing."
     "name": "Keen Hearing"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 1 piercing damage."
     "name": "Bite"
 "source":

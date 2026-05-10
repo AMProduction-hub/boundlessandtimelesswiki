@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Rakdos Villains
+- "Rakdos Villains"
 ---
 # Rakdos Villains
 *Source: Guildmasters' Guide to Ravnica p. 152* 
 
 **Rakdos Villains**
-
-`dice: [](rakdos-villains-ggr.md#^rakdos-villains)`
 
 | dice: d8 | Villain |
 |----------|---------|

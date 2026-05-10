@@ -1,23 +1,22 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Mountain Encounters (Levels 1—4)
+- "Mountain Encounters (Levels 1—4)"
 ---
 # Mountain Encounters (Levels 1—4)
 *Source: Xanathar's Guide to Everything p. 104* 
 
 **Mountain Encounters (Levels 1—4)**
 
-`dice: [](mountain-encounters-levels-14-xge.md#^mountain-encounters-levels-14)`
-
 | dice: d100 | Encounter |
 |------------|-----------|
 | 01-02 | 1 [eagle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/eagle.md) |
-| 03-05 | `d3` [swarms of bats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-bats.md) |
-| 06-08 | `d6` [goats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/goat.md) |
+| 03-05 | `1d3` [swarms of bats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-bats.md) |
+| 06-08 | `1d6` [goats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/goat.md) |
 | 09-11 | `1d10 + 5` [tribal warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md) |
 | 12-14 | `1d6 + 3` [pteranodons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/pteranodon.md) |
 | 15-17 | `1d8 + 1` [winged kobolds](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/winged-kobold.md) |
@@ -25,7 +24,7 @@ aliases:
 | 21-24 | Stairs chiseled into the side of the mountain that climb `3d20 + 40` feet before ending abruptly |
 | 25-27 | `2d10` [stirges](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/stirge.md) |
 | 28-30 | `2d4` [aarakocra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/aarakocra.md) |
-| 31-33 | `2d6` dwarf soldiers ([guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md)) with `d6` [mules](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/mule.md) laden with iron ore |
+| 31-33 | `2d6` dwarf soldiers ([guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md)) with `1d6` [mules](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/mule.md) laden with iron ore |
 | 34-36 | 1 [giant eagle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-eagle.md) |
 | 37-38 | A small shrine dedicated to a lawful neutral god, perched on a stone outcropping |
 | 39-41 | `2d8 + 1` [blood hawks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/blood-hawk.md) |
@@ -37,7 +36,7 @@ aliases:
 | 56 | 1 [hell hound](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hell-hound.md) |
 | 57 | 1 [druid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md) |
 | 58-59 | 1 [peryton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/peryton.md) |
-| 60-61 | `d2` [hippogriffs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hippogriff.md) |
+| 60-61 | `1d2` [hippogriffs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hippogriff.md) |
 | 62 | 1 [manticore](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/manticore.md) |
 | 63-64 | `1d6 + 2` [scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md) |
 | 65-67 | Enormous footprints left by a giant, which head into the mountain peaks |
@@ -45,13 +44,13 @@ aliases:
 | 74-75 | 1 [giant elk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-elk.md) |
 | 76-77 | 1 [veteran](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md) |
 | 78-79 | 1 [orc Eye of Gruumsh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc-eye-of-gruumsh.md) |
-| 80 | `d4` [harpies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/harpy.md) |
+| 80 | `1d4` [harpies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/harpy.md) |
 | 81 | 1 [ogre](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md) |
 | 82 | 1 [griffon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/griffon.md) |
 | 83 | 1 [basilisk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/basilisk.md) |
 | 84-85 | 1 [saber-toothed tiger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/saber-toothed-tiger.md) |
 | 86-90 | A sparkling stream of water spilling from a crevice |
-| 91 | `d2` [ettins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ettin.md) |
+| 91 | `1d2` [ettins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ettin.md) |
 | 92 | 1 [cyclops](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/cyclops.md) |
 | 93 | 1 [troll](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/troll.md) |
 | 94 | 1 [galeb duhr](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/galeb-duhr.md) |

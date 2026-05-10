@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Undead Tree
+- "Undead Tree"
 ---
-# [Undead Tree](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/undead-tree-bgdia.md)
+# [Undead Tree](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/undead-tree-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 109*  
 
 ```statblock
@@ -46,10 +47,10 @@ aliases:
 "actions":
   - "desc": "The tree makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 16 (3d6 + 6) bludgeoning damage."
     "name": "Slam"
-  - "desc": "Ranged Weapon Attack: +10 to hit, range 60/180 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +10 to hit, range 60/180 ft., one target. *Hit:*\
       \ 28 (4d10 + 6) bludgeoning damage."
     "name": "Rock"
   - "desc": "The tree magically animates one or two trees it can see within 60 feet\

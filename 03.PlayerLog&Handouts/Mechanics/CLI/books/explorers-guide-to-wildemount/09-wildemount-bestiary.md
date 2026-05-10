@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Wildemount Bestiary
+- "Wildemount Bestiary"
 ---
 # Wildemount Bestiary
 *Source: Explorer's Guide to Wildemount, p. 281* 
 
-![Adventurers confront a fie...](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/141-07-01.webp#center "Adventurers confront a fiendish udaak that haunts the edges of civilization in Eastern Wynandir")
+![Adventurers confront a fiendish udaak that haunts the edges of civilization in Eastern Wynandir](03.PlayerLog&Handouts/Mechanics/CLI/books/explorers-guide-to-wildemount/img/141-07-01.webp#center)
 
 > [!quote] A quote from Unknown Righteous Brand soldier  
 > 

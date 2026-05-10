@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 aliases:
-- Travel at Sea
+- "Travel at Sea"
 ---
 # Travel at Sea
 *Source: Ghosts of Saltmarsh p. 199* 
@@ -49,7 +50,7 @@ Use the passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/s
 
 ### Repair (Bosun Only)
 
-At the end of the day, the ship's bosun can make a Strength check using [carpenter's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/carpenters-tools.md). On a 15 or higher, each damaged component regains hit points equal to `d6` + the crew's quality score (minimum of 1 hit point). A component other than the hull that had 0 hit points becomes functional again.
+At the end of the day, the ship's bosun can make a Strength check using [carpenter's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/carpenters-tools.md). On a 15 or higher, each damaged component regains hit points equal to `1d6` + the crew's quality score (minimum of 1 hit point). A component other than the hull that had 0 hit points becomes functional again.
 
 ### Stealth (Captain Only)
 
@@ -77,8 +78,6 @@ To determine hazards at random, roll a `d20` at the start of each day of an ocea
 
 **Hazard Type**
 
-`dice: [](travel-at-sea-gos.md#^hazard-type)`
-
 | dice: d20 | Hazard Type |
 |-----------|-------------|
 | 1–3 | Crew conflict |
@@ -89,8 +88,6 @@ To determine hazards at random, roll a `d20` at the start of each day of an ocea
 ^hazard-type
 
 **Hazard DC**
-
-`dice: [](travel-at-sea-gos.md#^hazard-dc)`
 
 | dice: d20 | Hazard DC |
 |-----------|-----------|
@@ -133,7 +130,7 @@ Determine how many of the group's checks succeeded—the officers' and the crew'
 
 | Result | Effect |
 |--------|--------|
-| Total Success | The crew's quality score increases by 1 for `d4` days and the hazard ends. |
+| Total Success | The crew's quality score increases by 1 for `1d4` days and the hazard ends. |
 | Success | The hazard ends. |
 | Failure | The crew's quality score decreases by 1. |
 | Total Failure | The crew's quality score decreases by 1, and the crew immediately mutinies. |
@@ -172,9 +169,9 @@ Determine how many of the group's checks succeeded—the officers' and the crew'
 | Result | Effect |
 |--------|--------|
 | Total Success | The fire is extinguished with nothing beyond cosmetic damage. |
-| Success | The fire is extinguished, but the hull and `d3` other random components take `6d6` fire damage. |
-| Failure | The hull and `d3` other random components take `6d6` fire damage, and the fire continues. Make another set of checks. |
-| Total Failure | The crew's quality score decreases by 1 due to injuries, while the hull and `d3` other random components take `6d6` fire damage. The fire continues. Make another set of checks. |
+| Success | The fire is extinguished, but the hull and `1d3` other random components take `6d6` fire damage. |
+| Failure | The hull and `1d3` other random components take `6d6` fire damage, and the fire continues. Make another set of checks. |
+| Total Failure | The crew's quality score decreases by 1 due to injuries, while the hull and `1d3` other random components take `6d6` fire damage. The fire continues. Make another set of checks. |
 ^fire-check-results
 
 ### Fog
@@ -207,7 +204,7 @@ Determine how many of the group's checks succeeded—the officers' and the crew'
 
 | Result | Effect |
 |--------|--------|
-| Total Success | The fog has no effect on navigation, and the crew's quality increases by 1 for `d3` days. |
+| Total Success | The fog has no effect on navigation, and the crew's quality increases by 1 for `1d3` days. |
 | Success | The fog has no effect on navigation. |
 | Failure | The fog slows the ship, reducing its travel pace and speed by half for the day. |
 | Total Failure | The fog slows the ship and disorients the crew, reducing the vessel's travel pace and speed by half for the day and causing it to move in a random direction. |
@@ -245,7 +242,7 @@ Determine how many of the group's checks succeeded—the officers' and the crew'
 
 | Result | Effect |
 |--------|--------|
-| Total Success | The crew's quality score increases by 1 for `d4` days, and the hazard ends. |
+| Total Success | The crew's quality score increases by 1 for `1d4` days, and the hazard ends. |
 | Success | The hazard ends. |
 | Failure | The crew's quality score decreases by 1. |
 | Total Failure | The crew's quality score decreases by 1, and the distraction caused by the crisis forces the ship to move at half speed that day. |
@@ -283,7 +280,7 @@ Determine how many of the group's checks succeeded—the officers' and the crew'
 
 | Result | Effect |
 |--------|--------|
-| Total Success | The ship survives unscathed. The crew's quality score increases by 1 for `d4` days. |
+| Total Success | The ship survives unscathed. The crew's quality score increases by 1 for `1d4` days. |
 | Success | The ship survives unscathed. |
 | Failure | The ship's components each take `4d10` bludgeoning damage. The crew's quality score decreases by 1. The ship struggles, moving at half speed that day. |
 | Total Failure | The ship's components each take `10d10` bludgeoning damage. The crew's quality score decreases by 2, and 10 percent of the crew is washed overboard and lost. The ship is blown off course and struggles to recover its bearings, moving in a random direction. |

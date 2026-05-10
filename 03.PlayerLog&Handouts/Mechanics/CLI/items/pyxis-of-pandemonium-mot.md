@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/item/rarity/legendary
-aliases: 
+aliases:
 - "Pyxis of Pandemonium"
 ---
 # Pyxis of Pandemonium
@@ -21,8 +22,6 @@ If the vessel is opened, roll on the Pyxis of Pandemonium table to determine wha
 
 Any creature that gains the benefit of a short rest from the vessel hears cloying telepathic whispers emanating from it. That creature must make a DC 17 Wisdom saving throw. On a failed save, the creature is [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) by the vessel for 1 hour. The [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) creature does everything it can to open the vessel as soon as possible. On a successful save, the creature is immune to the vessel's whispers for 24 hours.
 
-`dice: [](pyxis-of-pandemonium-mot.md#^calamity)`
-
 | dice: d8 | Calamity |
 |----------|----------|
 | 1 | **Androphagia.** Each creature within 60 feet of the vessel must succeed on a DC 17 Wisdom saving throw or go berserk for 1 minute. The berserk creature must begin its turn using the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action to make one melee or ranged attack (its choice) against the creature nearest to it. The berserk creature can repeat the save at the end of its turn, ending the effect on itself on a success. |
@@ -30,7 +29,7 @@ Any creature that gains the benefit of a short rest from the vessel hears cloyin
 | 3 | **Flood.** The vessel casts the [tsunami](03.PlayerLog&Handouts/Mechanics/CLI/spells/tsunami.md) spell at a point of the DM's choice within 120 feet of it. |
 | 4 | **Medusa's Gaze.** The vessel casts the [flesh to stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/flesh-to-stone.md) spell on each creature within 30 feet of it. |
 | 5 | **Labyrinth.** The vessel casts the [maze](03.PlayerLog&Handouts/Mechanics/CLI/spells/maze.md) spell on each creature within 30 feet of it. |
-| 6 | **Nightmare.** Tendrils of shadow seep from the vessel and form into `d4` [shadow demons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/shadow-demon.md) (see the Monster Manual for their stat block), which appear in unoccupied spaces within 30 feet of it and are hostile. |
+| 6 | **Nightmare.** Tendrils of shadow seep from the vessel and form into `1d4` [shadow demons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/shadow-demon.md) (see the Monster Manual for their stat block), which appear in unoccupied spaces within 30 feet of it and are hostile. |
 | 7 | **Swarming Insects.** The vessel casts the [insect plague](03.PlayerLog&Handouts/Mechanics/CLI/spells/insect-plague.md) spell, centered on itself and with a radius of 30 feet. |
 | 8 | **Unbridled Revel.** The vessel casts the [Otto's irresistible dance](03.PlayerLog&Handouts/Mechanics/CLI/spells/ottos-irresistible-dance.md) spell on each creature within 30 feet of it. |
 ^calamity

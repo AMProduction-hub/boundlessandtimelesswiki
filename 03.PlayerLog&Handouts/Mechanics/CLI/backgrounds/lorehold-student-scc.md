@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/scc
 aliases:
-- Lorehold Student
+- "Lorehold Student"
 ---
 # Lorehold Student
 *Source: Strixhaven: A Curriculum of Chaos p. 31*  
@@ -47,8 +48,6 @@ For a more unusual take on a Lorehold student, you could consider playing a barb
 Methodical historians and daring adventurers alike can be found among the ranks of Lorehold college. The Lorehold Personality Traits table suggests a variety of traits you might adopt for your character.
 
 **Lorehold Personality Traits**
-
-`dice: [](lorehold-student-scc.md#^lorehold-personality-traits)`
 
 | dice: d6 | Personality Trait |
 |----------|-------------------|

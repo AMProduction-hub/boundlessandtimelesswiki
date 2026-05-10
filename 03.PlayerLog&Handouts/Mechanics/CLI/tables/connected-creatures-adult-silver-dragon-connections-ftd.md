@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Connected Creatures; Adult Silver Dragon Connections
+- "Connected Creatures; Adult Silver Dragon Connections"
 ---
 # Connected Creatures; Adult Silver Dragon Connections
 *Source: Fizban's Treasury of Dragons p. 146* 
 
 **Adult Silver Dragon Connections**
-
-`dice: [](connected-creatures-adult-silver-dragon-connections-ftd.md#^adult-silver-dragon-connections)`
 
 | dice: d8 | Connected Creatures |
 |----------|---------------------|

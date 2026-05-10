@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/4
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Black Pudding
+- "Black Pudding"
 ---
-# [Black Pudding](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\ooze/black-pudding.md)
-*Source: Monster Manual p. 241, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Journeys through the Radiant Citadel, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Black Pudding](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/black-pudding.md)
+*Source: Monster Manual p. 241. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 A black pudding resembles a heaving mound of sticky black sludge. In dim passageways, the pudding appears to be little more than a blot of shadow.
 
@@ -68,7 +69,8 @@ An ooze doesn't require sleep.
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 8"
 "languages": ""
 "cr": "4"
 "traits":
@@ -76,7 +78,7 @@ An ooze doesn't require sleep.
       \ squeezing."
     "name": "Amorphous"
   - "desc": "A creature that touches the pudding or hits it with a melee attack while\
-      \ within 5 feet of it takes 4 (d8) acid damage. Any nonmagical weapon made\
+      \ within 5 feet of it takes 4 (1d8) acid damage. Any nonmagical weapon made\
       \ of metal or wood that hits the pudding corrodes. After dealing damage, the\
       \ weapon takes a permanent and cumulative −1 penalty to damage rolls. If its\
       \ penalty drops to −5, the weapon is destroyed. Nonmagical ammunition made of\
@@ -87,7 +89,7 @@ An ooze doesn't require sleep.
       \ without needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) bludgeoning damage plus 18 (4d8) acid damage. In addition, nonmagical\
       \ armor worn by the target is partly dissolved and takes a permanent and cumulative\
       \ −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces\
@@ -101,18 +103,6 @@ An ooze doesn't require sleep.
     "name": "Split"
 "source":
   - "MM"
-  - "CoS"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "IDRotF"
-  - "CM"
-  - "JttRC"
-  - "DSotDQ"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/token/black-pudding.webp"
 ```
 ^statblock

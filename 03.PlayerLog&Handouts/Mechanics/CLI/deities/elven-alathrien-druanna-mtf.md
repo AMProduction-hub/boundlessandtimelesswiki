@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/deity/elven
 - ttrpg-cli/domain/arcana
 - ttrpg-cli/domain/knowledge
-aliases: 
-- Alathrien Druanna
+aliases:
+- "Alathrien Druanna"
 ---
 # Alathrien Druanna
 *Source: Mordenkainen's Tome of Foes p. 43* 

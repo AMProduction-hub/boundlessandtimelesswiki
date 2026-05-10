@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Bestiary
+- "Bestiary"
 ---
 # Bestiary
 *Source: Fizban's Treasury of Dragons, p. 159* 
@@ -13,7 +14,7 @@ Across the worlds of the Material Plane and beyond, draconic creatures appear in
 
 These monsters are arranged in alphabetical order. For guidance on how to use a creature's stat block, consult the "introduction" of the "Monster Manual".
 
-![A rampaging blue greatwyrm...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/057-06-001-chapter-splash.webp#center "A rampaging blue greatwyrm threatens a world's existence, and Bahamut stands alongside the world's greatest heroes")
+![A rampaging blue greatwyrm threatens a world's existence, and Bahamut stands alongside the world's greatest heroes](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/057-06-001-chapter-splash.webp#center)
 
 [Ancient Amethyst Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-amethyst-dragon-ftd.md)
 

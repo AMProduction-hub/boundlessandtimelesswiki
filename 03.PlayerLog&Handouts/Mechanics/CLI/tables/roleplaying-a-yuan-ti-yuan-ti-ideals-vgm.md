@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Roleplaying a Yuan-ti; Yuan-ti Ideals
+- "Roleplaying a Yuan-ti; Yuan-ti Ideals"
 ---
 # Roleplaying a Yuan-ti; Yuan-ti Ideals
 *Source: Volo's Guide to Monsters p. 98* 
 
 **Yuan-ti Ideals**
-
-`dice: [](roleplaying-a-yuan-ti-yuan-ti-ideals-vgm.md#^yuan-ti-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

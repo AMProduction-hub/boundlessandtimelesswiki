@@ -1,15 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/gruul-anarch
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/2nd-level
 - ttrpg-cli/spell/optfeature/gong-of-the-summit
+- ttrpg-cli/spell/reward/rakdos-charm
 - ttrpg-cli/spell/school/evocation
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/armorer
@@ -19,7 +21,7 @@ tags:
 classes:
 - Artificer (Armorer)
 - Artificer (Artillerist)
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Tempest Domain)
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
@@ -27,7 +29,7 @@ classes:
 - Warlock
 - Wizard
 aliases:
-- Shatter
+- "Shatter"
 ---
 # Shatter
 *2nd-level, Evocation*  
@@ -42,8 +44,8 @@ A sudden loud ringing noise, painfully intense, erupts from a point of your choi
 
 A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by `d8` for each slot level above 2nd.
+**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by `1d8` for each slot level above 2nd.
 
-**Classes**: [Cleric (Tempest Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-tempest-domain.md); [Artificer (Artillerist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artillerist-tce.md "subclass=TCE;class=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Artificer (Armorer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-armorer-tce.md "subclass=TCE;class=TCE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
+**Classes**: [Artificer (Armorer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-armorer-tce.md "subclass=TCE;class=TCE"); [Artificer (Artillerist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artillerist-tce.md "subclass=TCE;class=TCE"); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Tempest Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-tempest-domain.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 275. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

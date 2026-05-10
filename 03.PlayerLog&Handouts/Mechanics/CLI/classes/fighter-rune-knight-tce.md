@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/fighter/rune-knight
 aliases:
-- Rune Knight
+- "Rune Knight"
 ---
 # Rune Knight
 *[Fighter](./fighter.md): Martial Archetype*  
@@ -43,11 +44,9 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Rune Knight (Level 3)
-
 Rune Knights enhance their martial prowess using the supernatural power of runes, an ancient practice that originated with giants. Rune cutters can be found among any family of giants, and you likely learned your methods first or second hand from such a mystical artisan. Whether you found the giant's work carved into a hill or cave, learned of the runes from a sage, or met the giant in person, you studied the giant's craft and learned how to apply magic runes to empower your equipment.
+
+## Subclass Features
 
 ### Bonus Proficiencies (Level 3)
 
@@ -75,6 +74,15 @@ Whenever you finish a long rest, you can touch a number of objects equal to the 
 
 The following runes are available to you when you learn a rune. If a rune has a level requirement, you must be at least that level in this class to learn the rune. If a rune requires a saving throw, your Rune Magic save DC equals 8 + your proficiency bonus + your Constitution modifier.
 
+Options (choose 2):
+
+- [Cloud Rune](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/cloud-rune-tce.md)  
+- [Fire Rune](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/fire-rune-tce.md)  
+- [Frost Rune](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/frost-rune-tce.md)  
+- [Stone Rune](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/stone-rune-tce.md)  
+- [Hill Rune](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/hill-rune-tce.md)  
+- [Storm Rune](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/storm-rune-tce.md)  
+
 ### Giant's Might (Level 3)
 
 *3rd-level Rune Knight feature*
@@ -83,7 +91,7 @@ You have learned how to imbue yourself with the might of giants. As a bonus acti
 
 - If you are smaller than Large, you become Large, along with anything you are wearing. If you lack the room to become Large, your size doesn't change.  
 - You have advantage on Strength checks and Strength saving throws.  
-- Once on each of your turns, one of your attacks with a weapon or an unarmed strike can deal an extra `d6` damage to a target on a hit.  
+- Once on each of your turns, one of your attacks with a weapon or an unarmed strike can deal an extra `1d6` damage to a target on a hit.  
 
 You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.
 
@@ -107,7 +115,7 @@ You learn an additional Rune.
 
 The magic of your runes permanently alters you. When you gain this feature, roll `3d4`. You grow a number of inches in height equal to the roll.
 
-Moreover, the extra damage you deal with your Giant's Might feature increases to `d8`.
+Moreover, the extra damage you deal with your Giant's Might feature increases to `1d8`.
 
 ### Additional Rune Known (Level 10)
 
@@ -131,7 +139,7 @@ You learn an additional Rune.
 
 *18th-level Rune Knight feature*
 
-You learn how to amplify your rune-powered transformation. As a result, the extra damage you deal with the Giant's Might feature increases to `d10`. Moreover, when you use that feature, your size can increase to Huge, and while you are that size, your reach increases by 5 feet.
+You learn how to amplify your rune-powered transformation. As a result, the extra damage you deal with the Giant's Might feature increases to `1d10`. Moreover, when you use that feature, your size can increase to Huge, and while you are that size, your reach increases by 5 feet.
 
 ## Optional Features
 

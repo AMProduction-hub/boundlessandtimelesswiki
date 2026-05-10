@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -12,10 +13,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Boar
+- "Giant Boar"
 ---
-# [Giant Boar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-boar.md)
-*Source: Monster Manual p. 323, Storm King's Thunder, Tomb of Annihilation, Ghosts of Saltmarsh, Mythic Odysseys of Theros. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Boar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-boar.md)
+*Source: Monster Manual p. 323. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Giant Boar"
@@ -48,15 +49,11 @@ aliases:
       \ it is reduced to 1 hit point instead."
     "name": "Relentless (Recharges after a Short or Long Rest)"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage."
     "name": "Tusk"
 "source":
   - "MM"
-  - "SKT"
-  - "ToA"
-  - "GoS"
-  - "MOT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-boar.webp"
 ```
 ^statblock

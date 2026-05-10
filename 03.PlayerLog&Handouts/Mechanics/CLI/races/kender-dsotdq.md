@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/race/kender
 aliases:
-- Kender
+- "Kender"
 ---
 # Kender
 *Source: Dragonlance: Shadow of the Dragon Queen p. 27*  

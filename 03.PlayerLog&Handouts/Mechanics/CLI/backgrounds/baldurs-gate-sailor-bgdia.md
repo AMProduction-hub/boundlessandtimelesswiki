@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Baldur's Gate Sailor
+- "Baldur's Gate Sailor"
 ---
 # Baldur's Gate Sailor
 *Source: Baldur's Gate: Descent Into Avernus p. 204, Player's Handbook p. 139*  
@@ -32,8 +33,6 @@ You're familiar with the docks of Baldur's Gate, the movement of inspectors and 
 
 Sailors can be a rough lot, but the responsibilities of life on a ship make them generally reliable as well. Life aboard a ship shapes their outlook and forms their most important attachments.
 
-`dice: [](baldurs-gate-sailor-bgdia.md#^personality-trait)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | My friends know they can rely on me, no matter what. |
@@ -46,8 +45,6 @@ Sailors can be a rough lot, but the responsibilities of life on a ship make them
 | 8 | I like a job well done, especially if I can convince someone else to do it. |
 ^personality-trait
 
-`dice: [](baldurs-gate-sailor-bgdia.md#^ideal)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | Respect. The thing that keeps a ship together is mutual respect between captain and crew. (Good) |
@@ -58,8 +55,6 @@ Sailors can be a rough lot, but the responsibilities of life on a ship make them
 | 6 | Aspiration. Someday, I'll own my own ship and chart my own destiny. (Any) |
 ^ideal
 
-`dice: [](baldurs-gate-sailor-bgdia.md#^bond)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | I'm loyal to my captain first, everything else second. |
@@ -69,8 +64,6 @@ Sailors can be a rough lot, but the responsibilities of life on a ship make them
 | 5 | I was cheated out of my fair share of the profits, and I want to get my due. |
 | 6 | Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine. |
 ^bond
-
-`dice: [](baldurs-gate-sailor-bgdia.md#^flaw)`
 
 | dice: d6 | Flaw |
 |----------|------|

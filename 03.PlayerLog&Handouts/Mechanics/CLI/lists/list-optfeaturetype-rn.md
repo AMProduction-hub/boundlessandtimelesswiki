@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
-- Rune Knight Rune
+- "Rune Knight Rune"
 ---
 # Rune Knight Rune
 *Source: Tasha's Cauldron of Everything* 

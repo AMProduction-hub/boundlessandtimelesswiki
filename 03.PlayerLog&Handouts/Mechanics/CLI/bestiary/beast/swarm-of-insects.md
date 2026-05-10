@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -16,10 +17,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Swarm of Insects
+- "Swarm of Insects"
 ---
-# [Swarm of Insects](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/swarm-of-insects.md)
-*Source: Monster Manual p. 338, Curse of Strahd, Tomb of Annihilation, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Light of Xaryxis. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Swarm of Insects](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-insects.md)
+*Source: Monster Manual p. 338. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 > [!note] The Nature of Swarms
 > 
@@ -52,7 +53,8 @@ aliases:
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "blindsight 10 ft., passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., passive Perception 8"
 "languages": ""
 "cr": "1/2"
 "traits":
@@ -61,19 +63,12 @@ aliases:
       \ can't regain hit points or gain temporary hit points."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's\
-      \ space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 0 ft., one target in the swarm's\
+      \ space. *Hit:* 10 (4d4) piercing damage, or 5 (2d4) piercing damage if\
       \ the swarm has half of its hit points or fewer."
     "name": "Bites"
 "source":
   - "MM"
-  - "CoS"
-  - "ToA"
-  - "GoS"
-  - "BGDIA"
-  - "IMR"
-  - "EGW"
-  - "LoX"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/swarm-of-insects.webp"
 ```
 ^statblock

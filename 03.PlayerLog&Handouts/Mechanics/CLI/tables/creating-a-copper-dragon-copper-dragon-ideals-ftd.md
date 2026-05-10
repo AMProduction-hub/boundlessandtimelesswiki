@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Creating a Copper Dragon; Copper Dragon Ideals
+- "Creating a Copper Dragon; Copper Dragon Ideals"
 ---
 # Creating a Copper Dragon; Copper Dragon Ideals
 *Source: Fizban's Treasury of Dragons p. 99* 
 
 **Copper Dragon Ideals**
-
-`dice: [](creating-a-copper-dragon-copper-dragon-ideals-ftd.md#^copper-dragon-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

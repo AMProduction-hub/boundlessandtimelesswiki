@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Young Troglodyte
+- "Young Troglodyte"
 ---
-# [Young Troglodyte](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/young-troglodyte-tftyp.md)
+# [Young Troglodyte](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/young-troglodyte-tftyp.md)
 *Source: Tales from the Yawning Portal p. 176*  
 
 ```statblock
@@ -32,7 +33,11 @@ aliases:
   - !!int "7"
   - !!int "8"
 "speed": "30 ft."
-"senses": "darkvision 60 ft., passive Perception 8"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+  - "[sling](03.PlayerLog&Handouts/Mechanics/CLI/items/sling.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": "Common, Draconic"
 "cr": "1/8"
 "traits":
@@ -45,10 +50,10 @@ aliases:
       \ the ally isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage."
     "name": "Dagger"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 4 (1d4 + 2) bludgeoning damage."
     "name": "Sling"
 "source":

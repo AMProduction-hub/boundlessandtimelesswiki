@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Zegdar
+- "Zegdar"
 ---
-# [Zegdar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/zegdar-pota.md)
+# [Zegdar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zegdar-pota.md)
 *Source: Princes of the Apocalypse p. 120*  
 
 ```statblock
@@ -36,7 +37,10 @@ aliases:
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
 "damage_immunities": "fire"
-"senses": "darkvision 60 ft., passive Perception 17"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 17"
 "languages": "Abyssal"
 "cr": "3"
 "traits":
@@ -56,10 +60,10 @@ aliases:
       \ in that area must succeed on a DC 14 Dexterity saving throw, taking 21 (6d6)\
       \ fire damage on a failed save, or half as much damage on a successful one."
     "name": "Burning Breath (Recharge 5-6)"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 17\
       \ (2d12 + 4) slashing damage."
     "name": "Greataxe"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) piercing damage."
     "name": "Gore"
 "source":

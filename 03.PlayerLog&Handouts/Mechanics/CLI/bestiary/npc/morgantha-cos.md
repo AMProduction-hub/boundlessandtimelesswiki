@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Morgantha
+- "Morgantha"
 ---
-# [Morgantha](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/morgantha-cos.md)
+# [Morgantha](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/morgantha-cos.md)
 *Source: Curse of Strahd p. 48*  
 
 ```statblock
@@ -44,15 +45,16 @@ aliases:
 "damage_resistances": "cold; fire; bludgeoning, piercing, slashing from nonmagical\
   \ attacks that aren't silvered"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "Abyssal, Common, Infernal, Primordial"
 "cr": "5"
 "traits":
   - "desc": "Morgantha's innate spellcasting ability is Charisma (spell save DC 14,\
       \ +6 to hit with spell attacks). She can innately cast the following spells,\
-      \ requiring no material components:\n\nAt will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ requiring no material components:\n\n**At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md)\n\
-      \n2/day each: [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)\
+      \n**2/day each:** [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)\
       \ (self only), [ray of enfeeblement](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-enfeeblement.md),\
       \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)"
     "name": "Innate Spellcasting"
@@ -72,7 +74,7 @@ aliases:
       \ the bag)."
     "name": "Night Hag Items"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) slashing damage."
     "name": "Claws (Hag Form Only)"
   - "desc": "Morgantha magically polymorphs into a Small or Medium female humanoid,\
@@ -88,7 +90,7 @@ aliases:
       \ spell cast on the target prevents this contact, as does a magic circle. As\
       \ long as the contact persists, the target has dreadful visions. If these visions\
       \ last for at least 1 hour, the target gains no benefit from its rest, and its\
-      \ hit point maximum is reduced by 5 (d10). If this effect reduces the target's\
+      \ hit point maximum is reduced by 5 (1d10). If this effect reduces the target's\
       \ hit point maximum to 0, the target dies, and if the target was evil, its soul\
       \ is trapped in Morgantha's soul bag. The reduction to the target's hit point\
       \ maximum lasts until removed by the  [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md)\

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Backstory; Rival Relationships
+- "Backstory; Rival Relationships"
 ---
 # Backstory; Rival Relationships
 *Source: Explorer's Guide to Wildemount p. 191* 
 
 **Rival Relationships**
-
-`dice: [](backstory-rival-relationships-egw.md#^rival-relationships)`
 
 | dice: d100 | Relationship |
 |------------|--------------|

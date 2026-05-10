@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/simic-scientist
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
 - ttrpg-cli/spell/level/3rd-level
@@ -15,13 +16,13 @@ tags:
 - ttrpg-cli/spell/subrace/half-elf-mark-of-storm
 classes:
 - Artificer (Artillerist)
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Nature Domain)
 - Druid
 - Ranger
 - Warlock (The Genie)
 aliases:
-- Wind Wall
+- "Wind Wall"
 ---
 # Wind Wall
 *3rd-level, Evocation*  
@@ -38,6 +39,6 @@ When the wall appears, each creature within its area must make a Strength saving
 
 The strong wind keeps fog, smoke, and other gases at bay. Small or smaller flying creatures or objects can't pass through the wall. Loose, lightweight materials brought into the wall fly upward. Arrows, bolts, and other ordinary projectiles launched at targets behind the wall are deflected upward and automatically miss. (Boulders hurled by giants or siege engines, and similar projectiles, are unaffected.) Creatures in [gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/spells/gaseous-form.md) can't pass through it.
 
-**Classes**: [Artificer (Artillerist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artillerist-tce.md "subclass=TCE;class=TCE"); [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md)
+**Classes**: [Artificer (Artillerist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artillerist-tce.md "subclass=TCE;class=TCE"); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE")
 
 *Source: Player's Handbook p. 288. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gnoll Vampire
+- "Gnoll Vampire"
 ---
-# [Gnoll Vampire](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/gnoll-vampire-idrotf.md)
+# [Gnoll Vampire](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/gnoll-vampire-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 290*  
 
 When a gnoll's ravenous hunger is so great that it craves flesh and blood even after death, it can rise as a vampire to continue its feeding frenzy.
@@ -51,10 +52,11 @@ Unlike normal vampires, gnoll vampires don't have coffins where they rest, and t
   - !!int "9"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+7"
-  - "constitution": "+7"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "7"
 "damage_resistances": "necrotic; bludgeoning, piercing, slashing from nonmagical attacks"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": "Abyssal, Gnoll"
 "cr": "8"
 "traits":
@@ -67,8 +69,8 @@ Unlike normal vampires, gnoll vampires don't have coffins where they rest, and t
     "name": "Rampage"
   - "desc": "The vampire regains 10 hit points at the start of its turn if it has\
       \ at least 1 hit point and isn't in sunlight or running water. If the vampire\
-      \ takes radiant damage or damage from holy water, this trait doesn't function\
-      \ at the start of the vampire's next turn."
+      \ takes radiant damage or damage from [holy water](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-water-flask.md),\
+      \ this trait doesn't function at the start of the vampire's next turn."
     "name": "Regeneration"
   - "desc": "If the vampire isn't in sunlight, it can use its action to polymorph\
       \ into a Large hyena or a Medium cloud of mist, or back into its true form.\n\
@@ -85,31 +87,31 @@ Unlike normal vampires, gnoll vampires don't have coffins where they rest, and t
     "name": "Shapechanger"
   - "desc": "The vampire doesn't require air."
     "name": "Unusual Nature"
-  - "desc": "The vampire has the following flaws:\n\n- Enraged by Celestial. If\
+  - "desc": "The vampire has the following flaws:\n\n- **Enraged by Celestial.** If\
       \ it hears words of Celestial spoken, the vampire must try to attack the source\
       \ of those spoken words on its next turn. If these words come from multiple\
       \ sources and from opposite directions, the vampire is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
       \ Otherwise, it moves to attack what it perceives to be the closest source.\
-      \  \n- Repulsed by Perfume. The vampire has disadvantage on melee attack\
+      \  \n- **Repulsed by Perfume.** The vampire has disadvantage on melee attack\
       \ rolls made against any creature wearing perfume or carrying an open container\
-      \ of it.  \n- Stake to the Heart. If a piercing weapon made of wood is driven\
+      \ of it.  \n- **Stake to the Heart.** If a piercing weapon made of wood is driven\
       \ into the vampire's heart while the vampire is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
       \ in its resting place, the vampire is [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
-      \ until the stake is removed.  \n- Sunlight Hypersensitivity. The vampire\
+      \ until the stake is removed.  \n- **Sunlight Hypersensitivity.** The vampire\
       \ takes 20 radiant damage when it starts its turn in sunlight. While in sunlight,\
       \ it has disadvantage on attack rolls and ability checks.  "
     "name": "Vampire Weaknesses"
 "actions":
   - "desc": "The vampire makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack (Vampire Form Only)"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:*\
       \ 12 (2d6 + 5) piercing damage plus 9 (2d8) necrotic damage. The target's\
       \ hit point maximum is reduced by an amount equal to the necrotic damage taken,\
       \ and the vampire regains hit points equal to that amount. The reduction lasts\
       \ until the target finishes a long rest. the target dies if its hit point maximum\
       \ is reduced to 0."
     "name": "Bite (Hyena or Vampire Form Only)"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d4 + 5) slashing damage."
     "name": "Claws (Vampire Form Only)"
   - "desc": "The vampire emits a bone-chilling cackle. Each creature of the vampire's\

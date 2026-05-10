@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Cults of the Dragon Below NPCs; Cult NPCs
+- "Cults of the Dragon Below NPCs; Cult NPCs"
 ---
 # Cults of the Dragon Below NPCs; Cult NPCs
 *Source: Eberron: Rising from the Last War p. 189* 
 
 **Cult NPCs**
-
-`dice: [](cults-of-the-dragon-below-npcs-cult-npcs-erlw.md#^cult-npcs)`
 
 | dice: d8 | NPC |
 |----------|-----|

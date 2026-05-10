@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 aliases:
-- The Price of Beauty
+- "The Price of Beauty"
 ---
 # The Price of Beauty
 *Source: Candlekeep Mysteries, p. 75* 
@@ -78,7 +79,7 @@ The hags use their powers of illusion to pose as three elf sisters named Morgann
 
 #### Dread Morgan
 
-In her true form, the neutral evil [Dread Morgan](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/hag-of-the-fetid-gaze-cm.md) appears as a thin, pale creature whose long, matted black hair is festooned with ornaments made from bones and teeth. Her mouth curves up unnaturally high at the corners, and her bloodred lips are covered in blisters and boils.
+In her true form, the neutral evil [Dread Morgan](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hag-of-the-fetid-gaze-cm.md) appears as a thin, pale creature whose long, matted black hair is festooned with ornaments made from bones and teeth. Her mouth curves up unnaturally high at the corners, and her bloodred lips are covered in blisters and boils.
 
 In her disguised form, the hag appears as Morganna, a slender moon elf with smooth black hair and sparkling sapphire eyes. She speaks in a husky, alluring voice and focuses on the business of running the bathhouse.
 
@@ -102,7 +103,7 @@ Dread Morgan knows the ritual needed to bind a creature's desire to a cursed pai
 
 #### Vile Sazha
 
-Without her disguise, the chaotic evil [Vile Sazha](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/hag-of-the-fetid-gaze-cm.md) appears as a hunched figure with one muscular and one withered arm. She has catlike eyes, and rust-red hair covers her head, back, and arms. Her sharp fangs cause her to slur when she speaks, and she hisses and screeches when threatened.
+Without her disguise, the chaotic evil [Vile Sazha](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hag-of-the-fetid-gaze-cm.md) appears as a hunched figure with one muscular and one withered arm. She has catlike eyes, and rust-red hair covers her head, back, and arms. Her sharp fangs cause her to slur when she speaks, and she hisses and screeches when threatened.
 
 In her disguised form, she appears as Azirssa, an athletic sun elf with copper hair who wears an ornate breastplate with a red fur mantle. She has a confident and jovial voice, and she promotes physical strength and good health.
 
@@ -126,7 +127,7 @@ Vile Sazha knows how to create a suitable canvas for the hags' cursed paintings.
 
 #### Auntie Greenbones
 
-The eldest member of the Fetid Gaze, the lawful evil [Auntie Greenbones](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/hag-of-the-fetid-gaze-cm.md) often defers to the other two hags on decision-making. In her true form, she is shriveled and worn, her dark green skin covered in bark and fungus. Insects crawl across her and hide in the thick braid of white hair that curls around her shoulders like a serpent. Anyone who stares into her milky-white, seemingly blind eyes sees a reflection of their own face made decrepit and withered by age.
+The eldest member of the Fetid Gaze, the lawful evil [Auntie Greenbones](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hag-of-the-fetid-gaze-cm.md) often defers to the other two hags on decision-making. In her true form, she is shriveled and worn, her dark green skin covered in bark and fungus. Insects crawl across her and hide in the thick braid of white hair that curls around her shoulders like a serpent. Anyone who stares into her milky-white, seemingly blind eyes sees a reflection of their own face made decrepit and withered by age.
 
 The hag's disguise is that of Greensong, a cheerful, rosy-cheeked wood elf who feigns blindness. She wears a delicate white veil across her eyes and speaks in a singsong voice, giggling often. She keeps her guard dog, Morty, with her at all times. This disguised [hell hound](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hell-hound.md) appears as a mastiff with bloodshot eyes.
 
@@ -150,7 +151,7 @@ Auntie Greenbones knows how to infuse demon ichor into the paints needed to crea
 
 > [!note] Coven Spells
 > 
-> Each member of [the Fetid Gaze](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/hag-of-the-fetid-gaze-cm.md) has access to coven spells, as described in the "Hag Covens" sidebar in the "Monster Manual". The green hags use the following list of spells for their Shared Spellcasting trait, replacing the suggested spells:
+> Each member of [the Fetid Gaze](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hag-of-the-fetid-gaze-cm.md) has access to coven spells, as described in the "Hag Covens" sidebar in the "Monster Manual". The green hags use the following list of spells for their Shared Spellcasting trait, replacing the suggested spells:
 > 
 > 1st level (4 slots): [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md), [witch bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/witch-bolt.md)
 > 
@@ -233,8 +234,6 @@ In addition to the missing Falthrax, several other victims of the hags' curse ar
 The Temple of the Restful Lily is known among the more elite folk of the Sword Coast, and any number of those folk might be visiting when the characters arrive. You can roll for or choose entries from the Temple Guests table, or use those guests as inspiration for your own NPCs.
 
 **Temple Guests**
-
-`dice: [](08-the-price-of-beauty.md#^temple-guests)`
 
 | dice: d8 | Guest(s) |
 |----------|----------|
@@ -334,7 +333,7 @@ Any character who wants to can join in one of the [hag's](03.PlayerLog&Handouts/
 
 ##### Tug-of-War
 
-To complete this activity, a character must stay on their feet in a tug-of-war against the awakened tree. Have the character make DC 16 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) checks until a check either fails by 5 or more or succeeds. In the former case, the character falls [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) and takes 3 (`d6`) bludgeoning damage from being pulled to the ground by the tree. In the latter case, the character wins the tug-of-war. In either case, the contest ends.
+To complete this activity, a character must stay on their feet in a tug-of-war against the awakened tree. Have the character make DC 16 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) checks until a check either fails by 5 or more or succeeds. In the former case, the character falls [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) and takes 3 (`1d6`) bludgeoning damage from being pulled to the ground by the tree. In the latter case, the character wins the tug-of-war. In either case, the contest ends.
 
 - **Chain Skipping.** To complete this activity, a character must succeed on three DC 13 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) checks, representing their attempt to stay on their feet while they try to jump over a heavy metal chain being spun by Vile Sazha and the awakened tree. If a check fails, the character is knocked off balance, and the DC for the next check becomes 15. If a check fails by 5 or more, the character is also struck by the chain and takes 7 (`2d6`) bludgeoning damage.  
 

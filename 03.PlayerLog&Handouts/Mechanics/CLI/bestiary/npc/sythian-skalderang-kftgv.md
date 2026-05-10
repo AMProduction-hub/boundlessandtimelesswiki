@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/7
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sythian Skalderang
+- "Sythian Skalderang"
 ---
-# [Sythian Skalderang](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sythian-skalderang-kftgv.md)
+# [Sythian Skalderang](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sythian-skalderang-kftgv.md)
 *Source: Keys from the Golden Vault p. 117*  
 
 Sythian Skalderang has been blessed by the demon lord Graz'zt. Graz'zt's gift to Sythian manifests in several ways, including Sythian's ability to conjure demonic whispers that can fray enemy minds.
@@ -45,8 +46,8 @@ Sythian is an impatient and demanding teacher who holds his students to a rigoro
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+3"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -55,7 +56,8 @@ Sythian is an impatient and demanding teacher who holds his students to a rigoro
   - "name": "[Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance)"
     "desc": "+6"
 "damage_resistances": "fire"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Abyssal, Common"
 "cr": "7"
 "traits":
@@ -68,11 +70,11 @@ Sythian is an impatient and demanding teacher who holds his students to a rigoro
   - "desc": "Sythian makes two Poisoned Shortsword or Poisoned Dart attacks and uses\
       \ Whispers of Azzagrat."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d6 + 2) piercing damage plus 5 (d10) poison damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
+      \ (1d6 + 2) piercing damage plus 5 (1d10) poison damage."
     "name": "Poisoned Shortsword"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit:\
-      \ 4 (1d4 + 2) piercing damage plus 5 (d10) poison damage."
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 20/60 ft., one target. *Hit:*\
+      \ 4 (1d4 + 2) piercing damage plus 5 (1d10) poison damage."
     "name": "Poisoned Dart"
   - "desc": "Each creature in a 15-foot cube originating from Sythian must make a\
       \ DC 14 Wisdom saving throw. On a failed save, a creature takes 18 (4d8) psychic\
@@ -81,9 +83,9 @@ Sythian is an impatient and demanding teacher who holds his students to a rigoro
       \ as much damage and isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Whispers of Azzagrat"
   - "desc": "Sythian casts one of the following spells, using Charisma as the spellcasting\
-      \ ability (spell save DC 14):\n\nAt will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ ability (spell save DC 14):\n\n**At will:** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \n**1/day each:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
       \ [unseen servant](03.PlayerLog&Handouts/Mechanics/CLI/spells/unseen-servant.md)"
     "name": "Spellcasting"

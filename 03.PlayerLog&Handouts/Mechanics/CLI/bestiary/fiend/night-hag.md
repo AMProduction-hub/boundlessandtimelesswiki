@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Night Hag
+- "Night Hag"
 ---
-# [Night Hag](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/night-hag.md)
-*Source: Monster Manual p. 178, Curse of Strahd, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Candlekeep Mysteries, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Night Hag](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/night-hag.md)
+*Source: Monster Manual p. 178. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Sly and subversive, night hags want to see the virtuous turn to villainy: love turned into obsession, kindness turned to hate, devotion to disregard, and generosity to selfishness. Night hags take perverse joy in corrupting mortals.
 
@@ -127,15 +128,16 @@ Hags dwell in dark and twisted woods, bleak moors, storm-lashed seacoasts, and g
 "damage_resistances": "cold; fire; bludgeoning, piercing, slashing from nonmagical\
   \ attacks that aren't silvered"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)"
-"senses": "darkvision 120 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "Abyssal, Common, Infernal, Primordial"
 "cr": "5"
 "traits":
   - "desc": "The hag's innate spellcasting ability is Charisma (spell save DC 14,\
       \ +6 to hit with spell attacks). She can innately cast the following spells,\
-      \ requiring no material components:\n\nAt will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ requiring no material components:\n\n**At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md)\n\
-      \n2/day each: [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)\
+      \n**2/day each:** [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)\
       \ (self only), [ray of enfeeblement](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-enfeeblement.md),\
       \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)"
     "name": "Innate Spellcasting"
@@ -155,7 +157,7 @@ Hags dwell in dark and twisted woods, bleak moors, storm-lashed seacoasts, and g
       \ the bag)."
     "name": "Night Hag Items"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) slashing damage."
     "name": "Claws (Hag Form Only)"
   - "desc": "The hag magically polymorphs into a Small or Medium female humanoid,\
@@ -171,7 +173,7 @@ Hags dwell in dark and twisted woods, bleak moors, storm-lashed seacoasts, and g
       \ spell cast on the target prevents this contact, as does a magic circle. As\
       \ long as the contact persists, the target has dreadful visions. If these visions\
       \ last for at least 1 hour, the target gains no benefit from its rest, and its\
-      \ hit point maximum is reduced by 5 (d10). If this effect reduces the target's\
+      \ hit point maximum is reduced by 5 (1d10). If this effect reduces the target's\
       \ hit point maximum to 0, the target dies, and if the target was evil, its soul\
       \ is trapped in the hag's soul bag. The reduction to the target's hit point\
       \ maximum lasts until removed by the  [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md)\
@@ -182,33 +184,27 @@ Hags dwell in dark and twisted woods, bleak moors, storm-lashed seacoasts, and g
       \ aunties. Grandmothers usually have three to five lair actions, aunties usually\
       \ only one (if they have any at all). Unless otherwise noted, any lair action\
       \ that requires a creature to make a saving throw uses the save DC of the hag's\
-      \ most powerful ability."
-    "name": ""
-  - "desc": "On initiative count 20 (losing initiative ties), the hag can take a lair\
-      \ action to cause one of the following effects, but can't use the same effect\
-      \ two rounds in a row:"
-    "name": ""
-  - "desc": "- Until initiative count 20 on the next round, the hag can pass through\
-      \ solid walls, doors, ceilings, and floors as if the surfaces weren't there.\
-      \  \n- The hag targets any number of doors and windows that she can see, causing\
-      \ each one to either open or close as she wishes. Closed doors can be magically\
-      \ locked (requiring a successful DC 20 Strength check to force open) until she\
-      \ chooses to make them unlocked, or until she uses this lair action again to\
-      \ open them.  "
-    "name": ""
-  - "desc": "A powerful night hag might have the following additional lair actions:"
-    "name": ""
-  - "desc": "- One creature the hag can see within 120 feet of her must succeed on\
-      \ a DC 15 Charisma saving throw or be banished to a prison demiplane. To escape,\
-      \ the creature must use its action to make a Charisma check contested by the\
-      \ hag's. If the creature wins, it escapes the demiplane. Otherwise, the effect\
-      \ ends on initiative count 20 on the next round. When the effect ends, the creature\
-      \ reappears in the space it left or in the nearest unoccupied space if that\
-      \ one is occupied.  \n- The hag targets up to three creatures that she can see\
-      \ within 60 feet of her. Each target must succeed on a DC 15 Constitution saving\
-      \ throw or be flung up to 30 feet through the air. A creature that strikes a\
-      \ solid object or is released in midair takes d6 bludgeoning damage for every\
-      \ 10 feet moved or fallen.  "
+      \ most powerful ability.\n\nOn initiative count 20 (losing initiative ties),\
+      \ the hag can take a lair action to cause one of the following effects, but\
+      \ can't use the same effect two rounds in a row:\n\n- Until initiative count\
+      \ 20 on the next round, the hag can pass through solid walls, doors, ceilings,\
+      \ and floors as if the surfaces weren't there.  \n- The hag targets any number\
+      \ of doors and windows that she can see, causing each one to either open or\
+      \ close as she wishes. Closed doors can be magically locked (requiring a successful\
+      \ DC 20 Strength check to force open) until she chooses to make them unlocked,\
+      \ or until she uses this lair action again to open them.  \n\nA powerful night\
+      \ hag might have the following additional lair actions:\n\n- One creature the\
+      \ hag can see within 120 feet of her must succeed on a DC 15 Charisma saving\
+      \ throw or be banished to a prison demiplane. To escape, the creature must use\
+      \ its action to make a Charisma check contested by the hag's. If the creature\
+      \ wins, it escapes the demiplane. Otherwise, the effect ends on initiative count\
+      \ 20 on the next round. When the effect ends, the creature reappears in the\
+      \ space it left or in the nearest unoccupied space if that one is occupied.\
+      \  \n- The hag targets up to three creatures that she can see within 60 feet\
+      \ of her. Each target must succeed on a DC 15 Constitution saving throw or be\
+      \ flung up to 30 feet through the air. A creature that strikes a solid object\
+      \ or is released in midair takes 1d6 bludgeoning damage for every 10 feet\
+      \ moved or fallen.  "
     "name": ""
 "regional_effects":
   - "desc": "Each hag's lair is the source of three to five regional effects; the\
@@ -216,43 +212,26 @@ Hags dwell in dark and twisted woods, bleak moors, storm-lashed seacoasts, and g
       \ of a single hag, including some that can directly harm intruders. Any regional\
       \ effect that requires a creature to make a saving throw uses the save DC of\
       \ the hag's most powerful ability. These effects either end immediately if the\
-      \ hag dies or abandons the lair, or take up to 2d10 days to fade away."
-    "name": ""
-  - "desc": "The region within 1 mile of a grandmother hag's lair is warped by the\
-      \ creature's fell magic, which creates one or more of the following effects:"
-    "name": ""
-  - "desc": "- Birds, rodents, snakes, spiders, or toads (or some other creatures\
-      \ appropriate to the hag) are found in great profusion.  \n- Beasts that have\
-      \ an Intelligence score of 2 or lower are [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ hag dies or abandons the lair, or take up to 2d10 days to fade away.\n\n\
+      The region within 1 mile of a grandmother hag's lair is warped by the creature's\
+      \ fell magic, which creates one or more of the following effects:\n\n- Birds,\
+      \ rodents, snakes, spiders, or toads (or some other creatures appropriate to\
+      \ the hag) are found in great profusion.  \n- Beasts that have an Intelligence\
+      \ score of 2 or lower are [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
       \ by the hag and directed to be aggressive toward intruders in the area.  \n\
       - Strange carved figurines, twig fetishes, or rag dolls magically appear in\
-      \ trees.  "
-    "name": ""
-  - "desc": "A powerful night hag creates one or more of the following additional\
-      \ regional effects within 1 mile of her lair:"
-    "name": ""
-  - "desc": "- Shadows seem abnormally gaunt and sometimes move on their own as though\
-      \ alive.  \n- Creatures are transported to a harmless but eerie demiplane filled\
-      \ with shadowy forms, waxy corpses, and cackling. The creatures are trapped\
-      \ there for a minute or two, and then returned to the place where they vanished\
-      \ from.  \n- Intelligent creatures see hallucinations of dead friends, family\
-      \ members, and even themselves littering the hag's realm. Any attempt to interact\
-      \ with a hallucinatory image causes it to disappear.  "
+      \ trees.  \n\nA powerful night hag creates one or more of the following additional\
+      \ regional effects within 1 mile of her lair:\n\n- Shadows seem abnormally gaunt\
+      \ and sometimes move on their own as though alive.  \n- Creatures are transported\
+      \ to a harmless but eerie demiplane filled with shadowy forms, waxy corpses,\
+      \ and cackling. The creatures are trapped there for a minute or two, and then\
+      \ returned to the place where they vanished from.  \n- Intelligent creatures\
+      \ see hallucinations of dead friends, family members, and even themselves littering\
+      \ the hag's realm. Any attempt to interact with a hallucinatory image causes\
+      \ it to disappear.  "
     "name": ""
 "source":
   - "MM"
-  - "CoS"
-  - "ToA"
-  - "WDMM"
-  - "GoS"
-  - "BGDIA"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
-  - "TCE"
-  - "CM"
-  - "JttRC"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/night-hag.webp"
 ```
 ^statblock

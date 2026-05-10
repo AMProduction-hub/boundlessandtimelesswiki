@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Auril (First Form)
+- "Auril (First Form)"
 ---
-# [Auril (First Form)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/auril-first-form-idrotf.md)
+# [Auril (First Form)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/auril-first-form-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 275*  
 
 In her first form, Auril appears as a hunched, 7-foot-tall biped with the head of a snowy owl, black talons, cloven hooves, and grayish-white wolf fur covering her body from the neck down. Protruding from her feathery owl's head is a pair of curved goat horns. A cloak and cowl made of pristine white snow conceals much of her tripartite form, which her worshipers refer to as the Cold Crone. This cloak can transform into a pair of owl's wings when Auril sees fit.
@@ -72,8 +73,8 @@ A stat block is given for each of Auril's three forms. These descriptions do not
   - !!int "28"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "constitution": "+9"
-  - "wisdom": "+12"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "12"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+13"
@@ -92,16 +93,18 @@ A stat block is given for each of Auril's three forms. These descriptions do not
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 120 ft., truesight 120 ft., passive Perception 26"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., [truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 26"
 "languages": "all, telepathy 1000 ft."
 "cr": "9"
 "traits":
   - "desc": "Auril's innate spellcasting ability is Charisma (spell save DC 21, +13\
       \ to hit with spell attacks). She can innately cast the following spells, requiring\
-      \ no material components:\n\nAt will: [chromatic orb](03.PlayerLog&Handouts/Mechanics/CLI/spells/chromatic-orb.md)\
+      \ no material components:\n\n**At will:** [chromatic orb](03.PlayerLog&Handouts/Mechanics/CLI/spells/chromatic-orb.md)\
       \ (cold orb only; see \"Actions\" below), [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md)\n\n\
-      2/day each: [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md),\
+      **2/day each:** [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md)"
     "name": "Innate Spellcasting"
@@ -123,16 +126,19 @@ A stat block is given for each of Auril's three forms. These descriptions do not
 "actions":
   - "desc": "Auril attacks twice with her talons."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d8 + 3) piercing damage plus 3 (d6) cold damage."
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
+      \ (1d8 + 3) piercing damage plus 3 (1d6) cold damage."
     "name": "Talons"
-  - "desc": "Melee Spell Attack: +13 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +13 to hit, reach 5 ft., one creature. *Hit:*\
       \ 13 (3d8) cold damage, and the target can't take reactions until the start\
       \ of its next turn."
     "name": "Touch of Frost"
-  - "desc": "Ranged Spell Attack: +13 to hit, range 90 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +13 to hit, range 90 ft., one creature. *Hit:*\
       \ 13 (3d8) cold damage."
     "name": "Chromatic Orb"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Auril can expend a use to take one of the following actions. Auril regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Auril attacks once with her talons."
     "name": "Talons"

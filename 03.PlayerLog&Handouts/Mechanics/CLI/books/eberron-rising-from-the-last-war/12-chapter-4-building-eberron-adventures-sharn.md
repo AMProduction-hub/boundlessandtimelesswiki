@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Chapter 4: Building Eberron Adventures - Sharn
+- "Chapter 4: Building Eberron Adventures - Sharn"
 ---
 # Chapter 4: Building Eberron Adventures - Sharn
 *Source: Eberron: Rising from the Last War, p. 239* 
@@ -15,7 +16,7 @@ Chapter 3 describes the city of Sharn in detail; the following sections focus on
 
 Sharn can be a grim place that makes good people bad and bad people worse. In its mean streets, gritty detectives contend with corrupt law officers while trying to foil the efforts of merciless gangs and monstrous thugs. In the highest towers, wealthy barons from the dragonmarked houses make shady deals with crime bosses, each of them making profits by exploiting both the ordinary folk and the well-heeled upper crust alike. Corruption can be found among the ranks of government, the watch, the temples, and large businesses. This atmosphere makes Sharn a perfect location for adventures inspired by the noir genre.
 
-Sharn can also be a place of unrelenting action, ranging from soarsleds speeding between the towertops to confrontations in the dungeon depths far beneath the city's lowest tier. Fallen angels, sinister shapeshifters, and monstrous mercenaries do battle with heroes from all walks of life, while unscrupulous collectors and smugglers carry on a brisk trade in artifacts brought back from the cyclopean ruins of Xen'drik. All these factors make Sharn an equally ideal location for adventures inspired by pulp action.
+Sharn can also be a place of unrelenting action, ranging from soarsleds speeding between the tower tops to confrontations in the dungeon depths far beneath the city's lowest tier. Fallen angels, sinister shapeshifters, and monstrous mercenaries do battle with heroes from all walks of life, while unscrupulous collectors and smugglers carry on a brisk trade in artifacts brought back from the cyclopean ruins of Xen'drik. All these factors make Sharn an equally ideal location for adventures inspired by pulp action.
 
 You can use the Life in the City table to generate ideas for adventures set in Sharn.
 

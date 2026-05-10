@@ -1,27 +1,28 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/armorer
 aliases:
-- Spells for Armorer
+- "Spells for Armorer"
 ---
 # Spells for Armorer
 
 ## 1st Level
 
-- [Magic Missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md "PHB") at class level 13
-- [Thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md "PHB") at class level 13
+- [Magic Missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md "PHB") at class level 3
+- [Thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md "PHB") at class level 3
 
 ## 2nd Level
 
-- [Mirror Image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md "PHB") at class level 13
-- [Shatter](03.PlayerLog&Handouts/Mechanics/CLI/spells/shatter.md "PHB") at class level 13
+- [Mirror Image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md "PHB") at class level 5
+- [Shatter](03.PlayerLog&Handouts/Mechanics/CLI/spells/shatter.md "PHB") at class level 5
 
 ## 3rd Level
 
-- [Hypnotic Pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md "PHB") at class level 13
-- [Lightning Bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md "PHB") at class level 13
+- [Hypnotic Pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md "PHB") at class level 9
+- [Lightning Bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md "PHB") at class level 9
 
 ## 4th Level
 
@@ -30,5 +31,5 @@ aliases:
 
 ## 5th Level
 
-- [Passwall](03.PlayerLog&Handouts/Mechanics/CLI/spells/passwall.md "PHB") at class level 13
-- [Wall of Force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md "PHB") at class level 13
+- [Passwall](03.PlayerLog&Handouts/Mechanics/CLI/spells/passwall.md "PHB") at class level 17
+- [Wall of Force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md "PHB") at class level 17

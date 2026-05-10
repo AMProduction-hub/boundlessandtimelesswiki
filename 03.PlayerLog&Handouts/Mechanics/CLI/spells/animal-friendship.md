@@ -1,16 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/selesnya-initiate
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
-- ttrpg-cli/spell/feat/divinely-favored
+- ttrpg-cli/spell/feat/divinely-favored/neutral
 - ttrpg-cli/spell/feat/fey-touched
-- ttrpg-cli/spell/feat/magic-initiate
-- ttrpg-cli/spell/feat/strixhaven-initiate
+- ttrpg-cli/spell/feat/magic-initiate/druid-spells
+- ttrpg-cli/spell/feat/strixhaven-initiate/witherbloom-3
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/race/yuan-ti
 - ttrpg-cli/spell/reward/yuan-ti-pureblood-transformation
@@ -18,12 +19,12 @@ tags:
 - ttrpg-cli/spell/subclass/nature-domain
 - ttrpg-cli/spell/subrace/human-mark-of-handling
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Nature Domain)
 - Druid
 - Ranger
 aliases:
-- Animal Friendship
+- "Animal Friendship"
 ---
 # Animal Friendship
 *1st-level, Enchantment*  
@@ -38,6 +39,6 @@ This spell lets you convince a beast that you mean it no harm. Choose a beast th
 
 **At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional beast for each slot level above 1st.
 
-**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md)
 
 *Source: Player's Handbook p. 212. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

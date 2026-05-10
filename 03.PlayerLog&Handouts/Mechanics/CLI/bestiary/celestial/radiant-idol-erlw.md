@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Radiant Idol
+- "Radiant Idol"
 ---
-# [Radiant Idol](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/radiant-idol-erlw.md)
+# [Radiant Idol](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/radiant-idol-erlw.md)
 *Source: Eberron: Rising from the Last War p. 308*  
 
 A radiant idol was an angel that was banished from the celestial realm of Syrania and cast down to the Material Plane. One sin led to their fall: the desire to be worshiped by mortals. Now in the mortal realm, most radiant idols gather cults of devoted followers.
@@ -47,8 +48,8 @@ A radiant idol doesn't require food, drink, or sleep.
   - !!int "21"
 "speed": "40 ft."
 "saves":
-  - "wisdom": "+9"
-  - "charisma": "+9"
+  - "wisdom": !!int "9"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+9"
@@ -62,17 +63,20 @@ A radiant idol doesn't require food, drink, or sleep.
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 19"
+"gear":
+  - "[flail](03.PlayerLog&Handouts/Mechanics/CLI/items/flail.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 19"
 "languages": "all, telepathy 120 ft."
 "cr": "11"
 "traits":
   - "desc": "The radiant idol's spellcasting ability is Charisma (spell save DC 17).\
       \ The radiant idol can innately cast the following spells, requiring no material\
-      \ components:\n\nAt will: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \ components:\n\n**At will:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1/day each: [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md),\
+      \n**1/day each:** [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md),\
       \ [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md),\
       \ [insect plague](03.PlayerLog&Handouts/Mechanics/CLI/spells/insect-plague.md),\
       \ [mass suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-suggestion.md),\
@@ -92,7 +96,7 @@ A radiant idol doesn't require food, drink, or sleep.
 "actions":
   - "desc": "The radiant idol makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 10 (1d8 + 6) bludgeoning damage plus 18 (4d8) radiant damage."
     "name": "Flail"
   - "desc": "The radiant idol chooses a point on the ground it can see within 60 feet\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Great Chief Halric Bonesnapper
+- "Great Chief Halric Bonesnapper"
 ---
-# [Great Chief Halric Bonesnapper](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/great-chief-halric-bonesnapper-skt.md)
+# [Great Chief Halric Bonesnapper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/great-chief-halric-bonesnapper-skt.md)
 *Source: Storm King's Thunder p. 89*  
 
 ```statblock
@@ -33,6 +34,8 @@ aliases:
   - !!int "11"
   - !!int "9"
 "speed": "30 ft."
+"gear":
+  - "[+1 greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/1-weapon.md)"
 "senses": "passive Perception 10"
 "languages": "Bothii, Common"
 "cr": "2"
@@ -42,7 +45,7 @@ aliases:
       \ until the start of its next turn."
     "name": "Reckless"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (1d12 + 4) slashing damage."
     "name": "Greataxe +1"
 "source":

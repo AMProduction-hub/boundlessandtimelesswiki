@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/aitfr-dn
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Zombie Constrictor Snake
+- "Giant Zombie Constrictor Snake"
 ---
-# [Giant Zombie Constrictor Snake](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/giant-zombie-constrictor-snake-aitfr-dn.md)
+# [Giant Zombie Constrictor Snake](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/giant-zombie-constrictor-snake-aitfr-dn.md)
 *Source: Adventures in the Forgotten Realms: Deepest Night p. 11*  
 
 These enormous, rotten husks were living, Medium-sized constrictors when the yuan-ti brought them to honor and entice Kyrilla to share her knowledge and powers. They grew to their full, Huge size on a diet of supplicants and prisoners, many of whose bones can be found elsewhere in the lair. When the yuan-ti turned against Kyrilla, they fought and slew these snakes—only to find them slithering again through cursed, ambient magic in Kyrilla's lair.
@@ -42,7 +43,9 @@ The constrictors die if they leave the lair.
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "damage_vulnerabilities": "poison"
-"senses": "blindsight 15 ft., darkvision 60 ft., passive Perception 15"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 15 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": ""
 "cr": "8"
 "traits":
@@ -59,12 +62,12 @@ The constrictors die if they leave the lair.
   - "desc": "The snake makes two attacks: one with its bite and one with a constrict\
       \ attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 17 (3d8 + 4) piercing damage, and the target must make a DC 15 Constitution\
       \ saving throw, taking 17 (5d6) poison damage on a failed save, or half as\
       \ much damage on a successful one."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 17\
       \ (3d8 + 4) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 16). Until this grapple ends, the creature is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ and the snake cannot constrict another target."

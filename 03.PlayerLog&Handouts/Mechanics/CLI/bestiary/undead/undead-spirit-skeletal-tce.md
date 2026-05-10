@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Undead Spirit (Skeletal)
+- "Undead Spirit (Skeletal)"
 ---
-# [Undead Spirit (Skeletal)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/undead-spirit-skeletal-tce.md)
+# [Undead Spirit (Skeletal)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/undead-spirit-skeletal-tce.md)
 *Source: Tasha's Cauldron of Everything p. 114*  
 
 ```statblock
@@ -34,14 +35,15 @@ aliases:
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands the languages you speak"
 "actions":
   - "desc": "The spirit makes a number of attacks equal to half this spell's level\
       \ (rounded down)."
     "name": "Multiattack"
-  - "desc": "Ranged Spell Attack: your spell attack modifier to hit, range 150 ft.,\
-      \ one target. Hit: 2d4 + 3 + the spell's level necrotic damage."
+  - "desc": "*Ranged Spell Attack:* your spell attack modifier to hit, range 150 ft.,\
+      \ one target. *Hit:* 2d4 + 3 + the spell's level necrotic damage."
     "name": "Grave Bolt"
 "source":
   - "TCE"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Magma Mephit
+- "Magma Mephit"
 ---
-# [Magma Mephit](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/magma-mephit.md)
-*Source: Monster Manual p. 216, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Magma Mephit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/magma-mephit.md)
+*Source: Monster Manual p. 216. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 ## Mephits
 
@@ -52,7 +53,8 @@ Composed of earth and fire, magma mephits glow a dull red color as they perspire
 "damage_vulnerabilities": "cold"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Ignan, Terran"
 "cr": "1/2"
 "traits":
@@ -68,8 +70,8 @@ Composed of earth and fire, magma mephits glow a dull red color as they perspire
       \ ordinary mound of magma."
     "name": "False Appearance"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit:\
-      \ 3 (1d4 + 1) slashing damage plus 2 (d4) fire damage."
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:*\
+      \ 3 (1d4 + 1) slashing damage plus 2 (1d4) fire damage."
     "name": "Claws"
   - "desc": "The mephit exhales a 15-foot cone of fire. Each creature in that area\
       \ must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on\
@@ -77,12 +79,6 @@ Composed of earth and fire, magma mephits glow a dull red color as they perspire
     "name": "Fire Breath (Recharge 6)"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "ToA"
-  - "WDMM"
-  - "GoS"
-  - "EGW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/magma-mephit.webp"
 ```
 ^statblock

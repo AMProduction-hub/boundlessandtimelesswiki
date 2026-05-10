@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gingwatzim
+- "Gingwatzim"
 ---
-# [Gingwatzim](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/gingwatzim-cm.md)
+# [Gingwatzim](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/gingwatzim-cm.md)
 *Source: Candlekeep Mysteries p. 27*  
 
 A gingwatzim is a peculiar form of life created by a spell or a ritual. The magic that brings it into being draws on spirit energy from the Ethereal Plane to give the gingwatzim its true form—that of a luminous (but not too bright) sphere of ectoplasm roughly 3 feet in diameter. A newly formed gingwatzim appears as near to its creator as possible and follows its creator's commands without question, using telepathy to communicate.
@@ -38,7 +39,8 @@ A gingwatzim can assume two other forms that are determined by its creator at th
 "speed": "30 ft., fly 30 ft. (hover) in its true form only"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 10"
 "languages": "telepathy 60 ft."
 "cr": "2"
 "traits":
@@ -50,7 +52,7 @@ A gingwatzim can assume two other forms that are determined by its creator at th
       \ be changed."
     "name": "Alternate Forms"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 16 (4d6 + 2) necrotic damage, and the target must succeed on a DC 12 Constitution\
       \ saving throw or gain 1 level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion).\
       \ When the target finishes a short or long rest, the target loses every level\

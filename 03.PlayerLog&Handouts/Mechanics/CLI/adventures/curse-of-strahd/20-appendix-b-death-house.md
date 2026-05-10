@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 aliases:
-- Appendix B: Death House
+- "Appendix B: Death House"
 ---
 # Appendix B: Death House
 *Source: Curse of Strahd, p. 211* 
@@ -55,7 +56,7 @@ If the characters approach the children or call out to them, add the following:
 > After shushing the boy, the girl turns to you and says, "There's a monster in our house!" She then points to a tall brick row house that has seen better days. Its windows are dark. It has a gated portico on the ground floor, and the rusty gate is slightly ajar. The houses on either side are abandoned, their windows and doors boarded up.
 ^6d3
 
-![Thornboldt &quot;Thorn&quot; Durst a...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/curse-of-strahd/img/133-cos17-01.webp#center "Thornboldt &quot;Thorn&quot; Durst and Rosavalda &quot;Rose&quot; Durst")
+![Thornboldt &quot;Thorn&quot; Durst and Rosavalda &quot;Rose&quot; Durst](03.PlayerLog&Handouts/Mechanics/CLI/adventures/curse-of-strahd/img/133-cos17-01.webp#center)
 
 Characters who question the children learn the following information:
 
@@ -83,7 +84,7 @@ Characters who remain outside the house can see the mists close in around them, 
 > 
 > None of the rooms in the house are lit when the characters arrive, although most areas contain working oil lamps or fireplaces.
 > 
-> Characters can burn the house to the ground if they want, but any destruction to the house is temporary. After `d10` days, the house begins to repair itself. Ashes sweep together to form blackened timbers, which then turn back into a sturdy wooden frame around which walls begin to materialize. Destroyed furnishings are likewise repaired. It takes `2d6` hours for the house to complete its resurrection. Items taken from the house aren't replaced, nor are undead that are destroyed. The dungeon level isn't considered part of the house and can't repair itself in this fashion.
+> Characters can burn the house to the ground if they want, but any destruction to the house is temporary. After `1d10` days, the house begins to repair itself. Ashes sweep together to form blackened timbers, which then turn back into a sturdy wooden frame around which walls begin to materialize. Destroyed furnishings are likewise repaired. It takes `2d6` hours for the house to complete its resurrection. Items taken from the house aren't replaced, nor are undead that are destroyed. The dungeon level isn't considered part of the house and can't repair itself in this fashion.
 ^death-houses-features
 
 ## Areas of the House
@@ -407,7 +408,7 @@ This room's chest contains a silvered [shortsword](03.PlayerLog&Handouts/Mechani
 
 ### 26. Hidden Spiked Pit
 
-The ghostly chanting heard throughout the dungeon gets discernibly louder as one heads west along this tunnel. A successful DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check reveals an absence of footprints. Characters searching the floor for traps find a 5-foot-long, 10-foot-deep pit hidden under several rotted wooden planks, all hidden under a thin layer of dirt. The pit has sharpened wooden spikes at the bottom. The first character to step on the cover falls through, landing [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) and taking 3 (`d6`) bludgeoning damage from the fall plus 11 (`2d10`) piercing damage from the spikes.
+The ghostly chanting heard throughout the dungeon gets discernibly louder as one heads west along this tunnel. A successful DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check reveals an absence of footprints. Characters searching the floor for traps find a 5-foot-long, 10-foot-deep pit hidden under several rotted wooden planks, all hidden under a thin layer of dirt. The pit has sharpened wooden spikes at the bottom. The first character to step on the cover falls through, landing [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) and taking 3 (`1d6`) bludgeoning damage from the fall plus 11 (`2d10`) piercing damage from the spikes.
 
 ### 27. Dining Hall
 
@@ -564,7 +565,7 @@ If the characters deny the cult its sacrifice and either destroy the shambling m
 
 - All the windows are bricked up; the bricked-up windows and the outer walls are impervious to the party's weapon attacks and damage-dealing spells.  
 - All the doors are gone, replaced by slashing scythe-blades. A character must succeed on a DC 15 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check to pass through a blade-trapped doorway unscathed. A character who spends 1 minute studying the blades in a particular doorway can try to take advantage of a momentary gap in their repeating movements and make a DC 15 Intelligence check instead. Failing either check, a character takes `2d10` slashing damage but manages to pass through the doorway. Any creature pushed through a doorway must succeed on a DC 15 Dexterity saving throw or take the damage. The blades can't be disarmed.  
-- Every room that contains a fireplace, an oven, or a stove is filled with poisonous black smoke. The room is heavily obscured, and any creature that starts its turn in the smoke must succeed on a DC 10 Constitution saving throw or take `d10` poison damage.  
+- Every room that contains a fireplace, an oven, or a stove is filled with poisonous black smoke. The room is heavily obscured, and any creature that starts its turn in the smoke must succeed on a DC 10 Constitution saving throw or take `1d10` poison damage.  
 - The interior walls become rotted and brittle. Each 5-foot-section has AC 5 and 5 hit points, and can also be destroyed with a successful DC 10 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. Each 5-foot section of wall that's destroyed causes a [swarm of rats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-rats.md) to pour out and attack. The swarm won't leave the house.  
 
 Keep track of initiative as the characters make their way through the house. Once they escape, they advance to 3rd level, and the house does no more to harm them.

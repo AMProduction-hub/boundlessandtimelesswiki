@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/domain/death
 - ttrpg-cli/subclass/cleric/death
 aliases:
-- Death Domain
+- "Death Domain"
 ---
 # Death Domain
 *[Cleric](./cleric.md): Divine Domain*  
@@ -44,11 +45,11 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Death Domain (Level 1)
-
 The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures. Deities such as Chemosh, Myrkul, and [Wee Jas](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-wee-jas.md) are patrons of necromancers, death knights, liches, mummy lords, and vampires. Gods of the Death domain also embody murder ([Anubis](03.PlayerLog&Handouts/Mechanics/CLI/deities/egyptian-anubis.md), Bhaal, and Pyremius), pain ([Iuz](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-iuz.md) or Loviatar), disease or poison ([Incabulos](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-incabulos.md), Talona, or Morgion), and the underworld ([Hades](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-hades.md) and [Hel](03.PlayerLog&Handouts/Mechanics/CLI/deities/norse-hel.md)).
+
+## Subclass Features
+
+### Domain Spells (Level 1)
 
 At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.
 
@@ -83,14 +84,14 @@ Starting at 6th level, the cleric's ability to channel negative energy becomes m
 
 ### Divine Strike (Level 8)
 
-At 8th level, the cleric gains the ability to infuse his or her weapon strikes with necrotic energy. Once on each of the cleric's turns when he or she hits a creature with a weapon attack, the cleric can cause the attack to deal an extra `d8` necrotic damage to the target. When the cleric reaches 14th level, the extra damage increases to `2d8`.
+At 8th level, the cleric gains the ability to infuse his or her weapon strikes with necrotic energy. Once on each of the cleric's turns when he or she hits a creature with a weapon attack, the cleric can cause the attack to deal an extra `1d8` necrotic damage to the target. When the cleric reaches 14th level, the extra damage increases to `2d8`.
 
 ### Blessed Strikes (Level 8)
 _Source: Tasha's Cauldron of Everything p. 30_
 
 *8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Divine Strike feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Improved Reaper (Level 17)
 

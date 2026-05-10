@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sloopidoop
+- "Sloopidoop"
 ---
-# [Sloopidoop](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sloopidoop-oota.md)
+# [Sloopidoop](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sloopidoop-oota.md)
 *Source: Out of the Abyss p. 29*  
 
 ```statblock
@@ -38,7 +39,8 @@ aliases:
     "desc": "+9"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+7"
-"senses": "darkvision 120 ft., passive Perception 19"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 19"
 "languages": "Undercommon, Dwarvish, Elvish"
 "cr": "6"
 "traits":
@@ -50,19 +52,19 @@ aliases:
     "name": "Innate Spellcasting"
   - "desc": "Sloopidoop is a 10th-level spellcaster. Its spellcasting ability is Wisdom\
       \ (spell save DC 14, +6 to hit with spell attacks). Sloopidoop has the following\
-      \ cleric spells prepared:\n\nCantrips (at will): [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ cleric spells prepared:\n\n**Cantrips (at will):** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**1st level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md), [shield\
       \ of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield-of-faith.md)\n\
-      \n2nd level (3 slots): [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
+      \n**2nd level (3 slots):** [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md)\n\
-      \n3rd level (3 slots): [spirit guardians](03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-guardians.md),\
-      \ [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\n4th\
-      \ level (3 slots): [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md),\
+      \n**3rd level (3 slots):** [spirit guardians](03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-guardians.md),\
+      \ [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\n**4th\
+      \ level (3 slots):** [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md),\
       \ [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md)\n\n\
-      5th level (2 slots): [mass cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-cure-wounds.md),\
+      **5th level (2 slots):** [mass cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-cure-wounds.md),\
       \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)"
     "name": "Spellcasting"
   - "desc": "Sloopidoop can breathe air and water."
@@ -81,10 +83,10 @@ aliases:
 "actions":
   - "desc": "Sloopidoop makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) bludgeoning damage plus 14 (4d6) lightning damage."
     "name": "Scepter"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) bludgeoning damage."
     "name": "Unarmed Strike"
 "source":

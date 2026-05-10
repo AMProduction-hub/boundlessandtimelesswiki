@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 aliases:
-- Credits
+- "Credits"
 ---
 # Credits
 *Source: Dragonlance: Shadow of the Dragon Queen* 
@@ -42,5 +43,8 @@ aliases:
 ![](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/credits.webp#center)
 
 > [!gallery]
-> ![On the Cover: Dragons, dra...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/credits2.webp#gallery "On the Cover: Dragons, draconians, and other servants of the Dragon Queen prepare for their invasion of Kalaman in this painting by Cynthia Sheppard.")
-> ![On the Cover: The grim vis...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/credits3.webp#gallery "On the Cover: The grim visage of the death knight Lord Soth, Knight of the Black Rose, glares from of a tangle of charred thorns in this cover by Chase Stone.")
+> ![On the Cover: Dragons, draconians, and other servants of the Dragon Queen prepare for their invasion of Kalaman in this painting by Cynthia Sheppard.](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/credits2.webp#gallery)
+> ![On the Cover: The grim visage of the death knight Lord Soth, Knight of the Black Rose, glares from of a tangle of charred thorns in this cover by Chase Stone.](03.PlayerLog&Handouts/Mechanics/CLI/adventures/dragonlance-shadow-of-the-dragon-queen/img/credits3.webp#gallery)
+
+> [!note]
+> Disclaimer: The Dragon Armies cannot ensure that owners of this book will not have their lives repurposed in the service of the Dragon Queen's glorious will. Promises to the contrary should be considered best-case scenarios, not statements of certainty. Thank you for supporting the Dragon Armies and a cataclysmically bright future for all of Krynn.

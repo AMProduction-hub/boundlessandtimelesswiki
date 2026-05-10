@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vampiric Jade Statue
+- "Vampiric Jade Statue"
 ---
-# [Vampiric Jade Statue](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/vampiric-jade-statue-gos.md)
+# [Vampiric Jade Statue](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/vampiric-jade-statue-gos.md)
 *Source: Ghosts of Saltmarsh p. 256*  
 
 A large, exquisitely carved jade statue of a vampire guards the tunnels in Isle of the Abbey, having been brought to life by dark magic. Its stone fangs draw blood that it then uses to work a curse on its victims.
@@ -42,7 +43,8 @@ A large, exquisitely carved jade statue of a vampire guards the tunnels in Isle 
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "8"
 "traits":
@@ -53,14 +55,18 @@ A large, exquisitely carved jade statue of a vampire guards the tunnels in Isle 
 "actions":
   - "desc": "The statue makes three attacks: one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) piercing damage. If the target is a creature, that creature becomes\
       \ cursed by the statue. The curse lasts for 10 minutes. While the creature is\
       \ cursed, the statue has advantage on all attacks against it."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage."
     "name": "Claws"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the vampiric jade statue can expend a use to take one of the following actions.\
+  \ The vampiric jade statue regains all expended uses at the start of each of its\
+  \ turns."
 "legendary_actions":
   - "desc": "The statue makes one bite attack."
     "name": "Bite"

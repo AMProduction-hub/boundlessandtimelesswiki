@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sphinx of Judgment
+- "Sphinx of Judgment"
 ---
-# [Sphinx of Judgment](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/sphinx-of-judgment-ggr.md)
+# [Sphinx of Judgment](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/sphinx-of-judgment-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 183*  
 
 ```statblock
@@ -45,27 +46,28 @@ aliases:
 "damage_immunities": "psychic"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 120 ft., passive Perception 18"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 18"
 "languages": "Common, Sphinx"
 "cr": "11"
 "traits":
   - "desc": "The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence\
       \ (spell save DC 16, +8 to hit with spell attacks). It requires no material\
       \ components to cast its spells. The sphinx has the following wizard spells\
-      \ prepared:\n\nCantrips (at will): [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md),\
+      \ prepared:\n\n**Cantrips (at will):** [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md)\n\
-      \n1st level (4 slots): [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \n**1st level (4 slots):** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [ensnaring strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/ensnaring-strike.md),\
-      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n2nd level\
-      \ (3 slots): [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
+      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n**2nd level\
+      \ (3 slots):** [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\n\
-      3rd level (3 slots): [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
+      **3rd level (3 slots):** [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
       \ [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md)\n\
-      \n4th level (3 slots): [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \n**4th level (3 slots):** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md)\n\n\
-      5th level (1 slots): [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md)"
+      **5th level (1 slots):** [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md)"
     "name": "Spellcasting"
   - "desc": "The sphinx is immune to any effect that would sense its emotions or read\
       \ its thoughts, as well as any divination spell that it refuses. Wisdom ([Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight))\
@@ -76,9 +78,12 @@ aliases:
 "actions":
   - "desc": "The sphinx makes two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) slashing damage."
     "name": "Claw"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the sphinx of judgment can expend a use to take one of the following actions.\
+  \ The sphinx of judgment regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The sphinx makes one claw attack."
     "name": "Claw Attack"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/1-4
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Volothamp "Volo" Geddarm
+- "Volothamp \"Volo\" Geddarm"
 ---
-# [Volothamp "Volo" Geddarm](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/volothamp-volo-geddarm-toa.md)
-*Source: Tomb of Annihilation p. 235, Waterdeep: Dragon Heist*  
+# [Volothamp "Volo" Geddarm](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/volothamp-volo-geddarm-toa.md)
+*Source: Tomb of Annihilation p. 235*  
 
 The bombastic world traveler Volothamp Geddarm has come to Chult to deliver signed copies of his latest book, Volo's Guide to Monsters. In addition to setting up audiences with the seven merchant princes of Port Nyanzaru (whom he knows well), Volo is visiting local taverns to promote his work, and the characters might meet him at some point in the city. Volo is a font of information (not all of it accurate), but he won't join the party under any circumstances. He might, however, allow the characters to tag along while he visits each merchant prince in turn.
 
@@ -51,8 +52,8 @@ The personable Volo is more than willing to share `1d4 + 1` rumors from the Jung
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+2"
-  - "wisdom": "+2"
+  - "constitution": !!int "2"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Animal Handling](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Animal%20Handling)"
     "desc": "+4"
@@ -76,25 +77,26 @@ The personable Volo is more than willing to share `1d4 + 1` rumors from the Jung
     "desc": "+3"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+2"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 12"
 "languages": "Common, Dwarvish, Elvish"
 "cr": "1/4"
 "traits":
   - "desc": "Volo is a 1st-level spellcaster. His spellcasting ability is Intelligence\
       \ (spell save DC 12, +4 to hit with spell attacks). He has the following wizard\
-      \ spells prepared:\n\nCantrips (at will): [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md),\
+      \ spells prepared:\n\n**Cantrips (at will):** [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md),\
       \ [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (2 slots): [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
+      \n**1st level (2 slots):** [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md)"
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 3 (1d4 + 1) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 3 (1d4 + 1) piercing damage."
     "name": "Dagger"
 "source":
   - "ToA"
-  - "WDH"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/volothamp-volo-geddarm-toa.webp"
 ```
 ^statblock

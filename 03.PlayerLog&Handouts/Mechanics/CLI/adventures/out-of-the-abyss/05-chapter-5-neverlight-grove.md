@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Chapter 5: Neverlight Grove
+- "Chapter 5: Neverlight Grove"
 ---
 # Chapter 5: Neverlight Grove
 *Source: Out of the Abyss, p. 83* 
@@ -33,13 +34,11 @@ Characters traveling to and from Neverlight Grove encounter evidence of Zuggtmoy
 
 #### Encounters around Neverlight Grove
 
-`dice: [](05-chapter-5-neverlight-grove.md#^encounter)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–8 | No encounter |
 | 9–16 | Fungi patch (see below) |
-| 17–18 | `d4` [nothics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/nothic.md) |
+| 17–18 | `1d4` [nothics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/nothic.md) |
 | 19–20 | 1 [chasme](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/chasme.md) demon crawling on the ceiling or 1 [vrock](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/vrock.md) demon perched on a ledge (your choice) |
 ^encounter
 
@@ -51,30 +50,28 @@ See "Fungi of the Underdark" in chapter 2 for more information on edible and exo
 
 #### Fungi Patch Discoveries
 
-`dice: [](05-chapter-5-neverlight-grove.md#^fungi-or-creatures)`
-
 | dice: d20 | Fungi or Creatures |
 |-----------|--------------------|
-| 1 | `d6` barrelstalks |
+| 1 | `1d6` barrelstalks |
 | 2 | `2d6` bluecaps |
-| 3 | `d3` [carrion crawlers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/carrion-crawler.md) |
-| 4 | `d4` [drow spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/drow-spore-servant-oota.md)* (see appendix C) and `d4` [quaggoth spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/quaggoth-spore-servant.md)* |
+| 3 | `1d3` [carrion crawlers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/carrion-crawler.md) |
+| 4 | `1d4` [drow spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/drow-spore-servant-oota.md)* (see appendix C) and `1d4` [quaggoth spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/quaggoth-spore-servant.md)* |
 | 5 | Fire lichen growing near a thermal vent |
 | 6 | `3d6` [giant fire beetles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-fire-beetle.md) |
-| 7 | `d4` [myconid adults](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/myconid-adult.md)* |
-| 8 | `d6` nightlights |
+| 7 | `1d4` [myconid adults](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/myconid-adult.md)* |
+| 8 | `1d6` nightlights |
 | 9 | 1 [otyugh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/otyugh.md) hidden under a mound of offal |
 | 10 | Patch of brown mold (see ""Dungeon Hazards"" in chapter 5 of the *Dungeon Master's Guide*) |
-| 11 | `d4` [awakened zurkhwoods](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/awakened-zurkhwood-oota.md)* (see appendix C) |
+| 11 | `1d4` [awakened zurkhwoods](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/awakened-zurkhwood-oota.md)* (see appendix C) |
 | 12 | `2d4` sheets of ripplebark growing on the walls |
-| 13 | `d4` [shriekers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/shrieker.md)* |
+| 13 | `1d4` [shriekers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/shrieker.md)* |
 | 14 | `2d4` timmasks |
-| 15 | `d6` tongues of madness |
+| 15 | `1d6` tongues of madness |
 | 16 | `2d6` torchstalks |
 | 17 | `2d6` trillimacs |
-| 18 | `d4` [violet fungi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/violet-fungus.md) |
+| 18 | `1d4` [violet fungi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/violet-fungus.md) |
 | 19 | `2d4` waterorbs growing near a freshwater spring |
-| 20 | `d4` zurkhwoods* |
+| 20 | `1d4` zurkhwoods* |
 ^fungi-or-creatures
 
 ##### Drow and Quaggoth Spore Servants
@@ -120,7 +117,7 @@ The adventurers might interact with the following characters and creatures in Ne
 |    |    |
 |----|----|
 | **Sovereign Phylo** | One of the two rulers of Neverlight Grove, in thrall to Zuggtmoy |
-| **Sovereign Basidia** | The other ruler of Neverlight Grove, free of Zuggtmoy's influence and suspicious of Phylo |
+| [Sovereign Basidia](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sovereign-basidia-oota.md) | The other ruler of Neverlight Grove, free of Zuggtmoy's influence and suspicious of Phylo |
 | **Loobamub** | Leader of the Circle of Hunters, loyal to Basidia, with tasks for the party |
 | **Rasharoo** | Leader of the Circle of Explorers and loyal to Basidia; knows of routes to the surface world |
 | [Yestabrod](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yestabrod-oota.md) | Mutated leader of the Circle of Masters and Zuggtmoy's monstrous servant |
@@ -493,7 +490,7 @@ Characters who descend to the cavern's lower basin witness the next spectacle of
 
 Scores of deformed creatures dance around the base of the giant fungal tower. The revelers are a motley collection of humanoids and various other creatures, all sporting tumors, cankers, and putrid patches of flesh all over their bodies. They are joined by dancing fungi vaguely shaped and twisted into forms resembling humanoids. Some of these creatures are spore servants enthralled to the Demon Queen of Fungi. Others are myconids and other fungal life forms infested with Zuggtmoy's spores.
 
-The dancing creatures pay no attention to trespassers unless they are attacked. In that event, `d6` [drow spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/drow-spore-servant-oota.md) and `d6` [hook horror spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/hook-horror-spore-servant-oota.md) (see appendix C for both) stop dancing and turn on their attackers.
+The dancing creatures pay no attention to trespassers unless they are attacked. In that event, `1d6` [drow spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/drow-spore-servant-oota.md) and `1d6` [hook horror spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/hook-horror-spore-servant-oota.md) (see appendix C for both) stop dancing and turn on their attackers.
 
 Voices can be heard cackling and chatting amiably about Sovereign Phylo's success at "bringing so many new guests to attend the party!" The characters see drow dancing as if their bones were melting, duergar roaring with mock merriment and vomiting slime, and even nothics laughing madly as they leap and caper.
 

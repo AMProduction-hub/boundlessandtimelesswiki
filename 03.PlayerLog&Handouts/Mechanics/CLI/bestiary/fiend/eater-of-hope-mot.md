@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Eater of Hope
+- "Eater of Hope"
 ---
-# [Eater of Hope](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/eater-of-hope-mot.md)
+# [Eater of Hope](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/eater-of-hope-mot.md)
 *Source: Mythic Odysseys of Theros p. 220*  
 
 An eater of hope is bitter to the core, resentful of all forms of life and joy. Although these demons can strike down most foes, they prefer to let terror and despair overtake their victims first, letting their victims marinate in fear before the fiend devours them.
@@ -35,8 +36,8 @@ An eater of hope is bitter to the core, resentful of all forms of life and joy. 
   - !!int "16"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "constitution": "+5"
-  - "charisma": "+6"
+  - "constitution": !!int "5"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+6"
@@ -47,7 +48,8 @@ An eater of hope is bitter to the core, resentful of all forms of life and joy. 
 "damage_resistances": "cold, necrotic"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "Abyssal, Common, Infernal"
 "cr": "6"
 "traits":
@@ -63,13 +65,13 @@ An eater of hope is bitter to the core, resentful of all forms of life and joy. 
 "actions":
   - "desc": "The eater of hope makes two attacks with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage plus 7 (2d6) necrotic damage."
     "name": "Claws"
   - "desc": "The eater of hope exhales a miasma of Underworld winds in a 30-foot cone.\
       \ Each creature in that area must make a DC 14 Charisma saving throw. On a failed\
       \ save, the target takes 26 (4d12) necrotic damage and is cursed for 1 minute.\
-      \ While cursed in this way, the target takes an extra 6 (d12) necrotic damage\
+      \ While cursed in this way, the target takes an extra 6 (1d12) necrotic damage\
       \ whenever the eater of hope hits it with an attack. On a successful save, the\
       \ target takes half as much damage and isn't cursed."
     "name": "Breath of Hopelessness (Recharge 5-6)"

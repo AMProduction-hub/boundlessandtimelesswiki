@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Baldur's Gate Entertainer
+- "Baldur's Gate Entertainer"
 ---
 # Baldur's Gate Entertainer
 *Source: Baldur's Gate: Descent Into Avernus p. 202, Player's Handbook p. 130*  
@@ -32,8 +33,6 @@ You've learned that most of the real business of entertainment (or any other ven
 
 A good entertainer is versatile, spicing up every performance with a variety of different routines. Choose one to three routines or roll on the table below to define your expertise as an entertainer.
 
-`dice: [](baldurs-gate-entertainer-bgdia.md#^routines)`
-
 | dice: d10 | Routines |
 |-----------|----------|
 | 1 | Actor |
@@ -52,8 +51,6 @@ A good entertainer is versatile, spicing up every performance with a variety of 
 
 Successful entertainers have to be able to capture and hold an audience's attention, so they tend to have flamboyant or forceful personalities. They're inclined toward the romantic and often cling to high-minded ideals about the practice of art and the appreciation of beauty.
 
-`dice: [](baldurs-gate-entertainer-bgdia.md#^personality-trait)`
-
 | dice: d8 | Personality Trait |
 |----------|-------------------|
 | 1 | I know a story relevant to almost every situation. |
@@ -66,8 +63,6 @@ Successful entertainers have to be able to capture and hold an audience's attent
 | 8 | I change my mood or my mind as quickly as I change key in a song. |
 ^personality-trait
 
-`dice: [](baldurs-gate-entertainer-bgdia.md#^ideal)`
-
 | dice: d6 | Ideal |
 |----------|-------|
 | 1 | Beauty. When I perform, I make the world better than it was. (Good) |
@@ -78,8 +73,6 @@ Successful entertainers have to be able to capture and hold an audience's attent
 | 6 | Honesty. Art should reflect the soul; it should come from within and reveal who we really are. (Any) |
 ^ideal
 
-`dice: [](baldurs-gate-entertainer-bgdia.md#^bond)`
-
 | dice: d6 | Bond |
 |----------|------|
 | 1 | My instrument is my most treasured possession, and it reminds me of someone I love. |
@@ -89,8 +82,6 @@ Successful entertainers have to be able to capture and hold an audience's attent
 | 5 | I will do anything to prove myself superior to my hated rival. |
 | 6 | I would do anything for the other members of my old troupe. |
 ^bond
-
-`dice: [](baldurs-gate-entertainer-bgdia.md#^flaw)`
 
 | dice: d6 | Flaw |
 |----------|------|

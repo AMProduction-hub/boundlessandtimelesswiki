@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Mournland Villains
+- "Mournland Villains"
 ---
 # Mournland Villains
 *Source: Eberron: Rising from the Last War p. 222* 
 
 **Mournland Villains**
-
-`dice: [](mournland-villains-erlw.md#^mournland-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

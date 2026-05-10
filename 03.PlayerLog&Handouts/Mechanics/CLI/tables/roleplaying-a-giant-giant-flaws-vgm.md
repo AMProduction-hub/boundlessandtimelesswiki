@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Roleplaying a Giant; Giant Flaws
+- "Roleplaying a Giant; Giant Flaws"
 ---
 # Roleplaying a Giant; Giant Flaws
 *Source: Volo's Guide to Monsters p. 23* 
 
 **Giant Flaws**
-
-`dice: [](roleplaying-a-giant-giant-flaws-vgm.md#^giant-flaws)`
 
 | dice: d6 | Flaw |
 |----------|------|

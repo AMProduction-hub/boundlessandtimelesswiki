@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Cave Fisher
+- "Cave Fisher"
 ---
-# [Cave Fisher](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/cave-fisher-mpmm.md)
+# [Cave Fisher](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/cave-fisher-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 73, Volo's Guide to Monsters p. 130*  
 
 A cave fisher is a subterranean arachnid with a long snout that houses spinnerets, enabling the creature to produce sticky filaments, much like the strands of a spider's webbing, which the creature uses to snag prey.
@@ -50,7 +51,8 @@ While some folk hunt cave fishers to kill them to harvest their filaments, shell
     "desc": "+2"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "blindsight 60 ft., passive Perception 12"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., passive Perception 12"
 "languages": ""
 "cr": "3"
 "traits":
@@ -63,7 +65,7 @@ While some folk hunt cave fishers to kill them to harvest their filaments, shell
 "actions":
   - "desc": "The cave fisher makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage."
     "name": "Claw"
   - "desc": "One Large or smaller creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\

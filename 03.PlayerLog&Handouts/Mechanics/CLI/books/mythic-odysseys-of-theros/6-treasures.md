@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Treasures
+- "Treasures"
 ---
 # Treasures
 *Source: Mythic Odysseys of Theros, p. 195* 
@@ -17,7 +18,7 @@ aliases:
 > 
 > Kytheon gaped, both at the spear and at the task the god had set before him.
 
-![Within his workshop, the t...](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/141-05-01.webp#center "Within his workshop, the triton genius Dalakos equips a satyr and leonin with the tools they need to become legends ")
+![Within his workshop, the triton genius Dalakos equips a satyr and leonin with the tools they need to become legends](03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/img/141-05-01.webp#center)
 
 On Theros, magic items carry reputations as rich and storied as those who wield them. They might take form in the god-realm of Nyx, spring from Purphoros's forge in Mount Velus, or come from legendary mortal smiths. Some crafters create great works to put an end to a specific peril, while others create to honor the gods. The most renowned works are the weapons of the gods themselves, treasures synonymous with divine power that forge legends with their every use.
 

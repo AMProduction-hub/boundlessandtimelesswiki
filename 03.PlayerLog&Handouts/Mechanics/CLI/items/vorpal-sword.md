@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/attunement/required
@@ -9,7 +10,7 @@ tags:
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Vorpal Sword"
 - "Vorpal Double-Bladed Scimitar"
 - "Vorpal Greatsword"
@@ -18,7 +19,7 @@ aliases:
 ---
 # Vorpal Sword
 *Major, legendary (requires attunement)*  
-![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/vorpal-sword.webp#right)
+![Vorpal Sword (Longsword)](03.PlayerLog&Handouts/Mechanics/CLI/items/img/vorpal-sword.webp#right)
 
 
 You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.

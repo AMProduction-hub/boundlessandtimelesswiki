@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/24
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Rakdos
+- "Rakdos"
 ---
-# [Rakdos](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/rakdos-ggr.md)
+# [Rakdos](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rakdos-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 247*  
 
 Rakdos, the demon for whom his cult is named, embodies hedonism. He is also the consummate entertainer, whose mere appearance is an act of grisly performance art. A monstrous figure standing thirty feet tall, spreading enormous wings, crowned with fire and swinging a flaming scythe, Rakdos demands the spotlight. His every entrance is a showstopper.
@@ -38,10 +39,10 @@ Sometimes after his grand entrance, Rakdos crouches to witness the performances 
   - !!int "30"
 "speed": "40 ft., fly 80 ft."
 "saves":
-  - "strength": "+15"
-  - "constitution": "+13"
-  - "wisdom": "+11"
-  - "charisma": "+17"
+  - "strength": !!int "15"
+  - "constitution": !!int "13"
+  - "wisdom": !!int "11"
+  - "charisma": !!int "17"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+17"
@@ -55,7 +56,8 @@ Sometimes after his grand entrance, Rakdos crouches to witness the performances 
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 14"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 14"
 "languages": "Abyssal, Common"
 "cr": "24"
 "traits":
@@ -82,12 +84,15 @@ Sometimes after his grand entrance, Rakdos crouches to witness the performances 
 "actions":
   - "desc": "Rakdos makes two attacks with his Curtain-Call Scythe or his claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. *Hit:*\
       \ 24 (3d10 + 8) slashing damage plus 13 (3d8) fire damage."
     "name": "Curtain-Call Scythe"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) slashing damage."
     "name": "Claw"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Rakdos can expend a use to take one of the following actions. Rakdos regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Each creature within 60 feet of Rakdos that is his ally or is [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
       \ by him must use its reaction to move up to half its speed toward the creature\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/11
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Horned Devil
+- "Horned Devil"
 ---
-# [Horned Devil](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/horned-devil.md)
-*Source: Monster Manual p. 74, Tomb of Annihilation, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Horned Devil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/horned-devil.md)
+*Source: Monster Manual p. 74. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Horned devils are lazy to the point of belligerence and reluctant to put themselves in harm's way. Moreover, they hate and fear any creature stronger than themselves. When they are sufficiently provoked or antagonized, the fury of these fiends can be terrifying.
 
@@ -130,10 +131,10 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > - A barbed devil has a 30 percent chance of summoning one barbed devil.  
 > - A bearded devil has a 30 percent chance of summoning one bearded devil.  
 > - A bone devil has a 40 percent chance of summoning `2d6` spined devils or one bone devil.  
-> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `d6` bearded devils, or one erinyes.  
+> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `1d6` bearded devils, or one erinyes.  
 > - A horned devil has a 30 percent chance of summoning one horned devil.  
 > - An ice devil has a 60 percent chance of summoning one ice devil.  
-> - A pit fiend summons `2d4` bearded devils, `d4` barbed devils, or one erinyes with no chance of failure.  
+> - A pit fiend summons `2d4` bearded devils, `1d4` barbed devils, or one erinyes with no chance of failure.  
 > 
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
@@ -158,15 +159,16 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
   - !!int "17"
 "speed": "20 ft., fly 60 ft."
 "saves":
-  - "strength": "+10"
-  - "dexterity": "+7"
-  - "wisdom": "+7"
-  - "charisma": "+7"
+  - "strength": !!int "10"
+  - "dexterity": !!int "7"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "7"
 "damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
   \ that aren't silvered"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "Infernal, telepathy 120 ft."
 "cr": "11"
 "traits":
@@ -179,10 +181,10 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
   - "desc": "The devil makes three melee attacks: two with its fork and one with its\
       \ tail. It can use Hurl Flame in place of any melee attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:*\
       \ 15 (2d8 + 6) piercing damage."
     "name": "Fork"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:*\
       \ 10 (1d8 + 6) piercing damage. If the target is a creature other than an\
       \ undead or a construct, it must succeed on a DC 17 Constitution saving throw\
       \ or lose 10 (3d6) hit points at the start of each of its turns due to an\
@@ -191,14 +193,12 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
       \ an action to stanch the wound with a successful DC 12 Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine))\
       \ check. The wound also closes if the target receives magical healing."
     "name": "Tail"
-  - "desc": "Ranged Spell Attack: +7 to hit, range 150 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +7 to hit, range 150 ft., one target. *Hit:*\
       \ 14 (4d6) fire damage. If the target is a flammable object that isn't being\
       \ worn or carried, it also catches fire."
     "name": "Hurl Flame"
 "source":
   - "MM"
-  - "ToA"
-  - "BGDIA"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/horned-devil.webp"
 ```
 ^statblock

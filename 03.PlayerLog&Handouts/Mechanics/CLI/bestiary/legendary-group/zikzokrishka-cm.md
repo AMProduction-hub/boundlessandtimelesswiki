@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/legendary-group
 aliases:
-- Zikzokrishka
+- "Zikzokrishka"
 ---
 # Zikzokrishka
 
-## Lair actions
+## Lair Actions
 _Source: Candlekeep Mysteries_
 
 On initiative count 20 (losing initiative ties) whenever she is in the are V3, Zikzokrishka can take a lair action to cause one of the following effects. She can't use the same effect two rounds in a row:

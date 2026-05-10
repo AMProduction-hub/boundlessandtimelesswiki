@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kingsport
+- "Kingsport"
 ---
-# [Kingsport](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/kingsport-idrotf.md)
+# [Kingsport](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kingsport-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 243*  
 
 Scrivenscry is an arcanaloth who always refers to itself in the third person. It has a fondness for black licorice, strips of which it keeps in the pockets of its robe. The fiend is attended by Kingsport, a blind, albino giant penguin under the effect of an [awaken](03.PlayerLog&Handouts/Mechanics/CLI/spells/awaken.md) spell.
@@ -35,14 +36,15 @@ Scrivenscry's anxious penguin servant, Kingsport, was promised a life of enlight
   - !!int "10"
   - !!int "4"
 "speed": "20 ft., swim 40 ft."
-"senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft. (blind beyond this radius), passive Perception 10"
 "languages": "Common"
 "cr": "0"
 "traits":
   - "desc": "Kingsport can hold its breath for 20 minutes."
     "name": "Hold Breath"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d4 + 1) piercing damage."
     "name": "Beak"
 "source":

@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/race/elf/eladrin
 aliases:
-- Elf (Eladrin)
+- "Elf (Eladrin)"
 ---
 # Elf (Eladrin)
 *Source: Dungeon Master's Guide p. 286*  
 
 
-- **Ability Scores**: Intelligence +1
+- **Ability Scores**: int +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Charisma

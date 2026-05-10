@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Warlord; Relationships and Adventures
+- "Warlord; Relationships and Adventures"
 ---
 # Warlord; Relationships and Adventures
 *Source: Fizban's Treasury of Dragons p. 51* 
 
 **Relationships and Adventures**
-
-`dice: [](warlord-relationships-and-adventures-ftd.md#^relationships-and-adventures)`
 
 | dice: d20 | Adventure Hook |
 |-----------|----------------|

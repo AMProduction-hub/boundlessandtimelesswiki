@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Sapphire Dragon Adventures; Sapphire Dragon Adventure Hooks
+- "Sapphire Dragon Adventures; Sapphire Dragon Adventure Hooks"
 ---
 # Sapphire Dragon Adventures; Sapphire Dragon Adventure Hooks
 *Source: Fizban's Treasury of Dragons p. 138* 
 
 **Sapphire Dragon Adventure Hooks**
-
-`dice: [](sapphire-dragon-adventures-sapphire-dragon-adventure-hooks-ftd.md#^sapphire-dragon-adventure-hooks)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|

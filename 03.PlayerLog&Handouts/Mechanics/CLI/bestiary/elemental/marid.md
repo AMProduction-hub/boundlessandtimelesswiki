@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/11
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Marid
+- "Marid"
 ---
-# [Marid](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/marid.md)
-*Source: Monster Manual p. 146, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Storm Lord's Wrath, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything, Journeys through the Radiant Citadel, Dragonlance: Shadow of the Dragon Queen*  
+# [Marid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/marid.md)
+*Source: Monster Manual p. 146*  
 
 Hailing from the Elemental Plane of Water, the marids are the most wondrous of genie-kind. Although all genies wield great power, even the lowliest marid sees itself as clearly superior to the flighty djinn, the ground-hugging dao, and the fuming efreet. Large and piscine, marids are a strange sight to behold, particularly when clad in the finely stitched vests and colorful pantaloons they favor. They speak in voices as soft as the sea breeze or as sonorous as storm waves breaking against a rocky cliff. In flight, their lower bodies transform into columns of foamy water.
 
@@ -64,25 +65,29 @@ Marids are champion tale-tellers, whose favorite legends emphasize the prowess o
   - !!int "18"
 "speed": "30 ft., fly 60 ft., swim 90 ft."
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+7"
-  - "charisma": "+8"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "8"
 "damage_resistances": "acid, cold, lightning"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 13"
+"gear":
+  - "[trident](03.PlayerLog&Handouts/Mechanics/CLI/items/trident.md)"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "Aquan"
 "cr": "11"
 "traits":
   - "desc": "The marid's innate spellcasting ability is Charisma (spell save DC 16,\
       \ +8 to hit with spell attacks). It can innately cast the following spells,\
-      \ requiring no material components:\n\nAt will: [create or destroy water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-or-destroy-water.md),\
+      \ requiring no material components:\n\n**At will:** [create or destroy water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-or-destroy-water.md),\
       \ [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md), [purify\
       \ food and drink](03.PlayerLog&Handouts/Mechanics/CLI/spells/purify-food-and-drink.md)\n\
-      \n3/day each: [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md),\
+      \n**3/day each:** [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md),\
       \ [water breathing](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-breathing.md),\
       \ [water walk](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-walk.md)\n\n\
-      1/day each: [conjure elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-elemental.md)\
+      **1/day each:** [conjure elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-elemental.md)\
       \ ([water elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-elemental.md)\
       \ only), [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md),\
       \ [gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/spells/gaseous-form.md),\
@@ -97,8 +102,8 @@ Marids are champion tale-tellers, whose favorite legends emphasize the prowess o
 "actions":
   - "desc": "The marid makes two trident attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +10 to hit, reach 5 ft. or range\
-      \ 20/60 ft., one target. Hit: 13 (2d6 + 6) piercing damage, or 15 (2d8\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +10 to hit, reach 5 ft. or range\
+      \ 20/60 ft., one target. *Hit:* 13 (2d6 + 6) piercing damage, or 15 (2d8\
       \ + 6) piercing damage if used with two hands to make a melee attack."
     "name": "Trident"
   - "desc": "The marid magically shoots water in a 60-foot line that is 5 feet wide.\
@@ -110,14 +115,6 @@ Marids are champion tale-tellers, whose favorite legends emphasize the prowess o
     "name": "Water Jet"
 "source":
   - "MM"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "SLW"
-  - "EGW"
-  - "TCE"
-  - "JttRC"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/marid.webp"
 ```
 ^statblock

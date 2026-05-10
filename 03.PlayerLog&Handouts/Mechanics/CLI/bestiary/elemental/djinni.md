@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/11
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Djinni
+- "Djinni"
 ---
-# [Djinni](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/djinni.md)
-*Source: Monster Manual p. 144, Princes of the Apocalypse, Ghosts of Saltmarsh, Tasha's Cauldron of Everything, Candlekeep Mysteries, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Djinni](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/djinni.md)
+*Source: Monster Manual p. 144. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Proud, sensuous genies from the Elemental Plane of Air, the djinn are attractive, tall, well-muscled humanoids with blue skin and dark eyes. They dress in airy, shimmering silks, designed as much for comfort as to flaunt their musculature.
 
@@ -84,23 +85,26 @@ Genies acknowledge the gods as powerful entities but have no desire to court or 
   - !!int "20"
 "speed": "30 ft., fly 90 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+7"
-  - "charisma": "+9"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "9"
 "damage_immunities": "lightning, thunder"
-"senses": "darkvision 120 ft., passive Perception 13"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "Auran"
 "cr": "11"
 "traits":
   - "desc": "The djinni's innate spellcasting ability is Charisma (spell save DC 17,\
       \ +9 to hit with spell attacks). It can innately cast the following spells,\
-      \ requiring no material components:\n\nAt will: [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
+      \ requiring no material components:\n\n**At will:** [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n3/day each: [create food and water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-food-and-water.md)\
+      \n**3/day each:** [create food and water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-food-and-water.md)\
       \ (can create wine instead of water), [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md),\
-      \ [wind walk](03.PlayerLog&Handouts/Mechanics/CLI/spells/wind-walk.md)\n\n1/day\
-      \ each: [conjure elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-elemental.md)\
+      \ [wind walk](03.PlayerLog&Handouts/Mechanics/CLI/spells/wind-walk.md)\n\n**1/day\
+      \ each:** [conjure elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-elemental.md)\
       \ ([air elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/air-elemental.md)\
       \ only), [creation](03.PlayerLog&Handouts/Mechanics/CLI/spells/creation.md),\
       \ [gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/spells/gaseous-form.md),\
@@ -114,8 +118,8 @@ Genies acknowledge the gods as powerful entities but have no desire to court or 
 "actions":
   - "desc": "The djinni makes three scimitar attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
-      \ (2d6 + 5) slashing damage plus 3 (d6) lightning or thunder damage (djinni's\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12\
+      \ (2d6 + 5) slashing damage plus 3 (1d6) lightning or thunder damage (djinni's\
       \ choice)."
     "name": "Scimitar"
   - "desc": "A 5-foot-radius, 30-foot-tall cylinder of swirling air magically forms\
@@ -134,11 +138,6 @@ Genies acknowledge the gods as powerful entities but have no desire to court or 
     "name": "Create Whirlwind"
 "source":
   - "MM"
-  - "PotA"
-  - "GoS"
-  - "TCE"
-  - "CM"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/djinni.webp"
 ```
 ^statblock

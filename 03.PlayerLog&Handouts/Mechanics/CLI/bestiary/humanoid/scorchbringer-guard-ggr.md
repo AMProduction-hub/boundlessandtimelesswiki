@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Scorchbringer Guard
+- "Scorchbringer Guard"
 ---
-# [Scorchbringer Guard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/scorchbringer-guard-ggr.md)
+# [Scorchbringer Guard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scorchbringer-guard-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 243*  
 
 While chemisters focus on inventing new tools, weapons, and other devices for the guild to use, the role of a blastseeker is to put those devices to work. Despite the name, not all such devices produce explosions, but all the most interesting ones (from the Izzet perspective) do.
@@ -35,6 +36,8 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
   - !!int "9"
   - !!int "10"
 "speed": "30 ft."
+"gear":
+  - "[light hammer](03.PlayerLog&Handouts/Mechanics/CLI/items/light-hammer.md)"
 "senses": "passive Perception 9"
 "languages": "any one language (usually Common)"
 "cr": "1/2"
@@ -47,8 +50,8 @@ While chemisters focus on inventing new tools, weapons, and other devices for th
       \ and it destroys the scorchbringer."
     "name": "Explosive Tank"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage."
     "name": "Light Hammer"
   - "desc": "The guard's scorchbringer spouts a stream of flame in a line that is\
       \ 30 feet long and 5 feet wide. Each creature in the line must make a DC 12\

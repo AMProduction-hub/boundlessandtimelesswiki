@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 aliases:
-- Religious Order Types
+- "Religious Order Types"
 ---
 # Religious Order Types
 *Source: Tasha's Cauldron of Everything p. 98* 
 
 **Religious Order Types**
-
-`dice: [](religious-order-types-tce.md#^religious-order-types)`
 
 | dice: d6 | Religious Order |
 |----------|-----------------|

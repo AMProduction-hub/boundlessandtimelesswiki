@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Connected Creatures; Young Emerald Dragon Connections
+- "Connected Creatures; Young Emerald Dragon Connections"
 ---
 # Connected Creatures; Young Emerald Dragon Connections
 *Source: Fizban's Treasury of Dragons p. 114* 
 
 **Young Emerald Dragon Connections**
-
-`dice: [](connected-creatures-young-emerald-dragon-connections-ftd.md#^young-emerald-dragon-connections)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|

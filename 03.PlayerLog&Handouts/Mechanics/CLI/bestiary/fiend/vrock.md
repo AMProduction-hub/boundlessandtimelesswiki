@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/6
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vrock
+- "Vrock"
 ---
-# [Vrock](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/vrock.md)
-*Source: Monster Manual p. 64, Curse of Strahd, Princes of the Apocalypse, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Vrock](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/vrock.md)
+*Source: Monster Manual p. 64. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Vrocks are dull-witted, capricious fiends that live only to create pain and carnage. A vrock resembles a giant hybrid of humanoid and vulture, its gnarled, bestial body and broad wings stinking of offal.
 
@@ -169,13 +170,13 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > 
 > Some demons can have an action option that allows them to summon other demons. Summon Demon (1/Day). The demon chooses what to summon and attempts a magical summoning.
 > 
-> - A balor has a 50 percent chance of summoning `d8` vrocks, `d6` hezrous, `d4` glabrezus, `d3` nalfeshnees, `d2` mariliths, or one goristro.  
+> - A balor has a 50 percent chance of summoning `1d8` vrocks, `1d6` hezrous, `1d4` glabrezus, `1d3` nalfeshnees, `1d2` mariliths, or one goristro.  
 > - A barlgura has a 30 percent chance of summoning one barlgura.  
 > - A chasme has a 30 percent chance of summoning one chasme.  
-> - A glabrezu has a 30 percent chance of summoning `d3` vrocks, `d2` hezrous, or one glabrezu.  
+> - A glabrezu has a 30 percent chance of summoning `1d3` vrocks, `1d2` hezrous, or one glabrezu.  
 > - A hezrou has a 30 percent chance of summoning `2d6` dretches or one hezrou.  
-> - A marilith has a 50 percent chance of summoning `d6` vrocks, `d4` hezrous, `d3` glabrezus, `d2` nalfeshnees, or one marilith.  
-> - A nalfeshnee has a 50 percent chance of summoning `d4` vrocks, `d3` hezrous, `d2` glabrezus, or one nalfeshnee.  
+> - A marilith has a 50 percent chance of summoning `1d6` vrocks, `1d4` hezrous, `1d3` glabrezus, `1d2` nalfeshnees, or one marilith.  
+> - A nalfeshnee has a 50 percent chance of summoning `1d4` vrocks, `1d3` hezrous, `1d2` glabrezus, or one nalfeshnee.  
 > - A vrock has a 30 percent chance of summoning `2d4` dretches or one vrock.  
 > - A yochlol has a 50 percent chance of summoning one yochlol.  
 > 
@@ -207,14 +208,15 @@ Demonologists organize the chaotic distribution of demons into broad categories 
   - !!int "8"
 "speed": "40 ft., fly 60 ft."
 "saves":
-  - "dexterity": "+5"
-  - "wisdom": "+4"
-  - "charisma": "+2"
+  - "dexterity": !!int "5"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "2"
 "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": "Abyssal, telepathy 120 ft."
 "cr": "6"
 "traits":
@@ -224,20 +226,21 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 "actions":
   - "desc": "The vrock makes two attacks: one with its beak and one with its talons."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) piercing damage."
     "name": "Beak"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (2d10 + 3) slashing damage."
     "name": "Talons"
   - "desc": "A 15-foot-radius cloud of toxic spores extends out from the vrock. The\
       \ spores spread around corners. Each creature in that area must succeed on a\
       \ DC 14 Constitution saving throw or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned).\
       \ While [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-      \ in this way, a target takes 5 (d10) poison damage at the start of each of\
-      \ its turns. A target can repeat the saving throw at the end of each of its\
-      \ turns, ending the effect on itself on a success. Emptying a vial of holy water\
-      \ on the target also ends the effect on it."
+      \ in this way, a target takes 5 (1d10) poison damage at the start of each\
+      \ of its turns. A target can repeat the saving throw at the end of each of its\
+      \ turns, ending the effect on itself on a success. Emptying a [vial of holy\
+      \ water](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-water-flask.md) on the\
+      \ target also ends the effect on it."
     "name": "Spores (Recharge 6)"
   - "desc": "The vrock emits a horrific screech. Each creature within 20 feet of it\
       \ that can hear it and that isn't a demon must succeed on a DC 14 Constitution\
@@ -246,14 +249,6 @@ Demonologists organize the chaotic distribution of demons into broad categories 
     "name": "Stunning Screech (1/Day)"
 "source":
   - "MM"
-  - "CoS"
-  - "PotA"
-  - "TftYP"
-  - "WDMM"
-  - "GoS"
-  - "BGDIA"
-  - "TCE"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/vrock.webp"
 ```
 ^statblock

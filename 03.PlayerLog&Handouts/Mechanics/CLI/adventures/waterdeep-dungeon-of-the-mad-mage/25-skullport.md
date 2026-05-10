@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Skullport
+- "Skullport"
 ---
 # Skullport
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 303* 
@@ -59,9 +60,9 @@ All location descriptions for Skull Island are keyed to map 24. The island's fea
 > 
 > A ballista is a massive crossbow that fires heavy bolts. A flame cannon is a bulky mechanical contraption that hurls casks of alchemist's fire that explode on impact.
 > 
-> **Ballista.** *Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. Hit: 16 (`3d10`) piercing damage.
+> **Ballista.** *Ranged Weapon Attack:* `+6` to hit, range 120/480 ft., one target. Hit: 16 (`3d10`) piercing damage.
 > 
-> **Flame Cannon.** *Ranged Weapon Attack:* +4 to hit, range 60/240 ft., one target. Hit: 3 (`d6`) bludgeoning damage plus 17 (`5d6`) fire damage, and the target catches fire. While on fire, the target takes 3 (`d6`) fire damage at the start of each of its turns. A creature can end this damage by immersing itself in water or by using an action to make a DC 10 Dexterity check to extinguish the flames.
+> **Flame Cannon.** *Ranged Weapon Attack:* `+4` to hit, range 60/240 ft., one target. Hit: 3 (`1d6`) bludgeoning damage plus 17 (`5d6`) fire damage, and the target catches fire. While on fire, the target takes 3 (`1d6`) fire damage at the start of each of its turns. A creature can end this damage by immersing itself in water or by using an action to make a DC 10 Dexterity check to extinguish the flames.
 ^skull-island-weaponry
 
 ### 1. Murkspan Bridge
@@ -192,7 +193,7 @@ If the characters drop a few coins here, Cal'al is happy to furnish them with in
 
 ### 20. Dark Harvest Market
 
-Food harvested from the Underdark is sold here by `d6` [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md), who employ an equal number of [wererats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wererat.md) as bodyguards.
+Food harvested from the Underdark is sold here by `1d6` [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md), who employ an equal number of [wererats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wererat.md) as bodyguards.
 
 ### 21. The Sword and Sextant
 
@@ -237,7 +238,7 @@ Halaster has placed enchantments on Tasselgryn's shop that enable her (and her a
 
 ### 28. Twinbeard's Traps
 
-This single-story building contains the workshop of Xanathar's shield dwarf trapsmith and engineer, Thorvin Twinbeard. He's rarely here, however, since Xanathar keeps him busy. (For more information on Thorvin, see Waterdeep: Dragon Heist.)
+This single-story building contains the workshop of Xanathar's shield dwarf trapsmith and engineer, [Thorvin Twinbeard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/thorvin-twinbeard-wdh.md). He's rarely here, however, since Xanathar keeps him busy. (For more information on Thorvin, see Waterdeep: Dragon Heist.)
 
 ### 29. Sargauth's Bounty
 

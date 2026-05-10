@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/4
@@ -13,10 +14,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Wereboar
+- "Wereboar"
 ---
-# [Wereboar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/wereboar.md)
-*Source: Monster Manual p. 209, Tomb of Annihilation, Divine Contention, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Wereboar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wereboar.md)
+*Source: Monster Manual p. 209. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Wereboars are ill-tempered and vulgar brutes. As humanoids, they are stocky and muscular, with short, stiff hair. In their humanoid and hybrid forms, they use heavy weapons, while in hybrid or animal form, they gain a devastating goring attack through which their curse is spread. A wereboar infects other creatures indiscriminately, relishing the fact that the more its victims resist the curse, the more savage and bestial they become.
 
@@ -62,7 +63,7 @@ Some individuals see little point in fighting the curse and accept what they are
 "subtype": "human, shapechanger"
 "alignment": "Neutral Evil"
 "ac": !!int "10"
-"ac_class": "11 from natural armor in boar or hybrid form"
+"ac_class": "11 natural armor in boar or hybrid form"
 "hp": !!int "78"
 "hit_dice": "12d8 + 24"
 "modifier": !!int "0"
@@ -79,6 +80,8 @@ Some individuals see little point in fighting the curse and accept what they are
     "desc": "+2"
 "damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
+"gear":
+  - "[maul](03.PlayerLog&Handouts/Mechanics/CLI/items/maul.md)"
 "senses": "passive Perception 12"
 "languages": "Common (can't speak in boar form)"
 "cr": "4"
@@ -99,23 +102,15 @@ Some individuals see little point in fighting the curse and accept what they are
 "actions":
   - "desc": "The wereboar makes two attacks, only one of which can be with its tusks."
     "name": "Multiattack (Humanoid or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) bludgeoning damage."
     "name": "Maul (Humanoid or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage. If the target is a humanoid, it must succeed\
       \ on a DC 12 Constitution saving throw or be cursed with wereboar lycanthropy."
     "name": "Tusks (Boar or Hybrid Form Only)"
 "source":
   - "MM"
-  - "ToA"
-  - "DC"
-  - "DIP"
-  - "BGDIA"
-  - "IMR"
-  - "EGW"
-  - "TCE"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/wereboar.webp"
 ```
 ^statblock

@@ -1,32 +1,33 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/the-undead
 aliases:
-- Spells for The Undead
+- "Spells for The Undead"
 ---
 # Spells for The Undead
 
 ## 1st Level
 
-- [Bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md "PHB") with access to 5th-level spells
-- [False Life](03.PlayerLog&Handouts/Mechanics/CLI/spells/false-life.md "PHB") with access to 5th-level spells
+- [Bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md "PHB") with access to 1st-level spells
+- [False Life](03.PlayerLog&Handouts/Mechanics/CLI/spells/false-life.md "PHB") with access to 1st-level spells
 
 ## 2nd Level
 
-- [Blindness/Deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md "PHB") with access to 5th-level spells
-- [Phantasmal Force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md "PHB") with access to 5th-level spells
+- [Blindness/Deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md "PHB") with access to 2nd-level spells
+- [Phantasmal Force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md "PHB") with access to 2nd-level spells
 
 ## 3rd Level
 
-- [Phantom Steed](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantom-steed.md "PHB") with access to 5th-level spells
-- [Speak with Dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md "PHB") with access to 5th-level spells
+- [Phantom Steed](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantom-steed.md "PHB") with access to 3rd-level spells
+- [Speak with Dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md "PHB") with access to 3rd-level spells
 
 ## 4th Level
 
-- [Death Ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/death-ward.md "PHB") with access to 5th-level spells
-- [Greater Invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md "PHB") with access to 5th-level spells
+- [Death Ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/death-ward.md "PHB") with access to 4th-level spells
+- [Greater Invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md "PHB") with access to 4th-level spells
 
 ## 5th Level
 

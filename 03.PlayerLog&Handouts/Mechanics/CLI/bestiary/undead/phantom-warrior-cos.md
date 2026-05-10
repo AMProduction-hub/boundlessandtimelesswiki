@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Phantom Warrior
+- "Phantom Warrior"
 ---
-# [Phantom Warrior](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/phantom-warrior-cos.md)
+# [Phantom Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/phantom-warrior-cos.md)
 *Source: Curse of Strahd p. 235*  
 
 A phantom warrior is the spectral remnant of a willful soldier or knight who perished on the battlefield or died performing its sworn duty. It appears like a translucent version of its living self.
@@ -64,7 +65,8 @@ A phantom warrior doesn't require air, food, drink, or sleep.
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "any languages it knew in life"
 "cr": "3"
 "traits":
@@ -72,7 +74,7 @@ A phantom warrior doesn't require air, food, drink, or sleep.
       \ on the Material Plane, and vice versa."
     "name": "Ethereal Sight"
   - "desc": "The phantom warrior can move through other creatures and objects as if\
-      \ they were difficult terrain. It takes 5 (d10) force damage if it ends its\
+      \ they were difficult terrain. It takes 5 (1d10) force damage if it ends its\
       \ turn inside an object."
     "name": "Incorporeal Movement"
   - "desc": "The phantom warrior's AC accounts for its spectral armor and shield."
@@ -80,7 +82,7 @@ A phantom warrior doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The phantom warrior makes two attacks with its spectral longsword."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) force damage."
     "name": "Spectral Longsword"
   - "desc": "The phantom warrior enters the Ethereal Plane from the Material Plane,\

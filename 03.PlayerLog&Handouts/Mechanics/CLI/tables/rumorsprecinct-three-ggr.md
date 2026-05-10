@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Rumors—Precinct Three
+- "Rumors—Precinct Three"
 ---
 # Rumors—Precinct Three
 *Source: Guildmasters' Guide to Ravnica p. 111* 
 
 **Rumors—Precinct Three**
-
-`dice: [](rumorsprecinct-three-ggr.md#^rumorsprecinct-three)`
 
 | dice: d6 | Rumor |
 |----------|-------|

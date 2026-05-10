@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Healing
+- "Healing"
 ---
 # Healing
 *Source: Dungeon Master's Guide p. 266* 
@@ -23,7 +24,7 @@ As an action, a character can use a healing surge and spend up to half his or he
 
 A character who uses a healing surge can't do so again until he or she finishes a short or long rest. Under this optional rule, a character regains all spent Hit Dice at the end of a long rest. With a short rest, a character regains Hit Dice equal to his or her level divided by four (minimum of one dice).
 
-For a more superheroic feel, you can let a character use a healing surge as a bonus action, rather than as an action.
+For a more super-heroic feel, you can let a character use a healing surge as a bonus action, rather than as an action.
 
 ## Slow Natural Healing
 

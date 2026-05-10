@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Raegrin Mau
+- "Raegrin Mau"
 ---
-# [Raegrin Mau](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/raegrin-mau-egw.md)
+# [Raegrin Mau](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/raegrin-mau-egw.md)
 *Source: Explorer's Guide to Wildemount p. 240*  
 
 ```statblock
@@ -38,7 +39,10 @@ aliases:
     "desc": "+2"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "any one language (usually Common), Elvish"
 "cr": "1/8"
 "traits":
@@ -50,7 +54,7 @@ aliases:
   - "desc": "Raegrin"
     "name": "Mask of the Wild"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d6 + 1) slashing damage."
     "name": "Scimitar"
 "source":

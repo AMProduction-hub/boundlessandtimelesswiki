@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/item/rarity/none
-aliases: 
+aliases:
 - "Blood of the Lycanthrope"
 ---
 # Blood of the Lycanthrope
@@ -16,8 +17,6 @@ aliases:
 This poison is created from blood harvested from a dead or [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) lycanthrope in its animal or hybrid form. A creature subjected to this poison must succeed on a DC 12 Constitution saving throw or be cursed with lycanthropy (see the Monster Manual). The curse lasts until removed by the [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md) spell or similar magic.
 
 The type of lycanthropy depends on the lycanthrope used to create the poison. To determine the type of lycanthropy randomly, roll a `d6`:
-
-`dice: [](blood-of-the-lycanthrope-imr.md#^lycanthropy)`
 
 | dice: d6 | Lycanthropy |
 |----------|-------------|

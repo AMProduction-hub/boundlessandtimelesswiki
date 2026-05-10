@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Daask Villains
+- "Daask Villains"
 ---
 # Daask Villains
 *Source: Eberron: Rising from the Last War p. 250* 
 
 **Daask Villains**
-
-`dice: [](daask-villains-erlw.md#^daask-villains)`
 
 | dice: d6 | Villain |
 |----------|---------|

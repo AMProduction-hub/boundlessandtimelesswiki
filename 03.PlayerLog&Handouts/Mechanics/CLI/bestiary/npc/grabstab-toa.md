@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Grabstab
+- "Grabstab"
 ---
-# [Grabstab](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/grabstab-toa.md)
+# [Grabstab](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/grabstab-toa.md)
 *Source: Tomb of Annihilation p. 89*  
 
 ```statblock
@@ -37,21 +38,26 @@ aliases:
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 9"
+"gear":
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "Common, Goblin"
 "cr": "1"
 "traits":
-  - "desc": "Grabstab can take the Disengage or Hide action as a bonus action on each\
-      \ of its turns."
+  - "desc": "Grabstab can take the [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action\
+      \ as a bonus action on each of its turns."
     "name": "Nimble Escape"
 "actions":
   - "desc": "Grabstab makes two attacks with its scimitar. The second attack has disadvantage."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage."
     "name": "Scimitar"
-  - "desc": "Melee  or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 3 (d6) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +2 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 3 (1d6) piercing damage."
     "name": "Javelin"
 "reactions":
   - "desc": "When a creature Grabstab can see targets it with an attack, Grabstab\

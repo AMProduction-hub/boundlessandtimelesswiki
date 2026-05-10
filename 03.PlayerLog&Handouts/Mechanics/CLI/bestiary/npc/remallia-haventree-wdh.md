@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Remallia Haventree
+- "Remallia Haventree"
 ---
-# [Remallia Haventree](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/remallia-haventree-wdh.md)
+# [Remallia Haventree](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/remallia-haventree-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 214*  
 
 Remallia (Remi to her friends) is the lady of House Ulbrinter and a guiding light for the Harpers in Waterdeep
@@ -40,8 +41,8 @@ Remi holds secret Harper meetings in her villa, which is warded by all manner of
   - !!int "17"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+8"
-  - "wisdom": "+6"
+  - "intelligence": !!int "8"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+8"
@@ -51,31 +52,34 @@ Remi holds secret Harper meetings in her villa, which is warded by all manner of
     "desc": "+8"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+7"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Draconic, Dwarvish, Elvish, Halfling"
 "cr": "9"
 "traits":
   - "desc": "Remallia is a 13th-level spellcaster. Her spellcasting ability is Intelligence\
       \ (spell save DC 16, +8 to hit with spell attacks). She has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md),\
       \ [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md), [ray of\
-      \ frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\n1st\
-      \ level (4 slots): [alarm](03.PlayerLog&Handouts/Mechanics/CLI/spells/alarm.md),\
+      \ frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\n**1st\
+      \ level (4 slots):** [alarm](03.PlayerLog&Handouts/Mechanics/CLI/spells/alarm.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [magic\
       \ missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md), [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\
-      \n2nd level (3 slots): [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md),\
+      \n**2nd level (3 slots):** [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\n\
-      \n3rd level (3 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      \n**3rd level (3 slots):** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
-      \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)\n\n4th\
-      \ level (3 slots): [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
-      \ [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)\n\n5th\
-      \ level (2 slots): [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md),\
+      \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)\n\n**4th\
+      \ level (3 slots):** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \ [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)\n\n**5th\
+      \ level (2 slots):** [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md),\
       \ [wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md)\n\
-      \n6th level (1 slots): [flesh to stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/flesh-to-stone.md),\
+      \n**6th level (1 slots):** [flesh to stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/flesh-to-stone.md),\
       \ [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md)\n\
-      \n7th level (1 slots): [symbol](03.PlayerLog&Handouts/Mechanics/CLI/spells/symbol.md),\
+      \n**7th level (1 slots):** [symbol](03.PlayerLog&Handouts/Mechanics/CLI/spells/symbol.md),\
       \ [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)"
     "name": "Spellcasting"
   - "desc": "Remallia has a [figurine of wondrous power (silver raven)](03.PlayerLog&Handouts/Mechanics/CLI/items/figurine-of-wondrous-power-silver-raven.md)."
@@ -98,8 +102,8 @@ Remi holds secret Harper meetings in her villa, which is warded by all manner of
       \ and [symbol](03.PlayerLog&Handouts/Mechanics/CLI/spells/symbol.md)."
     "name": "Arcane Ward"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one\
-      \ target. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60 ft., one\
+      \ target. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
 "source":
   - "WDH"

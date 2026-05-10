@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Banrion
+- "Banrion"
 ---
-# [Banrion](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/banrion-imr.md)
+# [Banrion](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/banrion-imr.md)
 *Source: Infernal Machine Rebuild p. 91*  
 
 Unrelated to the horses it resembles, a unicorn is a celestial creature that wanders sylvan realms, its white form glimmering like starlight. They allow good-hearted creatures to enter their woods to hunt or gather food, but they hold evil ever at bay.
@@ -37,16 +38,17 @@ Unrelated to the horses it resembles, a unicorn is a celestial creature that wan
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Celestial, Elvish, Sylvan, telepathy 60 ft."
 "cr": "5"
 "traits":
   - "desc": "Banrion's innate spellcasting ability is Charisma (spell save DC 14).\
       \ Banrion can innately cast the following spells, requiring no components:\n\
-      \nAt will: [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
+      \n**At will:** [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
       \ [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md), [pass\
       \ without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md)\n\
-      \n1/day each: [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
+      \n**1/day each:** [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
       \ [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md),\
       \ [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md)"
     "name": "Innate Spellcasting"
@@ -63,10 +65,10 @@ Unrelated to the horses it resembles, a unicorn is a celestial creature that wan
 "actions":
   - "desc": "Banrion makes two attacks: one with its hooves and one with its horn."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage."
     "name": "Hooves"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) piercing damage."
     "name": "Horn"
   - "desc": "Banrion touches another creature with its horn. The target magically\
@@ -77,6 +79,9 @@ Unrelated to the horses it resembles, a unicorn is a celestial creature that wan
       \ it can see within 5 feet of it, along with any equipment they are wearing\
       \ or carrying, to a location Banrion is familiar with, up to 1 mile away."
     "name": "Teleport (1/Day)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Banrion can expend a use to take one of the following actions. Banrion regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Banrion makes one attack with its hooves."
     "name": "Hooves"

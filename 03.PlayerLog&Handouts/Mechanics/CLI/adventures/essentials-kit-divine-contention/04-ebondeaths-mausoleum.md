@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dc
 aliases:
-- Ebondeath's Mausoleum
+- "Ebondeath's Mausoleum"
 ---
 # Ebondeath's Mausoleum
 *Source: Essentials Kit: Divine Contention* 
@@ -99,7 +100,7 @@ The death priest's backpack contains 700 gp, 35 pp, [eyes of minute seeing](03.P
 
 > [!note] Using the Ruinstone
 > 
-> Once per day as a bonus action, a villain can activate the [ruinstone](03.PlayerLog&Handouts/Mechanics/CLI/items/ruinstone-dc.md) to undo one deed they have performed. The possibilities here are broad, but in combat it's simplest to allow them the opportunity to "rewind" one action and take it again, or to reroll a failed saving throw (if it can still take actions). . Each use of the artifact has a terrible side effect: someone known to the wielder is also erased from reality. After the villain uses the [ruinstone](03.PlayerLog&Handouts/Mechanics/CLI/items/ruinstone-dc.md), roll a `d20`: on a 5-20, one of their allies disintegrates, on an 1-4, one of the player characters disintegrates. If a creature bound its soul to the [ruinstone](03.PlayerLog&Handouts/Mechanics/CLI/items/ruinstone-dc.md) in the "Thalivar's Beacon" quest, the artifact explodes when used and the creature who is bound to it disintegrates.
+> Once per day as a bonus action, a villain can activate the [ruinstone](03.PlayerLog&Handouts/Mechanics/CLI/items/ruinstone-dc.md) to undo one deed they have performed. The possibilities here are broad, but in combat it's simplest to allow them the opportunity to "rewind" one action and take it again, or to reroll a failed saving throw (if it can still take actions). Each use of the artifact has a terrible side effect: someone known to the wielder is also erased from reality. After the villain uses the [ruinstone](03.PlayerLog&Handouts/Mechanics/CLI/items/ruinstone-dc.md), roll a `d20`: on a 5–20, one of their allies disintegrates, on an 1–4, one of the player characters disintegrates. If a creature bound its soul to the [ruinstone](03.PlayerLog&Handouts/Mechanics/CLI/items/ruinstone-dc.md) in the "Thalivar's Beacon" quest, the artifact explodes when used and the creature who is bound to it disintegrates.
 ^using-the-ruinstone
 
 #### E5. Ritual Room
@@ -114,7 +115,7 @@ The secret door in here leads to area E6 and can be uncovered with a DC 12 Intel
 
 The hallways are haunted by the grotesque vestige of [Ebondeath](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ebondeath-dc.md)'s first high priest. This creature squirms along the passages and can be encountered anywhere in the area or in the nearby Vaults of the Uthlords (area E7). The vestige appears as a bloated, drowned [death knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/death-knight.md) with horribly long arms. Its Longsword attack is replaced with the following attack:
 
-**Ghoulish Claws**. *Melee Weapon Attack*: +11 to hit, reach 5 ft., one target. *Hit*: 7 (`1d4 + 5`) slashing damage, plus 18 (`4d8`) necrotic damage. If the target is a creature other than an undead, it must succeed on a DC 10 Constitution saving throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+**Ghoulish Claws**. *Melee Weapon Attack*: `+11` to hit, reach 5 ft., one target. *Hit*: 7 (`1d4 + 5`) slashing damage, plus 18 (`4d8`) necrotic damage. If the target is a creature other than an undead, it must succeed on a DC 10 Constitution saving throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
 #### E7. Vaults of the Uthlords
 

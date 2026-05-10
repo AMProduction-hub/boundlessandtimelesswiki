@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Omens of Phenax
+- "Omens of Phenax"
 ---
 # Omens of Phenax
 *Source: Mythic Odysseys of Theros p. 111* 
 
 **Omens of Phenax**
-
-`dice: [](omens-of-phenax-mot.md#^omens-of-phenax)`
 
 | dice: d6 | dice: d100 | Omen of Phenax |
 |----------|------------|----------------|

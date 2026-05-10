@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/fighter/battle-master
 aliases:
-- Battle Master
+- "Battle Master"
 ---
 # Battle Master
 *[Fighter](./fighter.md): Martial Archetype*  
@@ -43,11 +44,9 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Battle Master (Level 3)
-
 Those who emulate the archetypal Battle Master employ martial techniques passed down through generations. To a Battle Master, combat is an academic field, sometimes including subjects beyond battle such as weaponsmithing and calligraphy. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Battle Master archetype, but those who do are well-rounded fighters of great skill and knowledge.
+
+## Subclass Features
 
 ### Student of War (Level 3)
 
@@ -57,27 +56,23 @@ At 3rd level, you gain proficiency with one type of artisan's tools of your choi
 
 When you choose this archetype at 3rd level, you learn maneuvers that are fueled by special dice called superiority dice.
 
-#### Maneuvers
-
-You learn three maneuvers of your choice, which are listed under "Maneuvers" below. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.
+**Maneuvers.** You learn three maneuvers of your choice, which are listed under "Maneuvers" below. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.
 
 You learn two additional maneuvers of your choice at 7th, 10th, and 15th level. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.
 
-#### Superiority Dice
-
-You have four superiority dice, which are `d8`s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.
+**Superiority Dice.** You have four superiority dice, which are `d8`s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.
 
 You gain another superiority die at 7th level and one more at 15th level.
 
-#### Saving Throws
-
-Some of your maneuvers require your target to make a saving throw to resist the maneuver's effects. The saving throw DC is calculated as follows:
+**Saving Throws.** Some of your maneuvers require your target to make a saving throw to resist the maneuver's effects. The saving throw DC is calculated as follows:
 
 <span class='abilityDc'>**Maneuver save DC**: your proficiency bonus + your Strength or Dexterity</span>
 
 ### Maneuvers (Level 3)
 
 The maneuvers are presented in alphabetical order.
+
+Options (choose 3):
 
 - [Commander's Strike](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/commanders-strike.md)  
 - [Disarming Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/disarming-attack.md)  
@@ -102,6 +97,16 @@ _Source: Tasha's Cauldron of Everything p. 41_
 *3rd-level fighter [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md)*
 
 If you have access to maneuvers, the following maneuvers are added to the list of options available to you. Maneuvers are available to Battle Masters but also to characters who have a special feature like the [Superior Technique](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/superior-technique-tce.md) fighting style or the [Martial Adept](03.PlayerLog&Handouts/Mechanics/CLI/feats/martial-adept.md) feat.
+
+Options:
+
+- [Ambush](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/ambush-tce.md)  
+- [Bait and Switch](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/bait-and-switch-tce.md)  
+- [Brace](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/brace-tce.md)  
+- [Commanding Presence](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/commanding-presence-tce.md)  
+- [Grappling Strike](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/grappling-strike-tce.md)  
+- [Quick Toss](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/quick-toss-tce.md)  
+- [Tactical Assessment](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/tactical-assessment-tce.md)  
 
 ### Additional Maneuvers (Level 7)
 

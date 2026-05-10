@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/22
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Trobriand
+- "Trobriand"
 ---
-# [Trobriand](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/trobriand-wdmm.md)
+# [Trobriand](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/trobriand-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 294*  
 
 ```statblock
@@ -40,35 +41,36 @@ aliases:
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "22"
 "traits":
   - "desc": "Trobriand is an 18th-level spellcaster. His spellcasting ability is Intelligence\
       \ (spell save DC 20, +12 to hit with spell attacks). He has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**1st level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
-      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n2nd level\
-      \ (3 slots): [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md), [detect\
+      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n**2nd level\
+      \ (3 slots):** [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md), [detect\
       \ thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md), [shatter](03.PlayerLog&Handouts/Mechanics/CLI/spells/shatter.md)\n\
-      \n3rd level (3 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      \n**3rd level (3 slots):** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [haste](03.PlayerLog&Handouts/Mechanics/CLI/spells/haste.md)\n\
-      \n4th level (3 slots): [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
+      \n**4th level (3 slots):** [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
       \ [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md)\n\
-      \n5th level (3 slots): [animate objects](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-objects.md),\
+      \n**5th level (3 slots):** [animate objects](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-objects.md),\
       \ [Bigby's hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/bigbys-hand.md),\
-      \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)\n\n6th\
-      \ level (1 slots): [chain lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/chain-lightning.md),\
+      \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)\n\n**6th\
+      \ level (1 slots):** [chain lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/chain-lightning.md),\
       \ [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md)\n\
-      \n7th level (1 slots): [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
-      \ [forcecage](03.PlayerLog&Handouts/Mechanics/CLI/spells/forcecage.md)\n\n8th\
-      \ level (1 slots): [incendiary cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/incendiary-cloud.md),\
+      \n**7th level (1 slots):** [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
+      \ [forcecage](03.PlayerLog&Handouts/Mechanics/CLI/spells/forcecage.md)\n\n**8th\
+      \ level (1 slots):** [incendiary cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/incendiary-cloud.md),\
       \ [power word stun](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-stun.md)\n\
-      \n9th level (1 slots): [power word kill](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-kill.md)"
+      \n**9th level (1 slots):** [power word kill](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-kill.md)"
     "name": "Spellcasting"
   - "desc": "Whenever Trobriand is subjected to fire damage, it takes no damage and\
       \ instead regains a number of hit points equal to the fire damage dealt."
@@ -83,10 +85,10 @@ aliases:
 "actions":
   - "desc": "Trobriand makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:*\
       \ 20 (3d8 + 7) bludgeoning damage."
     "name": "Slam"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:*\
       \ 23 (3d10 + 7) slashing damage."
     "name": "Sword"
   - "desc": "Trobriand exhales poisonous gas in a 15-foot cone. Each creature in that\

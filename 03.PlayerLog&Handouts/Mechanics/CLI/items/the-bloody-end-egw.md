@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/artifact
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
-aliases: 
+aliases:
 - "The Bloody End"
 ---
 # The Bloody End
@@ -15,7 +16,6 @@ aliases:
 
 
 - **Damage**: 1d8 piercing
-- **Properties**: Vestige of Divergence
 - **Weight**: 4.0 lbs.
 
 Carrying the power of Bane, this adamantine morningstar sports foot-long spikes and has a jagged blade on its pommel.

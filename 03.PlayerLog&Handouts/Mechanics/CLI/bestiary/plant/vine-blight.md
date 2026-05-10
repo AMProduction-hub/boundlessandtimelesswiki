@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vine Blight
+- "Vine Blight"
 ---
-# [Vine Blight](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/vine-blight.md)
-*Source: Monster Manual p. 32, Curse of Strahd, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Dragon of Icespire Peak*  
+# [Vine Blight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/vine-blight.md)
+*Source: Monster Manual p. 32*  
 
 Appearing as masses of slithering creepers, vine blights hide in undergrowth and wait for prey to draw near. By animating the plants around them, vine blights entangle and hinder their foes before attacking. Vine blights are the only blights capable of speech. Through its connection to the evil spirit of the Gulthias tree it serves, a vine blight speaks in a fractured version of its dead master's voice, taunting victims or bargaining with powerful foes.
 
@@ -63,7 +64,8 @@ Blights are independent creatures, but most act under a Gulthias tree's control,
     "desc": "+1"
 "condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
   \ [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 10"
 "languages": "Common"
 "cr": "1/2"
 "traits":
@@ -71,7 +73,7 @@ Blights are independent creatures, but most act under a Gulthias tree's control,
       \ of vines."
     "name": "False Appearance"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:*\
       \ 9 (2d6 + 2) bludgeoning damage, and a Large or smaller target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 12). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and the blight can't constrict another target."
@@ -86,10 +88,6 @@ Blights are independent creatures, but most act under a Gulthias tree's control,
     "name": "Entangling Plants (Recharge 5-6)"
 "source":
   - "MM"
-  - "CoS"
-  - "GoS"
-  - "EGW"
-  - "DIP"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/vine-blight.webp"
 ```
 ^statblock

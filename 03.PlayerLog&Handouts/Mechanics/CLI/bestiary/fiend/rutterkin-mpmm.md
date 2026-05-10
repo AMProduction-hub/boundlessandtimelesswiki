@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Rutterkin
+- "Rutterkin"
 ---
-# [Rutterkin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/rutterkin-mpmm.md)
+# [Rutterkin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/rutterkin-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 210, Mordenkainen's Tome of Foes p. 136*  
 
 > [!quote] A quote from Tasha  
@@ -47,7 +48,8 @@ Creatures bitten by rutterkins are exposed to a terrible disease that infects th
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": "understands Abyssal but can't speak"
 "cr": "2"
 "traits":
@@ -63,7 +65,7 @@ Creatures bitten by rutterkins are exposed to a terrible disease that infects th
       \ Fear of all rutterkins for 24 hours."
     "name": "Immobilizing Fear"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (3d6 + 2) piercing damage. If the target is a creature, it must succeed\
       \ on a DC 13 Constitution saving throw against disease or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned).\
       \ At the end of each long rest, the [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\

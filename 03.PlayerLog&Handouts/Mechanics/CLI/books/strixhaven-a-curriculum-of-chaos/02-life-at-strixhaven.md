@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 aliases:
-- Life at Strixhaven
+- "Life at Strixhaven"
 ---
 # Life at Strixhaven
 *Source: Strixhaven: A Curriculum of Chaos, p. 9* 
 
 Strixhaven University sparkles with the enthusiasm of its students and faculty, as they study, debate about, and experiment with magic in its varied forms. This chapter offers an overview of life and studies on the university's campus, as well as a look at each of the five colleges where students explore different modes of magical study.
 
-![During a duel in the Hall ...](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/002-01-001-chapter-splash.webp#center "During a duel in the Hall of Oracles, a student transforms her opponent into a goat, who is held back by a friend")
+![During a duel in the Hall of Oracles, a student transforms her opponent into a goat, who is held back by a friend](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/002-01-001-chapter-splash.webp#center)
 
 ## Magical Study
 
@@ -83,7 +84,7 @@ Strixhaven occupies hundreds of acres, spread out over six campuses. Each of the
 
 Well-maintained roads connect the six campuses, and walking from one to another can take a half-hour or more. Regular shuttles—large carriages drawn by horselike automata—run on an hourly schedule between a station near the Biblioplex and each of the satellite campuses, making the journey in about 15 minutes. In addition, each campus has multiple permanent teleportation circles, which faculty and more advanced students can use when they require instantaneous travel, and several magical portals exist as well. These portals can be unpredictable: they aren't necessarily open all the time, they don't always lead to the same places, and some require complicated conditions or keys to open.
 
-![Archway Commons is a favor...](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/004-01-002-archway-commons.webp#center "Archway Commons is a favorite spot for students to gather")
+![Archway Commons is a favorite spot for students to gather](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/004-01-002-archway-commons.webp#center)
 
 ### Central Campus
 
@@ -127,7 +128,7 @@ Lorehold is the College of Archaeomancy—a term that describes the exploration 
 
 Lorehold College is devoted to the study of history, broadly understood to include the various aspects of culture, behavior, and social relationships that shape historical events. Its studies include various subdivisions of history (military history, social history, cultural history), archaeology, anthropology, psychology, sociology, religion, and economics. It overlaps with Prismari College in the field of art history, with some students splitting their studies between the two colleges. Lorehold mages use their magic to unearth secrets and share illumination.
 
-![The heart of Lorehold Coll...](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/007-01-004-heart-of-lorehold.webp#center "The heart of Lorehold College overlooks a chasm littered with ancient ruins")
+![The heart of Lorehold College overlooks a chasm littered with ancient ruins](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/007-01-004-heart-of-lorehold.webp#center)
 
 #### Order and Chaos
 
@@ -235,7 +236,7 @@ The Prismari Scholars table offers examples of the scholars in Prismari College.
 
 This section describes noteworthy members of the Prismari faculty. Some of them use a Prismari-specific stat block from "chapter 7". Several of them are genasi, who are Humanoids touched by the Elemental Planes.
 
-![Prismari College offers br...](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/010-01-006-prismari-college-offers-breathtaking-views.webp#center "Prismari College offers breathtaking views to inspire its artists")
+![Prismari College offers breathtaking views to inspire its artists](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/010-01-006-prismari-college-offers-breathtaking-views.webp#center)
 
 #### Uvilda Mistcoiler, Dean of Perfection
 
@@ -311,7 +312,7 @@ The Quandrix Scholars table offers examples of the scholars in Quandrix College.
 
 This section describes noteworthy members of the Quandrix faculty. Some of them use a Quandrix-specific stat block from "chapter 7".
 
-![The geometry of Torus Hall...](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/013-01-008-torus-hall.webp#center "The geometry of Torus Hall is the most prominent feature of Quandrix College")
+![The geometry of Torus Hall is the most prominent feature of Quandrix College](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/013-01-008-torus-hall.webp#center)
 
 #### Kianne, Dean of Substance
 
@@ -390,7 +391,7 @@ The Silverquill Scholars table offers examples of the scholars in Silverquill Co
 
 This section describes noteworthy members of the Silverquill faculty. Some of them use a Silverquill-specific stat block from "chapter 7".
 
-![The stately buildings of S...](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/016-01-010.webp#center "The stately buildings of Silverquill promote an atmosphere of dignified study")
+![The stately buildings of Silverquill promote an atmosphere of dignified study](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/016-01-010.webp#center)
 
 #### Shaile Talonrook, Dean of Radiance
 
@@ -468,7 +469,7 @@ The Witherbloom Scholars table offers examples of the scholars in Witherbloom Co
 
 This section describes noteworthy members of the Witherbloom faculty. Some of them use a Witherbloom-specific stat block from "chapter 7".
 
-![Deep in the bayou of Sedge...](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/019-01-012-deep-in-the-bayou.webp#center "Deep in the bayou of Sedgemoor, Widdershins Hall is the heart of Witherbloom College")
+![Deep in the bayou of Sedgemoor, Widdershins Hall is the heart of Witherbloom College](03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img/019-01-012-deep-in-the-bayou.webp#center)
 
 #### Lisette, Dean of the Root
 

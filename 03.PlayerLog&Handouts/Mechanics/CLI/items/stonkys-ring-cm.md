@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/unknown/magic
 - ttrpg-cli/item/wondrous/ring
-aliases: 
+aliases:
 - "Stonky's ring"
 ---
 # Stonky's ring

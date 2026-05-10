@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/13
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Neothelid
+- "Neothelid"
 ---
-# [Neothelid](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/neothelid-mpmm.md)
-*Source: Mordenkainen Presents: Monsters of the Multiverse p. 193, Volo's Guide to Monsters p. 181, Waterdeep: Dungeon of the Mad Mage p. 315*  
+# [Neothelid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/neothelid-mpmm.md)
+*Source: Mordenkainen Presents: Monsters of the Multiverse p. 193, Volo's Guide to Monsters p. 181*  
 
 A slime-covered worm of immense size, a neothelid is the result of the mind flayer reproductive cycle gone horribly wrong. When an illithid colony collapses, typically after an external assault, and the elder brain is killed, the colony's tadpoles are suddenly freed from their fate. They no longer serve as food—and are no longer fed by their caretakers. Driven by hunger, they turn to devouring one another. Only one tadpole survives out of the thousands in the colony's pool, and it emerges as a neothelid.
 
@@ -40,10 +41,11 @@ Mind flayers consider neothelids dangerous abominations—normally they eat or d
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+1"
-  - "wisdom": "+8"
-  - "charisma": "+6"
-"senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 13"
+  - "intelligence": !!int "1"
+  - "wisdom": !!int "8"
+  - "charisma": !!int "6"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft. (blind beyond this radius), passive Perception 13"
 "languages": ""
 "cr": "13"
 "traits":
@@ -58,7 +60,7 @@ Mind flayers consider neothelids dangerous abominations—normally they eat or d
       \ magical effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:*\
       \ 21 (3d8 + 8) bludgeoning damage plus 11 (2d10) psychic damage. If the\
       \ target is a Large or smaller creature, it must succeed on a DC 18 Strength\
       \ saving throw or be swallowed by the neothelid. A swallowed creature is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
@@ -79,15 +81,14 @@ Mind flayers consider neothelids dangerous abominations—normally they eat or d
       \ a failed save, or half as much damage on a successful one."
     "name": "Acid Breath (Recharge 5-6)"
   - "desc": "The neothelid casts one of the following spells, requiring no spell components\
-      \ and using Wisdom as the spellcasting ability (spell save DC 16):\n\nAt will:\
-      \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md)\n\n1/day\
-      \ each: [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
+      \ and using Wisdom as the spellcasting ability (spell save DC 16):\n\n**At will:**\
+      \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md)\n\n**1/day\
+      \ each:** [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
       \ [feeblemind](03.PlayerLog&Handouts/Mechanics/CLI/spells/feeblemind.md), [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)"
     "name": "Spellcasting (Psionics)"
 "source":
   - "MPMM"
   - "VGM"
-  - "WDMM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/neothelid-mpmm.webp"
 ```
 ^statblock

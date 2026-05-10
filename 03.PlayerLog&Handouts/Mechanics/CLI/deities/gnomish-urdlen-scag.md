@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/deity/gnomish
 - ttrpg-cli/domain/death
 - ttrpg-cli/domain/war
-aliases: 
-- Urdlen
+aliases:
+- "Urdlen"
 ---
 # Urdlen
 *Source: Sword Coast Adventurer's Guide p. 24* 

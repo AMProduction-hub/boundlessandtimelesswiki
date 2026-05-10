@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Galvan Magen
+- "Galvan Magen"
 ---
-# [Galvan Magen](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/galvan-magen-idrotf.md)
+# [Galvan Magen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/galvan-magen-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 301*  
 
 Galvan magen can fly. They also store static electricity, which they discharge as lightning bolts.
@@ -58,9 +59,9 @@ Though magen look like humanoids with green skin, they are constructs. When one 
 "actions":
   - "desc": "The magen makes two Shocking Touch attacks."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +6 to hit, reach 5 ft., one target (the magen\
+  - "desc": "*Melee Spell Attack:* +6 to hit, reach 5 ft., one target (the magen\
       \ has advantage on the attack roll if the target is wearing armor made of metal).\
-      \ Hit: 7 (1d6 + 4) lightning damage."
+      \ *Hit:* 7 (1d6 + 4) lightning damage."
     "name": "Shocking Touch"
   - "desc": "The magen discharges a lightning bolt in a 60-foot line that is 5 feet\
       \ wide. Each creature in that line must make a DC 14 Dexterity saving throw\

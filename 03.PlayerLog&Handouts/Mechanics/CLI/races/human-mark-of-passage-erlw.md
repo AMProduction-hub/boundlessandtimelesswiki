@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/race/human/mark-of-passage
 aliases:
-- Human (Mark of Passage)
+- "Human (Mark of Passage)"
 ---
 # Human (Mark of Passage)
 *Source: Eberron: Rising from the Last War p. 46*  
 
 
-- **Ability Scores**: Dexterity +2; Apply +1 to one of Strength, Constitution, Intelligence, Wisdom, or Charisma.
+- **Ability Scores**: Apply +1 to one of Strength, Constitution, Intelligence, Wisdom, or Charisma.
 - **Size**: Medium
 - **Speed**: 35 ft.
 - **Spellcasting**: Dexterity

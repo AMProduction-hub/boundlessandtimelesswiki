@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gloomstalker
+- "Gloomstalker"
 ---
-# [Gloomstalker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/gloomstalker-egw.md)
+# [Gloomstalker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/gloomstalker-egw.md)
 *Source: Explorer's Guide to Wildemount p. 291*  
 
 A gloomstalker is a terrifying, winged predator resembling a wyvern composed of twisting shadows, with glowing eyes and dagger-like teeth.
@@ -35,8 +36,8 @@ A gloomstalker is a terrifying, winged predator resembling a wyvern composed of 
   - !!int "14"
 "speed": "40 ft., fly 80 ft."
 "saves":
-  - "strength": "+9"
-  - "dexterity": "+6"
+  - "strength": !!int "9"
+  - "dexterity": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+9"
@@ -47,7 +48,8 @@ A gloomstalker is a terrifying, winged predator resembling a wyvern composed of 
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "damage_vulnerabilities": "radiant"
-"senses": "darkvision 240 ft, passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 240 ft, passive Perception 16"
 "languages": "understands Common but can't speak"
 "cr": "6"
 "traits":
@@ -62,14 +64,14 @@ A gloomstalker is a terrifying, winged predator resembling a wyvern composed of 
   - "desc": "The gloomstalker makes two attacks: one with its bite and one with its\
       \ claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one creature. *Hit:*\
       \ 15 (2d8 + 6) piercing damage plus 7 (2d6) necrotic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d6 + 6) slashing damage plus 7 (2d6) necrotic damage."
     "name": "Claws"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one Medium or smaller\
-      \ creature. Hit: 13 (2d6 + 6) slashing damage plus 7 (2d6) necrotic damage,\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one Medium or smaller\
+      \ creature. *Hit:* 13 (2d6 + 6) slashing damage plus 7 (2d6) necrotic damage,\
       \ and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 17). While [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ in this way, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)."

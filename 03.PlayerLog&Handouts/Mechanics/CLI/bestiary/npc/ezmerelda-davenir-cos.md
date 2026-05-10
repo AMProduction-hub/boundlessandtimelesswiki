@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ezmerelda d'Avenir
+- "Ezmerelda d'Avenir"
 ---
-# [Ezmerelda d'Avenir](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/ezmerelda-davenir-cos.md)
+# [Ezmerelda d'Avenir](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ezmerelda-davenir-cos.md)
 *Source: Curse of Strahd p. 231*  
 
 Ezmerelda d'Avenir, a Vistana, is the protégé of Rudolph van Richten - despite the fact that her first encounter with the vampire hunter was anything but pleasant.
@@ -76,7 +77,7 @@ Ezmerelda keeps a [deck of tarokka cards](03.PlayerLog&Handouts/Mechanics/CLI/de
   - !!int "17"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+3"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+7"
@@ -98,24 +99,28 @@ Ezmerelda keeps a [deck of tarokka cards](03.PlayerLog&Handouts/Mechanics/CLI/de
     "desc": "+7"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+6"
+"gear":
+  - "[+1 handaxe](03.PlayerLog&Handouts/Mechanics/CLI/items/1-weapon.md)"
+  - "[+1 rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/1-weapon.md)"
+  - "[silvered shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/silvered-weapon.md)"
 "senses": "passive Perception 16"
 "languages": "Common, Elvish"
 "cr": "8"
 "traits":
   - "desc": "Ezmerelda is a 7th-level spellcaster. Her spellcasting ability is Intelligence\
       \ (spell save DC 14, +6 to hit with spell attacks). Ezmerelda has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (4 slots): [protection from evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md),\
+      \n**1st level (4 slots):** [protection from evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
-      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n2nd level\
-      \ (3 slots): [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkvision.md),\
+      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n**2nd level\
+      \ (3 slots):** [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkvision.md),\
       \ [knock](03.PlayerLog&Handouts/Mechanics/CLI/spells/knock.md), [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md)\n\
-      \n3rd level (3 slots): [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
+      \n**3rd level (3 slots):** [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
       \ [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md),\
       \ [magic circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-circle.md)\n\
-      \n4th level (1 slots): [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md)"
+      \n**4th level (1 slots):** [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md)"
     "name": "Spellcasting"
   - "desc": "In addition to her magic armor and weapons, Ezmerelda has two [potions\
       \ of greater healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-greater-healing.md),\
@@ -126,13 +131,13 @@ Ezmerelda keeps a [deck of tarokka cards](03.PlayerLog&Handouts/Mechanics/CLI/de
   - "desc": "Ezmerelda makes three attacks: two with her +1 rapier and one with her\
       \ +1 handaxe or her silvered shortsword."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d8 + 5) piercing damage."
     "name": "Rapier +1"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 6 (1d6 + 3) slashing damage."
     "name": "Handaxe +1"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d6 + 4) piercing damage."
     "name": "Silvered Shortsword"
   - "desc": "Ezmerelda targets one creature that she can see within 30 feet of her.\

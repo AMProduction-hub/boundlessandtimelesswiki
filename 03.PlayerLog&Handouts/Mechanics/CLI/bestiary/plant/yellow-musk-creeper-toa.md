@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/2
@@ -9,20 +10,14 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Yellow Musk Creeper
+- "Yellow Musk Creeper"
 ---
-# [Yellow Musk Creeper](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/yellow-musk-creeper-toa.md)
+# [Yellow Musk Creeper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/yellow-musk-creeper-toa.md)
 *Source: Tomb of Annihilation p. 237*  
-
-A yellow musk creeper is an unholy vine whose flowers resemble an orchid's. Bright yellow with splashes of purple, these flowers expel a musk that attracts prey. A yellow musk creeper clings to walls, pillars, gravestones, door frames, or statuary in shadowy locations, remaining motionless until it strikes.
-
-## Humanoid Hosts
 
 A yellow musk creeper destroys the minds of humanoids, then implants bulbs in those it kills. Twenty-four hours after being implanted, a bulb sprouts a creeper vine that magically animates the host corpse, turning it into a yellow musk zombie under the young vine's control. In addition to protecting the defenseless plant, the zombie acts as fertilizer for the young creeper vine, which grows to full size in seven days. Once it is fully grown, the new yellow musk creeper becomes mobile and bursts from its zombie host, whereupon the zombie collapses into a mound of dead offal. If the zombie is destroyed before the creeper emerges, the creeper withers and dies.
 
-## Small Yellow Musk Zombies
-
-A Medium humanoid transformed into a yellow musk zombie uses the stat block presented in this section. A Small humanoid transformed into a yellow musk zombie becomes a Small undead with 27 (`6d6 + 6`) hit points, but otherwise has the same statistics.
+A yellow musk creeper is an unholy vine whose flowers resemble an orchid's. Bright yellow with splashes of purple, these flowers expel a musk that attracts prey. A yellow musk creeper clings to walls, pillars, gravestones, door frames, or statuary in shadowy locations, remaining motionless until it strikes.
 
 ```statblock
 "name": "Yellow Musk Creeper (ToA)"
@@ -45,7 +40,8 @@ A Medium humanoid transformed into a yellow musk zombie uses the stat block pres
   \ [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 30 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., passive Perception 10"
 "languages": ""
 "cr": "2"
 "traits":
@@ -58,7 +54,7 @@ A Medium humanoid transformed into a yellow musk zombie uses the stat block pres
       \ hit points and doesn't regenerate."
     "name": "Regeneration"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:*\
       \ 13 (3d8) psychic damage. If the target is a humanoid that drops to 0 hit\
       \ points as a result of this damage, it dies and is implanted with a yellow\
       \ musk creeper bulb. Unless the bulb is destroyed, the corpse animates as a\

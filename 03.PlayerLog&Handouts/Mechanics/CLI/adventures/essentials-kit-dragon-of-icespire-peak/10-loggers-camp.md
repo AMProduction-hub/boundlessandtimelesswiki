@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dip
 aliases:
-- Loggers' Camp
+- "Loggers' Camp"
 ---
 # Loggers' Camp
 *Source: Essentials Kit: Dragon of Icespire Peak, p. 34* 
@@ -40,7 +41,7 @@ If the characters tell Barthen that they intend to visit Falcon's Hunting Lodge 
 
 The characters can travel 24 miles in a day, and the loggers' camp is roughly 50 miles north of Phandalin. The characters will need to take a long rest near the halfway point in their journey. They can choose to camp in the woods or veer eastward and spend their long rest at Falcon's Hunting Lodge.
 
-The party member with the highest Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) modifier is the most qualified to navigate Neverwinter Wood. Use the map of the Sword Coast to chart the characters' progress through the forest. Whenever the characters enter a new hex on the map, have the navigator make a DC 10 Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check. If the check succeeds, the party stays on course. If the check fails, the party gets back on course after wasting `d4` miles of movement going in the wrong direction.
+The party member with the highest Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) modifier is the most qualified to navigate Neverwinter Wood. Use the map of the Sword Coast to chart the characters' progress through the forest. Whenever the characters enter a new hex on the map, have the navigator make a DC 10 Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check. If the check succeeds, the party stays on course. If the check fails, the party gets back on course after wasting `1d4` miles of movement going in the wrong direction.
 
 ### A Boar-ing Encounter
 

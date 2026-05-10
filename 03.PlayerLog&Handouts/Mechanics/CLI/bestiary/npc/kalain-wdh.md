@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kalain
+- "Kalain"
 ---
-# [Kalain](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/kalain-wdh.md)
+# [Kalain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kalain-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 89*  
 
 Kalain, was once a famous Waterdavian painter, but now Kalain's spirit is broken, leading to the onset of madness. She locks herself away, content to let time erode the last of her conscience.
@@ -36,8 +37,8 @@ Kalain, was once a famous Waterdavian painter, but now Kalain's spirit is broken
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+4"
-  - "wisdom": "+3"
+  - "dexterity": !!int "4"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+4"
@@ -45,19 +46,23 @@ Kalain, was once a famous Waterdavian painter, but now Kalain's spirit is broken
     "desc": "+5"
   - "name": "[Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance)"
     "desc": "+6"
-"senses": "darkvision 60 ft., passive Perception 15"
+"gear":
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Common, Elvish"
 "cr": "2"
 "traits":
   - "desc": "Kalain is a 4th-level spellcaster. Her spellcasting ability is Charisma.\
-      \ She has the following bard spells prepared:\n\nCantrips (at will): [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md),\
+      \ She has the following bard spells prepared:\n\n**Cantrips (at will):** [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [vicious\
       \ mockery](03.PlayerLog&Handouts/Mechanics/CLI/spells/vicious-mockery.md)\n\n\
-      1st level (4 slots): [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      **1st level (4 slots):** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/healing-word.md),\
       \ [heroism](03.PlayerLog&Handouts/Mechanics/CLI/spells/heroism.md), [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md),\
       \ [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \n**2nd level (3 slots):** [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [shatter](03.PlayerLog&Handouts/Mechanics/CLI/spells/shatter.md)"
     "name": "Spellcasting"
   - "desc": "Kalain has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
@@ -77,10 +82,10 @@ Kalain, was once a famous Waterdavian painter, but now Kalain's spirit is broken
       \ rolls, and saving throws until the start of Kalain's next turn."
     "name": "Taunt (2/Day)"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Shortbow"
 "source":

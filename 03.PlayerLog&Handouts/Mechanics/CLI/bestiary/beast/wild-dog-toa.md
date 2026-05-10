@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Wild Dog
+- "Wild Dog"
 ---
-# [Wild Dog](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/wild-dog-toa.md)
+# [Wild Dog](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wild-dog-toa.md)
 *Source: Tomb of Annihilation p. 96*  
 
 ```statblock
@@ -46,7 +47,7 @@ aliases:
       \ [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Pack Tactics"
 "actions":
-  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 1\
       \ (1d4 - 1) piercing damage."
     "name": "Bite"
 "source":

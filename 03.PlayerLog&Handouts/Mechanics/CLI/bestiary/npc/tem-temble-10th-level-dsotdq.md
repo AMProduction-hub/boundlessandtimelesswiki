@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tem Temble (10th Level)
+- "Tem Temble (10th Level)"
 ---
-# [Tem Temble (10th Level)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/tem-temble-10th-level-dsotdq.md)
+# [Tem Temble (10th Level)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/tem-temble-10th-level-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 213*  
 
 ```statblock
@@ -34,7 +35,7 @@ aliases:
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+8"
+  - "wisdom": !!int "8"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+8"
@@ -47,25 +48,27 @@ aliases:
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
+"gear":
+  - "[hoopak](03.PlayerLog&Handouts/Mechanics/CLI/items/hoopak-dsotdq.md)"
 "senses": "passive Perception 16"
 "languages": "Common, Kenderspeak"
 "traits":
   - "desc": "Tem's spellcasting ability is Wisdom (spell save DC 16, +8 to spell\
-      \ attacks). She has the following druid spells prepared:\n\nAt will: [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
+      \ attacks). She has the following druid spells prepared:\n\n**At will:** [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md),\
       \ [poison spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md),\
       \ [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md), [resistance](03.PlayerLog&Handouts/Mechanics/CLI/spells/resistance.md)\n\
-      \n1st level (3 slots): [healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/healing-word.md),\
+      \n**1st level (3 slots):** [healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/healing-word.md),\
       \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
-      \ [goodberry](03.PlayerLog&Handouts/Mechanics/CLI/spells/goodberry.md)\n\n2nd\
-      \ level (1 slots): [enhance ability](03.PlayerLog&Handouts/Mechanics/CLI/spells/enhance-ability.md)"
+      \ [goodberry](03.PlayerLog&Handouts/Mechanics/CLI/spells/goodberry.md)\n\n**2nd\
+      \ level (1 slots):** [enhance ability](03.PlayerLog&Handouts/Mechanics/CLI/spells/enhance-ability.md)"
     "name": "Spellcasting"
   - "desc": "Tem is proficient with simple weapons and light armor."
     "name": "Bonus Proficiencies"
   - "desc": "Tem adds her Wisdom modifier to the damage she deals with any cantrip."
     "name": "Potent Cantrips"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 40/160\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage, or 4 (1d4 + 2) bludgeoning\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 40/160\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage, or 4 (1d4 + 2) bludgeoning\
       \ damage if Tem used the hoopak's sling to make a ranged attack."
     "name": "Hoopak"
   - "desc": "Tem launches an infuriating barrage of insults at a creature she can\
@@ -74,7 +77,8 @@ aliases:
       \ end of its next turn."
     "name": "Taunt"
 "bonus_actions":
-  - "desc": "Tem takes the Disengage or Hide action."
+  - "desc": "Tem takes the [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action."
     "name": "Elusive"
 "source":
   - "DSotDQ"

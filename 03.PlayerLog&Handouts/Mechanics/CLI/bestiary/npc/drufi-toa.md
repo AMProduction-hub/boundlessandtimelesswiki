@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Drufi
+- "Drufi"
 ---
-# [Drufi](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/drufi-toa.md)
+# [Drufi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/drufi-toa.md)
 *Source: Tomb of Annihilation p. 64*  
 
 ```statblock
@@ -33,25 +34,27 @@ aliases:
   - !!int "12"
 "speed": "40 ft."
 "saves":
-  - "constitution": "+8"
-  - "wisdom": "+3"
-  - "charisma": "+4"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "3"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+9"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
 "damage_immunities": "cold"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
 "senses": "passive Perception 13"
 "languages": "Giant"
 "cr": "8"
 "actions":
   - "desc": "Drufi makes two greataxe attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
       \ 25 (3d12 + 6) slashing damage."
     "name": "Greataxe"
-  - "desc": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +9 to hit, range 60/240 ft., one target. *Hit:*\
       \ 28 (4d10 + 6) bludgeoning damage."
     "name": "Rock"
 "source":

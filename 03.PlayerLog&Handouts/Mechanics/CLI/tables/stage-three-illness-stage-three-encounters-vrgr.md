@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Stage Three: Illness; Stage Three Encounters
+- "Stage Three: Illness; Stage Three Encounters"
 ---
 # Stage Three: Illness; Stage Three Encounters
 *Source: Van Richten's Guide to Ravenloft p. 155* 
 
 **Stage Three Encounters**
-
-`dice: [](stage-three-illness-stage-three-encounters-vrgr.md#^stage-three-encounters)`
 
 | dice: d6 | Encounter |
 |----------|-----------|

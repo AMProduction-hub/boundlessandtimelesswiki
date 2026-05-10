@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/compendium/src/5e/dmg
@@ -14,7 +15,7 @@ tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Diseases
+- "Diseases"
 ---
 # Diseases
 
@@ -25,7 +26,7 @@ Any humanoid that spends 12 hours in the necropolis must succeed on a DC 15 Cons
 
 A player character infected with the arcane blight gains the following flaw: "I don't trust anyone." This flaw, which supersedes any conflicting flaw, is fed by delusions that are difficult for the character to distinguish from reality. Common delusions include the belief that that allies are conspiring to steal the victim's riches or otherwise turn against the victim.
 
-Whenever it finishes a long rest, an infected humanoid must repeat the saving throw. On a successful save, the DC for future saves against the arcane blight drops by `d6`. If the saving throw DC drops to 0, the creature overcomes the arcane blight and becomes immune to the effect of further exposure. A creature that fails three of these saving throws transforms into a [nothic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/nothic.md) under the DM's control. Only a [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell or divine intervention can undo this transformation.
+Whenever it finishes a long rest, an infected humanoid must repeat the saving throw. On a successful save, the DC for future saves against the arcane blight drops by `1d6`. If the saving throw DC drops to 0, the creature overcomes the arcane blight and becomes immune to the effect of further exposure. A creature that fails three of these saving throws transforms into a [nothic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/nothic.md) under the DM's control. Only a [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell or divine intervention can undo this transformation.
 
 A [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md) spell or similar magic ends the infection on the target, removing the flaw and all other symptoms, but this magic doesn't protect the target against further exposure.
 
@@ -40,14 +41,14 @@ Pain grips the creature's mind, and its eyes turn milky white. The creature has 
 ## Blue Mist Fever
 _Source: Tomb of Annihilation p. 40_
 
-A magical mist creeps through the jungles of Chult. Contact with this thin, blue, odorless mist can infect giants and humanoids with blue mist fever. A [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md) spell destroys the mist in a 20-foot square starting at a point chosen by the caster within the spell's range. An encounter with this mist typically covers `d6` such areas (400-2,400 square feet).
+A magical mist creeps through the jungles of Chult. Contact with this thin, blue, odorless mist can infect giants and humanoids with blue mist fever. A [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md) spell destroys the mist in a 20-foot square starting at a point chosen by the caster within the spell's range. An encounter with this mist typically covers `1d6` such areas (400-2,400 square feet).
 
-A giant or humanoid that comes into contact with the mist must succeed on a DC 13 Constitution saving throw or become infected with blue mist fever. An infected creature begins seeing vivid hallucinations of blue monkeys `d6` hours after failing the save, and the hallucinations last until the disease ends on the creature. A creature can repeat the saving throw every 24 hours, ending the effect on itself on a success.
+A giant or humanoid that comes into contact with the mist must succeed on a DC 13 Constitution saving throw or become infected with blue mist fever. An infected creature begins seeing vivid hallucinations of blue monkeys `1d6` hours after failing the save, and the hallucinations last until the disease ends on the creature. A creature can repeat the saving throw every 24 hours, ending the effect on itself on a success.
 
 ## Bluerot
 _Source: Ghosts of Saltmarsh p. 234_
 
-This disease targets humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures. The disease's boils manifest in `d4` hours, causing the victim's Constitution and Charisma scores to decrease by `d4` each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.
+This disease targets humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures. The disease's boils manifest in `1d4` hours, causing the victim's Constitution and Charisma scores to decrease by `1d4` each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.
 
 At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (`4d8`) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.
 
@@ -56,13 +57,13 @@ _Source: Dungeon Master's Guide p. 257. Available in the <span title='Systems Re
 
 This disease targets humanoids, although gnomes are strangely immune. While in the grips of this disease, victims frequently succumb to fits of mad laughter, giving the disease its common name and its morbid nickname: "the shrieks."
 
-Symptoms manifest `d4` hours after infection and include fever and disorientation. The infected creature gains one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) that can't be removed until the disease is cured.
+Symptoms manifest `1d4` hours after infection and include fever and disorientation. The infected creature gains one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) that can't be removed until the disease is cured.
 
 Any event that causes the infected creature great stress—including entering combat, taking damage, experiencing fear, or having a nightmare—forces the creature to make a DC 13 Constitution saving throw.
 
-On a failed save, the creature takes 5 (`d10`) psychic damage and becomes [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) with mad laughter for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the mad laughter and the [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) condition on a success. Any humanoid creature that starts its turn within 10 feet of an infected creature in the throes of mad laughter must succeed on a DC 10 Constitution saving throw or also become infected with the disease. Once a creature succeeds on this save, it is immune to the mad laughter of that particular infected creature for 24 hours.
+On a failed save, the creature takes 5 (`1d10`) psychic damage and becomes [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) with mad laughter for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the mad laughter and the [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) condition on a success. Any humanoid creature that starts its turn within 10 feet of an infected creature in the throes of mad laughter must succeed on a DC 10 Constitution saving throw or also become infected with the disease. Once a creature succeeds on this save, it is immune to the mad laughter of that particular infected creature for 24 hours.
 
-At the end of each long rest, an infected creature can make a DC 13 Constitution saving throw. On a successful save, the DC for this save and for the save to avoid an attack of mad laughter drops by `d6`. When the saving throw DC drops to 0, the creature recovers from the disease. A creature that fails three of these saving throws gains a randomly determined form of [indefinite madness](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/madness.md).
+At the end of each long rest, an infected creature can make a DC 13 Constitution saving throw. On a successful save, the DC for this save and for the save to avoid an attack of mad laughter drops by `1d6`. When the saving throw DC drops to 0, the creature recovers from the disease. A creature that fails three of these saving throws gains a randomly determined form of [indefinite madness](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/madness.md).
 
 ## Filth Fever
 _Source: Player's Handbook p. 227_
@@ -85,7 +86,7 @@ _Source: Explorer's Guide to Wildemount p. 125_
 
 Frigid woe is a special disease developed by Aeor's mages that cannot be cured by conventional treatment or magic. The only way a creature infected with the disease can be cured is by finding and drinking the manufactured antidote, a milky liquid stored in gold vials found in Eiselcross's ruins. This disease was created to slow down the forces of the gods and get around the healing power of their clerics and angels.
 
-The disease is transmitted by breathing in blue spores that Aeor's mages created long ago. When a creature comes into contact with these spores, it must succeed on a DC 11 Constitution saving throw or become infected with frigid woe. It takes `d4` days for the symptoms to manifest in an infected creature. These symptoms include fatigue, chills, and visible blue veins that appear on the creature's body. The infected creature's speed is reduced by 5 feet as long as it remains infected. Every 10 days after symptoms appear, an infected creature must succeed on a DC 11 Constitution saving throw, or its speed is reduced by another 5 feet. If a creature's speed is reduced to 0 as a result of this disease, the creature dies and its body turns into a statue made of ice.
+The disease is transmitted by breathing in blue spores that Aeor's mages created long ago. When a creature comes into contact with these spores, it must succeed on a DC 11 Constitution saving throw or become infected with frigid woe. It takes `1d4` days for the symptoms to manifest in an infected creature. These symptoms include fatigue, chills, and visible blue veins that appear on the creature's body. The infected creature's speed is reduced by 5 feet as long as it remains infected. Every 10 days after symptoms appear, an infected creature must succeed on a DC 11 Constitution saving throw, or its speed is reduced by another 5 feet. If a creature's speed is reduced to 0 as a result of this disease, the creature dies and its body turns into a statue made of ice.
 
 A creature can drink the antidote as an action, ending all symptoms and effects of the disease instantly.
 
@@ -116,7 +117,7 @@ _Source: Candlekeep Mysteries p. 253_
 
 Xanthoria's research into lichdom and her creation of a living phylactery led to the emergence of the plague spreading across the Sword Coast. Any beast or humanoid that comes within 10 feet of a creature infected by the saprophytic plague must succeed on a DC 20 Constitution saving throw or become infected as well. On a successful save, a creature is immune to the plague for 24 hours, and any creature that is immune to disease succeeds on the save automatically.
 
-After a failed save, a creature experiences the first symptoms—body aches, nausea, slurred speech, and uncontrollable drooling—`d4` hours later and gains 1 level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). Every 24 hours thereafter, the creature automatically gains another level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). Any creature killed by the saprophytic plague transforms into a lifeless magenta ooze.
+After a failed save, a creature experiences the first symptoms—body aches, nausea, slurred speech, and uncontrollable drooling—`1d4` hours later and gains 1 level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). Every 24 hours thereafter, the creature automatically gains another level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). Any creature killed by the saprophytic plague transforms into a lifeless magenta ooze.
 
 A creature infected by the saprophytic plague for at least 24 hours behaves like a zombie and seems barely aware of its surroundings, as fungal growths sprout from its head, body, and limbs. It feels an overriding urge to be around groups of uninfected creatures so that it can spread the contagion. This is the time when infected humanoids begin speaking the word "Xanthoria" over and over, with no understanding of what the word means. This behavior is the result of a mycelial network of spores that forms a tenuous connection between Xanthoria and humanoids that become infected by the plague.
 
@@ -139,7 +140,7 @@ Sewer plague is a generic term for a broad category of illnesses that incubate i
 
 When a humanoid creature is bitten by a creature that carries the disease, or when it comes into contact with filth or offal contaminated by the disease, the creature must succeed on a DC 11 Constitution saving throw or become infected.
 
-It takes `d4` days for sewer plague's symptoms to manifest in an infected creature. Symptoms include fatigue and cramps. The infected creature suffers one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion), and it regains only half the normal number of hit points from spending Hit Dice and no hit points from finishing a long rest.
+It takes `1d4` days for sewer plague's symptoms to manifest in an infected creature. Symptoms include fatigue and cramps. The infected creature suffers one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion), and it regains only half the normal number of hit points from spending Hit Dice and no hit points from finishing a long rest.
 
 At the end of each long rest, an infected creature must make a DC 11 Constitution saving throw. On a failed save, the character gains one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion).
 
@@ -176,7 +177,7 @@ The creature begins to bleed uncontrollably. The creature has disadvantage on Co
 ## Spider Eggs
 _Source: Waterdeep: Dungeon of the Mad Mage p. 47_
 
-If the party is defeated, stabilized characters awaken after `d4` hours to find themselves cocooned in sticky webs and suspended 10 feet off the floor, with spider eggs implanted in their bodies. A cocooned character is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) and can use its action to try to escape by making a successful DC 15 Strength check.
+If the party is defeated, stabilized characters awaken after `1d4` hours to find themselves cocooned in sticky webs and suspended 10 feet off the floor, with spider eggs implanted in their bodies. A cocooned character is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) and can use its action to try to escape by making a successful DC 15 Strength check.
 
 Spider eggs implanted in a host hatch in `2d12` hours, killing the host as the baby spiders chew their way out. This infestation functions like a disease. A [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md) spell or similar magic cast upon the host kills the spider eggs, ending the threat.
 
@@ -194,7 +195,7 @@ The Gnawing Plague, also known as "the Gnaws," is known in every corner of Riche
 
 **Infection.** Creatures exposed to the disease must succeed on a DC 10 Constitution saving throw or become infected. The DC of this saving throw can increase depending on the severity of the plague's spread (see ""Cycle of the Plague"" below).
 
-**Symptoms.** It takes `d2` days for the Gnawing Plague's symptoms to manifest in an infected creature. The infected creature then gains 1 level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion), regains only half the normal number of hit points from spending Hit Dice, and regains no hit points from finishing a long rest.
+**Symptoms.** It takes `1d2` days for the Gnawing Plague's symptoms to manifest in an infected creature. The infected creature then gains 1 level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion), regains only half the normal number of hit points from spending Hit Dice, and regains no hit points from finishing a long rest.
 
 The plague's symptoms include buboes, fatigue, splotchy rashes, sweats, and shaking, particularly facial tremors. Locals liken these twitches to the sniffing of rats. Sufferers often have scraps of leather placed in their mouths to prevent their teeth from clattering, though they inevitably gnaw through these scraps.
 
@@ -205,6 +206,6 @@ The plague's symptoms include buboes, fatigue, splotchy rashes, sweats, and shak
 ## Throat Leeches
 _Source: Tomb of Annihilation p. 40_
 
-Minuscule parasites known as throat leeches infect the water in Chult's forests, swamps, and rivers. Any giant or humanoid that swallows tainted water must succeed on a DC 12 Constitution saving throw or be infested with throat leeches. Immediate symptoms include throat inflammation and shortness of breath. After `d6` hours, the infected character gains 1 level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) that can't be removed (except as described below) until the disease is cured. At the end of each long rest, the infected creature must repeat the saving throw. On a failed save, the creature's [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) increases by 1 level; on a successful save, the creature's [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) decreases by 1 level. If a successful saving throw reduces the infected creature's level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) below 1, the creature recovers from the disease.
+Minuscule parasites known as throat leeches infect the water in Chult's forests, swamps, and rivers. Any giant or humanoid that swallows tainted water must succeed on a DC 12 Constitution saving throw or be infested with throat leeches. Immediate symptoms include throat inflammation and shortness of breath. After `1d6` hours, the infected character gains 1 level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) that can't be removed (except as described below) until the disease is cured. At the end of each long rest, the infected creature must repeat the saving throw. On a failed save, the creature's [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) increases by 1 level; on a successful save, the creature's [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) decreases by 1 level. If a successful saving throw reduces the infected creature's level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) below 1, the creature recovers from the disease.
 
 Explorers can avoid contracting throat leeches by drinking only rainwater or water that's been boiled or magically purified.

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Dungeon Location
+- "Dungeon Location"
 ---
 # Dungeon Location
 *Source: Dungeon Master's Guide p. 99* 
 
 **Dungeon Location**
-
-`dice: [](dungeon-location.md#^dungeon-location)`
 
 | dice: d100 | Location |
 |------------|----------|

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Beyond Barovia; Lost Tatyana
+- "Beyond Barovia; Lost Tatyana"
 ---
 # Beyond Barovia; Lost Tatyana
 *Source: Van Richten's Guide to Ravenloft p. 71* 
 
 **Lost Tatyana**
-
-`dice: [](beyond-barovia-lost-tatyana-vrgr.md#^lost-tatyana)`
 
 | dice: d6 | Resurrection Circumstances |
 |----------|----------------------------|

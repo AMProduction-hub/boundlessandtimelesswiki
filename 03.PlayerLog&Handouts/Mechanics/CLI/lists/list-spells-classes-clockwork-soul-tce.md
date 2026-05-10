@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/clockwork-soul
 aliases:
-- Spells for Clockwork Soul
+- "Spells for Clockwork Soul"
 ---
 # Spells for Clockwork Soul
 
 ## 1st Level
 
-- [Alarm](03.PlayerLog&Handouts/Mechanics/CLI/spells/alarm.md "PHB") at class level 3
-- [Protection from Evil and Good](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md "PHB") at class level 3
+- [Alarm](03.PlayerLog&Handouts/Mechanics/CLI/spells/alarm.md "PHB")
+- [Protection from Evil and Good](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md "PHB")
 
 ## 2nd Level
 
@@ -20,15 +21,15 @@ aliases:
 
 ## 3rd Level
 
-- [Dispel Magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md "PHB") at class level 3
-- [Protection from Energy](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-energy.md "PHB") at class level 3
+- [Dispel Magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md "PHB") at class level 5
+- [Protection from Energy](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-energy.md "PHB") at class level 5
 
 ## 4th Level
 
-- [Freedom of Movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md "PHB") at class level 3
-- [Summon Construct](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-construct-tce.md "TCE") at class level 3
+- [Freedom of Movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md "PHB") at class level 7
+- [Summon Construct](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-construct-tce.md "TCE") at class level 7
 
 ## 5th Level
 
-- [Greater Restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md "PHB") at class level 3
-- [Wall of Force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md "PHB") at class level 3
+- [Greater Restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md "PHB") at class level 9
+- [Wall of Force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md "PHB") at class level 9

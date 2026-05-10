@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 - ttrpg-cli/monster/cr/12
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Thessalar
+- "Thessalar"
 ---
-# [Thessalar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/thessalar-imr.md)
+# [Thessalar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/thessalar-imr.md)
 *Source: Infernal Machine Rebuild p. 57*  
 
 Thessalar was a master alchemist and creator of monsters, whose own blood was said to possess dire magical properties.
@@ -40,9 +41,9 @@ Over time, Thessalar has subjected himself to so many of his own experiments tha
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+5"
-  - "intelligence": "+8"
-  - "wisdom": "+7"
+  - "constitution": !!int "5"
+  - "intelligence": !!int "8"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Animal Handling](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Animal%20Handling)"
     "desc": "+7"
@@ -54,28 +55,30 @@ Over time, Thessalar has subjected himself to so many of his own experiments tha
     "desc": "+7"
 "damage_immunities": "acid, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
 "senses": "passive Perception 13"
 "languages": "Common, Draconic, Elvish, Primordial"
 "cr": "12"
 "traits":
   - "desc": "Thessalar is an 18th-level spellcaster. His spellcasting ability is Intelligence\
       \ (spell save DC 16, +8 to hit with spell attacks). He has the following artificer\
-      \ spells prepared:\n\nCantrips (at will): [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
+      \ spells prepared:\n\n**Cantrips (at will):** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md), [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md),\
       \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
-      \n1st level (4 slots): [alarm](03.PlayerLog&Handouts/Mechanics/CLI/spells/alarm.md),\
+      \n**1st level (4 slots):** [alarm](03.PlayerLog&Handouts/Mechanics/CLI/spells/alarm.md),\
       \ [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md), [ray of\
       \ sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md)\n\
-      \n2nd level (3 slots): [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \n**2nd level (3 slots):** [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [Melf's acid arrow](03.PlayerLog&Handouts/Mechanics/CLI/spells/melfs-acid-arrow.md),\
-      \ [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md)\n\n3rd level (3\
-      \ slots): [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \ [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md)\n\n**3rd level (3\
+      \ slots):** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [haste](03.PlayerLog&Handouts/Mechanics/CLI/spells/haste.md), [stinking cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/stinking-cloud.md)\n\
-      \n4th level (3 slots): [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
+      \n**4th level (3 slots):** [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
       \ [Mordenkainen's faithful hound](03.PlayerLog&Handouts/Mechanics/CLI/spells/mordenkainens-faithful-hound.md),\
       \ [Otiluke's resilient sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/otilukes-resilient-sphere.md)\n\
-      \n5th level (1 slots): [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md)"
+      \n**5th level (1 slots):** [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md)"
     "name": "Spellcasting"
   - "desc": "Thessalar wields a [+1 dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/1-weapon.md)\
       \ coated with [thessaltoxin poison](03.PlayerLog&Handouts/Mechanics/CLI/items/thessaltoxin-imr.md)\
@@ -94,8 +97,8 @@ Over time, Thessalar has subjected himself to so many of his own experiments tha
       \ if he has access to [alchemical supplies](03.PlayerLog&Handouts/Mechanics/CLI/items/alchemists-supplies.md)."
     "name": "Greater Restoration (1/Day)"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 3 (1d4 + 1) piercing damage, and the target must\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 3 (1d4 + 1) piercing damage, and the target must\
       \ succeed on a DC 15 Constitution saving throw. On a failed save, the target\
       \ is affected as if by the [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\
       \ spell, transforming into a random beast or a creature it has seen within the\

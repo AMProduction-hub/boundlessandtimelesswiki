@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Ghost Story Adventure Sites
+- "Ghost Story Adventure Sites"
 ---
 # Ghost Story Adventure Sites
 *Source: Van Richten's Guide to Ravenloft p. 55* 
 
 **Ghost Story Adventure Sites**
-
-`dice: [](ghost-story-adventure-sites-vrgr.md#^ghost-story-adventure-sites)`
 
 | dice: d8 | Adventure Site |
 |----------|----------------|

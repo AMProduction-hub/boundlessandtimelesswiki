@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/lox
 aliases:
-- Introduction: Wildspace Awaits!
+- "Introduction: Wildspace Awaits!"
 ---
 # Introduction: Wildspace Awaits!
 *Source: Light of Xaryxis, p. 4* 
@@ -51,7 +52,7 @@ Part 4: Saviors of the Multiverse describes Xaryxispace and the characters' clim
 
 ## Running the Adventure
 
-![A Xaryxian star moth jetti...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/light-of-xaryxis/img/001-08-001-star-moth-splash.webp#center "A Xaryxian star moth jettisons one of many astral seeds while orbiting an unsuspecting world")
+![A Xaryxian star moth jettisons one of many astral seeds while orbiting an unsuspecting world](03.PlayerLog&Handouts/Mechanics/CLI/adventures/light-of-xaryxis/img/001-08-001-star-moth-splash.webp#center)
 
 To run the adventure, you need the fifth edition core rulebooks ("Player's Handbook", "Dungeon Master's Guide", and "Monster Manual"). In addition, you need the other two books included in this product: "Boo's Astral Menagerie" and the "Astral Adventurer's Guide".
 
@@ -117,5 +118,5 @@ All the locations the characters visit in this adventure are described in this b
 
 > [!note] Using the Starlight Apparition
 > 
-> In addition to being a fascinating encounter in its own right, the [starlight apparition](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/starlight-apparition-bam.md) (see "Boo's Astral Menagerie") can be a useful device for you if a key nonplayer character meets an unfortunate and unexpected end. If, later in the adventure, the characters need a piece of information only that nonplayer character would know, you can have the nonplayer character appear in the form of a starlight apparition to guide the characters.
+> In addition to being a fascinating encounter in its own right, the starlight apparition (see "Boo's Astral Menagerie") can be a useful device for you if a key nonplayer character meets an unfortunate and unexpected end. If, later in the adventure, the characters need a piece of information only that nonplayer character would know, you can have the nonplayer character appear in the form of a starlight apparition to guide the characters.
 ^using-the-starlight-apparition

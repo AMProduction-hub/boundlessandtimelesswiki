@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Rumpadump
+- "Rumpadump"
 ---
-# [Rumpadump](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/rumpadump-oota.md)
+# [Rumpadump](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rumpadump-oota.md)
 *Source: Out of the Abyss p. 72*  
 
 ```statblock
@@ -31,7 +32,8 @@ aliases:
   - !!int "11"
   - !!int "5"
 "speed": "10 ft."
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": ""
 "cr": "0"
 "traits":
@@ -43,8 +45,8 @@ aliases:
       \ direct sunlight."
     "name": "Sun Sickness"
 "actions":
-  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1\
-      \ (1d4 - 1) bludgeoning damage plus 2 (d4) poison damage."
+  - "desc": "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 1\
+      \ (1d4 - 1) bludgeoning damage plus 2 (1d4) poison damage."
     "name": "Fist"
   - "desc": "A 10-foot radius of spores extends from Rumpadump. These spores can go\
       \ around corners and affect only creatures with an Intelligence of 2 or higher\

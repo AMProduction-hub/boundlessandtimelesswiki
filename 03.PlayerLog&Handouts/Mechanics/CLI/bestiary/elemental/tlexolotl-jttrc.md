@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tlexolotl
+- "Tlexolotl"
 ---
-# [Tlexolotl](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/tlexolotl-jttrc.md)
+# [Tlexolotl](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/tlexolotl-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 119*  
 
 Tlexolotls are gigantic, salamander-like creatures that slumber deep in the magma of dormant volcanoes. A tlexolotl drowses amid the molten depths for centuries, rising only rarely to gorge itself on massive amounts of animal and plant life before returning to its slumber. Should a tlexolotl's sleep be disturbed—whether by intruders in its volcanic lair or the eruption of its molten home—the lava-drenched brute emerges in a rage, rampaging forth until its belly is full and its volcano is quiet once more.
@@ -40,7 +41,8 @@ Despite a tlexolotl's destructive prowess, the land around its volcano is often 
 "condition_immunities": "[paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., tremorsense 120 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., tremorsense 120 ft., passive Perception 11"
 "languages": "Ignan"
 "cr": "10"
 "traits":
@@ -61,10 +63,10 @@ Despite a tlexolotl's destructive prowess, the land around its volcano is often 
 "actions":
   - "desc": "The tlexolotl makes one Bite attack and one Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 12 (1d10 + 7) piercing damage plus 18 (4d8) fire damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (1d8 + 7) bludgeoning damage plus 14 (4d6) fire damage. If the target\
       \ is a Large or smaller creature, it must succeed on a DC 19 Strength saving\
       \ throw or be pushed up to 10 feet away from the tlexolotl and knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."

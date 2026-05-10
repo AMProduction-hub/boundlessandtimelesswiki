@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- White Dragon Treasures; White Dragon Art Objects
+- "White Dragon Treasures; White Dragon Art Objects"
 ---
 # White Dragon Treasures; White Dragon Art Objects
 *Source: Fizban's Treasury of Dragons p. 157* 
 
 **White Dragon Art Objects**
-
-`dice: [](white-dragon-treasures-white-dragon-art-objects-ftd.md#^white-dragon-art-objects)`
 
 | dice: d12 | Object |
 |-----------|--------|

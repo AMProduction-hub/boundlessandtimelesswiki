@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/race/halfling/mark-of-healing
 aliases:
-- Halfling (Mark of Healing)
+- "Halfling (Mark of Healing)"
 ---
 # Halfling (Mark of Healing)
 *Source: Eberron: Rising from the Last War p. 43*  
 
 
-- **Ability Scores**: Wisdom +1
+- **Ability Scores**: wis +1
 - **Size**: Small
 - **Speed**: 25 ft.
 - **Spellcasting**: Wisdom

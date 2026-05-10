@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Returned Palamnite
+- "Returned Palamnite"
 ---
-# [Returned Palamnite](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/returned-palamnite-mot.md)
+# [Returned Palamnite](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/returned-palamnite-mot.md)
 *Source: Mythic Odysseys of Theros p. 241*  
 
 Even death and the loss of their identities can't erase the rage that inspires Returned palamnites. These Returned led violent lives, existences filled with such pain and hatred that violence now suffuses their deathless bodies. Such makes them exceptionally dangerous to the living, as these aimless killers know only suffering and seek to spread it whenever the opportunity arises. While palamnites might wander the world as dangerous, lone murderers, many gravitate to Odunos, where they serve the vicious will of Tymaret the Murder King (see chapter 3).
@@ -48,6 +49,8 @@ Returned reenter the world blank and undead. No longer possessing the ability to
 "damage_resistances": "necrotic"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 11"
 "languages": "the languages it knew in life"
 "cr": "4"
@@ -65,7 +68,7 @@ Returned reenter the world blank and undead. No longer possessing the ability to
 "actions":
   - "desc": "The Returned makes two shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage plus 10 (3d6) poison damage."
     "name": "Shortsword"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/hotdq
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ambush Drake
+- "Ambush Drake"
 ---
-# [Ambush Drake](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/ambush-drake-hotdq.md)
+# [Ambush Drake](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ambush-drake-hotdq.md)
 *Source: Hoard of the Dragon Queen p. 88, Tyranny of Dragons p. 180*  
 
 ```statblock
@@ -38,7 +39,8 @@ aliases:
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "understands Draconic but can't speak it"
 "cr": "1/2"
 "traits":
@@ -51,7 +53,7 @@ aliases:
       \ attack."
     "name": "Surprise Attack"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) piercing damage."
     "name": "Bite"
 "source":

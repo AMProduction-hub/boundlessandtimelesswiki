@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 aliases:
-- Relationships; Starting Relationship Points
+- "Relationships; Starting Relationship Points"
 ---
 # Relationships; Starting Relationship Points
 *Source: Strixhaven: A Curriculum of Chaos p. 42* 

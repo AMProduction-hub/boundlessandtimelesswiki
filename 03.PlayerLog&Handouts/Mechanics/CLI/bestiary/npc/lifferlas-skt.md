@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lifferlas
+- "Lifferlas"
 ---
-# [Lifferlas](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/lifferlas-skt.md)
+# [Lifferlas](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lifferlas-skt.md)
 *Source: Storm King's Thunder p. 250*  
 
 A druid of the Emerald Enclave awakened the tree Lifferlas with a spell. Goldenfields is his home, its people his friends. Children like to carve their names and initials into his body and hang from his boughs, and he's happy with that.
@@ -59,7 +60,7 @@ Flaw:"I can't remember people's names and often get them mixed up."
 "actions":
   - "desc": "Lifferlas makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
       \ 14 (3d6 + 4) bludgeoning damage."
     "name": "Slam"
 "source":

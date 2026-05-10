@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/hotdq
 - ttrpg-cli/monster/cr/13
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sandesyl Morgia
+- "Sandesyl Morgia"
 ---
-# [Sandesyl Morgia](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sandesyl-morgia-hotdq.md)
+# [Sandesyl Morgia](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sandesyl-morgia-hotdq.md)
 *Source: Hoard of the Dragon Queen p. 81, Tyranny of Dragons p. 98*  
 
 ```statblock
@@ -34,16 +35,17 @@ aliases:
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+9"
-  - "wisdom": "+7"
-  - "charisma": "+9"
+  - "dexterity": !!int "9"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+9"
 "damage_resistances": "necrotic; bludgeoning, piercing, slashing from nonmagical attacks"
-"senses": "darkvision 120 ft., passive Perception 17"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 17"
 "languages": "the languages it knew in life"
 "cr": "13"
 "traits":
@@ -74,34 +76,34 @@ aliases:
     "name": "Misty Escape"
   - "desc": "Sandesyl regains 20 hit points at the start of its turn if it has at\
       \ least 1 hit point and isn't in sunlight or running water. If Sandesyl takes\
-      \ radiant damage or damage from holy water, this trait doesn't function at the\
-      \ start of Sandesyl's next turn."
+      \ radiant damage or damage from [holy water](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-water-flask.md),\
+      \ this trait doesn't function at the start of Sandesyl's next turn."
     "name": "Regeneration"
   - "desc": "Sandesyl can climb difficult surfaces, including upside down on ceilings,\
       \ without needing to make an ability check."
     "name": "Spider Climb"
-  - "desc": "Sandesyl has the following flaws:\n\n- Forbiddance. Sandesyl can't\
-      \ enter a residence without an invitation from one of the occupants.  \n- Harmed\
-      \ by Running Water. Sandesyl takes 20 acid damage if it ends its turn in running\
-      \ water.  \n- Stake to the Heart. If a piercing weapon made of wood is driven\
+  - "desc": "Sandesyl has the following flaws:\n\n- **Forbiddance.** Sandesyl can't\
+      \ enter a residence without an invitation from one of the occupants.  \n- **Harmed\
+      \ by Running Water.** Sandesyl takes 20 acid damage if it ends its turn in running\
+      \ water.  \n- **Stake to the Heart.** If a piercing weapon made of wood is driven\
       \ into Sandesyl's heart while Sandesyl is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
       \ in its resting place, Sandesyl is [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
-      \ until the stake is removed.  \n- Sunlight Hypersensitivity. Sandesyl takes\
+      \ until the stake is removed.  \n- **Sunlight Hypersensitivity.** Sandesyl takes\
       \ 20 radiant damage when it starts its turn in sunlight. While in sunlight,\
       \ it has disadvantage on attack rolls and ability checks.  "
     "name": "Vampire Weaknesses"
 "actions":
   - "desc": "Sandesyl makes two attacks, only one of which can be a bite attack."
     "name": "Multiattack (Vampire Form Only)"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one creature. *Hit:*\
       \ 8 (1d8 + 4) bludgeoning damage. Instead of dealing damage, Sandesyl can\
       \ grapple the target (escape DC 18)."
     "name": "Unarmed Strike (Vampire Form Only)"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one willing creature,\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one willing creature,\
       \ or a creature that is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ by Sandesyl, [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated),\
       \ or [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
-      \ Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) necrotic damage. The\
+      \ *Hit:* 7 (1d6 + 4) piercing damage plus 10 (3d6) necrotic damage. The\
       \ target's hit point maximum is reduced by an amount equal to the necrotic damage\
       \ taken, and Sandesyl regains hit points equal to that amount. The reduction\
       \ lasts until the target finishes a long rest. The target dies if this effect\
@@ -125,10 +127,13 @@ aliases:
   - "desc": "Sandesyl magically calls 2d4 swarms of [bats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-bats.md)\
       \ or [rats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-rats.md),\
       \ provided that the sun isn't up. While outdoors, Sandesyl can call 3d6 [wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wolf.md)\
-      \ instead. The called creatures arrive in d4 rounds, acting as allies of Sandesyl\
-      \ and obeying its spoken commands. The beasts remain for 1 hour, until Sandesyl\
-      \ dies, or until Sandesyl dismisses them as a bonus action."
+      \ instead. The called creatures arrive in 1d4 rounds, acting as allies of\
+      \ Sandesyl and obeying its spoken commands. The beasts remain for 1 hour, until\
+      \ Sandesyl dies, or until Sandesyl dismisses them as a bonus action."
     "name": "Children of the Night (1/Day)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Sandesyl can expend a use to take one of the following actions. Sandesyl\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Sandesyl moves up to its speed without provoking opportunity attacks."
     "name": "Move"

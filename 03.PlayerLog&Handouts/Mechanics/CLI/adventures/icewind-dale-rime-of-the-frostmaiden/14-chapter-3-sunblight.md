@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Chapter 3: Sunblight
+- "Chapter 3: Sunblight"
 ---
 # Chapter 3: Sunblight
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 171* 
@@ -15,7 +16,7 @@ Sequestered among the crags of the Spine of the World is a grim fortress hewn ou
 
 Xardorok has no imagination of his own. Instead, he receives inspiration from his patron, whom he believes is Deep Duerra (the duergar god of conquest). Unknown to Xardorok, his warlock powers come from Asmodeus, the Lord of the Nine Hells, who enjoys impersonating other gods. It is Asmodeus, not Deep Duerra, who inspired [Xardorok Sunblight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/xardorok-sunblight-idrotf.md) to become the first duergar to leave the Underdark and carve out a kingdom for himself on the surface.
 
-![Adventurers race against t...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/147-03-000-chapter-splash.webp#center "Adventurers race against time to stop Xardorok Sunblight from unleashing terror upon Ten-Towns")
+![Adventurers race against time to stop Xardorok Sunblight from unleashing terror upon Ten-Towns](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/147-03-000-chapter-splash.webp#center)
 
 ## Running This Chapter
 
@@ -118,8 +119,6 @@ The three levels of the fortress are connected by two mechanical elevators that 
 To determine Xardorok's whereabouts when the characters arrive at the fortress, roll a `d20` and consult the Xardorok's Location table or simply choose one of the suggested locations.
 
 **Xardorok's Location**
-
-`dice: [](14-chapter-3-sunblight.md#^xardoroks-location)`
 
 | dice: d20 | Location |
 |-----------|----------|
@@ -434,9 +433,9 @@ Characters who explore the mines come across three [rust monsters](03.PlayerLog&
 
 #### X18. Guarded Corridor
 
-Between two sets of double doors is a corridor with a dozen arrow slits along its walls. Four [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md) guards are stationed in the hallways to either side (two per location). In addition to their normal weapons, these duergar carry heavy crossbows (+2 to hit) that deal 5 (`d10`) piercing damage on a hit.
+Between two sets of double doors is a corridor with a dozen arrow slits along its walls. Four [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md) guards are stationed in the hallways to either side (two per location). In addition to their normal weapons, these duergar carry heavy crossbows (`+2` to hit) that deal 5 (`1d10`) piercing damage on a hit.
 
-![A quaggoth convinces a myc...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/151-03-001-quaggoth-myconid.webp#center "A quaggoth convinces a myconid to yield more spores by tearing off its arm")
+![A quaggoth convinces a myconid to yield more spores by tearing off its arm](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/151-03-001-quaggoth-myconid.webp#center)
 
 #### X19. Chardalyn Throne
 
@@ -500,7 +499,7 @@ A 15-foot-high, 10-foot-wide iron gate is set into a 20-foot-high, 15-foot-wide 
 
 Any attempt to breach the gate alerts the guards atop the watchtowers in the forge (areas X24–X26).
 
-![Enlarged to ogre size, Xar...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/152-03-002-xardorok.webp#center "Enlarged to ogre size, Xardorok Sunblight defends his forge")
+![Enlarged to ogre size, Xardorok Sunblight defends his forge](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/152-03-002-xardorok.webp#center)
 
 #### X24–X26. Forge
 
@@ -602,7 +601,7 @@ While in this temple, Xardorok has the following additional trait:
 
 ##### Psychic Conquest
 
-Xardorok deals an extra 5 (`d10`) psychic damage to any creature he hits with a weapon attack, and he regains a number of hit points equal to the amount of psychic damage dealt.
+Xardorok deals an extra 5 (`1d10`) psychic damage to any creature he hits with a weapon attack, and he regains a number of hit points equal to the amount of psychic damage dealt.
 
 A character who succeeds on a DC 20 Intelligence ([Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)) check recognizes the statue as a depiction of Deep Duerra (see the "Deep Duerra" sidebar). Dwarves have advantage on this check. The flame rising from the statue's head symbolizes Deep Duerra's destructive, all-consuming mind. If a creature uses an action to extinguish this fire, Xardorok loses his Psychic Conquest trait.
 
@@ -764,9 +763,9 @@ Each chest has a built-in combination lock with three tumblers that bear tiny Dw
 
 **Chest 3** contains a silver chalice shaped in the likeness of a spider and inlaid with eight obsidian eyes (250 gp).
 
-**Chest 4** holds a bundled-up gray spider-silk robe sewn with darkmantle eyes, wrapped inside which is a [wand of web](03.PlayerLog&Handouts/Mechanics/CLI/items/wand-of-web.md).
+**Chest 4** holds a bundled-up gray spider silk robe sewn with darkmantle eyes, wrapped inside which is a [wand of web](03.PlayerLog&Handouts/Mechanics/CLI/items/wand-of-web.md).
 
-**Chest 5** contains a folded [piwafwi](03.PlayerLog&Handouts/Mechanics/CLI/items/piwafwi-cloak-of-elvenkind-oota.md)—a dark spider-silk cloak made by drow. This item has the properties of a [cloak of elvenkind](03.PlayerLog&Handouts/Mechanics/CLI/items/cloak-of-elvenkind.md) but loses its magic if it's exposed to sunlight for 1 hour without interruption.
+**Chest 5** contains a folded [piwafwi](03.PlayerLog&Handouts/Mechanics/CLI/items/piwafwi-cloak-of-elvenkind-oota.md)—a dark spider silk cloak made by drow. This item has the properties of a [cloak of elvenkind](03.PlayerLog&Handouts/Mechanics/CLI/items/cloak-of-elvenkind.md) but loses its magic if it's exposed to sunlight for 1 hour without interruption.
 
 **Chest 6** holds an amber headdress set with three large purple pearls (2,500 gp).
 
@@ -776,7 +775,7 @@ Each chest has a built-in combination lock with three tumblers that bear tiny Dw
 
 ## Fortress Fallout
 
-The chardalyn dragon won't return to Xardorok's fortress until it has destroyed Ten-Towns (see the next chapter). If Xardorok is alive and his forge is intact when the dragon returns, Xardorok begins repairing it. The dragon regains `d6` hit points at the end of each hour of repair work. If Xardorok is slain or the red dragon's heart in the forge is destroyed, the chardalyn dragon can't be repaired.
+The chardalyn dragon won't return to Xardorok's fortress until it has destroyed Ten-Towns (see the next chapter). If Xardorok is alive and his forge is intact when the dragon returns, Xardorok begins repairing it. The dragon regains `1d6` hit points at the end of each hour of repair work. If Xardorok is slain or the red dragon's heart in the forge is destroyed, the chardalyn dragon can't be repaired.
 
 After returning to the fortress, the dragon remains there until such time as Xardorok needs it to cause more devastation, and certainly not before Xardorok's duergar scouts have assessed the damage to Ten-Towns.
 

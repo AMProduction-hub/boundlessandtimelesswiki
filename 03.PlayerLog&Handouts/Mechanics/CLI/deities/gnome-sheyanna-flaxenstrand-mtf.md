@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/deity/gnome
 - ttrpg-cli/domain/light
-aliases: 
-- Sheyanna Flaxenstrand
+aliases:
+- "Sheyanna Flaxenstrand"
 ---
 # Sheyanna Flaxenstrand
 *Source: Mordenkainen's Tome of Foes p. 110* 

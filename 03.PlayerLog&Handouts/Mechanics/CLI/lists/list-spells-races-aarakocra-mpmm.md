@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/race/aarakocra
 aliases:
-- Spells for Aarakocra
+- "Spells for Aarakocra"
 ---
 # Spells for Aarakocra
 

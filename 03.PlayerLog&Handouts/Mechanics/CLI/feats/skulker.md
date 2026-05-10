@@ -1,15 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/feat
 aliases:
-- Skulker
+- "Skulker"
 ---
 # Skulker
 *Source: Player's Handbook p. 170*  
+
 **Prerequisite**: Dexterity 13 or higher
+
 You are expert at slinking through shadows. You gain the following benefits:
 
 - You can try to hide when you are lightly obscured from the creature from which you are hiding.  

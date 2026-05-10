@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/14
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Archon of the Triumvirate
+- "Archon of the Triumvirate"
 ---
-# [Archon of the Triumvirate](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/archon-of-the-triumvirate-ggr.md)
+# [Archon of the Triumvirate](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/archon-of-the-triumvirate-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 192*  
 
 Archons are enigmatic, supernatural embodiments of the harshest aspects of law and order. They espouse a rigid sense of justice and deal ruthless punishment to those who break the law. This nature often aligns them with the Azorius Senate, and they are commonly seen circling above the Azorius guildhall astride their winged felidar mounts, soaring alongside griffon-mounted hussars.
@@ -45,9 +46,9 @@ An archon doesn't require food, drink, or sleep.
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+9"
-  - "wisdom": "+10"
-  - "charisma": "+9"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "10"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+10"
@@ -57,13 +58,14 @@ An archon doesn't require food, drink, or sleep.
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 20"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 20"
 "languages": "all"
 "cr": "14"
 "traits":
   - "desc": "The archon's innate spellcasting ability is Wisdom (spell save DC 18,\
       \ +10 to hit with spell attacks). The archon can innately cast the following\
-      \ spells, requiring no material components:\n\nAt will: [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
+      \ spells, requiring no material components:\n\n**At will:** [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
       \ [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md), [compelled\
       \ duel](03.PlayerLog&Handouts/Mechanics/CLI/spells/compelled-duel.md)"
     "name": "Innate Spellcasting"
@@ -84,7 +86,7 @@ An archon doesn't require food, drink, or sleep.
 "actions":
   - "desc": "The archon makes two Hammer of Justice attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 12 (2d6 + 5) bludgeoning damage plus 18 (4d8) force damage. If the target\
       \ is a creature, it must succeed on a DC 18 Strength saving throw or be knocked\
       \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
@@ -99,6 +101,10 @@ An archon doesn't require food, drink, or sleep.
       \ or the effect ends for it, the creature is immune to the archon's Pacifying\
       \ Presence for the next 24 hours."
     "name": "Pacifying Presence"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the archon of the triumvirate can expend a use to take one of the following\
+  \ actions. The archon of the triumvirate regains all expended uses at the start\
+  \ of each of its turns."
 "legendary_actions":
   - "desc": "If the archon isn't mounted, it magically teleports to its steed and\
       \ mounts it as long as the archon and its steed are on the same plane of existence."

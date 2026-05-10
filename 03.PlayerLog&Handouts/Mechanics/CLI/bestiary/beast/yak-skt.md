@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Yak
+- "Yak"
 ---
-# [Yak](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/yak-skt.md)
+# [Yak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/yak-skt.md)
 *Source: Storm King's Thunder p. 172*  
 
 ```statblock
@@ -41,11 +42,11 @@ aliases:
       \ throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Charge"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) bludgeoning damage."
     "name": "Ram"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
-      \ creature. Hit: 8 (2d4 + 3) bludgeoning damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
+      \ creature. *Hit:* 8 (2d4 + 3) bludgeoning damage."
     "name": "Hooves"
 "source":
   - "SKT"

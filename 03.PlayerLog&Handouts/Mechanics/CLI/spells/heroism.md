@@ -1,15 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/boros-legionnaire
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/paladin
 - ttrpg-cli/spell/feat/fey-touched
-- ttrpg-cli/spell/feat/magic-initiate
-- ttrpg-cli/spell/feat/strixhaven-initiate
+- ttrpg-cli/spell/feat/magic-initiate/bard-spells
+- ttrpg-cli/spell/feat/strixhaven-initiate/silverquill-3
 - ttrpg-cli/spell/level/1st-level
+- ttrpg-cli/spell/reward/gruul-charm
 - ttrpg-cli/spell/school/enchantment
 - ttrpg-cli/spell/subclass/battle-smith
 - ttrpg-cli/spell/subclass/oath-of-glory
@@ -17,13 +19,13 @@ tags:
 - ttrpg-cli/spell/subclass/peace-domain
 classes:
 - Artificer (Battle Smith)
-- Bard
+- Bard (Magical Secrets)
 - Cleric (Order Domain)
 - Cleric (Peace Domain)
 - Paladin
 - Paladin (Oath of Glory)
 aliases:
-- Heroism
+- "Heroism"
 ---
 # Heroism
 *1st-level, Enchantment*  
@@ -38,6 +40,6 @@ A willing creature you touch is imbued with bravery. Until the spell ends, the c
 
 **At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.
 
-**Classes**: [Cleric (Peace Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-peace-domain-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Paladin (Oath of Glory)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-glory-tce.md "subclass=TCE"); [Artificer (Battle Smith)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-battle-smith-tce.md "subclass=TCE;class=TCE"); [Cleric (Order Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-order-domain-tce.md "subclass=TCE"); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
+**Classes**: [Artificer (Battle Smith)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-battle-smith-tce.md "subclass=TCE;class=TCE"); [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Order Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-order-domain-tce.md "subclass=TCE"); [Cleric (Peace Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-peace-domain-tce.md "subclass=TCE"); [Paladin (Oath of Glory)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-glory-tce.md "subclass=TCE"); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
 
 *Source: Player's Handbook p. 250. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

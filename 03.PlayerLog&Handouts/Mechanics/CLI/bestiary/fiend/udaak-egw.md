@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/16
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Udaak
+- "Udaak"
 ---
-# [Udaak](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/udaak-egw.md)
+# [Udaak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/udaak-egw.md)
 *Source: Explorer's Guide to Wildemount p. 301*  
 
 Known commonly as the brutes of Xhorhas, these enormous creatures resemble an immense, demonic cross between ox and gorilla. Udaaks are solitary wanderers, found most commonly along the edges of settled lands in the barrens of Eastern Wynandir. Though they often scavenge for food, a hungry udaak will attack almost any prey, its four sets of red eyes and its tangle of teeth and tusks striking fear into the heart of any creature.
@@ -37,15 +38,16 @@ Living Siege Engine. Originally brought to Exandria from the Abyss, udaaks lost 
   - !!int "10"
 "speed": "50 ft."
 "saves":
-  - "strength": "+13"
-  - "constitution": "+11"
+  - "strength": !!int "13"
+  - "constitution": !!int "11"
 "damage_vulnerabilities": "thunder"
 "damage_immunities": "poison; bludgeoning, piercing, slashing from nonmagical attacks"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": ""
 "cr": "16"
 "traits":
@@ -60,12 +62,12 @@ Living Siege Engine. Originally brought to Exandria from the Abyss, udaaks lost 
 "actions":
   - "desc": "The udaak makes three attacks: one with its bite and two with its slam."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 5 ft., one creature. *Hit:*\
       \ 21 (2d12 + 8) piercing damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 21). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and the udaak can't bite another target."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:*\
       \ 21 (3d8 + 8) bludgeoning damage."
     "name": "Slam"
   - "desc": "The udaak makes one bite attack against a Large or smaller target it\

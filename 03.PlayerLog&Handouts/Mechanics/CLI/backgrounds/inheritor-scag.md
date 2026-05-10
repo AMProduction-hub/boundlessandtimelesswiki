@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-background
+cssclasses:
+- json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/scag
 aliases:
-- Inheritor
+- "Inheritor"
 ---
 # Inheritor
 *Source: Sword Coast Adventurer's Guide p. 150*  
@@ -25,8 +26,6 @@ Choose or randomly determine your inheritance from the possibilities in the tabl
 The Dungeon Master is free to use your inheritance as a story hook, sending you on quests to learn more about its history or true nature, or confronting you with foes who want to claim it for themselves or prevent you from learning what you seek. The DM also determines the properties of your inheritance and how they figure into the item's history and importance. For instance, the object might be a minor magic item, or one that begins with a modest ability and increases in potency with the passage of time. Or, the true nature of your inheritance might not be apparent at first and is revealed only when certain conditions are met.
 
 When you begin your adventuring career, you can decide whether to tell your companions about your inheritance right away. Rather than attracting attention to yourself, you might want to keep your inheritance a secret until you learn more about what it means to you and what it can do for you.
-
-`dice: [](inheritor-scag.md#^object-or-item)`
 
 | dice: d8 | Object or item: |
 |----------|-----------------|

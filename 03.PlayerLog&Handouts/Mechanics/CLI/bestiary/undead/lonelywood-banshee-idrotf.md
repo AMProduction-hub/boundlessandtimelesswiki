@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lonelywood Banshee
+- "Lonelywood Banshee"
 ---
-# [Lonelywood Banshee](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/lonelywood-banshee-idrotf.md)
+# [Lonelywood Banshee](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/lonelywood-banshee-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 81*  
 
 This banshee is the spectral remnant of a female elf warrior who was banished for a selfish, evil act. It wields a spectral longbow that shoots phantom arrows. There is only one banshee haunting the forest. If it's destroyed, it re-forms after 24 hours in a random location in the forest, damned to its eternal exile.
@@ -34,8 +35,8 @@ This banshee is the spectral remnant of a female elf warrior who was banished fo
   - !!int "17"
 "speed": "0 ft., fly 40 ft. (hover)"
 "saves":
-  - "wisdom": "+2"
-  - "charisma": "+5"
+  - "wisdom": !!int "2"
+  - "charisma": !!int "5"
 "damage_resistances": "acid; fire; lightning; thunder; bludgeoning, piercing, slashing\
   \ from nonmagical attacks"
 "damage_immunities": "cold, necrotic, poison"
@@ -47,7 +48,8 @@ This banshee is the spectral remnant of a female elf warrior who was banished fo
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common, Elvish"
 "cr": "4"
 "traits":
@@ -56,11 +58,11 @@ This banshee is the spectral remnant of a female elf warrior who was banished fo
       \ they're in but not their exact locations."
     "name": "Detect Life"
   - "desc": "The banshee can move through other creatures and objects as if they were\
-      \ difficult terrain. She takes 5 (d10) force damage if she ends her turn inside\
-      \ an object."
+      \ difficult terrain. She takes 5 (1d10) force damage if she ends her turn\
+      \ inside an object."
     "name": "Incorporeal Movement"
 "actions":
-  - "desc": "Ranged Spell Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +4 to hit, range 150/600 ft., one target. *Hit:*\
       \ 12 (3d6 + 2) necrotic damage."
     "name": "Spectral Longbow"
   - "desc": "Each non-undead creature within 60 feet of the banshee that can see her\

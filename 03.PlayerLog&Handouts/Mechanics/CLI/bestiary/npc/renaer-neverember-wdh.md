@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Renaer Neverember
+- "Renaer Neverember"
 ---
-# [Renaer Neverember](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/renaer-neverember-wdh.md)
+# [Renaer Neverember](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/renaer-neverember-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 215*  
 
 Renaer is the estranged son of Dagult Neverember, the former Open Lord of Waterdeep and the current Lord of Neverwinter. Father and son detest one another, and Renaer is least happy when he finds himself forced to deal with some mess his father left behind. Qualities that both share include striking good looks, a love of drink, and a flair for diplomacy. What Renaer lacks is his father's belligerence, ill temper, and bad judgment.
@@ -50,25 +51,27 @@ Swashbucklers are charming ne'er-do-wells who live by their own codes of honor. 
     "desc": "+5"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+6"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
 "senses": "passive Perception 10"
 "languages": "Common"
 "cr": "3"
 "traits":
-  - "desc": "The swashbuckler can take the Dash or Disengage action as a bonus action\
-      \ on each of its turns."
+  - "desc": "Renaer can take the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash)\
+      \ or [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
+      \ action as a bonus action on each of its turns."
     "name": "Lightfooted"
-  - "desc": "While the swashbuckler is wearing light or no armor and wielding no shield,\
-      \ its AC includes its Charisma modifier."
+  - "desc": "While Renaer is wearing light or no armor and wielding no shield, its\
+      \ AC includes its Charisma modifier."
     "name": "Suave Defense"
 "actions":
-  - "desc": "The swashbuckler makes three attacks: one with a dagger and two with\
-      \ its rapier."
+  - "desc": "Renaer makes three attacks: one with a dagger and two with its rapier."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
-      \ (1d4 + 4) piercing damage. Or Ranged Weapon Attack: +6 to hit, range 20/60\
-      \ ft., one target. Hit: 6 (1d4 + 4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 6 (1d4 + 4) piercing damage."
     "name": "Dagger"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) piercing damage."
     "name": "Rapier"
 "source":

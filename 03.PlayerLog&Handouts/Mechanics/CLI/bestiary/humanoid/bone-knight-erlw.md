@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bone Knight
+- "Bone Knight"
 ---
-# [Bone Knight](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/bone-knight-erlw.md)
+# [Bone Knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bone-knight-erlw.md)
 *Source: Eberron: Rising from the Last War p. 316*  
 
 Bone knights are the champions of the Order of the Emerald Claw. Clad in distinctive bonecraft armor—heavy armor adorned with the bones of fallen enemies—these fearsome warriors command squads of undead soldiers as they pursue the sinister goals of Lady Illmarrow.
@@ -46,8 +47,8 @@ During the Last War, many bone knights took service with the Order of the Emeral
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+5"
-  - "charisma": "+6"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+7"
@@ -56,17 +57,20 @@ During the Last War, many bone knights took service with the Order of the Emeral
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+6"
 "damage_resistances": "necrotic, poison"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
 "senses": "passive Perception 12"
 "languages": "any one language (usually Common)"
 "cr": "5"
 "traits":
   - "desc": "The knight is an 8th-level spellcaster. Its spellcasting ability is Charisma\
       \ (spell save DC 14, +6 to hit with spell attacks). It has the following paladin\
-      \ spells prepared:\n\n1st level (4 slots): [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \ spells prepared:\n\n**1st level (4 slots):** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [compelled duel](03.PlayerLog&Handouts/Mechanics/CLI/spells/compelled-duel.md),\
       \ [hellish rebuke](03.PlayerLog&Handouts/Mechanics/CLI/spells/hellish-rebuke.md),\
       \ [wrathful smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/wrathful-smite.md)\n\
-      \n2nd level (3 slots): [branding smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/branding-smite.md),\
+      \n**2nd level (3 slots):** [branding smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/branding-smite.md),\
       \ [crown of madness](03.PlayerLog&Handouts/Mechanics/CLI/spells/crown-of-madness.md),\
       \ [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md), [find\
       \ steed](03.PlayerLog&Handouts/Mechanics/CLI/spells/find-steed.md), [magic weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-weapon.md)"
@@ -83,10 +87,10 @@ During the Last War, many bone knights took service with the Order of the Emeral
 "actions":
   - "desc": "The knight attacks twice with one of its weapons."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:*\
       \ 5 (1d8 + 1) piercing damage."
     "name": "Longbow"
 "source":

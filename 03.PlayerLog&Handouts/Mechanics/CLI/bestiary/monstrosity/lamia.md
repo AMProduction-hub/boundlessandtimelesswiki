@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/4
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lamia
+- "Lamia"
 ---
-# [Lamia](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/lamia.md)
-*Source: Monster Manual p. 201, Ghosts of Saltmarsh, Mythic Odysseys of Theros, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Lamia](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/lamia.md)
+*Source: Monster Manual p. 201. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Ruined desert cities and the tombs of forgotten monarchs make perfect lairs for the wicked lamias. These decadent monsters take what has been forgotten and make it the seat of their hedonistic rule, surrounding themselves with sycophants. Lamias rely on [jackalweres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/jackalwere.md) to perform various tasks, sending them across the wastes to capture slaves or steal treasures from caravans, encampments, or villages, concealed by the lamia's magic as they attack.
 
@@ -62,38 +63,38 @@ The demon lord Graz'zt creates lamias from his mortal servants, granting them im
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Abyssal, Common"
 "cr": "4"
 "traits":
   - "desc": "The lamia's innate spellcasting ability is Charisma (spell save DC 13).\
       \ It can innately cast the following spells, requiring no material components.\n\
-      \nAt will: [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md)\
+      \n**At will:** [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md)\
       \ (any humanoid form), [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md)\n\
-      \n3/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \n**3/day each:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md),\
       \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md), [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\
-      \n1/day: [geas](03.PlayerLog&Handouts/Mechanics/CLI/spells/geas.md)"
+      \n**1/day:** [geas](03.PlayerLog&Handouts/Mechanics/CLI/spells/geas.md)"
     "name": "Innate Spellcasting"
 "actions":
   - "desc": "The lamia makes two attacks: one with its claws and one with its dagger\
       \ or Intoxicating Touch."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (2d10 + 3) slashing damage."
     "name": "Claws"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) piercing damage."
     "name": "Dagger"
-  - "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Spell Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ The target is magically cursed for 1 hour. Until the curse ends, the target\
       \ has disadvantage on Wisdom saving throws and all ability checks."
     "name": "Intoxicating Touch"
 "source":
   - "MM"
-  - "GoS"
-  - "MOT"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/lamia.webp"
 ```
 ^statblock

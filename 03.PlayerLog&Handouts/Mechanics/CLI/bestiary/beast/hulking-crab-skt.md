@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hulking Crab
+- "Hulking Crab"
 ---
-# [Hulking Crab](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/hulking-crab-skt.md)
+# [Hulking Crab](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/hulking-crab-skt.md)
 *Source: Storm King's Thunder p. 240*  
 
 Much bigger than a giant crab, a hulking crab has a body 15 to 20 feet in diameter. Its shell is often covered with coral, anemones, ship wreckage, or some other sort of detritus salvaged from the ocean floor.
@@ -37,7 +38,8 @@ Much bigger than a giant crab, a hulking crab has a body 15 to 20 feet in diamet
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+2"
-"senses": "blindsight 30 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., passive Perception 10"
 "languages": ""
 "cr": "5"
 "traits":
@@ -52,7 +54,7 @@ Much bigger than a giant crab, a hulking crab has a body 15 to 20 feet in diamet
 "actions":
   - "desc": "The crab makes two attacks with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 20 (3d10 + 4) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15). The crab has two claws, each of which can grapple only one\
       \ target"

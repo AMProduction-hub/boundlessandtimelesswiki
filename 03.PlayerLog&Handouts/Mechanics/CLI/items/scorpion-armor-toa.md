@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/item/armor/heavy
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/rare
-aliases: 
+aliases:
 - "Scorpion Armor"
 ---
 # Scorpion Armor

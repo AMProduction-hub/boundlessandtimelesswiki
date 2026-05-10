@@ -1,32 +1,33 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/background/golgari-agent
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/conjuration
-- ttrpg-cli/spell/subclass/circle-of-the-land
+- ttrpg-cli/spell/subclass/circle-of-the-land/desert
 - ttrpg-cli/spell/subclass/divine-soul
 - ttrpg-cli/spell/subclass/nature-domain
 - ttrpg-cli/spell/subclass/swarmkeeper
 - ttrpg-cli/spell/subclass/tempest-domain
 classes:
-- Bard
+- Bard (Magical Secrets)
 - Cleric
 - Cleric (Nature Domain)
 - Cleric (Tempest Domain)
 - Druid
-- Druid (Circle of the Land)
+- Druid (Circle of the Land, Desert)
 - Ranger (Swarmkeeper)
 - Sorcerer
 - Sorcerer (Divine Soul)
 aliases:
-- Insect Plague
+- "Insect Plague"
 ---
 # Insect Plague
 *5th-level, Conjuration*  
@@ -41,8 +42,8 @@ Swarming, biting locusts fill a 20-foot-radius sphere centered on a point you ch
 
 When the area appears, each creature in it must make a Constitution saving throw. A creature takes `4d10` piercing damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell's area for the first time on a turn or ends its turn there.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, the damage increases by `d10` for each slot level above 5th.
+**At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, the damage increases by `1d10` for each slot level above 5th.
 
-**Classes**: [Cleric (Tempest Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-tempest-domain.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Ranger (Swarmkeeper)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-swarmkeeper-tce.md "subclass=TCE"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md); [Cleric (Tempest Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-tempest-domain.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Druid (Circle of the Land, Desert)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger (Swarmkeeper)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-swarmkeeper-tce.md "subclass=TCE"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md)
 
 *Source: Player's Handbook p. 254. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

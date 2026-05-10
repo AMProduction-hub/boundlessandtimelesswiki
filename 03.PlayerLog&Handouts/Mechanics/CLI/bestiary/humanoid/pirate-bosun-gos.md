@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Pirate Bosun
+- "Pirate Bosun"
 ---
-# [Pirate Bosun](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/pirate-bosun-gos.md)
+# [Pirate Bosun](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/pirate-bosun-gos.md)
 *Source: Ghosts of Saltmarsh p. 247*  
 
 The bosun (or boatswain) is tasked with organizing the cargo and crew aboard a ship. Bosuns are capable fighters whose experience with hauling cargo and delivering beatings make them tough opponents. Foul Frithoff in The Sinister Secret of Saltmarsh is the bosun who protects the cargo aboard the smugglers' ship. Ever since a bad accident, he has worn a hook at the end of one arm in place of a hand.
@@ -40,6 +41,8 @@ The bosun (or boatswain) is tasked with organizing the cargo and crew aboard a s
     "desc": "+5"
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+3"
+"gear":
+  - "[light hammer](03.PlayerLog&Handouts/Mechanics/CLI/items/light-hammer.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "1/2"
@@ -50,10 +53,10 @@ The bosun (or boatswain) is tasked with organizing the cargo and crew aboard a s
       \ being knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Sea Legs"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d4 + 3) bludgeoning damage."
     "name": "Light Hammer"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13)."
     "name": "Hook"

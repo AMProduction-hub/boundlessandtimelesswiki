@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reduced-Threat Carrion Crawler
+- "Reduced-Threat Carrion Crawler"
 ---
-# [Reduced-Threat Carrion Crawler](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/reduced-threat-carrion-crawler-tftyp.md)
+# [Reduced-Threat Carrion Crawler](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/reduced-threat-carrion-crawler-tftyp.md)
 *Source: Tales from the Yawning Portal p. 113*  
 
 ```statblock
@@ -35,7 +36,8 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+1"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": ""
 "cr": "2"
 "traits":
@@ -54,14 +56,14 @@ aliases:
   - "desc": "The carrion crawler makes two attacks: one with its tentacles and one\
       \ with its bite."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one creature. *Hit:*\
       \ 4 (1d4 + 2) poison damage, and the target must succeed on a DC 11 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. Until this poison ends, the target is [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed).\
       \ The target can repeat the saving throw at the end of each of its turns, ending\
       \ the poison on itself on a success."
     "name": "Tentacles"
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) piercing damage."
     "name": "Bite"
 "source":

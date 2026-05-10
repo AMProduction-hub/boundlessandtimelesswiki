@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Narbeck Horn
+- "Narbeck Horn"
 ---
-# [Narbeck Horn](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/narbeck-horn-skt.md)
+# [Narbeck Horn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/narbeck-horn-skt.md)
 *Source: Storm King's Thunder p. 114*  
 
 ```statblock
@@ -34,10 +35,14 @@ aliases:
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+4"
-  - "wisdom": "+2"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "2"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+  - "[heavy crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/heavy-crossbow.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "any one language (usually Common), Dwarvish"
 "cr": "3"
 "traits":
@@ -48,11 +53,11 @@ aliases:
 "actions":
   - "desc": "Narbeck makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d12 + 3) slashing damage."
     "name": "Greataxe"
-  - "desc": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit:\
-      \ 5 (d10) piercing damage."
+  - "desc": "*Ranged Weapon Attack:* +2 to hit, range 100/400 ft., one target. *Hit:*\
+      \ 5 (1d10) piercing damage."
     "name": "Heavy Crossbow"
   - "desc": "For 1 minute, Narbeck can utter a special command or warning whenever\
       \ a nonhostile creature that it can see within 30 feet of it makes an attack\

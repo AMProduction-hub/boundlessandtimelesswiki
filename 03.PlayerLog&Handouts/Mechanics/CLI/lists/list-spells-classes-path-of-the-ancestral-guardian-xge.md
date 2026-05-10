@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/path-of-the-ancestral-guardian
 aliases:
-- Spells for Path of the Ancestral Guardian
+- "Spells for Path of the Ancestral Guardian"
 ---
 # Spells for Path of the Ancestral Guardian
 

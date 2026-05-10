@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Chapter 8: Audience in Gauntlgrym
+- "Chapter 8: Audience in Gauntlgrym"
 ---
 # Chapter 8: Audience in Gauntlgrym
 *Source: Out of the Abyss, p. 120* 
@@ -103,19 +104,17 @@ Check for a random encounter once every hour of travel in the Iron Tabernacle by
 
 #### Iron Tabernacle Encounters
 
-`dice: [](08-chapter-8-audience-in-gauntlgrym.md#^encounter)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–12 | No encounter |
 | 13 | 1 [cloaker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/cloaker.md) |
-| 14 | `d2` [driders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/drider.md) |
+| 14 | `1d2` [driders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/drider.md) |
 | 15 | 1 dwarf [ghost](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghost.md) (friendly unless attacked) |
 | 16 | Patrol consisting of six shield dwarf [veterans](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md) |
 | 17 | 1 shield dwarf [priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/priest.md) and `1d4 + 1` shield dwarf [acolytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/acolyte.md) |
 | 18 | `1d6 + 1` [gargoyles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/gargoyle.md) |
 | 19 | 1 [grick alpha](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/grick-alpha.md) and `1d4 + 1` [gricks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/grick.md) |
-| 20 | `d4` [rust monsters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/rust-monster.md) |
+| 20 | `1d4` [rust monsters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/rust-monster.md) |
 ^encounter
 
 ### The Great Forge
@@ -150,13 +149,11 @@ The Great Forge is always occupied by either Helgrim or Rollo, their apprentices
 
 #### Great Forge Encounters
 
-`dice: [](08-chapter-8-audience-in-gauntlgrym.md#^encounter)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–14 | No encounter |
 | 15 | `1d4 + 1` [doppelgangers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/doppelganger.md) disguised as shield dwarves |
-| 16 | `d2` [fire elementals](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-elemental.md) and `3d6` [magmins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/magmin.md) |
+| 16 | `1d2` [fire elementals](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-elemental.md) and `3d6` [magmins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/magmin.md) |
 | 17 | 1 [salamander](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/salamander.md) and `1d4 + 1` [fire snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-snake.md) |
 | 18 | 1 [spirit naga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/spirit-naga.md) |
 | 19 | `3d6` [troglodytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/troglodyte.md) |

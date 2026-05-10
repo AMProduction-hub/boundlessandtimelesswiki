@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -16,9 +17,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Guard Drake (Green)
+- "Guard Drake (Green)"
 ---
-# [Guard Drake (Green)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/guard-drake-green-mpmm.md)
+# [Guard Drake (Green)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/guard-drake-green-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 151*  
 
 ```statblock
@@ -43,7 +44,8 @@ aliases:
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "understands Draconic but can't speak"
 "cr": "2"
 "traits":
@@ -52,10 +54,10 @@ aliases:
 "actions":
   - "desc": "The guard drake makes one Bite attack and one Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) bludgeoning damage."
     "name": "Tail"
 "source":

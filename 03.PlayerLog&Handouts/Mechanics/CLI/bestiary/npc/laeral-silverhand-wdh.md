@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/17
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Laeral Silverhand
+- "Laeral Silverhand"
 ---
-# [Laeral Silverhand](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/laeral-silverhand-wdh.md)
+# [Laeral Silverhand](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/laeral-silverhand-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 207*  
 
 Anamanué Laeral Silverhand was born in the Year of the Cowl (765 DR), the fifth of seven daughters of the goddess Mystra. Each of the Seven Sisters is a powerful and ageless beauty with a penchant for arcane magic.
@@ -46,8 +47,8 @@ In times of great need, Laeral can command Vajra to unleash Force Grey. Until th
   - !!int "19"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+11"
-  - "wisdom": "+11"
+  - "intelligence": !!int "11"
+  - "wisdom": !!int "11"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+17"
@@ -62,39 +63,40 @@ In times of great need, Laeral can command Vajra to unleash Force Grey. Until th
 "damage_resistances": "fire"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 60 ft., passive Perception 21"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 60 ft., passive Perception 21"
 "languages": "Common, Draconic, Dwarvish, Elvish, Giant, Infernal"
 "cr": "17"
 "traits":
   - "desc": "Laeral is a 19th-level spellcaster. Her spellcasting ability is Intelligence\
       \ (spell save DC 21, +13 to hit with spell attacks). Laeral has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [minor\
       \ illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
-      \n1st level: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**1st level:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
-      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n2nd level:\
+      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\n**2nd level:**\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md)\n\n\
-      3rd level (3 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      **3rd level (3 slots):** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md),\
-      \ [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\n4th\
-      \ level (3 slots): [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \ [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\n**4th\
+      \ level (3 slots):** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md),\
       \ [Otiluke's resilient sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/otilukes-resilient-sphere.md)\n\
-      \n5th level (3 slots): [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md),\
+      \n**5th level (3 slots):** [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md),\
       \ [geas](03.PlayerLog&Handouts/Mechanics/CLI/spells/geas.md), [Rary's telepathic\
       \ bond](03.PlayerLog&Handouts/Mechanics/CLI/spells/rarys-telepathic-bond.md)\n\
-      \n6th level (2 slots): [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md),\
+      \n**6th level (2 slots):** [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md),\
       \ [mass suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-suggestion.md)\n\
-      \n7th level (1 slots): [prismatic spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/prismatic-spray.md),\
-      \ [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)\n\n8th\
-      \ level (1 slots): [feeblemind](03.PlayerLog&Handouts/Mechanics/CLI/spells/feeblemind.md),\
+      \n**7th level (1 slots):** [prismatic spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/prismatic-spray.md),\
+      \ [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)\n\n**8th\
+      \ level (1 slots):** [feeblemind](03.PlayerLog&Handouts/Mechanics/CLI/spells/feeblemind.md),\
       \ [power word stun](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-stun.md)\n\
-      \n9th level (1 slots): [time stop](03.PlayerLog&Handouts/Mechanics/CLI/spells/time-stop.md)"
+      \n**9th level (1 slots):** [time stop](03.PlayerLog&Handouts/Mechanics/CLI/spells/time-stop.md)"
     "name": "Spellcasting"
   - "desc": "Laeral wears a white [robe of the archmagi](03.PlayerLog&Handouts/Mechanics/CLI/items/robe-of-the-archmagi.md)\
       \ (accounted for in her statistics). She wields a [flame tongue longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/flame-tongue.md)."
@@ -107,13 +109,13 @@ In times of great need, Laeral can command Vajra to unleash Force Grey. Until th
       \ any combination. She can cast one of her cantrips or 1st-level spells before\
       \ or after making these attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:*\
       \ 7 (2d6) force damage, and the target must succeed on a DC 19 Constitution\
       \ saving throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
       \ for 1 minute. The target can repeat the saving throw at the end of each of\
       \ its turns, ending the effect on itself on a success."
     "name": "Silver Hair"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d8 + 1) slashing damage plus 7 (2d6) fire damage, or 6 (1d10 + 1)\
       \ slashing damage plus 7 (2d6) fire damage when used with two hands."
     "name": "Flame Tongue"

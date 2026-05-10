@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Isolde
+- "Isolde"
 ---
-# [Isolde](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/isolde-vrgr.md)
+# [Isolde](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/isolde-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 86*  
 
 Isolde was a holy warrior devoted to a pantheon of elven deities called the Seldarine. In this role, she defended the Feywild against dragons, demons, and other threats. In time, her heroics caught the eye of an archfey named Zybilna, who had forged secret pacts with some of the fiends Isolde and her companions had slain. Rather than be angry at Isolde, Zybilna was impressed by her. She enlisted a powerful fiend known only as "the Caller" to corrupt and slay all of Isolde's companions, leaving Isolde alone, bitter, and vulnerable. The insidious archfey then befriended Isolde and offered to help her forget her terrible losses. Isolde became the master of a traveling fey carnival that served as a gateway to Zybilna's domain. The carnival did what Zybilna hoped it would do: it brought comfort to Isolde and quelled her thirst for vengeance.
@@ -42,10 +43,10 @@ Zybilna was intrigued enough by the shadar-kai to let Isolde go, but not without
   - !!int "16"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "strength": "+7"
-  - "constitution": "+6"
-  - "intelligence": "+5"
-  - "charisma": "+6"
+  - "strength": !!int "7"
+  - "constitution": !!int "6"
+  - "intelligence": !!int "5"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+6"
@@ -57,15 +58,18 @@ Zybilna was intrigued enough by the shadar-kai to let Isolde go, but not without
     "desc": "+7"
 "damage_resistances": "cold; fire; lightning; poison; bludgeoning, piercing, slashing\
   \ from nonmagical attacks"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[nepenthe](03.PlayerLog&Handouts/Mechanics/CLI/items/nepenthe-vrgr.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Abyssal, Common, Infernal"
 "cr": "5"
 "traits":
   - "desc": "Isolde's spellcasting ability is Charisma (spell save DC 14). Isolde\
       \ can innately cast the following spells, requiring no material components:\n\
-      \n3/day each: [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
+      \n**3/day each:** [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
       \ [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md), [detect\
-      \ magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md)\n\n1/day:\
+      \ magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md)\n\n**1/day:**\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md) (self\
       \ only)"
     "name": "Innate Spellcasting"
@@ -79,12 +83,12 @@ Zybilna was intrigued enough by the shadar-kai to let Isolde go, but not without
 "actions":
   - "desc": "Isolde makes two melee attacks or uses its Fire Ray twice."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft.., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft.., one target. *Hit:*\
       \ 11 (1d8 + 7) slashing damage, or 12 (1d10 + 7) slashing damage if used\
       \ with two hands to make a melee attack. If the target is a fiend or an undead,\
       \ it takes an extra 11 (2d10) radiant damage."
     "name": "Nepenthe"
-  - "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +7 to hit, range 120 ft., one target. *Hit:*\
       \ 10 (3d6) fire damage."
     "name": "Fire Ray"
   - "desc": "One humanoid Isolde can see within 30 feet of it must succeed on a DC\

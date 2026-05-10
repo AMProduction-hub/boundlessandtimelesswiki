@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reduced-Threat Wyvern
+- "Reduced-Threat Wyvern"
 ---
-# [Reduced-Threat Wyvern](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/reduced-threat-wyvern-tftyp.md)
+# [Reduced-Threat Wyvern](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/reduced-threat-wyvern-tftyp.md)
 *Source: Tales from the Yawning Portal p. 113*  
 
 ```statblock
@@ -35,7 +36,8 @@ aliases:
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": ""
 "cr": "6"
 "traits":
@@ -48,13 +50,13 @@ aliases:
   - "desc": "The wyvern makes two attacks: one with its bite and one with its stinger.\
       \ While flying, it can use its claws in place of one other attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one creature. *Hit:*\
       \ 11 (2d6 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) slashing damage."
     "name": "Claws"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one creature. *Hit:*\
       \ 11 (2d6 + 4) piercing damage. The target must make a DC 13 Constitution\
       \ saving throw, taking 24 (7d6) poison damage on a failed save, or half as\
       \ much damage on a successful one."

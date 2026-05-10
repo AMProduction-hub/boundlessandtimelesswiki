@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Oread
+- "Oread"
 ---
-# [Oread](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/oread-mot.md)
+# [Oread](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/oread-mot.md)
 *Source: Mythic Odysseys of Theros p. 237*  
 
 Aggressive oreads number among the most dangerous nymphs, as they embody the wild might of flames, volcanism, and the hidden forces of the earth. These creatures typically dwell in remote mountain crags and near volcanoes, where they caper among the forces of dissolution and rebirth. During avalanches and volcanic eruptions, groups of oreads might race ahead of the destruction, dancing, singing, and doing what they can to maximize the impending devastation.
@@ -67,9 +68,9 @@ A nymph doesn't require food, drink, or sleep.
 "traits":
   - "desc": "The oread's spellcasting ability is Charisma (spell save DC 14, +6\
       \ to hit with spell attacks). It can innately cast the following spells, requiring\
-      \ no material components:\n\nAt will: [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md)\
-      \ (see \"Actions\" below)\n\n3/day: [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md)\n\
-      \n1/day each: [hellish rebuke](03.PlayerLog&Handouts/Mechanics/CLI/spells/hellish-rebuke.md)\
+      \ no material components:\n\n**At will:** [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md)\
+      \ (see \"Actions\" below)\n\n**3/day:** [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md)\n\
+      \n**1/day each:** [hellish rebuke](03.PlayerLog&Handouts/Mechanics/CLI/spells/hellish-rebuke.md)\
       \ (see \"Reactions\" below), [scorching ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md)"
     "name": "Innate Spellcasting"
   - "desc": "The oread is [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
@@ -81,11 +82,11 @@ A nymph doesn't require food, drink, or sleep.
 "actions":
   - "desc": "The oread attacks twice with its fiery touch or fire bolt."
     "name": "Multiattack"
-  - "desc": "Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Spell Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (1d10 + 4) fire damage."
     "name": "Fiery Touch"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one target. Hit:\
-      \ 5 (d10) fire damage."
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 120 ft., one target. *Hit:*\
+      \ 5 (1d10) fire damage."
     "name": "Fire Bolt (Cantrip)"
 "reactions":
   - "desc": "When the oread is damaged by a creature within 60 feet of the oread that\

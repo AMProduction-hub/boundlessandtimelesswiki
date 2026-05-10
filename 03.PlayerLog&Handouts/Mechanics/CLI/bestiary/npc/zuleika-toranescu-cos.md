@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/3
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Zuleika Toranescu
+- "Zuleika Toranescu"
 ---
-# [Zuleika Toranescu](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/zuleika-toranescu-cos.md)
+# [Zuleika Toranescu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zuleika-toranescu-cos.md)
 *Source: Curse of Strahd p. 204*  
 
 ```statblock
@@ -22,7 +23,7 @@ aliases:
 "subtype": "human, shapechanger"
 "alignment": "Chaotic Evil"
 "ac": !!int "11"
-"ac_class": "12 from natural armor in wolf or hybrid form"
+"ac_class": "12 natural armor in wolf or hybrid form"
 "hp": !!int "58"
 "hit_dice": "9d8 + 18"
 "modifier": !!int "1"
@@ -41,6 +42,8 @@ aliases:
     "desc": "+3"
 "damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 14"
 "languages": "Common (can't speak in wolf form)"
 "cr": "3"
@@ -57,15 +60,15 @@ aliases:
   - "desc": "Zuleika makes two attacks: two with its spear (humanoid form) or one\
       \ with its bite and one with its claws (hybrid form)."
     "name": "Multiattack (Humanoid or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) piercing damage. If the target is a humanoid, it must succeed\
       \ on a DC 12 Constitution saving throw or be cursed with werewolf lycanthropy."
     "name": "Bite (Wolf or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 7 (2d4 + 2) slashing damage."
     "name": "Claws (Hybrid Form Only)"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one creature. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2)\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2)\
       \ piercing damage if used with two hands to make a melee attack."
     "name": "Spear (Humanoid Form Only)"
 "source":

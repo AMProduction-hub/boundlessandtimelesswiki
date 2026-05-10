@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/hotdq
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Leosin Erlanthar
+- "Leosin Erlanthar"
 ---
-# [Leosin Erlanthar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/leosin-erlanthar-hotdq.md)
+# [Leosin Erlanthar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/leosin-erlanthar-hotdq.md)
 *Source: Hoard of the Dragon Queen p. 87, Tyranny of Dragons p. 34*  
 
 ```statblock
@@ -39,6 +40,8 @@ aliases:
     "desc": "+5"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
+"gear":
+  - "[dart](03.PlayerLog&Handouts/Mechanics/CLI/items/dart.md)"
 "senses": "passive Perception 13"
 "languages": "any one language (usually Common)"
 "cr": "3"
@@ -54,7 +57,7 @@ aliases:
 "actions":
   - "desc": "The adept makes three unarmed strikes or three dart attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) bludgeoning damage. If the target is a creature, the adept can\
       \ choose one of the following additional effects:\n\n- The target must succeed\
       \ on a DC 13 Strength saving throw or drop one item it is holding (adept's choice).\
@@ -63,7 +66,7 @@ aliases:
       - The target must succeed on a DC 13 Constitution saving throw or be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
       \ until the end of the adept's next turn.  "
     "name": "Unarmed Strike"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 20/60 ft., one target. *Hit:*\
       \ 5 (1d4 + 3) piercing damage."
     "name": "Dart"
 "reactions":

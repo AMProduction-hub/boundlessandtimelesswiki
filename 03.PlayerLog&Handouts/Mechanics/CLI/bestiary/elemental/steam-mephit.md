@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Steam Mephit
+- "Steam Mephit"
 ---
-# [Steam Mephit](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/steam-mephit.md)
-*Source: Monster Manual p. 217, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Steam Mephit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/steam-mephit.md)
+*Source: Monster Manual p. 217. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 ## Mephits
 
@@ -48,7 +49,8 @@ Composed of fire and water, steam mephits leave trails of hot water wherever the
 "speed": "30 ft., fly 30 ft."
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Aquan, Ignan"
 "cr": "1/4"
 "traits":
@@ -57,23 +59,18 @@ Composed of fire and water, steam mephits leave trails of hot water wherever the
     "name": "Innate Spellcasting (1/Day)"
   - "desc": "When the mephit dies, it explodes in a cloud of steam. Each creature\
       \ within 5 feet of the mephit must succeed on a DC 10 Dexterity saving throw\
-      \ or take 4 (d8) fire damage."
+      \ or take 4 (1d8) fire damage."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit:\
-      \ 2 (d4) slashing damage plus 2 (d4) fire damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one creature. *Hit:*\
+      \ 2 (1d4) slashing damage plus 2 (1d4) fire damage."
     "name": "Claws"
   - "desc": "The mephit exhales a 15-foot cone of scalding steam. Each creature in\
-      \ that area must succeed on a DC 10 Dexterity saving throw, taking 4 (d8)\
+      \ that area must succeed on a DC 10 Dexterity saving throw, taking 4 (1d8)\
       \ fire damage on a failed save, or half as much damage on a successful one."
     "name": "Steam Breath (Recharge 6)"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "ToA"
-  - "EGW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/steam-mephit.webp"
 ```
 ^statblock

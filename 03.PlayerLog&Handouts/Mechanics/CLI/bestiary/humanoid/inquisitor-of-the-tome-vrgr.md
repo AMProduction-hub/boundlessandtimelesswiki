@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Inquisitor of the Tome
+- "Inquisitor of the Tome"
 ---
-# [Inquisitor of the Tome](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/inquisitor-of-the-tome-vrgr.md)
+# [Inquisitor of the Tome](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/inquisitor-of-the-tome-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 249*  
 
 "Evil lurks everywhere. With our minds, we will unearth it, we will plumb its depths, and we will annihilate it." With those words, the psychically gifted priest Ulmed founded the Ulmist Inquisition, an order of psionic inquisitors that seeks to discover the wickedness hiding in people's souls.
@@ -40,9 +41,9 @@ Today the inquisition rules the city of Malitain, a vast city-state to the north
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+7"
-  - "wisdom": "+6"
-  - "charisma": "+5"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+10"
@@ -54,17 +55,18 @@ Today the inquisition rules the city of Malitain, a vast city-state to the north
     "desc": "+10"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "truesight 30 ft., passive Perception 13"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 30 ft., passive Perception 13"
 "languages": "any four languages, telepathy 120 ft."
 "cr": "8"
 "actions":
   - "desc": "The inquisitor attacks twice."
     "name": "Multiattack"
-  - "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +7 to hit, range 120 ft., one target. *Hit:*\
       \ 22 (4d8 + 4) force damage, and if the target is a Large or smaller creature,\
       \ the inquisitor can push it up to 10 feet away."
     "name": "Force Bolt"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage, or 9 (1d10 + 4) if used with two hands, plus\
       \ 18 (4d8) force damage."
     "name": "Silver Longsword"
@@ -77,12 +79,12 @@ Today the inquisition rules the city of Malitain, a vast city-state to the north
     "name": "Implode (Recharge 4-6)"
   - "desc": "The inquisitor casts one of the following spells, requiring no components\
       \ and using Intelligence as the spellcasting ability (spell save DC 15):\n\n\
-      At will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      **At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md), [mage\
       \ armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
-      \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)\n\n1/day\
-      \ each: [Otiluke's resilient sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/otilukes-resilient-sphere.md),\
+      \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)\n\n**1/day\
+      \ each:** [Otiluke's resilient sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/otilukes-resilient-sphere.md),\
       \ [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)"
     "name": "Innate Spellcasting (Psionics)"
 "reactions":

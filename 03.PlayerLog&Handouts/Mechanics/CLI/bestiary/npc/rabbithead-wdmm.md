@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Rabbithead
+- "Rabbithead"
 ---
-# [Rabbithead](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/rabbithead-wdmm.md)
+# [Rabbithead](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rabbithead-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 295*  
 
 ```statblock
@@ -32,6 +33,8 @@ aliases:
   - !!int "10"
   - !!int "10"
 "speed": "30 ft."
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
 "senses": "passive Perception 10"
 "languages": ""
 "cr": "0"

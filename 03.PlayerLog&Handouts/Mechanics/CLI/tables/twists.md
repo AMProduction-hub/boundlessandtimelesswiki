@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Twists
+- "Twists"
 ---
 # Twists
 *Source: Dungeon Master's Guide p. 80* 
 
 **Twists**
-
-`dice: [](twists.md#^twists)`
 
 | dice: d10 | Twist |
 |-----------|-------|

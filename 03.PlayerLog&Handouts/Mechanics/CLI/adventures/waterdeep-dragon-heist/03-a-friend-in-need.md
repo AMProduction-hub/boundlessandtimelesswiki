@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 aliases:
-- A Friend in Need
+- "A Friend in Need"
 ---
 # A Friend in Need
 *Source: Waterdeep: Dragon Heist, p. 21* 
@@ -140,7 +141,7 @@ The shopkeeper is a wizened [deep gnome](03.PlayerLog&Handouts/Mechanics/CLI/bes
 
 ##### Trinkets
 
-The gnome sells an assortment of trinkets. As the characters search the shelves, roll on the [Trinkets](03.PlayerLog&Handouts/Mechanics/CLI/items/trinket.md) table in chapter 5 of the "Player's Handbook" to determine what catches their eye. Xoblob sells any trinket for `d6` gp.
+The gnome sells an assortment of trinkets. As the characters search the shelves, roll on the [Trinkets](03.PlayerLog&Handouts/Mechanics/CLI/items/trinket.md) table in chapter 5 of the "Player's Handbook" to determine what catches their eye. Xoblob sells any trinket for `1d6` gp.
 
 ##### Floon's Fate
 
@@ -348,7 +349,7 @@ Two [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) a
 
 ### Treasure
 
-Each goblin carries `d6` cp in a small pouch.
+Each goblin carries `1d6` cp in a small pouch.
 
 ## Q3. Messy Room
 

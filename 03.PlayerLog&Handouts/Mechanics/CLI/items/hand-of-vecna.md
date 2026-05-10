@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/artifact
-aliases: 
+aliases:
 - "Hand of Vecna"
 ---
 # Hand of Vecna
@@ -48,7 +49,7 @@ If you are attuned to both the hand and eye, you gain the following additional b
 - You are immune to disease and poison.  
 - Using the eye's X-ray vision never causes you to suffer [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion).  
 - You experience premonitions of danger and, unless you are [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated), can't be [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised).  
-- If you start your turn with at least 1 hit point, you regain `d10` hit points.  
+- If you start your turn with at least 1 hit point, you regain `1d10` hit points.  
 - If a creature has a skeleton, you can attempt to turn its bones to jelly with a touch of the Hand of Vecna. You can do so by using an action to make a melee attack against a creature you can reach, using your choice of your melee attack bonus for weapons or spells. On a hit, the target must succeed on a DC 18 Constitution saving throw or drop to 0 hit points.  
 - You can use an action to cast [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md). This property can't be used again until 30 days have passed.  
 

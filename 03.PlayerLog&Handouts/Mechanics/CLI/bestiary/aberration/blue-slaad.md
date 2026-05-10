@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/7
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Blue Slaad
+- "Blue Slaad"
 ---
-# [Blue Slaad](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/blue-slaad.md)
-*Source: Monster Manual p. 276, Waterdeep: Dungeon of the Mad Mage, Icewind Dale: Rime of the Frostmaiden*  
+# [Blue Slaad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/blue-slaad.md)
+*Source: Monster Manual p. 276*  
 
 The bone hooks that protrude from the back of a blue slaad's hands inflict a terrible transformative disease on humanoids wounded by them. This infection, called chaos phage, transforms its victim into a fully grown red slaad—or green slaad if the host was a spellcaster able to cast 3rd level spells or higher.
 
@@ -76,7 +77,8 @@ Some slaadi can transform into the humanoid creatures from which they were origi
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+1"
 "damage_resistances": "acid, cold, fire, lightning, thunder"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Slaad, telepathy 60 ft."
 "cr": "7"
 "traits":
@@ -89,10 +91,10 @@ Some slaadi can transform into the humanoid creatures from which they were origi
 "actions":
   - "desc": "The slaad makes three attacks: one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d6 + 5) slashing damage. If the target is a humanoid, it must succeed\
       \ on a DC 15 Constitution saving throw or be infected with a disease called\
       \ chaos phage. While infected, the target can't regain hit points, and its hit\
@@ -106,8 +108,6 @@ Some slaadi can transform into the humanoid creatures from which they were origi
     "name": "Claw"
 "source":
   - "MM"
-  - "WDMM"
-  - "IDRotF"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/blue-slaad.webp"
 ```
 ^statblock

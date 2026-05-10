@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/screen
 aliases:
-- DM Screen; Name Generator
+- "DM Screen; Name Generator"
 ---
 # DM Screen; Name Generator
 *Source: Dungeon Master's Screen* 
 
 **Name Generator**
-
-`dice: [](dm-screen-name-generator-screen.md#^name-generator)`
 
 | dice: d20 | Beginning | Middle | End |
 |-----------|-----------|--------|-----|

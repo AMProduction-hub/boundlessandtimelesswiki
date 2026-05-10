@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Dragons in Play
+- "Dragons in Play"
 ---
 # Dragons in Play
 *Source: Fizban's Treasury of Dragons, p. 31* 
@@ -21,7 +22,7 @@ This chapter is intended for the Dungeon Master. The ideas and tables herein can
 
 ""Dragon Campaigns"" talks about building worlds and campaign story arcs that put dragons at the forefront of history and at the center of the characters' lives and adventuring ambitions.
 
-![In his guise as Fizban the...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/013-03-001-chapter-splash.webp#center "In his guise as Fizban the Fabulous, Bahamut helps two unlikely heroes escape the wrath of the red dragon Pyros")
+![In his guise as Fizban the Fabulous, Bahamut helps two unlikely heroes escape the wrath of the red dragon Pyros](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/013-03-001-chapter-splash.webp#center)
 
 ## Roleplaying Dragons
 
@@ -39,7 +40,7 @@ In "chapter 5" of this book, you'll find additional tables of personality traits
 
 ![Dragon Characters; Dragon Appearance](03.PlayerLog&Handouts/Mechanics/CLI/tables/dragon-characters-dragon-appearance-ftd.md)
 
-![Dragons of the same kind c...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/014-03-002-dragons-of-the-same.webp#center "Dragons of the same kind can vary widely in shape, size, color, and ornamentation")
+![Dragons of the same kind can vary widely in shape, size, color, and ornamentation](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/014-03-002-dragons-of-the-same.webp#center)
 
 ![Dragon Characters; Dragon Mannerisms](03.PlayerLog&Handouts/Mechanics/CLI/tables/dragon-characters-dragon-mannerisms-ftd.md)
 
@@ -57,7 +58,7 @@ In "chapter 5" of this book, you'll find additional tables of personality traits
 
 Some dragons' names resonate with power and inspire terror: Ashardalon, Dragotha, Klauth, Khellendros, Malystryx, Vaskar. Others are intricate and obscure, reflecting the grandeur of dragons' ancient language: Ingeloakastimizilian, Imvaernarhro, K'rshinthintl, Claugiyliamatar.
 
-![Commonly known as &quot;Old Gna...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/016-03-004-commonly-known-as.webp#center "Commonly known as &quot;Old Gnawbone,&quot; Claugiyliamatar is often seen with a mangled corpse hanging from her mouth")
+![Commonly known as &quot;Old Gnawbone,&quot; Claugiyliamatar is often seen with a mangled corpse hanging from her mouth](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/016-03-004-commonly-known-as.webp#center)
 
 Many dragons are better known by nicknames and epithets. Klauth is commonly called Old Snarl, and Khellendros is remembered as Skie and the Storm over Krynn. Ingeloakastimizilian is Icingdeath, Imvaernarhro is Inferno, and K'rshinthintl and Claugiyliamatar are called Cyan Bloodbane and Old Gnawbones, respectively.
 
@@ -200,10 +201,10 @@ Some sages describe dragons as being akin to knots in the fabric of magic—conc
 
 #### Regional Reversal
 
-As described in the "Monster Manual" and discussed in more detail in "chapter 4", a dragon's presence alters the region around the dragon's lair. When the dragon dies, those effects typically end immediately or fade away over the course of several days. But a traumatic death sometimes extends negative effects throughout the region. These can include instantaneous effects as well as lingering magic that persists for `d10` days, as in the following examples:
+As described in the "Monster Manual" and discussed in more detail in "chapter 4", a dragon's presence alters the region around the dragon's lair. When the dragon dies, those effects typically end immediately or fade away over the course of several days. But a traumatic death sometimes extends negative effects throughout the region. These can include instantaneous effects as well as lingering magic that persists for `1d10` days, as in the following examples:
 
-- **Fouled Water.** Water within 6 miles of the lair changes color and is fouled for `d10` days.  
-- **Restless Sleep.** Any creature that sleeps within 6 miles of the lair is troubled by nightmares for the next `d10` days.  
+- **Fouled Water.** Water within 6 miles of the lair changes color and is fouled for `1d10` days.  
+- **Restless Sleep.** Any creature that sleeps within 6 miles of the lair is troubled by nightmares for the next `1d10` days.  
 - **Trembling Earth.** An enormous tremor shakes the earth within 6 miles of the lair.  
 - **Wildlife Changes.** Creatures previously attracted by the dragon's presence undergo sharp behavioral changes, perhaps attacking any creatures they see or beginning a mass migration away from the lair.  
 - **Winds of Change.** The weather within 6 miles of the lair changes dramatically.  
@@ -245,7 +246,7 @@ The Undead Dragon Adventure Hooks table translates some of these ideas into insp
 
 ![Undeath; Undead Dragon Adventure Hooks](03.PlayerLog&Handouts/Mechanics/CLI/tables/undeath-undead-dragon-adventure-hooks-ftd.md)
 
-![The black dracolich Ebonde...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/022-03-010-the-black-dracolich.webp#center "The black dracolich Ebondeath is venerated by a sect of the Cult of the Dragon")
+![The black dracolich Ebondeath is venerated by a sect of the Cult of the Dragon](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/022-03-010-the-black-dracolich.webp#center)
 
 ### Echoes across the Worlds
 
@@ -271,7 +272,7 @@ On many worlds, Humanoids worship Bahamut and Tiamat as gods. On Krynn, they are
 
 Dragons view the primordial dragons differently. To metallic dragons, Bahamut is more like a king than a god. Individual dragons might owe Bahamut allegiance, respect him, pay tribute to him, and strive to emulate him. Similarly, chromatic dragons might fear, respect, envy, and appease Tiamat as a sovereign. But none of those attitudes and behaviors bear any resemblance in a dragon's mind to the worship that mortals offer to their gods.
 
-![Bahamut is often accompani...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/023-03-011-bahamut.webp#center "Bahamut is often accompanied by seven ancient gold dragons in his journeys on the Material Plane")
+![Bahamut is often accompanied by seven ancient gold dragons in his journeys on the Material Plane](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/023-03-011-bahamut.webp#center)
 
 A few other dragons also command reverence from their kin. These are often greatwyrms who have undergone a sort of apotheosis, joining multiple echoes of themselves into a single powerful form. A few are ancient dragons who have cultivated their dragonsight to such a degree that they can coordinate the actions of their echoes across the Material Plane, influencing events on multiple worlds at once. Humanoids might consider these dragons gods, but as with Bahamut and Tiamat, dragons respect these figures for their wisdom, their might, their magic, and their wealth; they don't worship them. Such enlightened dragons include Aasterinian (a brass dragon who serves as a messenger for Bahamut and is sometimes identified as a god of invention), Chronepsis (a black dragon who now resides in the Outlands, sometimes imagined as a god of fate), and Tamara (a silver dragon of transcendent beneficence, described as a god of life). A number of such dragons of legend are discussed in more detail in sidebars in "chapters 5" and "6".
 
@@ -328,7 +329,7 @@ The Tyranny of Dragons adventure details the cult's efforts to bring Tiamat's av
 
 ![Cult of the Dragon Adventure Hooks](03.PlayerLog&Handouts/Mechanics/CLI/tables/cult-of-the-dragon-adventure-hooks-ftd.md)
 
-![An adventurer closes a por...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/024-03-012-an-adventurer-closes.webp#center "An adventurer closes a portal, preventing an agent of Tiamat from emerging to aid the Cult of the Dragon")
+![An adventurer closes a portal, preventing an agent of Tiamat from emerging to aid the Cult of the Dragon](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/024-03-012-an-adventurer-closes.webp#center)
 
 #### The Chamber
 
@@ -370,7 +371,7 @@ The hidecarved dragons of a lauth share a goal but often have little else in com
 
 The arcane markings carved into hidecarved dragons' scales are magical protections, intended to make the dragons more resilient against the threats they might face in carrying out the lauth's purpose. The longer dragons stay with a lauth, the more wards they receive. Most hidecarved dragons have one of these wards plus an additional ward for each age category above wyrmling. You can roll for these effects on the Hidecarved Wards table or choose effects as you wish.
 
-![Hidecarved dragons adorn t...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/025-03-013-hidecarved-dragons.webp#center "Hidecarved dragons adorn their scales with mystic words")
+![Hidecarved dragons adorn their scales with mystic words](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/025-03-013-hidecarved-dragons.webp#center)
 
 ![Engraved Wards; Hidecarved Wards](03.PlayerLog&Handouts/Mechanics/CLI/tables/engraved-wards-hidecarved-wards-ftd.md)
 
@@ -447,7 +448,7 @@ An emperor might rule openly in dragon form, which discourages aggressive neighb
 
 The size of a dragon's territory is irrelevant to the "emperor" role. A dragon who acts as a mayor for a small frontier town has the same kind of relationship with the populace as one who rules a continent-spanning nation.
 
-![To Kugluk, the fiery breat...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/026-03-014-to-kugluk.webp#center "To Kugluk, the fiery breath of his &quot;Great Uncle&quot; is a toasty blessing")
+![To Kugluk, the fiery breath of his &quot;Great Uncle&quot; is a toasty blessing](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/026-03-014-to-kugluk.webp#center)
 
 #### God
 
@@ -493,7 +494,7 @@ The magic that suffuses a dragon and the dragon's lair can sometimes extend to e
 
 > [!note] 
 > 
-> **Explosive Minion.** When the minion dies, it releases a burst of energy in a 5-foot-radius sphere. Each creature in that area takes `d8` damage of the same type its master's breath weapon deals.
+> **Explosive Minion.** When the minion dies, it releases a burst of energy in a 5-foot-radius sphere. Each creature in that area takes `1d8` damage of the same type its master's breath weapon deals.
 > 
 > **Minion's Mind.** The minion can't be compelled to act in a way contrary to its master's instructions.
 > 
@@ -519,7 +520,7 @@ Whether you're crafting a whole adventure around a dragon or just want to throw 
 
 With these four questions in mind, you can look to the Dragon Encounter Complications table for suggestions of quirks, special effects, and unusual situations that can make any dragon encounter more interesting and exciting.
 
-![An encounter with a dragon...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/027-03-015-an-encounter-with-a-dragon.webp#center "An encounter with a dragon can be devastating to people and property alike")
+![An encounter with a dragon can be devastating to people and property alike](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/027-03-015-an-encounter-with-a-dragon.webp#center)
 
 ![Dragon Encounters; Dragon Encounter Complications](03.PlayerLog&Handouts/Mechanics/CLI/tables/dragon-encounters-dragon-encounter-complications-ftd.md)
 
@@ -563,13 +564,13 @@ The ""Dragon Campaigns"" section that follows discusses the world-ranging implic
 
 Adventures at this scale might involve dragons as villains or as patrons, and they might well involve multiple dragons in conflict with each other. The characters might loyally serve one dragon in opposition to another, or they might attempt to play multiple dragons against one another—perhaps earning the ire of them all.
 
-![In the heart of the jungle...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/029-03-017-in-the-heart.webp#center "In the heart of the jungle, the black greatwyrm Rhashaak keeps watch over a ruined city")
+![In the heart of the jungle, the black greatwyrm Rhashaak keeps watch over a ruined city](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/029-03-017-in-the-heart.webp#center)
 
 ## Dragon Campaigns
 
 Dragons occupy a prominent place in most D&D worlds, but in some realms, they are central to a world's story. Consider these three examples.
 
-![Laurana and Kitiara—genera...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/030-03-018-laurana-and-kitiara.webp#center "Laurana and Kitiara—generals and dragonriders in opposing armies—battle in the temple of the Dragon Queen")
+![Laurana and Kitiara—generals and dragonriders in opposing armies—battle in the temple of the Dragon Queen](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/030-03-018-laurana-and-kitiara.webp#center)
 
 - **Krynn.** The home of the Dragonlance setting is the battleground for an unending conflict between Bahamut and Tiamat. Tiamat commands armies of draconians (described in "chapter 6") formed from the corrupted eggs of metallic dragons, while heroes and villains alike ride mighty dragons into battle.  
 - **Council of Wyrms.** The Io's Blood isles are a vast domain governed by an assembly of ancient wyrms representing eighty-eight clans of chromatic, metallic, and gem dragons. The council's subjects include dozens of Humanoid peoples, some of whom serve as closely bonded aides to dragon masters.  
@@ -581,7 +582,7 @@ If you want to build a campaign that puts dragons in a similarly prominent role,
 
 The "Dungeon Master's Guide" includes a discussion of "world-shaking events" that might define turning points at the start, middle, or end of a campaign. One way to give dragons a prominent role in your campaign is to apply a draconic twist to any of these events.
 
-![A half-dragon conqueror ac...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/031-03-019-a-half-dragon-conqueror.webp#center "A half-dragon conqueror acquiring an Orb of Dragonkind can throw a world into chaos")
+![A half-dragon conqueror acquiring an Orb of Dragonkind can throw a world into chaos](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/031-03-019-a-half-dragon-conqueror.webp#center)
 
 - **Rise or Fall of a Leader or an Era.** A powerful dragon establishing a new lair in a region can be a singularly impactful event. Likewise, the death of an ancient dragon can cause dramatic changes in the world. The balance of power shifts. Established territories are suddenly contested or might be undefended against other perils. The dragon's hoard represents tremendous wealth flowing through a single region. Entire populations of Humanoids or monsters might move in or out of the dragon's territory.  
 - **Cataclysmic Disaster.** A dragon rampaging through inhabited lands can be worse than any natural disaster. What has stirred the dragon's wrath? Will these rampages continue? What might appease the creature?  
@@ -630,7 +631,7 @@ If the gods are distant from their mortal worshipers in your campaign, making th
 
 On the other hand, the dragon gods of your campaign might be ever present in the world and fully involved in the lives of their worshipers. You could reimagine the gods of Theros (detailed in "Mythic Odysseys of Theros") as dragons, so shining Heliod becomes a gold dragon, Erebos becomes a black dracolich, Thassa is a dragon turtle, and so on. These dragon gods might grant supernatural gifts to their followers in exchange for devotion, potentially even transforming their favored ones into dragonborn. You could draw on the supernatural gifts described in "chapter 2" as well as the "piety benefits" detailed in "Mythic Odysseys of Theros" for inspiration.
 
-![Tiamat's emergence from Av...](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/032-03-020-tiamats-emergence.webp#center "Tiamat's emergence from Avernus could define the course of a campaign")
+![Tiamat's emergence from Avernus could define the course of a campaign](03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img/032-03-020-tiamats-emergence.webp#center)
 
 #### Dragons of Myth
 

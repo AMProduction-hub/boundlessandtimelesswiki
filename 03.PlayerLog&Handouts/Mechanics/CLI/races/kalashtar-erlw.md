@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/race/kalashtar
 aliases:
-- Kalashtar
+- "Kalashtar"
 ---
 # Kalashtar
 *Source: Eberron: Rising from the Last War p. 29*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/kalashtar.webp#right)
 
-- **Ability Scores**: Wisdom +2; Charisma +1
+- **Ability Scores**: wis +2 cha +1
 - **Size**: Medium
 - **Speed**: 30 ft.
 
@@ -68,8 +69,6 @@ Kalashtar can't directly communicate with their quori spirits. Rather, they migh
 The bond to the spirit can cause some kalashtar to display unusual quirks. Consider rolling or selecting a trait from the Kalashtar Quirks table.
 
 **Kalashtar Quirks**
-
-`dice: [](kalashtar-erlw.md#^kalashtar-quirks)`
 
 | dice: d10 | Quirk |
 |-----------|-------|

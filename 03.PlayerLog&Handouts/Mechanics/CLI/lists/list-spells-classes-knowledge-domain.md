@@ -1,27 +1,28 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subclass/knowledge-domain
 aliases:
-- Spells for Knowledge Domain
+- "Spells for Knowledge Domain"
 ---
 # Spells for Knowledge Domain
 
 ## 1st Level
 
-- [Command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md "PHB") at class level 7
-- [Identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md "PHB") at class level 7
+- [Command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md "PHB")
+- [Identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md "PHB")
 
 ## 2nd Level
 
-- [Augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md "PHB") at class level 7
-- [Suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md "PHB") at class level 7
+- [Augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md "PHB") at class level 3
+- [Suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md "PHB") at class level 3
 
 ## 3rd Level
 
-- [Nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md "PHB") at class level 7
-- [Speak with Dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md "PHB") at class level 7
+- [Nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md "PHB") at class level 5
+- [Speak with Dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md "PHB") at class level 5
 
 ## 4th Level
 
@@ -30,5 +31,5 @@ aliases:
 
 ## 5th Level
 
-- [Legend Lore](03.PlayerLog&Handouts/Mechanics/CLI/spells/legend-lore.md "PHB") at class level 7
-- [Scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md "PHB") at class level 7
+- [Legend Lore](03.PlayerLog&Handouts/Mechanics/CLI/spells/legend-lore.md "PHB") at class level 9
+- [Scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md "PHB") at class level 9

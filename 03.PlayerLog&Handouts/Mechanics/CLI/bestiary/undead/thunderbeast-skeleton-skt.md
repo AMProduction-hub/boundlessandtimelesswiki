@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Thunderbeast Skeleton
+- "Thunderbeast Skeleton"
 ---
-# [Thunderbeast Skeleton](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/thunderbeast-skeleton-skt.md)
+# [Thunderbeast Skeleton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/thunderbeast-skeleton-skt.md)
 *Source: Storm King's Thunder p. 99*  
 
 ```statblock
@@ -36,14 +37,15 @@ aliases:
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": ""
 "cr": "3"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., Hit: 18 (4d6 + 4)\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., *Hit:* 18 (4d6 + 4)\
       \ piercing damage."
     "name": "Bite"
-  - "desc": "+7 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) bludgeoning\
+  - "desc": "+7 to hit, reach 10 ft., one target. *Hit:* 18 (4d6 + 4) bludgeoning\
       \ damage. Succeed on a DC14 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
 "source":

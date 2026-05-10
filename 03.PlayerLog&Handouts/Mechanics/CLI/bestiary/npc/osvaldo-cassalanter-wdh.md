@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Osvaldo Cassalanter
+- "Osvaldo Cassalanter"
 ---
-# [Osvaldo Cassalanter](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/osvaldo-cassalanter-wdh.md)
+# [Osvaldo Cassalanter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/osvaldo-cassalanter-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 124*  
 
 ```statblock
@@ -34,14 +35,15 @@ aliases:
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+7"
-  - "wisdom": "+4"
-  - "charisma": "+5"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "5"
 "damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
   \ that aren't silvered"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": "Infernal, telepathy 120 ft."
 "cr": "8"
 "traits":
@@ -53,7 +55,7 @@ aliases:
 "actions":
   - "desc": "Osvaldo makes two attacks with its chains."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 11 (2d6 + 4) slashing damage. The target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14) if Osvaldo isn't already grappling a creature. Until this grapple\
       \ ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Juvenile Eldritch Horror
+- "Juvenile Eldritch Horror"
 ---
-# [Juvenile Eldritch Horror](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/juvenile-eldritch-horror-kftgv.md)
+# [Juvenile Eldritch Horror](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/juvenile-eldritch-horror-kftgv.md)
 *Source: Keys from the Golden Vault p. 24*  
 
 ```statblock
@@ -38,17 +39,18 @@ aliases:
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
 "damage_immunities": "lightning"
-"senses": "darkvision 90 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 90 ft., passive Perception 16"
 "languages": ""
 "cr": "11"
 "actions":
   - "desc": "The eldritch horror makes two attacks: one with its bite and one to constrict."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:*\
       \ 22 (3d10 + 6) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one Large or smaller\
-      \ creature. Hit: 17 (2d10 + 6) bludgeoning damage plus 17 (2d10 + 6) slashing\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one Large or smaller\
+      \ creature. *Hit:* 17 (2d10 + 6) bludgeoning damage plus 17 (2d10 + 6) slashing\
       \ damage. The target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 16) if the eldritch horror isn't already constricting a creature,\
       \ and the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
@@ -76,9 +78,9 @@ aliases:
       \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Swallow"
   - "desc": "The eldritch horror casts one of the following spells, requiring no components\
-      \ and using Intelligence as the spellcasting ability (save DC 14):\n\n2/day\
-      \ each: [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
-      \ [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md)\n\n1/day: [project\
+      \ and using Intelligence as the spellcasting ability (save DC 14):\n\n**2/day\
+      \ each:** [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
+      \ [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md)\n\n**1/day:** [project\
       \ image](03.PlayerLog&Handouts/Mechanics/CLI/spells/project-image.md)"
     "name": "Spellcasting"
 "source":

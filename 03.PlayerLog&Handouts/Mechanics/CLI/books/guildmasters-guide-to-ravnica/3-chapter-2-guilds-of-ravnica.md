@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Chapter 2: Guilds of Ravnica
+- "Chapter 2: Guilds of Ravnica"
 ---
 # Chapter 2: Guilds of Ravnica
 *Source: Guildmasters' Guide to Ravnica, p. 29* 
@@ -240,7 +241,7 @@ Your new title depends on your previous role as an official in the Azorius Senat
 - If you are an officer, you become an imperator.  
 - If you are a scribe, you become an emissary.  
 
-You are recognized as an authority in your field. You gain an [Azorius charm](03.PlayerLog&Handouts/Mechanics/CLI/rewards/azorius-charm-ggr.md) (described in "chapter 5") at the start of each mission you undertake on the guild's behalf. At the start of any such mission, you can secure the assistance of a squad of `d4` arresters (use the [soldier](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/soldier-ggr.md) stat block) plus one [lawmage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lawmage-ggr.md). These individuals remain with you until the mission ends.
+You are recognized as an authority in your field. You gain an [Azorius charm](03.PlayerLog&Handouts/Mechanics/CLI/rewards/azorius-charm-ggr.md) (described in "chapter 5") at the start of each mission you undertake on the guild's behalf. At the start of any such mission, you can secure the assistance of a squad of `1d4` arresters (use the [soldier](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/soldier-ggr.md) stat block) plus one [lawmage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lawmage-ggr.md). These individuals remain with you until the mission ends.
 
 Between adventures, you earn enough money pursuing your duties to support yourself at a comfortable lifestyle.
 
@@ -295,7 +296,7 @@ Of course, whenever the members of another guild decide to operate within the la
 
 ![](03.PlayerLog&Handouts/Mechanics/CLI/books/guildmasters-guide-to-ravnica/img/019-206.webp#center)
 
-> [!quote] A quote from Doug Beyer, Return to Ravnica: The Secretist  
+> [!quote] A quote from Doug Beyer  
 > 
 > A brown-bearded, broad-chested man clad in massive-shouldered plate armor led a battalion of soldiers, the symbol of the Boros Legion emblazoned on white cloth draped over their armor. Their soldiers were a variety of races, including humans, a minotaur with a permanent scowl on her face, an impatient-looking goblin, and even some kind of humanoid fire elemental, whose Boros armor floated in protective positions over its animate flame.
 
@@ -383,7 +384,7 @@ In addition, certain positions become available to you when both your renown and
 
 *Prerequisite: Renown 3 or higher in the Boros Legion*
 
-At this rank, you gain some authority over lower-ranking soldiers. When you undertake a mission on the guild's behalf that requires military strength, a squad of `d4` [soldiers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/soldier-ggr.md) accompanies and assists you for the duration of the mission.
+At this rank, you gain some authority over lower-ranking soldiers. When you undertake a mission on the guild's behalf that requires military strength, a squad of `1d4` [soldiers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/soldier-ggr.md) accompanies and assists you for the duration of the mission.
 
 Your salary at this rank is enough to maintain a modest lifestyle, including private quarters in the garrison.
 
@@ -441,7 +442,7 @@ You continue to draw a salary sufficient to maintain a comfortable lifestyle.
 
 #### Enemies and Allies
 
-In general, the Boros find some common ground with other guilds that value order and structure: Azorius, Selensya, and (to a lesser extent) Orzhov. The [Rakdos](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rakdos-ggr.md), Gruul, and Izzet might share the zeal and energy of the Boros, but they represent the more chaotic aspect of those qualities, which threatens the stability of all Ravnica.
+In general, the Boros find some common ground with other guilds that value order and structure: Azorius, Selesnya, and (to a lesser extent) Orzhov. The [Rakdos](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rakdos-ggr.md), Gruul, and Izzet might share the zeal and energy of the Boros, but they represent the more chaotic aspect of those qualities, which threatens the stability of all Ravnica.
 
 The legion is dedicated to combating the influence of Dimir spies and infiltrators, containing the brutal chaos of the [Rakdos](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rakdos-ggr.md), and halting the schemes of the Golgari. But any guild can become an enemy of Boros if its aims and activities lead to crime, chaos, injustice, or harm to the innocent citizens of Ravnica. Even the Azorius can become so obsessive in creating and enforcing laws that they overreach the bounds of justice.
 
@@ -816,7 +817,7 @@ Renown among the Gruul could also be called glory—when you prove yourself in b
 
 *Prerequisite: Renown 3 or higher in your clan*
 
-With several battles under your belt, you have demonstrated service to your clan and earned the recognition of your peers. You have the right to tattoo your body to commemorate your triumphs in battle and demonstrate your loyalty to the Gruul. You don't yet have authority over others, but when you go into battle with your clan, your fellow warriors fight near you, acknowledging your prowess. Your clan chieftain knows your name and might decide to single you out, offering you an opportunity to prove yourself by performing a special task. Depending on the nature of the task, the chieftain might send `d4` [anarchs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/anarch-ggr.md) along to help you.
+With several battles under your belt, you have demonstrated service to your clan and earned the recognition of your peers. You have the right to tattoo your body to commemorate your triumphs in battle and demonstrate your loyalty to the Gruul. You don't yet have authority over others, but when you go into battle with your clan, your fellow warriors fight near you, acknowledging your prowess. Your clan chieftain knows your name and might decide to single you out, offering you an opportunity to prove yourself by performing a special task. Depending on the nature of the task, the chieftain might send `1d4` [anarchs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/anarch-ggr.md) along to help you.
 
 #### Beast-Friend
 
@@ -975,7 +976,7 @@ Renown within the Izzet League brings with it more responsibility in your chosen
 
 When you have advanced the guild's interests and survived a few magical experiments, you graduate into a position where you can conduct experiments yourself. Only a spellcaster can craft and operate the laboratory equipment involved in Izzet experiments.
 
-As a researcher, you can request equipment for use in your experiments and during adventures. You can secure the aid of `d4` barely competent attendants to assist you. Your attendants use the [commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) stat block in the "Monster Manual".
+As a researcher, you can request equipment for use in your experiments and during adventures. You can secure the aid of `1d4` barely competent attendants to assist you. Your attendants use the [commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) stat block in the "Monster Manual".
 
 When you achieve this rank, you can help create your own [mizzium apparatus](03.PlayerLog&Handouts/Mechanics/CLI/items/mizzium-apparatus-ggr.md) (described in "chapter 5"). To do so, you must spend 10 days of downtime in an Izzet workshop, assisting a more experienced researcher in the construction of the device. The apparatus is given to you at the end of this time. If your apparatus is lost or destroyed, you can create a replacement by spending 50 gp and another 10 days of downtime.
 
@@ -1156,7 +1157,7 @@ When you're sent on a mission that poses a potential threat, your superior besto
 
 The rank of ministrant is the highest position anyone can hope to attain without being born into the guild. As a ministrant, you study finance, while managing the syndics and knights under your control. Between adventures, you can now maintain a wealthy lifestyle.
 
-You are given a [servitor thrull](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/servitor-thrull-ggr.md) that is yours to command. If it is killed, your pontiff gives you a new one at their discretion, possibly up to `d4` weeks later. You also have a staff of `2d4` knights and `4d8` syndics under your command. You can order them only to carry out tasks that contribute to the work your pontiff assigns to you. The duty of protecting you from physical harm is always appropriate service for your knights, however. Your knights can be [knights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/knight.md) or [priests](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/priest.md), and your syndics are either [nobles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md) or [acolytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/acolyte.md) (stat blocks for them appear in the "Monster Manual").
+You are given a [servitor thrull](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/servitor-thrull-ggr.md) that is yours to command. If it is killed, your pontiff gives you a new one at their discretion, possibly up to `1d4` weeks later. You also have a staff of `2d4` knights and `4d8` syndics under your command. You can order them only to carry out tasks that contribute to the work your pontiff assigns to you. The duty of protecting you from physical harm is always appropriate service for your knights, however. Your knights can be [knights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/knight.md) or [priests](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/priest.md), and your syndics are either [nobles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md) or [acolytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/acolyte.md) (stat blocks for them appear in the "Monster Manual").
 
 #### Rank 4: Pontiff
 
@@ -1274,7 +1275,7 @@ You have proven yourself both useful and talented and have earned a place on sta
 
 You have gained a reputation both within the Cult of Rakdos and (to some extent) outside it, though you are still a long way from achieving top billing. You might stage performances in back alleys and abandoned warehouses, with a handful of other performers helping to bring your vision to life.
 
-When you go on an adventure, you can call on `d4` helpers—a mix of [cacklers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/cackler-ggr.md), stage hands, or extras—to help you complete it. Use the stat blocks of [cultists](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cultist.md) and [thugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md) from the "Monster Manual" for the stage hands and extras, respectively.
+When you go on an adventure, you can call on `1d4` helpers—a mix of [cacklers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/cackler-ggr.md), stage hands, or extras—to help you complete it. Use the stat blocks of [cultists](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cultist.md) and [thugs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md) from the "Monster Manual" for the stage hands and extras, respectively.
 
 Your status also means that you can venture into the depths of Rix Maadi, the lair of [Rakdos](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rakdos-ggr.md), to petition for a [Rakdos charm](03.PlayerLog&Handouts/Mechanics/CLI/rewards/rakdos-charm-ggr.md) (described in "chapter 5"). [Rakdos](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rakdos-ggr.md) can grant a charm with barely a thought, but your station in the guild doesn't guarantee safe passage to and from the demon's presence.
 
@@ -1292,7 +1293,7 @@ When you become a blood witch, you are assigned to torment a particular enemy of
 
 At last, you have the opportunity to display your genius to the masses. When you perform, you're the star of the show, the climax of a night of revelry. The rest of the guild regards you with admiration and more than a little envy, since crowds pack whatever venues you choose for your shows. [Rakdos](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rakdos-ggr.md) himself might even come to watch. You can count on the support of your ringmaster, and you can call on the aid of other performers in your troupe—just be careful not to turn your back on the ones who would kill in return for a moment in your spotlight.
 
-You can bring `2d4` [Rakdos](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rakdos-ggr.md) performers ([blade jugglers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/rakdos-performer-blade-juggler-ggr.md), [fire eaters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/rakdos-performer-fire-eater-ggr.md), or [high-wire acrobats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/rakdos-performer-high-wire-acrobat-ggr.md)) and `d4` [Rakdos lampooners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/rakdos-lampooner-ggr.md) with you when you're going on stage or heading out to riot on the streets.
+You can bring `2d4` [Rakdos](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rakdos-ggr.md) performers ([blade jugglers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/rakdos-performer-blade-juggler-ggr.md), [fire eaters](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/rakdos-performer-fire-eater-ggr.md), or [high-wire acrobats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/rakdos-performer-high-wire-acrobat-ggr.md)) and `1d4` [Rakdos lampooners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/rakdos-lampooner-ggr.md) with you when you're going on stage or heading out to riot on the streets.
 
 #### Ringmaster
 
@@ -1420,7 +1421,7 @@ When you become an evangel, you gain one additional contact from a guild other t
 
 Votaries are soldiers who protect the vernadi gardens in the area immediately around its central tree. As a votary, you are usually assigned to guard duty, but your voda might also assign you to special missions that require strength of arms.
 
-While you are in the garden you're sworn to protect, the plants obey your word, allowing you to transform the foliage into `d6` [awakened shrubs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/awakened-shrub.md) or 1 [awakened tree](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/awakened-tree.md) (both described in the "Monster Manual") for as long as a threat to the garden persists. These awakened plants won't leave the garden.
+While you are in the garden you're sworn to protect, the plants obey your word, allowing you to transform the foliage into `1d6` [awakened shrubs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/awakened-shrub.md) or 1 [awakened tree](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/awakened-tree.md) (both described in the "Monster Manual") for as long as a threat to the garden persists. These awakened plants won't leave the garden.
 
 #### Sagittar (Special Role)
 
@@ -1450,7 +1451,7 @@ Your mount effectively belongs to you, entrusted to your care. If it comes to ha
 
 The ranks of the Selesnya clergy aren't hierarchical, yet you are honored with the title of hierarch. Hierarchs lead rites that invoke the blessing of Mat'Selesnya, bringing Selesnya's initiates into closer communion with the Worldsoul and with each other. They are assisted in these rites by less experienced clergy.
 
-As a hierarch, you can call on the aid of `d4` [acolytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/acolyte.md) (see the stat block in the "Monster Manual"), even leading them on missions.
+As a hierarch, you can call on the aid of `1d4` [acolytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/acolyte.md) (see the stat block in the "Monster Manual"), even leading them on missions.
 
 You have an important voice in decision-making for your vernadi, and you are expected to offer advice and opinions to your voda when requested.
 
@@ -1582,7 +1583,7 @@ Tiers of responsibility and importance—functional ranks—create a hierarchy a
 
 As a technician, you can begin performing experiments, following the instructions of a researcher as you operate instruments, care for experimental subjects, extract samples of bodily fluids, and run errands up and down the zonot and out into the city. Such errands can bring you into contact with members of other guilds and lead to adventures.
 
-If you have any kind of pet, familiar, mount, or animal companion, you can add one random adaptation to it from the [Minor Adaptations](03.PlayerLog&Handouts/Mechanics/CLI/tables/minor-adaptations-ggr.md) table. Doing so requires `d6` days of work (8 hours per day) for each creature, and the work must be done in a Simicfacility.
+If you have any kind of pet, familiar, mount, or animal companion, you can add one random adaptation to it from the [Minor Adaptations](03.PlayerLog&Handouts/Mechanics/CLI/tables/minor-adaptations-ggr.md) table. Doing so requires `1d6` days of work (8 hours per day) for each creature, and the work must be done in a Simic facility.
 
 ![](03.PlayerLog&Handouts/Mechanics/CLI/books/guildmasters-guide-to-ravnica/img/060-245.webp#center)
 
@@ -1602,7 +1603,7 @@ As a guardian, deepsage, or other non-scientist within the Simic, you don't prog
 
 If your work for the guild requires it, a project leader, clade leader, or other superior can equip you with a [Simic charm](03.PlayerLog&Handouts/Mechanics/CLI/rewards/simic-charm-ggr.md) (described in "chapter 5") before you undertake a mission or an experiment on the guild's behalf.
 
-In addition, when you're on guild business, you can call on the following Simic hybrid agents to assist you: one [hybrid brute](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hybrid-brute-ggr.md) or [hybrid flier](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hybrid-flier-ggr.md), up to two [hybrid poisoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hybrid-poisoner-ggr.md) or [hybrid shockers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hybrid-shocker-ggr.md), or `d4` [hybrid spies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hybrid-spy-ggr.md).
+In addition, when you're on guild business, you can call on the following Simic hybrid agents to assist you: one [hybrid brute](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hybrid-brute-ggr.md) or [hybrid flier](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hybrid-flier-ggr.md), up to two [hybrid poisoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hybrid-poisoner-ggr.md) or [hybrid shockers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hybrid-shocker-ggr.md), or `1d4` [hybrid spies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hybrid-spy-ggr.md).
 
 #### Rank 3: Project Leader
 

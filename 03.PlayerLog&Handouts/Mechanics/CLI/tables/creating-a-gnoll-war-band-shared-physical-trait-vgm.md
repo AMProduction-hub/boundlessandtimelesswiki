@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Creating a Gnoll War Band; Shared Physical Trait
+- "Creating a Gnoll War Band; Shared Physical Trait"
 ---
 # Creating a Gnoll War Band; Shared Physical Trait
 *Source: Volo's Guide to Monsters p. 39* 
 
 **Shared Physical Trait**
-
-`dice: [](creating-a-gnoll-war-band-shared-physical-trait-vgm.md#^shared-physical-trait)`
 
 | dice: d10 | Shared Physical Trait |
 |-----------|-----------------------|

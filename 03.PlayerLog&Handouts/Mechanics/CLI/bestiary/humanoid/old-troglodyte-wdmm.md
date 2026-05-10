@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Old Troglodyte
+- "Old Troglodyte"
 ---
-# [Old Troglodyte](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/old-troglodyte-wdmm.md)
+# [Old Troglodyte](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/old-troglodyte-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 155*  
 
 ```statblock
@@ -36,7 +37,8 @@ aliases:
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Troglodyte"
 "cr": "1/8"
 "traits":
@@ -56,7 +58,7 @@ aliases:
 "actions":
   - "desc": "The troglodyte makes two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) slashing damage."
     "name": "Claw"
 "source":

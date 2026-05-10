@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Sea Horse
+- "Giant Sea Horse"
 ---
-# [Giant Sea Horse](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-sea-horse.md)
-*Source: Monster Manual p. 328, Ghosts of Saltmarsh, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Sea Horse](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-sea-horse.md)
+*Source: Monster Manual p. 328. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Like their smaller kin, giant sea horses are shy, colorful fish with elongated bodies and curled tails. Aquatic elves train them as mounts.
 
@@ -47,13 +48,11 @@ Like their smaller kin, giant sea horses are shy, colorful fish with elongated b
   - "desc": "The sea horse can breathe only underwater."
     "name": "Water Breathing"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) bludgeoning damage."
     "name": "Ram"
 "source":
   - "MM"
-  - "GoS"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-sea-horse.webp"
 ```
 ^statblock

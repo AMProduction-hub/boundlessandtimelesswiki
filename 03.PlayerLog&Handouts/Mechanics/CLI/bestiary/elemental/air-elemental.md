@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Air Elemental
+- "Air Elemental"
 ---
-# [Air Elemental](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/air-elemental.md)
-*Source: Monster Manual p. 124, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Storm Lord's Wrath, Eberron: Rising from the Last War, Infernal Machine Rebuild, Mythic Odysseys of Theros, Tasha's Cauldron of Everything, Candlekeep Mysteries, Journeys through the Radiant Citadel, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Air Elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/air-elemental.md)
+*Source: Monster Manual p. 124. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 An air elemental is a funneling cloud of whirling air with a vague semblance of a face. Although it likes to race across the ground, picking up dust and debris as it goes, it can also fly and attack from above.
 
@@ -67,7 +68,8 @@ An elemental doesn't require air, food, drink, or sleep.
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Auran"
 "cr": "5"
 "traits":
@@ -77,7 +79,7 @@ An elemental doesn't require air, food, drink, or sleep.
 "actions":
   - "desc": "The elemental makes two slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (2d8 + 5) bludgeoning damage."
     "name": "Slam"
   - "desc": "Each creature in the elemental's space must make a DC 13 Strength saving\
@@ -85,7 +87,7 @@ An elemental doesn't require air, food, drink, or sleep.
       \ is flung up 20 feet away from the elemental in a random direction and knocked\
       \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). If\
       \ a thrown target strikes an object, such as a wall or floor, the target takes\
-      \ 3 (d6) bludgeoning damage for every 10 feet it was thrown. If the target\
+      \ 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target\
       \ is thrown at another creature, that creature must succeed on a DC 13 Dexterity\
       \ saving throw or take the same damage and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\n\
       \nIf the saving throw is successful, the target takes half the bludgeoning damage\
@@ -93,22 +95,6 @@ An elemental doesn't require air, food, drink, or sleep.
     "name": "Whirlwind (Recharge 4-6)"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "ToA"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "SLW"
-  - "ERLW"
-  - "IMR"
-  - "MOT"
-  - "TCE"
-  - "CM"
-  - "JttRC"
-  - "DSotDQ"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/air-elemental.webp"
 ```
 ^statblock

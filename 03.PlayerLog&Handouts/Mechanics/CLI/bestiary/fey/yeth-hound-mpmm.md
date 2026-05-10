@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/4
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Yeth Hound
+- "Yeth Hound"
 ---
-# [Yeth Hound](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/yeth-hound-mpmm.md)
+# [Yeth Hound](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/yeth-hound-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 271, Volo's Guide to Monsters p. 201*  
 
 Granted by mighty Fey to individuals who please them, yeth hounds serve their masters like hunting dogs. They race in pursuit of their prey, running it down until it's too exhausted to fight back. Only the threat of dawn drives the pack back into hiding.
@@ -47,7 +48,8 @@ A pack of yeth hounds can be created by powerful Fey such as the Queen of Air an
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 60 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "understands Common, Elvish and Sylvan but can't speak"
 "cr": "4"
 "traits":
@@ -66,7 +68,7 @@ A pack of yeth hounds can be created by powerful Fey such as the Queen of Air an
       \ telepathically with each other."
     "name": "Telepathic Bond"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) piercing damage, plus 14 (4d6) psychic damage if the target\
       \ is [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)."
     "name": "Bite"

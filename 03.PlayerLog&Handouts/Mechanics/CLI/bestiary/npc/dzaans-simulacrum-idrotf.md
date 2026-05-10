@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dzaan's Simulacrum
+- "Dzaan's Simulacrum"
 ---
-# [Dzaan's Simulacrum](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/dzaans-simulacrum-idrotf.md)
+# [Dzaan's Simulacrum](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/dzaans-simulacrum-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 270*  
 
 Unbeknownst to his executioners, Dzaan had used a spell scroll of simulacrum to create a copy of himself. This simulacrum dwells in the sunken Netherese spire, waiting for its creator to return.
@@ -38,8 +39,8 @@ The sunken Netherese tower contains a special room that can transform the simula
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+3"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -53,20 +54,20 @@ The sunken Netherese tower contains a special room that can transform the simula
 "traits":
   - "desc": "The simulacrum is a 9th-level spellcaster. Its spellcasting ability is\
       \ Intelligence (spell save DC 13, +5 to hit with spell attacks). It has the\
-      \ following wizard spells prepared:\n\nCantrips (at will): [acid splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md),\
+      \ following wizard spells prepared:\n\n**Cantrips (at will):** [acid splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md)*,\
       \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
-      \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
-      \n1st level (2 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)*\n\
+      \n**1st level (2 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
-      \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md)\n\
-      \n2nd level (2 slots): [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md)*\n\
+      \n**2nd level (2 slots):** [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md), [phantasmal\
       \ force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md)\n\n\
-      See \"Actions\" below."
+      *See \"Actions\" below."
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one creature (the attack\
-      \ roll has advantage if the target is wearing armor made of metal). Hit: 9\
+  - "desc": "*Melee Spell Attack:* +5 to hit, reach 5 ft., one creature (the attack\
+      \ roll has advantage if the target is wearing armor made of metal). *Hit:* 9\
       \ (2d8) lightning damage, and the target can't take reactions until the start\
       \ of its next turn."
     "name": "Shocking Grasp (Cantrip)"

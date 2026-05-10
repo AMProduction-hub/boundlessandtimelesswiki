@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -12,9 +13,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Yuan-ti Pit Master
+- "Yuan-ti Pit Master"
 ---
-# [Yuan-ti Pit Master](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/yuan-ti-pit-master-mpmm.md)
+# [Yuan-ti Pit Master](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-pit-master-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 276, Volo's Guide to Monsters p. 206*  
 
 With snakes for arms, pit masters are yuan-ti malison priests who have made a pact with the god Merrshaulk and seek to rouse him from his slumber by sacrificing Humanoids to him. They are the most traditionalist yuan-ti and believe that they are best equipped to achieve the goals of their people.
@@ -41,8 +42,8 @@ Pit masters are deeply involved in yuan-ti's long-term plan to take over Humanoi
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+4"
-  - "charisma": "+6"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+6"
@@ -50,7 +51,8 @@ Pit masters are deeply involved in yuan-ti's long-term plan to take over Humanoi
     "desc": "+5"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": "Abyssal, Common, Draconic"
 "cr": "5"
 "traits":
@@ -62,10 +64,10 @@ Pit masters are deeply involved in yuan-ti's long-term plan to take over Humanoi
 "actions":
   - "desc": "The yuan-ti makes three Bite attacks or two Spectral Fangs attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
     "name": "Bite"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 120 ft., one target. *Hit:*\
       \ 16 (3d8 + 3) poison damage."
     "name": "Spectral Fangs"
   - "desc": "The yuan-ti targets up to five creatures that it can see within 60 feet\
@@ -77,11 +79,11 @@ Pit masters are deeply involved in yuan-ti's long-term plan to take over Humanoi
     "name": "Merrshaulk's Slumber (1/Day)"
   - "desc": "The yuan-ti casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 14):\n\
-      \nAt will: [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md)\
+      \n**At will:** [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md)\
       \ (snakes only), [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md)\n\
-      \n3/day: [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\
-      \n2/day each: [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
+      \n**3/day:** [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\
+      \n**2/day each:** [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)"
     "name": "Spellcasting (Yuan-ti Form Only)"
 "bonus_actions":

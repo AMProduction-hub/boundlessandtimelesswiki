@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Dimir Villains
+- "Dimir Villains"
 ---
 # Dimir Villains
 *Source: Guildmasters' Guide to Ravnica p. 135* 
 
 **Dimir Villains**
-
-`dice: [](dimir-villains-ggr.md#^dimir-villains)`
 
 | dice: d8 | Villain |
 |----------|---------|

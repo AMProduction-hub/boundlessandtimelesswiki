@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1-2
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Soldier
+- "Soldier"
 ---
-# [Soldier](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/soldier-ggr.md)
-*Source: Guildmasters' Guide to Ravnica p. 226, Mythic Odysseys of Theros*  
+# [Soldier](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/soldier-ggr.md)
+*Source: Guildmasters' Guide to Ravnica p. 226*  
 
 Soldiers are found in many of Ravnica's guilds. The soldier stat block represents a typical member of the rank and file, though weaponry and armor can vary.
 
@@ -41,6 +42,8 @@ Soldiers are found in many of Ravnica's guilds. The soldier stat block represent
     "desc": "+2"
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+3"
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
 "senses": "passive Perception 12"
 "languages": "any one language (usually Common)"
 "cr": "1/2"
@@ -54,13 +57,12 @@ Soldiers are found in many of Ravnica's guilds. The soldier stat block represent
 "actions":
   - "desc": "The soldier makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with\
       \ two hands."
     "name": "Longsword"
 "source":
   - "GGR"
-  - "MOT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/soldier-ggr.webp"
 ```
 ^statblock

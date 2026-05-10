@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Prince Derendil
+- "Prince Derendil"
 ---
-# [Prince Derendil](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/prince-derendil-oota.md)
+# [Prince Derendil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/prince-derendil-oota.md)
 *Source: Out of the Abyss p. 6*  
 
 ```statblock
@@ -38,7 +39,8 @@ aliases:
     "desc": "+5"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": "Elvish, Undercommon"
 "cr": "2"
 "traits":
@@ -49,7 +51,7 @@ aliases:
 "actions":
   - "desc": "Prince Derendil makes two claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Claw"
 "source":

@@ -1,16 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/subrace/genasi-air
 aliases:
-- Spells for Genasi (Air)
+- "Spells for Genasi (Air)"
 ---
 # Spells for Genasi (Air)
 
 ## Cantrip
 
-- [Shocking Grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md "PHB") at class level 3
+- [Shocking Grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md "PHB") as cantrip
 
 ## 1st Level
 
@@ -18,4 +19,4 @@ aliases:
 
 ## 2nd Level
 
-- [Levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md "PHB") at class level 3
+- [Levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md "PHB") at class level 5

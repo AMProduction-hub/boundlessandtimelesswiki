@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Big Xorn
+- "Big Xorn"
 ---
-# [Big Xorn](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/big-xorn-wdmm.md)
+# [Big Xorn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/big-xorn-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 51*  
 
 ```statblock
@@ -38,7 +39,8 @@ aliases:
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
 "damage_resistances": "piercing, slashing from nonmagical attacks that aren't adamantine"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 16"
 "languages": "Terran"
 "cr": "8"
 "traits":
@@ -54,10 +56,10 @@ aliases:
 "actions":
   - "desc": "The xorn makes three claw attacks and one bite attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 22\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 22\
       \ (5d6 + 5) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 9 (1d8 + 5) slashing damage."
     "name": "Claw"
 "source":

@@ -1,15 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/feat
 aliases:
-- Prodigy
+- "Prodigy"
 ---
 # Prodigy
 *Source: Xanathar's Guide to Everything p. 75*  
+
 **Prerequisite**: [Half-Elf](03.PlayerLog&Handouts/Mechanics/CLI/races/half-elf.md), [Half-Orc](03.PlayerLog&Handouts/Mechanics/CLI/races/half-orc.md), or [Human](03.PlayerLog&Handouts/Mechanics/CLI/races/human.md)
+
 You have a knack for learning new things. You gain the following benefits:
 
 - You gain one [skill proficiency](03.PlayerLog&Handouts/Mechanics/CLI/tables/skills-phb.md) of your choice, one tool proficiency of your choice, and fluency in one language of your choice.  

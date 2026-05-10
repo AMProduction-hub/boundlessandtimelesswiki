@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Flying Monkey
+- "Flying Monkey"
 ---
-# [Flying Monkey](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/flying-monkey-toa.md)
+# [Flying Monkey](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/flying-monkey-toa.md)
 *Source: Tomb of Annihilation p. 220*  
 
 Flying monkeys are slightly more clever and curious than common monkeys, and they can be domesticated and taught to obey simple commands. They come in many colors and varieties, with feathered wings that have a span of about 5 feet. With the DM's permission, the [find familiar](03.PlayerLog&Handouts/Mechanics/CLI/spells/find-familiar.md) spell can summon a flying monkey.
@@ -45,7 +46,7 @@ Flying monkeys are slightly more clever and curious than common monkeys, and the
       \ spell can summon a flying monkey."
     "name": "Familiar"
 "actions":
-  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one target *Hit:* 1\
       \ (1d4 - 1) piercing damage."
     "name": "Bite"
 "source":

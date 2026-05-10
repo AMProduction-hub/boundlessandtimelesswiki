@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Strixhaven Campus Guide
+- "Strixhaven Campus Guide"
 ---
-# [Strixhaven Campus Guide](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/strixhaven-campus-guide-scc.md)
+# [Strixhaven Campus Guide](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/strixhaven-campus-guide-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 217*  
 
 With cheerful dispositions and a knack for walking backward, Strixhaven campus guides lead gaggles of prospective students on tours. The guides' gold and silver chassis are built in shapes reminiscent of the star arches surrounding Strixhaven. Embedded in their chests are holographic maps of the university's campuses, which the guides use to provide directions. However, it's rare for a campus guide to need its own maps, as these gregarious automatons have a gift for finding things on campus, often popping up at the most inopportune times.
@@ -35,7 +36,7 @@ With cheerful dispositions and a knack for walking backward, Strixhaven campus g
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+4"
+  - "dexterity": !!int "4"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+3"
@@ -48,7 +49,8 @@ With cheerful dispositions and a knack for walking backward, Strixhaven campus g
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., passive Perception 11"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common plus any three languages"
 "cr": "1"
 "traits":
@@ -64,7 +66,7 @@ With cheerful dispositions and a knack for walking backward, Strixhaven campus g
 "actions":
   - "desc": "The guide makes two Slam attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) bludgeoning damage."
     "name": "Slam"
   - "desc": "Each creature of the guide's choice that is within 30 feet of the guide\

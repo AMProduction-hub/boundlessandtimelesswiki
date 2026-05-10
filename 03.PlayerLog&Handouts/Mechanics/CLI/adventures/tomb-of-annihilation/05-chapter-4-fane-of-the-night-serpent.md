@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 aliases:
-- Chapter 4: Fane of the Night Serpent
+- "Chapter 4: Fane of the Night Serpent"
 ---
 # Chapter 4: Fane of the Night Serpent
 *Source: Tomb of Annihilation, p. 111* 
@@ -72,8 +73,6 @@ If the coup is thwarted, [Fenthaza](03.PlayerLog&Handouts/Mechanics/CLI/bestiary
 
 #### Slave Labors
 
-`dice: [](05-chapter-4-fane-of-the-night-serpent.md#^labor-development)`
-
 | dice: d100 | Labor | Development |
 |------------|-------|-------------|
 | 01–15 | Muck out the dinosaur pen in area 2. | The character learns that Nahth (area 1) is susceptible to bribery. |
@@ -105,23 +104,21 @@ If the coup is thwarted, [Fenthaza](03.PlayerLog&Handouts/Mechanics/CLI/bestiary
 | 18 | 6 [yuan-ti malisons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-1.md) (2 each of types 1, 2, and 3), 6 [yuan-ti purebloods](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/yuan-ti-pureblood.md) | If the gong in area 9 is struck, the yuan-ti leave to investigate. Otherwise, they rest here. |
 | 19 | Issar ([type 3yuan-ti malison](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-3.md)), 3 [yuan-ti broodguards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-broodguard-mpmm.md) | The yuan-ti remain here. |
 | 20 | 4 [yuan-ti broodguards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-broodguard-mpmm.md) | The yuan-ti guard the secret entrance. If combat erupts, one of them flees to area 19 to alert the yuan-ti there. Intruders caught trying to sneak past the guards are taken to area 19 for questioning. |
-| 21 | 1 [hydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hydra.md) | The hydra attacks swimmers as well as creatures that travel north of area 18. If a rowboat bell is rung, the hydra appears in `d6` rounds and attacks unless it is properly fed. |
+| 21 | 1 [hydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hydra.md) | The hydra attacks swimmers as well as creatures that travel north of area 18. If a rowboat bell is rung, the hydra appears in `1d6` rounds and attacks unless it is properly fed. |
 ^area-creature-s-notes
 
 #### Temple Reinforcements
 
-`dice: [](05-chapter-4-fane-of-the-night-serpent.md#^creature-s)`
-
 | dice: d100 | Creature(s) |
 |------------|-------------|
-| 01–15 | `d4` [yuan-ti purebloods](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/yuan-ti-pureblood.md) escorting a [type 3 yuan-ti malison](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-3.md). |
+| 01–15 | `1d4` [yuan-ti purebloods](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/yuan-ti-pureblood.md) escorting a [type 3 yuan-ti malison](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-3.md). |
 | 16–30 | `1d4 + 1` [yuan-ti purebloods](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/yuan-ti-pureblood.md) escorting `2d4` captives (male and female Chultan human [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) of any alignment). |
 | 31–45 | `2d4` [yuan-ti purebloods](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/yuan-ti-pureblood.md) returning to the temple from an expedition or patrol. |
 | 46–60 | 4 [yuan-ti broodguards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-broodguard-mpmm.md) (see appendix D) carrying a [type 2 yuan-ti malison](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-2.md) on a litter. |
 | 61–70 | 1 [yuan-ti malison](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-1.md) returning to the temple. Roll a `d6` to determine its type: 1–2, type 1; 3–4, type 2; 5–6, type 3. |
 | 71–75 | 1 [yuan-ti abomination](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-abomination.md) arriving at the temple to challenge [Ras Nsi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ras-nsi-toa.md)'s leadership. If [Fenthaza](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fenthaza-toa.md) is alive, she uses her influence to arrange a showdown between [Ras Nsi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ras-nsi-toa.md) and the abomination in the fane (area 9). If [Fenthaza](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fenthaza-toa.md) is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) or dead, the abomination bullies its way to [Ras Nsi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ras-nsi-toa.md)'s throne room (area 11), where it is killed. |
-| 76–85 | `2d4` insane [cult fanatics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cult-fanatic.md) (NE male and female humans of mixed ethnicities) seeking an audience with [Ras Nsi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ras-nsi-toa.md), to pledge their devotion to Dendar the Night Serpent. The cult fanatics bring tribute in the form of treasure (roll once on the Treasure Hoard: Challenge 0–4 table in "chapter 7" of the *Dungeon Master's Guide*). |
-| 86–00 | `2d6` [tribal warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md) (N male and female Chultan humans) delivering tribute to [Ras Nsi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ras-nsi-toa.md). This tribute consists of food, drink, and treasure (roll once on the Treasure Hoard: Challenge 0–4 table in "chapter 7" of the *Dungeon Master's Guide*). |
+| 76–85 | `2d4` insane [cult fanatics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cult-fanatic.md) (NE male and female humans of mixed ethnicities) seeking an audience with [Ras Nsi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ras-nsi-toa.md), to pledge their devotion to Dendar the Night Serpent. The cult fanatics bring tribute in the form of treasure (roll once on the [Treasure Hoard: Challenge 0—4](03.PlayerLog&Handouts/Mechanics/CLI/tables/treasure-hoard-challenge-04.md) table in "chapter 7" of the *Dungeon Master's Guide*). |
+| 86–00 | `2d6` [tribal warriors](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md) (N male and female Chultan humans) delivering tribute to [Ras Nsi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ras-nsi-toa.md). This tribute consists of food, drink, and treasure (roll once on the [Treasure Hoard: Challenge 0—4](03.PlayerLog&Handouts/Mechanics/CLI/tables/treasure-hoard-challenge-04.md) table in "chapter 7" of the *Dungeon Master's Guide*). |
 ^creature-s
 
 ## Locations in the Temple
@@ -303,14 +300,14 @@ A portcullis seals the entrance to area 8. A bronze lever is set into the wall s
 
 [Yuan-ti priests](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-priest-toa.md) use the pool to commune with Dendar the Night Serpent. Three priests named Arakiti, Kultha, and Nyss are here at all times. They are loyal to [Fenthaza](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fenthaza-toa.md) and are [type 3 yuan-ti malisons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-3.md), with these changes:
 
-- Add the following to the list of spells that the yuan-ti can innately cast at will: [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md) (2 beams; +5 to hit; `1d10 + 3` force damage per beam), [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md), and [poison spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md).  
+- Add the following to the list of spells that the yuan-ti can innately cast at will: [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md) (2 beams; `+5` to hit; `1d10 + 3` force damage per beam), [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md), and [poison spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md).  
 - They don't carry longbows.  
 
 #### Oracle Pool
 
-The sludge within the pool conducts the reveries of Dendar the Night Serpent. A creature that enters the sludge or starts its turn in the pool takes 5 (`d10`) psychic damage.
+The sludge within the pool conducts the reveries of Dendar the Night Serpent. A creature that enters the sludge or starts its turn in the pool takes 5 (`1d10`) psychic damage.
 
-Any creature that gazes into the pool for more than a few seconds receives a brief, nightmarish vision. In this vision, the creature is being swallowed whole by a giant snake. When the vision ends, the creature must make a DC 15 Wisdom saving throw. On a failed save, the creature takes 5 (`d10`) psychic damage and is afflicted with a random form of long-term madness (see ""Madness"" in chapter 8 of the *Dungeon Master's Guide*).
+Any creature that gazes into the pool for more than a few seconds receives a brief, nightmarish vision. In this vision, the creature is being swallowed whole by a giant snake. When the vision ends, the creature must make a DC 15 Wisdom saving throw. On a failed save, the creature takes 5 (`1d10`) psychic damage and is afflicted with a random form of long-term madness (see ""Madness"" in chapter 8 of the *Dungeon Master's Guide*).
 
 > [!note] Prisoners of the Yuan-ti
 > 
@@ -349,7 +346,7 @@ The room contains four pits, each one a bell-shaped chamber 10 feet deep and 10 
 
 New prisoners are slapped in chains and dropped into a random pit. The yuan-ti strip all prisoners of their belongings, which are kept in the storeroom (area 13) until they are properly inventoried. If the yuan-ti need to get a prisoner out of the pit, they disconnect a hook from the lid and use it to hoist the prisoner out by the manacles.
 
-Each pit contains `d3` prisoners, and the "Prisoners of the Yuan-ti" sidebar describes several. If a player character dies, you could introduce a replacement character here as a prisoner hoping to be rescued.
+Each pit contains `1d3` prisoners, and the "Prisoners of the Yuan-ti" sidebar describes several. If a player character dies, you could introduce a replacement character here as a prisoner hoping to be rescued.
 
 Prisoners are forced to wear manacles on their wrists and shackles on their ankles. The manacles impose disadvantage on ability checks made to climb or swim. The shackles reduce a prisoner's walking speed by half and impose disadvantage on ability checks made to jump. [Fenthaza](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fenthaza-toa.md) (see area 5) carries the keys for these bindings. See ""Adventuring Gear"" in chapter 5 of the *Player's Handbook* for rules on breaking, escaping, and unlocking manacles (and shackles).
 
@@ -372,7 +369,7 @@ Blood spilled in area 6 is channeled into this room, and the central pool contai
 
 #### Cauldron
 
-A stew made from boiled flesh sloshes inside the cauldron, which is heated by a volcanic vent in the floor underneath it. Upturning the cauldron is an action that requires a successful DC 15 Strength check. When the cauldron is tipped, each creature on the floor within a 15-foot cone of the cauldron must make a DC 12 Dexterity saving throw, taking 4 (`d8`) fire damage on a failed save, or half as much damage on a successful one.
+A stew made from boiled flesh sloshes inside the cauldron, which is heated by a volcanic vent in the floor underneath it. Upturning the cauldron is an action that requires a successful DC 15 Strength check. When the cauldron is tipped, each creature on the floor within a 15-foot cone of the cauldron must make a DC 12 Dexterity saving throw, taking 4 (`1d8`) fire damage on a failed save, or half as much damage on a successful one.
 
 #### North Balcony and Teleporter
 
@@ -388,7 +385,7 @@ A portcullis seals the entrance to area 10. A bronze lever is set into the wall 
 
 Once every ten days, the yuan-ti gather in the fane for a depraved ritual. The ceremony takes place over the course of one night, with a skeleton crew guarding the rest of the temple complex during these periods.
 
-During the ritual, mesmerizing incense is burned in the wall sconces. (See area 13 for more information on the incense.) [Fenthaza](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fenthaza-toa.md) preaches to the congregation from the north balcony. As the ceremony reaches fever pitch, she joins the revelers in the blood pool to feast on the slaves before slithering back to her quarters. On occasion, human slaves are transformed into yuan-ti purebloods or broodguards during these rituals. To undergo the change, slaves must bathe with snakes in the blood of sacrificial victims while under the influence of temple drugs. The transformation leaves each slave with `d6` levels of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). Once they've shed their old skin, those who survive the process are taken to their new home in the yuan-ti nests (area 18) to recuperate. Those who die are fed to the hydra in area 21.
+During the ritual, mesmerizing incense is burned in the wall sconces. (See area 13 for more information on the incense.) [Fenthaza](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fenthaza-toa.md) preaches to the congregation from the north balcony. As the ceremony reaches fever pitch, she joins the revelers in the blood pool to feast on the slaves before slithering back to her quarters. On occasion, human slaves are transformed into yuan-ti purebloods or broodguards during these rituals. To undergo the change, slaves must bathe with snakes in the blood of sacrificial victims while under the influence of temple drugs. The transformation leaves each slave with `1d6` levels of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). Once they've shed their old skin, those who survive the process are taken to their new home in the yuan-ti nests (area 18) to recuperate. Those who die are fed to the hydra in area 21.
 
 [Fenthaza](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fenthaza-toa.md) can arrange for captured human characters to be transformed into yuan-ti purebloods so they can roam freely within the temple complex and get closer to [Ras Nsi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ras-nsi-toa.md). The transformation can be undone only by a [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell or divine intervention. Characters who survive it gain a random form of indefinite madness (see ""Madness"" in chapter 8 of the *Dungeon Master's Guide*). A human that undergoes and survives the ritual retains its traits and gains the following yuan-ti racial traits.
 
@@ -522,7 +519,7 @@ If [Ras Nsi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ras-nsi-toa.md) ha
 
 ### 13. Storeroom
 
-The southwest double door is locked. Using thieves' tools, a character can pick the lock with a successful DC 15 Dexterity check.
+The southwest double door is locked. Using [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md), a character can pick the lock with a successful DC 15 Dexterity check.
 
 > [!readaloud] 
 > 
@@ -543,7 +540,7 @@ Also present is a sealed case containing ten blocks of temple incense. Lighting 
 
 ### 14. Venom Distillery
 
-The south door is locked, and the lock contains a cleverly hidden poison needle trap. To pick the lock, a character with thieves' tools must succeed on a DC 15 Dexterity check. Finding the trap requires a successful DC 20 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check; once found, it can be disabled with a successful DC 12 Dexterity check. A character who tries to pick the lock without first disabling the trap must make a DC 16 Dexterity saving throw. On a failed save, the character is pricked by the needle, takes 5 (`d10`) poison damage, and is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded). The blindness is permanent but can be cured with a [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md) spell or similar magic.
+The south door is locked, and the lock contains a cleverly hidden poison needle trap. To pick the lock, a character with [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md) must succeed on a DC 15 Dexterity check. Finding the trap requires a successful DC 20 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check; once found, it can be disabled with a successful DC 12 Dexterity check. A character who tries to pick the lock without first disabling the trap must make a DC 16 Dexterity saving throw. On a failed save, the character is pricked by the needle, takes 5 (`1d10`) poison damage, and is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded). The blindness is permanent but can be cured with a [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md) spell or similar magic.
 
 > [!readaloud] 
 > 
@@ -552,7 +549,7 @@ The south door is locked, and the lock contains a cleverly hidden poison needle 
 
 Yuan-ti use this chamber to extract venom from snakes. Xopal (pronounced zoh-PAUL), a [yuan-ti pureblood](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/yuan-ti-pureblood.md), bottles and blends the venom to create deadly new strains. Five human [zombies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md) serve Xopal as laborers.
 
-Xopal carries a bronze syringe containing three doses of a poison cocktail. As an action, he can make a melee weapon attack with the syringe (+3 to hit), which deals 1 piercing damage and injects one dose of poison on a hit. Any creature injected with a dose of poison must make a DC 14 Constitution saving throw, taking 10 (`3d6`) poison damage on a failed save, or half as much damage on a successful one. In addition, the creature is [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for 1 hour whether or not its save succeeds.
+Xopal carries a bronze syringe containing three doses of a poison cocktail. As an action, he can make a melee weapon attack with the syringe (`+3` to hit), which deals 1 piercing damage and injects one dose of poison on a hit. Any creature injected with a dose of poison must make a DC 14 Constitution saving throw, taking 10 (`3d6`) poison damage on a failed save, or half as much damage on a successful one. In addition, the creature is [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for 1 hour whether or not its save succeeds.
 
 Xopal believes it's his destiny to transform into a much more powerful form of yuan-ti—a metamorphosis that will occur when he develops a poison so virulent that even innate immunity to poison can't withstand it. Xopal uses the zombies as test subjects; once he's overcome their immunity, he plans to conduct further tests on live yuan-ti.
 
@@ -566,7 +563,7 @@ Among the poisons is a stoppered bronze jug used for fermenting jungle roots int
 
 Xopal carries a brass key that unlocks the south door.
 
-Characters who search through the poisons can loot twenty doses of serpent venom, five doses of essence of ether, and five doses of torpor (see ""Poisons"" in chapter 8 of the *Dungeon Master's Guide*).
+Characters who search through the poisons can loot twenty doses of [serpent venom](03.PlayerLog&Handouts/Mechanics/CLI/items/serpent-venom.md), five doses of [essence of ether](03.PlayerLog&Handouts/Mechanics/CLI/items/essence-of-ether.md), and five doses of torpor (see ""Poisons"" in chapter 8 of the *Dungeon Master's Guide*).
 
 ### 15. Snake Pit
 
@@ -588,7 +585,7 @@ To climb the wet cavern walls, a character must succeed on a DC 15 Strength ([At
 
 When they awake each day, the yuan-ti ritually bathe in the blood of sacrifices. The blood is contained within these stone baths and heated by thermal vents underneath each pool. When the characters enter, four [yuan-ti purebloods](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/yuan-ti-pureblood.md) and two [type 2 yuan-ti malisons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-2.md) bathe in the warm pools. Five slaves in loincloths (male and female Chultan human [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) of various alignments) tend to their every need. Give names to slaves as needed (see the "Chultan Names" sidebar in the book's introduction).
 
-The blood-drenched yuan-ti keep their weapons at the back of each alcove. If they hear the gong alarm sound, the yuan-ti command their slaves to remain here while they arm themselves and head quickly to area 9. If combat breaks out here, reinforcements from area 17 arrive in `d3` rounds.
+The blood-drenched yuan-ti keep their weapons at the back of each alcove. If they hear the gong alarm sound, the yuan-ti command their slaves to remain here while they arm themselves and head quickly to area 9. If combat breaks out here, reinforcements from area 17 arrive in `1d3` rounds.
 
 ### 17. Sauna
 
@@ -657,7 +654,7 @@ The river links various sections of the complex. The water varies between 5 and 
 
 #### Rowboats
 
-When the characters arrive, a pair of rowboats are pulled up on the shore near the tunnel to area 23 (see [chapter 5](03.PlayerLog&Handouts/Mechanics/CLI/tables/owning-a-ship-airborne-and-waterborne-vehicles.md) of the *Dungeon Master's Guide* for more information on rowboats). A cowbell dangles from a hook at the prow of each boat. Ringing either bell summons the hydra in area 21, which arrives in `d6` rounds.
+When the characters arrive, a pair of rowboats are pulled up on the shore near the tunnel to area 23 (see [chapter 5](03.PlayerLog&Handouts/Mechanics/CLI/tables/owning-a-ship-airborne-and-waterborne-vehicles.md) of the *Dungeon Master's Guide* for more information on rowboats). A cowbell dangles from a hook at the prow of each boat. Ringing either bell summons the hydra in area 21, which arrives in `1d6` rounds.
 
 #### Yuan-ti Broodguards
 
@@ -674,7 +671,7 @@ The broodguards stop and question characters disguised as yuan-ti purebloods. To
 
 A [hydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hydra.md) lurks underwater in this vicinity. [Ras Nsi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ras-nsi-toa.md) treats the monster as his beloved pet and regularly feeds it slaves, prisoners, and subordinates who've defied him. The hydra's victims are bound and ferried on rowboats over the deepest part of the river. To call the monster, their captors sound the rowboat bell and hurl the hogtied victim (or victims) into the water.
 
-While it remains fed, the hydra avoids any boats that ply back and forth. When a rowboat bell is sounded, the hydra surfaces within `d6` rounds. If it's not fed immediately, it attacks the boat. The hydra attacks any boats that venture north of area 18. Swimmers are also fair game.
+While it remains fed, the hydra avoids any boats that ply back and forth. When a rowboat bell is sounded, the hydra surfaces within `1d6` rounds. If it's not fed immediately, it attacks the boat. The hydra attacks any boats that venture north of area 18. Swimmers are also fair game.
 
 ### 22. Fungi Cavern
 
@@ -683,9 +680,9 @@ While it remains fed, the hydra avoids any boats that ply back and forth. When a
 > The passage widens into a cavern filled with fungi. Toadstools, puffballs, and other tuberous growths cover the walls and floor. Against the far wall, a malformed skeleton lies buried under a patch of buttery mold. A brass key hangs around its neck.
 ^302
 
-A patch of green slime (see [chapter 5](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/green-slime.md) of the *Dungeon Master's Guide*) clings to the ceiling above the entrance and drops on the first creature that passes underneath.
+A patch of [green slime](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/green-slime.md) (see [chapter 5](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/green-slime.md) of the *Dungeon Master's Guide*) clings to the ceiling above the entrance and drops on the first creature that passes underneath.
 
-A patch of yellow mold (see [chapter 5](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/yellow-mold.md) of the *Dungeon Master's Guide*) covers the skeletal corpse. If a creature touches the mold, it ejects a cloud of deadly spores.
+A patch of [yellow mold](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/yellow-mold.md) (see [chapter 5](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/yellow-mold.md) of the *Dungeon Master's Guide*) covers the skeletal corpse. If a creature touches the mold, it ejects a cloud of deadly spores.
 
 The corpse belongs to Kukuga, a yuan-ti pureblood who secretly worshiped Zuggtmoy (the demon queen of fungi). Kukuga concocted a fungal brew that would transform his body into a form closer to that of his demonic mistress. Instead, it led to his sudden and horrific death. Xopal (area 14) occasionally ventures into the cavern to harvest poisonous toadstools from his corpse.
 

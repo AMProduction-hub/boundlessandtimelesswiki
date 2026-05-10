@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Ghost Story Plots
+- "Ghost Story Plots"
 ---
 # Ghost Story Plots
 *Source: Van Richten's Guide to Ravenloft p. 55* 
 
 **Ghost Story Plots**
-
-`dice: [](ghost-story-plots-vrgr.md#^ghost-story-plots)`
 
 | dice: d8 | Plot |
 |----------|------|

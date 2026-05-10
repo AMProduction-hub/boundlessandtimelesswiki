@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Random Hag Minions; Brutes
+- "Random Hag Minions; Brutes"
 ---
 # Random Hag Minions; Brutes
 *Source: Volo's Guide to Monsters p. 61* 
 
 **Brutes**
-
-`dice: [](random-hag-minions-brutes-vgm.md#^brutes)`
 
 | dice: d12 | Brute(s) |
 |-----------|----------|

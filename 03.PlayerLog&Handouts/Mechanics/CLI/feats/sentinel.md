@@ -1,14 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/feat
 aliases:
-- Sentinel
+- "Sentinel"
 ---
 # Sentinel
 *Source: Player's Handbook p. 169*  
+
 You have mastered techniques to take advantage of every drop in any enemy's guard, gaining the following benefits:
 
 - When you hit a creature with an opportunity attack, the creature's speed becomes 0 for the rest of the turn.  

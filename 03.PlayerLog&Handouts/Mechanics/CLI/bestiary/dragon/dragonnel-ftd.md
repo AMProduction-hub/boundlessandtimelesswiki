@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragonnel
+- "Dragonnel"
 ---
-# [Dragonnel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/dragonnel-ftd.md)
+# [Dragonnel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/dragonnel-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 190*  
 
 Dragonnels are distantly related to chromatic, gem, and metallic dragons and resemble them in basic form. Intelligent enough to understand speech but incapable of speaking themselves, they are willful creatures motivated by the desire for food and entertainment. In the wild, they are picky eaters with mercurial moods, inclined to toy with their prey before going in for the kill.
@@ -46,7 +47,9 @@ A dragonnel is an agile mount and naturally inclined to flyby tactics, swooping 
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 13"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 13"
 "languages": "understands Draconic and Common but can't speak"
 "cr": "2"
 "traits":
@@ -56,7 +59,7 @@ A dragonnel is an agile mount and naturally inclined to flyby tactics, swooping 
 "actions":
   - "desc": "The dragonnel makes two Rend attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage."
     "name": "Rend"
 "source":

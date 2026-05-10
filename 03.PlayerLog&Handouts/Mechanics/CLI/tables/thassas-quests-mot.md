@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Thassa's Quests
+- "Thassa's Quests"
 ---
 # Thassa's Quests
 *Source: Mythic Odysseys of Theros p. 172* 
 
 **Thassa's Quests**
-
-`dice: [](thassas-quests-mot.md#^thassas-quests)`
 
 | dice: d6 | Adventure Goal |
 |----------|----------------|

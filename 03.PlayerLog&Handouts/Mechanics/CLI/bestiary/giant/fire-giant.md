@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/9
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Fire Giant
+- "Fire Giant"
 ---
-# [Fire Giant](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/fire-giant.md)
-*Source: Monster Manual p. 154, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Fire Giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/fire-giant.md)
+*Source: Monster Manual p. 154. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Master crafters and organized warriors, fire giants dwell among volcanoes, lava floes, and rocky mountains. They are ruthless militaristic brutes whose mastery of metalwork is legendary.
 
@@ -103,37 +104,31 @@ Regardless of a giant's rank among its own race, the chief of a hill giant tribe
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+3"
-  - "constitution": "+10"
-  - "charisma": "+5"
+  - "dexterity": !!int "3"
+  - "constitution": !!int "10"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+11"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
 "damage_immunities": "fire"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
 "senses": "passive Perception 16"
 "languages": "Giant"
 "cr": "9"
 "actions":
   - "desc": "The giant makes two greatsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:*\
       \ 28 (6d6 + 7) slashing damage."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +11 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +11 to hit, range 60/240 ft., one target. *Hit:*\
       \ 29 (4d10 + 7) bludgeoning damage."
     "name": "Rock"
 "source":
   - "MM"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "WDMM"
-  - "BGDIA"
-  - "EGW"
-  - "MOT"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/token/fire-giant.webp"
 ```
 ^statblock

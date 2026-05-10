@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/rarity/very-rare
 - ttrpg-cli/item/tier/minor
-aliases: 
+aliases:
 - "Horseshoes of a Zephyr"
 ---
 # Horseshoes of a Zephyr

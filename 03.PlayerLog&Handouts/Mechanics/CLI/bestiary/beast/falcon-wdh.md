@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Falcon
+- "Falcon"
 ---
-# [Falcon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/falcon-wdh.md)
+# [Falcon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/falcon-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 53*  
 
 ```statblock
@@ -42,7 +43,7 @@ aliases:
       \ checks that rely on sight."
     "name": "Keen Sight"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1\
       \ slashing damage."
     "name": "Talons"
 "source":

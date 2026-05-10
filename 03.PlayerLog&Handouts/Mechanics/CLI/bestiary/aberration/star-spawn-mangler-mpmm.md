@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Star Spawn Mangler
+- "Star Spawn Mangler"
 ---
-# [Star Spawn Mangler](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/star-spawn-mangler-mpmm.md)
+# [Star Spawn Mangler](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/star-spawn-mangler-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 229, Mordenkainen's Tome of Foes p. 236*  
 
 > [!quote] A quote from Mordenkainen  
@@ -64,8 +65,8 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
   - !!int "7"
 "speed": "40 ft., climb 40 ft."
 "saves":
-  - "dexterity": "+7"
-  - "constitution": "+4"
+  - "dexterity": !!int "7"
+  - "constitution": !!int "4"
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
@@ -74,7 +75,8 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Deep Speech"
 "cr": "5"
 "traits":
@@ -83,7 +85,7 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
 "actions":
   - "desc": "The mangler makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage. If the attack roll has advantage, the target\
       \ also takes 7 (2d6) psychic damage."
     "name": "Claw"

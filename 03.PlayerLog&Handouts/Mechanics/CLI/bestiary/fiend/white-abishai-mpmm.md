@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/6
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- White Abishai
+- "White Abishai"
 ---
-# [White Abishai](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/white-abishai-mpmm.md)
+# [White Abishai](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/white-abishai-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 41, Mordenkainen's Tome of Foes p. 163*  
 
 White abishais fight with a reckless fury, making them ideally suited for bolstering the ranks of Tiamat's armies. White abishais fight without fear, becoming whirlwinds of destruction on the battlefield.
@@ -45,13 +46,16 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
   - !!int "13"
 "speed": "30 ft., fly 40 ft."
 "saves":
-  - "strength": "+6"
-  - "constitution": "+7"
+  - "strength": !!int "6"
+  - "constitution": !!int "7"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
 "damage_immunities": "cold, fire, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 11"
+"gear":
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 11"
 "languages": "Draconic, Infernal, telepathy 120 ft."
 "cr": "6"
 "traits":
@@ -68,13 +72,13 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
   - "desc": "The abishai makes one Bite attack, one Claw attack, and one Longsword\
       \ attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
-      \ (1d4 + 3) piercing damage plus 3 (d6) cold damage."
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 5\
+      \ (1d4 + 3) piercing damage plus 3 (1d6) cold damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d10 + 3) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) force damage, or 8 (1d10 + 3) force damage if used with two\
       \ hands."
     "name": "Longsword"

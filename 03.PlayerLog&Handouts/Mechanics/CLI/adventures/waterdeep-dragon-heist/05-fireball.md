@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 aliases:
-- Fireball
+- "Fireball"
 ---
 # Fireball
 *Source: Waterdeep: Dragon Heist, p. 43* 
@@ -158,7 +159,7 @@ The House of Inspired Hands, Waterdeep's temple of Gond, sits on the corner of S
 
 The creature atop the temple is Nim, a [nimblewright](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/nimblewright-wdh.md) (see appendix B). Nim was given to the temple as a gift from a visiting Lantanese wizard and has been creating its own inventions on the sly. One of those inventions was the nimblewright that detonated the fireball in Trollskull Alley. Another less-dangerous invention, a mechanical sparrow, is on an accidental collision course with the party.
 
-Have the characters roll initiative. Nim's mechanical bird acts on initiative count 10, has a flying speed of 60 feet, and starts 60 feet away from the characters. It has AC 15, 1 hit point, and immunity to poison and psychic damage. On its turn, it flies toward one party member at random and makes a melee weapon attack (+0 to hit) against that character. On a hit, the bird deals 2 (`d3`) piercing damage as it slams into the character with surprising force. On a miss, it crashes. Either way, it's destroyed on impact.
+Have the characters roll initiative. Nim's mechanical bird acts on initiative count 10, has a flying speed of 60 feet, and starts 60 feet away from the characters. It has AC 15, 1 hit point, and immunity to poison and psychic damage. On its turn, it flies toward one party member at random and makes a melee weapon attack (`+0` to hit) against that character. On a hit, the bird deals 2 (`1d3`) piercing damage as it slams into the character with surprising force. On a miss, it crashes. Either way, it's destroyed on impact.
 
 After the attack, Nim withdraws into the temple's attic through a secret hatch in the roof and lies low, hoping the characters don't report the incident to the temple's acolytes.
 
@@ -284,7 +285,7 @@ If the characters tell Renaer that [Fala Lefaliir](03.PlayerLog&Handouts/Mechani
 
 ## Gralhund Villa
 
-After fleeing Trollskull Alley with the [Stone of Golorr](03.PlayerLog&Handouts/Mechanics/CLI/items/stone-of-golorr-wdh.md) in his clutches, the Zhent assassin [Urstul Floxin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/urstul-floxin-wdh.md) returned to Gralhund Villa to confront [Yalah Gralhund](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yalah-gralhund-wdh.md) about sending the [nimblewright](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/nimblewright-wdh.md) to meddle in his mission. Lady Gralhund decides she no longer likes Urstul and, taking advantage of his injuries, wrests the [Stone of Golorr](03.PlayerLog&Handouts/Mechanics/CLI/items/stone-of-golorr-wdh.md) from him at swordpoint and orders her guards to lock him up until she decides what to do with him.
+After fleeing Trollskull Alley with the [Stone of Golorr](03.PlayerLog&Handouts/Mechanics/CLI/items/stone-of-golorr-wdh.md) in his clutches, the Zhent assassin [Urstul Floxin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/urstul-floxin-wdh.md) returned to Gralhund Villa to confront [Yalah Gralhund](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yalah-gralhund-wdh.md) about sending the [nimblewright](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/nimblewright-wdh.md) to meddle in his mission. Lady Gralhund decides she no longer likes Urstul and, taking advantage of his injuries, wrests the [Stone of Golorr](03.PlayerLog&Handouts/Mechanics/CLI/items/stone-of-golorr-wdh.md) from him at sword-point and orders her guards to lock him up until she decides what to do with him.
 
 Your choice of main villain determines Lady Gralhund's motivation, which is a secret held by her and [Hrabbaz](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hrabbaz-wdh.md), her loyal half-orc bodyguard:
 

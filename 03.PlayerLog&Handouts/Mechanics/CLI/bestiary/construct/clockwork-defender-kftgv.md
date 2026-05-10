@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Clockwork Defender
+- "Clockwork Defender"
 ---
-# [Clockwork Defender](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/clockwork-defender-kftgv.md)
+# [Clockwork Defender](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-defender-kftgv.md)
 *Source: Keys from the Golden Vault p. 85*  
 
 A clockwork defender is a mechanical quadruped that vaguely resembles a hound. Its eyes glow and can project intense but harmless beams of light. It tirelessly protects whatever its creator wants, and it can be programmed by its creator not to attack certain kinds of creatures.
@@ -53,7 +54,7 @@ A clockwork defender is a mechanical quadruped that vaguely resembles a hound. I
   - "desc": "The defender doesn't need air, food, drink, or sleep."
     "name": "Unusual Nature"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage plus 7 (2d6) lightning damage. If the target\
       \ is a creature, it must succeed on a DC 13 Strength saving throw or be [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13). A creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\

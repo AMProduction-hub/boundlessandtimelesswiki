@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Necromancer Wizard
+- "Necromancer Wizard"
 ---
-# [Necromancer Wizard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/necromancer-wizard-mpmm.md)
+# [Necromancer Wizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/necromancer-wizard-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 264, Volo's Guide to Monsters p. 217*  
 
 Necromancers study the interaction of life, death, and undeath. Some necromancers dig up or purchase corpses to create Undead servitors. A few instead use their powers for good, hunting Undead.
@@ -41,8 +42,8 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+7"
-  - "wisdom": "+5"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -55,16 +56,16 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "actions":
   - "desc": "The necromancer makes three Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 25 (4d10 + 3) necrotic damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +7 to hit, reach 5 ft. or range 120\
+      \ ft., one target. *Hit:* 25 (4d10 + 3) necrotic damage."
     "name": "Arcane Burst"
   - "desc": "The necromancer casts one of the following spells, using Intelligence\
-      \ as the spellcasting ability (spell save DC 15):\n\nAt will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ as the spellcasting ability (spell save DC 15):\n\n**At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n2/day each: [bestow curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/bestow-curse.md),\
+      \n**2/day each:** [bestow curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/bestow-curse.md),\
       \ [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md)\n\
-      \n1/day each: [circle of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/circle-of-death.md)"
+      \n**1/day each:** [circle of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/circle-of-death.md)"
     "name": "Spellcasting"
 "bonus_actions":
   - "desc": "The necromancer magically summons five [skeletons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeleton.md)\

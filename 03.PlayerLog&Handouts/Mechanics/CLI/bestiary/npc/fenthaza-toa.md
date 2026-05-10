@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/toa
 - ttrpg-cli/monster/cr/4
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Fenthaza
+- "Fenthaza"
 ---
-# [Fenthaza](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/fenthaza-toa.md)
+# [Fenthaza](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fenthaza-toa.md)
 *Source: Tomb of Annihilation p. 113*  
 
 ```statblock
@@ -35,8 +36,8 @@ aliases:
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+3"
-  - "charisma": "+5"
+  - "wisdom": !!int "3"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+5"
@@ -44,19 +45,22 @@ aliases:
     "desc": "+4"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft. (penetrates magical darkness), passive Perception 11"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft. (penetrates magical darkness), passive Perception 11"
 "languages": "Abyssal, Common, Draconic"
 "cr": "4"
 "traits":
   - "desc": "Fenthaza is a 6th-level spellcaster. Its spellcasting ability is Charisma\
       \ (spell save DC 13, +5 to hit with spell attacks). It regains its expended\
       \ spell slots when it finishes a short or long rest. It knows the following\
-      \ warlock spells:\n\nCantrips (at will): [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md),\
+      \ warlock spells:\n\n**Cantrips (at will):** [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md),\
       \ [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md)\
       \ (range 300 ft., +3 bonus to each damage roll), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md), [poison\
       \ spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st-3rd level (2 slots): [arms of Hadar](03.PlayerLog&Handouts/Mechanics/CLI/spells/arms-of-hadar.md),\
+      \n**1st-3rd level (2 slots):** [arms of Hadar](03.PlayerLog&Handouts/Mechanics/CLI/spells/arms-of-hadar.md),\
       \ [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md), [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md),\
       \ [hex](03.PlayerLog&Handouts/Mechanics/CLI/spells/hex.md), [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [hunger of Hadar](03.PlayerLog&Handouts/Mechanics/CLI/spells/hunger-of-hadar.md),\
@@ -64,8 +68,8 @@ aliases:
     "name": "Spellcasting (Yuan-ti Form Only)"
   - "desc": "Fenthaza's innate spellcasting ability is Charisma (spell save DC 13).\
       \ Fenthaza can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md)\
-      \ (snakes only)\n\n3/day: [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
+      \n**At will:** [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md)\
+      \ (snakes only)\n\n**3/day:** [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
     "name": "Innate Spellcasting (Yuan-ti Form Only)"
   - "desc": "Fenthaza can use its action to polymorph into a Medium snake or back\
       \ into its true form. Its statistics are the same in each form. Any equipment\
@@ -81,13 +85,13 @@ aliases:
 "actions":
   - "desc": "Fenthaza makes one constrict attack and one scimitar attack."
     "name": "Multiattack (Yuan-ti Form Only)"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
       \ 10 (2d6 + 3) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14) if it is a Large or smaller creature. Until this grapple ends,\
       \ the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and Fenthaza can't constrict another target."
     "name": "Constrict"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Scimitar (Yuan-ti Form Only)"
   - "desc": "Fenthaza taps into the nightmares of a creature it can see within 60\

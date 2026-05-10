@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Aberrant Spirit (Slaad)
+- "Aberrant Spirit (Slaad)"
 ---
-# [Aberrant Spirit (Slaad)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/aberrant-spirit-slaad-tce.md)
+# [Aberrant Spirit (Slaad)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/aberrant-spirit-slaad-tce.md)
 *Source: Tasha's Cauldron of Everything p. 109*  
 
 ```statblock
@@ -30,7 +31,8 @@ aliases:
   - !!int "6"
 "speed": "30 ft."
 "damage_immunities": "psychic"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Deep Speech, understands the languages you speak"
 "traits":
   - "desc": "The aberration regains 5 hit points at the start of its turn if it has\
@@ -40,8 +42,8 @@ aliases:
   - "desc": "The aberration makes a number of attacks equal to half this spell's level\
       \ (rounded down)."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft.,\
-      \ one target. Hit: 1d10 + 3 + the spell's level slashing damage. If the\
+  - "desc": "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft.,\
+      \ one target. *Hit:* 1d10 + 3 + the spell's level slashing damage. If the\
       \ target is a creature, it can't regain hit points until the start of the aberration's\
       \ next turn."
     "name": "Claws"

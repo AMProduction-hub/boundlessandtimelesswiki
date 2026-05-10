@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Goblinoid NPCs
+- "Goblinoid NPCs"
 ---
 # Goblinoid NPCs
 *Source: Eberron: Rising from the Last War p. 205* 
 
 **Goblinoid NPCs**
-
-`dice: [](goblinoid-npcs-erlw.md#^goblinoid-npcs)`
 
 | dice: d8 | NPC |
 |----------|-----|

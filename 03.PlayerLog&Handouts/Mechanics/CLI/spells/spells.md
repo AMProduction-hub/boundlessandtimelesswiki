@@ -1,6 +1,8 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
+- json5e-index
 ---
 # Index of Spells
 
@@ -41,8 +43,8 @@ cssclasses: json5e-note
 - [Bestow Curse](./bestow-curse.md)
 - [Bigby's Hand](./bigbys-hand.md)
 - [Blade Barrier](./blade-barrier.md)
-- [Blade of Disaster](./blade-of-disaster-tce.md)
 - [Blade Ward](./blade-ward.md)
+- [Blade of Disaster](./blade-of-disaster-tce.md)
 - [Bless](./bless.md)
 - [Blight](./blight.md)
 - [Blinding Smite](./blinding-smite.md)
@@ -74,8 +76,8 @@ cssclasses: json5e-note
 - [Cloudkill](./cloudkill.md)
 - [Color Spray](./color-spray.md)
 - [Command](./command.md)
-- [Commune with Nature](./commune-with-nature.md)
 - [Commune](./commune.md)
+- [Commune with Nature](./commune-with-nature.md)
 - [Compelled Duel](./compelled-duel.md)
 - [Comprehend Languages](./comprehend-languages.md)
 - [Compulsion](./compulsion.md)
@@ -103,8 +105,8 @@ cssclasses: json5e-note
 - [Create Food and Water](./create-food-and-water.md)
 - [Create Homunculus](./create-homunculus-xge.md)
 - [Create Magen](./create-magen-idrotf.md)
-- [Create or Destroy Water](./create-or-destroy-water.md)
 - [Create Undead](./create-undead.md)
+- [Create or Destroy Water](./create-or-destroy-water.md)
 - [Creation](./creation.md)
 - [Crown of Madness](./crown-of-madness.md)
 - [Crown of Stars](./crown-of-stars-xge.md)
@@ -140,8 +142,8 @@ cssclasses: json5e-note
 - [Draconic Transformation](./draconic-transformation-ftd.md)
 - [Dragon's Breath](./dragons-breath-xge.md)
 - [Drawmij's Instant Summons](./drawmijs-instant-summons.md)
-- [Dream of the Blue Veil](./dream-of-the-blue-veil-tce.md)
 - [Dream](./dream.md)
+- [Dream of the Blue Veil](./dream-of-the-blue-veil-tce.md)
 - [Druid Grove](./druid-grove-xge.md)
 - [Druidcraft](./druidcraft.md)
 - [Dust Devil](./dust-devil-xge.md)
@@ -175,8 +177,8 @@ cssclasses: json5e-note
 - [Find Familiar](./find-familiar.md)
 - [Find Greater Steed](./find-greater-steed-xge.md)
 - [Find Steed](./find-steed.md)
-- [Find the Path](./find-the-path.md)
 - [Find Traps](./find-traps.md)
+- [Find the Path](./find-the-path.md)
 - [Finger of Death](./finger-of-death.md)
 - [Fire Bolt](./fire-bolt.md)
 - [Fire Shield](./fire-shield.md)
@@ -220,8 +222,8 @@ cssclasses: json5e-note
 - [Guards and Wards](./guards-and-wards.md)
 - [Guidance](./guidance.md)
 - [Guiding Bolt](./guiding-bolt.md)
-- [Gust of Wind](./gust-of-wind.md)
 - [Gust](./gust-xge.md)
+- [Gust of Wind](./gust-of-wind.md)
 - [Hail of Thorns](./hail-of-thorns.md)
 - [Hallow](./hallow.md)
 - [Hallucinatory Terrain](./hallucinatory-terrain.md)
@@ -394,8 +396,8 @@ cssclasses: json5e-note
 - [Shape Water](./shape-water-xge.md)
 - [Shapechange](./shapechange.md)
 - [Shatter](./shatter.md)
-- [Shield of Faith](./shield-of-faith.md)
 - [Shield](./shield.md)
+- [Shield of Faith](./shield-of-faith.md)
 - [Shillelagh](./shillelagh.md)
 - [Shocking Grasp](./shocking-grasp.md)
 - [Sickening Radiance](./sickening-radiance-xge.md)
@@ -425,8 +427,8 @@ cssclasses: json5e-note
 - [Stinking Cloud](./stinking-cloud.md)
 - [Stone Shape](./stone-shape.md)
 - [Stoneskin](./stoneskin.md)
-- [Storm of Vengeance](./storm-of-vengeance.md)
 - [Storm Sphere](./storm-sphere-xge.md)
+- [Storm of Vengeance](./storm-of-vengeance.md)
 - [Suggestion](./suggestion.md)
 - [Summon Aberration](./summon-aberration-tce.md)
 - [Summon Beast](./summon-beast-tce.md)

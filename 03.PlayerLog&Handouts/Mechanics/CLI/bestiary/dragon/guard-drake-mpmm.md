@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -16,9 +17,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Guard Drake
+- "Guard Drake"
 ---
-# [Guard Drake](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/guard-drake-mpmm.md)
+# [Guard Drake](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/guard-drake-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 151*  
 
 A guard drake is a reptilian creature created out of dragon scales by means of a bizarre and grisly ritual. When trained properly, a drake is obedient and territorial, which makes it an excellent watch beast that can follow simple commands.
@@ -50,16 +51,17 @@ A newly hatched guard drake imprints upon the first creature that feeds it (usua
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "understands Draconic but can't speak"
 "cr": "2"
 "actions":
   - "desc": "The guard drake makes one Bite attack and one Tail attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) bludgeoning damage."
     "name": "Tail"
 "source":

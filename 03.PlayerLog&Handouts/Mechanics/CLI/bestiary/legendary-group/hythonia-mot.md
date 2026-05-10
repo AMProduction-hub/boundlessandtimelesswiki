@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/legendary-group
 aliases:
-- Hythonia
+- "Hythonia"
 ---
 # Hythonia
 
-## Lair actions
+## Lair Actions
 _Source: Mythic Odysseys of Theros_
 
 On initiative count 20 (losing initiative ties), Hythonia can take a lair action to cause one of the following effects. She can't use the same effect two rounds in a row:
@@ -17,7 +18,7 @@ On initiative count 20 (losing initiative ties), Hythonia can take a lair action
 - Hythonia briefly animates creatures that have been [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified) by her gaze. Each statue attacks one creature within 5 feet of it, with a +11 bonus to hit and dealing 10 (`3d6`) bludgeoning damage on a hit. If a Medium or smaller creature takes this damage, it is also [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled) (escape DC 15).  
 - Hythonia causes spectral snakes to erupt from a point she can see within 150 feet of her. Each creature within 20 feet of that point must succeed on a DC 19 Constitution saving throw or take 5 (`2d4`) piercing damage and become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) until the end of its next turn. While [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) in this way, the creature has disadvantage on Intelligence checks and Intelligence saving throws, and it behaves as if under the effect of the [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md) spell.  
 
-## Regional effects
+## Regional Effects
 _Source: Mythic Odysseys of Theros_
 
 The region containing Hythonia's lair is warped by her presence, which creates one or more of the following effects:
@@ -26,7 +27,7 @@ The region containing Hythonia's lair is warped by her presence, which creates o
 - Trees within 1 mile of the lair are petrified wood. Plants that stay within 500 feet of the lair for 1 day turn to stone.  
 - Small bodies of water within 1 mile of the lair become poisonous. A creature that drinks the water must succeed on a DC 19 Constitution saving throw or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for 8 hours. An affected creature can repeat the saving throw at the end of each hour.  
 
-## Mythic encounter
+## As a Mythic Encounter
 _Source: Mythic Odysseys of Theros_
 
 Hythonia serves as a potent threat against even high-level characters, but you can increase the challenge by using the Shed Skin trait. When this happens, Hythonia heals many of her wounds and slips away from danger, and then she can choose one of her mythic actions when she uses a legendary action.

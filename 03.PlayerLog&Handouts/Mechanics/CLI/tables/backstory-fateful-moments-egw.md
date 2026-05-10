@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Backstory; Fateful Moments
+- "Backstory; Fateful Moments"
 ---
 # Backstory; Fateful Moments
 *Source: Explorer's Guide to Wildemount p. 191* 
 
 **Fateful Moments**
-
-`dice: [](backstory-fateful-moments-egw.md#^fateful-moments)`
 
 | dice: d20 | Event |
 |-----------|-------|

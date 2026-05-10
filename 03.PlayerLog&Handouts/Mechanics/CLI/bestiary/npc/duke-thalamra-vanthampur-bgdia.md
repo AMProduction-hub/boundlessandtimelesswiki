@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Duke Thalamra Vanthampur
+- "Duke Thalamra Vanthampur"
 ---
-# [Duke Thalamra Vanthampur](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/duke-thalamra-vanthampur-bgdia.md)
+# [Duke Thalamra Vanthampur](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/duke-thalamra-vanthampur-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 38*  
 
 Acid-tongued, shrewd, and aggressive, Duke Thalamra Vanthampur is the matriarch of the Vanthampur family. Born with nothing, she spent years wallowing in obscurity, repairing and renovating the city's ancient sewer system. One promotion after another followed until she was named Master of Drains and Underways. By then, she had been married three times and given birth to three sons. Her lifelong goal has been to lift herself and her family out of the sewers and into high society.
@@ -47,7 +48,8 @@ Thalamra Vanthampur is a cunning, devil-worshiping beast of a woman in her late 
     "desc": "+6"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+3"
-"senses": "darkvision 120 ft. (see devil's sight below), passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft. (see devil's sight below), passive Perception 13"
 "languages": "Common, Infernal"
 "cr": "4"
 "traits":
@@ -60,10 +62,10 @@ Thalamra Vanthampur is a cunning, devil-worshiping beast of a woman in her late 
 "actions":
   - "desc": "Thalamra uses eldritch blast twice or makes two unarmed strikes."
     "name": "Multiattack"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 120 ft., one creature. *Hit:*\
       \ 9 (1d10 + 4) force damage."
     "name": "Eldritch Blast (Cantrip)"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 4\
       \ bludgeoning damage."
     "name": "Unarmed Strike"
 "reactions":

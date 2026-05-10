@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/subclass/monk/long-death
 aliases:
-- Way of the Long Death
+- "Way of the Long Death"
 ---
 # Way of the Long Death
 *[Monk](./monk.md): Monastic Tradition*  
@@ -43,11 +44,9 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Way of the Long Death (Level 3)
-
 Monks of the Way of the Long Death are obsessed with the meaning and mechanics of dying. They capture creatures and prepare elaborate experiments to capture, record, and understand the moments of their demise. They use this knowledge to guide their understanding of martial arts, yielding a deadly fighting style.
+
+## Subclass Features
 
 ### Touch of Death (Level 3)
 

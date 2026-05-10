@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/subclass/sorcerer/lunar
 aliases:
-- Lunar Sorcery
+- "Lunar Sorcery"
 ---
 # Lunar Sorcery
 *[Sorcerer](./sorcerer.md): Sorcerous Origin*  
@@ -43,13 +44,11 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Lunar Sorcery (Level 1)
-
 On many worlds, the moon is a revered celestial body with magical properties. On Krynn, the gods of magic are associated with the world's three moons. On the world of Toril, the god Selûne uses the light of the moon to battle darkness. On Eberron, scholars of the Draconic Prophecy decipher ancient secrets from the waxing and waning of that world's twelve moons.
 
 You or someone from your lineage has been exposed to the concentrated magic of the moon (or moons) of your world, imbuing you with lunar magic. Perhaps your ancestor was involved in a druidic ritual involving an eclipse, or maybe a mystical fragment of a moon crashed near you. However you came to have your magic, your connection to the moon is obvious when you cast sorcerer spells—perhaps making your pupils glow with the color of a moon from your world, causing spectral manifestations of lunar phases to orbit you, or some other effect.
+
+## Subclass Features
 
 ### Lunar Embodiment (Level 1)
 

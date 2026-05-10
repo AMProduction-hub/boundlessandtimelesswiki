@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/16
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Zegana
+- "Zegana"
 ---
-# [Zegana](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/zegana-ggr.md)
+# [Zegana](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zegana-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 255*  
 
 The regal and reticent Prime Speaker Zegana is the merfolk guildmaster of the Simic Combine. She upholds the traditional ways of the guild and its utopian philosophy, which espouses a vision of an ideal world in which nature and civilization coexist in perfect balance. Some people in the guild-members of the Adaptationist faction in particular-argue that her ways are outdated and the guild requires more practical leadership. In response, Zegana maintains that she serves as prime speaker only at the sufferance of the Speakers' Chamber, and if the other speakers wish to replace her, they are certainly within their rights to do so.
@@ -36,8 +37,8 @@ The regal and reticent Prime Speaker Zegana is the merfolk guildmaster of the Si
   - !!int "16"
 "speed": "30 ft., swim 40 ft."
 "saves":
-  - "intelligence": "+10"
-  - "wisdom": "+9"
+  - "intelligence": !!int "10"
+  - "wisdom": !!int "9"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+9"
@@ -46,32 +47,33 @@ The regal and reticent Prime Speaker Zegana is the merfolk guildmaster of the Si
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+9"
 "damage_resistances": "cold, poison"
-"senses": "darkvision 60 ft., passive Perception 19"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 19"
 "languages": "Common, Elvish, Merfolk"
 "cr": "16"
 "traits":
   - "desc": "Zegana is a 15th-level Simic spellcaster. Her spellcasting ability is\
       \ Intelligence (spell save DC 18, +10 to hit with spell attacks). She has\
-      \ the following wizard spells prepared:\n\nCantrips (at will): [acid splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md),\
+      \ the following wizard spells prepared:\n\n**Cantrips (at will):** [acid splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md),\
       \ [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md), [ray\
       \ of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md), [shape\
       \ water](03.PlayerLog&Handouts/Mechanics/CLI/spells/shape-water-xge.md)\n\n\
-      1st level (4 slots): [color spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/color-spray.md),\
+      **1st level (4 slots):** [color spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/color-spray.md),\
       \ [expeditious retreat](03.PlayerLog&Handouts/Mechanics/CLI/spells/expeditious-retreat.md),\
       \ [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md), [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)\n\
-      \n2nd level (3 slots): [enlarge/reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md),\
+      \n**2nd level (3 slots):** [enlarge/reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md),\
       \ [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md)\n\
-      \n3rd level (3 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      \n**3rd level (3 slots):** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [slow](03.PlayerLog&Handouts/Mechanics/CLI/spells/slow.md)\n\
-      \n4th level (3 slots): [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md),\
+      \n**4th level (3 slots):** [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md),\
       \ [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md), [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)\n\
-      \n5th level (2 slots): [conjure elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-elemental.md),\
-      \ [creation](03.PlayerLog&Handouts/Mechanics/CLI/spells/creation.md)\n\n6th\
-      \ level (1 slots): [move earth](03.PlayerLog&Handouts/Mechanics/CLI/spells/move-earth.md),\
+      \n**5th level (2 slots):** [conjure elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-elemental.md),\
+      \ [creation](03.PlayerLog&Handouts/Mechanics/CLI/spells/creation.md)\n\n**6th\
+      \ level (1 slots):** [move earth](03.PlayerLog&Handouts/Mechanics/CLI/spells/move-earth.md),\
       \ [wall of ice](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-ice.md)\n\
-      \n7th level (1 slots): [prismatic spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/prismatic-spray.md),\
-      \ [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)\n\n8th\
-      \ level (1 slots): [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md),\
+      \n**7th level (1 slots):** [prismatic spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/prismatic-spray.md),\
+      \ [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)\n\n**8th\
+      \ level (1 slots):** [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md),\
       \ [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md)"
     "name": "Spellcasting"
   - "desc": "Zegana can breathe air and water."
@@ -82,8 +84,8 @@ The regal and reticent Prime Speaker Zegana is the merfolk guildmaster of the Si
       \ effects."
     "name": "Magic Resistance"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +10 to hit, reach 5 ft. or range\
-      \ 20/60 ft., one target. Hit: 12 (2d6 + 5) piercing damage, and the trident\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +10 to hit, reach 5 ft. or range\
+      \ 20/60 ft., one target. *Hit:* 12 (2d6 + 5) piercing damage, and the trident\
       \ emits a thunderous boom. Each creature in a 15-foot cube originating from\
       \ the prongs of the trident must make a DC 18 Constitution saving throw. On\
       \ a failed save, the creature takes 9 (2d8) thunder damage and is pushed 10\
@@ -101,6 +103,9 @@ The regal and reticent Prime Speaker Zegana is the merfolk guildmaster of the Si
       \ water spreads out across the ground, extinguishing unprotected flames it comes\
       \ in contact with, and then vanishes."
     "name": "Deluge (Recharge 4-6)"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Zegana can expend a use to take one of the following actions. Zegana regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Zegana gains resistance to one damage type of her choice-acid, fire,\
       \ lightning, or thunder-until the start of her next turn."

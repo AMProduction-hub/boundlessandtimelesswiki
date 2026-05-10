@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Hurricane
+- "Hurricane"
 ---
-# [Hurricane](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/hurricane-pota.md)
+# [Hurricane](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hurricane-pota.md)
 *Source: Princes of the Apocalypse p. 191*  
 
 Hurricanes profess their disgust with decadence, and they dedicate their bodies and their minds to the world's destruction. Through breathing exercises and ascetic philosophy, skilled Howling Hatred initiates learn to imitate the cycling patterns of the hurricane. They believe the physical world must be shattered so that the creatures of the Material Plane can live unshackled by physical things.
@@ -45,12 +46,12 @@ Hurricanes see the frenetic activity of the world in slow motion, and themselves
 "traits":
   - "desc": "The hurricane is a 3rd-level spellcaster. Its spellcasting ability is\
       \ Wisdom (spell save DC 11, +3 to hit with spell attacks). It knows the following\
-      \ sorcerer spells:\n\nCantrips (at will): [blade ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-ward.md),\
+      \ sorcerer spells:\n\n**Cantrips (at will):** [blade ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-ward.md),\
       \ [gust](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-xge.md), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1st level (4 slots): [feather fall](03.PlayerLog&Handouts/Mechanics/CLI/spells/feather-fall.md),\
+      \n**1st level (4 slots):** [feather fall](03.PlayerLog&Handouts/Mechanics/CLI/spells/feather-fall.md),\
       \ [jump](03.PlayerLog&Handouts/Mechanics/CLI/spells/jump.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (2 slots): [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md)"
+      \n**2nd level (2 slots):** [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md)"
     "name": "Spellcasting"
   - "desc": "While the hurricane is wearing no armor and wielding no shield, its AC\
       \ includes its Wisdom modifier."
@@ -61,7 +62,7 @@ Hurricanes see the frenetic activity of the world in slow motion, and themselves
 "actions":
   - "desc": "The hurricane makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) bludgeoning damage."
     "name": "Unarmed Strike"
 "reactions":

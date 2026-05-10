@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Istarian Drone
+- "Istarian Drone"
 ---
-# [Istarian Drone](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/istarian-drone-dsotdq.md)
+# [Istarian Drone](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/istarian-drone-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 202*  
 
 Istarian drones are ancient Constructs made of marble and gleaming metal inlaid with crystals that flash with sparks of electricity. Created to build the fantastic structures that once marked the glory of Istar, these drones resemble short, stout mantises. They have four scuttling insectile legs and barbed, scythe-shaped arms for carrying and placing building materials. The drones create a viscous gel that hardens into crystalline mortar, which they can repurpose to restrain attackers.
@@ -40,7 +41,8 @@ Istarian drones are ancient Constructs made of marble and gleaming metal inlaid 
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 10"
 "languages": "understands the languages spoken by its creator but can't speak"
 "cr": "6"
 "traits":
@@ -52,8 +54,8 @@ Istarian drones are ancient Constructs made of marble and gleaming metal inlaid 
 "actions":
   - "desc": "The drone makes two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9\
-      \ (1d8 + 5) piercing damage plus 4 (d8) lightning damage. If the target\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 9\
+      \ (1d8 + 5) piercing damage plus 4 (1d8) lightning damage. If the target\
       \ is a Medium or smaller creature, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15). The drone has two claws, each of which can grapple only one\
       \ target."

@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/druid/wildfire
 aliases:
-- Circle of Wildfire
+- "Circle of Wildfire"
 ---
 # Circle of Wildfire
 *[Druid](./druid.md): Druid Circle*  
@@ -43,11 +44,9 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Circle of Wildfire (Level 2)
-
 Druids within the Circle of Wildfire understand that destruction is sometimes the precursor of creation, such as when a forest fire promotes later growth. These druids bond with a primal spirit that harbors both destructive and creative power, allowing the druids to create controlled flames that burn away one thing but give life to another.
+
+## Subclass Features
 
 ### Circle Spells (Level 2)
 

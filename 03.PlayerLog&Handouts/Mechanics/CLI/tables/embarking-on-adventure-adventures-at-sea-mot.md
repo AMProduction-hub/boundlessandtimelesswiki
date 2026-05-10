@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Embarking on Adventure; Adventures at Sea
+- "Embarking on Adventure; Adventures at Sea"
 ---
 # Embarking on Adventure; Adventures at Sea
 *Source: Mythic Odysseys of Theros p. 176* 
 
 **Adventures at Sea**
-
-`dice: [](embarking-on-adventure-adventures-at-sea-mot.md#^adventures-at-sea)`
 
 | dice: d10 | Adventure Goal |
 |-----------|----------------|

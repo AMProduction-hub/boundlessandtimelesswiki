@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Animated Object (Medium)
+- "Animated Object (Medium)"
 ---
-# [Animated Object (Medium)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/animated-object-medium.md)
+# [Animated Object (Medium)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-object-medium.md)
 *Source: Player's Handbook p. 213*  
 
 ```statblock
@@ -31,7 +32,8 @@ aliases:
   - !!int "3"
   - !!int "1"
 "speed": "30 ft."
-"senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 6"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft. (blind beyond this radius), passive Perception 6"
 "languages": ""
 "traits":
   - "desc": "If the object lacks legs or other appendages it can use for locomotion,\
@@ -43,7 +45,7 @@ aliases:
       \ inflicts slashing or piercing damage based on its form."
     "name": "Animated"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d6 + 1) bludgeoning damage."
     "name": "Slam"
 "source":

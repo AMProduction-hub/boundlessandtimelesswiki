@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Backstory; Ally Relationships
+- "Backstory; Ally Relationships"
 ---
 # Backstory; Ally Relationships
 *Source: Explorer's Guide to Wildemount p. 191* 
 
 **Ally Relationships**
-
-`dice: [](backstory-ally-relationships-egw.md#^ally-relationships)`
 
 | dice: d100 | Relationship |
 |------------|--------------|

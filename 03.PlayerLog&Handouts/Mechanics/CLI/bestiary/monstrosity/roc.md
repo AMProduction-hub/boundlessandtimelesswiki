@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/11
@@ -14,10 +15,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Roc
+- "Roc"
 ---
-# [Roc](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/roc.md)
-*Source: Monster Manual p. 260, Curse of Strahd, Storm King's Thunder, Ghosts of Saltmarsh, Divine Contention, Dragon of Icespire Peak, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Roc](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/roc.md)
+*Source: Monster Manual p. 260. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 At first sight, a roc's silhouette looks much like any other bird of prey. As it descends, however, its unearthly size becomes terrifyingly clear. In flight, a roc's wingspan spreads two hundred feet or more. At rest, perched upon the mountain peaks that are its home, this monstrous bird rivals the oldest dragons in size.
 
@@ -54,10 +55,10 @@ Sometimes a roc's nest contains treasures from the caravans or ships they raid, 
   - !!int "9"
 "speed": "20 ft., fly 120 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+9"
-  - "wisdom": "+4"
-  - "charisma": "+3"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "3"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
@@ -71,25 +72,16 @@ Sometimes a roc's nest contains treasures from the caravans or ships they raid, 
 "actions":
   - "desc": "The roc makes two attacks: one with its beak and one with its talons."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:*\
       \ 27 (4d8 + 9) piercing damage."
     "name": "Beak"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:*\
       \ 23 (4d6 + 9) slashing damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 19). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and the roc can't use its talons on another target."
     "name": "Talons"
 "source":
   - "MM"
-  - "CoS"
-  - "SKT"
-  - "GoS"
-  - "DC"
-  - "DIP"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/roc.webp"
 ```
 ^statblock

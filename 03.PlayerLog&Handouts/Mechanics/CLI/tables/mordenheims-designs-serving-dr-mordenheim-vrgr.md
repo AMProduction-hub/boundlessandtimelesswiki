@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Mordenheim's Designs; Serving Dr. Mordenheim
+- "Mordenheim's Designs; Serving Dr. Mordenheim"
 ---
 # Mordenheim's Designs; Serving Dr. Mordenheim
 *Source: Van Richten's Guide to Ravenloft p. 142* 
 
 **Serving Dr. Mordenheim**
-
-`dice: [](mordenheims-designs-serving-dr-mordenheim-vrgr.md#^serving-dr-mordenheim)`
 
 | dice: d4 | Mission |
 |----------|---------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reduced-Threat Peryton
+- "Reduced-Threat Peryton"
 ---
-# [Reduced-Threat Peryton](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/reduced-threat-peryton-tftyp.md)
+# [Reduced-Threat Peryton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/reduced-threat-peryton-tftyp.md)
 *Source: Tales from the Yawning Portal p. 113*  
 
 ```statblock
@@ -58,10 +59,10 @@ aliases:
 "actions":
   - "desc": "The peryton makes one gore attack and one talon attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) piercing damage."
     "name": "Gore"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (2d4 + 3) piercing damage."
     "name": "Talons"
 "source":

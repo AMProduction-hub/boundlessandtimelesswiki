@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Jarl Grugnur
+- "Jarl Grugnur"
 ---
-# [Jarl Grugnur](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/jarl-grugnur-tftyp.md)
+# [Jarl Grugnur](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jarl-grugnur-tftyp.md)
 *Source: Tales from the Yawning Portal p. 189*  
 
 ```statblock
@@ -35,26 +36,28 @@ aliases:
   - !!int "16"
 "speed": "40 ft."
 "saves":
-  - "constitution": "+10"
-  - "wisdom": "+7"
-  - "charisma": "+7"
+  - "constitution": !!int "10"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+7"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
 "damage_immunities": "cold"
+"gear":
+  - "[morningstar](03.PlayerLog&Handouts/Mechanics/CLI/items/morningstar.md)"
 "senses": "passive Perception 17"
 "languages": "Common, Giant"
 "cr": "9"
 "actions":
   - "desc": "Grugnur makes two longsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:*\
       \ 23 (3d8 + 10) slashing damage, or 26 (3d10 + 10) slashing damage if used\
       \ with both hands."
     "name": "Longsword +2"
-  - "desc": "Ranged Weapon Attack: +12 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +12 to hit, range 60/240 ft., one target. *Hit:*\
       \ 30 (4d10 + 8) bludgeoning damage."
     "name": "Rock"
 "source":

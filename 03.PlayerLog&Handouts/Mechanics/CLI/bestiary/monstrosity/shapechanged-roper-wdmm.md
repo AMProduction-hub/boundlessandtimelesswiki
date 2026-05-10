@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Shapechanged Roper
+- "Shapechanged Roper"
 ---
-# [Shapechanged Roper](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/shapechanged-roper-wdmm.md)
+# [Shapechanged Roper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/shapechanged-roper-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 106*  
 
 ```statblock
@@ -37,7 +38,8 @@ aliases:
     "desc": "+6"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 16"
 "languages": ""
 "cr": "5"
 "traits":
@@ -62,10 +64,10 @@ aliases:
   - "desc": "The roper makes four attacks with its tendrils, uses Reel, and makes\
       \ one attack with its bite."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 22\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 22\
       \ (4d8 + 4) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 50 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 50 ft., one creature. *Hit:*\
       \ The target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15). Until the grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ and has disadvantage on Strength checks and Strength saving throws, and the\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mimic
+- "Mimic"
 ---
-# [Mimic](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/mimic.md)
-*Source: Monster Manual p. 220, Curse of Strahd, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Mimic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/mimic.md)
+*Source: Monster Manual p. 220. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Mimics are shapeshifting predators able to take on the form of inanimate objects to lure creatures to their doom. In dungeons, these cunning creatures most often take the form of doors and chests, having learned that such forms attract a steady stream of prey.
 
@@ -57,7 +58,8 @@ Mimics live and hunt alone, though they occasionally share their feeding grounds
     "desc": "+5"
 "damage_immunities": "acid"
 "condition_immunities": "[prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": ""
 "cr": "2"
 "traits":
@@ -77,26 +79,15 @@ Mimics live and hunt alone, though they occasionally share their feeding grounds
       \ by it."
     "name": "Grappler"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) bludgeoning damage. If the mimic is in object form, the target\
       \ is subjected to its Adhesive trait."
     "name": "Pseudopod"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d8 + 3) piercing damage plus 4 (d8) acid damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
+      \ (1d8 + 3) piercing damage plus 4 (1d8) acid damage."
     "name": "Bite"
 "source":
   - "MM"
-  - "CoS"
-  - "ToA"
-  - "WDH"
-  - "WDMM"
-  - "DIP"
-  - "BGDIA"
-  - "IMR"
-  - "EGW"
-  - "IDRotF"
-  - "CM"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/mimic.webp"
 ```
 ^statblock

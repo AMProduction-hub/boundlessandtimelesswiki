@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/hftt
 aliases:
-- Hunt for the Thessalhydra
+- "Hunt for the Thessalhydra"
 ---
 # Hunt for the Thessalhydra
 *Source: Hunt for the Thessalhydra, p. 1* 
@@ -130,13 +131,13 @@ Use the first few hallways as shown on the map (above), but when the characters 
 
 | d20 Result | Result |
 |------------|--------|
-| 1–2 | `d10` map squares straight, then dead end |
-| 3–5 | `d6` map squares straight, then reroll |
-| 6–8 | `d4` map squares straight, then turn left |
-| 9–11 | `d4` map squares straight, then turn right |
+| 1–2 | `1d10` map squares straight, then dead end |
+| 3–5 | `1d6` map squares straight, then reroll |
+| 6–8 | `1d4` map squares straight, then turn left |
+| 9–11 | `1d4` map squares straight, then turn right |
 | 12–14 | Special encounter (described below) |
-| 15–16 | `d4` map squares straight, then T intersection |
-| 17–18 | `d6` map squares straight, then a four-way intersection |
+| 15–16 | `1d4` map squares straight, then T intersection |
+| 17–18 | `1d6` map squares straight, then a four-way intersection |
 | 19 | Reroll, but also add a door |
 | 20 | Reroll, but also add a secret door |
 ^result-result
@@ -144,8 +145,6 @@ Use the first few hallways as shown on the map (above), but when the characters 
 ### Special Encounters
 
 While going through the Cursed Labyrinth, the characters will have some interesting encounters. Roll on the following table (if you get the same result twice, reroll or choose an encounter).
-
-`dice: [](1-hunt-for-the-thessalhydra.md#^encounter)`
 
 | dice: d6 | Encounter |
 |----------|-----------|
@@ -167,7 +166,7 @@ They find the remains of an ancient adventurer who died trying to escape the lab
 
 #### Pit Trap
 
-The hallway has a pit trap somewhere along its length. Characters must make a successful DC 12 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check to detect the trap, and a successful DC 12 Dexterity check to safely move past it. Those who fail the Dexterity check fall in and take `d6` bludgeoning damage. Climbing out of the pit is easy to do.
+The hallway has a pit trap somewhere along its length. Characters must make a successful DC 12 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check to detect the trap, and a successful DC 12 Dexterity check to safely move past it. Those who fail the Dexterity check fall in and take `1d6` bludgeoning damage. Climbing out of the pit is easy to do.
 
 #### Troglodytes
 
@@ -227,7 +226,7 @@ A common woman wearing an apron and an empty space for a second statue.
 
 In the room is a large table covered with many small statues, including a cake, a pie, a spinning wheel, a basket of laundry, a plate with a steak, a toy soldier, a sword, and twenty-four sculptures of crows.
 
-To solve the riddle, the characters must put the right statue from the table in the empty space on shelf 3. If they put a wrong sculpture on the shelf, everyone in the room takes `d4` lightning damage. They must try again. If they put the right statue there, the door opens.
+To solve the riddle, the characters must put the right statue from the table in the empty space on shelf 3. If they put a wrong sculpture on the shelf, everyone in the room takes `1d4` lightning damage. They must try again. If they put the right statue there, the door opens.
 
 Solution. The basket of laundry. These are the characters from the nursery rhyme "Sing a Song of Sixpence."
 
@@ -286,7 +285,7 @@ The thessalhydra uses the Upside Down as a way to return to its lair without bei
 
 The Proud Princess can point them to the cavern where the flowers grow, but if the characters want to open a gateway, they'll also need the blood of a monstrosity. Luckily, she knows of one that has been stalking around the Upside Down lately: a [demogorgon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/demogorgon-hftt.md)!
 
-She tells them that the demogorgon is attracted to the smell of blood. The easiest way to get its attention is to spill blood on the ground. But since there are so few creatures in the Upside Down, the only source is the characters themselves. Using a weapon carefully, a character can do minor damage (cutting their palm) causing 1 hp of damage and spilling a small amount of blood. If the group spills a total of 3 hp worth of blood, the demogorgon will arrive `d6` minutes later, leaping from the darkness and attacking the group.
+She tells them that the demogorgon is attracted to the smell of blood. The easiest way to get its attention is to spill blood on the ground. But since there are so few creatures in the Upside Down, the only source is the characters themselves. Using a weapon carefully, a character can do minor damage (cutting their palm) causing 1 hp of damage and spilling a small amount of blood. If the group spills a total of 3 hp worth of blood, the demogorgon will arrive `1d6` minutes later, leaping from the darkness and attacking the group.
 
 If the characters don't want to spill their own blood, they can stalk the demogorgon, but this is very difficult. One character should try a DC 15 Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check for the group. If this is successful, they have found the demogorgon. If it fails, the group may try again (with the same character or a different one making the check). If the group fails three times, the demogorgon has found them and attacks, but the characters are [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised) (see chapter 2 of the rulebook for how surprise works).
 

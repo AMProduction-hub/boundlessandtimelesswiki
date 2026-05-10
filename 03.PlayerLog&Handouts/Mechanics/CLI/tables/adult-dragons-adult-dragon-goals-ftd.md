@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Adult Dragons; Adult Dragon Goals
+- "Adult Dragons; Adult Dragon Goals"
 ---
 # Adult Dragons; Adult Dragon Goals
 *Source: Fizban's Treasury of Dragons p. 36* 
 
 **Adult Dragon Goals**
-
-`dice: [](adult-dragons-adult-dragon-goals-ftd.md#^adult-dragon-goals)`
 
 | dice: d6 | Goal |
 |----------|------|

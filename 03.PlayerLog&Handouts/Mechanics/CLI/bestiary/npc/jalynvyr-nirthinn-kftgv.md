@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/kftgv
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Jalynvyr Nir'Thinn
+- "Jalynvyr Nir'Thinn"
 ---
-# [Jalynvyr Nir'Thinn](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/jalynvyr-nirthinn-kftgv.md)
+# [Jalynvyr Nir'Thinn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jalynvyr-nirthinn-kftgv.md)
 *Source: Keys from the Golden Vault p. 155*  
 
 ```statblock
@@ -38,7 +39,8 @@ aliases:
     "desc": "+4"
 "damage_immunities": "fire, poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Elvish"
 "cr": "1/4"
 "traits":
@@ -50,7 +52,7 @@ aliases:
       \ obscured. Wind disperses the cloud, which otherwise lasts for 1 minute."
     "name": "Death Burst"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d4 + 2) slashing damage."
     "name": "Claws"
   - "desc": "Jalynvyr Nir'Thinn exhales a 15-foot cone of smoldering ash. Each creature\

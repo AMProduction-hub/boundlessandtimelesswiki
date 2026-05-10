@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 aliases:
-- Scholars of Silverquill; Silverquill Scholars
+- "Scholars of Silverquill; Silverquill Scholars"
 ---
 # Scholars of Silverquill; Silverquill Scholars
 *Source: Strixhaven: A Curriculum of Chaos p. 22* 
 
 **Silverquill Scholars**
-
-`dice: [](scholars-of-silverquill-silverquill-scholars-scc.md#^silverquill-scholars)`
 
 | dice: d8 | Scholar | Principle |
 |----------|---------|-----------|

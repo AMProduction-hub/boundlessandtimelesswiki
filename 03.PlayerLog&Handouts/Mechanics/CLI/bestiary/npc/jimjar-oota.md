@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Jimjar
+- "Jimjar"
 ---
-# [Jimjar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/jimjar-oota.md)
+# [Jimjar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/jimjar-oota.md)
 *Source: Out of the Abyss p. 6*  
 
 ```statblock
@@ -47,16 +48,21 @@ aliases:
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
-"senses": "darkvision 120 ft., passive Perception 16"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 16"
 "languages": "Common, Gnomish, Terran, Undercommon"
 "cr": "1"
 "traits":
-  - "desc": "Jimjar\n\nAt will: [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md)\
-      \ (self only)\n\n1/day each: [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
+  - "desc": "Jimjar\n\n**At will:** [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md)\
+      \ (self only)\n\n**1/day each:** [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
       \ [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md), [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md)"
     "name": "Innate Spellcasting"
-  - "desc": "On each of its turns, Jimjar can use a bonus action to take the Dash,\
-      \ Disengage, or Hide action."
+  - "desc": "On each of its turns, Jimjar can use a bonus action to take the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash),\
+      \ [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage),\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action."
     "name": "Cunning Action"
   - "desc": "Jimjar deals an extra 7 (2d6) damage when it hits a target with a weapon\
       \ attack and has advantage on the attack roll, or when the target is within\
@@ -70,10 +76,10 @@ aliases:
 "actions":
   - "desc": "Jimjar makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Hand Crossbow"
 "source":

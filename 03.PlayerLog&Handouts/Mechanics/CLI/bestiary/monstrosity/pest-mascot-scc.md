@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Pest Mascot
+- "Pest Mascot"
 ---
-# [Pest Mascot](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/pest-mascot-scc.md)
+# [Pest Mascot](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/pest-mascot-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 203*  
 
 Grumpy, spiky, and generally irritating, pest mascots inhabit the muggy bayou of Sedgemoor. However, these ferret-sized swamp creatures hold deep wells of life essence, making them convenient fuel sources for the magic of Witherbloom mages. As such, many Witherbloom students have adopted pests from the bayou as pets, and pests, in all their spiny glory, have become the mascots of the college.
@@ -37,7 +38,8 @@ Grumpy, spiky, and generally irritating, pest mascots inhabit the muggy bayou of
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": ""
 "cr": "1/4"
 "traits":
@@ -45,11 +47,11 @@ Grumpy, spiky, and generally irritating, pest mascots inhabit the muggy bayou of
       \ 1 hit point. If it takes fire damage, this trait doesn't function at the start\
       \ of the pest's next turn."
     "name": "Regeneration"
-  - "desc": "At the start of each of its turns, the pest deals 2 (d4) piercing damage\
-      \ to any creature grappling it or that it is grappling."
+  - "desc": "At the start of each of its turns, the pest deals 2 (1d4) piercing\
+      \ damage to any creature grappling it or that it is grappling."
     "name": "Spiny Hide"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage."
     "name": "Bite"
 "source":

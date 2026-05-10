@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Swarm of Books
+- "Swarm of Books"
 ---
-# [Swarm of Books](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/swarm-of-books-wdh.md)
+# [Swarm of Books](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/swarm-of-books-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 156*  
 
 Animated books which form a swarm when disturbed
@@ -40,7 +41,8 @@ Animated books which form a swarm when disturbed
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned), [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)"
-"senses": "blindsight 60 ft., passive Perception 11"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., passive Perception 11"
 "languages": ""
 "cr": "1/4"
 "traits":
@@ -49,8 +51,8 @@ Animated books which form a swarm when disturbed
       \ can't regain hit points or gain temporary hit points."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 0 ft., one creature in the\
-      \ swarm's space. Hit: 5 (2d4) bludgeoning damage, or 2 (d4) bludgeoning\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 0 ft., one creature in the\
+      \ swarm's space. *Hit:* 5 (2d4) bludgeoning damage, or 2 (1d4) bludgeoning\
       \ damage if the swarm has half of its hit points or fewer."
     "name": "Slam"
 "source":

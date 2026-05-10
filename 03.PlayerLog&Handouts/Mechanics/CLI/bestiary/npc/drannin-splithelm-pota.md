@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Drannin Splithelm
+- "Drannin Splithelm"
 ---
-# [Drannin Splithelm](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/drannin-splithelm-pota.md)
+# [Drannin Splithelm](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/drannin-splithelm-pota.md)
 *Source: Princes of the Apocalypse p. 210*  
 
 Drannin is a self-serving dwarf who has always felt that, due to his heritage, he was owed better than he received. When he didn't receive the accolades, he began to see everyone in his way as the problem, trying to keep him down, and he vowed to do whatever it took to turn the tables. He is currently intent on claiming the legendary axe Orcsplitter, the weapon buried with King Torhild Flametongue of Besilmer many centuries ago. The secret doors and puzzles of the Halls of the Hunting Axe have frustrated Drannin for a long time, but he now has a plan to dupe his cousin Gargosh into finding the axe for him (see the "Halls of the Hunting Axe" side trek in chapter 6). Drannin believes that with Orcsplitter in his possession he can establish himself as a powerful lord among his clan, and finally win the respect he thinks he deserves.
@@ -43,7 +44,10 @@ Drannin's most prized possession is his shield guardian. He stole the amulet tha
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+4"
 "damage_resistances": "cold, poison"
-"senses": "darkvision 60 ft., passive Perception 9"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "Common, Dwarvish"
 "cr": "7"
 "traits":
@@ -66,7 +70,7 @@ Drannin's most prized possession is his shield guardian. He stole the amulet tha
 "actions":
   - "desc": "Drannin makes three attacks with his greataxe."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 17\
       \ (2d12 + 4) slashing damage."
     "name": "Greataxe"
 "source":

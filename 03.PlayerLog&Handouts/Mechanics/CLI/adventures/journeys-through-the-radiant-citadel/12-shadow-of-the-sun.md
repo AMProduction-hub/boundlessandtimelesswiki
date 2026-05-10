@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 aliases:
-- Shadow of the Sun
+- "Shadow of the Sun"
 ---
 # Shadow of the Sun
 *Source: Journeys through the Radiant Citadel, p. 148* 
@@ -62,7 +63,7 @@ Consider the following ways to involve characters in this adventure:
 
 ### Splitting Loyalties
 
-![The plans of Ashen Heir an...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/099-11-001-ashen-heir-plans.webp#center "The plans of Ashen Heir anarchists go awry when a purple worm erupts into Three Suns Square")
+![The plans of Ashen Heir anarchists go awry when a purple worm erupts into Three Suns Square](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/099-11-001-ashen-heir-plans.webp#center)
 
 During the adventure, characters will ally with one of two factions: the Brightguard or the Silent Roar. The Brightguard approaches them first, but characters might change their loyalties. How the characters manage relationships with these factions affects how the adventure unfolds.
 
@@ -335,14 +336,12 @@ Complications occur randomly during the chase for both the Ashen Heirs and the c
 
 **Bazaar Chase Complications**
 
-`dice: [](12-shadow-of-the-sun.md#^bazaar-chase-complications)`
-
 | dice: d10 | Complication |
 |-----------|--------------|
-| 1 | A taught line of pennants stretches across your path. You must succeed on a DC 10 Dexterity saving throw, or you fall `2d4 × 5` feet, taking `d6` bludgeoning damage per 10 feet fallen and landing [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). If you are using a [carpet of flying](03.PlayerLog&Handouts/Mechanics/CLI/items/carpet-of-flying.md), any character on the same conveyance must also make this saving throw. |
+| 1 | A taught line of pennants stretches across your path. You must succeed on a DC 10 Dexterity saving throw, or you fall `2d4 × 5` feet, taking `1d6` bludgeoning damage per 10 feet fallen and landing [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). If you are using a [carpet of flying](03.PlayerLog&Handouts/Mechanics/CLI/items/carpet-of-flying.md), any character on the same conveyance must also make this saving throw. |
 | 2 | Choose to fly around or through a gap between bazaar stalls. If you fly around, the area counts as 10 feet of "difficult terrain". If you fly through the gap, you must succeed on a DC 16 Dexterity saving throw, or you break through the stall and take `4d6` bludgeoning damage. If you are using a [carpet of flying](03.PlayerLog&Handouts/Mechanics/CLI/items/carpet-of-flying.md), any other character on the same conveyance must also make this saving throw. |
 | 3 | An overturned crate releases chickens and a cloud of feathers into the air. Make a DC 16 Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check to try to stay on course through the distractions. On a failed check, the obstacle counts as 10 feet of "difficult terrain". |
-| 4 | You pass through an arc of knives thrown by performing food vendors (+3 to hit, `4d4 + 1` piercing damage on a hit). |
+| 4 | You pass through an arc of knives thrown by performing food vendors (`+3` to hit, `4d4 + 1` piercing damage on a hit). |
 | 5 | You fly through hanging textiles. Make a DC 14 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check to navigate the fabric. On a failed check, the path counts as 10 feet of "difficult terrain". |
 | 6 | Spices from an overturned stand fill the air. You must succeed on a DC 16 Constitution saving throw, or you are [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) until the end of your turn, roll on this table again, and immediately experience that complication. You can avoid rolling on the table again if you don't move this turn. |
 | 7–10 | No complication |
@@ -826,8 +825,6 @@ Afterward, [Atash](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/atash-jttrc.
 Consider the plots on the Akharin Sangar Adventures table when planning adventures.
 
 **Akharin Sangar Adventures**
-
-`dice: [](12-shadow-of-the-sun.md#^akharin-sangar-adventures)`
 
 | dice: d6 | Adventure |
 |----------|-----------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Anarch
+- "Anarch"
 ---
-# [Anarch](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/anarch-ggr.md)
+# [Anarch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/anarch-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 239*  
 
 The rank-and-file members of the Gruul Clans, called anarchs, despise civilization and have sworn to tear down both its physical structures and its institutions. Anarchs scavenge everything, from the hide armor they wear to the weapons they wield. As they pick through the refuse of the rubblebelts, they sometimes come across magic items and other valuable treasures.
@@ -50,7 +51,7 @@ The rank-and-file members of the Gruul Clans, called anarchs, despise civilizati
   - "desc": "The anarch deals double damage to objects and structures."
     "name": "Siege Monster"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d8 + 2) piercing damage, or 7 (1d10 + 2) piercing damage if used with\
       \ two hands."
     "name": "Spiked Club"

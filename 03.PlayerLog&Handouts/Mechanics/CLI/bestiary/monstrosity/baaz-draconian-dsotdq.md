@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Baaz Draconian
+- "Baaz Draconian"
 ---
-# [Baaz Draconian](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/baaz-draconian-dsotdq.md)
+# [Baaz Draconian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/baaz-draconian-dsotdq.md)
 *Source: Dragonlance: Shadow of the Dragon Queen p. 197*  
 
 Baaz draconians are fanatical foot soldiers that emerge from the eggs of brass dragons. They are the smallest of the draconians, and their slight wings are incapable of flight, though they do afford the draconians some control when falling. These wings are small enough to be hidden beneath a cloak or robe, and baaz draconians disguise themselves to spy for the Dragon Armies. The sight of dragons drives baaz draconians into a deadly furor. When baaz draconians die, their bodies turn to stone and unleash clouds of petrifying gas that turn their corpses and any nearby creatures into stone.
@@ -38,7 +39,10 @@ Draconians are bipedal monsters born from metallic dragon eggs that have been co
   - !!int "8"
   - !!int "10"
 "speed": "30 ft."
-"senses": "darkvision 60 ft., passive Perception 9"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 9"
 "languages": "Common, Draconic"
 "cr": "1/2"
 "traits":
@@ -59,7 +63,7 @@ Draconians are bipedal monsters born from metallic dragon eggs that have been co
 "actions":
   - "desc": "The draconian makes two Shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) piercing damage."
     "name": "Shortsword"
 "source":

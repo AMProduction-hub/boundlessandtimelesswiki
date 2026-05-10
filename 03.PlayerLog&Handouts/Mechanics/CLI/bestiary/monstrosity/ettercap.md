@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ettercap
+- "Ettercap"
 ---
-# [Ettercap](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/ettercap.md)
-*Source: Monster Manual p. 131, Storm King's Thunder, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Ettercap](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/ettercap.md)
+*Source: Monster Manual p. 131. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Ettercaps are humanoid spiders that tend, feed, and watch over spiders the way a shepherd oversees a flock of sheep. They lair deep in remote forests.
 
@@ -56,7 +57,8 @@ Ettercaps are natural enemies of fey creatures. The foul creatures set web snare
     "desc": "+4"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+3"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": ""
 "cr": "2"
 "traits":
@@ -71,17 +73,17 @@ Ettercaps are natural enemies of fey creatures. The foul creatures set web snare
 "actions":
   - "desc": "The ettercap makes two attacks: one with its bite and one with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
-      \ 6 (1d8 + 2) piercing damage plus 4 (d8) poison damage. The target must\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
+      \ 6 (1d8 + 2) piercing damage plus 4 (1d8) poison damage. The target must\
       \ succeed on a DC 11 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. The creature can repeat the saving throw at the end of each\
       \ of its turns, ending the effect on itself on a success."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (2d4 + 2) slashing damage."
     "name": "Claws"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/60 ft., one Large or smaller\
-      \ creature. Hit: The creature is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/60 ft., one Large or smaller\
+      \ creature. *Hit:* The creature is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ by webbing. As an action, the [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
       \ creature can make a DC 11 Strength check, escaping from the webbing on a success.\
       \ The effect ends if the webbing is destroyed. The webbing has AC 10, 5 hit\
@@ -90,13 +92,6 @@ Ettercaps are natural enemies of fey creatures. The foul creatures set web snare
     "name": "Web (Recharge 5-6)"
 "source":
   - "MM"
-  - "SKT"
-  - "WDH"
-  - "WDMM"
-  - "GoS"
-  - "BGDIA"
-  - "EGW"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/ettercap.webp"
 ```
 ^statblock

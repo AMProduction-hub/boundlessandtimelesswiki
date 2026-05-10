@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/12
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Valtagar Steelshadow
+- "Valtagar Steelshadow"
 ---
-# [Valtagar Steelshadow](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/valtagar-steelshadow-wdmm.md)
+# [Valtagar Steelshadow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/valtagar-steelshadow-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 271*  
 
 Archmages are exceedingly rare in duergar society, and Valtagar's gift for wizardry never sat well with the clans of Gracklstugh. He doesn't put himself in harm's way unless he has a clear tactical edge.
@@ -36,8 +37,8 @@ Archmages are exceedingly rare in duergar society, and Valtagar's gift for wizar
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+9"
-  - "wisdom": "+6"
+  - "intelligence": !!int "9"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+13"
@@ -45,51 +46,54 @@ Archmages are exceedingly rare in duergar society, and Valtagar's gift for wizar
     "desc": "+13"
 "damage_resistances": "damage from spells; nonmagical bludgeoning, piercing, slashing\
   \ (from stoneskin); poison"
-"senses": "darkvision 120 ft., passive Perception 12"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 12"
 "languages": "Common, Dwarvish, Infernal, Terran, Troglodyte, Undercommon"
 "cr": "12"
 "traits":
   - "desc": "Valtagar is an 18th-level spellcaster. Its spellcasting ability is Intelligence\
       \ (spell save DC 17, +9 to hit with spell attacks). Valtagar can cast [disguise\
       \ self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md) and [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
-      \ at will and has the following wizard spells prepared:\n\nCantrips (at will):\
+      \ at will and has the following wizard spells prepared:\n\n**Cantrips (at will):**\
       \ [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
-      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**1st level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md), [mage\
-      \ armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [magic\
+      \ armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)*, [magic\
       \ missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md)\n\n\
-      2nd level (3 slots): [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      **2nd level (3 slots):** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md)\n\n\
-      3rd level (3 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      **3rd level (3 slots):** [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)\n\
-      \n4th level (3 slots): [Otiluke's Resilient Sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/otilukes-resilient-sphere.md),\
+      \n**4th level (3 slots):** [Otiluke's Resilient Sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/otilukes-resilient-sphere.md),\
       \ [fire shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-shield.md),\
-      \ [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)\n\n\
-      5th level (3 slots): [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md),\
+      \ [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)*\n\n\
+      **5th level (3 slots):** [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md),\
       \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md), [wall of\
-      \ force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md)\n\n6th\
-      \ level (1 slots): [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md)\n\
-      \n7th level (1 slots): [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)\n\
-      \n8th level (1 slots): [mind blank](03.PlayerLog&Handouts/Mechanics/CLI/spells/mind-blank.md)\n\
-      \n9th level (1 slots): [time stop](03.PlayerLog&Handouts/Mechanics/CLI/spells/time-stop.md)\n\
-      \nValtagar casts these spells on itself before combat."
+      \ force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md)\n\n**6th\
+      \ level (1 slots):** [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md)\n\
+      \n**7th level (1 slots):** [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)\n\
+      \n**8th level (1 slots):** [mind blank](03.PlayerLog&Handouts/Mechanics/CLI/spells/mind-blank.md)*\n\
+      \n**9th level (1 slots):** [time stop](03.PlayerLog&Handouts/Mechanics/CLI/spells/time-stop.md)\n\
+      \n*Valtagar casts these spells on itself before combat."
     "name": "Spellcasting"
   - "desc": "Valtagar has advantage on saving throws against spells and other magical\
       \ effects."
     "name": "Magic Resistance"
   - "desc": "Valtagar"
     "name": "Dwarven Resilience"
+"actions":
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
+    "name": "Dagger"
   - "desc": "Valtagar"
     "name": "Enlarge (Recharges after a Short or Long Rest)"
   - "desc": "Valtagar"
     "name": "Invisibility (Recharges after a Short or Long Rest)"
-"actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
-    "name": "Dagger"
 "source":
   - "WDMM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/valtagar-steelshadow-wdmm.webp"

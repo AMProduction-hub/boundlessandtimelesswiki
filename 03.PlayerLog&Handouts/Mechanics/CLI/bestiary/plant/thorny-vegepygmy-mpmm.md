@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Thorny Vegepygmy
+- "Thorny Vegepygmy"
 ---
-# [Thorny Vegepygmy](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/thorny-vegepygmy-mpmm.md)
+# [Thorny Vegepygmy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/thorny-vegepygmy-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 253, Volo's Guide to Monsters p. 197*  
 
 If a Beast such as a dog or a bear dies from [russet mold](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/russet-mold-vgm.md), the result is a bestial moldy called a thorny, instead of a bipedal vegepygmy. Thornies are less intelligent than other vegepygmies, but they are larger and more ferocious and have thorn-covered bodies.
@@ -48,7 +49,8 @@ Although they prefer to eat fresh meat, bone, and blood, vegepygmies can absorb 
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
 "damage_resistances": "lightning, piercing"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": ""
 "cr": "1"
 "traits":
@@ -60,11 +62,11 @@ Although they prefer to eat fresh meat, bone, and blood, vegepygmies can absorb 
       \ the thorny's next turn. The thorny dies only if it starts its turn with 0\
       \ hit points and doesn't regenerate."
     "name": "Regeneration"
-  - "desc": "At the start of its turn, the thorny deals 2 (d4) piercing damage to\
-      \ any creature grappling it."
+  - "desc": "At the start of its turn, the thorny deals 2 (1d4) piercing damage\
+      \ to any creature grappling it."
     "name": "Thorny Body"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d8 + 1) piercing damage."
     "name": "Bite"
 "source":

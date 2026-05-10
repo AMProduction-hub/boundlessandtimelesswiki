@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/tempest
 - ttrpg-cli/domain/war
-aliases: 
-- Valkur
+aliases:
+- "Valkur"
 ---
 # Valkur
 *Source: Sword Coast Adventurer's Guide p. 21* 

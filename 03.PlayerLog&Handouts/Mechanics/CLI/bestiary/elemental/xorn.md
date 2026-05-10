@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Xorn
+- "Xorn"
 ---
-# [Xorn](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/xorn.md)
-*Source: Monster Manual p. 304, Princes of the Apocalypse, Waterdeep: Dungeon of the Mad Mage. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Xorn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/xorn.md)
+*Source: Monster Manual p. 304. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Bizarre creatures native to the Elemental Plane of Earth, xorn sniff out gemstones and precious metals, then tunnel through earth and rock to consume those treasures. On the Material Plane, xorn must range far and wide through the Underdark to sustain themselves, becoming aggressive toward miners and treasure hunters when the valuable minerals of their diet are scarce.
 
@@ -52,7 +53,8 @@ Possessed of the power of elemental earth, a xorn glides through stone and dirt 
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
 "damage_resistances": "piercing, slashing from nonmagical attacks that aren't adamantine"
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 16"
 "languages": "Terran"
 "cr": "5"
 "traits":
@@ -68,16 +70,14 @@ Possessed of the power of elemental earth, a xorn glides through stone and dirt 
 "actions":
   - "desc": "The xorn makes three claw attacks and one bite attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (3d6 + 3) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Claw"
 "source":
   - "MM"
-  - "PotA"
-  - "WDMM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/xorn.webp"
 ```
 ^statblock

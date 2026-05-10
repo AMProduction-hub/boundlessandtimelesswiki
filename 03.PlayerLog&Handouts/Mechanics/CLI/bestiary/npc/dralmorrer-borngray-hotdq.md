@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/hotdq
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dralmorrer Borngray
+- "Dralmorrer Borngray"
 ---
-# [Dralmorrer Borngray](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/dralmorrer-borngray-hotdq.md)
+# [Dralmorrer Borngray](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/dralmorrer-borngray-hotdq.md)
 *Source: Hoard of the Dragon Queen p. 90, Tyranny of Dragons p. 184*  
 
 ```statblock
@@ -35,8 +36,8 @@ aliases:
   - !!int "8"
 "speed": "30 ft."
 "saves":
-  - "strength": "+6"
-  - "constitution": "+4"
+  - "strength": !!int "6"
+  - "constitution": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -48,20 +49,24 @@ aliases:
     "desc": "+2"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+  - "[longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Bullywug, Draconic, Elvish, Goblin, Sylvan"
 "cr": "3"
 "traits":
   - "desc": "Dralmorrer is a 7th-level spellcaster that uses Intelligence as his spellcasting\
       \ ability (spell save DC 13, +5 to hit with spell attacks). Dralmorrer has\
-      \ the following spells prepared from the wizard spell list:\n\nCantrips (at\
-      \ will): [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
+      \ the following spells prepared from the wizard spell list:\n\n**Cantrips (at\
+      \ will):** [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
-      \n1st level (4 slots): [longstrider](03.PlayerLog&Handouts/Mechanics/CLI/spells/longstrider.md),\
+      \n**1st level (4 slots):** [longstrider](03.PlayerLog&Handouts/Mechanics/CLI/spells/longstrider.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
       \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (2 slots): [magic weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-weapon.md),\
+      \n**2nd level (2 slots):** [magic weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-weapon.md),\
       \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md)"
     "name": "Spellcasting"
   - "desc": "Dralmorrer has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
@@ -76,11 +81,11 @@ aliases:
 "actions":
   - "desc": "Dralmorrer attacks twice, either with his longsword or dagger."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) slashing damage."
     "name": "Longsword"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or ranged\
-      \ 20/60 ft., one target. Hit: 6 (1d4 + 4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or ranged\
+      \ 20/60 ft., one target. *Hit:* 6 (1d4 + 4) piercing damage."
     "name": "Dagger"
 "source":
   - "HotDQ"

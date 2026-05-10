@@ -1,14 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/optional-feature/ed
 aliases:
-- Elemental Attunement
+- "Elemental Attunement"
 ---
 # Elemental Attunement
 *Source: Player's Handbook p. 81*  
+
 You can use your action to briefly control elemental forces within 30 feet of you, causing one of the following effects of your choice:
 
 - Create a harmless, instantaneous sensory effect related to air, earth, fire, or water, such as a shower of sparks, a puff of wind, a spray of light mist, or a gentle rumbling of stone.  

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sirac of Suzail
+- "Sirac of Suzail"
 ---
-# [Sirac of Suzail](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sirac-of-suzail-skt.md)
+# [Sirac of Suzail](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sirac-of-suzail-skt.md)
 *Source: Storm King's Thunder p. 247*  
 
 An acolyte of Torm, Sirac grew up on the streets of Suzail, the capital of Cormyr. He came to Icewind Dale to become a knucklehead trout fisher but instead found religion. The misbegotten son of Artus Cimber, a renowned human adventurer, Sirac hasn't seen his father since he was a baby.
@@ -48,6 +49,9 @@ Flaw:"I am honest to a fault."
     "desc": "+3"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+3"
+"gear":
+  - "[dart](03.PlayerLog&Handouts/Mechanics/CLI/items/dart.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 11"
 "languages": "Common, Orc"
 "traits":
@@ -59,10 +63,10 @@ Flaw:"I am honest to a fault."
       \ i belong for the rest of my life.\"\n\nFlaw: \"I am honest to a fault.\""
     "name": "Roleplaying Information"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 20/60 ft., one target. *Hit:*\
       \ 5 (1d4 + 3) piercing damage. Sirac carries six darts."
     "name": "Dart"
 "reactions":

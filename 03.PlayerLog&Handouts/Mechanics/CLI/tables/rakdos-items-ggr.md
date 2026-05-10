@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Rakdos Items
+- "Rakdos Items"
 ---
 # Rakdos Items
 *Source: Guildmasters' Guide to Ravnica p. 176* 

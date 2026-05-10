@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Zaltember
+- "Zaltember"
 ---
-# [Zaltember](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/zaltember-skt.md)
+# [Zaltember](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zaltember-skt.md)
 *Source: Storm King's Thunder p. 180*  
 
 ```statblock
@@ -33,16 +34,19 @@ aliases:
   - !!int "10"
 "speed": "30 ft."
 "damage_immunities": "fire"
+"gear":
+  - "[battleaxe](03.PlayerLog&Handouts/Mechanics/CLI/items/battleaxe.md)"
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
 "senses": "passive Perception 10"
 "languages": "Common, Giant"
 "cr": "1"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 12\
       \ (2d8 + 3) slashing damage, or 14 (2d10 + 3) slashing damage if used with\
       \ two hands."
     "name": "Battleaxe"
-  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 10 (2d6 + 3) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 10 (2d6 + 3) piercing damage."
     "name": "Javelin"
 "source":
   - "SKT"

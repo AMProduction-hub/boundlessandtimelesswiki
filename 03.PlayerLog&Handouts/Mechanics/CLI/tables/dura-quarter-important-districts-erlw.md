@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Dura Quarter: Important Districts
+- "Dura Quarter: Important Districts"
 ---
 # Dura Quarter: Important Districts
 *Source: Eberron: Rising from the Last War p. 162* 

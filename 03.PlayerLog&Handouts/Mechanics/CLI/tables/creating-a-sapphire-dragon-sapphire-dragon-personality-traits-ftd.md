@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Creating a Sapphire Dragon; Sapphire Dragon Personality Traits
+- "Creating a Sapphire Dragon; Sapphire Dragon Personality Traits"
 ---
 # Creating a Sapphire Dragon; Sapphire Dragon Personality Traits
 *Source: Fizban's Treasury of Dragons p. 138* 
 
 **Sapphire Dragon Personality Traits**
-
-`dice: [](creating-a-sapphire-dragon-sapphire-dragon-personality-traits-ftd.md#^sapphire-dragon-personality-traits)`
 
 | dice: d8 | Trait |
 |----------|-------|

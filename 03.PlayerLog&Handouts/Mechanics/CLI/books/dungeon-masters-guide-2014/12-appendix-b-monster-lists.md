@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Appendix B: Monster Lists
+- "Appendix B: Monster Lists"
 ---
 # Appendix B: Monster Lists
 *Source: Dungeon Master's Guide (2014), p. 302* 

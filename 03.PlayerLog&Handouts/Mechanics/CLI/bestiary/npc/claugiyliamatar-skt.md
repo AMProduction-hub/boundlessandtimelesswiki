@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/22
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Claugiyliamatar
+- "Claugiyliamatar"
 ---
-# [Claugiyliamatar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/claugiyliamatar-skt.md)
-*Source: Storm King's Thunder p. 96, Divine Contention, Storm Lord's Wrath, Sleeping Dragon's Wake*  
+# [Claugiyliamatar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/claugiyliamatar-skt.md)
+*Source: Storm King's Thunder p. 96*  
 
 ```statblock
 "name": "Claugiyliamatar (SKT)"
@@ -33,10 +34,10 @@ aliases:
   - !!int "19"
 "speed": "40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+8"
-  - "constitution": "+14"
-  - "wisdom": "+10"
-  - "charisma": "+11"
+  - "dexterity": !!int "8"
+  - "constitution": !!int "14"
+  - "wisdom": !!int "10"
+  - "charisma": !!int "11"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+11"
@@ -50,7 +51,9 @@ aliases:
     "desc": "+8"
 "damage_immunities": "poison"
 "condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 27"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 27"
 "languages": "Common, Draconic"
 "cr": "22"
 "traits":
@@ -62,13 +65,13 @@ aliases:
   - "desc": "The dragon can use its Frightful Presence. It then makes three attacks:\
       \ one with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 15 ft., one target. *Hit:*\
       \ 19 (2d10 + 8) piercing damage plus 10 (3d6) poison damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. *Hit:*\
       \ 22 (4d6 + 8) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +15 to hit, reach 20 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) bludgeoning damage."
     "name": "Tail"
   - "desc": "Each creature of the dragon's choice that is within 120 feet of the dragon\
@@ -84,20 +87,23 @@ aliases:
     "name": "Poison Breath (Recharge 5-6)"
   - "desc": "Claugiyliamatar casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 19):\n\
-      \nAt will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md), [speak\
       \ with animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md)\n\
-      \n2/day each: [animal messenger](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-messenger.md),\
+      \n**2/day each:** [animal messenger](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-messenger.md),\
       \ [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md), [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\n\
-      \n1/day each: [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
+      \n**1/day each:** [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
       \ [legend lore](03.PlayerLog&Handouts/Mechanics/CLI/spells/legend-lore.md) (cast\
       \ as 1 action), [locate creature](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-creature.md),\
       \ [pass without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md),\
       \ [protection from energy](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-energy.md),\
       \ [true seeing](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-seeing.md)"
     "name": "Spellcasting"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Claugiyliamatar can expend a use to take one of the following actions. Claugiyliamatar\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "The dragon makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ check."
@@ -111,9 +117,6 @@ aliases:
     "name": "Wing Attack (Costs 2 Actions)"
 "source":
   - "SKT"
-  - "DC"
-  - "SLW"
-  - "SDW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/claugiyliamatar-skt.webp"
 ```
 ^statblock

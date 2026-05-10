@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bol'bara
+- "Bol'bara"
 ---
-# [Bol'bara](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/bolbara-egw.md)
+# [Bol'bara](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/bolbara-egw.md)
 *Source: Explorer's Guide to Wildemount p. 261*  
 
 ```statblock
@@ -34,38 +35,45 @@ aliases:
   - !!int "13"
   - !!int "14"
 "speed": "30 ft."
-"senses": "darkvision 60 ft., passive Perception 11"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common, Goblin"
 "cr": "3"
 "traits":
   - "desc": "Bol'bara's innate spellcasting ability is Charisma (spell save DC 12,\
       \ +4 to hit with spell attacks). She can innately cast the following spells,\
-      \ requiring no material components:\n\nAt will: [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md),\
+      \ requiring no material components:\n\n**At will:** [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md),\
       \ [false life](03.PlayerLog&Handouts/Mechanics/CLI/spells/false-life.md), [mage\
       \ armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\
-      \n1/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \n**1/day each:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [hex](03.PlayerLog&Handouts/Mechanics/CLI/spells/hex.md), [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)"
     "name": "Innate Spellcasting"
   - "desc": "When Bol'bara reduces a hostile creature to 0 hit points, she gains 6\
       \ temporary hit points."
     "name": "Dark One's Blessing"
-  - "desc": "Bol'bara can take the Disengage or Hide action as a bonus action on each\
-      \ of her turns."
+  - "desc": "Bol'bara can take the [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action\
+      \ as a bonus action on each of her turns."
     "name": "Nimble Escape"
 "actions":
   - "desc": "Bol'bara makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
-  - "desc": "Ranged Spell Attack: +4 to hit, range 120 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +4 to hit, range 120 ft., one creature. *Hit:*\
       \ 7 (1d10 + 2) force damage."
     "name": "Eldritch Blast (Cantrip)"
+"legendary_description": "Legendary Action Uses: 2. Immediately after another creature's\
+  \ turn, Bol'bara can expend a use to take one of the following actions. Bol'bara\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Bol'bara moves up to her speed. She can move through other creatures\
-      \ and objects as if they were difficult terrain. She takes 5 (d10) force damage\
-      \ if she ends her turn inside an object."
+      \ and objects as if they were difficult terrain. She takes 5 (1d10) force\
+      \ damage if she ends her turn inside an object."
     "name": "Incorporeal Dash"
   - "desc": "A 15-foot-radius sphere of magical confusion extends from a point Bol'bara\
       \ can see within 60 feet of her and spreads around corners. Each creature that\

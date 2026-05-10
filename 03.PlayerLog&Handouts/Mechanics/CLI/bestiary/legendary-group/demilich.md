@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/legendary-group
 aliases:
-- Demilich
+- "Demilich"
 ---
 # Demilich
 
-## Lair actions
+## Lair Actions
 _Source: Monster Manual_
 
 On initiative count 20 (losing initiative ties), the demilich rolls a `d20`. On a result of 11 or higher, the demilich takes a lair action to cause one of the following effects. It can't use the same effect two rounds in a row.
@@ -18,7 +19,7 @@ On initiative count 20 (losing initiative ties), the demilich rolls a `d20`. On 
 - The demilich targets one creature it can see within 60 feet of it. An [antimagic field](03.PlayerLog&Handouts/Mechanics/CLI/spells/antimagic-field.md) fills the space of the target, moving with it until initiative count 20 on the next round.  
 - The demilich targets any number of creatures it can see within 30 feet of it. No target can regain hit points until initiative count 20 on the next round.  
 
-## Regional effects
+## Regional Effects
 _Source: Monster Manual_
 
 A demilich's tomb might have any or all of the following effects in place:

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Awakened Giant Wasp
+- "Awakened Giant Wasp"
 ---
-# [Awakened Giant Wasp](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/awakened-giant-wasp-wdmm.md)
+# [Awakened Giant Wasp](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/awakened-giant-wasp-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 72*  
 
 ```statblock
@@ -35,7 +36,7 @@ aliases:
 "languages": "one language known by its creator"
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution\
       \ saving throw, taking 10 (3d6) poison damage on a failed save, or half as\
       \ much damage on a successful one. If the poison damage reduces the target to\

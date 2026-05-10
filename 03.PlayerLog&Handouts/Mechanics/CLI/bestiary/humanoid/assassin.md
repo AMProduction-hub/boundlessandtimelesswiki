@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/8
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Assassin
+- "Assassin"
 ---
-# [Assassin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/assassin.md)
-*Source: Monster Manual p. 343, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Candlekeep Mysteries, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Assassin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/assassin.md)
+*Source: Monster Manual p. 343. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Trained in the use of poison, assassins are remorseless killers who work for nobles, guildmasters, sovereigns, and anyone else who can afford them.
 
@@ -37,8 +38,8 @@ Trained in the use of poison, assassins are remorseless killers who work for nob
   - !!int "10"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+6"
-  - "intelligence": "+4"
+  - "dexterity": !!int "6"
+  - "intelligence": !!int "4"
 "skillsaves":
   - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
     "desc": "+6"
@@ -49,6 +50,9 @@ Trained in the use of poison, assassins are remorseless killers who work for nob
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+9"
 "damage_resistances": "poison"
+"gear":
+  - "[light crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/light-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 13"
 "languages": "Thieves' cant plus any two languages"
 "cr": "8"
@@ -70,34 +74,18 @@ Trained in the use of poison, assassins are remorseless killers who work for nob
 "actions":
   - "desc": "The assassin makes two shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage, and the target must make a DC 15 Constitution\
       \ saving throw, taking 24 (7d6) poison damage on a failed save, or half as\
       \ much damage on a successful one."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one target. *Hit:*\
       \ 7 (1d8 + 3) piercing damage, and the target must make a DC 15 Constitution\
       \ saving throw, taking 24 (7d6) poison damage on a failed save, or half as\
       \ much damage on a successful one."
     "name": "Light Crossbow"
 "source":
   - "MM"
-  - "CoS"
-  - "PotA"
-  - "SKT"
-  - "TftYP"
-  - "ToA"
-  - "WDMM"
-  - "GoS"
-  - "BGDIA"
-  - "IMR"
-  - "EGW"
-  - "MOT"
-  - "IDRotF"
-  - "TCE"
-  - "CM"
-  - "JttRC"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/assassin.webp"
 ```
 ^statblock

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/3
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Water Weird
+- "Water Weird"
 ---
-# [Water Weird](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/water-weird.md)
-*Source: Monster Manual p. 299, Princes of the Apocalypse, Tales from the Yawning Portal, Dragon of Icespire Peak, Storm Lord's Wrath, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Journeys through the Radiant Citadel, Dragonlance: Shadow of the Dragon Queen*  
+# [Water Weird](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-weird.md)
+*Source: Monster Manual p. 299*  
 
 A water weird is an elemental guardian bound to a specific water-filled location, such as a pool or fountain.
 
@@ -60,7 +61,8 @@ A water weird doesn't require air, food, drink, or sleep.
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "blindsight 30 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., passive Perception 10"
 "languages": "understands Aquan but doesn't speak"
 "cr": "3"
 "traits":
@@ -71,7 +73,7 @@ A water weird doesn't require air, food, drink, or sleep.
       \ that water is destroyed."
     "name": "Water Bound"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one creature. *Hit:*\
       \ 13 (3d6 + 3) bludgeoning damage. If the target is Medium or smaller, it\
       \ is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13) and pulled 5 feet toward the water weird. Until this grapple\
@@ -81,15 +83,6 @@ A water weird doesn't require air, food, drink, or sleep.
     "name": "Constrict"
 "source":
   - "MM"
-  - "PotA"
-  - "TftYP"
-  - "DIP"
-  - "SLW"
-  - "MOT"
-  - "IDRotF"
-  - "CM"
-  - "JttRC"
-  - "DSotDQ"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/water-weird.webp"
 ```
 ^statblock

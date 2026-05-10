@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 aliases:
-- Races of the Realms
+- "Races of the Realms"
 ---
 # Races of the Realms
 *Source: Sword Coast Adventurer's Guide, p. 103* 
@@ -221,7 +222,7 @@ Selvetarm is god of warriors, and therefore patron of male drow, although perhap
 
 ##### The Dark Maiden
 
-Some drow exiles have heard the song of Eilistraee, urging them out onto the surface to behold the moon as it rises. The drow goddess of song, beauty, swordwork, hunting, and moonlight, she is the patron of drow who reject the evils of their society, offering them light and hope.
+Some drow exiles have heard the song of Eilistraee, urging them out onto the surface to behold the moon as it rises. The drow goddess of song, beauty, sword-work, hunting, and moonlight, she is the patron of drow who reject the evils of their society, offering them light and hope.
 
 ## Halflings
 
@@ -584,7 +585,7 @@ Many half-elves worship Sune or Hanali Celanil in appreciation for the love thei
 
 Half-orcs have existed in the world since before the dawn of recorded history, when orcs and humans first came into contact. Yet, in all that time, they have found few places for themselves in Faerûnian civilization—or, perhaps more accurately, civilization has never made room for them.
 
-Most of the common folk have an aversion to half-orcs based largely on their appearance: anyone who looks that much like an orc, they reason, must be like an orc and should be kept at a distance. Because half-orcs are typically stronger and hardier than their human peers, they can find employment in towns and cities, but their appearance marks them as outsiders . In response to being ostracized, half-orcs either embrace their otherness and take pride in their physical superiority, pull back and try not to draw too much attention to themselves, or give up trying to fit in anywhere and adopt a nomadic lifestyle.
+Most of the common folk have an aversion to half-orcs based largely on their appearance: anyone who looks that much like an orc, they reason, must be like an orc and should be kept at a distance. Because half-orcs are typically stronger and hardier than their human peers, they can find employment in towns and cities, but their appearance marks them as outsiders. In response to being ostracized, half-orcs either embrace their otherness and take pride in their physical superiority, pull back and try not to draw too much attention to themselves, or give up trying to fit in anywhere and adopt a nomadic lifestyle.
 
 Half-orcs in Faerûn have the racial traits of half-orcs in the Player's Handbook. They speak both Common and Orc. The rare written examples of the Orc language use the Dethek alphabet.
 

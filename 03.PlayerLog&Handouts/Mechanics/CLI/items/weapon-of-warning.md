@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/age/futuristic
@@ -14,7 +15,7 @@ tags:
 - ttrpg-cli/item/weapon/ranged
 - ttrpg-cli/item/weapon/simple
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Weapon of Warning"
 - "Antimatter Rifle of Warning"
 - "Automatic Pistol of Warning"
@@ -71,7 +72,7 @@ aliases:
 ---
 # Weapon of Warning
 *Major, uncommon (requires attunement)*  
-![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/weapon-of-warning.webp#right)
+![Weapon of Warning (Trident)](03.PlayerLog&Handouts/Mechanics/CLI/items/img/weapon-of-warning.webp#right)
 
 
 This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised), except when [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins.

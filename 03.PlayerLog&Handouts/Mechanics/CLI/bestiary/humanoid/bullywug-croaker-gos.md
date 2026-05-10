@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bullywug Croaker
+- "Bullywug Croaker"
 ---
-# [Bullywug Croaker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/bullywug-croaker-gos.md)
+# [Bullywug Croaker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bullywug-croaker-gos.md)
 *Source: Ghosts of Saltmarsh p. 232*  
 
 Some bullywugs are born with the ability to weave magic into their songs. These rare specimens are raised in protected enclaves where they are taught to use their magic to both heal and harm. As demonstrated in Danger at Dunwater, they are among the most pompous of bullywugs.
@@ -37,12 +38,14 @@ Some bullywugs are born with the ability to weave magic into their songs. These 
   - !!int "10"
 "speed": "20 ft., swim 40 ft."
 "saves":
-  - "constitution": "+3"
+  - "constitution": !!int "3"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 14"
 "languages": "Bullywug"
 "cr": "2"
@@ -59,11 +62,11 @@ Some bullywugs are born with the ability to weave magic into their songs. These 
       \ checks made to hide in swampy terrain."
     "name": "Swamp Camouflage"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Spear"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Bite"
   - "desc": "The croaker sings a song of marshy doom. Each chosen creature within\

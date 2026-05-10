@@ -1,9 +1,10 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-spell
+cssclasses:
+- json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/bard/magical-secrets
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
@@ -14,7 +15,7 @@ tags:
 - ttrpg-cli/spell/reward/boon-of-dimensional-travel
 - ttrpg-cli/spell/school/conjuration
 - ttrpg-cli/spell/subclass/arcane-trickster
-- ttrpg-cli/spell/subclass/circle-of-the-land
+- ttrpg-cli/spell/subclass/circle-of-the-land/coast
 - ttrpg-cli/spell/subclass/eldritch-knight
 - ttrpg-cli/spell/subclass/fey-wanderer
 - ttrpg-cli/spell/subclass/horizon-walker
@@ -23,8 +24,8 @@ tags:
 - ttrpg-cli/spell/subrace/elf-eladrin
 - ttrpg-cli/spell/subrace/human-mark-of-passage
 classes:
-- Bard
-- Druid (Circle of the Land)
+- Bard (Magical Secrets)
+- Druid (Circle of the Land, Coast)
 - Fighter (Eldritch Knight)
 - Paladin (Oath of Vengeance)
 - Paladin (Oath of the Ancients)
@@ -35,7 +36,7 @@ classes:
 - Warlock
 - Wizard
 aliases:
-- Misty Step
+- "Misty Step"
 ---
 # Misty Step
 *2nd-level, Conjuration*  
@@ -48,6 +49,6 @@ aliases:
 
 Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.
 
-**Classes**: [Paladin (Oath of the Ancients)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-ancients.md); [Paladin (Oath of Vengeance)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-vengeance.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Ranger (Horizon Walker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-horizon-walker-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Ranger (Fey Wanderer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-fey-wanderer-tce.md "subclass=TCE"); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md)
+**Classes**: [Bard (Magical Secrets)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid (Circle of the Land, Coast)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Paladin (Oath of Vengeance)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-vengeance.md); [Paladin (Oath of the Ancients)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-ancients.md); [Ranger (Fey Wanderer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-fey-wanderer-tce.md "subclass=TCE"); [Ranger (Horizon Walker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-horizon-walker-xge.md "subclass=XGE"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 260. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

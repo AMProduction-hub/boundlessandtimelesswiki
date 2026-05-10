@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/age/futuristic
 - ttrpg-cli/item/rarity/none
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/ranged
-aliases: 
+aliases:
 - "Laser Rifle"
 ---
 # Laser Rifle

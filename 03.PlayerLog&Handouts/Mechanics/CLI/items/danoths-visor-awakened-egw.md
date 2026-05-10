@@ -1,18 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/legendary
-aliases: 
+aliases:
 - "Danoth's Visor (Awakened)"
 ---
 # Danoth's Visor (Awakened)
 *Wondrous item, legendary (requires attunement)*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/danoths-visor.webp#right)
 
-- **Properties**: Vestige of Divergence
 
 These mithral-frame goggles with clear diamond lenses were used by the evoker Danoth Oro to spot [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) enemies and scout areas from afar.
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 - ttrpg-cli/monster/cr/20
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sholeh
+- "Sholeh"
 ---
-# [Sholeh](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sholeh-jttrc.md)
+# [Sholeh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sholeh-jttrc.md)
 *Source: Journeys through the Radiant Citadel p. 14*  
 
 ```statblock
@@ -33,10 +34,10 @@ aliases:
   - !!int "19"
 "speed": "40 ft., burrow 40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+6"
-  - "constitution": "+13"
-  - "wisdom": "+8"
-  - "charisma": "+10"
+  - "dexterity": !!int "6"
+  - "constitution": !!int "13"
+  - "wisdom": !!int "8"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+9"
@@ -47,7 +48,9 @@ aliases:
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "damage_immunities": "fire"
-"senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 24"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 24"
 "languages": "Common, Draconic"
 "cr": "20"
 "traits":
@@ -57,13 +60,13 @@ aliases:
   - "desc": "Sholeh can use its Frightful Presence. It then makes three attacks: one\
       \ with its bite and two with its claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 15 ft., one target. *Hit:*\
       \ 19 (2d10 + 8) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:*\
       \ 15 (2d6 + 8) slashing damage."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +14 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, reach 20 ft., one target. *Hit:*\
       \ 17 (2d8 + 8) bludgeoning damage."
     "name": "Tail"
   - "desc": "Each creature of Sholeh's choice that is within 120 feet of Sholeh and\
@@ -73,11 +76,11 @@ aliases:
       \ throw is successful or the effect ends for it, the creature is immune to Sholeh's\
       \ Frightful Presence for the next 24 hours."
     "name": "Frightful Presence"
-  - "desc": "Sholeh uses one of the following breath weapons:\n\n- Fire Breath.\
+  - "desc": "Sholeh uses one of the following breath weapons:\n\n- **Fire Breath.**\
       \ Sholeh exhales fire in a 90-foot line that is 10 feet wide. Each creature\
       \ in that line must make a DC 21 Dexterity saving throw, taking 56 (16d6)\
       \ fire damage on a failed save, or half as much damage on a successful one.\
-      \  \n- Sleep Breath. Sholeh exhales sleep gas in a 90-foot cone. Each creature\
+      \  \n- **Sleep Breath.** Sholeh exhales sleep gas in a 90-foot cone. Each creature\
       \ in that area must succeed on a DC 21 Constitution saving throw or fall [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
       \ for 10 minutes. This effect ends for a creature if the creature takes damage\
       \ or someone uses an action to wake it.  "
@@ -92,6 +95,9 @@ aliases:
       \ by those of the new form, except any class features or legendary actions of\
       \ that form."
     "name": "Change Shape"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Sholeh can expend a use to take one of the following actions. Sholeh regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Sholeh makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ check."

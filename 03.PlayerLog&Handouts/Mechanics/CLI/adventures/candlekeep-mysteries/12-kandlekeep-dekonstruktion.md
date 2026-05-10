@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 aliases:
-- Kandlekeep Dekonstruktion
+- "Kandlekeep Dekonstruktion"
 ---
 # Kandlekeep Dekonstruktion
 *Source: Candlekeep Mysteries, p. 124* 
@@ -251,7 +252,7 @@ The paper is Stonky's task list, which reads as follows in Gnomish:
 
 One or more of the other books described in this adventure anthology might be found here at your discretion, having been purloined by Stonky. The remaining books are mostly dull treatises with titles that tickled the gnome's fancy. The books are arranged by color rather than some more useful system, but characters who make a quick survey of the shelves discover three tomes that warrant further examination:
 
-*Heroes' Feast: A Cookbook*. This richly illustrated book of recipes was written by a trio of culinary enthusiasts named Wyk Nenmael, Nojen Eptros, and Imrit Welachwe. Any creature that spends a short rest poring over the book's recipes gains a supernatural charm called the *charm of the heroes' feast*. This charm allows you to cast the [heroes' feast](03.PlayerLog&Handouts/Mechanics/CLI/spells/heroes-feast.md) spell as an action, no components required. Once used, this charm goes away. See ""Supernatural Gifts"" in the "Dungeon Master's Guide" for more information on how charms work. The book teleports to a secret vault in Candlekeep after bestowing its charm on a creature.
+*Heroes' Feast: A Cookbook*. This richly illustrated book of recipes was written by a trio of culinary enthusiasts named Wyk Nenmael, Nojen Eptros, and Imrit Welachwe. Any creature that spends a short rest poring over the book's recipes gains a supernatural charm called the [charm of the heroes' feast](03.PlayerLog&Handouts/Mechanics/CLI/rewards/charm-of-the-heroes-feast-cm.md). This charm allows you to cast the [heroes' feast](03.PlayerLog&Handouts/Mechanics/CLI/spells/heroes-feast.md) spell as an action, no components required. Once used, this charm goes away. See ""Supernatural Gifts"" in the "Dungeon Master's Guide" for more information on how charms work. The book teleports to a secret vault in Candlekeep after bestowing its charm on a creature.
 
 *Stonky Noptopper's Spells o' Plenty*. Stonky's fat little spellbook contains the following wizard spells: [alarm](03.PlayerLog&Handouts/Mechanics/CLI/spells/alarm.md), [animate objects](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-objects.md), [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md), [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md), [chain lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/chain-lightning.md), [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md), [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md), [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md), [fabricate](03.PlayerLog&Handouts/Mechanics/CLI/spells/fabricate.md), [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [flesh to stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/flesh-to-stone.md), [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md), [glyph of warding](03.PlayerLog&Handouts/Mechanics/CLI/spells/glyph-of-warding.md), [grease](03.PlayerLog&Handouts/Mechanics/CLI/spells/grease.md), [knock](03.PlayerLog&Handouts/Mechanics/CLI/spells/knock.md), [legend lore](03.PlayerLog&Handouts/Mechanics/CLI/spells/legend-lore.md), [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md), [locate creature](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-creature.md), [locate object](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-object.md), [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [planar binding](03.PlayerLog&Handouts/Mechanics/CLI/spells/planar-binding.md), [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md), [programmed illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/programmed-illusion.md), [protection from evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md), [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md), [see invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/see-invisibility.md), [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md), [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md), and [true seeing](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-seeing.md).
 
@@ -464,7 +465,7 @@ The door to this room is sealed by an [arcane lock](03.PlayerLog&Handouts/Mechan
 
 > [!readaloud] 
 > 
-> This chamber contains an iron safe roughly five feet on a side and a low metal console with a slanted top. The safe's thick door stands open on its iron hinges. The console, which is securely bolted to the floor, has a countdown timer and a blinking red button built into it. Suspended above the console are four wireframe windows, each displaying a projected image.
+> This chamber contains an iron safe roughly five feet on a side and a low metal console with a slanted top. The safe's thick door stands open on its iron hinges. The console, which is securely bolted to the floor, has a countdown timer and a blinking red button built into it. Suspended above the console are four wire-frame windows, each displaying a projected image.
 ^34c
 
 Unless the characters have already encountered him (see area B1), Stonky is here. The intrepid gnome [master sage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/master-sage-cm.md) (see "Sages and Master Sages" for his stat block) is currently crawling underneath the console, looking for his [ring of telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-telekinesis.md). (The ring is in area U5, but it hasn't yet occurred to Stonky to search there.)
@@ -483,7 +484,7 @@ The gnome can't take credit for building the rocket ship, but he takes great pri
 
 The blinking red button indicates that the Barn Door is on a countdown to launch. If the timer on the console reaches zero, the tower blasts off. Pushing the button has no effect while the countdown is in progress. If the characters delay the launch by using the lever in area B4, the countdown timer pauses. If the launch is aborted, the timer resets and the red button stops blinking.
 
-The wireframe windows mounted above the console are magic projection screens that act as security cameras, showing the interior of the tower (areas B1, B2, B3, and B4, respectively). Stonky has been too busy searching for his ring to pay any attention to them. Casting a [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md) spell on the console causes these projected images to vanish, as does destroying the console.
+The wire-frame windows mounted above the console are magic projection screens that act as security cameras, showing the interior of the tower (areas B1, B2, B3, and B4, respectively). Stonky has been too busy searching for his ring to pay any attention to them. Casting a [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md) spell on the console causes these projected images to vanish, as does destroying the console.
 
 The console is a Large object with AC 19, 27 hit points, and immunity to poison and psychic damage. Destroying the console doesn't stop a launch in progress.
 

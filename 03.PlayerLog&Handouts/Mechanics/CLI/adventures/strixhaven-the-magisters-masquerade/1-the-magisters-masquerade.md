@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scc-tmm
 aliases:
-- The Magister's Masquerade
+- "The Magister's Masquerade"
 ---
 # The Magister's Masquerade
 *Source: Strixhaven: The Magister's Masquerade, p. 125* 
@@ -13,7 +14,7 @@ As the characters' third year at Strixhaven dawns, their legacies are beginning 
 
 In this adventure, the characters are invited to the Magister's Masquerade, one of the most elaborate annual events on campus. Before the big dance, though, they'll clash with rivals, pick the perfect masquerade outfit, and help prepare for one of the most glamorous nights of their lives. During this time, an influential faculty member begins to act strangely, and a menacing shadow falls over all of Strixhaven.
 
-![The annual Magister's Masq...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/084-05-001-chapter-splash.webp#center "The annual Magister's Masquerade is a night of magic and fun that third-year students will never forget")
+![The annual Magister's Masquerade is a night of magic and fun that third-year students will never forget](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/084-05-001-chapter-splash.webp#center)
 
 ## Running This Adventure
 
@@ -45,14 +46,12 @@ Use the Third-Year Encounters table for random encounters on campus during this 
 
 **Third-Year Encounters**
 
-`dice: [](1-the-magisters-masquerade.md#^third-year-encounters)`
-
 | dice: d10 | Encounter |
 |-----------|-----------|
 | 1–3 | `2d4` [pest mascots](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/pest-mascot-scc.md) (see "chapter 7") making off with a student's ball gown |
-| 4–5 | `d4` [Lorehold apprentices](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lorehold-apprentice-scc.md) (see "chapter 7") affected by an [Otto's irresistible dance](03.PlayerLog&Handouts/Mechanics/CLI/spells/ottos-irresistible-dance.md) spell |
-| 6–7 | `d6` [inkling mascots](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/inkling-mascot-scc.md) (see "chapter 7") on a mission to mar a student's outfit for the Magister's Masquerade |
-| 8–9 | `d4` bolts of shimmering, animate fabric (use the [rug of smothering](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/rug-of-smothering.md) stat block for each bolt) that clearly don't want to be turned into clothes |
+| 4–5 | `1d4` [Lorehold apprentices](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lorehold-apprentice-scc.md) (see "chapter 7") affected by an [Otto's irresistible dance](03.PlayerLog&Handouts/Mechanics/CLI/spells/ottos-irresistible-dance.md) spell |
+| 6–7 | `1d6` [inkling mascots](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/inkling-mascot-scc.md) (see "chapter 7") on a mission to mar a student's outfit for the Magister's Masquerade |
+| 8–9 | `1d4` bolts of shimmering, animate fabric (use the [rug of smothering](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/rug-of-smothering.md) stat block for each bolt) that clearly don't want to be turned into clothes |
 | 10 | 1 [cloaker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/cloaker.md) disguised as part of a student's outfit for the Magister's Masquerade |
 ^third-year-encounters
 
@@ -61,8 +60,6 @@ Use the Third-Year Encounters table for random encounters on campus during this 
 Before starting this adventure, have the players choose at least three courses their characters are taking this year, either by coming up with the courses themselves or by rolling on the Third-Year Courses table. Inform them that the characters are also enrolled in a required course, Advanced Arcane History.
 
 **Third-Year Courses**
-
-`dice: [](1-the-magisters-masquerade.md#^third-year-courses)`
 
 | dice: d10 | Course | Offered By |
 |-----------|--------|------------|
@@ -142,8 +139,6 @@ Students the characters interact with during the reception might want to partici
 
 **Reception Activities**
 
-`dice: [](1-the-magisters-masquerade.md#^reception-activities)`
-
 | dice: d6 | Activity |
 |----------|----------|
 | 1 | Catching Up. The student wants to talk about their recent break, which they spent reading everything by a specific author, mastering an esoteric game, or traveling to an exciting location. |
@@ -157,8 +152,6 @@ Students the characters interact with during the reception might want to partici
 Additionally, in the course of the reception, characters might hear any of the gossip on the Third-Year Rumor Mill table. Not all the rumors are true, as noted in the table, but some foreshadow events later in this adventure.
 
 **Third-Year Rumor Mill**
-
-`dice: [](1-the-magisters-masquerade.md#^third-year-rumor-mill)`
 
 | dice: d6 | Rumor | Accuracy |
 |----------|-------|----------|
@@ -183,8 +176,6 @@ A student committee organizes the Magister's Masquerade, and its leaders use the
 Characters who investigate any of the tavern tables laden with snacks find an array of magic-infused dishes. Roll or choose an option from Bow's End Snacks table to see what's available at any given table. All these dishes include magical ingredients meant to give the dishes a little extra flair. The first time a creature samples any of these dishes, it must succeed on a DC 12 Charisma ([Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)) check to avoid making an alarmed face, coughing loudly, or having another potentially embarrassing reaction.
 
 **Bow's End Snacks**
-
-`dice: [](1-the-magisters-masquerade.md#^bows-end-snacks)`
 
 | dice: d6 | Snack |
 |----------|-------|
@@ -247,7 +238,7 @@ If the characters refuse even in the face of the Rival's coercion, the Rival lea
 
 The Furygale Repository, on the Prismari campus, is a storage facility where magical experiments are disposed of. Magic woven into the structure makes the interior a zone of wild magic. Over time, these unpredictable magical forces break down the failed or ill-conceived student projects disposed of within. Because of its air of danger and relative isolation, the Furygale Repository is a popular spot for Strixhaven students who want to meet without being observed by university staff.
 
-![Students sometimes sneak o...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/087-05-004-furygale.webp#center "Students sometimes sneak off to the Furygale Repository, a dangerous disposal site for failed magic, to duel away from prying eyes")
+![Students sometimes sneak off to the Furygale Repository, a dangerous disposal site for failed magic, to duel away from prying eyes](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/087-05-004-furygale.webp#center)
 
 ### Furygale Repository
 
@@ -302,7 +293,7 @@ Any duelist who breaks these rules loses the duel. If a duelist kills an opponen
 
 As mentioned in the "Magic Protections" portion of the "Furygale Repository Features" section, creatures that take damage in this area are healed by Furygale's magic.
 
-![The magic of Furygale is e...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/089-05-005-the-magic-of-furygale.webp#center "The magic of Furygale is erratic and dangerous. Students dueling there often get in over their heads")
+![The magic of Furygale is erratic and dangerous. Students dueling there often get in over their heads](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/089-05-005-the-magic-of-furygale.webp#center)
 
 ### Dueling Begins
 
@@ -356,7 +347,7 @@ Dean Tullus eagerly takes questions on her lecture or the relic she exhibits, bu
 
 The class ends with a reminder that the first Exam is only a few days away and that it will test students on their knowledge of historical relics and the relics' use in magic.
 
-![Lorehold professors often ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/090-05-006-lorehold-professors.webp#center "Lorehold professors often use relics they've unearthed in their lectures about magical objects")
+![Lorehold professors often use relics they've unearthed in their lectures about magical objects](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/090-05-006-lorehold-professors.webp#center)
 
 ### Studying Phase
 
@@ -421,7 +412,7 @@ If a character is Friends with Zanther Bowen or Aurora Luna Wynterstarr (see the
 
 A character who designs their own outfit can model the design or have someone else do so. This model takes part in the activities detailed in the "Fashion Modeling" section.
 
-![Magic and style are on ful...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/091-05-007-magic-and-style.webp#center "Magic and style are on full display at a Strixhaven fashion show")
+![Magic and style are on full display at a Strixhaven fashion show](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/091-05-007-magic-and-style.webp#center)
 
 ###### Rival Designers
 
@@ -457,8 +448,6 @@ The event includes a pre-show period for mingling and light refreshment, the sho
 Roll on the Fashion Show Rumors table to determine what students chitchat with characters about during the event. The veracity of these rumors is up to you; use them to add additional drama to the event.
 
 **Fashion Show Rumors**
-
-`dice: [](1-the-magisters-masquerade.md#^fashion-show-rumors)`
 
 | dice: d6 | Rumor |
 |----------|-------|
@@ -534,8 +523,6 @@ Assume the characters are off by themselves when an encounter occurs; however, t
 
 **Bayou Encounters**
 
-`dice: [](1-the-magisters-masquerade.md#^bayou-encounters)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–4 | No encounter |
@@ -550,7 +537,7 @@ Assume the characters are off by themselves when an encounter occurs; however, t
 | 20 | A dense stand of marshwicks that shaves 1 hour off the expedition if harvested |
 ^bayou-encounters
 
-![Those who visit Sedgemoor ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/092-05-008-those-who-visit-sedgemoor.webp#center "Those who visit Sedgemoor are bound to discover its wondrous inhabitants and hidden mysteries")
+![Those who visit Sedgemoor are bound to discover its wondrous inhabitants and hidden mysteries](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/092-05-008-those-who-visit-sedgemoor.webp#center)
 
 #### Biblioplex Supplies
 
@@ -611,8 +598,6 @@ Ultimately, fuel the characters' suspicions, but they shouldn't have a chance to
 
 **Dean Tullus Rumors**
 
-`dice: [](1-the-magisters-masquerade.md#^dean-tullus-rumors)`
-
 | dice: d4 | Rumor |
 |----------|-------|
 | 1 | It seems like Dean Tullus is always working—she rarely leaves her office. |
@@ -629,7 +614,7 @@ Dance lessons are offered about a week after the characters' second Advanced Arc
 
 Numerous students attend the dance classes, including several of the characters' Friends, Beloveds, and Rivals, as well as other students from the "Fellow Students" section in chapter 3.
 
-![Whether learning magic or ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/093-05-009-magic-or-dance.webp#center "Whether learning magic or dance, Strixhaven students throw themselves into their studies with zeal")
+![Whether learning magic or dance, Strixhaven students throw themselves into their studies with zeal](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/093-05-009-magic-or-dance.webp#center)
 
 The day of the dance classes, when the characters show up at the Rose Stage, read or paraphrase the following text:
 
@@ -647,8 +632,6 @@ Dance instructor Nivall (chaotic good [djinni](03.PlayerLog&Handouts/Mechanics/C
 Nivall walks students through a dance routine, then asks dancers to repeat it on their own. After each dance, Nivall encourages students to switch partners. During the dance lesson, at least one student each character dances with stands out. Roll on the Dance Partner Quirks table to determine how.
 
 **Dance Partner Quirks**
-
-`dice: [](1-the-magisters-masquerade.md#^dance-partner-quirks)`
 
 | dice: d6 | The Character's Partner... |
 |----------|----------------------------|
@@ -690,7 +673,7 @@ The following locations are keyed to map 5.2. This map depicts only the building
 
 ##### K1. Serenity Quadrants
 
-Study areas under the hall's tiered balconies hold an impressive collection of history books. Sorting the book collection day and night are `d4` [cogwork archivists](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/cogwork-archivist-scc.md) (see "chapter 7").
+Study areas under the hall's tiered balconies hold an impressive collection of history books. Sorting the book collection day and night are `1d4` [cogwork archivists](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/cogwork-archivist-scc.md) (see "chapter 7").
 
 ##### K2. Wise Kollema
 
@@ -702,7 +685,7 @@ This stage rises 5 feet to be flush with the base of Kollema's statue. Here, Lor
 
 ##### K4. Second-Floor Study
 
-The collection of books upon the second floor focuses on historical accounts of mage-explorers and archaeomancers. Attending this collection day and night are `d4` [cogwork archivists](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/cogwork-archivist-scc.md) (see "chapter 7").
+The collection of books upon the second floor focuses on historical accounts of mage-explorers and archaeomancers. Attending this collection day and night are `1d4` [cogwork archivists](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/cogwork-archivist-scc.md) (see "chapter 7").
 
 ##### K5. Infirmary Intake
 
@@ -733,8 +716,6 @@ The characters are sent to complete these tasks along with twenty other students
 The work of preparing the hall might be plagued by accidents. Student recklessness isn't entirely to blame for these dangers—unknown to the characters, some more sinister force is at work. For every two hours the characters spend working in Kollema Hall, roll on the Kollema Hall Accidents table to determine whether an event occurs, then run the corresponding event, which is described below the table. Events can occur more than once. At the end of this time, continue with the "Waking Nightmares" section.
 
 **Kollema Hall Accidents**
-
-`dice: [](1-the-magisters-masquerade.md#^kollema-hall-accidents)`
 
 | dice: d10 | Event |
 |-----------|-------|
@@ -850,8 +831,6 @@ Many students spend the day of the Magister's Masquerade preparing for the event
 
 **Preparation Accidents**
 
-`dice: [](1-the-magisters-masquerade.md#^preparation-accidents)`
-
 | dice: d10 | Accident |
 |-----------|----------|
 | 1–3 | No accident. Preparations go smoothly. |
@@ -860,8 +839,8 @@ Many students spend the day of the Magister's Masquerade preparing for the event
 | 6 | The character loses their [masque charm](03.PlayerLog&Handouts/Mechanics/CLI/items/masque-charm-scc.md). |
 | 7 | The character's date backs out at the last moment, or they're encouraged to have someone unexpected attend the ball with them. |
 | 8 | An unexpected emergency at a Job or related to an Extracurricular takes up some of the character's preparation time. This makes them `6d10` minutes late to the event. |
-| 9 | The masquerade's organizers require the character to show up to the event `d4` hours early and work for a portion of the masquerade. |
-| 10 | An accident—such as a chemical spill, animal damage, or a rain of magic pigment—ruins the character's costume `d4` hours before the event. |
+| 9 | The masquerade's organizers require the character to show up to the event `1d4` hours early and work for a portion of the masquerade. |
+| 10 | An accident—such as a chemical spill, animal damage, or a rain of magic pigment—ruins the character's costume `1d4` hours before the event. |
 ^preparation-accidents
 
 ### Arriving at the Masquerade
@@ -886,7 +865,7 @@ The Magister's Masquerade is held on the first floor of Kollema Hall, which is s
 
 The Magister's Masquerade includes the events below; run them in the order shown. Between the events, allow opportunities for characters to socialize. Moments to mingle or dance can serve as the culmination of some Relationships or as turning points for others. Linger on opportunities to socialize as long as you and the players please, and adjust Relationship Points as necessary.
 
-![From spell mishaps to pigm...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/095-05-010-from-spell-mishaps.webp#center "From spell mishaps to pigment storms, plenty could go wrong the day of the Magister's Masquerade")
+![From spell mishaps to pigment storms, plenty could go wrong the day of the Magister's Masquerade](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/095-05-010-from-spell-mishaps.webp#center)
 
 #### Guess Who?
 
@@ -934,8 +913,6 @@ Use the Magister's Masquerade as an opportunity to heighten the characters' susp
 During the masquerade, characters can interact with every other student present. Roll on the Masquerade Developments table for each character to see which interactions occur.
 
 **Masquerade Developments**
-
-`dice: [](1-the-magisters-masquerade.md#^masquerade-developments)`
 
 | dice: d8 | Event |
 |----------|-------|
@@ -1048,7 +1025,7 @@ These porches are used as sitting and meal areas on the rare occasion that socia
 
 ###### Spirit Statues
 
-Two [spirit statue mascots](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/spirit-statue-mascot-scc.md) (see "chapter 7") stand on each of these porches. They house the spirits of departed Lorehold faculty, and they politely ask anyone who hops the railing to use the main doors during working hours. If they're ignored, the statues shout an alarm, calling the characters "trespassers" as they move to attack. This alerts the two [cogwork archivists](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/cogwork-archivist-scc.md) in the nearby Records Room (area L4), which remain in that area, and causes the [invisible stalker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/invisible-stalker.md) that guards the wing to arrive in `d4` rounds.
+Two [spirit statue mascots](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/spirit-statue-mascot-scc.md) (see "chapter 7") stand on each of these porches. They house the spirits of departed Lorehold faculty, and they politely ask anyone who hops the railing to use the main doors during working hours. If they're ignored, the statues shout an alarm, calling the characters "trespassers" as they move to attack. This alerts the two [cogwork archivists](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/cogwork-archivist-scc.md) in the nearby Records Room (area L4), which remain in that area, and causes the [invisible stalker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/invisible-stalker.md) that guards the wing to arrive in `1d4` rounds.
 
 ##### L4. Records Room
 
@@ -1093,7 +1070,7 @@ Dean Plargg, the owner of this office, shares responsibilities as Lorehold's dea
 
 Hanging behind Plargg's desk is a [mace of smiting](03.PlayerLog&Handouts/Mechanics/CLI/items/mace-of-smiting.md) with a round head and a grip wrapped in thick red rope. If a character takes this item and any Lorehold faculty member sees them using it, the faculty member confiscates it and returns it to this office.
 
-![Ancient guardians defend t...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/097-05-011-ancient-guardians.webp#center "Ancient guardians defend the Deans' Wing from intruders")
+![Ancient guardians defend the Deans' Wing from intruders](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/097-05-011-ancient-guardians.webp#center)
 
 ##### L8. Dean Tullus's Office
 
@@ -1235,7 +1212,7 @@ If Dean Tullus survives her confrontation with the characters, she's free of [Mu
 
 If Dean Tullus was killed, the masters of Strixhaven cast [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md) to restore her to life. She quickly realizes what transpired and keeps the characters' role in her death between her and the characters.
 
-![Students from different co...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/099-05-012-students-from-different-colleges.webp#center "Students from different colleges working together are stronger than they would be alone—a lesson often learned by year's end")
+![Students from different colleges working together are stronger than they would be alone—a lesson often learned by year's end](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-the-magisters-masquerade/img/099-05-012-students-from-different-colleges.webp#center)
 
 #### A Threat Returns
 

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Omens of Heliod
+- "Omens of Heliod"
 ---
 # Omens of Heliod
 *Source: Mythic Odysseys of Theros p. 111* 
 
 **Omens of Heliod**
-
-`dice: [](omens-of-heliod-mot.md#^omens-of-heliod)`
 
 | dice: d8 | dice: d100 | Omen of Heliod |
 |----------|------------|----------------|

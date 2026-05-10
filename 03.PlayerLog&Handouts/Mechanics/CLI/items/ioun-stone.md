@@ -1,16 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/varies
-aliases: 
+aliases:
 - "Ioun Stone"
 ---
 # Ioun Stone
 *Wondrous item (requires attunement)*  
-
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/ioun-stone.webp#right)
 
 
 **Items in this group:**

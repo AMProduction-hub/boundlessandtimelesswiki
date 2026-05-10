@@ -1,16 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/arcana
 - ttrpg-cli/domain/knowledge
-aliases: 
-- Savras
-- The All-Seeing
-- The Third Eye
-- Divination's Lord
+aliases:
+- "Savras"
+- "The All-Seeing"
+- "The Third Eye"
+- "Divination's Lord"
 ---
 # Savras
 *Source: Sword Coast Adventurer's Guide p. 21* 

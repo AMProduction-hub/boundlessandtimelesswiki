@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 aliases:
-- Urban Encounters (Levels 5—10)
+- "Urban Encounters (Levels 5—10)"
 ---
 # Urban Encounters (Levels 5—10)
 *Source: Xanathar's Guide to Everything p. 110* 
 
 **Urban Encounters (Levels 5—10)**
-
-`dice: [](urban-encounters-levels-510-xge.md#^urban-encounters-levels-510)`
 
 | dice: d100 | Encounter |
 |------------|-----------|

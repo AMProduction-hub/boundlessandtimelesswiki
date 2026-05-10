@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 aliases:
-- Chapter 11: Van Richten's Tower
+- "Chapter 11: Van Richten's Tower"
 ---
 # Chapter 11: Van Richten's Tower
 *Source: Curse of Strahd, p. 167* 
@@ -123,7 +124,7 @@ Beyond the door is a 5-foot-square vestibule with a tattered curtain that concea
 > Rotting wooden beams support the scaffolding, which groans and creaks with the slightest breeze. A series of ladders and platforms lead to a hole in the northwest wall on the third floor.
 ^581
 
-The scaffolding can't support more than 200 pounds of weight. If it collapses, anyone standing on it falls 20 feet to the ground, taking `d6` bludgeoning damage per 10 feet fallen plus an additional `2d6` piercing damage from the debris. A creature underneath the scaffolding must succeed on a DC 13 Dexterity saving throw or take 14 (`4d6`) bludgeoning damage from falling debris.
+The scaffolding can't support more than 200 pounds of weight. If it collapses, anyone standing on it falls 20 feet to the ground, taking `1d6` bludgeoning damage per 10 feet fallen plus an additional `2d6` piercing damage from the debris. A creature underneath the scaffolding must succeed on a DC 13 Dexterity saving throw or take 14 (`4d6`) bludgeoning damage from falling debris.
 
 ### V4. Tower, First Floor
 

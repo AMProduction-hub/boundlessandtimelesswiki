@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Orzhov Giant
+- "Orzhov Giant"
 ---
-# [Orzhov Giant](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/orzhov-giant-ggr.md)
+# [Orzhov Giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/orzhov-giant-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 202*  
 
 A few giants join the ranks of the Orzhov Syndicate and serve as guards, executioners, and thugs-the muscle of the guild. The presence of Orzhov giants in markets and streets serves as an effective reminder for business owners to keep their payments up to date.
@@ -39,10 +40,13 @@ Giants use their tremendous size and strength to advance the cause of no less th
   - !!int "8"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+8"
-  - "wisdom": "+4"
-"senses": "darkvision 60 ft., passive Perception 11"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "4"
+"gear":
+  - "[greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common, Giant"
 "cr": "6"
 "traits":
@@ -56,11 +60,11 @@ Giants use their tremendous size and strength to advance the cause of no less th
 "actions":
   - "desc": "The giant makes two greataxe attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
       \ 25 (3d12 + 6) slashing damage. If the Orzhov giant scores a critical hit,\
       \ it rolls the damage dice three times, instead of twice."
     "name": "Greataxe"
-  - "desc": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +9 to hit, range 60/240 ft., one target. *Hit:*\
       \ 28 (4d10 + 6) bludgeoning damage."
     "name": "Rock"
 "source":

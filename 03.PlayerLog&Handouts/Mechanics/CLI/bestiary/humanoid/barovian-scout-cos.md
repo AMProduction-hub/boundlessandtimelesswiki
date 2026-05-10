@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Barovian Scout
+- "Barovian Scout"
 ---
-# [Barovian Scout](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/barovian-scout-cos.md)
+# [Barovian Scout](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/barovian-scout-cos.md)
 *Source: Curse of Strahd p. 29*  
 
 ```statblock
@@ -42,6 +43,9 @@ aliases:
     "desc": "+6"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+5"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 15"
 "languages": "any one language (usually Common)"
 "cr": "1/2"
@@ -52,10 +56,10 @@ aliases:
 "actions":
   - "desc": "The scout makes two melee attacks or two ranged attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword"
-  - "desc": "Ranged Weapon Attack: +4 to hit, ranged 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, ranged 80/320 ft., one target. *Hit:*\
       \ 6 (1d8 + 2) piercing damage."
     "name": "Light Crossbows"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Scaladar
+- "Scaladar"
 ---
-# [Scaladar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/scaladar-wdmm.md)
+# [Scaladar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/scaladar-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 315*  
 
 Scaladar are constructs created by Trobriand, one of Halaster's apprentices. They move and attack like giant scorpions, grabbing prey with two large pincer claws and delivering a deadly pulse of lightning with their metal stinger tails.
@@ -39,7 +40,8 @@ Scaladar are constructs created by Trobriand, one of Halaster's apprentices. The
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": ""
 "cr": "8"
 "traits":
@@ -54,12 +56,12 @@ Scaladar are constructs created by Trobriand, one of Halaster's apprentices. The
   - "desc": "The scaladar makes three attacks: two with its claws and one with its\
       \ sting."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 10 (1d12 + 4) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15). The scaladar has two claws, each of which can grapple one\
       \ target."
     "name": "Claw"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 9 (1d10 + 4) piercing damage plus 11 (2d10) lightning damage."
     "name": "Sting"
 "source":

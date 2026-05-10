@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Aerisi Kalinoth
+- "Aerisi Kalinoth"
 ---
-# [Aerisi Kalinoth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/aerisi-kalinoth-pota.md)
+# [Aerisi Kalinoth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/aerisi-kalinoth-pota.md)
 *Source: Princes of the Apocalypse p. 192*  
 
 Aerisi Kalinoth is the air prophet of the Elder Elemental Eye and leader of the Cult of the Howling Hatred. Tall and slender, with dark hair and (illusory) feathered wings that gently fan the air, Aerisi Kalinoth speaks to her people in a whisper that belies her violent temper, which reveals itself whenever she is denied.
@@ -53,31 +54,34 @@ When danger threatens the Temple of Howling Hatred, Aerisi retreats to the Howli
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
 "damage_resistances": "lightning"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[windvane](03.PlayerLog&Handouts/Mechanics/CLI/items/windvane-pota.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Auran, Common, Elvish"
 "cr": "7"
 "traits":
   - "desc": "Aerisi is a 12th-level spellcaster. Her spellcasting ability is Intelligence\
       \ (spell save DC 14, +6 to hit with spell attacks). Aerisi has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [gust](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-xge.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [gust](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-xge.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md),\
       \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
-      \n1st level (4 slots): [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \n**1st level (4 slots):** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [feather fall](03.PlayerLog&Handouts/Mechanics/CLI/spells/feather-fall.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-      \n2nd level (3 slots): [dust devil](03.PlayerLog&Handouts/Mechanics/CLI/spells/dust-devil-xge.md),\
+      \n**2nd level (3 slots):** [dust devil](03.PlayerLog&Handouts/Mechanics/CLI/spells/dust-devil-xge.md),\
       \ [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\n\
-      \n3rd level (3 slots): [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md),\
+      \n**3rd level (3 slots):** [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md),\
       \ [gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/spells/gaseous-form.md),\
       \ [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)\n\
-      \n4th level (3 slots): [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md),\
+      \n**4th level (3 slots):** [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md),\
       \ [storm sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/storm-sphere-xge.md)\n\
-      \n5th level (2 slots): [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
+      \n**5th level (2 slots):** [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
       \ [seeming](03.PlayerLog&Handouts/Mechanics/CLI/spells/seeming.md) (cast each\
-      \ day)\n\n6th level (1 slots): [chain lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/chain-lightning.md)"
+      \ day)\n\n**6th level (1 slots):** [chain lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/chain-lightning.md)"
     "name": "Spellcasting"
   - "desc": "Aerisi has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
       \ and magic can't put her to sleep."
@@ -89,9 +93,9 @@ When danger threatens the Temple of Howling Hatred, Aerisi retreats to the Howli
   - "desc": "If Aerisi fails a saving throw, she can choose to succeed instead."
     "name": "Legendary Resistance (2/Day)"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 9 (1d6 + 6) piercing damage, or 10 (1d8 + 6) piercing\
-      \ damage if used with two hands to make a melee attack, plus 3 (d6) lightning\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +9 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 9 (1d6 + 6) piercing damage, or 10 (1d8 + 6) piercing\
+      \ damage if used with two hands to make a melee attack, plus 3 (1d6) lightning\
       \ damage."
     "name": "Windvane"
 "lair_actions":
@@ -101,9 +105,7 @@ When danger threatens the Temple of Howling Hatred, Aerisi retreats to the Howli
       \ without using components or a spell slot. She can't cast the same spell two\
       \ rounds in a row, although she can continue to concentrate on a spell she previously\
       \ cast using a lair action. Aerisi can take no other lair actions while [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-      \ on a spell cast as a lair action."
-    "name": ""
-  - "desc": "If Aerisi casts [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
+      \ on a spell cast as a lair action.\n\nIf Aerisi casts [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
       \ using this lair action, she also draws the power of the air node into herself.\
       \ By doing so, she regains 15 (3d8 + 2) hit points."
     "name": ""

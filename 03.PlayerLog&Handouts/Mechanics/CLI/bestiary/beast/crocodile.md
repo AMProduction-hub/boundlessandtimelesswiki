@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Crocodile
+- "Crocodile"
 ---
-# [Crocodile](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/crocodile.md)
-*Source: Monster Manual p. 320, Princes of the Apocalypse, Tomb of Annihilation, Ghosts of Saltmarsh, Dragon of Icespire Peak, Storm Lord's Wrath, Infernal Machine Rebuild, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Crocodile](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/crocodile.md)
+*Source: Monster Manual p. 320. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Crocodile"
@@ -44,20 +45,13 @@ aliases:
   - "desc": "The crocodile can hold its breath for 15 minutes."
     "name": "Hold Breath"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 7 (1d10 + 2) piercing damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 12). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and the crocodile can't bite another target"
     "name": "Bite"
 "source":
   - "MM"
-  - "PotA"
-  - "ToA"
-  - "GoS"
-  - "DIP"
-  - "SLW"
-  - "IMR"
-  - "EGW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/crocodile.webp"
 ```
 ^statblock

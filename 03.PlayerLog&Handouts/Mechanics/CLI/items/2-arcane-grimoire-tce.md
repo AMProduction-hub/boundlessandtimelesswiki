@@ -1,15 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/gear/spellcasting-focus
 - ttrpg-cli/item/rarity/rare
-aliases: 
+aliases:
 - "+2 Arcane Grimoire"
 ---
 # +2 Arcane Grimoire
-*Wondrous item, rare (requires attunement by a wizard)*  
+*Wondrous item, spellcasting focus, rare (requires attunement by a wizard)*  
 
 
 - **Weight**: 3.0 lbs.

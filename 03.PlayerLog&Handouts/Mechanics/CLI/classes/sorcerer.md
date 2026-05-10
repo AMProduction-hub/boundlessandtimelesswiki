@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/class/sorcerer
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Sorcerer
+- "Sorcerer"
 ---
 # Sorcerer
 *Source: Player's Handbook p. 99. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
@@ -127,8 +128,6 @@ Does your character know the source of your magical power? Does it tie back to s
 
 **Arcane Origins**
 
-`dice: [](sorcerer.md#^arcane-origins)`
-
 | dice: d6 | Origin |
 |----------|--------|
 | 1 | Your power arises from your family's bloodline. You are related to some powerful creature, or you inherited a blessing or a curse. |
@@ -147,8 +146,6 @@ When a new sorcerer enters the world, either at birth or later when one's power 
 When your sorcerer's powers appeared, how did the world around you respond? Were other people supportive, fearful, or somewhere in between?
 
 **Reactions**
-
-`dice: [](sorcerer.md#^reactions)`
 
 | dice: d6 | Reaction |
 |----------|----------|
@@ -169,8 +166,6 @@ If your sorcerer has a supernatural mark, it might be one that's easily conceale
 
 **Supernatural Marks**
 
-`dice: [](sorcerer.md#^supernatural-marks)`
-
 | dice: d6 | Mark |
 |----------|------|
 | 1 | Your eyes are an unusual color, such as red. |
@@ -190,8 +185,6 @@ When your sorcerer character casts a spell, does the effort reveal itself in a s
 
 **Signs of Sorcery**
 
-`dice: [](sorcerer.md#^signs-of-sorcery)`
-
 | dice: d6 | Sign |
 |----------|------|
 | 1 | You deliver the verbal components of your spells in the booming voice of a titan. |
@@ -208,35 +201,25 @@ When your sorcerer character casts a spell, does the effort reveal itself in a s
 
 An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells. See "chapter 10" for the general rules of spellcasting and "chapter 11" for the sorcerer spell list.
 
-#### Cantrips
+**Cantrips.** At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn an additional sorcerer cantrip of your choice at 4th level and another at 10th level.
 
-At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn an additional sorcerer cantrip of your choice at 4th level and another at 10th level.
-
-#### Spell Slots
-
-The Sorcerer table shows how many spell slots you have to cast your sorcerer spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+**Spell Slots.** The Sorcerer table shows how many spell slots you have to cast your sorcerer spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
 For example, if you know the 1st-level spell [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md) and have a 1st-level and a 2nd-level spell slot available, you can cast [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md) using either slot.
 
-#### Spells Known of 1st Level and Higher
-
-You know two 1st-level spells of your choice from the sorcerer spell list.
+**Spells Known of 1st Level and Higher.** You know two 1st-level spells of your choice from the sorcerer spell list.
 
 You learn an additional sorcerer spell of your choice at each level except 12th, 14th, 16th, 18th, 19th, and 20th. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.
 
 Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.
 
-#### Spellcasting Ability
-
-Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.
+**Spellcasting Ability.** Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.
 
 <span class='abilityDc'>**Spell save DC**: your proficiency bonus + your Charisma</span>
 
 <span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Charisma</span>
 
-#### Spellcasting Focus
-
-You can use an [arcane focus](03.PlayerLog&Handouts/Mechanics/CLI/items/arcane-focus.md) as a spellcasting focus for your sorcerer spells.
+**Spellcasting Focus.** You can use an [arcane focus](03.PlayerLog&Handouts/Mechanics/CLI/items/arcane-focus.md) as a spellcasting focus for your sorcerer spells.
 
 ### Sorcerous Origin (Level 1)
 
@@ -256,9 +239,7 @@ You have 2 sorcery points, and you gain one additional point every time you leve
 
 You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels.
 
-#### Creating Spell Slots
-
-You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The created spell slots vanish at the end of a long rest. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.
+**Creating Spell Slots.** You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The created spell slots vanish at the end of a long rest. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.
 
 **Creating Spell Slots**
 
@@ -271,15 +252,15 @@ You can transform unexpended sorcery points into one spell slot as a bonus actio
 | 5th | 7 |
 ^creating-spell-slots
 
-#### Converting a Spell Slot to Sorcery Points
-
-As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.
+**Converting a Spell Slot to Sorcery Points.** As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.
 
 ### Metamagic (Level 3)
 
 At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.
 
 You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.
+
+Options (choose 2):
 
 - [Careful Spell](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/careful-spell.md)  
 - [Distant Spell](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/distant-spell.md)  
@@ -296,6 +277,11 @@ _Source: Tasha's Cauldron of Everything p. 65_
 *3rd-level sorcerer [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md)*
 
 When you choose Metamagic options, you have access to the following additional options.
+
+Options:
+
+- [Seeking Spell](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/seeking-spell-tce.md)  
+- [Transmuted Spell](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/transmuted-spell-tce.md)  
 
 ### Ability Score Improvement (Level 4)
 

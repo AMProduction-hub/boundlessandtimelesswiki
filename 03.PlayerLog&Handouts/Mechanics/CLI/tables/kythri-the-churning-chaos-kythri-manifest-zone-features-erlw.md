@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Kythri, the Churning Chaos; Kythri Manifest Zone Features
+- "Kythri, the Churning Chaos; Kythri Manifest Zone Features"
 ---
 # Kythri, the Churning Chaos; Kythri Manifest Zone Features
 *Source: Eberron: Rising from the Last War p. 230* 
 
 **Kythri Manifest Zone Features**
-
-`dice: [](kythri-the-churning-chaos-kythri-manifest-zone-features-erlw.md#^kythri-manifest-zone-features)`
 
 | dice: d4 | Feature |
 |----------|---------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Quandrix Professor of Theory
+- "Quandrix Professor of Theory"
 ---
-# [Quandrix Professor of Theory](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/quandrix-professor-of-theory-scc.md)
+# [Quandrix Professor of Theory](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/quandrix-professor-of-theory-scc.md)
 *Source: Strixhaven: A Curriculum of Chaos p. 209*  
 
 Professors of theory advance the Quandrix philosophy that math-magical manipulation is most powerful in the abstract dimension of minds, probability, and the fabric of magic itself. Their equations shift perceptions in profound ways, alter probability, and interfere with the formation of other magic. In battle, the professors tweak probability to impede attacks and strike at the minds of their foes with lancing equations that disrupt the opponent's resolve.
@@ -41,10 +42,10 @@ The scholars of Quandrix College focus on the mathematical principles that gover
   - !!int "13"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+5"
-  - "intelligence": "+7"
-  - "wisdom": "+5"
-  - "charisma": "+4"
+  - "constitution": !!int "5"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+10"
@@ -64,8 +65,8 @@ The scholars of Quandrix College focus on the mathematical principles that gover
   - "desc": "The professor makes two Heuristic Lance attacks. It can also use Overriding\
       \ Theorem, if available."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 60\
-      \ ft., one creature. Hit: 13 (2d8 + 4) psychic damage, and the target is\
+  - "desc": "*Melee  or Ranged Spell Attack:* +7 to hit, reach 5 ft. or range 60\
+      \ ft., one creature. *Hit:* 13 (2d8 + 4) psychic damage, and the target is\
       \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ until the end of its next turn."
     "name": "Heuristic Lance"
@@ -79,10 +80,10 @@ The scholars of Quandrix College focus on the mathematical principles that gover
     "name": "Overriding Theorem (Recharge 4-6)"
   - "desc": "The professor casts one of the following spells, requiring no material\
       \ components and using Intelligence as the spellcasting ability (spell save\
-      \ DC 15):\n\nAt will: [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ DC 15):\n\n**At will:** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [minor\
       \ illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\n\
-      1/day each: [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md),\
+      **1/day each:** [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md),\
       \ [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md),\
       \ [mirage arcane](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirage-arcane.md)\
       \ (as an action), [Rary's telepathic bond](03.PlayerLog&Handouts/Mechanics/CLI/spells/rarys-telepathic-bond.md)"

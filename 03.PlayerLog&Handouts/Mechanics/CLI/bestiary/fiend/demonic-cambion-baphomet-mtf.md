@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/monster/cr/5
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Demonic Cambion (Baphomet)
+- "Demonic Cambion (Baphomet)"
 ---
-# [Demonic Cambion (Baphomet)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/demonic-cambion-baphomet-mtf.md)
-*Source: Mordenkainen's Tome of Foes p. 36, Storm King's Thunder, Baldur's Gate: Descent Into Avernus, Candlekeep Mysteries, Keys from the Golden Vault*  
+# [Demonic Cambion (Baphomet)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/demonic-cambion-baphomet-mtf.md)
+*Source: Mordenkainen's Tome of Foes p. 36*  
 
 ```statblock
 "name": "Demonic Cambion (Baphomet) (MTF)"
@@ -34,10 +35,10 @@ aliases:
   - !!int "16"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "strength": "+7"
-  - "constitution": "+6"
-  - "intelligence": "+5"
-  - "charisma": "+6"
+  - "strength": !!int "7"
+  - "constitution": !!int "6"
+  - "intelligence": !!int "5"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+6"
@@ -49,15 +50,18 @@ aliases:
     "desc": "+7"
 "damage_resistances": "cold; fire; lightning; poison; bludgeoning, piercing, slashing\
   \ from nonmagical attacks"
-"senses": "darkvision 60 ft., passive Perception 14"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Abyssal, Common, Infernal"
 "cr": "5"
 "traits":
   - "desc": "The cambion's spellcasting ability is Charisma (spell save DC 14). The\
       \ cambion can innately cast the following spells, requiring no material components:\n\
-      \n3/day each: [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
+      \n**3/day each:** [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
       \ [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md), [detect\
-      \ magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md)\n\n1/day:\
+      \ magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md)\n\n**1/day:**\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md) (self\
       \ only)"
     "name": "Innate Spellcasting"
@@ -66,11 +70,12 @@ aliases:
 "actions":
   - "desc": "The cambion makes two melee attacks or uses its Fire Ray twice."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing\
-      \ damage if used with two hands to make a melee attack, plus 3 (d6) fire damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing\
+      \ damage if used with two hands to make a melee attack, plus 3 (1d6) fire\
+      \ damage."
     "name": "Spear"
-  - "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +7 to hit, range 120 ft., one target. *Hit:*\
       \ 10 (3d6) fire damage."
     "name": "Fire Ray"
   - "desc": "When the cambion targets only one creature with the attacks of its Multiattack,\
@@ -79,10 +84,6 @@ aliases:
     "name": "Horned One's Call"
 "source":
   - "MTF"
-  - "SKT"
-  - "BGDIA"
-  - "CM"
-  - "KftGV"
 ```
 ^statblock
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Valenar Hound
+- "Valenar Hound"
 ---
-# [Valenar Hound](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/valenar-hound-erlw.md)
+# [Valenar Hound](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/valenar-hound-erlw.md)
 *Source: Eberron: Rising from the Last War p. 312*  
 
 The elves of Valenar say that when their ancestors fought the giants of Xen'drik, elf druids took the forms of animals on the battlefield. The cruel and mighty Emperor Cul'sir of the giants laid a curse upon the druids and trapped them in the forms of animals. Just as the ancestors of the Valenar guide their warriors in battle, the spirits of these druids can awaken power in an animal to create a companion worthy of a champion.
@@ -25,8 +26,6 @@ The Valenar animals presented here—hawk, hound, and steed—are but examples, 
 Each Valenar animal can be customized with an ancestral gift, a supernatural trait granted by its ancestral spirit. Choose a trait or roll on the Ancestral Traits table for each Valenar animal.
 
 **Ancestral Traits**
-
-`dice: [](valenar-hound-erlw.md#^ancestral-traits)`
 
 | dice: d8 | Trait |
 |----------|-------|
@@ -76,7 +75,7 @@ Each Valenar animal can be customized with an ancestral gift, a supernatural tra
       \ checks that rely on hearing or smell."
     "name": "Keen Hearing and Smell"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage. If the target is a creature, it must succeed\
       \ on a DC 13 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Bite"

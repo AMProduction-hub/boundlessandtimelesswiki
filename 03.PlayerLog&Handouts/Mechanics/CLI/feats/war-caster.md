@@ -1,15 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/feat
 aliases:
-- War Caster
+- "War Caster"
 ---
 # War Caster
 *Source: Player's Handbook p. 170*  
+
 **Prerequisite**: The ability to cast at least one spell
+
 You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:
 
 - You have advantage on Constitution saving throws that you make to maintain your [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) on a spell when you take damage.  

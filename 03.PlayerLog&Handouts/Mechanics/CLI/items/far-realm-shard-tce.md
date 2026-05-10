@@ -1,15 +1,17 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/gear/spellcasting-focus
 - ttrpg-cli/item/rarity/rare
-aliases: 
+aliases:
 - "Far Realm Shard"
 ---
 # Far Realm Shard
-*Wondrous item, rare (requires attunement by a sorcerer)*  
+*Wondrous item, spellcasting focus, rare (requires attunement by a sorcerer)*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/far-realm-shard.webp#right)
 
 - **Weight**: 1.0 lbs.

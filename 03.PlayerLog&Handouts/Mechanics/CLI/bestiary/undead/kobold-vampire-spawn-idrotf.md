@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kobold Vampire Spawn
+- "Kobold Vampire Spawn"
 ---
-# [Kobold Vampire Spawn](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/kobold-vampire-spawn-idrotf.md)
+# [Kobold Vampire Spawn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/kobold-vampire-spawn-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 297*  
 
 The gnoll vampire Tekeli-li has a small number of kobold vampire spawn minions to keep it company in the Caves of Hunger (see chapter 6). The vampiric kobolds are terrified of the gnoll vampire and can't understand its commands, so they give Tekeli-li a wide berth. These ravenous undead kobolds thirst for blood and tend to swarm one foe at a time.
@@ -34,15 +35,16 @@ The gnoll vampire Tekeli-li has a small number of kobold vampire spawn minions t
   - !!int "8"
 "speed": "30 ft., climb 20 ft."
 "saves":
-  - "dexterity": "+6"
-  - "wisdom": "+1"
+  - "dexterity": !!int "6"
+  - "wisdom": !!int "1"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+1"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "damage_resistances": "necrotic; bludgeoning, piercing, slashing from nonmagical attacks"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "Common, Draconic"
 "cr": "3"
 "traits":
@@ -52,23 +54,23 @@ The gnoll vampire Tekeli-li has a small number of kobold vampire spawn minions t
     "name": "Pack Tactics"
   - "desc": "The vampire regains 10 hit points at the start of its turn if it has\
       \ at least 1 hit point and isn't in sunlight or running water. If the vampire\
-      \ takes radiant damage or damage from holy water, this trait doesn't function\
-      \ at the start of its next turn."
+      \ takes radiant damage or damage from [holy water](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-water-flask.md),\
+      \ this trait doesn't function at the start of its next turn."
     "name": "Regeneration"
   - "desc": "The vampire doesn't require air."
     "name": "Unusual Nature"
-  - "desc": "The vampire has the following flaws:\n\n- Forbiddance. The vampire\
+  - "desc": "The vampire has the following flaws:\n\n- **Forbiddance.** The vampire\
       \ can't enter a residence without an invitation from one of the occupants. \
-      \ \n- Harmed by Running Water. The vampire takes 20 acid damage when it\
-      \ starts its turn in running water.  \n- Stake to the Heart. The vampire\
+      \ \n- **Harmed by Running Water.** The vampire takes 20 acid damage when it\
+      \ starts its turn in running water.  \n- **Stake to the Heart.** The vampire\
       \ is destroyed if a piercing weapon made of wood is driven into its heart while\
       \ it is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
-      \ in its resting place.  \n- Sunlight Hypersensitivity. The vampire takes\
+      \ in its resting place.  \n- **Sunlight Hypersensitivity.** The vampire takes\
       \ 20 radiant damage when it starts its turn in sunlight. While in sunlight,\
       \ it has disadvantage on attack rolls and ability checks.  "
     "name": "Vampire Weaknesses"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:*\
       \ 6 (1d4 + 4) piercing damage plus 5 (2d4) necrotic damage. The target's\
       \ hit point maximum is reduced by an amount equal to the necrotic damage taken,\
       \ and the vampire regains hit points equal to that amount. The reduction lasts\

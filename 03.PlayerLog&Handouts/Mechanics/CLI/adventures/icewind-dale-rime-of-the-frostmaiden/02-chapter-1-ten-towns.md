@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Chapter 1: Ten-Towns
+- "Chapter 1: Ten-Towns"
 ---
 # Chapter 1: Ten-Towns
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 17* 
@@ -15,7 +16,7 @@ Icewind Dale has few trees, so lumber is cut from the slopes of the Spine of the
 
 The people of Ten-Towns wear layers of woolen clothing often topped off with fur cloaks. Under these heavy clothes and cloaks, one resident looks very much the same as another. Outdoors, it's hard to tell the people of Ten-Towns apart—and easy for clever monsters to hide in their midst.
 
-![The Easthaven ferry is tra...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/006-01-000-chapter-splash.webp#center "The Easthaven ferry is trapped in ice, just like the rest of Ten-Towns..")
+![The Easthaven ferry is trapped in ice, just like the rest of Ten-Towns..](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/006-01-000-chapter-splash.webp#center)
 
 ## Running This Chapter
 
@@ -32,8 +33,6 @@ Getting off on the right foot is important. If you follow these steps, you shoul
 Choose one of the ten towns as the starting point for the adventure. It doesn't matter which one, so pick your favorite or roll randomly using the Starting Town table. If you can't decide and don't want to leave it to chance, choose Bryn Shander; it's the most cosmopolitan settlement in Icewind Dale, and it has all the amenities a fledgling party of adventurers could hope for.
 
 **Starting Town**
-
-`dice: [](02-chapter-1-ten-towns.md#^starting-town)`
 
 | dice: d10 | Town | Town's Starting Quest |
 |-----------|------|-----------------------|
@@ -60,8 +59,6 @@ The quests in this chapter are designed to get the characters exploring Ten-Town
 If the characters complete a town's quest and aren't sure where to go next, inform the players that their characters have heard rumors of trouble in a neighboring town, then roll on the Ten-Towns Rumors table to determine what they've heard. Roll again if the characters have already completed the quest associated with that town.
 
 **Ten-Towns Rumors**
-
-`dice: [](02-chapter-1-ten-towns.md#^ten-towns-rumors)`
 
 | dice: d10 | Rumor |
 |-----------|-------|
@@ -95,7 +92,7 @@ The adventuring party's reputation in Ten-Towns improves as the characters gain 
 - When the characters reach 3rd level, they begin to earn a healthy measure of respect from Ten-Towners who know of their exploits.  
 - When the characters reach 4th level, they are given a hero's welcome in the towns they've helped but are given the cold shoulder in towns they've ignored. They also learn about new adventure opportunities outside Ten-Towns, as described in chapter 2.  
 
-![The Frostmaiden's aurora s...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/007-01-001-easthaven.webp#center "The Frostmaiden's aurora sweeps across the night sky over Easthaven")
+![The Frostmaiden's aurora sweeps across the night sky over Easthaven](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/007-01-001-easthaven.webp#center)
 
 ## Ten-Towns Overview
 
@@ -193,7 +190,7 @@ A three-snowflake town is where characters are most likely to find the services 
 
 Characters can find decent food and drink, as well as warm beds, in a three-snowflake town. A two-snowflake town might have a small tavern plus an inn with drafty rooms to rent. A one-snowflake town might have a cold shed or attic where characters can crash for the night, and that's about it.
 
-![A crag cat claims an offer...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/009-01-003-crag-cat.webp#center "A crag cat claims an offering of food made by Ten-Towners to appease the Frostmaiden")
+![A crag cat claims an offering of food made by Ten-Towners to appease the Frostmaiden](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/009-01-003-crag-cat.webp#center)
 
 ### Sacrifices to Auril
 
@@ -317,7 +314,7 @@ If the characters capture Sephek and deliver him to the authorities, they stop t
 
 If Torrga Icevein survives but has reason to believe the characters slew her bodyguard, she pressures certain Ten-Towners not to do business with them. At some later point, the characters might find themselves unable to buy something they need or denied lodging at a local inn because the merchant or proprietor doesn't want to earn Torrga's everlasting enmity.
 
-![Using a stolen plate and c...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/011-01-004.webp#center "Using a stolen plate and cutlery, three chwingas play house in the snow")
+![Using a stolen plate and cutlery, three chwingas play house in the snow](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/011-01-004.webp#center)
 
 ## Starting Quest: Nature Spirits
 
@@ -350,7 +347,7 @@ Characters who inspect the windows of Elva's cottage can make a DC 10 Intelligen
 
 #### Playing House
 
-By following the tracks, a character with a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 13 or higher can pick up the sound of movement from behind the conifers, where three [chwingas](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-toa.md) (see appendix C) are playing atop the snow in a clearing. A dinner plate with branches and pinecones arrayed on it is placed between them, and one [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) is sitting at the edge of the plate while the two others are moving a fork and a knife as if to cut and eat the "food."
+By following the tracks, a character with a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 13 or higher can pick up the sound of movement from behind the conifers, where three [chwingas](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) (see appendix C) are playing atop the snow in a clearing. A dinner plate with branches and pinecones arrayed on it is placed between them, and one [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) is sitting at the edge of the plate while the two others are moving a fork and a knife as if to cut and eat the "food."
 
 When the characters enter the clearing, the chwingas look up at them with interest. The one not holding a piece of cutlery starts moving its hands, mimicking eating while looking up at the characters and making welcoming gestures.
 

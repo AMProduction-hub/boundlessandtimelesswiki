@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Chimeric Weasel
+- "Chimeric Weasel"
 ---
-# [Chimeric Weasel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/chimeric-weasel-idrotf.md)
+# [Chimeric Weasel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/chimeric-weasel-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 246*  
 
 ```statblock
@@ -47,7 +48,7 @@ aliases:
       \ and dim light for an additional 20 feet."
     "name": "Chimeric Creation"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1\
       \ piercing damage."
     "name": "Bite"
 "source":

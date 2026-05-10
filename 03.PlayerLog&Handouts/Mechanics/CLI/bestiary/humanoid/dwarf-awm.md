@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/awm
 - ttrpg-cli/monster/cr/1-4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dwarf
+- "Dwarf"
 ---
-# [Dwarf](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/dwarf-awm.md)
+# [Dwarf](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/dwarf-awm.md)
 *Source: Adventure with Muk p. 32*  
 
 Although there are no dwarves that live in the actual Dankwood, they will sometime pass through in travel or explore the forest for coveted materials and magical stones. They pride themselves in their skills and can create beautiful artifacts from the objects they find in nature.
@@ -22,7 +23,7 @@ The dwarves in the area are naturally cautious towards goblins. They will go out
 "name": "Dwarf (AWM)"
 "size": "Medium"
 "type": "humanoid"
-"subtype": "Dwarf"
+"subtype": "dwarf"
 "alignment": "Lawful Good"
 "ac": !!int "10"
 "hp": !!int "30"
@@ -35,6 +36,9 @@ The dwarves in the area are naturally cautious towards goblins. They will go out
   - !!int "11"
   - !!int "10"
 "speed": "25 ft."
+"damage_resistances": "poison"
+"gear":
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
 "senses": "passive Perception 0"
 "languages": ""
 "cr": "1/4"
@@ -43,7 +47,7 @@ The dwarves in the area are naturally cautious towards goblins. They will go out
       \ to poison damage."
     "name": "Dwarven Resilience"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, one target. Hit: 4 (1d6 + 1)\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, one target. *Hit:* 4 (1d6 + 1)\
       \ slashing damage."
     "name": "Shortbow"
 "source":

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Abjurer Wizard
+- "Abjurer Wizard"
 ---
-# [Abjurer Wizard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/abjurer-wizard-mpmm.md)
+# [Abjurer Wizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/abjurer-wizard-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 260, Volo's Guide to Monsters p. 209*  
 
 Abjurers specialize in creating protective magical wards. Monarchs, nobles, and other wealthy individuals commonly hire abjurers to provide protection.
@@ -40,8 +41,8 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
   - !!int "11"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+8"
-  - "wisdom": "+5"
+  - "intelligence": !!int "8"
+  - "wisdom": !!int "5"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+8"
@@ -53,8 +54,8 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "actions":
   - "desc": "The abjurer makes three Arcane Burst attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 120\
-      \ ft., one target. Hit: 20 (3d10 + 4) force damage."
+  - "desc": "*Melee  or Ranged Spell Attack:* +8 to hit, reach 5 ft. or range 120\
+      \ ft., one target. *Hit:* 20 (3d10 + 4) force damage."
     "name": "Arcane Burst"
   - "desc": "Each creature in a 20-foot cube originating from the abjurer must make\
       \ a DC 16 Constitution saving throw. On a failed save, a creature takes 36 (8d8)\
@@ -62,13 +63,13 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
       \ save, a creature takes half as much damage and isn't pushed."
     "name": "Force Blast"
   - "desc": "The abjurer casts one of the following spells, using Intelligence as\
-      \ the spellcasting ability (spell save DC 16):\n\nAt will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ the spellcasting ability (spell save DC 16):\n\n**At will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n2/day each: [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \n**2/day each:** [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)\n\n\
-      1/day each: [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md),\
+      **1/day each:** [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md),\
       \ [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md), [globe\
       \ of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\

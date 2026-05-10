@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Aeorian Reverser
+- "Aeorian Reverser"
 ---
-# [Aeorian Reverser](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/aeorian-reverser-egw.md)
+# [Aeorian Reverser](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/aeorian-reverser-egw.md)
 *Source: Explorer's Guide to Wildemount p. 284*  
 
 A reverser is a terrible foe in melee, laying into other creatures with teeth and claw. But the chaos it imposes is more fearful by far, as its enemies' healing magic are unraveled and turned against them.
@@ -57,8 +58,8 @@ Aeorian hunters don't require food or drink.
   - !!int "8"
 "speed": "40 ft., climb 40 ft."
 "saves":
-  - "wisdom": "+5"
-  - "charisma": "+2"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "2"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
@@ -67,7 +68,8 @@ Aeorian hunters don't require food or drink.
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+5"
 "damage_immunities": "necrotic, radiant"
-"senses": "darkvision 120 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 15"
 "languages": "understands Draconic but can't speak"
 "cr": "8"
 "traits":
@@ -78,10 +80,10 @@ Aeorian hunters don't require food or drink.
   - "desc": "The reverser makes three attacks: one with its bite and two with its\
       \ claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, range 5 ft., one creature. Hit:\
-      \ 11 (1d12 + 5) piercing damage plus 6 (d12) force damage."
+  - "desc": "*Melee Weapon Attack:* +8 to hit, range 5 ft., one creature. *Hit:*\
+      \ 11 (1d12 + 5) piercing damage plus 6 (1d12) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d6 + 5) slashing damage plus 7 (2d6) force damage."
     "name": "Claws"
 "reactions":

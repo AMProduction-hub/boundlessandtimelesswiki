@@ -1,19 +1,20 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/14
 - ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/cleric
-- ttrpg-cli/monster/type/humanoid/elf
+- ttrpg-cli/monster/type/humanoid/drow-elf
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Drow Inquisitor
+- "Drow Inquisitor"
 ---
-# [Drow Inquisitor](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/drow-inquisitor-mpmm.md)
+# [Drow Inquisitor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-inquisitor-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 102, Mordenkainen's Tome of Foes p. 184*  
 
 Lolth's worshipers expect treachery—the Spider Queen encourages it, after all. A certain amount of backstabbing and double-crossing can be managed, but too much can undermine an entire community. To keep some semblance of order and to root out traitors, priestesses of Lolth employ inquisitors. Inquisitors are chosen from the ranks of the priesthood, and their authority is equaled only by that of the [drow matron mothers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-matron-mother-mpmm.md) (also in this book) of the noble houses. Anyone they decide is at odds with the hierarchy faces painful interrogation and usually an excruciating death.
@@ -22,7 +23,7 @@ Lolth's worshipers expect treachery—the Spider Queen encourages it, after all.
 "name": "Drow Inquisitor (MPMM)"
 "size": "Medium"
 "type": "humanoid"
-"subtype": "cleric, elf"
+"subtype": "cleric, Drow elf"
 "alignment": "Typically  Neutral Evil"
 "ac": !!int "16"
 "ac_class": "[breastplate](03.PlayerLog&Handouts/Mechanics/CLI/items/breastplate.md)"
@@ -38,9 +39,9 @@ Lolth's worshipers expect treachery—the Spider Queen encourages it, after all.
   - !!int "20"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+7"
-  - "wisdom": "+10"
-  - "charisma": "+10"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "10"
+  - "charisma": !!int "10"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+10"
@@ -51,7 +52,8 @@ Lolth's worshipers expect treachery—the Spider Queen encourages it, after all.
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 20"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 20"
 "languages": "Elvish, Undercommon"
 "cr": "14"
 "traits":
@@ -68,18 +70,18 @@ Lolth's worshipers expect treachery—the Spider Queen encourages it, after all.
 "actions":
   - "desc": "The drow makes three Death Lance attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 8 (1d6 + 5) piercing damage plus 18 (4d8) necrotic damage. The target's\
       \ hit point maximum is reduced by an amount equal to the necrotic damage taken.\
       \ This reduction lasts until the target finishes a long rest. The target dies\
       \ if its hit point maximum is reduced to 0."
     "name": "Death Lance"
   - "desc": "The drow's casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 18):\n\nAt\
-      \ will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 18):\n\n**At\
+      \ will:** [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md), [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1/day each: [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
+      \n**1/day each:** [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
       \ [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md), [detect\
       \ thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\

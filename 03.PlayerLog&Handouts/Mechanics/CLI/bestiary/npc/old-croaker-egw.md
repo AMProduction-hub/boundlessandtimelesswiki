@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Old Croaker
+- "Old Croaker"
 ---
-# [Old Croaker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/old-croaker-egw.md)
+# [Old Croaker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/old-croaker-egw.md)
 *Source: Explorer's Guide to Wildemount p. 240*  
 
 ```statblock
@@ -32,7 +33,8 @@ aliases:
   - !!int "3"
 "speed": "20 ft., swim 40 ft."
 "damage_immunities": "cold"
-"senses": "darkvision 30 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 30 ft., passive Perception 10"
 "languages": ""
 "cr": "1"
 "traits":
@@ -42,8 +44,8 @@ aliases:
       \ feet, with or without a running start."
     "name": "Standing Leap"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d10 + 2) piercing damage plus 5 (d10) poison damage, and the target\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
+      \ (1d10 + 2) piercing damage plus 5 (1d10) poison damage, and the target\
       \ is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and Old Croaker can't bite another target."

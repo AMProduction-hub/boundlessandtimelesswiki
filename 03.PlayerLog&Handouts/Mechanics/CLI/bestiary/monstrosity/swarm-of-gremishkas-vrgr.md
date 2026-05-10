@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Swarm of Gremishkas
+- "Swarm of Gremishkas"
 ---
-# [Swarm of Gremishkas](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/swarm-of-gremishkas-vrgr.md)
+# [Swarm of Gremishkas](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/swarm-of-gremishkas-vrgr.md)
 *Source: Van Richten's Guide to Ravenloft p. 235*  
 
 Gremishkas are the vicious products of mistakes made by novice spellcasters seeking to create life. The results are cat-sized, magically unstable creatures with a taste for the trappings of magic—particularly spellbooks, spell components, familiars, and the like. Gremishkas delight in tormenting magic-users, holding vicious grudges against those who gave them life as they infest the walls of spellcasters' homes or the surrounding lands.
@@ -48,7 +49,8 @@ Gremishkas have an unstable relationship with magic. Spells cast near a gremishk
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 30 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 30 ft., passive Perception 14"
 "languages": "understands Common but can't speak"
 "cr": "2"
 "traits":
@@ -60,8 +62,8 @@ Gremishkas have an unstable relationship with magic. Spells cast near a gremishk
       \ swarm can't regain hit points or gain temporary hit points."
     "name": "Swarm"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 0 ft., one target in the swarm's\
-      \ space. Hit: 12 (3d6 + 2) piercing damage, or 5 (1d6 + 2) piercing damage\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 0 ft., one target in the swarm's\
+      \ space. *Hit:* 12 (3d6 + 2) piercing damage, or 5 (1d6 + 2) piercing damage\
       \ if the swarm has half of its hit points or fewer, plus 7 (2d6) force damage."
     "name": "Bites"
 "reactions":

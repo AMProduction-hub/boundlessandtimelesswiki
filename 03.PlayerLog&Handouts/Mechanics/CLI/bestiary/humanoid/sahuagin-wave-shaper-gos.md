@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sahuagin Wave Shaper
+- "Sahuagin Wave Shaper"
 ---
-# [Sahuagin Wave Shaper](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/sahuagin-wave-shaper-gos.md)
+# [Sahuagin Wave Shaper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-wave-shaper-gos.md)
 *Source: Ghosts of Saltmarsh p. 251*  
 
 These hunched and twisted sahuagin sacrifice their bodies to the mutating magic of Sekolah. Wave shapers add elemental magic to sahuagin armed forces (as seen in The Final Enemy) and delight in creating destructive whirlpools.
@@ -36,7 +37,7 @@ These hunched and twisted sahuagin sacrifice their bodies to the mutating magic 
   - !!int "12"
 "speed": "30 ft., swim 40 ft."
 "saves":
-  - "intelligence": "+6"
+  - "intelligence": !!int "6"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+6"
@@ -44,14 +45,15 @@ These hunched and twisted sahuagin sacrifice their bodies to the mutating magic 
     "desc": "+4"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+5"
-"senses": "darkvision 120 ft., passive Perception 15"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 15"
 "languages": "Sahuagin"
 "cr": "5"
 "traits":
   - "desc": "The wave shaper's spellcasting ability is Intelligence (spell save DC\
       \ 14, +6 to hit with spell attacks). It can cast the following spells, requiring\
-      \ only verbal components:\n\nAt will: [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md)\n\
-      \n1/day: [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md)"
+      \ only verbal components:\n\n**At will:** [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md)\n\
+      \n**1/day:** [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md)"
     "name": "Innate Spellcasting"
   - "desc": "The wave shaper has advantage on melee attack rolls against any creature\
       \ that doesn't have all its hit points."
@@ -66,10 +68,10 @@ These hunched and twisted sahuagin sacrifice their bodies to the mutating magic 
   - "desc": "The wave shaper makes two attacks: one with its bite and one with its\
       \ claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d8 + 1) piercing damage plus 13 (3d8) cold damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d8 + 1) slashing damage plus 13 (3d8) cold damage."
     "name": "Claws"
   - "desc": "The wave shaper targets a body of water at least 50 feet square and 25\

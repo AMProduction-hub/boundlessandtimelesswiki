@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Cosmic Horror Adventure Sites
+- "Cosmic Horror Adventure Sites"
 ---
 # Cosmic Horror Adventure Sites
 *Source: Van Richten's Guide to Ravenloft p. 49* 
 
 **Cosmic Horror Adventure Sites**
-
-`dice: [](cosmic-horror-adventure-sites-vrgr.md#^cosmic-horror-adventure-sites)`
 
 | dice: d8 | Adventure Site |
 |----------|----------------|

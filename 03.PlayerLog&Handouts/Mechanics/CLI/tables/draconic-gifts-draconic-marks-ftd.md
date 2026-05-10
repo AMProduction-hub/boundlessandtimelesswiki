@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Draconic Gifts; Draconic Marks
+- "Draconic Gifts; Draconic Marks"
 ---
 # Draconic Gifts; Draconic Marks
 *Source: Fizban's Treasury of Dragons p. 27* 
 
 **Draconic Marks**
-
-`dice: [](draconic-gifts-draconic-marks-ftd.md#^draconic-marks)`
 
 | dice: d4 | Visual Manifestation |
 |----------|----------------------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/10
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Guardian Naga
+- "Guardian Naga"
 ---
-# [Guardian Naga](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/guardian-naga.md)
-*Source: Monster Manual p. 234, Tomb of Annihilation, Ghosts of Saltmarsh. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Guardian Naga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/guardian-naga.md)
+*Source: Monster Manual p. 234. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Wise and good, the beautiful guardian nagas protect sacred places and items of magical power from falling into evil hands. In their hidden redoubts, they research spells and hatch convoluted plots to thwart the evil designs of their enemies.
 
@@ -59,55 +60,54 @@ A naga doesn't require air, food, drink, or sleep.
   - !!int "18"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+8"
-  - "constitution": "+7"
-  - "intelligence": "+7"
-  - "wisdom": "+8"
-  - "charisma": "+8"
+  - "dexterity": !!int "8"
+  - "constitution": !!int "7"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "8"
+  - "charisma": !!int "8"
 "damage_immunities": "poison"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Celestial, Common"
 "cr": "10"
 "traits":
   - "desc": "The naga is an 11th-level spellcaster. Its spellcasting ability is Wisdom\
       \ (spell save DC 16, +8 to hit with spell attacks), and it needs only verbal\
       \ components to cast its spells. It has the following cleric spells prepared:\n\
-      \nCantrips (at will): [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md),\
+      \n**Cantrips (at will):** [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md),\
       \ [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \n**1st level (4 slots):** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
       \ [shield of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield-of-faith.md)\n\
-      \n2nd level (3 slots): [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
+      \n**2nd level (3 slots):** [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md)\n\
-      \n3rd level (3 slots): [bestow curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/bestow-curse.md),\
+      \n**3rd level (3 slots):** [bestow curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/bestow-curse.md),\
       \ [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md)\n\
-      \n4th level (3 slots): [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \n**4th level (3 slots):** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [freedom of movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md)\n\
-      \n5th level (2 slots): [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md),\
-      \ [geas](03.PlayerLog&Handouts/Mechanics/CLI/spells/geas.md)\n\n6th level\
-      \ (1 slots): [true seeing](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-seeing.md)"
+      \n**5th level (2 slots):** [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md),\
+      \ [geas](03.PlayerLog&Handouts/Mechanics/CLI/spells/geas.md)\n\n**6th level\
+      \ (1 slots):** [true seeing](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-seeing.md)"
     "name": "Spellcasting"
-  - "desc": "If it dies, the naga returns to life in d6 days and regains all its\
+  - "desc": "If it dies, the naga returns to life in 1d6 days and regains all its\
       \ hit points. Only a [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md)\
       \ spell can prevent this trait from functioning."
     "name": "Rejuvenation"
 "actions":
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one creature. *Hit:*\
       \ 8 (1d8 + 4) piercing damage, and the target must make a DC 15 Constitution\
       \ saving throw, taking 45 (10d8) poison damage on a failed save, or half as\
       \ much damage on a successful one."
     "name": "Bite"
-  - "desc": "Ranged Weapon Attack: +8 to hit, range 15/30 ft., one creature. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +8 to hit, range 15/30 ft., one creature. *Hit:*\
       \ The target must make a DC 15 Constitution saving throw, taking 45 (10d8)\
       \ poison damage on a failed save, or half as much damage on a successful one."
     "name": "Spit Poison"
 "source":
   - "MM"
-  - "ToA"
-  - "GoS"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/guardian-naga.webp"
 ```
 ^statblock

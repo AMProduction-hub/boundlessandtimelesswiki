@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/1
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Xvart Warlock of Raxivort
+- "Xvart Warlock of Raxivort"
 ---
-# [Xvart Warlock of Raxivort](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/xvart-warlock-of-raxivort-mpmm.md)
+# [Xvart Warlock of Raxivort](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/xvart-warlock-of-raxivort-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 267, Volo's Guide to Monsters p. 200*  
 
 Some xvarts are spawned with a trace of Raxivort's divine energy. These xvarts usually form a pact with him and wield magic in his service as warlocks.
@@ -44,7 +45,10 @@ Raxivort spent centuries watching over the treasury of Graz'zt, and in time, Rax
 "skillsaves":
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+3"
-"senses": "darkvision 30 ft., passive Perception 10"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 30 ft., passive Perception 10"
 "languages": "Abyssal"
 "cr": "1"
 "traits":
@@ -59,20 +63,20 @@ Raxivort spent centuries watching over the treasury of Graz'zt, and in time, Rax
 "actions":
   - "desc": "The xvart makes two Scimitar or Raxivort's Bite attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage."
     "name": "Scimitar"
-  - "desc": "Ranged Spell Attack: +3 to hit, range 30 ft., one creature. Hit:\
+  - "desc": "*Ranged Spell Attack:* +3 to hit, range 30 ft., one creature. *Hit:*\
       \ 7 (1d10 + 2) poison damage."
     "name": "Raxivort's Bite"
   - "desc": "The xvart casts one of the following spells, requiring no material components\
-      \ and using Charisma as the spellcasting ability (spell save DC 11):\n\nAt\
-      \ will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ and using Charisma as the spellcasting ability (spell save DC 11):\n\n**At\
+      \ will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md) (self\
       \ only), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n1/day each: [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md),\
+      \n**1/day each:** [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)"
     "name": "Spellcasting"
 "bonus_actions":

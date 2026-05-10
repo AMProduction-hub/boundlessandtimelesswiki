@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Framing Events
+- "Framing Events"
 ---
 # Framing Events
 *Source: Dungeon Master's Guide p. 79* 
 
 **Framing Events**
-
-`dice: [](framing-events.md#^framing-events)`
 
 | dice: d100 | Event |
 |------------|-------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tftyp
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ooze Master
+- "Ooze Master"
 ---
-# [Ooze Master](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/ooze-master-tftyp.md)
+# [Ooze Master](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ooze-master-tftyp.md)
 *Source: Tales from the Yawning Portal p. 241*  
 
 ```statblock
@@ -33,8 +34,8 @@ aliases:
   - !!int "16"
 "speed": "30 ft., climb 30 ft."
 "saves":
-  - "intelligence": "+7"
-  - "wisdom": "+4"
+  - "intelligence": !!int "7"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+7"
@@ -50,27 +51,28 @@ aliases:
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 120 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft., passive Perception 10"
 "languages": "Common, Primordial, Thayan"
 "cr": "10"
 "traits":
   - "desc": "The Ooze Master is a 9th-level spellcaster. Its spellcasting ability\
       \ is Intelligence (spell save DC 15, +7 to hit with spell attacks). It has\
-      \ the following wizard spells prepared:\n\nCantrips (at will): [acid splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md),\
+      \ the following wizard spells prepared:\n\n**Cantrips (at will):** [acid splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md),\
       \ [friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [poison spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md)\n\
-      \n1st level (4 slots): [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \n**1st level (4 slots):** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
       \ [ray of sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md)\n\
-      \n2nd level (3 slots): [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \n**2nd level (3 slots):** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [Melf's acid arrow](03.PlayerLog&Handouts/Mechanics/CLI/spells/melfs-acid-arrow.md),\
       \ [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\n\
-      3rd level (3 slots): [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md),\
+      **3rd level (3 slots):** [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md),\
       \ [slow](03.PlayerLog&Handouts/Mechanics/CLI/spells/slow.md), [stinking cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/stinking-cloud.md)\n\
-      \n4th level (3 slots): [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
+      \n**4th level (3 slots):** [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
       \ [Evard's black tentacles](03.PlayerLog&Handouts/Mechanics/CLI/spells/evards-black-tentacles.md)\n\
-      \n5th level (1 slots): [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md)"
+      \n**5th level (1 slots):** [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md)"
     "name": "Spellcasting"
   - "desc": "A creature that touches the Ooze Master or hits it with a melee attack\
       \ while within 5 feet of it takes 9 (2d8) acid damage. Any nonmagical weapon\
@@ -87,7 +89,7 @@ aliases:
       \ ceilings, without needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 13 (3d6 + 3) bludgeoning damage plus 10 (3d6) acid damage."
     "name": "Pseudopod"
 "reactions":

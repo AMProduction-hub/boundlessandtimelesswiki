@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/13
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Keresta Delvingstone
+- "Keresta Delvingstone"
 ---
-# [Keresta Delvingstone](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/keresta-delvingstone-wdmm.md)
+# [Keresta Delvingstone](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/keresta-delvingstone-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 232*  
 
 Keresta Delvingstone grew up in the streets of Waterdeep and is no stranger to hardship. Hoping to make a better life for herself, she became an adventurer and sought fame and fortune in Undermountain. Keresta met her end in the lair of a vampire and became a vampire spawn under its command.
@@ -38,38 +39,39 @@ After Vanrak destroyed the vampire and conquered its lair, he took Keresta under
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+9"
-  - "wisdom": "+7"
-  - "charisma": "+9"
+  - "dexterity": !!int "9"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+9"
 "damage_resistances": "necrotic; bludgeoning, piercing, slashing from nonmagical attacks"
-"senses": "darkvision 120 ft., passive Perception 17"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 17"
 "languages": "the languages it knew in life"
 "cr": "13"
 "traits":
   - "desc": "Keresta is a 9th-level spellcaster. Her spellcasting ability is Wisdom\
       \ (spell save DC 15, +7 to hit with spell attacks). She has the following\
-      \ cleric spells prepared:\n\nCantrips (at will): [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ cleric spells prepared:\n\n**Cantrips (at will):** [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
       \ [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md), [resistance](03.PlayerLog&Handouts/Mechanics/CLI/spells/resistance.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md),\
+      \n**1st level (4 slots):** [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md),\
       \ [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md), [inflict\
       \ wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/inflict-wounds.md), [ray\
       \ of sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md)\n\
-      \n2nd level (3 slots): [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
+      \n**2nd level (3 slots):** [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
       \ [ray of enfeeblement](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-enfeeblement.md),\
       \ [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md)\n\
-      \n3rd level (3 slots): [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
+      \n**3rd level (3 slots):** [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [bestow curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/bestow-curse.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [spirit guardians](03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-guardians.md)\n\
-      \n4th level (3 slots): [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
+      \n**4th level (3 slots):** [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
       \ [death ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/death-ward.md), [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md)\n\
-      \n5th level (1 slots): [antilife shell](03.PlayerLog&Handouts/Mechanics/CLI/spells/antilife-shell.md),\
+      \n**5th level (1 slots):** [antilife shell](03.PlayerLog&Handouts/Mechanics/CLI/spells/antilife-shell.md),\
       \ [destructive wave](03.PlayerLog&Handouts/Mechanics/CLI/spells/destructive-wave.md)"
     "name": "Spellcasting"
   - "desc": "If Keresta isn't in sunlight or running water, it can use its action\
@@ -99,34 +101,34 @@ After Vanrak destroyed the vampire and conquered its lair, he took Keresta under
     "name": "Misty Escape"
   - "desc": "Keresta regains 20 hit points at the start of its turn if it has at least\
       \ 1 hit point and isn't in sunlight or running water. If Keresta takes radiant\
-      \ damage or damage from holy water, this trait doesn't function at the start\
-      \ of Keresta's next turn."
+      \ damage or damage from [holy water](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-water-flask.md),\
+      \ this trait doesn't function at the start of Keresta's next turn."
     "name": "Regeneration"
   - "desc": "Keresta can climb difficult surfaces, including upside down on ceilings,\
       \ without needing to make an ability check."
     "name": "Spider Climb"
-  - "desc": "Keresta has the following flaws:\n\n- Forbiddance. Keresta can't\
-      \ enter a residence without an invitation from one of the occupants.  \n- Harmed\
-      \ by Running Water. Keresta takes 20 acid damage if it ends its turn in running\
-      \ water.  \n- Stake to the Heart. If a piercing weapon made of wood is driven\
+  - "desc": "Keresta has the following flaws:\n\n- **Forbiddance.** Keresta can't\
+      \ enter a residence without an invitation from one of the occupants.  \n- **Harmed\
+      \ by Running Water.** Keresta takes 20 acid damage if it ends its turn in running\
+      \ water.  \n- **Stake to the Heart.** If a piercing weapon made of wood is driven\
       \ into Keresta's heart while Keresta is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
       \ in its resting place, Keresta is [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
-      \ until the stake is removed.  \n- Sunlight Hypersensitivity. Keresta takes\
+      \ until the stake is removed.  \n- **Sunlight Hypersensitivity.** Keresta takes\
       \ 20 radiant damage when it starts its turn in sunlight. While in sunlight,\
       \ it has disadvantage on attack rolls and ability checks.  "
     "name": "Vampire Weaknesses"
 "actions":
   - "desc": "Keresta makes two attacks, only one of which can be a bite attack."
     "name": "Multiattack (Vampire Form Only)"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one creature. *Hit:*\
       \ 8 (1d8 + 4) bludgeoning damage. Instead of dealing damage, Keresta can grapple\
       \ the target (escape DC 18)."
     "name": "Unarmed Strike (Vampire Form Only)"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one willing creature,\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one willing creature,\
       \ or a creature that is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ by Keresta, [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated),\
       \ or [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
-      \ Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) necrotic damage. The\
+      \ *Hit:* 7 (1d6 + 4) piercing damage plus 10 (3d6) necrotic damage. The\
       \ target's hit point maximum is reduced by an amount equal to the necrotic damage\
       \ taken, and Keresta regains hit points equal to that amount. The reduction\
       \ lasts until the target finishes a long rest. The target dies if this effect\
@@ -151,10 +153,24 @@ After Vanrak destroyed the vampire and conquered its lair, he took Keresta under
       \ or [rats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-rats.md),\
       \ provided that the sun isn't up. While outdoors, the vampire can call 3d6\
       \ [giant centipedes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-centipede.md)\
-      \ instead. The called creatures arrive in d4 rounds, acting as allies of the\
-      \ vampire and obeying its spoken commands. The beasts remain for 1 hour, until\
-      \ the vampire dies, or until the vampire dismisses them as a bonus action."
+      \ instead. The called creatures arrive in 1d4 rounds, acting as allies of\
+      \ the vampire and obeying its spoken commands. The beasts remain for 1 hour,\
+      \ until the vampire dies, or until the vampire dismisses them as a bonus action."
     "name": "Children of the Night (1/Day)"
+"regional_effects":
+  - "desc": "Vanrakdoom is Keresta's lair, and the following regional effects are\
+      \ noticeable throughout it:\n\n- Fog creeps into areas of dim light or darkness.\
+      \ It vanishes when light is brought to bear on it but reappears when the light\
+      \ passes. A permanent fog hangs in some areas regardless of light, as noted\
+      \ in the descriptions of those areas.  \n- Rats and bats are plentiful. In areas\
+      \ where they are not specifically mentioned, droppings and guano betray their\
+      \ presence, and they can be heard constantly scuttling and shrieking in the\
+      \ distant darkness.  \n\nIf Keresta is destroyed, the fog disperses, and the\
+      \ rats and bats gradually die off until only a scattered few remain."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Keresta can expend a use to take one of the following actions. Keresta regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Keresta moves up to its speed without provoking opportunity attacks."
     "name": "Move"
@@ -162,21 +178,6 @@ After Vanrak destroyed the vampire and conquered its lair, he took Keresta under
     "name": "Unarmed Strike"
   - "desc": "Keresta makes one bite attack."
     "name": "Bite (Costs 2 Actions)"
-"regional_effects":
-  - "desc": "Vanrakdoom is Keresta's lair, and the following regional effects are\
-      \ noticeable throughout it:"
-    "name": ""
-  - "desc": "- Fog creeps into areas of dim light or darkness. It vanishes when light\
-      \ is brought to bear on it but reappears when the light passes. A permanent\
-      \ fog hangs in some areas regardless of light, as noted in the descriptions\
-      \ of those areas.  \n- Rats and bats are plentiful. In areas where they are\
-      \ not specifically mentioned, droppings and guano betray their presence, and\
-      \ they can be heard constantly scuttling and shrieking in the distant darkness.\
-      \  "
-    "name": ""
-  - "desc": "If Keresta is destroyed, the fog disperses, and the rats and bats gradually\
-      \ die off until only a scattered few remain."
-    "name": ""
 "source":
   - "WDMM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/keresta-delvingstone-wdmm.webp"

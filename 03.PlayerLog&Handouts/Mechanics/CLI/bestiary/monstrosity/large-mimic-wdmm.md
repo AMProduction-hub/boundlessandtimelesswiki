@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Large Mimic
+- "Large Mimic"
 ---
-# [Large Mimic](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/large-mimic-wdmm.md)
+# [Large Mimic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/large-mimic-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 76*  
 
 ```statblock
@@ -38,7 +39,8 @@ aliases:
     "desc": "+5"
 "damage_immunities": "acid"
 "condition_immunities": "[prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": ""
 "cr": "2"
 "traits":
@@ -58,12 +60,12 @@ aliases:
       \ by it."
     "name": "Grappler"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) bludgeoning damage. If the mimic is in object form, the target\
       \ is subjected to its Adhesive trait."
     "name": "Pseudopod"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
-      \ (1d8 + 3) piercing damage plus 4 (d8) acid damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
+      \ (1d8 + 3) piercing damage plus 4 (1d8) acid damage."
     "name": "Bite"
 "source":
   - "WDMM"

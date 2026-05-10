@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/imr
 aliases:
-- Appendix A: Further Options
+- "Appendix A: Further Options"
 ---
 # Appendix A: Further Options
 *Source: Infernal Machine Rebuild, p. 47* 
@@ -68,7 +69,7 @@ If this adventure is played as a sequel to Lost Laboratory of Kwalish, the [enha
 
 This creature originated from old designs of Kwalish, and takes the form of multiple brains that have been magically preserved and which collectively operate a new mechanical body. The brains share insights and knowledge with one another, and have typically been taken from creatures that desired to prolong their consciousness—or that were tasked with controlling a construct for all time as punishment.
 
-A [brain in iron](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/brain-in-iron-imr.md) uses the [brain in a jar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/brain-in-a-jar-llk.md) stat block with the following changes:
+A [brain in iron](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/brain-in-iron-imr.md) uses the brain in a jar stat block with the following changes:
 
 - It is lawful neutral.  
 - It has the construct type.  

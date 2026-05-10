@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Madness
+- "Madness"
 ---
 # Madness
 *Source: Dungeon Master's Guide p. 258. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>* 
@@ -21,7 +22,7 @@ Resisting a madness-inducing effect usually requires a Wisdom or Charisma saving
 
 Madness can be short-term, long-term, or indefinite. Most relatively mundane effects impose short-term madness, which lasts for just a few minutes. More horrific effects or cumulative effects can result in long-term or indefinite madness.
 
-A character afflicted with **short-term madness** is subjected to an effect from the Short-Term Madness table for `d10` minutes.
+A character afflicted with **short-term madness** is subjected to an effect from the Short-Term Madness table for `1d10` minutes.
 
 A character afflicted with **long-term madness** is subjected to an effect from the Long-Term Madness table for `1d10 × 10` hours.
 

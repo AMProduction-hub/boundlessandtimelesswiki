@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tashlyn Yafeera
+- "Tashlyn Yafeera"
 ---
-# [Tashlyn Yafeera](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/tashlyn-yafeera-wdh.md)
+# [Tashlyn Yafeera](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/tashlyn-yafeera-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 200*  
 
 Tashlyn is Master of Arms and Mercenaries for the Waterdeep Zhentarim. In this role, she provides armor, weapons, and training to sellswords on the Black Network's payroll.
@@ -44,8 +45,8 @@ The Doom Raiders were five unscrupulous adventurers who liked to plunder lich la
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "strength": "+8"
-  - "constitution": "+6"
+  - "strength": !!int "8"
+  - "constitution": !!int "6"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+8"
@@ -53,6 +54,9 @@ The Doom Raiders were five unscrupulous adventurers who liked to plunder lich la
     "desc": "+5"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+  - "[shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md)"
 "senses": "passive Perception 16"
 "languages": "Common"
 "cr": "9"
@@ -68,10 +72,10 @@ The Doom Raiders were five unscrupulous adventurers who liked to plunder lich la
 "actions":
   - "desc": "Tashlyn makes three attacks with her greatsword or her shortbow."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) slashing damage."
     "name": "Greatsword"
-  - "desc": "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Shortbow"
 "source":

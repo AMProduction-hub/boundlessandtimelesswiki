@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/lmop
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Nundro Rockseeker
+- "Nundro Rockseeker"
 ---
-# [Nundro Rockseeker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/nundro-rockseeker-lmop.md)
+# [Nundro Rockseeker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/nundro-rockseeker-lmop.md)
 *Source: Lost Mine of Phandelver p. 50*  
 
 ```statblock
@@ -33,15 +34,18 @@ aliases:
   - !!int "10"
 "speed": "30 ft."
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "any one language (usually Common), Dwarvish"
 "cr": "0"
 "traits":
   - "desc": "Nundro"
     "name": "Dwarven Resilience"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
-      \ (d4) bludgeoning damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2\
+      \ (1d4) bludgeoning damage."
     "name": "Club"
 "source":
   - "LMoP"

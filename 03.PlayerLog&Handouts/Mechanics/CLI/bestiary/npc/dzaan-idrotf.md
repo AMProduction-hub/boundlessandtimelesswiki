@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dzaan
+- "Dzaan"
 ---
-# [Dzaan](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/dzaan-idrotf.md)
+# [Dzaan](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/dzaan-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 271*  
 
 Dzaan was a Red Wizard of Thay who studied the arcane tradition of illusion. The leaders of the Arcane Brotherhood welcomed him with open arms, eager to count a Red Wizard among their ranks. Dzaan might have become a force to reckon with in the brotherhood had his quest for power not led him to Icewind Dale, where he was killed by the people of Easthaven after making a few too many enemies.
@@ -42,8 +43,8 @@ Because they're so despised throughout Faerûn, Red Wizards often adopt disguise
   - !!int "15"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+3"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "3"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+5"
@@ -57,25 +58,25 @@ Because they're so despised throughout Faerûn, Red Wizards often adopt disguise
 "traits":
   - "desc": "Dzaan is a 9th-level spellcaster. His spellcasting ability is Intelligence\
       \ (spell save DC 13, +5 to hit with spell attacks). He has the following wizard\
-      \ spells prepared:\n\nCantrips (at will): [acid splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md)\
-      \ , [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
+      \ spells prepared:\n\n**Cantrips (at will):** [acid splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md)\
+      \ *, [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
       \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\
-      \ \n\n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ *\n\n**1st level (4 slots):** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md)\
-      \ \n\n2nd level (3 slots): [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \ *\n\n**2nd level (3 slots):** [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md), [phantasmal\
       \ force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md)\n\n\
-      3rd level (3 slots): [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md),\
+      **3rd level (3 slots):** [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md),\
       \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md), [slow](03.PlayerLog&Handouts/Mechanics/CLI/spells/slow.md)\n\
-      \n4th level (3 slots): [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md),\
-      \ [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md)\n\n5th\
-      \ level (1 slots): [animate objects](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-objects.md)\n\
-      \nSee \"Actions\" below."
+      \n**4th level (3 slots):** [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md),\
+      \ [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md)\n\n**5th\
+      \ level (1 slots):** [animate objects](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-objects.md)\n\
+      \n*See \"Actions\" below."
     "name": "Spellcasting"
 "actions":
-  - "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one creature (the attack\
-      \ roll has advantage if the target is wearing armor made of metal). Hit: 9\
+  - "desc": "*Melee Spell Attack:* +5 to hit, reach 5 ft., one creature (the attack\
+      \ roll has advantage if the target is wearing armor made of metal). *Hit:* 9\
       \ (2d8) lightning damage, and the target can't take reactions until the start\
       \ of its next turn."
     "name": "Shocking Grasp (Cantrip)"

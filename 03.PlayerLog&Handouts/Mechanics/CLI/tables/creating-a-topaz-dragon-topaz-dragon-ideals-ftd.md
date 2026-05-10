@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 aliases:
-- Creating a Topaz Dragon; Topaz Dragon Ideals
+- "Creating a Topaz Dragon; Topaz Dragon Ideals"
 ---
 # Creating a Topaz Dragon; Topaz Dragon Ideals
 *Source: Fizban's Treasury of Dragons p. 149* 
 
 **Topaz Dragon Ideals**
-
-`dice: [](creating-a-topaz-dragon-topaz-dragon-ideals-ftd.md#^topaz-dragon-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

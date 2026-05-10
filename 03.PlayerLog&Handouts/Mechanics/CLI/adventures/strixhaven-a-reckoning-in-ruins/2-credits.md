@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scc-arir
 aliases:
-- Credits
+- "Credits"
 ---
 # Credits
 *Source: Strixhaven: A Reckoning in Ruins* 
@@ -46,5 +47,8 @@ aliases:
 ![](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/credits.webp#center)
 
 > [!gallery]
-> ![On the Cover: Three Strixh...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/credits2.webp#gallery "On the Cover: Three Strixhaven students find distractions from their studies in Magali Villeneuve's cover illustration. On the back, a harried Biblioplex assistant tries to tidy the mess.")
-> ![On the Alt-Cover: Hydro74 ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/credits3.webp#gallery "On the Alt-Cover: Hydro74 shows off the Strixhaven star, a symbol of unity and magical fellowship. The sigils of each of Strixhaven's five colleges adorn the back cover.")
+> ![On the Cover: Three Strixhaven students find distractions from their studies in Magali Villeneuve's cover illustration. On the back, a harried Biblioplex assistant tries to tidy the mess.](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/credits2.webp#gallery)
+> ![On the Alt-Cover: Hydro74 shows off the Strixhaven star, a symbol of unity and magical fellowship. The sigils of each of Strixhaven's five colleges adorn the back cover.](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-campus-kerfuffle/img/credits3.webp#gallery)
+
+> [!note]
+> Disclaimer: A degree from Strixhaven University does not provide protection from magic missiles, fireballs, freezing spheres, or any other deleterious effects spellcasters might generate. If you create deleterious effects, Strixhaven kindly requests you refrain from invoking any names, symbols, or other references to the university should you find yourself in a confrontation. Strixhaven University does not take responsibility for any injury of any nature sustained in the course of anything, magical or otherwise.

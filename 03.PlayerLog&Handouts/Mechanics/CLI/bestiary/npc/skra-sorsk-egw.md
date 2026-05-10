@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Skr'a S'orsk
+- "Skr'a S'orsk"
 ---
-# [Skr'a S'orsk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/skra-sorsk-egw.md)
+# [Skr'a S'orsk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/skra-sorsk-egw.md)
 *Source: Explorer's Guide to Wildemount p. 254*  
 
 ```statblock
@@ -46,14 +47,14 @@ aliases:
 "traits":
   - "desc": "Skr'a S'orsk is a 5th-level spellcaster. Its spellcasting ability is\
       \ Wisdom (spell save DC 12, +4 to hit with spell attacks). Skr'a S'orsk has\
-      \ the following druid spells prepared:\n\nCantrips (at will): [produce flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md),\
+      \ the following druid spells prepared:\n\n**Cantrips (at will):** [produce flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md),\
       \ [resistance](03.PlayerLog&Handouts/Mechanics/CLI/spells/resistance.md), [thorn\
-      \ whip](03.PlayerLog&Handouts/Mechanics/CLI/spells/thorn-whip.md)\n\n1st level\
-      \ (4 slots): [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
-      \ [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md)\n\n2nd\
-      \ level (3 slots): [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
+      \ whip](03.PlayerLog&Handouts/Mechanics/CLI/spells/thorn-whip.md)\n\n**1st level\
+      \ (4 slots):** [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
+      \ [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md)\n\n**2nd\
+      \ level (3 slots):** [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md),\
       \ [spike growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/spike-growth.md)\n\
-      \n3rd level (2 slots): [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
+      \n**3rd level (2 slots):** [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [conjure animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-animals.md)\
       \ (reptiles only)"
     "name": "Spellcasting (Lizardfolk Form Only)"
@@ -63,7 +64,7 @@ aliases:
   - "desc": "The lizardfolk makes two attacks: one with its bite and one with its\
       \ claws."
     "name": "Multiattack (Lizardfolk Form Only)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage, or 7 (1d10 + 2) piercing damage in [crocodile](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/crocodile.md)\
       \ form. If Skr'a S'orsk is in crocodile form and the target is a Large or smaller\
       \ creature, the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
@@ -71,7 +72,7 @@ aliases:
       \ and Skr'a S'orsk can't bite another target. If Skr'a S'orsk reverts to its\
       \ true form, the grapple ends."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) slashing damage."
     "name": "Claws (Lizardfolk Form Only)"
   - "desc": "The lizardfolk magically polymorphs into a [crocodile](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/crocodile.md),\

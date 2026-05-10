@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Undead Shambling Mound
+- "Undead Shambling Mound"
 ---
-# [Undead Shambling Mound](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/undead-shambling-mound-wdmm.md)
+# [Undead Shambling Mound](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/undead-shambling-mound-wdmm.md)
 *Source: Waterdeep: Dungeon of the Mad Mage p. 142*  
 
 Made entirely of skulls and bones.
@@ -43,7 +44,8 @@ Made entirely of skulls and bones.
   \ [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 10"
 "languages": ""
 "cr": "5"
 "traits":
@@ -56,7 +58,7 @@ Made entirely of skulls and bones.
       \ or smaller target, the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 14), and the shambling mound uses its Engulf on it."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) bludgeoning damage."
     "name": "Slam"
   - "desc": "The shambling mound engulfs a Medium or smaller creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\

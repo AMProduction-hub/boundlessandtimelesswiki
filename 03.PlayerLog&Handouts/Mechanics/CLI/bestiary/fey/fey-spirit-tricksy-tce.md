@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Fey Spirit (Tricksy)
+- "Fey Spirit (Tricksy)"
 ---
-# [Fey Spirit (Tricksy)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/fey-spirit-tricksy-tce.md)
+# [Fey Spirit (Tricksy)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/fey-spirit-tricksy-tce.md)
 *Source: Tasha's Cauldron of Everything p. 112*  
 
 ```statblock
@@ -30,14 +31,17 @@ aliases:
   - !!int "16"
 "speed": "40 ft."
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Sylvan, understands the languages you speak"
 "actions":
   - "desc": "The fey makes a number of attacks equal to half this spell's level (rounded\
       \ down)."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft.,\
-      \ one target. Hit: 1d6 + 3 + the spell's level piercing damage + 1d6 force\
+  - "desc": "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft.,\
+      \ one target. *Hit:* 1d6 + 3 + the spell's level piercing damage + 1d6 force\
       \ damage."
     "name": "Shortsword"
 "bonus_actions":

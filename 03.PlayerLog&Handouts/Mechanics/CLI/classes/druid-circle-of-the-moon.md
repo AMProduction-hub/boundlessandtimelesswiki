@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/druid/moon
 aliases:
-- Circle of the Moon
+- "Circle of the Moon"
 ---
 # Circle of the Moon
 *[Druid](./druid.md): Druid Circle*  
@@ -43,19 +44,17 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Circle of the Moon (Level 2)
-
 Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings. They haunt the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another humanoid creature, let alone another druid.
 
 Changeable as the moon, a druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the druid's blood.
+
+## Subclass Features
 
 ### Combat Wild Shape (Level 2)
 
 You gain the ability to use Wild Shape on your turn as a bonus action, rather than as an action.
 
-Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain `d8` hit points per level of the spell slot expended.
+Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain `1d8` hit points per level of the spell slot expended.
 
 ### Circle Forms (Level 2)
 

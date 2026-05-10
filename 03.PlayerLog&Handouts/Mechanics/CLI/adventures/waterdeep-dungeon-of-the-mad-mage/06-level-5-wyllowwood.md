@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 aliases:
-- Level 5: Wyllowwood
+- "Level 5: Wyllowwood"
 ---
 # Level 5: Wyllowwood
 *Source: Waterdeep: Dungeon of the Mad Mage, p. 69* 
@@ -305,7 +306,7 @@ The door to this narrow room is magically locked from the outside (see area 6e) 
 
 ##### Treasure
 
-The staff resting on the table is [Wyllow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/wyllow-wdmm.md)'s [staff of flowers](03.PlayerLog&Handouts/Mechanics/CLI/items/staff-of-flowers-xge.md), a common magic item to which anyone can attune. While holding the staff, a creature can use an action to expend 1 charge from the staff and cause a flower to sprout from a patch of earth or soil within 5 feet of it, or from the staff itself. Unless a specific kind of flower is chosen, the staff creates a mild-scented daisy. [Wyllow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/wyllow-wdmm.md)'s staff is peculiar in that it can't create roses, which the archdruid dislikes. If a rose is chosen, a daisy grows instead. The flower is harmless and nonmagical, and it grows or withers as a normal flower would.
+The staff resting on the table is [Wyllow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/wyllow-wdmm.md)'s [staff of flowers](03.PlayerLog&Handouts/Mechanics/CLI/items/wyllows-staff-of-flowers-wdmm.md), a common magic item to which anyone can attune. While holding the staff, a creature can use an action to expend 1 charge from the staff and cause a flower to sprout from a patch of earth or soil within 5 feet of it, or from the staff itself. Unless a specific kind of flower is chosen, the staff creates a mild-scented daisy. [Wyllow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/wyllow-wdmm.md)'s staff is peculiar in that it can't create roses, which the archdruid dislikes. If a rose is chosen, a daisy grows instead. The flower is harmless and nonmagical, and it grows or withers as a normal flower would.
 
 The staff has 10 charges and regains `1d6 + 4` expended charges daily at dawn. If its last charge is expended, roll a `d20`. On a 1, the staff turns into black rose petals and is lost forever.
 
@@ -405,7 +406,7 @@ A door in the northeast corner leads to a smaller chamber with an arch gate set 
 The treasures inside the building are as follows:
 
 - 3,500 gp, 6,000 sp, and 15,000 cp in loose coinage  
-- A 500 gp black pearl with a minor magical property (it glows faintly when undead are within 120 feet of it)  
+- A 500 gp [black pearl](03.PlayerLog&Handouts/Mechanics/CLI/items/pearl-of-undead-detection-wdmm.md) with a minor magical property (it glows faintly when undead are within 120 feet of it)  
 - A [potion of gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-gaseous-form.md)  
 - A [spell scroll](03.PlayerLog&Handouts/Mechanics/CLI/items/spell-scroll.md) of [heroes' feast](03.PlayerLog&Handouts/Mechanics/CLI/spells/heroes-feast.md)  
 

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/rot
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragonfang
+- "Dragonfang"
 ---
-# [Dragonfang](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/dragonfang-rot.md)
+# [Dragonfang](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/dragonfang-rot.md)
 *Source: The Rise of Tiamat p. 89, Tyranny of Dragons p. 182*  
 
 ```statblock
@@ -34,13 +35,15 @@ aliases:
   - !!int "14"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+5"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+6"
 "damage_resistances": "one of the following: acid, cold, fire, lightning, poison"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 11"
 "languages": "Common, Draconic, Infernal"
 "cr": "5"
@@ -64,11 +67,11 @@ aliases:
 "actions":
   - "desc": "The Dragonfang attacks twice with its shortsword."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage plus 7 (2d6) damage of the type to which the\
       \ dragonfang has resistance."
     "name": "Shortsword"
-  - "desc": "Ranged Spell Attack: +5 to hit, range 50 ft., one target. Hit:\
+  - "desc": "*Ranged Spell Attack:* +5 to hit, range 50 ft., one target. *Hit:*\
       \ 22 (5d8) damage of the type to which the dragonfang has damage resistance."
     "name": "Orb of Dragon's Breath (2/Day)"
 "source":

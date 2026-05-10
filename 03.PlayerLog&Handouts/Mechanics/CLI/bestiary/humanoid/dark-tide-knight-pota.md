@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/pota
 - ttrpg-cli/monster/cr/3
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dark Tide Knight
+- "Dark Tide Knight"
 ---
-# [Dark Tide Knight](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/dark-tide-knight-pota.md)
-*Source: Princes of the Apocalypse p. 205, Storm Lord's Wrath*  
+# [Dark Tide Knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/dark-tide-knight-pota.md)
+*Source: Princes of the Apocalypse p. 205*  
 
 Dark Tide knights are the elite warriors of the Crushing Wave cult. By drawing upon Olhydra's dark power, they gain the ability to ride sea-creatures that normally wouldn't be suitable as mounts, and can even breathe underwater and share their mount's senses. The knights prefer to fight from or in the water, since they don't like to leave their mounts behind, but they can be fierce opponents on foot at need.
 
@@ -41,6 +42,9 @@ Unlike most other knights, Dark Tide knights disdain heavy armor, relying on the
     "desc": "+7"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
+"gear":
+  - "[lance](03.PlayerLog&Handouts/Mechanics/CLI/items/lance.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 10"
 "languages": "Common"
 "cr": "3"
@@ -59,10 +63,10 @@ Unlike most other knights, Dark Tide knights disdain heavy armor, relying on the
 "actions":
   - "desc": "The knight makes two shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Shortsword"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
       \ 9 (1d12 + 3) piercing damage."
     "name": "Lance"
 "reactions":
@@ -71,7 +75,6 @@ Unlike most other knights, Dark Tide knights disdain heavy armor, relying on the
     "name": "Uncanny Dodge"
 "source":
   - "PotA"
-  - "SLW"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/dark-tide-knight-pota.webp"
 ```
 ^statblock

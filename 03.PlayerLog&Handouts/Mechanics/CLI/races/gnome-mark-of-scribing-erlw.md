@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/race/gnome/mark-of-scribing
 aliases:
-- Gnome (Mark of Scribing)
+- "Gnome (Mark of Scribing)"
 ---
 # Gnome (Mark of Scribing)
 *Source: Eberron: Rising from the Last War p. 47*  
 
 
-- **Ability Scores**: Charisma +1
+- **Ability Scores**: cha +1
 - **Size**: Small
 - **Speed**: 25 ft.
 - **Spellcasting**: Intelligence

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/4
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kraul Death Priest
+- "Kraul Death Priest"
 ---
-# [Kraul Death Priest](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/kraul-death-priest-ggr.md)
+# [Kraul Death Priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kraul-death-priest-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 214*  
 
 The death priests occupy the highest roles in kraul society. They lead the buzzing chants of the kraul rites. Their inscrutable clicks and buzzing can summon crippling necromantic magic, and the presence of death seems to fortify them. They draw power from the defeat of their enemies and channel it to their followers, ensuring the continuation of the cycle.
@@ -42,8 +43,8 @@ The kraul are an ascendant power group within the Golgari Swarm, long content to
   - !!int "10"
 "speed": "30 ft., climb 30 ft., fly 40 ft."
 "saves":
-  - "constitution": "+4"
-  - "wisdom": "+4"
+  - "constitution": !!int "4"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+4"
@@ -51,22 +52,25 @@ The kraul are an ascendant power group within the Golgari Swarm, long content to
     "desc": "+3"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+3"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[quarterstaff](03.PlayerLog&Handouts/Mechanics/CLI/items/quarterstaff.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Kraul"
 "cr": "4"
 "traits":
   - "desc": "The kraul's innate spellcasting ability is Wisdom (spell save DC 12,\
       \ +4 to hit with spell attacks). The kraul can innately cast the following\
-      \ spells, requiring no material components:\n\nAt will: [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md),\
+      \ spells, requiring no material components:\n\n**At will:** [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md),\
       \ [poison spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md)\n\
-      \n3/day each: [ray of enfeeblement](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-enfeeblement.md),\
+      \n**3/day each:** [ray of enfeeblement](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-enfeeblement.md),\
       \ [ray of sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md)\n\
-      \n1/day each: [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
+      \n**1/day each:** [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md), [vampiric\
       \ touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/vampiric-touch.md)"
     "name": "Innate Spellcasting"
   - "desc": "When a creature within 30 feet of the kraul drops to 0 hit points, the\
-      \ kraul or another creature of its choice within 30 feet of it gains 5 (d10)\
+      \ kraul or another creature of its choice within 30 feet of it gains 5 (1d10)\
       \ temporary hit points, provided the kraul isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
     "name": "Feed on Death"
   - "desc": "The kraul is immune to the [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
@@ -84,7 +88,7 @@ The kraul are an ascendant power group within the Golgari Swarm, long content to
   - "desc": "The kraul makes one attack with its quarterstaff and casts one of its\
       \ spells with a casting time of 1 action."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) bludgeoning damage, or 7 (1d8 + 3) bludgeoning damage if used\
       \ with two hands."
     "name": "Quarterstaff"

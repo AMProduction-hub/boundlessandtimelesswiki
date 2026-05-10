@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/2
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Davian Martikov
+- "Davian Martikov"
 ---
-# [Davian Martikov](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/davian-martikov-cos.md)
+# [Davian Martikov](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/davian-martikov-cos.md)
 *Source: Curse of Strahd p. 173*  
 
 ```statblock
@@ -38,6 +39,9 @@ aliases:
     "desc": "+4"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+6"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
 "senses": "passive Perception 16"
 "languages": "Common (can't speak in raven form)"
 "cr": "2"
@@ -60,15 +64,15 @@ aliases:
 "actions":
   - "desc": "Davian makes two weapon attacks, one of which can be with its hand crossbow."
     "name": "Multiattack (Human or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 1\
       \ piercing damage in raven form, or 4 (1d4 + 2) piercing damage in hybrid\
       \ form. If the target is humanoid, it must succeed on a DC 10 Constitution saving\
       \ throw or be cursed with wereraven lycanthropy."
     "name": "Beak (Raven or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword (Human or Hybrid Form Only)"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Hand Crossbow (Human or Hybrid Form Only)"
 "source":

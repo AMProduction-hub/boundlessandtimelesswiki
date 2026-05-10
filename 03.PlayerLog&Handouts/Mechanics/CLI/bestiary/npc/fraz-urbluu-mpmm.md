@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/23
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Fraz-Urb'luu
+- "Fraz-Urb'luu"
 ---
-# [Fraz-Urb'luu](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/fraz-urbluu-mpmm.md)
+# [Fraz-Urb'luu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fraz-urbluu-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 129, Mordenkainen's Tome of Foes p. 146*  
 
 Fraz-Urb'luu is the Prince of [Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception) and Demon Lord of Illusions. He uses every trick, every ounce of demonic cunning, to manipulate his enemies—mortal and Fiend alike—to do his will. Fraz-Urb'luu can create dreamlands and mind-bending fantasies able to deceive the most discerning foes.
@@ -53,10 +54,10 @@ The challenge rating of Fraz-Urb'luu is 24 (62,000 XP) when he's encountered in 
   - !!int "26"
 "speed": "40 ft., fly 40 ft."
 "saves":
-  - "dexterity": "+8"
-  - "constitution": "+14"
-  - "intelligence": "+15"
-  - "wisdom": "+14"
+  - "dexterity": !!int "8"
+  - "constitution": !!int "14"
+  - "intelligence": !!int "15"
+  - "wisdom": !!int "14"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+15"
@@ -70,7 +71,8 @@ The challenge rating of Fraz-Urb'luu is 24 (62,000 XP) when he's encountered in 
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "truesight 120 ft., passive Perception 24"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 24"
 "languages": "all, telepathy 120 ft."
 "cr": "23"
 "traits":
@@ -86,10 +88,10 @@ The challenge rating of Fraz-Urb'luu is 24 (62,000 XP) when he's encountered in 
   - "desc": "Fraz-Urb'luu makes one Bite attack and two Fist attacks, and he uses\
       \ Phantasmal Terror."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:*\
       \ 19 (3d6 + 9) force damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 10 ft., one target. *Hit:*\
       \ 22 (3d8 + 9) force damage."
     "name": "Fist"
   - "desc": "Fraz-Urb'luu targets one creature he can see within 120 feet of him.\
@@ -99,18 +101,49 @@ The challenge rating of Fraz-Urb'luu is 24 (62,000 XP) when he's encountered in 
     "name": "Phantasmal Terror"
   - "desc": "Fraz-Urb'luu casts one of the following spells, requiring no material\
       \ components and using Charisma as the spellcasting ability (spell save DC 23):\n\
-      \nAt will: [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md)\
+      \n**At will:** [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md)\
       \ (can become Medium when changing his appearance), [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [phantasmal force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md)\n\
-      \n3/day each: [mislead](03.PlayerLog&Handouts/Mechanics/CLI/spells/mislead.md),\
+      \n**3/day each:** [mislead](03.PlayerLog&Handouts/Mechanics/CLI/spells/mislead.md),\
       \ [programmed illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/programmed-illusion.md),\
-      \ [seeming](03.PlayerLog&Handouts/Mechanics/CLI/spells/seeming.md)\n\n1/day\
-      \ each: [modify memory](03.PlayerLog&Handouts/Mechanics/CLI/spells/modify-memory.md),\
+      \ [seeming](03.PlayerLog&Handouts/Mechanics/CLI/spells/seeming.md)\n\n**1/day\
+      \ each:** [modify memory](03.PlayerLog&Handouts/Mechanics/CLI/spells/modify-memory.md),\
       \ [project image](03.PlayerLog&Handouts/Mechanics/CLI/spells/project-image.md)"
     "name": "Spellcasting"
+"lair_actions":
+  - "desc": "On initiative count 20 (losing initiative ties), Fraz-Urb'luu can take\
+      \ one of the following lair actions when in his lair; he can't take the same\
+      \ lair action two rounds in a row:\n\n- **Conjure Walls and Doors.** Fraz-Urb'luu\
+      \ causes up to five doors within the lair to become walls and an equal number\
+      \ of doors to appear on walls where there previously were none.  \n- **Psychic\
+      \ Anguish.** Fraz-Urb'luu creates a wave of anguish. Each creature he can see\
+      \ within the lair must succeed on a DC 23 Wisdom saving throw or take 33 (6d10)\
+      \ psychic damage.  \n- **Simulacrum.** Fraz-Urb'luu chooses one Humanoid within\
+      \ the lair and instantly creates a simulacrum of that creature (as if created\
+      \ with the [simulacrum](03.PlayerLog&Handouts/Mechanics/CLI/spells/simulacrum.md)\
+      \ spell). This simulacrum obeys Fraz-Urb'luu's commands and is destroyed on\
+      \ the next initiative count 20.  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region containing Fraz-Urb'luu's lair is warped by his magic, creating\
+      \ one or more of the following effects:\n\n- **Beguiling Realm.** Within 6 miles\
+      \ of the lair, all Charisma ([Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion))\
+      \ and Wisdom ([Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight))\
+      \ checks have disadvantage, and all Charisma ([Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception))\
+      \ and Charisma ([Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance))\
+      \ checks have advantage.  \n- **Nostalgic Pangs.** Sapient creatures within\
+      \ 1 mile of the lair frequently see hallucinations of long-dead friends and\
+      \ comrades that vanish after only a brief glimpse.  \n- **Twisted Paths.** Roads\
+      \ and paths within 6 miles of the lair twist and turn back on themselves, making\
+      \ navigation in the area exceedingly difficult.  \n\nIf Fraz-Urb'luu dies, these\
+      \ effects fade over the course of 1d10 days."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Fraz-Urb'luu can expend a use to take one of the following actions. Fraz-Urb'luu\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
-  - "desc": "Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +16 to hit, reach 15 ft., one target. *Hit:*\
       \ 20 (2d10 + 9) force damage. If the target is a Large or smaller creature,\
       \ it is also [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 24), and it is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
@@ -119,37 +152,6 @@ The challenge rating of Fraz-Urb'luu is 24 (62,000 XP) when he's encountered in 
     "name": "Tail"
   - "desc": "Fraz-Urb'luu uses Phantasmal Terror."
     "name": "Terror (Costs 2 Actions)"
-"lair_actions":
-  - "desc": "On initiative count 20 (losing initiative ties), Fraz-Urb'luu can take\
-      \ one of the following lair actions when in his lair; he can't take the same\
-      \ lair action two rounds in a row:"
-    "name": ""
-  - "desc": "- Conjure Walls and Doors. Fraz-Urb'luu causes up to five doors within\
-      \ the lair to become walls and an equal number of doors to appear on walls where\
-      \ there previously were none.  \n- Psychic Anguish. Fraz-Urb'luu creates\
-      \ a wave of anguish. Each creature he can see within the lair must succeed on\
-      \ a DC 23 Wisdom saving throw or take 33 (6d10) psychic damage.  \n- Simulacrum.\
-      \ Fraz-Urb'luu chooses one Humanoid within the lair and instantly creates a\
-      \ simulacrum of that creature (as if created with the [simulacrum](03.PlayerLog&Handouts/Mechanics/CLI/spells/simulacrum.md)\
-      \ spell). This simulacrum obeys Fraz-Urb'luu's commands and is destroyed on\
-      \ the next initiative count 20.  "
-    "name": ""
-"regional_effects":
-  - "desc": "The region containing Fraz-Urb'luu's lair is warped by his magic, creating\
-      \ one or more of the following effects:"
-    "name": ""
-  - "desc": "- Beguiling Realm. Within 6 miles of the lair, all Charisma ([Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion))\
-      \ and Wisdom ([Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight))\
-      \ checks have disadvantage, and all Charisma ([Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception))\
-      \ and Charisma ([Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance))\
-      \ checks have advantage.  \n- Nostalgic Pangs. Sapient creatures within\
-      \ 1 mile of the lair frequently see hallucinations of long-dead friends and\
-      \ comrades that vanish after only a brief glimpse.  \n- Twisted Paths. Roads\
-      \ and paths within 6 miles of the lair twist and turn back on themselves, making\
-      \ navigation in the area exceedingly difficult.  "
-    "name": ""
-  - "desc": "If Fraz-Urb'luu dies, these effects fade over the course of d10 days."
-    "name": ""
 "source":
   - "MPMM"
   - "MTF"

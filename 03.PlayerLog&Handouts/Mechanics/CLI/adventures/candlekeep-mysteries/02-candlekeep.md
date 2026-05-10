@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 aliases:
-- Candlekeep
+- "Candlekeep"
 ---
 # Candlekeep
 *Source: Candlekeep Mysteries, p. 6* 
@@ -39,8 +40,6 @@ Those admitted to Candlekeep, referred to as seekers, can request the assistance
 If the adventurers require a guide, roll a `d8` and consult the Avowed Adjutants table to determine the adjutant who is assigned to them, or choose one that you like.
 
 **Avowed Adjutants**
-
-`dice: [](02-candlekeep.md#^avowed-adjutants)`
 
 | dice: d8 | Description |
 |----------|-------------|

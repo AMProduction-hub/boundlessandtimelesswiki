@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Inspired (Quori Vessel; Tsucora)
+- "Inspired (Quori Vessel; Tsucora)"
 ---
-# [Inspired (Quori Vessel; Tsucora)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/inspired-quori-vessel-tsucora-egw.md)
+# [Inspired (Quori Vessel; Tsucora)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/inspired-quori-vessel-tsucora-egw.md)
 *Source: Explorer's Guide to Wildemount p. 294*  
 
 ```statblock
@@ -34,8 +35,8 @@ aliases:
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+2"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+7"
@@ -52,9 +53,9 @@ aliases:
 "traits":
   - "desc": "The Inspired's spellcasting ability is Intelligence (spell save DC 13).\
       \ It can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \n**At will:** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [vicious mockery](03.PlayerLog&Handouts/Mechanics/CLI/spells/vicious-mockery.md)\
-      \ (see \"Actions\" below)\n\n1/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \ (see \"Actions\" below)\n\n**1/day each:** [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
       \ [dissonant whispers](03.PlayerLog&Handouts/Mechanics/CLI/spells/dissonant-whispers.md),\
       \ [hex](03.PlayerLog&Handouts/Mechanics/CLI/spells/hex.md), [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md)"
@@ -65,13 +66,13 @@ aliases:
   - "desc": "The Inspired makes two crysteel dagger attacks. It can replace one attack\
       \ with vicious mockery."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage plus 10 (3d6) force damage."
     "name": "Crysteel Dagger"
   - "desc": "The Inspired unleashes a string of insults laced with subtle enchantments\
       \ at one creature it can see within 60 feet of it. If the target can hear the\
       \ Inspired, the target must succeed on a DC 13 Wisdom saving throw or take 2\
-      \ (d4) psychic damage and have disadvantage on the next attack roll it makes\
+      \ (1d4) psychic damage and have disadvantage on the next attack roll it makes\
       \ before the end of its next turn."
     "name": "Vicious Mockery (Cantrip)"
 "source":

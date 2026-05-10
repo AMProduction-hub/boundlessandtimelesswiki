@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Patron Benefits; Contacts
+- "Patron Benefits; Contacts"
 ---
 # Patron Benefits; Contacts
 *Source: Eberron: Rising from the Last War p. 86* 
 
 **Contacts**
-
-`dice: [](patron-benefits-contacts-erlw.md#^contacts)`
 
 | dice: d12 | Contact |
 |-----------|---------|

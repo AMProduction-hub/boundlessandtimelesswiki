@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Amphitheater Villains
+- "Amphitheater Villains"
 ---
 # Amphitheater Villains
 *Source: Mythic Odysseys of Theros p. 166* 
 
 **Amphitheater Villains**
-
-`dice: [](amphitheater-villains-mot.md#^amphitheater-villains)`
 
 | dice: d8 | Villain |
 |----------|---------|

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ochre Jelly
+- "Ochre Jelly"
 ---
-# [Ochre Jelly](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\ooze/ochre-jelly.md)
-*Source: Monster Manual p. 243, Lost Mine of Phandelver, Princes of the Apocalypse, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Journeys through the Radiant Citadel, Hunt for the Thessalhydra. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Ochre Jelly](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/ochre-jelly.md)
+*Source: Monster Manual p. 243. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Ochre jellies are yellowish blobs that can slide under doors and through narrow cracks in pursuit of creatures to devour. They have enough bestial cunning to avoid large groups of enemies.
 
@@ -69,7 +70,8 @@ An ooze doesn't require sleep.
   \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft. (blind beyond this radius), passive Perception 8"
 "languages": ""
 "cr": "2"
 "traits":
@@ -79,8 +81,8 @@ An ooze doesn't require sleep.
       \ without needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9\
-      \ (2d6 + 2) bludgeoning damage plus 3 (d6) acid damage."
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9\
+      \ (2d6 + 2) bludgeoning damage plus 3 (1d6) acid damage."
     "name": "Pseudopod"
 "reactions":
   - "desc": "When a jelly that is Medium or larger is subjected to lightning or slashing\
@@ -90,16 +92,6 @@ An ooze doesn't require sleep.
     "name": "Split"
 "source":
   - "MM"
-  - "LMoP"
-  - "PotA"
-  - "TftYP"
-  - "WDMM"
-  - "GoS"
-  - "DIP"
-  - "BGDIA"
-  - "ERLW"
-  - "JttRC"
-  - "HftT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/token/ochre-jelly.webp"
 ```
 ^statblock

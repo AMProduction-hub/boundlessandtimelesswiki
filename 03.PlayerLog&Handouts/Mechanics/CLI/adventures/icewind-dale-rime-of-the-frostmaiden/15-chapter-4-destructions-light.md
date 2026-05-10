@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Chapter 4: Destruction's Light
+- "Chapter 4: Destruction's Light"
 ---
 # Chapter 4: Destruction's Light
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 187* 
@@ -18,7 +19,7 @@ Ten-Towns won't survive the attack of Xardorok's dragon without the characters' 
 
 The point of this chapter, beyond pitting the characters against a formidable draconic foe, is to make the players aware that their characters' choices have consequences. If the characters do nothing to stop the dragon, Ten-Towns will be destroyed. Many lives hang in the balance.
 
-![Xardorok Sunblight's merci...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/154-04-000-intro-splash.webp#center "Xardorok Sunblight's merciless construct slices through Ten-Towns with its radiant beam")
+![Xardorok Sunblight's merciless construct slices through Ten-Towns with its radiant beam](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/154-04-000-intro-splash.webp#center)
 
 ## Running This Chapter
 
@@ -238,11 +239,11 @@ The dragon's preferred tactic is to strafe each settlement from the air, using i
 
 Whenever the characters engage the dragon, they buy time for Ten-Towners to flee. Reduce a town's losses as you see fit to account for the characters' interference.
 
-![Heroes are all that stand ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/156-04-001-dragon.webp#center "Heroes are all that stand between Ten-Towns and certain destruction")
+![Heroes are all that stand between Ten-Towns and certain destruction](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/156-04-001-dragon.webp#center)
 
 ### When the Dragon Takes Damage
 
-If the characters deal 30 damage or more to the dragon and it's not destroyed, it flies to the next town. If this happens in Bryn Shander, the dragon flies back to Xardorok's fortress and remains there, in the forge. If Xardorok is still alive in this fortress, he makes the necessary repairs. The dragon regains `d6` hit points at the end of every hour of repair work.
+If the characters deal 30 damage or more to the dragon and it's not destroyed, it flies to the next town. If this happens in Bryn Shander, the dragon flies back to Xardorok's fortress and remains there, in the forge. If Xardorok is still alive in this fortress, he makes the necessary repairs. The dragon regains `1d6` hit points at the end of every hour of repair work.
 
 #### Destroying the Dragon
 
@@ -290,8 +291,6 @@ If you're unable to save Vellynne for whatever reason, have the characters disco
 Characters who can't harm the dragon (or choose not to) can find plenty of other things to distract them during the dragon's attack. If a player is having trouble figuring out what their character can or should do, you can use the Town in Chaos table to introduce an urgent development for the character to deal with. Before the character moves or acts on its turn, roll on the table or choose a development you think might spur the character into action.
 
 **Town in Chaos**
-
-`dice: [](15-chapter-4-destructions-light.md#^town-in-chaos)`
 
 | dice: d20 | Development |
 |-----------|-------------|
@@ -342,7 +341,7 @@ When the duergar gets within striking distance, it attacks and becomes visible. 
 > Unrecognizable figures in cold weather clothing advance until they form a line twenty feet away from you. Each one clutches a handaxe threateningly. One of them points a gloved finger at you and shouts, "Kill that one first!"
 ^517
 
-The character is singled out by `1d4 + 2` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) who have become corrupted by the chardalyn dragon's Malevolent Presence. Each one wields a handaxe that deals 3 (`d6`) slashing damage on a hit. These townsfolk act on the same initiative count.
+The character is singled out by `1d4 + 2` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) who have become corrupted by the chardalyn dragon's Malevolent Presence. Each one wields a handaxe that deals 3 (`1d6`) slashing damage on a hit. These townsfolk act on the same initiative count.
 
 Rather than make saving throws for the commoners to end the effect of the dragon's Malevolent Presence on them, roll a `d6` at the end of each of their turns. On a 6, the townsfolk regain their senses and cease to be hostile as the dragon's hold over them ends.
 
@@ -381,7 +380,7 @@ Having lost their spear fighting the dragon, this member of the town militia is 
 
 The doppelganger (which has smeared itself with someone else's blood) asks to be taken to a safe location out of the dragon's sight. If a character obliges, the doppelganger tries to slay, rob, and replace its "savior" in a location where its treachery can't be observed by anyone else.
 
-![An adventurer confronts to...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/157-04-002-townsfolk.webp#center "An adventurer confronts townsfolk corrupted by the dragon's malevolent presence")
+![An adventurer confronts townsfolk corrupted by the dragon's malevolent presence](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/157-04-002-townsfolk.webp#center)
 
 ## Vellynne's Quest
 

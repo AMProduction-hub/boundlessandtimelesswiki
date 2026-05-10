@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/artifact
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
-aliases: 
+aliases:
 - "Will of the Talon"
 ---
 # Will of the Talon
@@ -15,7 +16,6 @@ aliases:
 
 
 - **Damage**: 1d8 piercing
-- **Properties**: Vestige of Divergence
 - **Weight**: 2.0 lbs.
 
 Black, blue, green, red, and white gems carved in the form of dragon heads cover this ostentatious gold war pick, marking it as a weapon channeling the power of Tiamat.

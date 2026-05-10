@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/2
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vegepygmy Chief
+- "Vegepygmy Chief"
 ---
-# [Vegepygmy Chief](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/vegepygmy-chief-mpmm.md)
+# [Vegepygmy Chief](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/vegepygmy-chief-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 253, Volo's Guide to Monsters p. 197*  
 
 As a [vegepygmy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/vegepygmy-mpmm.md) ages, it grows tougher and develops spore clusters on its body. Other vegepygmies defer to these so-called chiefs. A chief can expel its spores in a burst, infecting nearby creatures. If a creature dies while infected, its corpse produces vegepygmies the same way [russet mold](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/russet-mold-vgm.md) does.
@@ -48,7 +49,10 @@ Although they prefer to eat fresh meat, bone, and blood, vegepygmies can absorb 
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "damage_resistances": "lightning, piercing"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Vegepygmy"
 "cr": "2"
 "traits":
@@ -63,11 +67,11 @@ Although they prefer to eat fresh meat, bone, and blood, vegepygmies can absorb 
 "actions":
   - "desc": "The vegepygmy makes two Claw attacks or two melee Spear attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) slashing damage."
     "name": "Claws"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
       \ damage if used with two hands to make a melee attack."
     "name": "Spear"
   - "desc": "A 15-foot-radius cloud of toxic spores extends out from the vegepygmy.\

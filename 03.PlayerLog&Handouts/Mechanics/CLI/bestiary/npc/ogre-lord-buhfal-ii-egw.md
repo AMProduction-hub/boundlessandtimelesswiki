@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ogre Lord Buhfal II
+- "Ogre Lord Buhfal II"
 ---
-# [Ogre Lord Buhfal II](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/ogre-lord-buhfal-ii-egw.md)
+# [Ogre Lord Buhfal II](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/ogre-lord-buhfal-ii-egw.md)
 *Source: Explorer's Guide to Wildemount p. 251*  
 
 In the political absence of the champion chief of Urzin, Sunbreaker Olomon, the village's proud and protective acting leader is Ogre Lord Buhfal II.
@@ -34,15 +35,19 @@ In the political absence of the champion chief of Urzin, Sunbreaker Olomon, the 
   - !!int "7"
   - !!int "7"
 "speed": "40 ft."
-"senses": "darkvision 60 ft., passive Perception 8"
+"gear":
+  - "[greatclub](03.PlayerLog&Handouts/Mechanics/CLI/items/greatclub.md)"
+  - "[javelin](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 8"
 "languages": "Common, Giant"
 "cr": "2"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (2d8 + 4) bludgeoning damage."
     "name": "Greatclub"
-  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120\
-      \ ft., one target. Hit: 11 (2d6 + 4) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. *Hit:* 11 (2d6 + 4) piercing damage."
     "name": "Javelin"
 "source":
   - "EGW"

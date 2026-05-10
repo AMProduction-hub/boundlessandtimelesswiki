@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-object
+cssclasses:
+- json5e-object
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/object/size/large
 - ttrpg-cli/object/type/siege-weapon
 aliases:
-- Gnomeflinger
+- "Gnomeflinger"
 ---
 # Gnomeflinger
 %%-- Embedded content starts on the next line. --%%
@@ -35,6 +36,6 @@ title: Gnomeflinger
 
 ***Fling Personnel.*** The gnomeflinger catapults a Medium or smaller creature at least 60 feet away horizontally, with a maximum horizontal distance of 60 feet, 150 feet, or 300 feet, depending on the option chosen when the catapult was aimed. During this trajectory, the creature always reaches a height of 60 feet vertically.
 
-A creature that collides with another creature or an object during this trajectory takes 3 (`d6`) bludgeoning damage for every 10 feet away from the gnomeflinger it is.
+A creature that collides with another creature or an object during this trajectory takes 3 (`1d6`) bludgeoning damage for every 10 feet away from the gnomeflinger it is.
 ```
 ^statblock

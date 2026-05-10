@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/3
@@ -11,9 +12,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Slithering Tracker
+- "Slithering Tracker"
 ---
-# [Slithering Tracker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\ooze/slithering-tracker-mpmm.md)
+# [Slithering Tracker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/slithering-tracker-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 221, Volo's Guide to Monsters p. 191*  
 
 The quest for revenge sometimes leads those terribly aggrieved to undergo a ritual whereby they transform into bodies of semiliquid sentience known as slithering trackers. Innocuous and insidious at the same time, a slithering tracker flows into places where a normal creature can't go and brings its own brand of watery death down on its quarry.
@@ -56,7 +57,8 @@ Achieving revenge against its target doesn't end a slithering tracker's existenc
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
   \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
-"senses": "blindsight 120 ft., passive Perception 12"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft., passive Perception 12"
 "languages": "understands languages it knew in its previous form but can't speak"
 "cr": "3"
 "traits":
@@ -73,7 +75,7 @@ Achieving revenge against its target doesn't end a slithering tracker's existenc
       \ down on ceilings, without needing to make an ability check."
     "name": "Spider Climb"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d10 + 3) bludgeoning damage."
     "name": "Slam"
   - "desc": "One Large or smaller creature that the slithering tracker can see within\

@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/item/armor/light
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/very-rare
-aliases: 
+aliases:
 - "Hunter's Coat"
 ---
 # Hunter's Coat
@@ -18,7 +19,7 @@ aliases:
 
 You have a +1 bonus to AC while wearing this armor.
 
-The coat has 3 charges. When you hit a creature with an attack and that creature doesn't have all its hit points, you can expend 1 charge to deal an extra `d10` necrotic damage to the target. The coat regains `d3` expended charges daily at dawn.
+The coat has 3 charges. When you hit a creature with an attack and that creature doesn't have all its hit points, you can expend 1 charge to deal an extra `1d10` necrotic damage to the target. The coat regains `1d3` expended charges daily at dawn.
 
 The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.
 

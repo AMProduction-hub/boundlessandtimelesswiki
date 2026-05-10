@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Magister Umbero Zastro
+- "Magister Umbero Zastro"
 ---
-# [Magister Umbero Zastro](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/magister-umbero-zastro-wdh.md)
+# [Magister Umbero Zastro](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/magister-umbero-zastro-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 82*  
 
 A handsome, eloquent, and fair-minded half-elf in his thirties. He's known for his finely honed sense of poetic justice and for meting out unconventional punishments.
@@ -41,7 +42,10 @@ A handsome, eloquent, and fair-minded half-elf in his thirties. He's known for h
     "desc": "+4"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+5"
-"senses": "darkvision 60 ft., passive Perception 12"
+"gear":
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Elvish"
 "cr": "0"
 "traits":
@@ -49,7 +53,7 @@ A handsome, eloquent, and fair-minded half-elf in his thirties. He's known for h
       \ and magic can't put him to sleep."
     "name": "Fey Ancestry"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d8 + 1) piercing damage."
     "name": "Rapier"
 "reactions":

@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/fighter/arcane-archer
 aliases:
-- Arcane Archer
+- "Arcane Archer"
 ---
 # Arcane Archer
 *[Fighter](./fighter.md): Martial Archetype*  
@@ -51,11 +52,9 @@ aliases:
 > 
 > So there are different names for different sorts of people who swing swords? Why? Let me try: big sword swinger and tiny sword swinger. No, that sounds like it's the size of the sword that matters. How about: big meat bag with a sword and little meat bag with a sword!
 
-## Class Features
-
-### Arcane Archer (Level 3)
-
 An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Arcane Archers are some of the most elite warriors among the elves. They stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.
+
+## Subclass Features
 
 ### Arcane Archer Lore (Level 3)
 
@@ -76,6 +75,17 @@ The Arcane Shot feature lets you choose options for it at certain levels. The op
 If an option requires a saving throw, your Arcane Shot save DC is calculated as follows:
 
 <span class='abilityDc'>**Arcane Shot save DC**: your proficiency bonus + your Intelligence</span>
+
+Options (choose 2):
+
+- [Banishing Arrow](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/banishing-arrow-xge.md)  
+- [Beguiling Arrow](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/beguiling-arrow-xge.md)  
+- [Bursting Arrow](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/bursting-arrow-xge.md)  
+- [Enfeebling Arrow](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/enfeebling-arrow-xge.md)  
+- [Grasping Arrow](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/grasping-arrow-xge.md)  
+- [Piercing Arrow](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/piercing-arrow-xge.md)  
+- [Seeking Arrow](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/seeking-arrow-xge.md)  
+- [Shadow Arrow](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/shadow-arrow-xge.md)  
 
 ### Magic Arrow (Level 7)
 

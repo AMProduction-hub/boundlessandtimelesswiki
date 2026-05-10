@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Thri-kreen
+- "Thri-kreen"
 ---
-# [Thri-kreen](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/thri-kreen.md)
-*Source: Monster Manual p. 288, Journeys through the Radiant Citadel, Light of Xaryxis*  
+# [Thri-kreen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thri-kreen.md)
+*Source: Monster Manual p. 288*  
 
 Thri-kreen wander the deserts and savannas of the world, avoiding all other races.
 
@@ -62,7 +63,8 @@ Thri-kreen don't require sleep and can rest while remaining alert and performing
     "desc": "+4"
   - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
     "desc": "+3"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Thri-kreen"
 "cr": "1"
 "traits":
@@ -78,7 +80,7 @@ Thri-kreen don't require sleep and can rest while remaining alert and performing
   - "desc": "The thri-kreen makes two attacks: one with its bite and one with its\
       \ claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:*\
       \ 4 (1d6 + 1) piercing damage, and the target must succeed on a DC 11 Constitution\
       \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ for 1 minute. If the saving throw fails by 5 or more, the target is also [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
@@ -87,13 +89,11 @@ Thri-kreen don't require sleep and can rest while remaining alert and performing
       \ target can repeat the saving throw at the end of each of its turns, ending\
       \ the effect on itself on a success."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (2d4 + 1) slashing damage."
     "name": "Claws"
 "source":
   - "MM"
-  - "JttRC"
-  - "LoX"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/thri-kreen.webp"
 ```
 ^statblock

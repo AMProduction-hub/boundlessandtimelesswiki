@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/deity/dragonlance
-aliases: 
-- Branchala
+aliases:
+- "Branchala"
 ---
 # Branchala
 *Source: Dragonlance: Shadow of the Dragon Queen p. 14* 
-![Symbols Left to Right: Pal...](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/dsotdq-010-00-031-good-god-symbols.webp#symbol "Symbols Left to Right: Paladine, Branchala, and Habbakuk")
+![Symbols Left to Right: Paladine, Branchala, and Habbakuk](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/dsotdq-010-00-031-good-god-symbols.webp#symbol)
 
 - **Alignment**: Neutral Good
 - **Category**: Good

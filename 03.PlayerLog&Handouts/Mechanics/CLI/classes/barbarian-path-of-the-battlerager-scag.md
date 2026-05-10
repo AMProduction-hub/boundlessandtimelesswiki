@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/subclass/barbarian/battlerager
 aliases:
-- Path of the Battlerager
+- "Path of the Battlerager"
 ---
 # Path of the Battlerager
 *[Barbarian](./barbarian.md): Primal Path*  
@@ -43,11 +44,9 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Path of the Battlerager (Level 3)
-
 Known as Kuldjargh (literally "axe idiot") in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing bulky, [spiked armor](03.PlayerLog&Handouts/Mechanics/CLI/items/spiked-armor-scag.md) and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle.
+
+## Subclass Features
 
 ### Restriction—Dwarves Only (Level 3)
 
@@ -59,7 +58,7 @@ Your DM can lift this restriction to better suit the campaign. The restriction e
 
 When you choose this path at 3rd level, you gain the ability to use [spiked armor](03.PlayerLog&Handouts/Mechanics/CLI/items/spiked-armor-scag.md) as a weapon.
 
-While you are wearing [spiked armor](03.PlayerLog&Handouts/Mechanics/CLI/items/spiked-armor-scag.md) and are raging, you can use a bonus action to make one melee weapon attack with your armor spikes at a target within 5 feet of you. If the attack hits, the spikes deal `d4` piercing damage. You use your Strength modifier for the attack and damage rolls.
+While you are wearing [spiked armor](03.PlayerLog&Handouts/Mechanics/CLI/items/spiked-armor-scag.md) and are raging, you can use a bonus action to make one melee weapon attack with your armor spikes at a target within 5 feet of you. If the attack hits, the spikes deal `1d4` piercing damage. You use your Strength modifier for the attack and damage rolls.
 
 Additionally, when you use the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action to grapple a creature, the target takes 3 piercing damage if your grapple check succeeds.
 

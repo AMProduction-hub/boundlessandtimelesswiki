@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 aliases:
-- Good Mead
+- "Good Mead"
 ---
 # Good Mead
 *Source: Icewind Dale: Rime of the Frostmaiden, p. 72* 
@@ -127,13 +128,13 @@ The ogre killed all five humans with its greatclub and then headed for home. Cha
 
 #### The Fox and the Chwinga
 
-The characters have one encounter while they follow the ogre's trail. A [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-toa.md) (see appendix C) pops out of the snow and hurls a wee snowball at the lead character in the party's marching order. Once it has the party's attention, it capers atop the snow.
+The characters have one encounter while they follow the ogre's trail. A [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) (see appendix C) pops out of the snow and hurls a wee snowball at the lead character in the party's marching order. Once it has the party's attention, it capers atop the snow.
 
-If the characters rescued the fox from Fef Moryn, the animal bolts toward the [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) if it's allowed to do so. The [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) bows before the fox and offers it a frozen berry, which the fox gobbles up. After that, the [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) and the fox become fast friends. The [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) mounts the fox, bestows a *charm of animal conjuring* or one of the new charms described in appendix C (see "New Chwinga Charms") upon the character it hit with the snowball, and rides off on the fox's back. (For more information on charms, see ""Supernatural Gifts"" in the "Dungeon Master's Guide".) The characters can interrupt this scene if they want; the [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) won't bestow its supernatural charm, however, if events unfold any differently.
+If the characters rescued the fox from Fef Moryn, the animal bolts toward the [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) if it's allowed to do so. The [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) bows before the fox and offers it a frozen berry, which the fox gobbles up. After that, the [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) and the fox become fast friends. The [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) mounts the fox, bestows a [charm of animal conjuring](03.PlayerLog&Handouts/Mechanics/CLI/rewards/charm-of-animal-conjuring.md) or one of the new charms described in appendix C (see "New Chwinga Charms") upon the character it hit with the snowball, and rides off on the fox's back. (For more information on charms, see ""Supernatural Gifts"" in the "Dungeon Master's Guide".) The characters can interrupt this scene if they want; the [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) won't bestow its supernatural charm, however, if events unfold any differently.
 
 If the characters don't have the fox or choose not to let it go, the [chwinga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/chwinga-idrotf.md) follows them all the way to the verbeeg lair, if permitted to do so, but won't venture inside.
 
-![The snow-covered tusks of ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/061-01-030-verbeeg-lair.webp#center "The snow-covered tusks of a mammoth mark the entrance to the verbeeg lair")
+![The snow-covered tusks of a mammoth mark the entrance to the verbeeg lair](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/061-01-030-verbeeg-lair.webp#center)
 
 ### Verbeeg Lair
 
@@ -184,7 +185,7 @@ This cavern is slightly sunken, as all tunnels leading to it slope down graduall
 
 If the characters make a lot of noise, the [ogre](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md) comes running from area V5 and the [verbeeg marauder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/verbeeg-marauder-idrotf.md) (see appendix C) approaches from area V9, both arriving at the same time. They try to kill intruders on sight. If more than two intruders are visible, the verbeeg whistles for the cave bear, which arrives 3 rounds later from area V7.
 
-If it's close enough to the bonfire, the verbeeg can use his action to try to shove a creature into the flames (see ""Shoving a Creature"" in the combat chapter of the "Player's Handbook"). Any creature that enters the bonfire for the first time on a turn or starts its turn there takes 10 (`3d6`) fire damage. It also catches fire as it leaves the bonfire's space, taking 3 (`d6`) fire damage at the starts of each of its turns until an action is used to put out the flames engulfing it.
+If it's close enough to the bonfire, the verbeeg can use his action to try to shove a creature into the flames (see ""Shoving a Creature"" in the combat chapter of the "Player's Handbook"). Any creature that enters the bonfire for the first time on a turn or starts its turn there takes 10 (`3d6`) fire damage. It also catches fire as it leaves the bonfire's space, taking 3 (`1d6`) fire damage at the starts of each of its turns until an action is used to put out the flames engulfing it.
 
 Characters in a position to harm the verbeeg's goats and sheep (see "Animals" below) can use an action to threaten one or more of these animals and, with a successful DC 10 Charisma ([Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)) check, cause the verbeeg to cease hostilities and call off the ogre and the cave bear. Under such pressure, the verbeeg is willing to let intruders leave the lair without further incident, provided the animals in the pen are not harmed or taken.
 
@@ -192,9 +193,9 @@ One crate is packed with straw, which the verbeeg feeds to the goats and sheep. 
 
 ##### Animals
 
-The livestock pen holds seven [goats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/goat.md) and six sheep, all in healthy condition. Use the [goat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/goat.md) stat block for each sheep, with these changes:
+The livestock pen holds seven [goats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/goat.md) and six [sheep](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/sheep-skt.md), all in healthy condition. Use the [goat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/goat.md) stat block for each [sheep](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/sheep-skt.md), with these changes:
 
-- A sheep is a Small beast with 3 (`d6`) hit points and a walking speed of 30 feet.  
+- A sheep is a Small beast with 3 (`1d6`) hit points and a walking speed of 30 feet.  
 - It lacks the Charge feature and any effective attacks, giving it a challenge rating of 0 (0 XP).  
 
 The verbeeg acquired his livestock by robbing travelers on the Eastway. He considers these beasts his treasured pets and has given names to all of them. He has trained the ogre and the cave bear not to attack them.
@@ -293,7 +294,7 @@ It takes a combined Strength of 50 to move the block. Revealed beneath it is a s
 
 Clutched in the chieftain's left hand is a [pearl of power](03.PlayerLog&Handouts/Mechanics/CLI/items/pearl-of-power.md). In her right hand is a +1 [wand of the war mage](03.PlayerLog&Handouts/Mechanics/CLI/items/1-wand-of-the-war-mage.md). A curse befalls any creature that removes either magic item or any of the chieftain's remains from the burial niche. Until the curse ends on it, the creature is haunted by phantasmal nightmares whenever it takes a long rest and gains no benefit from that rest. Replacing the stolen object ends the curse, as does a [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md) spell or similar magic.
 
-![Gahg the verbeeg has a bas...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/064-01-031-gahg-the-verbeeg.webp#center "Gahg the verbeeg has a basket of goodies for her beloved Duhg")
+![Gahg the verbeeg has a basket of goodies for her beloved Duhg](03.PlayerLog&Handouts/Mechanics/CLI/adventures/icewind-dale-rime-of-the-frostmaiden/img/064-01-031-gahg-the-verbeeg.webp#center)
 
 ### Affairs of the Heart
 

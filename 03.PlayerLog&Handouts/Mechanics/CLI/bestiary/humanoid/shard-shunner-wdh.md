@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/2
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Shard Shunner
+- "Shard Shunner"
 ---
-# [Shard Shunner](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/shard-shunner-wdh.md)
+# [Shard Shunner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/shard-shunner-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 42*  
 
 Member of the Shard Shunner gang hired by Emmek Frewn to disrupt the characters' running of the Trollskull Manor
@@ -42,7 +43,11 @@ Member of the Shard Shunner gang hired by Emmek Frewn to disrupt the characters'
     "desc": "+4"
 "damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
-"senses": "darkvision 60 ft. (rat form only), passive Perception 12"
+"gear":
+  - "[hand crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md)"
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft. (rat form only), passive Perception 12"
 "languages": "Common, Halfling, Thieves' cant"
 "cr": "2"
 "traits":
@@ -63,14 +68,14 @@ Member of the Shard Shunner gang hired by Emmek Frewn to disrupt the characters'
 "actions":
   - "desc": "The Shard Shunner makes two attacks, only one of which can be a bite."
     "name": "Multiattack (Humanoid or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d4 + 2) piercing damage. If the target is a humanoid, it must succeed\
       \ on a DC 11 Constitution saving throw or be cursed with wererat lycanthropy."
     "name": "Bite (Rat or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) piercing damage."
     "name": "Shortsword (Humanoid or Hybrid Form Only)"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:*\
       \ 5 (1d6 + 2) piercing damage."
     "name": "Hand Crossbow (Humanoid or Hybrid Form Only)"
 "source":

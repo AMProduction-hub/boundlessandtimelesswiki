@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Living the Giant Life; Giant Life Spans
+- "Living the Giant Life; Giant Life Spans"
 ---
 # Living the Giant Life; Giant Life Spans
 *Source: Volo's Guide to Monsters p. 22* 

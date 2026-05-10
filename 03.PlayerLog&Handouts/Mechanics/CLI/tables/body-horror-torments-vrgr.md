@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Body Horror Torments
+- "Body Horror Torments"
 ---
 # Body Horror Torments
 *Source: Van Richten's Guide to Ravenloft p. 47* 
 
 **Body Horror Torments**
-
-`dice: [](body-horror-torments-vrgr.md#^body-horror-torments)`
 
 | dice: d8 | Torment |
 |----------|---------|

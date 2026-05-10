@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/wdmm
 - ttrpg-cli/monster/legendary-group
 aliases:
-- Fazrian
+- "Fazrian"
 ---
 # Fazrian
 
-## Lair actions
+## Lair Actions
 _Source: Waterdeep: Dungeon of the Mad Mage_
 
 Unless he is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated), Fazrian can take one of the following lair actions on initiative count 20 (losing initiative ties) while on the Terminus Level:

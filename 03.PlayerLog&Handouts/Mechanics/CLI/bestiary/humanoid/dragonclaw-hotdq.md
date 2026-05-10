@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/hotdq
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragonclaw
+- "Dragonclaw"
 ---
-# [Dragonclaw](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/dragonclaw-hotdq.md)
+# [Dragonclaw](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/dragonclaw-hotdq.md)
 *Source: Hoard of the Dragon Queen p. 89, Tyranny of Dragons p. 182*  
 
 ```statblock
@@ -34,12 +35,14 @@ aliases:
   - !!int "12"
 "speed": "30 ft."
 "saves":
-  - "wisdom": "+2"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+3"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+5"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
 "senses": "passive Perception 10"
 "languages": "Common, Draconic"
 "cr": "1"
@@ -60,7 +63,7 @@ aliases:
 "actions":
   - "desc": "The dragonclaw attacks twice with its scimitar."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Scimitar"
 "source":

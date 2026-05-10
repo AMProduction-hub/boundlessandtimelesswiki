@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 aliases:
-- Trail of Destruction
+- "Trail of Destruction"
 ---
 # Trail of Destruction
 *Source: Journeys through the Radiant Citadel, p. 106* 
@@ -63,7 +64,7 @@ Consider the following ways to involve characters in this adventure.
 
 ## Starting the Adventure
 
-![Salamander raiders ambush ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/069-08-001-salamander-raiders.webp#center "Salamander raiders ambush Ameyali's caravan on the road near Etizalan")
+![Salamander raiders ambush Ameyali's caravan on the road near Etizalan](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/069-08-001-salamander-raiders.webp#center)
 
 The adventure begins as the characters approach the town of Etizalan. Before they reach the community, they encounter a caravan being raided. Read or paraphrase the following description:
 
@@ -144,8 +145,6 @@ Volcanic activity increases as the awakening of the tlexolotl Izel affects the r
 
 **Volcanic Awakening**
 
-`dice: [](09-trail-of-destruction.md#^volcanic-awakening)`
-
 | dice: d4 | Connection |
 |----------|------------|
 | 1 | A fumarole opens alongside the road, venting noxious gases 25 feet in all directions. Each creature in the area must succeed on a DC 14 Constitution saving throw or take 10 (`3d6`) poison damage. |
@@ -218,7 +217,7 @@ A character who spends at least 5 minutes examining the carvings inside the obse
 
 ### Disaster Strikes
 
-![As volcanic eruptions shak...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/072-08-004-ancient-twin-observatory.webp#center "As volcanic eruptions shake the earth, the ancient Twin Gods Observatory topples")
+![As volcanic eruptions shake the earth, the ancient Twin Gods Observatory topples](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/072-08-004-ancient-twin-observatory.webp#center)
 
 When a character climbs to at least half the height of the observatory—whether using the steps or via another method—the structure begins shaking, and a crack like a thunderclap sounds from below. Anyone outside the observatory sees the structure sway, while those inside feel the floor pitch beneath them. Creatures on the stairs inside the tower must succeed on a DC 16 Dexterity saving throw or fall. Unless characters have been tracking their ascent, assume they've climbed 60 feet when the earthquake hits, causing them to take 21 (`6d6`) bludgeoning damage and knocking them [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) if they fall.
 
@@ -232,7 +231,7 @@ The leader of the Watchers, [Tonalli](03.PlayerLog&Handouts/Mechanics/CLI/bestia
 
 #### Collapse
 
-When the tower collapses, each creature in or atop Twin Gods Observatory must make a DC 16 Dexterity saving throw. On a success, a creature falls from its current height and takes `d6` bludgeoning damage for every 10 feet it fell, but lands free of the collapsing structure. On a failed saving throw, the creature takes the falling damage and an additional 17 (`5d6`) bludgeoning damage, and the creature is buried under rubble. A creature buried in this way is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained), and has total cover. It can try to dig itself free as an action, ending the [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) and [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) conditions on itself and crawling to the surface with a successful DC 16 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. A creature that fails this check three times can't attempt to dig itself out again.
+When the tower collapses, each creature in or atop Twin Gods Observatory must make a DC 16 Dexterity saving throw. On a success, a creature falls from its current height and takes `1d6` bludgeoning damage for every 10 feet it fell, but lands free of the collapsing structure. On a failed saving throw, the creature takes the falling damage and an additional 17 (`5d6`) bludgeoning damage, and the creature is buried under rubble. A creature buried in this way is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained), and has total cover. It can try to dig itself free as an action, ending the [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) and [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) conditions on itself and crawling to the surface with a successful DC 16 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. A creature that fails this check three times can't attempt to dig itself out again.
 
 A creature that is neither [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) nor [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) can spend 1 minute freeing another creature buried in the rubble. Once free, that creature is no longer [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) or [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) by the collapsed structure.
 
@@ -522,7 +521,7 @@ The Watchers of the Ashes are a religious coalition dedicated to appeasing the g
 
 Most names in Tletepec have meanings drawn from words in the Tletlahtolli language related to nature. Many Tletepecs change their name on reaching adulthood, choosing a new name that reflects their accomplishments or aspirations. The following are examples of common names in Tletepec:
 
-- **Feminine.** Tzalanti, Xochitl, Yeyetzi, Yul  
+- **Feminine.** Tzalanti, Xóchitl, Yeyetzi, Yul  
 - **Masculine.** Mixtli, Tequihua, [Tonalli](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/tonalli-jttrc.md), Yoali  
 - **Gender-Neutral.** Ameli, Chamani, Citlalli, Quetzalli, Sinti, Tenampi, Tlalli, Yoltzin  
 - **Surnames.** Aca, Atzin, Coyac, Pale, Temich, Tepoz, Xopa, Zaca  
@@ -538,8 +537,6 @@ It's said that when the lovers became volcanoes, their memories of mortal life b
 Consider the plots on the Tletepec Adventures table when planning adventures in Tletepec.
 
 **Tletepec Adventures**
-
-`dice: [](09-trail-of-destruction.md#^tletepec-adventures)`
 
 | dice: d4 | Adventure |
 |----------|-----------|

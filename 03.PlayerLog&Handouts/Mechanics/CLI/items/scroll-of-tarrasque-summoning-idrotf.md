@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/item/rarity/legendary
 - ttrpg-cli/item/wondrous/scroll
-aliases: 
+aliases:
 - "Scroll of Tarrasque Summoning"
 ---
 # Scroll of Tarrasque Summoning

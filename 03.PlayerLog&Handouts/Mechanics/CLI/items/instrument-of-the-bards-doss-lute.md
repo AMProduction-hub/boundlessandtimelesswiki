@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/gear/instrument
 - ttrpg-cli/item/rarity/uncommon
 - ttrpg-cli/item/tier/major
-aliases: 
+aliases:
 - "Instrument of the Bards, Doss Lute"
 ---
 # Instrument of the Bards, Doss Lute
-*Wondrous item, instrument, major, uncommon (requires attunement by a bard)*  
+*Wondrous item, instrument ([lute](03.PlayerLog&Handouts/Mechanics/CLI/items/lute.md)), major, uncommon (requires attunement by a bard)*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/instrument-of-the-bards-doss-lute.webp#right)
 
 - **Weight**: 2.0 lbs.

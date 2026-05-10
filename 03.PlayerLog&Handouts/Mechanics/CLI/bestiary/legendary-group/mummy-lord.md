@@ -1,24 +1,25 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/legendary-group
 aliases:
-- Mummy Lord
+- "Mummy Lord"
 ---
 # Mummy Lord
 
-## Lair actions
+## Lair Actions
 _Source: Monster Manual_
 
 On initiative count 20 (losing initiative ties), the mummy lord takes a lair action to cause one of the following effects; the mummy lord can't use the same effect two rounds in a row:
 
 - Each undead creature in the lair can pinpoint the location of each living creature within 120 feet of it until initiative count 20 on the next round.  
 - Each undead in the lair has advantage on saving throws against effects that turn undead until initiative count 20 on the next round.  
-- Until initiative count 20 on the next round, any non-undead creature that tries to cast a spell of 4th level or lower in the mummy lord's lair is wracked with pain. The creature can choose another action, but if it tries to cast the spell, it must make a DC 16 Constitution saving throw. On a failed save, it takes `d6` necrotic damage per level of the spell, and the spell has no effect and is wasted.  
+- Until initiative count 20 on the next round, any non-undead creature that tries to cast a spell of 4th level or lower in the mummy lord's lair is wracked with pain. The creature can choose another action, but if it tries to cast the spell, it must make a DC 16 Constitution saving throw. On a failed save, it takes `1d6` necrotic damage per level of the spell, and the spell has no effect and is wasted.  
 
-## Regional effects
+## Regional Effects
 _Source: Monster Manual_
 
 A mummy lord's temple or tomb is warped in any of the following ways by the creature's dark presence:

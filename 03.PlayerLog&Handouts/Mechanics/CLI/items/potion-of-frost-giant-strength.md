@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/rarity/rare
 - ttrpg-cli/item/tier/minor
 - ttrpg-cli/item/wondrous/potion
-aliases: 
+aliases:
 - "Potion of Frost Giant Strength"
 ---
 # Potion of Frost Giant Strength

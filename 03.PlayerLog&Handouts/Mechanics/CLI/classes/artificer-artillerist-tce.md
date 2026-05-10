@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/artificer/artillerist
 aliases:
-- Artillerist
+- "Artillerist"
 ---
 # Artillerist
 *[Artificer](./artificer-tce.md): Artificer Specialist*  
@@ -43,13 +44,11 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Artillerist (Level 3)
-
 An Artillerist specializes in using magic to hurl energy, projectiles, and explosions on a battlefield. This destructive power was valued by all the armies of the Last War. Now that the war is over, some members of this specialization have sought to build a more peaceful world by using their powers to fight the resurgence of strife in Khorvaire.
 
 The gnome artificer Vi, an unlikely yet key member of House Cannith's warforged project, has been especially vocal about making things right: "It's about time we fixed things instead of blowing them all to hell."
+
+## Subclass Features
 
 ### Tool Proficiency (Level 3)
 
@@ -86,7 +85,7 @@ When you create the cannon, you determine its appearance and whether it has legs
 |--------|------------|
 | [Flamethrower](03.PlayerLog&Handouts/Mechanics/CLI/objects/eldritch-cannon-flamethrower-tce.md) | The cannon exhales fire in an adjacent 15-foot cone that you designate. Each creature in that area must make a Dexterity saving throw against your spell save DC, taking `2d8` fire damage on a failed save or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried. |
 | [Force Ballista](03.PlayerLog&Handouts/Mechanics/CLI/objects/eldritch-cannon-force-ballista-tce.md) | Make a ranged spell attack, originating from the cannon, at one creature or object within 120 feet of it. On a hit, the target takes `2d8` force damage, and if the target is a creature, it is pushed up to 5 feet away from the cannon. |
-| [Protector](03.PlayerLog&Handouts/Mechanics/CLI/objects/eldritch-cannon-protector-tce.md) | The cannon emits a burst of positive energy that grants itself and each creature of your choice within 10 feet of it a number of temporary hit points equal to `d8` + your Intelligence modifier (minimum of +1). |
+| [Protector](03.PlayerLog&Handouts/Mechanics/CLI/objects/eldritch-cannon-protector-tce.md) | The cannon emits a burst of positive energy that grants itself and each creature of your choice within 10 feet of it a number of temporary hit points equal to `1d8` + your Intelligence modifier (minimum of +1). |
 ^eldritch-cannons
 
 ### Arcane Firearm (Level 5)
@@ -99,7 +98,7 @@ You can use your arcane firearm as a spellcasting focus for your artificer spell
 
 Starting at 9th level, every eldritch cannon you create is more destructive:
 
-- The cannon's damage rolls all increase by `d8`.  
+- The cannon's damage rolls all increase by `1d8`.  
 - As an action, you can command the cannon to detonate if you are within 60 feet of it. Doing so destroys the cannon and forces each creature within 20 feet of it to make a Dexterity saving throw against your spell save DC, taking `3d8` force damage on a failed save or half as much damage on a successful one.  
 
 ### Fortified Position (Level 15)

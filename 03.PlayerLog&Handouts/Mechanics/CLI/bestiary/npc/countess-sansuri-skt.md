@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Countess Sansuri
+- "Countess Sansuri"
 ---
-# [Countess Sansuri](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/countess-sansuri-skt.md)
+# [Countess Sansuri](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/countess-sansuri-skt.md)
 *Source: Storm King's Thunder p. 192*  
 
 Cloud giants live extravagant lives high above the world, showing little concern for the plights of other races except as amusement. They are muscular with light skin and have hair of silver or blue.
@@ -34,7 +35,7 @@ As humanoid nobles keep an aerie for hunting hawks, so do cloud giants keep grif
 
 ## Children of the Trickster
 
-The patron god and father of the cloud giants is Memnor the Trickster, the cleverest and slyest of the giant deities. Cloud giants align themselves according to the aspects and exploits of Memnor that they most admire, with evil cloud giants emulating his deceitfulness and self-interest and good cloud giants emulating his intellect and silvertongued speech. Family members usually align in the same direction.
+The patron god and father of the cloud giants is Memnor the Trickster, the cleverest and slyest of the giant deities. Cloud giants align themselves according to the aspects and exploits of Memnor that they most admire, with evil cloud giants emulating his deceitfulness and self-interest and good cloud giants emulating his intellect and silver-tongued speech. Family members usually align in the same direction.
 
 ## Wealth and Power
 
@@ -46,7 +47,7 @@ Rather than steal from one another or fight over treasures, cloud giants are inv
 
 ## Giants
 
-Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain thecustoms and traditions of old.
+Ancient empires once cast long shadows over a world that quaked beneath the giants' feet. In those lost days, these towering figures were dragon slayers, dreamers, crafters, and kings, but their kind fell from glory long ago. However, even divided among secluded clans scattered throughout the world, the giants maintain the customs and traditions of old.
 
 ### Old as Legend
 
@@ -91,63 +92,53 @@ Some giants abandon their own gods and fall prey to demon cults, paying homage t
   - !!int "16"
 "speed": "40 ft."
 "saves":
-  - "constitution": "+10"
-  - "wisdom": "+7"
-  - "charisma": "+7"
+  - "constitution": !!int "10"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
     "desc": "+7"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 17"
 "languages": "Auran, Common, Giant"
 "cr": "11"
 "traits":
-  - "desc": "Sansuri's innate spellcasting ability is Charisma. She can innately cast\
-      \ the following spells, requiring no material components:\n\nAt will: [detect\
-      \ magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md), [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md),\
-      \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md)\n\n3/day each:\
-      \ [feather fall](03.PlayerLog&Handouts/Mechanics/CLI/spells/feather-fall.md),\
+  - "desc": "The giant's innate spellcasting ability is Charisma. It can innately\
+      \ cast the following spells, requiring no material components:\n\n**At will:**\
+      \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md)\n\
+      \n**3/day each:** [feather fall](03.PlayerLog&Handouts/Mechanics/CLI/spells/feather-fall.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md),\
       \ [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)\n\
-      \n1/day each: [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md),\
+      \n**1/day each:** [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md),\
       \ [gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/spells/gaseous-form.md)"
     "name": "Innate Spellcasting"
-  - "desc": "Sansuri has advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+  - "desc": "The giant has advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ checks that rely on smell."
     "name": "Keen Smell"
 "actions":
-  - "desc": "Sansuri tries to throw a Small or Medium creature within 10 feet of her.\
-      \ The target must succeed on a DC 20 Dexterity saving throw or be hurled up\
-      \ to 60 feet horizontally in a direction of Sansuri's choice and land [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone),\
-      \ taking d8 bludgeoning damage for every 10 feet it was thrown."
-    "name": "Fling"
-  - "desc": "A magical aura of wind surrounds Sansuri. The aura is a 10-foot-radius\
-      \ sphere that lasts as long as Sansuri maintains [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-      \ on it (as if [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-      \ on a spell). While the aura is in effect, Sansuri gains a +2 bonus to its\
-      \ AC against ranged weapon attacks, and all open flames within the aura are\
-      \ extinguished unless they are magical."
-    "name": "Wind Aura"
   - "desc": "Sansuri makes two spear attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:*\
       \ 21 (3d8 + 8) piercing damage."
-    "name": "Morningstar"
-  - "desc": "Ranged Weapon Attack: +12 to hit, range 60/240 ft., one target. Hit:\
+    "name": "Spear"
+  - "desc": "*Ranged Weapon Attack:* +12 to hit, range 60/240 ft., one target. *Hit:*\
       \ 30 (4d10 + 8) bludgeoning damage."
     "name": "Rock"
   - "desc": "Sansuri casts one of the following spells, requiring no material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 15; +7\
-      \ to hit with spell attacks):\n\nAt will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ to hit with spell attacks):\n\n**At will:** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
-      \n2/day each: [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md),\
+      \n**2/day each:** [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md),\
       \ [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
       \ [unseen servant](03.PlayerLog&Handouts/Mechanics/CLI/spells/unseen-servant.md)\n\
-      \n1/day each: [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md),\
+      \n**1/day each:** [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md),\
       \ [haste](03.PlayerLog&Handouts/Mechanics/CLI/spells/haste.md), [hypnotic pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md),\
       \ [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md), [lightning\
       \ bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md), [Mordenkainen's\

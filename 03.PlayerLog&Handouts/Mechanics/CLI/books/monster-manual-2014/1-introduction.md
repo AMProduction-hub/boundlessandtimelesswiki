@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 aliases:
-- Introduction
+- "Introduction"
 ---
 # Introduction
 *Source: Monster Manual (2014), p. 4* 
@@ -116,7 +117,7 @@ A monster's statistics, sometimes referred to as its stat block, provide the ess
 
 ### Size
 
-A monster can be Tiny, Small, Medium, Large, Huge, or Gargantuan. The Size Categories table shows how much space a creature of a particular size controls in combat. See the 6 for more information on creature size and space.
+A monster can be Tiny, Small, Medium, Large, Huge, or Gargantuan. The Size Categories table shows how much space a creature of a particular size controls in combat. See the "Player's Handbook" for more information on creature size and space.
 
 ![Size Categories](03.PlayerLog&Handouts/Mechanics/CLI/tables/size-categories-mm.md)
 
@@ -307,7 +308,7 @@ A monster's innate spells can't be swapped out with other spells. If a monster's
 
 #### Spellcasting
 
-A monster with the Spellcasting special trait has a spellcaster level and spell slots, which it uses to cast its spells of 1st level and higher (as explained in the *Player's Handbook*). The spellcaster level is also used for any cantrips included in the feature.
+A monster with the Spellcasting class feature has a spellcaster level and spell slots, which it uses to cast its spells of 1st level and higher (as explained in the *Player's Handbook*). The spellcaster level is also used for any cantrips included in the feature.
 
 The monster has a list of spells known or prepared from a specific class. The list might also include spells from a feature in that class, such as the Divine Domain feature of the cleric or the Druid Circle feature of the druid. The monster is considered a member of that class when attuning to or using a magic item that requires membership in the class or access to its spell list.
 
@@ -843,4 +844,4 @@ The servant loses all known languages, but it responds to orders given to it by 
 
 ### Attacks
 
-If the servant has no other means of dealing damage, it can use its fists or limbs to make unarmed strikes. On a hit, an unarmed strike deals bludgeoning damage equal to `d4` + the servant's Strength modifier, or, if the servant is Large, `2d4` + its Strength modifier.
+If the servant has no other means of dealing damage, it can use its fists or limbs to make unarmed strikes. On a hit, an unarmed strike deals bludgeoning damage equal to `1d4` + the servant's Strength modifier, or, if the servant is Large, `2d4` + its Strength modifier.

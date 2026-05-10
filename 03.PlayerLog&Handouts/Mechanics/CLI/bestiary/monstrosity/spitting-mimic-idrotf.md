@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Spitting Mimic
+- "Spitting Mimic"
 ---
-# [Spitting Mimic](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/spitting-mimic-idrotf.md)
+# [Spitting Mimic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/spitting-mimic-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 302*  
 
 Mimics are shape-shifting monsters described in the *Monster Manual*. The variant presented here is a particularly large and voracious specimen—the result of Netherese experiments on ordinary mimics—that spits acid.
@@ -40,7 +41,8 @@ Mimics are shape-shifting monsters described in the *Monster Manual*. The varian
     "desc": "+7"
 "damage_immunities": "acid"
 "condition_immunities": "[prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": ""
 "cr": "5"
 "traits":
@@ -66,11 +68,11 @@ Mimics are shape-shifting monsters described in the *Monster Manual*. The varian
   - "desc": "The mimic attacks three times: twice with its pseudopods and once with\
       \ its bite."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:*\
       \ 10 (1d10 + 5) bludgeoning damage. If the mimic is in object form, the target\
       \ is subjected to its Adhesive trait."
     "name": "Pseudopods"
-  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:*\
       \ 10 (1d10 + 5) piercing damage plus 7 (2d6) acid damage."
     "name": "Bite"
   - "desc": "The mimic spits acid at one creature it can see within 30 feet of it.\

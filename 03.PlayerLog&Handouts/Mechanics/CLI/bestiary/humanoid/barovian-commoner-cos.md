@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/0
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Barovian Commoner
+- "Barovian Commoner"
 ---
-# [Barovian Commoner](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/barovian-commoner-cos.md)
+# [Barovian Commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/barovian-commoner-cos.md)
 *Source: Curse of Strahd p. 29*  
 
 ```statblock
@@ -32,12 +33,14 @@ aliases:
   - !!int "10"
   - !!int "10"
 "speed": "30 ft."
+"gear":
+  - "[club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "0"
 "actions":
-  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3\
-      \ (d6) piercing damage."
+  - "desc": "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 3\
+      \ (1d6) piercing damage."
     "name": "Pitchfork"
 "source":
   - "CoS"

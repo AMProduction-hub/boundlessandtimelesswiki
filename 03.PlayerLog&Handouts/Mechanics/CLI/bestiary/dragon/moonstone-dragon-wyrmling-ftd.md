@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Moonstone Dragon Wyrmling
+- "Moonstone Dragon Wyrmling"
 ---
-# [Moonstone Dragon Wyrmling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/moonstone-dragon-wyrmling-ftd.md)
+# [Moonstone Dragon Wyrmling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/moonstone-dragon-wyrmling-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 213*  
 
 Ancient legends suggest that when the gods came to the First World and tried to populate it with their Humanoid followers, a clever dragon fled to the Feywild to hide a clutch of eggs. The magic of that faerie realm suffused the eggs, which hatched into the first moonstone dragons. Their descendants are now found throughout the Feywild.
@@ -28,8 +29,6 @@ Use the Moonstone Dragon Personality Traits and Moonstone Dragon Ideals tables t
 
 ### Moonstone Dragon Personality Traits
 
-`dice: [](moonstone-dragon-wyrmling-ftd.md#^trait)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | I often lose track of whether I'm in the Feywild or on the Material Plane. |
@@ -43,8 +42,6 @@ Use the Moonstone Dragon Personality Traits and Moonstone Dragon Ideals tables t
 ^trait
 
 ### Moonstone Dragon Ideals
-
-`dice: [](moonstone-dragon-wyrmling-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -61,8 +58,6 @@ Use the Moonstone Dragon Personality Traits and Moonstone Dragon Ideals tables t
 The Moonstone Dragon Adventure Hooks table offers suggestions for stories and adventures involving moonstone dragons.
 
 ### Moonstone Dragon Adventure Hooks
-
-`dice: [](moonstone-dragon-wyrmling-ftd.md#^adventure-hook)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|
@@ -81,8 +76,6 @@ The Moonstone Dragon Adventure Hooks table offers suggestions for stories and ad
 In the Feywild, moonstone dragons interact mostly with pixies, sprites, and other Fey creatures who revere and serve the dragon. Outside the Feywild, they often prefer to communicate with other creatures through dreams.
 
 ### Moonstone Dragon Wyrmling Connections
-
-`dice: [](moonstone-dragon-wyrmling-ftd.md#^connected-creatures)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|
@@ -113,9 +106,9 @@ In the Feywild, moonstone dragons interact mostly with pixies, sprites, and othe
   - !!int "17"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  - "intelligence": "+5"
-  - "wisdom": "+4"
-  - "charisma": "+5"
+  - "intelligence": !!int "5"
+  - "wisdom": !!int "4"
+  - "charisma": !!int "5"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
@@ -124,18 +117,20 @@ In the Feywild, moonstone dragons interact mostly with pixies, sprites, and othe
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)"
-"senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 10 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": "Draconic"
 "cr": "2"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
-      \ 12 (2d8 + 3) piercing damage plus 3 (d6) radiant damage."
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:*\
+      \ 12 (2d8 + 3) piercing damage plus 3 (1d6) radiant damage."
     "name": "Bite"
-  - "desc": "The dragon uses one of the following breath weapons:\n\n- Dream Breath.\
+  - "desc": "The dragon uses one of the following breath weapons:\n\n- **Dream Breath.**\
       \ The dragon exhales mist in a 90-foot cone. Each creature in that area must\
       \ succeed on a DC 12 Constitution saving throw or fall [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
       \ for 10 minutes. This effect ends for a creature if the creature takes damage\
-      \ or someone uses an action to wake it.  \n- Moonlight Breath. The dragon\
+      \ or someone uses an action to wake it.  \n- **Moonlight Breath.** The dragon\
       \ exhales a beam of moonlight in a 30-foot line that is 5 feet wide. Each creature\
       \ in that area must make a DC 12 Dexterity saving throw, taking 14 (4d6) radiant\
       \ damage on a failed save, or half as much damage on a successful one.  "

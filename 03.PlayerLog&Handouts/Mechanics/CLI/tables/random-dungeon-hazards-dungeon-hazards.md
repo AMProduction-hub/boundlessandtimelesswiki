@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Random Dungeon Hazards; Dungeon Hazards
+- "Random Dungeon Hazards; Dungeon Hazards"
 ---
 # Random Dungeon Hazards; Dungeon Hazards
 *Source: Dungeon Master's Guide p. 296* 
 
 **Dungeon Hazards**
-
-`dice: [](random-dungeon-hazards-dungeon-hazards.md#^dungeon-hazards)`
 
 | dice: d20 | Hazard |
 |-----------|--------|

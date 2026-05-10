@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/4
@@ -13,10 +14,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Weretiger
+- "Weretiger"
 ---
-# [Weretiger](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/weretiger.md)
-*Source: Monster Manual p. 210, Tomb of Annihilation, Explorer's Guide to Wildemount, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Weretiger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/weretiger.md)
+*Source: Monster Manual p. 210. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Weretigers are ferocious hunters and warriors with a haughty and fastidious nature. Lithe and sleekly muscular in humanoid form, they are taller than average and meticulously groomed. Weretigers grow to enormous size in animal and hybrid form, but they fight in their more refined humanoid form when they can.
 
@@ -82,7 +83,11 @@ Some individuals see little point in fighting the curse and accept what they are
     "desc": "+4"
 "damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
-"senses": "darkvision 60 ft., passive Perception 15"
+"gear":
+  - "[longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)"
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 15"
 "languages": "Common (can't speak in tiger form)"
 "cr": "4"
 "traits":
@@ -104,24 +109,21 @@ Some individuals see little point in fighting the curse and accept what they are
   - "desc": "In humanoid form, the weretiger makes two scimitar attacks or two longbow\
       \ attacks. In hybrid form, it can attack like a humanoid or make two claw attacks."
     "name": "Multiattack (Humanoid or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d10 + 3) piercing damage. If the target is a humanoid, it must succeed\
       \ on a DC 13 Constitution saving throw or be cursed with weretiger lycanthropy."
     "name": "Bite (Tiger or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d8 + 3) slashing damage."
     "name": "Claw (Tiger or Hybrid Form Only)"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Scimitar (Humanoid or Hybrid Form Only)"
-  - "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:*\
       \ 6 (1d8 + 2) piercing damage."
     "name": "Longbow (Humanoid or Hybrid Form Only)"
 "source":
   - "MM"
-  - "ToA"
-  - "EGW"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/weretiger.webp"
 ```
 ^statblock

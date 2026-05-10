@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Omens of Keranos
+- "Omens of Keranos"
 ---
 # Omens of Keranos
 *Source: Mythic Odysseys of Theros p. 111* 
 
 **Omens of Keranos**
-
-`dice: [](omens-of-keranos-mot.md#^omens-of-keranos)`
 
 | dice: d6 | dice: d100 | Omen of Keranos |
 |----------|------------|-----------------|

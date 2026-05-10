@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/26
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Tromokratis
+- "Tromokratis"
 ---
-# [Tromokratis](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/tromokratis-mot.md)
+# [Tromokratis](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/tromokratis-mot.md)
 *Source: Mythic Odysseys of Theros p. 254*  
 
 Most krakens roam the seas, shattering hulls and scattering fleets, but the kraken Tromokratis notoriously vents its wrath on coastal settlements. Whether it acts at the command of the god Thassa or to sate its own hunger, Tromokratis numbers among the most feared threats in the sea, having no fixed lair and wandering where it will. In recent memory, the massive menace rose from the waves to topple the Pyrgnos, Meletis's great repository of scholarly knowledge. Since that day, the polis keeps a watch specifically for Tromokratis.
@@ -36,15 +37,16 @@ Most krakens roam the seas, shattering hulls and scattering fleets, but the krak
   - !!int "10"
 "speed": "30 ft., swim 80 ft."
 "saves":
-  - "intelligence": "+14"
-  - "wisdom": "+8"
+  - "intelligence": !!int "14"
+  - "wisdom": !!int "8"
 "damage_resistances": "cold, lightning, thunder"
 "damage_immunities": "fire; bludgeoning, piercing, slashing from nonmagical attacks"
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "blindsight 120 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft., passive Perception 10"
 "languages": ""
 "cr": "26"
 "traits":
@@ -74,24 +76,24 @@ Most krakens roam the seas, shattering hulls and scattering fleets, but the krak
   - "desc": "Tromokratis makes three attacks: one with its pincer, one with its tail,\
       \ and one with its tentacle grasp."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +18 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +18 to hit, reach 20 ft., one target. *Hit:*\
       \ 20 (3d6 + 10) bludgeoning damage, and if the target is a creature, it is\
       \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 26). Until the grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and Tromokratis can't use this attack on anyone else."
     "name": "Pincer"
-  - "desc": "Melee Weapon Attack: +18 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +18 to hit, reach 20 ft., one target. *Hit:*\
       \ 23 (3d8 + 10) bludgeoning damage, and if the target is a creature, it is\
       \ knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Tail"
-  - "desc": "Melee Weapon Attack: +18 to hit, reach 20 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +18 to hit, reach 20 ft., one creature. *Hit:*\
       \ 20 (3d6 + 10) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 26). If the target doesn't escape by the end of its next turn,\
       \ Tromokratis throws the target up to 60 feet in a straight line. The target\
       \ lands [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
       \ and takes 21 (6d6) bludgeoning damage."
     "name": "Tentacle Grasp"
-  - "desc": "Melee Weapon Attack: +18 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +18 to hit, reach 5 ft., one target. *Hit:*\
       \ 29 (3d12 + 10) piercing damage. If the target is a Large or smaller creature\
       \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ by Tromokratis, that creature is swallowed, and the grapple ends. While swallowed,\
@@ -107,6 +109,9 @@ Most krakens roam the seas, shattering hulls and scattering fleets, but the krak
       \ by it and can escape from the corpse by using 15 feet of movement, exiting\
       \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Bite"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Tromokratis can expend a use to take one of the following actions. Tromokratis\
+  \ regains all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Tromokratis moves up to half its speed."
     "name": "Move"
@@ -114,26 +119,17 @@ Most krakens roam the seas, shattering hulls and scattering fleets, but the krak
     "name": "Tail"
   - "desc": "Tromokratis makes one bite attack."
     "name": "Bite (Costs 3 Actions)"
-"mythic_encounter":
-  - "desc": "Tromokratis numbers among the most powerful creatures a group of adventurers\
-      \ might face. If you wish to make an encounter with the kraken truly legendary,\
-      \ Tromokratis might use its Hearts of the Kraken mythic trait. When this happens,\
-      \ it calls upon a reserve of strength just as it appears to be vanquished. After\
-      \ its hearts are exposed, Tromokratis can choose one of its mythic actions when\
-      \ it uses a legendary action."
-    "name": ""
-  - "desc": "Read or paraphrase the following text when Tromokratis uses its Hearts\
-      \ of the Kraken trait:"
-    "name": ""
-  - "desc": "\n> The titanic monster's carapace cracks, revealing a pulsing, red-purple\
-      \ heart buried amid heaps of blubber and muscle. Fissures run across the beast's\
-      \ ancient shell, revealing three other mighty, ichor-slick organs. The sea terror\
-      \ thrashes, channeling pain into fury."
-    "name": ""
-  - "desc": "Fighting Tromokratis as a mythic encounter is equivalent to taking on\
-      \ two CR 26 creatures in one encounter. Award a party 180,000 XP for defeating\
-      \ Tromokratis after it uses Hearts of the Kraken."
-    "name": ""
+"mythic_description": "If Tromokratis's mythic trait is active, it can use the options\
+  \ below as legendary actions for 1 hour after using Hearts of the Kraken."
+"mythic_actions":
+  - "desc": "Tromokratis makes two attacks: one with its tail and one with its tentacle\
+      \ grasp."
+    "name": "Rampage"
+  - "desc": "Each creature within 10 feet of Tromokratis must make a DC 25 Dexterity\
+      \ saving throw, taking 13 (3d8) slashing damage on a failed save, or half\
+      \ as much damage on a successful one. Until the start of its next turn, Tromokratis\
+      \ and its hearts gain a +2 bonus to AC."
+    "name": "Coral Growth (Costs 2 Actions)"
 "source":
   - "MOT"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/tromokratis-mot.webp"

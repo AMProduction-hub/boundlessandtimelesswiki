@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-4
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Draft Horse
+- "Draft Horse"
 ---
-# [Draft Horse](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/draft-horse.md)
-*Source: Monster Manual p. 321, Curse of Strahd, Storm King's Thunder, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Draft Horse](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/draft-horse.md)
+*Source: Monster Manual p. 321. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Draft Horse"
@@ -36,16 +37,11 @@ aliases:
 "languages": ""
 "cr": "1/4"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9\
       \ (2d4 + 4) bludgeoning damage."
     "name": "Hooves"
 "source":
   - "MM"
-  - "CoS"
-  - "SKT"
-  - "WDH"
-  - "GoS"
-  - "BGDIA"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/draft-horse.webp"
 ```
 ^statblock

@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/race/aasimar
 aliases:
-- Aasimar
+- "Aasimar"
 ---
 # Aasimar
 *Source: Dungeon Master's Guide p. 286*  
 
 
-- **Ability Scores**: Wisdom +1; Charisma +2
+- **Ability Scores**: wis +1 cha +2
 - **Size**: Medium
 - **Speed**: 30 ft.
 - **Spellcasting**: Charisma

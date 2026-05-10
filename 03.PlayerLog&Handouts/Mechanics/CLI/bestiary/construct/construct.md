@@ -1,6 +1,8 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
+- json5e-index
 ---
 # Index of Construct
 
@@ -24,7 +26,6 @@ cssclasses: json5e-note
 - [Animated Wand](./animated-wand-wdmm.md)
 - [Animatronic Allosaurus](./animatronic-allosaurus-kftgv.md)
 - [Anvilwrought Raptor](./anvilwrought-raptor-mot.md)
-- [Autognome](./autognome-bam.md)
 - [Bore Worm](./bore-worm-wdmm.md)
 - [Brain in Iron](./brain-in-iron-imr.md)
 - [Bronze Sable](./bronze-sable-mot.md)
@@ -45,10 +46,10 @@ cssclasses: json5e-note
 - [Clockwork Stone Defender](./clockwork-stone-defender-mpmm.md)
 - [Cogwork Archivist](./cogwork-archivist-scc.md)
 - [Colossus of Akros](./colossus-of-akros-mot.md)
+- [Construct Spirit](./construct-spirit-tce.md)
 - [Construct Spirit (Clay)](./construct-spirit-clay-tce.md)
 - [Construct Spirit (Metal)](./construct-spirit-metal-tce.md)
 - [Construct Spirit (Stone)](./construct-spirit-stone-tce.md)
-- [Construct Spirit](./construct-spirit-tce.md)
 - [Constructed Commoner](./constructed-commoner-cm.md)
 - [Crimson Helmed Horror](./crimson-helmed-horror-kftgv.md)
 - [Crystal Battleaxe](./crystal-battleaxe-wdmm.md)
@@ -59,8 +60,8 @@ cssclasses: json5e-note
 - [Dragonbone Golem](./dragonbone-golem-ftd.md)
 - [Duergar Hammerer](./duergar-hammerer-mpmm.md)
 - [Duergar Screamer](./duergar-screamer-mpmm.md)
-- [Duodrone (Rogue)](./duodrone-rogue.md)
 - [Duodrone](./duodrone.md)
+- [Duodrone (Rogue)](./duodrone-rogue.md)
 - [Expeditious Messenger](./expeditious-messenger-erlw.md)
 - [Fiendish Flesh Golem](./fiendish-flesh-golem-bgdia.md)
 - [Flesh Golem](./flesh-golem.md)
@@ -69,6 +70,7 @@ cssclasses: json5e-note
 - [Flying Staff](./flying-staff-wdh.md)
 - [Flying Sword](./flying-sword.md)
 - [Flying Trident](./flying-trident-wdmm.md)
+- [Flying Wand](./flying-wand-wdmm.md)
 - [Four-Armed Statue](./four-armed-statue-oota.md)
 - [Fractal Mascot](./fractal-mascot-scc.md)
 - [Galvan Magen](./galvan-magen-idrotf.md)
@@ -80,8 +82,8 @@ cssclasses: json5e-note
 - [Headless Iron Golem](./headless-iron-golem-idrotf.md)
 - [Hellfire Engine](./hellfire-engine-mpmm.md)
 - [Helmed Horror](./helmed-horror.md)
-- [Homunculus Servant](./homunculus-servant-tce.md)
 - [Homunculus](./homunculus.md)
+- [Homunculus Servant](./homunculus-servant-tce.md)
 - [Huge Stone Golem](./huge-stone-golem-skt.md)
 - [Hypnos Magen](./hypnos-magen-idrotf.md)
 - [Iron Defender](./iron-defender-erlw.md)
@@ -106,14 +108,14 @@ cssclasses: json5e-note
 - [Metallic Warbler](./metallic-warbler-ftd.md)
 - [Mighty Servant of Leuk-o](./mighty-servant-of-leuk-o-tce.md)
 - [Minotaur Living Crystal Statue](./minotaur-living-crystal-statue-gos.md)
-- [Monodrone (Rogue)](./monodrone-rogue.md)
 - [Monodrone](./monodrone.md)
+- [Monodrone (Rogue)](./monodrone-rogue.md)
 - [Nimblewright](./nimblewright-wdh.md)
 - [Paper Whirlwind](./paper-whirlwind-rot.md)
-- [Pentadrone (Rogue)](./pentadrone-rogue.md)
 - [Pentadrone](./pentadrone.md)
-- [Quadrone (Rogue)](./quadrone-rogue.md)
+- [Pentadrone (Rogue)](./pentadrone-rogue.md)
 - [Quadrone](./quadrone.md)
+- [Quadrone (Rogue)](./quadrone-rogue.md)
 - [Reduced-Threat Clay Golem](./reduced-threat-clay-golem-tftyp.md)
 - [Reduced-Threat Flesh Golem](./reduced-threat-flesh-golem-tftyp.md)
 - [Reduced-Threat Helmed Horror](./reduced-threat-helmed-horror-tftyp.md)
@@ -153,8 +155,8 @@ cssclasses: json5e-note
 - [Tiny Servant](./tiny-servant-xge.md)
 - [Tomb Guardian](./tomb-guardian-toa.md)
 - [Tomb Tapper](./tomb-tapper-idrotf.md)
-- [Tridrone (Rogue)](./tridrone-rogue.md)
 - [Tridrone](./tridrone.md)
+- [Tridrone (Rogue)](./tridrone-rogue.md)
 - [Vampiric Jade Statue](./vampiric-jade-statue-gos.md)
 - [Vox Seeker](./vox-seeker-egw.md)
 - [Walking Statue of Waterdeep](./walking-statue-of-waterdeep-wdh.md)

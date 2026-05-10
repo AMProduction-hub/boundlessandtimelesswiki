@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 aliases:
-- Heroic Chronicle; Social Status Relationships
+- "Heroic Chronicle; Social Status Relationships"
 ---
 # Heroic Chronicle; Social Status Relationships
 *Source: Explorer's Guide to Wildemount p. 190* 
 
 **Social Status Relationships**
-
-`dice: [](heroic-chronicle-social-status-relationships-egw.md#^social-status-relationships)`
 
 | dice: d20 | Background | Clovis Concord | Dwendalian Empire | Greying Wildlands | Kryn Dynasty |
 |-----------|------------|----------------|-------------------|-------------------|--------------|

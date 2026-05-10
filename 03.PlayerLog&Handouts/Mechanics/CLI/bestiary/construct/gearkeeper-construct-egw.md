@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gearkeeper Construct
+- "Gearkeeper Construct"
 ---
-# [Gearkeeper Construct](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/gearkeeper-construct-egw.md)
+# [Gearkeeper Construct](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/gearkeeper-construct-egw.md)
 *Source: Explorer's Guide to Wildemount p. 290*  
 
 Rolling, deadly whirlwinds of metal plates and curving blades, these clockwork automatons were initially designed by tinkerers and mage engineers to be sentries and guardians in the deepest of vaults during the Age of Arcanum. While most of these majestic and deadly curiosities have fallen to rust and ruin, forgotten along with their long-destroyed and buried societies, some continue to patrol the tunnels and pathways of forgotten tombs and dungeons, following their original operations and directives to protect the contents of their domain.
@@ -46,7 +47,8 @@ Reverse engineering from the recovered shells and scraps of excavated gearkeeper
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "blindsight 120 ft., passive Perception 10"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 120 ft., passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "10"
 "traits":
@@ -56,16 +58,16 @@ Reverse engineering from the recovered shells and scraps of excavated gearkeeper
   - "desc": "Opportunity attacks made against the gearkeeper have disadvantage."
     "name": "Rapid Shifting"
   - "desc": "Any creature that starts its turn within 5 feet of the gearkeeper takes\
-      \ 4 (d8) slashing damage."
+      \ 4 (1d8) slashing damage."
     "name": "Whirling Blades"
 "actions":
   - "desc": "The gearkeeper makes two Arm Blade attacks, or one Arm Blade attack and\
       \ one Spear Launcher attack."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 18\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 18\
       \ (3d8 + 5) slashing damage."
     "name": "Arm Blade"
-  - "desc": "Ranged Weapon Attack: +9 to hit, range 90 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +9 to hit, range 90 ft., one target. *Hit:*\
       \ 12 (2d6 + 5) piercing damage, and the target is knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Spear Launcher"
   - "desc": "The gearkeeper jettisons a spray of jagged metal in a 30-foot cone. Each\

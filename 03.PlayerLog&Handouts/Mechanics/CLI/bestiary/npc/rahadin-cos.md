@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cos
 - ttrpg-cli/monster/cr/10
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Rahadin
+- "Rahadin"
 ---
-# [Rahadin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/rahadin-cos.md)
+# [Rahadin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rahadin-cos.md)
 *Source: Curse of Strahd p. 237*  
 
 Rahadin, the dusk elf chamberlain of Castle Ravenloft, has served Strahd's family faithfully for nearly five hundred years. He is Strahd's eternal servant, a longtime comrade-in-arms, and a ruthless warrior who has killed thousands in his lifetime.
@@ -74,8 +75,8 @@ So dreadful a creature is Rahadin that anyone who stands within 10 feet of him c
   - !!int "18"
 "speed": "35 ft."
 "saves":
-  - "constitution": "+7"
-  - "wisdom": "+7"
+  - "constitution": !!int "7"
+  - "wisdom": !!int "7"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+8"
@@ -87,14 +88,17 @@ So dreadful a creature is Rahadin that anyone who stands within 10 feet of him c
     "desc": "+11"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+14"
-"senses": "darkvision 60 ft., passive Perception 21"
+"gear":
+  - "[scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 21"
 "languages": "Common, Elvish"
 "cr": "10"
 "traits":
   - "desc": "Rahadin's innate spellcasting ability is Intelligence. He can innately\
-      \ cast the following spells, requiring no components:\n\n3/day: [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md),\
+      \ cast the following spells, requiring no components:\n\n**3/day:** [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md),\
       \ [phantom steed](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantom-steed.md)\n\
-      \n1/day: [magic weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-weapon.md),\
+      \n**1/day:** [magic weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-weapon.md),\
       \ [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md)"
     "name": "Innate Spellcasting"
   - "desc": "Any creature within 10 feet of Rahadin that isn't protected by a [mind\
@@ -114,10 +118,10 @@ So dreadful a creature is Rahadin that anyone who stands within 10 feet of him c
   - "desc": "Rahadin attacks three times with his scimitar, or twice with his [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
       \ darts."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:*\
       \ 9 (1d6 + 6) slashing damage."
     "name": "Scimitar"
-  - "desc": "Ranged Weapon Attack: +10 to hit, range 20/60 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +10 to hit, range 20/60 ft., one target. *Hit:*\
       \ 8 (1d4 + 6) piercing damage plus 5 (2d4) poison damage."
     "name": "Poisoned Dart"
 "source":

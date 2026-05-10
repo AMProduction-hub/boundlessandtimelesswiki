@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/11
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Behir
+- "Behir"
 ---
-# [Behir](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/behir.md)
-*Source: Monster Manual p. 25, Tales from the Yawning Portal, Explorer's Guide to Wildemount, Candlekeep Mysteries, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Behir](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/behir.md)
+*Source: Monster Manual p. 25. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 The serpentine behir crawls along floors and clambers up walls to reach its prey. Its lightning breath can incinerate most creatures, even as more powerful foes are constricted in its coils and eaten alive.
 
@@ -60,17 +61,18 @@ A behir never makes its lair in an area it knows to be inhabited by a dragon. If
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
 "damage_immunities": "lightning"
-"senses": "darkvision 90 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 90 ft., passive Perception 16"
 "languages": "Draconic"
 "cr": "11"
 "actions":
   - "desc": "The behir makes two attacks: one with its bite and one to constrict."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:*\
       \ 22 (3d10 + 6) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one Large or smaller\
-      \ creature. Hit: 17 (2d10 + 6) bludgeoning damage plus 17 (2d10 + 6) slashing\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one Large or smaller\
+      \ creature. *Hit:* 17 (2d10 + 6) bludgeoning damage plus 17 (2d10 + 6) slashing\
       \ damage. The target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 16) if the behir isn't already constricting a creature, and the\
       \ target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
@@ -98,11 +100,6 @@ A behir never makes its lair in an area it knows to be inhabited by a dragon. If
     "name": "Swallow"
 "source":
   - "MM"
-  - "TftYP"
-  - "EGW"
-  - "CM"
-  - "JttRC"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/behir.webp"
 ```
 ^statblock

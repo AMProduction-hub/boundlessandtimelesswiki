@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/lmop
 - ttrpg-cli/monster/cr/3
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mormesk the Wraith
+- "Mormesk the Wraith"
 ---
-# [Mormesk the Wraith](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/mormesk-the-wraith-lmop.md)
+# [Mormesk the Wraith](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/mormesk-the-wraith-lmop.md)
 *Source: Lost Mine of Phandelver p. 59*  
 
 A wraith is the incorporeal remnant of a particularly hateful being. Most wraiths can transform those they have slain into spectral undead servitors. Mormesk chooses not to, preferring to let the dead stay dead.
@@ -42,7 +43,8 @@ A wraith is the incorporeal remnant of a particularly hateful being. Most wraith
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 12"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 12"
 "languages": "Common, Infernal"
 "cr": "3"
 "traits":
@@ -54,7 +56,7 @@ A wraith is the incorporeal remnant of a particularly hateful being. Most wraith
       \ checks that rely on sight."
     "name": "Sunlight Sensitivity"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:*\
       \ 16 (3d8 + 3) necrotic damage, and the target must succeed on a DC 13 Constitution\
       \ saving throw or its hit point maximum is reduced by an amount equal to the\
       \ damage taken. If this attack reduces the target's hit point maximum to 0,\

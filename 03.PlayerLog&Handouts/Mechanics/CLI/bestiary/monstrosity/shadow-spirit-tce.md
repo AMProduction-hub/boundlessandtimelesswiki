@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Shadow Spirit
+- "Shadow Spirit"
 ---
-# [Shadow Spirit](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/shadow-spirit-tce.md)
+# [Shadow Spirit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/shadow-spirit-tce.md)
 *Source: Tasha's Cauldron of Everything p. 114*  
 
 ```statblock
@@ -31,7 +32,8 @@ aliases:
 "speed": "40 ft."
 "damage_resistances": "necrotic"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "darkvision 120 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 10"
 "languages": "understands the languages you speak"
 "traits":
   - "desc": "The spirit has advantage on attack rolls against [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
@@ -45,8 +47,8 @@ aliases:
   - "desc": "The spirit makes a number of attacks equal to half this spell's level\
       \ (rounded down)."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft.,\
-      \ one target. Hit: 1d12 + 3 + the spell's level cold damage."
+  - "desc": "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft.,\
+      \ one target. *Hit:* 1d12 + 3 + the spell's level cold damage."
     "name": "Chilling Rend"
   - "desc": "The spirit screams. Each creature within 30 feet of it must succeed on\
       \ a Wisdom saving throw against your spell save DC or be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
@@ -55,7 +57,8 @@ aliases:
       \ the effect on itself on a success."
     "name": "Dreadful Scream (1/Day)"
 "bonus_actions":
-  - "desc": "While in dim light or darkness, the spirit takes the Hide action."
+  - "desc": "While in dim light or darkness, the spirit takes the [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide)\
+      \ action."
     "name": "Shadow Stealth (Fear Only)"
 "source":
   - "TCE"

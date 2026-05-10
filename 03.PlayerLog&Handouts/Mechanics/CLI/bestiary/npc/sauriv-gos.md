@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Sauriv
+- "Sauriv"
 ---
-# [Sauriv](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/sauriv-gos.md)
+# [Sauriv](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/sauriv-gos.md)
 *Source: Ghosts of Saltmarsh p. 79*  
 
 ```statblock
@@ -40,6 +41,8 @@ aliases:
     "desc": "+6"
   - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
     "desc": "+7"
+"gear":
+  - "[rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md)"
 "senses": "passive Perception 14"
 "languages": "Common, Draconic"
 "cr": "1/8"
@@ -47,7 +50,7 @@ aliases:
   - "desc": "Sauriv"
     "name": "Hold Breath"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d8 + 1) piercing damage."
     "name": "Rapier"
 "reactions":

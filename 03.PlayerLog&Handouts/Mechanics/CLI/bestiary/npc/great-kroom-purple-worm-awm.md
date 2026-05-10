@@ -1,19 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/awm
 - ttrpg-cli/monster/cr/15
-- ttrpg-cli/monster/environment/desert
-- ttrpg-cli/monster/environment/underdark
 - ttrpg-cli/monster/size/gargantuan
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Great Kroom, Purple Worm
+- "Great Kroom, Purple Worm"
 ---
-# [Great Kroom, Purple Worm](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/great-kroom-purple-worm-awm.md)
+# [Great Kroom, Purple Worm](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/great-kroom-purple-worm-awm.md)
 *Source: Adventure with Muk p. 33*  
 
 Great Kroom is a purple worm that comes to the Dankwood every twenty years to feed on all kinds of stuff that grows under the forest.
@@ -50,10 +49,10 @@ The Great Kroom is a terrifying and dangerous monster that could easily destroy 
 "actions":
   - "desc": "The worm makes two attacks:"
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +14 to hit, one target. Hit: 22 (3d8) piercing\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, one target. *Hit:* 22 (3d8) piercing\
       \ damage. Target must make a DC 19 Dexterity save, or be swallowed by the worm!"
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +14 to hit, one creature. Hit: 19 (3d6 +\
+  - "desc": "*Melee Weapon Attack:* +14 to hit, one creature. *Hit:* 19 (3d6 +\
       \ 9) piercing damage Target must make a DC 19 Constitution save, or take 42\
       \ (12d6) poison damage."
     "name": "Tail Stinger"
@@ -62,7 +61,3 @@ The Great Kroom is a terrifying and dangerous monster that could easily destroy 
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/great-kroom-purple-worm-awm.webp"
 ```
 ^statblock
-
-## Environment
-
-desert, underdark

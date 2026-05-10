@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Using Ability Scores
+- "Using Ability Scores"
 ---
 # Using Ability Scores
 *Source: Player's Handbook (2014), p. 173* 

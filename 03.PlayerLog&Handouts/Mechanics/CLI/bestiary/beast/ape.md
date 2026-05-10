@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-2
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ape
+- "Ape"
 ---
-# [Ape](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/ape.md)
-*Source: Monster Manual p. 317, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Ape](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/ape.md)
+*Source: Monster Manual p. 317. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Ape"
@@ -43,19 +44,14 @@ aliases:
 "actions":
   - "desc": "The ape makes two fist attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) bludgeoning damage."
     "name": "Fist"
-  - "desc": "Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +5 to hit, range 25/50 ft., one target. *Hit:*\
       \ 6 (1d6 + 3) bludgeoning damage."
     "name": "Rock"
 "source":
   - "MM"
-  - "TftYP"
-  - "ToA"
-  - "WDH"
-  - "GoS"
-  - "CM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/ape.webp"
 ```
 ^statblock

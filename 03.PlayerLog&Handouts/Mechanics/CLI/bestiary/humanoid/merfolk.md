@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/1-8
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Merfolk
+- "Merfolk"
 ---
-# [Merfolk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/merfolk.md)
-*Source: Monster Manual p. 218, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Merfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/merfolk.md)
+*Source: Monster Manual p. 218. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Aquatic humanoids with the upper body of a human and the lower body of a fish, merfolk adorn their skin and scales with shell decorations.
 
@@ -49,6 +50,8 @@ Merfolk defend their communities with spears crafted from whatever materials the
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+2"
+"gear":
+  - "[spear](03.PlayerLog&Handouts/Mechanics/CLI/items/spear.md)"
 "senses": "passive Perception 12"
 "languages": "Aquan, Common"
 "cr": "1/8"
@@ -56,15 +59,12 @@ Merfolk defend their communities with spears crafted from whatever materials the
   - "desc": "The merfolk can breathe air and water."
     "name": "Amphibious"
 "actions":
-  - "desc": "Melee  or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60\
-      \ ft., one target. Hit: 3 (d6) piercing damage, or 4 (d8) piercing damage\
+  - "desc": "*Melee  or Ranged Weapon Attack:* +2 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. *Hit:* 3 (1d6) piercing damage, or 4 (1d8) piercing damage\
       \ if used with two hands to make a melee attack."
     "name": "Spear"
 "source":
   - "MM"
-  - "WDH"
-  - "GoS"
-  - "JttRC"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/merfolk.webp"
 ```
 ^statblock

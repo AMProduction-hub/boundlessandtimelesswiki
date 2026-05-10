@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Identify the Party's Goals; Dungeon Goals
+- "Identify the Party's Goals; Dungeon Goals"
 ---
 # Identify the Party's Goals; Dungeon Goals
 *Source: Dungeon Master's Guide p. 72* 
 
 **Dungeon Goals**
-
-`dice: [](identify-the-partys-goals-dungeon-goals.md#^dungeon-goals)`
 
 | dice: d20 | Goal |
 |-----------|------|

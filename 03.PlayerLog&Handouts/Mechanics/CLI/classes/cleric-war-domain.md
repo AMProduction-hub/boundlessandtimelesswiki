@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/domain/war
 - ttrpg-cli/subclass/cleric/war
 aliases:
-- War Domain
+- "War Domain"
 ---
 # War Domain
 *[Cleric](./cleric.md): Divine Domain*  
@@ -44,11 +45,11 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### War Domain (Level 1)
-
 War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. In either case, the gods of war watch over warriors and reward them for their great deeds. The clerics of such gods excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers. Gods of war include champions of honor and chivalry (such as Torm, [Heironeous](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-heironeous.md), and Kiri-Jolith) as well as gods of destruction and pillage (such as [Erythnul](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-erythnul.md), the Fury, [Gruumsh](03.PlayerLog&Handouts/Mechanics/CLI/deities/nonhuman-gruumsh.md), and [Ares](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-ares.md)) and gods of conquest and domination (such as Bane, [Hextor](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-hextor.md), and [Maglubiyet](03.PlayerLog&Handouts/Mechanics/CLI/deities/nonhuman-maglubiyet.md)). Other war gods (such as Tempus, [Nike](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-nike.md), and [Nuada](03.PlayerLog&Handouts/Mechanics/CLI/deities/celtic-nuada.md)) take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.
+
+## Subclass Features
+
+### Domain Spells (Level 1)
 
 At each indicated cleric level, add the listed spells to your spells prepared.
 
@@ -81,14 +82,14 @@ At 6th level, when a creature within 30 feet of you makes an attack roll, you ca
 
 ### Divine Strike (Level 8)
 
-At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `d8` damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to `2d8`.
+At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `1d8` damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to `2d8`.
 
 ### Blessed Strikes (Level 8)
 _Source: Tasha's Cauldron of Everything p. 30_
 
 *8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Divine Strike feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Avatar of Battle (Level 17)
 

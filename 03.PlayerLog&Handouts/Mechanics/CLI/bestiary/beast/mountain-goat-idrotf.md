@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Mountain Goat
+- "Mountain Goat"
 ---
-# [Mountain Goat](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/mountain-goat-idrotf.md)
+# [Mountain Goat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/mountain-goat-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 304*  
 
 Mountain goats are found throughout the Spine of the World and on the slopes of Kelvin's Cairn, their thick fur and layers of body fat protecting them from the extreme cold. They are expert climbers, able to leap and bound up sheer slopes.
@@ -40,7 +41,7 @@ Mountain goats are territorial but easily placated with offerings of food. Their
 "cr": "1/8"
 "traits":
   - "desc": "If the goat moves at least 20 feet straight toward a target and then\
-      \ hits it with a ram attack on the same turn, the target takes an extra 3 (d6)\
+      \ hits it with a ram attack on the same turn, the target takes an extra 3 (1d6)\
       \ bludgeoning damage. If the target is a creature, it must succeed on a DC 12\
       \ Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Charge"
@@ -48,7 +49,7 @@ Mountain goats are territorial but easily placated with offerings of food. Their
       \ effects that would knock it [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Sure-Footed"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5\
       \ (1d6 + 2) bludgeoning damage."
     "name": "Ram"
 "source":

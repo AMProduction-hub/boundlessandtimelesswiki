@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Ability Checks
+- "Ability Checks"
 ---
 # Ability Checks
 *Source: Dungeon Master's Guide p. 237* 

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Other Adventure Hooks; Boros Adventure Hooks
+- "Other Adventure Hooks; Boros Adventure Hooks"
 ---
 # Other Adventure Hooks; Boros Adventure Hooks
 *Source: Guildmasters' Guide to Ravnica p. 133* 
 
 **Boros Adventure Hooks**
-
-`dice: [](other-adventure-hooks-boros-adventure-hooks-ggr.md#^boros-adventure-hooks)`
 
 | dice: d6 | Adventure Hook |
 |----------|----------------|

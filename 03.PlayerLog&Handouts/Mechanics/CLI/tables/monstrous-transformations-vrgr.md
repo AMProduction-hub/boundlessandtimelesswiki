@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Monstrous Transformations
+- "Monstrous Transformations"
 ---
 # Monstrous Transformations
 *Source: Van Richten's Guide to Ravenloft p. 41* 
 
 **Monstrous Transformations**
-
-`dice: [](monstrous-transformations-vrgr.md#^monstrous-transformations)`
 
 | dice: d10 | Transformation |
 |-----------|----------------|

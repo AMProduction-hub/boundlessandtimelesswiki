@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/oota
 aliases:
-- Chapter 4: Gracklstugh
+- "Chapter 4: Gracklstugh"
 ---
 # Chapter 4: Gracklstugh
 *Source: Out of the Abyss, p. 50* 
@@ -60,8 +61,6 @@ With routine patrols of heavily armed gray dwarves who can turn [invisible](03.P
 
 #### Random Encounters in Gracklstugh
 
-`dice: [](04-chapter-4-gracklstugh.md#^encounter)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–2 | Abusive [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md) guards |
@@ -100,8 +99,6 @@ A [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) proudly 
 
 #### Drow House Loyalty
 
-`dice: [](04-chapter-4-gracklstugh.md#^house)`
-
 | dice: d6 | House |
 |----------|-------|
 | 1–2 | House Baenre |
@@ -132,8 +129,6 @@ A patrol consists of `1d4 + 2` [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bes
 
 The characters encounter a [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md) afflicted with a form of indefinite madness. Roll a `d10` and consult the Mad Duergar table to determine what the party encounters.
 
-`dice: [](04-chapter-4-gracklstugh.md#^npc)`
-
 | dice: d10 | NPC |
 |-----------|-----|
 | 1–2 | A merchant desperate to sell his wares, convinced that his life depends on it. |
@@ -145,15 +140,13 @@ The characters encounter a [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiar
 
 #### Orc Mercenaries
 
-These `1d4 + 1` [orcs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc.md) have come to Gracklstugh as caravan guards, and see the characters as a chance to bully some surface dwellers. The orcs try to goad the characters into striking first, then quickly stand down, knowing that a patrol (see "Duergar Patrol") will arrive `d6` rounds after combat starts.
+These `1d4 + 1` [orcs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc.md) have come to Gracklstugh as caravan guards, and see the characters as a chance to bully some surface dwellers. The orcs try to goad the characters into striking first, then quickly stand down, knowing that a patrol (see "Duergar Patrol") will arrive `1d6` rounds after combat starts.
 
 #### Slave Caravan
 
 The characters come across a group of `1d4 + 1` [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md) slavers herding unarmed slaves (roll a `d12` and consult the Slaves table). The slaves wear iron collars and manacles similar to the ones worn by the characters in Velkynvelve (see "Restraints" in chapter 1).
 
 #### Slaves
-
-`dice: [](04-chapter-4-gracklstugh.md#^slaves)`
 
 | dice: d12 | Slaves |
 |-----------|--------|
@@ -167,11 +160,11 @@ The characters come across a group of `1d4 + 1` [duergar](03.PlayerLog&Handouts/
 
 #### Steeder Handlers
 
-A group of `1d4 + 1` [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md) teamsters herd a clutch of `2d6` [male steeders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/male-steeder-mpmm.md) (see appendix C). There is a 50 percent chance that `d4` of the steeders attack nearby characters or bystanders. The duergar keep the rest of the clutch in check, but they clamor for the characters' arrest if even one of the arachnids is killed. A nearby patrol (see "Duergar Patrol") hears the teamsters' clamor and arrives `d6` rounds later.
+A group of `1d4 + 1` [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md) teamsters herd a clutch of `2d6` [male steeders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/male-steeder-mpmm.md) (see appendix C). There is a 50 percent chance that `1d4` of the steeders attack nearby characters or bystanders. The duergar keep the rest of the clutch in check, but they clamor for the characters' arrest if even one of the arachnids is killed. A nearby patrol (see "Duergar Patrol") hears the teamsters' clamor and arrives `1d6` rounds later.
 
 #### Themberchaud
 
-The [adult red dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-red-dragon.md) is out on his regular rounds, keeping the city's forges aflame. [Themberchaud](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/themberchaud-oota.md) has long been keeping his eye out for mercenaries in the city that could be bent to his service. If he spots the characters, he might take an interest in them. See "[Themberchaud](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/themberchaud-oota.md)'s Lair" for information on the Wyrmsmith's motivations and possible setups for an additional encounter with the red dragon.
+The [adult red dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-red-dragon.md) is out on his regular rounds, keeping the city's forges aflame. [Themberchaud](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/themberchaud-oota.md) has long been keeping his eye out for mercenaries in the city that could be bent to his service. If he spots the characters, he might take an interest in them. See "Themberchaud's Lair" for information on the Wyrmsmith's motivations and possible setups for an additional encounter with the red dragon.
 
 ### Important NPCs
 
@@ -184,7 +177,7 @@ The characters might encounter one or more of the following NPCs during their st
 | **Gorglak** | Corrupt male duergar on duty at the gate where the characters first arrive in Gracklstugh |
 | **Xalith** | Female [drow scout](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-scout-oota.md) charged with recapturing the characters for Ilvara |
 | **Errde Blackskull** | Female duergar captain of the Stone Guard with a side quest for the party |
-| **Themberchaud** | The city's Wyrmsmith, an adult red dragon with a possible mission for the party |
+| [Themberchaud](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/themberchaud-oota.md) | The city's Wyrmsmith, an adult red dragon with a possible mission for the party |
 | **Gartokkar Xundorn** | Male duergar Keeper of the Flame with a side quest for the party |
 | **Ylsa Henstak** | Female duergar merchant with a side quest for the party |
 | [Droki](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/droki-oota.md) | Male derro courier in the employ of both the Gray Ghosts and the Council of Savants, and the subject of different possible side quests |
@@ -381,7 +374,7 @@ The pragmatic nature of the duergar means that all Gracklstugh's entrance gates 
 > 
 > The ground at your feet has been getting smoother and flatter, a welcome respite from the uneven passages to which you have grown wearily accustomed. Eventually, stone tiles become more noticeable, turning the path into a proper road. You can see spots of light in the distance, blue-white and too regularly placed to be phosphorescent mushrooms.
 > 
-> The lights are proper lamps flanking two massive stone gates blocking the tunnel. Before you get a chance to examine the intricate carvings on the gates' surface, a harsh voice hisses from a slit on the cavern wall that was not therebefore.
+> The lights are proper lamps flanking two massive stone gates blocking the tunnel. Before you get a chance to examine the intricate carvings on the gates' surface, a harsh voice hisses from a slit on the cavern wall that was not there before.
 > 
 > "State your names and business!" the voice orders in Dwarvish. Other similar slits open, revealing the tips of a dozen crossbow bolts. Behind you, a metallic din announces a group of six heavily armored dwarves appearing out of thin air, their swords leveled at you from behind sturdy metal shields.
 ^171
@@ -468,7 +461,7 @@ This encounter triggers possible side quests through which the characters can le
 A [stone giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/stone-giant.md) from Cairngorm Cavern has succumbed to a demonic curse that has caused him to grow a disfigured second head. A successful DC 12 Wisdom ([Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)) check reveals that the giant is crazed and terrified. Use the stone giant stat block with the following modifications:
 
 - The giant has advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) checks and on saving throws against being [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned), or knocked [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious).  
-- The giant is unarmed. As an action, it can make two unarmed strikes (+9 to hit, reach 10 ft., one target). On a hit, the giant deals 13 (`2d6 + 6`) bludgeoning damage.  
+- The giant is unarmed. As an action, it can make two unarmed strikes (`+9` to hit, reach 10 ft., one target). On a hit, the giant deals 13 (`2d6 + 6`) bludgeoning damage.  
 
 The rampage happens in a broad plaza, so there is plenty of space for the different combatants to maneuver.
 
@@ -554,9 +547,9 @@ If the characters arrive in Gracklstugh with a drow pursuit level of 3 or higher
 
 Characters with a passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score of 15 or higher spot six [drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md) watching them in the Blade Bazaar. One of them is Xalith Masq'il'yr, a female drow allied with House Mizzrym. Any of the party's NPC companions who know the duergar well can guess that these drow won't want to attract the duergar's attention to their "lost property." Doing so would likely involve having to pay the gray dwarves a reward for the adventurers' capture. This gives the characters a chance to evade their pursuers, but they need to stay out of sight.
 
-Xalith speaks to the duergar only if the characters are arrested. Otherwise, she sends a messenger to Ilvara and makes sure the characters don't go anywhere without her knowing. If the characters fail to lose themselves in the city (see "Gracklstugh and Drow Pursuit" earlier in this chapter), their pursuit level increases by 1 every `d4` days until Ilvara arrives.
+Xalith speaks to the duergar only if the characters are arrested. Otherwise, she sends a messenger to Ilvara and makes sure the characters don't go anywhere without her knowing. If the characters fail to lose themselves in the city (see "Gracklstugh and Drow Pursuit" earlier in this chapter), their pursuit level increases by 1 every `1d4` days until Ilvara arrives.
 
-Alternatively, the adventurers might decide to turn the tables on the drow. Characters might figure out a way to quietly neutralize Xalith and her squad, perhaps tricking them into damaging a duergar merchant's property or forcing them outside Darklake District, where even drow are forbidden to go. Doing so decreases the pursuit level by 2. However, if combat ever breaks out between the characters and the drow, a squad of five [duergar stone guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar-stone-guard-mpmm.md) (see appendix C) and five [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md) warriors arrive within `d4` rounds and arrest the lot of them (see "Getting Captured").
+Alternatively, the adventurers might decide to turn the tables on the drow. Characters might figure out a way to quietly neutralize Xalith and her squad, perhaps tricking them into damaging a duergar merchant's property or forcing them outside Darklake District, where even drow are forbidden to go. Doing so decreases the pursuit level by 2. However, if combat ever breaks out between the characters and the drow, a squad of five [duergar stone guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar-stone-guard-mpmm.md) (see appendix C) and five [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md) warriors arrive within `1d4` rounds and arrest the lot of them (see "Getting Captured").
 
 ### Darklake Brewery
 
@@ -801,8 +794,6 @@ As the characters explore the Whorlstone Tunnels, they can run into various crea
 
 #### Whorlstone Tunnels Encounters
 
-`dice: [](04-chapter-4-gracklstugh.md#^encounter)`
-
 | dice: d20 | Encounter |
 |-----------|-----------|
 | 1–10 | No encounter |
@@ -810,8 +801,8 @@ As the characters explore the Whorlstone Tunnels, they can run into various crea
 | 13 | Demon pack |
 | 14 | 1 [flumph](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/flumph.md) |
 | 15 | 1 [gray ooze](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/gray-ooze.md) |
-| 16 | `d4` moldy [quaggoth spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/quaggoth-spore-servant.md) |
-| 17 | `d4` two-headed [grimlocks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/grimlock.md) |
+| 16 | `1d4` moldy [quaggoth spore servants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/quaggoth-spore-servant.md) |
+| 17 | `1d4` two-headed [grimlocks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/grimlock.md) |
 | 18 | 1 [swarm of insects (centipedes)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-centipedes.md) |
 | 19 | 1 [xorn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/xorn.md) |
 | 20 | Yellow mold |
@@ -823,7 +814,7 @@ There's a 50 percent chance that the [carrion crawler](03.PlayerLog&Handouts/Mec
 
 #### Demon Pack
 
-This pack consists of a [quasit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/quasit.md) leading `1d4 + 2` [dretches](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/dretch.md). The quasit turns [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) and tries to escape when only two dretches remain; if it succeeds, the cultists in area 14 are alerted. Replace any subsequent demon pack random encounter with `d4` [derro](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/derro-mpmm.md) (see appendix C).
+This pack consists of a [quasit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/quasit.md) leading `1d4 + 2` [dretches](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/dretch.md). The quasit turns [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) and tries to escape when only two dretches remain; if it succeeds, the cultists in area 14 are alerted. Replace any subsequent demon pack random encounter with `1d4` [derro](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/derro-mpmm.md) (see appendix C).
 
 #### Flumph
 
@@ -851,13 +842,11 @@ The characters notice a patch of yellow mold (see ""Dungeon Hazards"" in chapter
 
 #### Beneath the Yellow Mold
 
-`dice: [](04-chapter-4-gracklstugh.md#^encounter)`
-
 | dice: d4 | Encounter |
 |----------|-----------|
 | 1 | A humanoid skeleton wearing a [ring of water walking](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-water-walking.md) on one bony finger (no ring is found on subsequent occurrences of this encounter) |
-| 2 | A closed zurkhwood chest containing `1d6 × 100` gp and `d6` 50 gp gems |
-| 3 | A humanoid skeleton in tattered leather armor carrying a rusted shortsword and one of the following: a rotted quiver holding `d20` *+1 arrows*, a leather pouch containing `d10` *+2 sling stones*, or a zurkhwood case containing `d4` *+3 crossbow bolts* |
+| 2 | A closed zurkhwood chest containing `1d6 × 100` gp and `1d6` 50 gp gems |
+| 3 | A humanoid skeleton in tattered leather armor carrying a rusted shortsword and one of the following: a rotted quiver holding `1d20` *+1 arrows*, a leather pouch containing `1d10` *+2 sling stones*, or a zurkhwood case containing `1d4` *+3 crossbow bolts* |
 | 4 | A [+1 shield](03.PlayerLog&Handouts/Mechanics/CLI/items/1-shield.md) (on subsequent occurrences of this encounter, the shield is rusted and nonmagical) |
 ^encounter
 
@@ -918,9 +907,9 @@ Capturing the derro and taking him to Errde Blackskull earns the characters 150 
 
 ### Areas of the Tunnels
 
-### 1. Entrance
+#### 1. Entrance
 
-The narrow corridor from the West Cleft opens into a long cavern lined with stalactites and stalagmites. Whater drips from the stalactites, forming small pools on the floor.
+The narrow corridor from the West Cleft opens into a long cavern lined with stalactites and stalagmites. Water drips from the stalactites, forming small pools on the floor.
 
 > [!readaloud] 
 > 
@@ -933,11 +922,11 @@ If the characters wait here for [Droki](03.PlayerLog&Handouts/Mechanics/CLI/best
 
 If the characters caught [Droki](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/droki-oota.md) in Gracklstugh and brought him here, they must make the saving throw at some point during their interrogation. Knowing the power of the cavern, [Droki](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/droki-oota.md) bides his time, giving nonsensical answers and hissing at the characters. He makes his move to escape after the characters make their saving throws, fleeing by the route described in the "Finding [Droki](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/droki-oota.md)" section.
 
-#### Development
+##### Development
 
 If [Buppido](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/buppido-oota.md) is with the party, he takes advantage of any distraction to slip away, taking refuge in area 1b.
 
-### 1a. Pool Bypass
+#### 1a. Pool Bypass
 
 A relatively small cave branches off the main tunnel. If the characters are shadowing [Droki](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/droki-oota.md), read the following boxed text aloud to the players.
 
@@ -948,7 +937,7 @@ A relatively small cave branches off the main tunnel. If the characters are shad
 
 The far side of the small cavern has a narrow crack in the wall surrounded by patches of pygmywort and bigwig mushrooms (`1d10 + 10` of each). The crack forms the entrance of a narrow, naturally-formed tunnel.
 
-### 1b. Buppido's Lair
+#### 1b. Buppido's Lair
 
 The derro [Buppido](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/buppido-oota.md) discovered the Whorlstone Tunnels months ago but never dared to explore beyond the first couple of chambers. He settled in this area and erected a grisly altar to himself, to support the delusion that he is a god.
 
@@ -969,17 +958,17 @@ The humanoid remains on the floor make the entire cavern difficult terrain. Char
 
 If [Buppido](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/buppido-oota.md) was killed in Velkynvelve or at some point in the characters' travels through the Underdark, replace him with a [carrion crawler](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/carrion-crawler.md) feeding on the dead remains.
 
-#### Development
+##### Development
 
 When the monsters are defeated, the [ghost](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghost.md) of a deep gnome named Pelek pokes its head up out of the ground, blinks, and then emerges fully. The ghost is friendly and tells the adventurers that [Buppido](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/buppido-oota.md) killed him not too long ago, then chopped him into pieces to join the other body parts in the shrine. Pelek explains how he was traveling from Blingdenstone when he fell in with [Buppido](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/buppido-oota.md). He knows little about the Whorlstone Tunnels, but he has observed a shrunken derro with a funny hat ([Droki](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/droki-oota.md)) entering and leaving the narrow tunnels. Pelek doesn't know about the pygmywort mushrooms.
 
 Pelek asks the characters to take one or more parts of him to Blingdenstone and bury his remains there, so that his spirit can rest. It's impossible to tell which body parts are his, and looking around is a gruesome task that speaks loudly to [Buppido](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/buppido-oota.md)'s madness. Pelek recalls that the strange magic that pervades the tunnels animated one of his severed hands, and it scuttled away through one of the narrow tunnels. (Characters might encounter it in area 13.) Pelek points out that characters can recognize the hand because it was wearing an obsidian ring. If the characters need more reasons to go to Blingdenstone, Pelek adds that the svirfneblin who live there know many ways to the surface.
 
-#### Treasure
+##### Treasure
 
 Scattered around the floor are 10 gp, 11 sp, and a damp piece of lizard-skin parchment with the words "Worship [Buppido](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/buppido-oota.md)" written in shaky Dwarvish.
 
-### 2. Diseased Pool
+#### 2. Diseased Pool
 
 This pool is fed by a river that flows from the Darklake. The river carries many things from the subterranean lake, including the carcasses of countless creatures, fouling the pool (see the "Whorlstone Tunnels: General Features" sidebar).
 
@@ -992,7 +981,7 @@ The water is heated by a thermal spring and pleasantly warm. However, the pool i
 
 The characters can try to get around the pool without swimming it, by using magic or climbing along the walls. Climbing the slippery walls of the cavern requires a successful DC 13 [Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics) check. On a failed check, a character falls into the water.
 
-### 3. Parade of Fools
+#### 3. Parade of Fools
 
 Myconids journeying through the Underdark were attracted to the enriched fungal life in the Whorlstone Tunnels and made a stop here. They are friendly, but there is something seriously wrong with them.
 
@@ -1013,19 +1002,19 @@ If present, [Stool](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/stool-oota.
 
 The myconid sprout standing by itself is named [Rumpadump](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rumpadump-oota.md). It sends a subtle warning as a feeling of distress through its own rapport spores in response to Voosbur's offer, saying that the other myconids aren't behaving right.
 
-#### Roleplaying Rumpadump
+##### Roleplaying Rumpadump
 
 [Rumpadump](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rumpadump-oota.md) is as introverted as [Stool](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/stool-oota.md) is outgoing, preferring to hang back and not use its rapport spores unless absolutely necessary. Whether [Stool](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/stool-oota.md) is present or not, [Rumpadump](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rumpadump-oota.md) can guide the characters to Neverlight Grove (see chapter 5), where the sovereigns might know of a way out of the Underdark. However, the myconid sprout is worried that Voosbur's "strange spores" might have infected the rest of the myconids back home.
 
-#### Development
+##### Development
 
 Voosbur takes no offense if the characters refuse his offer to teach them how to travel "the Lady's dream," simply bidding them farewell as the myconids resume their dancing. If the characters have shown [Rumpadump](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/rumpadump-oota.md) any kindness, it asks their permission to join the party, especially if [Stool](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/stool-oota.md) is present. At the same time, Sarith breaks away from the party to join the myconids. The drow turns one last time to give the characters a look of terror and despair before his face loses all expression. He and the dancing myconids then enter a mushroom patch and use the [tree stride](03.PlayerLog&Handouts/Mechanics/CLI/spells/tree-stride.md) ability granted by Zuggtmoy's blessing to vanish from sight.
 
-#### XP Awards
+##### XP Awards
 
 Award 50 XP to each character if the party parlayed with the myconids.
 
-### 4. Fungi Thicket
+#### 4. Fungi Thicket
 
 This tunnel juncture is blocked by a thicket of fungi. The thicket is an ecosystem unto itself, with its own challenges for those who wish to cross it.
 
@@ -1044,20 +1033,20 @@ Creatures can negate the movement penalty by destroying the fungi before crossin
 
 The first time a Small or larger character reaches the tunnel intersection, two [swarms of insects](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-insects.md) (centipedes) emerge from nests under the thicket and attack. Two more [swarms of insects](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-insects.md) (spiders) arrive on the second round of combat, plus another [swarm of insects](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-insects.md) (centipedes) on the third round.
 
-#### Treasure
+##### Treasure
 
 The abundance of fungi in the thicket makes it easy to forage here. Among the common, inedible fungi are the following edible and exotic fungi, most of which are described in chapter 2:
 
-- `d6` barrelstalks  
+- `1d6` barrelstalks  
 - `3d6` bluecaps  
-- `d6` patches of fire lichen  
-- `d6` nightlights  
-- `d6` Nilhogg's noses  
-- `d6` sheets of ripplebark  
-- `d6` timmasks  
-- `d6` torchstalks  
-- `d6` tongues of madness  
-- `d6` trillimacs  
+- `1d6` patches of fire lichen  
+- `1d6` nightlights  
+- `1d6` Nilhogg's noses  
+- `1d6` sheets of ripplebark  
+- `1d6` timmasks  
+- `1d6` torchstalks  
+- `1d6` tongues of madness  
+- `1d6` trillimacs  
 - `2d6` bigwigs (see "*Faerzress*-Suffused Fungi")  
 - `2d6` pygmyworts (see "*Faerzress*-Suffused Fungi")  
 
@@ -1070,7 +1059,7 @@ The abundance of fungi in the thicket makes it easy to forage here. Among the co
 > A [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md) or [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md) spell rids a creature of Zuggtmoy's gift.
 ^zuggtmoys-gift
 
-### 5. Raucous Mesa
+#### 5. Raucous Mesa
 
 This chamber was sculpted by *faerzress* with the side effect of trapping sound.
 
@@ -1091,7 +1080,7 @@ A character who exceeds the saving throw DC by 5 or more can ask one question ab
 
 A character can focus on the sound in the chamber a number of times equal to his or her Wisdom modifier (minimum 1). After that, the character no longer has the ability to tell sounds apart.
 
-### 6. Dire Den
+#### 6. Dire Den
 
 This small network of tiny grottos leads into one of the dens of the Gray Ghosts, but it is the current residence of a warped creature called the [Spider King](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/spider-king-oota.md). The characters must travel through narrow tunnels to reach this area (see the "Whorlstone Tunnels: General Features" sidebar).
 
@@ -1109,11 +1098,11 @@ The northeastern cave is the lair of the [Spider King](03.PlayerLog&Handouts/Mec
 
 The [Spider King](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/spider-king-oota.md) senses when intruders enter its domain and can't be [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised) by them. Along with two normal [giant spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-spider.md) (its attendants), the [Spider King](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/spider-king-oota.md) waits in ambush. It moves to the entrance of its chamber in an attempt to keep the characters bottled up, while the two giant spiders approach along the walls and ceiling, getting into position above creatures on the floor. The [Spider King](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/spider-king-oota.md) and the giant spiders fight to the death, but they don't follow prey that flees.
 
-#### Development
+##### Development
 
 Sounds of combat here alert the duergar in area 7.
 
-### 7. Gray Ghost Garden
+#### 7. Gray Ghost Garden
 
 The Gray Ghosts use this chamber to grow a variety of fungi for use in alchemical experiments.
 
@@ -1130,7 +1119,7 @@ Three [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md
 
 At the start of combat, two duergar use their Enlarge action while the third opens the valve on the copper tank and aims its nozzle at the characters. During the second round of combat on the same initiative count as the duergar, the [duergar alchemist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar-alchemist-oota.md) from area 8 joins the fight. If the other duergar fall, the alchemist turns [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) and tries to escape.
 
-#### Fungi Pit
+##### Fungi Pit
 
 The pit is 5 feet deep and filled with various kinds of fungi. It is difficult terrain for Small and Medium creatures, and Tiny creatures have half cover while amid the fungi.
 
@@ -1138,19 +1127,19 @@ A crack in the east wall forms the mouth of a narrow tunnel that leads from the 
 
 The abundance of fungi in the thicket makes it easy to forage here. Among the common, inedible fungi are the following edible and exotic fungi, most of which are described in chapter 2:
 
-- `d6` barrelstalks  
+- `1d6` barrelstalks  
 - `3d6` bluecaps  
-- `d6` Nilhogg's noses  
+- `1d6` Nilhogg's noses  
 - `2d6` sheets of ripplebark  
-- `d6` timmasks  
-- `d6` torchstalks  
+- `1d6` timmasks  
+- `1d6` torchstalks  
 - `2d6` trillimacs  
 - `2d6` bigwigs (see "*Faerzress*-Suffused Fungi")  
 - `2d6` pygmyworts (see "*Faerzress*-Suffused Fungi")  
 
-A character proficient and equipped with a poisoner's kit can also collect `d6` doses of assassin's blood poison from the fungi pit (see ""Poisons"" in chapter 8 of the "Dungeon Master's Guide").
+A character proficient and equipped with a poisoner's kit can also collect `1d6` doses of assassin's blood poison from the fungi pit (see ""Poisons"" in chapter 8 of the "Dungeon Master's Guide").
 
-#### Sprinkler Tank
+##### Sprinkler Tank
 
 The copper tank is a sprinkler used by the duergar to fertilize the fungi in the pit. The copper pipe that extends from the tank is 10 feet long and can be turned so that its nozzle points in any direction. The nozzle is pointed toward the pit by default.
 
@@ -1158,17 +1147,17 @@ Any creature can use an action to open or close a valve on the tank, releasing a
 
 As an action or a bonus action, a creature can turn the pipe 90 degrees in any direction.
 
-#### Crates
+##### Crates
 
 The crates along the north wall are made of zurkhwood and stacked 5 feet high, and climbing on top of them costs 5 feet of movement. Most of the crates are empty, but four of them contain harvested, edible fungi. Each crate of fungi weighs 50 pounds, contains the equivalent of 20 days of rations, and can be sold in Gracklstugh or another Underdark settlement for 25 gp.
 
-#### Development
+##### Development
 
 If the characters keep any duergar alive for questioning, it takes a successful DC 16 Charisma ([Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)) check to gain an answer to a single question. The characters can ask only three questions total before the surviving duergar become incoherent and start frothing at the mouth—a form of madness brought on by demon-tainted *faerzress*. Any spell or effect that cures indefinite madness also restores a duergar's sanity (see ""Madness"" in chapter 8 of the "Dungeon Master's Guide").
 
 The duergar stationed here are tasked with protecting the fungi garden and helping the alchemist in his work. They use a trapdoor in area 8 to move between the Whorlstone Tunnels and the Darklake Docks in Gracklstugh. They have been ordered not to explore the rest of the Whorlstone Tunnels, though their leaders sometimes go farther into the tunnels on unknown business.
 
-### 8. Gray Alchemist
+#### 8. Gray Alchemist
 
 The Gray Ghosts have claimed this cave as both a safe house and a laboratory, where their alchemists can work in relative peace and isolation.
 
@@ -1187,20 +1176,20 @@ The room east of the door is empty except for an iron ladder that climbs 60 feet
 > 
 > A [duergar alchemist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar-alchemist-oota.md) carries two vials of acid and two flasks of alchemist's fire. It uses the normal [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md) stat block but replaces the Javelin attack option with the following attack options:
 > 
-> **Acid Vial.** *Ranged Weapon Attack*: +4 to hit, range 20 ft., one target. *Hit*: 7 (`2d6`) acid damage.
+> **Acid Vial.** *Ranged Weapon Attack*: `+4` to hit, range 20 ft., one target. *Hit*: 7 (`2d6`) acid damage.
 > 
-> **Alchemist's Fire.** *Ranged Weapon Attack*: +4 to hit, range 20 ft., one target. *Hit*: 2 (`d4`) fire damage at the start of each of the target's turns. A creature can end this damage by using its action to make a successful DC 10 Dexterity check to extinguish the flames.
+> **Alchemist's Fire.** *Ranged Weapon Attack*: `+4` to hit, range 20 ft., one target. *Hit*: 2 (`1d4`) fire damage at the start of each of the target's turns. A creature can end this damage by using its action to make a successful DC 10 Dexterity check to extinguish the flames.
 ^duergar-alchemist
 
-#### Development
+##### Development
 
 Sounds of combat here alert the duergar in area 7. They use their Enlarge actions before heading this way.
 
-#### Treasure
+##### Treasure
 
-If the characters spend 1 hour ransacking the lab, they can assemble two herbalism kits, one poisoner's kit, and ten healer's kits. In the (unlocked) zurkhwood chests, they find `d6` vials of acid, `d6` flasks of alchemist's fire, two [potions of healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-healing.md), one [potion of greater healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-greater-healing.md), one [potion of fire breath](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-fire-breath.md), and one [potion of psychic resistance](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-psychic-resistance.md).
+If the characters spend 1 hour ransacking the lab, they can assemble two herbalism kits, one poisoner's kit, and ten healer's kits. In the (unlocked) zurkhwood chests, they find `1d6` vials of acid, `1d6` flasks of alchemist's fire, two [potions of healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-healing.md), one [potion of greater healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-greater-healing.md), one [potion of fire breath](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-fire-breath.md), and one [potion of psychic resistance](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-psychic-resistance.md).
 
-Depending on whether or not [Droki](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/droki-oota.md) delivered his parcel and took his payment, the desk contains either a lump of black metal or a holy symbol of Laduguer made of mithral (see "Finding [Droki](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/droki-oota.md)"). The desk also holds alchemical recipes scrawled in Dwarvish on torn strips of parchment. A character who studies these scraps for an hour and succeeds on a DC 15 Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)) check can piece together the formulas for crafting vials of acid and flasks of alchemist's fire. The character can gather enough ingredients in the laboratory to craft `d4` of each. The character who knows the recipe and has the proper ingredients can craft a vial of acid or flask of alchemist's fire in 1 hour.
+Depending on whether or not [Droki](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/droki-oota.md) delivered his parcel and took his payment, the desk contains either a lump of black metal or a holy symbol of Laduguer made of mithral (see "Finding [Droki](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/droki-oota.md)"). The desk also holds alchemical recipes scrawled in Dwarvish on torn strips of parchment. A character who studies these scraps for an hour and succeeds on a DC 15 Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)) check can piece together the formulas for crafting vials of acid and flasks of alchemist's fire. The character can gather enough ingredients in the laboratory to craft `1d4` of each. The character who knows the recipe and has the proper ingredients can craft a vial of acid or flask of alchemist's fire in 1 hour.
 
 A character who searches the desk and succeeds on a DC 12 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check also finds a letter hidden in a secret compartment. The letter is written in Dwarvish on a patch of lizard hide:
 
@@ -1217,11 +1206,11 @@ If the characters capture Lorthio and question him about the letter, he reveals 
 - Gorglak is an avid collector of weird weapons.  
 - Gorglak is easily bribed.  
 
-#### XP Awards
+##### XP Awards
 
 Presenting Gorglak's letter to Captain Errde Blackskull earns each character 50 XP for retrieving evidence of corruption within the ranks of the Stone Guard.
 
-### 9. Fountain of Evil
+#### 9. Fountain of Evil
 
 Foul water from the Darklake spills into this cave, forming a pool. See the "Whorlstone Tunnels: General Features" sidebar for the effects of drinking foul water. The ceiling in this cave is 80 feet high.
 
@@ -1236,7 +1225,7 @@ The western path slopes upward to a maximum height of 60 feet above the pool's s
 
 If the characters follow [Droki](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/droki-oota.md) into this chamber, they see him sneaking carefully along the eastern path. They can attempt to follow him with a group Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)) check contested by the water weird's passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score. If more than half the characters fail the check, the water weird notices them and attacks. If the characters are attacked by the water weird while following [Droki](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/droki-oota.md), the wily derro realizes he's being shadowed and makes a run for it.
 
-### 10. Cultist Pens
+#### 10. Cultist Pens
 
 The insane derro cultists have been buying cave bears from Underdark hunters and smuggling them through Gracklstugh. For what purpose is anyone's guess.
 
@@ -1257,15 +1246,15 @@ The three cave bears (use the [polar bear](03.PlayerLog&Handouts/Mechanics/CLI/b
 
 A crack in the south wall leads to a narrow tunnel that wends toward area 12. Medium and larger creatures are too big to fit through this narrow tunnel (see the "Whorlstone Tunnels: General Features" sidebar).
 
-#### Spiral Path
+##### Spiral Path
 
 This path helps to channel the ritual magic the cultists use to tame the cave bears. Though the ritual is currently inactive, the area radiates a faint aura of enchantment under the scrutiny of a [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell.
 
-#### Treasure
+##### Treasure
 
 Inside the tent are two flea-ridden bedrolls, a zurkhwood bucket containing edible fungi (the equivalent of two days of rations), and a wineskin full of Darklake Stout.
 
-### 11. Quasit Playground
+#### 11. Quasit Playground
 
 Some of the cult's more powerful derro savants keep quasits as familiars, and the wee demons discovered this tunnel network. They use the tunnels as shortcuts to deliver messages across the areas of the Whorlstone Tunnels controlled by the cultists, or simply to hide from their duties. Shrinking down allows the characters to more easily navigate this area.
 
@@ -1278,15 +1267,15 @@ Four [quasits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/quasit.md) are
 
 When two quasits are reduced to 0 hit points, the two remaining ones turn [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) and flee. However, they make enough noise in doing so for the characters to follow them by sound. If any quasit escapes, the cultists in area 12 can't be [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised) and prepare an ambush.
 
-#### Development
+##### Development
 
 If the characters manage to capture and interrogate a quasit, the creature readily surrenders the name of [Narrak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/narrak-oota.md)—the [derro savant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/derro-savant-mpmm.md) leading the cultists in the Whorlstone Tunnels (see area 12). In exchange for its life, the quasit reveals that the cult plans to curse Gracklstugh's stone giants with madness as a means to sowing chaos in the city.
 
-#### XP Awards
+##### XP Awards
 
 Each character earns a special award of 50 XP if the party learns of [Narrak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/narrak-oota.md)'s plans from a quasit.
 
-### 12. Cultist Hideout
+#### 12. Cultist Hideout
 
 [Droki](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/droki-oota.md) enters this cavern from the east, via a narrow tunnel that comes up through a crack in the cavern floor (see the "Narrow Tunnels" section of the "Whorlstone Tunnels: General Features" sidebar).
 
@@ -1309,7 +1298,7 @@ When intruders appear, the cultists cease their chanting and take up positions a
 
 If any of the quasits escaped from area 11, they warn the cultists that intruders are near. Otherwise, the characters might catch the cultists by surprise. The quasits remain [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) and stay close to [Narrak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/narrak-oota.md).
 
-#### Fungi Patches
+##### Fungi Patches
 
 Fungi is rampant throughout this area, growing in large patches on the floors and walls.
 
@@ -1317,7 +1306,7 @@ Two thick fungi patches grow by each wall in the western tunnel. Clinging to the
 
 The crack in the floor by the east wall is surrounded by a thick fungus patch that is difficult terrain for Small and Medium characters, and provides half cover for Tiny creatures. Growing among the common fungi are `2d6` bigwigs and `2d6` pygmyworts.
 
-#### Platform
+##### Platform
 
 The cavern floor rises to form a natural 5-foot-high platform. A glowing ritual circle dominates the top of the platform. Any non-derro that enters or touches the circle must succeed on a DC 13 Wisdom saving throw or gain one level of madness (see "Madness" in chapter 2). Whether the save succeeds or fails, the creature can't be affected by the circle in this way again. In addition, non-evil creatures within the circle have disadvantage on attack rolls and saving throws.
 
@@ -1325,17 +1314,17 @@ The statue within the ritual circle is 2 feet tall, weighs 100 pounds, and looks
 
 A search of the platform uncovers a similar but broken statue near a locked iron chest and a pile of books (see "Treasure" for more information on the chest and books). The broken statue is similar to the statue in the circle, except it has the name "Rihuud" carved into its back and its second head is fully formed. If Rihuud is dead, the broken statue turns to dust when the characters touch it. If the characters spared Rihuud's life, a successful DC 12 Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana) or [Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)) check reveals that the second head is a conduit for the curse's magic, and that removing it and returning it to Stonespeaker Hgraam in Cairngorm Cavern will allow the elder giant to end Rihuud's curse.
 
-#### Trap
+##### Trap
 
-The tunnel west of this cavern contains a hidden pit (see ""Sample Traps"" in chapter 5 of the "Dungeon Master's Guide"). Debris conceals the lid, which is made of thin zurkhwood that breaks when a creature weighing 50 pounds or more steps on it. (A character of reduced size might not weigh enough to break the lid.) The pit is 10 feet deep, and its floor is covered by a patch of green slime (see ""Dungeon Hazards"" in chapter 5 of the "Dungeon Master's Guide"). Any creature that falls into the pit takes `d6` bludgeoning damage and automatically fails its Dexterity saving throw to avoid the slime.
+The tunnel west of this cavern contains a hidden pit (see ""Sample Traps"" in chapter 5 of the "Dungeon Master's Guide"). Debris conceals the lid, which is made of thin zurkhwood that breaks when a creature weighing 50 pounds or more steps on it. (A character of reduced size might not weigh enough to break the lid.) The pit is 10 feet deep, and its floor is covered by a patch of green slime (see ""Dungeon Hazards"" in chapter 5 of the "Dungeon Master's Guide"). Any creature that falls into the pit takes `1d6` bludgeoning damage and automatically fails its Dexterity saving throw to avoid the slime.
 
-#### Treasure
+##### Treasure
 
 If the characters return the broken statue (or, at the very least, its second head) to Stonespeaker Hgraam, he gives them an emerald worth 500 gp as a reward, as well as his promise to vouch for them in anything they seek to accomplish in Gracklstugh.
 
 [Narrak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/narrak-oota.md) has a key around his neck that opens the lock on the iron chest, which can also be picked with thieves' tools and a successful DC 17 Dexterity check. The chest contains a jar of [Keoghtom's ointment](03.PlayerLog&Handouts/Mechanics/CLI/items/keoghtoms-ointment.md) and a small leather bag containing 45 gp and 15 sp.
 
-The books have pages made from trillimac caps (see "Fungi of the Underdark" in chapter 2). They contain the mad scribblings of [Narrak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/narrak-oota.md) and his fellow derro savants. A character proficient in [Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana), [Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation), or [Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion) can spend 8 hours poring through them; subtract `d4` hours if the character reads Dwarvish. At the end of this time, the character knows that the books outline two rituals: one that causes a one-headed creature to sprout a second head, and another that allows the grafting of a severed head onto a living creature. The notes fail to mention that the ritual's caster must be suffering from some form of madness to perform either ritual successfully.
+The books have pages made from trillimac caps (see "Fungi of the Underdark" in chapter 2). They contain the mad scribblings of [Narrak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/narrak-oota.md) and his fellow derro savants. A character proficient in [Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana), [Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation), or [Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion) can spend 8 hours poring through them; subtract `1d4` hours if the character reads Dwarvish. At the end of this time, the character knows that the books outline two rituals: one that causes a one-headed creature to sprout a second head, and another that allows the grafting of a severed head onto a living creature. The notes fail to mention that the ritual's caster must be suffering from some form of madness to perform either ritual successfully.
 
 Tucked in one book are two scrolls: one that bears a list of six stone giant names (including Rihuud's and Dorhun's) and another that is actually a letter written in broken Dwarvish:
 
@@ -1346,13 +1335,13 @@ Tucked in one book are two scrolls: one that bears a list of six stone giant nam
 > —[Droki](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/droki-oota.md)
 ^1fa
 
-#### XP Awards
+##### XP Awards
 
 Award 100 XP to each character for discovering Demogorgon's influence on the cultists.
 
 The characters can complete a quest by turning over the books, scrolls, and letter to Errde Blackskull. Award 150 XP to each character when they deliver the items. If the characters ask Errde about [Narrak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/narrak-oota.md), she tells them that he was a junior member of the Council of Savants.
 
-### 13. Dumping Pit
+#### 13. Dumping Pit
 
 Victims of [Narrak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/narrak-oota.md)'s experiments are dumped here. Exposure to the *faerzress* has begun to animate the corpses.
 
@@ -1361,7 +1350,7 @@ Victims of [Narrak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/narrak-oota
 > This cavern is one enormous pit that reeks of death and decomposed flesh. The glow of *faerzress* is everywhere, seeming to flow like fog around dark shapes shambling across the pit floor. A single derro watches from atop a 15-foot-high ledge. A crack in the southeast wall of the pit leads to a narrow tunnel and is flanked by mounds of fungi and offal.
 ^1fd
 
-The pit is 15 feet deep, and the ledge that overlooks it is lined with pointy bits of scrap metal to make any climbing attempt perilous. A creature trying to reach the top of the ledge must succeed on a DC 12 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. On a failed check, a creature takes 3 (`d6`) slashing damage and remains in the pit. The pit's floor is difficult terrain due to the many corpses and body parts strewn around.
+The pit is 15 feet deep, and the ledge that overlooks it is lined with pointy bits of scrap metal to make any climbing attempt perilous. A creature trying to reach the top of the ledge must succeed on a DC 12 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check. On a failed check, a creature takes 3 (`1d6`) slashing damage and remains in the pit. The pit's floor is difficult terrain due to the many corpses and body parts strewn around.
 
 A single [derro](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/derro-mpmm.md) stands on the ledge overlooking the pit, which contains seven shambling [zombies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md)—three duergar and four grimlocks. The grimlock zombies are drawn to noise, while the duergar zombies attack any living creatures they see in the pit. Meanwhile, the derro uses its crossbow to take shots at any living creatures it sees.
 
@@ -1369,17 +1358,17 @@ A [crawling claw](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/crawling-c
 
 The crack in the southeast wall between the mounds leads to a narrow, meandering tunnel, the floor of which is sunk below a foot of foul water. See the "Whorlstone Tunnels: General Features" sidebar for rules on narrow tunnels and foul water.
 
-#### Treasure
+##### Treasure
 
 *Faerzress* has transformed Pelek's obsidian ring into a single-use magic item. When a living creature puts it on, the ring disappears, and the creature's skin becomes as hard as obsidian for the next hour. For as long as the effect lasts, the creature gains the benefit of a [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md) spell.
 
-#### Development
+##### Development
 
 If the characters capture and interrogate the derro, he talks willingly if they agree to spare him. He knows as much as the quasits in area 11.
 
 Killing the crawling claw and burying its remains in Blingdenstone lays Pelek's spirit to rest (see area 1b).
 
-### 14. Obelisk
+#### 14. Obelisk
 
 The Gray Ghosts believe that the mysterious obelisk in this cavern is an important source of magical power, and they are intent on rebuilding it. The obelisk was broken long ago. However, shards of the obelisk that appear throughout the Underdark are magically absorbed into it as soon as they touch its metal surface. The leaders of the Gray Ghosts are obsessed with finding missing shards and completing this monolith, but not even they know what will happen when the obelisk is made whole again.
 
@@ -1398,7 +1387,7 @@ The different levels of the mesa are separated by 10-foot-high cliffs. Climbing 
 
 Pliinki shouts crass obscenities at the characters in a raspy voice while commanding the spectator to dispose of them. Both she and the spectator fight to the death.
 
-#### Obelisk
+##### Obelisk
 
 Made from a black metal of alien origin, this monolith is perfectly smooth except for the cracks and chipped-off edges where it was splintered by some unknown force. The obelisk is 15 feet per side at its base, stands 50 feet tall, and tapers slowly to a pyramidal cap.
 
@@ -1408,27 +1397,27 @@ The character who expended the spell slot knows the teleport effect can be repea
 
 If the characters took the lump of metal from [Droki](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/droki-oota.md) or the Gray Ghosts, they notice the obelisk is made from the same material. If the lump is touched to the obelisk, it is instantly absorbed, repairing a crack on its surface.
 
-#### Red Dragon Egg
+##### Red Dragon Egg
 
 The egg atop the northeast mesa is an unhatched dragon egg that the Gray Ghosts stole from the Keepers of the Flame. The 4-foot-tall, 3-foot-diameter egg weighs 180 pounds, and without fire to keep it warm, the egg can't hatch. If and when the egg does hatch, a [red dragon wyrmling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/red-dragon-wyrmling.md) emerges and bonds with the first creature it sees.
 
-#### Treasure
+##### Treasure
 
 The [derro savant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/derro-savant-mpmm.md) carries a single gold coin, a stick of charcoal, and a battered notebook with pages made from trillimac (see "Fungi of the Underdark" in chapter 2). The coin is a shilmaer, an ancient gold coin traded among surface elves. The notebook contains Dwarvish writing, specifically a long list of random items, mostly coins and jewelry. There are no dates, but some entries appear in different handwriting. The last entry describes the "miraculous" appearance of the gold coin.
 
-#### Development
+##### Development
 
 If the characters capture and interrogate Pliinki, she laughs at their folly as she tells them that the Whorlstone Tunnels are nowhere near the surface. She believes the obelisk was hidden here by Diirinka, the derro god, and that it contains "unimaginable power." Pliinki and her fellow savants hope to harness the obelisk's power and use it to conquer Gracklstugh.
 
 If the characters take the dragon egg to [Themberchaud](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/themberchaud-oota.md), he destroys it and rewards the party with a magical potion or oil plucked from his hoard. If the characters return the egg to the Keepers of the Flame, Gartokkar Xundorn promises them safe passage through Gracklstugh if they mention nothing about the egg to [Themberchaud](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/themberchaud-oota.md).
 
-#### XP Awards
+##### XP Awards
 
 Taking the coin and the notebook to Ylsa Henstak in the Blade Bazaar fulfills her quest and earns the characters 100 XP each.
 
 If the characters describe the obelisk to Gartokkar Xundorn, he assumes that is what the Gray Ghosts are using to wreak havoc in Gauntlgrym and dispatches a force to study it. Each character earns 100 XP for completing the task set for them by the Keepers. Award each character an additional 150 XP if the party delivers the red dragon egg to either the Keepers or to [Themberchaud](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/themberchaud-oota.md).
 
-### 14a. Fungi-Covered Doors
+#### 14a. Fungi-Covered Doors
 
 A set of double doors are hidden by a patch of fungi that includes `2d6` bigwigs and `2d6` pygmyworts. Characters west of the doors must succeed on a DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check to notice the doors behind the fungi. The doors are fashioned from planks of zurkhwood and barred from the east side. A successful DC 20 Strength check allows a character to break through the doors, but this alerts the [derro savant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/derro-savant-mpmm.md) and the spectator in area 14.
 
@@ -1477,7 +1466,7 @@ If the characters attack the Deepking, use the [knight](03.PlayerLog&Handouts/Me
 - While in sunlight, he has disadvantage on attack rolls, as well as on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) checks that rely on sight.  
 - He has the Enlarge and Invisibility action options of a [duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md) (see the *Monster Manual*).  
 - He wears [gauntlets of ogre power](03.PlayerLog&Handouts/Mechanics/CLI/items/gauntlets-of-ogre-power.md), giving him a Strength score of 19 (+4).  
-- He wields a [+2 warhammer](03.PlayerLog&Handouts/Mechanics/CLI/items/2-weapon.md) instead of a greatsword: +8 to hit, reach 5 ft., one target. *Hit*: 10 (`1d8 + 6`) bludgeoning damage, or 11 (`1d10 + 6`) bludgeoning damage if used with two hands. While Horgar is enlarged, the damage increases to 15 (`2d8 + 6`) or 17 (`2d10 + 6`) bludgeoning damage, respectively.  
+- He wields a [+2 warhammer](03.PlayerLog&Handouts/Mechanics/CLI/items/2-weapon.md) instead of a greatsword: `+8` to hit, reach 5 ft., one target. *Hit*: 10 (`1d8 + 6`) bludgeoning damage, or 11 (`1d10 + 6`) bludgeoning damage if used with two hands. While Horgar is enlarged, the damage increases to 15 (`2d8 + 6`) or 17 (`2d10 + 6`) bludgeoning damage, respectively.  
 
 The Deepking's royal consort is a [succubus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/succubus.md) in the guise of Shal, a female duergar. The succubus is a loyal servant of the demon lord Graz'zt (see appendix D). Her only task is to make sure no one tries to rid Horgar of his madness. The gown she wears was a gift from Horgar. It weighs 75 pounds and is worth 750 gp.
 

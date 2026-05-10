@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Young Topaz Dragon
+- "Young Topaz Dragon"
 ---
-# [Young Topaz Dragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/young-topaz-dragon-ftd.md)
+# [Young Topaz Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-topaz-dragon-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 223*  
 
 Decay and despair are bound up in the nature of topaz dragons, thanks to the necrotic energy of the Negative Plane that suffuses them. Their psionic power manifests the fundamental entropic principle that mortal beings and their creations are ultimately doomed to death and decomposition, and the dragons' demeanor is typically morbid and curmudgeonly as a result.
@@ -38,8 +39,6 @@ Use the Topaz Dragon Personality Traits and Topaz Dragon Ideals tables to inspir
 
 ### Topaz Dragon Personality Traits
 
-`dice: [](young-topaz-dragon-ftd.md#^trait)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | I seek no company other than my own, for no one else can compete with me. |
@@ -53,8 +52,6 @@ Use the Topaz Dragon Personality Traits and Topaz Dragon Ideals tables to inspir
 ^trait
 
 ### Topaz Dragon Ideals
-
-`dice: [](young-topaz-dragon-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -71,8 +68,6 @@ Use the Topaz Dragon Personality Traits and Topaz Dragon Ideals tables to inspir
 The Topaz Dragon Adventure Hooks table offers suggestions for stories and adventures involving topaz dragons.
 
 ### Topaz Dragon Adventure Hooks
-
-`dice: [](young-topaz-dragon-ftd.md#^adventure-hook)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|
@@ -91,8 +86,6 @@ The Topaz Dragon Adventure Hooks table offers suggestions for stories and advent
 Topaz dragons rarely tolerate any company but their own, and they are usually indifferent at best even toward their own kind. Moreover, their unpredictability means that even if a creature proves itself useful to a topaz dragon, it shouldn't count on being safe from the dragon the next time they meet. Topaz dragons rarely go out of their way to fight other creatures, however, with the exception of bronze dragons, for whom they bear an inexplicably intense hatred.
 
 ### Young Topaz Dragon Connections
-
-`dice: [](young-topaz-dragon-ftd.md#^connected-creatures)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|
@@ -124,10 +117,10 @@ Topaz dragons rarely tolerate any company but their own, and they are usually in
   - !!int "16"
 "speed": "40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  - "dexterity": "+4"
-  - "constitution": "+5"
-  - "wisdom": "+5"
-  - "charisma": "+6"
+  - "dexterity": !!int "4"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "5"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+9"
@@ -136,7 +129,9 @@ Topaz dragons rarely tolerate any company but their own, and they are usually in
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+4"
 "damage_resistances": "cold, necrotic"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 18"
 "languages": "Common, Draconic, telepathy 120 ft."
 "cr": "7"
 "traits":
@@ -145,10 +140,10 @@ Topaz dragons rarely tolerate any company but their own, and they are usually in
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
-      \ 14 (2d10 + 3) piercing damage plus 3 (d6) necrotic damage."
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:*\
+      \ 14 (2d10 + 3) piercing damage plus 3 (1d6) necrotic damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales yellowish necrotic energy in a 30-foot cone. Each\
@@ -161,7 +156,7 @@ Topaz dragons rarely tolerate any company but their own, and they are usually in
     "name": "Desiccating Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 14):\n\n\
-      1/day each: [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md),\
+      **1/day each:** [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md),\
       \ [create or destroy water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-or-destroy-water.md)"
     "name": "Spellcasting (Psionics)"
 "source":

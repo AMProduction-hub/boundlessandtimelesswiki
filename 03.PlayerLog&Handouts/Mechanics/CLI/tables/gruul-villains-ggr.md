@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 aliases:
-- Gruul Villains
+- "Gruul Villains"
 ---
 # Gruul Villains
 *Source: Guildmasters' Guide to Ravnica p. 141* 
 
 **Gruul Villains**
-
-`dice: [](gruul-villains-ggr.md#^gruul-villains)`
 
 | dice: d8 | Villain |
 |----------|---------|

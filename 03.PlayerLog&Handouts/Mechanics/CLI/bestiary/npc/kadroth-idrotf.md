@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/idrotf
 - ttrpg-cli/monster/cr/2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Kadroth
+- "Kadroth"
 ---
-# [Kadroth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/kadroth-idrotf.md)
+# [Kadroth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/kadroth-idrotf.md)
 *Source: Icewind Dale: Rime of the Frostmaiden p. 42*  
 
 From this usurped office, he coordinates all cult activities in Ten-Towns. It's a role he carved out for himself by asserting that he's tight with Levistus. He rules the roost by sheer force of personality, though it chafes him that Hethyl Arkorran has more respect and influence within the cult. Kadroth doesn't involve Avarice in cult affairs because he fears her spellcasting ability and her connection to the Arcane Brotherhood. She could take over the cult anytime she wanted, and Kadroth doesn't want to give her any reason to do so.
@@ -47,23 +48,22 @@ Kadroth appreciates the wisdom of maintaining the illusion that Speaker Crannoc 
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+2"
 "damage_resistances": "fire"
-"senses": "darkvision 60 ft., passive Perception 11"
+"gear":
+  - "[dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": "any one language (usually Common), Infernal"
 "cr": "2"
 "traits":
-  - "desc": "Kadroth\n\nAt will: [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
-      \ [hellish rebuke](03.PlayerLog&Handouts/Mechanics/CLI/spells/hellish-rebuke.md)"
-    "name": "Innate Spellcasting"
   - "desc": "Kadroth is a 4th-level spellcaster. Its spellcasting ability is Wisdom\
       \ (spell save DC 11, +3 to hit with spell attacks). Kadroth has the following\
-      \ cleric spells prepared:\n\nCantrips (at will): [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
+      \ cleric spells prepared:\n\n**Cantrips (at will):** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1st level (4 slots): [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \n**1st level (4 slots):** [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
       \ [inflict wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/inflict-wounds.md),\
       \ [shield of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield-of-faith.md)\n\
-      \n2nd level (3 slots): [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
+      \n**2nd level (3 slots):** [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md)"
     "name": "Spellcasting"
   - "desc": "Kadroth has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
@@ -72,8 +72,8 @@ Kadroth appreciates the wisdom of maintaining the illusion that Speaker Crannoc 
 "actions":
   - "desc": "Kadroth makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-      \ ft., one creature. Hit: 4 (1d4 + 2) piercing damage."
+  - "desc": "*Melee  or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one creature. *Hit:* 4 (1d4 + 2) piercing damage."
     "name": "Dagger"
 "source":
   - "IDRotF"

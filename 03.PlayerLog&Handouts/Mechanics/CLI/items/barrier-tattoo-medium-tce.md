@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/rare
 - ttrpg-cli/item/wondrous/tattoo
-aliases: 
+aliases:
 - "Barrier Tattoo (Medium)"
 ---
 # Barrier Tattoo (Medium)

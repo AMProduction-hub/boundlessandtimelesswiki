@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/deity/nonhuman
 - ttrpg-cli/domain/life
 - ttrpg-cli/domain/war
-aliases: 
-- Bahamut
+aliases:
+- "Bahamut"
 ---
 # Bahamut
 *Source: Player's Handbook p. 296* 

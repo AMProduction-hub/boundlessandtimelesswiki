@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/vd
 - ttrpg-cli/monster/cr/26
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vecna the Archlich
+- "Vecna the Archlich"
 ---
-# [Vecna the Archlich](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/vecna-the-archlich-vd.md)
+# [Vecna the Archlich](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/vecna-the-archlich-vd.md)
 *Source: Vecna Dossier*  
 
 On countless worlds, his name evokes tales of terror and cruelty. Vecna the Undying King. Vecna the Whispered One. Vecna the Lord of the Rotted Tower. Over more than a hundred thousand years, incandescent hatred carried him from the humblest of origins to a conqueror's throne, then to the realms that lie beyond life and death, and finally to godhood. Many have suffered his terrible wrath, but few can recount how a lowly scribe left an aeon-deep scar on the multiverse before ascending beyond the material altogether. Only a few fragments of Vecna's story have ever been unearthed.
@@ -55,9 +56,9 @@ The accompanying stat block depicts Vecna in his archlich form prior to Kas's be
   - !!int "16"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+12"
-  - "intelligence": "+14"
-  - "wisdom": "+15"
+  - "constitution": !!int "12"
+  - "intelligence": !!int "14"
+  - "wisdom": !!int "15"
 "skillsaves":
   - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
     "desc": "+22"
@@ -75,7 +76,8 @@ The accompanying stat block depicts Vecna in his archlich form prior to Kas's be
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "truesight 120 ft., passive Perception 25"
+"senses": "[truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)\
+  \ 120 ft., passive Perception 25"
 "languages": "Common, Draconic, Elvish, Infernal"
 "cr": "26"
 "traits":
@@ -85,7 +87,7 @@ The accompanying stat block depicts Vecna in his archlich form prior to Kas's be
       \ other than Vecna, Afterthought is a [+2 dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/2-weapon.md)."
     "name": "Special Equipment"
   - "desc": "If Vecna is slain, his soul refuses to accept its fate and lives on as\
-      \ a disembodied spirit that fashions a new body for itself after d100 years.\
+      \ a disembodied spirit that fashions a new body for itself after 1d100 years.\
       \ Vecna's soul can fashion a new body even if its old body was burned to ash\
       \ or otherwise obliterated. When the new body is complete, Vecna regains all\
       \ his hit points and becomes active again. Vecna's new body appears anywhere\
@@ -95,9 +97,9 @@ The accompanying stat block depicts Vecna in his archlich form prior to Kas's be
     "name": "Unusual Nature"
 "actions":
   - "desc": "Vecna uses Flight of the Damned (if available), Rotten Fate, or Spellcasting.\
-      \ He then makes two attacks with Afterthought."
+      \ He then makes two attacks with *Afterthought*."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:*\
       \ 7 (1d4 + 5) piercing damage, plus 9 (2d8) necrotic damage. If the target\
       \ is a creature, it is afflicted by entropic magic, taking 9 (2d8) necrotic\
       \ damage at the start of each of its turns. Immediately after taking this damage\
@@ -125,15 +127,15 @@ The accompanying stat block depicts Vecna in his archlich form prior to Kas's be
     "name": "Rotten Fate"
   - "desc": "Vecna casts one of the following spells, requiring no material components\
       \ and using Intelligence as the spellcasting ability (spell save DC 22):\n\n\
-      At will: [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md)\
+      **At will:** [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md)\
       \ (as an action), [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md),\
       \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-      \n2/day each: [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
+      \n**2/day each:** [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
       \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md) (as an action)\n\
-      \n1/day each: [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
+      \n**1/day each:** [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
       \ [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md),\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md) (self\
       \ only)"
@@ -145,8 +147,6 @@ The accompanying stat block depicts Vecna in his archlich form prior to Kas's be
       \ damage. If at least one creature takes this damage, Vecna regains 80 hit points."
     "name": "Vile Teleport"
 "reactions":
-  - "desc": "Vecna can take up to three reactions per round but only one per turn."
-    "name": ""
   - "desc": "Vecna utters a dread word to interrupt a creature he can see that is\
       \ casting a spell. If the spell is 4th level or lower, it fails and has no effect.\
       \ If the spell is 5th level or higher, Vecna makes an Intelligence check (DC\

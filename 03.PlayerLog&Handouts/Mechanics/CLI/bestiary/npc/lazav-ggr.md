@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/17
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lazav
+- "Lazav"
 ---
-# [Lazav](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/lazav-ggr.md)
+# [Lazav](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lazav-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 232*  
 
 Lazav is uniquely qualified to be the Dimir guildmaster: he is a shapechanger whose mysterious genius is informed by agents from the entire Dimir network. He takes on a tremendous variety of guises as his needs and plans require. He might step out into the Ravnican streets as an elderly widow to eavesdrop at the bazaar, become a vedalken hussar of the Azorius Senate to sidestep a checkpoint, or transform into a Tin Street merchant to deceive a passing noble. His true form might be that of a doppelganger or some other creature; no one has ever seen it.
@@ -36,10 +37,10 @@ Lazav is uniquely qualified to be the Dimir guildmaster: he is a shapechanger wh
   - !!int "22"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+13"
-  - "intelligence": "+12"
-  - "wisdom": "+11"
-  - "charisma": "+12"
+  - "dexterity": !!int "13"
+  - "intelligence": !!int "12"
+  - "wisdom": !!int "11"
+  - "charisma": !!int "12"
 "skillsaves":
   - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
     "desc": "+18"
@@ -54,20 +55,23 @@ Lazav is uniquely qualified to be the Dimir guildmaster: he is a shapechanger wh
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 120 ft., passive Perception 21"
+"gear":
+  - "[shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 21"
 "languages": "Common, Thieves' cant"
 "cr": "17"
 "traits":
   - "desc": "Lazav's innate spellcasting ability is Intelligence (spell save DC 20).\
       \ He can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \n**At will:** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [encode thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/encode-thoughts-ggr.md)\
       \ (see chapter 2), [freedom of movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md),\
       \ [vicious mockery](03.PlayerLog&Handouts/Mechanics/CLI/spells/vicious-mockery.md)\
-      \ (4d4 psychic damage)\n\n3/day each: [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md),\
+      \ (4d4 psychic damage)\n\n**3/day each:** [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md),\
       \ [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md), [mirror\
-      \ image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md)\n\n1/day\
-      \ each: [modify memory](03.PlayerLog&Handouts/Mechanics/CLI/spells/modify-memory.md),\
+      \ image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md)\n\n**1/day\
+      \ each:** [modify memory](03.PlayerLog&Handouts/Mechanics/CLI/spells/modify-memory.md),\
       \ [Rary's telepathic bond](03.PlayerLog&Handouts/Mechanics/CLI/spells/rarys-telepathic-bond.md)"
     "name": "Innate Spellcasting"
   - "desc": "No attack roll has advantage against Lazav unless he is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
@@ -86,10 +90,13 @@ Lazav is uniquely qualified to be the Dimir guildmaster: he is a shapechanger wh
 "actions":
   - "desc": "Lazav makes three shortsword attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:*\
       \ 10 (1d6 + 7) piercing damage plus 10 (3d6) psychic damage, and the target\
       \ has disadvantage on the next attack roll it makes before Lazav's next turn."
     "name": "Shortsword"
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, Lazav can expend a use to take one of the following actions. Lazav regains\
+  \ all expended uses at the start of each of their turns."
 "legendary_actions":
   - "desc": "Lazav makes a weapon attack."
     "name": "Attack"

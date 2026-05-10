@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/knowledge
 - ttrpg-cli/domain/life
 - ttrpg-cli/domain/twilight
-aliases: 
-- Selûne
-- Our Lady of Silver
-- The Moonmaiden
-- The Night White Lady
+aliases:
+- "Selûne"
+- "Our Lady of Silver"
+- "The Moonmaiden"
+- "The Night White Lady"
 ---
 # Selûne
 *Source: Sword Coast Adventurer's Guide p. 21, Tasha's Cauldron of Everything p. 34* 

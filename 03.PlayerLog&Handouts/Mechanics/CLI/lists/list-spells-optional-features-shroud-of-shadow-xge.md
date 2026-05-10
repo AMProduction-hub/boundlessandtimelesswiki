@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/optfeature/shroud-of-shadow
 aliases:
-- Spells for Shroud of Shadow
+- "Spells for Shroud of Shadow"
 ---
 # Spells for Shroud of Shadow
 

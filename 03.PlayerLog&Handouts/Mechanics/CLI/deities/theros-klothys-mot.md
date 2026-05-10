@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/deity/theros
 - ttrpg-cli/domain/knowledge
 - ttrpg-cli/domain/war
-aliases: 
-- Klothys
+aliases:
+- "Klothys"
 ---
 # Klothys
 *Source: Mythic Odysseys of Theros p. 58* 
@@ -89,8 +90,6 @@ Klothys hasn't had a mortal champion before. Upon emerging from the Underworld, 
 
 **Klothys's Favor**
 
-`dice: [](theros-klothys-mot.md#^klothyss-favor)`
-
 | dice: d6 | Circumstance |
 |----------|--------------|
 | 1 | Your family suffered during the rise of Xenagos, leaving you with unresolved rage. |
@@ -106,8 +105,6 @@ Klothys hasn't had a mortal champion before. Upon emerging from the Underworld, 
 To follow Klothys is to accept the natural order of the cosmos and your place in it. It means accepting your destiny even as you strive against the bonds of fate. As a follower of Klothys, consider the ideals on the Klothys's Ideals table as alternatives to those suggested for your background.
 
 **Klothys's Ideals**
-
-`dice: [](theros-klothys-mot.md#^klothyss-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

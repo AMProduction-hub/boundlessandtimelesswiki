@@ -1,15 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/dsotdq
 - ttrpg-cli/deity/dragonlance
-aliases: 
-- Morgion
+aliases:
+- "Morgion"
 ---
 # Morgion
 *Source: Dragonlance: Shadow of the Dragon Queen p. 18* 
-![Symbols Left to Right: Mor...](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/dsotdq-017-00-040-o-evil-trio.webp#symbol "Symbols Left to Right: Morgion, Nuitari, and Sargonnas")
+![Symbols Left to Right: Morgion, Nuitari, and Sargonnas](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/dsotdq-017-00-040-o-evil-trio.webp#symbol)
 
 - **Alignment**: Neutral Evil
 - **Category**: Evil

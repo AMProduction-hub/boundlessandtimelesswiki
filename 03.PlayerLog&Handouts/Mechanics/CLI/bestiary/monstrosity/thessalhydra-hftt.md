@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/hftt
 - ttrpg-cli/monster/cr/4
@@ -9,10 +10,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Thessalhydra
+- "Thessalhydra"
 ---
-# [Thessalhydra](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/thessalhydra-hftt.md)
-*Source: Hunt for the Thessalhydra p. 41, Infernal Machine Rebuild*  
+# [Thessalhydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/thessalhydra-hftt.md)
+*Source: Hunt for the Thessalhydra p. 41*  
 
 The thessalhydra is a strange and terrible creature with eight heads surrounding a large, circular mouth rimmed with jagged teeth. Its maw drips with acid, and its tail ends with a pair of sharp pincers. The thessalhydra is gluttonous and damaging to any environment.
 
@@ -42,19 +43,20 @@ The thessalhydra is a strange and terrible creature with eight heads surrounding
   \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
   \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
   \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
-"senses": "darkvision 60 ft., passive Perception 14"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 14"
 "languages": ""
 "cr": "4"
 "actions":
   - "desc": "The thessalhydra makes one maw attack and one Flurry of Bites."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 7 (1d6 + 4) piercing damage plus 10 (4d4) poison damage."
     "name": "Flurry of Bites"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9\
-      \ (1d10 + 4) piercing damage plus 5 (d10) acid damage."
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 9\
+      \ (1d10 + 4) piercing damage plus 5 (1d10) acid damage."
     "name": "Maw"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:*\
       \ 10 (1d12 + 4) slashing damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled).\
       \ As an action, the target can escape the grapple by succeeding on a DC 14 Strength\
       \ ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics))\
@@ -67,6 +69,9 @@ The thessalhydra is a strange and terrible creature with eight heads surrounding
       \ saving throw, taking 18 (4d8) acid damage on a failed save, or half as much\
       \ damage on a successful one."
     "name": "Acid Saliva (Recharge 5-6)"
+"legendary_description": "Legendary Action Uses: 2. Immediately after another creature's\
+  \ turn, the thessalhydra can expend a use to take one of the following actions.\
+  \ The thessalhydra regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The thessalhydra makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
       \ check with advantage."
@@ -75,7 +80,6 @@ The thessalhydra is a strange and terrible creature with eight heads surrounding
     "name": "Tail Swipe"
 "source":
   - "HftT"
-  - "IMR"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/thessalhydra-hftt.webp"
 ```
 ^statblock

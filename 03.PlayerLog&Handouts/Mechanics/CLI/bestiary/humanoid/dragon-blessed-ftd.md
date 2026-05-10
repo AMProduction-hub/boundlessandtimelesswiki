@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Dragon Blessed
+- "Dragon Blessed"
 ---
-# [Dragon Blessed](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/dragon-blessed-ftd.md)
+# [Dragon Blessed](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/dragon-blessed-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 188*  
 
 Dragon blessed are the acolytes of dragons, whom they revere as gods. They wield magic to heal and support those who have earned their dragon masters' favor—and scourge those who incur the dragons' wrath. Dragon blessed view their lives and magical abilities as gifts bestowed by their dragon, and they give life energy to save those they deem important to their masters' work.
@@ -41,30 +42,32 @@ Dragon followers might serve and revere any kind of dragon, and their behavior a
   - !!int "10"
 "speed": "30 ft."
 "saves":
-  - "constitution": "+6"
-  - "wisdom": "+6"
+  - "constitution": !!int "6"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)"
     "desc": "+6"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+5"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
+"gear":
+  - "[mace](03.PlayerLog&Handouts/Mechanics/CLI/items/mace.md)"
 "senses": "passive Perception 13"
 "languages": "Common, Draconic, and any two languages"
 "cr": "5"
 "actions":
   - "desc": "The blessed makes two Mace or Radiant Bolt attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) bludgeoning damage plus 18 (4d8) radiant damage."
     "name": "Mace"
-  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one target. Hit:\
-      \ 22 (5d8) radiant damage, and the blessed regains 5 (d10) hit points."
+  - "desc": "*Ranged Spell Attack:* +6 to hit, range 120 ft., one target. *Hit:*\
+      \ 22 (5d8) radiant damage, and the blessed regains 5 (1d10) hit points."
     "name": "Radiant Bolt"
   - "desc": "The blessed casts one of the following spells, using Wisdom as the spellcasting\
-      \ ability (spell save DC 14):\n\nAt will: [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
+      \ ability (spell save DC 14):\n\n**At will:** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-      \n1/day each: [enhance ability](03.PlayerLog&Handouts/Mechanics/CLI/spells/enhance-ability.md),\
+      \n**1/day each:** [enhance ability](03.PlayerLog&Handouts/Mechanics/CLI/spells/enhance-ability.md),\
       \ [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md),\
       \ [mass cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-cure-wounds.md),\
       \ [revivify](03.PlayerLog&Handouts/Mechanics/CLI/spells/revivify.md), [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)"

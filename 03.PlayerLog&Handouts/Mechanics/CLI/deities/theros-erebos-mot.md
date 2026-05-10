@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/deity/theros
 - ttrpg-cli/domain/death
 - ttrpg-cli/domain/trickery
-aliases: 
-- Erebos
+aliases:
+- "Erebos"
 ---
 # Erebos
 *Source: Mythic Odysseys of Theros p. 43* 
@@ -95,8 +96,6 @@ As Erebos sees it, he already owns the soul of every living being. For him to be
 
 **Erebos's Favor**
 
-`dice: [](theros-erebos-mot.md#^ereboss-favor)`
-
 | dice: d6 | Circumstance |
 |----------|--------------|
 | 1 | You follow Erebos seeking financial success, expecting service to translate into rewards. |
@@ -112,8 +111,6 @@ As Erebos sees it, he already owns the soul of every living being. For him to be
 Just as every life ends at the same destination, many different paths can lead a worshiper to Erebos. As a follower of Erebos, consider the ideals on the Erebos's Ideals table as alternatives to those suggested for your background.
 
 **Erebos's Ideals**
-
-`dice: [](theros-erebos-mot.md#^ereboss-ideals)`
 
 | dice: d6 | Ideal |
 |----------|-------|

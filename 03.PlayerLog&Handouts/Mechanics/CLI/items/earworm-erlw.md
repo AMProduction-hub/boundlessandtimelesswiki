@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 - ttrpg-cli/item/attunement/required
 - ttrpg-cli/item/rarity/uncommon
-aliases: 
+aliases:
 - "Earworm"
 ---
 # Earworm
@@ -19,7 +20,7 @@ To attune to this symbiont, you must hold it against the skin behind your ear fo
 
 The earworm has 4 charges. You can cast the following spells from it, expending the necessary number of charges (spell save DC 15): [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md) (2 charges) or [dissonant whispers](03.PlayerLog&Handouts/Mechanics/CLI/spells/dissonant-whispers.md) (1 charge). Each time you use the earworm to cast the [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md) spell, it sends the information gleaned to the nearest daelkyr, or to the next nearest earworm until it reaches a daelkyr.
 
-The earworm regains `d4` expended charges daily at dawn.
+The earworm regains `1d4` expended charges daily at dawn.
 
 ## Symbiotic Nature
 

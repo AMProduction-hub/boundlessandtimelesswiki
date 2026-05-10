@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- Appendix A: Random Dungeons
+- "Appendix A: Random Dungeons"
 ---
 # Appendix A: Random Dungeons
 *Source: Dungeon Master's Guide (2014), p. 290* 

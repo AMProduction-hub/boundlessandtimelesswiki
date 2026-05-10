@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/5
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Unicorn
+- "Unicorn"
 ---
-# [Unicorn](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/unicorn.md)
-*Source: Monster Manual p. 294, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Mythic Odysseys of Theros, Tasha's Cauldron of Everything, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Unicorn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/unicorn.md)
+*Source: Monster Manual p. 294. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Unicorns dwell in enchanted forests. Unrelated to the horses it resembles, a unicorn is a celestial creature that wanders sylvan realms, its white form glimmering like starlight.
 
@@ -74,16 +75,17 @@ A unicorn's lair might be an ancient ruin overgrown with vines, a misty clearing
 "condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
   \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Celestial, Elvish, Sylvan, telepathy 60 ft."
 "cr": "5"
 "traits":
   - "desc": "The unicorn's innate spellcasting ability is Charisma (spell save DC\
       \ 14). The unicorn can innately cast the following spells, requiring no components:\n\
-      \nAt will: [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
+      \n**At will:** [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
       \ [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md), [pass\
       \ without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md)\n\
-      \n1/day each: [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
+      \n**1/day each:** [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
       \ [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md),\
       \ [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md)"
     "name": "Innate Spellcasting"
@@ -100,10 +102,10 @@ A unicorn's lair might be an ancient ruin overgrown with vines, a misty clearing
 "actions":
   - "desc": "The unicorn makes two attacks: one with its hooves and one with its horn."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11\
       \ (2d6 + 4) bludgeoning damage."
     "name": "Hooves"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d8 + 4) piercing damage."
     "name": "Horn"
   - "desc": "The unicorn touches another creature with its horn. The target magically\
@@ -114,6 +116,22 @@ A unicorn's lair might be an ancient ruin overgrown with vines, a misty clearing
       \ it can see within 5 feet of it, along with any equipment they are wearing\
       \ or carrying, to a location the unicorn is familiar with, up to 1 mile away."
     "name": "Teleport (1/Day)"
+"regional_effects":
+  - "desc": "Transformed by the creature's celestial presence, the domain of a unicorn\
+      \ might include any of the following magical effects:\n\n- Open flames of a\
+      \ non magical nature are extinguished within the unicorn's domain. Torches and\
+      \ campfires refuse to burn, but closed lanterns are unaffected.  \n- Creatures\
+      \ native to the unicorn's domain have an easier time hiding; they have advantage\
+      \ on all Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
+      \ checks made to hide.  \n- When a good-aligned creature casts a spell or uses\
+      \ a magical effect that causes another good-aligned creature to regain hit points,\
+      \ the target regains the maximum number of hit points possible for the spell\
+      \ or effect.  \n- Curses affecting any good-aligned creature are suppressed.\
+      \  \n\nIf the unicorn dies, these effects end immediately."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the unicorn can expend a use to take one of the following actions. The unicorn\
+  \ regains all expended uses at the start of each of its turns."
 "legendary_actions":
   - "desc": "The unicorn makes one attack with its hooves."
     "name": "Hooves"
@@ -123,30 +141,8 @@ A unicorn's lair might be an ancient ruin overgrown with vines, a misty clearing
     "name": "Shimmering Shield (Costs 2 Actions)"
   - "desc": "The unicorn magically regains 11 (2d8 + 2) hit points."
     "name": "Heal Self (Costs 3 Actions)"
-"regional_effects":
-  - "desc": "Transformed by the creature's celestial presence, the domain of a unicorn\
-      \ might include any of the following magical effects:"
-    "name": ""
-  - "desc": "- Open flames of a non magical nature are extinguished within the unicorn's\
-      \ domain. Torches and campfires refuse to burn, but closed lanterns are unaffected.\
-      \  \n- Creatures native to the unicorn's domain have an easier time hiding;\
-      \ they have advantage on all Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
-      \ checks made to hide.  \n- When a good-aligned creature casts a spell or uses\
-      \ a magical effect that causes another good-aligned creature to regain hit points,\
-      \ the target regains the maximum number of hit points possible for the spell\
-      \ or effect.  \n- Curses affecting any good-aligned creature are suppressed.\
-      \  "
-    "name": ""
-  - "desc": "If the unicorn dies, these effects end immediately."
-    "name": ""
 "source":
   - "MM"
-  - "GoS"
-  - "BGDIA"
-  - "IMR"
-  - "MOT"
-  - "TCE"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/token/unicorn.webp"
 ```
 ^statblock

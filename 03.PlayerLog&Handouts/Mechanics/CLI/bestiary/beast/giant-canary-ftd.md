@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Giant Canary
+- "Giant Canary"
 ---
-# [Giant Canary](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-canary-ftd.md)
+# [Giant Canary](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-canary-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 23*  
 
 ```statblock
@@ -35,7 +36,7 @@ aliases:
 "languages": ""
 "cr": "1/2"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7\
       \ (1d10 + 2) piercing damage."
     "name": "Peck"
 "source":

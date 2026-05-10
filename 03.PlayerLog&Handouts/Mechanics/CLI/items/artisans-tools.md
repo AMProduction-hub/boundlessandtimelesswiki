@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/item/gear/artisans-tools
 - ttrpg-cli/item/rarity/none
-aliases: 
+aliases:
 - "Artisan's Tools"
 ---
 # Artisan's Tools

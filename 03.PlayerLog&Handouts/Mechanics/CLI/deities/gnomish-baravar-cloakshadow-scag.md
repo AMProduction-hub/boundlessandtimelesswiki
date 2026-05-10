@@ -1,13 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-deity
+cssclasses:
+- json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/deity/gnomish
 - ttrpg-cli/domain/arcana
 - ttrpg-cli/domain/trickery
-aliases: 
-- Baravar Cloakshadow
+aliases:
+- "Baravar Cloakshadow"
 ---
 # Baravar Cloakshadow
 *Source: Sword Coast Adventurer's Guide p. 24* 

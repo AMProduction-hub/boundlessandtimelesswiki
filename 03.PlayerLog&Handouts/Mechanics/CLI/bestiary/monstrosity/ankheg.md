@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/2
@@ -11,10 +12,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Ankheg
+- "Ankheg"
 ---
-# [Ankheg](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/ankheg.md)
-*Source: Monster Manual p. 21, Princes of the Apocalypse, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Ankheg](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/ankheg.md)
+*Source: Monster Manual p. 21. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 An ankheg resembles an enormous many-legged insect, its long antennae twitching in response to any movement around it. Its legs end in sharp hooks adapted for burrowing and grasping its prey, and its powerful mandibles can snap a small tree in half.
 
@@ -48,12 +49,13 @@ As it burrows through earth, the ankheg leaves a narrow, partially collapsed tun
   - !!int "13"
   - !!int "6"
 "speed": "30 ft., burrow 10 ft."
-"senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., tremorsense 60 ft., passive Perception 11"
 "languages": ""
 "cr": "2"
 "actions":
-  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
-      \ (2d6 + 3) slashing damage plus 3 (d6) acid damage. If the target is a\
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10\
+      \ (2d6 + 3) slashing damage plus 3 (1d6) acid damage. If the target is a\
       \ Large or smaller creature, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 13). Until this grapple ends, the ankheg can bite only the [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ creature and has advantage on attack rolls to do so."
@@ -66,13 +68,6 @@ As it burrows through earth, the ankheg leaves a narrow, partially collapsed tun
     "name": "Acid Spray (Recharge 6)"
 "source":
   - "MM"
-  - "PotA"
-  - "WDH"
-  - "GoS"
-  - "DIP"
-  - "BGDIA"
-  - "JttRC"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/ankheg.webp"
 ```
 ^statblock

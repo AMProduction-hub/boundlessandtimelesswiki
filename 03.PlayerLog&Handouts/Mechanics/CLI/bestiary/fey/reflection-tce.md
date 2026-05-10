@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Reflection
+- "Reflection"
 ---
-# [Reflection](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/reflection-tce.md)
+# [Reflection](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/reflection-tce.md)
 *Source: Tasha's Cauldron of Everything p. 158*  
 
 ```statblock
@@ -45,25 +46,26 @@ aliases:
   \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
   \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
   \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": ""
 "cr": "1/2"
 "traits":
   - "desc": "The reflection can move through a space as narrow as 1 inch wide without\
       \ squeezing."
     "name": "Amorphous"
-  - "desc": "While in dim light or darkness, the reflection can take the Hide action\
-      \ as a bonus action. Its stealth bonus is also improved to +6."
+  - "desc": "While in dim light or darkness, the reflection can take the [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide)\
+      \ action as a bonus action. Its stealth bonus is also improved to +6."
     "name": "Shadow Stealth"
   - "desc": "While in sunlight, the reflection has disadvantage on attack rolls, ability\
       \ checks, and saving throws."
     "name": "Sunlight Weakness"
 "actions":
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:*\
       \ 9 (2d6 + 2) necrotic damage, and the target's Strength score is reduced\
-      \ by d4. The target dies if this reduces its Strength to 0. Otherwise, the\
+      \ by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the\
       \ reduction lasts until the target finishes a short or long rest.\n\nIf a non-evil\
-      \ humanoid dies from this attack, a new reflection rises from the corpse d4\
+      \ humanoid dies from this attack, a new reflection rises from the corpse 1d4\
       \ hours later."
     "name": "Strength Drain"
 "source":

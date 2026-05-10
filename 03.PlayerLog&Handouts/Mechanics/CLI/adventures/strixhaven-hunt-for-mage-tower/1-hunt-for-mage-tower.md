@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scc-hfmt
 aliases:
-- Hunt for Mage Tower
+- "Hunt for Mage Tower"
 ---
 # Hunt for Mage Tower
 *Source: Strixhaven: Hunt for Mage Tower, p. 97* 
 
 In this adventure, the characters return to Strixhaven University as second-year students. As the year gets underway, the characters' peers urge them to form a team and compete in a high-profile game of Mage Tower. They'll investigate the odd behavior of the magical creatures at the game's center while they prepare for the big game. And throughout the year, nefarious forces strew havoc across the campus—right up to the characters' fateful game day at Strixhaven Stadium. Will the characters unveil and thwart the threats before something terrible befalls the event?
 
-![With their full abilities ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/068-04-001-chapter-splash.webp#center "With their full abilities on display, Strixhaven students often create breathtaking spectacles when they play the game of Mage Tower")
+![With their full abilities on display, Strixhaven students often create breathtaking spectacles when they play the game of Mage Tower](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/068-04-001-chapter-splash.webp#center)
 
 ## Running This Adventure
 
@@ -47,8 +48,6 @@ Use the Second-Year Encounters table for random encounters on campus during this
 
 **Second-Year Encounters**
 
-`dice: [](1-hunt-for-mage-tower.md#^second-year-encounters)`
-
 | dice: d10 | Encounter |
 |-----------|-----------|
 | 1–4 | 2 [awakened trees](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/awakened-tree.md), pretending to be Feywild guardians and refusing to let students access an important academic area |
@@ -62,8 +61,6 @@ Use the Second-Year Encounters table for random encounters on campus during this
 Before the adventure, have the players choose at least three courses their characters are taking this year, either by coming up with the courses or by rolling on the Second-Year Courses table. Inform them that the characters are also enrolled in a required course, Scrivening and Symbology.
 
 **Second-Year Courses**
-
-`dice: [](1-hunt-for-mage-tower.md#^second-year-courses)`
 
 | dice: d10 | Course | Offered By |
 |-----------|--------|------------|
@@ -167,7 +164,7 @@ When the characters are ready to act on Professor Sharpbeak's request, move on t
 
 As mentioned in "The Game of Mage Tower," each team in a Mage Tower game chooses a mascot creature to represent them and to serve as a focal point of the game's scoring. If the characters discuss finding a mascot to represent their team, Professor Sharpbeak assures them that any mascot they find at Wiltroot Hall could serve as their team mascot. If the characters don't ask about mascots now, you can prompt them to choose a mascot later in the academic year, when the game approaches. Mascots don't confer benefits in the game, although Mage Tower participants are often sentimental about their mascots.
 
-![Mascots are common sights ...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/070-04-003-mascots.webp#center "Mascots are common sights on campus—and sometimes they gather and cause mischief")
+![Mascots are common sights on campus—and sometimes they gather and cause mischief](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/070-04-003-mascots.webp#center)
 
 ### Wiltroot Hall
 
@@ -281,7 +278,7 @@ A successful DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rule
 
 A successful DC 17 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) or Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check reveals illegible scrawls in the dirt that match the writing in the journal the characters found in Sedgemoor last academic year.
 
-![Some pests in Sedgemoor, e...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/072-04-004-pests-in-sedgemoor.webp#center "Some pests in Sedgemoor, eluding capture, grow to prodigious size")
+![Some pests in Sedgemoor, eluding capture, grow to prodigious size](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/072-04-004-pests-in-sedgemoor.webp#center)
 
 #### W6. Southeastern Clearing
 
@@ -337,7 +334,7 @@ Javenesh Stoutclaw (neutral good owlin [Lorehold apprentice](03.PlayerLog&Handou
 
 Lothannep lives in the fountain when the university isn't in session. Lothannep was bound generations ago to a pool located in the wilds off Witherbloom's campus. Lothannep's mage master released it long ago, and it has been wandering about as it pleases since.
 
-![Sedgemoor is expansive and...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/073-04-005-sedgemoor.webp#center "Sedgemoor is expansive and can be intimidating even for older students who explore its grounds")
+![Sedgemoor is expansive and can be intimidating even for older students who explore its grounds](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/073-04-005-sedgemoor.webp#center)
 
 Lothannep likes this hut but will be ejected once the Witherbloom faculty discovers the weird's presence. A character can befriend Lothannep by engaging it in friendly conversation and succeeding on a DC 13 Charisma ([Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)) check, with advantage if the character is a Witherbloom student. The water weird can be persuaded to relocate to another body of water, but only if a character toward which it is friendly suggests it.
 
@@ -427,7 +424,7 @@ During their second year at Strixhaven, the characters are enrolled together in 
 
 This course's first Exam takes place a short while after the events of the "Mascots Everywhere!" section and tests students on their knowledge of scrivening and symbology, as expressed in [glyph of warding](03.PlayerLog&Handouts/Mechanics/CLI/spells/glyph-of-warding.md) spells. For more information about the rules used for Exams, see "chapter 3".
 
-![Scribing magic is an impor...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/074-04-006-scribing-magic.webp#center "Scribing magic is an important field of study at Strixhaven, as sloppiness can have strange effects")
+![Scribing magic is an important field of study at Strixhaven, as sloppiness can have strange effects](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/074-04-006-scribing-magic.webp#center)
 
 ### Studying Phase
 
@@ -489,7 +486,7 @@ The students standing beside the stage hold wands that are ordinary spellcasting
 
 In this game, the other mascots jovially participate in the stacking contest. The spirit statues offer to serve as each stack's base. The art elementals, fractals, and inklings gleefully wait to be piled on the stacks while the pests snack away, oblivious to the game.
 
-![From a distance, pests loo...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/075-04-007-pests.webp#center "From a distance, pests look round, squishy, and cuddly. Up close, they're sharp")
+![From a distance, pests look round, squishy, and cuddly. Up close, they're sharp](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/075-04-007-pests.webp#center)
 
 #### The Contest
 
@@ -604,7 +601,7 @@ In the main silo's northwest corner are two unlocked chests that both contain st
 
 The straight central lengths of each ramp are elevated to the heights indicated on map 4.2.
 
-![Practice for the Battle of...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/077-04-008-battle-of-strixhaven.webp#center "Practice for the Battle of Strixhaven leads to the year-end event that takes place in Strixhaven Stadium")
+![Practice for the Battle of Strixhaven leads to the year-end event that takes place in Strixhaven Stadium](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/077-04-008-battle-of-strixhaven.webp#center)
 
 ##### A4. Dugout
 
@@ -746,7 +743,7 @@ One of the characters' peers approaches holding a wand and two skates, thrusting
 
 The wand the student is wielding is one of several scattered throughout the crowd. These wands are ordinary spellcasting foci imbued with minor magical effects. Strixhaven's instructors use them to help students practice their wand-wielding skills. These wands can create minor effects such as little puffs of smoke or crackles of energy, but clever spellcasters can use the wands while skating to perform minor jumps and acrobatic tricks on skates.
 
-![Magical shenanigans are co...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/078-04-009-shenanigans.webp#center "Magical shenanigans are common on campus. Students especially love magically getting some air")
+![Magical shenanigans are common on campus. Students especially love magically getting some air](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/078-04-009-shenanigans.webp#center)
 
 ##### The Skate-Off
 
@@ -794,7 +791,7 @@ The Scriptoria Collections lie below the main level of the Biblioplex. The refer
 
 Characters can ask anyone in the Biblioplex, including the librarians, about the title Professor Blackstone mentioned—*Weale or Woe: An Interpretive Sketch*. The librarians confirm that the book is located in the Scriptoria Collections, but they're unsure exactly how it was cataloged, so the characters need to track it down. If the characters ask the librarians or anyone else about strange chitinous creatures (if you're running this as a standalone) or the magical signature they've found all over campus (if you're running this as a campaign), no one knows anything about either subject.
 
-![Precision is key. Saying &quot;...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/079-04-010-precision.webp#center "Precision is key. Saying &quot;books on mage hunters&quot; isn't the same as saying &quot;books about mage hunters&quot;")
+![Precision is key. Saying &quot;books on mage hunters&quot; isn't the same as saying &quot;books about mage hunters&quot;](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/079-04-010-precision.webp#center)
 
 ### Scriptoria Collections
 
@@ -903,7 +900,7 @@ One of the characters' peers rushes from the study area and calls out to the cha
 
 The opposing Mage Tower team challenges the characters to a singing contest to win over the student body. This event takes place in the easternmost portion of area B8 (see map 3.1 in chapter 3). Though rowdiness isn't allowed in the library, the librarians are fascinated by the challenge and want to see how the characters handle this situation.
 
-![Some students live for per...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/081-04-011-song.webp#center "Some students live for performing and burst into song")
+![Some students live for performing and burst into song](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/081-04-011-song.webp#center)
 
 #### The Opposing Team
 
@@ -1011,7 +1008,7 @@ Returning to the center of the field, she reminds the teams that magic is allowe
 
 The game takes place over three phases. In each phase, you should make ability checks for the student NPCs on the opposing team.
 
-![The Battle of Strixhaven i...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/083-04-012-battle-of-strixhaven.webp#center "The Battle of Strixhaven is among the most storied events on campus. Games are often talked about for years after they're played")
+![The Battle of Strixhaven is among the most storied events on campus. Games are often talked about for years after they're played](03.PlayerLog&Handouts/Mechanics/CLI/adventures/strixhaven-hunt-for-mage-tower/img/083-04-012-battle-of-strixhaven.webp#center)
 
 ##### Phase 1
 

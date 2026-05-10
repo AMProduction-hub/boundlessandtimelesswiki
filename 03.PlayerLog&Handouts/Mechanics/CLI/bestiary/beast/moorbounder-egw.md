@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/monster/cr/1
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Moorbounder
+- "Moorbounder"
 ---
-# [Moorbounder](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/moorbounder-egw.md)
+# [Moorbounder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/moorbounder-egw.md)
 *Source: Explorer's Guide to Wildemount p. 295*  
 
 One of the many predators to stalk the marshlands and muddy foothills of Xhorhas, moorbounders are known as dangerous killers to those who try to avoid them on their travels—and as prized mounts for those willing to capture and train them. Though the process of domesticating a moorbounder is fraught with peril, these creatures can become favored hunting companions and powerful war mounts.
@@ -38,7 +39,8 @@ Moorbounders hunt with elongated tusks and retractable claws. With a vague resem
   - !!int "13"
   - !!int "5"
 "speed": "70 ft."
-"senses": "darkvision 60 ft., passive Perception 11"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 11"
 "languages": ""
 "cr": "1"
 "traits":
@@ -46,7 +48,7 @@ Moorbounders hunt with elongated tusks and retractable claws. With a vague resem
       \ to 20 feet, with or without a running start."
     "name": "Standing Leap"
 "actions":
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 14\
       \ (4d4 + 4) slashing damage."
     "name": "Claws"
 "source":

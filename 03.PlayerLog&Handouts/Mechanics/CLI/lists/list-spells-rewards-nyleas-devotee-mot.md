@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/reward/nyleas-devotee
 aliases:
-- Spells for Nylea's Devotee
+- "Spells for Nylea's Devotee"
 ---
 # Spells for Nylea's Devotee
 

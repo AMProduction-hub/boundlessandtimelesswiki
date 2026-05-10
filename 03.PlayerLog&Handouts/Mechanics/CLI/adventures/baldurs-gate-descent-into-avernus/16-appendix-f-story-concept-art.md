@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 aliases:
-- Appendix F: Story Concept Art
+- "Appendix F: Story Concept Art"
 ---
 # Appendix F: Story Concept Art
 *Source: Baldur's Gate: Descent Into Avernus, p. 246* 
@@ -13,7 +14,7 @@ In the months before writing began on *Baldur's Gate: Descent into Avernus*, art
 
 > [!gallery]
 > ![Reya Mantlemorn](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/155-mzc8l-f-01-reya.webp#gallery)
-> ![Salamander Mechanic, Z'net...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/156-nqkvt-f-01-heads.webp#gallery "Salamander Mechanic, Z'neth the Hobgoblin & Krull the Tortle")
+> ![Salamander Mechanic, Z'neth the Hobgoblin & Krull the Tortle](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/156-nqkvt-f-01-heads.webp#gallery)
 > ![Abyssal Chicken](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/157-fdk6x-f-01-chicken.webp#gallery)
 > ![Mahadi](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/158-jdktd-f-01-mahadi.webp#gallery)
 > ![Hellfire Greatsword](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/159-bh4m9-f-01-hellfire.webp#gallery)
@@ -30,7 +31,7 @@ In the months before writing began on *Baldur's Gate: Descent into Avernus*, art
 > ![Zariel's Flying Fortress](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/170-omn4i-f-04-fortress.webp#gallery)
 > ![Yeenoghu's Demons](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/171-fdsgw-f-04-yeenoghu.webp#gallery)
 > ![Falaster Fisk](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/172-t5qi9-f-04-falaster.webp#gallery)
-> ![Baldur's Gate, Lower City,...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/173-c7ifa-f-04-bg.webp#gallery "Baldur's Gate, Lower City, with ghost cat and shadow cat")
+> ![Baldur's Gate, Lower City, with ghost cat and shadow cat](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/173-c7ifa-f-04-bg.webp#gallery)
 > ![Avernus](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/174-ymqp5-f-05-avernus.webp#gallery)
 > ![Infernal War Machines](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/175-eyylt-f-05-warmachines.webp#gallery)
 > ![Mad Maggie's Happymobile](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/176-kcjq4-f-05-happymobile.webp#gallery)

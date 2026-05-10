@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vrgr
 aliases:
-- Travelers in the Mists; Strangers in the Mists
+- "Travelers in the Mists; Strangers in the Mists"
 ---
 # Travelers in the Mists; Strangers in the Mists
 *Source: Van Richten's Guide to Ravenloft p. 174* 
 
 **Strangers in the Mists**
-
-`dice: [](travelers-in-the-mists-strangers-in-the-mists-vrgr.md#^strangers-in-the-mists)`
 
 | dice: d6 | Encounter |
 |----------|-----------|

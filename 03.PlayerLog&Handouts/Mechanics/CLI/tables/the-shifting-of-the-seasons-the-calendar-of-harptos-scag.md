@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 aliases:
-- The Shifting of the Seasons; The Calendar of Harptos
+- "The Shifting of the Seasons; The Calendar of Harptos"
 ---
 # The Shifting of the Seasons; The Calendar of Harptos
 *Source: Sword Coast Adventurer's Guide p. 15* 

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dip
 aliases:
-- Icespire Hold
+- "Icespire Hold"
 ---
 # Icespire Hold
 *Source: Essentials Kit: Dragon of Icespire Peak, p. 30* 

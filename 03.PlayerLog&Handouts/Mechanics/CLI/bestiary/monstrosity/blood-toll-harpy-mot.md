@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 - ttrpg-cli/monster/cr/1-8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Blood-Toll Harpy
+- "Blood-Toll Harpy"
 ---
-# [Blood-Toll Harpy](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/blood-toll-harpy-mot.md)
+# [Blood-Toll Harpy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/blood-toll-harpy-mot.md)
 *Source: Mythic Odysseys of Theros p. 227*  
 
 Murderous gangs of harpies collect in grim places across Theros, preying on any who pass by. Many merchants face regular losses at the harpies' claws, common casualties often referred to as a "blood toll."
@@ -52,10 +53,10 @@ Cruel, corpse-eating creatures, harpies endlessly seek their next meal, careless
   - "desc": "The harpy makes two melee attacks: one with its bite and one with its\
       \ claws."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d4 + 1) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3\
       \ (1d4 + 1) slashing damage."
     "name": "Claws"
 "source":

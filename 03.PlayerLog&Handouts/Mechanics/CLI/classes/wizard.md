@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/class/wizard
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- Wizard
+- "Wizard"
 ---
 # Wizard
 *Source: Player's Handbook p. 112. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
@@ -123,8 +124,6 @@ Your wizard character's most prized possession—your spellbook—might be an in
 
 **Spellbooks**
 
-`dice: [](wizard.md#^spellbooks)`
-
 | dice: d6 | Spellbook |
 |----------|-----------|
 | 1 | A tome with pages that are thin sheets of metal, spells etched into them with acid |
@@ -144,8 +143,6 @@ Beyond the obvious, why does your wizard character study magic, and what do you 
 
 **Ambitions**
 
-`dice: [](wizard.md#^ambitions)`
-
 | dice: d6 | Ambition |
 |----------|----------|
 | 1 | You will prove that the gods aren't as powerful as folk believe. |
@@ -164,8 +161,6 @@ Endless hours of solitary study and research can have a negative effect on anyon
 If your character has an eccentricity, is it a physical tic or a mental one? Are you well known in some circles because of it? Do you fight to overcome it, or do you embrace this minor claim to fame of yours?
 
 **Eccentricities**
-
-`dice: [](wizard.md#^eccentricities)`
 
 | dice: d6 | Eccentricity |
 |----------|--------------|
@@ -189,17 +184,11 @@ For example, if you're a 4th-level wizard, you can recover up to two levels wort
 
 As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See "chapter 10" for the general rules of spellcasting and "chapter 11" for the wizard spell list.
 
-#### Cantrips
+**Cantrips.** At 1st level, you know three cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Wizard table.
 
-At 1st level, you know three cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Wizard table.
+**Spellbook.** At 1st level, you have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know, except your cantrips, which are fixed in your mind.
 
-#### Spellbook
-
-At 1st level, you have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know, except your cantrips, which are fixed in your mind.
-
-#### Preparing and Casting Spells
-
-The Wizard table shows how many spell slots you have to cast your wizard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+**Preparing and Casting Spells.** The Wizard table shows how many spell slots you have to cast your wizard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
 You prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.
 
@@ -207,25 +196,17 @@ For example, if you're a 3rd-level wizard, you have four 1st-level and two 2nd-l
 
 You can change your list of prepared spells when you finish a long rest. Preparing a new list of wizard spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list.
 
-#### Spellcasting Ability
-
-Intelligence is your spellcasting ability for your wizard spells, since you learn your wizard spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.
+**Spellcasting Ability.** Intelligence is your spellcasting ability for your wizard spells, since you learn your wizard spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.
 
 <span class='abilityDc'>**Spell save DC**: your proficiency bonus + your Intelligence</span>
 
 <span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Intelligence</span>
 
-#### Ritual Casting
+**Ritual Casting.** You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.
 
-You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.
+**Spellcasting Focus.** You can use an [arcane focus](03.PlayerLog&Handouts/Mechanics/CLI/items/arcane-focus.md) as a spellcasting focus for your wizard spells.
 
-#### Spellcasting Focus
-
-You can use an [arcane focus](03.PlayerLog&Handouts/Mechanics/CLI/items/arcane-focus.md) as a spellcasting focus for your wizard spells.
-
-#### Learning Spells of 1st Level and Higher
-
-Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook (see "Your Spellbook").
+**Learning Spells of 1st Level and Higher.** Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook (see "Your Spellbook").
 
 > [!note] Your Spellbook
 > 

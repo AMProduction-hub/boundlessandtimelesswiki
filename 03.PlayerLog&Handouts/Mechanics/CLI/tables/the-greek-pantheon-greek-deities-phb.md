@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
-- The Greek Pantheon; Greek Deities
+- "The Greek Pantheon; Greek Deities"
 ---
 # The Greek Pantheon; Greek Deities
 *Source: Player's Handbook p. 297. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>* 

@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Heliod's Divine Schemes
+- "Heliod's Divine Schemes"
 ---
 # Heliod's Divine Schemes
 *Source: Mythic Odysseys of Theros p. 129* 
 
 **Heliod's Divine Schemes**
-
-`dice: [](heliods-divine-schemes-mot.md#^heliods-divine-schemes)`
 
 | dice: d4 | Scheme |
 |----------|--------|

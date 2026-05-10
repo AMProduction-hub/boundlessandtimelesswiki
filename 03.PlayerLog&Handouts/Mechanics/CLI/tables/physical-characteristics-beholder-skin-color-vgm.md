@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 aliases:
-- Physical Characteristics; Beholder Skin Color
+- "Physical Characteristics; Beholder Skin Color"
 ---
 # Physical Characteristics; Beholder Skin Color
 *Source: Volo's Guide to Monsters p. 8* 
 
 **Beholder Skin Color**
-
-`dice: [](physical-characteristics-beholder-skin-color-vgm.md#^beholder-skin-color)`
 
 | dice: d12 | Skin Color |
 |-----------|------------|

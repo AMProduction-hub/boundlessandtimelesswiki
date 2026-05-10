@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ftd
 - ttrpg-cli/monster/cr/9
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Young Sapphire Dragon
+- "Young Sapphire Dragon"
 ---
-# [Young Sapphire Dragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/young-sapphire-dragon-ftd.md)
+# [Young Sapphire Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-sapphire-dragon-ftd.md)
 *Source: Fizban's Treasury of Dragons p. 216*  
 
 The thunderous clash of conflict is part of the very nature of sapphire dragons. Militant and territorial, they defend their lairs fiercely, ambushing intruders and plotting assaults against their rivals. The sonic pulse of their breath weapon sows weakness, leaving the victims unable to fight back.
@@ -38,8 +39,6 @@ Use the Sapphire Dragon Personality Traits and Sapphire Dragon Ideals tables to 
 
 ### Sapphire Dragon Personality Traits
 
-`dice: [](young-sapphire-dragon-ftd.md#^trait)`
-
 | dice: d8 | Trait |
 |----------|-------|
 | 1 | I often fixate on specific historical battles or wars and won't rest until my hoard contains that conflict's most significant artifacts. |
@@ -53,8 +52,6 @@ Use the Sapphire Dragon Personality Traits and Sapphire Dragon Ideals tables to 
 ^trait
 
 ### Sapphire Dragon Ideals
-
-`dice: [](young-sapphire-dragon-ftd.md#^ideal)`
 
 | dice: d6 | Ideal |
 |----------|-------|
@@ -71,8 +68,6 @@ Use the Sapphire Dragon Personality Traits and Sapphire Dragon Ideals tables to 
 The Sapphire Dragon Adventure Hooks table offers suggestions for stories and adventures involving sapphire dragons.
 
 ### Sapphire Dragon Adventure Hooks
-
-`dice: [](young-sapphire-dragon-ftd.md#^adventure-hook)`
 
 | dice: d8 | Adventure Hook |
 |----------|----------------|
@@ -91,8 +86,6 @@ The Sapphire Dragon Adventure Hooks table offers suggestions for stories and adv
 Sapphire dragons are generally solitary creatures. On the rare occasion that one forms nonhostile relationships with other beings, it is almost always to bolster the defenses of the dragon's lair and hoard.
 
 ### Young Sapphire Dragon Connections
-
-`dice: [](young-sapphire-dragon-ftd.md#^connected-creatures)`
 
 | dice: d6 | Connected Creatures |
 |----------|---------------------|
@@ -124,10 +117,10 @@ Sapphire dragons are generally solitary creatures. On the rare occasion that one
   - !!int "16"
 "speed": "40 ft., burrow 20 ft., climb 40 ft., fly 80 ft."
 "saves":
-  - "dexterity": "+6"
-  - "constitution": "+9"
-  - "wisdom": "+6"
-  - "charisma": "+7"
+  - "dexterity": !!int "6"
+  - "constitution": !!int "9"
+  - "wisdom": !!int "6"
+  - "charisma": !!int "7"
 "skillsaves":
   - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
     "desc": "+7"
@@ -139,7 +132,9 @@ Sapphire dragons are generally solitary creatures. On the rare occasion that one
     "desc": "+6"
 "damage_resistances": "lightning, thunder"
 "condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
-"senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 20"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 30 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 20"
 "languages": "Common, Draconic, telepathy 120 ft."
 "cr": "9"
 "traits":
@@ -152,10 +147,10 @@ Sapphire dragons are generally solitary creatures. On the rare occasion that one
 "actions":
   - "desc": "The dragon makes one Bite attack and two Claw attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
-      \ 16 (2d10 + 5) piercing damage plus 4 (d8) thunder damage."
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:*\
+      \ 16 (2d10 + 5) piercing damage plus 4 (1d8) thunder damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d6 + 5) slashing damage."
     "name": "Claw"
   - "desc": "The dragon exhales a pulse of high-pitched, nearly inaudible sound in\
@@ -167,7 +162,7 @@ Sapphire dragons are generally solitary creatures. On the rare occasion that one
     "name": "Debilitating Breath (Recharge 5-6)"
   - "desc": "The dragon casts one of the following spells, requiring no spell components\
       \ and using Intelligence as the spellcasting ability (spell save DC 15):\n\n\
-      1/day each: [dissonant whispers](03.PlayerLog&Handouts/Mechanics/CLI/spells/dissonant-whispers.md),\
+      **1/day each:** [dissonant whispers](03.PlayerLog&Handouts/Mechanics/CLI/spells/dissonant-whispers.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [meld into stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/meld-into-stone.md)"
     "name": "Spellcasting (Psionics)"

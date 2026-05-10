@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/skt
 - ttrpg-cli/monster/cr/7
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Deadstone Cleft Stone Giant
+- "Deadstone Cleft Stone Giant"
 ---
-# [Deadstone Cleft Stone Giant](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/deadstone-cleft-stone-giant-skt.md)
+# [Deadstone Cleft Stone Giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/deadstone-cleft-stone-giant-skt.md)
 *Source: Storm King's Thunder p. 146*  
 
 ```statblock
@@ -33,23 +34,26 @@ aliases:
   - !!int "9"
 "speed": "40 ft."
 "saves":
-  - "dexterity": "+5"
-  - "constitution": "+8"
-  - "wisdom": "+4"
+  - "dexterity": !!int "5"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "4"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+12"
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+4"
-"senses": "darkvision 60 ft., tremorsense 30 ft., passive Perception 14"
+"gear":
+  - "[greatclub](03.PlayerLog&Handouts/Mechanics/CLI/items/greatclub.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., tremorsense 30 ft., passive Perception 14"
 "languages": "Giant"
 "cr": "7"
 "traits":
   - "desc": "The giant's innate spellcasting ability is Wisdom. It can innately cast\
-      \ the following spells, requiring no material components:\n\n3/day each:\
+      \ the following spells, requiring no material components:\n\n**3/day each:**\
       \ [meld into stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/meld-into-stone.md),\
       \ [stone shape](03.PlayerLog&Handouts/Mechanics/CLI/spells/stone-shape.md)\n\
-      \n1/day each: [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md),\
+      \n**1/day each:** [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md),\
       \ [time stop](03.PlayerLog&Handouts/Mechanics/CLI/spells/time-stop.md)"
     "name": "Innate Spellcasting"
   - "desc": "The giant meditates for 1 hour, during which time it can do nothing else.\
@@ -65,10 +69,10 @@ aliases:
 "actions":
   - "desc": "The giant makes two greatclub attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 15 ft., one target. *Hit:*\
       \ 19 (3d8 + 6) bludgeoning damage."
     "name": "Greatclub"
-  - "desc": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +9 to hit, range 60/240 ft., one target. *Hit:*\
       \ 28 (4d10 + 6) bludgeoning damage. If the target is a creature, it must succeed\
       \ on a DC 17 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
     "name": "Rock"

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/monster/cr/9
@@ -14,9 +15,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Lonely Sorrowsworn
+- "Lonely Sorrowsworn"
 ---
-# [Lonely Sorrowsworn](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/lonely-sorrowsworn-mpmm.md)
+# [Lonely Sorrowsworn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/lonely-sorrowsworn-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 223, Mordenkainen's Tome of Foes p. 232*  
 
 The sorrow of isolation afflicts many creatures that lurk in the Shadowfell, but the need for companionship is never manifested more dramatically than in the lonely sorrowsworn—also called the Lonely. When these sorrowsworn spot other creatures, they feel keenly the need for interaction and launch their harpoon-like arms to drag their victims closer.
@@ -44,7 +45,8 @@ The Shadowfell's pervasive melancholy sometimes gives rise to strange incarnatio
   - !!int "6"
 "speed": "30 ft."
 "damage_resistances": "bludgeoning, piercing, slashing while in dim light or darkness"
-"senses": "darkvision 60 ft., passive Perception 10"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 10"
 "languages": "Common"
 "cr": "9"
 "traits":
@@ -58,7 +60,7 @@ The Shadowfell's pervasive melancholy sometimes gives rise to strange incarnatio
 "actions":
   - "desc": "The sorrowsworn makes one Harpoon Arm attack, and it uses Sorrowful Embrace."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 60 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 60 ft., one target. *Hit:*\
       \ 21 (4d8 + 3) piercing damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 15) if it is a Large or smaller creature. The sorrowsworn has two\
       \ harpoon arms and can grapple up to two creatures at once."

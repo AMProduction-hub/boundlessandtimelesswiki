@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/rarity/very-rare
 - ttrpg-cli/item/tier/major
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "+3 Weapon (no damage)"
 ---
 # +3 Weapon (no damage)

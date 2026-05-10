@@ -1,32 +1,33 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/spell/list/background/witherbloom-student
 aliases:
-- Spells for Witherbloom Student
+- "Spells for Witherbloom Student"
 ---
 # Spells for Witherbloom Student
 
 ## 1st Level
 
-- [Cure Wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md "PHB") with access to 5th-level spells
-- [Inflict Wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/inflict-wounds.md "PHB") with access to 5th-level spells
+- [Cure Wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md "PHB") with access to 1st-level spells
+- [Inflict Wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/inflict-wounds.md "PHB") with access to 1st-level spells
 
 ## 2nd Level
 
-- [Lesser Restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md "PHB") with access to 5th-level spells
-- [Wither and Bloom](03.PlayerLog&Handouts/Mechanics/CLI/spells/wither-and-bloom-scc.md "SCC") with access to 5th-level spells
+- [Lesser Restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md "PHB") with access to 2nd-level spells
+- [Wither and Bloom](03.PlayerLog&Handouts/Mechanics/CLI/spells/wither-and-bloom-scc.md "SCC") with access to 2nd-level spells
 
 ## 3rd Level
 
-- [Revivify](03.PlayerLog&Handouts/Mechanics/CLI/spells/revivify.md "PHB") with access to 5th-level spells
-- [Vampiric Touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/vampiric-touch.md "PHB") with access to 5th-level spells
+- [Revivify](03.PlayerLog&Handouts/Mechanics/CLI/spells/revivify.md "PHB") with access to 3rd-level spells
+- [Vampiric Touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/vampiric-touch.md "PHB") with access to 3rd-level spells
 
 ## 4th Level
 
-- [Blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md "PHB") with access to 5th-level spells
-- [Death Ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/death-ward.md "PHB") with access to 5th-level spells
+- [Blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md "PHB") with access to 4th-level spells
+- [Death Ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/death-ward.md "PHB") with access to 4th-level spells
 
 ## 5th Level
 

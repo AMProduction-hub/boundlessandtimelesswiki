@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/gos
 - ttrpg-cli/monster/cr/5
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Harpy Matriarch
+- "Harpy Matriarch"
 ---
-# [Harpy Matriarch](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/harpy-matriarch-gos.md)
+# [Harpy Matriarch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/harpy-matriarch-gos.md)
 *Source: Ghosts of Saltmarsh p. 237*  
 
 Happy to watch its flock squabble over carrion in Tammeraut's Fate, this gray-feathered matron of the harpies is surrounded by a cloud of magical spirits resembling skeletal seabirds.
@@ -35,12 +36,13 @@ Happy to watch its flock squabble over carrion in Tammeraut's Fate, this gray-fe
   - !!int "16"
 "speed": "20 ft., fly 40 ft."
 "saves":
-  - "dexterity": "+6"
-  - "charisma": "+6"
+  - "dexterity": !!int "6"
+  - "charisma": !!int "6"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+3"
-"senses": "darkvision 60 ft., passive Perception 13"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common"
 "cr": "5"
 "traits":
@@ -53,7 +55,7 @@ Happy to watch its flock squabble over carrion in Tammeraut's Fate, this gray-fe
 "actions":
   - "desc": "The matriarch makes two claws attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+  - "desc": "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13\
       \ (3d6 + 3) slashing damage."
     "name": "Claws"
   - "desc": "The matriarch can magically disguise itself to resemble a humanoid of\

@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/monk/mercy
 aliases:
-- Way of Mercy
+- "Way of Mercy"
 ---
 # Way of Mercy
 *[Monk](./monk.md): Monastic Tradition*  
@@ -43,15 +44,13 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Way of Mercy (Level 3)
-
 Monks of the Way of Mercy learn to manipulate the life force of others to bring aid to those in need. They are wandering physicians to the poor and hurt. However, to those beyond their help, they bring a swift end as an act of mercy.
 
 Those who follow the Way of Mercy might be members of a religious order, administering to the needy and making grim choices rooted in reality rather than idealism. Some might be gentle-voiced healers, beloved by their communities, while others might be masked bringers of macabre mercies.
 
 The walkers of this way usually don robes with deep cowls, and they often conceal their faces with masks, presenting themselves as the faceless bringers of life and death.
+
+## Subclass Features
 
 ### Implements of Mercy (Level 3)
 
@@ -62,8 +61,6 @@ You gain proficiency in the [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/
 You also gain a special mask, which you often wear when using the features of this subclass. You determine its appearance, or generate it randomly by rolling on the Merciful Mask table.
 
 **Merciful Mask**
-
-`dice: [](monk-way-of-mercy-tce.md#^merciful-mask)`
 
 | dice: d6 | Mask Appearance |
 |----------|-----------------|

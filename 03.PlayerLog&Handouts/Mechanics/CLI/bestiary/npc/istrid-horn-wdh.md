@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/wdh
 - ttrpg-cli/monster/cr/8
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Istrid Horn
+- "Istrid Horn"
 ---
-# [Istrid Horn](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/istrid-horn-wdh.md)
+# [Istrid Horn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/istrid-horn-wdh.md)
 *Source: Waterdeep: Dragon Heist p. 199*  
 
 Istrid is regarded as the Black Network's Master of Trade and Coin in Waterdeep. The shield dwarf operates an illegal lending operation out of a heavily guarded warehouse in the Dock Ward, offering loans to those in need of coin. Her interest rates are comparable to those of her competitors (including noble families of bankers such as the Cassalanters and the Irlingstars), but the penalties for not paying back Istrid's loans are severe.
@@ -42,44 +43,47 @@ The Doom Raiders were five unscrupulous adventurers who liked to plunder lich la
   - !!int "13"
 "speed": "25 ft."
 "saves":
-  - "constitution": "+5"
-  - "wisdom": "+6"
+  - "constitution": !!int "5"
+  - "wisdom": !!int "6"
 "skillsaves":
   - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
     "desc": "+4"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+3"
 "damage_resistances": "poison"
-"senses": "darkvision 60 ft., passive Perception 13"
+"gear":
+  - "[maul](03.PlayerLog&Handouts/Mechanics/CLI/items/maul.md)"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 13"
 "languages": "Common, Dwarvish"
 "cr": "8"
 "traits":
   - "desc": "Istrid is a 9th-level spellcaster. Her spellcasting ability is Wisdom\
       \ (spell save DC 14, +6 to hit with spell attacks) She has the following cleric\
-      \ spells prepared:\n\nCantrips (at will): [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
+      \ spells prepared:\n\n**Cantrips (at will):** [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
       \ [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md), [sacred\
       \ flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md), [spare\
       \ the dying](03.PlayerLog&Handouts/Mechanics/CLI/spells/spare-the-dying.md)\n\
-      \n1st level (4 slots): [divine favor](03.PlayerLog&Handouts/Mechanics/CLI/spells/divine-favor.md),\
+      \n**1st level (4 slots):** [divine favor](03.PlayerLog&Handouts/Mechanics/CLI/spells/divine-favor.md),\
       \ [guiding bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/guiding-bolt.md),\
       \ [healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/healing-word.md),\
       \ [shield of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield-of-faith.md)\n\
-      \n2nd level (3 slots): [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md),\
+      \n**2nd level (3 slots):** [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md),\
       \ [magic weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-weapon.md),\
       \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
       \ [silence](03.PlayerLog&Handouts/Mechanics/CLI/spells/silence.md), [spiritual\
       \ weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md)\n\n\
-      3rd level (3 slots): [beacon of hope](03.PlayerLog&Handouts/Mechanics/CLI/spells/beacon-of-hope.md),\
+      **3rd level (3 slots):** [beacon of hope](03.PlayerLog&Handouts/Mechanics/CLI/spells/beacon-of-hope.md),\
       \ [crusader's mantle](03.PlayerLog&Handouts/Mechanics/CLI/spells/crusaders-mantle.md),\
       \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
       \ [revivify](03.PlayerLog&Handouts/Mechanics/CLI/spells/revivify.md), [spirit\
       \ guardians](03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-guardians.md),\
       \ [water walk](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-walk.md)\n\n\
-      4th level (3 slots): [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      **4th level (3 slots):** [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
       \ [freedom of movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md),\
       \ [guardian of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/guardian-of-faith.md),\
-      \ [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)\n\n5th\
-      \ level (1 slots): [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md),\
+      \ [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)\n\n**5th\
+      \ level (1 slots):** [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md),\
       \ [mass cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-cure-wounds.md),\
       \ [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md)"
     "name": "Spellcasting"
@@ -88,7 +92,7 @@ The Doom Raiders were five unscrupulous adventurers who liked to plunder lich la
 "actions":
   - "desc": "Istrid makes two melee attacks."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (2d6 + 1) bludgeoning damage."
     "name": "Maul"
   - "desc": "Istrid magically pinpoints precious metals and stones, such as coins\

@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/item/attunement/required
@@ -9,7 +10,7 @@ tags:
 - ttrpg-cli/item/weapon/martial
 - ttrpg-cli/item/weapon/melee
 - ttrpg-cli/item/wondrous/generic-variant
-aliases: 
+aliases:
 - "Holy Avenger"
 - "Holy Avenger Double-Bladed Scimitar"
 - "Holy Avenger Greatsword"
@@ -20,7 +21,7 @@ aliases:
 ---
 # Holy Avenger
 *Major, legendary (requires attunement by a paladin)*  
-![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/holy-avenger.webp#right)
+![Holy Avenger (Greatsword)](03.PlayerLog&Handouts/Mechanics/CLI/items/img/holy-avenger.webp#right)
 
 
 You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra `2d10` radiant damage.

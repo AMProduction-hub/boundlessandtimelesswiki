@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/monster/cr/1-2
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Thavius Kreeg
+- "Thavius Kreeg"
 ---
-# [Thavius Kreeg](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/thavius-kreeg-bgdia.md)
+# [Thavius Kreeg](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/thavius-kreeg-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 42*  
 
 ```statblock
@@ -41,6 +42,8 @@ aliases:
     "desc": "+5"
   - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
     "desc": "+4"
+"gear":
+  - "[mace](03.PlayerLog&Handouts/Mechanics/CLI/items/mace.md)"
 "senses": "passive Perception 14"
 "languages": "Abyssal, Common, Infernal"
 "cr": "1/2"
@@ -48,7 +51,7 @@ aliases:
   - "desc": "Thavius's shadow is that of a pudgy, horned devil with small wings."
     "name": "Shadow of Guilt"
 "actions":
-  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+  - "desc": "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4\
       \ (1d6 + 1) bludgeoning damage."
     "name": "Mace"
 "source":

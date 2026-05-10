@@ -1,11 +1,12 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-item
+cssclasses:
+- json5e-item
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/item/rarity/unknown/magic
 - ttrpg-cli/item/wondrous/other
-aliases: 
+aliases:
 - "Master's Amulet"
 ---
 # Master's Amulet

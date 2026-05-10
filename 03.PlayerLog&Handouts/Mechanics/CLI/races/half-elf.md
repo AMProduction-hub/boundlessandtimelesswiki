@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/half-elf
 aliases:
-- Half-Elf
+- "Half-Elf"
 ---
 # Half-Elf
 *Source: Player's Handbook p. 38. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/half-elf.webp#right)
 
-- **Ability Scores**: Charisma +2; Apply +1 to one of Strength, Dexterity, Constitution, Intelligence, or Wisdom.
+- **Ability Scores**: Apply +1 to one of Strength, Dexterity, Constitution, Intelligence, or Wisdom.
 - **Size**: Medium
 - **Speed**: 30 ft.
 

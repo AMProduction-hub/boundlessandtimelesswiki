@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/erlw
 aliases:
-- Watch Station Adventures
+- "Watch Station Adventures"
 ---
 # Watch Station Adventures
 *Source: Eberron: Rising from the Last War p. 258* 
 
 **Watch Station Adventures**
-
-`dice: [](watch-station-adventures-erlw.md#^watch-station-adventures)`
 
 | dice: d6 | Adventure Goal |
 |----------|----------------|

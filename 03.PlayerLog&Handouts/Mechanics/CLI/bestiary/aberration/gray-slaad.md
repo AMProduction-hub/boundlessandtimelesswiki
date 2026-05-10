@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/9
@@ -10,10 +11,10 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Gray Slaad
+- "Gray Slaad"
 ---
-# [Gray Slaad](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/gray-slaad.md)
-*Source: Monster Manual p. 277, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Keys from the Golden Vault*  
+# [Gray Slaad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/gray-slaad.md)
+*Source: Monster Manual p. 277*  
 
 Outside of Limbo, gray slaadi act as living extensions of the will of their masters, the death slaadi. A gray slaad journeys to the Material Plane on errands of doom, often taking humanoid form. A gray slaad learns how to master the use of a greatsword and imbue it with its own innate magic.
 
@@ -82,20 +83,24 @@ Some slaadi can transform into the humanoid creatures from which they were origi
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
 "damage_resistances": "acid, cold, fire, lightning, thunder"
-"senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 17"
+"gear":
+  - "[greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)"
+"senses": "[blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight)\
+  \ 60 ft., [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 60 ft., passive Perception 17"
 "languages": "Slaad, telepathy 60 ft."
 "cr": "9"
 "traits":
   - "desc": "The slaad's innate spellcasting ability is Charisma (spell save DC 14).\
       \ The slaad can innately cast the following spells, requiring no material components:\n\
-      \nAt will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \n**At will:** [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
       \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
       \ (self only), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md)\n\
-      \n2/day each: [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md),\
+      \n**2/day each:** [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md),\
       \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md),\
-      \ [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\n1/day:\
+      \ [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\n**1/day:**\
       \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md) (self\
       \ only)"
     "name": "Innate Spellcasting"
@@ -116,20 +121,17 @@ Some slaadi can transform into the humanoid creatures from which they were origi
   - "desc": "The slaad makes three attacks: one with its bite and two with its claws\
       \ or greatsword."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 6\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 6\
       \ (1d6 + 3) piercing damage."
     "name": "Bite (Slaad Form Only)"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8\
       \ (1d10 + 3) slashing damage."
     "name": "Claws (Slaad Form Only)"
-  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10\
+  - "desc": "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10\
       \ (2d6 + 3) slashing damage."
     "name": "Greatsword"
 "source":
   - "MM"
-  - "ToA"
-  - "WDMM"
-  - "KftGV"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/gray-slaad.webp"
 ```
 ^statblock

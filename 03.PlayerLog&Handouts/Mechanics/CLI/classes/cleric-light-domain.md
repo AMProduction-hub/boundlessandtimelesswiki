@@ -1,12 +1,13 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-class
+cssclasses:
+- json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/domain/light
 - ttrpg-cli/subclass/cleric/light
 aliases:
-- Light Domain
+- "Light Domain"
 ---
 # Light Domain
 *[Cleric](./cleric.md): Divine Domain*  
@@ -44,11 +45,11 @@ aliases:
 ^class-progression
 
 
-## Class Features
-
-### Light Domain (Level 1)
-
 Gods of light—including Helm, Lathander, [Pholtus](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-pholtus.md), Branchala, the Silver Flame, [Belenus](03.PlayerLog&Handouts/Mechanics/CLI/deities/celtic-belenus.md), [Apollo](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-apollo.md), and [Re-Horakhty](03.PlayerLog&Handouts/Mechanics/CLI/deities/egyptian-re-horakhty.md)—promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their gods' discerning vision, charged with chasing away lies and burning away darkness.
+
+## Subclass Features
+
+### Domain Spells (Level 1)
 
 At each indicated cleric level, you add the listed spells to your spells prepared.
 
@@ -92,7 +93,7 @@ _Source: Tasha's Cauldron of Everything p. 30_
 
 *8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Potent Spellcasting feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Corona of Light (Level 17)
 

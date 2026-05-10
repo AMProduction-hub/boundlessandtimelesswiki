@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/ggr
 - ttrpg-cli/monster/cr/6
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Bloodfray Giant
+- "Bloodfray Giant"
 ---
-# [Bloodfray Giant](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/bloodfray-giant-ggr.md)
+# [Bloodfray Giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/bloodfray-giant-ggr.md)
 *Source: Guildmasters' Guide to Ravnica p. 200*  
 
 Giants in the Cult of Rakdos act as enforcers, bouncers, and sometimes even pillars, holding the mobile platforms that serve as stages for Rakdos performances. Like other members of the cult, giants thrill to the violence of those shows. Though they can seem entranced by the horror unfolding on the stage, they react quickly and brutally to any interruption of the performance.
@@ -39,9 +40,9 @@ Giants use their tremendous size and strength to advance the cause of no less th
   - !!int "9"
 "speed": "40 ft."
 "saves":
-  - "strength": "+9"
-  - "constitution": "+8"
-  - "wisdom": "+2"
+  - "strength": !!int "9"
+  - "constitution": !!int "8"
+  - "wisdom": !!int "2"
 "skillsaves":
   - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
     "desc": "+9"
@@ -51,12 +52,12 @@ Giants use their tremendous size and strength to advance the cause of no less th
 "languages": "Giant"
 "cr": "6"
 "actions":
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 20 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 20 ft., one target. *Hit:*\
       \ 16 (3d6 + 6) bludgeoning damage. If the target is a creature, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 17). Until the grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
       \ and the giant can't use this attack on anyone else."
     "name": "Chain"
-  - "desc": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit:\
+  - "desc": "*Ranged Weapon Attack:* +9 to hit, range 60/240 ft., one target. *Hit:*\
       \ 16 (3d6 + 6) bludgeoning damage."
     "name": "Rock"
 "reactions":

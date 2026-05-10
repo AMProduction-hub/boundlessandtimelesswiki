@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mot
 aliases:
-- Omens of Erebos
+- "Omens of Erebos"
 ---
 # Omens of Erebos
 *Source: Mythic Odysseys of Theros p. 111* 
 
 **Omens of Erebos**
-
-`dice: [](omens-of-erebos-mot.md#^omens-of-erebos)`
 
 | dice: d8 | dice: d100 | Omen of Erebos |
 |----------|------------|----------------|

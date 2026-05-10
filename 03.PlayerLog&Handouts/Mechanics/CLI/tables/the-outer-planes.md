@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- The Outer Planes
+- "The Outer Planes"
 ---
 # The Outer Planes
 *Source: Dungeon Master's Guide p. 57* 

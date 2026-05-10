@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/cr/15
@@ -10,9 +11,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Vampire Spellcaster
+- "Vampire Spellcaster"
 ---
-# [Vampire Spellcaster](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/vampire-spellcaster.md)
+# [Vampire Spellcaster](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampire-spellcaster.md)
 *Source: Monster Manual p. 298*  
 
 Awakened to an endless night, vampires hunger for the life they have lost and sate that hunger by drinking the blood of the living. Vampires abhor sunlight, for its touch burns them. They never cast shadows or reflections, and any vampire wishing to move unnoticed among the living keeps to the darkness and far from reflective surfaces.
@@ -80,35 +81,36 @@ A vampire chooses a grand yet defensible location for its lair, such as a castle
   - !!int "18"
 "speed": "30 ft."
 "saves":
-  - "dexterity": "+9"
-  - "wisdom": "+7"
-  - "charisma": "+9"
+  - "dexterity": !!int "9"
+  - "wisdom": !!int "7"
+  - "charisma": !!int "9"
 "skillsaves":
   - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
     "desc": "+7"
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+9"
 "damage_resistances": "necrotic; bludgeoning, piercing, slashing from nonmagical attacks"
-"senses": "darkvision 120 ft., passive Perception 17"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 120 ft., passive Perception 17"
 "languages": "the languages it knew in life"
 "cr": "15"
 "traits":
   - "desc": "The vampire is a 9th-level spellcaster. Its spellcasting ability is Intelligence\
       \ (spell save DC 16, +8 to hit with spell attacks). The vampire has the following\
-      \ wizard spells prepared:\n\nCantrips (at will): [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ wizard spells prepared:\n\n**Cantrips (at will):** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
       \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
       \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
-      \n1st level (4 slots): [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
+      \n**1st level (4 slots):** [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
       \ [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md), [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)\n\
-      \n2nd level (3 slots): [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \n**2nd level (3 slots):** [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
       \ [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md),\
       \ [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md)\n\
-      \n3rd level (3 slots): [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
+      \n**3rd level (3 slots):** [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
       \ [bestow curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/bestow-curse.md),\
       \ [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md)\n\
-      \n4th level (3 slots): [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
+      \n**4th level (3 slots):** [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
       \ [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md)\n\
-      \n5th level (1 slots): [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md)"
+      \n**5th level (1 slots):** [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md)"
     "name": "Spellcasting"
   - "desc": "If the vampire isn't in sunlight or running water, it can use its action\
       \ to polymorph into a Tiny bat or a Medium cloud of mist, or back into its true\
@@ -139,34 +141,34 @@ A vampire chooses a grand yet defensible location for its lair, such as a castle
     "name": "Misty Escape"
   - "desc": "The vampire regains 20 hit points at the start of its turn if it has\
       \ at least 1 hit point and isn't in sunlight or running water. If the vampire\
-      \ takes radiant damage or damage from holy water, this trait doesn't function\
-      \ at the start of the vampire's next turn."
+      \ takes radiant damage or damage from [holy water](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-water-flask.md),\
+      \ this trait doesn't function at the start of the vampire's next turn."
     "name": "Regeneration"
   - "desc": "The vampire can climb difficult surfaces, including upside down on ceilings,\
       \ without needing to make an ability check."
     "name": "Spider Climb"
-  - "desc": "The vampire has the following flaws:\n\n- Forbiddance. The vampire\
+  - "desc": "The vampire has the following flaws:\n\n- **Forbiddance.** The vampire\
       \ can't enter a residence without an invitation from one of the occupants. \
-      \ \n- Harmed by Running Water. The vampire takes 20 acid damage if it ends\
-      \ its turn in running water.  \n- Stake to the Heart. If a piercing weapon\
+      \ \n- **Harmed by Running Water.** The vampire takes 20 acid damage if it ends\
+      \ its turn in running water.  \n- **Stake to the Heart.** If a piercing weapon\
       \ made of wood is driven into the vampire's heart while the vampire is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
       \ in its resting place, the vampire is [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
-      \ until the stake is removed.  \n- Sunlight Hypersensitivity. The vampire\
+      \ until the stake is removed.  \n- **Sunlight Hypersensitivity.** The vampire\
       \ takes 20 radiant damage when it starts its turn in sunlight. While in sunlight,\
       \ it has disadvantage on attack rolls and ability checks  "
     "name": "Vampire Weaknesses"
 "actions":
   - "desc": "The vampire makes two attacks, only one of which can be a bite attack."
     "name": "Multiattack (Vampire Form Only)"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit:\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one creature. *Hit:*\
       \ 8 (1d8 + 4) bludgeoning damage. Instead of dealing damage, the vampire can\
       \ grapple the target (escape DC 18)."
     "name": "Unarmed Strike (Vampire Form Only)"
-  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one willing creature,\
+  - "desc": "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one willing creature,\
       \ or a creature that is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ by the vampire, [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated),\
       \ or [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
-      \ Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) necrotic damage. The\
+      \ *Hit:* 7 (1d6 + 4) piercing damage plus 10 (3d6) necrotic damage. The\
       \ target's hit point maximum is reduced by an amount equal to the necrotic damage\
       \ taken, and the vampire regains hit points equal to that amount. The reduction\
       \ lasts until the target finishes a long rest. The target dies if this effect\
@@ -191,10 +193,25 @@ A vampire chooses a grand yet defensible location for its lair, such as a castle
       \ or [rats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-rats.md),\
       \ provided that the sun isn't up. While outdoors, the vampire can call 3d6\
       \ [wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wolf.md) instead.\
-      \ The called creatures arrive in d4 rounds, acting as allies of the vampire\
+      \ The called creatures arrive in 1d4 rounds, acting as allies of the vampire\
       \ and obeying its spoken commands. The beasts remain for 1 hour, until the vampire\
       \ dies, or until the vampire dismisses them as a bonus action."
     "name": "Children of the Night (1/Day)"
+"regional_effects":
+  - "desc": "The region surrounding a vampire's lair is warped by the creature's unnatural\
+      \ presence, creating any of the following effects:\n\n- There's a noticeable\
+      \ increase in the populations of bats, rats, and wolves in the region.  \n-\
+      \ Plants within 500 feet of the lair wither, and their stems and branches become\
+      \ twisted and thorny.  \n- Shadows cast within 500 feet of the lair seem abnormally\
+      \ gaunt and sometimes move as though alive.  \n- A creeping fog clings to the\
+      \ ground within 500 feet of the vampire's lair. The fog occasionally takes eerie\
+      \ forms, such as grasping claws and writhing serpents.  \n\nIf the vampire is\
+      \ destroyed, these effects end after 2d6 days."
+    "name": ""
+"legendary_description": "Legendary Action Uses: 3. Immediately after another creature's\
+  \ turn, the vampire spellcaster can expend a use to take one of the following actions.\
+  \ The vampire spellcaster regains all expended uses at the start of each of its\
+  \ turns."
 "legendary_actions":
   - "desc": "The vampire moves up to its speed without provoking opportunity attacks."
     "name": "Move"
@@ -202,20 +219,6 @@ A vampire chooses a grand yet defensible location for its lair, such as a castle
     "name": "Unarmed Strike"
   - "desc": "The vampire makes one bite attack."
     "name": "Bite (Costs 2 Actions)"
-"regional_effects":
-  - "desc": "The region surrounding a vampire's lair is warped by the creature's unnatural\
-      \ presence, creating any of the following effects:"
-    "name": ""
-  - "desc": "- There's a noticeable increase in the populations of bats, rats, and\
-      \ wolves in the region.  \n- Plants within 500 feet of the lair wither, and\
-      \ their stems and branches become twisted and thorny.  \n- Shadows cast within\
-      \ 500 feet of the lair seem abnormally gaunt and sometimes move as though alive.\
-      \  \n- A creeping fog clings to the ground within 500 feet of the vampire's\
-      \ lair. The fog occasionally takes eerie forms, such as grasping claws and writhing\
-      \ serpents.  "
-    "name": ""
-  - "desc": "If the vampire is destroyed, these effects end after 2d6 days."
-    "name": ""
 "source":
   - "MM"
 "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/vampire-spellcaster.webp"

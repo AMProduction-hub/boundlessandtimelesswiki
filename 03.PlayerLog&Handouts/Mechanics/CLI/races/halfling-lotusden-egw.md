@@ -1,17 +1,18 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-race
+cssclasses:
+- json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/egw
 - ttrpg-cli/race/halfling/lotusden
 aliases:
-- Halfling (Lotusden)
+- "Halfling (Lotusden)"
 ---
 # Halfling (Lotusden)
 *Source: Explorer's Guide to Wildemount p. 164*  
 ![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/halfling-lotusden.webp#right)
 
-- **Ability Scores**: Wisdom +1
+- **Ability Scores**: wis +1
 - **Size**: Small
 - **Speed**: 25 ft.
 - **Spellcasting**: Wisdom

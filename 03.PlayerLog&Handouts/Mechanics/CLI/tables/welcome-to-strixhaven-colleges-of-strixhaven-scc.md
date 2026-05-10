@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scc
 aliases:
-- Welcome to Strixhaven; Colleges of Strixhaven
+- "Welcome to Strixhaven; Colleges of Strixhaven"
 ---
 # Welcome to Strixhaven; Colleges of Strixhaven
 *Source: Strixhaven: A Curriculum of Chaos p. 4* 

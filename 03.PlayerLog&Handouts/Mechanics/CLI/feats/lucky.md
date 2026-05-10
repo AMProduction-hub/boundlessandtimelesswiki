@@ -1,14 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-feat
+cssclasses:
+- json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/feat
 aliases:
-- Lucky
+- "Lucky"
 ---
 # Lucky
 *Source: Player's Handbook p. 167*  
+
 You have inexplicable luck that seems to kick in at just the right moment.
 
 You have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one luck point to roll an additional `d20`. You can choose to spend one of your luck points after you roll the die, but before the outcome is determined. You choose which of the `d20`s is used for the attack roll, ability check, or saving throw.

@@ -1,10 +1,11 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/jttrc
 aliases:
-- Written in Blood
+- "Written in Blood"
 ---
 # Written in Blood
 *Source: Journeys through the Radiant Citadel, p. 34* 
@@ -49,7 +50,7 @@ The Godsbreath Pronunciations table shows how to pronounce key names in this adv
 
 ### Setting the Adventure
 
-![Enchanted farmers attack A...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/021-03-001-enchanted-farmers-attack.webp#center "Enchanted farmers attack Aunt Dellie on the streets of Promise")
+![Enchanted farmers attack Aunt Dellie on the streets of Promise](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/021-03-001-enchanted-farmers-attack.webp#center)
 
 Use the following suggestions to help contextualize Godsbreath in a wider world:
 
@@ -290,7 +291,7 @@ Uncle Polder allows the characters to rest at his home as long as they please. W
 
 ## Fallen Farmhouse
 
-![Workers have vanished from...](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/024-03-004-x-farmhouses.webp#center "Workers have vanished from several farmhouses that bear conspicuous X marks")
+![Workers have vanished from several farmhouses that bear conspicuous X marks](03.PlayerLog&Handouts/Mechanics/CLI/adventures/journeys-through-the-radiant-citadel/img/024-03-004-x-farmhouses.webp#center)
 
 As the characters continue on their journey, they notice the environment changing around them after only another hour of travel. After they've traveled about a mile from Uncle Polder's home, read or paraphrase the following description:
 
@@ -305,7 +306,7 @@ A character who succeeds on a DC 14 Intelligence ([Nature](03.PlayerLog&Handouts
 
 ### Sinister Sinkhole
 
-After another 10 minutes of travel, another tremor shakes the ground. This time, the tremor causes a 10-foot-square, 10-foot-deep sinkhole to open beneath [Lady Dre](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lady-dre-jttrc.md)'s wagon (or a random character if [Lady Dre](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lady-dre-jttrc.md) isn't with the party). Each creature in the area must succeed on a DC 15 Dexterity saving throw or fall 10 feet, taking 3 (`d6`) bludgeoning damage. Characters who said they would be mindful of sinkholes or unstable ground after the previous tremor have advantage on this saving throw.
+After another 10 minutes of travel, another tremor shakes the ground. This time, the tremor causes a 10-foot-square, 10-foot-deep sinkhole to open beneath [Lady Dre](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lady-dre-jttrc.md)'s wagon (or a random character if [Lady Dre](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/lady-dre-jttrc.md) isn't with the party). Each creature in the area must succeed on a DC 15 Dexterity saving throw or fall 10 feet, taking 3 (`1d6`) bludgeoning damage. Characters who said they would be mindful of sinkholes or unstable ground after the previous tremor have advantage on this saving throw.
 
 Any creature at the bottom of the hole finds they're not alone. Four [crawling claws](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/crawling-claw.md) scrabble free from the dirt at the bottom of the pit and attack any creatures within. After the Undead are dispatched, any character who examines the disembodied hands and succeeds on a DC 16 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check can tell that the creatures were digging through the loose earth—though it's not clear to what end.
 
@@ -320,8 +321,6 @@ As the characters approach the nearest farm, they find the surrounding fields ov
 Nearly all the houses have been sloppily painted with a large and muddy red *X*. The interiors of these farmhouses are utilitarian, featuring only a few rooms for sleeping and a small kitchen. No creatures are within, and the accumulation of dust makes it clear no one's disturbed the rooms for some time. Every farmhouse bears a sign that something's wrong. Roll on the Farmhouse Conditions table for each building to determine what.
 
 **Farmhouse Conditions**
-
-`dice: [](04-written-in-blood.md#^farmhouse-conditions)`
 
 | dice: d4 | Condition |
 |----------|-----------|
@@ -571,8 +570,6 @@ Most people in Godsbreath worship one or more of the Covenant gods, who worked t
 Consider the plots on the Godsbreath Adventures table when planning adventures in Godsbreath.
 
 **Godsbreath Adventures**
-
-`dice: [](04-written-in-blood.md#^godsbreath-adventures)`
 
 | dice: d4 | Adventure |
 |----------|-----------|

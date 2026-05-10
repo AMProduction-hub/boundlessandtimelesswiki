@@ -1,17 +1,16 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-note
+cssclasses:
+- json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 aliases:
-- 50 gp Gemstones
+- "50 gp Gemstones"
 ---
 # 50 gp Gemstones
 *Source: Dungeon Master's Guide p. 134* 
 
 **50 gp Gemstones**
-
-`dice: [](50-gp-gemstones.md#^50-gp-gemstones)`
 
 | dice: d12 | Stone Description |
 |-----------|-------------------|

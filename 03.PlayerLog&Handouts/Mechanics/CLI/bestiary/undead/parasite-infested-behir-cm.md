@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-cssclasses: json5e-monster
+cssclasses:
+- json5e-monster
 tags:
 - ttrpg-cli/compendium/src/5e/cm
 - ttrpg-cli/monster/cr/11
@@ -9,9 +10,9 @@ tags:
 statblock: inline
 statblock-link: "#^statblock"
 aliases:
-- Parasite-infested Behir
+- "Parasite-infested Behir"
 ---
-# [Parasite-infested Behir](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/parasite-infested-behir-cm.md)
+# [Parasite-infested Behir](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/parasite-infested-behir-cm.md)
 *Source: Candlekeep Mysteries p. 220*  
 
 When a parasite-infested behir roars or discharges their lightning breath, thousands of gray, parasitic blood worms can be seen writhing inside their mouths. Targeting the behir with magic that removes a disease kills off its blood parasites.
@@ -40,17 +41,18 @@ When a parasite-infested behir roars or discharges their lightning breath, thous
   - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
     "desc": "+7"
 "damage_immunities": "lightning"
-"senses": "darkvision 90 ft., passive Perception 16"
+"senses": "[darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)\
+  \ 90 ft., passive Perception 16"
 "languages": "Draconic"
 "cr": "11"
 "actions":
   - "desc": "The behir makes two attacks: one with its bite and one to constrict."
     "name": "Multiattack"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:*\
       \ 22 (3d10 + 6) piercing damage."
     "name": "Bite"
-  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one Large or smaller\
-      \ creature. Hit: 17 (2d10 + 6) bludgeoning damage plus 17 (2d10 + 6) slashing\
+  - "desc": "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one Large or smaller\
+      \ creature. *Hit:* 17 (2d10 + 6) bludgeoning damage plus 17 (2d10 + 6) slashing\
       \ damage. The target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
       \ (escape DC 16) if the behir isn't already constricting a creature, and the\
       \ target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
