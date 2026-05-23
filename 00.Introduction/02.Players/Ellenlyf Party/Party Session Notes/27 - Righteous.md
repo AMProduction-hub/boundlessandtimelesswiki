@@ -163,15 +163,34 @@ Not for long [[HAWA]] & [[Minerva]] met with [[Asep]] & Lora, [[HAWA]] then talk
 
 Not for long, [[Radovan Czeslav Voss]] came and met with [[HAWA]], [[Minerva]], [[Asep]] and he said that all of them have been marked by the Black Hood Society, a ship landed in the lake Zarovich, a Ghostly Remains and battle remains in the area close the lake Zarovich, and of course [[Minerva]] casting spells inside the library that the voice when she cast can be heard from the outside.
 
-[[Minerva]] in the instant she cast [[polymorph|Polymorph]] and turn [[Radovan Czeslav Voss]] into a frog and kept it in a jar. Then [[HAWA]] ask them to follow her to the Crown Prince's study since there is some documents that she needs to take and then they move outside to the hallway, [[HAWA]] move her hands and everyone inside heard a firework and not for long a shockwave follows knocking [[Minerva]] and [[Asep]] at the same time then [[HAWA]] help them get up then all of them running towards the castle walls there is [[Verdian Suyanti|Venty]] waiting for them with a rope and to climb down. [[Minerva]] goes down first, and then [[HAWA]] followed by [[Verdian Suyanti|Venty]] when [[Asep]] try to going down a mist of bats appears getting closer to [[Asep]] and then it become a pale woman who struck her swords towards [[Asep]] and piercing him, [[Asep]] reacting with [[thunderwave|Thunderwave]] to buy some times to climb down the ropes, when [[Asep]] already climbed down he met with [[Froggo]] & [[Kairos]] too. Then [[HAWA]] told them let's go to the city sewer  where Thieves Guild at to lay low.  
+[[Minerva]] in the instant she cast [[polymorph|Polymorph]] and turn [[Radovan Czeslav Voss]] into a frog and kept it in a jar. Then [[HAWA]] ask them to follow her to the Crown Prince's study since there is some documents that she needs to take and then they move outside to the hallway, [[HAWA]] move her hands and everyone inside heard a firework and not for long a shockwave follows knocking [[Minerva]] and [[Asep]] at the same time then [[HAWA]] help them get up then all of them running towards the castle walls there is [[Verdian Suyanti|Venty]] waiting for them with a rope and to climb down. [[Minerva]] goes down first, and then [[HAWA]] followed by [[Verdian Suyanti|Venty]] when [[Asep]] try to going down a mist of bats appears getting closer to [[Asep]] and then it become a pale woman who struck her swords towards [[Asep]] and piercing him, [[Asep]] reacting with [[thunderwave|Thunderwave]] to buy some times then [[Asep]] jumps and tried to catch the ropes midair, when [[Asep]] already climbed down he met with [[Froggo]] & [[Kairos]] too. Then [[HAWA]] told them let's go to the city sewer  where Thieves Guild at to lay low.  
 
 ##### Minerva
+*Almost the same as the player's note but take some notes from [[Asep]] encounter*
+
+###### T-48 Festival 
+[[HAWA]] & [[Minerva]] take the stairs up and then said to [[Minerva]] is that guard is someone we knows then [[Minerva]] said she is not sure while it was [[Asep]] using his [[disguise-self|Disguise Self]] when both get close, [[Minerva]] pissed because [[Asep]] choose inaction rather than blantantly  helping her and [[HAWA]] then [[Minerva]] & [[HAWA]] proceed to the library.
+
+Inside the library [[Minerva]] cast [[hallucinatory-terrain|Hallucinatory Terrain]] inside the library. Not for long [[HAWA]] then told [[Minerva]] she already found what she is looking for and wanted to proceed to the Crown Prince's study.
+
+*Follows what are in the Asep notes*
+
 ##### Venty
-[[Verdian Suyanti|Venty]] received a memo by the Silent Inn Innkeeper saying that [[HAWA]] 
+[[Verdian Suyanti|Venty]] received a memo by the Silent Inn Innkeeper saying that [[HAWA]] is needed help and she already prepare some merchandise near the Vallaki's Castle wall. [[Verdian Suyanti|Venty]] goes there in an instant.
+
+###### T-49 Festival
+[[Verdian Suyanti|Venty]] found a small bag containing Scroll [[gate|Gate]], a [[grappling-hook|Grappling Hook]] and a memo. It mentioned that [[Verdian Suyanti|Venty]] can use either but the most subtle way is [[grappling-hook|Grappling Hook]] since Scroll [[gate|Gate]] isn't very subtle and told him to wait for firework signal. [[Verdian Suyanti|Venty]] use this time to try to hook the [[grappling-hook|Grappling Hook]] to scale the castle wall which he do multiple time because he is failed until the last time it succeed. And then he wait until the firework appears
+
+###### T-48 Festival
+[[Verdian Suyanti|Venty]] tried to scale the wall but when he scale it a shockwave shock him he able to hold tightly to the rope and continue to scale up to the wall. [[HAWA]], [[Minerva]], and [[Asep]] appears and then all of them goes down together. [[HAWA]] ask them to go to the sewer.
 
 #### Sephire's Perspective
 ##### T-30 to Festival
+[[Sephire]] tried to check his bags again and he tried to read the book he takes. *Check Player's Note!*
+[[Sephire]] and [[ADAM|Warga Lokal]] rode [[Sephire]]'s horse while [[ADAM|Warga Lokal]] become a bat that sit close to [[Sephire]].
+
 ##### T-12 To Festival
+[[Sephire]] closing to Vallaki vicinity and he saw a lot of flair in the city from the outside
 
 ## Key Learnings
 

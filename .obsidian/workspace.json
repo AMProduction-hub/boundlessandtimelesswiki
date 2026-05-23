@@ -310,6 +310,39 @@
               "icon": "lucide-file",
               "title": "_index"
             }
+          },
+          {
+            "id": "af6b3013c52dfe03",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/26 - Path Of Righteousness.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "26 - Path Of Righteousness"
+            }
           }
         ],
         "currentTab": 2
@@ -655,7 +688,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -683,13 +716,14 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "efdf3b66e290fbe6",
+  "active": "e9ad397d83e48c4e",
   "lastOpenFiles": [
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/26 - Path Of Righteousness.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/27 - Righteous.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/Vallaki.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md",
     "01.Into The Stories/_index.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/27 - Righteous.md",
     "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/galvan-magen-idrotf.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/four-armed-statue-oota.md",
@@ -710,7 +744,6 @@
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/ancient-titan-tob1-2023.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/psionics/vanish-for-one-fleemortals.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/psionics/sickening-sympathy-fleemortals.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/psionics/shockwave-fleemortals.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/psionics",
     "03.PlayerLog&Handouts/Mechanics/CLI/items/img/visionarys-cloak.webp",
     "03.PlayerLog&Handouts/Mechanics/CLI/items/img/sun-eaters-soul.webp",
