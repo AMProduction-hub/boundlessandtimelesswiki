@@ -1,0 +1,16 @@
+---
+obsidianUIMode: preview
+cssclasses:
+- json5e-feat
+tags:
+- ttrpg-cli/compendium/src/5e/fleemortals
+- ttrpg-cli/optional-feature/oaf
+aliases:
+- "Pack Tactics"
+---
+# Pack Tactics
+*Source: Flee, Mortals! p. 44*  
+
+**Prerequisite**: Lion
+
+The wildcat has advantage on an attack roll against a creature if at least one of the wildcat's allies is within 5 feet of the target and the ally isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).

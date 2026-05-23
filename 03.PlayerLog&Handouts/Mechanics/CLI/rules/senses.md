@@ -3,6 +3,7 @@ obsidianUIMode: preview
 cssclasses:
 - json5e-note
 tags:
+- ttrpg-cli/compendium/src/5e/fleemortals
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
@@ -19,6 +20,11 @@ A creature with blindsight can perceive its surroundings without relying on sigh
 _Source: Player's Handbook p. 183. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)_
 
 Many creatures in fantasy gaming worlds, especially those that dwell underground, have darkvision. Within a specified range, a creature with darkvision can see in dim light as if it were bright light and in darkness as if it were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, the creature can't discern color in that darkness, only shades of gray.
+
+## Soulsight
+_Source: Flee, Mortals! p. 56_
+
+Demons have a special sense called soulsight, allowing them to perceive each creature, other than Constructs and Undead, within a certain radius. Soulsight doesn't rely on sight but counts as "seeing" for features that require sight. Neither physical objects (including total cover) nor supernatural effects can impede soulsight unless otherwise stated. A demon's stat block lists the radius of their soulsight under "Senses."
 
 ## Tremorsense
 _Source: Monster Manual p. 9. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)_

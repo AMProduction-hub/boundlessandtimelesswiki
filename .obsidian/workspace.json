@@ -75,10 +75,94 @@
             "id": "efdf3b66e290fbe6",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
                 {
+                  "title": "Froggo",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Froggo.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"Froggo\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":26},\"to\":{\"line\":13,\"ch\":26}},\"scroll\":0}"
+                },
+                {
                   "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "26 - Path Of Righteousness",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/26 - Path Of Righteousness.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"26 - Path Of Righteousness\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
+                },
+                {
+                  "title": "27 - Righteous",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/27 - Righteous.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"27 - Righteous\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":13},\"to\":{\"line\":15,\"ch\":13}},\"scroll\":0}"
+                },
+                {
+                  "title": "27 - Righteous 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/27 - Righteous 1.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"27 - Righteous 1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
+                },
+                {
+                  "title": "27 - Righteous",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/27 - Righteous.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"27 - Righteous\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
+                },
+                {
+                  "title": "26 - Path Of Righteousness",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/26 - Path Of Righteousness.md\",\"mode\":\"preview\",\"source\":true,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"26 - Path Of Righteousness\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "_index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01.Into The Stories/_index.md\",\"mode\":\"preview\",\"source\":true,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"_index\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "26 - Path Of Righteousness",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/26 - Path Of Righteousness.md\",\"mode\":\"preview\",\"source\":true,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"26 - Path Of Righteousness\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "_index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/_index.md\",\"mode\":\"preview\",\"source\":true,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"_index\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "_index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/_index.md\",\"mode\":\"preview\",\"source\":true,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"_index\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "_index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/_index.md\",\"mode\":\"preview\",\"source\":true,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"_index\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "_index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01.Into The Stories/_index.md\",\"mode\":\"preview\",\"source\":true,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"_index\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "strahd-von-zarovich-cos",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/strahd-von-zarovich-cos.md\",\"mode\":\"preview\",\"source\":true,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"strahd-von-zarovich-cos\"}",
+                  "eState": "{\"scroll\":51.67857142857143}"
+                },
+                {
+                  "title": "27",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/27.md\",\"mode\":\"preview\",\"source\":true,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"27\"}",
                   "eState": "{}"
                 },
                 {
@@ -158,9 +242,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/27.md",
-                "mode": "preview",
-                "source": true,
+                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/27 - Righteous.md",
+                "mode": "source",
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -173,7 +257,58 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "27"
+              "title": "27 - Righteous"
+            }
+          },
+          {
+            "id": "84f33003f8a9bc9b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Vallaki",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/Vallaki.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"Vallaki\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "_index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"_index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":113.46744791666667}"
+                },
+                {
+                  "title": "_index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01.Into The Stories/_index.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"_index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/_index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "_index"
             }
           }
         ],
@@ -227,7 +362,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "vampire Flee Mortals",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -475,7 +610,6 @@
             "state": {
               "type": "ttrpg-soundboard-view",
               "state": {
-                "folderA": "z_Assets/Soundboard/Pillars of Eternity",
                 "activeSlot": "A"
               },
               "icon": "music",
@@ -521,12 +655,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 476.5,
-    "collapsed": true
+    "width": 455.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -552,52 +685,52 @@
   },
   "active": "efdf3b66e290fbe6",
   "lastOpenFiles": [
-    "00.DM Screen/DC Check House Rules Difficulty List.md",
-    "00.DM Screen/_index.md",
-    "NewNPC.md",
-    "00.DM Screen/DM Screen.md",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/27.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/Radovan Czeslav Voss.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/ADAM.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/Alexander.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/Vallaki.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Plot Items/Deep Purple Netherstone.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/Vallaki.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md",
+    "01.Into The Stories/_index.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/27 - Righteous.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/galvan-magen-idrotf.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/four-armed-statue-oota.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/flying-sword.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/fiendish-flesh-golem-bgdia.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/fellforged-tob1-2023.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-object-tiny.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-object-large.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-chained-library-cm.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-armor.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/winged-lion-mot.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/winged-felidar-ggr.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/winged-bull-mot.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/sunfly-mpp.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/archon-of-the-triumvirate-ggr.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/archon-of-falling-stars-mot.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/archaic-scc.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/ancient-titan-tob1-2023.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/psionics/vanish-for-one-fleemortals.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/psionics/sickening-sympathy-fleemortals.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/psionics/shockwave-fleemortals.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/psionics",
+    "03.PlayerLog&Handouts/Mechanics/CLI/items/img/visionarys-cloak.webp",
+    "03.PlayerLog&Handouts/Mechanics/CLI/items/img/sun-eaters-soul.webp",
+    "03.PlayerLog&Handouts/Mechanics/CLI/items/img/sun-eaters-mind.webp",
+    "03.PlayerLog&Handouts/Mechanics/CLI/items/img/star-of-iron.webp",
+    "03.PlayerLog&Handouts/Mechanics/CLI/items/img/poison-popper.webp",
+    "03.PlayerLog&Handouts/Mechanics/CLI/items/img/pendant-of-grave-regeneration.webp",
+    "03.PlayerLog&Handouts/Mechanics/CLI/items/img/mindrazor.webp",
+    "03.PlayerLog&Handouts/Mechanics/CLI/items/img/eye-of-sunrise.webp",
+    "03.PlayerLog&Handouts/Mechanics/CLI/books/flee-mortals/img/overkill-illustration.webp",
+    "03.PlayerLog&Handouts/Mechanics/CLI/books/flee-mortals/img/fluff01.webp",
+    "03.PlayerLog&Handouts/Mechanics/CLI/books/flee-mortals/img",
+    "03.PlayerLog&Handouts/Mechanics/CLI/books/flee-mortals",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth.zip",
-    "00.Introduction/02.Players/_index.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/26 - Path Of Righteousness.md",
     "BoundlessandTimeless.zip",
     "02.NPCs&Factions.7z",
     "00.Introduction/02.Players/Ellenlyf Party.zip",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/Boundless&Timeless_EllenlyfFiles.zip",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/Boundless&Timeless_EllenlyfFiles.zip.tmp",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/26 - Path Of Righteousness Filled With Wickedness.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/25 - What Have Been Really Is.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/alien-technology.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/items/deck-of-many-things.md",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/25 - What is Good Really Good.md",
-    "z_Assets/Characters/alexander.png",
-    "z_Assets/Characters/radovan.png",
-    "z_Assets/Characters/Damian.png",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/23 - How Would You Act.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/24 - The Chains.md",
-    "z_Assets/Characters/hawa.png",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/24 - Fracture.md",
     "z_Assets/Soundboard/TheWitcher3/141 - The Witcher 3： Wild Hunt LIVE - Full Concert Soundtrack.mp3",
-    "z_Assets/Soundboard/TheWitcher3/140 - Thronebreaker： The Witcher Tales Soundtrack - Thronebreaker (Main Menu Theme).webp",
-    "z_Assets/Soundboard/TheWitcher3/139 - The Witcher 3： Wild Hunt - Blood and Wine Soundtrack - Main Theme (Polish).webp",
-    "z_Assets/Soundboard/TheWitcher3/138 - Witcher 3 Skellige isles combat alternate.webp",
-    "z_Assets/Soundboard/TheWitcher3/137 - Percival - Staroza.jpg",
-    "z_Assets/Soundboard/TheWitcher3/136 - Percival - Celtic Dance.jpg",
-    "z_Assets/Soundboard/TheWitcher3/135 - Percival - The Feast.jpg",
-    "z_Assets/Soundboard/TheWitcher3/124 - The Witcher 3： Wild Hunt OST (Unreleased Tracks) - Skellige Battle 1.mp3",
-    "z_Assets/Soundboard/TheWitcher3/116 - The Witcher 3： Wild Hunt OST (Unreleased Tracks) - The Fields of Ard Skellig (Midnight).mp3",
-    "z_Assets/Soundboard/TheWitcher3/098 - The Witcher 3： Hearts of Stone - Gaunter O'Dimm Theme (Polish) - Unofficial Soundtrack.mp3",
-    "Excalidraw/Drawing 2026-03-13 22.51.20.excalidraw.md",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.canvas",
     "00 - Introduction/02 - Players/02 - Players.canvas",
     "Untitled.canvas"

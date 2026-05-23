@@ -10,6 +10,7 @@ cssclasses:
 - [Eberron Rising From the Last War](./eberron-rising-from-the-last-war/eberron-rising-from-the-last-war.md)
 - [Explorers Guide to Wildemount](./explorers-guide-to-wildemount/explorers-guide-to-wildemount.md)
 - [Fizbans Treasury of Dragons](./fizbans-treasury-of-dragons/fizbans-treasury-of-dragons.md)
+- [Flee Mortals](./flee-mortals/flee-mortals.md)
 - [Guildmasters Guide to Ravnica](./guildmasters-guide-to-ravnica/guildmasters-guide-to-ravnica.md)
 - [Monster Manual 2014](./monster-manual-2014/monster-manual-2014.md)
 - [Mordenkainen Presents Monsters of the Multiverse](./mordenkainen-presents-monsters-of-the-multiverse/mordenkainen-presents-monsters-of-the-multiverse.md)

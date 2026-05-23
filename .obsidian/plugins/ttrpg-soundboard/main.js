@@ -244,7 +244,7 @@ var AudioEngine = class {
     await this.ensureContext();
     const ctx = this.ctx;
     const id = this.createId();
-    const element = document.createElement("audio");
+    const element = window.activeDocument.createElement("audio");
     element.preload = "auto";
     element.src = this.app.vault.getResourcePath(file);
     element.loop = !!opts.loop;
@@ -306,7 +306,7 @@ var AudioEngine = class {
   async playWithDirectMediaElement(file, opts = {}) {
     var _a, _b;
     const id = this.createId();
-    const element = document.createElement("audio");
+    const element = window.activeDocument.createElement("audio");
     element.preload = "auto";
     element.src = this.app.vault.getResourcePath(file);
     const loop = !!opts.loop;
@@ -1702,6 +1702,7 @@ var NowPlayingView = class extends import_obsidian4.ItemView {
     return {};
   }
   async setState(_state) {
+    void _state;
     await Promise.resolve();
   }
   render() {
@@ -1717,7 +1718,7 @@ var NowPlayingView = class extends import_obsidian4.ItemView {
     }
   }
   renderCard(grid, path) {
-    var _a, _b, _c, _d;
+    var _a, _b;
     const af = this.app.vault.getAbstractFileByPath(path);
     const file = af instanceof import_obsidian4.TFile ? af : null;
     const name = (_b = (_a = file == null ? void 0 : file.basename) != null ? _a : path.split("/").pop()) != null ? _b : path;
@@ -1731,6 +1732,17 @@ var NowPlayingView = class extends import_obsidian4.ItemView {
     else if (isAmbience) card.addClass("ambience");
     card.createDiv({ cls: "ttrpg-sb-now-title", text: name });
     const controls = card.createDiv({ cls: "ttrpg-sb-now-controls" });
+    if (activePlaylistPath) {
+      const playlist = this.findPlaylistByPath(activePlaylistPath);
+      if (playlist) {
+        this.renderPlaylistControls(controls, playlist, activePlaylistPath, file, isPaused);
+        return;
+      }
+    }
+    this.renderSingleControls(controls, file, path, isPaused);
+  }
+  renderSingleControls(controls, file, path, isPaused) {
+    var _a;
     const stopBtn = controls.createEl("button", {
       cls: "ttrpg-sb-stop playing",
       text: "Stop"
@@ -1759,22 +1771,87 @@ var NowPlayingView = class extends import_obsidian4.ItemView {
     volSlider.min = "0";
     volSlider.max = "1";
     volSlider.step = "0.01";
-    if (activePlaylistPath) {
-      const pref = this.plugin.getPlaylistPref(activePlaylistPath);
-      volSlider.value = String((_c = pref.volume) != null ? _c : 1);
-      volSlider.oninput = () => {
-        const v = Number(volSlider.value);
-        this.plugin.setPlaylistVolumeFromSlider(activePlaylistPath, v);
-      };
-    } else {
-      const pref = this.plugin.getSoundPref(path);
-      volSlider.value = String((_d = pref.volume) != null ? _d : 1);
-      this.plugin.registerVolumeSliderForPath(path, volSlider);
-      volSlider.oninput = () => {
-        const v = Number(volSlider.value);
-        this.plugin.setVolumeForPathFromSlider(path, v, volSlider);
-      };
+    const pref = this.plugin.getSoundPref(path);
+    volSlider.value = String((_a = pref.volume) != null ? _a : 1);
+    this.plugin.registerVolumeSliderForPath(path, volSlider);
+    volSlider.oninput = () => {
+      const v = Number(volSlider.value);
+      this.plugin.setVolumeForPathFromSlider(path, v, volSlider);
+    };
+  }
+  renderPlaylistControls(controls, playlist, playlistPath, file, isPaused) {
+    var _a;
+    const prevBtn = controls.createEl("button", {
+      cls: "ttrpg-sb-icon-btn",
+      attr: {
+        type: "button",
+        "aria-label": "Previous track"
+      }
+    });
+    (0, import_obsidian4.setIcon)(prevBtn, "skip-back");
+    prevBtn.onclick = async () => {
+      await this.plugin.prevInPlaylist(playlist);
+    };
+    const pauseBtn = controls.createEl("button", {
+      cls: "ttrpg-sb-icon-btn",
+      attr: {
+        type: "button",
+        "aria-label": isPaused ? "Resume playlist" : "Pause playlist"
+      }
+    });
+    (0, import_obsidian4.setIcon)(pauseBtn, isPaused ? "play" : "pause");
+    pauseBtn.onclick = async () => {
+      if (!file) return;
+      if (isPaused) {
+        await this.plugin.engine.resumeByFile(file, this.plugin.settings.defaultFadeInMs);
+      } else {
+        await this.plugin.engine.pauseByFile(file, this.plugin.settings.defaultFadeOutMs);
+      }
+    };
+    const stopBtn = controls.createEl("button", {
+      cls: "ttrpg-sb-icon-btn",
+      attr: {
+        type: "button",
+        "aria-label": "Stop playlist"
+      }
+    });
+    (0, import_obsidian4.setIcon)(stopBtn, "square");
+    stopBtn.onclick = async () => {
+      await this.plugin.stopPlaylist(playlistPath);
+    };
+    const nextBtn = controls.createEl("button", {
+      cls: "ttrpg-sb-icon-btn",
+      attr: {
+        type: "button",
+        "aria-label": "Next track"
+      }
+    });
+    (0, import_obsidian4.setIcon)(nextBtn, "skip-forward");
+    nextBtn.onclick = async () => {
+      await this.plugin.nextInPlaylist(playlist);
+    };
+    const volSlider = controls.createEl("input", {
+      type: "range",
+      cls: "ttrpg-sb-inline-volume"
+    });
+    volSlider.min = "0";
+    volSlider.max = "1";
+    volSlider.step = "0.01";
+    const pref = this.plugin.getPlaylistPref(playlistPath);
+    volSlider.value = String((_a = pref.volume) != null ? _a : 1);
+    volSlider.oninput = () => {
+      const v = Number(volSlider.value);
+      this.plugin.setPlaylistVolumeFromSlider(playlistPath, v);
+    };
+  }
+  findPlaylistByPath(playlistPath) {
+    for (const folder of this.plugin.library.topFolders) {
+      const content = this.plugin.library.byFolder[folder];
+      if (!content) continue;
+      const playlist = content.playlists.find((pl) => pl.path === playlistPath);
+      if (playlist) return playlist;
     }
+    return null;
   }
 };
 
@@ -1904,6 +1981,8 @@ var DEFAULT_SETTINGS = {
   ambienceVolume: 1,
   simpleView: false,
   folderViewModes: {},
+  tileSizingMode: "fixed-height",
+  tileAspectRatioPreset: "16:9",
   tileHeightPx: 100,
   noteIconSizePx: 40,
   toolbarFourFolders: false,
@@ -2130,13 +2209,44 @@ var SoundboardSettingTab = class extends import_obsidian6.PluginSettingTab {
         });
       }
     }
-    new import_obsidian6.Setting(containerEl).setName("Tile height (px)").setDesc("Adjust thumbnail tile height for the grid.").addSlider(
+    new import_obsidian6.Setting(containerEl).setName("Tile sizing mode").setDesc("Choose whether grid tiles use a fixed height or a fixed aspect ratio.").addDropdown((dd) => {
+      dd.addOption("fixed-height", "Fixed height");
+      dd.addOption("aspect-ratio", "Aspect ratio");
+      dd.setValue(this.plugin.settings.tileSizingMode);
+      dd.onChange((val) => {
+        if (val === "fixed-height" || val === "aspect-ratio") {
+          this.plugin.settings.tileSizingMode = val;
+          this.plugin.applyCssVars();
+          void this.plugin.saveSettings();
+          this.plugin.refreshViews();
+          this.display();
+        }
+      });
+    });
+    const ratioSetting = new import_obsidian6.Setting(containerEl).setName("Tile aspect ratio").setDesc("Used only when tile sizing mode is set to aspect ratio. Images still fill the tile and may crop slightly.").addDropdown((dd) => {
+      dd.addOption("16:9", "16:9");
+      dd.addOption("3:2", "3:2");
+      dd.addOption("4:3", "4:3");
+      dd.addOption("1:1", "1:1");
+      dd.addOption("21:9", "21:9");
+      dd.setValue(this.plugin.settings.tileAspectRatioPreset);
+      dd.onChange((val) => {
+        this.plugin.settings.tileAspectRatioPreset = val;
+        this.plugin.applyCssVars();
+        void this.plugin.saveSettings();
+        this.plugin.refreshViews();
+      });
+    });
+    ratioSetting.setDisabled(this.plugin.settings.tileSizingMode !== "aspect-ratio");
+    const tileHeightSetting = new import_obsidian6.Setting(containerEl).setName("Tile height (px)").setDesc("Adjust thumbnail tile height for the grid.").addSlider(
       (s) => s.setLimits(30, 300, 1).setValue(this.plugin.settings.tileHeightPx).onChange((v) => {
         this.plugin.settings.tileHeightPx = v;
         this.plugin.applyCssVars();
         void this.plugin.saveSettings();
+        this.plugin.refreshViews();
       })
     );
+    tileHeightSetting.setDisabled(this.plugin.settings.tileSizingMode !== "fixed-height");
     new import_obsidian6.Setting(containerEl).setName("Note button icon size (px)").setDesc("Height of images used in note buttons.").addSlider(
       (s) => s.setLimits(16, 128, 1).setValue(this.plugin.settings.noteIconSizePx).onChange((v) => {
         this.plugin.settings.noteIconSizePx = v;
@@ -2534,16 +2644,49 @@ var TTRPGSoundboardPlugin = class extends import_obsidian9.Plugin {
     (_c = this.engine) == null ? void 0 : _c.shutdown();
   }
   // ===== CSS helper =====
+  getStyleDocuments() {
+    const docs = /* @__PURE__ */ new Set();
+    docs.add(window.activeDocument);
+    this.app.workspace.iterateAllLeaves((leaf) => {
+      const doc = leaf.view.containerEl.doc;
+      if (doc) docs.add(doc);
+    });
+    return [...docs];
+  }
+  getTileAspectRatioValue(preset) {
+    if (preset === "16:9") return "16 / 9";
+    if (preset === "3:2") return "3 / 2";
+    if (preset === "4:3") return "4 / 3";
+    if (preset === "1:1") return "1 / 1";
+    if (preset === "21:9") return "21 / 9";
+    return "16 / 9";
+  }
   applyCssVars() {
     var _a, _b;
+    const docs = this.getStyleDocuments();
     const h = Math.max(30, Math.min(400, Number((_a = this.settings.tileHeightPx) != null ? _a : 100)));
-    document.documentElement.style.setProperty("--ttrpg-tile-height", `${h}px`);
+    for (const doc of docs) {
+      doc.documentElement.style.setProperty("--ttrpg-tile-height", `${h}px`);
+    }
     const iconSize = Math.max(12, Math.min(200, Number((_b = this.settings.noteIconSizePx) != null ? _b : 40)));
-    document.documentElement.style.setProperty("--ttrpg-note-icon-size", `${iconSize}px`);
+    for (const doc of docs) {
+      doc.documentElement.style.setProperty("--ttrpg-note-icon-size", `${iconSize}px`);
+    }
+    const aspectRatio = this.getTileAspectRatioValue(this.settings.tileAspectRatioPreset);
+    const useAspectRatio = this.settings.tileSizingMode === "aspect-ratio";
+    for (const doc of docs) {
+      doc.documentElement.style.setProperty("--ttrpg-tile-aspect-ratio", aspectRatio);
+      doc.documentElement.toggleClass(
+        "ttrpg-sb-use-tile-aspect-ratio",
+        useAspectRatio
+      );
+    }
     const setOrRemove = (name, value) => {
       const v = (value != null ? value : "").trim();
-      if (!v) document.documentElement.style.removeProperty(name);
-      else document.documentElement.style.setProperty(name, v);
+      for (const doc of docs) {
+        if (!v) doc.documentElement.style.removeProperty(name);
+        else doc.documentElement.style.setProperty(name, v);
+      }
     };
     const st = this.settings.style;
     setOrRemove("--ttrpg-sb-card-bg-sounds", st.sounds.cardBg);
@@ -3305,25 +3448,26 @@ var TTRPGSoundboardPlugin = class extends import_obsidian9.Plugin {
    * into clickable buttons that trigger playback.
    */
   processNoteButtons(root) {
-    var _a, _b, _c, _d;
+    var _a, _b, _c, _d, _e, _f, _g;
+    const doc = (_a = root.doc) != null ? _a : window.activeDocument;
     const anchors = root.querySelectorAll(
       'a[href^="ttrpg-sound:"], a[href^="ttrpg-playlist:"]'
     );
     for (const a of Array.from(anchors)) {
-      const hrefAttr = (_b = (_a = a.getAttribute("data-href")) != null ? _a : a.getAttribute("href")) != null ? _b : "";
+      const hrefAttr = (_c = (_b = a.getAttribute("data-href")) != null ? _b : a.getAttribute("href")) != null ? _c : "";
       if (!hrefAttr) continue;
       const label = a.textContent || "";
       if (hrefAttr.startsWith("ttrpg-sound:")) {
         const raw = hrefAttr.slice("ttrpg-sound:".length);
         const path = raw.replace(/^\/+/, "");
-        const button = document.createElement("button");
+        const button = doc.createElement("button");
         button.classList.add("ttrpg-sb-stop");
         button.dataset.path = path;
-        const thumbPath = (_c = a.getAttribute("title")) == null ? void 0 : _c.trim();
+        const thumbPath = (_d = a.getAttribute("title")) == null ? void 0 : _d.trim();
         if (thumbPath) {
           const af = this.app.vault.getAbstractFileByPath(thumbPath);
           if (af instanceof import_obsidian9.TFile) {
-            const img = document.createElement("img");
+            const img = doc.createElement("img");
             img.src = this.app.vault.getResourcePath(af);
             img.alt = label;
             button.appendChild(img);
@@ -3346,7 +3490,7 @@ var TTRPGSoundboardPlugin = class extends import_obsidian9.Plugin {
         const raw = hrefAttr.slice("ttrpg-playlist:".length);
         const [rawPlaylistPath, rangeSpec] = raw.split("#", 2);
         const playlistPath = rawPlaylistPath.replace(/^\/+/, "");
-        const button = document.createElement("button");
+        const button = doc.createElement("button");
         button.classList.add("ttrpg-sb-stop");
         button.dataset.playlistPath = playlistPath;
         if (rangeSpec) {
@@ -3363,7 +3507,8 @@ var TTRPGSoundboardPlugin = class extends import_obsidian9.Plugin {
       }
     }
     const pattern = /\[([^\]]+)\]\((ttrpg-sound|ttrpg-playlist):([^")]+)(?:\s+"([^"]+)")?\)/g;
-    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodeFilter = (_f = (_e = doc.defaultView) == null ? void 0 : _e.NodeFilter) != null ? _f : NodeFilter;
+    const walker = doc.createTreeWalker(root, nodeFilter.SHOW_TEXT);
     const textNodes = [];
     let node;
     while (node = walker.nextNode()) {
@@ -3378,27 +3523,27 @@ var TTRPGSoundboardPlugin = class extends import_obsidian9.Plugin {
     for (const textNode of textNodes) {
       const parent = textNode.parentElement;
       if (!parent) continue;
-      const original = (_d = textNode.nodeValue) != null ? _d : "";
+      const original = (_g = textNode.nodeValue) != null ? _g : "";
       let lastIndex = 0;
-      const frag = document.createDocumentFragment();
+      const frag = doc.createDocumentFragment();
       pattern.lastIndex = 0;
       let match;
       while ((match = pattern.exec(original)) !== null) {
         const [full, label, kind, rawPath, thumbPathRaw] = match;
         const before = original.slice(lastIndex, match.index);
         if (before) {
-          frag.appendChild(document.createTextNode(before));
+          frag.appendChild(doc.createTextNode(before));
         }
         if (kind === "ttrpg-sound") {
           const path = rawPath.replace(/^\/+/, "");
-          const button = document.createElement("button");
+          const button = doc.createElement("button");
           button.classList.add("ttrpg-sb-stop");
           button.dataset.path = path;
           const thumbPath = thumbPathRaw == null ? void 0 : thumbPathRaw.trim();
           if (thumbPath) {
             const af = this.app.vault.getAbstractFileByPath(thumbPath);
             if (af instanceof import_obsidian9.TFile) {
-              const img = document.createElement("img");
+              const img = doc.createElement("img");
               img.src = this.app.vault.getResourcePath(af);
               img.alt = label;
               button.appendChild(img);
@@ -3420,7 +3565,7 @@ var TTRPGSoundboardPlugin = class extends import_obsidian9.Plugin {
         } else {
           const [rawPlaylistPath, rangeSpec] = rawPath.split("#", 2);
           const playlistPath = rawPlaylistPath.replace(/^\/+/, "");
-          const button = document.createElement("button");
+          const button = doc.createElement("button");
           button.classList.add("ttrpg-sb-stop");
           button.dataset.playlistPath = playlistPath;
           if (rangeSpec) {
@@ -3439,7 +3584,7 @@ var TTRPGSoundboardPlugin = class extends import_obsidian9.Plugin {
       }
       const after = original.slice(lastIndex);
       if (after) {
-        frag.appendChild(document.createTextNode(after));
+        frag.appendChild(doc.createTextNode(after));
       }
       parent.replaceChild(frag, textNode);
     }

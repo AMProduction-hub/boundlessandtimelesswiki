@@ -7,11 +7,16 @@ cssclasses:
 # Index of Ooze
 
 - [Adult Oblex](./adult-oblex-mpmm.md)
+- [Arcane Amalgam](./arcane-amalgam-fleemortals.md)
 - [Black Pudding](./black-pudding.md)
+- [Blood-Borne Ooze](./blood-borne-ooze-fleemortals.md)
+- [Blood-Borne Ooze Companion](./blood-borne-ooze-companion-fleemortals.md)
 - [Dragonblood Ooze](./dragonblood-ooze-ftd.md)
 - [Elder Black Pudding](./elder-black-pudding-tftyp.md)
 - [Elder Oblex](./elder-oblex-mpmm.md)
 - [Gelatinous Cube](./gelatinous-cube.md)
+- [Gem Jelly](./gem-jelly-fleemortals.md)
+- [Gem Jelly Companion](./gem-jelly-companion-fleemortals.md)
 - [Gray Ooze](./gray-ooze.md)
 - [Gray Ooze (Psychic)](./gray-ooze-psychic.md)
 - [Huge Gray Ooze](./huge-gray-ooze-wdmm.md)

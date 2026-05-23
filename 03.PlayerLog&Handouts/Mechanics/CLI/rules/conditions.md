@@ -3,6 +3,7 @@ obsidianUIMode: preview
 cssclasses:
 - json5e-note
 tags:
+- ttrpg-cli/compendium/src/5e/fleemortals
 - ttrpg-cli/compendium/src/5e/phb
 aliases:
 - "Conditions"
@@ -36,6 +37,15 @@ Normal activity, such as moving and attacking, doesn't interfere with [concentra
 
 The DM might also decide that certain environmental phenomena, such as a wave crashing over you while you're on a storm-tossed ship, require you to succeed on a DC 10 Constitution saving throw to maintain [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) on a spell.
 
+## Dazed
+_Source: Flee, Mortals! p. 1_
+
+A **dazed** creature can only do one of the following things on their turn: move, use an action, or use a bonus action. If a creature becomes dazed during their turn, their turn ends. The cure ailment power, [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md) spell, and [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md) spell remove the dazed condition. At the GM's discretion, other powers, spells, or effects might also remove the dazed condition.
+
+When a dazed creature is affected by a spell or effect that gives them an extra action on their turn (like the [haste](03.PlayerLog&Handouts/Mechanics/CLI/spells/haste.md) spell or the fighter's Action Surge feature), they can still take this extra action, in addition to the movement, action, or bonus action allowed by the dazed condition.
+
+Some creatures in this book have immunity to the dazed condition. At the GM's discretion, a creature published in the core rules or another supplement who has immunity to the paralyzed or stunned condition also has immunity to the dazed condition.
+
 ## Deafened
 _Source: Player's Handbook p. 290, Hunt for the Thessalhydra p. 48. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)_
 
@@ -63,6 +73,11 @@ A creature suffers the effect of its current level of exhaustion as well as all 
 An effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1.
 
 Finishing a long rest reduces a creature's exhaustion level by 1, provided that the creature has also ingested some food and drink. Also, being raised from the dead reduces a creature's exhaustion level by 1.
+
+## Flanked
+_Source: Flee, Mortals! p. 1_
+
+If your game uses the optional flanking rules in the core rules, a creature who is immune to the **flanked** condition can't be flanked regardless of the position of their enemies.
 
 ## Frightened
 _Source: Player's Handbook p. 290, Hunt for the Thessalhydra p. 48. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)_
