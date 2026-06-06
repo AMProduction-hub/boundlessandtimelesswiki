@@ -75,17 +75,23 @@
             "id": "efdf3b66e290fbe6",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Froggo",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Froggo.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"Froggo\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":26},\"to\":{\"line\":13,\"ch\":26}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "28 - Right",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/28 - Right.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"28 - Right\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":34},\"to\":{\"line\":19,\"ch\":34}},\"scroll\":184.01623774509804}"
+                },
+                {
+                  "title": "27 - Righteous",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/27 - Righteous.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"27 - Righteous\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
                 },
                 {
                   "title": "26 - Path Of Righteousness",
@@ -102,7 +108,7 @@
                 {
                   "title": "27 - Righteous 1",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/27 - Righteous 1.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"27 - Righteous 1\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/28 - Right.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"27 - Righteous 1\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
                 },
                 {
@@ -242,7 +248,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/27 - Righteous.md",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/29.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -257,7 +263,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "27 - Righteous"
+              "title": "29"
             }
           },
           {
@@ -718,8 +724,11 @@
   },
   "active": "e9ad397d83e48c4e",
   "lastOpenFiles": [
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/26 - Path Of Righteousness.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes.zip",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/28 - Right.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/29.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/27 - Righteous.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/26 - Path Of Righteousness.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/Vallaki.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md",
@@ -741,9 +750,6 @@
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/archon-of-the-triumvirate-ggr.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/archon-of-falling-stars-mot.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/archaic-scc.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/ancient-titan-tob1-2023.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/psionics/vanish-for-one-fleemortals.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/psionics/sickening-sympathy-fleemortals.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/psionics",
     "03.PlayerLog&Handouts/Mechanics/CLI/items/img/visionarys-cloak.webp",
     "03.PlayerLog&Handouts/Mechanics/CLI/items/img/sun-eaters-soul.webp",

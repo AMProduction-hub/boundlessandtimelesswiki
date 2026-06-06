@@ -20,6 +20,8 @@
     "ambienceVolume": 1,
     "simpleView": true,
     "folderViewModes": {},
+    "tileSizingMode": "fixed-height",
+    "tileAspectRatioPreset": "16:9",
     "tileHeightPx": 100,
     "noteIconSizePx": 40,
     "toolbarFourFolders": false,
@@ -68,7 +70,9 @@
     "z_Assets/Soundboard/BaldursGate3/07 - 05 Baldur's Gate 3 Original Soundtrack - Nine Blades.mp3": {},
     "z_Assets/Soundboard/BaldursGate3/08 - 06 Baldur's Gate 3 Original Soundtrack - Quest For A Cure.mp3": {},
     "z_Assets/Soundboard/BaldursGate3/09 - 07 Baldur's Gate 3 Original Soundtrack - Lead Your Fights.mp3": {},
-    "z_Assets/Soundboard/BaldursGate3/10 - 08  Baldur's Gate 3 Original Soundtrack - Harpy Song (Extended & Remastered).mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/10 - 08  Baldur's Gate 3 Original Soundtrack - Harpy Song (Extended & Remastered).mp3": {
+      "volume": 0.73
+    },
     "z_Assets/Soundboard/BaldursGate3/11 - 09 Baldur's Gate 3 Original Soundtrack - The Weeping Dawn.mp3": {},
     "z_Assets/Soundboard/BaldursGate3/12 - 10 Baldur's Gate 3 Original Soundtrack - Cunning Cruel Crits.mp3": {},
     "z_Assets/Soundboard/BaldursGate3/13 - 11 Baldur's Gate 3 Original Soundtrack - The Cult Of The Absolute.mp3": {},
