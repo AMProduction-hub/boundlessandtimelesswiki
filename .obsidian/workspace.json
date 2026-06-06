@@ -349,9 +349,300 @@
               "icon": "lucide-file",
               "title": "26 - Path Of Righteousness"
             }
+          },
+          {
+            "id": "4448181c2989d74e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HAWA"
+            }
+          },
+          {
+            "id": "c29f748bfe21d412",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "intiative-tracker-encounter-builder",
+              "state": {
+                "encounter": [
+                  [
+                    {
+                      "name": "HAWA",
+                      "size": "Medium",
+                      "type": "humanoid",
+                      "subtype": "elf",
+                      "alignment": "Lawful Good",
+                      "ac": 17,
+                      "hp": 130,
+                      "hit_dice": "14d8 + 30",
+                      "speed": "30 ft",
+                      "stats": [
+                        13,
+                        14,
+                        16,
+                        12,
+                        22,
+                        16
+                      ],
+                      "saves": [
+                        {
+                          "wis": 10
+                        },
+                        {
+                          "cha": 7
+                        },
+                        {
+                          "con": 7
+                        }
+                      ],
+                      "skillsaves": [
+                        {
+                          "insight": 10
+                        },
+                        {
+                          "religion": 6
+                        },
+                        {
+                          "medicine": 10
+                        },
+                        {
+                          "persuasion": 7
+                        },
+                        {
+                          "history": 6
+                        }
+                      ],
+                      "damage_resistances": "radiant",
+                      "senses": "darkvision 60 ft, passive Perception 16",
+                      "languages": "Common, Elvish, Celestial, Sylvan",
+                      "cr": 11,
+                      "traits": [
+                        [
+                          "Fey Ancestry",
+                          "Advantage on saving throws against charmed. Cannot be put to sleep by magic."
+                        ],
+                        [
+                          "Divine Eminence",
+                          "As a bonus action HAWA can expend a spell slot to cause her melee attacks to magically deal an extra 3d6 radiant damage on a hit."
+                        ],
+                        [
+                          "Moon-Blessed",
+                          "HAWA has advantage on all spell attack rolls and saving throw DCs when the moon is visible. In Barovia the moon is always visible — the Stone ensures this."
+                        ],
+                        [
+                          "Unwavering Faith",
+                          "HAWA cannot be frightened or charmed by undead creatures."
+                        ],
+                        [
+                          "Tier 3 Spellcaster",
+                          "Crowd control spells against Tier 2 or lower enemies are automatically successful on the first casting per encounter."
+                        ]
+                      ],
+                      "spellcasting": [
+                        {
+                          "Spellcasting Ability": "Wisdom (save DC 18, +10 to hit)"
+                        },
+                        {
+                          "At Will": "guidance, light, thaumaturgy, spare the dying"
+                        },
+                        {
+                          "1st (4 slots)": "bless, cure wounds, detect magic, sanctuary"
+                        },
+                        {
+                          "2nd (3 slots)": "augury, hold person, lesser restoration, spiritual weapon"
+                        },
+                        {
+                          "3rd (3 slots)": "daylight, mass healing word, spirit guardians"
+                        },
+                        {
+                          "4th (3 slots)": "banishment, death ward, guardian of faith"
+                        },
+                        {
+                          "5th (2 slots)": "commune, greater restoration, mass cure wounds"
+                        },
+                        {
+                          "6th (1 slot)": "heal, blade barrier"
+                        }
+                      ],
+                      "actions": [
+                        [
+                          "Multiattack",
+                          "HAWA makes two Sacred Flame attacks or one melee attack and casts a bonus action spell."
+                        ],
+                        [
+                          "Sacred Flame",
+                          "Ranged spell attack +10 to hit range 60 ft. Hit 3d8 radiant damage. Ignores cover."
+                        ],
+                        [
+                          "Moonbeam Staff",
+                          "+6 to hit reach 5 ft. Hit 1d6+2 bludgeoning + 2d8 radiant damage."
+                        ],
+                        [
+                          "Channel Divinity — Turn Undead (2/rest)",
+                          "Each undead within 30 ft must succeed DC 18 Wisdom save or be turned for 1 minute. Undead of CR 5 or lower are destroyed outright."
+                        ],
+                        [
+                          "Channel Divinity — Moonbeam Strike (2/rest)",
+                          "HAWA calls down concentrated moonlight in a 5ft radius 40ft cylinder. Creatures in the area make DC 18 Constitution save or take 6d10 radiant damage (half on save). Vampires and undead have disadvantage on this save."
+                        ]
+                      ],
+                      "bonus_actions": [
+                        [
+                          "Divine Eminence",
+                          "Expend a spell slot to add 3d6 radiant to next melee attack."
+                        ],
+                        [
+                          "Healing Word (At Will)",
+                          "Expend spell slot to heal one creature within 60 ft — 1d4 + Wisdom modifier per slot level."
+                        ]
+                      ],
+                      "reactions": [
+                        [
+                          "Warding Flare (3/day)",
+                          "When attacked impose disadvantage on the attack roll by interposing moonlight."
+                        ]
+                      ]
+                    },
+                    1
+                  ],
+                  [
+                    {
+                      "name": "Aspect of Selûne",
+                      "size": "Medium",
+                      "type": "celestial",
+                      "alignment": "chaotic good",
+                      "ac": "22 (divine moon armor)",
+                      "hp": "340 (27d8+216)",
+                      "speed": "40 ft., fly 40 ft.",
+                      "stats": [
+                        18,
+                        18,
+                        22,
+                        20,
+                        24,
+                        24
+                      ],
+                      "saves": [
+                        "Con +11",
+                        "Wis +13",
+                        "Cha +13",
+                        "Int +10"
+                      ],
+                      "skillsaves": [
+                        "Arcana +14",
+                        "Insight +13",
+                        "Religion +14",
+                        "Medicine +13",
+                        "Persuasion +13"
+                      ],
+                      "damage_resistances": [
+                        "radiant",
+                        "cold",
+                        "fire"
+                      ],
+                      "condition_immunities": [
+                        "charmed",
+                        "frightened"
+                      ],
+                      "senses": [
+                        "truesight 60 ft.",
+                        "passive Perception 23"
+                      ],
+                      "languages": [
+                        "all",
+                        "telepathy 120 ft."
+                      ],
+                      "cr": 15,
+                      "xp": 13000,
+                      "traits": [
+                        {
+                          "name": "Divine Presence",
+                          "desc": "The Aspect cannot be surprised, magically put to sleep, or unwillingly transformed.\n"
+                        },
+                        {
+                          "name": "Moonlight Ward",
+                          "desc": "Creatures of the Aspect's choice within 30 feet gain advantage on saves against fear and charm.\n"
+                        },
+                        {
+                          "name": "Lunar Distortion",
+                          "desc": "The first attack made against the Aspect each round has disadvantage.\n"
+                        },
+                        {
+                          "name": "Spellcasting",
+                          "desc": "The Aspect is a 15th-level spellcaster. Spellcasting ability: Wisdom (save DC 21, +13 spell attack)\nCantrips (at will): Sacred Flame, Toll the Dead, Guidance, Light, Word of Radiance\n1st level (4 slots): Shield, Bless, Healing Word, Guiding Bolt\n2nd level (3 slots): Misty Step, Moonbeam, Lesser Restoration\n3rd level (3 slots): Spirit Guardians, Counterspell, Revivify\n4th level (3 slots): Banishment, Death Ward, Guardian of Faith\n5th level (2 slots): Wall of Light, Greater Restoration\n6th level (1 slot): Sunbeam\n7th level (1 slot): Plane Shift\n8th level (1 slot): Holy Aura\n"
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "name": "Multiattack",
+                          "desc": "The Aspect makes one Moon Rod attack and casts a cantrip.\n"
+                        },
+                        {
+                          "name": "Moon Rod",
+                          "desc": "Melee Spell Attack: +13 to hit, reach 5 ft., one target\nHit: 19 (3d6+9) radiant damage.\n"
+                        },
+                        {
+                          "name": "Lunar Nova (Recharge 5-6)",
+                          "desc": "Creatures within a 20-foot radius sphere within 120 feet make DC 21 Constitution saves.\nFailure: 38 (8d8) radiant damage and blinded until end of their next turn.\nSuccess: Half damage.\n"
+                        }
+                      ],
+                      "bonus_actions": [
+                        {
+                          "name": "Lunar Step",
+                          "desc": "Teleport up to 30 feet to an area of dim light or moonlight.\n"
+                        }
+                      ],
+                      "reactions": [
+                        {
+                          "name": "Moon Shield",
+                          "desc": "When hit by an attack, the Aspect gains +4 AC until the start of her next turn.\n"
+                        }
+                      ]
+                    },
+                    1
+                  ]
+                ]
+              },
+              "icon": "intiative-tracker-encounter-builder",
+              "title": "Encounter Builder"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -695,6 +986,25 @@
           }
         ],
         "currentTab": 4
+      },
+      {
+        "id": "f63bd8bb180c279b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef31f85e5cf3d0d8",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {
+                "creatureId": "ID_0b1a593a4bc8",
+                "creatureName": "HAWA"
+              },
+              "icon": "initiative-tracker-creature-view",
+              "title": "Combatant"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -724,9 +1034,10 @@
   },
   "active": "e9ad397d83e48c4e",
   "lastOpenFiles": [
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/29.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes.zip",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/28 - Right.md",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/29.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/27 - Righteous.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/26 - Path Of Righteousness.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/_index.md",
@@ -769,7 +1080,6 @@
     "00.Introduction/02.Players/Ellenlyf Party.zip",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/Boundless&Timeless_EllenlyfFiles.zip",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/Boundless&Timeless_EllenlyfFiles.zip.tmp",
-    "z_Assets/Soundboard/TheWitcher3/141 - The Witcher 3： Wild Hunt LIVE - Full Concert Soundtrack.mp3",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.canvas",
     "00 - Introduction/02 - Players/02 - Players.canvas",
     "Untitled.canvas"
