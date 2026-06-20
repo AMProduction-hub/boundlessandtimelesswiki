@@ -640,9 +640,66 @@
               "icon": "intiative-tracker-encounter-builder",
               "title": "Encounter Builder"
             }
+          },
+          {
+            "id": "ba3ca101a53ed8e2",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "faerunian-cyric-scag",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03.PlayerLog&Handouts/Mechanics/CLI/deities/faerunian-cyric-scag.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"faerunian-cyric-scag\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":9.474576271186441}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "29 - The Flashing Lights Of The Wounded",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/29 - The Flashing Lights Of The Wounded.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"29 - The Flashing Lights Of The Wounded\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":61.975260416666664}"
+                },
+                {
+                  "title": "28 - Right",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/28 - Right.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"28 - Right\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
+                },
+                {
+                  "title": "16 - The Divines Will - Bureau Saga",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/16 - The Divines Will - Bureau Saga.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"16 - The Divines Will - Bureau Saga\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/30 - Herald.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "30 - Herald"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -994,10 +1051,19 @@
           {
             "id": "ef31f85e5cf3d0d8",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "initiative-tracker-creature-view",
               "state": {
-                "creatureId": "ID_0b1a593a4bc8",
+                "creatureId": "ID_c98abb19d928",
                 "creatureName": "HAWA"
               },
               "icon": "initiative-tracker-creature-view",
@@ -1032,12 +1098,18 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "e9ad397d83e48c4e",
+  "active": "ba3ca101a53ed8e2",
   "lastOpenFiles": [
+    "03.PlayerLog&Handouts/Mechanics/CLI/deities/faerunian-cyric-scag.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/30 - Herald.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/deities/forgotten-realms-cyric.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/29 - The Flashing Lights Of The Wounded.md",
+    "02.NPCs&Factions/Bureau of Time and Plane/Damian - The Squeeky Devils.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/28 - Right.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/16 - The Divines Will - Bureau Saga.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md",
     "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/29.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes.zip",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/28 - Right.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/27 - Righteous.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/26 - Path Of Righteousness.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/_index.md",
@@ -1055,12 +1127,6 @@
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-chained-library-cm.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-armor.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/winged-lion-mot.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/winged-felidar-ggr.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/winged-bull-mot.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/sunfly-mpp.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/archon-of-the-triumvirate-ggr.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/archon-of-falling-stars-mot.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/archaic-scc.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/psionics",
     "03.PlayerLog&Handouts/Mechanics/CLI/items/img/visionarys-cloak.webp",
     "03.PlayerLog&Handouts/Mechanics/CLI/items/img/sun-eaters-soul.webp",
