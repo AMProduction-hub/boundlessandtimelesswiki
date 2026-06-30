@@ -3,27 +3,32 @@
    Custom CSS for Hugo Book Theme
    ========================================================================== */
 
-/* Import Fantasy Fonts from Google */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
 
 /* ==========================================================================
-   ROOT VARIABLES - D&D Color Palette
+   ROOT VARIABLES
    ========================================================================== */
 
-/* Color Palette - Easy to customize! */
 :root {
-  --parchment: #f4e8d0;
+  --parchment:      #f4e8d0;
   --parchment-dark: #e8dcc4;
-  --ink-dark: #2c1810;
-  --ink-brown: #5c3d2e;
-  --gold: #c9a961;
-  --leather: #5c3d2e;
-  --border: #8b6f47;
+  --ink-dark:       #2c1810;
+  --ink-brown:      #5c3d2e;
+  --gold:           #c9a961;
+  --gold-dim:       rgba(201, 169, 97, 0.25);
+  --leather:        #5c3d2e;
+  --border:         #8b6f47;
+  --border-dim:     rgba(139, 111, 71, 0.3);
+
+  /* Character link colours */
+  --pc-color:       #1a5c2e;   /* forest green — player characters */
+  --npc-color:      #5c1a5c;   /* purple — NPCs */
+  --loc-color:      #1a3d5c;   /* dark blue — locations */
 }
 
-/* ==========================================
-   BACKGROUND - Parchment Paper
-   ========================================== */
+/* ==========================================================================
+   BACKGROUND
+   ========================================================================== */
 
 body {
   background: linear-gradient(to bottom, var(--parchment-dark), var(--parchment));
@@ -33,29 +38,30 @@ body {
 
 .book-page {
   background: var(--parchment);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
-/* ==========================================
-   HEADERS - Ornate Fantasy Style
-   ========================================== */
+/* ==========================================================================
+   TYPOGRAPHY — fixed heading hierarchy (h3/h4 were indistinguishable)
+   ========================================================================== */
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'Cinzel', serif;
   color: var(--ink-dark);
   letter-spacing: 0.05em;
-  font-weight: 700;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
+  font-weight: 700;
   border-bottom: 3px double var(--border);
   padding-bottom: 0.5rem;
   margin-bottom: 1.5rem;
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  font-weight: 600;
   color: var(--ink-brown);
   border-bottom: 2px solid var(--border);
   padding-bottom: 0.3rem;
@@ -64,14 +70,21 @@ h2 {
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.25rem;
+  font-weight: 600;
   color: var(--ink-brown);
   margin-top: 1.5rem;
+  border-left: 3px solid var(--gold);
+  padding-left: 0.6rem;
 }
 
-/* ==========================================
-   BODY TEXT - Readable but Fantasy
-   ========================================== */
+h4 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--ink-brown);
+  margin-top: 1.2rem;
+  font-style: italic;
+}
 
 p, li, td {
   font-family: 'Crimson Text', serif;
@@ -80,14 +93,14 @@ p, li, td {
   color: var(--ink-dark);
 }
 
-/* ==========================================
-   SIDEBAR - Leather Book Spine
-   ========================================== */
+/* ==========================================================================
+   SIDEBAR
+   ========================================================================== */
 
 .book-menu {
   background: linear-gradient(to right, #4a3528, var(--leather));
   border-right: 3px solid var(--gold);
-  box-shadow: inset -5px 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: inset -5px 0 10px rgba(0,0,0,0.3);
 }
 
 .book-menu a {
@@ -104,14 +117,69 @@ p, li, td {
   color: var(--gold) !important;
 }
 
-/* ==========================================
-   TABLES - D&D Stat Block Style
-   ========================================== */
+/* ==========================================================================
+   LINKS — visible wavy underline
+   ========================================================================== */
+
+a {
+  color: #2c4f6f;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: var(--gold);
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #8b1a1a;
+  text-decoration-color: #8b1a1a;
+}
+
+/* ==========================================================================
+   CHARACTER LINKS (npc / pc shortcodes)
+   ========================================================================== */
+
+.char-link {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  font-weight: 600;
+}
+
+.char-link:hover {
+  text-decoration-style: solid;
+}
+
+.char-pc {
+  color: var(--pc-color);
+  text-decoration-color: var(--pc-color);
+}
+
+.char-npc {
+  color: var(--npc-color);
+  text-decoration-color: var(--npc-color);
+}
+
+.char-location {
+  color: var(--loc-color);
+  text-decoration-color: var(--loc-color);
+}
+
+/* Unresolved character — visible warning, never breaks layout */
+.char-missing {
+  color: var(--ink-dark);
+  border-bottom: 2px dashed #b03030;
+  cursor: help;
+}
+
+/* ==========================================================================
+   TABLES — visible borders (was invisible against parchment)
+   ========================================================================== */
 
 table {
   border: 2px solid var(--border);
   background: var(--parchment-dark);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   border-collapse: collapse;
   width: 100%;
   margin: 1.5rem 0;
@@ -128,55 +196,324 @@ th {
   font-weight: 600;
   text-transform: uppercase;
   border-bottom: 2px solid var(--gold);
-  font-size: 0.95rem;
+  border-right: 1px solid var(--border-dim);
+  font-size: 0.9rem;
+  color: var(--parchment);
 }
 
 td {
   padding: 0.7rem;
-  border-bottom: 1px solid rgba(139, 111, 71, 0.3);
+  border-bottom: 1px solid var(--border-dim);
+  border-right: 1px solid var(--border-dim);
 }
 
-tr:nth-child(even) {
-  background: rgba(139, 111, 71, 0.05);
+tr:nth-child(even) { background: rgba(139,111,71,0.05); }
+tr:hover { background: rgba(201,169,97,0.15); transition: background 0.2s ease; }
+td:first-child { font-weight: 600; color: var(--ink-brown); }
+
+/* ==========================================================================
+   BLOCKQUOTES — visible against parchment (was blending in)
+   ========================================================================== */
+
+blockquote {
+  border-left: 4px solid var(--gold);
+  padding: 0.8rem 1.2rem;
+  margin: 1.5rem 0;
+  background: linear-gradient(to right, rgba(201,169,97,0.15), rgba(201,169,97,0.03));
+  font-style: italic;
+  font-family: 'Crimson Text', serif;
+  color: var(--ink-brown);
+  border-radius: 0 4px 4px 0;
 }
 
-tr:hover {
-  background: rgba(201, 169, 97, 0.15);
-  transition: background 0.2s ease;
+blockquote p { color: var(--ink-brown); margin: 0; }
+
+/* ==========================================================================
+   MARKDOWN ALERTS (> [!NOTE] etc.) — Hugo v0.154+ native format
+   These replace the deprecated {{< hint >}} shortcode.
+   ========================================================================== */
+
+.book-hint,
+blockquote.book-hint,
+.markdown-alert {
+  border-radius: 4px;
+  padding: 0.9rem 1.2rem;
+  margin: 1.2rem 0;
+  border-left: 4px solid;
+  font-style: normal;
 }
 
-td:first-child {
+/* NOTE / INFO */
+.markdown-alert-note,
+.book-hint.info {
+  background: rgba(44, 79, 111, 0.08);
+  border-color: #2c4f6f;
+  color: var(--ink-dark);
+}
+
+/* TIP / SUCCESS */
+.markdown-alert-tip,
+.book-hint.tip {
+  background: rgba(26, 92, 46, 0.08);
+  border-color: var(--pc-color);
+  color: var(--ink-dark);
+}
+
+/* IMPORTANT */
+.markdown-alert-important {
+  background: rgba(92, 26, 92, 0.08);
+  border-color: var(--npc-color);
+  color: var(--ink-dark);
+}
+
+/* WARNING / CAUTION */
+.markdown-alert-warning,
+.markdown-alert-caution,
+.book-hint.warning {
+  background: rgba(139, 90, 20, 0.1);
+  border-color: #8b5a14;
+  color: var(--ink-dark);
+}
+
+/* DANGER */
+.book-hint.danger {
+  background: rgba(139, 26, 26, 0.08);
+  border-color: #8b1a1a;
+  color: var(--ink-dark);
+}
+
+.markdown-alert-title {
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.4rem;
+}
+
+/* ==========================================================================
+   INLINE CODE — readable against parchment
+   ========================================================================== */
+
+code {
+  background: rgba(92, 61, 46, 0.12);
+  color: var(--ink-brown);
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  font-size: 0.92em;
+  border: 1px solid var(--border-dim);
+}
+
+pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: inherit;
+}
+
+pre {
+  background: #2c1810;
+  color: var(--parchment);
+  border: 2px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  overflow-x: auto;
+}
+
+/* ==========================================================================
+   SESSION INDEX — auto-generated list styling
+   ========================================================================== */
+
+.session-index {
+  margin-top: 1.5rem;
+}
+
+.session-meta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  background: var(--gold-dim);
+  border: 1px solid var(--border-dim);
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  margin-bottom: 1.5rem;
+  font-family: 'Cinzel', serif;
+  font-size: 0.9rem;
+}
+
+.session-count {
   font-weight: 600;
   color: var(--ink-brown);
 }
 
-/* ==========================================
-   LINKS - Wavy Underline
-   ========================================== */
-
-a {
-  color: #2c4f6f;
-  text-decoration: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: var(--gold);
-  transition: all 0.3s ease;
-}
-
-a:hover {
-  color: #8b1a1a;
-  text-decoration-color: #8b1a1a;
-}
-
-/* ==========================================
-   BLOCKQUOTES - Flavor Text
-   ========================================== */
-
-blockquote {
-  border-left: 4px solid var(--gold);
-  padding: 1rem 1.5rem;
-  margin: 1.5rem 0;
-  background: linear-gradient(to right, rgba(201, 169, 97, 0.1), transparent);
-  font-style: italic;
-  font-family: 'Crimson Text', serif;
+.session-current-arc {
   color: var(--ink-brown);
 }
+
+.saga-group {
+  margin-bottom: 2rem;
+}
+
+.saga-heading {
+  /* overrides the h3 border-left — sagas get a full bar */
+  border-left: none;
+  padding-left: 0;
+  border-bottom: 2px solid var(--border-dim);
+  padding-bottom: 0.3rem;
+}
+
+.session-list {
+  margin-top: 0.75rem;
+}
+
+.session-entry {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--border-dim);
+}
+
+.session-entry:last-child {
+  border-bottom: none;
+}
+
+.session-entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.session-entry-title {
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--ink-brown);
+}
+
+.session-entry-title:hover {
+  color: #8b1a1a;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: var(--gold);
+}
+
+.session-entry-date {
+  font-family: 'Crimson Text', serif;
+  font-size: 0.9rem;
+  color: var(--border);
+  white-space: nowrap;
+}
+
+.session-entry-summary {
+  margin: 0.3rem 0 0;
+  font-size: 0.95rem;
+  color: var(--ink-brown);
+  line-height: 1.5;
+}
+
+/* ==========================================================================
+   PARTY STATUS BAR (session-index layout)
+   ========================================================================== */
+
+.party-status-bar {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.6rem 1rem;
+  background: var(--gold-dim);
+  border: 1px solid var(--border-dim);
+  border-radius: 6px;
+  margin-bottom: 1.2rem;
+  font-family: 'Cinzel', serif;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ink-brown);
+}
+
+.party-members {
+  font-family: 'Crimson Text', serif;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: var(--ink-dark);
+}
+
+/* ==========================================================================
+   LATEST SESSION CARD (latest-session shortcode)
+   ========================================================================== */
+
+.latest-session-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.9rem 1.2rem;
+  background: var(--gold-dim);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  margin: 1rem 0;
+}
+
+.latest-label {
+  font-family: 'Cinzel', serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--border);
+}
+
+.latest-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--ink-brown);
+  text-decoration: none;
+}
+
+.latest-title:hover { color: #8b1a1a; }
+
+.latest-saga {
+  font-family: 'Crimson Text', serif;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--border);
+}
+
+.latest-summary {
+  font-family: 'Crimson Text', serif;
+  font-size: 0.95rem;
+  color: var(--ink-dark);
+  margin: 0.2rem 0 0;
+  line-height: 1.5;
+}
+
+/* ==========================================================================
+   MISC FIXES
+   ========================================================================== */
+
+/* Search input — barely visible on parchment */
+.book-search input {
+  background: rgba(255,255,255,0.7);
+  border: 1px solid var(--border);
+  color: var(--ink-dark);
+  border-radius: 4px;
+  padding: 0.4rem 0.8rem;
+}
+
+/* HR — too faint */
+hr {
+  border: none;
+  border-top: 2px solid var(--border-dim);
+  margin: 2rem 0;
+}
+
+/* Strong/bold — same weight as body was hard to notice */
+strong, b {
+  font-weight: 700;
+  color: var(--ink-dark);
+}
+
+/* Emoji in headings — don't inherit Cinzel */
+h1 .emoji, h2 .emoji, h3 .emoji { font-family: sans-serif; }

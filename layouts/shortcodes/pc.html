@@ -1,0 +1,20 @@
+{{/*
+  Alias of the npc shortcode — use for player characters.
+  Usage: {{< pc "Sephire" >}}
+  Usage: {{< pc "Froggo" >}}
+*/}}
+{{ $name    := .Get 0 }}
+{{ $display := .Get 1 | default $name }}
+{{ $chars   := site.Data.characters }}
+{{ $entry   := index $chars $name }}
+
+{{ if $entry }}
+  {{ $page := site.GetPage $entry.path }}
+  {{ if $page }}
+    <a href="{{ $page.RelPermalink }}" class="char-link char-{{ $entry.type }}">{{ $display }}</a>
+  {{ else }}
+    <strong class="char-missing" title="Page not found: {{ $entry.path }}">{{ $display }}</strong>
+  {{ end }}
+{{ else }}
+  <strong class="char-missing" title="Not in data/characters.yaml: {{ $name }}">{{ $display }}</strong>
+{{ end }}

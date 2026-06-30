@@ -1,0 +1,213 @@
+# =============================================================
+# data/characters.yaml
+# Central registry for all NPCs and Player Characters.
+# Used by the {{< npc "Name" >}} and {{< pc "Name" >}} shortcodes.
+#
+# FORMAT:
+#   "Display Name":
+#     path: /path/to/page    (relative to content/, no .md)
+#     type: pc | npc | location
+#
+# HOW TO ADD A NEW CHARACTER:
+#   1. Create their .md file in Hugo content/
+#   2. Add one entry here
+#   3. Use {{< npc "Name" >}} anywhere — Hugo finds the page
+# =============================================================
+
+# ── Player Characters — Ellenlyf ──────────────────────────────
+
+"Sephire":
+  path: /campaigns/boundless-and-timeless/player-characters/sephire
+  type: pc
+
+"Kairos":
+  path: /campaigns/boundless-and-timeless/player-characters/kairos
+  type: pc
+
+"Froggo":
+  path: /campaigns/boundless-and-timeless/player-characters/froggo
+  type: pc
+
+"Minerva":
+  path: /campaigns/boundless-and-timeless/player-characters/minerva
+  type: pc
+
+"Verdian Suyanti":
+  path: /campaigns/boundless-and-timeless/player-characters/verdian-suyanti
+  type: pc
+
+"Asep":
+  path: /campaigns/boundless-and-timeless/player-characters/asep
+  type: pc
+
+# ── Player Characters — C'est La Vie ──────────────────────────
+
+"Gwyn":
+  path: /campaigns/boundless-and-timeless/player-characters/gwyn
+  type: pc
+
+"Ashenka Rois":
+  path: /campaigns/boundless-and-timeless/player-characters/ashenka-rois
+  type: pc
+
+"Whisky":
+  path: /campaigns/boundless-and-timeless/player-characters/whisky
+  type: pc
+
+"Alizar Valts":
+  path: /campaigns/boundless-and-timeless/player-characters/alizar-valts
+  type: pc
+
+"Jeno":
+  path: /campaigns/boundless-and-timeless/player-characters/jeno
+  type: pc
+
+"Klir":
+  path: /campaigns/boundless-and-timeless/player-characters/klir
+  type: pc
+
+# ── NPCs — Aruendel ───────────────────────────────────────────
+
+"The Daughter":
+  path: /campaigns/boundless-and-timeless/npcs/aruendel/the-daughter
+  type: npc
+
+"Elira":
+  path: /campaigns/boundless-and-timeless/npcs/aruendel/the-daughter
+  type: npc
+
+"The Don Quixote":
+  path: /campaigns/boundless-and-timeless/npcs/aruendel/the-don-quixote
+  type: npc
+
+"The Mother":
+  path: /campaigns/boundless-and-timeless/npcs/aruendel/the-mother
+  type: npc
+
+"Selaveth":
+  path: /campaigns/boundless-and-timeless/npcs/aruendel/the-mother
+  type: npc
+
+"The Paladin":
+  path: /campaigns/boundless-and-timeless/npcs/aruendel/the-paladin
+  type: npc
+
+"Ser Aldric":
+  path: /campaigns/boundless-and-timeless/npcs/aruendel/the-paladin
+  type: npc
+
+"Aldric":
+  path: /campaigns/boundless-and-timeless/npcs/aruendel/the-paladin
+  type: npc
+
+# ── NPCs — Bureau of Time and Plane ───────────────────────────
+
+"Awanama":
+  path: /campaigns/boundless-and-timeless/npcs/bureauoftimeandplane/awanama
+  type: npc
+
+"Damian":
+  path: /campaigns/boundless-and-timeless/npcs/bureauoftimeandplane/damian-the-squeeky-devils
+  type: npc
+
+"Grand Library":
+  path: /campaigns/boundless-and-timeless/npcs/bureauoftimeandplane/grand-library
+  type: location
+
+"Pustakawan":
+  path: /campaigns/boundless-and-timeless/npcs/bureauoftimeandplane/pustakawan
+  type: npc
+
+"Shaperite":
+  path: /campaigns/boundless-and-timeless/npcs/bureauoftimeandplane/shaperite
+  type: npc
+
+# ── NPCs — Shattar-Kai ────────────────────────────────────────
+
+"Ember":
+  path: /campaigns/boundless-and-timeless/npcs/shattar-kai/ember
+  type: npc
+
+"Eric Valtan":
+  path: /campaigns/boundless-and-timeless/npcs/shattar-kai/eric-valtan
+  type: npc
+
+"Father Malen":
+  path: /campaigns/boundless-and-timeless/npcs/shattar-kai/father-malen
+  type: npc
+
+"General Valtan":
+  path: /campaigns/boundless-and-timeless/npcs/shattar-kai/general-valtan
+  type: npc
+
+"Nikael of Fire Banner":
+  path: /campaigns/boundless-and-timeless/npcs/shattar-kai/nikael-of-fire-banner
+  type: npc
+
+"Sofia Fyrwurd":
+  path: /campaigns/boundless-and-timeless/npcs/shattar-kai/sofia-fyrwurd
+  type: npc
+
+# ── NPCs — The Frontier ───────────────────────────────────────
+
+"Angel Eye":
+  path: /campaigns/boundless-and-timeless/npcs/thefrontier/angel-eye
+  type: npc
+
+"Baron Blackthorn":
+  path: /campaigns/boundless-and-timeless/npcs/thefrontier/baron-blackthorn
+  type: npc
+
+"Marshal Eliza Kane":
+  path: /campaigns/boundless-and-timeless/npcs/thefrontier/marshal-eliza-kane
+  type: npc
+
+"Professor Thinkwistle":
+  path: /campaigns/boundless-and-timeless/npcs/thefrontier/professor-thinkwistle
+  type: npc
+
+"Red Jack The Showman":
+  path: /campaigns/boundless-and-timeless/npcs/thefrontier/red-jack-the-showman
+  type: npc
+
+# ── NPCs — Barovia ────────────────────────────────────────────
+
+"Hawa":
+  path: /campaigns/boundless-and-timeless/npcs/barovia/hawa
+  type: npc
+
+"HAWA":
+  path: /campaigns/boundless-and-timeless/npcs/barovia/hawa
+  type: npc
+
+# ── NPCs — Verdant's Maw ──────────────────────────────────────
+
+"Guardian":
+  path: /campaigns/boundless-and-timeless/npcs/verdant-maw/guardian
+  type: npc
+
+# ── Locations ─────────────────────────────────────────────────
+
+"Shattar-Kai":
+  path: /campaigns/boundless-and-timeless/npcs/shattar-kai
+  type: location
+
+"Aruendel":
+  path: /campaigns/boundless-and-timeless/npcs/aruendel
+  type: location
+
+"The Frontier":
+  path: /campaigns/boundless-and-timeless/npcs/thefrontier
+  type: location
+
+"Barovia":
+  path: /campaigns/boundless-and-timeless/npcs/barovia
+  type: location
+
+"Bureau of Time and Plane":
+  path: /campaigns/boundless-and-timeless/npcs/bureauoftimeandplane
+  type: location
+
+"Verdant's Maw":
+  path: /campaigns/boundless-and-timeless/npcs/verdant-maw
+  type: location

@@ -1,0 +1,63 @@
+{{/*
+  layouts/_default/session-index.html
+
+  Layout for party session index pages (ellenlyf-party/_index.md,
+  cestlavie-party/_index.md).
+
+  To use: add  layout: session-index  to the _index.md frontmatter.
+
+  The _index.md then only needs:
+    ---
+    title: "Ellenlyf Party Sessions"
+    layout: session-index
+    weight: 30
+    status: "🟢 Active"
+    current_arc: "Barovia"
+    bookCollapseSection: true
+    ---
+
+    Optional intro prose goes here if you want it.
+
+  Everything else — session list, count, saga groups — is automatic.
+*/}}
+{{ define "main" }}
+  {{ partial "docs/html-head.html" . }}
+  <article class="markdown book-article">
+    {{/* Page header */}}
+    <h1>{{ .Title }}</h1>
+
+    {{/* Status bar — reads from frontmatter, no manual editing */}}
+    <div class="party-status-bar">
+      {{ with .Params.status }}
+        <span class="party-status">{{ . }}</span>
+      {{ end }}
+      {{ with .Params.current_arc }}
+        <span class="party-arc">Arc: <em>{{ . }}</em></span>
+      {{ end }}
+      <span class="party-session-count">
+        {{ len .Pages }} session{{ if ne (len .Pages) 1 }}s{{ end }}
+      </span>
+    </div>
+
+    {{/* Party members — still from frontmatter, but only written once */}}
+    {{ with .Params.members }}
+      <div class="party-members">
+        <strong>Party:</strong>
+        {{ range . }}
+          {{- partial "char-link.html" (dict "name" . "site" site) -}}{{ if not (eq . (last 1 $.Params.members | index 0)) }}, {{ end }}
+        {{ end }}
+      </div>
+    {{ end }}
+
+    {{/* Any prose content from the _index.md body */}}
+    {{ if .Content }}
+      <div class="party-intro">{{ .Content }}</div>
+    {{ end }}
+
+    <hr>
+
+    {{/* Auto-generated session list — this is the magic part */}}
+    {{ partial "session-list.html" . }}
+
+  </article>
+{{ end }}

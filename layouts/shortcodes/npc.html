@@ -1,0 +1,22 @@
+{{/*
+  Usage: {{< npc "Father Malen" >}}
+  Usage: {{< npc "The Daughter" "Elira" >}}  (custom display name)
+
+  Looks up the character in data/characters.yaml and renders a link.
+  Falls back to bold text if not found — never breaks the build.
+*/}}
+{{ $name    := .Get 0 }}
+{{ $display := .Get 1 | default $name }}
+{{ $chars   := site.Data.characters }}
+{{ $entry   := index $chars $name }}
+
+{{ if $entry }}
+  {{ $page := site.GetPage $entry.path }}
+  {{ if $page }}
+    <a href="{{ $page.RelPermalink }}" class="char-link char-{{ $entry.type }}">{{ $display }}</a>
+  {{ else }}
+    <strong class="char-missing" title="Page not found: {{ $entry.path }}">{{ $display }}</strong>
+  {{ end }}
+{{ else }}
+  <strong class="char-missing" title="Not in data/characters.yaml: {{ $name }}">{{ $display }}</strong>
+{{ end }}

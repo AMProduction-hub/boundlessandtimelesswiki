@@ -1,13 +1,22 @@
 ---
 title: "Sephire"
+date: 2026-05-07
 name: Sephire
 class: Paladin / Warlock
 race: Half-Orc
-level: 3
-players: Evan
-hp: "27"
-ac: "19"
+level: 8
+players: Nanda
+hp: 85
+ac: 21
+modifier: 0
+aliases:
+  - Sephire
 ---
+
+|                          |                                                    Class                                                     |        Species         | Level | Player Name |
+| :----------------------: | :----------------------------------------------------------------------------------------------------------: | :--------------------: | :---: | ----------- |
+| !**hsmall** <!-- FIXME [[sephire.jpg\]] not in CHARACTER_SLUGS --> | 6 **Paladin - Oath of Vengeance** 2 **Warlock - The Fiend** | **Half-Orc**  |   8   | Nanda       |
+
 # Sephire
 ## Overview
 ### Basic Background
@@ -18,8 +27,9 @@ ketika sephire melakukan perjalanan untuk keluar dari hutan, ia menemukan sepasa
 ## Class Table
 *Source: Player's Handbook p. 82. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
-> [!tldr] Class and Feature Progression
-> 
+> [!NOTE]
+> **Class and Feature Progression**
+>
 > <table class="class-progression">
 > <thead>
 > <tr><th colspan='3'></th><th colspan='5'>Spell Slots per Spell Level</th></tr>
@@ -47,4 +57,3 @@ ketika sephire melakukan perjalanan untuk keluar dari hutan, ia menemukan sepasa
 > <tr class="class-progression"><td class"level">20th</td><td class"pb">+6</td><td class"feature"><a href='#Sacred Oath feature (Level 20)' class='internal-link'>Sacred Oath feature</a></td><td class="spellSlot">4</td><td class="spellSlot">3</td><td class="spellSlot">3</td><td class="spellSlot">3</td><td class="spellSlot">2</td></tr>
 > </tbody></table>
 
-## Statblock

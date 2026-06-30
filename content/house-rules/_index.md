@@ -35,7 +35,8 @@ Here's a quick summary of the major changes:
 
 ### ⚔️ Combat Enhancements
 - **Critical hits** deal maximum damage + roll damage dice again
-- **Touch AC** for tactical depth
+- **Light armor** now caps your Dexterity bonus to AC at **+5**
+- **Touch AC** and **Flat-Footed AC** for tactical depth
 - **All martial classes** get Superiority Dice and maneuvers
 - More tactical options in combat
 
@@ -61,20 +62,22 @@ Click on any section below to learn more:
 | **2** | +2 ASI |
 | **3** | +1 Skill, +2 Maneuvers (Martial Class Only!) |
 | **4** | +1 Feat |
-| **5** | +1 Skill, +1 Maneuvers, Enter Tier 2 |
+| **5** | +1 Skill, +1 Maneuver, Enter Tier 2 |
 | **6** | +2 ASI |
-| **7** | +1 Skill, +1 Manuevers |
+| **7** | +1 Skill, +1 Maneuver |
 | **8** | +1 Feat |
-| **9** | +1 Skill, +1 Manuevers |
+| **9** | +1 Skill, +1 Maneuver |
 | **10** | +2 ASI |
-| **11** | +1 Skill, +1 Manuevers, Enter Tier 3 |
+| **11** | +1 Skill, +1 Maneuver, Enter Tier 3 |
 | **12** | +1 Feat |
-| **13** | +1 Skill,  |
+| **13** | +1 Skill, +1 Maneuver |
 | **14** | +2 ASI |
+| **15** | +1 Skill, +1 Maneuver |
 | **16** | +1 Feat |
-| **17** | Enter Tier 4 |
+| **17** | +1 Skill, +1 Maneuver, Enter Tier 4 |
 | **18** | +2 ASI |
-| **20** | 1 Feat |
+| **19** | +1 Skill, +1 Maneuver |
+| **20** | +1 Feat |
 
 {{< hint warning >}}
 **Remember**: These rules apply to all players equally. If you have questions or concerns about any rule, talk to your GM!

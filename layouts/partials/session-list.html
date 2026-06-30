@@ -1,0 +1,71 @@
+{{/*
+  layouts/partials/session-list.html
+
+  Auto-generates a full session list grouped by saga from child pages.
+  Drop this into any party _index.md layout.
+
+  HOW IT WORKS:
+  - Reads all child .md pages from the current section
+  - Groups them by .Params.saga frontmatter field
+  - Sorts each group newest-first by weight
+  - Shows session count automatically
+  - You never manually edit the list again
+
+  FRONTMATTER NEEDED IN EACH SESSION FILE:
+    title: "Session 26 — Path of Righteousness"
+    weight: 26
+    saga: "Barovia"       ← this drives the grouping
+    date: 2026-01-15      ← optional but good for ordering
+*/}}
+
+{{ $pages := sort .Pages "Weight" "desc" }}
+{{ $total := len $pages }}
+
+{{/* Build saga groups preserving order of first appearance */}}
+{{ $sagaOrder := slice }}
+{{ $sagaMap   := dict }}
+
+{{ range $pages }}
+  {{ $saga := .Params.saga | default "Uncategorised" }}
+  {{ if not (in $sagaOrder $saga) }}
+    {{ $sagaOrder = $sagaOrder | append $saga }}
+  {{ end }}
+  {{ $existing := index $sagaMap $saga | default slice }}
+  {{ $sagaMap = merge $sagaMap (dict $saga ($existing | append .)) }}
+{{ end }}
+
+<div class="session-index">
+
+  <div class="session-meta">
+    <span class="session-count">{{ $total }} session{{ if ne $total 1 }}s{{ end }} recorded</span>
+    {{ with .Params.current_arc }}
+      <span class="session-current-arc">Current arc: <em>{{ . }}</em></span>
+    {{ end }}
+    {{ with .Params.status }}
+      <span class="session-status">{{ . }}</span>
+    {{ end }}
+  </div>
+
+  {{ range $saga := $sagaOrder }}
+    {{ $sessionsInSaga := index $sagaMap $saga }}
+    <div class="saga-group">
+      <h3 class="saga-heading">{{ $saga }}</h3>
+      <div class="session-list">
+        {{ range $sessionsInSaga }}
+          <div class="session-entry">
+            <div class="session-entry-header">
+              <a class="session-entry-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+              {{ with .Params.date }}
+                <span class="session-entry-date">{{ dateFormat "2 Jan 2006" . }}</span>
+              {{ end }}
+            </div>
+            {{ with .Summary }}
+              <p class="session-entry-summary">{{ . }}</p>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+
+</div>

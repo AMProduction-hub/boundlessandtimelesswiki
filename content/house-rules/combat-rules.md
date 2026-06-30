@@ -51,6 +51,34 @@ Standard 5e critical hits can be disappointing (rolling all 1s feels terrible). 
 
 In addition to standard AC, this campaign uses **Touch AC** and **Flat-Footed AC** for certain situations.
 
+### Light Armor Dexterity Cap
+
+{{< hint warning >}}
+**New Rule**: Light armor now caps your Dexterity bonus to AC, similar to how Medium armor already works in standard 5e.
+{{< /hint >}}
+
+In standard 5e, Light armor lets you add your full Dexterity modifier to AC with no limit — meaning a high-Dex character can scale their AC indefinitely just through ability score growth alone. In a high-power campaign where ability scores routinely exceed 20, this lets Light armor users out-scale Heavy armor tanks entirely, which isn't the intended power fantasy.
+
+**Light Armor Dexterity bonus to AC is capped at +5.**
+
+| Armor Type | Dex Bonus Cap | Example at Dex +8 |
+|:-----------|:--------------|:-------------------|
+| **Light Armor** (Padded, Leather, Studded Leather) | **+5 max** | AC uses +5, not +8 |
+| **Medium Armor** (unchanged, standard 5e) | +2 max | AC uses +2, not +8 |
+| **Heavy Armor** (unchanged, standard 5e) | No Dex bonus | N/A |
+
+{{< hint info >}}
+**Example**: A Rogue with Studded Leather (base AC 12) and a +8 Dexterity modifier would normally have AC 20. With this rule, their Dex bonus is capped at +5, giving them **AC 17** instead.
+{{< /hint >}}
+
+This applies to all Light armor types equally and stacks with magic armor bonuses as normal (a Studded Leather +1 still adds its +1 on top of the capped Dex bonus).
+
+{{< hint tip >}}
+**Why this matters**: This keeps armor categories meaningfully different at high level. Heavy armor users get a flat, reliable AC. Light armor users get mobility and stealth, but their AC ceiling is now closer to parity with armored frontliners rather than exceeding them indefinitely.
+{{< /hint >}}
+
+---
+
 ### Touch Armor Class (Touch AC)
 
 Touch AC represents how hard you are to touch, ignoring physical armor.
@@ -123,6 +151,10 @@ You use Flat-Footed AC when:
 
 {{< hint tip >}}
 **Quick Rule**: Heavy armor users are relatively safe when Flat-Footed. Dexterity-based characters are vulnerable!
+{{< /hint >}}
+
+{{< hint warning >}}
+**Important Interaction**: If your character has low Wisdom, Intelligence, or Charisma, failed saves against Paralysis, Hold Person, and similar effects will drop you to Flat-Footed AC immediately. Combined with the standard 5e rule that **melee attacks against a paralyzed creature are automatic critical hits**, and that **ranged attacks against a paralyzed creature have advantage**, this can turn a single failed save into a very dangerous turn. High-Dex, low-mental-save builds should plan around this — don't rely on AC alone as your only defense.
 {{< /hint >}}
 
 ---

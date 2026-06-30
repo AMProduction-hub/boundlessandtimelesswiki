@@ -2,9 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/aruendel/</loc>
-  </url><url>
     <loc>http://localhost:1313/campaigns/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/aruendel/</loc>
   </url><url>
     <loc>http://localhost:1313/house-rules/</loc>
   </url><url>
@@ -13,22 +14,20 @@
     <loc>http://localhost:1313/house-rules/death-saves/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/</loc>
+    <lastmod>2026-05-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/bureauoftimeandplane/</loc>
   </url><url>
     <loc>http://localhost:1313/house-rules/character-advancement/</loc>
-  </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/</loc>
-  </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/ellenlyf-party/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/shattar-kai/</loc>
   </url><url>
     <loc>http://localhost:1313/house-rules/skills-system/</loc>
-  </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/cestlavie-party/</loc>
   </url><url>
     <loc>http://localhost:1313/house-rules/combat-rules/</loc>
   </url><url>
@@ -62,7 +61,36 @@
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/barovia/</loc>
   </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/sephire/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/ellenlyf-party/</loc>
+    <lastmod>2026-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/ellenlyf-party/21/</loc>
+    <lastmod>2026-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sessionjournals/</loc>
+    <lastmod>2026-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/timeline/</loc>
+    <lastmod>2026-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/ellenlyf-party/26/</loc>
+    <lastmod>2026-04-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/verdant-maw/guardian/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/cestlavie-party/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/cestlavie-party/session-01-fire-in-highfalls/</loc>
   </url><url>
@@ -134,8 +162,6 @@
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/ellenlyf-party/20/</loc>
   </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/ellenlyf-party/21/</loc>
-  </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/ellenlyf-party/22/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/ellenlyf-party/23/</loc>
@@ -143,8 +169,6 @@
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/ellenlyf-party/24/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/ellenlyf-party/25/</loc>
-  </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/ellenlyf-party/26/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/alizar-valts/</loc>
   </url><url>
@@ -178,8 +202,6 @@
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/shattar-kai/general-valtan/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-  </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/bureauoftimeandplane/grand-library/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/gwyn/</loc>
@@ -198,8 +220,6 @@
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/shattar-kai/nikael-of-fire-banner/</loc>
   </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/</loc>
-  </url><url>
     <loc>http://localhost:1313/campaigns/archived/ye-cometh-arent-ye/players/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/thefrontier/professor-thinkwistle/</loc>
@@ -208,25 +228,17 @@
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/thefrontier/red-jack-the-showman/</loc>
   </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/sephire/</loc>
-  </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/aruendel/the-paladin/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/aruendel/the-don-quixote/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/archived/ye-cometh-arent-ye/sessions/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/sessionjournals/</loc>
-  </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/bureauoftimeandplane/shaperite/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/shattar-kai/sofia-fyrwurd/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-  </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/aruendel/the-daughter/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/timeline/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/verdian-suyanti/</loc>
   </url>

@@ -50,7 +50,8 @@ Welcome to my GM portfolio and campaign resource hub! This site contains everyth
 The fabric of the multiverse is unraveling. The Great Wheel Cosmology, long thought eternal, shows signs of instability. Devils and demons, ancient enemies, now fight side by side. The Bureau of Time and Plane has called upon heroes to investigate these cosmic disturbances before reality itself collapses.
 
 **Parties**:
-- **Ellenlyf Party** - 🟢 Active (22 sessions completed)
+- {{< latest-session party="ellenlyf-party" >}}
+
 - **C'est La Vie Party** - ✅ Completed (13 sessions)
 
 **Read More →**

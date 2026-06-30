@@ -1,0 +1,27 @@
+{{/*
+  Shows a "Latest Session" card that auto-updates when new sessions are added.
+
+  Usage on any page: {{< latest-session party="ellenlyf-party" >}}
+  Or:                {{< latest-session party="cestlavie-party" >}}
+
+  No arguments needed if placed inside the party section itself.
+*/}}
+{{ $party := .Get "party" | default .Page.Section }}
+{{ $path  := printf "campaigns/boundless-and-timeless/session-notes/%s" $party }}
+{{ $section := site.GetPage $path }}
+
+{{ if $section }}
+  {{ $sessions := sort $section.Pages "Weight" "desc" }}
+  {{ with index $sessions 0 }}
+    <div class="latest-session-card">
+      <span class="latest-label">📖 Latest Session</span>
+      <a href="{{ .RelPermalink }}" class="latest-title">{{ .Title }}</a>
+      {{ with .Params.saga }}
+        <span class="latest-saga">{{ . }}</span>
+      {{ end }}
+      {{ with .Summary }}
+        <p class="latest-summary">{{ . }}</p>
+      {{ end }}
+    </div>
+  {{ end }}
+{{ end }}
