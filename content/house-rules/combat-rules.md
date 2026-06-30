@@ -5,7 +5,11 @@ weight: 40
 
 # Combat Rules
 
-These house rules add tactical depth to combat through modified critical hit mechanics, additional Armor Class types, and maneuvers for all martial characters.
+These house rules add tactical depth to combat through modified critical hit mechanics and additional Armor Class types.
+
+{{< hint info >}}
+**Looking for Maneuvers & Superiority Dice?** That system moved to its own page: **[Maneuvers]({{< relref "maneuvers" >}})**
+{{< /hint >}}
 
 ---
 
@@ -49,7 +53,11 @@ Standard 5e critical hits can be disappointing (rolling all 1s feels terrible). 
 
 ## Armor Class Variants
 
-In addition to standard AC, this campaign uses **Touch AC** and **Flat-Footed AC** for certain situations.
+In addition to standard AC, this campaign uses **Touch AC** and **Flat-Footed AC** for certain situations, plus a cap on how much Dexterity can boost Light armor.
+
+{{< hint tip >}}
+**Do I need to track these on my sheet?** Touch AC and Flat-Footed AC only come up in specific situations (see below). You don't need to write them on your sheet — just know how to calculate them quickly when your GM calls for one.
+{{< /hint >}}
 
 ### Light Armor Dexterity Cap
 
@@ -159,146 +167,14 @@ You use Flat-Footed AC when:
 
 ---
 
-## Superiority Dice & Maneuvers
+## Quick Reference: AC Types At A Glance
 
-All martial classes gain access to **Superiority Dice** and **Maneuvers**, giving them more tactical options in combat.
-
-### Superiority Die Overview
-
-- **All martial classes** (Fighter, Barbarian, Ranger, Paladin, Rogue, Monk) gain Superiority Dice
-- You start with **1 Superiority Die** at level 3
-- Superiority Dice recharge on a **short or long rest**
-- **Battle Masters** gain additional Superiority Dice as per their subclass
-
-#### Superiority Die Scaling
-
-| Level Range | Die Size |
-|:-----------:|:--------:|
-| **1–9** | d6 |
-| **10–16** | d8 |
-| **17+** | d10 |
+| AC Type | Includes | Used When |
+|:--------|:---------|:----------|
+| **Standard AC** | Armor + Dex (capped per armor type) + Shield | Default — almost every attack |
+| **Touch AC** | Dex only, no armor/shield | Touch spells, incorporeal attacks |
+| **Flat-Footed AC** | Armor + Shield only, no Dex | Surprised, paralyzed, restrained, hidden attacker, unconscious |
 
 ---
 
-## Maneuver Progression
-
-You learn maneuvers as you level up, gaining access to more powerful options at higher levels.
-
-### Maneuvers Known Table
-
-| Level | Maneuvers Known | Tier Unlocked |
-|:-----:|:---------------:|:--------------|
-| **3** | 2 | Basic Maneuvers |
-| **5** | 3 | Advanced Maneuvers |
-| **7** | 4 | Tactical Maneuvers |
-| **9** | 5 | Expert Maneuvers |
-| **11** | 6 | Legendary Maneuvers |
-| **13** | 7 | Legendary Maneuvers |
-| **15** | 8 | Mythic Maneuvers |
-| **17** | 9 | Mythic Maneuvers |
-| **19** | 10 | Mythic Maneuvers |
-
-{{< hint info >}}
-**Battle Masters**: You gain extra Superiority Dice as normal for your subclass. This system gives all martials baseline maneuvers.
-{{< /hint >}}
-
----
-
-## Maneuver List
-
-### Basic Maneuvers (Level 3+)
-
-| Maneuver | Type | Effect |
-|:---------|:-----|:-------|
-| **Precision Strike** | Attack | Add Superiority Die to an attack roll |
-| **Parry** | Defense | Reduce incoming damage by Superiority Die + DEX modifier |
-| **Riposte** | Reaction | Make a melee attack against an enemy who misses you |
-| **Trip Attack** | Attack | Knock target prone if they fail a STR save (DC = 8 + Prof + STR/DEX) |
-
-### Advanced Maneuvers (Level 5+)
-
-| Maneuver | Type | Effect |
-|:---------|:-----|:-------|
-| **Disarming Strike** | Attack | Force enemy to drop a weapon/item (STR save) |
-| **Menacing Strike** | Attack | Cause fear in the target (WIS save) |
-| **Brace** | Reaction | Attack an enemy who moves into your reach |
-
-### Tactical Maneuvers (Level 7+)
-
-| Maneuver | Type | Effect |
-|:---------|:-----|:-------|
-| **Tactical Push** | Attack | Push enemy 10 feet back (STR save) |
-| **Quickstep** | Movement | Move 10 feet as a reaction without provoking opportunity attacks |
-
-### Expert Maneuvers (Level 9+)
-
-| Maneuver | Type | Effect |
-|:---------|:-----|:-------|
-| **Commanding Shout** | Tactical | Give an ally an extra attack (they use their reaction) |
-| **Unbreakable Will** | Defense | Gain advantage on all saves until your next turn |
-
-### Legendary Maneuvers (Level 11+)
-
-| Maneuver | Type | Effect |
-|:---------|:-----|:-------|
-| **Sweeping Strike** | Attack | Hit two adjacent enemies with one attack |
-| **Overpowering Blow** | Attack | Knock enemy back 20 feet (STR save) |
-| **Master Duelist** | Attack | Reroll a missed attack once per short rest |
-
-### Mythic Maneuvers (Level 15+)
-
-| Maneuver | Type | Effect |
-|:---------|:-----|:-------|
-| **Deathblow** | Attack | If target is below 50% HP, they make a CON save or die |
-| **Legendary Endurance** | Defense | Ignore one level of exhaustion & resist all damage for 1 turn |
-| **Storm of Blades** | Attack | Make 3 attacks using 1 action (Level 19+) |
-
----
-
-## How Maneuvers Work in Play
-
-1. **Using a Maneuver**: When you use a maneuver, you expend one Superiority Die
-2. **Adding the Die**: Roll the Superiority Die and add it to the effect (damage, defense, etc.)
-3. **Saving Throws**: If a maneuver requires a save, the DC = 8 + Proficiency Bonus + STR or DEX modifier (your choice)
-4. **Recovery**: You regain all expended Superiority Dice on a short or long rest
-
-### Example
-
-**Precision Strike (Level 3 Fighter with 1d6 Superiority Die)**
-- You attack with your longsword: roll 14 + 5 (STR) = 19 to hit
-- The enemy's AC is 20 (you would miss)
-- You use Precision Strike, rolling 1d6 = 4
-- New attack roll: 19 + 4 = 23 (hit!)
-
-**Parry (Level 10 Fighter with 1d8 Superiority Die, DEX +2)**
-- An enemy hits you for 18 damage
-- You use Parry as a reaction
-- Roll 1d8 = 6, add DEX +2 = 8 total
-- Reduce damage by 8: you take only 10 damage
-
----
-
-## Strategic Tips
-
-### Building a Combat Style
-- **Aggressive Fighters**: Focus on attack maneuvers (Precision Strike, Trip Attack, Sweeping Strike)
-- **Defensive Fighters**: Focus on defensive maneuvers (Parry, Riposte, Unbreakable Will)
-- **Tactical Leaders**: Focus on support maneuvers (Commanding Shout, Brace)
-
-### Resource Management
-- You only have 1 Superiority Die per short rest (unless you're a Battle Master)
-- Save it for crucial moments or use it early to gain advantage
-- Consider multiclassing with Battle Master for more dice
-
-### Synergy with Class Features
-- **Rogues**: Use maneuvers to set up Sneak Attacks
-- **Paladins**: Combine with Divine Smite for massive damage
-- **Barbarians**: Use while Raging for even better effects
-
-{{< hint tip >}}
-**Remember**: Battle Masters get EXTRA Superiority Dice on top of this system, making them the ultimate masters of combat maneuvers!
-{{< /hint >}}
-
----
-
-*These combat rules give martial characters more tactical options and make every fight more dynamic!*
+*These combat rules make every fight more dynamic without slowing down the table. For Maneuvers and Superiority Dice, see the [Maneuvers]({{< relref "maneuvers" >}}) page.*

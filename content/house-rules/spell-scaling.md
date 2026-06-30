@@ -28,7 +28,23 @@ Characters and creatures are divided into 4 tiers based on their level or Challe
 
 ---
 
-## How Tiers Affect Spells
+## ⚡ Quick Lookup (For Use During Play)
+
+Find your situation in the table below — this is everything you need to adjudicate a spell in one glance. Full explanations and examples follow below this table if you need them.
+
+| Your Tier vs Target's Tier | Fail by 1-4 | Fail by 5-9 | Fail by 10+ |
+|:----------------------------|:------------|:------------|:------------|
+| **You're LOWER tier** (casting on a tougher enemy) | Weakened effect | Weakened effect | Full effect |
+| **Same Tier** | Normal 5e rules — no change | Normal 5e rules — no change | Normal 5e rules — no change |
+| **You're HIGHER tier** (casting on a weaker enemy) | Normal effect | Extended duration | Enhanced effect (double damage / no save needed) |
+
+{{< hint warning >}}
+**"Weakened effect" in practice**: Paralyzed → Stunned 1 round. Restrained → Speed halved. Charmed → extra save each round. Transformed → stat reduction instead of full Polymorph. Banished → returns after 1 round instead of 1 minute. See the full **Adjudicating Partial Effects** section near the bottom of this page for the complete list.
+{{< /hint >}}
+
+---
+
+## How Tiers Affect Spells (Full Explanation)
 
 The tier difference between caster and target affects spell strength in two ways:
 

@@ -17,6 +17,23 @@ This campaign uses modified rules to make characters more versatile and combat m
 Don't worry about memorizing everything! Start with the basics and reference specific sections as needed during play. Your GM will help guide you through any questions.
 {{< /hint >}}
 
+## 🧭 Start Here — Building a Character
+
+If you're building or leveling a character, read the rules in this order. Each step only takes a few minutes.
+
+| Step | Page | Why |
+|:----:|:-----|:----|
+| 1 | **[Character Advancement]({{< relref "character-advancement" >}})** | Know when you get ASI vs Feats — this affects your whole build plan |
+| 2 | **[Skills System]({{< relref "skills-system" >}})** | Know which skills to invest Expertise into as you level |
+| 3 | **[Combat Rules]({{< relref "combat-rules" >}})** | Know your AC math, especially if you're in Light armor |
+| 4 | **[Maneuvers]({{< relref "maneuvers" >}})** | If you're a martial class, this is extra power you get for free |
+| 5 | **[Spell Scaling & Tiers]({{< relref "spell-scaling" >}})** | If you're a caster, know how your tier affects spells against bosses |
+| 6 | **[Death Saving Throws]({{< relref "death-saves" >}})** | Know what happens when you drop to 0 HP in this campaign |
+
+{{< hint tip >}}
+**Already have a character?** Skip straight to whichever page answers your current question — use the Rule Sections list below or the sidebar.
+{{< /hint >}}
+
 ## What's Different?
 
 Here's a quick summary of the major changes:
@@ -37,8 +54,11 @@ Here's a quick summary of the major changes:
 - **Critical hits** deal maximum damage + roll damage dice again
 - **Light armor** now caps your Dexterity bonus to AC at **+5**
 - **Touch AC** and **Flat-Footed AC** for tactical depth
-- **All martial classes** get Superiority Dice and maneuvers
-- More tactical options in combat
+
+### 🗡️ Maneuvers
+- **All martial classes** get Superiority Dice and Maneuvers, not just Battle Masters
+- More tactical options in combat — trips, parries, pushes, and more
+- Scales automatically as you level up
 
 ### 🔮 Spell Scaling & Tiers
 - Character tiers (1-4) affect spell effectiveness
@@ -52,8 +72,10 @@ Click on any section below to learn more:
 
 - **[Character Advancement]({{< relref "character-advancement" >}})** - ASI and Feats progression
 - **[Skills System]({{< relref "skills-system" >}})** - Skill improvements and Expertise effects
-- **[Combat Rules]({{< relref "combat-rules" >}})** - Critical damage, Armor Class, and Maneuvers
+- **[Combat Rules]({{< relref "combat-rules" >}})** - Critical damage and Armor Class variants
+- **[Maneuvers]({{< relref "maneuvers" >}})** - Superiority Dice and tactical options for martial classes
 - **[Spell Scaling & Tiers]({{< relref "spell-scaling" >}})** - How character tiers affect spells
+- **[Death Saving Throws]({{< relref "death-saves" >}})** - Lingering wounds and safe havens
 
 ## Quick Reference
 
